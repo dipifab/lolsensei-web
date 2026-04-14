@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lolsensei.com/sitemap.xml
