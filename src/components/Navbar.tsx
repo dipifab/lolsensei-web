@@ -102,7 +102,7 @@ export default function Navbar() {
         </A>
 
         {/* Desktop links */}
-        <div class="hidden md:flex items-center space-x-10 font-headline font-extrabold uppercase tracking-widest">
+        <div class="hidden lg:flex items-center space-x-10 font-headline font-extrabold uppercase tracking-widest">
           <For each={NAV_KEYS}>
             {(item) => (
               <A
@@ -121,7 +121,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop right section: language switcher + CTA */}
-        <div class="hidden md:flex items-center gap-4">
+        <div class="hidden lg:flex items-center gap-4">
           {/* Language switcher */}
           <div class="relative" data-lang-switcher>
             <button
@@ -176,7 +176,7 @@ export default function Navbar() {
 
         {/* Mobile hamburger */}
         <button
-          class="md:hidden min-h-11 min-w-11 flex items-center justify-center text-on-surface"
+          class="lg:hidden min-h-11 min-w-11 flex items-center justify-center text-on-surface"
           onClick={toggleMenu}
           aria-expanded={menuOpen()}
           aria-controls="mobile-menu"

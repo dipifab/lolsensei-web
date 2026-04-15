@@ -2,7 +2,7 @@ import { createEffect, onCleanup } from 'solid-js';
 import { useI18n, SUPPORTED_LOCALES } from '../i18n';
 import { updateMeta } from './meta';
 
-const BASE_URL = 'https://lolsensei.com';
+const BASE_URL = 'https://www.lolsensei.com';
 
 /**
  * Sets document title, meta description, canonical URL, OG/Twitter tags,

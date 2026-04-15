@@ -9,27 +9,59 @@
     <title>LoL Sensei — AI Coach for League of Legends</title>
     <meta name="description" content="Real-time AI champion select and item build advice as an in-game overlay. Free to use, Pro tier for AI coaching. Download for Windows." />
 
+    <!-- Canonical & OG URL (overridden by JS per-page, fallback for crawlers without JS) -->
+    <link rel="canonical" href="https://www.lolsensei.com/en/" />
+    <meta property="og:url" content="https://www.lolsensei.com/en/" />
+
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="LoL Sensei — AI Coach for League of Legends" />
     <meta property="og:description" content="Real-time AI champion select and item build advice as an in-game overlay. Free to use, Pro tier for AI coaching. Download for Windows." />
-    <meta property="og:image" content="https://lolsensei.com/og-image.png" />
+    <meta property="og:image" content="https://www.lolsensei.com/og-image.png" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="LoL Sensei — AI Coach for League of Legends" />
     <meta name="twitter:description" content="Real-time AI champion select and item build advice as an in-game overlay. Free to use, Pro tier for AI coaching. Download for Windows." />
-    <meta name="twitter:image" content="https://lolsensei.com/og-image.png" />
+    <meta name="twitter:image" content="https://www.lolsensei.com/og-image.png" />
 
     <!-- Favicon & Icons -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="apple-touch-icon" href="/og-image.png" />
 
-    <!-- Google Fonts: preconnect + load -->
+    <!-- Preload hero image for desktop -->
+    <link rel="preload" as="image" href="/images/hero-panel-large.webp" type="image/webp" media="(min-width: 1024px)" />
+
+    <!-- Google Fonts: preconnect + async load -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=Inter:wght@400;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=Inter:wght@400;600&display=swap" /></noscript>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" /></noscript>
+
+    <!-- Static JSON-LD for crawlers without JS -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "LoL Sensei",
+      "url": "https://www.lolsensei.com",
+      "logo": "https://www.lolsensei.com/og-image.png",
+      "sameAs": ["https://github.com/dipifab/lolai"],
+      "description": "AI coaching application for League of Legends that helps players learn the game through real-time guidance"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "LoL Sensei",
+      "url": "https://www.lolsensei.com",
+      "inLanguage": ["en", "it", "ko", "zh", "pt-BR", "es", "fr", "de"],
+      "description": "AI coaching for League of Legends"
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>

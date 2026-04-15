@@ -1,15 +1,23 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import { BreadcrumbJsonLd } from '../components/JsonLd';
 import { useI18n } from '../i18n';
 import { usePageMeta } from '../utils/seo';
 
 export default function CommunityPage() {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
   usePageMeta('community', '/community');
 
   return (
     <>
       <Navbar />
+      <BreadcrumbJsonLd
+        lang={locale()}
+        items={[
+          { name: t('breadcrumbs.home'), path: '/' },
+          { name: t('nav.community'), path: '/community' },
+        ]}
+      />
       <main class="pt-24">
         {/* Hero Section */}
         <section class="relative min-h-[716px] flex items-center justify-center overflow-hidden px-8">

@@ -1,6 +1,7 @@
 import { A } from '@solidjs/router';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import { BreadcrumbJsonLd } from '../components/JsonLd';
 import { useI18n } from '../i18n';
 import { usePageMeta } from '../utils/seo';
 
@@ -11,6 +12,13 @@ export default function FeaturesPage() {
   return (
     <>
       <Navbar />
+      <BreadcrumbJsonLd
+        lang={locale()}
+        items={[
+          { name: t('breadcrumbs.home'), path: '/' },
+          { name: t('nav.features'), path: '/features' },
+        ]}
+      />
       <main class="pt-20">
         {/* Hero Section */}
         <section class="relative py-24 overflow-hidden">

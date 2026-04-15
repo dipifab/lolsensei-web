@@ -1,12 +1,14 @@
-import { Show, For, createMemo } from 'solid-js';
+import { Show, For, createMemo, createEffect, onCleanup } from 'solid-js';
 import { A, useParams, Navigate } from '@solidjs/router';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Breadcrumbs from '../components/Breadcrumbs';
-import { BreadcrumbJsonLd } from '../components/JsonLd';
-import { useI18n } from '../i18n';
-import { usePageMeta } from '../utils/seo';
+import { BreadcrumbJsonLd, BlogPostingJsonLd } from '../components/JsonLd';
+import { useI18n, SUPPORTED_LOCALES } from '../i18n';
+import { updateMeta } from '../utils/meta';
 import { getBlogPost, getBlogPosts } from '../data/blog';
+
+const BASE_URL = 'https://www.lolsensei.com';
 
 const localeMap: Record<string, string> = {
   en: 'en-US',
@@ -42,8 +44,34 @@ export default function BlogPostPage() {
     });
   };
 
-  // Dynamic SEO meta — uses post title/excerpt if available, fallback to blog meta
-  usePageMeta('blog', `/blog/${params.slug}`);
+  // Per-post SEO meta instead of generic blog page meta
+  createEffect(() => {
+    const currentPost = post();
+    if (!currentPost) return;
+
+    const lang = locale();
+    const path = `/blog/${currentPost.slug}`;
+    const canonical = `${BASE_URL}/${lang}${path}`;
+    const title = `${currentPost.title} — LoL Sensei`;
+
+    const alternates: { lang: string; href: string }[] = SUPPORTED_LOCALES.map((l) => ({
+      lang: l,
+      href: `${BASE_URL}/${l}${path}`,
+    }));
+    alternates.push({ lang: 'x-default', href: `${BASE_URL}/en${path}` });
+
+    updateMeta({
+      title,
+      description: currentPost.excerpt,
+      canonical,
+      lang,
+      alternates,
+    });
+  });
+
+  onCleanup(() => {
+    document.querySelectorAll('link[hreflang]').forEach((el) => el.remove());
+  });
 
   return (
     <Show when={post()} fallback={<Navigate href={localizedHref('/blog')} />}>
@@ -57,6 +85,15 @@ export default function BlogPostPage() {
               { name: t('nav.blog'), path: '/blog' },
               { name: currentPost().title, path: `/blog/${currentPost().slug}` },
             ]}
+          />
+          <BlogPostingJsonLd
+            title={currentPost().title}
+            description={currentPost().excerpt}
+            datePublished={currentPost().date}
+            author={currentPost().author}
+            url={`${BASE_URL}/${locale()}/blog/${currentPost().slug}`}
+            readingTime={currentPost().readingTime}
+            tags={currentPost().tags}
           />
           <Breadcrumbs
             items={[

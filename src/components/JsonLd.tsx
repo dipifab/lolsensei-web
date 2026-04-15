@@ -1,15 +1,20 @@
 import type { JSX } from 'solid-js';
 
-const BASE_URL = 'https://lolsensei.com';
-
-interface FAQEntry {
-  question: string;
-  answer: string;
-}
+const BASE_URL = 'https://www.lolsensei.com';
 
 interface BreadcrumbItem {
   name: string;
   path: string;
+}
+
+interface BlogPostingJsonLdProps {
+  title: string;
+  description: string;
+  datePublished: string;
+  author: string;
+  url: string;
+  readingTime: number;
+  tags: string[];
 }
 
 function JsonLdScript(props: { data: Record<string, unknown> }): JSX.Element {
@@ -24,7 +29,7 @@ export function OrganizationJsonLd(): JSX.Element {
     '@type': 'Organization',
     name: 'LoL Sensei',
     url: BASE_URL,
-    logo: `${BASE_URL}/favicon.svg`,
+    logo: `${BASE_URL}/og-image.png`,
     sameAs: ['https://github.com/dipifab/lolai'],
     description:
       'AI coaching application for League of Legends that helps players learn the game through real-time guidance',
@@ -77,18 +82,25 @@ export function SoftwareApplicationJsonLd(): JSX.Element {
   return <JsonLdScript data={data} />;
 }
 
-export function FAQPageJsonLd(props: { items: FAQEntry[] }): JSX.Element {
+export function BlogPostingJsonLd(props: BlogPostingJsonLdProps): JSX.Element {
   const data = () => ({
     '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: props.items.map((item) => ({
-      '@type': 'Question',
-      name: item.question,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: item.answer,
+    '@type': 'BlogPosting',
+    headline: props.title,
+    description: props.description,
+    datePublished: props.datePublished,
+    author: { '@type': 'Organization', name: props.author },
+    publisher: {
+      '@type': 'Organization',
+      name: 'LoL Sensei',
+      logo: {
+        '@type': 'ImageObject',
+        url: `${BASE_URL}/og-image.png`,
       },
-    })),
+    },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': props.url },
+    wordCount: props.readingTime * 200,
+    articleSection: props.tags,
   });
 
   return <script type="application/ld+json" innerHTML={JSON.stringify(data())} />;

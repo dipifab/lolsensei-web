@@ -23,7 +23,8 @@ export default function ComparisonGrid() {
           </p>
         </div>
 
-        <div class="grid grid-cols-3 gap-0.5 bg-outline-variant/10 rounded-xl overflow-hidden border border-outline-variant/10">
+        {/* Desktop: 3-column grid (md and up) */}
+        <div class="hidden md:grid grid-cols-3 gap-0.5 bg-outline-variant/10 rounded-xl overflow-hidden border border-outline-variant/10">
           {/* Header row */}
           <div class="bg-surface-container-low p-6 font-bold text-on-surface-variant uppercase text-xs tracking-widest">
             {t('comparison.header.capability')}
@@ -52,6 +53,35 @@ export default function ComparisonGrid() {
                 </span>
               </div>
             </>
+          ))}
+        </div>
+
+        {/* Mobile: stacked card layout (below md) */}
+        <div class="md:hidden flex flex-col gap-3">
+          {COMPARISON_ROWS.map((row, index) => (
+            <div class="glass-panel rounded-xl border border-outline-variant/10 p-5">
+              <p class="text-sm font-bold mb-3">
+                {t(ROW_KEYS[index])}
+              </p>
+              <div class="flex items-center justify-between gap-4">
+                <div class="flex items-center gap-2">
+                  <span class={`material-symbols-outlined text-lg ${row.lolSensei ? 'text-tertiary' : 'text-on-surface-variant/30'}`}>
+                    {row.lolSensei ? 'check_circle' : 'cancel'}
+                  </span>
+                  <span class="text-xs font-bold text-primary-container uppercase tracking-widest">
+                    {t('comparison.header.lolSensei')}
+                  </span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span class={`material-symbols-outlined text-lg ${row.staticTools ? 'text-tertiary' : 'text-on-surface-variant/30'}`}>
+                    {row.staticTools ? 'check_circle' : 'cancel'}
+                  </span>
+                  <span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest">
+                    {t('comparison.header.staticTools')}
+                  </span>
+                </div>
+              </div>
+            </div>
           ))}
         </div>
       </div>

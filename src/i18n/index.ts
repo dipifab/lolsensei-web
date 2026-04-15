@@ -2,17 +2,12 @@ import {
   createContext,
   useContext,
   createMemo,
+  createSignal,
+  createEffect,
   type JSX,
 } from 'solid-js';
 import { useParams, useNavigate, useLocation } from '@solidjs/router';
 import en from './en';
-import it from './it';
-import ko from './ko';
-import zh from './zh';
-import ptBr from './pt-br';
-import es from './es';
-import fr from './fr';
-import de from './de';
 
 export const SUPPORTED_LOCALES = ['en', 'it', 'ko', 'zh', 'pt-br', 'es', 'fr', 'de'] as const;
 export type Locale = (typeof SUPPORTED_LOCALES)[number];
@@ -21,15 +16,15 @@ export const DEFAULT_LOCALE: Locale = 'en';
 type TranslationKey = keyof typeof en;
 type Translations = Record<TranslationKey, string>;
 
-const LOCALE_MAP: Record<Locale, Translations> = {
-  en,
-  it: it as Translations,
-  ko: ko as Translations,
-  zh: zh as Translations,
-  'pt-br': ptBr as Translations,
-  es: es as Translations,
-  fr: fr as Translations,
-  de: de as Translations,
+const loaders: Record<Locale, () => Promise<Translations>> = {
+  en: () => Promise.resolve(en),
+  it: () => import('./it').then((m) => m.default as Translations),
+  ko: () => import('./ko').then((m) => m.default as Translations),
+  zh: () => import('./zh').then((m) => m.default as Translations),
+  'pt-br': () => import('./pt-br').then((m) => m.default as Translations),
+  es: () => import('./es').then((m) => m.default as Translations),
+  fr: () => import('./fr').then((m) => m.default as Translations),
+  de: () => import('./de').then((m) => m.default as Translations),
 };
 
 export function isValidLocale(value: string): value is Locale {
@@ -55,10 +50,27 @@ export function I18nProvider(props: { children: JSX.Element }) {
     return DEFAULT_LOCALE;
   });
 
-  const translations = createMemo(() => LOCALE_MAP[locale()]);
+  const [loadedTranslations, setLoadedTranslations] = createSignal<Translations>(en);
+
+  createEffect(() => {
+    const currentLocale = locale();
+
+    if (currentLocale === 'en') {
+      setLoadedTranslations(en);
+      return;
+    }
+
+    const loader = loaders[currentLocale];
+    loader().then((translations) => {
+      // Only apply if locale hasn't changed during the async load
+      if (locale() === currentLocale) {
+        setLoadedTranslations(translations);
+      }
+    });
+  });
 
   const t = (key: string): string => {
-    const current = translations();
+    const current = loadedTranslations();
     const value = current[key as TranslationKey];
     if (value !== undefined) return value;
 

@@ -42,13 +42,14 @@ export default function Hero() {
           <div class="absolute -inset-10 bg-primary-container/10 blur-[100px] rounded-full" />
 
           <div class="relative flex gap-4 md:gap-8 items-end">
-            {/* Left panel (small, rotated) */}
+            {/* Left panel (small, rotated) — below fold on most viewports */}
             <div class="w-2/5 aspect-[3/4] glass-panel rounded-xl border border-outline-variant/20 p-4 -rotate-3 shadow-2xl">
               <div class="h-full w-full rounded-lg overflow-hidden relative">
                 <img
                   class="w-full h-full object-cover grayscale brightness-50 contrast-125"
                   alt="Gaming interface mockup with champion data visualization"
                   src="/images/hero-panel-small.webp"
+                  loading="lazy"
                   width={300}
                   height={400}
                 />
@@ -59,13 +60,14 @@ export default function Hero() {
               </div>
             </div>
 
-            {/* Right panel (large, rotated) */}
+            {/* Right panel (large, rotated) — primary hero visual */}
             <div class="w-3/5 aspect-[16/10] glass-panel rounded-xl border border-primary-container/30 p-4 rotate-1 shadow-[0_0_40px_rgba(240,191,92,0.06)]">
               <div class="h-full w-full rounded-lg overflow-hidden">
                 <img
                   class="w-full h-full object-cover"
                   alt="Esports dashboard with real-time game state analysis"
                   src="/images/hero-panel-large.webp"
+                  fetchpriority="high"
                   width={600}
                   height={375}
                 />

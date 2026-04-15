@@ -15,13 +15,13 @@ export default function Footer() {
         <nav aria-label="Footer" class="flex gap-8">
           <A
             href={localizedHref('/terms')}
-            class="text-on-surface/40 hover:text-primary-container transition-colors text-sm font-body tracking-tight"
+            class="text-on-surface/40 hover:text-primary-container transition-colors text-sm font-body tracking-tight py-3"
           >
             {t('footer.terms')}
           </A>
           <A
             href={localizedHref('/privacy')}
-            class="text-on-surface/40 hover:text-primary-container transition-colors text-sm font-body tracking-tight"
+            class="text-on-surface/40 hover:text-primary-container transition-colors text-sm font-body tracking-tight py-3"
           >
             {t('footer.privacy')}
           </A>
@@ -29,7 +29,7 @@ export default function Footer() {
             href="https://github.com/dipifab/lolai"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-on-surface/40 hover:text-primary-container transition-colors text-sm font-body tracking-tight"
+            class="text-on-surface/40 hover:text-primary-container transition-colors text-sm font-body tracking-tight py-3"
           >
             GitHub
             <span class="sr-only"> {t('common.opensNewTab')}</span>

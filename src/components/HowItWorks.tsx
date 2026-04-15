@@ -17,7 +17,7 @@ export default function HowItWorks() {
           {t('howItWorks.title')}
         </h2>
 
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-12 relative">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 relative">
           {/* Gold accent line connecting steps (desktop only) */}
           <div class="hidden md:block absolute top-8 left-[15%] right-[15%] h-0.5 bg-gradient-to-r from-transparent via-primary-container/40 to-transparent" />
 

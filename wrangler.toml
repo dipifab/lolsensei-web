@@ -4,3 +4,10 @@ compatibility_date = "2025-04-01"
 [assets]
 directory = "./dist"
 not_found_handling = "single-page-application"
+
+# Root redirect to English homepage.
+# NOTE: wrangler.toml [[redirects]] is only supported for Cloudflare Pages, not Workers with assets.
+# For Workers, configure this redirect via Cloudflare Dashboard:
+#   Rules > Redirect Rules > Create Rule
+#   When: URI Path equals "/"
+#   Then: Redirect to "https://www.lolsensei.com/en/" with status 301
