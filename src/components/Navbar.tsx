@@ -1,24 +1,55 @@
 import { createSignal, createEffect, onMount, onCleanup, For, Show } from 'solid-js';
-import { A, useLocation, useNavigate } from '@solidjs/router';
-import { NAV_ITEMS } from '../data/content';
-import { scrollToSection } from '../utils/scroll';
+import { A, useLocation } from '@solidjs/router';
+import { useI18n, SUPPORTED_LOCALES, type Locale } from '../i18n';
+
+const NAV_KEYS = [
+  { key: 'nav.features', path: '/features' },
+  { key: 'nav.pricing', path: '/pricing' },
+  { key: 'nav.faq', path: '/faq' },
+  { key: 'nav.community', path: '/community' },
+  { key: 'nav.blog', path: '/blog' },
+] as const;
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = createSignal(false);
+  const [langOpen, setLangOpen] = createSignal(false);
   const location = useLocation();
-  const navigate = useNavigate();
+  const { t, locale, setLocale } = useI18n();
+
+  const localizedHref = (path: string) => `/${locale()}${path}`;
+
+  const isActive = (path: string) => {
+    const fullPath = localizedHref(path);
+    return location.pathname === fullPath || location.pathname === fullPath + '/';
+  };
 
   onMount(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === 'Escape' && menuOpen()) {
-        closeMenu();
-        document.querySelector<HTMLButtonElement>('[aria-controls="mobile-menu"]')?.focus();
+      if (e.key === 'Escape') {
+        if (langOpen()) {
+          setLangOpen(false);
+        }
+        if (menuOpen()) {
+          closeMenu();
+          document.querySelector<HTMLButtonElement>('[aria-controls="mobile-menu"]')?.focus();
+        }
       }
     };
     document.addEventListener('keydown', handleKeyDown);
 
+    const handleClickOutside = (e: MouseEvent) => {
+      if (langOpen()) {
+        const target = e.target as HTMLElement;
+        if (!target.closest('[data-lang-switcher]')) {
+          setLangOpen(false);
+        }
+      }
+    };
+    document.addEventListener('click', handleClickOutside);
+
     onCleanup(() => {
       document.removeEventListener('keydown', handleKeyDown);
+      document.removeEventListener('click', handleClickOutside);
       document.body.style.overflow = '';
     });
   });
@@ -46,26 +77,9 @@ export default function Navbar() {
     document.body.style.overflow = '';
   };
 
-  const scrollAfterNavigate = (anchor: string) => {
-    const tryScroll = (attempts: number) => {
-      const el = document.querySelector(anchor);
-      if (el) {
-        scrollToSection(anchor);
-      } else if (attempts > 0) {
-        requestAnimationFrame(() => tryScroll(attempts - 1));
-      }
-    };
-    tryScroll(20);
-  };
-
-  const handleNavClick = (anchor: string) => {
-    closeMenu();
-    if (location.pathname !== '/') {
-      navigate('/');
-      scrollAfterNavigate(anchor);
-    } else {
-      scrollToSection(anchor);
-    }
+  const handleLangChange = (lang: Locale) => {
+    setLocale(lang);
+    setLangOpen(false);
   };
 
   return (
@@ -76,41 +90,89 @@ export default function Navbar() {
         aria-label="Main navigation"
         class="flex justify-between items-center max-w-7xl mx-auto px-8 py-4"
       >
-        {/* Logo — oversized for gaming brand prominence */}
-        <A href="/" class="flex items-center -my-4">
+        {/* Logo */}
+        <A href={localizedHref('/')} class="flex items-center -my-4">
           <img
             src="/images/logo-512.png"
             alt="LoL Sensei"
             width="120"
             height="120"
-            class="w-[72px] h-[72px] md:w-[120px] md:h-[120px] object-contain drop-shadow-[0_0_12px_rgba(240,191,92,0.4)]"
-            style={{ "mask-image": "radial-gradient(circle, black 55%, transparent 80%)", "-webkit-mask-image": "radial-gradient(circle, black 55%, transparent 80%)" }}
+            class="w-[120px] h-[120px] object-contain"
           />
         </A>
 
         {/* Desktop links */}
         <div class="hidden md:flex items-center space-x-10 font-headline font-extrabold uppercase tracking-widest">
-          <For each={NAV_ITEMS}>
+          <For each={NAV_KEYS}>
             {(item) => (
-              <button
-                type="button"
-                onClick={() => handleNavClick(item.anchor)}
-                class="text-on-surface/70 hover:text-primary-container transition-all duration-300 bg-transparent border-none cursor-pointer"
+              <A
+                href={localizedHref(item.path)}
+                class={`transition-all duration-300 ${
+                  isActive(item.path)
+                    ? 'text-primary-container'
+                    : 'text-on-surface/70 hover:text-primary-container'
+                }`}
+                aria-current={isActive(item.path) ? 'page' : undefined}
               >
-                {item.label}
-              </button>
+                {t(item.key)}
+              </A>
             )}
           </For>
         </div>
 
-        {/* CTA button (desktop) — scrolls to #download */}
-        <button
-          type="button"
-          onClick={() => handleNavClick('#download')}
-          class="hidden md:inline-flex gold-gradient text-on-primary-fixed font-headline font-extrabold uppercase tracking-widest px-6 py-2.5 rounded-lg active:scale-90 transition-transform shadow-[0_0_15px_rgba(240,191,92,0.3)] hover:shadow-[0_0_20px_rgba(240,191,92,0.5)] border-none cursor-pointer"
-        >
-          Download
-        </button>
+        {/* Desktop right section: language switcher + CTA */}
+        <div class="hidden md:flex items-center gap-4">
+          {/* Language switcher */}
+          <div class="relative" data-lang-switcher>
+            <button
+              type="button"
+              onClick={() => setLangOpen(!langOpen())}
+              class="flex items-center gap-1.5 text-on-surface/70 hover:text-primary-container transition-colors font-headline font-extrabold uppercase tracking-widest text-sm px-3 py-2 rounded-lg border border-outline-variant/20 hover:border-primary-container/40 cursor-pointer"
+              aria-expanded={langOpen()}
+              aria-haspopup="listbox"
+              aria-label="Select language"
+            >
+              <span class="material-symbols-outlined text-sm">translate</span>
+              {t(`lang.${locale()}`)}
+              <span class={`material-symbols-outlined text-xs transition-transform duration-200 ${langOpen() ? 'rotate-180' : ''}`}>
+                expand_more
+              </span>
+            </button>
+
+            <Show when={langOpen()}>
+              <ul
+                role="listbox"
+                aria-label="Languages"
+                class="absolute right-0 top-full mt-2 w-44 bg-surface-container-high border border-outline-variant/20 rounded-xl shadow-2xl overflow-hidden z-50 motion-safe:animate-[fade-in_150ms_ease-out]"
+              >
+                <For each={[...SUPPORTED_LOCALES]}>
+                  {(lang) => (
+                    <li
+                      role="option"
+                      aria-selected={locale() === lang}
+                      class={`px-4 py-2.5 cursor-pointer text-sm transition-colors ${
+                        locale() === lang
+                          ? 'text-primary-container bg-surface-container-highest/50 font-bold'
+                          : 'text-on-surface/70 hover:text-primary-container hover:bg-surface-container-highest/30'
+                      }`}
+                      onClick={() => handleLangChange(lang)}
+                    >
+                      {t(`lang.${lang}`)}
+                    </li>
+                  )}
+                </For>
+              </ul>
+            </Show>
+          </div>
+
+          {/* CTA button */}
+          <span
+            class="bg-surface-container-highest/60 border border-outline-variant/30 text-on-surface-variant/50 font-headline font-extrabold uppercase tracking-widest px-6 py-2.5 rounded-lg cursor-default select-none inline-flex items-center gap-2"
+          >
+            <span class="material-symbols-outlined text-sm">hourglass_top</span>
+            {t('hero.cta.download')}
+          </span>
+        </div>
 
         {/* Mobile hamburger */}
         <button
@@ -161,27 +223,48 @@ export default function Navbar() {
       <Show when={menuOpen()}>
         <div
           id="mobile-menu"
-          class="fixed inset-0 top-20 glass-panel z-40 flex flex-col items-center justify-center gap-10 motion-safe:animate-[fade-in_200ms_ease-out]"
+          class="fixed inset-0 top-16 glass-panel z-40 flex flex-col items-center justify-center gap-10 motion-safe:animate-[fade-in_200ms_ease-out]"
         >
-          <For each={NAV_ITEMS}>
+          <For each={NAV_KEYS}>
             {(item) => (
-              <button
-                type="button"
-                onClick={() => handleNavClick(item.anchor)}
-                class="text-2xl font-headline font-extrabold uppercase tracking-widest transition-all duration-300 min-h-11 flex items-center text-on-surface/70 hover:text-primary-container bg-transparent border-none cursor-pointer"
+              <A
+                href={localizedHref(item.path)}
+                onClick={closeMenu}
+                class={`text-2xl font-headline font-extrabold uppercase tracking-widest transition-all duration-300 min-h-11 flex items-center ${
+                  isActive(item.path)
+                    ? 'text-primary-container'
+                    : 'text-on-surface/70 hover:text-primary-container'
+                }`}
+                aria-current={isActive(item.path) ? 'page' : undefined}
               >
-                {item.label}
-              </button>
+                {t(item.key)}
+              </A>
             )}
           </For>
 
-          <button
-            type="button"
-            onClick={() => handleNavClick('#download')}
-            class="gold-gradient text-on-primary-fixed font-headline font-extrabold uppercase tracking-widest px-6 py-2.5 rounded-lg active:scale-90 transition-transform shadow-[0_0_15px_rgba(240,191,92,0.3)] hover:shadow-[0_0_20px_rgba(240,191,92,0.5)] border-none cursor-pointer"
+          {/* Mobile language switcher */}
+          <select
+            value={locale()}
+            onChange={(e) => {
+              handleLangChange(e.currentTarget.value as Locale);
+              closeMenu();
+            }}
+            class="bg-surface-container-highest/60 border border-outline-variant/30 text-on-surface font-headline font-extrabold uppercase tracking-widest px-6 py-2.5 rounded-lg text-sm cursor-pointer"
+            aria-label="Select language"
           >
-            Download
-          </button>
+            <For each={[...SUPPORTED_LOCALES]}>
+              {(lang) => (
+                <option value={lang}>{t(`lang.${lang}`)}</option>
+              )}
+            </For>
+          </select>
+
+          <span
+            class="bg-surface-container-highest/60 border border-outline-variant/30 text-on-surface-variant/50 font-headline font-extrabold uppercase tracking-widest px-6 py-2.5 rounded-lg cursor-default select-none inline-flex items-center gap-2"
+          >
+            <span class="material-symbols-outlined text-sm">hourglass_top</span>
+            {t('hero.cta.download')}
+          </span>
         </div>
       </Show>
     </header>

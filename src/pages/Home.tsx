@@ -9,8 +9,10 @@ import TrustBadges from '../components/TrustBadges';
 import FAQ from '../components/FAQ';
 import Changelog from '../components/Changelog';
 import Footer from '../components/Footer';
+import { usePageMeta } from '../utils/seo';
 
 export default function Home() {
+  usePageMeta('home', '/');
   return (
     <>
       <a

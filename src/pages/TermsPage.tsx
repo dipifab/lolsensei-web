@@ -1,7 +1,9 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import { usePageMeta } from '../utils/seo';
 
 export default function TermsPage() {
+  usePageMeta('terms', '/terms');
   return (
     <>
       <Navbar />

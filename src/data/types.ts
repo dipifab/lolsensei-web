@@ -52,6 +52,7 @@ export interface ComparisonRow {
 export interface FAQItem {
   question: string;
   answer: string;
+  category: 'safety' | 'howItWorks' | 'performance' | 'billing' | 'gettingStarted';
 }
 
 export interface TrustBadge {

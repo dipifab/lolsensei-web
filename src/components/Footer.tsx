@@ -1,36 +1,29 @@
 import { A } from '@solidjs/router';
-import { RIOT_DISCLAIMER } from '../data/content';
+import { useI18n } from '../i18n';
 
 export default function Footer() {
+  const { t, locale } = useI18n();
+  const localizedHref = (path: string) => `/${locale()}${path}`;
+
   return (
     <footer class="w-full py-12 border-t border-surface-variant/10 bg-surface-container-lowest">
       <div class="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto px-8 gap-6">
-        <div class="flex items-center gap-3">
-          <img
-            src="/images/logo-512.png"
-            alt="LoL Sensei"
-            width="96"
-            height="96"
-            class="w-24 h-24 object-contain drop-shadow-[0_0_10px_rgba(240,191,92,0.35)]"
-            style={{ "mask-image": "radial-gradient(circle, black 55%, transparent 80%)", "-webkit-mask-image": "radial-gradient(circle, black 55%, transparent 80%)" }}
-          />
-          <span class="text-lg font-headline font-extrabold uppercase tracking-widest text-on-surface/80">
-            LoL Sensei
-          </span>
+        <div class="text-lg font-bold text-primary-container font-headline uppercase tracking-widest">
+          LoL Sensei
         </div>
 
         <nav aria-label="Footer" class="flex gap-8">
           <A
-            href="/terms"
+            href={localizedHref('/terms')}
             class="text-on-surface/40 hover:text-primary-container transition-colors text-sm font-body tracking-tight"
           >
-            Terms
+            {t('footer.terms')}
           </A>
           <A
-            href="/privacy"
+            href={localizedHref('/privacy')}
             class="text-on-surface/40 hover:text-primary-container transition-colors text-sm font-body tracking-tight"
           >
-            Privacy
+            {t('footer.privacy')}
           </A>
           <a
             href="https://github.com/dipifab/lolai"
@@ -44,7 +37,7 @@ export default function Footer() {
         </nav>
 
         <p class="text-on-surface/50 text-[10px] font-body tracking-tight text-center md:text-right max-w-md">
-          &copy; 2026 LoL Sensei. {RIOT_DISCLAIMER}
+          {t('footer.copyright')}
         </p>
       </div>
     </footer>

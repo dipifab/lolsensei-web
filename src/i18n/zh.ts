@@ -1,0 +1,183 @@
+const zh = {
+  // Nav
+  'nav.features': '功能',
+  'nav.pricing': '价格',
+  'nav.faq': '常见问题',
+  'nav.community': '社区',
+  'nav.blog': '博客',
+
+  // Meta (per-page SEO)
+  'meta.home.title': 'LoL Sensei — League of Legends AI 教练',
+  'meta.home.description': '通过实时 AI 教练学习 League of Legends。理解英雄选择、出装和游戏策略。免费使用。',
+  'meta.features.title': '功能 — LoL Sensei AI 教练',
+  'meta.features.description': '了解 LoL Sensei 如何通过实时 AI 教练帮助你学习英雄选择、对线策略和出装方案。',
+  'meta.pricing.title': '价格 — LoL Sensei AI 教练',
+  'meta.pricing.description': '选择你的学习方案。免费 AI 教练指导 League of Legends，或升级至 Pro 享受优先访问。',
+  'meta.faq.title': '常见问题 — LoL Sensei AI 教练',
+  'meta.faq.description': '关于 LoL Sensei 的常见问题。了解安全性、性能、AI 教练以及如何开始使用。',
+  'meta.community.title': '社区 — LoL Sensei',
+  'meta.community.description': '加入 LoL Sensei 学习社区。分享策略、观看攻略、共同成长。',
+  'meta.privacy.title': '隐私政策 — LoL Sensei',
+  'meta.privacy.description': 'LoL Sensei 隐私政策。了解我们如何处理你的数据。',
+  'meta.terms.title': '服务条款 — LoL Sensei',
+  'meta.terms.description': 'LoL Sensei 服务条款。',
+  'meta.blog.title': '博客 — LoL Sensei',
+  'meta.blog.description': '通过 LoL Sensei AI 教练团队的指南、技巧和见解学习英雄联盟。',
+
+  // Blog
+  'blog.title': '指南、技巧与见解',
+  'blog.subtitle': '通过关于策略、教练和提升的深度文章学习英雄联盟。',
+  'blog.backToBlog': '返回博客',
+  'blog.relatedPosts': '相关文章',
+
+  // Hero
+  'hero.title': '与你的专属 AI 教练一起学习英雄联盟',
+  'hero.highlight': 'AI 教练',
+  'hero.subtitle': '不再盲目猜测，开始真正理解。获取关于英雄选择、出装和策略的实时指导——根据你的水平量身定制。',
+  'hero.cta.download': '即将推出',
+  'hero.cta.pricing': '查看价格',
+
+  // How It Works
+  'howItWorks.title': '学习方式',
+  'howItWorks.step1.title': '1. 连接',
+  'howItWorks.step1.description': 'LoL Sensei 通过轻量级 Tauri 引擎自动检测你的 League 客户端。',
+  'howItWorks.step2.title': '2. 学习',
+  'howItWorks.step2.description': 'AI 教练实时为你讲解团队阵容、装备选择和对线策略——让你理解每个决策背后的"为什么"。',
+  'howItWorks.step3.title': '3. 成长',
+  'howItWorks.step3.description': '通过适应你的进度和游戏风格的教练指导，积累持久的游戏知识。',
+
+  // Features Bento
+  'features.bento.label': 'AI 教练',
+  'features.bento.champSelect.title': '英雄选择教练',
+  'features.bento.champSelect.description': '理解为什么某些英雄与你的团队搭配更好。根据你的英雄池学习协同和克制关系。',
+  'features.bento.gameStart.title': '对线策略指南',
+  'features.bento.gameStart.description': '在小兵出现之前了解你的胜利条件。理解你的对线匹配并学习正确的打法。',
+  'features.bento.itemAdvisor.title': '出装理解',
+  'features.bento.itemAdvisor.description': '不仅知道推荐什么装备，更要明白为什么推荐。AI 教练会解释经济差距和敌方出装如何影响你的选择。',
+  'features.bento.itemAdvisor.badge': '智能 HUD',
+
+  // Comparison
+  'comparison.title': '多学习，少照搬',
+  'comparison.subtitle': 'LoL Sensei 教你理解游戏。静态工具只给你答案。',
+  'comparison.header.capability': '功能',
+  'comparison.header.lolSensei': 'LoL Sensei',
+  'comparison.header.staticTools': '静态工具',
+  'comparison.row1': '实时解释决策',
+  'comparison.row2': '根据你的水平调整教练方式',
+  'comparison.row3': '零性能影响（Tauri 引擎）',
+  'comparison.row4': 'Riot API 合规',
+
+  // Pricing
+  'pricing.label': '学习方案',
+  'pricing.title': '投资你的成长',
+  'pricing.subtitle': '选择适合你学习旅程的方案。随时升级或取消。',
+  'pricing.free.name': 'Free',
+  'pricing.free.cta': '免费开始学习',
+  'pricing.free.feature1': '英雄选择教练',
+  'pricing.free.feature2': '开局策略指南',
+  'pricing.free.feature3': '实时出装建议',
+  'pricing.pro.name': 'Pro',
+  'pricing.pro.cta': '升级你的学习',
+  'pricing.pro.feature1': '英雄选择教练',
+  'pricing.pro.feature2': '开局策略指南',
+  'pricing.pro.feature3': '实时出装建议',
+  'pricing.pro.feature4': '服务器优先访问',
+  'pricing.performance.title': '为学习而生',
+  'pricing.performance.champSelect.title': '英雄选择',
+  'pricing.performance.champSelect.description': '通过分析你的英雄池、敌方阵容和当前版本的 AI 教练来理解 Ban/Pick。',
+  'pricing.performance.earlyGame.title': '前期指南',
+  'pricing.performance.earlyGame.description': '学习对线匹配和胜利条件，让你每局游戏都有清晰的计划。',
+  'pricing.performance.itemEvolution.title': '出装顾问',
+  'pricing.performance.itemEvolution.description': '理解为什么装备会随经济差距、敌方购买和游戏状态的变化而改变。',
+  'pricing.pricingPage.title': '选择你的',
+  'pricing.pricingPage.titleHighlight': '方案',
+
+  // FAQ
+  'faq.title': '常见问题',
+  'faq.hero.label': '帮助中心',
+  'faq.hero.title': '常见问题',
+  'faq.hero.subtitle': '关于 LoL Sensei 及其如何帮助你学习的一切。',
+  'faq.hero.badge': '安全认证',
+  'faq.category.safety': '安全与合规',
+  'faq.category.howItWorks': '工作原理',
+  'faq.category.performance': '性能',
+  'faq.category.billing': '额度与计费',
+  'faq.category.gettingStarted': '快速上手',
+  'faq.contact.title': '还有其他问题？',
+  'faq.contact.description': '加入我们的 GitHub 社区或联系我们——我们很乐意帮忙。',
+  'faq.contact.cta.community': '加入社区',
+  'faq.contact.cta.github': '访问 GitHub',
+
+  // Community
+  'community.title': '一起学习，一起成长',
+  'community.subtitle': '加入一个相信学习游戏而非只求胜利的玩家社区。',
+  'community.hero.label': '社区',
+  'community.hero.title': '一起学习，一起成长。',
+  'community.hero.subtitle': 'LoL Sensei 不仅仅是一款应用——它是一个学习者社区。分享策略、提出问题、共同进步。',
+  'community.hero.cta.join': '加入社区',
+  'community.hero.cta.guides': '查看攻略',
+  'community.hq.title': '社区中心',
+  'community.hq.subtitle': '分享策略，寻找学习伙伴',
+  'community.hallOfFame.title': '杰出贡献者',
+  'community.hallOfFame.split': '当前赛季',
+  'community.clips.title': '社区精彩集锦',
+  'community.cta.title': '准备加入我们了吗？',
+  'community.cta.description': '下载 LoL Sensei，开始使用 AI 教练和友善社区一起学习。',
+  'community.cta.comingSoon': '即将推出',
+  'community.hq.connectGithub': '在 GitHub 上联系',
+
+  // Trust Badges
+  'trust.riotCompliant': 'Riot API 合规',
+  'trust.zeroFps': 'FPS 影响为 0',
+  'trust.noBanned': '无违禁功能',
+  'trust.allLevels': '适合所有水平',
+
+  // Footer
+  'footer.terms': '条款',
+  'footer.privacy': '隐私',
+  'footer.copyright': '© 2026 LoL Sensei。LoL Sensei 未获得 Riot Games 的认可，不代表 Riot Games 或任何正式参与 Riot Games 资产制作或管理的人员的观点或意见。Riot Games 及所有相关资产是 Riot Games, Inc. 的商标或注册商标。',
+
+  // 404
+  'notFound.title': '页面未找到',
+  'notFound.description': '你访问的页面不存在或已被移动。',
+  'notFound.cta': '返回首页',
+
+  // Breadcrumbs
+  'breadcrumbs.home': '首页',
+
+  // Language names (in their own language)
+  'lang.en': 'English',
+  'lang.it': 'Italiano',
+  'lang.ko': '한국어',
+  'lang.zh': '中文',
+  'lang.pt-br': 'Português',
+  'lang.es': 'Español',
+  'lang.fr': 'Français',
+  'lang.de': 'Deutsch',
+
+  // Features Page
+  'features.hero.label': 'AI 教练引擎',
+  'features.hero.title': '理解每一个阶段。',
+  'features.hero.subtitle': 'LoL Sensei 是你的专属 AI 教练，帮助你理解游戏的每个阶段——从英雄选择到后期决策。',
+  'features.phase1.label': '阶段 01',
+  'features.phase1.title': '英雄选择教练',
+  'features.phase1.description': 'AI 教练分析你的英雄池，解释为什么某些英雄与你的团队更搭配。学习协同、克制和伤害分配——做出明智的选择，而不是盲选。',
+  'features.phase1.check1': '通过清晰的解释理解团队协同。',
+  'features.phase1.check2': '了解为什么某些 Ban 在当前版本中很重要。',
+  'features.phase2.label': '阶段 02',
+  'features.phase2.title': '对线策略指南',
+  'features.phase2.description': '在小兵出现之前，教练会分析对线匹配。学习你的胜利条件、关键时间节点和对线方式——让你每局游戏都有计划。',
+  'features.phase3.label': '阶段 03',
+  'features.phase3.title': '出装理解',
+  'features.phase3.description': '不要盲目照搬出装，要理解为什么推荐这些装备。AI 教练会解释游戏状态——经济差距、敌方出装、团队需求——如何决定你的最优路线。',
+  'features.phase3.card1.title': '实时适应',
+  'features.phase3.card1.description': '当游戏局势变化时，教练会解释为什么你的出装也需要调整。理解背后的逻辑，而不只是推荐。',
+  'features.phase3.card2.title': '经济效率分析',
+  'features.phase3.card2.description': '了解哪些组件性价比最高。理解关键节点和强度曲线。',
+  'features.phase3.card3.title': '智能购买指南',
+  'features.phase3.card3.description': '知道下一步该买什么以及为什么。教练会考虑你的经济、敌方阵容和胜利条件。',
+  'features.cta.title': '准备开始学习了吗？',
+  'features.cta.highlight': '学习了吗？',
+} as const;
+
+export default zh;

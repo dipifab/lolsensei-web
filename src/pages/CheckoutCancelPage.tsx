@@ -1,15 +1,10 @@
 import { A } from '@solidjs/router';
-import { onMount } from 'solid-js';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import { useI18n } from '../i18n';
 
 export default function CheckoutCancelPage() {
-  onMount(() => {
-    const meta = document.createElement('meta');
-    meta.name = 'robots';
-    meta.content = 'noindex';
-    document.head.appendChild(meta);
-  });
+  const { locale } = useI18n();
 
   return (
     <>
@@ -22,18 +17,26 @@ export default function CheckoutCancelPage() {
           cancel
         </span>
         <h1 class="text-4xl md:text-5xl font-extrabold font-headline text-on-surface tracking-tight mb-6">
-          Payment <span class="text-primary">Cancelled</span>
+          Checkout <span class="text-primary">Cancelled</span>
         </h1>
         <p class="text-on-surface-variant text-lg leading-relaxed mb-10">
           Your payment was not completed. No charges were made.
-          You can try again anytime from the app.
+          You can try again anytime from the app or visit the pricing page below.
         </p>
-        <A
-          href="/"
-          class="inline-block gold-gradient text-on-primary-fixed px-10 py-4 rounded-lg font-headline font-extrabold uppercase tracking-wider hover:shadow-[0_0_30px_rgba(240,191,92,0.3)] transition-all"
-        >
-          Back to Home
-        </A>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <A
+            href={`/${locale()}/pricing`}
+            class="inline-block gold-gradient text-on-primary-fixed px-10 py-4 rounded-lg font-headline font-extrabold uppercase tracking-wider hover:shadow-[0_0_30px_rgba(240,191,92,0.3)] transition-all"
+          >
+            View Pricing
+          </A>
+          <A
+            href={`/${locale()}`}
+            class="inline-block px-10 py-4 rounded-lg font-headline font-extrabold uppercase border border-outline-variant/30 hover:bg-surface-variant/40 transition-all"
+          >
+            Back to Home
+          </A>
+        </div>
       </main>
       <Footer />
     </>

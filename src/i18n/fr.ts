@@ -1,0 +1,183 @@
+const fr = {
+  // Nav
+  'nav.features': 'Fonctionnalités',
+  'nav.pricing': 'Tarifs',
+  'nav.faq': 'FAQ',
+  'nav.community': 'Communauté',
+  'nav.blog': 'Blog',
+
+  // Meta (per-page SEO)
+  'meta.home.title': 'LoL Sensei — Coach IA pour League of Legends',
+  'meta.home.description': 'Apprends League of Legends avec un coaching IA en temps réel. Comprends la sélection de champion, les builds et la stratégie de jeu. Gratuit.',
+  'meta.features.title': 'Fonctionnalités — LoL Sensei Coach IA',
+  'meta.features.description': 'Découvre comment LoL Sensei t\'aide à apprendre la sélection de champion, la stratégie de lane et les builds d\'items avec un coaching IA en temps réel.',
+  'meta.pricing.title': 'Tarifs — LoL Sensei Coach IA',
+  'meta.pricing.description': 'Choisis ton plan d\'apprentissage. Coaching IA gratuit pour League of Legends ou passe au Pro pour un accès prioritaire.',
+  'meta.faq.title': 'FAQ — LoL Sensei Coach IA',
+  'meta.faq.description': 'Questions fréquentes sur LoL Sensei. Découvre la sécurité, les performances, le coaching IA et comment commencer.',
+  'meta.community.title': 'Communauté — LoL Sensei',
+  'meta.community.description': 'Rejoins la communauté d\'apprentissage de LoL Sensei. Partage des stratégies, regarde des guides et progresse ensemble.',
+  'meta.privacy.title': 'Politique de Confidentialité — LoL Sensei',
+  'meta.privacy.description': 'Politique de confidentialité de LoL Sensei. Découvre comment nous traitons tes données.',
+  'meta.terms.title': 'Conditions d\'Utilisation — LoL Sensei',
+  'meta.terms.description': 'Conditions d\'utilisation de LoL Sensei.',
+  'meta.blog.title': 'Blog — LoL Sensei',
+  'meta.blog.description': 'Apprends League of Legends avec des guides, astuces et analyses de l\'équipe de coaching IA de LoL Sensei.',
+
+  // Blog
+  'blog.title': 'Guides, Astuces et Analyses',
+  'blog.subtitle': 'Apprends League of Legends grâce à des articles approfondis sur la stratégie, le coaching et la progression.',
+  'blog.backToBlog': 'Retour au Blog',
+  'blog.relatedPosts': 'Articles Similaires',
+
+  // Hero
+  'hero.title': 'Apprends League avec Ton Coach IA Personnel',
+  'hero.highlight': 'Coach IA',
+  'hero.subtitle': 'Arrête de deviner, commence à comprendre. Reçois des conseils en temps réel sur la sélection de champion, les builds et la stratégie — adaptés à ton niveau.',
+  'hero.cta.download': 'Bientôt Disponible',
+  'hero.cta.pricing': 'Voir les Tarifs',
+
+  // How It Works
+  'howItWorks.title': 'Comment Tu Apprends',
+  'howItWorks.step1.title': '1. Connecte',
+  'howItWorks.step1.description': 'LoL Sensei détecte automatiquement ton client League grâce à notre moteur léger Tauri.',
+  'howItWorks.step2.title': '2. Apprends',
+  'howItWorks.step2.description': 'Ton coach IA t\'explique les compositions d\'équipe, les choix d\'items et la stratégie de lane en temps réel — pour que tu comprennes le "pourquoi" derrière chaque décision.',
+  'howItWorks.step3.title': '3. Progresse',
+  'howItWorks.step3.description': 'Construis une connaissance durable du jeu avec un coaching qui s\'adapte à ta progression et ton style de jeu.',
+
+  // Features Bento
+  'features.bento.label': 'Coaching IA',
+  'features.bento.champSelect.title': 'Coach de Sélection de Champion',
+  'features.bento.champSelect.description': 'Comprends pourquoi certains picks fonctionnent avec ton équipe. Apprends les synergies et les counters en fonction de ton pool de champions.',
+  'features.bento.gameStart.title': 'Guide de Stratégie de Lane',
+  'features.bento.gameStart.description': 'Connais tes conditions de victoire avant l\'apparition des minions. Comprends ton matchup et apprends la bonne approche pour ta lane.',
+  'features.bento.itemAdvisor.title': 'Comprendre les Builds',
+  'features.bento.itemAdvisor.description': 'Apprends pourquoi les items sont recommandés, pas juste lesquels. Ton coach IA explique comment les écarts d\'or et les builds ennemis influencent tes choix.',
+  'features.bento.itemAdvisor.badge': 'HUD Intelligent',
+
+  // Comparison
+  'comparison.title': 'Apprends Plus, Copie Moins',
+  'comparison.subtitle': 'LoL Sensei t\'enseigne le jeu. Les outils statiques ne donnent que des réponses.',
+  'comparison.header.capability': 'Fonctionnalité',
+  'comparison.header.lolSensei': 'LoL Sensei',
+  'comparison.header.staticTools': 'Outils Statiques',
+  'comparison.row1': 'Explique les décisions en temps réel',
+  'comparison.row2': 'Adapte le coaching à ton niveau',
+  'comparison.row3': 'Zéro impact sur les performances (moteur Tauri)',
+  'comparison.row4': 'Conformité Riot API',
+
+  // Pricing
+  'pricing.label': 'Plans d\'Apprentissage',
+  'pricing.title': 'Investis dans Ta Progression',
+  'pricing.subtitle': 'Choisis le plan adapté à ton parcours d\'apprentissage. Upgrade ou annulation à tout moment.',
+  'pricing.free.name': 'Free',
+  'pricing.free.cta': 'Commence Gratuitement',
+  'pricing.free.feature1': 'Coaching en sélection de champion',
+  'pricing.free.feature2': 'Guide de stratégie de début de partie',
+  'pricing.free.feature3': 'Conseiller de build en temps réel',
+  'pricing.pro.name': 'Pro',
+  'pricing.pro.cta': 'Améliore Ton Apprentissage',
+  'pricing.pro.feature1': 'Coaching en sélection de champion',
+  'pricing.pro.feature2': 'Guide de stratégie de début de partie',
+  'pricing.pro.feature3': 'Conseiller de build en temps réel',
+  'pricing.pro.feature4': 'Accès prioritaire aux serveurs',
+  'pricing.performance.title': 'Conçu pour Apprendre',
+  'pricing.performance.champSelect.title': 'Sélection de Champion',
+  'pricing.performance.champSelect.description': 'Comprends le draft avec un coaching IA qui analyse ton pool, la composition ennemie et la méta actuelle.',
+  'pricing.performance.earlyGame.title': 'Guide d\'Early Game',
+  'pricing.performance.earlyGame.description': 'Apprends ton matchup de lane et tes conditions de victoire pour commencer chaque partie avec un plan clair.',
+  'pricing.performance.itemEvolution.title': 'Conseiller de Build',
+  'pricing.performance.itemEvolution.description': 'Comprends pourquoi les items changent en fonction de l\'écart d\'or, des achats ennemis et de l\'état de la partie.',
+  'pricing.pricingPage.title': 'Choisis Ton',
+  'pricing.pricingPage.titleHighlight': 'Plan',
+
+  // FAQ
+  'faq.title': 'Questions Fréquentes',
+  'faq.hero.label': 'Centre d\'Aide',
+  'faq.hero.title': 'Questions Fréquentes',
+  'faq.hero.subtitle': 'Tout ce que tu dois savoir sur LoL Sensei et comment il t\'aide à apprendre.',
+  'faq.hero.badge': 'Sécurité Vérifiée',
+  'faq.category.safety': 'Sécurité et Conformité',
+  'faq.category.howItWorks': 'Comment Ça Marche',
+  'faq.category.performance': 'Performances',
+  'faq.category.billing': 'Crédits et Facturation',
+  'faq.category.gettingStarted': 'Pour Commencer',
+  'faq.contact.title': 'Tu as encore des questions ?',
+  'faq.contact.description': 'Rejoins notre communauté sur GitHub ou contacte-nous — on sera ravi de t\'aider.',
+  'faq.contact.cta.community': 'Rejoindre la Communauté',
+  'faq.contact.cta.github': 'Visiter GitHub',
+
+  // Community
+  'community.title': 'Apprends Ensemble, Progresse Ensemble',
+  'community.subtitle': 'Rejoins une communauté de joueurs qui croient en l\'apprentissage du jeu, pas seulement en la victoire.',
+  'community.hero.label': 'Communauté',
+  'community.hero.title': 'APPRENDS ENSEMBLE, PROGRESSE ENSEMBLE.',
+  'community.hero.subtitle': 'LoL Sensei n\'est pas qu\'une app — c\'est une communauté d\'apprenants. Partage des stratégies, pose des questions et progresse ensemble.',
+  'community.hero.cta.join': 'REJOINDRE LA COMMUNAUTÉ',
+  'community.hero.cta.guides': 'VOIR LES GUIDES',
+  'community.hq.title': 'Hub de la Communauté',
+  'community.hq.subtitle': 'Partage des stratégies et trouve des partenaires d\'apprentissage',
+  'community.hallOfFame.title': 'Meilleurs Contributeurs',
+  'community.hallOfFame.split': 'Split Actuel',
+  'community.clips.title': 'Temps Forts de la Communauté',
+  'community.cta.title': 'PRÊT À NOUS REJOINDRE ?',
+  'community.cta.description': 'Télécharge LoL Sensei et commence à apprendre avec un coaching IA et une communauté bienveillante.',
+  'community.cta.comingSoon': 'BIENTÔT DISPONIBLE',
+  'community.hq.connectGithub': 'Se connecter sur GitHub',
+
+  // Trust Badges
+  'trust.riotCompliant': 'Conforme à Riot API',
+  'trust.zeroFps': '0 Impact FPS',
+  'trust.noBanned': 'Aucune Fonctionnalité Interdite',
+  'trust.allLevels': 'Pour Tous les Niveaux',
+
+  // Footer
+  'footer.terms': 'Conditions',
+  'footer.privacy': 'Confidentialité',
+  'footer.copyright': '© 2026 LoL Sensei. LoL Sensei n\'est pas approuvé par Riot Games et ne reflète pas les opinions ou points de vue de Riot Games ni de quiconque officiellement impliqué dans la production ou la gestion des propriétés de Riot Games. Riot Games et toutes les propriétés associées sont des marques commerciales ou des marques déposées de Riot Games, Inc.',
+
+  // 404
+  'notFound.title': 'Page Non Trouvée',
+  'notFound.description': 'La page que tu cherches n\'existe pas ou a été déplacée.',
+  'notFound.cta': 'Retour à l\'Accueil',
+
+  // Breadcrumbs
+  'breadcrumbs.home': 'Accueil',
+
+  // Language names (in their own language)
+  'lang.en': 'English',
+  'lang.it': 'Italiano',
+  'lang.ko': '한국어',
+  'lang.zh': '中文',
+  'lang.pt-br': 'Português',
+  'lang.es': 'Español',
+  'lang.fr': 'Français',
+  'lang.de': 'Deutsch',
+
+  // Features Page
+  'features.hero.label': 'Moteur de Coaching IA',
+  'features.hero.title': 'COMPRENDS CHAQUE PHASE.',
+  'features.hero.subtitle': 'LoL Sensei est ton coach IA personnel qui t\'aide à comprendre le jeu à chaque étape — de la sélection de champion aux décisions du late game.',
+  'features.phase1.label': 'Phase 01',
+  'features.phase1.title': 'Coach de Sélection de Champion',
+  'features.phase1.description': 'Ton coach IA analyse ton pool de champions et t\'explique pourquoi certains picks fonctionnent avec ton équipe. Apprends les synergies, les counter-picks et la répartition des dégâts — pour faire des choix éclairés, pas des picks à l\'aveugle.',
+  'features.phase1.check1': 'Comprends la synergie d\'équipe avec des explications claires.',
+  'features.phase1.check2': 'Apprends pourquoi certains bans comptent dans la méta actuelle.',
+  'features.phase2.label': 'Phase 02',
+  'features.phase2.title': 'Guide de Stratégie de Lane',
+  'features.phase2.description': 'Avant l\'apparition des minions, ton coach analyse le matchup. Apprends tes conditions de victoire, les fenêtres de timing clés et comment aborder la lane — pour commencer chaque partie avec un plan.',
+  'features.phase3.label': 'Phase 03',
+  'features.phase3.title': 'Comprendre les Builds',
+  'features.phase3.description': 'Au lieu de copier des builds aveuglément, comprends pourquoi les items sont recommandés. Ton coach IA explique comment l\'état de la partie — écarts d\'or, builds ennemis, besoins de l\'équipe — détermine ton chemin optimal.',
+  'features.phase3.card1.title': 'S\'Adapte en Temps Réel',
+  'features.phase3.card1.description': 'Quand la partie évolue, ton coach t\'explique pourquoi ta build devrait changer aussi. Comprends le raisonnement, pas juste la recommandation.',
+  'features.phase3.card2.title': 'Efficacité de l\'Or',
+  'features.phase3.card2.description': 'Apprends quels composants te donnent le plus de valeur pour ton or. Comprends les seuils de puissance et les courbes de progression.',
+  'features.phase3.card3.title': 'Guide d\'Achat Intelligent',
+  'features.phase3.card3.description': 'Sache quoi acheter et pourquoi. Ton coach considère ton or, l\'équipe ennemie et ta condition de victoire.',
+  'features.cta.title': 'PRÊT À COMMENCER À APPRENDRE ?',
+  'features.cta.highlight': 'APPRENDRE ?',
+} as const;
+
+export default fr;

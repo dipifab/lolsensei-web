@@ -1,0 +1,183 @@
+const ko = {
+  // Nav
+  'nav.features': '기능',
+  'nav.pricing': '요금',
+  'nav.faq': 'FAQ',
+  'nav.community': '커뮤니티',
+  'nav.blog': '블로그',
+
+  // Meta (per-page SEO)
+  'meta.home.title': 'LoL Sensei — League of Legends AI 코치',
+  'meta.home.description': '실시간 AI 코칭으로 League of Legends를 배워보세요. 챔피언 셀렉트, 빌드, 게임 전략을 이해하세요. 무료로 시작하세요.',
+  'meta.features.title': '기능 — LoL Sensei AI 코치',
+  'meta.features.description': 'LoL Sensei가 실시간 AI 코칭으로 챔피언 셀렉트, 라인 전략, 아이템 빌드를 어떻게 가르쳐주는지 알아보세요.',
+  'meta.pricing.title': '요금 — LoL Sensei AI 코치',
+  'meta.pricing.description': '학습 플랜을 선택하세요. League of Legends 무료 AI 코칭 또는 Pro로 업그레이드하여 우선 접속하세요.',
+  'meta.faq.title': 'FAQ — LoL Sensei AI 코치',
+  'meta.faq.description': 'LoL Sensei에 대해 자주 묻는 질문. 안전성, 성능, AI 코칭, 시작 방법에 대해 알아보세요.',
+  'meta.community.title': '커뮤니티 — LoL Sensei',
+  'meta.community.description': 'LoL Sensei 학습 커뮤니티에 참여하세요. 전략을 공유하고, 가이드를 보고, 함께 성장하세요.',
+  'meta.privacy.title': '개인정보처리방침 — LoL Sensei',
+  'meta.privacy.description': 'LoL Sensei 개인정보처리방침. 데이터 처리 방식을 확인하세요.',
+  'meta.terms.title': '이용약관 — LoL Sensei',
+  'meta.terms.description': 'LoL Sensei 이용약관.',
+  'meta.blog.title': '블로그 — LoL Sensei',
+  'meta.blog.description': 'LoL Sensei AI 코칭 팀의 가이드, 팁, 인사이트로 리그 오브 레전드를 배우세요.',
+
+  // Blog
+  'blog.title': '가이드, 팁 & 인사이트',
+  'blog.subtitle': '전략, 코칭, 실력 향상에 대한 심층 기사로 리그 오브 레전드를 배우세요.',
+  'blog.backToBlog': '블로그로 돌아가기',
+  'blog.relatedPosts': '관련 게시글',
+
+  // Hero
+  'hero.title': '나만의 AI 코치와 함께 리그를 배우세요',
+  'hero.highlight': 'AI 코치',
+  'hero.subtitle': '추측은 그만, 이해를 시작하세요. 챔피언 셀렉트, 빌드, 전략에 대한 실시간 가이드를 받으세요 — 당신의 실력에 맞춰 제공됩니다.',
+  'hero.cta.download': '출시 예정',
+  'hero.cta.pricing': '요금 보기',
+
+  // How It Works
+  'howItWorks.title': '이렇게 배웁니다',
+  'howItWorks.step1.title': '1. 연결',
+  'howItWorks.step1.description': 'LoL Sensei는 가벼운 Tauri 엔진으로 리그 클라이언트를 자동으로 감지합니다.',
+  'howItWorks.step2.title': '2. 학습',
+  'howItWorks.step2.description': 'AI 코치가 팀 구성, 아이템 선택, 라인 전략을 실시간으로 설명합니다 — 모든 결정의 "이유"를 이해할 수 있습니다.',
+  'howItWorks.step3.title': '3. 성장',
+  'howItWorks.step3.description': '당신의 진행 상황과 플레이 스타일에 맞춰 적응하는 코칭으로 지속적인 게임 지식을 쌓으세요.',
+
+  // Features Bento
+  'features.bento.label': 'AI 코칭',
+  'features.bento.champSelect.title': '챔피언 셀렉트 코치',
+  'features.bento.champSelect.description': '특정 픽이 팀과 잘 맞는 이유를 이해하세요. 챔피언 풀을 기반으로 시너지와 카운터를 배우세요.',
+  'features.bento.gameStart.title': '라인 전략 가이드',
+  'features.bento.gameStart.description': '미니언이 나오기 전에 승리 조건을 파악하세요. 매치업을 이해하고 라인에 대한 올바른 접근법을 배우세요.',
+  'features.bento.itemAdvisor.title': '빌드 이해하기',
+  'features.bento.itemAdvisor.description': '어떤 아이템이 추천되는지뿐만 아니라 왜 추천되는지 배우세요. AI 코치가 골드 차이와 상대 빌드가 선택에 미치는 영향을 설명합니다.',
+  'features.bento.itemAdvisor.badge': '스마트 HUD',
+
+  // Comparison
+  'comparison.title': '더 많이 배우고, 덜 따라하세요',
+  'comparison.subtitle': 'LoL Sensei는 게임을 가르칩니다. 정적 도구는 답만 줍니다.',
+  'comparison.header.capability': '기능',
+  'comparison.header.lolSensei': 'LoL Sensei',
+  'comparison.header.staticTools': '정적 도구',
+  'comparison.row1': '실시간으로 결정을 설명합니다',
+  'comparison.row2': '실력에 맞춰 코칭을 조정합니다',
+  'comparison.row3': '성능 영향 제로 (Tauri 엔진)',
+  'comparison.row4': 'Riot API 준수',
+
+  // Pricing
+  'pricing.label': '학습 플랜',
+  'pricing.title': '성장에 투자하세요',
+  'pricing.subtitle': '학습 여정에 맞는 플랜을 선택하세요. 언제든 업그레이드하거나 취소할 수 있습니다.',
+  'pricing.free.name': 'Free',
+  'pricing.free.cta': '무료로 학습 시작',
+  'pricing.free.feature1': '챔피언 셀렉트 코칭',
+  'pricing.free.feature2': '게임 시작 전략 가이드',
+  'pricing.free.feature3': '실시간 빌드 어드바이저',
+  'pricing.pro.name': 'Pro',
+  'pricing.pro.cta': '학습 업그레이드',
+  'pricing.pro.feature1': '챔피언 셀렉트 코칭',
+  'pricing.pro.feature2': '게임 시작 전략 가이드',
+  'pricing.pro.feature3': '실시간 빌드 어드바이저',
+  'pricing.pro.feature4': '서버 우선 접속',
+  'pricing.performance.title': '학습을 위해 설계됨',
+  'pricing.performance.champSelect.title': '챔피언 셀렉트',
+  'pricing.performance.champSelect.description': '챔피언 풀, 상대 구성, 현재 메타를 분석하는 AI 코칭으로 드래프트를 이해하세요.',
+  'pricing.performance.earlyGame.title': '초반 게임 가이드',
+  'pricing.performance.earlyGame.description': '라인 매치업과 승리 조건을 배워서 매 게임을 명확한 계획으로 시작하세요.',
+  'pricing.performance.itemEvolution.title': '빌드 어드바이저',
+  'pricing.performance.itemEvolution.description': '골드 차이, 상대 구매, 변화하는 게임 상황에 따라 아이템이 왜 달라지는지 이해하세요.',
+  'pricing.pricingPage.title': '플랜을',
+  'pricing.pricingPage.titleHighlight': '선택하세요',
+
+  // FAQ
+  'faq.title': '자주 묻는 질문',
+  'faq.hero.label': '도움말',
+  'faq.hero.title': '자주 묻는 질문',
+  'faq.hero.subtitle': 'LoL Sensei와 학습 도움 방식에 대해 알아야 할 모든 것.',
+  'faq.hero.badge': '안전 인증',
+  'faq.category.safety': '안전 및 규정 준수',
+  'faq.category.howItWorks': '작동 방식',
+  'faq.category.performance': '성능',
+  'faq.category.billing': '크레딧 및 결제',
+  'faq.category.gettingStarted': '시작하기',
+  'faq.contact.title': '아직 궁금한 점이 있나요?',
+  'faq.contact.description': 'GitHub 커뮤니티에 참여하거나 문의해 주세요 — 기꺼이 도와드리겠습니다.',
+  'faq.contact.cta.community': '커뮤니티 참여',
+  'faq.contact.cta.github': 'GitHub 방문',
+
+  // Community
+  'community.title': '함께 배우고, 함께 성장하세요',
+  'community.subtitle': '단순히 이기는 것이 아니라 게임을 배우는 것을 믿는 플레이어 커뮤니티에 참여하세요.',
+  'community.hero.label': '커뮤니티',
+  'community.hero.title': '함께 배우고, 함께 성장하세요.',
+  'community.hero.subtitle': 'LoL Sensei는 단순한 앱이 아닙니다 — 배우는 사람들의 커뮤니티입니다. 전략을 공유하고, 질문하고, 함께 발전하세요.',
+  'community.hero.cta.join': '커뮤니티 참여하기',
+  'community.hero.cta.guides': '가이드 보기',
+  'community.hq.title': '커뮤니티 허브',
+  'community.hq.subtitle': '전략을 공유하고 학습 파트너를 찾으세요',
+  'community.hallOfFame.title': '최고 기여자',
+  'community.hallOfFame.split': '현재 시즌',
+  'community.clips.title': '커뮤니티 하이라이트',
+  'community.cta.title': '참여할 준비가 되셨나요?',
+  'community.cta.description': 'LoL Sensei를 다운로드하고 AI 코칭과 든든한 커뮤니티와 함께 학습을 시작하세요.',
+  'community.cta.comingSoon': '출시 예정',
+  'community.hq.connectGithub': 'GitHub에서 연결',
+
+  // Trust Badges
+  'trust.riotCompliant': 'Riot API 준수',
+  'trust.zeroFps': 'FPS 영향 0',
+  'trust.noBanned': '금지 기능 없음',
+  'trust.allLevels': '모든 실력에 대응',
+
+  // Footer
+  'footer.terms': '이용약관',
+  'footer.privacy': '개인정보처리방침',
+  'footer.copyright': '© 2026 LoL Sensei. LoL Sensei는 Riot Games의 승인을 받지 않았으며 Riot Games 또는 Riot Games 자산의 제작이나 관리에 공식적으로 관여하는 사람의 견해나 의견을 반영하지 않습니다. Riot Games 및 모든 관련 자산은 Riot Games, Inc.의 상표 또는 등록 상표입니다.',
+
+  // 404
+  'notFound.title': '페이지를 찾을 수 없습니다',
+  'notFound.description': '찾으시는 페이지가 존재하지 않거나 이동되었습니다.',
+  'notFound.cta': '홈으로 돌아가기',
+
+  // Breadcrumbs
+  'breadcrumbs.home': '홈',
+
+  // Language names (in their own language)
+  'lang.en': 'English',
+  'lang.it': 'Italiano',
+  'lang.ko': '한국어',
+  'lang.zh': '中文',
+  'lang.pt-br': 'Português',
+  'lang.es': 'Español',
+  'lang.fr': 'Français',
+  'lang.de': 'Deutsch',
+
+  // Features Page
+  'features.hero.label': 'AI 코칭 엔진',
+  'features.hero.title': '모든 단계를 이해하세요.',
+  'features.hero.subtitle': 'LoL Sensei는 챔피언 셀렉트부터 후반 결정까지 게임의 모든 단계를 이해하도록 도와주는 개인 AI 코치입니다.',
+  'features.phase1.label': '페이즈 01',
+  'features.phase1.title': '챔피언 셀렉트 코치',
+  'features.phase1.description': 'AI 코치가 챔피언 풀을 분석하고 특정 픽이 팀과 잘 맞는 이유를 설명합니다. 시너지, 카운터 픽, 딜 분배에 대해 배우세요 — 눈먼 픽이 아닌 정보에 기반한 선택을 하세요.',
+  'features.phase1.check1': '명확한 설명으로 팀 시너지를 이해하세요.',
+  'features.phase1.check2': '현재 메타에서 특정 밴이 중요한 이유를 배우세요.',
+  'features.phase2.label': '페이즈 02',
+  'features.phase2.title': '라인 전략 가이드',
+  'features.phase2.description': '미니언이 나오기 전에 코치가 매치업을 분석합니다. 승리 조건, 핵심 타이밍, 라인 접근 방식을 배우세요 — 매 게임을 계획을 가지고 시작하세요.',
+  'features.phase3.label': '페이즈 03',
+  'features.phase3.title': '빌드 이해하기',
+  'features.phase3.description': '빌드를 맹목적으로 따라하지 말고 아이템이 왜 추천되는지 이해하세요. AI 코치가 게임 상황 — 골드 차이, 상대 빌드, 팀 필요 — 이 최적의 경로에 어떻게 영향을 미치는지 설명합니다.',
+  'features.phase3.card1.title': '실시간 적응',
+  'features.phase3.card1.description': '게임이 바뀌면 코치가 빌드도 왜 바꿔야 하는지 설명합니다. 추천만이 아닌 논리를 이해하세요.',
+  'features.phase3.card2.title': '골드 효율 분석',
+  'features.phase3.card2.description': '어떤 부품이 골드 대비 가장 높은 가치를 주는지 배우세요. 변곡점과 파워 커브를 이해하세요.',
+  'features.phase3.card3.title': '스마트 구매 가이드',
+  'features.phase3.card3.description': '다음에 무엇을 사야 하는지, 왜 사야 하는지 알 수 있습니다. 코치가 골드, 상대 팀, 승리 조건을 고려합니다.',
+  'features.cta.title': '학습을 시작할 준비가 되셨나요?',
+  'features.cta.highlight': '준비가 되셨나요?',
+} as const;
+
+export default ko;

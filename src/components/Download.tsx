@@ -25,27 +25,14 @@ export default function Download() {
           }
         >
           <div class="flex flex-col items-center gap-6">
-            <a
-              href={DOWNLOAD_INFO.url}
-              class="gold-gradient px-10 py-4 rounded-lg font-headline font-extrabold text-[#261900] uppercase tracking-widest shadow-[0_0_20px_rgba(240,191,92,0.3)] hover:scale-105 transition-transform inline-flex items-center gap-3"
+            <span
+              class="bg-surface-container-highest/60 border border-outline-variant/30 px-10 py-4 rounded-lg font-headline font-extrabold text-on-surface-variant/50 uppercase tracking-widest inline-flex items-center gap-3 cursor-default select-none"
             >
-              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                <path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801" />
-              </svg>
-              Download for {DOWNLOAD_INFO.platform}
-            </a>
-            <a
-              href={DOWNLOAD_INFO.releasesUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-sm text-secondary hover:text-primary transition-colors"
-            >
-              View all releases
-              <span class="sr-only"> (opens in new tab)</span>
-              {' '}&rarr;
-            </a>
-            <p class="text-xs text-on-surface-variant/50 max-w-md">
-              {DOWNLOAD_INFO.smartScreenNote}
+              <span class="material-symbols-outlined text-lg">hourglass_top</span>
+              Coming Soon for {DOWNLOAD_INFO.platform}
+            </span>
+            <p class="text-sm text-on-surface-variant/60">
+              Windows download will be available soon. Stay tuned!
             </p>
           </div>
         </Show>

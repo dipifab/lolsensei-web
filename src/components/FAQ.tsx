@@ -1,6 +1,5 @@
 import { For, Show, createSignal } from 'solid-js';
 import { FAQ_ITEMS } from '../data/faq';
-import FAQSchemaLD from './FAQSchemaLD';
 
 export default function FAQ() {
   const [openIndex, setOpenIndex] = createSignal<number | null>(0);
@@ -11,18 +10,17 @@ export default function FAQ() {
 
   return (
     <section class="py-32 px-8" id="faq">
-      <FAQSchemaLD />
       <div class="max-w-4xl mx-auto">
-        {/* Header */}
+        {/* Hero header */}
         <div class="mb-20">
           <span class="text-primary-container text-xs font-bold tracking-widest uppercase mb-4 block">
-            Knowledge Base
+            Help Center
           </span>
           <h2 class="text-5xl md:text-6xl font-headline font-extrabold tracking-tight mb-6">
-            Tactical <span class="text-primary">Intelligence</span>
+            Frequently Asked <span class="text-primary">Questions</span>
           </h2>
           <p class="text-on-surface-variant text-lg max-w-lg leading-relaxed">
-            Everything you need to know about LoL Sensei.
+            Everything you need to know about LoL Sensei and how it helps you learn.
           </p>
         </div>
 
@@ -38,8 +36,6 @@ export default function FAQ() {
                   <button
                     class="w-full py-6 flex items-center justify-between cursor-pointer text-left"
                     onClick={() => toggle(index())}
-                    aria-expanded={isOpen()}
-                    aria-controls={`faq-answer-${index()}`}
                   >
                     <div class="flex items-center gap-6">
                       <span
@@ -50,7 +46,6 @@ export default function FAQ() {
                         {number()}
                       </span>
                       <h3
-                        id={`faq-question-${index()}`}
                         class={`text-xl md:text-2xl font-bold font-headline transition-colors ${
                           isOpen() ? 'text-primary' : 'group-hover:text-primary'
                         }`}
@@ -67,12 +62,7 @@ export default function FAQ() {
                     </span>
                   </button>
                   <Show when={isOpen()}>
-                    <div
-                      id={`faq-answer-${index()}`}
-                      role="region"
-                      aria-labelledby={`faq-question-${index()}`}
-                      class="pb-6 pl-16 pr-8 text-on-surface-variant leading-relaxed"
-                    >
+                    <div class="pb-6 pl-16 pr-8 text-on-surface-variant leading-relaxed">
                       {item.answer}
                     </div>
                   </Show>

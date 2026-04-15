@@ -1,7 +1,9 @@
-import { DOWNLOAD_INFO } from '../data/content';
 import { scrollToSection } from '../utils/scroll';
+import { useI18n } from '../i18n';
 
 export default function Hero() {
+  const { t } = useI18n();
+
   return (
     <section
       id="hero"
@@ -11,46 +13,25 @@ export default function Hero() {
         {/* Text column */}
         <div class="z-10 text-left">
           <h1 class="text-5xl md:text-7xl font-extrabold leading-[1.1] mb-6 tracking-tight text-on-surface font-headline">
-            Real-Time AI{' '}
-            <span class="text-primary-container">Coaching</span> that Adapts
-            to Your Game
+            {t('hero.title').replace(t('hero.highlight'), '')}
+            <span class="text-primary-container">{t('hero.highlight')}</span>
           </h1>
-          <p class="text-xl text-on-surface-variant mb-4 max-w-lg leading-relaxed">
-            Stop relying on static databases. Get dynamic item and champion
-            advice based on the live state of your match.
+          <p class="text-xl text-on-surface-variant mb-10 max-w-lg leading-relaxed">
+            {t('hero.subtitle')}
           </p>
-          <p class="text-sm text-on-surface-variant/60 mb-10 max-w-lg">
-            Free forever. Upgrade for AI coaching.
-          </p>
-
-          {/* Desktop CTAs */}
-          <div class="hidden md:flex flex-wrap gap-4">
-            <a
-              href={DOWNLOAD_INFO.url}
-              class="gold-gradient px-8 py-4 rounded-lg font-headline font-extrabold text-[#261900] uppercase tracking-widest shadow-[0_0_20px_rgba(240,191,92,0.3)] hover:scale-105 motion-safe:transition-transform inline-flex items-center min-h-11 focus-visible:ring-2 focus-visible:ring-primary-container focus-visible:ring-offset-2 focus-visible:ring-offset-surface focus-visible:outline-none"
+          <div class="flex flex-wrap gap-4">
+            <span
+              class="bg-surface-container-highest/60 border border-outline-variant/30 px-8 py-4 rounded-lg font-headline font-extrabold text-on-surface-variant/50 uppercase tracking-widest inline-flex items-center min-h-11 cursor-default select-none gap-2"
             >
-              Download Free
-            </a>
+              <span class="material-symbols-outlined text-lg">hourglass_top</span>
+              {t('hero.cta.download')}
+            </span>
             <button
               type="button"
               onClick={() => scrollToSection('#pricing')}
               class="border border-outline-variant/30 hover:border-primary-container/50 px-8 py-4 rounded-lg font-headline font-extrabold text-secondary uppercase tracking-widest motion-safe:transition-all inline-flex items-center min-h-11 bg-transparent cursor-pointer focus-visible:ring-2 focus-visible:ring-primary-container focus-visible:ring-offset-2 focus-visible:ring-offset-surface focus-visible:outline-none"
             >
-              View Pricing
-            </button>
-          </div>
-
-          {/* Mobile message */}
-          <div class="md:hidden">
-            <p class="text-on-surface-variant text-sm mb-4">
-              Available for Windows — visit from your PC to download.
-            </p>
-            <button
-              type="button"
-              onClick={() => scrollToSection('#pricing')}
-              class="border border-outline-variant/30 hover:border-primary-container/50 px-8 py-4 rounded-lg font-headline font-extrabold text-secondary uppercase tracking-widest motion-safe:transition-all inline-flex items-center min-h-11 bg-transparent cursor-pointer focus-visible:ring-2 focus-visible:ring-primary-container focus-visible:ring-offset-2 focus-visible:ring-offset-surface focus-visible:outline-none"
-            >
-              View Pricing
+              {t('hero.cta.pricing')}
             </button>
           </div>
         </div>
@@ -68,6 +49,8 @@ export default function Hero() {
                   class="w-full h-full object-cover grayscale brightness-50 contrast-125"
                   alt="Gaming interface mockup with champion data visualization"
                   src="/images/hero-panel-small.webp"
+                  width={300}
+                  height={400}
                 />
                 <div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest to-transparent flex flex-col justify-end p-4">
                   <div class="h-2 w-12 bg-primary-container rounded mb-2" />
@@ -83,6 +66,8 @@ export default function Hero() {
                   class="w-full h-full object-cover"
                   alt="Esports dashboard with real-time game state analysis"
                   src="/images/hero-panel-large.webp"
+                  width={600}
+                  height={375}
                 />
               </div>
             </div>

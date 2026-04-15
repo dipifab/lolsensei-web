@@ -1,7 +1,9 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import { usePageMeta } from '../utils/seo';
 
 export default function PrivacyPage() {
+  usePageMeta('privacy', '/privacy');
   return (
     <>
       <Navbar />

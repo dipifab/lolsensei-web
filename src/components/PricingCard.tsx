@@ -1,8 +1,5 @@
 import { Show, For } from 'solid-js';
 import type { PricingPlan } from '../data/types';
-import { scrollToSection } from '../utils/scroll';
-import TierBadge from './TierBadge';
-
 interface PricingCardProps {
   plan: PricingPlan;
 }
@@ -10,8 +7,17 @@ interface PricingCardProps {
 export default function PricingCard(props: PricingCardProps) {
   const isHighlighted = () => props.plan.highlighted;
 
-  const handleCta = () => {
-    scrollToSection('#download');
+  const subtitle = () =>
+    isHighlighted()
+      ? 'Everything you need to accelerate your learning.'
+      : 'Essential tools for every summoner.';
+
+  const displayPrice = () => props.plan.price ?? '\u20AC0';
+
+  const isFeatureIncluded = (index: number) => {
+    if (isHighlighted()) return true;
+    // Free plan: only the first feature is included
+    return index === 0;
   };
 
   return (
@@ -22,10 +28,10 @@ export default function PricingCard(props: PricingCardProps) {
           : 'relative bg-surface-container-low rounded-xl border border-outline-variant/10 p-10 flex flex-col hover:bg-surface-container-high transition-colors'
       }
     >
-      {/* Promo badge — top-right corner */}
-      <Show when={props.plan.promoBadge}>
-        <div class="absolute top-0 right-8 -translate-y-1/2 bg-[var(--color-promo-badge-bg)] px-4 py-1.5 rounded-full text-[10px] font-headline font-extrabold text-[#261900] uppercase tracking-widest">
-          {props.plan.promoBadge}
+      {/* Pro badge — top-right corner */}
+      <Show when={isHighlighted()}>
+        <div class="absolute top-0 right-8 -translate-y-1/2 gold-gradient px-4 py-1.5 rounded-full text-[10px] font-headline font-extrabold text-on-primary-fixed uppercase tracking-widest">
+          Recommended
         </div>
       </Show>
 
@@ -41,17 +47,10 @@ export default function PricingCard(props: PricingCardProps) {
       </h3>
 
       {/* Subtitle */}
-      <Show when={props.plan.subtitle}>
-        <p class="text-sm text-on-surface-variant mb-4">{props.plan.subtitle}</p>
-      </Show>
+      <p class="text-sm text-on-surface-variant mb-6">{subtitle()}</p>
 
       {/* Price */}
-      <div class="flex items-baseline gap-2 mb-2">
-        <Show when={props.plan.originalPrice}>
-          <span class="text-xl text-[var(--color-strikethrough)] line-through">
-            EUR {props.plan.originalPrice}
-          </span>
-        </Show>
+      <div class="flex items-baseline gap-1 mb-8">
         <span
           class={
             isHighlighted()
@@ -59,67 +58,74 @@ export default function PricingCard(props: PricingCardProps) {
               : 'text-4xl font-extrabold text-on-surface'
           }
         >
-          {props.plan.price === '0' ? 'EUR 0' : `EUR ${props.plan.price}`}
+          {displayPrice()}
         </span>
-        <Show when={props.plan.period}>
-          <span class="text-on-surface-variant text-sm">{props.plan.period}</span>
-        </Show>
+        <span class="text-on-surface-variant text-sm">{props.plan.period}</span>
       </div>
 
-      {/* No card required */}
-      <Show when={props.plan.noCardRequired}>
-        <p class="text-xs text-on-surface-variant/60 mb-6">No credit card required</p>
-      </Show>
-
       {/* Feature list */}
-      <ul class={`space-y-4 mb-10 flex-grow ${props.plan.noCardRequired ? '' : 'mt-6'}`}>
+      <ul class="space-y-4 mb-10 flex-grow">
         <For each={props.plan.features}>
-          {(feature) => (
-            <li
-              class={
-                feature.included
-                  ? 'flex items-center gap-3 text-sm text-on-surface'
-                  : 'flex items-center gap-3 text-sm text-on-surface/40'
-              }
-            >
-              <Show
-                when={feature.included}
-                fallback={
-                  <span class="material-symbols-outlined text-[var(--color-feature-locked)] text-lg">
-                    lock
-                  </span>
+          {(feature, index) => {
+            const included = () => isFeatureIncluded(index());
+
+            return (
+              <li
+                class={
+                  included()
+                    ? 'flex items-center gap-3 text-sm text-on-surface'
+                    : 'flex items-center gap-3 text-sm text-on-surface/40'
                 }
               >
-                <span class="material-symbols-outlined text-[var(--color-feature-included)] text-lg">
-                  check_circle
-                </span>
-              </Show>
-              <span>{feature.text}</span>
-              <Show when={feature.proBadge}>
-                <TierBadge tier="pro" size="sm" />
-              </Show>
-            </li>
-          )}
+                <Show
+                  when={isHighlighted()}
+                  fallback={
+                    <Show
+                      when={included()}
+                      fallback={
+                        <span class="material-symbols-outlined text-on-surface/40 text-lg">
+                          block
+                        </span>
+                      }
+                    >
+                      <span class="material-symbols-outlined text-tertiary text-lg">
+                        check_circle
+                      </span>
+                    </Show>
+                  }
+                >
+                  <span
+                    class="material-symbols-outlined text-primary-container text-lg"
+                    style={{ 'font-variation-settings': "'FILL' 1" }}
+                  >
+                    star
+                  </span>
+                </Show>
+                {feature.text}
+              </li>
+            );
+          }}
         </For>
       </ul>
 
-      {/* CTA */}
-      <button
-        type="button"
-        onClick={handleCta}
-        class={
-          isHighlighted()
-            ? 'w-full gold-gradient py-4 rounded-lg font-headline font-extrabold uppercase tracking-widest text-[#261900] shadow-[0_0_20px_rgba(240,191,92,0.3)] hover:shadow-[0_0_30px_rgba(240,191,92,0.45)] transition-shadow text-center text-sm border-none cursor-pointer'
-            : 'w-full border border-outline-variant/30 py-4 rounded-lg font-headline font-extrabold uppercase tracking-widest hover:bg-surface-container-highest transition-colors text-center text-sm bg-transparent cursor-pointer text-on-surface'
+      {/* CTA — downloads the desktop app. Pro upgrade happens in-app after login. */}
+      <Show
+        when={isHighlighted()}
+        fallback={
+          <span
+            class="w-full border border-outline-variant/30 py-4 rounded-lg font-headline font-extrabold uppercase tracking-widest text-center inline-block text-sm text-on-surface-variant/50 cursor-default select-none"
+          >
+            Coming Soon
+          </span>
         }
       >
-        {props.plan.ctaText}
-      </button>
-
-      {/* Trial explainer */}
-      <Show when={props.plan.trialExplainer}>
+        <span
+          class="w-full bg-surface-container-highest/60 border border-outline-variant/30 py-4 rounded-lg font-headline font-extrabold uppercase tracking-widest text-on-surface-variant/50 text-center inline-block text-sm cursor-default select-none"
+        >
+          Coming Soon
+        </span>
         <p class="text-xs text-on-surface-variant text-center mt-4">
-          {props.plan.trialExplainer}
+          Download will be available soon.
         </p>
       </Show>
     </div>
