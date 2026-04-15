@@ -113,9 +113,10 @@ export default function TermsPage() {
             </div>
             <div class="pl-12 text-on-surface-variant leading-relaxed space-y-4">
               <p>
-                LoL Sensei offers a free tier with a limited number of daily AI credits. For users who
-                require additional features and higher credit limits, a Pro subscription is available
-                at the current price listed on our website.
+                LoL Sensei offers a free tier with full access to non-AI features such as live game
+                detection, player statistics, and team composition tracking. For users who want
+                AI-powered coaching (champion select advice, item build recommendations, and game start
+                analysis), a Pro subscription is available at the current price listed on our website.
               </p>
               <p>
                 Pro subscriptions are billed monthly through Stripe, our third-party payment processor.

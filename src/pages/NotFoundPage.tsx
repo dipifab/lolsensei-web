@@ -1,16 +1,8 @@
 import { A } from '@solidjs/router';
-import { onMount } from 'solid-js';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-export default function CheckoutCancelPage() {
-  onMount(() => {
-    const meta = document.createElement('meta');
-    meta.name = 'robots';
-    meta.content = 'noindex';
-    document.head.appendChild(meta);
-  });
-
+export default function NotFoundPage() {
   return (
     <>
       <Navbar />
@@ -19,14 +11,13 @@ export default function CheckoutCancelPage() {
           class="material-symbols-outlined text-6xl text-on-surface-variant mb-6"
           style={{ "font-variation-settings": "'FILL' 1" }}
         >
-          cancel
+          explore_off
         </span>
         <h1 class="text-4xl md:text-5xl font-extrabold font-headline text-on-surface tracking-tight mb-6">
-          Payment <span class="text-primary">Cancelled</span>
+          Page <span class="text-primary">Not Found</span>
         </h1>
         <p class="text-on-surface-variant text-lg leading-relaxed mb-10">
-          Your payment was not completed. No charges were made.
-          You can try again anytime from the app.
+          The page you're looking for doesn't exist or has been moved.
         </p>
         <A
           href="/"

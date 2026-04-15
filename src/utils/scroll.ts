@@ -1,4 +1,4 @@
-export const NAVBAR_HEIGHT = 64;
+export const NAVBAR_HEIGHT = 80;
 
 export function scrollToSection(anchor: string): void {
   const element = document.querySelector(anchor);

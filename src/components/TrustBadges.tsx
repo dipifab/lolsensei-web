@@ -1,5 +1,5 @@
 import { For } from 'solid-js';
-import { TRUST_BADGES } from '../data/content';
+import { TRUST_BADGES, RIOT_DISCLAIMER } from '../data/content';
 
 export default function TrustBadges() {
   return (
@@ -18,7 +18,7 @@ export default function TrustBadges() {
           </For>
         </div>
         <p class="text-center text-[10px] uppercase tracking-widest text-on-surface-variant/40 max-w-3xl mx-auto">
-          LoL Sensei isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
+          {RIOT_DISCLAIMER}
         </p>
       </div>
     </section>

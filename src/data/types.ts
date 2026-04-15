@@ -11,13 +11,24 @@ export interface DownloadInfo {
   smartScreenNote: string;
 }
 
+export interface PricingFeature {
+  text: string;
+  included: boolean;
+  proBadge?: boolean;
+}
+
 export interface PricingPlan {
   name: string;
-  price: string | null;
-  period: string;
-  features: string[];
-  cta: string;
-  highlighted: boolean;
+  price: string;
+  originalPrice?: string;
+  period?: string;
+  subtitle?: string;
+  noCardRequired?: boolean;
+  promoBadge?: string;
+  trialExplainer?: string;
+  ctaText: string;
+  features: PricingFeature[];
+  highlighted?: boolean;
 }
 
 export interface ChangelogEntry {

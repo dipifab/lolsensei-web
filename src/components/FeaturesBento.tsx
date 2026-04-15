@@ -1,16 +1,21 @@
+import TierBadge from './TierBadge';
+
 export default function FeaturesBento() {
   return (
     <section class="py-32 px-8" id="features">
       <div class="max-w-7xl mx-auto">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
-          {/* Panel 1: Champ Select (7-col) */}
+          {/* Panel 1: Champ Select AI (7-col) */}
           <div class="lg:col-span-7 bg-surface-container-high rounded-xl p-8 border border-outline-variant/10 flex flex-col justify-between hex-bg">
             <div class="flex justify-between items-start mb-12">
               <div>
                 <span class="text-xs font-headline font-extrabold uppercase tracking-[0.2em] text-primary-container mb-2 block">Tactical Advantage</span>
                 <h3 class="text-3xl font-extrabold tracking-tight">Champion Select AI</h3>
               </div>
-              <span class="material-symbols-outlined text-primary-container text-3xl" style={{"font-variation-settings": "'FILL' 1"}}>smart_toy</span>
+              <div class="flex items-center gap-3">
+                <TierBadge tier="pro" />
+                <span class="material-symbols-outlined text-primary-container text-3xl" style={{"font-variation-settings": "'FILL' 1"}}>smart_toy</span>
+              </div>
             </div>
             <div class="grid grid-cols-3 gap-4 mb-8">
               <div class="glass-panel p-4 rounded-lg border border-outline-variant/10 text-center">
@@ -32,10 +37,13 @@ export default function FeaturesBento() {
             <p class="text-on-surface-variant font-medium">Analyzes your pool, not just meta picks. Find the perfect counter based on your history.</p>
           </div>
 
-          {/* Panel 2: Game Start (5-col) */}
+          {/* Panel 2: Game Start AI (5-col) */}
           <div class="lg:col-span-5 bg-surface-container-high rounded-xl p-8 border border-outline-variant/10 flex flex-col justify-between">
             <div>
-              <span class="material-symbols-outlined text-secondary text-3xl mb-6" style={{"font-variation-settings": "'FILL' 1"}}>strategy</span>
+              <div class="flex items-center justify-between mb-6">
+                <span class="material-symbols-outlined text-secondary text-3xl" style={{"font-variation-settings": "'FILL' 1"}}>strategy</span>
+                <TierBadge tier="pro" />
+              </div>
               <h3 class="text-3xl font-extrabold tracking-tight mb-4">Game Start Analysis</h3>
               <p class="text-on-surface-variant mb-8">Know your win conditions before minions spawn. Laning strategy and team comp breakdown at a glance.</p>
             </div>
@@ -51,11 +59,14 @@ export default function FeaturesBento() {
             </div>
           </div>
 
-          {/* Panel 3: Item Advisor (12-col) */}
+          {/* Panel 3: Item Advisor AI (12-col) */}
           <div class="lg:col-span-12 bg-surface-container rounded-xl border border-primary-container/20 overflow-hidden">
             <div class="grid grid-cols-1 md:grid-cols-2">
               <div class="p-10 md:p-16 flex flex-col justify-center">
-                <h3 class="text-4xl font-extrabold tracking-tight mb-6">In-Game Item Advisor</h3>
+                <div class="flex items-center gap-3 mb-6">
+                  <h3 class="text-4xl font-extrabold tracking-tight">In-Game Item Advisor</h3>
+                  <TierBadge tier="pro" />
+                </div>
                 <p class="text-on-surface-variant text-lg mb-10 leading-relaxed">
                   Reacts to gold diff and enemy builds in real-time. LoL Sensei adapts when the enemy Top-laner gets fed or the Jungler builds armor early.
                 </p>
@@ -85,6 +96,34 @@ export default function FeaturesBento() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+
+          {/* Panel 4: Live Stats Dashboard (Free) — 6-col */}
+          <div class="lg:col-span-6 bg-surface-container-high rounded-xl p-8 border border-outline-variant/10 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-6">
+                <span class="material-symbols-outlined text-tertiary text-3xl" style={{"font-variation-settings": "'FILL' 1"}}>monitoring</span>
+                <TierBadge tier="free" />
+              </div>
+              <h3 class="text-2xl font-extrabold tracking-tight mb-4">Live Stats Dashboard</h3>
+              <p class="text-on-surface-variant text-sm leading-relaxed">
+                Real-time player statistics, ranked data, and match history for everyone in your game. Always free, no account required.
+              </p>
+            </div>
+          </div>
+
+          {/* Panel 5: Game Detection (Free) — 6-col */}
+          <div class="lg:col-span-6 bg-surface-container-high rounded-xl p-8 border border-outline-variant/10 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-6">
+                <span class="material-symbols-outlined text-tertiary text-3xl" style={{"font-variation-settings": "'FILL' 1"}}>radar</span>
+                <TierBadge tier="free" />
+              </div>
+              <h3 class="text-2xl font-extrabold tracking-tight mb-4">Auto Game Detection</h3>
+              <p class="text-on-surface-variant text-sm leading-relaxed">
+                Automatically detects League of Legends and tracks game phases — champion select, loading, in-game — with zero configuration.
+              </p>
             </div>
           </div>
         </div>

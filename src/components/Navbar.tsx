@@ -1,10 +1,12 @@
 import { createSignal, createEffect, onMount, onCleanup, For, Show } from 'solid-js';
-import { A, useLocation } from '@solidjs/router';
-import { NAV_ITEMS, DOWNLOAD_INFO } from '../data/content';
+import { A, useLocation, useNavigate } from '@solidjs/router';
+import { NAV_ITEMS } from '../data/content';
+import { scrollToSection } from '../utils/scroll';
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = createSignal(false);
   const location = useLocation();
+  const navigate = useNavigate();
 
   onMount(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -21,7 +23,6 @@ export default function Navbar() {
     });
   });
 
-  // Focus trap: set inert on main/footer when mobile menu is open
   createEffect(() => {
     const main = document.querySelector('main');
     const footer = document.querySelector('footer');
@@ -45,6 +46,28 @@ export default function Navbar() {
     document.body.style.overflow = '';
   };
 
+  const scrollAfterNavigate = (anchor: string) => {
+    const tryScroll = (attempts: number) => {
+      const el = document.querySelector(anchor);
+      if (el) {
+        scrollToSection(anchor);
+      } else if (attempts > 0) {
+        requestAnimationFrame(() => tryScroll(attempts - 1));
+      }
+    };
+    tryScroll(20);
+  };
+
+  const handleNavClick = (anchor: string) => {
+    closeMenu();
+    if (location.pathname !== '/') {
+      navigate('/');
+      scrollAfterNavigate(anchor);
+    } else {
+      scrollToSection(anchor);
+    }
+  };
+
   return (
     <header
       class="fixed top-0 w-full z-50 bg-surface/60 backdrop-blur-xl border-b border-surface-container-highest/15"
@@ -53,42 +76,40 @@ export default function Navbar() {
         aria-label="Main navigation"
         class="flex justify-between items-center max-w-7xl mx-auto px-8 py-4"
       >
-        {/* Logo */}
-        <A
-          href="/"
-          class="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-primary-container to-primary font-headline uppercase tracking-widest"
-        >
-          LoL Sensei
+        {/* Logo — oversized for gaming brand prominence */}
+        <A href="/" class="flex items-center -my-4">
+          <img
+            src="/images/logo-512.png"
+            alt="LoL Sensei"
+            width="120"
+            height="120"
+            class="w-[72px] h-[72px] md:w-[120px] md:h-[120px] object-contain drop-shadow-[0_0_12px_rgba(240,191,92,0.4)]"
+          />
         </A>
 
         {/* Desktop links */}
         <div class="hidden md:flex items-center space-x-10 font-headline font-extrabold uppercase tracking-widest">
           <For each={NAV_ITEMS}>
             {(item) => (
-              <A
-                href={item.anchor}
-                class={`transition-all duration-300 ${
-                  location.pathname === item.anchor
-                    ? 'text-primary-container'
-                    : 'text-on-surface/70 hover:text-primary-container'
-                }`}
-                aria-current={
-                  location.pathname === item.anchor ? 'page' : undefined
-                }
+              <button
+                type="button"
+                onClick={() => handleNavClick(item.anchor)}
+                class="text-on-surface/70 hover:text-primary-container transition-all duration-300 bg-transparent border-none cursor-pointer"
               >
                 {item.label}
-              </A>
+              </button>
             )}
           </For>
         </div>
 
-        {/* CTA button (desktop) */}
-        <a
-          href={DOWNLOAD_INFO.url}
-          class="hidden md:inline-flex gold-gradient text-on-primary-fixed font-headline font-extrabold uppercase tracking-widest px-6 py-2.5 rounded-lg active:scale-90 transition-transform shadow-[0_0_15px_rgba(240,191,92,0.3)] hover:shadow-[0_0_20px_rgba(240,191,92,0.5)]"
+        {/* CTA button (desktop) — scrolls to #download */}
+        <button
+          type="button"
+          onClick={() => handleNavClick('#download')}
+          class="hidden md:inline-flex gold-gradient text-on-primary-fixed font-headline font-extrabold uppercase tracking-widest px-6 py-2.5 rounded-lg active:scale-90 transition-transform shadow-[0_0_15px_rgba(240,191,92,0.3)] hover:shadow-[0_0_20px_rgba(240,191,92,0.5)] border-none cursor-pointer"
         >
-          Download Free
-        </a>
+          Download
+        </button>
 
         {/* Mobile hamburger */}
         <button
@@ -139,33 +160,27 @@ export default function Navbar() {
       <Show when={menuOpen()}>
         <div
           id="mobile-menu"
-          class="fixed inset-0 top-16 glass-panel z-40 flex flex-col items-center justify-center gap-10 motion-safe:animate-[fade-in_200ms_ease-out]"
+          class="fixed inset-0 top-20 glass-panel z-40 flex flex-col items-center justify-center gap-10 motion-safe:animate-[fade-in_200ms_ease-out]"
         >
           <For each={NAV_ITEMS}>
             {(item) => (
-              <A
-                href={item.anchor}
-                onClick={closeMenu}
-                class={`text-2xl font-headline font-extrabold uppercase tracking-widest transition-all duration-300 min-h-11 flex items-center ${
-                  location.pathname === item.anchor
-                    ? 'text-primary-container'
-                    : 'text-on-surface/70 hover:text-primary-container'
-                }`}
-                aria-current={
-                  location.pathname === item.anchor ? 'page' : undefined
-                }
+              <button
+                type="button"
+                onClick={() => handleNavClick(item.anchor)}
+                class="text-2xl font-headline font-extrabold uppercase tracking-widest transition-all duration-300 min-h-11 flex items-center text-on-surface/70 hover:text-primary-container bg-transparent border-none cursor-pointer"
               >
                 {item.label}
-              </A>
+              </button>
             )}
           </For>
 
-          <a
-            href={DOWNLOAD_INFO.url}
-            class="gold-gradient text-on-primary-fixed font-headline font-extrabold uppercase tracking-widest px-6 py-2.5 rounded-lg active:scale-90 transition-transform shadow-[0_0_15px_rgba(240,191,92,0.3)] hover:shadow-[0_0_20px_rgba(240,191,92,0.5)]"
+          <button
+            type="button"
+            onClick={() => handleNavClick('#download')}
+            class="gold-gradient text-on-primary-fixed font-headline font-extrabold uppercase tracking-widest px-6 py-2.5 rounded-lg active:scale-90 transition-transform shadow-[0_0_15px_rgba(240,191,92,0.3)] hover:shadow-[0_0_20px_rgba(240,191,92,0.5)] border-none cursor-pointer"
           >
-            Download Free
-          </a>
+            Download
+          </button>
         </div>
       </Show>
     </header>

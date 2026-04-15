@@ -2,23 +2,28 @@ import type { FAQItem } from './types';
 
 export const FAQ_ITEMS: FAQItem[] = [
   {
-    question: 'Is LoL Sensei Riot Games compliant?',
-    answer: 'Absolutely. LoL Sensei operates as a non-intrusive live-overlay tool that strictly adheres to the Riot Games Developer API Terms of Service. We do not inject code into the game client or automate gameplay actions. Our AI analyzes data already available to players in the client, ensuring you maintain a fair competitive environment while gaining superior strategic insight.',
+    question: 'What can I do with the free version?',
+    answer:
+      'The free version gives you full access to live game detection, phase tracking, champion icons, team composition, player statistics, and multi-region support. There is no time limit — use it for as long as you want. AI-powered features (champion select advice, item build recommendations, and game start analysis) are available exclusively with the Pro plan.',
   },
   {
-    question: 'Can using the software lead to a ban?',
-    answer: 'No. Because we don\'t interact with the game\'s executable (no DLL injection, no memory manipulation), LoL Sensei is designed to be fully compatible with Vanguard\'s anti-cheat system. We prioritize account safety above all features.',
+    question: 'How does the free trial work?',
+    answer:
+      'When you upgrade to Pro, you get 3 days of full AI coaching for free. A credit card is required to start the trial. If you don\'t cancel before the trial ends, you\'ll be automatically charged EUR 7.99/month. You can cancel anytime from the app — no questions asked.',
   },
   {
-    question: 'Will it impact my FPS or system performance?',
-    answer: 'LoL Sensei is engineered with a zero-latency engine. Most of the AI heavy-lifting is performed on our remote servers. The local client uses less than 1% of CPU cycles and roughly 150MB of RAM, ensuring your frame rates remain stable even during chaotic teamfights.',
+    question: 'Is this safe to use with Riot Games?',
+    answer:
+      'Yes. LoL Sensei uses only the official Riot Games API and does not inject code, modify game files, or interact with the game client in any way. It operates as a read-only overlay, fully compliant with Riot\'s Developer API Terms of Service and compatible with Vanguard anti-cheat.',
   },
   {
-    question: 'What AI models are used for coaching?',
-    answer: 'We leverage advanced AI models with high-reasoning capabilities and low-latency processing. The system combines massive data-processing with specialized game-state decision trees for real-time analysis and natural language post-game debriefing.',
+    question: 'How do I cancel my subscription?',
+    answer:
+      'You can cancel your Pro subscription at any time directly from the app, which will redirect you to the Stripe billing portal. Cancellation is immediate — you\'ll keep access to Pro features until the end of your current billing period.',
   },
   {
-    question: 'How do credit limits work?',
-    answer: 'Pro members receive a daily allocation of AI credits. Each deep-dive AI review consumes 1 credit. Live basic overlays and match-up scouting are always available and do not consume credits. Free users get 1 credit per day, Pro users get 15 credits per day.',
+    question: 'What platforms are supported?',
+    answer:
+      'LoL Sensei is currently available for Windows 10 and Windows 11. The app is not code-signed yet, so Windows SmartScreen may show a security warning on first launch — click "More info" then "Run anyway" to proceed. macOS and Linux support is not planned at this time.',
   },
 ];

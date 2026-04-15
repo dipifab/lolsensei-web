@@ -3,56 +3,37 @@ import type { PricingPlan } from './types';
 export const PRICING_PLANS: PricingPlan[] = [
   {
     name: 'Free',
-    price: null,
-    period: '/mo',
+    price: '0',
+    subtitle: 'Free forever',
+    noCardRequired: true,
+    ctaText: 'Download Free',
     features: [
-      'Champion select advice',
-      'Game start strategy',
-      'Real-time item advisor',
+      { text: 'Live game detection', included: true },
+      { text: 'Phase tracking', included: true },
+      { text: 'Champion icons & team composition', included: true },
+      { text: 'Player statistics', included: true },
+      { text: 'Connection status', included: true },
+      { text: 'Multi-region support', included: true },
+      { text: 'AI Champion Select Advisor', included: false, proBadge: true },
+      { text: 'AI Item Build Advisor', included: false, proBadge: true },
+      { text: 'AI Game Start Analysis', included: false, proBadge: true },
     ],
-    cta: 'Continue for Free',
-    highlighted: false,
   },
   {
     name: 'Pro',
-    price: '€7.99',
-    period: '/mo',
-    features: [
-      'Champion select advice',
-      'Game start strategy',
-      'Real-time item advisor',
-      'Priority server access',
-    ],
-    cta: 'Unlock Pro Mastery',
+    price: '7.99',
+    originalPrice: '12.99',
+    period: '/month',
+    promoBadge: 'Launch Offer',
+    trialExplainer: '3 days free, then EUR 7.99/month. Cancel anytime.',
+    ctaText: 'Start Free Trial',
     highlighted: true,
-  },
-];
-
-export interface PerformanceFeature {
-  icon: string;
-  title: string;
-  description: string;
-  proExclusive?: boolean;
-}
-
-export const PERFORMANCE_FEATURES: PerformanceFeature[] = [
-  {
-    icon: 'groups',
-    title: 'Champion Select',
-    description:
-      'Adaptive drafting advice that reads your pool, the enemy comp, and meta shifts in real-time.',
-  },
-  {
-    icon: 'rocket_launch',
-    title: 'Early Game Plan',
-    description:
-      'Lane strategy and matchup insights so you know your win conditions before minions spawn.',
-  },
-  {
-    icon: 'shopping_cart',
-    title: 'Item Evolution',
-    description:
-      'Dynamic item builds that react to gold diff, enemy purchases, and game state as it unfolds.',
-    proExclusive: true,
+    features: [
+      { text: 'Everything in Free', included: true },
+      { text: 'AI Champion Select Advisor', included: true, proBadge: true },
+      { text: 'AI Item Build Advisor', included: true, proBadge: true },
+      { text: 'AI Game Start Analysis', included: true, proBadge: true },
+      { text: '15 AI credits/day', included: true },
+    ],
   },
 ];

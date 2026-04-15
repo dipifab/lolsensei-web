@@ -15,17 +15,36 @@ export default function Hero() {
             <span class="text-primary-container">Coaching</span> that Adapts
             to Your Game
           </h1>
-          <p class="text-xl text-on-surface-variant mb-10 max-w-lg leading-relaxed">
+          <p class="text-xl text-on-surface-variant mb-4 max-w-lg leading-relaxed">
             Stop relying on static databases. Get dynamic item and champion
             advice based on the live state of your match.
           </p>
-          <div class="flex flex-wrap gap-4">
+          <p class="text-sm text-on-surface-variant/60 mb-10 max-w-lg">
+            Free forever. Upgrade for AI coaching.
+          </p>
+
+          {/* Desktop CTAs */}
+          <div class="hidden md:flex flex-wrap gap-4">
             <a
               href={DOWNLOAD_INFO.url}
               class="gold-gradient px-8 py-4 rounded-lg font-headline font-extrabold text-[#261900] uppercase tracking-widest shadow-[0_0_20px_rgba(240,191,92,0.3)] hover:scale-105 motion-safe:transition-transform inline-flex items-center min-h-11 focus-visible:ring-2 focus-visible:ring-primary-container focus-visible:ring-offset-2 focus-visible:ring-offset-surface focus-visible:outline-none"
             >
               Download Free
             </a>
+            <button
+              type="button"
+              onClick={() => scrollToSection('#pricing')}
+              class="border border-outline-variant/30 hover:border-primary-container/50 px-8 py-4 rounded-lg font-headline font-extrabold text-secondary uppercase tracking-widest motion-safe:transition-all inline-flex items-center min-h-11 bg-transparent cursor-pointer focus-visible:ring-2 focus-visible:ring-primary-container focus-visible:ring-offset-2 focus-visible:ring-offset-surface focus-visible:outline-none"
+            >
+              View Pricing
+            </button>
+          </div>
+
+          {/* Mobile message */}
+          <div class="md:hidden">
+            <p class="text-on-surface-variant text-sm mb-4">
+              Available for Windows — visit from your PC to download.
+            </p>
             <button
               type="button"
               onClick={() => scrollToSection('#pricing')}

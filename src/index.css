@@ -42,6 +42,13 @@
   --color-outline: #9b8f7d;
   --color-outline-variant: #4e4637;
 
+  /* Pricing & Feature tokens */
+  --color-promo-badge-bg: #f0bf5c;
+  --color-strikethrough: #8a938f;
+  --color-success: #2ecc71;
+  --color-feature-included: #2ecc71;
+  --color-feature-locked: #8a938f;
+
   /* Inverse */
   --color-inverse-surface: #d6e6e2;
   --color-inverse-on-surface: #253331;
