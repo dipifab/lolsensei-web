@@ -51,15 +51,15 @@ export default function Pricing() {
                   </span>
                   <Show when={feat.proExclusive}>
                     <span class="text-[10px] font-headline font-extrabold uppercase tracking-widest text-primary-container border border-primary-container/30 px-2.5 py-1 rounded-full">
-                      Pro Exclusive
+                      {t('pricing.proExclusive')}
                     </span>
                   </Show>
                 </div>
                 <h3 class="text-xl font-bold tracking-tight mb-3">
-                  {feat.title}
+                  {t(feat.titleKey)}
                 </h3>
                 <p class="text-on-surface-variant text-sm leading-relaxed">
-                  {feat.description}
+                  {t(feat.descriptionKey)}
                 </p>
               </div>
             )}

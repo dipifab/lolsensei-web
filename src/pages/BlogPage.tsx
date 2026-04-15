@@ -8,6 +8,17 @@ import { useI18n } from '../i18n';
 import { usePageMeta } from '../utils/seo';
 import { getBlogPosts } from '../data/blog';
 
+const localeMap: Record<string, string> = {
+  en: 'en-US',
+  it: 'it-IT',
+  ko: 'ko-KR',
+  zh: 'zh-CN',
+  'pt-br': 'pt-BR',
+  es: 'es-ES',
+  fr: 'fr-FR',
+  de: 'de-DE',
+};
+
 export default function BlogPage() {
   const { t, locale } = useI18n();
   usePageMeta('blog', '/blog');
@@ -23,7 +34,7 @@ export default function BlogPage() {
 
   const formatDate = (iso: string) => {
     const date = new Date(iso);
-    return date.toLocaleDateString('en-US', {
+    return date.toLocaleDateString(localeMap[locale()] || 'en-US', {
       year: 'numeric',
       month: 'long',
       day: 'numeric',
@@ -91,7 +102,7 @@ export default function BlogPage() {
                     <time datetime={post.date}>{formatDate(post.date)}</time>
                     <span class="flex items-center gap-1">
                       <span class="material-symbols-outlined text-[14px]">schedule</span>
-                      {post.readingTime} min
+                      {post.readingTime} {t('blog.min')}
                     </span>
                   </div>
                 </div>

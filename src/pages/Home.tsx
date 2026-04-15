@@ -10,8 +10,10 @@ import FAQ from '../components/FAQ';
 import Changelog from '../components/Changelog';
 import Footer from '../components/Footer';
 import { usePageMeta } from '../utils/seo';
+import { useI18n } from '../i18n';
 
 export default function Home() {
+  const { t } = useI18n();
   usePageMeta('home', '/');
   return (
     <>
@@ -19,7 +21,7 @@ export default function Home() {
         href="#hero"
         class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[60] focus:bg-primary-container focus:text-on-primary-fixed focus:px-4 focus:py-2 focus:rounded-lg focus:font-semibold"
       >
-        Skip to content
+        {t('home.skipToContent')}
       </a>
       <Navbar />
       <main>

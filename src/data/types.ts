@@ -12,13 +12,13 @@ export interface DownloadInfo {
 }
 
 export interface PricingFeature {
-  text: string;
+  textKey: string;
   included: boolean;
   proBadge?: boolean;
 }
 
 export interface PricingPlan {
-  name: string;
+  nameKey: string;
   price: string;
   originalPrice?: string;
   period?: string;
@@ -26,7 +26,7 @@ export interface PricingPlan {
   noCardRequired?: boolean;
   promoBadge?: string;
   trialExplainer?: string;
-  ctaText: string;
+  ctaKey: string;
   features: PricingFeature[];
   highlighted?: boolean;
 }
@@ -50,12 +50,12 @@ export interface ComparisonRow {
 }
 
 export interface FAQItem {
-  question: string;
-  answer: string;
+  questionKey: string;
+  answerKey: string;
   category: 'safety' | 'howItWorks' | 'performance' | 'billing' | 'gettingStarted';
 }
 
 export interface TrustBadge {
   icon: string;
-  label: string;
+  labelKey: string;
 }

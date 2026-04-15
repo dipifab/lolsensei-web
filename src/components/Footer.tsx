@@ -32,7 +32,7 @@ export default function Footer() {
             class="text-on-surface/40 hover:text-primary-container transition-colors text-sm font-body tracking-tight"
           >
             GitHub
-            <span class="sr-only"> (opens in new tab)</span>
+            <span class="sr-only"> {t('common.opensNewTab')}</span>
           </a>
         </nav>
 

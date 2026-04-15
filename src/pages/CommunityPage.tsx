@@ -28,7 +28,7 @@ export default function CommunityPage() {
               {t('community.hero.label')}
             </span>
             <h1 class="text-6xl md:text-8xl font-extrabold font-headline text-on-surface tracking-tighter mb-8 leading-[0.9]">
-              LEARN TOGETHER, <span class="text-transparent bg-clip-text gold-gradient">GROW TOGETHER.</span>
+              {t('community.hero.titleMain')} <span class="text-transparent bg-clip-text gold-gradient">{t('community.hero.titleAccent')}</span>
             </h1>
             <p class="text-xl text-on-surface-variant max-w-2xl mx-auto mb-10 leading-relaxed font-medium">
               {t('community.hero.subtitle')}
@@ -42,7 +42,7 @@ export default function CommunityPage() {
               >
                 <span class="material-symbols-outlined">group_add</span>
                 {t('community.hero.cta.join')}
-                <span class="sr-only"> (opens in new tab)</span>
+                <span class="sr-only"> {t('common.opensNewTab')}</span>
               </a>
               <a
                 href="#clips"
@@ -70,16 +70,16 @@ export default function CommunityPage() {
               </div>
               <div class="grid grid-cols-3 gap-4 mb-12">
                 <div class="bg-surface-container-lowest p-4 rounded-lg">
-                  <span class="block text-primary font-extrabold text-3xl font-headline">Beta</span>
-                  <span class="text-[10px] uppercase tracking-widest text-on-surface-variant font-bold">Community Status</span>
+                  <span class="block text-primary font-extrabold text-3xl font-headline">{t('community.stats.beta')}</span>
+                  <span class="text-[10px] uppercase tracking-widest text-on-surface-variant font-bold">{t('community.stats.communityStatus')}</span>
                 </div>
                 <div class="bg-surface-container-lowest p-4 rounded-lg">
-                  <span class="block text-tertiary font-extrabold text-3xl font-headline">Open</span>
-                  <span class="text-[10px] uppercase tracking-widest text-on-surface-variant font-bold">Early Access</span>
+                  <span class="block text-tertiary font-extrabold text-3xl font-headline">{t('community.stats.open')}</span>
+                  <span class="text-[10px] uppercase tracking-widest text-on-surface-variant font-bold">{t('community.stats.earlyAccess')}</span>
                 </div>
                 <div class="bg-surface-container-lowest p-4 rounded-lg">
                   <span class="block text-secondary font-extrabold text-3xl font-headline">GitHub</span>
-                  <span class="text-[10px] uppercase tracking-widest text-on-surface-variant font-bold">Platform</span>
+                  <span class="text-[10px] uppercase tracking-widest text-on-surface-variant font-bold">{t('community.stats.platform')}</span>
                 </div>
               </div>
             </div>
@@ -97,7 +97,7 @@ export default function CommunityPage() {
                 class="text-primary font-headline font-bold text-sm hover:underline underline-offset-4"
               >
                 {t('community.hq.connectGithub')} →
-                <span class="sr-only"> (opens in new tab)</span>
+                <span class="sr-only"> {t('common.opensNewTab')}</span>
               </a>
             </div>
           </div>
@@ -116,10 +116,10 @@ export default function CommunityPage() {
                   <span class="material-symbols-outlined text-primary" style={{ "font-variation-settings": "'FILL' 1" }}>workspace_premium</span>
                 </div>
                 <div class="flex-grow">
-                  <div class="text-on-surface font-bold font-headline">Top contributor</div>
-                  <div class="text-on-surface-variant text-xs font-medium">Beta tester</div>
+                  <div class="text-on-surface font-bold font-headline">{t('community.contributors.topContributor')}</div>
+                  <div class="text-on-surface-variant text-xs font-medium">{t('community.contributors.betaTester')}</div>
                 </div>
-                <div class="text-tertiary text-xs font-bold">PRO</div>
+                <div class="text-tertiary text-xs font-bold">{t('tier.pro')}</div>
               </div>
               {/* Rank 2 */}
               <div class="flex items-center gap-4 p-4 rounded-lg">
@@ -128,10 +128,10 @@ export default function CommunityPage() {
                   <span class="material-symbols-outlined text-outline-variant">shield</span>
                 </div>
                 <div class="flex-grow">
-                  <div class="text-on-surface font-bold font-headline">Community moderator</div>
-                  <div class="text-on-surface-variant text-xs font-medium">Beta tester</div>
+                  <div class="text-on-surface font-bold font-headline">{t('community.contributors.moderator')}</div>
+                  <div class="text-on-surface-variant text-xs font-medium">{t('community.contributors.betaTester')}</div>
                 </div>
-                <div class="text-tertiary text-xs font-bold">PRO</div>
+                <div class="text-tertiary text-xs font-bold">{t('tier.pro')}</div>
               </div>
               {/* Rank 3 */}
               <div class="flex items-center gap-4 p-4 rounded-lg">
@@ -140,10 +140,10 @@ export default function CommunityPage() {
                   <span class="material-symbols-outlined text-outline-variant">shield</span>
                 </div>
                 <div class="flex-grow">
-                  <div class="text-on-surface font-bold font-headline">Bug reporter</div>
-                  <div class="text-on-surface-variant text-xs font-medium">Beta tester</div>
+                  <div class="text-on-surface font-bold font-headline">{t('community.contributors.bugReporter')}</div>
+                  <div class="text-on-surface-variant text-xs font-medium">{t('community.contributors.betaTester')}</div>
                 </div>
-                <div class="text-tertiary text-xs font-bold">FREE</div>
+                <div class="text-tertiary text-xs font-bold">{t('tier.free')}</div>
               </div>
             </div>
             <a
@@ -152,8 +152,8 @@ export default function CommunityPage() {
               rel="noopener noreferrer"
               class="block w-full mt-8 py-3 rounded border border-outline-variant/20 text-on-surface-variant font-headline font-bold text-sm hover:text-primary hover:border-primary/40 transition-all text-center"
             >
-              VIEW CONTRIBUTORS
-              <span class="sr-only"> (opens in new tab)</span>
+              {t('community.contributors.viewAll')}
+              <span class="sr-only"> {t('common.opensNewTab')}</span>
             </a>
           </div>
 
@@ -174,10 +174,10 @@ export default function CommunityPage() {
                 </div>
                 <div class="absolute bottom-4 left-4 right-4">
                   <div class="flex items-center gap-2 mb-1">
-                    <span class="px-2 py-0.5 bg-error text-[10px] font-extrabold rounded text-on-error uppercase">Pentakill</span>
-                    <span class="text-[10px] text-on-surface/60 font-bold uppercase tracking-widest">Featured</span>
+                    <span class="px-2 py-0.5 bg-error text-[10px] font-extrabold rounded text-on-error uppercase">{t('community.clips.pentakill')}</span>
+                    <span class="text-[10px] text-on-surface/60 font-bold uppercase tracking-widest">{t('community.clips.featured')}</span>
                   </div>
-                  <h3 class="text-on-surface font-extrabold font-headline group-hover:text-primary transition-colors">The Perfect Insec Play</h3>
+                  <h3 class="text-on-surface font-extrabold font-headline group-hover:text-primary transition-colors">{t('community.clips.clip1Title')}</h3>
                 </div>
               </div>
               {/* Clip 2 */}
@@ -191,10 +191,10 @@ export default function CommunityPage() {
                 </div>
                 <div class="absolute bottom-4 left-4 right-4">
                   <div class="flex items-center gap-2 mb-1">
-                    <span class="px-2 py-0.5 bg-secondary text-[10px] font-extrabold rounded text-on-secondary uppercase">Outplay</span>
-                    <span class="text-[10px] text-on-surface/60 font-bold uppercase tracking-widest">Community</span>
+                    <span class="px-2 py-0.5 bg-secondary text-[10px] font-extrabold rounded text-on-secondary uppercase">{t('community.clips.outplay')}</span>
+                    <span class="text-[10px] text-on-surface/60 font-bold uppercase tracking-widest">{t('community.clips.communityLabel')}</span>
                   </div>
-                  <h3 class="text-on-surface font-extrabold font-headline group-hover:text-primary transition-colors">1HP Survival via Sensei Prediction</h3>
+                  <h3 class="text-on-surface font-extrabold font-headline group-hover:text-primary transition-colors">{t('community.clips.clip2Title')}</h3>
                 </div>
               </div>
               {/* Clip 3 */}
@@ -208,10 +208,10 @@ export default function CommunityPage() {
                 </div>
                 <div class="absolute bottom-4 left-4 right-4">
                   <div class="flex items-center gap-2 mb-1">
-                    <span class="px-2 py-0.5 bg-tertiary text-[10px] font-extrabold rounded text-on-tertiary uppercase">Strategy</span>
-                    <span class="text-[10px] text-on-surface/60 font-bold uppercase tracking-widest">Guide</span>
+                    <span class="px-2 py-0.5 bg-tertiary text-[10px] font-extrabold rounded text-on-tertiary uppercase">{t('community.clips.strategy')}</span>
+                    <span class="text-[10px] text-on-surface/60 font-bold uppercase tracking-widest">{t('community.clips.guide')}</span>
                   </div>
-                  <h3 class="text-on-surface font-extrabold font-headline group-hover:text-primary transition-colors">Full Baron Steal Strategy</h3>
+                  <h3 class="text-on-surface font-extrabold font-headline group-hover:text-primary transition-colors">{t('community.clips.clip3Title')}</h3>
                 </div>
               </div>
             </div>

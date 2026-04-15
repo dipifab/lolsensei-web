@@ -1,4 +1,5 @@
 import { For } from 'solid-js';
+import { useI18n } from '../i18n';
 
 interface ChangelogEntryProps {
   version: string;
@@ -6,10 +7,25 @@ interface ChangelogEntryProps {
   changes: string[];
 }
 
+const LOCALE_INTL_MAP: Record<string, string> = {
+  en: 'en-US',
+  it: 'it-IT',
+  ko: 'ko-KR',
+  zh: 'zh-CN',
+  'pt-br': 'pt-BR',
+  es: 'es-ES',
+  fr: 'fr-FR',
+  de: 'de-DE',
+};
+
 export default function ChangelogEntry(props: ChangelogEntryProps) {
+  const { locale } = useI18n();
+
+  const intlLocale = () => LOCALE_INTL_MAP[locale()] || 'en-US';
+
   const formattedDate = () => {
     const d = new Date(props.date + 'T00:00:00');
-    return d.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+    return d.toLocaleDateString(intlLocale(), { month: 'long', year: 'numeric' });
   };
 
   return (

@@ -20,7 +20,7 @@ export default function FeaturesPage() {
                 {t('features.hero.label')}
               </span>
               <h1 class="text-6xl md:text-8xl font-headline font-extrabold tracking-tighter leading-[0.9] text-on-surface mb-8">
-                UNDERSTAND EVERY <span class="text-primary-container">PHASE.</span>
+                {t('features.hero.titleMain')} <span class="text-primary-container">{t('features.hero.titleAccent')}</span>
               </h1>
               <p class="text-xl text-on-surface-variant/80 max-w-xl leading-relaxed">
                 {t('features.hero.subtitle')}
@@ -50,24 +50,24 @@ export default function FeaturesPage() {
                         <span class="material-symbols-outlined text-primary" style={{ "font-variation-settings": "'FILL' 1" }}>groups</span>
                       </div>
                       <div>
-                        <div class="text-xs text-on-surface-variant font-bold tracking-widest uppercase">Team Analysis</div>
-                        <div class="text-sm font-bold text-primary">Synergy: 84%</div>
+                        <div class="text-xs text-on-surface-variant font-bold tracking-widest uppercase">{t('features.mockup.teamAnalysis')}</div>
+                        <div class="text-sm font-bold text-primary">{t('features.mockup.synergy')}: 84%</div>
                       </div>
                     </div>
                     <div class="text-right">
-                      <div class="text-[10px] text-tertiary font-bold tracking-widest uppercase">Ideal Pick</div>
+                      <div class="text-[10px] text-tertiary font-bold tracking-widest uppercase">{t('features.mockup.idealPick')}</div>
                       <div class="text-lg font-headline font-extrabold uppercase italic">Ornn</div>
                     </div>
                   </div>
                   <div class="space-y-4">
                     <div class="bg-surface-container-lowest p-4 rounded-lg flex items-center justify-between">
-                      <span class="text-sm font-medium">Frontline Density</span>
+                      <span class="text-sm font-medium">{t('features.mockup.frontlineDensity')}</span>
                       <div class="w-32 h-1.5 bg-surface-container-highest rounded-full overflow-hidden">
                         <div class="w-[75%] h-full gold-gradient" />
                       </div>
                     </div>
                     <div class="bg-surface-container-lowest p-4 rounded-lg flex items-center justify-between">
-                      <span class="text-sm font-medium">Magic/Phys Split</span>
+                      <span class="text-sm font-medium">{t('features.mockup.magicPhysSplit')}</span>
                       <div class="flex w-32 h-1.5 rounded-full overflow-hidden">
                         <div class="w-[60%] h-full bg-secondary" />
                         <div class="w-[40%] h-full bg-error" />
@@ -116,11 +116,11 @@ export default function FeaturesPage() {
                 <div class="grid grid-cols-2 gap-4">
                   <div class="bg-surface-container p-6 rounded-xl border-l-2 border-primary-container">
                     <div class="text-2xl font-extrabold text-primary mb-1">LVL 6</div>
-                    <div class="text-xs uppercase tracking-wider text-on-surface-variant">Key Timing Window</div>
+                    <div class="text-xs uppercase tracking-wider text-on-surface-variant">{t('features.mockup.keyTiming')}</div>
                   </div>
                   <div class="bg-surface-container p-6 rounded-xl border-l-2 border-secondary">
                     <div class="text-2xl font-extrabold text-secondary mb-1">Split</div>
-                    <div class="text-xs uppercase tracking-wider text-on-surface-variant">Win Condition</div>
+                    <div class="text-xs uppercase tracking-wider text-on-surface-variant">{t('features.mockup.winCondition')}</div>
                   </div>
                 </div>
               </div>
@@ -144,15 +144,15 @@ export default function FeaturesPage() {
                   />
                   <div class="mt-6 flex justify-between">
                     <div class="text-center px-4">
-                      <div class="text-xs text-on-surface-variant uppercase mb-1">Early Game</div>
+                      <div class="text-xs text-on-surface-variant uppercase mb-1">{t('features.mockup.earlyGame')}</div>
                       <div class="w-12 h-1 bg-tertiary-container rounded-full" />
                     </div>
                     <div class="text-center px-4">
-                      <div class="text-xs text-on-surface-variant uppercase mb-1">Mid Game</div>
+                      <div class="text-xs text-on-surface-variant uppercase mb-1">{t('features.mockup.midGame')}</div>
                       <div class="w-12 h-1 bg-primary-container rounded-full" />
                     </div>
                     <div class="text-center px-4">
-                      <div class="text-xs text-on-surface-variant uppercase mb-1">Late Game</div>
+                      <div class="text-xs text-on-surface-variant uppercase mb-1">{t('features.mockup.lateGame')}</div>
                       <div class="w-12 h-1 bg-outline-variant rounded-full" />
                     </div>
                   </div>
@@ -212,7 +212,7 @@ export default function FeaturesPage() {
           <div class="absolute inset-0 bg-primary/5 pointer-events-none" />
           <div class="max-w-4xl mx-auto px-8 text-center relative z-10">
             <h2 class="text-5xl md:text-7xl font-headline font-extrabold tracking-tighter mb-10 leading-tight">
-              READY TO START <br />
+              {t('features.cta.titleMain')} <br />
               <span class="text-primary-container">{t('features.cta.highlight')}</span>
             </h2>
             <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">

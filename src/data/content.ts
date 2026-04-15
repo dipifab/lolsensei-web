@@ -43,11 +43,14 @@ export const COMPARISON_ROWS: ComparisonRow[] = [
 ];
 
 export const TRUST_BADGES: TrustBadge[] = [
-  { icon: 'verified_user', label: 'Riot API Compliant' },
-  { icon: 'speed', label: '0 FPS Impact' },
-  { icon: 'gavel', label: 'No Banned Features' },
-  { icon: 'diversity_3', label: 'For All Skill Levels' },
+  { icon: 'verified_user', labelKey: 'trust.riotCompliant' },
+  { icon: 'speed', labelKey: 'trust.zeroFps' },
+  { icon: 'gavel', labelKey: 'trust.noBanned' },
+  { icon: 'diversity_3', labelKey: 'trust.allLevels' },
 ];
 
+export const RIOT_DISCLAIMER_KEY = 'trust.riotDisclaimer';
+
+/** @deprecated Use RIOT_DISCLAIMER_KEY with t() instead. Kept for backward compatibility during i18n migration. */
 export const RIOT_DISCLAIMER =
   "LoL Sensei isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.";

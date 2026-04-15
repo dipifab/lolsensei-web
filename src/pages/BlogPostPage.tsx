@@ -8,6 +8,17 @@ import { useI18n } from '../i18n';
 import { usePageMeta } from '../utils/seo';
 import { getBlogPost, getBlogPosts } from '../data/blog';
 
+const localeMap: Record<string, string> = {
+  en: 'en-US',
+  it: 'it-IT',
+  ko: 'ko-KR',
+  zh: 'zh-CN',
+  'pt-br': 'pt-BR',
+  es: 'es-ES',
+  fr: 'fr-FR',
+  de: 'de-DE',
+};
+
 export default function BlogPostPage() {
   const params = useParams<{ lang: string; slug: string }>();
   const { t, locale } = useI18n();
@@ -24,7 +35,7 @@ export default function BlogPostPage() {
 
   const formatDate = (iso: string) => {
     const date = new Date(iso);
-    return date.toLocaleDateString('en-US', {
+    return date.toLocaleDateString(localeMap[locale()] || 'en-US', {
       year: 'numeric',
       month: 'long',
       day: 'numeric',
@@ -85,7 +96,7 @@ export default function BlogPostPage() {
                 </time>
                 <span class="flex items-center gap-2">
                   <span class="material-symbols-outlined text-[16px]">schedule</span>
-                  {currentPost().readingTime} min read
+                  {currentPost().readingTime} {t('blog.minRead')}
                 </span>
               </div>
             </header>
@@ -134,7 +145,7 @@ export default function BlogPostPage() {
                         </p>
                         <div class="flex items-center justify-between text-xs text-on-surface-variant/50">
                           <time datetime={related.date}>{formatDate(related.date)}</time>
-                          <span>{related.readingTime} min</span>
+                          <span>{related.readingTime} {t('blog.min')}</span>
                         </div>
                       </A>
                     )}

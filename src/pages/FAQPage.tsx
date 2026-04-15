@@ -65,7 +65,7 @@ export default function FAQPage() {
                 >
                   verified_user
                 </span>
-                <span class="text-sm font-bold font-headline text-primary">RIOT COMPLIANT</span>
+                <span class="text-sm font-bold font-headline text-primary">{t('trust.riotCompliant')}</span>
               </div>
               <p class="text-xs text-on-surface-variant uppercase tracking-widest">
                 {t('faq.hero.badge')}
@@ -108,14 +108,14 @@ export default function FAQPage() {
                         {String(index() + 1).padStart(2, '0')}
                       </span>
                       <h3 class={`text-xl md:text-2xl font-bold font-headline transition-colors ${isOpen(index()) ? 'text-primary' : ''}`}>
-                        {faq.question}
+                        {t(faq.questionKey)}
                       </h3>
                     </div>
                     <span class={`material-symbols-outlined transition-transform duration-300 ${isOpen(index()) ? 'rotate-180 text-primary' : 'text-outline-variant'}`}>expand_more</span>
                   </button>
                   <Show when={isOpen(index())}>
                     <div class="mt-2 pl-16 pr-8 pb-6 text-on-surface-variant leading-relaxed">
-                      <p>{faq.answer}</p>
+                      <p>{t(faq.answerKey)}</p>
                     </div>
                   </Show>
                 </div>
@@ -140,7 +140,7 @@ export default function FAQPage() {
                 class="px-8 py-4 border border-outline-variant/30 rounded-lg hover:bg-surface-container-highest transition-all font-bold"
               >
                 {t('faq.contact.cta.community')}
-                <span class="sr-only"> (opens in new tab)</span>
+                <span class="sr-only"> {t('common.opensNewTab')}</span>
               </a>
               <a
                 href="https://github.com/dipifab/lolai"
@@ -149,7 +149,7 @@ export default function FAQPage() {
                 class="px-8 py-4 gold-gradient text-on-primary-fixed rounded-lg font-bold shadow-lg"
               >
                 {t('faq.contact.cta.github')}
-                <span class="sr-only"> (opens in new tab)</span>
+                <span class="sr-only"> {t('common.opensNewTab')}</span>
               </a>
             </div>
           </div>

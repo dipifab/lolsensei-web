@@ -2,25 +2,25 @@ import type { PricingPlan } from './types';
 
 export const PRICING_PLANS: PricingPlan[] = [
   {
-    name: 'Free',
+    nameKey: 'pricing.free.name',
     price: '€0',
-    ctaText: 'Start Learning Free',
+    ctaKey: 'pricing.free.cta',
     features: [
-      { text: 'Champion select coaching', included: true },
-      { text: 'Game start strategy guide', included: true },
-      { text: 'Real-time build advisor', included: true },
+      { textKey: 'pricing.free.feature1', included: true },
+      { textKey: 'pricing.free.feature2', included: true },
+      { textKey: 'pricing.free.feature3', included: true },
     ],
   },
   {
-    name: 'Pro',
+    nameKey: 'pricing.pro.name',
     price: '€7.99',
     period: '/mo',
-    ctaText: 'Upgrade Your Learning',
+    ctaKey: 'pricing.pro.cta',
     features: [
-      { text: 'Champion select coaching', included: true },
-      { text: 'Game start strategy guide', included: true },
-      { text: 'Real-time build advisor', included: true },
-      { text: 'Priority server access', included: true, proBadge: true },
+      { textKey: 'pricing.pro.feature1', included: true },
+      { textKey: 'pricing.pro.feature2', included: true },
+      { textKey: 'pricing.pro.feature3', included: true },
+      { textKey: 'pricing.pro.feature4', included: true, proBadge: true },
     ],
     highlighted: true,
   },
@@ -28,29 +28,26 @@ export const PRICING_PLANS: PricingPlan[] = [
 
 export interface PerformanceFeature {
   icon: string;
-  title: string;
-  description: string;
+  titleKey: string;
+  descriptionKey: string;
   proExclusive?: boolean;
 }
 
 export const PERFORMANCE_FEATURES: PerformanceFeature[] = [
   {
     icon: 'groups',
-    title: 'Champion Select',
-    description:
-      'Understand your draft with AI coaching that reads your pool, the enemy comp, and current meta.',
+    titleKey: 'pricing.performance.champSelect.title',
+    descriptionKey: 'pricing.performance.champSelect.description',
   },
   {
     icon: 'rocket_launch',
-    title: 'Early Game Guide',
-    description:
-      'Learn your lane matchup and win conditions so you start every game with a clear plan.',
+    titleKey: 'pricing.performance.earlyGame.title',
+    descriptionKey: 'pricing.performance.earlyGame.description',
   },
   {
     icon: 'shopping_cart',
-    title: 'Build Advisor',
-    description:
-      'Understand why items change based on gold difference, enemy purchases, and evolving game state.',
+    titleKey: 'pricing.performance.itemEvolution.title',
+    descriptionKey: 'pricing.performance.itemEvolution.description',
     proExclusive: true,
   },
 ];

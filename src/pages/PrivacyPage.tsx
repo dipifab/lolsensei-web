@@ -1,9 +1,12 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { usePageMeta } from '../utils/seo';
+import { useI18n } from '../i18n';
 
 export default function PrivacyPage() {
   usePageMeta('privacy', '/privacy');
+  const { t } = useI18n();
+
   return (
     <>
       <Navbar />
@@ -11,17 +14,16 @@ export default function PrivacyPage() {
         {/* Hero Section */}
         <header class="mb-20 max-w-3xl">
           <span class="tracking-wider uppercase text-xs text-primary-container font-medium mb-4 block">
-            Legal
+            {t('privacy.label')}
           </span>
           <h1 class="text-5xl md:text-7xl font-extrabold font-headline text-on-surface tracking-tight leading-none mb-6">
-            Privacy <span class="text-primary">Policy</span>
+            {t('privacy.title')} <span class="text-primary">{t('privacy.titleHighlight')}</span>
           </h1>
           <p class="text-on-surface-variant text-lg leading-relaxed">
-            Your privacy matters. This policy explains what data LoL Sensei collects,
-            how we use it, and your rights regarding your personal information.
+            {t('privacy.intro')}
           </p>
           <p class="text-on-surface-variant/60 text-sm mt-4">
-            Last updated: April 2026
+            {t('privacy.lastUpdated')}
           </p>
         </header>
 
@@ -31,80 +33,74 @@ export default function PrivacyPage() {
           {/* Section: Introduction */}
           <section class="pb-10 mb-10 border-b border-outline-variant/10">
             <h2 class="text-2xl md:text-3xl font-extrabold font-headline text-on-surface mb-4">
-              Introduction
+              {t('privacy.introduction.title')}
             </h2>
             <p class="text-on-surface-variant leading-relaxed mb-4">
-              LoL Sensei is operated by Fabrizio Di Pietro ("we", "us", "our"). This Privacy Policy
-              describes how we collect, use, and protect your personal information when you use the
-              LoL Sensei desktop application and related services.
+              {t('privacy.introduction.p1')}
             </p>
             <p class="text-on-surface-variant leading-relaxed">
-              By using LoL Sensei, you agree to the collection and use of information in accordance
-              with this policy. If you have questions, contact us at{' '}
+              {t('privacy.introduction.p2.before')}{' '}
               <a href="mailto:privacy@lolsensei.com" class="text-primary hover:underline">
                 privacy@lolsensei.com
-              </a>.
+              </a>
+              {t('privacy.introduction.p2.after')}
             </p>
           </section>
 
           {/* Section: Data We Collect */}
           <section class="pb-10 mb-10 border-b border-outline-variant/10">
             <h2 class="text-2xl md:text-3xl font-extrabold font-headline text-on-surface mb-4">
-              Data We Collect
+              {t('privacy.dataCollect.title')}
             </h2>
             <p class="text-on-surface-variant leading-relaxed mb-6">
-              We collect the following categories of information to provide and improve our service:
+              {t('privacy.dataCollect.intro')}
             </p>
 
             <div class="space-y-6">
               <div class="bg-surface-container-high p-6 rounded-xl">
                 <h3 class="text-primary text-xs uppercase tracking-widest mb-2 font-bold">
-                  Account Information
+                  {t('privacy.dataCollect.account.title')}
                 </h3>
                 <p class="text-on-surface-variant text-sm leading-relaxed">
-                  Google account details (email address and display name) used for authentication
-                  and account creation.
+                  {t('privacy.dataCollect.account.description')}
                 </p>
               </div>
 
               <div class="bg-surface-container-high p-6 rounded-xl">
                 <h3 class="text-primary text-xs uppercase tracking-widest mb-2 font-bold">
-                  League of Legends Data
+                  {t('privacy.dataCollect.lol.title')}
                 </h3>
                 <p class="text-on-surface-variant text-sm leading-relaxed">
-                  Summoner name, region, ranked statistics, and match history retrieved through
-                  the Riot Games API to power game analysis features.
+                  {t('privacy.dataCollect.lol.description')}
                 </p>
               </div>
 
               <div class="bg-surface-container-high p-6 rounded-xl">
                 <h3 class="text-primary text-xs uppercase tracking-widest mb-2 font-bold">
-                  Gameplay Session Data
+                  {t('privacy.dataCollect.gameplay.title')}
                 </h3>
                 <p class="text-on-surface-variant text-sm leading-relaxed">
-                  Champion selections, item builds, and game outcomes collected during active
-                  gameplay sessions for AI-powered analysis and coaching recommendations.
+                  {t('privacy.dataCollect.gameplay.description')}
                 </p>
               </div>
 
               <div class="bg-surface-container-high p-6 rounded-xl">
                 <h3 class="text-primary text-xs uppercase tracking-widest mb-2 font-bold">
-                  Subscription &amp; Payment Data
+                  {t('privacy.dataCollect.payment.title')}
                 </h3>
                 <p class="text-on-surface-variant text-sm leading-relaxed">
-                  Payment transactions are processed by Stripe. We receive subscription status and
-                  transaction identifiers but <span class="text-secondary font-medium">never store
-                  credit card numbers</span> on our servers.
+                  {t('privacy.dataCollect.payment.description.before')}{' '}
+                  <span class="text-secondary font-medium">{t('privacy.dataCollect.payment.description.highlight')}</span>{' '}
+                  {t('privacy.dataCollect.payment.description.after')}
                 </p>
               </div>
 
               <div class="bg-surface-container-high p-6 rounded-xl">
                 <h3 class="text-primary text-xs uppercase tracking-widest mb-2 font-bold">
-                  Usage Analytics
+                  {t('privacy.dataCollect.analytics.title')}
                 </h3>
                 <p class="text-on-surface-variant text-sm leading-relaxed">
-                  Feature usage patterns and error logs collected to diagnose issues and improve
-                  service reliability.
+                  {t('privacy.dataCollect.analytics.description')}
                 </p>
               </div>
             </div>
@@ -113,7 +109,7 @@ export default function PrivacyPage() {
           {/* Section: How We Use Your Data */}
           <section class="pb-10 mb-10 border-b border-outline-variant/10">
             <h2 class="text-2xl md:text-3xl font-extrabold font-headline text-on-surface mb-4">
-              How We Use Your Data
+              {t('privacy.howWeUse.title')}
             </h2>
             <ul class="space-y-4">
               <li class="flex items-start gap-3">
@@ -124,8 +120,8 @@ export default function PrivacyPage() {
                   psychology
                 </span>
                 <p class="text-on-surface-variant leading-relaxed">
-                  <span class="text-on-surface font-medium">AI analysis and recommendations</span>{' '}
-                  &mdash; Providing real-time and post-game coaching powered by your gameplay data.
+                  <span class="text-on-surface font-medium">{t('privacy.howWeUse.ai.label')}</span>{' '}
+                  &mdash; {t('privacy.howWeUse.ai.description')}
                 </p>
               </li>
               <li class="flex items-start gap-3">
@@ -136,8 +132,8 @@ export default function PrivacyPage() {
                   tune
                 </span>
                 <p class="text-on-surface-variant leading-relaxed">
-                  <span class="text-on-surface font-medium">Personalized coaching</span>{' '}
-                  &mdash; Tailoring recommendations based on your player history, champion pool, and rank.
+                  <span class="text-on-surface font-medium">{t('privacy.howWeUse.coaching.label')}</span>{' '}
+                  &mdash; {t('privacy.howWeUse.coaching.description')}
                 </p>
               </li>
               <li class="flex items-start gap-3">
@@ -148,8 +144,8 @@ export default function PrivacyPage() {
                   credit_card
                 </span>
                 <p class="text-on-surface-variant leading-relaxed">
-                  <span class="text-on-surface font-medium">Payment processing</span>{' '}
-                  &mdash; Managing subscriptions and transactions through Stripe.
+                  <span class="text-on-surface font-medium">{t('privacy.howWeUse.payment.label')}</span>{' '}
+                  &mdash; {t('privacy.howWeUse.payment.description')}
                 </p>
               </li>
               <li class="flex items-start gap-3">
@@ -160,8 +156,8 @@ export default function PrivacyPage() {
                   trending_up
                 </span>
                 <p class="text-on-surface-variant leading-relaxed">
-                  <span class="text-on-surface font-medium">Service improvement</span>{' '}
-                  &mdash; Enhancing service quality, fixing bugs, and improving our AI models.
+                  <span class="text-on-surface font-medium">{t('privacy.howWeUse.improvement.label')}</span>{' '}
+                  &mdash; {t('privacy.howWeUse.improvement.description')}
                 </p>
               </li>
             </ul>
@@ -170,35 +166,34 @@ export default function PrivacyPage() {
           {/* Section: Third-Party Services */}
           <section class="pb-10 mb-10 border-b border-outline-variant/10">
             <h2 class="text-2xl md:text-3xl font-extrabold font-headline text-on-surface mb-4">
-              Third-Party Services
+              {t('privacy.thirdParty.title')}
             </h2>
             <p class="text-on-surface-variant leading-relaxed mb-6">
-              LoL Sensei integrates with the following third-party services, each governed by their
-              own privacy policies:
+              {t('privacy.thirdParty.intro')}
             </p>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div class="bg-surface-container-high p-5 rounded-xl">
-                <h3 class="text-on-surface font-bold font-headline text-sm mb-1">Riot Games API</h3>
+                <h3 class="text-on-surface font-bold font-headline text-sm mb-1">{t('privacy.thirdParty.riot.title')}</h3>
                 <p class="text-on-surface-variant text-sm leading-relaxed">
-                  Game data retrieval, subject to the Riot Games API Terms of Service.
+                  {t('privacy.thirdParty.riot.description')}
                 </p>
               </div>
               <div class="bg-surface-container-high p-5 rounded-xl">
-                <h3 class="text-on-surface font-bold font-headline text-sm mb-1">Google OAuth</h3>
+                <h3 class="text-on-surface font-bold font-headline text-sm mb-1">{t('privacy.thirdParty.google.title')}</h3>
                 <p class="text-on-surface-variant text-sm leading-relaxed">
-                  Secure authentication, subject to Google's Privacy Policy.
+                  {t('privacy.thirdParty.google.description')}
                 </p>
               </div>
               <div class="bg-surface-container-high p-5 rounded-xl">
-                <h3 class="text-on-surface font-bold font-headline text-sm mb-1">Stripe</h3>
+                <h3 class="text-on-surface font-bold font-headline text-sm mb-1">{t('privacy.thirdParty.stripe.title')}</h3>
                 <p class="text-on-surface-variant text-sm leading-relaxed">
-                  Payment processing, subject to the Stripe Privacy Policy.
+                  {t('privacy.thirdParty.stripe.description')}
                 </p>
               </div>
               <div class="bg-surface-container-high p-5 rounded-xl">
-                <h3 class="text-on-surface font-bold font-headline text-sm mb-1">Cloud Infrastructure</h3>
+                <h3 class="text-on-surface font-bold font-headline text-sm mb-1">{t('privacy.thirdParty.cloud.title')}</h3>
                 <p class="text-on-surface-variant text-sm leading-relaxed">
-                  Server-side AI processing and data storage on secure cloud infrastructure.
+                  {t('privacy.thirdParty.cloud.description')}
                 </p>
               </div>
             </div>
@@ -207,100 +202,89 @@ export default function PrivacyPage() {
           {/* Section: Data Retention */}
           <section class="pb-10 mb-10 border-b border-outline-variant/10">
             <h2 class="text-2xl md:text-3xl font-extrabold font-headline text-on-surface mb-4">
-              Data Retention
+              {t('privacy.retention.title')}
             </h2>
             <p class="text-on-surface-variant leading-relaxed">
-              Match history and gameplay session data are retained for the duration of your account.
-              You may request complete deletion of your data at any time by contacting us at{' '}
+              {t('privacy.retention.before')}{' '}
               <a href="mailto:privacy@lolsensei.com" class="text-primary hover:underline">
                 privacy@lolsensei.com
-              </a>.
-              Upon receiving a deletion request, we will remove all personally identifiable data
-              within 30 days.
+              </a>
+              {t('privacy.retention.after')}
             </p>
           </section>
 
           {/* Section: Your Rights (GDPR) */}
           <section class="pb-10 mb-10 border-b border-outline-variant/10">
             <h2 class="text-2xl md:text-3xl font-extrabold font-headline text-on-surface mb-4">
-              Your Rights
+              {t('privacy.rights.title')}
             </h2>
             <p class="text-on-surface-variant leading-relaxed mb-6">
-              Under the General Data Protection Regulation (GDPR) and applicable data protection
-              laws, you have the following rights:
+              {t('privacy.rights.intro')}
             </p>
             <ul class="space-y-4">
               <li class="flex items-start gap-3">
                 <span class="material-symbols-outlined text-primary mt-0.5 text-lg">visibility</span>
                 <p class="text-on-surface-variant leading-relaxed">
-                  <span class="text-on-surface font-medium">Right to access</span>{' '}
-                  &mdash; Request a copy of the personal data we hold about you.
+                  <span class="text-on-surface font-medium">{t('privacy.rights.access.label')}</span>{' '}
+                  &mdash; {t('privacy.rights.access.description')}
                 </p>
               </li>
               <li class="flex items-start gap-3">
                 <span class="material-symbols-outlined text-primary mt-0.5 text-lg">edit</span>
                 <p class="text-on-surface-variant leading-relaxed">
-                  <span class="text-on-surface font-medium">Right to rectification</span>{' '}
-                  &mdash; Request correction of inaccurate or incomplete personal data.
+                  <span class="text-on-surface font-medium">{t('privacy.rights.rectification.label')}</span>{' '}
+                  &mdash; {t('privacy.rights.rectification.description')}
                 </p>
               </li>
               <li class="flex items-start gap-3">
                 <span class="material-symbols-outlined text-primary mt-0.5 text-lg">delete</span>
                 <p class="text-on-surface-variant leading-relaxed">
-                  <span class="text-on-surface font-medium">Right to erasure</span>{' '}
-                  &mdash; Request deletion of your account and all associated personal data.
+                  <span class="text-on-surface font-medium">{t('privacy.rights.erasure.label')}</span>{' '}
+                  &mdash; {t('privacy.rights.erasure.description')}
                 </p>
               </li>
               <li class="flex items-start gap-3">
                 <span class="material-symbols-outlined text-primary mt-0.5 text-lg">download</span>
                 <p class="text-on-surface-variant leading-relaxed">
-                  <span class="text-on-surface font-medium">Right to data portability</span>{' '}
-                  &mdash; Receive your data in a structured, machine-readable format.
+                  <span class="text-on-surface font-medium">{t('privacy.rights.portability.label')}</span>{' '}
+                  &mdash; {t('privacy.rights.portability.description')}
                 </p>
               </li>
               <li class="flex items-start gap-3">
                 <span class="material-symbols-outlined text-primary mt-0.5 text-lg">block</span>
                 <p class="text-on-surface-variant leading-relaxed">
-                  <span class="text-on-surface font-medium">Right to object</span>{' '}
-                  &mdash; Object to the processing of your personal data for specific purposes.
+                  <span class="text-on-surface font-medium">{t('privacy.rights.object.label')}</span>{' '}
+                  &mdash; {t('privacy.rights.object.description')}
                 </p>
               </li>
             </ul>
             <p class="text-on-surface-variant leading-relaxed mt-6">
-              To exercise any of these rights, contact us at{' '}
+              {t('privacy.rights.contact.before')}{' '}
               <a href="mailto:privacy@lolsensei.com" class="text-primary hover:underline">
                 privacy@lolsensei.com
-              </a>.
-              We will respond to your request within 30 days.
+              </a>
+              {t('privacy.rights.contact.after')}
             </p>
           </section>
 
           {/* Section: Security */}
           <section class="pb-10 mb-10 border-b border-outline-variant/10">
             <h2 class="text-2xl md:text-3xl font-extrabold font-headline text-on-surface mb-4">
-              Security
+              {t('privacy.security.title')}
             </h2>
             <p class="text-on-surface-variant leading-relaxed">
-              We take the security of your data seriously. All data is transmitted over HTTPS with
-              TLS encryption. API keys and sensitive credentials are stored server-side only and are
-              never exposed to client applications. We implement industry-standard security
-              practices to protect your information from unauthorized access, alteration, or
-              disclosure.
+              {t('privacy.security.description')}
             </p>
           </section>
 
           {/* Section: Riot Games Disclaimer */}
           <section class="pb-10 mb-10 border-b border-outline-variant/10">
             <h2 class="text-2xl md:text-3xl font-extrabold font-headline text-on-surface mb-4">
-              Riot Games Disclaimer
+              {t('privacy.riotDisclaimer.title')}
             </h2>
             <div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/5">
               <p class="text-on-surface-variant leading-relaxed text-sm">
-                LoL Sensei isn't endorsed by Riot Games and doesn't reflect the views or opinions of
-                Riot Games or anyone officially involved in producing or managing Riot Games
-                properties. Riot Games, and all associated properties are trademarks or registered
-                trademarks of Riot Games, Inc. Game data accessed through the Riot Games API is
-                subject to the Riot Games Developer API Terms of Service.
+                {t('privacy.riotDisclaimer.description')}
               </p>
             </div>
           </section>
@@ -308,13 +292,10 @@ export default function PrivacyPage() {
           {/* Section: Changes to This Policy */}
           <section>
             <h2 class="text-2xl md:text-3xl font-extrabold font-headline text-on-surface mb-4">
-              Changes to This Policy
+              {t('privacy.changes.title')}
             </h2>
             <p class="text-on-surface-variant leading-relaxed">
-              We may update this Privacy Policy from time to time to reflect changes in our
-              practices or for legal, operational, or regulatory reasons. When we make material
-              changes, we will notify users through the application or via email. We encourage you
-              to review this page periodically for the latest information.
+              {t('privacy.changes.description')}
             </p>
           </section>
 

@@ -1,7 +1,9 @@
 import { For, Show, createSignal } from 'solid-js';
 import { FAQ_ITEMS } from '../data/faq';
+import { useI18n } from '../i18n';
 
 export default function FAQ() {
+  const { t } = useI18n();
   const [openIndex, setOpenIndex] = createSignal<number | null>(0);
 
   const toggle = (index: number) => {
@@ -14,13 +16,14 @@ export default function FAQ() {
         {/* Hero header */}
         <div class="mb-20">
           <span class="text-primary-container text-xs font-bold tracking-widest uppercase mb-4 block">
-            Help Center
+            {t('faq.hero.label')}
           </span>
           <h2 class="text-5xl md:text-6xl font-headline font-extrabold tracking-tight mb-6">
-            Frequently Asked <span class="text-primary">Questions</span>
+            {t('faq.hero.title').replace(t('faq.hero.titleHighlight'), '').trim()}{' '}
+            <span class="text-primary">{t('faq.hero.titleHighlight')}</span>
           </h2>
           <p class="text-on-surface-variant text-lg max-w-lg leading-relaxed">
-            Everything you need to know about LoL Sensei and how it helps you learn.
+            {t('faq.hero.subtitle')}
           </p>
         </div>
 
@@ -50,7 +53,7 @@ export default function FAQ() {
                           isOpen() ? 'text-primary' : 'group-hover:text-primary'
                         }`}
                       >
-                        {item.question}
+                        {t(item.questionKey)}
                       </h3>
                     </div>
                     <span
@@ -63,7 +66,7 @@ export default function FAQ() {
                   </button>
                   <Show when={isOpen()}>
                     <div class="pb-6 pl-16 pr-8 text-on-surface-variant leading-relaxed">
-                      {item.answer}
+                      {t(item.answerKey)}
                     </div>
                   </Show>
                 </div>
@@ -77,8 +80,8 @@ export default function FAQ() {
           <div class="absolute -top-24 -right-24 w-64 h-64 bg-primary/10 rounded-full blur-[80px]" />
           <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
             <div>
-              <h3 class="text-3xl font-extrabold font-headline mb-2">Still have questions?</h3>
-              <p class="text-on-surface-variant">Check our GitHub repository for more details.</p>
+              <h3 class="text-3xl font-extrabold font-headline mb-2">{t('faq.contact.title')}</h3>
+              <p class="text-on-surface-variant">{t('faq.contact.description')}</p>
             </div>
             <a
               href="https://github.com/dipifab/lolai"
@@ -86,8 +89,8 @@ export default function FAQ() {
               rel="noopener noreferrer"
               class="px-8 py-4 gold-gradient text-on-primary-fixed rounded-lg font-bold shadow-lg inline-flex items-center gap-2"
             >
-              Visit GitHub
-              <span class="sr-only"> (opens in new tab)</span>
+              {t('faq.contact.cta.github')}
+              <span class="sr-only"> {t('common.opensNewTab')}</span>
             </a>
           </div>
         </div>

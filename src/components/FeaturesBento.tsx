@@ -19,17 +19,17 @@ export default function FeaturesBento() {
             <div class="grid grid-cols-3 gap-4 mb-8">
               <div class="glass-panel p-4 rounded-lg border border-outline-variant/10 text-center">
                 <div class="w-12 h-12 bg-surface-container rounded-full mx-auto mb-3 border border-tertiary/40" />
-                <div class="text-[10px] uppercase tracking-tighter opacity-50 mb-1">Win Rate</div>
+                <div class="text-[10px] uppercase tracking-tighter opacity-50 mb-1">{t('features.mockup.winRate')}</div>
                 <div class="text-tertiary font-bold text-sm">54.2%</div>
               </div>
               <div class="glass-panel p-4 rounded-lg border border-outline-variant/10 text-center">
                 <div class="w-12 h-12 bg-surface-container rounded-full mx-auto mb-3 border border-error/40" />
-                <div class="text-[10px] uppercase tracking-tighter opacity-50 mb-1">Win Rate</div>
+                <div class="text-[10px] uppercase tracking-tighter opacity-50 mb-1">{t('features.mockup.winRate')}</div>
                 <div class="text-error font-bold text-sm">48.9%</div>
               </div>
               <div class="glass-panel p-4 rounded-lg border border-outline-variant/10 text-center">
                 <div class="w-12 h-12 bg-surface-container rounded-full mx-auto mb-3 border border-tertiary/40" />
-                <div class="text-[10px] uppercase tracking-tighter opacity-50 mb-1">Win Rate</div>
+                <div class="text-[10px] uppercase tracking-tighter opacity-50 mb-1">{t('features.mockup.winRate')}</div>
                 <div class="text-tertiary font-bold text-sm">52.1%</div>
               </div>
             </div>

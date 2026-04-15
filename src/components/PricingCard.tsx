@@ -1,16 +1,19 @@
 import { Show, For } from 'solid-js';
 import type { PricingPlan } from '../data/types';
+import { useI18n } from '../i18n';
+
 interface PricingCardProps {
   plan: PricingPlan;
 }
 
 export default function PricingCard(props: PricingCardProps) {
+  const { t } = useI18n();
   const isHighlighted = () => props.plan.highlighted;
 
   const subtitle = () =>
     isHighlighted()
-      ? 'Everything you need to accelerate your learning.'
-      : 'Essential tools for every summoner.';
+      ? t('pricing.card.subtitlePro')
+      : t('pricing.card.subtitleFree');
 
   const displayPrice = () => props.plan.price ?? '\u20AC0';
 
@@ -31,7 +34,7 @@ export default function PricingCard(props: PricingCardProps) {
       {/* Pro badge — top-right corner */}
       <Show when={isHighlighted()}>
         <div class="absolute top-0 right-8 -translate-y-1/2 gold-gradient px-4 py-1.5 rounded-full text-[10px] font-headline font-extrabold text-on-primary-fixed uppercase tracking-widest">
-          Recommended
+          {t('pricing.card.recommended')}
         </div>
       </Show>
 
@@ -43,7 +46,7 @@ export default function PricingCard(props: PricingCardProps) {
             : 'text-xl font-bold uppercase tracking-widest mb-1 text-on-surface'
         }
       >
-        {props.plan.name}
+        {t(props.plan.nameKey)}
       </h3>
 
       {/* Subtitle */}
@@ -101,7 +104,7 @@ export default function PricingCard(props: PricingCardProps) {
                     star
                   </span>
                 </Show>
-                {feature.text}
+                {t(feature.textKey)}
               </li>
             );
           }}
@@ -115,17 +118,17 @@ export default function PricingCard(props: PricingCardProps) {
           <span
             class="w-full border border-outline-variant/30 py-4 rounded-lg font-headline font-extrabold uppercase tracking-widest text-center inline-block text-sm text-on-surface-variant/50 cursor-default select-none"
           >
-            Coming Soon
+            {t('pricing.card.comingSoon')}
           </span>
         }
       >
         <span
           class="w-full bg-surface-container-highest/60 border border-outline-variant/30 py-4 rounded-lg font-headline font-extrabold uppercase tracking-widest text-on-surface-variant/50 text-center inline-block text-sm cursor-default select-none"
         >
-          Coming Soon
+          {t('pricing.card.comingSoon')}
         </span>
         <p class="text-xs text-on-surface-variant text-center mt-4">
-          Download will be available soon.
+          {t('pricing.card.comingSoonDescription')}
         </p>
       </Show>
     </div>
