@@ -84,6 +84,7 @@ export default function Navbar() {
             width="120"
             height="120"
             class="w-[72px] h-[72px] md:w-[120px] md:h-[120px] object-contain drop-shadow-[0_0_12px_rgba(240,191,92,0.4)]"
+            style={{ "mask-image": "radial-gradient(circle, black 55%, transparent 80%)", "-webkit-mask-image": "radial-gradient(circle, black 55%, transparent 80%)" }}
           />
         </A>
 

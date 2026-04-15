@@ -12,6 +12,7 @@ export default function Footer() {
             width="96"
             height="96"
             class="w-24 h-24 object-contain drop-shadow-[0_0_10px_rgba(240,191,92,0.35)]"
+            style={{ "mask-image": "radial-gradient(circle, black 55%, transparent 80%)", "-webkit-mask-image": "radial-gradient(circle, black 55%, transparent 80%)" }}
           />
           <span class="text-lg font-headline font-extrabold uppercase tracking-widest text-on-surface/80">
             LoL Sensei
