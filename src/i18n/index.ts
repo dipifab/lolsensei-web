@@ -18,13 +18,13 @@ type Translations = Record<TranslationKey, string>;
 
 const loaders: Record<Locale, () => Promise<Translations>> = {
   en: () => Promise.resolve(en),
-  it: () => import('./it').then((m) => m.default as Translations),
-  ko: () => import('./ko').then((m) => m.default as Translations),
-  zh: () => import('./zh').then((m) => m.default as Translations),
-  'pt-br': () => import('./pt-br').then((m) => m.default as Translations),
-  es: () => import('./es').then((m) => m.default as Translations),
-  fr: () => import('./fr').then((m) => m.default as Translations),
-  de: () => import('./de').then((m) => m.default as Translations),
+  it: () => import('./it').then((m) => m.default as unknown as Translations),
+  ko: () => import('./ko').then((m) => m.default as unknown as Translations),
+  zh: () => import('./zh').then((m) => m.default as unknown as Translations),
+  'pt-br': () => import('./pt-br').then((m) => m.default as unknown as Translations),
+  es: () => import('./es').then((m) => m.default as unknown as Translations),
+  fr: () => import('./fr').then((m) => m.default as unknown as Translations),
+  de: () => import('./de').then((m) => m.default as unknown as Translations),
 };
 
 export function isValidLocale(value: string): value is Locale {

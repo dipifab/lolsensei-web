@@ -31,7 +31,7 @@ export default function BlogPage() {
   // Override hreflang: blog content only exists in en/it
   createEffect(() => {
     const lang = locale();
-    const alternates = BLOG_LOCALES.map((l) => ({
+    const alternates: { lang: string; href: string }[] = BLOG_LOCALES.map((l) => ({
       lang: l,
       href: `${BASE_URL}/${l}/blog`,
     }));

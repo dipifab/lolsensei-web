@@ -1,4 +1,3 @@
-import { A } from '@solidjs/router';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { BreadcrumbJsonLd } from '../components/JsonLd';
