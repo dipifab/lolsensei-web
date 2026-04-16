@@ -49,6 +49,7 @@
   --color-success: #2ecc71;
   --color-feature-included: #2ecc71;
   --color-feature-locked: #8a938f;
+  --color-warning: #f59e0b;
 
   /* Inverse */
   --color-inverse-surface: #d6e6e2;
@@ -69,7 +70,7 @@
 }
 
 .gold-gradient {
-  background: linear-gradient(135deg, #f0bf5c 0%, #ffdea3 100%);
+  background-image: linear-gradient(135deg, #f0bf5c 0%, #ffdea3 100%);
 }
 
 .hex-bg {
