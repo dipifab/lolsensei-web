@@ -797,87 +797,143 @@
     <loc>https://www.lolsensei.com/en/blog</loc>
     <lastmod>2026-04-16</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog" />
   </url>
-  
-  
-  
-  
-  
-  
-  
-
+  <!-- Blog: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/blog</loc>
+    <lastmod>2026-04-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog" />
+  </url>
   <!-- Blog Post "how-ai-coaching-helps-you-learn-league": en -->
   <url>
     <loc>https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league</loc>
-    <lastmod>2026-04-01</lastmod>
+    <lastmod>2026-04-16</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/how-ai-coaching-helps-you-learn-league" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
   </url>
-  
-  
-  
-  
-  
-  
-  
-
+  <!-- Blog Post "how-ai-coaching-helps-you-learn-league": it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/blog/how-ai-coaching-helps-you-learn-league</loc>
+    <lastmod>2026-04-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/how-ai-coaching-helps-you-learn-league" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
+  </url>
   <!-- Blog Post "understanding-champion-select": en -->
   <url>
     <loc>https://www.lolsensei.com/en/blog/understanding-champion-select</loc>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-04-16</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/understanding-champion-select" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
   </url>
-  
-  
-  
-  
-  
-  
-  
-
+  <!-- Blog Post "understanding-champion-select": it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/blog/understanding-champion-select</loc>
+    <lastmod>2026-04-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/understanding-champion-select" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
+  </url>
   <!-- Blog Post "why-copying-builds-doesnt-help": en -->
   <url>
     <loc>https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-04-16</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/why-copying-builds-doesnt-help" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
   </url>
-  
-  
-  
-  
-  
-  
-  
-
+  <!-- Blog Post "why-copying-builds-doesnt-help": it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/blog/why-copying-builds-doesnt-help</loc>
+    <lastmod>2026-04-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/why-copying-builds-doesnt-help" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
+  </url>
   <!-- Blog Post "lol-sensei-vs-opgg": en -->
   <url>
     <loc>https://www.lolsensei.com/en/blog/lol-sensei-vs-opgg</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-04-16</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-opgg" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/lol-sensei-vs-opgg" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-opgg" />
   </url>
-  
-  
-  
-  
-  
-  
-  
-
+  <!-- Blog Post "lol-sensei-vs-opgg": it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/blog/lol-sensei-vs-opgg</loc>
+    <lastmod>2026-04-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-opgg" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/lol-sensei-vs-opgg" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-opgg" />
+  </url>
   <!-- Blog Post "lol-sensei-vs-blitz": en -->
   <url>
     <loc>https://www.lolsensei.com/en/blog/lol-sensei-vs-blitz</loc>
-    <lastmod>2026-04-15</lastmod>
+    <lastmod>2026-04-16</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-blitz" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/lol-sensei-vs-blitz" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-blitz" />
   </url>
-  
-  
-  
-  
-  
-  
-  
+  <!-- Blog Post "lol-sensei-vs-blitz": it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/blog/lol-sensei-vs-blitz</loc>
+    <lastmod>2026-04-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-blitz" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/lol-sensei-vs-blitz" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-blitz" />
+  </url>
+  <!-- Blog Post "how-to-climb-ranked-lol": en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/blog/how-to-climb-ranked-lol</loc>
+    <lastmod>2026-04-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/how-to-climb-ranked-lol" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/how-to-climb-ranked-lol" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/how-to-climb-ranked-lol" />
+  </url>
+  <!-- Blog Post "how-to-climb-ranked-lol": it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/blog/how-to-climb-ranked-lol</loc>
+    <lastmod>2026-04-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/how-to-climb-ranked-lol" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/how-to-climb-ranked-lol" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/how-to-climb-ranked-lol" />
+  </url>
+  <!-- Blog Post "how-to-stop-tilting-lol": en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/blog/how-to-stop-tilting-lol</loc>
+    <lastmod>2026-04-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/how-to-stop-tilting-lol" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/how-to-stop-tilting-lol" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/how-to-stop-tilting-lol" />
+  </url>
+  <!-- Blog Post "how-to-stop-tilting-lol": it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/blog/how-to-stop-tilting-lol</loc>
+    <lastmod>2026-04-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/how-to-stop-tilting-lol" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/how-to-stop-tilting-lol" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/how-to-stop-tilting-lol" />
+  </url>
+  <!-- Blog Post "best-lol-ai-coach-2026": en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/blog/best-lol-ai-coach-2026</loc>
+    <lastmod>2026-04-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/best-lol-ai-coach-2026" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/best-lol-ai-coach-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/best-lol-ai-coach-2026" />
+  </url>
+  <!-- Blog Post "best-lol-ai-coach-2026": it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/blog/best-lol-ai-coach-2026</loc>
+    <lastmod>2026-04-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/best-lol-ai-coach-2026" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/best-lol-ai-coach-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/best-lol-ai-coach-2026" />
+  </url>
+</urlset>
