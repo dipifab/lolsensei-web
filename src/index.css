@@ -43,6 +43,10 @@
   --color-outline: #9b8f7d;
   --color-outline-variant: #4e4637;
 
+  /* Gold accent */
+  --color-gold: #f0bf5c;
+  --color-gold-dim: #ffdea3;
+
   /* Pricing & Feature tokens */
   --color-promo-badge-bg: #f0bf5c;
   --color-strikethrough: #8a938f;
@@ -77,6 +81,7 @@
   background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0l25.98 15v30L30 60 4.02 45V15z' fill-opacity='0.03' fill='%23f0bf5c' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 
+
 /* Animations */
 @keyframes fade-in {
   from { opacity: 0; }
@@ -101,4 +106,16 @@ h1, h2, h3, .font-headline {
 ::selection {
   background-color: #f0bf5c;
   color: #261900;
+}
+
+/* Accessibility — respect user motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
