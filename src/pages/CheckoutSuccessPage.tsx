@@ -2,6 +2,7 @@ import { A } from '@solidjs/router';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { useI18n } from '../i18n';
+import Icon from '../components/Icon';
 
 export default function CheckoutSuccessPage() {
   const { t, locale } = useI18n();
@@ -10,12 +11,7 @@ export default function CheckoutSuccessPage() {
     <>
       <Navbar />
       <main class="pt-32 pb-24 px-6 max-w-3xl mx-auto text-center">
-        <span
-          class="material-symbols-outlined text-6xl text-tertiary mb-6"
-          style={{ "font-variation-settings": "'FILL' 1" }}
-        >
-          check_circle
-        </span>
+        <Icon name="check_circle_filled" class="w-16 h-16 text-tertiary mb-6 mx-auto" />
         <h1 class="text-4xl md:text-5xl font-extrabold font-headline text-on-surface tracking-tight mb-6">
           {t('checkout.success.title')} <span class="text-primary">{t('checkout.success.titleHighlight')}</span>
         </h1>

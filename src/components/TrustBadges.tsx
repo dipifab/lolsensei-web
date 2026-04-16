@@ -1,6 +1,7 @@
 import { For } from 'solid-js';
 import { TRUST_BADGES, RIOT_DISCLAIMER_KEY } from '../data/content';
 import { useI18n } from '../i18n';
+import Icon from './Icon';
 
 export default function TrustBadges() {
   const { t } = useI18n();
@@ -12,7 +13,7 @@ export default function TrustBadges() {
           <For each={TRUST_BADGES}>
             {(badge) => (
               <div class="flex items-center gap-3">
-                <span class="material-symbols-outlined text-3xl">{badge.icon}</span>
+                <Icon name={badge.icon} class="w-8 h-8" />
                 <span class="font-headline font-extrabold uppercase tracking-tighter text-sm">
                   {t(badge.labelKey)}
                 </span>

@@ -1,5 +1,6 @@
 import { useI18n } from '../i18n';
 import { COMPARISON_ROWS } from '../data/content';
+import Icon from './Icon';
 
 const ROW_KEYS = [
   'comparison.row1',
@@ -43,14 +44,16 @@ export default function ComparisonGrid() {
                 {t(ROW_KEYS[index])}
               </div>
               <div class="bg-surface-container-high p-6 flex justify-center">
-                <span class={`material-symbols-outlined ${row.lolSensei ? 'text-tertiary' : 'text-on-surface-variant/30'}`}>
-                  {row.lolSensei ? 'check_circle' : 'cancel'}
-                </span>
+                <Icon
+                  name={row.lolSensei ? 'check_circle' : 'cancel'}
+                  class={`w-6 h-6 ${row.lolSensei ? 'text-tertiary' : 'text-on-surface-variant/30'}`}
+                />
               </div>
               <div class="bg-surface-container-low p-6 flex justify-center">
-                <span class={`material-symbols-outlined ${row.staticTools ? 'text-tertiary' : 'text-on-surface-variant/30'}`}>
-                  {row.staticTools ? 'check_circle' : 'cancel'}
-                </span>
+                <Icon
+                  name={row.staticTools ? 'check_circle' : 'cancel'}
+                  class={`w-6 h-6 ${row.staticTools ? 'text-tertiary' : 'text-on-surface-variant/30'}`}
+                />
               </div>
             </>
           ))}
@@ -65,17 +68,19 @@ export default function ComparisonGrid() {
               </p>
               <div class="flex items-center justify-between gap-4">
                 <div class="flex items-center gap-2">
-                  <span class={`material-symbols-outlined text-lg ${row.lolSensei ? 'text-tertiary' : 'text-on-surface-variant/30'}`}>
-                    {row.lolSensei ? 'check_circle' : 'cancel'}
-                  </span>
+                  <Icon
+                    name={row.lolSensei ? 'check_circle' : 'cancel'}
+                    class={`w-5 h-5 ${row.lolSensei ? 'text-tertiary' : 'text-on-surface-variant/30'}`}
+                  />
                   <span class="text-xs font-bold text-primary-container uppercase tracking-widest">
                     {t('comparison.header.lolSensei')}
                   </span>
                 </div>
                 <div class="flex items-center gap-2">
-                  <span class={`material-symbols-outlined text-lg ${row.staticTools ? 'text-tertiary' : 'text-on-surface-variant/30'}`}>
-                    {row.staticTools ? 'check_circle' : 'cancel'}
-                  </span>
+                  <Icon
+                    name={row.staticTools ? 'check_circle' : 'cancel'}
+                    class={`w-5 h-5 ${row.staticTools ? 'text-tertiary' : 'text-on-surface-variant/30'}`}
+                  />
                   <span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest">
                     {t('comparison.header.staticTools')}
                   </span>

@@ -2,6 +2,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { usePageMeta } from '../utils/seo';
 import { useI18n } from '../i18n';
+import Icon from '../components/Icon';
 
 export default function PrivacyPage() {
   usePageMeta('privacy', '/privacy');
@@ -113,48 +114,28 @@ export default function PrivacyPage() {
             </h2>
             <ul class="space-y-4">
               <li class="flex items-start gap-3">
-                <span
-                  class="material-symbols-outlined text-primary mt-0.5 text-lg"
-                  style={{ "font-variation-settings": "'FILL' 1" }}
-                >
-                  psychology
-                </span>
+                <Icon name="psychology_filled" class="w-5 h-5 text-primary mt-0.5" />
                 <p class="text-on-surface-variant leading-relaxed">
                   <span class="text-on-surface font-medium">{t('privacy.howWeUse.ai.label')}</span>{' '}
                   &mdash; {t('privacy.howWeUse.ai.description')}
                 </p>
               </li>
               <li class="flex items-start gap-3">
-                <span
-                  class="material-symbols-outlined text-primary mt-0.5 text-lg"
-                  style={{ "font-variation-settings": "'FILL' 1" }}
-                >
-                  tune
-                </span>
+                <Icon name="tune_filled" class="w-5 h-5 text-primary mt-0.5" />
                 <p class="text-on-surface-variant leading-relaxed">
                   <span class="text-on-surface font-medium">{t('privacy.howWeUse.coaching.label')}</span>{' '}
                   &mdash; {t('privacy.howWeUse.coaching.description')}
                 </p>
               </li>
               <li class="flex items-start gap-3">
-                <span
-                  class="material-symbols-outlined text-primary mt-0.5 text-lg"
-                  style={{ "font-variation-settings": "'FILL' 1" }}
-                >
-                  credit_card
-                </span>
+                <Icon name="credit_card_filled" class="w-5 h-5 text-primary mt-0.5" />
                 <p class="text-on-surface-variant leading-relaxed">
                   <span class="text-on-surface font-medium">{t('privacy.howWeUse.payment.label')}</span>{' '}
                   &mdash; {t('privacy.howWeUse.payment.description')}
                 </p>
               </li>
               <li class="flex items-start gap-3">
-                <span
-                  class="material-symbols-outlined text-primary mt-0.5 text-lg"
-                  style={{ "font-variation-settings": "'FILL' 1" }}
-                >
-                  trending_up
-                </span>
+                <Icon name="trending_up" class="w-5 h-5 text-primary mt-0.5" />
                 <p class="text-on-surface-variant leading-relaxed">
                   <span class="text-on-surface font-medium">{t('privacy.howWeUse.improvement.label')}</span>{' '}
                   &mdash; {t('privacy.howWeUse.improvement.description')}
@@ -223,35 +204,35 @@ export default function PrivacyPage() {
             </p>
             <ul class="space-y-4">
               <li class="flex items-start gap-3">
-                <span class="material-symbols-outlined text-primary mt-0.5 text-lg">visibility</span>
+                <Icon name="visibility" class="w-5 h-5 text-primary mt-0.5" />
                 <p class="text-on-surface-variant leading-relaxed">
                   <span class="text-on-surface font-medium">{t('privacy.rights.access.label')}</span>{' '}
                   &mdash; {t('privacy.rights.access.description')}
                 </p>
               </li>
               <li class="flex items-start gap-3">
-                <span class="material-symbols-outlined text-primary mt-0.5 text-lg">edit</span>
+                <Icon name="edit" class="w-5 h-5 text-primary mt-0.5" />
                 <p class="text-on-surface-variant leading-relaxed">
                   <span class="text-on-surface font-medium">{t('privacy.rights.rectification.label')}</span>{' '}
                   &mdash; {t('privacy.rights.rectification.description')}
                 </p>
               </li>
               <li class="flex items-start gap-3">
-                <span class="material-symbols-outlined text-primary mt-0.5 text-lg">delete</span>
+                <Icon name="delete" class="w-5 h-5 text-primary mt-0.5" />
                 <p class="text-on-surface-variant leading-relaxed">
                   <span class="text-on-surface font-medium">{t('privacy.rights.erasure.label')}</span>{' '}
                   &mdash; {t('privacy.rights.erasure.description')}
                 </p>
               </li>
               <li class="flex items-start gap-3">
-                <span class="material-symbols-outlined text-primary mt-0.5 text-lg">download</span>
+                <Icon name="download" class="w-5 h-5 text-primary mt-0.5" />
                 <p class="text-on-surface-variant leading-relaxed">
                   <span class="text-on-surface font-medium">{t('privacy.rights.portability.label')}</span>{' '}
                   &mdash; {t('privacy.rights.portability.description')}
                 </p>
               </li>
               <li class="flex items-start gap-3">
-                <span class="material-symbols-outlined text-primary mt-0.5 text-lg">block</span>
+                <Icon name="block" class="w-5 h-5 text-primary mt-0.5" />
                 <p class="text-on-surface-variant leading-relaxed">
                   <span class="text-on-surface font-medium">{t('privacy.rights.object.label')}</span>{' '}
                   &mdash; {t('privacy.rights.object.description')}

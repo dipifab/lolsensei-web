@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import { BreadcrumbJsonLd } from '../components/JsonLd';
 import { useI18n } from '../i18n';
 import { usePageMeta } from '../utils/seo';
+import Icon from '../components/Icon';
 
 export default function FeaturesPage() {
   const { t, locale } = useI18n();
@@ -35,15 +36,7 @@ export default function FeaturesPage() {
               </p>
             </div>
           </div>
-          <div class="absolute right-0 top-0 w-1/2 h-full opacity-20 pointer-events-none">
-            <img
-              alt="Cinematic esports background"
-              class="w-full h-full object-cover"
-              src="/images/features-hero-bg.webp"
-              width={960}
-              height={600}
-            />
-          </div>
+          <div class="absolute right-0 top-0 w-1/2 h-full opacity-10 pointer-events-none bg-gradient-to-l from-primary-container/20 to-transparent" />
         </section>
 
         {/* Feature 1: Champion Select Coach */}
@@ -55,7 +48,7 @@ export default function FeaturesPage() {
                   <div class="flex justify-between mb-8">
                     <div class="flex gap-2">
                       <div class="w-12 h-12 rounded-lg bg-surface-container-highest border border-primary/20 flex items-center justify-center">
-                        <span class="material-symbols-outlined text-primary" style={{ "font-variation-settings": "'FILL' 1" }}>groups</span>
+                        <Icon name="groups_filled" class="w-6 h-6 text-primary" />
                       </div>
                       <div>
                         <div class="text-xs text-on-surface-variant font-bold tracking-widest uppercase">{t('features.mockup.teamAnalysis')}</div>
@@ -86,7 +79,7 @@ export default function FeaturesPage() {
               </div>
               <div class="order-1 lg:order-2">
                 <div class="flex items-center gap-3 mb-4">
-                  <span class="material-symbols-outlined text-primary-container">psychology</span>
+                  <Icon name="psychology" class="w-6 h-6 text-primary-container" />
                   <span class="text-primary-container text-xs font-bold tracking-widest uppercase">{t('features.phase1.label')}</span>
                 </div>
                 <h2 class="text-4xl md:text-5xl font-headline font-extrabold tracking-tight mb-6">{t('features.phase1.title')}</h2>
@@ -95,11 +88,11 @@ export default function FeaturesPage() {
                 </p>
                 <ul class="space-y-4">
                   <li class="flex items-start gap-3">
-                    <span class="material-symbols-outlined text-tertiary text-sm mt-1">check_circle</span>
+                    <Icon name="check_circle" class="w-3.5 h-3.5 text-tertiary mt-1" />
                     <span class="text-on-surface/80">{t('features.phase1.check1')}</span>
                   </li>
                   <li class="flex items-start gap-3">
-                    <span class="material-symbols-outlined text-tertiary text-sm mt-1">check_circle</span>
+                    <Icon name="check_circle" class="w-3.5 h-3.5 text-tertiary mt-1" />
                     <span class="text-on-surface/80">{t('features.phase1.check2')}</span>
                   </li>
                 </ul>
@@ -114,7 +107,7 @@ export default function FeaturesPage() {
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div>
                 <div class="flex items-center gap-3 mb-4">
-                  <span class="material-symbols-outlined text-primary-container">analytics</span>
+                  <Icon name="analytics" class="w-6 h-6 text-primary-container" />
                   <span class="text-primary-container text-xs font-bold tracking-widest uppercase">{t('features.phase2.label')}</span>
                 </div>
                 <h2 class="text-4xl md:text-5xl font-headline font-extrabold tracking-tight mb-6">{t('features.phase2.title')}</h2>
@@ -142,14 +135,16 @@ export default function FeaturesPage() {
                       <div class="w-2 h-2 rounded-full bg-outline-variant" />
                     </div>
                   </div>
-                  <img
-                    alt="Data visualization interface"
-                    class="rounded-lg w-full aspect-video object-cover opacity-80 mix-blend-screen"
-                    src="/images/features-hud-mockup.webp"
-                    loading="lazy"
-                    width={800}
-                    height={450}
-                  />
+                  <div class="rounded-lg w-full aspect-video bg-surface-container-highest/50 flex items-center justify-center opacity-80">
+                    <div class="text-center">
+                      <div class="text-xs text-on-surface-variant uppercase tracking-widest font-bold">COACHING_HUD</div>
+                      <div class="mt-2 flex gap-2 justify-center">
+                        <div class="w-16 h-1 bg-primary-container rounded-full" />
+                        <div class="w-16 h-1 bg-secondary rounded-full" />
+                        <div class="w-16 h-1 bg-tertiary rounded-full" />
+                      </div>
+                    </div>
+                  </div>
                   <div class="mt-6 flex justify-between">
                     <div class="text-center px-4">
                       <div class="text-xs text-on-surface-variant uppercase mb-1">{t('features.mockup.earlyGame')}</div>
@@ -175,7 +170,7 @@ export default function FeaturesPage() {
           <div class="max-w-7xl mx-auto px-8">
             <div class="text-center max-w-3xl mx-auto mb-20">
               <div class="flex justify-center items-center gap-3 mb-4">
-                <span class="material-symbols-outlined text-primary-container">inventory_2</span>
+                <Icon name="inventory_2" class="w-6 h-6 text-primary-container" />
                 <span class="text-primary-container text-xs font-bold tracking-widest uppercase">{t('features.phase3.label')}</span>
               </div>
               <h2 class="text-4xl md:text-6xl font-headline font-extrabold tracking-tight mb-6">{t('features.phase3.title')}</h2>
@@ -186,7 +181,7 @@ export default function FeaturesPage() {
             <div class="grid md:grid-cols-3 gap-8">
               <div class="glass-panel p-10 rounded-2xl border border-outline-variant/10 hover:border-primary/30 transition-all group">
                 <div class="w-12 h-12 rounded-xl bg-surface-container-highest flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                  <span class="material-symbols-outlined text-primary">update</span>
+                  <Icon name="update" class="w-6 h-6 text-primary" />
                 </div>
                 <h3 class="text-xl font-headline font-bold mb-4">{t('features.phase3.card1.title')}</h3>
                 <p class="text-on-surface-variant/80 text-sm leading-relaxed">
@@ -195,7 +190,7 @@ export default function FeaturesPage() {
               </div>
               <div class="glass-panel p-10 rounded-2xl border border-outline-variant/10 hover:border-primary/30 transition-all group">
                 <div class="w-12 h-12 rounded-xl bg-surface-container-highest flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                  <span class="material-symbols-outlined text-primary">analytics</span>
+                  <Icon name="analytics" class="w-6 h-6 text-primary" />
                 </div>
                 <h3 class="text-xl font-headline font-bold mb-4">{t('features.phase3.card2.title')}</h3>
                 <p class="text-on-surface-variant/80 text-sm leading-relaxed">
@@ -204,7 +199,7 @@ export default function FeaturesPage() {
               </div>
               <div class="glass-panel p-10 rounded-2xl border border-outline-variant/10 hover:border-primary/30 transition-all group">
                 <div class="w-12 h-12 rounded-xl bg-surface-container-highest flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                  <span class="material-symbols-outlined text-primary">bolt</span>
+                  <Icon name="bolt" class="w-6 h-6 text-primary" />
                 </div>
                 <h3 class="text-xl font-headline font-bold mb-4">{t('features.phase3.card3.title')}</h3>
                 <p class="text-on-surface-variant/80 text-sm leading-relaxed">
@@ -227,7 +222,7 @@ export default function FeaturesPage() {
               <span
                 class="bg-surface-container-highest/60 border border-outline-variant/30 px-10 py-5 rounded-lg font-headline font-extrabold text-lg uppercase text-on-surface-variant/50 inline-flex items-center gap-2 cursor-default select-none"
               >
-                <span class="material-symbols-outlined">hourglass_top</span>
+                <Icon name="hourglass_top" class="w-6 h-6" />
                 {t('hero.cta.download')}
               </span>
               <A

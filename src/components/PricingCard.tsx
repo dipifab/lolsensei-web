@@ -1,6 +1,7 @@
 import { Show, For } from 'solid-js';
 import type { PricingPlan } from '../data/types';
 import { useI18n } from '../i18n';
+import Icon from './Icon';
 
 interface PricingCardProps {
   plan: PricingPlan;
@@ -86,23 +87,14 @@ export default function PricingCard(props: PricingCardProps) {
                     <Show
                       when={included()}
                       fallback={
-                        <span class="material-symbols-outlined text-on-surface/40 text-lg">
-                          block
-                        </span>
+                        <Icon name="block" class="w-5 h-5 text-on-surface/40" />
                       }
                     >
-                      <span class="material-symbols-outlined text-tertiary text-lg">
-                        check_circle
-                      </span>
+                      <Icon name="check_circle" class="w-5 h-5 text-tertiary" />
                     </Show>
                   }
                 >
-                  <span
-                    class="material-symbols-outlined text-primary-container text-lg"
-                    style={{ 'font-variation-settings': "'FILL' 1" }}
-                  >
-                    star
-                  </span>
+                  <Icon name="star_filled" class="w-5 h-5 text-primary-container" />
                 </Show>
                 {t(feature.textKey)}
               </li>

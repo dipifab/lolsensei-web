@@ -1,4 +1,5 @@
 import { useI18n } from '../i18n';
+import Icon from './Icon';
 
 export default function FeaturesBento() {
   const { t } = useI18n();
@@ -14,7 +15,7 @@ export default function FeaturesBento() {
                 <span class="text-xs font-headline font-extrabold uppercase tracking-[0.2em] text-primary-container mb-2 block">{t('features.bento.label')}</span>
                 <h3 class="text-3xl font-extrabold tracking-tight">{t('features.bento.champSelect.title')}</h3>
               </div>
-              <span class="material-symbols-outlined text-primary-container text-3xl" style={{"font-variation-settings": "'FILL' 1"}}>smart_toy</span>
+              <Icon name="smart_toy_filled" class="w-8 h-8 text-primary-container" />
             </div>
             <div class="grid grid-cols-3 gap-4 mb-8">
               <div class="glass-panel p-4 rounded-lg border border-outline-variant/10 text-center">
@@ -39,7 +40,7 @@ export default function FeaturesBento() {
           {/* Panel 2: Game Start (5-col) */}
           <div class="lg:col-span-5 bg-surface-container-high rounded-xl p-8 border border-outline-variant/10 flex flex-col justify-between">
             <div>
-              <span class="material-symbols-outlined text-secondary text-3xl mb-6" style={{"font-variation-settings": "'FILL' 1"}}>strategy</span>
+              <Icon name="strategy_filled" class="w-8 h-8 text-secondary mb-6" />
               <h3 class="text-3xl font-extrabold tracking-tight mb-4">{t('features.bento.gameStart.title')}</h3>
               <p class="text-on-surface-variant mb-8">{t('features.bento.gameStart.description')}</p>
             </div>
@@ -64,7 +65,7 @@ export default function FeaturesBento() {
                   {t('features.bento.itemAdvisor.description')}
                 </p>
                 <div class="flex items-center gap-4 text-primary-container font-headline font-extrabold uppercase tracking-widest text-sm">
-                  <span class="material-symbols-outlined">bolt</span>
+                  <Icon name="bolt" class="w-6 h-6" />
                   {t('features.bento.itemAdvisor.badge')}
                 </div>
               </div>

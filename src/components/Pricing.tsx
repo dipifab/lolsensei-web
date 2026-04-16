@@ -2,6 +2,7 @@ import { For, Show } from 'solid-js';
 import { PRICING_PLANS, PERFORMANCE_FEATURES } from '../data/pricing';
 import { useI18n } from '../i18n';
 import PricingCard from './PricingCard';
+import Icon from './Icon';
 
 export default function Pricing() {
   const { t } = useI18n();
@@ -43,12 +44,7 @@ export default function Pricing() {
             {(feat) => (
               <div class="bg-surface-container-high rounded-xl border border-outline-variant/10 p-8 flex flex-col">
                 <div class="flex items-center justify-between mb-6">
-                  <span
-                    class="material-symbols-outlined text-primary-container text-3xl"
-                    style={{ 'font-variation-settings': "'FILL' 1" }}
-                  >
-                    {feat.icon}
-                  </span>
+                  <Icon name={`${feat.icon}_filled`} class="w-8 h-8 text-primary-container" />
                   <Show when={feat.proExclusive}>
                     <span class="text-[10px] font-headline font-extrabold uppercase tracking-widest text-primary-container border border-primary-container/30 px-2.5 py-1 rounded-full">
                       {t('pricing.proExclusive')}

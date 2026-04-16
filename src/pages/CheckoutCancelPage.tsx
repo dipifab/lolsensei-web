@@ -2,6 +2,7 @@ import { A } from '@solidjs/router';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { useI18n } from '../i18n';
+import Icon from '../components/Icon';
 
 export default function CheckoutCancelPage() {
   const { t, locale } = useI18n();
@@ -10,12 +11,7 @@ export default function CheckoutCancelPage() {
     <>
       <Navbar />
       <main class="pt-32 pb-24 px-6 max-w-3xl mx-auto text-center">
-        <span
-          class="material-symbols-outlined text-6xl text-on-surface-variant mb-6"
-          style={{ "font-variation-settings": "'FILL' 1" }}
-        >
-          cancel
-        </span>
+        <Icon name="cancel_filled" class="w-16 h-16 text-on-surface-variant mb-6 mx-auto" />
         <h1 class="text-4xl md:text-5xl font-extrabold font-headline text-on-surface tracking-tight mb-6">
           {t('checkout.cancel.title')} <span class="text-primary">{t('checkout.cancel.titleHighlight')}</span>
         </h1>

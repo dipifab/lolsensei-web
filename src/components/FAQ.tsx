@@ -1,6 +1,7 @@
 import { For, Show, createSignal } from 'solid-js';
 import { FAQ_ITEMS } from '../data/faq';
 import { useI18n } from '../i18n';
+import Icon from './Icon';
 
 export default function FAQ() {
   const { t } = useI18n();
@@ -56,13 +57,12 @@ export default function FAQ() {
                         {t(item.questionKey)}
                       </h3>
                     </div>
-                    <span
-                      class={`material-symbols-outlined text-outline-variant transition-transform duration-300 ${
+                    <Icon
+                      name="expand_more"
+                      class={`w-6 h-6 text-outline-variant transition-transform duration-300 ${
                         isOpen() ? 'rotate-180' : ''
                       }`}
-                    >
-                      expand_more
-                    </span>
+                    />
                   </button>
                   <Show when={isOpen()}>
                     <div class="pb-6 pl-16 pr-8 text-on-surface-variant leading-relaxed">

@@ -1,6 +1,7 @@
 import { createSignal, onMount, onCleanup, Show } from 'solid-js';
 import { DOWNLOAD_INFO } from '../data/content';
 import { useI18n } from '../i18n';
+import Icon from './Icon';
 
 export default function Download() {
   const { t } = useI18n();
@@ -30,7 +31,7 @@ export default function Download() {
             <span
               class="bg-surface-container-highest/60 border border-outline-variant/30 px-10 py-4 rounded-lg font-headline font-extrabold text-on-surface-variant/50 uppercase tracking-widest inline-flex items-center gap-3 cursor-default select-none"
             >
-              <span class="material-symbols-outlined text-lg">hourglass_top</span>
+              <Icon name="hourglass_top" class="w-5 h-5" />
               {t('download.comingSoon')} {DOWNLOAD_INFO.platform}
             </span>
             <p class="text-sm text-on-surface-variant/60">

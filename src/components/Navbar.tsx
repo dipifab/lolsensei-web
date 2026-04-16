@@ -1,6 +1,7 @@
 import { createSignal, createEffect, onMount, onCleanup, For, Show } from 'solid-js';
 import { A, useLocation } from '@solidjs/router';
 import { useI18n, SUPPORTED_LOCALES, type Locale } from '../i18n';
+import Icon from './Icon';
 
 const NAV_KEYS = [
   { key: 'nav.features', path: '/features' },
@@ -93,7 +94,7 @@ export default function Navbar() {
         {/* Logo */}
         <A href={localizedHref('/')} class="flex items-center -my-4">
           <img
-            src="/images/logo-512.png"
+            src="/images/logo-120.webp"
             alt="LoL Sensei"
             width="120"
             height="120"
@@ -132,11 +133,9 @@ export default function Navbar() {
               aria-haspopup="listbox"
               aria-label="Select language"
             >
-              <span class="material-symbols-outlined text-sm">translate</span>
+              <Icon name="translate" class="w-3.5 h-3.5" />
               {t(`lang.${locale()}`)}
-              <span class={`material-symbols-outlined text-xs transition-transform duration-200 ${langOpen() ? 'rotate-180' : ''}`}>
-                expand_more
-              </span>
+              <Icon name="expand_more" class={`w-3 h-3 transition-transform duration-200 ${langOpen() ? 'rotate-180' : ''}`} />
             </button>
 
             <Show when={langOpen()}>
@@ -169,7 +168,7 @@ export default function Navbar() {
           <span
             class="bg-surface-container-highest/60 border border-outline-variant/30 text-on-surface-variant/50 font-headline font-extrabold uppercase tracking-widest px-6 py-2.5 rounded-lg cursor-default select-none inline-flex items-center gap-2"
           >
-            <span class="material-symbols-outlined text-sm">hourglass_top</span>
+            <Icon name="hourglass_top" class="w-3.5 h-3.5" />
             {t('hero.cta.download')}
           </span>
         </div>
@@ -262,7 +261,7 @@ export default function Navbar() {
           <span
             class="bg-surface-container-highest/60 border border-outline-variant/30 text-on-surface-variant/50 font-headline font-extrabold uppercase tracking-widest px-6 py-2.5 rounded-lg cursor-default select-none inline-flex items-center gap-2"
           >
-            <span class="material-symbols-outlined text-sm">hourglass_top</span>
+            <Icon name="hourglass_top" class="w-3.5 h-3.5" />
             {t('hero.cta.download')}
           </span>
         </div>

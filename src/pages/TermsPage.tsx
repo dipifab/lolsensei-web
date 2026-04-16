@@ -2,6 +2,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { usePageMeta } from '../utils/seo';
 import { useI18n } from '../i18n';
+import Icon from '../components/Icon';
 
 export default function TermsPage() {
   usePageMeta('terms', '/terms');
@@ -106,23 +107,23 @@ export default function TermsPage() {
               <p>{t('terms.s6.intro')}</p>
               <ul class="list-none space-y-3">
                 <li class="flex items-start gap-3">
-                  <span class="material-symbols-outlined text-error text-sm mt-1">block</span>
+                  <Icon name="block" class="w-3.5 h-3.5 text-error mt-1" />
                   <span>{t('terms.s6.list1')}</span>
                 </li>
                 <li class="flex items-start gap-3">
-                  <span class="material-symbols-outlined text-error text-sm mt-1">block</span>
+                  <Icon name="block" class="w-3.5 h-3.5 text-error mt-1" />
                   <span>{t('terms.s6.list2')}</span>
                 </li>
                 <li class="flex items-start gap-3">
-                  <span class="material-symbols-outlined text-error text-sm mt-1">block</span>
+                  <Icon name="block" class="w-3.5 h-3.5 text-error mt-1" />
                   <span>{t('terms.s6.list3')}</span>
                 </li>
                 <li class="flex items-start gap-3">
-                  <span class="material-symbols-outlined text-error text-sm mt-1">block</span>
+                  <Icon name="block" class="w-3.5 h-3.5 text-error mt-1" />
                   <span>{t('terms.s6.list4')}</span>
                 </li>
                 <li class="flex items-start gap-3">
-                  <span class="material-symbols-outlined text-error text-sm mt-1">block</span>
+                  <Icon name="block" class="w-3.5 h-3.5 text-error mt-1" />
                   <span>{t('terms.s6.list5')}</span>
                 </li>
               </ul>
@@ -151,19 +152,19 @@ export default function TermsPage() {
               <p>{t('terms.s8.p1')}</p>
               <ul class="list-none space-y-3">
                 <li class="flex items-start gap-3">
-                  <span class="material-symbols-outlined text-tertiary text-sm mt-1">verified</span>
+                  <Icon name="verified" class="w-3.5 h-3.5 text-tertiary mt-1" />
                   <span>{t('terms.s8.list1')}</span>
                 </li>
                 <li class="flex items-start gap-3">
-                  <span class="material-symbols-outlined text-tertiary text-sm mt-1">verified</span>
+                  <Icon name="verified" class="w-3.5 h-3.5 text-tertiary mt-1" />
                   <span>{t('terms.s8.list2')}</span>
                 </li>
                 <li class="flex items-start gap-3">
-                  <span class="material-symbols-outlined text-tertiary text-sm mt-1">verified</span>
+                  <Icon name="verified" class="w-3.5 h-3.5 text-tertiary mt-1" />
                   <span>{t('terms.s8.list3')}</span>
                 </li>
                 <li class="flex items-start gap-3">
-                  <span class="material-symbols-outlined text-tertiary text-sm mt-1">verified</span>
+                  <Icon name="verified" class="w-3.5 h-3.5 text-tertiary mt-1" />
                   <span>{t('terms.s8.list4')}</span>
                 </li>
               </ul>

@@ -3,10 +3,11 @@ import { A } from '@solidjs/router';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Breadcrumbs from '../components/Breadcrumbs';
-import { BreadcrumbJsonLd } from '../components/JsonLd';
+import { BreadcrumbJsonLd, ItemListJsonLd } from '../components/JsonLd';
 import { useI18n } from '../i18n';
 import { usePageMeta } from '../utils/seo';
 import { getBlogPosts } from '../data/blog';
+import Icon from '../components/Icon';
 
 const localeMap: Record<string, string> = {
   en: 'en-US',
@@ -50,6 +51,12 @@ export default function BlogPage() {
           { name: t('breadcrumbs.home'), path: '/' },
           { name: t('nav.blog'), path: '/blog' },
         ]}
+      />
+      <ItemListJsonLd
+        items={posts().map((post) => ({
+          name: post.title,
+          url: `https://www.lolsensei.com/${locale()}/blog/${post.slug}`,
+        }))}
       />
       <Breadcrumbs items={breadcrumbItems()} />
 
@@ -101,7 +108,7 @@ export default function BlogPage() {
                   <div class="flex items-center justify-between text-xs text-on-surface-variant/60">
                     <time datetime={post.date}>{formatDate(post.date)}</time>
                     <span class="flex items-center gap-1">
-                      <span class="material-symbols-outlined text-[14px]">schedule</span>
+                      <Icon name="schedule" class="w-3.5 h-3.5" />
                       {post.readingTime} {t('blog.min')}
                     </span>
                   </div>

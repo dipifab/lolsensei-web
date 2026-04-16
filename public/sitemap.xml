@@ -797,676 +797,87 @@
     <loc>https://www.lolsensei.com/en/blog</loc>
     <lastmod>2026-04-16</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog" />
   </url>
-  <!-- Blog: it -->
-  <url>
-    <loc>https://www.lolsensei.com/it/blog</loc>
-    <lastmod>2026-04-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog" />
-  </url>
-  <!-- Blog: ko -->
-  <url>
-    <loc>https://www.lolsensei.com/ko/blog</loc>
-    <lastmod>2026-04-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog" />
-  </url>
-  <!-- Blog: zh -->
-  <url>
-    <loc>https://www.lolsensei.com/zh/blog</loc>
-    <lastmod>2026-04-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog" />
-  </url>
-  <!-- Blog: pt-br -->
-  <url>
-    <loc>https://www.lolsensei.com/pt-br/blog</loc>
-    <lastmod>2026-04-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog" />
-  </url>
-  <!-- Blog: es -->
-  <url>
-    <loc>https://www.lolsensei.com/es/blog</loc>
-    <lastmod>2026-04-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog" />
-  </url>
-  <!-- Blog: fr -->
-  <url>
-    <loc>https://www.lolsensei.com/fr/blog</loc>
-    <lastmod>2026-04-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog" />
-  </url>
-  <!-- Blog: de -->
-  <url>
-    <loc>https://www.lolsensei.com/de/blog</loc>
-    <lastmod>2026-04-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog" />
-  </url>
+  
+  
+  
+  
+  
+  
+  
 
   <!-- Blog Post "how-ai-coaching-helps-you-learn-league": en -->
   <url>
     <loc>https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league</loc>
-    <lastmod>2026-04-15</lastmod>
+    <lastmod>2026-04-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/how-ai-coaching-helps-you-learn-league" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
   </url>
-  <!-- Blog Post "how-ai-coaching-helps-you-learn-league": it -->
-  <url>
-    <loc>https://www.lolsensei.com/it/blog/how-ai-coaching-helps-you-learn-league</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
-  </url>
-  <!-- Blog Post "how-ai-coaching-helps-you-learn-league": ko -->
-  <url>
-    <loc>https://www.lolsensei.com/ko/blog/how-ai-coaching-helps-you-learn-league</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
-  </url>
-  <!-- Blog Post "how-ai-coaching-helps-you-learn-league": zh -->
-  <url>
-    <loc>https://www.lolsensei.com/zh/blog/how-ai-coaching-helps-you-learn-league</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
-  </url>
-  <!-- Blog Post "how-ai-coaching-helps-you-learn-league": pt-br -->
-  <url>
-    <loc>https://www.lolsensei.com/pt-br/blog/how-ai-coaching-helps-you-learn-league</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
-  </url>
-  <!-- Blog Post "how-ai-coaching-helps-you-learn-league": es -->
-  <url>
-    <loc>https://www.lolsensei.com/es/blog/how-ai-coaching-helps-you-learn-league</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
-  </url>
-  <!-- Blog Post "how-ai-coaching-helps-you-learn-league": fr -->
-  <url>
-    <loc>https://www.lolsensei.com/fr/blog/how-ai-coaching-helps-you-learn-league</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
-  </url>
-  <!-- Blog Post "how-ai-coaching-helps-you-learn-league": de -->
-  <url>
-    <loc>https://www.lolsensei.com/de/blog/how-ai-coaching-helps-you-learn-league</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
-  </url>
+  
+  
+  
+  
+  
+  
+  
 
   <!-- Blog Post "understanding-champion-select": en -->
   <url>
     <loc>https://www.lolsensei.com/en/blog/understanding-champion-select</loc>
-    <lastmod>2026-04-15</lastmod>
+    <lastmod>2026-04-05</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/understanding-champion-select" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
   </url>
-  <!-- Blog Post "understanding-champion-select": it -->
-  <url>
-    <loc>https://www.lolsensei.com/it/blog/understanding-champion-select</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
-  </url>
-  <!-- Blog Post "understanding-champion-select": ko -->
-  <url>
-    <loc>https://www.lolsensei.com/ko/blog/understanding-champion-select</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
-  </url>
-  <!-- Blog Post "understanding-champion-select": zh -->
-  <url>
-    <loc>https://www.lolsensei.com/zh/blog/understanding-champion-select</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
-  </url>
-  <!-- Blog Post "understanding-champion-select": pt-br -->
-  <url>
-    <loc>https://www.lolsensei.com/pt-br/blog/understanding-champion-select</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
-  </url>
-  <!-- Blog Post "understanding-champion-select": es -->
-  <url>
-    <loc>https://www.lolsensei.com/es/blog/understanding-champion-select</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
-  </url>
-  <!-- Blog Post "understanding-champion-select": fr -->
-  <url>
-    <loc>https://www.lolsensei.com/fr/blog/understanding-champion-select</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
-  </url>
-  <!-- Blog Post "understanding-champion-select": de -->
-  <url>
-    <loc>https://www.lolsensei.com/de/blog/understanding-champion-select</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
-  </url>
+  
+  
+  
+  
+  
+  
+  
 
   <!-- Blog Post "why-copying-builds-doesnt-help": en -->
   <url>
     <loc>https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help</loc>
-    <lastmod>2026-04-15</lastmod>
+    <lastmod>2026-04-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/why-copying-builds-doesnt-help" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
   </url>
-  <!-- Blog Post "why-copying-builds-doesnt-help": it -->
-  <url>
-    <loc>https://www.lolsensei.com/it/blog/why-copying-builds-doesnt-help</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
-  </url>
-  <!-- Blog Post "why-copying-builds-doesnt-help": ko -->
-  <url>
-    <loc>https://www.lolsensei.com/ko/blog/why-copying-builds-doesnt-help</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
-  </url>
-  <!-- Blog Post "why-copying-builds-doesnt-help": zh -->
-  <url>
-    <loc>https://www.lolsensei.com/zh/blog/why-copying-builds-doesnt-help</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
-  </url>
-  <!-- Blog Post "why-copying-builds-doesnt-help": pt-br -->
-  <url>
-    <loc>https://www.lolsensei.com/pt-br/blog/why-copying-builds-doesnt-help</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
-  </url>
-  <!-- Blog Post "why-copying-builds-doesnt-help": es -->
-  <url>
-    <loc>https://www.lolsensei.com/es/blog/why-copying-builds-doesnt-help</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
-  </url>
-  <!-- Blog Post "why-copying-builds-doesnt-help": fr -->
-  <url>
-    <loc>https://www.lolsensei.com/fr/blog/why-copying-builds-doesnt-help</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
-  </url>
-  <!-- Blog Post "why-copying-builds-doesnt-help": de -->
-  <url>
-    <loc>https://www.lolsensei.com/de/blog/why-copying-builds-doesnt-help</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
-  </url>
+  
+  
+  
+  
+  
+  
+  
 
   <!-- Blog Post "lol-sensei-vs-opgg": en -->
   <url>
     <loc>https://www.lolsensei.com/en/blog/lol-sensei-vs-opgg</loc>
-    <lastmod>2026-04-15</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/lol-sensei-vs-opgg" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-opgg" />
   </url>
-  <!-- Blog Post "lol-sensei-vs-opgg": it -->
-  <url>
-    <loc>https://www.lolsensei.com/it/blog/lol-sensei-vs-opgg</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-opgg" />
-  </url>
-  <!-- Blog Post "lol-sensei-vs-opgg": ko -->
-  <url>
-    <loc>https://www.lolsensei.com/ko/blog/lol-sensei-vs-opgg</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-opgg" />
-  </url>
-  <!-- Blog Post "lol-sensei-vs-opgg": zh -->
-  <url>
-    <loc>https://www.lolsensei.com/zh/blog/lol-sensei-vs-opgg</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-opgg" />
-  </url>
-  <!-- Blog Post "lol-sensei-vs-opgg": pt-br -->
-  <url>
-    <loc>https://www.lolsensei.com/pt-br/blog/lol-sensei-vs-opgg</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-opgg" />
-  </url>
-  <!-- Blog Post "lol-sensei-vs-opgg": es -->
-  <url>
-    <loc>https://www.lolsensei.com/es/blog/lol-sensei-vs-opgg</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-opgg" />
-  </url>
-  <!-- Blog Post "lol-sensei-vs-opgg": fr -->
-  <url>
-    <loc>https://www.lolsensei.com/fr/blog/lol-sensei-vs-opgg</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-opgg" />
-  </url>
-  <!-- Blog Post "lol-sensei-vs-opgg": de -->
-  <url>
-    <loc>https://www.lolsensei.com/de/blog/lol-sensei-vs-opgg</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/lol-sensei-vs-opgg" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-opgg" />
-  </url>
+  
+  
+  
+  
+  
+  
+  
 
   <!-- Blog Post "lol-sensei-vs-blitz": en -->
   <url>
     <loc>https://www.lolsensei.com/en/blog/lol-sensei-vs-blitz</loc>
     <lastmod>2026-04-15</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/lol-sensei-vs-blitz" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-blitz" />
   </url>
-  <!-- Blog Post "lol-sensei-vs-blitz": it -->
-  <url>
-    <loc>https://www.lolsensei.com/it/blog/lol-sensei-vs-blitz</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-blitz" />
-  </url>
-  <!-- Blog Post "lol-sensei-vs-blitz": ko -->
-  <url>
-    <loc>https://www.lolsensei.com/ko/blog/lol-sensei-vs-blitz</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-blitz" />
-  </url>
-  <!-- Blog Post "lol-sensei-vs-blitz": zh -->
-  <url>
-    <loc>https://www.lolsensei.com/zh/blog/lol-sensei-vs-blitz</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-blitz" />
-  </url>
-  <!-- Blog Post "lol-sensei-vs-blitz": pt-br -->
-  <url>
-    <loc>https://www.lolsensei.com/pt-br/blog/lol-sensei-vs-blitz</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-blitz" />
-  </url>
-  <!-- Blog Post "lol-sensei-vs-blitz": es -->
-  <url>
-    <loc>https://www.lolsensei.com/es/blog/lol-sensei-vs-blitz</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-blitz" />
-  </url>
-  <!-- Blog Post "lol-sensei-vs-blitz": fr -->
-  <url>
-    <loc>https://www.lolsensei.com/fr/blog/lol-sensei-vs-blitz</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-blitz" />
-  </url>
-  <!-- Blog Post "lol-sensei-vs-blitz": de -->
-  <url>
-    <loc>https://www.lolsensei.com/de/blog/lol-sensei-vs-blitz</loc>
-    <lastmod>2026-04-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog/lol-sensei-vs-blitz" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/lol-sensei-vs-blitz" />
-  </url>
-</urlset>
+  
+  
+  
+  
+  
+  
+  

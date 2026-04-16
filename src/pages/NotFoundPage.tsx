@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { useI18n } from '../i18n';
+import Icon from '../components/Icon';
 
 export default function NotFoundPage() {
   const { t, locale } = useI18n();
@@ -19,7 +20,7 @@ export default function NotFoundPage() {
             href={`/${locale()}`}
             class="inline-flex items-center gap-2 bg-primary-container text-on-primary-container px-6 py-3 rounded-lg font-headline font-extrabold uppercase tracking-widest text-sm hover:opacity-90 transition-opacity"
           >
-            <span class="material-symbols-outlined text-lg">arrow_back</span>
+            <Icon name="arrow_back" class="w-5 h-5" />
             {t('notFound.cta')}
           </a>
         </div>

@@ -16,7 +16,7 @@ LoL Sensei is a free AI-powered coaching tool that helps League of Legends playe
 - Pro tier (€7.99/month): All free features + priority server access
 
 ## Links
-- Website: https://lolsensei.com
+- Website: https://www.lolsensei.com
 - GitHub: https://github.com/dipifab/lolai
 - Download: https://github.com/dipifab/lolai/releases/latest/download/LoLSensei-Setup.exe
 

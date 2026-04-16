@@ -27,18 +27,15 @@
 
     <!-- Favicon & Icons -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="apple-touch-icon" href="/og-image.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
     <!-- Preload hero image for desktop -->
     <link rel="preload" as="image" href="/images/hero-panel-large.webp" type="image/webp" media="(min-width: 1024px)" />
 
-    <!-- Google Fonts: preconnect + async load -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=Inter:wght@400;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=Inter:wght@400;600&display=swap" /></noscript>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" /></noscript>
+    <!-- Self-hosted fonts -->
+    <link rel="stylesheet" href="/fonts/fonts.css" />
+    <link rel="preload" href="/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
 
     <!-- Static JSON-LD for crawlers without JS -->
     <script type="application/ld+json">
@@ -47,7 +44,7 @@
       "@type": "Organization",
       "name": "LoL Sensei",
       "url": "https://www.lolsensei.com",
-      "logo": "https://www.lolsensei.com/og-image.png",
+      "logo": {"@type": "ImageObject", "url": "https://www.lolsensei.com/og-image.png", "width": 1200, "height": 630},
       "sameAs": ["https://github.com/dipifab/lolai"],
       "description": "AI coaching application for League of Legends that helps players learn the game through real-time guidance"
     }
@@ -62,9 +59,35 @@
       "description": "AI coaching for League of Legends"
     }
     </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "LoL Sensei",
+      "operatingSystem": "Windows",
+      "applicationCategory": "GameApplication",
+      "offers": [
+        {"@type": "Offer", "price": "0", "priceCurrency": "EUR", "name": "Free"},
+        {"@type": "Offer", "price": "7.99", "priceCurrency": "EUR", "name": "Pro", "priceValidUntil": "2027-12-31"}
+      ],
+      "description": "Real-time AI coaching for League of Legends. Learn champion select, builds, and game strategy.",
+      "downloadUrl": "https://github.com/dipifab/lolai/releases/latest/download/LoLSensei-Setup.exe"
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      <div style="max-width:800px;margin:80px auto;padding:0 24px;font-family:system-ui,sans-serif;color:#e0e0e0;background:#081614">
+        <h1 style="font-size:2rem;margin-bottom:16px">LoL Sensei — AI Coach for League of Legends</h1>
+        <p style="margin-bottom:12px">Real-time AI coaching that helps you learn champion select, builds, and game strategy.</p>
+        <p style="margin-bottom:24px">JavaScript is required to use this application.</p>
+        <ul style="list-style:none;padding:0">
+          <li style="margin-bottom:8px"><a href="https://github.com/dipifab/lolai" style="color:#f0bf5c">GitHub Repository</a></li>
+          <li><a href="https://github.com/dipifab/lolai/releases/latest/download/LoLSensei-Setup.exe" style="color:#f0bf5c">Download for Windows</a></li>
+        </ul>
+      </div>
+    </noscript>
     <script type="module" src="/src/index.tsx"></script>
   </body>
 </html>

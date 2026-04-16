@@ -11,6 +11,8 @@ interface BlogPostingJsonLdProps {
   title: string;
   description: string;
   datePublished: string;
+  dateModified?: string;
+  image?: string;
   author: string;
   url: string;
   readingTime: number;
@@ -29,7 +31,7 @@ export function OrganizationJsonLd(): JSX.Element {
     '@type': 'Organization',
     name: 'LoL Sensei',
     url: BASE_URL,
-    logo: `${BASE_URL}/og-image.png`,
+    logo: { '@type': 'ImageObject', url: `${BASE_URL}/og-image.png`, width: 1200, height: 630 },
     sameAs: ['https://github.com/dipifab/lolai'],
     description:
       'AI coaching application for League of Legends that helps players learn the game through real-time guidance',
@@ -89,6 +91,8 @@ export function BlogPostingJsonLd(props: BlogPostingJsonLdProps): JSX.Element {
     headline: props.title,
     description: props.description,
     datePublished: props.datePublished,
+    dateModified: props.dateModified || props.datePublished,
+    image: props.image || `${BASE_URL}/og-image.png`,
     author: { '@type': 'Organization', name: props.author },
     publisher: {
       '@type': 'Organization',
@@ -101,6 +105,38 @@ export function BlogPostingJsonLd(props: BlogPostingJsonLdProps): JSX.Element {
     mainEntityOfPage: { '@type': 'WebPage', '@id': props.url },
     wordCount: props.readingTime * 200,
     articleSection: props.tags,
+  });
+
+  return <script type="application/ld+json" innerHTML={JSON.stringify(data())} />;
+}
+
+export function FAQPageJsonLd(props: { items: { question: string; answer: string }[] }): JSX.Element {
+  const data = () => ({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: props.items.map((item) => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.answer,
+      },
+    })),
+  });
+
+  return <script type="application/ld+json" innerHTML={JSON.stringify(data())} />;
+}
+
+export function ItemListJsonLd(props: { items: { name: string; url: string }[] }): JSX.Element {
+  const data = () => ({
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    itemListElement: props.items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.name,
+      url: item.url,
+    })),
   });
 
   return <script type="application/ld+json" innerHTML={JSON.stringify(data())} />;

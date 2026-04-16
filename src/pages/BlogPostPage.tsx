@@ -7,6 +7,7 @@ import { BreadcrumbJsonLd, BlogPostingJsonLd } from '../components/JsonLd';
 import { useI18n, SUPPORTED_LOCALES } from '../i18n';
 import { updateMeta } from '../utils/meta';
 import { getBlogPost, getBlogPosts } from '../data/blog';
+import Icon from '../components/Icon';
 
 const BASE_URL = 'https://www.lolsensei.com';
 
@@ -90,6 +91,8 @@ export default function BlogPostPage() {
             title={currentPost().title}
             description={currentPost().excerpt}
             datePublished={currentPost().date}
+            dateModified={currentPost().dateModified || currentPost().date}
+            image={currentPost().image}
             author={currentPost().author}
             url={`${BASE_URL}/${locale()}/blog/${currentPost().slug}`}
             readingTime={currentPost().readingTime}
@@ -124,15 +127,15 @@ export default function BlogPostPage() {
               {/* Meta row */}
               <div class="flex flex-wrap items-center gap-6 text-sm text-on-surface-variant/70">
                 <span class="flex items-center gap-2">
-                  <span class="material-symbols-outlined text-[16px]">person</span>
+                  <Icon name="person" class="w-4 h-4" />
                   {currentPost().author}
                 </span>
                 <time datetime={currentPost().date} class="flex items-center gap-2">
-                  <span class="material-symbols-outlined text-[16px]">calendar_today</span>
+                  <Icon name="calendar_today" class="w-4 h-4" />
                   {formatDate(currentPost().date)}
                 </time>
                 <span class="flex items-center gap-2">
-                  <span class="material-symbols-outlined text-[16px]">schedule</span>
+                  <Icon name="schedule" class="w-4 h-4" />
                   {currentPost().readingTime} {t('blog.minRead')}
                 </span>
               </div>
@@ -156,7 +159,7 @@ export default function BlogPostPage() {
                 href={localizedHref('/blog')}
                 class="inline-flex items-center gap-2 text-primary-container hover:text-primary transition-colors font-headline font-bold uppercase tracking-widest text-sm"
               >
-                <span class="material-symbols-outlined text-[16px]">arrow_back</span>
+                <Icon name="arrow_back" class="w-4 h-4" />
                 {t('blog.backToBlog')}
               </A>
             </div>

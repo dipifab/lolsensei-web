@@ -19,8 +19,9 @@ export function usePageMeta(pageKey: string, path: string) {
     const description = t(`meta.${pageKey}.description`);
     const canonical = `${BASE_URL}/${lang}${path}`;
 
+    const hreflangMap: Record<string, string> = { zh: 'zh-Hans' };
     const alternates: { lang: string; href: string }[] = SUPPORTED_LOCALES.map((l) => ({
-      lang: l,
+      lang: hreflangMap[l] || l,
       href: `${BASE_URL}/${l}${path}`,
     }));
     // x-default points to English

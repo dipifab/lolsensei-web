@@ -1,5 +1,6 @@
 import { scrollToSection } from '../utils/scroll';
 import { useI18n } from '../i18n';
+import Icon from './Icon';
 
 export default function Hero() {
   const { t } = useI18n();
@@ -23,7 +24,7 @@ export default function Hero() {
             <span
               class="bg-surface-container-highest/60 border border-outline-variant/30 px-8 py-4 rounded-lg font-headline font-extrabold text-on-surface-variant/50 uppercase tracking-widest inline-flex items-center min-h-11 cursor-default select-none gap-2"
             >
-              <span class="material-symbols-outlined text-lg">hourglass_top</span>
+              <Icon name="hourglass_top" class="w-5 h-5" />
               {t('hero.cta.download')}
             </span>
             <button
@@ -49,7 +50,7 @@ export default function Hero() {
                   class="w-full h-full object-cover grayscale brightness-50 contrast-125"
                   alt="Gaming interface mockup with champion data visualization"
                   src="/images/hero-panel-small.webp"
-                  loading="lazy"
+                  loading="eager"
                   width={300}
                   height={400}
                 />

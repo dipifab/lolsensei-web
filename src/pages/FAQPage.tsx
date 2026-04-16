@@ -1,11 +1,12 @@
 import { createSignal, For, Show } from 'solid-js';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { BreadcrumbJsonLd } from '../components/JsonLd';
+import { BreadcrumbJsonLd, FAQPageJsonLd } from '../components/JsonLd';
 import { useI18n } from '../i18n';
 import { usePageMeta } from '../utils/seo';
 import { FAQ_ITEMS, FAQ_CATEGORIES } from '../data/faq';
 import type { FAQCategoryId } from '../data/faq';
+import Icon from '../components/Icon';
 
 export default function FAQPage() {
   const { t, locale } = useI18n();
@@ -41,6 +42,12 @@ export default function FAQPage() {
           { name: t('nav.faq'), path: '/faq' },
         ]}
       />
+      <FAQPageJsonLd
+        items={FAQ_ITEMS.map((item) => ({
+          question: t(item.questionKey),
+          answer: t(item.answerKey),
+        }))}
+      />
       <main class="pt-32 pb-24 px-6 max-w-7xl mx-auto">
         {/* Hero Section */}
         <header class="mb-20 flex flex-col md:flex-row md:items-end justify-between gap-8">
@@ -55,24 +62,11 @@ export default function FAQPage() {
               {t('faq.hero.subtitle')}
             </p>
           </div>
-          <div class="relative w-full md:w-1/3 aspect-[4/3] rounded-xl overflow-hidden glass-panel border border-outline-variant/15">
-            <img
-              alt="Gaming setup"
-              class="w-full h-full object-cover opacity-40 mix-blend-luminosity"
-              src="/images/faq-hero.webp"
-              loading="lazy"
-              width={480}
-              height={360}
-            />
+          <div class="relative w-full md:w-1/3 aspect-[4/3] rounded-xl overflow-hidden glass-panel border border-outline-variant/15 bg-surface-container-low">
             <div class="absolute inset-0 bg-gradient-to-t from-surface to-transparent" />
             <div class="absolute bottom-6 left-6 right-6">
               <div class="flex items-center gap-3 mb-2">
-                <span
-                  class="material-symbols-outlined text-primary"
-                  style={{ "font-variation-settings": "'FILL' 1" }}
-                >
-                  verified_user
-                </span>
+                <Icon name="verified_user_filled" class="w-6 h-6 text-primary" />
                 <span class="text-sm font-bold font-headline text-primary">{t('trust.riotCompliant')}</span>
               </div>
               <p class="text-xs text-on-surface-variant uppercase tracking-widest">
@@ -97,7 +91,7 @@ export default function FAQPage() {
                     }
                     onClick={() => handleCategoryClick(category.id)}
                   >
-                    <span class="material-symbols-outlined text-sm">{category.icon}</span>
+                    <Icon name={category.icon} class="w-3.5 h-3.5" />
                     {t(category.labelKey)}
                   </button>
                 )}
@@ -119,7 +113,10 @@ export default function FAQPage() {
                         {t(faq.questionKey)}
                       </h3>
                     </div>
-                    <span class={`material-symbols-outlined transition-transform duration-300 ${isOpen(index()) ? 'rotate-180 text-primary' : 'text-outline-variant'}`}>expand_more</span>
+                    <Icon
+                      name="expand_more"
+                      class={`w-6 h-6 transition-transform duration-300 ${isOpen(index()) ? 'rotate-180 text-primary' : 'text-outline-variant'}`}
+                    />
                   </button>
                   <Show when={isOpen(index())}>
                     <div class="mt-2 pl-16 pr-8 pb-6 text-on-surface-variant leading-relaxed">

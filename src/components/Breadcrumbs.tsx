@@ -1,5 +1,6 @@
 import { For, Show } from 'solid-js';
 import { A } from '@solidjs/router';
+import Icon from './Icon';
 
 interface BreadcrumbItem {
   label: string;
@@ -15,7 +16,7 @@ export default function Breadcrumbs(props: { items: BreadcrumbItem[] }) {
             <>
               <Show when={index() > 0}>
                 <li aria-hidden="true" class="select-none">
-                  <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+                  <Icon name="chevron_right" class="w-3.5 h-3.5" />
                 </li>
               </Show>
               <li>
