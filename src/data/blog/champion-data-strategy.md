@@ -227,7 +227,7 @@ These require external data sources or our own data pipeline:
 
 | Data | Why It Matters | Possible Sources |
 |------|----------------|-----------------|
-| Win rate / pick rate / ban rate | Core metric for "is this champion good?" | Riot API match data, op.gg, u.gg, lolalytics |
+| Win rate / pick rate / ban rate | Core metric for "is this champion good?" | Riot API match data, public stat aggregators, third-party data sources |
 | Recommended builds per matchup | Primary user intent for "X build" searches | AI analysis of high-elo games |
 | Counter pick data | "Who beats X?" is a top query | Statistical analysis of matchup win rates |
 | Rune recommendations | Part of every build guide | Game data analysis, community APIs |

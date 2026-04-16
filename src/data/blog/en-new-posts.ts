@@ -207,9 +207,9 @@ export const newEnPosts: BlogPost[] = [
 
 <p><strong>Traditional human coaching costs between $14 and $30 per hour</strong>, depending on the coach's rank and experience. For a single session per week, that is $56 to $120 per month. Quality varies enormously: some coaches provide structured improvement plans with specific drills and VOD reviews. Others simply play the game with you and offer generic advice. Finding a good coach requires trial and error, and the best coaches often have waiting lists.</p>
 
-<p>Stat tools like op.gg and u.gg provide aggregate data — win rates, pick rates, recommended builds, rune pages, and match history lookups. These tools are excellent at answering "what is popular" and "what wins the most on average." They do not answer "what should I specifically do in this game given my team's composition, the enemy's draft, and my skill level." The gap between aggregate data and personalized guidance is where AI coaching lives.</p>
+<p>Stat tracking tools provide aggregate data — win rates, pick rates, recommended builds, rune pages, and match history lookups. These tools are excellent at answering "what is popular" and "what wins the most on average." They do not answer "what should I specifically do in this game given my team's composition, the enemy's draft, and my skill level." The gap between aggregate data and personalized guidance is where AI coaching lives.</p>
 
-<p>Overlay apps like Blitz and Porofessor automate setup by importing runes and providing in-game stats. They reduce friction and provide useful information, but they are fundamentally automation tools, not teaching tools. They tell you what to do without explaining why, which means you gain convenience without gaining understanding.</p>
+<p>Overlay apps automate setup by importing runes and providing in-game stats. They reduce friction and provide useful information, but they are fundamentally automation tools, not teaching tools. They tell you what to do without explaining why, which means you gain convenience without gaining understanding.</p>
 
 <p>AI coaching tools represent a new category that matured significantly through 2025 and into 2026. These tools use large language models and game-specific data to provide personalized, explanation-driven guidance. The technology is now capable of analyzing team compositions in real time, explaining strategic reasoning in natural language, and adapting its guidance to different skill levels. Multiple tools exist, each with a different approach and philosophy.</p>
 
@@ -245,7 +245,7 @@ export const newEnPosts: BlogPost[] = [
 
 <h2>Red Flags: What Makes a Bad AI Coach</h2>
 
-<p><strong>A glorified tier list repackaged as "AI coaching."</strong> If the tool only shows you the highest win-rate champion for your role and the most popular build path, it is not doing anything that op.gg and u.gg do not already do for free. The "AI" label gets applied to simple data lookups that involve no real analysis or personalization. If the tool would give the exact same recommendation to every player in every game, it is not coaching.</p>
+<p><strong>A glorified tier list repackaged as "AI coaching."</strong> If the tool only shows you the highest win-rate champion for your role and the most popular build path, it is not doing anything that public stat tracking tools do not already do for free. The "AI" label gets applied to simple data lookups that involve no real analysis or personalization. If the tool would give the exact same recommendation to every player in every game, it is not coaching.</p>
 
 <p><strong>No explanation of reasoning.</strong> Commands without understanding do not teach. If the tool tells you to build Zhonya's Hourglass without explaining that the enemy Zed is a fed assassination threat and the active will save your life during his Death Mark, you are not learning anything. You are just following orders. A coaching tool that does not explain its logic produces players who depend on the tool permanently instead of developing their own decision-making ability.</p>
 
@@ -271,13 +271,13 @@ export const newEnPosts: BlogPost[] = [
 
 <p>The tool adapts its guidance to your demonstrated skill level. A newer player receives straightforward advice about team composition basics — damage balance, engage and disengage, and role coverage. An experienced player receives deeper analysis about draft phase strategy, counter-pick nuances, power spike timing, and team composition scaling dynamics.</p>
 
-<p>LoL Sensei covers champion select strategy, team composition analysis, and item build reasoning. It is designed to teach you the game, not to automate decisions for you. The explicit goal is that after months of using the tool, you internalize the reasoning patterns and make better decisions independently. Good coaching makes itself unnecessary over time. If you want to see how LoL Sensei compares to specific alternatives, check our comparisons with <a href="/en/blog/lol-sensei-vs-opgg">op.gg</a> and <a href="/en/blog/lol-sensei-vs-blitz">Blitz.gg</a>.</p>
+<p>LoL Sensei covers champion select strategy, team composition analysis, and item build reasoning. It is designed to teach you the game, not to automate decisions for you. The explicit goal is that after months of using the tool, you internalize the reasoning patterns and make better decisions independently. Good coaching makes itself unnecessary over time.</p>
 
 <h2>Free vs Paid Coaching Tools</h2>
 
 <p>The coaching landscape offers options at every price point, and starting free is almost always the right move.</p>
 
-<p><strong>Free tools provide excellent value for most players.</strong> op.gg is the gold standard for data lookup — match history, champion stats, player profiles, and meta analysis. u.gg offers comprehensive tier lists, build paths, rune recommendations, and matchup data. LoL Sensei's free tier provides basic champion select coaching with composition analysis. These tools cost nothing and provide genuine value. Many players will find that free tools are sufficient for their needs.</p>
+<p><strong>Free tools provide excellent value for most players.</strong> Stat tracking tools are reliable for data lookup — match history, champion stats, player profiles, and meta analysis. Tier list websites offer comprehensive tier lists, build paths, rune recommendations, and matchup data. LoL Sensei's free tier provides basic champion select coaching with composition analysis. These tools cost nothing and provide genuine value. Many players will find that free tools are sufficient for their needs.</p>
 
 <p><strong>Paid tools add depth, personalization, and advanced features.</strong> LoL Sensei Pro adds full AI coaching with detailed explanations, skill-level adaptation, and comprehensive draft analysis. Premium features on stat sites unlock historical trend analysis and advanced performance metrics. Human coaches on platforms like ProGuides and Metafy range from $14 to $30 per hour for one-on-one sessions, with some coaches offering package deals for multiple sessions.</p>
 
