@@ -1,7 +1,7 @@
 import { createSignal, For, Show } from 'solid-js';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { BreadcrumbJsonLd, FAQPageJsonLd } from '../components/JsonLd';
+import { BreadcrumbJsonLd } from '../components/JsonLd';
 import { useI18n } from '../i18n';
 import { usePageMeta } from '../utils/seo';
 import { FAQ_ITEMS, FAQ_CATEGORIES } from '../data/faq';
@@ -41,12 +41,6 @@ export default function FAQPage() {
           { name: t('breadcrumbs.home'), path: '/' },
           { name: t('nav.faq'), path: '/faq' },
         ]}
-      />
-      <FAQPageJsonLd
-        items={FAQ_ITEMS.map((item) => ({
-          question: t(item.questionKey),
-          answer: t(item.answerKey),
-        }))}
       />
       <main class="pt-32 pb-24 px-6 max-w-7xl mx-auto">
         {/* Hero Section */}

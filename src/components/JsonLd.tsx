@@ -31,7 +31,7 @@ export function OrganizationJsonLd(): JSX.Element {
     '@type': 'Organization',
     name: 'LoL Sensei',
     url: BASE_URL,
-    logo: { '@type': 'ImageObject', url: `${BASE_URL}/og-image.png`, width: 1200, height: 630 },
+    logo: { '@type': 'ImageObject', url: `${BASE_URL}/images/logo-512.png`, width: 512, height: 512 },
     sameAs: ['https://github.com/dipifab/lolai'],
     description:
       'AI coaching application for League of Legends that helps players learn the game through real-time guidance',
@@ -99,7 +99,9 @@ export function BlogPostingJsonLd(props: BlogPostingJsonLdProps): JSX.Element {
       name: 'LoL Sensei',
       logo: {
         '@type': 'ImageObject',
-        url: `${BASE_URL}/og-image.png`,
+        url: `${BASE_URL}/images/logo-512.png`,
+        width: 512,
+        height: 512,
       },
     },
     mainEntityOfPage: { '@type': 'WebPage', '@id': props.url },
@@ -110,22 +112,6 @@ export function BlogPostingJsonLd(props: BlogPostingJsonLdProps): JSX.Element {
   return <script type="application/ld+json" innerHTML={JSON.stringify(data())} />;
 }
 
-export function FAQPageJsonLd(props: { items: { question: string; answer: string }[] }): JSX.Element {
-  const data = () => ({
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: props.items.map((item) => ({
-      '@type': 'Question',
-      name: item.question,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: item.answer,
-      },
-    })),
-  });
-
-  return <script type="application/ld+json" innerHTML={JSON.stringify(data())} />;
-}
 
 export function ItemListJsonLd(props: { items: { name: string; url: string }[] }): JSX.Element {
   const data = () => ({

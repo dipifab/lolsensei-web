@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Breadcrumbs from '../components/Breadcrumbs';
 import { BreadcrumbJsonLd, BlogPostingJsonLd } from '../components/JsonLd';
-import { useI18n, SUPPORTED_LOCALES } from '../i18n';
+import { useI18n } from '../i18n';
 import { updateMeta } from '../utils/meta';
 import { getBlogPost, getBlogPosts } from '../data/blog';
 import Icon from '../components/Icon';
@@ -55,7 +55,9 @@ export default function BlogPostPage() {
     const canonical = `${BASE_URL}/${lang}${path}`;
     const title = `${currentPost.title} — LoL Sensei`;
 
-    const alternates: { lang: string; href: string }[] = SUPPORTED_LOCALES.map((l) => ({
+    // Only emit hreflang for locales with actual blog content (en/it)
+    const BLOG_LOCALES = ['en', 'it'] as const;
+    const alternates: { lang: string; href: string }[] = BLOG_LOCALES.map((l) => ({
       lang: l,
       href: `${BASE_URL}/${l}${path}`,
     }));
