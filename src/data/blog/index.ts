@@ -1,23 +1,18 @@
 import type { BlogPost } from './types';
-import { enPosts } from './en';
-import { itPosts } from './it';
 
-const postsByLang: Record<string, BlogPost[]> = {
-  en: enPosts,
-  it: itPosts,
+const loaders: Record<string, () => Promise<BlogPost[]>> = {
+  en: async () => (await import('./en')).enPosts,
+  it: async () => (await import('./it')).itPosts,
 };
 
-export function getBlogPosts(lang: string): BlogPost[] {
-  return postsByLang[lang] ?? postsByLang.en;
+export async function getBlogPosts(lang: string): Promise<BlogPost[]> {
+  const loader = loaders[lang] ?? loaders.en;
+  return loader();
 }
 
-export function getBlogPost(lang: string, slug: string): BlogPost | undefined {
-  const posts = getBlogPosts(lang);
+export async function getBlogPost(lang: string, slug: string): Promise<BlogPost | undefined> {
+  const posts = await getBlogPosts(lang);
   return posts.find((p) => p.slug === slug);
-}
-
-export function getAllSlugs(): string[] {
-  return enPosts.map((p) => p.slug);
 }
 
 export type { BlogPost } from './types';

@@ -17,6 +17,7 @@ interface BlogPostingJsonLdProps {
   url: string;
   readingTime: number;
   tags: string[];
+  lang?: string;
 }
 
 function JsonLdScript(props: { data: Record<string, unknown> }): JSX.Element {
@@ -107,6 +108,7 @@ export function BlogPostingJsonLd(props: BlogPostingJsonLdProps): JSX.Element {
     mainEntityOfPage: { '@type': 'WebPage', '@id': props.url },
     wordCount: props.readingTime * 200,
     articleSection: props.tags,
+    ...(props.lang && { inLanguage: props.lang }),
   });
 
   return <script type="application/ld+json" innerHTML={JSON.stringify(data())} />;

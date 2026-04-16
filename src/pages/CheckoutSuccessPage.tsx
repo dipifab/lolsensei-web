@@ -1,4 +1,5 @@
 import { A } from '@solidjs/router';
+import { onMount, onCleanup } from 'solid-js';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { useI18n } from '../i18n';
@@ -6,6 +7,14 @@ import Icon from '../components/Icon';
 
 export default function CheckoutSuccessPage() {
   const { t, locale } = useI18n();
+
+  onMount(() => {
+    const meta = document.createElement('meta');
+    meta.name = 'robots';
+    meta.content = 'noindex, nofollow';
+    document.head.appendChild(meta);
+    onCleanup(() => meta.remove());
+  });
 
   return (
     <>

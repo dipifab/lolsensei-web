@@ -1,16 +1,24 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import { BreadcrumbJsonLd } from '../components/JsonLd';
 import { usePageMeta } from '../utils/seo';
 import { useI18n } from '../i18n';
 import Icon from '../components/Icon';
 
 export default function PrivacyPage() {
   usePageMeta('privacy', '/privacy');
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
 
   return (
     <>
       <Navbar />
+      <BreadcrumbJsonLd
+        lang={locale()}
+        items={[
+          { name: t('breadcrumbs.home'), path: '/' },
+          { name: t('privacy.title'), path: '/privacy' },
+        ]}
+      />
       <main class="pt-32 pb-24 px-6 max-w-7xl mx-auto">
         {/* Hero Section */}
         <header class="mb-20 max-w-3xl">

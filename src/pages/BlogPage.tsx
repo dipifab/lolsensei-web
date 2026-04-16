@@ -1,4 +1,4 @@
-import { For } from 'solid-js';
+import { For, Show, createEffect, createResource, onCleanup } from 'solid-js';
 import { A } from '@solidjs/router';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -6,8 +6,12 @@ import Breadcrumbs from '../components/Breadcrumbs';
 import { BreadcrumbJsonLd, ItemListJsonLd } from '../components/JsonLd';
 import { useI18n } from '../i18n';
 import { usePageMeta } from '../utils/seo';
+import { updateMeta } from '../utils/meta';
 import { getBlogPosts } from '../data/blog';
 import Icon from '../components/Icon';
+
+const BASE_URL = 'https://www.lolsensei.com';
+const BLOG_LOCALES = ['en', 'it'] as const;
 
 const localeMap: Record<string, string> = {
   en: 'en-US',
@@ -24,9 +28,31 @@ export default function BlogPage() {
   const { t, locale } = useI18n();
   usePageMeta('blog', '/blog');
 
+  // Override hreflang: blog content only exists in en/it
+  createEffect(() => {
+    const lang = locale();
+    const alternates = BLOG_LOCALES.map((l) => ({
+      lang: l,
+      href: `${BASE_URL}/${l}/blog`,
+    }));
+    alternates.push({ lang: 'x-default', href: `${BASE_URL}/en/blog` });
+
+    updateMeta({
+      title: t('meta.blog.title'),
+      description: t('meta.blog.description'),
+      canonical: `${BASE_URL}/${lang}/blog`,
+      lang,
+      alternates,
+    });
+  });
+
+  onCleanup(() => {
+    document.querySelectorAll('link[hreflang]').forEach((el) => el.remove());
+  });
+
   const localizedHref = (path: string) => `/${locale()}${path}`;
 
-  const posts = () => getBlogPosts(locale());
+  const [posts] = createResource(() => locale(), getBlogPosts);
 
   const breadcrumbItems = () => [
     { label: t('breadcrumbs.home'), href: localizedHref('/') },
@@ -52,12 +78,16 @@ export default function BlogPage() {
           { name: t('nav.blog'), path: '/blog' },
         ]}
       />
-      <ItemListJsonLd
-        items={posts().map((post) => ({
-          name: post.title,
-          url: `https://www.lolsensei.com/${locale()}/blog/${post.slug}`,
-        }))}
-      />
+      <Show when={posts()}>
+        {(loadedPosts) => (
+          <ItemListJsonLd
+            items={loadedPosts().map((post) => ({
+              name: post.title,
+              url: `https://www.lolsensei.com/${locale()}/blog/${post.slug}`,
+            }))}
+          />
+        )}
+      </Show>
       <Breadcrumbs items={breadcrumbItems()} />
 
       <main class="max-w-7xl mx-auto px-8 pb-24">
@@ -76,7 +106,7 @@ export default function BlogPage() {
 
         {/* Post Grid */}
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <For each={posts()}>
+          <For each={posts() ?? []}>
             {(post) => (
               <A
                 href={localizedHref(`/blog/${post.slug}`)}

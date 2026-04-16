@@ -1,4 +1,4 @@
-import { Show, For, createMemo, createEffect, onCleanup } from 'solid-js';
+import { Show, For, createEffect, createResource, onCleanup } from 'solid-js';
 import { A, useParams, Navigate } from '@solidjs/router';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -28,13 +28,18 @@ export default function BlogPostPage() {
 
   const localizedHref = (path: string) => `/${locale()}${path}`;
 
-  const post = createMemo(() => getBlogPost(locale(), params.slug));
+  const [post] = createResource(
+    () => ({ lang: locale(), slug: params.slug }),
+    (args) => getBlogPost(args.lang, args.slug),
+  );
 
-  // Related posts: all other posts except the current one
-  const relatedPosts = createMemo(() => {
-    const all = getBlogPosts(locale());
-    return all.filter((p) => p.slug !== params.slug).slice(0, 3);
-  });
+  const [relatedPosts] = createResource(
+    () => ({ lang: locale(), slug: params.slug }),
+    async (args) => {
+      const all = await getBlogPosts(args.lang);
+      return all.filter((p) => p.slug !== args.slug).slice(0, 3);
+    },
+  );
 
   const formatDate = (iso: string) => {
     const date = new Date(iso);
@@ -99,6 +104,7 @@ export default function BlogPostPage() {
             url={`${BASE_URL}/${locale()}/blog/${currentPost().slug}`}
             readingTime={currentPost().readingTime}
             tags={currentPost().tags}
+            lang={locale()}
           />
           <Breadcrumbs
             items={[
@@ -167,13 +173,13 @@ export default function BlogPostPage() {
             </div>
 
             {/* Related Posts */}
-            <Show when={relatedPosts().length > 0}>
+            <Show when={(relatedPosts() ?? []).length > 0}>
               <section class="mt-20">
                 <h2 class="text-2xl font-headline font-extrabold tracking-tight text-on-surface mb-8">
                   {t('blog.relatedPosts')}
                 </h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                  <For each={relatedPosts()}>
+                  <For each={relatedPosts() ?? []}>
                     {(related) => (
                       <A
                         href={localizedHref(`/blog/${related.slug}`)}
