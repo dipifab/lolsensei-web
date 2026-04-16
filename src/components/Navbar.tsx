@@ -8,6 +8,7 @@ const NAV_KEYS = [
   { key: 'nav.pricing', path: '/pricing' },
   { key: 'nav.faq', path: '/faq' },
   { key: 'nav.community', path: '/community' },
+  { key: 'nav.about', path: '/about' },
   { key: 'nav.blog', path: '/blog' },
 ] as const;
 
@@ -222,7 +223,7 @@ export default function Navbar() {
       <Show when={menuOpen()}>
         <div
           id="mobile-menu"
-          class="fixed inset-0 top-16 glass-panel z-40 flex flex-col items-center justify-center gap-10 motion-safe:animate-[fade-in_200ms_ease-out]"
+          class="fixed inset-0 top-16 bg-surface z-40 flex flex-col items-center justify-center gap-10 motion-safe:animate-[fade-in_200ms_ease-out]"
         >
           <For each={NAV_KEYS}>
             {(item) => (

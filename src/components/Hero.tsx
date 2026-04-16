@@ -17,8 +17,11 @@ export default function Hero() {
             {t('hero.title').replace(t('hero.highlight'), '')}
             <span class="text-primary-container">{t('hero.highlight')}</span>
           </h1>
-          <p class="text-xl text-on-surface-variant mb-10 max-w-lg leading-relaxed">
+          <p class="text-xl text-on-surface-variant mb-6 max-w-lg leading-relaxed">
             {t('hero.subtitle')}
+          </p>
+          <p class="text-base text-on-surface-variant/70 mb-10 max-w-lg leading-relaxed">
+            {t('hero.intro')}
           </p>
           <div class="flex flex-wrap gap-4">
             <span
