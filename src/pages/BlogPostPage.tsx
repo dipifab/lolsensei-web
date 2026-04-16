@@ -1,5 +1,5 @@
 import { Show, For, createEffect, createResource, onCleanup } from 'solid-js';
-import { A, useParams, Navigate } from '@solidjs/router';
+import { A, useParams } from '@solidjs/router';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Breadcrumbs from '../components/Breadcrumbs';
@@ -8,6 +8,7 @@ import { useI18n } from '../i18n';
 import { updateMeta } from '../utils/meta';
 import { getBlogPost, getBlogPosts } from '../data/blog';
 import Icon from '../components/Icon';
+import NotFoundPage from './NotFoundPage';
 
 const BASE_URL = 'https://www.lolsensei.com';
 
@@ -77,12 +78,27 @@ export default function BlogPostPage() {
     });
   });
 
+  // Slug non trovato (post rimosso o inesistente): emit meta robots noindex
+  createEffect(() => {
+    if (post.state === 'ready' && !post()) {
+      let robots = document.querySelector('meta[name="robots"]') as HTMLMetaElement | null;
+      if (!robots) {
+        robots = document.createElement('meta');
+        robots.name = 'robots';
+        document.head.appendChild(robots);
+      }
+      robots.content = 'noindex';
+    }
+  });
+
   onCleanup(() => {
     document.querySelectorAll('link[hreflang]').forEach((el) => el.remove());
+    const robots = document.querySelector('meta[name="robots"]');
+    if (robots && robots.getAttribute('content') === 'noindex') robots.remove();
   });
 
   return (
-    <Show when={post()} fallback={<Navigate href={localizedHref('/blog')} />}>
+    <Show when={post()} fallback={<NotFoundPage />}>
       {(currentPost) => (
         <>
           <Navbar />
