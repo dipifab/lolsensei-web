@@ -25,15 +25,12 @@ export default function Footer() {
           >
             {t('footer.privacy')}
           </A>
-          <a
-            href="https://github.com/dipifab/lolai"
-            target="_blank"
-            rel="noopener noreferrer"
+          <A
+            href={localizedHref('/community')}
             class="text-on-surface/40 hover:text-primary-container transition-colors text-sm font-body tracking-tight py-3"
           >
-            GitHub
-            <span class="sr-only"> {t('common.opensNewTab')}</span>
-          </a>
+            {t('nav.community')}
+          </A>
         </nav>
 
         <p class="text-on-surface/50 text-[10px] font-body tracking-tight text-center md:text-right max-w-md">

@@ -133,22 +133,16 @@ export default function FAQPage() {
             </div>
             <div class="flex gap-4">
               <a
-                href="https://github.com/dipifab/lolai"
-                target="_blank"
-                rel="noopener noreferrer"
+                href={`/${locale()}/community`}
                 class="px-8 py-4 border border-outline-variant/30 rounded-lg hover:bg-surface-container-highest transition-all font-bold"
               >
                 {t('faq.contact.cta.community')}
-                <span class="sr-only"> {t('common.opensNewTab')}</span>
               </a>
               <a
-                href="https://github.com/dipifab/lolai"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="mailto:support@lolsensei.com"
                 class="px-8 py-4 gold-gradient text-on-primary-fixed rounded-lg font-bold shadow-lg"
               >
-                {t('faq.contact.cta.github')}
-                <span class="sr-only"> {t('common.opensNewTab')}</span>
+                {t('faq.contact.cta.email')}
               </a>
             </div>
           </div>

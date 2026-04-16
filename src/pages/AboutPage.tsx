@@ -120,20 +120,10 @@ export default function AboutPage() {
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="mailto:support@lolsensei.com"
-                class="px-8 py-4 border border-outline-variant/30 rounded-lg hover:bg-surface-container-highest transition-all font-bold inline-flex items-center justify-center gap-2"
+                class="px-8 py-4 gold-gradient text-on-primary-fixed rounded-lg font-bold shadow-lg inline-flex items-center justify-center gap-2"
               >
                 <Icon name="mail" class="w-5 h-5" />
                 {t('about.contact.email')}
-              </a>
-              <a
-                href="https://github.com/dipifab/lolai"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="px-8 py-4 gold-gradient text-on-primary-fixed rounded-lg font-bold shadow-lg inline-flex items-center justify-center gap-2"
-              >
-                <Icon name="code" class="w-5 h-5" />
-                {t('about.contact.github')}
-                <span class="sr-only"> {t('common.opensNewTab')}</span>
               </a>
             </div>
           </div>

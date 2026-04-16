@@ -84,13 +84,10 @@ export default function FAQ() {
               <p class="text-on-surface-variant">{t('faq.contact.description')}</p>
             </div>
             <a
-              href="https://github.com/dipifab/lolai"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="mailto:support@lolsensei.com"
               class="px-8 py-4 gold-gradient text-on-primary-fixed rounded-lg font-bold shadow-lg inline-flex items-center gap-2"
             >
-              {t('faq.contact.cta.github')}
-              <span class="sr-only"> {t('common.opensNewTab')}</span>
+              {t('faq.contact.cta.email')}
             </a>
           </div>
         </div>

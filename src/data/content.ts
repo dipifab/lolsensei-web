@@ -10,9 +10,9 @@ export const NAV_ITEMS: NavItem[] = [
 
 export const DOWNLOAD_INFO: DownloadInfo = {
   platform: 'Windows',
-  url: 'https://github.com/dipifab/lolai/releases/latest/download/LoLSensei-Setup.exe',
+  url: 'https://www.lolsensei.com/downloads/LoLSensei-Setup.exe',
   filename: 'LoLSensei-Setup.exe',
-  releasesUrl: 'https://github.com/dipifab/lolai/releases',
+  releasesUrl: 'https://www.lolsensei.com/downloads/',
   smartScreenNote:
     "Windows may show a security warning — click 'More info' → 'Run anyway'. This is normal for new apps not yet code-signed.",
 };

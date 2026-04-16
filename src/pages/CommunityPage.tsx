@@ -20,7 +20,7 @@ export default function CommunityPage() {
         ]}
       />
       <main class="pt-24">
-        {/* Hero Section */}
+        {/* Hero */}
         <section class="relative min-h-[616px] flex items-center justify-center overflow-hidden px-8">
           <div class="absolute inset-0 z-0">
             <div class="w-full h-full bg-gradient-to-br from-primary-container/10 via-transparent to-secondary/10 opacity-40" />
@@ -37,23 +37,20 @@ export default function CommunityPage() {
               {t('community.hero.subtitle')}
             </p>
             <a
-              href="https://github.com/dipifab/lolai"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="mailto:community@lolsensei.com?subject=Waitlist"
               class="gold-gradient text-on-primary-fixed px-10 py-4 rounded-lg font-headline font-extrabold text-lg inline-flex items-center justify-center gap-2 active:scale-95 transition-all"
             >
-              <Icon name="code" class="w-6 h-6" />
+              <Icon name="mail" class="w-6 h-6" />
               {t('community.hero.cta.join')}
-              <span class="sr-only"> {t('common.opensNewTab')}</span>
             </a>
           </div>
         </section>
 
-        {/* Community Hub + Stats */}
+        {/* Coming soon status */}
         <section class="max-w-screen-2xl mx-auto px-8 py-24">
           <div class="bg-surface-container-low rounded-xl p-8 hex-bg border border-outline-variant/5">
             <div class="flex items-center gap-4 mb-8">
-              <div class="w-16 h-16 rounded-xl bg-[#5865F2]/20 flex items-center justify-center text-[#5865F2]">
+              <div class="w-16 h-16 rounded-xl bg-primary/20 flex items-center justify-center text-primary">
                 <Icon name="forum_filled" class="w-10 h-10" />
               </div>
               <div>
@@ -71,18 +68,15 @@ export default function CommunityPage() {
                 <span class="text-[10px] uppercase tracking-widest text-on-surface-variant font-bold">{t('community.stats.earlyAccess')}</span>
               </div>
               <div class="bg-surface-container-lowest p-4 rounded-lg">
-                <span class="block text-secondary font-extrabold text-3xl font-headline">GitHub</span>
+                <span class="block text-secondary font-extrabold text-3xl font-headline">{t('community.stats.soon')}</span>
                 <span class="text-[10px] uppercase tracking-widest text-on-surface-variant font-bold">{t('community.stats.platform')}</span>
               </div>
             </div>
             <a
-              href="https://github.com/dipifab/lolai"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="mailto:community@lolsensei.com?subject=Waitlist"
               class="text-primary font-headline font-bold text-sm hover:underline underline-offset-4 inline-flex items-center gap-1"
             >
               {t('community.hq.connectGithub')} →
-              <span class="sr-only"> {t('common.opensNewTab')}</span>
             </a>
           </div>
         </section>
@@ -95,9 +89,7 @@ export default function CommunityPage() {
           </div>
           <div class="grid md:grid-cols-3 gap-8">
             <a
-              href="https://github.com/dipifab/lolai/issues/new?template=feature_request.md"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="mailto:feedback@lolsensei.com?subject=Feature%20request"
               class="glass-panel p-8 rounded-2xl border border-outline-variant/10 hover:border-primary/30 transition-all group"
             >
               <div class="w-12 h-12 rounded-xl bg-surface-container-highest flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
@@ -105,12 +97,9 @@ export default function CommunityPage() {
               </div>
               <h3 class="text-xl font-headline font-bold mb-3">{t('community.ideas.feature.title')}</h3>
               <p class="text-on-surface-variant/80 text-sm leading-relaxed">{t('community.ideas.feature.description')}</p>
-              <span class="sr-only"> {t('common.opensNewTab')}</span>
             </a>
             <a
-              href="https://github.com/dipifab/lolai/issues/new?template=bug_report.md"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="mailto:support@lolsensei.com?subject=Bug%20report"
               class="glass-panel p-8 rounded-2xl border border-outline-variant/10 hover:border-primary/30 transition-all group"
             >
               <div class="w-12 h-12 rounded-xl bg-surface-container-highest flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
@@ -118,12 +107,9 @@ export default function CommunityPage() {
               </div>
               <h3 class="text-xl font-headline font-bold mb-3">{t('community.ideas.bug.title')}</h3>
               <p class="text-on-surface-variant/80 text-sm leading-relaxed">{t('community.ideas.bug.description')}</p>
-              <span class="sr-only"> {t('common.opensNewTab')}</span>
             </a>
             <a
-              href="https://github.com/dipifab/lolai/discussions"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="mailto:community@lolsensei.com?subject=Discussion"
               class="glass-panel p-8 rounded-2xl border border-outline-variant/10 hover:border-primary/30 transition-all group"
             >
               <div class="w-12 h-12 rounded-xl bg-surface-container-highest flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
@@ -131,7 +117,6 @@ export default function CommunityPage() {
               </div>
               <h3 class="text-xl font-headline font-bold mb-3">{t('community.ideas.discuss.title')}</h3>
               <p class="text-on-surface-variant/80 text-sm leading-relaxed">{t('community.ideas.discuss.description')}</p>
-              <span class="sr-only"> {t('common.opensNewTab')}</span>
             </a>
           </div>
         </section>
@@ -182,14 +167,11 @@ export default function CommunityPage() {
                 <p class="text-on-surface-variant font-medium">{t('community.cta.description')}</p>
               </div>
               <a
-                href="https://github.com/dipifab/lolai"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="mailto:community@lolsensei.com?subject=Waitlist"
                 class="gold-gradient text-on-primary-fixed px-10 py-4 rounded-lg font-headline font-extrabold text-lg inline-flex items-center gap-2 active:scale-95 transition-all shrink-0"
               >
-                <Icon name="code" class="w-6 h-6" />
+                <Icon name="mail" class="w-6 h-6" />
                 {t('community.cta.github')}
-                <span class="sr-only"> {t('common.opensNewTab')}</span>
               </a>
             </div>
           </div>

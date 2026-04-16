@@ -1,4 +1,5 @@
 import { createSignal, createEffect, onMount, onCleanup, For, Show } from 'solid-js';
+import { Portal } from 'solid-js/web';
 import { A, useLocation } from '@solidjs/router';
 import { useI18n, SUPPORTED_LOCALES, type Locale } from '../i18n';
 import Icon from './Icon';
@@ -221,9 +222,10 @@ export default function Navbar() {
 
       {/* Mobile menu overlay */}
       <Show when={menuOpen()}>
+        <Portal>
         <div
           id="mobile-menu"
-          class="fixed inset-0 top-16 bg-surface z-40 flex flex-col items-center justify-center gap-10 motion-safe:animate-[fade-in_200ms_ease-out]"
+          class="fixed inset-0 bg-surface z-40 flex flex-col items-center justify-center gap-10 motion-safe:animate-[fade-in_200ms_ease-out]"
         >
           <For each={NAV_KEYS}>
             {(item) => (
@@ -266,6 +268,7 @@ export default function Navbar() {
             {t('hero.cta.download')}
           </span>
         </div>
+        </Portal>
       </Show>
     </header>
   );

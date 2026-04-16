@@ -33,7 +33,6 @@ export function OrganizationJsonLd(): JSX.Element {
     name: 'LoL Sensei',
     url: BASE_URL,
     logo: { '@type': 'ImageObject', url: `${BASE_URL}/images/logo-512.png`, width: 512, height: 512 },
-    sameAs: ['https://github.com/dipifab/lolai'],
     description:
       'AI coaching application for League of Legends that helps players learn the game through real-time guidance',
   };
@@ -79,7 +78,7 @@ export function SoftwareApplicationJsonLd(): JSX.Element {
     description:
       'Real-time AI coaching for League of Legends. Learn champion select, builds, and game strategy.',
     downloadUrl:
-      'https://github.com/dipifab/lolai/releases/latest/download/LoLSensei-Setup.exe',
+      'https://www.lolsensei.com/downloads/LoLSensei-Setup.exe',
   };
 
   return <JsonLdScript data={data} />;

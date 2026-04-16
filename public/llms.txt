@@ -17,8 +17,7 @@ LoL Sensei is a free AI-powered coaching tool that helps League of Legends playe
 
 ## Links
 - Website: https://www.lolsensei.com
-- GitHub: https://github.com/dipifab/lolai
-- Download: https://github.com/dipifab/lolai/releases/latest/download/LoLSensei-Setup.exe
+- Download: https://www.lolsensei.com/downloads/LoLSensei-Setup.exe
 
 ## Languages
 Available in English, Italian, Korean, Chinese, Portuguese (BR), Spanish, French, and German.
