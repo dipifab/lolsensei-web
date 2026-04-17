@@ -1,4 +1,4 @@
-import { createResource, createMemo } from 'solid-js';
+import { createResource, createMemo, Show } from 'solid-js';
 import type { AdminUserResponse } from '../types';
 import { fetchAdminUsers } from '../api/admin-users';
 import { AdminApiError, clearAdminKey } from '../api/client';
@@ -9,6 +9,7 @@ import AdminTable from '../components/AdminTable';
 import type { ColumnDef } from '../components/AdminTable';
 import AdminBadge from '../components/AdminBadge';
 import AdminInfoBanner from '../components/AdminInfoBanner';
+import AdminSkeleton from '../components/AdminSkeleton';
 
 export default function AdminUsersPage() {
   const toast = useToast();
@@ -75,6 +76,8 @@ export default function AdminUsersPage() {
     },
   ];
 
+  const totalCount = createMemo(() => sortedUsers().length);
+
   return (
     <div class="space-y-6">
       <PageHeader title="Admin Users" />
@@ -82,14 +85,29 @@ export default function AdminUsersPage() {
         variant="info"
         message="La gestione degli utenti admin avviene esclusivamente via CLI"
       />
-      <AdminTable
-        columns={columns}
-        rows={sortedUsers()}
-        loading={users.loading}
-        emptyIcon="person"
-        emptyTitle="Nessun utente admin"
-        caption="Lista utenti admin"
-      />
+      <div class="rounded-xl border border-outline-variant/10 bg-surface-container overflow-hidden shadow-sm shadow-primary/5">
+        <div class="grid grid-cols-1 lg:grid-cols-[200px_1fr]">
+          {/* Left: counter panel */}
+          <div class="flex flex-col items-center justify-center p-6 lg:border-r border-outline-variant/10">
+            <p class="text-xs font-semibold uppercase tracking-wider text-primary mb-2">Admin Accounts</p>
+            <Show when={!users.loading} fallback={<AdminSkeleton variant="text" />}>
+              <span class="text-5xl font-bold text-gold">{totalCount()}</span>
+              <span class="text-xs text-on-surface-variant mt-1">total</span>
+            </Show>
+          </div>
+          {/* Right: table */}
+          <div class="min-w-0">
+            <AdminTable
+              columns={columns}
+              rows={sortedUsers()}
+              loading={users.loading}
+              emptyIcon="person"
+              emptyTitle="Nessun utente admin"
+              caption="Lista utenti admin"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -22,7 +22,7 @@ export default function AdminSlider(props: AdminSliderProps): JSX.Element {
   return (
     <div>
       <Show when={props.label}>
-        <label class="block mb-2 text-xs font-semibold uppercase tracking-wider text-on-surface-variant">
+        <label class="block mb-2 text-xs font-semibold uppercase tracking-wider text-primary">
           {props.label}
         </label>
       </Show>

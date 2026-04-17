@@ -1,44 +1,55 @@
 const errorMessages: Record<string, string> = {
   // Auth
-  ADMIN_KEY_MISSING: 'Chiave admin non presente. Effettua il login.',
-  ADMIN_KEY_INVALID: 'Chiave admin non valida.',
-  ADMIN_REVOKED: 'Account admin revocato.',
+  ADMIN_KEY_MISSING: 'Admin key missing. Please sign in.',
+  ADMIN_KEY_INVALID: 'Admin key is invalid.',
+  ADMIN_REVOKED: 'Admin account has been revoked.',
 
   // Plans
-  PLAN_NOT_FOUND: 'Piano non trovato.',
-  PLAN_SLUG_CONFLICT: 'Slug già in uso da un altro piano.',
-  PRICE_CHANGE_BLOCKED: 'Prezzo non modificabile: esistono promozioni attive.',
-  LAST_ACTIVE_PLAN: "Impossibile disattivare l'ultimo piano attivo.",
-  INVALID_STRIPE_PRICE: 'Stripe Price ID non valido.',
+  PLAN_NOT_FOUND: 'Plan not found.',
+  PLAN_SLUG_CONFLICT: 'Slug already used by another plan.',
+  PRICE_CHANGE_BLOCKED: 'Price cannot be changed: active promotions exist.',
+  LAST_ACTIVE_PLAN: 'Cannot deactivate the last active plan.',
+  INVALID_STRIPE_PRICE: 'Invalid Stripe Price ID.',
 
   // Promotions
-  PROMOTION_NOT_FOUND: 'Promozione non trovata.',
+  PROMOTION_NOT_FOUND: 'Promotion not found.',
   INVALID_PROMO_PRICE:
-    'Il prezzo promozionale deve essere inferiore al prezzo base del piano.',
+    'The promotional price must be lower than the plan base price.',
   ACTIVE_PROMO_EXISTS:
-    'Esiste già una promozione attiva per questo piano.',
-  PROMO_NAME_CONFLICT: 'Nome promozione già in uso.',
-  IMMUTABLE_FIELD: 'Questo campo non è modificabile.',
-  STRIPE_COUPON_FAILED: 'Errore nella creazione del coupon Stripe.',
+    'An active promotion already exists for this plan.',
+  PROMO_NAME_CONFLICT: 'Promotion name already in use.',
+  IMMUTABLE_FIELD: 'This field cannot be modified.',
+  STRIPE_COUPON_FAILED: 'Failed to create the Stripe coupon.',
 
   // Trial
-  INVALID_TRIAL_DAYS: 'I giorni di trial devono essere tra 1 e 30.',
+  INVALID_TRIAL_DAYS: 'Trial days must be between 1 and 30.',
 
   // AI Providers
-  PROVIDER_NOT_FOUND: 'Provider non trovato.',
-  MODEL_NOT_FOUND: 'Modello non trovato.',
-  LAST_ACTIVE_PROVIDER: "Impossibile disattivare l'ultimo provider attivo.",
+  PROVIDER_NOT_FOUND: 'Provider not found.',
+  MODEL_NOT_FOUND: 'Model not found.',
+  LAST_ACTIVE_PROVIDER: 'Cannot deactivate the last active provider.',
   PROVIDER_HAS_ACTIVE_PLANS:
-    'Il provider ha piani attivi che usano i suoi modelli.',
+    'The provider has active plans that depend on its models.',
   LAST_ACTIVE_MODEL:
-    "Impossibile disattivare l'ultimo modello attivo del provider.",
+    'Cannot deactivate the last active model of this provider.',
+
+  // WP15 — User Management
+  USER_NOT_FOUND: 'User not found or deleted.',
+  USER_SUSPENDED: 'User is suspended.',
+  OVERRIDE_EMPTY: 'Provide at least one of daily/weekly/monthly.',
+  NEGATIVE_CREDITS: 'Credit values must be >= 0.',
+  REASON_REQUIRED: 'A reason is required (min 5 characters).',
+  REASON_TOO_SHORT: 'The reason must be at least 5 characters.',
+  REASON_TOO_LONG: 'The reason exceeds 500 characters.',
+  PAGE_SIZE_EXCEEDED: 'Maximum allowed page size: 100.',
+  RATE_LIMITED: 'Too many requests. Try again shortly.',
 
   // Generic
-  STRIPE_UNAVAILABLE: 'Servizio Stripe non disponibile. Riprova più tardi.',
-  INVALID_DATE_RANGE: 'Intervallo date non valido.',
-  NETWORK_ERROR: 'Errore di rete. Verifica la connessione.',
+  STRIPE_UNAVAILABLE: 'Stripe service unavailable. Try again later.',
+  INVALID_DATE_RANGE: 'Invalid date range.',
+  NETWORK_ERROR: 'Network error. Check your connection.',
 };
 
 export function getErrorMessage(code: string): string {
-  return errorMessages[code] ?? `Errore: ${code}`;
+  return errorMessages[code] ?? `Error: ${code}`;
 }

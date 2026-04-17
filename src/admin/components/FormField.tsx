@@ -12,7 +12,7 @@ interface FormFieldProps {
 export default function FormField(props: FormFieldProps): JSX.Element {
   return (
     <div class="space-y-1.5">
-      <label class="block text-xs font-semibold uppercase tracking-wider text-on-surface-variant">
+      <label class="block text-xs font-semibold uppercase tracking-wider text-primary">
         {props.label}
         <Show when={props.required}>
           <span aria-hidden="true" class="text-error ml-1">*</span>

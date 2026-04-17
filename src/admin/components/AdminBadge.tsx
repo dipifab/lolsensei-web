@@ -1,12 +1,25 @@
 import { Show } from 'solid-js';
 
+export type AdminBadgeVariant =
+  | 'active'
+  | 'inactive'
+  | 'scheduled'
+  | 'expired'
+  | 'terminated'
+  | 'revoked'
+  | 'free'
+  | 'trialing'
+  | 'past_due'
+  | 'suspended';
+
 interface AdminBadgeProps {
-  variant: 'active' | 'inactive' | 'scheduled' | 'expired' | 'terminated' | 'revoked' | 'free';
+  variant: AdminBadgeVariant;
   dot?: boolean;
   pulse?: boolean;
+  label?: string;
 }
 
-const labels: Record<string, string> = {
+const labels: Record<AdminBadgeVariant, string> = {
   active: 'Active',
   inactive: 'Inactive',
   scheduled: 'Scheduled',
@@ -14,6 +27,9 @@ const labels: Record<string, string> = {
   terminated: 'Terminated',
   revoked: 'Revoked',
   free: 'Free',
+  trialing: 'Trialing',
+  past_due: 'Past Due',
+  suspended: 'Suspended',
 };
 
 export default function AdminBadge(props: AdminBadgeProps) {
@@ -22,10 +38,17 @@ export default function AdminBadge(props: AdminBadgeProps) {
       class="inline-flex items-center gap-1.5 rounded-full px-2.5 py-0.5 text-xs font-semibold"
       classList={{
         'bg-success/15 text-success': props.variant === 'active',
-        'bg-surface-container-highest text-outline': props.variant === 'inactive' || props.variant === 'expired',
-        'bg-warning/15 text-warning': props.variant === 'scheduled',
-        'bg-error/15 text-error': props.variant === 'terminated' || props.variant === 'revoked',
+        'bg-surface-container-highest text-outline':
+          props.variant === 'inactive'
+          || props.variant === 'expired',
+        'bg-warning/15 text-warning':
+          props.variant === 'scheduled' || props.variant === 'past_due',
+        'bg-error/15 text-error':
+          props.variant === 'terminated'
+          || props.variant === 'revoked'
+          || props.variant === 'suspended',
         'bg-secondary/15 text-secondary': props.variant === 'free',
+        'bg-primary/15 text-primary': props.variant === 'trialing',
       }}
     >
       <Show when={props.dot}>
@@ -38,7 +61,7 @@ export default function AdminBadge(props: AdminBadgeProps) {
           </Show>
         </span>
       </Show>
-      {labels[props.variant]}
+      {props.label ?? labels[props.variant]}
     </span>
   );
 }

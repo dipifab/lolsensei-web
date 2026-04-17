@@ -25,6 +25,8 @@ const PromotionsPage = lazy(() => import('./admin/pages/PromotionsPage'));
 const TrialConfigPage = lazy(() => import('./admin/pages/TrialConfigPage'));
 const AIProvidersPage = lazy(() => import('./admin/pages/AIProvidersPage'));
 const AdminUsersPage = lazy(() => import('./admin/pages/AdminUsersPage'));
+const UsersListPage = lazy(() => import('./admin/pages/UsersListPage'));
+const UserDetailPage = lazy(() => import('./admin/pages/UserDetailPage'));
 
 function I18nLayout(props: RouteSectionProps) {
   return (
@@ -63,6 +65,8 @@ export default function App() {
       {/* Admin routes (outside i18n) */}
       <Route path="/admin" component={AdminLayout}>
         <Route path="/" component={DashboardPage} />
+        <Route path="/users" component={UsersListPage} />
+        <Route path="/users/:id" component={UserDetailPage} />
         <Route path="/plans" component={PlansPage} />
         <Route path="/promotions" component={PromotionsPage} />
         <Route path="/trial-config" component={TrialConfigPage} />

@@ -24,7 +24,7 @@ export default function AdminInput(props: AdminInputProps): JSX.Element {
       <Show when={props.label}>
         <label
           for={id}
-          class="block mb-1.5 text-xs font-semibold uppercase tracking-wider text-on-surface-variant"
+          class="block mb-1.5 text-xs font-semibold uppercase tracking-wider text-primary"
         >
           {props.label}
         </label>

@@ -11,11 +11,12 @@ interface NavItem {
 
 const NAV_ITEMS: readonly NavItem[] = [
   { label: 'Dashboard', href: '/admin', icon: 'bar_chart' },
+  { label: 'Users', href: '/admin/users', icon: 'group' },
   { label: 'Plans', href: '/admin/plans', icon: 'credit_card' },
   { label: 'Promotions', href: '/admin/promotions', icon: 'sell' },
   { label: 'Trial Config', href: '/admin/trial-config', icon: 'timer' },
   { label: 'AI Providers', href: '/admin/ai-providers', icon: 'smart_toy' },
-  { label: 'Admin Users', href: '/admin/admin-users', icon: 'group' },
+  { label: 'Admin Users', href: '/admin/admin-users', icon: 'person' },
 ] as const;
 
 interface AdminSidebarProps {
@@ -27,6 +28,9 @@ function isRouteActive(pathname: string, href: string): boolean {
   if (href === '/admin') return pathname === '/admin' || pathname === '/admin/';
   return pathname === href || pathname.startsWith(href + '/');
 }
+
+const NAV_FOCUS_RING =
+  ' focus-visible:outline-2 focus-visible:outline-primary-container focus-visible:outline-offset-2';
 
 export default function AdminSidebar(props: AdminSidebarProps) {
   const location = useLocation();
@@ -95,7 +99,7 @@ export default function AdminSidebar(props: AdminSidebarProps) {
 
         {/* Navigation */}
         <nav
-          aria-label="Navigazione admin"
+          aria-label="Admin navigation"
           class={
             props.mode === 'collapsed'
               ? 'flex-1 mt-2 px-1 space-y-1'
@@ -110,9 +114,10 @@ export default function AdminSidebar(props: AdminSidebarProps) {
                   href={item.href}
                   onClick={handleNavClick}
                   title={props.mode === 'collapsed' ? item.label : undefined}
+                  aria-label={item.label}
                   aria-current={active() ? "page" : undefined}
                   class={
-                    props.mode === 'collapsed'
+                    (props.mode === 'collapsed'
                       ? 'flex items-center justify-center py-3 text-sm font-medium transition-colors duration-200 '
                         + (active()
                           ? 'bg-surface-container text-primary border-l-[3px] border-primary-container'
@@ -120,7 +125,8 @@ export default function AdminSidebar(props: AdminSidebarProps) {
                       : 'flex items-center gap-3 px-4 py-3 text-sm font-medium transition-colors duration-200 '
                         + (active()
                           ? 'bg-surface-container text-primary border-l-[3px] border-primary-container'
-                          : 'text-on-surface-variant hover:bg-surface-container hover:text-on-surface')
+                          : 'text-on-surface-variant hover:bg-surface-container hover:text-on-surface'))
+                    + NAV_FOCUS_RING
                   }
                 >
                   <Icon name={item.icon} class="w-5 h-5" />
@@ -137,10 +143,12 @@ export default function AdminSidebar(props: AdminSidebarProps) {
         <button
           onClick={handleLogout}
           title={props.mode === 'collapsed' ? 'Logout' : undefined}
+          aria-label="Logout"
           class={
-            props.mode === 'collapsed'
+            (props.mode === 'collapsed'
               ? 'flex items-center justify-center py-2.5 text-sm text-on-surface-variant hover:text-error transition-colors'
-              : 'flex items-center gap-3 px-5 py-2.5 text-sm text-on-surface-variant hover:text-error transition-colors'
+              : 'flex items-center gap-3 px-5 py-2.5 text-sm text-on-surface-variant hover:text-error transition-colors')
+            + NAV_FOCUS_RING
           }
         >
           <Icon name="person" class="w-5 h-5" />
