@@ -28,3 +28,6 @@ dist-ssr
 *.sw?
 screenshots/
 test-results/
+
+# Cloudflare Workers local cache
+.wrangler/

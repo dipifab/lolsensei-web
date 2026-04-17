@@ -1,0 +1,20 @@
+# Competitor blocklist — quality gate REQ-NF-017-001 / CR-010
+# Format: one entry per line, ERE regex syntax. Lines starting with # ignored.
+# Pattern matches case-insensitive against src/ and public/ via check-competitors.sh.
+# Add new entries here when new competing tools/services are identified.
+
+# Stat tracking / aggregator domains
+op\.gg
+u\.gg
+blitz\.gg
+porofessor
+mobalytics
+lolalytics
+mobafire
+championgg
+champion\.gg
+
+# Coaching marketplaces / platforms
+proguides
+metafy
+gamersensei
