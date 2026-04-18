@@ -39,7 +39,7 @@ const en = {
   'hero.title': 'Learn League with Your Personal AI Coach',
   'hero.highlight': 'AI Coach',
   'hero.subtitle': 'Stop guessing, start understanding. Get real-time guidance on champion select, builds, and strategy — tailored to your skill level. Whether you are just starting ranked or pushing for a new peak, LoL Sensei explains every decision so you actually learn.',
-  'hero.cta.download': 'Coming Soon',
+  'hero.cta.download': 'Download for Windows',
   'hero.cta.pricing': 'View Pricing',
   'hero.intro': 'League of Legends is one of the most complex competitive games ever made. Hundreds of champions, thousands of item combinations, and a meta that shifts with every patch. Most players rely on static tier lists and copied builds, but that approach only tells you what to do — never why. LoL Sensei is different. Our AI coach watches your champion select, analyzes team compositions in real-time, and explains the reasoning behind every recommendation. Instead of blindly following a build path, you understand how gold differences, enemy itemization, and your team\'s win condition shape the optimal choice. That understanding is what separates someone who copies from someone who truly improves.',
 
@@ -57,7 +57,7 @@ const en = {
   'features.bento.champSelect.title': 'Champion Select Coach',
   'features.bento.champSelect.description': 'Understand why certain picks work with your team. Learn synergies, counter-picks, and damage distribution based on your champion pool and the current draft state.',
   'features.bento.gameStart.title': 'Lane Strategy Guide',
-  'features.bento.gameStart.description': 'Know your win conditions before minions spawn. Understand your matchup, learn power spikes and key timing windows, and approach your lane with a clear plan.',
+  'features.bento.gameStart.description': 'Know your win conditions before minions spawn. Understand your matchup, learn scaling phases and key timing windows, and approach your lane with a clear plan.',
   'features.bento.itemAdvisor.title': 'Build Understanding',
   'features.bento.itemAdvisor.description': 'Learn why items are recommended, not just which ones. Your AI coach explains how gold differences, enemy builds, and team composition shape your optimal item path.',
   'features.bento.itemAdvisor.badge': 'Smart HUD',
@@ -70,7 +70,7 @@ const en = {
   'comparison.header.staticTools': 'Static Tools',
   'comparison.row1': 'Explains decisions in real-time',
   'comparison.row2': 'Adapts coaching to your skill level',
-  'comparison.row3': 'Zero performance impact (Tauri engine)',
+  'comparison.row3': 'Low footprint (< 1% CPU, ~150MB RAM on reference build)',
   'comparison.row4': 'Riot API Compliance',
 
   // Pricing
@@ -153,7 +153,8 @@ const en = {
 
   // Trust Badges
   'trust.riotCompliant': 'Riot API Compliant',
-  'trust.zeroFps': '0 FPS Impact',
+  'trust.perfImpact': '< 1% CPU · ~150MB RAM',
+  'trust.perfImpact.note': 'Measured on reference build; see performance benchmark docs.',
   'trust.noBanned': 'No Banned Features',
   'trust.allLevels': 'For All Skill Levels',
 
@@ -193,7 +194,7 @@ const en = {
   'features.phase1.check2': 'Learn why certain bans matter in the current meta.',
   'features.phase2.label': 'Phase 02',
   'features.phase2.title': 'Lane Strategy Guide',
-  'features.phase2.description': 'Before minions spawn, your coach breaks down the matchup. Learn your win conditions, key timing windows, and how to approach the lane — so you start every game with a plan. The AI considers both teams\' compositions, identifies whether you scale better early or late, and explains whether to play aggressively, farm safely, or look for roaming opportunities based on the specific matchup.',
+  'features.phase2.description': 'Before minions spawn, your coach breaks down the matchup. Learn your win conditions, scaling phases and key timing windows, and how to approach the lane — so you start every game with a plan. The AI considers both teams\' compositions, identifies whether you scale better early or late, and explains whether to play aggressively, farm safely, or look for roaming opportunities based on the specific matchup.',
   'features.phase3.label': 'Phase 03',
   'features.phase3.title': 'Build Understanding',
   'features.phase3.description': 'Instead of copying builds blindly, understand why items are recommended. Your AI coach explains how the game state — gold differences, enemy builds, team needs — shapes your optimal path. Learn when to prioritize defensive stats over damage, why certain component purchases give more value at specific gold breakpoints, and how the evolving game state should change your build decisions in real-time.',
@@ -288,7 +289,7 @@ const en = {
   'privacy.dataCollect.account.title': 'Account Information',
   'privacy.dataCollect.account.description': 'Google account details (email address and display name) used for authentication and account creation.',
   'privacy.dataCollect.lol.title': 'League of Legends Data',
-  'privacy.dataCollect.lol.description': 'Summoner name, region, ranked statistics, and match history retrieved through the Riot Games API to power game analysis features.',
+  'privacy.dataCollect.lol.description': 'By linking your Riot ID you consent to LoL Sensei fetching your match history, champion data, and spectator state via the official Riot Games API. This data is processed locally and on our servers for the sole purpose of delivering pre-match educational content. You can revoke this consent at any time by emailing privacy@lolsensei.com or via the desktop app Settings; revocation stops all Riot ID data fetching within 24 hours.',
   'privacy.dataCollect.gameplay.title': 'Gameplay Session Data',
   'privacy.dataCollect.gameplay.description': 'Champion selections, item builds, and game outcomes collected during active gameplay sessions for AI-powered analysis and coaching recommendations.',
   'privacy.dataCollect.payment.title': 'Subscription & Payment Data',
@@ -436,6 +437,46 @@ const en = {
   'checkout.success.titleHighlight': 'Successful',
   'checkout.success.description': 'Your Pro subscription is now active. Open LoL Sensei to start using all premium features — your account will be upgraded automatically.',
   'checkout.success.backHome': 'Back to Home',
+
+  // WP20 — Features scaling + framing (REQ-F-020-003)
+  'features.scaling': 'Scaling phases and key timing windows',
+  'features.framing.preMatchEducational': 'Pre-match educational content to understand champion matchups and scaling phases — not real-time in-game alerts.',
+
+  // WP20 — Privacy cookies (REQ-F-020-006)
+  'privacy.cookies.title': 'Cookies and local storage',
+  'privacy.cookies.body': 'LoL Sensei does not use tracking cookies or advertising cookies. We use browser localStorage exclusively to remember your language preference. No third-party tracking is performed on this website.',
+
+  // WP20 — GDPR Art. 6 legal basis mapping (REQ-F-020-007)
+  'privacy.howWeUse.intro': 'We process personal data only on the following legal bases (GDPR Art. 6(1)):',
+  'privacy.howWeUse.auth': 'Authentication and subscription management — contract (Art. 6(1)(b))',
+  'privacy.howWeUse.ai': 'AI-assisted coaching content — legitimate interest (Art. 6(1)(f))',
+  'privacy.howWeUse.payment': 'Payment processing — contract (Art. 6(1)(b))',
+  'privacy.howWeUse.analytics': 'Aggregated usage analytics — consent (Art. 6(1)(a))',
+  'privacy.howWeUse.riotId': 'Riot ID linking and Riot API queries — consent (Art. 6(1)(a))',
+
+  // WP20 — International transfers SCC/DPF (REQ-F-020-008)
+  'privacy.transfer.title': 'International data transfers (EU → US)',
+  'privacy.transfer.scc.intro': 'Some processors operate in the United States. We rely on Standard Contractual Clauses (SCC) and, where applicable, the EU-US Data Privacy Framework (DPF) as the legal transfer mechanism:',
+  'privacy.transfer.scc.stripe': 'Stripe (payments) — SCC + DPF certified',
+  'privacy.transfer.scc.cloudflare': 'Cloudflare (hosting, CDN) — SCC + DPF certified',
+  'privacy.transfer.scc.anthropic': 'Anthropic (AI processing) — SCC',
+  'privacy.transfer.scc.note': 'Processor privacy policies are linked on each vendor page; by default US processors carry no automated decisioning per Art. 22 GDPR.',
+
+  // WP20 — Terms s5 waiver (REQ-F-020-009)
+  'terms.s5.waiver.title': 'Digital content and 14-day right of withdrawal (EU consumers)',
+  'terms.s5.waiver.body': 'Under EU Directive 2011/83 Art. 9, consumers have 14 days from the contract date to withdraw from a digital-content subscription. You may waive this right to gain immediate access to the service by explicitly consenting at checkout. If you do not waive, we will not provide access until day 15. Once the waived service is performed, the right of withdrawal no longer applies (Art. 16(m)). You can manage your subscription from your account page.',
+  'terms.s5.waiver.optIn': 'I consent to immediate performance of the digital service and waive my 14-day right of withdrawal (EU Directive 2011/83 Art. 16(m)).',
+  'terms.s5.waiver.optOut': 'I prefer to preserve my 14-day right of withdrawal; service access will start after day 15.',
+
+  // WP20 — Stripe Checkout waiver dropdown (REQ-F-020-009) — labels <= 50 chars
+  'checkout.waiver.fieldLabel': '14-day withdrawal (EU)',
+  'checkout.waiver.placeholder': '— select —',
+  'checkout.waiver.optionWaive': 'I waive (immediate access)',
+  'checkout.waiver.optionPreserve': 'I preserve (start day 15)',
+  'checkout.waiver.consentTextSnapshot': 'I consent to immediate performance; I waive the 14-day right of withdrawal (Art. 16(m)).',
+
+  // WP20 — Pricing VAT disclosure (REQ-F-020-010)
+  'pricing.footer.vat': 'Prices include VAT where applicable. Exact tax applied at checkout based on your billing address.',
 } as const;
 
 export default en;

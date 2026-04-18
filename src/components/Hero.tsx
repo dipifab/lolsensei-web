@@ -1,6 +1,6 @@
 import { scrollToSection } from '../utils/scroll';
 import { useI18n } from '../i18n';
-import Icon from './Icon';
+import DownloadCTA from './DownloadCTA';
 
 export default function Hero() {
   const { t } = useI18n();
@@ -24,12 +24,7 @@ export default function Hero() {
             {t('hero.intro')}
           </p>
           <div class="flex flex-wrap gap-4">
-            <span
-              class="bg-surface-container-highest/60 border border-outline-variant/30 px-8 py-4 rounded-lg font-headline font-extrabold text-on-surface-variant/50 uppercase tracking-widest inline-flex items-center min-h-11 cursor-default select-none gap-2"
-            >
-              <Icon name="hourglass_top" class="w-5 h-5" />
-              {t('hero.cta.download')}
-            </span>
+            <DownloadCTA variant="primary" />
             <button
               type="button"
               onClick={() => scrollToSection('#pricing')}

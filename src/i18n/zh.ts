@@ -36,7 +36,7 @@ const zh = {
   'hero.title': '与你的专属 AI 教练一起学习英雄联盟',
   'hero.highlight': 'AI 教练',
   'hero.subtitle': '不再盲目猜测，开始真正理解。获取关于英雄选择、出装和策略的实时指导——根据你的水平量身定制。',
-  'hero.cta.download': '即将推出',
+  'hero.cta.download': '下载 Windows 版',
   'hero.cta.pricing': '查看价格',
 
   // How It Works
@@ -66,7 +66,7 @@ const zh = {
   'comparison.header.staticTools': '静态工具',
   'comparison.row1': '实时解释决策',
   'comparison.row2': '根据你的水平调整教练方式',
-  'comparison.row3': '零性能影响（Tauri 引擎）',
+  'comparison.row3': '低占用（参考构建下 CPU 不到 1%，RAM 约 150MB）',
   'comparison.row4': 'Riot API 合规',
 
   // Pricing
@@ -152,7 +152,8 @@ const zh = {
 
   // Trust Badges
   'trust.riotCompliant': 'Riot API 合规',
-  'trust.zeroFps': 'FPS 影响为 0',
+  'trust.perfImpact': '< 1% CPU · ~150MB RAM',
+  'trust.perfImpact.note': '基于参考构建的测量值；详见性能基准文档。[NEEDS-NATIVE-REVIEW]',
   'trust.noBanned': '无违禁功能',
   'trust.allLevels': '适合所有水平',
 
@@ -287,7 +288,7 @@ const zh = {
   'privacy.dataCollect.account.title': '账户信息',
   'privacy.dataCollect.account.description': '用于身份验证和创建账户的 Google 账户详情（电子邮件地址和显示名称）。',
   'privacy.dataCollect.lol.title': '英雄联盟数据',
-  'privacy.dataCollect.lol.description': '通过 Riot Games API 获取的召唤师名称、服务器、排位数据和对局记录，用于驱动游戏分析功能。',
+  'privacy.dataCollect.lol.description': '关联 Riot ID 即表示您同意 LoL Sensei 通过 Riot Games 官方 API 获取您的对局历史、英雄数据和观战状态。这些数据仅出于提供赛前教育内容的目的，在本地和我们的服务器上进行处理。您可以随时通过发送邮件至 privacy@lolsensei.com 或在桌面应用设置中撤回该同意；撤回后 24 小时内将停止所有 Riot ID 数据获取。[NEEDS-NATIVE-REVIEW]',
   'privacy.dataCollect.gameplay.title': '游戏对局数据',
   'privacy.dataCollect.gameplay.description': '在游戏对局中收集的英雄选择、出装方案和比赛结果，用于 AI 分析和教练建议。',
   'privacy.dataCollect.payment.title': '订阅与支付数据',
@@ -411,6 +412,45 @@ const zh = {
   'checkout.success.titleHighlight': '成功',
   'checkout.success.description': '你的 Pro 订阅已激活。打开 LoL Sensei 即可使用全部高级功能——你的账户将自动升级。',
   'checkout.success.backHome': '返回首页',
+  // WP20 — Features scaling + framing (REQ-F-020-003)
+  'features.scaling': '成长阶段与关键时机窗口',
+  'features.framing.preMatchEducational': '赛前教育内容，帮助你理解英雄对线和成长阶段——不是游戏内实时提醒。[NEEDS-NATIVE-REVIEW]',
+
+  // WP20 — Privacy cookies (REQ-F-020-006)
+  'privacy.cookies.title': 'Cookie 与本地存储',
+  'privacy.cookies.body': 'LoL Sensei 不使用跟踪 Cookie 或广告 Cookie。我们仅使用浏览器的 localStorage 来记住您的语言偏好。本网站不进行任何第三方跟踪。[NEEDS-NATIVE-REVIEW]',
+
+  // WP20 — GDPR Art. 6 legal basis mapping (REQ-F-020-007)
+  'privacy.howWeUse.intro': '我们仅在以下法律依据（GDPR 第 6(1) 条）下处理个人数据：',
+  'privacy.howWeUse.auth': '身份验证与订阅管理 — 合同 (第 6(1)(b) 条)',
+  'privacy.howWeUse.ai': 'AI 辅助教练内容 — 合法利益 (第 6(1)(f) 条)',
+  'privacy.howWeUse.payment': '支付处理 — 合同 (第 6(1)(b) 条)',
+  'privacy.howWeUse.analytics': '聚合使用分析 — 同意 (第 6(1)(a) 条)',
+  'privacy.howWeUse.riotId': 'Riot ID 关联与 Riot API 查询 — 同意 (第 6(1)(a) 条)',
+
+  // WP20 — International transfers SCC/DPF (REQ-F-020-008)
+  'privacy.transfer.title': '国际数据传输 (欧盟 → 美国)',
+  'privacy.transfer.scc.intro': '部分处理方在美国运营。我们依据标准合同条款 (SCC) 以及适用时的欧盟-美国数据隐私框架 (DPF) 作为合法传输机制：',
+  'privacy.transfer.scc.stripe': 'Stripe (支付) — SCC + DPF 认证',
+  'privacy.transfer.scc.cloudflare': 'Cloudflare (托管、CDN) — SCC + DPF 认证',
+  'privacy.transfer.scc.anthropic': 'Anthropic (AI 处理) — SCC',
+  'privacy.transfer.scc.note': '各处理方隐私政策链接于相应供应商页面；默认情况下，美国处理方不进行 GDPR 第 22 条意义上的自动化决策。[NEEDS-NATIVE-REVIEW]',
+
+  // WP20 — Terms s5 waiver (REQ-F-020-009)
+  'terms.s5.waiver.title': '数字内容与 14 天撤销权 (欧盟消费者)',
+  'terms.s5.waiver.body': '依据欧盟指令 2011/83 第 9 条，消费者自合同日起有 14 天时间撤销数字内容订阅。您可在结账时通过明确同意放弃此权利以立即访问服务。若您不放弃，我们将在第 15 天之前不提供访问。一旦放弃权利后服务已执行，撤销权不再适用（第 16(m) 条）。您可以在账户页面管理订阅。[NEEDS-NATIVE-REVIEW]',
+  'terms.s5.waiver.optIn': '本人同意立即执行数字服务并放弃 14 天撤销权 (欧盟指令 2011/83 第 16(m) 条)。',
+  'terms.s5.waiver.optOut': '本人更愿意保留 14 天撤销权；服务访问将在第 15 天后开始。',
+
+  // WP20 — Stripe Checkout waiver dropdown (REQ-F-020-009)
+  'checkout.waiver.fieldLabel': '14 天撤销 (欧盟)',
+  'checkout.waiver.placeholder': '— 请选择 —',
+  'checkout.waiver.optionWaive': '放弃 (立即访问)',
+  'checkout.waiver.optionPreserve': '保留 (第 15 天开始)',
+  'checkout.waiver.consentTextSnapshot': '同意立即执行；放弃 14 天撤销权 (第 16(m) 条)。',
+
+  // WP20 — Pricing VAT disclosure (REQ-F-020-010)
+  'pricing.footer.vat': '适用时价格已含增值税。实际税额将根据您的账单地址在结账时计算。',
 } as const;
 
 export default zh;

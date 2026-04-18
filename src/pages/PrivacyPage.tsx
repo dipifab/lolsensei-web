@@ -4,6 +4,7 @@ import { BreadcrumbJsonLd } from '../components/JsonLd';
 import { usePageMeta } from '../utils/seo';
 import { useI18n } from '../i18n';
 import Icon from '../components/Icon';
+import LegalSection from '../components/LegalSection';
 
 export default function PrivacyPage() {
   usePageMeta('privacy', '/privacy');
@@ -57,7 +58,7 @@ export default function PrivacyPage() {
           </section>
 
           {/* Section: Data We Collect */}
-          <section class="pb-10 mb-10 border-b border-outline-variant/10">
+          <section id="data-collect" class="pb-10 mb-10 border-b border-outline-variant/10 scroll-mt-32">
             <h2 class="text-2xl md:text-3xl font-extrabold font-headline text-on-surface mb-4">
               {t('privacy.dataCollect.title')}
             </h2>
@@ -114,6 +115,34 @@ export default function PrivacyPage() {
               </div>
             </div>
           </section>
+
+          {/* WP20 — Cookies (REQ-F-020-006) */}
+          <LegalSection id="cookies" title={t('privacy.cookies.title')} class="pb-10 border-b border-outline-variant/10">
+            <p>{t('privacy.cookies.body')}</p>
+          </LegalSection>
+
+          {/* WP20 — GDPR Art. 6 legal basis mapping (REQ-F-020-007) */}
+          <LegalSection id="gdpr-basis" title="GDPR Art. 6 legal basis" class="pb-10 border-b border-outline-variant/10">
+            <p>{t('privacy.howWeUse.intro')}</p>
+            <ul class="list-disc pl-6 space-y-2 mt-2">
+              <li>{t('privacy.howWeUse.auth')}</li>
+              <li>{t('privacy.howWeUse.ai')}</li>
+              <li>{t('privacy.howWeUse.payment')}</li>
+              <li>{t('privacy.howWeUse.analytics')}</li>
+              <li>{t('privacy.howWeUse.riotId')}</li>
+            </ul>
+          </LegalSection>
+
+          {/* WP20 — International transfers SCC/DPF (REQ-F-020-008) */}
+          <LegalSection id="data-transfers" title={t('privacy.transfer.title')} class="pb-10 border-b border-outline-variant/10">
+            <p>{t('privacy.transfer.scc.intro')}</p>
+            <ul class="list-disc pl-6 space-y-2 mt-2">
+              <li>{t('privacy.transfer.scc.stripe')}</li>
+              <li>{t('privacy.transfer.scc.cloudflare')}</li>
+              <li>{t('privacy.transfer.scc.anthropic')}</li>
+            </ul>
+            <p class="text-sm text-on-surface-variant/70">{t('privacy.transfer.scc.note')}</p>
+          </LegalSection>
 
           {/* Section: How We Use Your Data */}
           <section class="pb-10 mb-10 border-b border-outline-variant/10">

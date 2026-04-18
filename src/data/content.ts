@@ -38,13 +38,13 @@ export const STEPS: Step[] = [
 export const COMPARISON_ROWS: ComparisonRow[] = [
   { capability: 'Explains decisions in real-time', lolSensei: true, staticTools: false },
   { capability: 'Adapts coaching to your skill level', lolSensei: true, staticTools: false },
-  { capability: 'Zero performance impact (Tauri engine)', lolSensei: true, staticTools: false },
+  { capability: 'Low footprint (< 1% CPU, ~150MB RAM on reference build)', lolSensei: true, staticTools: false },
   { capability: 'Riot API Compliance', lolSensei: true, staticTools: true },
 ];
 
 export const TRUST_BADGES: TrustBadge[] = [
   { icon: 'verified_user', labelKey: 'trust.riotCompliant' },
-  { icon: 'speed', labelKey: 'trust.zeroFps' },
+  { icon: 'speed', labelKey: 'trust.perfImpact' },
   { icon: 'gavel', labelKey: 'trust.noBanned' },
   { icon: 'diversity_3', labelKey: 'trust.allLevels' },
 ];

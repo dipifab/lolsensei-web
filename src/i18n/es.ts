@@ -36,7 +36,7 @@ const es = {
   'hero.title': 'Aprende League con Tu Coach de IA Personal',
   'hero.highlight': 'Coach de IA',
   'hero.subtitle': 'Deja de adivinar, empieza a entender. Recibe orientación en tiempo real sobre selección de campeones, builds y estrategia — adaptada a tu nivel.',
-  'hero.cta.download': 'Próximamente',
+  'hero.cta.download': 'Descargar para Windows',
   'hero.cta.pricing': 'Ver Precios',
 
   // How It Works
@@ -66,7 +66,7 @@ const es = {
   'comparison.header.staticTools': 'Herramientas Estáticas',
   'comparison.row1': 'Explica decisiones en tiempo real',
   'comparison.row2': 'Adapta el coaching a tu nivel',
-  'comparison.row3': 'Cero impacto en el rendimiento (motor Tauri)',
+  'comparison.row3': 'Huella ligera (< 1% CPU, ~150MB RAM en build de referencia)',
   'comparison.row4': 'Conformidad con Riot API',
 
   // Pricing
@@ -152,7 +152,8 @@ const es = {
 
   // Trust Badges
   'trust.riotCompliant': 'Conforme con Riot API',
-  'trust.zeroFps': '0 Impacto en FPS',
+  'trust.perfImpact': '< 1% CPU · ~150MB RAM',
+  'trust.perfImpact.note': 'Medido sobre build de referencia; consulta la documentación de benchmarks.',
   'trust.noBanned': 'Sin Funciones Prohibidas',
   'trust.allLevels': 'Para Todos los Niveles',
 
@@ -287,7 +288,7 @@ const es = {
   'privacy.dataCollect.account.title': 'Información de la Cuenta',
   'privacy.dataCollect.account.description': 'Datos de la cuenta de Google (dirección de correo electrónico y nombre visible) utilizados para la autenticación y la creación de la cuenta.',
   'privacy.dataCollect.lol.title': 'Datos de League of Legends',
-  'privacy.dataCollect.lol.description': 'Nombre de invocador, región, estadísticas de clasificatoria e historial de partidas obtenidos a través de la API de Riot Games para impulsar las funciones de análisis del juego.',
+  'privacy.dataCollect.lol.description': 'Al vincular tu Riot ID consientes que LoL Sensei obtenga tu historial de partidas, datos de campeones y estado de espectador a través de la API oficial de Riot Games. Estos datos se procesan localmente y en nuestros servidores con el único propósito de ofrecer contenido educativo pre-partida. Puedes revocar este consentimiento en cualquier momento escribiendo a privacy@lolsensei.com o desde los Ajustes de la aplicación de escritorio; la revocación detiene toda obtención de datos de Riot ID en un plazo de 24 horas.',
   'privacy.dataCollect.gameplay.title': 'Datos de Sesión de Juego',
   'privacy.dataCollect.gameplay.description': 'Selecciones de campeones, builds de objetos y resultados de partidas recopilados durante sesiones de juego activas para análisis con IA y recomendaciones de coaching.',
   'privacy.dataCollect.payment.title': 'Datos de Suscripción y Pago',
@@ -411,6 +412,45 @@ const es = {
   'checkout.success.titleHighlight': 'Exitoso',
   'checkout.success.description': 'Tu suscripción Pro ya está activa. Abre LoL Sensei para empezar a usar todas las funciones premium — tu cuenta se actualizará automáticamente.',
   'checkout.success.backHome': 'Volver al Inicio',
+  // WP20 — Features scaling + framing (REQ-F-020-003)
+  'features.scaling': 'Fases de escalado y ventanas de tiempo clave',
+  'features.framing.preMatchEducational': 'Contenido educativo pre-partida para entender los enfrentamientos de campeones y las fases de escalado — no son alertas en tiempo real durante la partida.',
+
+  // WP20 — Privacy cookies (REQ-F-020-006)
+  'privacy.cookies.title': 'Cookies y almacenamiento local',
+  'privacy.cookies.body': 'LoL Sensei no utiliza cookies de seguimiento ni cookies publicitarias. Utilizamos exclusivamente localStorage del navegador para recordar tu preferencia de idioma. No se realiza ningún seguimiento de terceros en este sitio web.',
+
+  // WP20 — GDPR Art. 6 legal basis mapping (REQ-F-020-007)
+  'privacy.howWeUse.intro': 'Solo tratamos datos personales sobre las siguientes bases legales (RGPD Art. 6(1)):',
+  'privacy.howWeUse.auth': 'Autenticación y gestión de suscripciones — contrato (Art. 6(1)(b))',
+  'privacy.howWeUse.ai': 'Contenido de coaching asistido por IA — interés legítimo (Art. 6(1)(f))',
+  'privacy.howWeUse.payment': 'Procesamiento de pagos — contrato (Art. 6(1)(b))',
+  'privacy.howWeUse.analytics': 'Analíticas de uso agregadas — consentimiento (Art. 6(1)(a))',
+  'privacy.howWeUse.riotId': 'Vinculación de Riot ID y consultas a la API de Riot — consentimiento (Art. 6(1)(a))',
+
+  // WP20 — International transfers SCC/DPF (REQ-F-020-008)
+  'privacy.transfer.title': 'Transferencias internacionales de datos (UE → EE. UU.)',
+  'privacy.transfer.scc.intro': 'Algunos encargados del tratamiento operan en Estados Unidos. Nos basamos en las Cláusulas Contractuales Tipo (SCC) y, cuando corresponde, en el Data Privacy Framework UE-EE. UU. (DPF) como mecanismo legal de transferencia:',
+  'privacy.transfer.scc.stripe': 'Stripe (pagos) — SCC + certificado DPF',
+  'privacy.transfer.scc.cloudflare': 'Cloudflare (hosting, CDN) — SCC + certificado DPF',
+  'privacy.transfer.scc.anthropic': 'Anthropic (procesamiento de IA) — SCC',
+  'privacy.transfer.scc.note': 'Las políticas de privacidad de los encargados están enlazadas en cada página de proveedor; por defecto los encargados de EE. UU. no aplican decisiones automatizadas conforme al Art. 22 del RGPD.',
+
+  // WP20 — Terms s5 waiver (REQ-F-020-009)
+  'terms.s5.waiver.title': 'Contenido digital y derecho de desistimiento de 14 días (consumidores UE)',
+  'terms.s5.waiver.body': 'Conforme a la Directiva UE 2011/83 Art. 9, los consumidores disponen de 14 días desde la fecha del contrato para desistir de una suscripción de contenido digital. Puedes renunciar a este derecho para obtener acceso inmediato al servicio consintiéndolo explícitamente en el checkout. Si no renuncias, no proporcionaremos acceso antes del día 15. Una vez ejecutado el servicio con la renuncia, el derecho de desistimiento deja de aplicarse (Art. 16(m)). Puedes gestionar tu suscripción desde la página de tu cuenta.',
+  'terms.s5.waiver.optIn': 'Consiento la ejecución inmediata del servicio digital y renuncio a mi derecho de desistimiento de 14 días (Directiva UE 2011/83 Art. 16(m)).',
+  'terms.s5.waiver.optOut': 'Prefiero conservar mi derecho de desistimiento de 14 días; el acceso al servicio comenzará después del día 15.',
+
+  // WP20 — Stripe Checkout waiver dropdown (REQ-F-020-009)
+  'checkout.waiver.fieldLabel': 'Desistimiento 14 días (UE)',
+  'checkout.waiver.placeholder': '— selecciona —',
+  'checkout.waiver.optionWaive': 'Renuncio (acceso inmediato)',
+  'checkout.waiver.optionPreserve': 'Conservo (inicio día 15)',
+  'checkout.waiver.consentTextSnapshot': 'Consiento la ejecución inmediata; renuncio al derecho de desistimiento de 14 días (Art. 16(m)).',
+
+  // WP20 — Pricing VAT disclosure (REQ-F-020-010)
+  'pricing.footer.vat': 'Los precios incluyen IVA cuando corresponda. El impuesto exacto se aplica al checkout según tu dirección de facturación.',
 } as const;
 
 export default es;

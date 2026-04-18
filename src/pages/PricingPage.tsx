@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar';
 import Pricing from '../components/Pricing';
+import VATDisclosure from '../components/VATDisclosure';
 import Footer from '../components/Footer';
 import { BreadcrumbJsonLd } from '../components/JsonLd';
 import { useI18n } from '../i18n';
@@ -26,6 +27,9 @@ export default function PricingPage() {
           </h1>
         </div>
         <Pricing />
+        <div class="max-w-4xl mx-auto px-8 pb-16">
+          <VATDisclosure />
+        </div>
       </main>
       <Footer />
     </>

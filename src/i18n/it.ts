@@ -39,7 +39,7 @@ const it = {
   'hero.title': 'Impara League con il Tuo Coach IA Personale',
   'hero.highlight': 'Coach IA',
   'hero.subtitle': 'Smetti di tirare a indovinare, inizia a capire. Ricevi indicazioni in tempo reale su champion select, build e strategia — adattate al tuo livello. Che tu stia iniziando le ranked o puntando a un nuovo picco, LoL Sensei spiega ogni decisione per farti davvero imparare.',
-  'hero.cta.download': 'Prossimamente',
+  'hero.cta.download': 'Scarica per Windows',
   'hero.cta.pricing': 'Vedi Prezzi',
   'hero.intro': 'League of Legends è uno dei giochi competitivi più complessi mai creati. Centinaia di campioni, migliaia di combinazioni di item e una meta che cambia a ogni patch. La maggior parte dei giocatori si affida a tier list statiche e build copiate, ma questo approccio ti dice solo cosa fare — mai il perché. LoL Sensei è diverso. Il nostro coach IA osserva la tua champion select, analizza le composizioni dei team in tempo reale e spiega il ragionamento dietro ogni raccomandazione. Invece di seguire ciecamente un percorso di build, capisci come le differenze di gold, l\'itemizzazione nemica e la condizione di vittoria del tuo team determinano la scelta ottimale. Questa comprensione è ciò che separa chi copia da chi migliora davvero.',
 
@@ -70,7 +70,7 @@ const it = {
   'comparison.header.staticTools': 'Strumenti Statici',
   'comparison.row1': 'Spiega le decisioni in tempo reale',
   'comparison.row2': 'Adatta il coaching al tuo livello',
-  'comparison.row3': 'Zero impatto sulle prestazioni (motore Tauri)',
+  'comparison.row3': 'Basso impatto (< 1% CPU, ~150MB RAM su build di riferimento)',
   'comparison.row4': 'Conformità Riot API',
 
   // Pricing
@@ -153,7 +153,8 @@ const it = {
 
   // Trust Badges
   'trust.riotCompliant': 'Conforme alle Riot API',
-  'trust.zeroFps': '0 Impatto FPS',
+  'trust.perfImpact': '< 1% CPU · ~150MB RAM',
+  'trust.perfImpact.note': 'Misurato su build di riferimento; vedi documentazione dei benchmark.',
   'trust.noBanned': 'Nessuna Funzione Vietata',
   'trust.allLevels': 'Per Tutti i Livelli',
 
@@ -288,7 +289,7 @@ const it = {
   'privacy.dataCollect.account.title': 'Informazioni sull\'Account',
   'privacy.dataCollect.account.description': 'Dettagli dell\'account Google (indirizzo email e nome visualizzato) utilizzati per l\'autenticazione e la creazione dell\'account.',
   'privacy.dataCollect.lol.title': 'Dati di League of Legends',
-  'privacy.dataCollect.lol.description': 'Nome evocatore, regione, statistiche ranked e cronologia partite recuperati tramite le API di Riot Games per alimentare le funzionalità di analisi.',
+  'privacy.dataCollect.lol.description': 'Collegando il tuo Riot ID acconsenti a che LoL Sensei recuperi la cronologia delle partite, i dati sui campioni e lo stato di spectator tramite l\'API ufficiale di Riot Games. Questi dati sono elaborati localmente e sui nostri server al solo scopo di fornire contenuti educativi pre-partita. Puoi revocare questo consenso in qualunque momento scrivendo a privacy@lolsensei.com o dalle Impostazioni dell\'app desktop; la revoca interrompe ogni recupero dati Riot ID entro 24 ore.',
   'privacy.dataCollect.gameplay.title': 'Dati delle Sessioni di Gioco',
   'privacy.dataCollect.gameplay.description': 'Selezioni dei campioni, build degli item e risultati delle partite raccolti durante le sessioni di gioco attive per l\'analisi basata su IA e le raccomandazioni di coaching.',
   'privacy.dataCollect.payment.title': 'Dati di Abbonamento e Pagamento',
@@ -436,6 +437,45 @@ const it = {
   'checkout.success.titleHighlight': 'Completato',
   'checkout.success.description': 'Il tuo abbonamento Pro è ora attivo. Apri LoL Sensei per iniziare a usare tutte le funzionalità premium — il tuo account verrà aggiornato automaticamente.',
   'checkout.success.backHome': 'Torna alla Home',
+  // WP20 — Features scaling + framing (REQ-F-020-003)
+  'features.scaling': 'Fasi di scaling e finestre temporali chiave',
+  'features.framing.preMatchEducational': 'Contenuti educativi pre-partita per comprendere i matchup dei campioni e le fasi di scaling — non notifiche in-game in tempo reale.',
+
+  // WP20 — Privacy cookies (REQ-F-020-006)
+  'privacy.cookies.title': 'Cookie e archiviazione locale',
+  'privacy.cookies.body': 'LoL Sensei non utilizza cookie di tracciamento né cookie pubblicitari. Usiamo esclusivamente localStorage del browser per ricordare la preferenza di lingua. Nessun tracciamento di terze parti viene eseguito su questo sito.',
+
+  // WP20 — GDPR Art. 6 legal basis mapping (REQ-F-020-007)
+  'privacy.howWeUse.intro': 'Trattiamo i dati personali solo sulle seguenti basi giuridiche (GDPR Art. 6(1)):',
+  'privacy.howWeUse.auth': 'Autenticazione e gestione degli abbonamenti — esecuzione del contratto (Art. 6(1)(b))',
+  'privacy.howWeUse.ai': 'Contenuti di coaching assistiti da IA — legittimo interesse (Art. 6(1)(f))',
+  'privacy.howWeUse.payment': 'Elaborazione dei pagamenti — esecuzione del contratto (Art. 6(1)(b))',
+  'privacy.howWeUse.analytics': 'Analisi aggregate di utilizzo — consenso (Art. 6(1)(a))',
+  'privacy.howWeUse.riotId': 'Collegamento Riot ID e query all\'API Riot — consenso (Art. 6(1)(a))',
+
+  // WP20 — International transfers SCC/DPF (REQ-F-020-008)
+  'privacy.transfer.title': 'Trasferimenti internazionali di dati (UE → USA)',
+  'privacy.transfer.scc.intro': 'Alcuni responsabili del trattamento operano negli Stati Uniti. Facciamo riferimento alle Clausole Contrattuali Standard (SCC) e, ove applicabile, al Data Privacy Framework UE-USA (DPF) come meccanismo legale di trasferimento:',
+  'privacy.transfer.scc.stripe': 'Stripe (pagamenti) — SCC + certificato DPF',
+  'privacy.transfer.scc.cloudflare': 'Cloudflare (hosting, CDN) — SCC + certificato DPF',
+  'privacy.transfer.scc.anthropic': 'Anthropic (elaborazione IA) — SCC',
+  'privacy.transfer.scc.note': 'Le privacy policy dei processori sono linkate su ciascuna pagina vendor; per impostazione predefinita i processori USA non applicano processi decisionali automatizzati ai sensi dell\'Art. 22 GDPR.',
+
+  // WP20 — Terms s5 waiver (REQ-F-020-009)
+  'terms.s5.waiver.title': 'Contenuto digitale e diritto di recesso di 14 giorni (consumatori UE)',
+  'terms.s5.waiver.body': 'Ai sensi della Direttiva UE 2011/83 Art. 9, i consumatori hanno 14 giorni dalla data del contratto per recedere da un abbonamento di contenuto digitale. Puoi rinunciare a questo diritto per ottenere accesso immediato al servizio consentendolo esplicitamente al checkout. Se non rinunci, non forniremo l\'accesso prima del 15° giorno. Una volta eseguito il servizio con la rinuncia, il diritto di recesso non si applica più (Art. 16(m)). Puoi gestire il tuo abbonamento dalla pagina del tuo account.',
+  'terms.s5.waiver.optIn': 'Acconsento all\'esecuzione immediata del servizio digitale e rinuncio al mio diritto di recesso di 14 giorni (Direttiva UE 2011/83 Art. 16(m)).',
+  'terms.s5.waiver.optOut': 'Preferisco mantenere il mio diritto di recesso di 14 giorni; l\'accesso al servizio inizierà dopo il 15° giorno.',
+
+  // WP20 — Stripe Checkout waiver dropdown (REQ-F-020-009)
+  'checkout.waiver.fieldLabel': 'Recesso 14 giorni (UE)',
+  'checkout.waiver.placeholder': '— seleziona —',
+  'checkout.waiver.optionWaive': 'Rinuncio (accesso immediato)',
+  'checkout.waiver.optionPreserve': 'Mantengo (inizio giorno 15)',
+  'checkout.waiver.consentTextSnapshot': 'Acconsento all\'esecuzione immediata; rinuncio al diritto di recesso di 14 giorni (Art. 16(m)).',
+
+  // WP20 — Pricing VAT disclosure (REQ-F-020-010)
+  'pricing.footer.vat': 'I prezzi includono l\'IVA ove applicabile. L\'imposta esatta è applicata al checkout in base al tuo indirizzo di fatturazione.',
 } as const;
 
 export default it;

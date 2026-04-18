@@ -2,6 +2,7 @@ import { createSignal, createEffect, onMount, onCleanup, For, Show } from 'solid
 import { Portal } from 'solid-js/web';
 import { A, useLocation } from '@solidjs/router';
 import { useI18n, SUPPORTED_LOCALES, type Locale } from '../i18n';
+import DownloadCTA from './DownloadCTA';
 import Icon from './Icon';
 
 const NAV_KEYS = [
@@ -167,12 +168,7 @@ export default function Navbar() {
           </div>
 
           {/* CTA button */}
-          <span
-            class="bg-surface-container-highest/60 border border-outline-variant/30 text-on-surface-variant/50 font-headline font-extrabold uppercase tracking-widest px-6 py-2.5 rounded-lg cursor-default select-none inline-flex items-center gap-2"
-          >
-            <Icon name="hourglass_top" class="w-3.5 h-3.5" />
-            {t('hero.cta.download')}
-          </span>
+          <DownloadCTA variant="nav" />
         </div>
 
         {/* Mobile hamburger */}
@@ -261,12 +257,7 @@ export default function Navbar() {
             </For>
           </select>
 
-          <span
-            class="bg-surface-container-highest/60 border border-outline-variant/30 text-on-surface-variant/50 font-headline font-extrabold uppercase tracking-widest px-6 py-2.5 rounded-lg cursor-default select-none inline-flex items-center gap-2"
-          >
-            <Icon name="hourglass_top" class="w-3.5 h-3.5" />
-            {t('hero.cta.download')}
-          </span>
+          <DownloadCTA variant="nav" />
         </div>
         </Portal>
       </Show>

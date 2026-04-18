@@ -36,7 +36,7 @@ const ko = {
   'hero.title': '나만의 AI 코치와 함께 리그를 배우세요',
   'hero.highlight': 'AI 코치',
   'hero.subtitle': '추측은 그만, 이해를 시작하세요. 챔피언 셀렉트, 빌드, 전략에 대한 실시간 가이드를 받으세요 — 당신의 실력에 맞춰 제공됩니다.',
-  'hero.cta.download': '출시 예정',
+  'hero.cta.download': 'Windows용 다운로드',
   'hero.cta.pricing': '요금 보기',
 
   // How It Works
@@ -66,7 +66,7 @@ const ko = {
   'comparison.header.staticTools': '정적 도구',
   'comparison.row1': '실시간으로 결정을 설명합니다',
   'comparison.row2': '실력에 맞춰 코칭을 조정합니다',
-  'comparison.row3': '성능 영향 제로 (Tauri 엔진)',
+  'comparison.row3': '경량 구동 (기준 빌드에서 CPU 1% 미만, RAM 약 150MB)',
   'comparison.row4': 'Riot API 준수',
 
   // Pricing
@@ -152,7 +152,8 @@ const ko = {
 
   // Trust Badges
   'trust.riotCompliant': 'Riot API 준수',
-  'trust.zeroFps': 'FPS 영향 0',
+  'trust.perfImpact': '< 1% CPU · ~150MB RAM',
+  'trust.perfImpact.note': '기준 빌드에서 측정됨; 성능 벤치마크 문서 참조. [NEEDS-NATIVE-REVIEW]',
   'trust.noBanned': '금지 기능 없음',
   'trust.allLevels': '모든 실력에 대응',
 
@@ -287,7 +288,7 @@ const ko = {
   'privacy.dataCollect.account.title': '계정 정보',
   'privacy.dataCollect.account.description': '인증 및 계정 생성에 사용되는 Google 계정 정보(이메일 주소 및 표시 이름).',
   'privacy.dataCollect.lol.title': 'League of Legends 데이터',
-  'privacy.dataCollect.lol.description': '게임 분석 기능을 위해 Riot Games API를 통해 조회되는 소환사 이름, 지역, 랭크 통계, 매치 기록.',
+  'privacy.dataCollect.lol.description': 'Riot ID를 연결하면 LoL Sensei가 공식 Riot Games API를 통해 귀하의 경기 기록, 챔피언 데이터 및 관전 상태를 가져오는 것에 동의하는 것입니다. 이러한 데이터는 경기 전 교육 콘텐츠를 제공할 목적으로만 로컬 및 당사 서버에서 처리됩니다. 귀하는 언제든지 privacy@lolsensei.com으로 이메일을 보내거나 데스크톱 앱 설정에서 이 동의를 철회할 수 있으며, 철회 후 24시간 이내에 모든 Riot ID 데이터 수집이 중단됩니다. [NEEDS-NATIVE-REVIEW]',
   'privacy.dataCollect.gameplay.title': '게임 플레이 세션 데이터',
   'privacy.dataCollect.gameplay.description': 'AI 기반 분석 및 코칭 추천을 위해 활성 게임 플레이 세션 중 수집되는 챔피언 선택, 아이템 빌드, 게임 결과.',
   'privacy.dataCollect.payment.title': '구독 및 결제 데이터',
@@ -411,6 +412,45 @@ const ko = {
   'checkout.success.titleHighlight': '완료',
   'checkout.success.description': 'Pro 구독이 활성화되었습니다. LoL Sensei를 열어 모든 프리미엄 기능을 사용하세요 — 계정이 자동으로 업그레이드됩니다.',
   'checkout.success.backHome': '홈으로 돌아가기',
+  // WP20 — Features scaling + framing (REQ-F-020-003)
+  'features.scaling': '성장 단계와 주요 타이밍 윈도우',
+  'features.framing.preMatchEducational': '챔피언 매치업과 성장 단계를 이해하기 위한 경기 전 교육 콘텐츠 — 실시간 게임 내 알림이 아닙니다. [NEEDS-NATIVE-REVIEW]',
+
+  // WP20 — Privacy cookies (REQ-F-020-006)
+  'privacy.cookies.title': '쿠키 및 로컬 저장소',
+  'privacy.cookies.body': 'LoL Sensei는 추적 쿠키나 광고 쿠키를 사용하지 않습니다. 언어 환경설정을 기억하기 위해서만 브라우저의 localStorage를 사용합니다. 이 웹사이트에서는 제3자 추적이 수행되지 않습니다. [NEEDS-NATIVE-REVIEW]',
+
+  // WP20 — GDPR Art. 6 legal basis mapping (REQ-F-020-007)
+  'privacy.howWeUse.intro': '당사는 개인정보를 다음의 법적 근거(GDPR 제6조(1))에 한하여 처리합니다:',
+  'privacy.howWeUse.auth': '인증 및 구독 관리 — 계약 (제6조(1)(b))',
+  'privacy.howWeUse.ai': 'AI 지원 코칭 콘텐츠 — 정당한 이익 (제6조(1)(f))',
+  'privacy.howWeUse.payment': '결제 처리 — 계약 (제6조(1)(b))',
+  'privacy.howWeUse.analytics': '집계된 사용 분석 — 동의 (제6조(1)(a))',
+  'privacy.howWeUse.riotId': 'Riot ID 연결 및 Riot API 호출 — 동의 (제6조(1)(a))',
+
+  // WP20 — International transfers SCC/DPF (REQ-F-020-008)
+  'privacy.transfer.title': '국제 데이터 이전 (EU → 미국)',
+  'privacy.transfer.scc.intro': '일부 처리업체는 미국에서 운영됩니다. 당사는 표준계약조항(SCC) 및 해당하는 경우 EU-미국 데이터 프라이버시 프레임워크(DPF)를 법적 이전 메커니즘으로 사용합니다:',
+  'privacy.transfer.scc.stripe': 'Stripe (결제) — SCC + DPF 인증',
+  'privacy.transfer.scc.cloudflare': 'Cloudflare (호스팅, CDN) — SCC + DPF 인증',
+  'privacy.transfer.scc.anthropic': 'Anthropic (AI 처리) — SCC',
+  'privacy.transfer.scc.note': '처리업체 개인정보 보호정책은 각 공급업체 페이지에 링크되어 있으며, 미국 처리업체는 기본적으로 GDPR 제22조에 따른 자동화 의사결정을 수행하지 않습니다. [NEEDS-NATIVE-REVIEW]',
+
+  // WP20 — Terms s5 waiver (REQ-F-020-009)
+  'terms.s5.waiver.title': '디지털 콘텐츠 및 14일 청약철회권 (EU 소비자)',
+  'terms.s5.waiver.body': 'EU 지침 2011/83 제9조에 따라, 소비자는 계약 체결일로부터 14일 이내에 디지털 콘텐츠 구독을 철회할 수 있습니다. 결제 시 명시적으로 동의함으로써 이 권리를 포기하고 서비스에 즉시 액세스할 수 있습니다. 권리를 포기하지 않는 경우, 15일째까지 액세스가 제공되지 않습니다. 권리 포기와 함께 서비스가 실행된 후에는 청약철회권이 더 이상 적용되지 않습니다(제16조(m)). 계정 페이지에서 구독을 관리할 수 있습니다. [NEEDS-NATIVE-REVIEW]',
+  'terms.s5.waiver.optIn': '본인은 디지털 서비스의 즉시 이행에 동의하며 14일 청약철회권을 포기합니다 (EU 지침 2011/83 제16조(m)).',
+  'terms.s5.waiver.optOut': '본인은 14일 청약철회권을 유지하는 것을 선호합니다; 서비스 액세스는 15일 이후에 시작됩니다.',
+
+  // WP20 — Stripe Checkout waiver dropdown (REQ-F-020-009)
+  'checkout.waiver.fieldLabel': '14일 청약철회 (EU)',
+  'checkout.waiver.placeholder': '— 선택 —',
+  'checkout.waiver.optionWaive': '포기 (즉시 액세스)',
+  'checkout.waiver.optionPreserve': '유지 (15일째 시작)',
+  'checkout.waiver.consentTextSnapshot': '즉시 이행에 동의; 14일 청약철회권을 포기합니다 (제16조(m)).',
+
+  // WP20 — Pricing VAT disclosure (REQ-F-020-010)
+  'pricing.footer.vat': '해당하는 경우 부가가치세가 포함된 가격입니다. 정확한 세금은 결제 시 청구 주소에 따라 적용됩니다.',
 } as const;
 
 export default ko;

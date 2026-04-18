@@ -4,6 +4,7 @@ import { BreadcrumbJsonLd } from '../components/JsonLd';
 import { usePageMeta } from '../utils/seo';
 import { useI18n } from '../i18n';
 import Icon from '../components/Icon';
+import LegalSection from '../components/LegalSection';
 
 export default function TermsPage() {
   usePageMeta('terms', '/terms');
@@ -104,6 +105,15 @@ export default function TermsPage() {
               <p>{t('terms.s5.p5')}</p>
             </div>
           </section>
+
+          {/* WP20 — 14-day withdrawal waiver (REQ-F-020-009) */}
+          <LegalSection id="withdrawal" title={t('terms.s5.waiver.title')} class="pb-10 border-b border-outline-variant/10">
+            <p>{t('terms.s5.waiver.body')}</p>
+            <ul class="list-disc pl-6 space-y-2 mt-3 text-sm">
+              <li>{t('terms.s5.waiver.optIn')}</li>
+              <li>{t('terms.s5.waiver.optOut')}</li>
+            </ul>
+          </LegalSection>
 
           {/* Section 6 */}
           <section class="py-10 border-b border-outline-variant/10">

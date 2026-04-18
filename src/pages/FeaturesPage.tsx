@@ -5,6 +5,7 @@ import { BreadcrumbJsonLd } from '../components/JsonLd';
 import { useI18n } from '../i18n';
 import { usePageMeta } from '../utils/seo';
 import Icon from '../components/Icon';
+import DownloadCTA from '../components/DownloadCTA';
 
 export default function FeaturesPage() {
   const { t, locale } = useI18n();
@@ -219,12 +220,7 @@ export default function FeaturesPage() {
               <span class="text-primary-container">{t('features.cta.highlight')}</span>
             </h2>
             <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <span
-                class="bg-surface-container-highest/60 border border-outline-variant/30 px-10 py-5 rounded-lg font-headline font-extrabold text-lg uppercase text-on-surface-variant/50 inline-flex items-center gap-2 cursor-default select-none"
-              >
-                <Icon name="hourglass_top" class="w-6 h-6" />
-                {t('hero.cta.download')}
-              </span>
+              <DownloadCTA variant="primary" />
               <A
                 href={`/${locale()}/pricing`}
                 class="px-10 py-5 rounded-lg font-headline font-extrabold text-lg uppercase border border-outline-variant/30 hover:bg-surface-variant/40 transition-all"

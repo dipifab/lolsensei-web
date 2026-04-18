@@ -36,7 +36,7 @@ const de = {
   'hero.title': 'Lerne League mit Deinem Persönlichen KI-Coach',
   'hero.highlight': 'KI-Coach',
   'hero.subtitle': 'Hör auf zu raten, fang an zu verstehen. Erhalte Echtzeit-Hilfe bei Championauswahl, Builds und Strategie — angepasst an dein Spielniveau.',
-  'hero.cta.download': 'Demnächst Verfügbar',
+  'hero.cta.download': 'Für Windows herunterladen',
   'hero.cta.pricing': 'Preise Ansehen',
 
   // How It Works
@@ -66,7 +66,7 @@ const de = {
   'comparison.header.staticTools': 'Statische Tools',
   'comparison.row1': 'Erklärt Entscheidungen in Echtzeit',
   'comparison.row2': 'Passt das Coaching an dein Niveau an',
-  'comparison.row3': 'Null Performance-Einbußen (Tauri-Engine)',
+  'comparison.row3': 'Geringer Ressourcenbedarf (< 1 % CPU, ~150 MB RAM auf Referenz-Build)',
   'comparison.row4': 'Riot API Konformität',
 
   // Pricing
@@ -152,7 +152,8 @@ const de = {
 
   // Trust Badges
   'trust.riotCompliant': 'Riot API Konform',
-  'trust.zeroFps': '0 FPS-Einbußen',
+  'trust.perfImpact': '< 1 % CPU · ~150 MB RAM',
+  'trust.perfImpact.note': 'Auf Referenz-Build gemessen; siehe Benchmark-Dokumentation.',
   'trust.noBanned': 'Keine Verbotenen Funktionen',
   'trust.allLevels': 'Für Alle Spielstufen',
 
@@ -287,7 +288,7 @@ const de = {
   'privacy.dataCollect.account.title': 'Kontoinformationen',
   'privacy.dataCollect.account.description': 'Google-Kontodaten (E-Mail-Adresse und Anzeigename), die für die Authentifizierung und Kontoerstellung verwendet werden.',
   'privacy.dataCollect.lol.title': 'League of Legends-Daten',
-  'privacy.dataCollect.lol.description': 'Beschwörername, Region, Ranglistenstatistiken und Spielverlauf, die über die Riot Games API abgerufen werden, um Spielanalysefunktionen zu betreiben.',
+  'privacy.dataCollect.lol.description': 'Durch das Verknüpfen deiner Riot ID erteilst du LoL Sensei die Einwilligung, deinen Spielverlauf, Champion-Daten und Spectator-Status über die offizielle Riot-Games-API abzurufen. Diese Daten werden lokal und auf unseren Servern ausschließlich zum Zweck der Bereitstellung von Bildungsinhalten vor dem Spiel verarbeitet. Du kannst diese Einwilligung jederzeit widerrufen, indem du eine E-Mail an privacy@lolsensei.com sendest oder die Einstellungen der Desktop-App verwendest; nach einem Widerruf wird der Abruf von Riot-ID-Daten innerhalb von 24 Stunden vollständig gestoppt.',
   'privacy.dataCollect.gameplay.title': 'Spielsitzungsdaten',
   'privacy.dataCollect.gameplay.description': 'Championauswahl, Item-Builds und Spielergebnisse, die während aktiver Spielsitzungen für KI-gestützte Analyse und Coaching-Empfehlungen erhoben werden.',
   'privacy.dataCollect.payment.title': 'Abonnement- & Zahlungsdaten',
@@ -411,6 +412,45 @@ const de = {
   'checkout.success.titleHighlight': 'Erfolgreich',
   'checkout.success.description': 'Dein Pro-Abonnement ist jetzt aktiv. Öffne LoL Sensei, um alle Premium-Funktionen zu nutzen — dein Konto wird automatisch aktualisiert.',
   'checkout.success.backHome': 'Zurück zur Startseite',
+  // WP20 — Features scaling + framing (REQ-F-020-003)
+  'features.scaling': 'Skalierungsphasen und wichtige Zeitfenster',
+  'features.framing.preMatchEducational': 'Vor dem Spiel zugeschnittene Lerninhalte, um Champion-Matchups und Skalierungsphasen zu verstehen — keine Echtzeit-Benachrichtigungen im Spiel.',
+
+  // WP20 — Privacy cookies (REQ-F-020-006)
+  'privacy.cookies.title': 'Cookies und lokaler Speicher',
+  'privacy.cookies.body': 'LoL Sensei verwendet keine Tracking-Cookies und keine Werbe-Cookies. Wir nutzen ausschließlich den localStorage des Browsers, um deine Spracheinstellung zu speichern. Auf dieser Website findet kein Drittanbieter-Tracking statt.',
+
+  // WP20 — GDPR Art. 6 legal basis mapping (REQ-F-020-007)
+  'privacy.howWeUse.intro': 'Wir verarbeiten personenbezogene Daten ausschließlich auf folgenden Rechtsgrundlagen (DSGVO Art. 6(1)):',
+  'privacy.howWeUse.auth': 'Authentifizierung und Abo-Verwaltung — Vertrag (Art. 6(1)(b))',
+  'privacy.howWeUse.ai': 'KI-gestützte Coaching-Inhalte — berechtigtes Interesse (Art. 6(1)(f))',
+  'privacy.howWeUse.payment': 'Zahlungsabwicklung — Vertrag (Art. 6(1)(b))',
+  'privacy.howWeUse.analytics': 'Aggregierte Nutzungsanalytik — Einwilligung (Art. 6(1)(a))',
+  'privacy.howWeUse.riotId': 'Riot-ID-Verknüpfung und Riot-API-Abfragen — Einwilligung (Art. 6(1)(a))',
+
+  // WP20 — International transfers SCC/DPF (REQ-F-020-008)
+  'privacy.transfer.title': 'Internationaler Datentransfer (EU → USA)',
+  'privacy.transfer.scc.intro': 'Einige Auftragsverarbeiter haben ihren Sitz in den Vereinigten Staaten. Als rechtlichen Transfermechanismus stützen wir uns auf Standardvertragsklauseln (SCC) und, soweit anwendbar, auf das EU-US Data Privacy Framework (DPF):',
+  'privacy.transfer.scc.stripe': 'Stripe (Zahlungen) — SCC + DPF-zertifiziert',
+  'privacy.transfer.scc.cloudflare': 'Cloudflare (Hosting, CDN) — SCC + DPF-zertifiziert',
+  'privacy.transfer.scc.anthropic': 'Anthropic (KI-Verarbeitung) — SCC',
+  'privacy.transfer.scc.note': 'Die Datenschutzerklärungen der Auftragsverarbeiter sind auf der jeweiligen Anbieterseite verlinkt; US-Auftragsverarbeiter führen standardmäßig keine automatisierten Entscheidungen im Sinne des Art. 22 DSGVO durch.',
+
+  // WP20 — Terms s5 waiver (REQ-F-020-009)
+  'terms.s5.waiver.title': 'Digitale Inhalte und 14-tägiges Widerrufsrecht (EU-Verbraucher)',
+  'terms.s5.waiver.body': 'Gemäß EU-Richtlinie 2011/83 Art. 9 haben Verbraucher 14 Tage ab Vertragsschluss Zeit, ein Abonnement für digitale Inhalte zu widerrufen. Du kannst auf dieses Recht verzichten, um sofortigen Zugriff auf den Dienst zu erhalten, indem du beim Checkout ausdrücklich zustimmst. Verzichtest du nicht, gewähren wir keinen Zugriff vor dem 15. Tag. Sobald der Dienst unter Verzicht erbracht wurde, entfällt das Widerrufsrecht (Art. 16(m)). Du kannst dein Abonnement über deine Kontoseite verwalten.',
+  'terms.s5.waiver.optIn': 'Ich stimme der sofortigen Leistungserbringung der digitalen Dienstleistung zu und verzichte auf mein 14-tägiges Widerrufsrecht (EU-Richtlinie 2011/83 Art. 16(m)).',
+  'terms.s5.waiver.optOut': 'Ich möchte mein 14-tägiges Widerrufsrecht behalten; der Zugriff beginnt nach dem 15. Tag.',
+
+  // WP20 — Stripe Checkout waiver dropdown (REQ-F-020-009)
+  'checkout.waiver.fieldLabel': '14-Tage-Widerruf (EU)',
+  'checkout.waiver.placeholder': '— auswählen —',
+  'checkout.waiver.optionWaive': 'Verzicht (Sofortzugriff)',
+  'checkout.waiver.optionPreserve': 'Behalten (ab Tag 15)',
+  'checkout.waiver.consentTextSnapshot': 'Ich stimme der sofortigen Leistung zu; ich verzichte auf das 14-tägige Widerrufsrecht (Art. 16(m)).',
+
+  // WP20 — Pricing VAT disclosure (REQ-F-020-010)
+  'pricing.footer.vat': 'Preise enthalten, soweit anwendbar, die Mehrwertsteuer. Die genaue Steuer wird beim Checkout auf Basis deiner Rechnungsadresse angewandt.',
 } as const;
 
 export default de;
