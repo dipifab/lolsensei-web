@@ -1,13 +1,16 @@
 {
   "name": "lolsensei-web",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0-wp21",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "prebuild": "bash scripts/check-competitors.sh",
     "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "build:beta": "tsc -b && vite build --mode beta",
+    "deploy:beta": "npm run build:beta && npx wrangler deploy --env beta",
+    "preview": "vite preview",
+    "check:bundle-clean": "bash scripts/check-bundle-clean.sh"
   },
   "dependencies": {
     "@solidjs/router": "^0.16.1",
