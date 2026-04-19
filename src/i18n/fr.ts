@@ -477,6 +477,13 @@ const fr = {
 
   // WP20 — Pricing VAT disclosure (REQ-F-020-010)
   'pricing.footer.vat': 'Les prix incluent la TVA le cas échéant. La taxe exacte est appliquée au checkout selon votre adresse de facturation.',
+  // WP10 — Mobile download modal (REQ-F-010-003)
+  'mobile.downloadModalTitle': 'Application de Bureau',
+  'mobile.downloadModalBody': 'LoL Sensei est une application de bureau Windows. Ouvre www.lolsensei.com depuis ton PC pour télécharger.',
+  'mobile.modalDismiss': 'J\'ai compris',
+  // WP10 — Trial explainer Pro (REQ-F-010-004)
+  'pricing.trial.title': 'Essai Pro 7 Jours',
+  'pricing.trial.body': 'Essaie Pro gratuitement pendant 7 jours. Annule quand tu veux. Après l\'essai, {price}/mois.',
 } as const;
 
 export default fr;

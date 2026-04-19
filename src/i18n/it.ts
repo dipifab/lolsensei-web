@@ -476,6 +476,13 @@ const it = {
 
   // WP20 — Pricing VAT disclosure (REQ-F-020-010)
   'pricing.footer.vat': 'I prezzi includono l\'IVA ove applicabile. L\'imposta esatta è applicata al checkout in base al tuo indirizzo di fatturazione.',
+  // WP10 — Mobile download modal (REQ-F-010-003)
+  'mobile.downloadModalTitle': 'App Desktop',
+  'mobile.downloadModalBody': 'LoL Sensei è un\'app desktop per Windows. Apri www.lolsensei.com dal tuo PC per scaricare.',
+  'mobile.modalDismiss': 'Ho capito',
+  // WP10 — Trial explainer Pro (REQ-F-010-004)
+  'pricing.trial.title': 'Prova Pro 7 Giorni',
+  'pricing.trial.body': 'Prova Pro gratis per 7 giorni. Annulla quando vuoi. Dopo la prova, {price}/mese.',
 } as const;
 
 export default it;

@@ -477,6 +477,13 @@ const ko = {
 
   // WP20 — Pricing VAT disclosure (REQ-F-020-010)
   'pricing.footer.vat': '해당하는 경우 부가가치세가 포함된 가격입니다. 정확한 세금은 결제 시 청구 주소에 따라 적용됩니다.',
+  // WP10 — Mobile download modal (REQ-F-010-003)
+  'mobile.downloadModalTitle': '데스크톱 앱',
+  'mobile.downloadModalBody': 'LoL Sensei는 Windows 데스크톱 앱입니다. PC에서 www.lolsensei.com을 열어 다운로드하세요.',
+  'mobile.modalDismiss': '확인',
+  // WP10 — Trial explainer Pro (REQ-F-010-004)
+  'pricing.trial.title': '7일 Pro 체험',
+  'pricing.trial.body': '7일간 Pro를 무료로 체험하세요. 언제든 취소 가능합니다. 체험 후 월 {price}.',
 } as const;
 
 export default ko;

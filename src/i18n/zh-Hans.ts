@@ -477,6 +477,13 @@ const zh = {
 
   // WP20 — Pricing VAT disclosure (REQ-F-020-010)
   'pricing.footer.vat': '适用时价格已含增值税。实际税额将根据您的账单地址在结账时计算。',
+  // WP10 — Mobile download modal (REQ-F-010-003)
+  'mobile.downloadModalTitle': '桌面应用',
+  'mobile.downloadModalBody': 'LoL Sensei 是 Windows 桌面应用。请在电脑上打开 www.lolsensei.com 下载。',
+  'mobile.modalDismiss': '知道了',
+  // WP10 — Trial explainer Pro (REQ-F-010-004)
+  'pricing.trial.title': '7 天 Pro 试用',
+  'pricing.trial.body': '免费试用 Pro 7 天，随时取消。试用结束后 {price}/月。',
 } as const;
 
 export default zh;
