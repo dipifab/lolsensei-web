@@ -43,6 +43,7 @@ jobs:
         env:
           # Placeholder non-produttivo: il flusso OAuth reale e' verificato in preview/staging.
           VITE_GOOGLE_CLIENT_ID: ci-placeholder
+          VITE_PUBLIC_PAGES_ENABLED: 'true'
         run: npm run build
 
       - name: Verify bundle is clean (WP21 CLR-213)

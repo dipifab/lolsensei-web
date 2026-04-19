@@ -12,7 +12,7 @@ const HREFLANG_MAP = { 'pt-br': 'pt-BR' };
 
 // m-6 arch review: sitemap deve rispecchiare il feature flag VITE_PUBLIC_PAGES_ENABLED.
 // Quando false, escludiamo le pagine pubbliche opzionali dal sitemap per evitare 404 indicizzati.
-const PUBLIC_PAGES_ENABLED = (process.env.VITE_PUBLIC_PAGES_ENABLED ?? 'false').toLowerCase() === 'true';
+const PUBLIC_PAGES_ENABLED = (process.env.VITE_PUBLIC_PAGES_ENABLED ?? 'true').toLowerCase() === 'true';
 
 const CORE_PAGES = [
   { path: '/', key: 'home' },
