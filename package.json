@@ -17,6 +17,7 @@
     "check:fonts": "node scripts/check-fonts.mjs",
     "check:links": "node scripts/check-links.mjs",
     "check:seo-hreflang": "node scripts/check-seo-hreflang.mjs",
+    "baseline:lighthouse": "node scripts/measure-baseline.mjs",
     "test:e2e": "playwright test"
   },
   "dependencies": {
@@ -31,6 +32,8 @@
   "devDependencies": {
     "@tailwindcss/vite": "^4.2.2",
     "@types/node": "^24.12.2",
+    "chrome-launcher": "^1.2.1",
+    "lighthouse": "^13.1.0",
     "playwright": "^1.59.1",
     "tailwindcss": "^4.2.2",
     "typescript": "~6.0.2",
