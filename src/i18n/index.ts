@@ -8,10 +8,15 @@ import {
 } from 'solid-js';
 import { useParams, useNavigate, useLocation } from '@solidjs/router';
 import en from './en';
+import {
+  SUPPORTED_LOCALES,
+  DEFAULT_LOCALE,
+  isValidLocale,
+  type Locale,
+} from '../types/locale';
+import { safeSet } from '../utils/storage';
 
-export const SUPPORTED_LOCALES = ['en', 'it', 'ko', 'zh', 'pt-br', 'es', 'fr', 'de'] as const;
-export type Locale = (typeof SUPPORTED_LOCALES)[number];
-export const DEFAULT_LOCALE: Locale = 'en';
+export { SUPPORTED_LOCALES, DEFAULT_LOCALE, isValidLocale, type Locale };
 
 type TranslationKey = keyof typeof en;
 type Translations = Record<TranslationKey, string>;
@@ -20,16 +25,12 @@ const loaders: Record<Locale, () => Promise<Translations>> = {
   en: () => Promise.resolve(en),
   it: () => import('./it').then((m) => m.default as unknown as Translations),
   ko: () => import('./ko').then((m) => m.default as unknown as Translations),
-  zh: () => import('./zh').then((m) => m.default as unknown as Translations),
+  'zh-Hans': () => import('./zh-Hans').then((m) => m.default as unknown as Translations),
   'pt-br': () => import('./pt-br').then((m) => m.default as unknown as Translations),
   es: () => import('./es').then((m) => m.default as unknown as Translations),
   fr: () => import('./fr').then((m) => m.default as unknown as Translations),
   de: () => import('./de').then((m) => m.default as unknown as Translations),
 };
-
-export function isValidLocale(value: string): value is Locale {
-  return (SUPPORTED_LOCALES as readonly string[]).includes(value);
-}
 
 interface I18nContextValue {
   t: (key: string) => string;
@@ -62,7 +63,6 @@ export function I18nProvider(props: { children: JSX.Element }) {
 
     const loader = loaders[currentLocale];
     loader().then((translations) => {
-      // Only apply if locale hasn't changed during the async load
       if (locale() === currentLocale) {
         setLoadedTranslations(translations);
       }
@@ -74,7 +74,6 @@ export function I18nProvider(props: { children: JSX.Element }) {
     const value = current[key as TranslationKey];
     if (value !== undefined) return value;
 
-    // Fallback to English
     const fallback = en[key as TranslationKey];
     if (fallback !== undefined) return fallback;
 
@@ -82,16 +81,16 @@ export function I18nProvider(props: { children: JSX.Element }) {
   };
 
   const setLocale = (lang: Locale) => {
+    safeSet('locale', lang);
+
     const currentPath = location.pathname;
     const currentLocale = locale();
 
-    // Strip the current locale prefix to get the page path
     const prefix = `/${currentLocale}`;
     const pagePath = currentPath.startsWith(prefix)
       ? currentPath.slice(prefix.length) || '/'
       : currentPath;
 
-    // Navigate to the same page in the new locale
     const newPath = pagePath === '/' ? `/${lang}` : `/${lang}${pagePath}`;
     navigate(newPath);
   };

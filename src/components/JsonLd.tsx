@@ -46,7 +46,7 @@ export function WebSiteJsonLd(): JSX.Element {
     '@type': 'WebSite',
     name: 'LoL Sensei',
     url: BASE_URL,
-    inLanguage: ['en', 'it', 'ko', 'zh', 'pt-BR', 'es', 'fr', 'de'],
+    inLanguage: ['en', 'it', 'ko', 'zh-Hans', 'pt-BR', 'es', 'fr', 'de'],
     description: 'AI coaching for League of Legends',
   };
 
