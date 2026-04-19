@@ -27,6 +27,19 @@ Your app is ready to be deployed!
 
 Learn more about deploying your application with the [documentations](https://vite.dev/guide/static-deploy.html)
 
+### Font CJK (WP10 TASK-10-6-012, pendente)
+
+Per il rendering di `ko` e `zh-Hans` servono subset CJK di Noto Sans:
+
+1. Scarica da Google Fonts:
+   - `Noto Sans SC` (Simplified Chinese) subset → `public/fonts/noto-sans-sc.woff2`
+   - `Noto Sans KR` (Korean) subset → `public/fonts/noto-sans-kr.woff2`
+2. Licensing: OFL 1.1, includere `public/fonts/OFL.txt` con testo licenza
+3. Abilitare preload condizionale via `FontsLoader` (Fase 4 componente differito)
+4. Gate `npm run check:fonts` (script da creare in scripts/) deve verificare esistenza file prima del deploy
+
+Status attuale: **PENDENTE** — richiede azione manuale per download asset binari.
+
 ### Cloudflare Redirect Rules (manuale)
 
 Oltre a `wrangler.toml` (SPA fallback gia attivo), configurare via **Cloudflare Dashboard > Rules > Redirect Rules** le seguenti regole:

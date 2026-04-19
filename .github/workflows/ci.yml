@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  pr-gate:
+    name: PR Gate (WP10 + WP21)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: i18n parity (WP10)
+        run: npm run check:i18n
+
+      - name: SEO hreflang (WP10)
+        run: node scripts/check-seo-hreflang.mjs
+
+      - name: Build (prod)
+        env:
+          # Placeholder non-produttivo: il flusso OAuth reale e' verificato in preview/staging.
+          VITE_GOOGLE_CLIENT_ID: ci-placeholder
+        run: npm run build
+
+      - name: Verify bundle is clean (WP21 CLR-213)
+        run: npm run check:bundle-clean

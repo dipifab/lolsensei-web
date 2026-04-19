@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <!-- Home: en -->
+  <!-- home: en -->
   <url>
     <loc>https://www.lolsensei.com/en/</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/" />
@@ -15,10 +15,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/" />
   </url>
-  <!-- Home: it -->
+  <!-- home: it -->
   <url>
     <loc>https://www.lolsensei.com/it/</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/" />
@@ -29,10 +29,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/" />
   </url>
-  <!-- Home: ko -->
+  <!-- home: ko -->
   <url>
     <loc>https://www.lolsensei.com/ko/</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/" />
@@ -43,10 +43,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/" />
   </url>
-  <!-- Home: zh -->
+  <!-- home: zh-Hans -->
   <url>
     <loc>https://www.lolsensei.com/zh-Hans/</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/" />
@@ -57,10 +57,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/" />
   </url>
-  <!-- Home: pt-br -->
+  <!-- home: pt-br -->
   <url>
     <loc>https://www.lolsensei.com/pt-br/</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/" />
@@ -71,10 +71,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/" />
   </url>
-  <!-- Home: es -->
+  <!-- home: es -->
   <url>
     <loc>https://www.lolsensei.com/es/</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/" />
@@ -85,10 +85,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/" />
   </url>
-  <!-- Home: fr -->
+  <!-- home: fr -->
   <url>
     <loc>https://www.lolsensei.com/fr/</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/" />
@@ -99,10 +99,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/" />
   </url>
-  <!-- Home: de -->
+  <!-- home: de -->
   <url>
     <loc>https://www.lolsensei.com/de/</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/" />
@@ -113,11 +113,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/" />
   </url>
-
-  <!-- Features: en -->
+  <!-- features: en -->
   <url>
     <loc>https://www.lolsensei.com/en/features</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/features" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/features" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/features" />
@@ -128,10 +127,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/features" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/features" />
   </url>
-  <!-- Features: it -->
+  <!-- features: it -->
   <url>
     <loc>https://www.lolsensei.com/it/features</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/features" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/features" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/features" />
@@ -142,10 +141,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/features" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/features" />
   </url>
-  <!-- Features: ko -->
+  <!-- features: ko -->
   <url>
     <loc>https://www.lolsensei.com/ko/features</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/features" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/features" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/features" />
@@ -156,10 +155,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/features" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/features" />
   </url>
-  <!-- Features: zh -->
+  <!-- features: zh-Hans -->
   <url>
     <loc>https://www.lolsensei.com/zh-Hans/features</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/features" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/features" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/features" />
@@ -170,10 +169,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/features" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/features" />
   </url>
-  <!-- Features: pt-br -->
+  <!-- features: pt-br -->
   <url>
     <loc>https://www.lolsensei.com/pt-br/features</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/features" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/features" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/features" />
@@ -184,10 +183,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/features" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/features" />
   </url>
-  <!-- Features: es -->
+  <!-- features: es -->
   <url>
     <loc>https://www.lolsensei.com/es/features</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/features" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/features" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/features" />
@@ -198,10 +197,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/features" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/features" />
   </url>
-  <!-- Features: fr -->
+  <!-- features: fr -->
   <url>
     <loc>https://www.lolsensei.com/fr/features</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/features" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/features" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/features" />
@@ -212,10 +211,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/features" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/features" />
   </url>
-  <!-- Features: de -->
+  <!-- features: de -->
   <url>
     <loc>https://www.lolsensei.com/de/features</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/features" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/features" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/features" />
@@ -226,11 +225,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/features" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/features" />
   </url>
-
-  <!-- Pricing: en -->
+  <!-- pricing: en -->
   <url>
     <loc>https://www.lolsensei.com/en/pricing</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/pricing" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/pricing" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/pricing" />
@@ -241,10 +239,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/pricing" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/pricing" />
   </url>
-  <!-- Pricing: it -->
+  <!-- pricing: it -->
   <url>
     <loc>https://www.lolsensei.com/it/pricing</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/pricing" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/pricing" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/pricing" />
@@ -255,10 +253,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/pricing" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/pricing" />
   </url>
-  <!-- Pricing: ko -->
+  <!-- pricing: ko -->
   <url>
     <loc>https://www.lolsensei.com/ko/pricing</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/pricing" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/pricing" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/pricing" />
@@ -269,10 +267,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/pricing" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/pricing" />
   </url>
-  <!-- Pricing: zh -->
+  <!-- pricing: zh-Hans -->
   <url>
     <loc>https://www.lolsensei.com/zh-Hans/pricing</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/pricing" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/pricing" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/pricing" />
@@ -283,10 +281,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/pricing" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/pricing" />
   </url>
-  <!-- Pricing: pt-br -->
+  <!-- pricing: pt-br -->
   <url>
     <loc>https://www.lolsensei.com/pt-br/pricing</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/pricing" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/pricing" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/pricing" />
@@ -297,10 +295,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/pricing" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/pricing" />
   </url>
-  <!-- Pricing: es -->
+  <!-- pricing: es -->
   <url>
     <loc>https://www.lolsensei.com/es/pricing</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/pricing" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/pricing" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/pricing" />
@@ -311,10 +309,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/pricing" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/pricing" />
   </url>
-  <!-- Pricing: fr -->
+  <!-- pricing: fr -->
   <url>
     <loc>https://www.lolsensei.com/fr/pricing</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/pricing" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/pricing" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/pricing" />
@@ -325,10 +323,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/pricing" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/pricing" />
   </url>
-  <!-- Pricing: de -->
+  <!-- pricing: de -->
   <url>
     <loc>https://www.lolsensei.com/de/pricing</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/pricing" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/pricing" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/pricing" />
@@ -339,11 +337,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/pricing" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/pricing" />
   </url>
-
-  <!-- FAQ: en -->
+  <!-- faq: en -->
   <url>
     <loc>https://www.lolsensei.com/en/faq</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/faq" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/faq" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/faq" />
@@ -354,10 +351,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/faq" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/faq" />
   </url>
-  <!-- FAQ: it -->
+  <!-- faq: it -->
   <url>
     <loc>https://www.lolsensei.com/it/faq</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/faq" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/faq" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/faq" />
@@ -368,10 +365,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/faq" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/faq" />
   </url>
-  <!-- FAQ: ko -->
+  <!-- faq: ko -->
   <url>
     <loc>https://www.lolsensei.com/ko/faq</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/faq" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/faq" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/faq" />
@@ -382,10 +379,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/faq" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/faq" />
   </url>
-  <!-- FAQ: zh -->
+  <!-- faq: zh-Hans -->
   <url>
     <loc>https://www.lolsensei.com/zh-Hans/faq</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/faq" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/faq" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/faq" />
@@ -396,10 +393,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/faq" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/faq" />
   </url>
-  <!-- FAQ: pt-br -->
+  <!-- faq: pt-br -->
   <url>
     <loc>https://www.lolsensei.com/pt-br/faq</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/faq" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/faq" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/faq" />
@@ -410,10 +407,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/faq" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/faq" />
   </url>
-  <!-- FAQ: es -->
+  <!-- faq: es -->
   <url>
     <loc>https://www.lolsensei.com/es/faq</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/faq" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/faq" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/faq" />
@@ -424,10 +421,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/faq" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/faq" />
   </url>
-  <!-- FAQ: fr -->
+  <!-- faq: fr -->
   <url>
     <loc>https://www.lolsensei.com/fr/faq</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/faq" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/faq" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/faq" />
@@ -438,10 +435,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/faq" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/faq" />
   </url>
-  <!-- FAQ: de -->
+  <!-- faq: de -->
   <url>
     <loc>https://www.lolsensei.com/de/faq</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/faq" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/faq" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/faq" />
@@ -452,11 +449,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/faq" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/faq" />
   </url>
-
-  <!-- Community: en -->
+  <!-- community: en -->
   <url>
     <loc>https://www.lolsensei.com/en/community</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/community" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/community" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/community" />
@@ -467,10 +463,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/community" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/community" />
   </url>
-  <!-- Community: it -->
+  <!-- community: it -->
   <url>
     <loc>https://www.lolsensei.com/it/community</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/community" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/community" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/community" />
@@ -481,10 +477,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/community" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/community" />
   </url>
-  <!-- Community: ko -->
+  <!-- community: ko -->
   <url>
     <loc>https://www.lolsensei.com/ko/community</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/community" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/community" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/community" />
@@ -495,10 +491,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/community" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/community" />
   </url>
-  <!-- Community: zh -->
+  <!-- community: zh-Hans -->
   <url>
     <loc>https://www.lolsensei.com/zh-Hans/community</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/community" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/community" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/community" />
@@ -509,10 +505,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/community" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/community" />
   </url>
-  <!-- Community: pt-br -->
+  <!-- community: pt-br -->
   <url>
     <loc>https://www.lolsensei.com/pt-br/community</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/community" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/community" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/community" />
@@ -523,10 +519,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/community" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/community" />
   </url>
-  <!-- Community: es -->
+  <!-- community: es -->
   <url>
     <loc>https://www.lolsensei.com/es/community</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/community" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/community" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/community" />
@@ -537,10 +533,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/community" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/community" />
   </url>
-  <!-- Community: fr -->
+  <!-- community: fr -->
   <url>
     <loc>https://www.lolsensei.com/fr/community</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/community" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/community" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/community" />
@@ -551,10 +547,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/community" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/community" />
   </url>
-  <!-- Community: de -->
+  <!-- community: de -->
   <url>
     <loc>https://www.lolsensei.com/de/community</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/community" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/community" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/community" />
@@ -565,11 +561,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/community" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/community" />
   </url>
-
-  <!-- About: en -->
+  <!-- about: en -->
   <url>
     <loc>https://www.lolsensei.com/en/about</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/about" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/about" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/about" />
@@ -580,10 +575,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/about" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/about" />
   </url>
-  <!-- About: it -->
+  <!-- about: it -->
   <url>
     <loc>https://www.lolsensei.com/it/about</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/about" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/about" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/about" />
@@ -594,10 +589,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/about" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/about" />
   </url>
-  <!-- About: ko -->
+  <!-- about: ko -->
   <url>
     <loc>https://www.lolsensei.com/ko/about</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/about" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/about" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/about" />
@@ -608,10 +603,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/about" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/about" />
   </url>
-  <!-- About: zh -->
+  <!-- about: zh-Hans -->
   <url>
     <loc>https://www.lolsensei.com/zh-Hans/about</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/about" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/about" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/about" />
@@ -622,10 +617,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/about" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/about" />
   </url>
-  <!-- About: pt-br -->
+  <!-- about: pt-br -->
   <url>
     <loc>https://www.lolsensei.com/pt-br/about</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/about" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/about" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/about" />
@@ -636,10 +631,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/about" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/about" />
   </url>
-  <!-- About: es -->
+  <!-- about: es -->
   <url>
     <loc>https://www.lolsensei.com/es/about</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/about" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/about" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/about" />
@@ -650,10 +645,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/about" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/about" />
   </url>
-  <!-- About: fr -->
+  <!-- about: fr -->
   <url>
     <loc>https://www.lolsensei.com/fr/about</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/about" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/about" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/about" />
@@ -664,10 +659,10 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/about" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/about" />
   </url>
-  <!-- About: de -->
+  <!-- about: de -->
   <url>
     <loc>https://www.lolsensei.com/de/about</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/about" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/about" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/about" />
@@ -678,343 +673,340 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/about" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/about" />
   </url>
-
-  <!-- Privacy: en -->
-  <url>
-    <loc>https://www.lolsensei.com/en/privacy</loc>
-    <lastmod>2026-04-09</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/privacy" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/privacy" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/privacy" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
-  </url>
-  <!-- Privacy: it -->
-  <url>
-    <loc>https://www.lolsensei.com/it/privacy</loc>
-    <lastmod>2026-04-09</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/privacy" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/privacy" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/privacy" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
-  </url>
-  <!-- Privacy: ko -->
-  <url>
-    <loc>https://www.lolsensei.com/ko/privacy</loc>
-    <lastmod>2026-04-09</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/privacy" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/privacy" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/privacy" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
-  </url>
-  <!-- Privacy: zh -->
-  <url>
-    <loc>https://www.lolsensei.com/zh-Hans/privacy</loc>
-    <lastmod>2026-04-09</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/privacy" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/privacy" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/privacy" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
-  </url>
-  <!-- Privacy: pt-br -->
-  <url>
-    <loc>https://www.lolsensei.com/pt-br/privacy</loc>
-    <lastmod>2026-04-09</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/privacy" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/privacy" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/privacy" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
-  </url>
-  <!-- Privacy: es -->
-  <url>
-    <loc>https://www.lolsensei.com/es/privacy</loc>
-    <lastmod>2026-04-09</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/privacy" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/privacy" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/privacy" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
-  </url>
-  <!-- Privacy: fr -->
-  <url>
-    <loc>https://www.lolsensei.com/fr/privacy</loc>
-    <lastmod>2026-04-09</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/privacy" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/privacy" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/privacy" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
-  </url>
-  <!-- Privacy: de -->
-  <url>
-    <loc>https://www.lolsensei.com/de/privacy</loc>
-    <lastmod>2026-04-09</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/privacy" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/privacy" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/privacy" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
-  </url>
-
-  <!-- Terms: en -->
-  <url>
-    <loc>https://www.lolsensei.com/en/terms</loc>
-    <lastmod>2026-04-09</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/terms" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/terms" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/terms" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/terms" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
-  </url>
-  <!-- Terms: it -->
-  <url>
-    <loc>https://www.lolsensei.com/it/terms</loc>
-    <lastmod>2026-04-09</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/terms" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/terms" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/terms" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/terms" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
-  </url>
-  <!-- Terms: ko -->
-  <url>
-    <loc>https://www.lolsensei.com/ko/terms</loc>
-    <lastmod>2026-04-09</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/terms" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/terms" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/terms" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/terms" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
-  </url>
-  <!-- Terms: zh -->
-  <url>
-    <loc>https://www.lolsensei.com/zh-Hans/terms</loc>
-    <lastmod>2026-04-09</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/terms" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/terms" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/terms" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/terms" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
-  </url>
-  <!-- Terms: pt-br -->
-  <url>
-    <loc>https://www.lolsensei.com/pt-br/terms</loc>
-    <lastmod>2026-04-09</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/terms" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/terms" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/terms" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/terms" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
-  </url>
-  <!-- Terms: es -->
-  <url>
-    <loc>https://www.lolsensei.com/es/terms</loc>
-    <lastmod>2026-04-09</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/terms" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/terms" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/terms" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/terms" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
-  </url>
-  <!-- Terms: fr -->
-  <url>
-    <loc>https://www.lolsensei.com/fr/terms</loc>
-    <lastmod>2026-04-09</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/terms" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/terms" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/terms" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/terms" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
-  </url>
-  <!-- Terms: de -->
-  <url>
-    <loc>https://www.lolsensei.com/de/terms</loc>
-    <lastmod>2026-04-09</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/terms" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/terms" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/terms" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/terms" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
-  </url>
-
-  <!-- Blog: en -->
+  <!-- blog: en -->
   <url>
     <loc>https://www.lolsensei.com/en/blog</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/blog" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog" />
   </url>
-  <!-- Blog: it -->
+  <!-- blog: it -->
   <url>
     <loc>https://www.lolsensei.com/it/blog</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/blog" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog" />
   </url>
-  <!-- Blog Post "how-ai-coaching-helps-you-learn-league": en -->
+  <!-- blog: ko -->
   <url>
-    <loc>https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league</loc>
-    <lastmod>2026-04-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
+    <loc>https://www.lolsensei.com/ko/blog</loc>
+    <lastmod>2026-04-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/blog" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog" />
   </url>
-  <!-- Blog Post "how-ai-coaching-helps-you-learn-league": it -->
+  <!-- blog: zh-Hans -->
   <url>
-    <loc>https://www.lolsensei.com/it/blog/how-ai-coaching-helps-you-learn-league</loc>
-    <lastmod>2026-04-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/how-ai-coaching-helps-you-learn-league" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league" />
+    <loc>https://www.lolsensei.com/zh-Hans/blog</loc>
+    <lastmod>2026-04-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/blog" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog" />
   </url>
-  <!-- Blog Post "understanding-champion-select": en -->
+  <!-- blog: pt-br -->
   <url>
-    <loc>https://www.lolsensei.com/en/blog/understanding-champion-select</loc>
-    <lastmod>2026-04-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
+    <loc>https://www.lolsensei.com/pt-br/blog</loc>
+    <lastmod>2026-04-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/blog" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog" />
   </url>
-  <!-- Blog Post "understanding-champion-select": it -->
+  <!-- blog: es -->
   <url>
-    <loc>https://www.lolsensei.com/it/blog/understanding-champion-select</loc>
-    <lastmod>2026-04-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/understanding-champion-select" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/understanding-champion-select" />
+    <loc>https://www.lolsensei.com/es/blog</loc>
+    <lastmod>2026-04-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/blog" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog" />
   </url>
-  <!-- Blog Post "why-copying-builds-doesnt-help": en -->
+  <!-- blog: fr -->
   <url>
-    <loc>https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help</loc>
-    <lastmod>2026-04-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
+    <loc>https://www.lolsensei.com/fr/blog</loc>
+    <lastmod>2026-04-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/blog" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog" />
   </url>
-  <!-- Blog Post "why-copying-builds-doesnt-help": it -->
+  <!-- blog: de -->
   <url>
-    <loc>https://www.lolsensei.com/it/blog/why-copying-builds-doesnt-help</loc>
-    <lastmod>2026-04-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/why-copying-builds-doesnt-help" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help" />
+    <loc>https://www.lolsensei.com/de/blog</loc>
+    <lastmod>2026-04-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/blog" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/blog" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/blog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/blog" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog" />
   </url>
-  <!-- Blog Post "how-to-climb-ranked-lol": en -->
+  <!-- privacy: en -->
   <url>
-    <loc>https://www.lolsensei.com/en/blog/how-to-climb-ranked-lol</loc>
-    <lastmod>2026-04-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/how-to-climb-ranked-lol" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/how-to-climb-ranked-lol" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/how-to-climb-ranked-lol" />
+    <loc>https://www.lolsensei.com/en/privacy</loc>
+    <lastmod>2026-04-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
   </url>
-  <!-- Blog Post "how-to-climb-ranked-lol": it -->
+  <!-- privacy: it -->
   <url>
-    <loc>https://www.lolsensei.com/it/blog/how-to-climb-ranked-lol</loc>
-    <lastmod>2026-04-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/how-to-climb-ranked-lol" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/how-to-climb-ranked-lol" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/how-to-climb-ranked-lol" />
+    <loc>https://www.lolsensei.com/it/privacy</loc>
+    <lastmod>2026-04-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
   </url>
-  <!-- Blog Post "how-to-stop-tilting-lol": en -->
+  <!-- privacy: ko -->
   <url>
-    <loc>https://www.lolsensei.com/en/blog/how-to-stop-tilting-lol</loc>
-    <lastmod>2026-04-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/how-to-stop-tilting-lol" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/how-to-stop-tilting-lol" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/how-to-stop-tilting-lol" />
+    <loc>https://www.lolsensei.com/ko/privacy</loc>
+    <lastmod>2026-04-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
   </url>
-  <!-- Blog Post "how-to-stop-tilting-lol": it -->
+  <!-- privacy: zh-Hans -->
   <url>
-    <loc>https://www.lolsensei.com/it/blog/how-to-stop-tilting-lol</loc>
-    <lastmod>2026-04-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/how-to-stop-tilting-lol" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/how-to-stop-tilting-lol" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/how-to-stop-tilting-lol" />
+    <loc>https://www.lolsensei.com/zh-Hans/privacy</loc>
+    <lastmod>2026-04-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
   </url>
-  <!-- Blog Post "best-lol-ai-coach-2026": en -->
+  <!-- privacy: pt-br -->
   <url>
-    <loc>https://www.lolsensei.com/en/blog/best-lol-ai-coach-2026</loc>
-    <lastmod>2026-04-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/best-lol-ai-coach-2026" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/best-lol-ai-coach-2026" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/best-lol-ai-coach-2026" />
+    <loc>https://www.lolsensei.com/pt-br/privacy</loc>
+    <lastmod>2026-04-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
   </url>
-  <!-- Blog Post "best-lol-ai-coach-2026": it -->
+  <!-- privacy: es -->
   <url>
-    <loc>https://www.lolsensei.com/it/blog/best-lol-ai-coach-2026</loc>
-    <lastmod>2026-04-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog/best-lol-ai-coach-2026" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog/best-lol-ai-coach-2026" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog/best-lol-ai-coach-2026" />
+    <loc>https://www.lolsensei.com/es/privacy</loc>
+    <lastmod>2026-04-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
+  </url>
+  <!-- privacy: fr -->
+  <url>
+    <loc>https://www.lolsensei.com/fr/privacy</loc>
+    <lastmod>2026-04-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
+  </url>
+  <!-- privacy: de -->
+  <url>
+    <loc>https://www.lolsensei.com/de/privacy</loc>
+    <lastmod>2026-04-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
+  </url>
+  <!-- terms: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/terms</loc>
+    <lastmod>2026-04-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
+  </url>
+  <!-- terms: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/terms</loc>
+    <lastmod>2026-04-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
+  </url>
+  <!-- terms: ko -->
+  <url>
+    <loc>https://www.lolsensei.com/ko/terms</loc>
+    <lastmod>2026-04-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
+  </url>
+  <!-- terms: zh-Hans -->
+  <url>
+    <loc>https://www.lolsensei.com/zh-Hans/terms</loc>
+    <lastmod>2026-04-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
+  </url>
+  <!-- terms: pt-br -->
+  <url>
+    <loc>https://www.lolsensei.com/pt-br/terms</loc>
+    <lastmod>2026-04-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
+  </url>
+  <!-- terms: es -->
+  <url>
+    <loc>https://www.lolsensei.com/es/terms</loc>
+    <lastmod>2026-04-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
+  </url>
+  <!-- terms: fr -->
+  <url>
+    <loc>https://www.lolsensei.com/fr/terms</loc>
+    <lastmod>2026-04-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
+  </url>
+  <!-- terms: de -->
+  <url>
+    <loc>https://www.lolsensei.com/de/terms</loc>
+    <lastmod>2026-04-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
   </url>
 </urlset>
