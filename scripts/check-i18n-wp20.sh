@@ -11,7 +11,7 @@ set -uo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
-LANGS=(en it es fr de pt-br ko zh)
+LANGS=(en it es fr de pt-br ko zh-Hans)
 KEYS=(
   hero.cta.download
   features.scaling

@@ -8,8 +8,9 @@ LoL Sensei is a free AI-powered coaching tool that helps League of Legends playe
 - Champion Select Coach: Learn team synergies and counter-picks
 - Lane Strategy Guide: Understand matchups and win conditions
 - Build Advisor: Know why items are recommended based on game state
-- Zero FPS impact: AI processing on remote servers
-- Riot API Compliant: Safe to use, no ban risk
+- Low performance impact: < 1% CPU, ~150MB RAM (AI processing on remote servers)
+- Pre-match educational content only — no real-time in-game alerts during live play
+- Riot API usage: read-only public data via official Riot Games API, user consent required for Riot ID linking
 
 ## Pricing
 - Free tier: Champion select coaching, game start strategy, real-time build advisor

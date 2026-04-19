@@ -21,18 +21,6 @@
 /fonts/*
   Cache-Control: public, max-age=31536000, immutable
 
-/en/blog/lol-sensei-vs-opgg
-  X-Robots-Tag: noindex
-
-/it/blog/lol-sensei-vs-opgg
-  X-Robots-Tag: noindex
-
-/en/blog/lol-sensei-vs-blitz
-  X-Robots-Tag: noindex
-
-/it/blog/lol-sensei-vs-blitz
-  X-Robots-Tag: noindex
-
 # Admin console — never index (baseline WP10, reinforced by WP21 ConsoleGate)
 /console
   X-Robots-Tag: noindex, nofollow

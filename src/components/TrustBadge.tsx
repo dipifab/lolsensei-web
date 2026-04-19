@@ -9,9 +9,9 @@ interface Props {
 }
 
 /**
- * WP20 REQ-F-020-004: single trust-badge renderer replacing the old
- * ``trust.zeroFps`` pattern. Supports optional quantitative note (e.g.
- * ``trust.perfImpact.note``) shown as subtle caption.
+ * WP20 REQ-F-020-004: single trust-badge renderer for quantitative trust
+ * claims. Supports an optional subtle caption (e.g. ``trust.perfImpact.note``)
+ * rendered below the main label.
  */
 export default function TrustBadge(props: Props) {
   const { t } = useI18n();
