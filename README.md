@@ -26,3 +26,20 @@ Your app is ready to be deployed!
 ## Deployment
 
 Learn more about deploying your application with the [documentations](https://vite.dev/guide/static-deploy.html)
+
+### Cloudflare Redirect Rules (manuale)
+
+Oltre a `wrangler.toml` (SPA fallback gia attivo), configurare via **Cloudflare Dashboard > Rules > Redirect Rules** le seguenti regole:
+
+1. **Root apex → English locale**
+   - When: `URI Path equals "/"`
+   - Then: `Redirect to "https://www.lolsensei.com/en/"` status `301`
+
+2. **Legacy `/zh/` → `/zh-Hans/` (WP10 rename)**
+   - When: `URI Path starts with "/zh/"`
+   - Then: `Redirect to "https://www.lolsensei.com/zh-Hans/"` concat remainder, status `301`
+   - Preserva SEO per URL indicizzati pre-WP10.
+
+3. **Apex `lolsensei.com` → `www.lolsensei.com`**
+   - When: `Hostname equals "lolsensei.com"`
+   - Then: Redirect to `https://www.lolsensei.com{URI Path}` status `301`

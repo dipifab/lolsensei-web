@@ -1,6 +1,6 @@
 import { createEffect, onCleanup } from 'solid-js';
 import { useI18n, SUPPORTED_LOCALES } from '../i18n';
-import { updateMeta } from './meta';
+import { updateMeta } from '../utils/meta';
 
 const BASE_URL = 'https://www.lolsensei.com';
 

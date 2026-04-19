@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import Breadcrumbs from '../components/Breadcrumbs';
 import { BreadcrumbJsonLd, ItemListJsonLd } from '../components/JsonLd';
 import { useI18n } from '../i18n';
-import { usePageMeta } from '../utils/seo';
+import { usePageMeta } from '../services/page-meta';
 import { updateMeta } from '../utils/meta';
 import { getBlogPosts } from '../data/blog';
 import Icon from '../components/Icon';

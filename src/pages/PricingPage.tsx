@@ -4,7 +4,7 @@ import VATDisclosure from '../components/VATDisclosure';
 import Footer from '../components/Footer';
 import { BreadcrumbJsonLd } from '../components/JsonLd';
 import { useI18n } from '../i18n';
-import { usePageMeta } from '../utils/seo';
+import { usePageMeta } from '../services/page-meta';
 
 export default function PricingPage() {
   const { t, locale } = useI18n();

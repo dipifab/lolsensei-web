@@ -10,7 +10,7 @@ import FAQ from '../components/FAQ';
 import Changelog from '../components/Changelog';
 import Footer from '../components/Footer';
 import { SoftwareApplicationJsonLd } from '../components/JsonLd';
-import { usePageMeta } from '../utils/seo';
+import { usePageMeta } from '../services/page-meta';
 import { useI18n } from '../i18n';
 
 export default function Home() {

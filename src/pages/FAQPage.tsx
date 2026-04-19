@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { BreadcrumbJsonLd } from '../components/JsonLd';
 import { useI18n } from '../i18n';
-import { usePageMeta } from '../utils/seo';
+import { usePageMeta } from '../services/page-meta';
 import { FAQ_ITEMS, FAQ_CATEGORIES } from '../data/faq';
 import type { FAQCategoryId } from '../data/faq';
 import Icon from '../components/Icon';
