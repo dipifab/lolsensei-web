@@ -13,7 +13,10 @@
     "typecheck": "tsc --noEmit",
     "check:bundle-clean": "bash scripts/check-bundle-clean.sh",
     "check:i18n": "node scripts/check-i18n-keys.mjs",
-    "check:fonts": "node scripts/check-fonts.mjs"
+    "check:fonts": "node scripts/check-fonts.mjs",
+    "check:links": "node scripts/check-links.mjs",
+    "check:seo-hreflang": "node scripts/check-seo-hreflang.mjs",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "@solidjs/router": "^0.16.1",
