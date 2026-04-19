@@ -1,3 +1,4 @@
+import { For } from 'solid-js';
 import { useI18n } from '../i18n';
 import { COMPARISON_ROWS } from '../data/content';
 import Icon from './Icon';
@@ -38,56 +39,60 @@ export default function ComparisonGrid() {
           </div>
 
           {/* Data rows */}
-          {COMPARISON_ROWS.map((row, index) => (
-            <>
-              <div class="bg-surface-container-low p-6 text-sm">
-                {t(ROW_KEYS[index])}
-              </div>
-              <div class="bg-surface-container-high p-6 flex justify-center">
-                <Icon
-                  name={row.lolSensei ? 'check_circle' : 'cancel'}
-                  class={`w-6 h-6 ${row.lolSensei ? 'text-tertiary' : 'text-on-surface-variant/30'}`}
-                />
-              </div>
-              <div class="bg-surface-container-low p-6 flex justify-center">
-                <Icon
-                  name={row.staticTools ? 'check_circle' : 'cancel'}
-                  class={`w-6 h-6 ${row.staticTools ? 'text-tertiary' : 'text-on-surface-variant/30'}`}
-                />
-              </div>
-            </>
-          ))}
+          <For each={COMPARISON_ROWS}>
+            {(row, index) => (
+              <>
+                <div class="bg-surface-container-low p-6 text-sm">
+                  {t(ROW_KEYS[index()])}
+                </div>
+                <div class="bg-surface-container-high p-6 flex justify-center">
+                  <Icon
+                    name={row.lolSensei ? 'check_circle' : 'cancel'}
+                    class={`w-6 h-6 ${row.lolSensei ? 'text-tertiary' : 'text-on-surface-variant/30'}`}
+                  />
+                </div>
+                <div class="bg-surface-container-low p-6 flex justify-center">
+                  <Icon
+                    name={row.staticTools ? 'check_circle' : 'cancel'}
+                    class={`w-6 h-6 ${row.staticTools ? 'text-tertiary' : 'text-on-surface-variant/30'}`}
+                  />
+                </div>
+              </>
+            )}
+          </For>
         </div>
 
         {/* Mobile: stacked card layout (below md) */}
         <div class="md:hidden flex flex-col gap-3">
-          {COMPARISON_ROWS.map((row, index) => (
-            <div class="glass-panel rounded-xl border border-outline-variant/10 p-5">
-              <p class="text-sm font-bold mb-3">
-                {t(ROW_KEYS[index])}
-              </p>
-              <div class="flex items-center justify-between gap-4">
-                <div class="flex items-center gap-2">
-                  <Icon
-                    name={row.lolSensei ? 'check_circle' : 'cancel'}
-                    class={`w-5 h-5 ${row.lolSensei ? 'text-tertiary' : 'text-on-surface-variant/30'}`}
-                  />
-                  <span class="text-xs font-bold text-primary-container uppercase tracking-widest">
-                    {t('comparison.header.lolSensei')}
-                  </span>
-                </div>
-                <div class="flex items-center gap-2">
-                  <Icon
-                    name={row.staticTools ? 'check_circle' : 'cancel'}
-                    class={`w-5 h-5 ${row.staticTools ? 'text-tertiary' : 'text-on-surface-variant/30'}`}
-                  />
-                  <span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest">
-                    {t('comparison.header.staticTools')}
-                  </span>
+          <For each={COMPARISON_ROWS}>
+            {(row, index) => (
+              <div class="glass-panel rounded-xl border border-outline-variant/10 p-5">
+                <p class="text-sm font-bold mb-3">
+                  {t(ROW_KEYS[index()])}
+                </p>
+                <div class="flex items-center justify-between gap-4">
+                  <div class="flex items-center gap-2">
+                    <Icon
+                      name={row.lolSensei ? 'check_circle' : 'cancel'}
+                      class={`w-5 h-5 ${row.lolSensei ? 'text-tertiary' : 'text-on-surface-variant/30'}`}
+                    />
+                    <span class="text-xs font-bold text-primary-container uppercase tracking-widest">
+                      {t('comparison.header.lolSensei')}
+                    </span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <Icon
+                      name={row.staticTools ? 'check_circle' : 'cancel'}
+                      class={`w-5 h-5 ${row.staticTools ? 'text-tertiary' : 'text-on-surface-variant/30'}`}
+                    />
+                    <span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest">
+                      {t('comparison.header.staticTools')}
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            )}
+          </For>
         </div>
       </div>
     </section>

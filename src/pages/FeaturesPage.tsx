@@ -46,19 +46,33 @@ export default function FeaturesPage() {
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div class="order-2 lg:order-1">
                 <div class="glass-panel p-8 rounded-xl border border-outline-variant/10 hex-bg relative overflow-hidden">
-                  <div class="flex justify-between mb-8">
-                    <div class="flex gap-2">
-                      <div class="w-12 h-12 rounded-lg bg-surface-container-highest border border-primary/20 flex items-center justify-center">
-                        <Icon name="groups_filled" class="w-6 h-6 text-primary" />
-                      </div>
-                      <div>
-                        <div class="text-xs text-on-surface-variant font-bold tracking-widest uppercase">{t('features.mockup.teamAnalysis')}</div>
-                        <div class="text-sm font-bold text-primary">{t('features.mockup.synergy')}: 84%</div>
-                      </div>
+                  <div class="flex items-center gap-3 mb-6">
+                    <div class="w-12 h-12 rounded-lg bg-surface-container-highest border border-primary/20 flex items-center justify-center">
+                      <Icon name="groups_filled" class="w-6 h-6 text-primary" />
                     </div>
-                    <div class="text-right">
-                      <div class="text-[10px] text-tertiary font-bold tracking-widest uppercase">{t('features.mockup.idealPick')}</div>
-                      <div class="text-lg font-headline font-extrabold uppercase italic">Ornn</div>
+                    <div class="flex-1">
+                      <div class="text-xs text-on-surface-variant font-bold tracking-widest uppercase">{t('features.mockup.teamAnalysis')}</div>
+                      <div class="text-sm font-bold text-primary">{t('features.mockup.synergy')}: 84%</div>
+                    </div>
+                  </div>
+                  <div class="mb-6">
+                    <div class="text-[10px] text-tertiary font-bold tracking-widest uppercase mb-3">{t('features.mockup.topPicks')}</div>
+                    <div class="space-y-2">
+                      {([
+                        { name: 'Ornn', score: 92, tone: 'favorable' },
+                        { name: 'Maokai', score: 88, tone: 'favorable' },
+                        { name: 'Leona', score: 85, tone: 'neutral' },
+                      ] as const).map((pick) => (
+                        <div class="bg-surface-container-lowest p-3 rounded-lg flex items-center gap-3">
+                          <div class="w-9 h-9 rounded-md bg-surface-container-highest border border-primary/10 flex items-center justify-center flex-shrink-0">
+                            <span class="text-[10px] font-bold text-on-surface-variant uppercase">{pick.name.slice(0, 2)}</span>
+                          </div>
+                          <span class="flex-1 text-sm font-headline font-extrabold uppercase italic">{pick.name}</span>
+                          <span class={`text-[10px] font-bold px-2 py-0.5 rounded ${pick.tone === 'favorable' ? 'text-tertiary bg-tertiary-container/10' : 'text-primary bg-primary-container/10'}`}>
+                            {pick.score}
+                          </span>
+                        </div>
+                      ))}
                     </div>
                   </div>
                   <div class="space-y-4">

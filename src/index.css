@@ -60,10 +60,10 @@
   --color-inverse-on-surface: #253331;
   --color-inverse-primary: #7b5900;
 
-  /* Fonts */
-  --font-headline: 'Manrope', system-ui, sans-serif;
-  --font-body: 'Inter', system-ui, sans-serif;
-  --font-label: 'Inter', system-ui, sans-serif;
+  /* Fonts — CJK fallbacks (Noto SC/KR) picked via unicode-range matching */
+  --font-headline: 'Manrope', 'Noto Sans SC', 'Noto Sans KR', system-ui, sans-serif;
+  --font-body: 'Inter', 'Noto Sans SC', 'Noto Sans KR', system-ui, sans-serif;
+  --font-label: 'Inter', 'Noto Sans SC', 'Noto Sans KR', system-ui, sans-serif;
 }
 
 /* Utility classes — Stitch design system */
@@ -93,13 +93,13 @@ body {
   margin: 0;
   background-color: #081614;
   color: #d6e6e2;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', 'Noto Sans SC', 'Noto Sans KR', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, .font-headline {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Manrope', 'Noto Sans SC', 'Noto Sans KR', sans-serif;
 }
 
 /* Selection */

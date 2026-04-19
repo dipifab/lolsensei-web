@@ -67,6 +67,24 @@
     <link rel="preload" href="/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
 
+    <!-- Conditional CJK font preload (REQ-NF-010-003) — runs before main bundle -->
+    <script>
+      (function () {
+        var seg = location.pathname.split('/')[1];
+        var href = null;
+        if (seg === 'zh-Hans') href = '/fonts/noto-sans-sc-400.woff2';
+        else if (seg === 'ko') href = '/fonts/noto-sans-kr-400.woff2';
+        if (!href) return;
+        var l = document.createElement('link');
+        l.rel = 'preload';
+        l.as = 'font';
+        l.type = 'font/woff2';
+        l.href = href;
+        l.crossOrigin = 'anonymous';
+        document.head.appendChild(l);
+      })();
+    </script>
+
     <!-- Static JSON-LD for crawlers without JS -->
     <script type="application/ld+json">
     {

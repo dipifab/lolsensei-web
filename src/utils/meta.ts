@@ -20,14 +20,18 @@ export function updateMeta(config: {
   setMetaTag('name', 'twitter:title', config.title);
   setMetaTag('name', 'twitter:description', config.description);
 
-  // Hreflang alternates
-  document.querySelectorAll('link[hreflang]').forEach((el) => el.remove());
+  // Hreflang alternates: remove only dynamically-injected links so we don't
+  // clobber anything injected from the static HTML or by other sources.
+  document
+    .querySelectorAll('link[hreflang][data-dynamic="hreflang"]')
+    .forEach((el) => el.remove());
   if (config.alternates) {
     for (const alt of config.alternates) {
       const link = document.createElement('link');
       link.rel = 'alternate';
       link.hreflang = alt.lang;
       link.href = alt.href;
+      link.setAttribute('data-dynamic', 'hreflang');
       document.head.appendChild(link);
     }
   }

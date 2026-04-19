@@ -36,8 +36,6 @@ const ko = {
   'blog.min': '분',
 
   // Hero
-  'hero.title': '나만의 AI 코치와 함께 리그를 배우세요',
-  'hero.highlight': 'AI 코치',
   'hero.subtitle': '추측은 그만, 이해를 시작하세요. 챔피언 셀렉트, 빌드, 전략에 대한 실시간 가이드를 받으세요 — 당신의 실력에 맞춰 제공됩니다.',
   'hero.cta.download': 'Windows용 다운로드',
   'hero.cta.pricing': '요금 보기',
@@ -73,10 +71,11 @@ const ko = {
   'comparison.row3': '경량 구동 (기준 빌드에서 CPU 1% 미만, RAM 약 150MB)',
   'comparison.row4': 'Riot API 준수',
 
-  // Pricing
+  // Pricing — DEPRECATED legacy keys; canonical BE-aligned keys are below (WP11 contract)
   'pricing.label': '학습 플랜',
   'pricing.title': '성장에 투자하세요',
   'pricing.subtitle': '학습 여정에 맞는 플랜을 선택하세요. 언제든 업그레이드하거나 취소할 수 있습니다.',
+  'pricing.fallback.notice': '기본 가격이 표시됩니다. 실시간 가격이 곧 업데이트됩니다.',
   'pricing.free.name': 'Free',
   'pricing.free.cta': '무료로 학습 시작',
   'pricing.free.feature1': '챔피언 셀렉트 코칭',
@@ -88,6 +87,30 @@ const ko = {
   'pricing.pro.feature2': '게임 시작 전략 가이드',
   'pricing.pro.feature3': '실시간 빌드 어드바이저',
   'pricing.pro.feature4': '서버 우선 접속',
+  // WP10 M-1 — Ad-Free tier i18n keys (pricing contract alignment)
+  'pricing.adfree.name': 'Ad-Free', // TODO: translate
+  'pricing.adfree.cta': 'Remove Ads', // TODO: translate
+  'pricing.adfree.feature1': 'Everything in Free', // TODO: translate
+  'pricing.adfree.feature2': 'No ads in the overlay', // TODO: translate
+  'pricing.adfree.feature3': 'Support ongoing development', // TODO: translate
+  'pricing.pro.badge_launch': 'Launch Offer', // TODO: translate
+
+  // Canonical keys — BE /api/v1/public/pricing contract (api-contracts-wp10.md §1.1)
+  'pricing.tier.free.name': 'Free',
+  'pricing.tier.free.cta': '무료 다운로드',
+  'pricing.tier.adfree.name': 'Ad-Free',
+  'pricing.tier.adfree.cta': '광고 제거',
+  'pricing.tier.pro.name': 'Pro',
+  'pricing.tier.pro.cta': '무료 체험 시작',
+  'pricing.tier.pro.badge_launch': '출시 기념 혜택',
+  'feature.game_detection': '리그 게임 자동 감지',
+  'feature.player_stats': '플레이어 통계 및 매치 기록',
+  'feature.multi_region': '다중 지역 지원',
+  'feature.overlay_shell': '경량 오버레이',
+  'feature.no_ads': '광고 없는 환경',
+  'feature.champion_select_advisory': '챔피언 셀렉트 AI 코칭',
+  'feature.item_build_advisory': '아이템 빌드 AI 코칭',
+  'feature.game_start_analysis': '게임 시작 AI 분석',
   'pricing.performance.title': '학습을 위해 설계됨',
   'pricing.performance.champSelect.title': '챔피언 셀렉트',
   'pricing.performance.champSelect.description': '챔피언 풀, 상대 구성, 현재 메타를 분석하는 AI 코칭으로 드래프트를 이해하세요.',
@@ -161,7 +184,7 @@ const ko = {
   // Footer
   'footer.terms': '이용약관',
   'footer.privacy': '개인정보처리방침',
-  'footer.copyright': '© 2026 LoL Sensei. LoL Sensei는 Riot Games의 승인을 받지 않았으며 Riot Games 또는 Riot Games 자산의 제작이나 관리에 공식적으로 관여하는 사람의 견해나 의견을 반영하지 않습니다. Riot Games 및 모든 관련 자산은 Riot Games, Inc.의 상표 또는 등록 상표입니다.',
+  'footer.copyright': '© {year} LoL Sensei. LoL Sensei는 Riot Games의 승인을 받지 않았으며 Riot Games 또는 Riot Games 자산의 제작이나 관리에 공식적으로 관여하는 사람의 견해나 의견을 반영하지 않습니다. Riot Games 및 모든 관련 자산은 Riot Games, Inc.의 상표 또는 등록 상표입니다.',
 
   // 404
   'notFound.title': '페이지를 찾을 수 없습니다',
@@ -209,7 +232,7 @@ const ko = {
   'features.cta.highlight': '준비가 되셨나요?',
   'features.mockup.teamAnalysis': '팀 분석',
   'features.mockup.synergy': '시너지',
-  'features.mockup.idealPick': '이상적인 픽',
+  'features.mockup.topPicks': '추천 픽',
   'features.mockup.frontlineDensity': '전열 밀도',
   'features.mockup.magicPhysSplit': '마법/물리 비율',
   'features.mockup.keyTiming': '핵심 타이밍 윈도우',
@@ -484,6 +507,19 @@ const ko = {
   // WP10 — Trial explainer Pro (REQ-F-010-004)
   'pricing.trial.title': '7일 Pro 체험',
   'pricing.trial.body': '7일간 Pro를 무료로 체험하세요. 언제든 취소 가능합니다. 체험 후 월 {price}.',
+
+  // Chrome + hero segments (CJK-safe, FIND-02/03/04)
+  'hero.titlePrefix': '나만의',
+  'hero.titleHighlight': 'AI 코치',
+  'hero.titleSuffix': '와 함께 리그를 배우세요',
+  'a11y.mainNav': '주 탐색',
+  'a11y.selectLanguage': '언어 선택',
+  'a11y.languagesList': '언어',
+  'a11y.toggleMenu': '메뉴 열기/닫기',
+  'a11y.footerNav': '바닥글',
+  'notFound.legacyAdmin.title': '관리자 콘솔이 이동되었습니다.',
+  'notFound.legacyAdmin.bodyBefore': '새 경로로 로그인하세요:',
+  'notFound.legacyAdmin.linkLabel': '/console-login',
 } as const;
 
 export default ko;

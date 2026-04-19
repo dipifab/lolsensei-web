@@ -1,15 +1,27 @@
 User-agent: *
 Allow: /
 Disallow: /admin
+Disallow: /console
+Disallow: /console-login
+Disallow: /auth/
 
 # AI Crawlers
 User-agent: GPTBot
 Allow: /
+Disallow: /console
+Disallow: /console-login
+Disallow: /auth/
 
 User-agent: ClaudeBot
 Allow: /
+Disallow: /console
+Disallow: /console-login
+Disallow: /auth/
 
 User-agent: PerplexityBot
 Allow: /
+Disallow: /console
+Disallow: /console-login
+Disallow: /auth/
 
 Sitemap: https://www.lolsensei.com/sitemap.xml

@@ -1,9 +1,16 @@
+import { Show } from 'solid-js';
 import { scrollToSection } from '../utils/scroll';
 import { useI18n } from '../i18n';
 import DownloadCTA from './DownloadCTA';
 
 export default function Hero() {
   const { t } = useI18n();
+
+  // FIND-04 — titolo spezzato in segmenti per evitare `replace()` fragile su
+  // lingue CJK/DE/FR dove l'ordine parole varia. Render: {prefix} <span>{highlight}</span> {suffix}
+  const titlePrefix = () => t('hero.titlePrefix');
+  const titleHighlight = () => t('hero.titleHighlight');
+  const titleSuffix = () => t('hero.titleSuffix');
 
   return (
     <section
@@ -14,8 +21,13 @@ export default function Hero() {
         {/* Text column */}
         <div class="z-10 text-left">
           <h1 class="text-5xl md:text-7xl font-extrabold leading-[1.1] mb-6 tracking-tight text-on-surface font-headline">
-            {t('hero.title').replace(t('hero.highlight'), '')}
-            <span class="text-primary-container">{t('hero.highlight')}</span>
+            <Show when={titlePrefix()}>
+              <>{titlePrefix()} </>
+            </Show>
+            <span class="text-primary-container">{titleHighlight()}</span>
+            <Show when={titleSuffix()}>
+              <> {titleSuffix()}</>
+            </Show>
           </h1>
           <p class="text-xl text-on-surface-variant mb-6 max-w-lg leading-relaxed">
             {t('hero.subtitle')}

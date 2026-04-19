@@ -36,8 +36,6 @@ const zh = {
   'blog.min': '分钟',
 
   // Hero
-  'hero.title': '与你的专属 AI 教练一起学习英雄联盟',
-  'hero.highlight': 'AI 教练',
   'hero.subtitle': '不再盲目猜测，开始真正理解。获取关于英雄选择、出装和策略的实时指导——根据你的水平量身定制。',
   'hero.cta.download': '下载 Windows 版',
   'hero.cta.pricing': '查看价格',
@@ -73,10 +71,11 @@ const zh = {
   'comparison.row3': '低占用（参考构建下 CPU 不到 1%，RAM 约 150MB）',
   'comparison.row4': 'Riot API 合规',
 
-  // Pricing
+  // Pricing — DEPRECATED legacy keys; canonical BE-aligned keys are below (WP11 contract)
   'pricing.label': '学习方案',
   'pricing.title': '投资你的成长',
   'pricing.subtitle': '选择适合你学习旅程的方案。随时升级或取消。',
+  'pricing.fallback.notice': '显示默认价格。实时价格即将更新。',
   'pricing.free.name': 'Free',
   'pricing.free.cta': '免费开始学习',
   'pricing.free.feature1': '英雄选择教练',
@@ -88,6 +87,30 @@ const zh = {
   'pricing.pro.feature2': '开局策略指南',
   'pricing.pro.feature3': '实时出装建议',
   'pricing.pro.feature4': '服务器优先访问',
+  // WP10 M-1 — Ad-Free tier i18n keys (pricing contract alignment)
+  'pricing.adfree.name': 'Ad-Free', // TODO: translate
+  'pricing.adfree.cta': 'Remove Ads', // TODO: translate
+  'pricing.adfree.feature1': 'Everything in Free', // TODO: translate
+  'pricing.adfree.feature2': 'No ads in the overlay', // TODO: translate
+  'pricing.adfree.feature3': 'Support ongoing development', // TODO: translate
+  'pricing.pro.badge_launch': 'Launch Offer', // TODO: translate
+
+  // Canonical keys — BE /api/v1/public/pricing contract (api-contracts-wp10.md §1.1)
+  'pricing.tier.free.name': 'Free',
+  'pricing.tier.free.cta': '免费下载',
+  'pricing.tier.adfree.name': 'Ad-Free',
+  'pricing.tier.adfree.cta': '移除广告',
+  'pricing.tier.pro.name': 'Pro',
+  'pricing.tier.pro.cta': '开始免费试用',
+  'pricing.tier.pro.badge_launch': '首发优惠',
+  'feature.game_detection': '英雄联盟对局自动检测',
+  'feature.player_stats': '玩家数据与对局历史',
+  'feature.multi_region': '多区域支持',
+  'feature.overlay_shell': '轻量叠加界面',
+  'feature.no_ads': '无广告体验',
+  'feature.champion_select_advisory': '英雄选择 AI 指导',
+  'feature.item_build_advisory': '出装 AI 指导',
+  'feature.game_start_analysis': '开局 AI 分析',
   'pricing.performance.title': '为学习而生',
   'pricing.performance.champSelect.title': '英雄选择',
   'pricing.performance.champSelect.description': '通过分析你的英雄池、敌方阵容和当前版本的 AI 教练来理解 Ban/Pick。',
@@ -161,7 +184,7 @@ const zh = {
   // Footer
   'footer.terms': '条款',
   'footer.privacy': '隐私',
-  'footer.copyright': '© 2026 LoL Sensei。LoL Sensei 未获得 Riot Games 的认可，不代表 Riot Games 或任何正式参与 Riot Games 资产制作或管理的人员的观点或意见。Riot Games 及所有相关资产是 Riot Games, Inc. 的商标或注册商标。',
+  'footer.copyright': '© {year} LoL Sensei。LoL Sensei 未获得 Riot Games 的认可，不代表 Riot Games 或任何正式参与 Riot Games 资产制作或管理的人员的观点或意见。Riot Games 及所有相关资产是 Riot Games, Inc. 的商标或注册商标。',
 
   // 404
   'notFound.title': '页面未找到',
@@ -209,7 +232,7 @@ const zh = {
   'features.cta.highlight': '学习了吗？',
   'features.mockup.teamAnalysis': '团队分析',
   'features.mockup.synergy': '协同',
-  'features.mockup.idealPick': '最佳选择',
+  'features.mockup.topPicks': '推荐选择',
   'features.mockup.frontlineDensity': '前排密度',
   'features.mockup.magicPhysSplit': '魔法/物理比例',
   'features.mockup.keyTiming': '关键时间节点',
@@ -484,6 +507,19 @@ const zh = {
   // WP10 — Trial explainer Pro (REQ-F-010-004)
   'pricing.trial.title': '7 天 Pro 试用',
   'pricing.trial.body': '免费试用 Pro 7 天，随时取消。试用结束后 {price}/月。',
+
+  // Chrome + hero segments (CJK-safe, FIND-02/03/04)
+  'hero.titlePrefix': '与你的专属',
+  'hero.titleHighlight': 'AI 教练',
+  'hero.titleSuffix': '一起学习英雄联盟',
+  'a11y.mainNav': '主导航',
+  'a11y.selectLanguage': '选择语言',
+  'a11y.languagesList': '语言',
+  'a11y.toggleMenu': '打开/关闭菜单',
+  'a11y.footerNav': '页脚',
+  'notFound.legacyAdmin.title': '管理控制台已迁移。',
+  'notFound.legacyAdmin.bodyBefore': '使用新路径登录：',
+  'notFound.legacyAdmin.linkLabel': '/console-login',
 } as const;
 
 export default zh;

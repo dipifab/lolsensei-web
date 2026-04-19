@@ -1,9 +1,10 @@
 import { Router, Route, Navigate } from '@solidjs/router';
-import { lazy } from 'solid-js';
+import { lazy, Show } from 'solid-js';
 import type { RouteSectionProps } from '@solidjs/router';
 import I18nLayout from './layouts/I18nLayout';
 import BareLayout from './layouts/BareLayout';
 import { matchFilters } from './routing/match-filters';
+import { ENV } from './config/env';
 
 const Home = lazy(() => import('./pages/Home'));
 const FeaturesPage = lazy(() => import('./pages/FeaturesPage'));
@@ -63,17 +64,21 @@ export default function App() {
       {/* Locale-prefixed routes */}
       <Route path="/:lang" component={I18nLayout} matchFilters={matchFilters}>
         <Route path="/" component={Home} />
-        <Route path="/features" component={FeaturesPage} />
         <Route path="/pricing" component={PricingPage} />
         <Route path="/faq" component={FAQPage} />
-        <Route path="/community" component={CommunityPage} />
-        <Route path="/about" component={AboutPage} />
         <Route path="/privacy" component={PrivacyPage} />
         <Route path="/terms" component={TermsPage} />
-        <Route path="/blog" component={BlogPage} />
-        <Route path="/blog/:slug" component={BlogPostPage} />
         <Route path="/checkout/success" component={CheckoutSuccessPage} />
         <Route path="/checkout/cancel" component={CheckoutCancelPage} />
+        {/* Public pages gated by VITE_PUBLIC_PAGES_ENABLED (m-6 arch review).
+            Quando il flag e' false, queste route cadono nel catch-all 404. */}
+        <Show when={ENV.publicPagesEnabled}>
+          <Route path="/features" component={FeaturesPage} />
+          <Route path="/community" component={CommunityPage} />
+          <Route path="/about" component={AboutPage} />
+          <Route path="/blog" component={BlogPage} />
+          <Route path="/blog/:slug" component={BlogPostPage} />
+        </Show>
       </Route>
 
       {/* Public console entrypoints (outside i18n) */}

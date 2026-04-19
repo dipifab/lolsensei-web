@@ -1,5 +1,5 @@
 name = "lolsensei-web"
-compatibility_date = "2025-04-01"
+compatibility_date = "2026-04-01"
 
 [assets]
 directory = "./dist"
@@ -11,3 +11,20 @@ not_found_handling = "single-page-application"
 #   Rules > Redirect Rules > Create Rule
 #   When: URI Path equals "/"
 #   Then: Redirect to "https://www.lolsensei.com/en/" with status 301
+
+# ---------------------------------------------------------------------------
+# WP20 beta environment (closed beta for Riot pre-submission testing).
+# Deploy: npx wrangler deploy --env beta
+# Public URL: https://beta.lolsensei.com
+# Backend:   https://api.lolsensei.com (Cloudflare tunnel -> Mac mini)
+# ---------------------------------------------------------------------------
+
+[env.beta]
+name = "lolsensei-web-beta"
+routes = [
+  { pattern = "beta.lolsensei.com", custom_domain = true }
+]
+
+[env.beta.assets]
+directory = "./dist"
+not_found_handling = "single-page-application"

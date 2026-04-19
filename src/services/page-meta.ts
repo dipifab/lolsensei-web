@@ -9,6 +9,11 @@ const BASE_URL = 'https://www.lolsensei.com';
  * and hreflang alternates reactively based on current locale.
  *
  * Must be called inside a component rendered within I18nProvider.
+ *
+ * Cleanup is idempotent: only links marked with `data-dynamic="hreflang"`
+ * (injected by {@link updateMeta}) are removed on unmount, so cleanup from
+ * one page cannot strip hreflang links already re-injected by the next
+ * page during SPA navigation.
  */
 export function usePageMeta(pageKey: string, path: string) {
   const { t, locale } = useI18n();
@@ -29,8 +34,12 @@ export function usePageMeta(pageKey: string, path: string) {
     updateMeta({ title, description, canonical, lang, alternates });
   });
 
-  // Clean up hreflang links when component unmounts
+  // Clean up only hreflang links we injected. Static/preexisting hreflang
+  // links (e.g. from index.html) and links re-injected by another mount
+  // before this cleanup runs are preserved.
   onCleanup(() => {
-    document.querySelectorAll('link[hreflang]').forEach((el) => el.remove());
+    document
+      .querySelectorAll('link[hreflang][data-dynamic="hreflang"]')
+      .forEach((el) => el.remove());
   });
 }

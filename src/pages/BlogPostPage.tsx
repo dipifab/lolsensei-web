@@ -9,6 +9,7 @@ import { updateMeta } from "../utils/meta";
 import { getBlogPost, getBlogPosts } from "../data/blog";
 import Icon from "../components/Icon";
 import { NotFoundContent } from "./NotFoundPage";
+import DOMPurify from "dompurify";
 
 const BASE_URL = "https://www.lolsensei.com";
 
@@ -98,7 +99,9 @@ export default function BlogPostPage() {
   });
 
   onCleanup(() => {
-    document.querySelectorAll("link[hreflang]").forEach((el) => el.remove());
+    document
+      .querySelectorAll('link[hreflang][data-dynamic="hreflang"]')
+      .forEach((el) => el.remove());
     const robots = document.querySelector('meta[name="robots"]');
     if (robots && robots.getAttribute("content") === "noindex") {
       robots.setAttribute("content", DEFAULT_ROBOTS);
@@ -181,6 +184,7 @@ export default function BlogPostPage() {
               </header>
 
               {/* Post Body */}
+              {/* HTML sanitized because content is typed as raw HTML (see data/blog/types.ts). Safe even if source becomes external CMS. */}
               <article
                 class="prose prose-invert max-w-none
                 prose-headings:font-headline prose-headings:font-extrabold prose-headings:tracking-tight prose-headings:text-on-surface
@@ -189,7 +193,7 @@ export default function BlogPostPage() {
                 prose-strong:text-primary-container prose-strong:font-bold
                 prose-a:text-primary prose-a:underline prose-a:hover:text-primary-container
                 prose-ul:text-on-surface-variant/90 prose-li:mb-2"
-                innerHTML={currentPost().content}
+                innerHTML={DOMPurify.sanitize(currentPost().content)}
               />
 
               {/* Back to Blog */}

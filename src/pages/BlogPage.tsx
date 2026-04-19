@@ -1,4 +1,4 @@
-import { For, Show, createEffect, createResource, onCleanup } from 'solid-js';
+import { For, Show, createEffect, createResource } from 'solid-js';
 import { A } from '@solidjs/router';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -28,7 +28,9 @@ export default function BlogPage() {
   const { t, locale } = useI18n();
   usePageMeta('blog', '/blog');
 
-  // Override hreflang: blog content only exists in en/it
+  // Override hreflang: blog content only exists in en/it.
+  // Cleanup is handled by usePageMeta's idempotent onCleanup (removes only
+  // data-dynamic="hreflang" links), so no duplicate cleanup is needed here.
   createEffect(() => {
     const lang = locale();
     const alternates: { lang: string; href: string }[] = BLOG_LOCALES.map((l) => ({
@@ -44,10 +46,6 @@ export default function BlogPage() {
       lang,
       alternates,
     });
-  });
-
-  onCleanup(() => {
-    document.querySelectorAll('link[hreflang]').forEach((el) => el.remove());
   });
 
   const localizedHref = (path: string) => `/${locale()}${path}`;

@@ -4,6 +4,7 @@ import { useI18n } from '../i18n';
 export default function Footer() {
   const { t, locale } = useI18n();
   const localizedHref = (path: string) => `/${locale()}${path}`;
+  const currentYear = new Date().getFullYear().toString();
 
   return (
     <footer class="w-full py-12 border-t border-surface-variant/10 bg-surface-container-lowest">
@@ -12,7 +13,7 @@ export default function Footer() {
           LoL Sensei
         </div>
 
-        <nav aria-label="Footer" class="flex gap-8">
+        <nav aria-label={t('a11y.footerNav')} class="flex gap-8">
           <A
             href={localizedHref('/terms')}
             class="text-on-surface/40 hover:text-primary-container transition-colors text-sm font-body tracking-tight py-3"
@@ -34,7 +35,7 @@ export default function Footer() {
         </nav>
 
         <p class="text-on-surface/50 text-[10px] font-body tracking-tight text-center md:text-right max-w-md">
-          {t('footer.copyright')}
+          {t('footer.copyright').replace('{year}', currentYear)}
         </p>
       </div>
     </footer>

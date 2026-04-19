@@ -91,7 +91,7 @@ export default function Navbar() {
       class="fixed top-0 w-full z-50 bg-surface/60 backdrop-blur-xl border-b border-surface-container-highest/15"
     >
       <nav
-        aria-label="Main navigation"
+        aria-label={t('a11y.mainNav')}
         class="flex justify-between items-center max-w-7xl mx-auto px-8 py-4"
       >
         {/* Logo */}
@@ -134,7 +134,7 @@ export default function Navbar() {
               class="flex items-center gap-1.5 text-on-surface/70 hover:text-primary-container transition-colors font-headline font-extrabold uppercase tracking-widest text-sm px-3 py-2 rounded-lg border border-outline-variant/20 hover:border-primary-container/40 cursor-pointer"
               aria-expanded={langOpen()}
               aria-haspopup="listbox"
-              aria-label="Select language"
+              aria-label={t('a11y.selectLanguage')}
             >
               <Icon name="translate" class="w-3.5 h-3.5" />
               {t(`lang.${locale()}`)}
@@ -144,7 +144,7 @@ export default function Navbar() {
             <Show when={langOpen()}>
               <ul
                 role="listbox"
-                aria-label="Languages"
+                aria-label={t('a11y.languagesList')}
                 class="absolute right-0 top-full mt-2 w-44 bg-surface-container-high border border-outline-variant/20 rounded-xl shadow-2xl overflow-hidden z-50 motion-safe:animate-[fade-in_150ms_ease-out]"
               >
                 <For each={[...SUPPORTED_LOCALES]}>
@@ -177,7 +177,7 @@ export default function Navbar() {
           onClick={toggleMenu}
           aria-expanded={menuOpen()}
           aria-controls="mobile-menu"
-          aria-label="Toggle menu"
+          aria-label={t('a11y.toggleMenu')}
         >
           <Show
             when={!menuOpen()}
@@ -248,7 +248,7 @@ export default function Navbar() {
               closeMenu();
             }}
             class="bg-surface-container-highest/60 border border-outline-variant/30 text-on-surface font-headline font-extrabold uppercase tracking-widest px-6 py-2.5 rounded-lg text-sm cursor-pointer"
-            aria-label="Select language"
+            aria-label={t('a11y.selectLanguage')}
           >
             <For each={[...SUPPORTED_LOCALES]}>
               {(lang) => (

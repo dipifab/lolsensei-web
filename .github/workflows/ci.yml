@@ -22,11 +22,19 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Audit dependencies
+        # --omit=dev ignora devDeps (vulnerabilita' solo in dev non bloccano deploy)
+        # --audit-level=high fallisce solo su high/critical, ignora moderate/low
+        run: npm audit --audit-level=high --omit=dev
+
       - name: Typecheck
         run: npm run typecheck
 
       - name: i18n parity (WP10)
         run: npm run check:i18n
+
+      - name: Fonts present (pre-deploy gate)
+        run: npm run check:fonts
 
       - name: SEO hreflang (WP10)
         run: node scripts/check-seo-hreflang.mjs
@@ -39,3 +47,11 @@ jobs:
 
       - name: Verify bundle is clean (WP21 CLR-213)
         run: npm run check:bundle-clean
+
+      - name: Install Lighthouse CI
+        run: npm install -g @lhci/cli
+
+      - name: Run Lighthouse CI
+        run: lhci autorun --config=./lighthouserc.json
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}

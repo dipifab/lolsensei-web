@@ -1,30 +1,6 @@
-import type { PricingPlan } from './types';
-
-export const PRICING_PLANS: PricingPlan[] = [
-  {
-    nameKey: 'pricing.free.name',
-    price: '€0',
-    ctaKey: 'pricing.free.cta',
-    features: [
-      { textKey: 'pricing.free.feature1', included: true },
-      { textKey: 'pricing.free.feature2', included: true },
-      { textKey: 'pricing.free.feature3', included: true },
-    ],
-  },
-  {
-    nameKey: 'pricing.pro.name',
-    price: '€7.99',
-    period: '/mo',
-    ctaKey: 'pricing.pro.cta',
-    features: [
-      { textKey: 'pricing.pro.feature1', included: true },
-      { textKey: 'pricing.pro.feature2', included: true },
-      { textKey: 'pricing.pro.feature3', included: true },
-      { textKey: 'pricing.pro.feature4', included: true, proBadge: true },
-    ],
-    highlighted: true,
-  },
-];
+// Pricing tiers are now fetched at runtime via `services/pricing-api.ts`
+// (contract: dev-repository/design/api-contracts-wp10.md §1.1).
+// The previously hardcoded `PRICING_PLANS` array has been removed — WP10 M-2.
 
 export interface PerformanceFeature {
   icon: string;

@@ -62,18 +62,27 @@ Prima di dichiarare WP10 in produzione stabile:
 - [ ] `npm run test:e2e` → tutti i test Playwright verdi
 - [ ] Font CJK subset presenti in `public/fonts/` (se azione manuale completata)
 
-### Font CJK (WP10 TASK-10-6-012, pendente)
+### Font CJK (WP10 TASK-10-6-012, DONE)
 
-Per il rendering di `ko` e `zh-Hans` servono subset CJK di Noto Sans:
+Status: **DONE** — subset self-hosted via `@fontsource/noto-sans-sc` e `@fontsource/noto-sans-kr`.
 
-1. Scarica da Google Fonts:
-   - `Noto Sans SC` (Simplified Chinese) subset → `public/fonts/noto-sans-sc.woff2`
-   - `Noto Sans KR` (Korean) subset → `public/fonts/noto-sans-kr.woff2`
-2. Licensing: OFL 1.1, includere `public/fonts/OFL.txt` con testo licenza
-3. Abilitare preload condizionale via `FontsLoader` (Fase 4 componente differito)
-4. Gate `npm run check:fonts` (script da creare in scripts/) deve verificare esistenza file prima del deploy
+File serviti da `public/fonts/`:
+- `noto-sans-sc-{400,600,700}.woff2` (Chinese Simplified)
+- `noto-sans-kr-{400,600,700}.woff2` (Korean)
 
-Status attuale: **PENDENTE** — richiede azione manuale per download asset binari.
+Dettagli:
+1. `@font-face` in `public/fonts/fonts.css` con `unicode-range` CJK e `font-display: swap`.
+2. Font-stack in `src/index.css` include `Noto Sans SC` e `Noto Sans KR` come fallback:
+   il browser seleziona il font per i soli glifi CJK (unicode-range) mantenendo Inter/Manrope per Latin.
+3. Preload condizionale in `index.html` (script inline pre-bundle) attivo per `/ko/` e `/zh-Hans/`.
+4. Licenza OFL 1.1 (Noto Sans è distribuito sotto OFL; copia originale inclusa nel pacchetto npm).
+
+Copia ri-generabile con:
+```
+cp node_modules/@fontsource/noto-sans-sc/files/noto-sans-sc-chinese-simplified-{400,600,700}-normal.woff2 public/fonts/
+cp node_modules/@fontsource/noto-sans-kr/files/noto-sans-kr-korean-{400,600,700}-normal.woff2 public/fonts/
+# rinominare in noto-sans-{sc,kr}-{400,600,700}.woff2
+```
 
 ### Cloudflare Redirect Rules (manuale)
 

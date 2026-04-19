@@ -1,4 +1,4 @@
-import { For, Show, createSignal } from 'solid-js';
+import { For, createSignal } from 'solid-js';
 import { FAQ_ITEMS } from '../data/faq';
 import { useI18n } from '../i18n';
 import Icon from './Icon';
@@ -34,12 +34,18 @@ export default function FAQ() {
             {(item, index) => {
               const isOpen = () => openIndex() === index();
               const number = () => String(index() + 1).padStart(2, '0');
+              const panelId = `faq-panel-${index()}`;
+              const buttonId = `faq-button-${index()}`;
 
               return (
                 <div class="group border-b border-outline-variant/10">
                   <button
+                    id={buttonId}
+                    type="button"
                     class="w-full py-6 flex items-center justify-between cursor-pointer text-left"
                     onClick={() => toggle(index())}
+                    aria-expanded={isOpen()}
+                    aria-controls={panelId}
                   >
                     <div class="flex items-center gap-6">
                       <span
@@ -64,11 +70,28 @@ export default function FAQ() {
                       }`}
                     />
                   </button>
-                  <Show when={isOpen()}>
+                  {/*
+                    Answer is ALWAYS rendered in the DOM so Googlebot and
+                    FAQPage JSON-LD validators can discover it (see design
+                    section 3.3). Visibility is controlled via max-height +
+                    opacity transitions; aria-hidden tracks the open state
+                    for assistive tech.
+                  */}
+                  <div
+                    id={panelId}
+                    role="region"
+                    aria-labelledby={buttonId}
+                    aria-hidden={!isOpen()}
+                    class="overflow-hidden transition-[max-height,opacity] duration-300 ease-out"
+                    style={{
+                      'max-height': isOpen() ? '1000px' : '0px',
+                      opacity: isOpen() ? '1' : '0',
+                    }}
+                  >
                     <div class="pb-6 pl-16 pr-8 text-on-surface-variant leading-relaxed">
                       {t(item.answerKey)}
                     </div>
-                  </Show>
+                  </div>
                 </div>
               );
             }}

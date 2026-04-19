@@ -1,3 +1,4 @@
+import { For } from 'solid-js';
 import { STEPS } from '../data/content';
 import { useI18n } from '../i18n';
 import Icon from './Icon';
@@ -22,19 +23,21 @@ export default function HowItWorks() {
           {/* Gold accent line connecting steps (desktop only) */}
           <div class="hidden md:block absolute top-8 left-[15%] right-[15%] h-0.5 bg-gradient-to-r from-transparent via-primary-container/40 to-transparent" />
 
-          {STEPS.map((step, index) => (
-            <div class="relative flex flex-col items-center text-center group">
-              <div class="w-16 h-16 rounded-full glass-panel border border-primary-container flex items-center justify-center mb-6 z-10 group-hover:scale-110 transition-transform">
-                <Icon name={`${step.icon}_filled`} class="w-6 h-6 text-primary-container" />
+          <For each={STEPS}>
+            {(step, index) => (
+              <div class="relative flex flex-col items-center text-center group">
+                <div class="w-16 h-16 rounded-full glass-panel border border-primary-container flex items-center justify-center mb-6 z-10 group-hover:scale-110 transition-transform">
+                  <Icon name={`${step.icon}_filled`} class="w-6 h-6 text-primary-container" />
+                </div>
+                <h3 class="text-xl font-bold mb-3 uppercase tracking-wide">
+                  {t(STEP_KEYS[index()].i18nTitle)}
+                </h3>
+                <p class="text-on-surface-variant text-sm leading-relaxed">
+                  {t(STEP_KEYS[index()].i18nDesc)}
+                </p>
               </div>
-              <h3 class="text-xl font-bold mb-3 uppercase tracking-wide">
-                {t(STEP_KEYS[index].i18nTitle)}
-              </h3>
-              <p class="text-on-surface-variant text-sm leading-relaxed">
-                {t(STEP_KEYS[index].i18nDesc)}
-              </p>
-            </div>
-          ))}
+            )}
+          </For>
         </div>
       </div>
     </section>

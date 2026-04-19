@@ -36,8 +36,6 @@ const fr = {
   'blog.min': 'min',
 
   // Hero
-  'hero.title': 'Apprends League avec Ton Coach IA Personnel',
-  'hero.highlight': 'Coach IA',
   'hero.subtitle': 'Arrête de deviner, commence à comprendre. Reçois des conseils en temps réel sur la sélection de champion, les builds et la stratégie — adaptés à ton niveau.',
   'hero.cta.download': 'Télécharger pour Windows',
   'hero.cta.pricing': 'Voir les Tarifs',
@@ -73,10 +71,11 @@ const fr = {
   'comparison.row3': 'Faible empreinte (< 1 % CPU, ~150 Mo de RAM sur build de référence)',
   'comparison.row4': 'Conformité Riot API',
 
-  // Pricing
+  // Pricing — DEPRECATED legacy keys; canonical BE-aligned keys are below (WP11 contract)
   'pricing.label': 'Plans d\'Apprentissage',
   'pricing.title': 'Investis dans Ta Progression',
   'pricing.subtitle': 'Choisis le plan adapté à ton parcours d\'apprentissage. Upgrade ou annulation à tout moment.',
+  'pricing.fallback.notice': 'Affichage des tarifs par défaut. Les tarifs en temps réel seront mis à jour sous peu.',
   'pricing.free.name': 'Free',
   'pricing.free.cta': 'Commence Gratuitement',
   'pricing.free.feature1': 'Coaching en sélection de champion',
@@ -88,6 +87,30 @@ const fr = {
   'pricing.pro.feature2': 'Guide de stratégie de début de partie',
   'pricing.pro.feature3': 'Conseiller de build en temps réel',
   'pricing.pro.feature4': 'Accès prioritaire aux serveurs',
+  // WP10 M-1 — Ad-Free tier i18n keys (pricing contract alignment)
+  'pricing.adfree.name': 'Ad-Free', // TODO: translate
+  'pricing.adfree.cta': 'Remove Ads', // TODO: translate
+  'pricing.adfree.feature1': 'Everything in Free', // TODO: translate
+  'pricing.adfree.feature2': 'No ads in the overlay', // TODO: translate
+  'pricing.adfree.feature3': 'Support ongoing development', // TODO: translate
+  'pricing.pro.badge_launch': 'Launch Offer', // TODO: translate
+
+  // Canonical keys — BE /api/v1/public/pricing contract (api-contracts-wp10.md §1.1)
+  'pricing.tier.free.name': 'Free',
+  'pricing.tier.free.cta': 'Télécharger Gratuit',
+  'pricing.tier.adfree.name': 'Ad-Free',
+  'pricing.tier.adfree.cta': 'Retirer les Publicités',
+  'pricing.tier.pro.name': 'Pro',
+  'pricing.tier.pro.cta': 'Démarrer l\'Essai Gratuit',
+  'pricing.tier.pro.badge_launch': 'Offre de Lancement',
+  'feature.game_detection': 'Détection automatique des parties de League',
+  'feature.player_stats': 'Statistiques joueur et historique des parties',
+  'feature.multi_region': 'Support multi-région',
+  'feature.overlay_shell': 'Overlay léger',
+  'feature.no_ads': 'Expérience sans publicité',
+  'feature.champion_select_advisory': 'Coaching IA en sélection de champion',
+  'feature.item_build_advisory': 'Coaching IA sur les builds d\'objets',
+  'feature.game_start_analysis': 'Analyse IA de début de partie',
   'pricing.performance.title': 'Conçu pour Apprendre',
   'pricing.performance.champSelect.title': 'Sélection de Champion',
   'pricing.performance.champSelect.description': 'Comprends le draft avec un coaching IA qui analyse ton pool, la composition ennemie et la méta actuelle.',
@@ -161,7 +184,7 @@ const fr = {
   // Footer
   'footer.terms': 'Conditions',
   'footer.privacy': 'Confidentialité',
-  'footer.copyright': '© 2026 LoL Sensei. LoL Sensei n\'est pas approuvé par Riot Games et ne reflète pas les opinions ou points de vue de Riot Games ni de quiconque officiellement impliqué dans la production ou la gestion des propriétés de Riot Games. Riot Games et toutes les propriétés associées sont des marques commerciales ou des marques déposées de Riot Games, Inc.',
+  'footer.copyright': '© {year} LoL Sensei. LoL Sensei n\'est pas approuvé par Riot Games et ne reflète pas les opinions ou points de vue de Riot Games ni de quiconque officiellement impliqué dans la production ou la gestion des propriétés de Riot Games. Riot Games et toutes les propriétés associées sont des marques commerciales ou des marques déposées de Riot Games, Inc.',
 
   // 404
   'notFound.title': 'Page Non Trouvée',
@@ -209,7 +232,7 @@ const fr = {
   'features.cta.highlight': 'À APPRENDRE ?',
   'features.mockup.teamAnalysis': 'Analyse d\'Équipe',
   'features.mockup.synergy': 'Synergie',
-  'features.mockup.idealPick': 'Pick Idéal',
+  'features.mockup.topPicks': 'Picks Recommandés',
   'features.mockup.frontlineDensity': 'Densité de Frontline',
   'features.mockup.magicPhysSplit': 'Répartition Magique/Physique',
   'features.mockup.keyTiming': 'Fenêtre de Timing Clé',
@@ -484,6 +507,19 @@ const fr = {
   // WP10 — Trial explainer Pro (REQ-F-010-004)
   'pricing.trial.title': 'Essai Pro 7 Jours',
   'pricing.trial.body': 'Essaie Pro gratuitement pendant 7 jours. Annule quand tu veux. Après l\'essai, {price}/mois.',
+
+  // Chrome + hero segments (CJK-safe, FIND-02/03/04)
+  'hero.titlePrefix': 'Apprends League avec Ton',
+  'hero.titleHighlight': 'Coach IA',
+  'hero.titleSuffix': 'Personnel',
+  'a11y.mainNav': 'Navigation principale',
+  'a11y.selectLanguage': 'Sélectionner la langue',
+  'a11y.languagesList': 'Langues',
+  'a11y.toggleMenu': 'Ouvrir/fermer le menu',
+  'a11y.footerNav': 'Pied de page',
+  'notFound.legacyAdmin.title': 'La console admin a été déplacée.',
+  'notFound.legacyAdmin.bodyBefore': 'Utilise le nouveau chemin pour te connecter :',
+  'notFound.legacyAdmin.linkLabel': '/console-login',
 } as const;
 
 export default fr;
