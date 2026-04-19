@@ -10,7 +10,10 @@
     "build:beta": "tsc -b && vite build --mode beta",
     "deploy:beta": "npm run build:beta && npx wrangler deploy --env beta",
     "preview": "vite preview",
-    "check:bundle-clean": "bash scripts/check-bundle-clean.sh"
+    "typecheck": "tsc --noEmit",
+    "check:bundle-clean": "bash scripts/check-bundle-clean.sh",
+    "check:i18n": "node scripts/check-i18n-keys.mjs",
+    "check:fonts": "node scripts/check-fonts.mjs"
   },
   "dependencies": {
     "@solidjs/router": "^0.16.1",
