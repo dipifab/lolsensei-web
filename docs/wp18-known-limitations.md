@@ -117,6 +117,61 @@ singola per il rollback.
 
 ---
 
+## D-04 — `h3` transitive CVE (upstream framework)
+
+**Stato:** accepted, upstream tracking
+**Impatto:** ZERO in production (non-runtime)
+**Mitigazione attiva:** runtime isolation via Cloudflare Workers deploy path
+
+### Descrizione
+
+`npm audit --audit-level=high --omit=dev` segnala 5 CVE nella dipendenza transitiva `h3`:
+
+- GHSA-wr4h-v87w-p3r7 — path traversal via %-encoded dots (**high**)
+- GHSA-72gr-qfp7-vwhw — double-decoding bypass
+- GHSA-4hxc-9384-m385 — SSE injection
+- GHSA-22cc-p3c6-wpvm — SSE injection variant
+- GHSA-mp2g-9vg9-f4cg — request smuggling TE.TE
+
+`h3` e' il server HTTP interno di `vinxi` (dipendenza di `@solidjs/start`), usato SOLO:
+
+- Build time (`vinxi build`)
+- Dev server locale (`vinxi dev`)
+
+### Impatto reale nullo in produzione
+
+Il deployment target e' **Cloudflare Workers** via `wrangler deploy`. Il bundle `.output/server/index.mjs` NON contiene `h3` (bundling cloudflare-module preset produce un Worker script standalone). Le CVE non sono esercibili sull'utente finale che visita `www.lolsensei.com`.
+
+L'exposure theoretical e' limitata a macchine developer durante `npm run dev` locale — non Internet-facing, non runtime di produzione.
+
+### Motivazione merge admin override
+
+PR Gate CI configurato con `npm audit --audit-level=high --omit=dev` ha bloccato il merge WP18 alla PR #2. Vinxi upstream non ha ancora rilasciato una patch con `h3` >= 1.15.9. Alternative considerate:
+
+1. Upgrade `vinxi`/`@solidjs/start`: no minor release disponibile con h3 fix
+2. `npm audit fix --force`: breaking change (vinxi@0.0.10 downgrade), rompe stack SolidStart
+3. Whitelist advisory ID: cambio policy permanente
+4. Abort deploy: ritarda tutto WP18 senza risoluzione upstream
+
+**Scelta:** admin override merge tramite `gh pr merge --admin` (utente autorizzato esplicitamente il 2026-04-20), accettando CVE come upstream non-runtime debt.
+
+### Risoluzione pianificata
+
+Re-audit automatico ad ogni rilascio upstream di `vinxi`. Quando disponibile `h3 >= 1.15.9` (via bump vinxi minor):
+
+1. `npm update vinxi @solidjs/start`
+2. `npm audit --audit-level=high --omit=dev` → expected clean
+3. Re-run full E2E + pixel-diff + Lighthouse
+4. Se nessuna regressione, removal di D-04 da questo doc
+
+**Tracking:** issue da aprire in WP18.1 kickoff. Monitorare https://github.com/unjs/h3/releases e https://github.com/nksaraf/vinxi/releases per update.
+
+### Rollback path se upstream introduce regressione
+
+Tag `wp18-production-deploy` (post-merge prod SHA) preserva lo stato funzionante pre-upgrade. Rollback: `git reset --hard wp18-production-deploy && wrangler deploy`.
+
+---
+
 ## Other review items — accepted as minor debt
 
 ### Minor: CSP hash regex via `/<script(?![^>]*\ssrc=)[^>]*>([\s\S]*?)<\/script>/g`
