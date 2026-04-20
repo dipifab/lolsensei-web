@@ -1,9 +1,10 @@
 User-agent: *
-Allow: /
-Disallow: /admin
 Disallow: /console
 Disallow: /console-login
+Disallow: /admin
 Disallow: /auth/
+Disallow: /*/checkout/
+Allow: /
 
 # AI Crawlers
 User-agent: GPTBot
@@ -11,17 +12,20 @@ Allow: /
 Disallow: /console
 Disallow: /console-login
 Disallow: /auth/
+Disallow: /*/checkout/
 
 User-agent: ClaudeBot
 Allow: /
 Disallow: /console
 Disallow: /console-login
 Disallow: /auth/
+Disallow: /*/checkout/
 
 User-agent: PerplexityBot
 Allow: /
 Disallow: /console
 Disallow: /console-login
 Disallow: /auth/
+Disallow: /*/checkout/
 
 Sitemap: https://www.lolsensei.com/sitemap.xml

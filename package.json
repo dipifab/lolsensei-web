@@ -5,10 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "bash scripts/check-competitors.sh && npm run build:jsonld",
-    "build:jsonld": "tsx scripts/generate-jsonld.mjs",
+    "prebuild": "bash scripts/check-competitors.sh && node scripts/generate-sitemap.mjs",
     "build:favicons": "node scripts/generate-favicons.mjs",
-    "build": "tsc -b && vite build",
+    "build": "cross-env NODE_ENV=production vinxi build && node scripts/compute-csp-hashes.mjs && cross-env NODE_ENV=production vinxi build",
     "build:beta": "tsc -b && vite build --mode beta",
     "deploy:beta": "npm run build:beta && npx wrangler deploy --env beta",
     "preview": "vite preview",
@@ -20,23 +19,30 @@
     "check:links": "node scripts/check-links.mjs",
     "check:seo-hreflang": "node scripts/check-seo-hreflang.mjs",
     "baseline:lighthouse": "node scripts/measure-baseline.mjs",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "test:unit": "vitest run",
+    "test:unit:watch": "vitest"
   },
   "dependencies": {
     "@fontsource/noto-sans-kr": "^5.2.9",
     "@fontsource/noto-sans-sc": "^5.2.9",
+    "@solidjs/meta": "^0.29.4",
     "@solidjs/router": "^0.16.1",
+    "@solidjs/start": "^1.3.2",
     "@tailwindcss/typography": "^0.5.19",
     "@types/dompurify": "^3.0.5",
     "dompurify": "^3.4.0",
-    "solid-js": "^1.9.12"
+    "solid-js": "^1.9.12",
+    "vinxi": "^0.5.11"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20260420.1",
     "@playwright/test": "^1.59.1",
     "@tailwindcss/vite": "^4.2.2",
     "@types/node": "^24.12.2",
+    "@vitest/ui": "^3.2.4",
     "chrome-launcher": "^1.2.1",
+    "cross-env": "^10.1.0",
     "lighthouse": "^13.1.0",
     "playwright": "^1.59.1",
     "png-to-ico": "^3.0.1",
@@ -46,6 +52,6 @@
     "tsx": "^4.21.0",
     "typescript": "~6.0.2",
     "vite": "^8.0.4",
-    "vite-plugin-solid": "^2.11.12"
+    "vitest": "^3.2.4"
   }
 }

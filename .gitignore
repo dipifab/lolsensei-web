@@ -32,3 +32,10 @@ test-results/
 # Cloudflare Workers local cache
 .wrangler/
 .secrets/
+
+# SolidStart / Vinxi build artifacts
+.output/
+.vinxi/
+
+# Local baseline artifacts (Lighthouse JSON, etc.) — not committed
+dev-repository/

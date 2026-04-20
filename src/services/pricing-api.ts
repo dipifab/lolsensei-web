@@ -1,3 +1,4 @@
+import { isServer } from 'solid-js/web';
 import { ENV } from '../config/env';
 import {
   type PricingResponse,
@@ -95,6 +96,14 @@ let lastKnown: PricingResponse = BUILD_TIME_FALLBACK;
  * returns the last-known pricing (seeded from BUILD_TIME_FALLBACK).
  */
 export async function fetchPricing(signal?: AbortSignal): Promise<PricingResponse> {
+  // SSR / prerender guard (WP18): durante nitro-prerender il backend non e'
+  // raggiungibile e una unhandled rejection farebbe abortire silenziosamente
+  // il build. Ritorniamo il fallback sincrono; il browser rifara' il fetch
+  // live al mount runtime (dati sempre freschi in client).
+  if (isServer) {
+    return lastKnown;
+  }
+
   const url = `${ENV.apiBaseUrl}/api/v1/public/pricing`;
   const timeoutController = new AbortController();
   const timer = setTimeout(() => timeoutController.abort(), TIMEOUT_MS);
