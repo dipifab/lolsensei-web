@@ -172,6 +172,41 @@ Tag `wp18-production-deploy` (post-merge prod SHA) preserva lo stato funzionante
 
 ---
 
+## D-05 — Cloudflare Pages auto-deploy incompatibile con wrangler.toml [env.*]
+
+**Stato:** RISOLTO in commit `6b16003` (removal di `[env.beta]` da wrangler.toml)
+**Impatto:** LOW (non-runtime, solo pipeline CI)
+**Mitigazione attiva:** beta canary deployato autonomamente come worker separato
+
+### Descrizione
+
+Cloudflare Pages automatic build (triggered su push a main, wrangler 4.84+) fallisce con:
+
+```
+Redirected configurations cannot include environments but the following have been found:
+  - beta
+```
+
+`vinxi` cloudflare-module preset genera `.output/server/wrangler.json` come **redirected config** copiando le sezioni `[env.*]` dal `wrangler.toml` sorgente. wrangler 4.84+ rifiuta redirected config con environments per limitazioni del framework multi-environment wrangler v4.
+
+### Risoluzione
+
+Rimossa sezione `[env.beta]` da `wrangler.toml` (commit `6b16003`). Il worker `lolsensei-web-beta` su `beta.lolsensei.com` rimane live autonomamente (deployato in Task 31 con version ID `18d3ae0f`, esiste come Worker separato nel dashboard Cloudflare).
+
+### Workaround per canary futuri
+
+Per deploy canary in WP19+:
+
+1. **Worker dedicato** (preferito): `wrangler deploy --name lolsensei-web-beta` con `wrangler.toml` secondario o flag inline
+2. **Cloudflare Pages branch preview**: setup auto-preview su branch non-main (default CF Pages feature)
+3. **Manual canary via CLI**: deploy manuale pre-merge, stessa procedura Task 31 pre-review
+
+### Impatto su produzione
+
+**Nessuno.** La produzione su `www.lolsensei.com` (version `cf52be07`) era gia' live dal deploy manuale pre-push (Task 32 Step 3 eseguito localmente). Il fail CF Pages post-push non ha riavuto alcun effetto sul traffico utente.
+
+---
+
 ## Other review items — accepted as minor debt
 
 ### Minor: CSP hash regex via `/<script(?![^>]*\ssrc=)[^>]*>([\s\S]*?)<\/script>/g`
@@ -192,4 +227,4 @@ Fixed in commit `8d6f3c3`. `url.search` preservato nel redirect `/` → `/{local
 
 Issue tracker: TBD (da creare in WP18.1 kickoff con reference a questo doc).
 
-**Last updated:** 2026-04-20 (post WP18 Fase 5 close + review batch 1-3 + debt #3 landing)
+**Last updated:** 2026-04-20 (post WP18 production deploy + D-05 CF Pages wrangler.toml env.beta fix)
