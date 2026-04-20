@@ -9,7 +9,7 @@ import TrustBadges from '../components/TrustBadges';
 import FAQ from '../components/FAQ';
 import Changelog from '../components/Changelog';
 import Footer from '../components/Footer';
-import { FAQPageJsonLd, SoftwareApplicationJsonLd } from '../components/JsonLd';
+import { FAQPageJsonLd } from '../components/JsonLd';
 import { FAQ_ITEMS } from '../data/faq';
 import { usePageMeta } from '../services/page-meta';
 import { useI18n } from '../i18n';
@@ -37,7 +37,6 @@ export default function Home() {
         <FAQ />
         <Changelog />
       </main>
-      <SoftwareApplicationJsonLd />
       <FAQPageJsonLd items={FAQ_ITEMS} t={t} />
       <Footer />
     </>
