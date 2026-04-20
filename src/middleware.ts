@@ -58,12 +58,14 @@ export default createMiddleware({
         return new Response(null, { status: 204 });
       }
     },
-    // 3. Root redirect -> /{detected-locale}/
+    // 3. Root redirect -> /{detected-locale}/ (preserves query string so
+    //    campaign/referral params survive the negotiated-locale hop).
     (event) => {
       const url = new URL(event.request.url);
       if (url.pathname === '/') {
         const locale = detectLocale(event.request.headers.get('accept-language'));
-        return Response.redirect(new URL(`/${locale}/`, url).toString(), 302);
+        const target = `/${locale}/${url.search}`;
+        return Response.redirect(new URL(target, url).toString(), 302);
       }
     },
     // 4. Trailing-slash / casing normalization
