@@ -82,33 +82,38 @@ Tre opzioni (da valutare in WP19):
 
 ---
 
-## D-03 — `src/worker.ts` legacy file
+## D-03 — `src/worker.ts` legacy file (RISOLTO — Task 29)
 
-**Stato:** accepted, rollback safety
-**Impatto:** LOW
-**Mitigazione attiva:** `@deprecated` banner nel file (commit `e0d2084`)
+**Stato:** removed in Task 29
+**Impatto:** LOW (pre-removal)
+**Mitigazione attiva pre-removal:** `@deprecated` banner nel file (commit `e0d2084`)
 
 ### Descrizione
 
-`src/worker.ts` era il vecchio entry point Cloudflare Worker pre-WP18. Dopo la migrazione SolidStart, `wrangler.toml` punta a `.output/server/index.mjs` e il file e' orfano (non piu' referenziato).
+`src/worker.ts` era il vecchio entry point Cloudflare Worker pre-WP18. Dopo la migrazione SolidStart, `wrangler.toml` punta a `.output/server/index.mjs` e il file era orfano (non piu' referenziato).
 
-### Perche' tenerlo fino a Task 31
+### Risoluzione (Task 29)
 
-Rollback safety. Se il deploy produzione WP18 rivelasse un blocker non previsto, il rollback e':
-
-1. Revert `wrangler.toml` (1 riga: `main = "src/worker.ts"` invece di `.output/server/index.mjs`)
-2. `wrangler deploy` (istantaneo)
-
-Senza il file sul disco, il rollback richiederebbe anche `git checkout wp17-last-known-good` su src/ — piu' comandi, piu' rischio errore in incident response.
-
-### Risoluzione pianificata (WP18 Task 31)
-
-Dopo 7 giorni di produzione stabile, rimuovere:
+Rimosso insieme agli altri file legacy del vecchio stack CSR/Vite:
 - `src/worker.ts`
-- `src/LegacyApp.tsx` (se ancora presente)
-- Altri file legacy (`index.html` pre-SolidStart, `vite.config.ts` se sostituito da `app.config.ts`)
+- `src/index.tsx` (old Vite entry)
+- `index.html` (old Vite HTML template)
+- `vite.config.ts` (sostituito da `app.config.ts` di SolidStart)
+- `scripts/generate-jsonld.mjs` (JSON-LD build-time injector pre-Fase 3, sostituito da runtime `JsonLd.tsx`)
+- `tsconfig.worker.json` + `tsconfig.node.json` (orphan project references)
 
-**Owner:** Task 31 della fase 7 WP18 (cleanup pre-release).
+### Rollback safety
+
+Il rollback alla versione pre-cleanup e' garantito dal tag git `wp18-pre-legacy-cleanup`
+(creato immediatamente prima della rimozione). Procedura incident:
+
+```
+git reset --hard wp18-pre-legacy-cleanup
+```
+
+Equivalente in sicurezza al precedente piano "keep until Task 31" via file-on-disk,
+con il vantaggio di avere un set di artifact pulito su `main` e una fonte di verita'
+singola per il rollback.
 
 ---
 
