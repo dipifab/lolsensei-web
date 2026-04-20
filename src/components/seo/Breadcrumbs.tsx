@@ -28,7 +28,7 @@ export function Breadcrumbs(props: { items: BreadcrumbItem[] }): JSX.Element {
                 {index() < props.items.length - 1 ? (
                   <a href={item.href}>{item.name}</a>
                 ) : (
-                  <span aria-current="page">{item.name}</span>
+                  <span aria-current="page" class="font-semibold text-on-surface">{item.name}</span>
                 )}
               </li>
             )}
