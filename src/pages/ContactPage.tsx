@@ -2,14 +2,12 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { BreadcrumbJsonLd } from '../components/JsonLd';
 import { useI18n } from '../i18n';
-import { usePageMeta } from '../services/page-meta';
 import Icon from '../components/Icon';
 
 const SUPPORT_EMAIL = 'support@lolsensei.com';
 
 export default function ContactPage() {
   const { t, locale } = useI18n();
-  usePageMeta('contact', '/contact');
 
   const mailtoHref = `mailto:${SUPPORT_EMAIL}?subject=${encodeURIComponent('LoL Sensei — Contact')}`;
 

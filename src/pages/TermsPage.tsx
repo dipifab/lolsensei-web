@@ -1,13 +1,11 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { BreadcrumbJsonLd } from '../components/JsonLd';
-import { usePageMeta } from '../services/page-meta';
 import { useI18n } from '../i18n';
 import Icon from '../components/Icon';
 import LegalSection from '../components/LegalSection';
 
 export default function TermsPage() {
-  usePageMeta('terms', '/terms');
   const { t, locale } = useI18n();
 
   return (

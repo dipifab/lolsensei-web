@@ -2,12 +2,10 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { BreadcrumbJsonLd } from '../components/JsonLd';
 import { useI18n } from '../i18n';
-import { usePageMeta } from '../services/page-meta';
 import Icon from '../components/Icon';
 
 export default function AboutPage() {
   const { t, locale } = useI18n();
-  usePageMeta('about', '/about');
 
   return (
     <>

@@ -11,12 +11,10 @@ import Changelog from '../components/Changelog';
 import Footer from '../components/Footer';
 import { FAQPageJsonLd } from '../components/JsonLd';
 import { FAQ_ITEMS } from '../data/faq';
-import { usePageMeta } from '../services/page-meta';
 import { useI18n } from '../i18n';
 
 export default function Home() {
   const { t } = useI18n();
-  usePageMeta('home', '/');
   return (
     <>
       <a

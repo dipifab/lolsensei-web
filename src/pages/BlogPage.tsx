@@ -1,17 +1,12 @@
-import { For, Show, createEffect, createResource } from 'solid-js';
+import { For, Show, createResource } from 'solid-js';
 import { A } from '@solidjs/router';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Breadcrumbs from '../components/Breadcrumbs';
 import { BreadcrumbJsonLd, ItemListJsonLd } from '../components/JsonLd';
 import { useI18n } from '../i18n';
-import { usePageMeta } from '../services/page-meta';
-import { updateMeta } from '../utils/meta';
 import { getBlogPosts } from '../data/blog';
 import Icon from '../components/Icon';
-
-const BASE_URL = 'https://www.lolsensei.com';
-const BLOG_LOCALES = ['en', 'it'] as const;
 
 const localeMap: Record<string, string> = {
   en: 'en-US',
@@ -26,27 +21,12 @@ const localeMap: Record<string, string> = {
 
 export default function BlogPage() {
   const { t, locale } = useI18n();
-  usePageMeta('blog', '/blog');
 
-  // Override hreflang: blog content only exists in en/it.
-  // Cleanup is handled by usePageMeta's idempotent onCleanup (removes only
-  // data-dynamic="hreflang" links), so no duplicate cleanup is needed here.
-  createEffect(() => {
-    const lang = locale();
-    const alternates: { lang: string; href: string }[] = BLOG_LOCALES.map((l) => ({
-      lang: l,
-      href: `${BASE_URL}/${l}/blog`,
-    }));
-    alternates.push({ lang: 'x-default', href: `${BASE_URL}/en/blog` });
-
-    updateMeta({
-      title: t('meta.blog.title'),
-      description: t('meta.blog.description'),
-      canonical: `${BASE_URL}/${lang}/blog`,
-      lang,
-      alternates,
-    });
-  });
+  // Meta (title/description/canonical) and hreflang (with blog-only locales
+  // en/it + x-default) are emitted by the `/[lang]/blog` route wrapper via
+  // `@solidjs/meta` and `<HreflangCluster isBlogRoute />`. This component
+  // no longer manipulates document.head to avoid the double-mount overwrite
+  // that caused flashes + potentially incoherent canonical during hydration.
 
   const localizedHref = (path: string) => `/${locale()}${path}`;
 
