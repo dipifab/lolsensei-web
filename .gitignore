@@ -33,5 +33,9 @@ test-results/
 .wrangler/
 .secrets/
 
+# SolidStart / Vinxi build artifacts
+.output/
+.vinxi/
+
 # Local baseline artifacts (Lighthouse JSON, etc.) — not committed
 dev-repository/
