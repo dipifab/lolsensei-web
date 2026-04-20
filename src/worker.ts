@@ -1,4 +1,11 @@
 /**
+ * @deprecated WP18 legacy — no longer deployed.
+ * wrangler.toml `main` now points to `.output/server/index.mjs` (SolidStart middleware).
+ * Routing logic migrated to `src/middleware.ts` + `src/lib/middleware/*`.
+ * File kept for rollback safety. Scheduled for removal in WP18 Task 31.
+ */
+
+/**
  * LoL Sensei — Cloudflare Worker (WP19 P4).
  *
  * Primary entry point wired via `wrangler.toml` (`main = "src/worker.ts"`).
