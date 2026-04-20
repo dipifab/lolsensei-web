@@ -37,7 +37,10 @@ export function usePageMeta(pageKey: string, path: string) {
   // Clean up only hreflang links we injected. Static/preexisting hreflang
   // links (e.g. from index.html) and links re-injected by another mount
   // before this cleanup runs are preserved.
+  // SSR/prerender guard (WP18): `document` non esiste in Node e Solid invoca
+  // onCleanup anche a fine render SSR — saltiamo il cleanup DOM lato server.
   onCleanup(() => {
+    if (typeof document === 'undefined') return;
     document
       .querySelectorAll('link[hreflang][data-dynamic="hreflang"]')
       .forEach((el) => el.remove());

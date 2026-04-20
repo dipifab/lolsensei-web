@@ -108,6 +108,9 @@ export default function BlogPostPage() {
   });
 
   onCleanup(() => {
+    // SSR/prerender guard (WP18): document non esiste in Node durante il
+    // nitro-prerender; Solid invoca onCleanup anche a fine render SSR.
+    if (typeof document === "undefined") return;
     document
       .querySelectorAll('link[hreflang][data-dynamic="hreflang"]')
       .forEach((el) => el.remove());
