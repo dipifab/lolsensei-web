@@ -31,3 +31,4 @@ test-results/
 
 # Cloudflare Workers local cache
 .wrangler/
+.secrets/

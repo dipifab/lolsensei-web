@@ -520,6 +520,38 @@ const ptBr = {
   'notFound.legacyAdmin.title': 'O console de admin foi movido.',
   'notFound.legacyAdmin.bodyBefore': 'Use o novo caminho para acessar:',
   'notFound.legacyAdmin.linkLabel': '/console-login',
+
+  // WP19 P2-02 — Hero image alt (localized)
+  'hero.image.alt': 'Painel de esports com coaching de IA em tempo real e análise do estado da partida',
+
+  // WP19 P2-05 — Contact page + form
+  'meta.contact.title': 'Contato — LoL Sensei',
+  'meta.contact.description': 'Fale com a equipe do LoL Sensei. Dúvidas, feedback ou reports de bugs — respondemos em 5 dias úteis.',
+  'footer.contact': 'Contato',
+  'contact.title': 'Fale Conosco',
+  'contact.intro': 'Tem dúvidas, feedback ou um bug para reportar? Escreva para nós e retornaremos em breve.',
+  'contact.form.name.label': 'Seu nome (opcional)',
+  'contact.form.name.placeholder': 'Como devemos te chamar?',
+  'contact.form.email.label': 'E-mail',
+  'contact.form.email.placeholder': 'voce@exemplo.com',
+  'contact.form.message.label': 'Mensagem',
+  'contact.form.message.placeholder': 'Conta o que está na sua cabeça. Quanto mais detalhes, melhor a gente consegue ajudar.',
+  'contact.form.submit': 'Enviar mensagem',
+  'contact.form.sla': 'Respondemos em até 5 dias úteis.',
+  'contact.form.success': 'Obrigado — sua mensagem está a caminho. Responderemos em breve por e-mail.',
+  'contact.form.error.generic': 'Algo deu errado no envio. Tente novamente em instantes.',
+  'contact.form.error.email': 'Informe um endereço de e-mail válido.',
+  'contact.form.error.message': 'Sua mensagem precisa ter no mínimo 20 caracteres.',
+  'contact.github.link': 'Abra uma issue no GitHub',
+  'contact.github.description': 'Prefere acompanhar de forma pública? Reporte bugs ou peça funcionalidades direto no nosso repositório do GitHub.',
+
+  // WP19 P2-05 — Preview CTA + modal
+  'cta.preview.button.label': 'Ver prévia',
+  'cta.preview.button.ariaLabel': 'Ver uma prévia do LoL Sensei em ação',
+  'cta.preview.modal.title': 'LoL Sensei em ação',
+  'cta.preview.modal.description': 'Uma prévia curta mostrando como o coach de IA explica champion select, builds e estado da partida em tempo real.',
+  'cta.preview.modal.close': 'Fechar prévia',
+  'cta.preview.modal.caption': 'Prévia em breve — o vídeo final aparecerá aqui.',
 } as const;
 
 export default ptBr;

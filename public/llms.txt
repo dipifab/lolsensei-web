@@ -1,24 +1,39 @@
-# LoL Sensei
+# LoL Sensei - AI Coach for League of Legends
 
-> AI coaching application for League of Legends
+## About
 
-LoL Sensei is a free AI-powered coaching tool that helps League of Legends players learn and improve. It provides real-time guidance during champion select and in-game, teaching players why certain decisions are made — not just what to do.
+LoL Sensei is an AI-powered coaching desktop app for League of Legends that teaches players why decisions are made, not just what to click. The product focuses on pre-match and champion-select educational content (team synergies, counter-picks, lane matchups, itemization rationale) with a minimal runtime footprint and no real-time in-game overlays during live play.
 
-## Key Features
-- Champion Select Coach: Learn team synergies and counter-picks
-- Lane Strategy Guide: Understand matchups and win conditions
-- Build Advisor: Know why items are recommended based on game state
-- Low performance impact: < 1% CPU, ~150MB RAM (AI processing on remote servers)
-- Pre-match educational content only — no real-time in-game alerts during live play
-- Riot API usage: read-only public data via official Riot Games API, user consent required for Riot ID linking
+## Content
+
+- Homepage: https://www.lolsensei.com/en/
+- Features: https://www.lolsensei.com/en/features
+- Pricing: https://www.lolsensei.com/en/pricing
+- About: https://www.lolsensei.com/en/about
+- Community: https://www.lolsensei.com/en/community
+- Contact: https://www.lolsensei.com/en/contact
+- FAQ: https://www.lolsensei.com/en/faq
+- Blog index: https://www.lolsensei.com/en/blog
+- Blog - How to Climb Ranked in LoL: https://www.lolsensei.com/en/blog/how-to-climb-ranked-lol
+- Blog - How to Stop Tilting: https://www.lolsensei.com/en/blog/how-to-stop-tilting-lol
+- Blog - Best LoL AI Coach 2026: https://www.lolsensei.com/en/blog/best-lol-ai-coach-2026
+- Blog - How AI Coaching Helps You Learn League: https://www.lolsensei.com/en/blog/how-ai-coaching-helps-you-learn-league
+- Blog - Understanding Champion Select: https://www.lolsensei.com/en/blog/understanding-champion-select
+- Blog - Why Copying Builds Doesn't Help: https://www.lolsensei.com/en/blog/why-copying-builds-doesnt-help
+
+## APIs
+
+No public APIs are exposed for LLM consumption. The `/api/contact` endpoint is a private form submission handler and is not intended for automated use.
 
 ## Pricing
-- Free tier: Champion select coaching, game start strategy, real-time build advisor
-- Pro tier (€7.99/month): All free features + priority server access
 
-## Links
-- Website: https://www.lolsensei.com
-- Download: https://www.lolsensei.com/downloads/LoLSensei-Setup.exe
+- Free tier: Champion select coaching, game-start strategy, real-time build advisor.
+- Pro tier (EUR 7.99/month): All free features plus priority server access.
 
 ## Languages
-Available in English, Italian, Korean, Chinese, Portuguese (BR), Spanish, French, and German.
+
+Available in English, Italian, Korean, Chinese (Simplified), Portuguese (Brazil), Spanish, French, and German.
+
+## Data sources
+
+Read-only public data via the official Riot Games API. User consent is required for Riot ID linking.

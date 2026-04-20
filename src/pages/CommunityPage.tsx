@@ -37,7 +37,7 @@ export default function CommunityPage() {
               {t('community.hero.subtitle')}
             </p>
             <a
-              href="mailto:community@lolsensei.com?subject=Waitlist"
+              href="mailto:support@lolsensei.com?subject=Waitlist"
               class="gold-gradient text-on-primary-fixed px-10 py-4 rounded-lg font-headline font-extrabold text-lg inline-flex items-center justify-center gap-2 active:scale-95 transition-all"
             >
               <Icon name="mail" class="w-6 h-6" />
@@ -73,7 +73,7 @@ export default function CommunityPage() {
               </div>
             </div>
             <a
-              href="mailto:community@lolsensei.com?subject=Waitlist"
+              href="mailto:support@lolsensei.com?subject=Waitlist"
               class="text-primary font-headline font-bold text-sm hover:underline underline-offset-4 inline-flex items-center gap-1"
             >
               {t('community.hq.connectGithub')} →
@@ -109,7 +109,7 @@ export default function CommunityPage() {
               <p class="text-on-surface-variant/80 text-sm leading-relaxed">{t('community.ideas.bug.description')}</p>
             </a>
             <a
-              href="mailto:community@lolsensei.com?subject=Discussion"
+              href="mailto:support@lolsensei.com?subject=Discussion"
               class="glass-panel p-8 rounded-2xl border border-outline-variant/10 hover:border-primary/30 transition-all group"
             >
               <div class="w-12 h-12 rounded-xl bg-surface-container-highest flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
@@ -167,7 +167,7 @@ export default function CommunityPage() {
                 <p class="text-on-surface-variant font-medium">{t('community.cta.description')}</p>
               </div>
               <a
-                href="mailto:community@lolsensei.com?subject=Waitlist"
+                href="mailto:support@lolsensei.com?subject=Waitlist"
                 class="gold-gradient text-on-primary-fixed px-10 py-4 rounded-lg font-headline font-extrabold text-lg inline-flex items-center gap-2 active:scale-95 transition-all shrink-0"
               >
                 <Icon name="mail" class="w-6 h-6" />

@@ -8,7 +8,7 @@ export const itPostsPart1: BlogPost[] = [
     excerpt:
       'Le guide statiche ti dicono cosa fare. Il coaching AI ti insegna perché. Scopri come un coach personalizzato e in tempo reale accelera il tuo apprendimento in League of Legends.',
     date: '2026-04-01',
-    dateModified: '2026-04-16',
+    dateModified: '2026-04-20',
     author: 'LoL Sensei Team',
     tags: ['ai-coaching', 'learning', 'guide'],
     readingTime: 10,
@@ -69,6 +69,15 @@ export const itPostsPart1: BlogPost[] = [
 
 <p>L'obiettivo di un buon coaching è rendersi superfluo. Un coach AI ben progettato non si limita a dirti "picka questo campione" o "builda questo oggetto". Ti spiega la catena di ragionamento: la tua squadra ha bisogno di danno magico perché il nemico sta stackando armatura, e tra il tuo champion pool, Syndra offre sia burst che zone control che si abbinano bene al tuo Jarvan jungle. Quando senti quel ragionamento venti volte in contesti diversi, inizi a eseguire la logica da solo.</p>
 
+<p>Le capacità descritte in questo articolo si riassumono in un insieme chiaro di cose che un buon coach AI dovrebbe fare per te:</p>
+
+<ul>
+  <li><strong>Analisi di champion select e draft</strong> — leggere la composizione della tua squadra e la win condition del nemico in tempo reale mentre pick e ban avvengono, non a partita finita.</li>
+  <li><strong>Ragionamento su build e oggetti</strong> — spiegare perché un percorso di oggetti si adatta al matchup specifico invece di consegnarti una lista statica da copiare.</li>
+  <li><strong>Guida su counter-pick e matchup</strong> — identificare le minacce nel draft nemico e suggerire campioni le cui abilità amplificano i punti di forza della tua squadra.</li>
+  <li><strong>Adattamento al livello di abilità e coaching mentale</strong> — calibrare le spiegazioni al punto in cui ti trovi davvero, così i consigli risultano utili invece che schiaccianti, mantenendo il focus sull'apprendimento di lungo periodo.</li>
+</ul>
+
 <p>Questa è la filosofia alla base di LoL Sensei. Ogni raccomandazione è accompagnata da una spiegazione. Ogni spiegazione costruisce un piccolo pezzo della tua conoscenza del gioco. Nel corso di settimane e mesi, quei pezzi si accumulano in un genuino game sense — la capacità di leggere un draft, capire un matchup e adattare una build senza che nessuno debba dirti cosa fare. Se vuoi vedere come questo si confronta con altri strumenti nel panorama, puoi leggere il nostro <a href="/it/blog/best-lol-ai-coach-2026">confronto degli strumenti di coaching AI per il 2026</a>.</p>
 
 <h2>Per iniziare</h2>
@@ -85,7 +94,7 @@ export const itPostsPart1: BlogPost[] = [
     excerpt:
       'La champion select è dove le partite si vincono e si perdono prima ancora di iniziare. Impara i fondamentali della composizione, delle sinergie e delle pick intelligenti.',
     date: '2026-04-05',
-    dateModified: '2026-04-16',
+    dateModified: '2026-04-20',
     author: 'LoL Sensei Team',
     tags: ['champion-select', 'beginners', 'guide'],
     readingTime: 10,
@@ -134,6 +143,42 @@ export const itPostsPart1: BlogPost[] = [
 
 <p><strong>L'ultima pick è per i counter matchup e le pick di nicchia.</strong> Se picki per ultimo, conosci l'intera composizione nemica. È il momento di tirare fuori gli specialisti. Se il nemico ha pickato Zed mid, last-pickare Malzahar lo neutralizza con crowd control point-and-click. Se il nemico ha un team full melee, last-pickare Vayne o Kog'Maw con Lulu support crea una backline quasi imbattibile. L'ultima pick è dove guadagni di più dalla comprensione profonda dei matchup.</p>
 
+<p>La tabella qui sotto riassume come la posizione nel draft cambia l'archetipo di pick da privilegiare, la strategia tipica che quella posizione abilita e l'errore più comune che i giocatori fanno da quello slot. Le note di design di Riot sul sistema pick/ban inquadrano l'ultima pick come lo slot con il maggior leverage informativo e la prima pick come lo slot più esposto a essere targetizzato — la guida qui sotto segue questa impostazione invece di pretendere percentuali di esiti per ruolo, dato che Riot non pubblica split di win rate per ruolo per ordine di pick.</p>
+
+<div class="overflow-x-auto">
+  <table>
+    <caption>Come la posizione nel draft modella pick, strategia ed errori comuni</caption>
+    <thead>
+      <tr>
+        <th scope="col">Posizione nel draft</th>
+        <th scope="col">Archetipo di pick consigliato</th>
+        <th scope="col">Strategia tipica e leverage informativo</th>
+        <th scope="col">Errore comune da evitare</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Prima pick</th>
+        <td>Sicura, difficile da counterare, flessibile (es. Orianna mid, Ezreal bot, Nautilus support, Gragas jungle)</td>
+        <td>Riveli informazione senza riceverne in cambio, quindi locki un campione che performa ragionevolmente in quasi ogni matchup e non vincola la squadra a una singola win condition.<!-- source: nexus.leagueoflegends.com/en-us/2017/05/dev-10-bans-arrives/ — Riot /dev: On Launching 10 Bans, 2017-05-26, discute come il pick/ban power cambi con l'ordine --></td>
+        <td>First-pickare un campione vulnerabile ai counter come Katarina, Yasuo o Yone — comunica al nemico esattamente quali counter scegliere.</td>
+      </tr>
+      <tr>
+        <th scope="row">Metà draft</th>
+        <td>Kit flessibile che nasconde la win condition (es. Gragas full AP o tanky, altre pick dual-role)</td>
+        <td>Hai informazione parziale su entrambe le squadre, quindi le flex pick tengono il nemico nel dubbio sul tuo ruolo e sulla tua composizione fino alle rotazioni successive.<!-- source: leagueoflegends.com/en-us/news/dev/matchmaking-and-champion-select-fall-2022/ — Articolo Riot /dev sul champ select, discute le flex pick come strumento strategico per ritardare l'assegnazione del ruolo --></td>
+        <td>Sovra-impegnarsi su una singola win condition o specchiare l'archetipo nemico invece di colmare un gap nella propria composizione.</td>
+      </tr>
+      <tr>
+        <th scope="row">Ultima pick</th>
+        <td>Counter matchup o specialista (es. Malzahar contro Zed, Vayne o Kog'Maw con Lulu contro team full melee)</td>
+        <td>Conosci l'intera composizione nemica, quindi usi quell'informazione per scegliere una risposta specifica al matchup o uno specialista il cui valore dipende da cosa ha draftato il nemico.<!-- source: leagueoflegends.com/en-us/news/fearless-draft-takes-over-2025/ — Riot 2025-03-16, evidenzia counter-picking e profondità del champion pool come leve centrali del draft, specialmente nel Fearless --></td>
+        <td>Ignorare il vantaggio di counter e lockare comunque la pick di comfort — il bonus dell'ultima pick sparisce se non reagisci a ciò che il nemico ha mostrato.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 <h2>Leggere il draft nemico</h2>
 
 <p>L'analisi del draft non riguarda solo la tua squadra — si tratta di leggere cosa vuole fare il nemico e decidere se puoi counterarlo o se devi superarlo nell'esecuzione.</p>
@@ -163,7 +208,7 @@ export const itPostsPart1: BlogPost[] = [
     excerpt:
       'Seguire una guida alle build è facile. Capire perché ogni oggetto conta è ciò che separa i giocatori che migliorano da quelli che si bloccano.',
     date: '2026-04-08',
-    dateModified: '2026-04-16',
+    dateModified: '2026-04-20',
     author: 'LoL Sensei Team',
     tags: ['builds', 'learning', 'improvement'],
     readingTime: 10,
@@ -175,6 +220,18 @@ export const itPostsPart1: BlogPost[] = [
 <p>Ogni oggetto in League esiste per risolvere un problema. Zhonya's Hourglass non è semplicemente "un buon oggetto per i mage". È la risposta a una domanda specifica: "Come sopravvivo alla finestra di burst dell'assassino nemico continuando a contribuire danni?" Quando lo buildi perché una guida te l'ha detto, senza capire la domanda a cui risponde, perdi la capacità di adattarti quando la domanda cambia.</p>
 
 <p>E se la squadra nemica non ha minacce burst? E se sei così avanti che investire in danno puro chiuderebbe la partita più in fretta? E se lo Zed nemico è 0/5 e la vera minaccia è il Kog'Maw fed? La guida non può tenere conto della tua partita specifica. Solo la tua comprensione può farlo.</p>
+
+<h2>Red flag: quando copiare una build ti sta attivamente facendo perdere</h2>
+
+<p>Prima di entrare negli scenari specifici, ecco una checklist ordinata dei segnali ricorrenti che una build copiata ti sta costando partite. Se anche uno solo di questi si applica alla tua ultima partita, il problema è probabilmente la build — non le tue meccaniche.</p>
+
+<ol>
+  <li><strong>Stai ignorando il matchup specifico.</strong> Il primo oggetto consigliato è bilanciato contro un nemico medio, ma nella tua partita il nemico sta stackando una singola resistenza (doppio tank di armatura, frontline pesanti con MR) e i tuoi danni vengono neutralizzati da una sola statistica.</li>
+  <li><strong>Stai ignorando la composizione nemica.</strong> Compri danno contro heavy healing senza Grievous Wounds, oppure stacchi offense contro un assassino fed senza un singolo componente difensivo.</li>
+  <li><strong>Stai usando dati obsoleti o solo aggregati.</strong> Il percorso di oggetti che vince il 53% delle partite complessivamente appiattisce tutto il contesto che rende la tua partita unica — cambi di patch, sinergia di team, ordine di draft — e l'oggetto con "il win rate più alto" è spesso sbagliato in una frazione significativa di quei casi.</li>
+  <li><strong>Stai ignorando i power spike e i timing dei recall.</strong> Richiami con somme di oro dispari e compri componenti senza passiva, invece di aspettare un po' per completare un oggetto o raggiungere un breakpoint efficiente. La guida alle build non ti parla mai di queste finestre.</li>
+  <li><strong>Non stai adattando la build al tuo elo.</strong> Il danno puro che domina in basso elo può essere meno efficace nei rank alti, dove il peel coordinato premia utility e riduzione dei cooldown — e viceversa. La build "corretta" dipende dal livello di gioco intorno a te.</li>
+</ol>
 
 <h2>Il problema delle raccomandazioni statiche</h2>
 

@@ -3,7 +3,11 @@ import { A, useParams } from "@solidjs/router";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Breadcrumbs from "../components/Breadcrumbs";
-import { BreadcrumbJsonLd, BlogPostingJsonLd } from "../components/JsonLd";
+import {
+  BreadcrumbJsonLd,
+  BlogPostingJsonLd,
+  HowToJsonLd,
+} from "../components/JsonLd";
 import { useI18n } from "../i18n";
 import { updateMeta } from "../utils/meta";
 import { getBlogPost, getBlogPosts } from "../data/blog";
@@ -23,6 +27,11 @@ const localeMap: Record<string, string> = {
   fr: "fr-FR",
   de: "de-DE",
 };
+
+const HOWTO_SLUGS = new Set([
+  "how-to-climb-ranked-lol",
+  "how-to-stop-tilting-lol",
+]);
 
 export default function BlogPostPage() {
   const params = useParams<{ lang: string; slug: string }>();
@@ -125,18 +134,10 @@ export default function BlogPostPage() {
                 },
               ]}
             />
-            <BlogPostingJsonLd
-              title={currentPost().title}
-              description={currentPost().excerpt}
-              datePublished={currentPost().date}
-              dateModified={currentPost().dateModified || currentPost().date}
-              image={currentPost().image}
-              author={currentPost().author}
-              url={`${BASE_URL}/${locale()}/blog/${currentPost().slug}`}
-              readingTime={currentPost().readingTime}
-              tags={currentPost().tags}
-              lang={locale()}
-            />
+            <BlogPostingJsonLd post={currentPost()} locale={locale()} />
+            <Show when={HOWTO_SLUGS.has(currentPost().slug)}>
+              <HowToJsonLd post={currentPost()} locale={locale()} />
+            </Show>
             <Breadcrumbs
               items={[
                 { label: t("breadcrumbs.home"), href: localizedHref("/") },

@@ -520,6 +520,38 @@ const zh = {
   'notFound.legacyAdmin.title': '管理控制台已迁移。',
   'notFound.legacyAdmin.bodyBefore': '使用新路径登录：',
   'notFound.legacyAdmin.linkLabel': '/console-login',
+
+  // WP19 P2-02 — Hero image alt (localized)
+  'hero.image.alt': '展示实时 AI 教练指导和对局状态分析的电竞仪表盘',
+
+  // WP19 P2-05 — Contact page + form
+  'meta.contact.title': '联系我们 — LoL Sensei',
+  'meta.contact.description': '联系 LoL Sensei 团队。问题、反馈或 Bug 报告 — 我们会在 5 个工作日内回复。',
+  'footer.contact': '联系',
+  'contact.title': '联系我们',
+  'contact.intro': '有问题、反馈或 Bug 要反馈吗？发消息告诉我们，我们会尽快回复。',
+  'contact.form.name.label': '你的名字（可选）',
+  'contact.form.name.placeholder': '我们该怎么称呼你？',
+  'contact.form.email.label': '邮箱',
+  'contact.form.email.placeholder': 'you@example.com',
+  'contact.form.message.label': '留言',
+  'contact.form.message.placeholder': '告诉我们你在想什么。内容越详细，我们越能帮上忙。',
+  'contact.form.submit': '发送消息',
+  'contact.form.sla': '我们会在 5 个工作日内回复。',
+  'contact.form.success': '谢谢 — 消息已发送。我们会尽快通过邮件回复你。',
+  'contact.form.error.generic': '发送消息时出错了，请稍后再试。',
+  'contact.form.error.email': '请输入有效的邮箱地址。',
+  'contact.form.error.message': '消息内容至少需要 20 个字符。',
+  'contact.github.link': '在 GitHub 提交 issue',
+  'contact.github.description': '想公开跟踪？欢迎直接在我们的 GitHub 仓库报告 Bug 或提交功能建议。',
+
+  // WP19 P2-05 — Preview CTA + modal
+  'cta.preview.button.label': '观看预览',
+  'cta.preview.button.ariaLabel': '观看 LoL Sensei 实际使用预览',
+  'cta.preview.modal.title': 'LoL Sensei 实际使用预览',
+  'cta.preview.modal.description': '一段简短预览，展示 AI 教练如何实时解读英雄选择、装备出装和对局状态。',
+  'cta.preview.modal.close': '关闭预览',
+  'cta.preview.modal.caption': '预览即将上线 — 最终视频很快会显示在这里。',
 } as const;
 
 export default zh;

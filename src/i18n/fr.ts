@@ -520,6 +520,38 @@ const fr = {
   'notFound.legacyAdmin.title': 'La console admin a été déplacée.',
   'notFound.legacyAdmin.bodyBefore': 'Utilise le nouveau chemin pour te connecter :',
   'notFound.legacyAdmin.linkLabel': '/console-login',
+
+  // WP19 P2-02 — Hero image alt (localized)
+  'hero.image.alt': 'Tableau de bord esport montrant le coaching IA en temps réel et l\'analyse de l\'état de la partie',
+
+  // WP19 P2-05 — Contact page + form
+  'meta.contact.title': 'Contact — LoL Sensei',
+  'meta.contact.description': 'Contacte l\'équipe LoL Sensei. Questions, retours, signalements de bugs — nous répondons sous 5 jours ouvrés.',
+  'footer.contact': 'Contact',
+  'contact.title': 'Contacte-nous',
+  'contact.intro': 'Des questions, du feedback ou un bug à signaler ? Écris-nous et nous te répondrons rapidement.',
+  'contact.form.name.label': 'Ton nom (facultatif)',
+  'contact.form.name.placeholder': 'Comment devons-nous t\'appeler ?',
+  'contact.form.email.label': 'Email',
+  'contact.form.email.placeholder': 'toi@exemple.com',
+  'contact.form.message.label': 'Message',
+  'contact.form.message.placeholder': 'Raconte-nous ce que tu as en tête. Plus tu donnes de détails, mieux on peut aider.',
+  'contact.form.submit': 'Envoyer le message',
+  'contact.form.sla': 'Nous répondons sous 5 jours ouvrés.',
+  'contact.form.success': 'Merci — ton message est parti. Nous te répondrons bientôt par email.',
+  'contact.form.error.generic': 'Un problème est survenu lors de l\'envoi. Réessaie dans un instant.',
+  'contact.form.error.email': 'Saisis une adresse email valide.',
+  'contact.form.error.message': 'Ton message doit contenir au moins 20 caractères.',
+  'contact.github.link': 'Ouvre une issue sur GitHub',
+  'contact.github.description': 'Tu préfères suivre ça en public ? Signale des bugs ou demande des fonctionnalités directement sur notre dépôt GitHub.',
+
+  // WP19 P2-05 — Preview CTA + modal
+  'cta.preview.button.label': 'Voir l\'aperçu',
+  'cta.preview.button.ariaLabel': 'Voir un aperçu de LoL Sensei en action',
+  'cta.preview.modal.title': 'LoL Sensei en action',
+  'cta.preview.modal.description': 'Un court aperçu qui montre comment le coach IA explique champion select, builds et état de la partie en temps réel.',
+  'cta.preview.modal.close': 'Fermer l\'aperçu',
+  'cta.preview.modal.caption': 'Aperçu à venir — la vidéo finale apparaîtra ici.',
 } as const;
 
 export default fr;

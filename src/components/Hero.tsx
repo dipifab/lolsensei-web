@@ -1,16 +1,25 @@
-import { Show } from 'solid-js';
+import { Show, createSignal } from 'solid-js';
 import { scrollToSection } from '../utils/scroll';
 import { useI18n } from '../i18n';
 import DownloadCTA from './DownloadCTA';
+import PreviewModal from './PreviewModal';
 
 export default function Hero() {
   const { t } = useI18n();
+  const [previewOpen, setPreviewOpen] = createSignal(false);
 
   // FIND-04 — titolo spezzato in segmenti per evitare `replace()` fragile su
   // lingue CJK/DE/FR dove l'ordine parole varia. Render: {prefix} <span>{highlight}</span> {suffix}
   const titlePrefix = () => t('hero.titlePrefix');
   const titleHighlight = () => t('hero.titleHighlight');
   const titleSuffix = () => t('hero.titleSuffix');
+
+  // WP19 P2-02 — mobile-first H1 + `<picture>` responsive.
+  // TODO(WP19 P2-02): ship `/images/hero-panel-mobile.webp` (square/portrait crop
+  // optimized for <1024px). Until then the mobile source reuses the large asset.
+  const heroLargeSrc = '/images/hero-panel-large.webp';
+  const heroMobileSrc = heroLargeSrc;
+  const heroAlt = () => t('hero.image.alt');
 
   return (
     <section
@@ -20,7 +29,7 @@ export default function Hero() {
       <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         {/* Text column */}
         <div class="z-10 text-left">
-          <h1 class="text-5xl md:text-7xl font-extrabold leading-[1.1] mb-6 tracking-tight text-on-surface font-headline">
+          <h1 class="text-4xl md:text-6xl xl:text-8xl font-extrabold leading-[1.1] mb-6 tracking-tight text-on-surface font-headline">
             <Show when={titlePrefix()}>
               <>{titlePrefix()} </>
             </Show>
@@ -39,15 +48,24 @@ export default function Hero() {
             <DownloadCTA variant="primary" />
             <button
               type="button"
+              onClick={() => setPreviewOpen(true)}
+              aria-label={t('cta.preview.button.ariaLabel')}
+              class="border border-primary-container/40 hover:border-primary-container px-8 py-4 rounded-lg font-headline font-extrabold text-primary-container uppercase tracking-widest motion-safe:transition-all inline-flex items-center min-h-11 bg-transparent cursor-pointer focus-visible:ring-2 focus-visible:ring-primary-container focus-visible:ring-offset-2 focus-visible:ring-offset-surface focus-visible:outline-none"
+            >
+              {t('cta.preview.button.label')}
+            </button>
+            <button
+              type="button"
               onClick={() => scrollToSection('#pricing')}
               class="border border-outline-variant/30 hover:border-primary-container/50 px-8 py-4 rounded-lg font-headline font-extrabold text-secondary uppercase tracking-widest motion-safe:transition-all inline-flex items-center min-h-11 bg-transparent cursor-pointer focus-visible:ring-2 focus-visible:ring-primary-container focus-visible:ring-offset-2 focus-visible:ring-offset-surface focus-visible:outline-none"
             >
               {t('hero.cta.pricing')}
             </button>
           </div>
+          <PreviewModal open={previewOpen()} onClose={() => setPreviewOpen(false)} />
         </div>
 
-        {/* Glass panel mockups */}
+        {/* Glass panel mockups — desktop-only composition (decorative) */}
         <div class="relative hidden lg:block">
           {/* Ambient gold glow */}
           <div class="absolute -inset-10 bg-primary-container/10 blur-[100px] rounded-full" />
@@ -58,7 +76,7 @@ export default function Hero() {
               <div class="h-full w-full rounded-lg overflow-hidden relative">
                 <img
                   class="w-full h-full object-cover grayscale brightness-50 contrast-125"
-                  alt="Gaming interface mockup with champion data visualization"
+                  alt=""
                   src="/images/hero-panel-small.webp"
                   loading="eager"
                   width={300}
@@ -74,14 +92,18 @@ export default function Hero() {
             {/* Right panel (large, rotated) — primary hero visual */}
             <div class="w-3/5 aspect-[16/10] glass-panel rounded-xl border border-primary-container/30 p-4 rotate-1 shadow-[0_0_40px_rgba(240,191,92,0.06)]">
               <div class="h-full w-full rounded-lg overflow-hidden">
-                <img
-                  class="w-full h-full object-cover"
-                  alt="Esports dashboard with real-time game state analysis"
-                  src="/images/hero-panel-large.webp"
-                  fetchpriority="high"
-                  width={600}
-                  height={375}
-                />
+                <picture>
+                  <source media="(min-width: 1024px)" srcset={heroLargeSrc} type="image/webp" />
+                  <source srcset={heroMobileSrc} type="image/webp" />
+                  <img
+                    class="w-full h-full object-cover"
+                    alt={heroAlt()}
+                    src={heroLargeSrc}
+                    fetchpriority="high"
+                    width={600}
+                    height={375}
+                  />
+                </picture>
               </div>
             </div>
           </div>

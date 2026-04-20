@@ -62,10 +62,9 @@
     <!-- Preload hero image for desktop -->
     <link rel="preload" as="image" href="/images/hero-panel-large.webp" type="image/webp" media="(min-width: 1024px)" />
 
-    <!-- Self-hosted fonts -->
+    <!-- Self-hosted fonts. Manrope preloaded (headline, above-fold). Inter loads post-LCP via fonts.css @font-face with font-display:swap (WP19 P3-07 REQ-NF-019-006). -->
     <link rel="stylesheet" href="/fonts/fonts.css" />
     <link rel="preload" href="/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
 
     <!-- Conditional CJK font preload (REQ-NF-010-003) — runs before main bundle -->
     <script>
@@ -85,43 +84,10 @@
       })();
     </script>
 
-    <!-- Static JSON-LD for crawlers without JS -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "LoL Sensei",
-      "url": "https://www.lolsensei.com",
-      "logo": {"@type": "ImageObject", "url": "https://www.lolsensei.com/images/logo-512.png", "width": 512, "height": 512},
-      "sameAs": ["https://github.com/dipifab/lolai"],
-      "description": "AI coaching application for League of Legends that helps players learn the game through real-time guidance"
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "LoL Sensei",
-      "url": "https://www.lolsensei.com",
-      "inLanguage": ["en", "it", "ko", "zh-Hans", "pt-BR", "es", "fr", "de"],
-      "description": "AI coaching for League of Legends"
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "LoL Sensei",
-      "operatingSystem": "Windows",
-      "applicationCategory": "GameApplication",
-      "offers": [
-        {"@type": "Offer", "price": "0", "priceCurrency": "EUR", "name": "Free"},
-        {"@type": "Offer", "price": "7.99", "priceCurrency": "EUR", "name": "Pro", "priceValidUntil": "2027-12-31"}
-      ],
-      "description": "Real-time AI coaching for League of Legends. Learn champion select, builds, and game strategy.",
-      "downloadUrl": "https://github.com/dipifab/lolai/releases/latest/download/LoLSensei-Setup.exe"
-    }
-    </script>
+    <!-- Static JSON-LD — single source of truth: src/lib/jsonld-data.ts (WP19 REQ-F-019-006). Block managed by scripts/generate-jsonld.mjs (prebuild). -->
+    <!-- JSONLD:START -->
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.lolsensei.com/#organization","name":"LoL Sensei","url":"https://www.lolsensei.com","logo":{"@type":"ImageObject","url":"https://www.lolsensei.com/images/logo-512.webp","width":512,"height":512},"sameAs":[],"description":"AI coaching application for League of Legends that helps players learn the game through real-time guidance."},{"@type":"WebSite","@id":"https://www.lolsensei.com/#website","name":"LoL Sensei","url":"https://www.lolsensei.com","inLanguage":["en","it","es","fr","de","pt-BR","ko","zh-Hans"],"publisher":{"@id":"https://www.lolsensei.com/#organization"},"description":"AI coaching for League of Legends."},{"@type":"SoftwareApplication","@id":"https://www.lolsensei.com/#software","name":"LoL Sensei","applicationCategory":"GameApplication","applicationSubCategory":"League of Legends Coaching Assistant","operatingSystem":"Windows 10, Windows 11","screenshot":[],"description":"Real-time AI coaching for League of Legends. Learn champion select, builds, and game strategy."}]}</script>
+    <!-- JSONLD:END -->
   </head>
   <body>
     <div id="root"></div>

@@ -106,12 +106,12 @@ export default function Navbar() {
         </A>
 
         {/* Desktop links */}
-        <div class="hidden lg:flex items-center space-x-10 font-headline font-extrabold uppercase tracking-widest">
+        <div class="hidden lg:flex items-center gap-6 xl:gap-8 font-headline font-extrabold uppercase tracking-widest text-sm xl:text-base">
           <For each={NAV_KEYS}>
             {(item) => (
               <A
                 href={localizedHref(item.path)}
-                class={`transition-all duration-300 ${
+                class={`whitespace-nowrap transition-all duration-300 ${
                   isActive(item.path)
                     ? 'text-primary-container'
                     : 'text-on-surface/70 hover:text-primary-container'
@@ -125,7 +125,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop right section: language switcher + CTA */}
-        <div class="hidden lg:flex items-center gap-4">
+        <div class="hidden lg:flex items-center gap-3 shrink-0">
           {/* Language switcher */}
           <div class="relative" data-lang-switcher>
             <button

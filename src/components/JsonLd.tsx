@@ -1,23 +1,19 @@
 import type { JSX } from 'solid-js';
-
-const BASE_URL = 'https://www.lolsensei.com';
+import {
+  BASE_URL,
+  buildBlogPosting,
+  buildFAQPage,
+  buildHowTo,
+  ORG,
+  SITE,
+  SOFTWARE,
+} from '../lib/jsonld-data';
+import type { FAQItem } from '../data/types';
+import type { BlogPost } from '../data/blog/types';
 
 interface BreadcrumbItem {
   name: string;
   path: string;
-}
-
-interface BlogPostingJsonLdProps {
-  title: string;
-  description: string;
-  datePublished: string;
-  dateModified?: string;
-  image?: string;
-  author: string;
-  url: string;
-  readingTime: number;
-  tags: string[];
-  lang?: string;
 }
 
 function JsonLdScript(props: { data: Record<string, unknown> }): JSX.Element {
@@ -27,92 +23,64 @@ function JsonLdScript(props: { data: Record<string, unknown> }): JSX.Element {
 }
 
 export function OrganizationJsonLd(): JSX.Element {
-  const data = {
-    '@context': 'https://schema.org',
-    '@type': 'Organization',
-    name: 'LoL Sensei',
-    url: BASE_URL,
-    logo: { '@type': 'ImageObject', url: `${BASE_URL}/images/logo-512.png`, width: 512, height: 512 },
-    description:
-      'AI coaching application for League of Legends that helps players learn the game through real-time guidance',
-  };
-
-  return <JsonLdScript data={data} />;
+  return <JsonLdScript data={{ '@context': 'https://schema.org', ...ORG }} />;
 }
 
 export function WebSiteJsonLd(): JSX.Element {
-  const data = {
-    '@context': 'https://schema.org',
-    '@type': 'WebSite',
-    name: 'LoL Sensei',
-    url: BASE_URL,
-    inLanguage: ['en', 'it', 'ko', 'zh-Hans', 'pt-BR', 'es', 'fr', 'de'],
-    description: 'AI coaching for League of Legends',
-  };
-
-  return <JsonLdScript data={data} />;
+  return <JsonLdScript data={{ '@context': 'https://schema.org', ...SITE }} />;
 }
 
 export function SoftwareApplicationJsonLd(): JSX.Element {
-  const data = {
-    '@context': 'https://schema.org',
-    '@type': 'SoftwareApplication',
-    name: 'LoL Sensei',
-    operatingSystem: 'Windows',
-    applicationCategory: 'GameApplication',
-    offers: [
-      {
-        '@type': 'Offer',
-        price: '0',
-        priceCurrency: 'EUR',
-        name: 'Free',
-      },
-      {
-        '@type': 'Offer',
-        price: '7.99',
-        priceCurrency: 'EUR',
-        name: 'Pro',
-        priceValidUntil: '2027-12-31',
-      },
-    ],
-    description:
-      'Real-time AI coaching for League of Legends. Learn champion select, builds, and game strategy.',
-    downloadUrl:
-      'https://www.lolsensei.com/downloads/LoLSensei-Setup.exe',
+  return <JsonLdScript data={{ '@context': 'https://schema.org', ...SOFTWARE }} />;
+}
+
+export function FAQPageJsonLd(props: {
+  items: FAQItem[];
+  t: (key: string) => string;
+}): JSX.Element {
+  const data = () => {
+    if (!props.items || props.items.length === 0) return null;
+    return buildFAQPage(props.items, props.t);
   };
-
-  return <JsonLdScript data={data} />;
+  return (
+    <>
+      {(() => {
+        const d = data();
+        return d ? <JsonLdScript data={d as unknown as Record<string, unknown>} /> : null;
+      })()}
+    </>
+  );
 }
 
-export function BlogPostingJsonLd(props: BlogPostingJsonLdProps): JSX.Element {
-  const data = () => ({
-    '@context': 'https://schema.org',
-    '@type': 'BlogPosting',
-    headline: props.title,
-    description: props.description,
-    datePublished: props.datePublished,
-    dateModified: props.dateModified || props.datePublished,
-    image: props.image || `${BASE_URL}/og-image.png`,
-    author: { '@type': 'Organization', name: props.author },
-    publisher: {
-      '@type': 'Organization',
-      name: 'LoL Sensei',
-      logo: {
-        '@type': 'ImageObject',
-        url: `${BASE_URL}/images/logo-512.png`,
-        width: 512,
-        height: 512,
-      },
-    },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': props.url },
-    wordCount: props.readingTime * 200,
-    articleSection: props.tags,
-    ...(props.lang && { inLanguage: props.lang }),
-  });
-
-  return <script type="application/ld+json" innerHTML={JSON.stringify(data())} />;
+export function HowToJsonLd(props: { post: BlogPost; locale: string }): JSX.Element {
+  const data = () => {
+    if (!props.post?.howToSteps || props.post.howToSteps.length === 0) return null;
+    return buildHowTo(props.post, props.locale);
+  };
+  return (
+    <>
+      {(() => {
+        const d = data();
+        return d ? <JsonLdScript data={d as unknown as Record<string, unknown>} /> : null;
+      })()}
+    </>
+  );
 }
 
+export function BlogPostingJsonLd(props: { post: BlogPost; locale: string }): JSX.Element {
+  const data = () => {
+    if (!props.post) return null;
+    return buildBlogPosting(props.post, props.locale);
+  };
+  return (
+    <>
+      {(() => {
+        const d = data();
+        return d ? <JsonLdScript data={d as unknown as Record<string, unknown>} /> : null;
+      })()}
+    </>
+  );
+}
 
 export function ItemListJsonLd(props: { items: { name: string; url: string }[] }): JSX.Element {
   const data = () => ({

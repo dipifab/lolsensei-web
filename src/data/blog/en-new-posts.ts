@@ -7,9 +7,32 @@ export const newEnPosts: BlogPost[] = [
     excerpt:
       'A practical, no-fluff guide to climbing ranked in League of Legends. Covers champion pool, consistency, mental game, and how to actually improve — not just grind.',
     date: '2026-04-16',
+    dateModified: '2026-04-16',
     author: 'LoL Sensei Team',
     tags: ['ranked', 'climbing', 'improvement', 'guide'],
     readingTime: 10,
+    howToSteps: [
+      {
+        name: 'Own your rank and stop blaming teammates',
+        text: 'Accept that over 100+ games the randomness of teammates evens out. Your current rank reflects your current skill. That realization unlocks the ability to focus on what you can control.',
+      },
+      {
+        name: 'Lock in a focused 2-3 champion pool per role',
+        text: 'Stick to one simple champion, one comfort pick, and one situational counter per role. Play the pool for at least 50 games before swapping champions — consistency compounds faster than variety.',
+      },
+      {
+        name: 'Apply the 40-40-20 rule to focus on swing games',
+        text: 'Roughly 40% of games are unwinnable, 40% are free wins, and only 20% are decided by your individual play. Stop fixating on the games you cannot control and pour your improvement energy into the swing games.',
+      },
+      {
+        name: 'Win the fundamentals: CS, deaths, vision',
+        text: 'Target 7 CS per minute, reduce deaths, and keep vision score high. These boring metrics are worth more LP than any flashy mechanical outplay.',
+      },
+      {
+        name: 'Review one replay per day and protect your mental',
+        text: 'Rewind 30 seconds before each death and ask what information you missed. Stop after two losses, fully stop after three — tilt costs more LP than any mechanical mistake.',
+      },
+    ],
     content: `
 <p>If you have been searching for how to climb ranked in League of Legends, you have probably read dozens of guides that tell you to "just get better." That advice is technically correct and completely useless. This guide is different. It covers the specific habits, mindset shifts, and strategic decisions that separate players who climb from players who grind hundreds of games at the same rank. Whether you are stuck in Iron, hardstuck Silver, or pushing for Platinum, the principles are the same. The execution changes, but the framework does not.</p>
 
@@ -21,21 +44,69 @@ export const newEnPosts: BlogPost[] = [
 
 <p>This does not mean every game is winnable. It means that over enough games, your skill is the determining factor in your rank. Accept that and you unlock the ability to focus on what you can actually control.</p>
 
+<h2>The Ranked Climb Timeline: A Step-by-Step Path</h2>
+
+<p>Every climb follows the same ordered progression of focus areas. Treat the list below as a sequential playbook — do not skip ahead to step four if step one is still broken.</p>
+
+<ol>
+  <li><strong>Iron to Silver — master the fundamentals.</strong> Aim for 6 CS per minute as a starting goal. Stop dying for no reason: if you do not know where the enemy is, do not push. Stop fighting when behind.</li>
+  <li><strong>Silver to Gold — champion pool discipline and basic macro.</strong> Pick your 2-3 champions and stick with them. Dragon and Rift Herald are not optional. Learn shoving before recalling, freezing when ahead, and slow-pushing before objectives.</li>
+  <li><strong>Gold to Platinum — matchup knowledge, wave management, objective timing.</strong> Know your champion's power spikes and play around them. Track the enemy jungler and adjust aggression. Understand team composition win conditions and play toward them.</li>
+  <li><strong>Platinum to Diamond — deliberate practice across every axis.</strong> Lane management, teamfight positioning, vision control, and macro decision-making all need to be consistently strong. Marginal gains matter enormously at this level.</li>
+  <li><strong>Diamond and above — role and champion mastery.</strong> The differences between players are subtle, and the skill gap at the top is enormous. The climb from Diamond 4 to Diamond 1 is often harder than the entire climb from Iron to Diamond 4.</li>
+</ol>
+
 <h2>Building a Focused Champion Pool</h2>
 
 <p><strong>Playing two to three champions per role consistently beats playing fifteen champions randomly.</strong> This is one of the highest-impact changes you can make. Every time you play a different champion, you are splitting your learning across ability timings, power spikes, matchup knowledge, combo execution, and damage thresholds. A player with 200 games on Orianna understands things about her that a player with 20 games never will — the exact distance of her ball leash, the frame-perfect timing of Shockwave after Command: Protect, the matchups where you can solo kill at level 6 versus the ones where you need to farm safely until Lost Chapter.</p>
 
 <p>Here are practical example pools by role, designed with one simple champion, one comfort pick, and one situational counter:</p>
 
-<p><strong>Mid Lane:</strong> Annie (simple, high burst, teaches fundamentals), Ahri (mobility and pick potential), Orianna (teamfight control, scales well). Annie forces you to learn spacing and stun management. Ahri teaches roaming and charm accuracy. Orianna teaches teamfight positioning and ball management.</p>
-
-<p><strong>ADC:</strong> Miss Fortune (lane bully, powerful ultimate), Jinx (hypercarry, excels in teamfights), Kai'Sa (hybrid damage, flexible build paths). Miss Fortune teaches you lane dominance and ultimate positioning. Jinx teaches you to play safe early and carry late. Kai'Sa teaches you adaptive building.</p>
-
-<p><strong>Top Lane:</strong> Garen (simple kit, focuses on fundamentals), Darius (lane dominance, teaches trading patterns), Mordekaiser (AP option, strong 1v1). All three are forgiving enough that you can focus on wave management and map awareness instead of complex mechanics.</p>
-
-<p><strong>Jungle:</strong> Amumu (engage tank, straightforward clear), Vi (versatile fighter, strong ganks), Warwick (healthy clear, built-in sustain). These champions let you focus on pathing, objective timing, and gank execution rather than mechanical outplays.</p>
-
-<p><strong>Support:</strong> Nautilus (engage, crowd control chain), Lulu (peel, buffs carries), Soraka (sustain, backline safety). One engage option, one enchanter for scaling compositions, one sustain pick for poke lanes.</p>
+<div class="overflow-x-auto">
+  <table>
+    <caption>Recommended champion pool by role for ranked climb</caption>
+    <thead>
+      <tr>
+        <th scope="col">Role</th>
+        <th scope="col">Simple champion (fundamentals)</th>
+        <th scope="col">Comfort pick</th>
+        <th scope="col">Situational / counter pick</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Mid Lane</th>
+        <td>Annie (simple, high burst)</td>
+        <td>Ahri (mobility, pick potential)</td>
+        <td>Orianna (teamfight control, scales well)</td>
+      </tr>
+      <tr>
+        <th scope="row">ADC</th>
+        <td>Miss Fortune (lane bully, powerful ultimate)</td>
+        <td>Jinx (hypercarry, excels in teamfights)</td>
+        <td>Kai'Sa (hybrid damage, flexible build paths)</td>
+      </tr>
+      <tr>
+        <th scope="row">Top Lane</th>
+        <td>Garen (simple kit, fundamentals)</td>
+        <td>Darius (lane dominance, trading patterns)</td>
+        <td>Mordekaiser (AP option, strong 1v1)</td>
+      </tr>
+      <tr>
+        <th scope="row">Jungle</th>
+        <td>Amumu (engage tank, straightforward clear)</td>
+        <td>Vi (versatile fighter, strong ganks)</td>
+        <td>Warwick (healthy clear, built-in sustain)</td>
+      </tr>
+      <tr>
+        <th scope="row">Support</th>
+        <td>Nautilus (engage, crowd control chain)</td>
+        <td>Lulu (peel, buffs carries)</td>
+        <td>Soraka (sustain, backline safety)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p>Stick with your pool for at least 50 games before adding or swapping champions. The consistency compounds faster than you expect.</p>
 
@@ -110,9 +181,28 @@ export const newEnPosts: BlogPost[] = [
     excerpt:
       'Tilt is the silent rank killer. Learn practical, evidence-based techniques to manage frustration, overcome ranked anxiety, and play your best when it matters most.',
     date: '2026-04-16',
+    dateModified: '2026-04-16',
     author: 'LoL Sensei Team',
     tags: ['mental-game', 'tilt', 'improvement', 'ranked'],
     readingTime: 9,
+    howToSteps: [
+      {
+        name: 'Map your personal tilt triggers',
+        text: 'Spend a week paying attention to the specific moments that shift your mood during games — not the games themselves, the moments. Some players tilt from specific in-game events, others from broad patterns like any form of toxic chat.',
+      },
+      {
+        name: 'Build a pre-emptive defense for each trigger',
+        text: 'Once you know your triggers, prepare specific counters. If chat is a trigger, mute before the game starts, not after someone says something toxic. If getting ganked tilts you, ward earlier and play more passively until you have vision.',
+      },
+      {
+        name: 'Apply the two-loss break rule',
+        text: 'After two consecutive losses, take a minimum 15-minute break. After three consecutive losses, stop ranked for the session. Set this rule before you start playing, when your judgment is clear, and follow it mechanically regardless of how you feel in the moment.',
+      },
+      {
+        name: 'Use physical and cognitive reset between games',
+        text: 'Stand up, walk to another room, drink water, stretch for 30 seconds. Then reframe the previous game by asking "What is one thing I could have done differently?" — focusing on learning instead of blame disarms the tilt response.',
+      },
+    ],
     content: `
 <p>Tilt is the most expensive problem in League of Legends, and it has nothing to do with your mechanics, your champion pool, or your game knowledge. Every player who has ever queued for ranked knows the feeling: the creeping frustration after a bad play, the burning resentment when a teammate throws a won game, the desperate "one more game" that turns a small LP loss into a catastrophic losing streak. If you want to learn how to stop tilting in League of Legends, you need to understand what tilt actually is, why it happens, and how to build systems that prevent it from destroying your ranked progress.</p>
 
@@ -120,17 +210,31 @@ export const newEnPosts: BlogPost[] = [
 
 <p><strong>Tilt is not just "being angry." It is a measurable cognitive state where emotional responses override rational decision-making.</strong> When you are tilted, your prefrontal cortex — the part of your brain responsible for strategic planning, impulse control, and risk assessment — becomes less active. Your amygdala, the part responsible for emotional reactions and fight-or-flight responses, takes over. This is not a metaphor. It is how your brain actually works under emotional stress.</p>
 
-<p>In practical League terms, this means tilted players make fundamentally different decisions than non-tilted players. You chase kills instead of farming because your brain craves the dopamine of a kill to offset the frustration. You fight 1v3 instead of taking an objective elsewhere because your judgment of risk versus reward is distorted. You spam surrender votes instead of looking for comeback angles because your emotional state has already decided the game is lost. You type in chat instead of watching the minimap because your frustration demands an outlet.</p>
+<p>In practical League terms, this means tilted players make fundamentally different decisions than non-tilted players. When you are tilted, watch for these emotional red flags in your own gameplay — they are the visible signatures of an impaired decision-making system:</p>
+
+<ul>
+  <li><strong>Chasing kills instead of farming</strong> because your brain craves the dopamine of a kill to offset the frustration.</li>
+  <li><strong>Fighting 1v3</strong> instead of taking an objective elsewhere because your judgment of risk versus reward is distorted.</li>
+  <li><strong>Spamming surrender votes</strong> instead of looking for comeback angles because your emotional state has already decided the game is lost.</li>
+  <li><strong>Typing in chat</strong> instead of watching the minimap because your frustration demands an outlet.</li>
+  <li><strong>Skipping routine warding and recalls</strong> because you have stopped caring about the boring fundamentals that usually win you games.</li>
+</ul>
 
 <p>Understanding that tilt is a real cognitive state — not a character flaw, not weakness, not something you should be able to "just ignore" — is the first step to managing it. You would not tell a player with a broken hand to "just grip the mouse harder." Tilt is a temporary impairment of your brain's ability to make good decisions, and it requires management, not willpower.</p>
 
-<h2>Recognizing Your Personal Tilt Triggers</h2>
+<h2>Recognizing and Defusing Your Tilt Triggers</h2>
 
 <p>Not everyone tilts from the same things. Some players can handle toxic chat without blinking but completely fall apart after getting solo-killed in lane. Others can lose lane gracefully but lose their composure when teammates make positioning mistakes. Identifying your specific triggers is essential because generic advice like "just stay calm" does not work if you do not know what disrupts your calm in the first place.</p>
 
-<p><strong>Common tilt triggers include:</strong> getting solo-killed in a matchup you felt you should win, being ganked repeatedly by the enemy jungler while your jungler farms, teammates making obviously wrong decisions that cost the team an objective or a fight, losing a game you felt you personally played well in, receiving toxic or passive-aggressive messages in chat, falling behind in CS against an opponent you consider worse than you, and having a winnable game thrown by a single misplay.</p>
+<p>Use the ordered list below as a step-by-step routine for turning tilt from an uncontrollable reaction into a managed process:</p>
 
-<p>Spend a week paying attention to the specific moments that shift your mood during games. Not the games themselves — the moments. You might discover that your trigger is extremely specific: maybe you only tilt when you die to a gank that you saw coming but failed to avoid. Or maybe your trigger is broad: any form of negative chat sends you spiraling. Once you know your triggers, you can build specific defenses against them.</p>
+<ol>
+  <li><strong>Pay attention to the specific moments that shift your mood during games.</strong> Not the games themselves — the moments. Spend a week logging them in your head or in a note, without judgement.</li>
+  <li><strong>Classify your triggers as specific or broad.</strong> A specific trigger might be dying to a gank you saw coming but failed to avoid. A broad trigger might be any form of negative chat. Both are valid, and both need different defenses.</li>
+  <li><strong>Build a pre-emptive defense for each trigger.</strong> For chat triggers, /mute all before the game starts. For gank triggers, ward earlier and play passively until vision is up. For teammate triggers, turn off team chat and rely on pings.</li>
+  <li><strong>Apply the two-loss break rule.</strong> After two consecutive losses, take a minimum 15-minute break. After three, stop ranked for the session. No exceptions — your tilted brain is not a reliable judge of whether you are fit to queue again.</li>
+  <li><strong>Reset physically and cognitively between games.</strong> Stand up, walk, drink water, do 30 seconds of stretching. Then ask "What is one thing I could have done differently?" — not about your team, about you. This reframes the previous game from blame into learning.</li>
+</ol>
 
 <h2>The Queue-Again Trap</h2>
 
@@ -195,6 +299,7 @@ export const newEnPosts: BlogPost[] = [
     excerpt:
       'The AI coaching space for League of Legends is growing fast. Here is what actually matters when choosing an AI coach, and how the different approaches compare.',
     date: '2026-04-16',
+    dateModified: '2026-04-20',
     author: 'LoL Sensei Team',
     tags: ['ai-coaching', 'comparison', 'guide'],
     readingTime: 9,
@@ -212,6 +317,40 @@ export const newEnPosts: BlogPost[] = [
 <p>Overlay apps automate setup by importing runes and providing in-game stats. They reduce friction and provide useful information, but they are fundamentally automation tools, not teaching tools. They tell you what to do without explaining why, which means you gain convenience without gaining understanding.</p>
 
 <p>AI coaching tools represent a new category that matured significantly through 2025 and into 2026. These tools use large language models and game-specific data to provide personalized, explanation-driven guidance. The technology is now capable of analyzing team compositions in real time, explaining strategic reasoning in natural language, and adapting its guidance to different skill levels. Multiple tools exist, each with a different approach and philosophy.</p>
+
+<h2>Coaching Focus by Game Phase</h2>
+
+<p>A well-rounded AI coach covers different aspects of play depending on the phase of the game. The table below summarizes the coaching focus we consider essential across early, mid, and late game. The specific insights and example prompts for each phase are still being finalized with the product team and will be published in a follow-up update.</p>
+
+<div class="overflow-x-auto">
+  <table>
+    <caption>AI coaching focus by game phase (early / mid / late)</caption>
+    <thead>
+      <tr>
+        <th scope="col">Game phase</th>
+        <th scope="col">Primary coaching focus</th>
+        <th scope="col">Example insight</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Early game</th>
+        <td>Draft analysis and lane setup</td>
+        <td>Lane matchups play out longer uninterrupted in 2026: coaches track wave equity, trade windows, and jungle proximity pre-6.<!-- source: leagueoflegends.com/en-us/news/dev/dev-2026-season-one-gameplay-preview/ (2025-12-01) + leagueoflegends.com/en-us/news/game-updates/patch-26-1-notes/ (2026-01-07) --></td>
+      </tr>
+      <tr>
+        <th scope="row">Mid game</th>
+        <td>Objective priority and build adaptation</td>
+        <td>Baron respawns at 20 min; Herald Eye is solo-claimable. Coaches flag turret vs epic tradeoffs as monster risk scales up.<!-- source: leagueoflegends.com/en-us/news/game-updates/patch-26-1-notes/ (2026-01-07) + leagueoflegends.com/en-us/news/dev/dev-2026-season-one-gameplay-preview/ (2025-12-01) --></td>
+      </tr>
+      <tr>
+        <th scope="row">Late game</th>
+        <td>Teamfight positioning and win condition execution</td>
+        <td>Inhibitor kills spawn super minions every wave; coaches weigh 1-3-1 sieges against Dragon Vengeance timers and Baron setups.<!-- source: leagueoflegends.com/en-us/news/dev/dev-2026-season-one-gameplay-preview/ (2025-12-01) --></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <h2>AI Coach vs Human Coach: Pros and Cons</h2>
 

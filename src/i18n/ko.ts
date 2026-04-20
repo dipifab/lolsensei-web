@@ -520,6 +520,38 @@ const ko = {
   'notFound.legacyAdmin.title': '관리자 콘솔이 이동되었습니다.',
   'notFound.legacyAdmin.bodyBefore': '새 경로로 로그인하세요:',
   'notFound.legacyAdmin.linkLabel': '/console-login',
+
+  // WP19 P2-02 — Hero image alt (localized)
+  'hero.image.alt': '실시간 AI 코칭과 게임 상태 분석을 보여주는 e스포츠 대시보드',
+
+  // WP19 P2-05 — Contact page + form
+  'meta.contact.title': '문의 — LoL Sensei',
+  'meta.contact.description': 'LoL Sensei 팀에 문의하세요. 질문, 피드백, 버그 제보 — 영업일 5일 이내에 답변드립니다.',
+  'footer.contact': '문의',
+  'contact.title': '문의하기',
+  'contact.intro': '질문, 피드백 또는 버그 제보가 있으신가요? 메시지를 보내주시면 최대한 빨리 답변드리겠습니다.',
+  'contact.form.name.label': '이름 (선택)',
+  'contact.form.name.placeholder': '어떻게 불러드리면 될까요?',
+  'contact.form.email.label': '이메일',
+  'contact.form.email.placeholder': 'you@example.com',
+  'contact.form.message.label': '메시지',
+  'contact.form.message.placeholder': '어떤 내용이든 편하게 적어주세요. 자세할수록 더 잘 도와드릴 수 있습니다.',
+  'contact.form.submit': '메시지 보내기',
+  'contact.form.sla': '영업일 5일 이내에 답변드립니다.',
+  'contact.form.success': '감사합니다 — 메시지가 전송되었습니다. 곧 이메일로 답변드리겠습니다.',
+  'contact.form.error.generic': '메시지 전송 중 문제가 발생했습니다. 잠시 후 다시 시도해 주세요.',
+  'contact.form.error.email': '올바른 이메일 주소를 입력해 주세요.',
+  'contact.form.error.message': '메시지는 최소 20자 이상이어야 합니다.',
+  'contact.github.link': 'GitHub에 이슈 남기기',
+  'contact.github.description': '공개적으로 추적하고 싶으신가요? 버그 제보나 기능 요청은 GitHub 저장소에서 직접 남겨주세요.',
+
+  // WP19 P2-05 — Preview CTA + modal
+  'cta.preview.button.label': '미리보기 재생',
+  'cta.preview.button.ariaLabel': 'LoL Sensei 동작 미리보기 재생',
+  'cta.preview.modal.title': 'LoL Sensei 동작 미리보기',
+  'cta.preview.modal.description': 'AI 코치가 챔피언 선택, 아이템 빌드, 게임 상태를 실시간으로 설명하는 짧은 미리보기입니다.',
+  'cta.preview.modal.close': '미리보기 닫기',
+  'cta.preview.modal.caption': '미리보기 준비 중 — 최종 영상이 곧 여기에 표시됩니다.',
 } as const;
 
 export default ko;

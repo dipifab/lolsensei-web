@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "bash scripts/check-competitors.sh",
+    "prebuild": "bash scripts/check-competitors.sh && npm run build:jsonld",
+    "build:jsonld": "tsx scripts/generate-jsonld.mjs",
+    "build:favicons": "node scripts/generate-favicons.mjs",
     "build": "tsc -b && vite build",
     "build:beta": "tsc -b && vite build --mode beta",
     "deploy:beta": "npm run build:beta && npx wrangler deploy --env beta",
@@ -30,12 +32,18 @@
     "solid-js": "^1.9.12"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260420.1",
+    "@playwright/test": "^1.59.1",
     "@tailwindcss/vite": "^4.2.2",
     "@types/node": "^24.12.2",
     "chrome-launcher": "^1.2.1",
     "lighthouse": "^13.1.0",
     "playwright": "^1.59.1",
+    "png-to-ico": "^3.0.1",
+    "puppeteer": "^24.41.0",
+    "sharp": "^0.34.5",
     "tailwindcss": "^4.2.2",
+    "tsx": "^4.21.0",
     "typescript": "~6.0.2",
     "vite": "^8.0.4",
     "vite-plugin-solid": "^2.11.12"

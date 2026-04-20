@@ -18,6 +18,7 @@ const BlogPage = lazy(() => import('./pages/BlogPage'));
 const BlogPostPage = lazy(() => import('./pages/BlogPostPage'));
 const CheckoutSuccessPage = lazy(() => import('./pages/CheckoutSuccessPage'));
 const CheckoutCancelPage = lazy(() => import('./pages/CheckoutCancelPage'));
+const ContactPage = lazy(() => import('./pages/ContactPage'));
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
 
 const ConsoleLoginPage = lazy(() => import('./pages/ConsoleLoginPage'));
@@ -70,6 +71,8 @@ export default function App() {
         <Route path="/terms" component={TermsPage} />
         <Route path="/checkout/success" component={CheckoutSuccessPage} />
         <Route path="/checkout/cancel" component={CheckoutCancelPage} />
+        {/* Contact (WP19 P2-04) — always enabled, not behind publicPagesEnabled flag. */}
+        <Route path="/contact" component={ContactPage} />
         {/* Public pages gated by VITE_PUBLIC_PAGES_ENABLED (m-6 arch review).
             Quando il flag e' false, queste route cadono nel catch-all 404. */}
         <Show when={ENV.publicPagesEnabled}>

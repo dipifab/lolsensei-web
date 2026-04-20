@@ -7,9 +7,32 @@ export const itPostsPart2: BlogPost[] = [
     excerpt:
       'Una guida pratica e concreta per scalare la ranked su League of Legends. Champion pool, costanza, gioco mentale e come migliorare davvero — non solo grindare.',
     date: '2026-04-16',
+    dateModified: '2026-04-16',
     author: 'LoL Sensei Team',
     tags: ['ranked', 'climbing', 'improvement', 'guide'],
     readingTime: 10,
+    howToSteps: [
+      {
+        name: 'Prenditi la responsabilità del tuo rank',
+        text: 'Accetta che su 100+ partite la casualità dei teammate si bilancia. Il tuo rank attuale riflette il tuo livello di skill attuale. Questa consapevolezza sblocca la capacità di concentrarti su ciò che puoi controllare.',
+      },
+      {
+        name: 'Costruisci un champion pool focalizzato di 2-3 campioni per ruolo',
+        text: 'Attieniti a un campione semplice, una comfort pick e un counter situazionale per ruolo. Gioca il pool per almeno 50 partite prima di cambiare campioni — la costanza si accumula più in fretta della varietà.',
+      },
+      {
+        name: 'Applica la regola del 40-40-20 alle partite decisive',
+        text: 'Circa il 40% delle partite è invincibile, il 40% sono vittorie gratuite, e solo il 20% dipende dalla tua performance individuale. Smetti di fissarti sulle partite che non controlli e concentra l\'energia sui game decisivi.',
+      },
+      {
+        name: 'Vinci sui fondamentali: CS, morti, vision',
+        text: 'Punta a 7 CS al minuto, riduci le morti, mantieni alto il vision score. Queste metriche noiose valgono più LP di qualsiasi outplay meccanica.',
+      },
+      {
+        name: 'Rivedi un replay al giorno e proteggi il tuo mentale',
+        text: 'Riavvolgi 30 secondi prima di ogni morte e chiediti quali informazioni hai mancato. Ferma dopo due sconfitte, smetti del tutto dopo tre — il tilt costa più LP di qualsiasi errore meccanico.',
+      },
+    ],
     content: `
 <p>Se stai cercando come salire di rank su League of Legends, probabilmente hai già letto decine di guide che ti dicono di "migliorare e basta." Un consiglio tecnicamente corretto e completamente inutile. Questa guida è diversa. Copre le abitudini specifiche, i cambi di mentalità e le decisioni strategiche che separano chi scala la ranked da chi grinda centinaia di partite restando allo stesso rank. Che tu sia bloccato in Iron, hardstuck Silver, o stia puntando al Platino, i principi sono gli stessi. L'esecuzione cambia, ma il framework no.</p>
 
@@ -21,21 +44,69 @@ export const itPostsPart2: BlogPost[] = [
 
 <p>Questo non significa che ogni partita sia vincibile. Significa che su un numero sufficiente di partite, la tua abilità è il fattore determinante del tuo rank. Accettalo e sblocchi la capacità di concentrarti su ciò che puoi effettivamente controllare.</p>
 
+<h2>La Timeline della Scalata: un Percorso Ordinato</h2>
+
+<p>Ogni scalata segue la stessa progressione ordinata di aree di focus. Tratta la lista sotto come un playbook sequenziale — non saltare al passo quattro se il passo uno è ancora rotto.</p>
+
+<ol>
+  <li><strong>Iron a Silver — padroneggia i fondamentali.</strong> Punta a 6 CS al minuto come obiettivo iniziale. Smetti di morire senza motivo: se non sai dove si trova il nemico, non pushare. Smetti di fightare quando sei dietro.</li>
+  <li><strong>Silver a Gold — disciplina nel champion pool e macro di base.</strong> Scegli i tuoi 2-3 champion e mantienili. Dragon e Rift Herald non sono opzionali. Impara a pushare prima di richiamare, freezare quando sei avanti, slow-pushare prima degli obiettivi.</li>
+  <li><strong>Gold a Platino — matchup knowledge, wave management, timing degli obiettivi.</strong> Conosci i power spike del tuo champion e gioca attorno a essi. Tracka il jungler nemico e aggiusta l'aggressività. Capisci le win condition della composizione e gioca verso di esse.</li>
+  <li><strong>Platino a Diamond — pratica deliberata su ogni asse.</strong> Gestione della lane, posizionamento nei team fight, controllo della vision, decision-making macro devono essere tutti costantemente solidi. I guadagni marginali contano enormemente a questo livello.</li>
+  <li><strong>Diamond e oltre — padronanza di ruolo e champion pool.</strong> Le differenze tra giocatori sono sottili, e il gap di abilità ai vertici è enorme. La scalata da Diamond 4 a Diamond 1 è spesso più difficile dell'intera scalata da Iron a Diamond 4.</li>
+</ol>
+
 <h2>Costruire un Champion Pool Focalizzato</h2>
 
 <p><strong>Giocare due o tre champion per ruolo batte costantemente il giocare quindici champion a caso.</strong> Questo è uno dei cambiamenti con l'impatto più alto che puoi fare. Ogni volta che giochi un champion diverso, stai dividendo il tuo apprendimento su timing delle abilità, power spike, conoscenza dei matchup, esecuzione delle combo e soglie di danno. Un giocatore con 200 partite su Orianna capisce cose di lei che un giocatore con 20 partite non capirà mai — la distanza esatta del leash della sua ball, il timing frame-perfect di Shockwave dopo Command: Protect, i matchup in cui puoi ottenere un solo kill al livello 6 rispetto a quelli in cui devi farmare in sicurezza fino al Lost Chapter.</p>
 
 <p>Ecco alcuni pool di esempio pratici per ruolo, progettati con un champion semplice, una comfort pick e un counter situazionale:</p>
 
-<p><strong>Mid Lane:</strong> Annie (semplice, alto burst, insegna i fondamentali), Ahri (mobilità e pick potential), Orianna (controllo dei team fight, scala bene). Annie ti costringe a imparare spacing e gestione dello stun. Ahri insegna roaming e precisione della charm. Orianna insegna posizionamento nei team fight e gestione della ball.</p>
-
-<p><strong>ADC:</strong> Miss Fortune (lane bully, ultimate potente), Jinx (hypercarry, eccelle nei team fight), Kai'Sa (danno ibrido, build path flessibili). Miss Fortune ti insegna dominanza in lane e posizionamento dell'ultimate. Jinx ti insegna a giocare safe nel early game e carry nel late. Kai'Sa ti insegna la build adattiva.</p>
-
-<p><strong>Top Lane:</strong> Garen (kit semplice, concentra sui fondamentali), Darius (dominanza in lane, insegna i pattern di trading), Mordekaiser (opzione AP, forte nell'1v1). Tutti e tre sono abbastanza forgiving da permetterti di concentrarti su wave management e map awareness invece che su meccaniche complesse.</p>
-
-<p><strong>Jungle:</strong> Amumu (engage tank, clear lineare), Vi (fighter versatile, gank forti), Warwick (clear salutare, sustain integrato). Questi champion ti permettono di concentrarti su pathing, timing degli obiettivi e esecuzione dei gank piuttosto che su outplay meccaniche.</p>
-
-<p><strong>Support:</strong> Nautilus (engage, catena di crowd control), Lulu (peel, potenzia i carry), Soraka (sustain, sicurezza della backline). Un'opzione di engage, un enchanter per composizioni che scalano, una pick di sustain per le lane di poke.</p>
+<div class="overflow-x-auto">
+  <table>
+    <caption>Champion pool consigliato per ruolo per la scalata ranked</caption>
+    <thead>
+      <tr>
+        <th scope="col">Ruolo</th>
+        <th scope="col">Champion semplice (fondamentali)</th>
+        <th scope="col">Comfort pick</th>
+        <th scope="col">Pick situazionale / counter</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Mid Lane</th>
+        <td>Annie (semplice, alto burst)</td>
+        <td>Ahri (mobilità, pick potential)</td>
+        <td>Orianna (controllo dei team fight, scala bene)</td>
+      </tr>
+      <tr>
+        <th scope="row">ADC</th>
+        <td>Miss Fortune (lane bully, ultimate potente)</td>
+        <td>Jinx (hypercarry, eccelle nei team fight)</td>
+        <td>Kai'Sa (danno ibrido, build path flessibili)</td>
+      </tr>
+      <tr>
+        <th scope="row">Top Lane</th>
+        <td>Garen (kit semplice, fondamentali)</td>
+        <td>Darius (dominanza in lane, pattern di trading)</td>
+        <td>Mordekaiser (opzione AP, forte nell'1v1)</td>
+      </tr>
+      <tr>
+        <th scope="row">Jungle</th>
+        <td>Amumu (engage tank, clear lineare)</td>
+        <td>Vi (fighter versatile, gank forti)</td>
+        <td>Warwick (clear salutare, sustain integrato)</td>
+      </tr>
+      <tr>
+        <th scope="row">Support</th>
+        <td>Nautilus (engage, catena di crowd control)</td>
+        <td>Lulu (peel, potenzia i carry)</td>
+        <td>Soraka (sustain, sicurezza della backline)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p>Attieniti al tuo pool per almeno 50 partite prima di aggiungere o scambiare champion. La costanza si accumula più velocemente di quanto ti aspetti.</p>
 
@@ -110,9 +181,28 @@ export const itPostsPart2: BlogPost[] = [
     excerpt:
       'Il tilt è il killer silenzioso del rank. Scopri tecniche pratiche e basate sull\'evidenza per gestire la frustrazione, superare l\'ansia da ranked e giocare al meglio quando conta di più.',
     date: '2026-04-16',
+    dateModified: '2026-04-16',
     author: 'LoL Sensei Team',
     tags: ['mental-game', 'tilt', 'improvement', 'ranked'],
     readingTime: 9,
+    howToSteps: [
+      {
+        name: 'Mappa i tuoi trigger personali di tilt',
+        text: 'Passa una settimana prestando attenzione ai momenti specifici che cambiano il tuo umore durante le partite — non le partite in sé, i momenti. Alcuni giocatori tiltano per eventi specifici in-game, altri per pattern ampi come qualsiasi forma di chat tossica.',
+      },
+      {
+        name: 'Costruisci una difesa preventiva per ogni trigger',
+        text: 'Una volta noti i trigger, prepara contromisure specifiche. Se la chat è un trigger, muta prima che la partita inizi, non dopo che qualcuno scrive qualcosa di tossico. Se i gank ti tiltano, warda prima e gioca passivo finché non hai vision.',
+      },
+      {
+        name: 'Applica la regola delle due sconfitte',
+        text: 'Dopo due sconfitte consecutive, fai una pausa minima di 15 minuti. Dopo tre, smetti di giocare ranked per la sessione. Stabilisci questa regola prima di iniziare, quando il tuo giudizio è lucido, e seguila meccanicamente indipendentemente da come ti senti nel momento.',
+      },
+      {
+        name: 'Usa il reset fisico e cognitivo tra le partite',
+        text: 'Alzati, cammina in un\'altra stanza, bevi acqua, fai 30 secondi di stretching. Poi reframa la partita precedente chiedendoti "Qual è una cosa che avrei potuto fare diversamente?" — concentrarsi sull\'apprendimento invece che sulla colpa disinnesca la risposta di tilt.',
+      },
+    ],
     content: `
 <p>Il tilt è il problema più costoso in League of Legends, e non ha niente a che fare con le tue meccaniche, il tuo champion pool o la tua conoscenza del gioco. Ogni giocatore che ha mai messo in coda per una ranked conosce la sensazione: la frustrazione strisciante dopo una giocata sbagliata, il risentimento bruciante quando un teammate butta via una partita vinta, il disperato "ancora una partita" che trasforma una piccola perdita di LP in una serie di sconfitte catastrofica. Se vuoi imparare come smettere di tiltare a League of Legends, devi capire cosa sia realmente il tilt, perché accade e come costruire sistemi che gli impediscano di distruggere il tuo progresso in ranked.</p>
 
@@ -120,17 +210,31 @@ export const itPostsPart2: BlogPost[] = [
 
 <p><strong>Il tilt non è semplicemente "essere arrabbiati." È uno stato cognitivo misurabile in cui le risposte emotive sovrascrivono il processo decisionale razionale.</strong> Quando sei in tilt, la tua corteccia prefrontale — la parte del cervello responsabile di pianificazione strategica, controllo degli impulsi e valutazione del rischio — diventa meno attiva. La tua amigdala, la parte responsabile delle reazioni emotive e delle risposte di lotta o fuga, prende il controllo. Questa non è una metafora. È come funziona realmente il tuo cervello sotto stress emotivo.</p>
 
-<p>In termini pratici di League, questo significa che i giocatori in tilt prendono decisioni fondamentalmente diverse dai giocatori che non lo sono. Insegui le kill invece di farmare perché il tuo cervello brama la dopamina di una kill per compensare la frustrazione. Fighti 1v3 invece di prendere un obiettivo altrove perché il tuo giudizio del rischio rispetto alla ricompensa è distorto. Spammi voti di surrender invece di cercare angoli di comeback perché il tuo stato emotivo ha già deciso che la partita è persa. Scrivi in chat invece di guardare la minimap perché la tua frustrazione esige uno sfogo.</p>
+<p>In termini pratici di League, questo significa che i giocatori in tilt prendono decisioni fondamentalmente diverse dai giocatori che non lo sono. Quando sei in tilt, tieni d'occhio questi red flag emotivi nel tuo gameplay — sono le firme visibili di un sistema decisionale compromesso:</p>
+
+<ul>
+  <li><strong>Inseguire le kill invece di farmare</strong> perché il tuo cervello brama la dopamina di una kill per compensare la frustrazione.</li>
+  <li><strong>Fightare 1v3</strong> invece di prendere un obiettivo altrove perché il tuo giudizio del rischio rispetto alla ricompensa è distorto.</li>
+  <li><strong>Spammare voti di surrender</strong> invece di cercare angoli di comeback perché il tuo stato emotivo ha già deciso che la partita è persa.</li>
+  <li><strong>Scrivere in chat</strong> invece di guardare la minimap perché la tua frustrazione esige uno sfogo.</li>
+  <li><strong>Saltare il warding e i recall di routine</strong> perché hai smesso di preoccuparti dei fondamentali noiosi che di solito ti fanno vincere le partite.</li>
+</ul>
 
 <p>Capire che il tilt è un vero stato cognitivo — non un difetto di carattere, non debolezza, non qualcosa che dovresti essere in grado di "semplicemente ignorare" — è il primo passo per gestirlo. Non diresti a un giocatore con una mano rotta di "stringere il mouse più forte." Il tilt è un'alterazione temporanea della capacità del tuo cervello di prendere buone decisioni, e richiede gestione, non forza di volontà.</p>
 
-<h2>Riconoscere i Tuoi Trigger Personali di Tilt</h2>
+<h2>Riconoscere e Disinnescare i Tuoi Trigger</h2>
 
 <p>Non tutti tiltano per le stesse cose. Alcuni giocatori possono gestire la chat tossica senza battere ciglio ma crollano completamente dopo essere stati solo-killati in lane. Altri possono perdere la lane con grazia ma perdono la calma quando i teammate commettono errori di posizionamento. Identificare i tuoi trigger specifici è essenziale perché consigli generici come "stai calmo" non funzionano se non sai cosa disturba la tua calma in primo luogo.</p>
 
-<p><strong>I trigger comuni del tilt includono:</strong> essere solo-killati in un matchup che sentivi di dover vincere, essere gankati ripetutamente dal jungler nemico mentre il tuo jungler farma, teammate che prendono decisioni palesemente sbagliate costando al team un obiettivo o un fight, perdere una partita in cui sentivi di aver giocato bene personalmente, ricevere messaggi tossici o passivo-aggressivi in chat, restare indietro nel CS contro un avversario che consideri peggiore di te, e avere una partita vincibile buttata via da un singolo errore.</p>
+<p>Usa la lista ordinata qui sotto come routine step-by-step per trasformare il tilt da una reazione incontrollabile a un processo gestito:</p>
 
-<p>Passa una settimana prestando attenzione ai momenti specifici che cambiano il tuo umore durante le partite. Non le partite in sé — i momenti. Potresti scoprire che il tuo trigger è estremamente specifico: magari tilti solo quando muori per un gank che avevi visto arrivare ma non sei riuscito a evitare. O magari il tuo trigger è ampio: qualsiasi forma di chat negativa ti manda in spirale. Una volta che conosci i tuoi trigger, puoi costruire difese specifiche contro di essi.</p>
+<ol>
+  <li><strong>Presta attenzione ai momenti specifici che cambiano il tuo umore durante le partite.</strong> Non le partite in sé — i momenti. Passa una settimana a registrarli mentalmente o in una nota, senza giudizio.</li>
+  <li><strong>Classifica i tuoi trigger come specifici o ampi.</strong> Un trigger specifico potrebbe essere morire per un gank che avevi visto ma non sei riuscito a evitare. Un trigger ampio potrebbe essere qualsiasi forma di chat negativa. Entrambi sono validi, ed entrambi richiedono difese diverse.</li>
+  <li><strong>Costruisci una difesa preventiva per ogni trigger.</strong> Per trigger legati alla chat, /mute all prima che la partita inizi. Per trigger legati ai gank, warda prima e gioca passivo finché non hai vision. Per trigger legati ai teammate, disattiva la chat di squadra e affidati ai ping.</li>
+  <li><strong>Applica la regola delle due sconfitte.</strong> Dopo due sconfitte consecutive, fai una pausa minima di 15 minuti. Dopo tre, smetti di giocare ranked per la sessione. Nessuna eccezione — il tuo cervello in tilt non è un giudice affidabile di quanto tu sia pronto a rientrare in coda.</li>
+  <li><strong>Fai un reset fisico e cognitivo tra le partite.</strong> Alzati, cammina, bevi acqua, fai 30 secondi di stretching. Poi chiediti "Qual è una cosa che avrei potuto fare diversamente?" — non sul tuo team, su di te. Questo riformula la partita precedente da colpa in apprendimento.</li>
+</ol>
 
 <h2>La Trappola del "Gioco Ancora"</h2>
 
@@ -195,6 +299,7 @@ export const itPostsPart2: BlogPost[] = [
     excerpt:
       'Il mondo del coaching AI per League of Legends sta crescendo rapidamente. Ecco cosa conta davvero nella scelta di un coach AI, e come si confrontano i diversi approcci.',
     date: '2026-04-16',
+    dateModified: '2026-04-20',
     author: 'LoL Sensei Team',
     tags: ['ai-coaching', 'comparison', 'guide'],
     readingTime: 9,
@@ -212,6 +317,40 @@ export const itPostsPart2: BlogPost[] = [
 <p>Le app overlay automatizzano la configurazione importando rune e fornendo statistiche in-game. Riducono le frizioni e forniscono informazioni utili, ma sono fondamentalmente strumenti di automazione, non strumenti di insegnamento. Ti dicono cosa fare senza spiegare perché, il che significa che guadagni comodità senza guadagnare comprensione.</p>
 
 <p>Gli strumenti di coaching AI rappresentano una nuova categoria che è maturata significativamente attraverso il 2025 e nel 2026. Questi strumenti usano large language model e dati specifici del gioco per fornire guida personalizzata e orientata alla spiegazione. La tecnologia è ora capace di analizzare composizioni di team in tempo reale, spiegare ragionamenti strategici in linguaggio naturale e adattare la sua guida a diversi livelli di abilità. Esistono più strumenti, ognuno con un approccio e una filosofia diversi.</p>
+
+<h2>Focus del Coaching per Fase di Gioco</h2>
+
+<p>Un coach AI ben bilanciato copre aspetti diversi del gioco a seconda della fase della partita. La tabella sotto riassume il focus di coaching che riteniamo essenziale tra early, mid e late game. Gli insight specifici e i prompt di esempio per ogni fase sono ancora in fase di definizione con il team di prodotto e saranno pubblicati in un aggiornamento successivo.</p>
+
+<div class="overflow-x-auto">
+  <table>
+    <caption>Focus del coaching AI per fase di gioco (early / mid / late)</caption>
+    <thead>
+      <tr>
+        <th scope="col">Fase di gioco</th>
+        <th scope="col">Focus principale del coaching</th>
+        <th scope="col">Esempio di insight</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Early game</th>
+        <td>Analisi del draft e setup della lane</td>
+        <td>Le lane matchup durano di più senza disturbi jungla: il coach osserva wave equity, finestre di trade e prossimità jungla pre-6.<!-- source: leagueoflegends.com/en-us/news/dev/dev-2026-season-one-gameplay-preview/ (2025-12-01) + leagueoflegends.com/en-us/news/game-updates/patch-26-1-notes/ (2026-01-07) --></td>
+      </tr>
+      <tr>
+        <th scope="row">Mid game</th>
+        <td>Priorità degli obiettivi e adattamento della build</td>
+        <td>Il Baron torna a 20 min e la Herald Eye è solo-claimable: il coach pesa il tradeoff torri contro obiettivo epico.<!-- source: leagueoflegends.com/en-us/news/game-updates/patch-26-1-notes/ (2026-01-07) + leagueoflegends.com/en-us/news/dev/dev-2026-season-one-gameplay-preview/ (2025-12-01) --></td>
+      </tr>
+      <tr>
+        <th scope="row">Late game</th>
+        <td>Posizionamento nei team fight ed esecuzione della win condition</td>
+        <td>Gli inhib caduti spawnano super-minion a ogni wave: il coach valuta 1-3-1 e siege su timer Dragon Vengeance e Baron.<!-- source: leagueoflegends.com/en-us/news/dev/dev-2026-season-one-gameplay-preview/ (2025-12-01) --></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <h2>Coach AI vs Coach Umano: Pro e Contro</h2>
 
@@ -271,7 +410,7 @@ export const itPostsPart2: BlogPost[] = [
 
 <p>Lo strumento adatta la sua guida al tuo livello di abilità dimostrato. Un giocatore più nuovo riceve consigli diretti sulle basi della composizione di team — bilanciamento dei danni, engage e disengage, e copertura dei ruoli. Un giocatore esperto riceve un'analisi più approfondita sulla strategia della fase di draft, sfumature dei counter-pick, timing dei power spike e dinamiche di scaling della composizione di team.</p>
 
-<p>LoL Sensei copre strategia del champion select, analisi della composizione di team e ragionamento sulla item build. È progettato per insegnarti il gioco, non per automatizzare le decisioni al posto tuo. L'obiettivo esplicito è che dopo mesi di utilizzo dello strumento, tu interiorizi i pattern di ragionamento e prenda decisioni migliori in autonomia. Un buon coaching si rende superfluo nel tempo.</p>
+<p>LoL Sensei copre strategia del champion select, analisi della composizione di team e ragionamento sulla item build. È progettato per insegnarti il gioco, non per automatizzare le decisioni al posto tuo. L'obiettivo esplicito è che dopo mesi di utilizzo dello strumento, tu interiorizzi i pattern di ragionamento e prenda decisioni migliori in autonomia. Un buon coaching si rende superfluo nel tempo.</p>
 
 <h2>Strumenti Gratuiti vs a Pagamento</h2>
 

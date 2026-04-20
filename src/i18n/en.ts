@@ -522,6 +522,38 @@ const en = {
   'notFound.legacyAdmin.title': 'The admin console has moved.',
   'notFound.legacyAdmin.bodyBefore': 'Use the new path to sign in:',
   'notFound.legacyAdmin.linkLabel': '/console-login',
+
+  // WP19 P2-02 — Hero image alt (localized)
+  'hero.image.alt': 'Esports dashboard showing real-time AI coaching and game state analysis',
+
+  // WP19 P2-05 — Contact page + form
+  'meta.contact.title': 'Contact — LoL Sensei',
+  'meta.contact.description': 'Get in touch with the LoL Sensei team. Questions, feedback, bug reports — we respond within 5 business days.',
+  'footer.contact': 'Contact',
+  'contact.title': 'Contact Us',
+  'contact.intro': 'Questions, feedback, or a bug to report? Send us a message and we will get back to you.',
+  'contact.form.name.label': 'Your name (optional)',
+  'contact.form.name.placeholder': 'How should we address you?',
+  'contact.form.email.label': 'Email',
+  'contact.form.email.placeholder': 'you@example.com',
+  'contact.form.message.label': 'Message',
+  'contact.form.message.placeholder': 'Tell us what\'s on your mind. The more detail you share, the better we can help.',
+  'contact.form.submit': 'Send message',
+  'contact.form.sla': 'We respond within 5 business days.',
+  'contact.form.success': 'Thanks — your message is on its way. We will reply by email soon.',
+  'contact.form.error.generic': 'Something went wrong sending your message. Please try again in a moment.',
+  'contact.form.error.email': 'Please enter a valid email address.',
+  'contact.form.error.message': 'Your message should be at least 20 characters long.',
+  'contact.github.link': 'Open an issue on GitHub',
+  'contact.github.description': 'Prefer to track things publicly? Report bugs or request features directly on our GitHub repository.',
+
+  // WP19 P2-05 — Preview CTA + modal
+  'cta.preview.button.label': 'Watch a preview',
+  'cta.preview.button.ariaLabel': 'Watch a preview of LoL Sensei in action',
+  'cta.preview.modal.title': 'LoL Sensei in action',
+  'cta.preview.modal.description': 'A short preview showing how the AI coach explains champion select, builds, and game state in real time.',
+  'cta.preview.modal.close': 'Close preview',
+  'cta.preview.modal.caption': 'Preview coming soon — the final clip will appear here.',
 } as const;
 
 export default en;

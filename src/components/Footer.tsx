@@ -6,6 +6,9 @@ export default function Footer() {
   const localizedHref = (path: string) => `/${locale()}${path}`;
   const currentYear = new Date().getFullYear().toString();
 
+  const linkClass =
+    'inline-flex items-center justify-center min-h-11 min-w-11 px-2 text-on-surface/40 hover:text-primary-container transition-colors text-sm font-body tracking-tight';
+
   return (
     <footer class="w-full py-12 border-t border-surface-variant/10 bg-surface-container-lowest">
       <div class="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto px-8 gap-6">
@@ -13,24 +16,18 @@ export default function Footer() {
           LoL Sensei
         </div>
 
-        <nav aria-label={t('a11y.footerNav')} class="flex gap-8">
-          <A
-            href={localizedHref('/terms')}
-            class="text-on-surface/40 hover:text-primary-container transition-colors text-sm font-body tracking-tight py-3"
-          >
+        <nav aria-label={t('a11y.footerNav')} class="flex flex-wrap justify-center gap-x-6 gap-y-2">
+          <A href={localizedHref('/terms')} class={linkClass}>
             {t('footer.terms')}
           </A>
-          <A
-            href={localizedHref('/privacy')}
-            class="text-on-surface/40 hover:text-primary-container transition-colors text-sm font-body tracking-tight py-3"
-          >
+          <A href={localizedHref('/privacy')} class={linkClass}>
             {t('footer.privacy')}
           </A>
-          <A
-            href={localizedHref('/community')}
-            class="text-on-surface/40 hover:text-primary-container transition-colors text-sm font-body tracking-tight py-3"
-          >
+          <A href={localizedHref('/community')} class={linkClass}>
             {t('nav.community')}
+          </A>
+          <A href={localizedHref('/contact')} class={linkClass}>
+            {t('footer.contact')}
           </A>
         </nav>
 

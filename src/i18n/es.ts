@@ -520,6 +520,38 @@ const es = {
   'notFound.legacyAdmin.title': 'La consola de admin se ha movido.',
   'notFound.legacyAdmin.bodyBefore': 'Usa la nueva ruta para acceder:',
   'notFound.legacyAdmin.linkLabel': '/console-login',
+
+  // WP19 P2-02 — Hero image alt (localized)
+  'hero.image.alt': 'Panel esports con coaching IA en tiempo real y análisis del estado de la partida',
+
+  // WP19 P2-05 — Contact page + form
+  'meta.contact.title': 'Contacto — LoL Sensei',
+  'meta.contact.description': 'Ponte en contacto con el equipo de LoL Sensei. Dudas, feedback o reportes de bugs — respondemos en 5 días laborables.',
+  'footer.contact': 'Contacto',
+  'contact.title': 'Contáctanos',
+  'contact.intro': '¿Tienes preguntas, feedback o quieres reportar un bug? Escríbenos y te responderemos lo antes posible.',
+  'contact.form.name.label': 'Tu nombre (opcional)',
+  'contact.form.name.placeholder': '¿Cómo deberíamos llamarte?',
+  'contact.form.email.label': 'Email',
+  'contact.form.email.placeholder': 'tu@ejemplo.com',
+  'contact.form.message.label': 'Mensaje',
+  'contact.form.message.placeholder': 'Cuéntanos qué te ronda por la cabeza. Cuantos más detalles des, mejor podremos ayudarte.',
+  'contact.form.submit': 'Enviar mensaje',
+  'contact.form.sla': 'Respondemos en 5 días laborables.',
+  'contact.form.success': 'Gracias — tu mensaje está en camino. Te responderemos pronto por email.',
+  'contact.form.error.generic': 'Algo salió mal al enviar tu mensaje. Inténtalo de nuevo en un momento.',
+  'contact.form.error.email': 'Introduce una dirección de email válida.',
+  'contact.form.error.message': 'El mensaje debe tener al menos 20 caracteres.',
+  'contact.github.link': 'Abre una issue en GitHub',
+  'contact.github.description': '¿Prefieres seguirlo en público? Reporta bugs o solicita funcionalidades directamente en nuestro repositorio de GitHub.',
+
+  // WP19 P2-05 — Preview CTA + modal
+  'cta.preview.button.label': 'Ver vista previa',
+  'cta.preview.button.ariaLabel': 'Ver una vista previa de LoL Sensei en acción',
+  'cta.preview.modal.title': 'LoL Sensei en acción',
+  'cta.preview.modal.description': 'Una breve vista previa que muestra cómo el coach IA explica champion select, builds y estado de la partida en tiempo real.',
+  'cta.preview.modal.close': 'Cerrar vista previa',
+  'cta.preview.modal.caption': 'Vista previa próximamente — el vídeo final aparecerá aquí.',
 } as const;
 
 export default es;
