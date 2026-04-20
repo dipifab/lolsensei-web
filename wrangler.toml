@@ -5,6 +5,8 @@ compatibility_date = "2026-04-01"
 [assets]
 directory = ".output/public"
 binding = "ASSETS"
+html_handling = "none"
+not_found_handling = "none"
 
 [env.beta]
 name = "lolsensei-web-beta"
@@ -16,3 +18,5 @@ routes = [
 [env.beta.assets]
 directory = ".output/public"
 binding = "ASSETS"
+html_handling = "none"
+not_found_handling = "none"

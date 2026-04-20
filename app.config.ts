@@ -26,12 +26,13 @@ function buildPrerenderRoutes(): string[] {
 
 export default defineConfig({
   ssr: true,
+  middleware: './src/middleware.ts',
   server: {
     preset: 'cloudflare-module',
-    middleware: './src/middleware.ts',
     prerender: {
       routes: buildPrerenderRoutes(),
       crawlLinks: false,
+      autoSubfolderIndex: false,
     },
   },
   vite: {
