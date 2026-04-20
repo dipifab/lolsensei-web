@@ -2,7 +2,6 @@
   "ci": {
     "collect": {
       "staticDistDir": "./dist",
-      "url": ["http://localhost/en/"],
       "numberOfRuns": 3,
       "settings": {
         "emulatedFormFactor": "mobile",
