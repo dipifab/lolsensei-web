@@ -32,3 +32,6 @@ test-results/
 # Cloudflare Workers local cache
 .wrangler/
 .secrets/
+
+# Local baseline artifacts (Lighthouse JSON, etc.) — not committed
+dev-repository/
