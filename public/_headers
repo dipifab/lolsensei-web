@@ -1,6 +1,9 @@
-# CSP note: 'unsafe-inline' on style-src only.
-# Reasons: Tailwind v4 arbitrary values, Solid style={...} attrs, @solidjs/start hydration.
-# Hash-based style-src planned for WP19 (requires style extraction + hashing pipeline).
+# CSP note: la direttiva Content-Security-Policy e emessa dal Worker middleware
+# (`src/middleware.ts` + `src/generated/csp-hashes.ts`). Cloudflare Pages/Workers
+# rifiuta linee > 2000 char in _headers, e con 79 hash SHA-256 inline script la
+# direttiva superava i 4700 char → deploy fail [code: 10021]. Vedi TASK-W18-T31.
+# Gli altri security header (HSTS, nosniff, frame-ancestors proxy via XFO, etc.)
+# restano qui come backstop statico.
 
 /*
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
@@ -10,7 +13,6 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=(), browsing-topics=()
   Cross-Origin-Resource-Policy: same-origin
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'strict-dynamic' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://api.lolsensei.com https://api-beta.lolsensei.com https://static.cloudflareinsights.com https://cloudflareinsights.com; frame-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https://api.lolsensei.com; report-uri /csp-report
   Report-To: {"group":"csp-endpoint","max_age":10886400,"endpoints":[{"url":"/csp-report"}]}
 
 /*.html

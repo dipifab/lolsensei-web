@@ -7,7 +7,7 @@
     "dev": "vite",
     "prebuild": "bash scripts/check-competitors.sh && node scripts/generate-sitemap.mjs",
     "build:favicons": "node scripts/generate-favicons.mjs",
-    "build": "cross-env NODE_ENV=production vinxi build && node scripts/compute-csp-hashes.mjs",
+    "build": "cross-env NODE_ENV=production vinxi build && node scripts/compute-csp-hashes.mjs && cross-env NODE_ENV=production vinxi build",
     "build:beta": "tsc -b && vite build --mode beta",
     "deploy:beta": "npm run build:beta && npx wrangler deploy --env beta",
     "preview": "vite preview",
