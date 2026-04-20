@@ -95,13 +95,13 @@ export default function Navbar() {
         class="flex justify-between items-center max-w-7xl mx-auto px-8 py-4"
       >
         {/* Logo */}
-        <A href={localizedHref('/')} class="flex items-center -my-4">
+        <A href={localizedHref('/')} class="flex items-center -my-4 shrink-0">
           <img
             src="/images/logo-120.webp"
             alt="LoL Sensei"
             width="120"
             height="120"
-            class="w-[120px] h-[120px] object-contain"
+            class="w-[120px] h-[120px] object-contain shrink-0"
           />
         </A>
 
