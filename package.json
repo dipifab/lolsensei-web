@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "bash scripts/check-competitors.sh && npm run build:jsonld",
+    "prebuild": "bash scripts/check-competitors.sh && npm run build:jsonld && node scripts/generate-sitemap.mjs",
     "build:jsonld": "tsx scripts/generate-jsonld.mjs",
     "build:favicons": "node scripts/generate-favicons.mjs",
     "build": "cross-env NODE_ENV=production vinxi build && node scripts/compute-csp-hashes.mjs",
