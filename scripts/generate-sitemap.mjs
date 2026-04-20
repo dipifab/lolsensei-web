@@ -2,13 +2,18 @@
 import { writeFileSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import {
+  SUPPORTED_LOCALES,
+  BLOG_LOCALES,
+  DEFAULT_LOCALE,
+  HREFLANG_MAP,
+} from './locales.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT_PATH = resolve(__dirname, '..', 'public', 'sitemap.xml');
 
 const BASE = 'https://www.lolsensei.com';
-const LOCALES = ['en', 'it', 'ko', 'zh-Hans', 'pt-br', 'es', 'fr', 'de'];
-const HREFLANG_MAP = { 'pt-br': 'pt-BR' };
+const LOCALES = SUPPORTED_LOCALES;
 
 // m-6 arch review: sitemap deve rispecchiare il feature flag VITE_PUBLIC_PAGES_ENABLED.
 // Quando false, escludiamo le pagine pubbliche opzionali dal sitemap per evitare 404 indicizzati.
@@ -39,7 +44,6 @@ const BLOG_POSTS = [
   'how-to-stop-tilting-lol',
   'best-lol-ai-coach-2026',
 ];
-const BLOG_LOCALES = ['en', 'it'];
 
 const PAGES = PUBLIC_PAGES_ENABLED ? [...CORE_PAGES, ...OPTIONAL_PAGES] : CORE_PAGES;
 
@@ -49,6 +53,11 @@ function hreflangFor(loc) {
   return HREFLANG_MAP[loc] ?? loc;
 }
 
+// Le route che iniziano con `/blog` sono pubblicate solo in BLOG_LOCALES (OP-W18-008).
+function localesForPage(page) {
+  return page.path.startsWith('/blog') ? BLOG_LOCALES : LOCALES;
+}
+
 function urlPath(locale, path) {
   const trailing = path === '/' ? '/' : path;
   return `${BASE}/${locale}${trailing === '/' ? '/' : trailing}`;
@@ -56,16 +65,17 @@ function urlPath(locale, path) {
 
 function buildUrlEntry(locale, page) {
   const loc = urlPath(locale, page.path);
-  const alternates = LOCALES.map(
+  const pageLocales = localesForPage(page);
+  const alternates = pageLocales.map(
     (l) => `    <xhtml:link rel="alternate" hreflang="${hreflangFor(l)}" href="${urlPath(l, page.path)}" />`,
   ).join('\n');
-  const xDefault = `    <xhtml:link rel="alternate" hreflang="x-default" href="${urlPath('en', page.path)}" />`;
+  const xDefault = `    <xhtml:link rel="alternate" hreflang="x-default" href="${urlPath(DEFAULT_LOCALE, page.path)}" />`;
   return `  <!-- ${page.key}: ${locale} -->\n  <url>\n    <loc>${loc}</loc>\n    <lastmod>${today}</lastmod>\n${alternates}\n${xDefault}\n  </url>`;
 }
 
 const entries = [];
 for (const page of PAGES) {
-  for (const locale of LOCALES) {
+  for (const locale of localesForPage(page)) {
     entries.push(buildUrlEntry(locale, page));
   }
 }
@@ -78,7 +88,7 @@ function buildBlogEntry(locale, slug) {
   const alternates = BLOG_LOCALES.map(
     (l) => `    <xhtml:link rel="alternate" hreflang="${hreflangFor(l)}" href="${urlPath(l, path)}" />`,
   ).join('\n');
-  const xDefault = `    <xhtml:link rel="alternate" hreflang="x-default" href="${urlPath('en', path)}" />`;
+  const xDefault = `    <xhtml:link rel="alternate" hreflang="x-default" href="${urlPath(DEFAULT_LOCALE, path)}" />`;
   return `  <!-- blog/${slug}: ${locale} -->\n  <url>\n    <loc>${loc}</loc>\n    <lastmod>${today}</lastmod>\n${alternates}\n${xDefault}\n  </url>`;
 }
 
