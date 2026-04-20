@@ -287,6 +287,22 @@ export default {
     if (isAllowlisted(pathname)) {
       const assetRes = await env.ASSETS.fetch(request);
       if (assetRes.status !== 404) return assetRes;
+
+      // SPA fallback: Vite emits a single `dist/index.html`. Virtual routes
+      // like `/en/`, `/en/blog/...` have no physical file → ASSETS returns
+      // 404. Since the path is allowlisted, serve the SPA shell so SolidJS
+      // Router can render the route client-side. Stale shell risk is bounded
+      // by the allowlist itself.
+      if (method === 'GET' || method === 'HEAD') {
+        const shellReq = new Request(new URL('/', request.url).toString(), {
+          method: 'GET',
+          headers: request.headers,
+        });
+        const shellRes = await env.ASSETS.fetch(shellReq);
+        if (shellRes.status === 200) {
+          return shellRes;
+        }
+      }
     }
 
     // P7: branded 404 fallback.
