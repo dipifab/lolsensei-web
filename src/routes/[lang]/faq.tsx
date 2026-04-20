@@ -4,6 +4,7 @@ import FAQPage from '../../pages/FAQPage';
 import { HreflangCluster } from '../../components/seo/HreflangCluster';
 import { BASE_URL, getRouteSeo } from '../../lib/seo/routes';
 import { canonicalLocale } from '../../lib/i18n/locales';
+import { getStaticMeta } from '../../lib/seo/meta-resolver';
 
 // NOTE: FAQPage JSON-LD (schema.org FAQPage) is deferred.
 // FAQ_ITEMS in src/data/faq.ts expose only i18n message keys
@@ -17,13 +18,15 @@ export default function FAQRoute() {
   const locale = () => canonicalLocale(params.lang);
   const canonical = () => `${BASE_URL}/${locale()}/faq`;
   const ogImage = () => (seo ? `${BASE_URL}${seo.ogImage}` : BASE_URL);
+  const meta = () => getStaticMeta('faq', params.lang);
 
   return (
     <>
-      <Title>FAQ | LoL Sensei</Title>
-      <Meta name="description" content="Frequently asked questions about LoL Sensei" />
+      <Title>{meta().title}</Title>
+      <Meta name="description" content={meta().description} />
       <Link rel="canonical" href={canonical()} />
-      <Meta property="og:title" content="FAQ | LoL Sensei" />
+      <Meta property="og:title" content={meta().title} />
+      <Meta property="og:description" content={meta().description} />
       <Meta property="og:image" content={ogImage()} />
       <Meta property="og:url" content={canonical()} />
       <HreflangCluster path="faq" baseUrl={BASE_URL} />

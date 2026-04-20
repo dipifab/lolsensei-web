@@ -4,6 +4,7 @@ import FeaturesPage from '../../pages/FeaturesPage';
 import { HreflangCluster } from '../../components/seo/HreflangCluster';
 import { BASE_URL, getRouteSeo } from '../../lib/seo/routes';
 import { canonicalLocale } from '../../lib/i18n/locales';
+import { getStaticMeta } from '../../lib/seo/meta-resolver';
 
 export default function FeaturesRoute() {
   const params = useParams<{ lang: string }>();
@@ -11,13 +12,15 @@ export default function FeaturesRoute() {
   const locale = () => canonicalLocale(params.lang);
   const canonical = () => `${BASE_URL}/${locale()}/features`;
   const ogImage = () => (seo ? `${BASE_URL}${seo.ogImage}` : BASE_URL);
+  const meta = () => getStaticMeta('features', params.lang);
 
   return (
     <>
-      <Title>Features | LoL Sensei</Title>
-      <Meta name="description" content="LoL Sensei features overview" />
+      <Title>{meta().title}</Title>
+      <Meta name="description" content={meta().description} />
       <Link rel="canonical" href={canonical()} />
-      <Meta property="og:title" content="Features | LoL Sensei" />
+      <Meta property="og:title" content={meta().title} />
+      <Meta property="og:description" content={meta().description} />
       <Meta property="og:image" content={ogImage()} />
       <Meta property="og:url" content={canonical()} />
       <HreflangCluster path="features" baseUrl={BASE_URL} />
