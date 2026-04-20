@@ -8,15 +8,9 @@ binding = "ASSETS"
 html_handling = "none"
 not_found_handling = "none"
 
-[env.beta]
-name = "lolsensei-web-beta"
-main = ".output/server/index.mjs"
-routes = [
-  { pattern = "beta.lolsensei.com", custom_domain = true }
-]
-
-[env.beta.assets]
-directory = ".output/public"
-binding = "ASSETS"
-html_handling = "none"
-not_found_handling = "none"
+# [env.beta] rimosso (WP18 post-T32): vinxi cloudflare-module preset genera
+# .output/server/wrangler.json (redirected config) copiando gli env sections,
+# ma wrangler 4.84 rifiuta redirected configs con environments. Il worker
+# lolsensei-web-beta continua a esistere autonomamente su Cloudflare dashboard.
+# Per deploy canary futuri: wrangler deploy --name lolsensei-web-beta su worker
+# dedicato oppure setup Cloudflare Pages branch preview.
