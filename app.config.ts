@@ -28,6 +28,7 @@ export default defineConfig({
   ssr: true,
   server: {
     preset: 'cloudflare-module',
+    middleware: './src/middleware.ts',
     prerender: {
       routes: buildPrerenderRoutes(),
       crawlLinks: false,
