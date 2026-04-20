@@ -1,3 +1,7 @@
+# CSP note: 'unsafe-inline' on style-src only.
+# Reasons: Tailwind v4 arbitrary values, Solid style={...} attrs, @solidjs/start hydration.
+# Hash-based style-src planned for WP19 (requires style extraction + hashing pipeline).
+
 /*
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   X-Content-Type-Options: nosniff
