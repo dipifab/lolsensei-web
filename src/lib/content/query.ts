@@ -1,4 +1,3 @@
-import { query } from '@solidjs/router';
 import type { Locale, BlogLocale } from '../i18n/locales';
 import { getBlogPost as loadBlogPost, getBlogPosts } from '../../data/blog';
 import type { BlogPost } from '../../data/blog/types';
@@ -6,38 +5,34 @@ import { FAQ_CATEGORIES, FAQ_ITEMS } from '../../data/faq';
 import type { FAQItem } from '../../data/types';
 
 /**
- * SolidStart query() helpers for SSG/prerender data loaders (WP18 T14).
+ * Content helpers for SSG/prerender data loaders (WP18 T14 rework, T19 unblock).
  *
- * Rationale for adaptations vs original task template:
- * - `src/data/blog/index.ts` already exposes `getBlogPosts(lang)` +
- *   `getBlogPost(lang, slug)`; helpers wrap those instead of re-doing dynamic
- *   imports per slug.
- * - `src/data/faq.ts` is a single flat module keyed by i18n message keys
- *   (questionKey / answerKey). Per-locale copy lives in the i18n dictionary,
- *   so `getFaqEntries(lang)` returns the canonical items+categories tuple.
- *   The `lang` parameter is retained for API symmetry and future per-locale
- *   overrides (currently ignored by data, resolved client-side via i18n).
+ * Rationale:
+ * - Originally these were `query()` wrappers with `'use server'`, which aborted
+ *   the SSG prerender on Cloudflare Workers (cloudflare-module bundle was
+ *   never produced; only 1/74 route processed).
+ * - Blog/FAQ content is fully static filesystem data (no DB, no secrets), so
+ *   we can delegate directly to the static-import APIs in `src/data/`.
+ * - Functions remain `async` for stable consumer signatures (`createAsync` +
+ *   `preload` accept both sync and async return types).
  */
 
-export const getBlogIndex = query(async (lang: BlogLocale): Promise<BlogPost[]> => {
-  'use server';
+export async function getBlogIndex(lang: BlogLocale): Promise<BlogPost[]> {
   return getBlogPosts(lang);
-}, 'blog-index');
+}
 
-export const getBlogPost = query(
-  async (lang: BlogLocale, slug: string): Promise<BlogPost | undefined> => {
-    'use server';
-    return loadBlogPost(lang, slug);
-  },
-  'blog-post',
-);
+export async function getBlogPost(
+  lang: BlogLocale,
+  slug: string,
+): Promise<BlogPost | undefined> {
+  return loadBlogPost(lang, slug);
+}
 
 export interface FaqEntries {
   categories: typeof FAQ_CATEGORIES;
   items: FAQItem[];
 }
 
-export const getFaqEntries = query(async (_lang: Locale): Promise<FaqEntries> => {
-  'use server';
+export async function getFaqEntries(_lang: Locale): Promise<FaqEntries> {
   return { categories: FAQ_CATEGORIES, items: FAQ_ITEMS };
-}, 'faq-entries');
+}
