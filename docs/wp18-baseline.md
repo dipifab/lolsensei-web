@@ -29,7 +29,7 @@ Date: 2026-04-20
 | Total Blocking Time (TBT) | 2768 ms |
 | Cumulative Layout Shift (CLS) | 0 |
 
-Full LHR saved at: `dev-repository/specs/wp19/baseline-lighthouse-mobile.json`
+> Full LHR JSON from Lighthouse run is emitted locally by `scripts/measure-baseline.mjs` (not committed; see WP19 baseline infrastructure for historical reference).
 
 ## HTML files generated (Vite build, `dist/`)
 
