@@ -20,6 +20,7 @@ const CORE_PAGES = [
   { path: '/faq', key: 'faq' },
   { path: '/privacy', key: 'privacy' },
   { path: '/terms', key: 'terms' },
+  { path: '/contact', key: 'contact' },
 ];
 
 const OPTIONAL_PAGES = [
@@ -28,6 +29,17 @@ const OPTIONAL_PAGES = [
   { path: '/about', key: 'about' },
   { path: '/blog', key: 'blog' },
 ];
+
+// Blog post slugs (WP19 — EN+IT content only; other locales ship without per-post pages for now).
+const BLOG_POSTS = [
+  'how-ai-coaching-helps-you-learn-league',
+  'understanding-champion-select',
+  'why-copying-builds-doesnt-help',
+  'how-to-climb-ranked-lol',
+  'how-to-stop-tilting-lol',
+  'best-lol-ai-coach-2026',
+];
+const BLOG_LOCALES = ['en', 'it'];
 
 const PAGES = PUBLIC_PAGES_ENABLED ? [...CORE_PAGES, ...OPTIONAL_PAGES] : CORE_PAGES;
 
@@ -55,6 +67,26 @@ const entries = [];
 for (const page of PAGES) {
   for (const locale of LOCALES) {
     entries.push(buildUrlEntry(locale, page));
+  }
+}
+
+// Blog post entries — EN+IT only. Per-post hreflang points just to locales
+// where the post actually exists to avoid 404 for crawlers.
+function buildBlogEntry(locale, slug) {
+  const path = `/blog/${slug}`;
+  const loc = urlPath(locale, path);
+  const alternates = BLOG_LOCALES.map(
+    (l) => `    <xhtml:link rel="alternate" hreflang="${hreflangFor(l)}" href="${urlPath(l, path)}" />`,
+  ).join('\n');
+  const xDefault = `    <xhtml:link rel="alternate" hreflang="x-default" href="${urlPath('en', path)}" />`;
+  return `  <!-- blog/${slug}: ${locale} -->\n  <url>\n    <loc>${loc}</loc>\n    <lastmod>${today}</lastmod>\n${alternates}\n${xDefault}\n  </url>`;
+}
+
+if (PUBLIC_PAGES_ENABLED) {
+  for (const slug of BLOG_POSTS) {
+    for (const locale of BLOG_LOCALES) {
+      entries.push(buildBlogEntry(locale, slug));
+    }
   }
 }
 
