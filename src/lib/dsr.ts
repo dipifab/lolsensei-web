@@ -69,19 +69,56 @@ function requireJwt(): string {
   return token;
 }
 
-async function toDsrError(res: Response): Promise<DsrError> {
-  let body: { detail?: string; error_code?: string } = {};
+// WP24 R2-MAJ-01 — shape error DSR multi-formato.
+//
+// Il backend WP24 emette errori DSR con shape uniforme:
+//   {"detail": {"error": {"code": "<SNAKE>", "message": "<user-facing>"}}}
+// (FastAPI wrappa HTTPException.detail in {"detail": ...}).
+//
+// Alcuni endpoint WP16 legacy e alcune validazioni Pydantic restano con:
+//   {"detail": "<string>", "error_code": "<SNAKE>"}
+//
+// Il parser supporta entrambe le shape per retrocompat ed evita toast
+// "[object Object]" / fallback "HTTP 429" senza messaggio localizzato.
+type DsrErrorBody = {
+  detail?:
+    | string
+    | { error?: { code?: string; message?: string } }
+    | Record<string, unknown>;
+  error?: { code?: string; message?: string };
+  error_code?: string;
+};
+
+export async function toDsrError(res: Response): Promise<DsrError> {
+  let body: DsrErrorBody = {};
   try {
-    body = await res.json();
+    body = (await res.json()) as DsrErrorBody;
   } catch {
     // no body
   }
   const retryHeader = res.headers.get('Retry-After');
   const retrySec = retryHeader != null ? Number(retryHeader) : NaN;
+
+  // Shape WP24 uniforme: detail.error.{code,message}
+  // Shape intermedia (rate-limit DSR pre-R2): body.error.{code,message}
+  // Shape legacy WP16: body.error_code + body.detail stringa
+  const detailValue = body.detail;
+  const nestedError =
+    typeof detailValue === 'object' && detailValue !== null
+      ? (detailValue as { error?: { code?: string; message?: string } }).error
+      : undefined;
+  const topLevelError = body.error;
+  const errObj = nestedError ?? topLevelError;
+
+  const detail =
+    errObj?.message ??
+    (typeof detailValue === 'string' ? detailValue : `HTTP ${res.status}`);
+  const errorCode = errObj?.code ?? body.error_code;
+
   return {
     status: res.status,
-    detail: body.detail ?? `HTTP ${res.status}`,
-    error_code: body.error_code,
+    detail,
+    error_code: errorCode,
     retry_after_sec: Number.isFinite(retrySec) ? retrySec : undefined,
   };
 }

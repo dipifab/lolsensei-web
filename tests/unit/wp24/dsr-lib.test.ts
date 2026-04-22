@@ -67,4 +67,64 @@ describe('dsr lib (WP24)', () => {
       retry_after_sec: 86400,
     });
   });
+
+  // WP24 R2-MAJ-01 — shape DSR uniforme {detail:{error:{code,message}}}
+  it('parses WP24 uniform DSR shape — 429 rate-limited with nested error', async () => {
+    setAuthJwt('TOKEN');
+    const body = {
+      detail: {
+        error: {
+          code: 'DSR_EXPORT_RATE_LIMIT',
+          message: 'Export rate-limited. Retry in 10 minutes.',
+        },
+      },
+    };
+    const res = new Response(JSON.stringify(body), {
+      status: 429,
+      headers: { 'Content-Type': 'application/json', 'Retry-After': '600' },
+    });
+    vi.stubGlobal('fetch', vi.fn(() => Promise.resolve(res)));
+    try {
+      await getUserDataExport();
+      throw new Error('should not reach');
+    } catch (err) {
+      const e = err as DsrError;
+      expect(e.status).toBe(429);
+      expect(e.error_code).toBe('DSR_EXPORT_RATE_LIMIT');
+      expect(e.detail).toBe('Export rate-limited. Retry in 10 minutes.');
+      expect(e.retry_after_sec).toBe(600);
+    }
+  });
+
+  it('parses WP24 uniform DSR shape — 503 export failed', async () => {
+    setAuthJwt('TOKEN');
+    const body = {
+      detail: {
+        error: {
+          code: 'DSR_EXPORT_FAILED',
+          message: 'Export temporarily unavailable. Please try again.',
+        },
+      },
+    };
+    const res = new Response(JSON.stringify(body), {
+      status: 503,
+      headers: { 'Content-Type': 'application/json' },
+    });
+    vi.stubGlobal('fetch', vi.fn(() => Promise.resolve(res)));
+    await expect(getUserDataExport()).rejects.toMatchObject({
+      status: 503,
+      error_code: 'DSR_EXPORT_FAILED',
+      detail: 'Export temporarily unavailable. Please try again.',
+    });
+  });
+
+  it('falls back to HTTP message for non-JSON error', async () => {
+    setAuthJwt('TOKEN');
+    const res = new Response('gateway down', { status: 502 });
+    vi.stubGlobal('fetch', vi.fn(() => Promise.resolve(res)));
+    await expect(getUserDataExport()).rejects.toMatchObject({
+      status: 502,
+      detail: 'HTTP 502',
+    });
+  });
 });

@@ -157,15 +157,21 @@ export default createMiddleware({
       if (contentType.includes('text/html')) {
         event.response.headers.set(CSP_HEADER_NAME, CSP_HEADER);
 
-        // WP24 M4 (SEC#7) — hardening cross-origin isolation.
-        // COOP same-origin e COEP require-corp mitigano classi di attacchi
-        // Spectre-style e cross-origin leaks che non sono coperti da CSP.
+        // WP24 M4 (SEC#7) + R2-MAJ-03 — hardening cross-origin isolation.
+        // COOP ``same-origin`` mitiga Spectre-style cross-origin leaks.
+        // COEP ``credentialless`` (invece di ``require-corp``): le risorse
+        // cross-origin senza credenziali sono accettate senza bisogno di
+        // ``Cross-Origin-Resource-Policy`` esplicito dall'origine remota.
+        // Questo e' necessario per il beacon CF Web Analytics
+        // (``static.cloudflareinsights.com/beacon.min.js``) caricato con
+        // ``crossorigin="anonymous"`` — con ``require-corp`` veniva
+        // potenzialmente bloccato se CF non emetteva CORP. Tradeoff:
+        // ``credentialless`` rilassa leggermente la protezione Spectre
+        // ma resta compatibile con il threat model LoL Sensei (no iframe
+        // cross-origin, script CF stateless).
         event.response.headers.set('Cross-Origin-Opener-Policy', 'same-origin');
         event.response.headers.set('Cross-Origin-Resource-Policy', 'same-origin');
-        // Nota: COEP: require-corp blocca iframe/worker cross-origin. Applicato
-        // solo se il sito non embedda contenuti esterni — LoL Sensei web non lo
-        // fa (beacon Cloudflare e' <script>, non iframe).
-        event.response.headers.set('Cross-Origin-Embedder-Policy', 'require-corp');
+        event.response.headers.set('Cross-Origin-Embedder-Policy', 'credentialless');
         // Reporting-API endpoint group referenziato da ``report-to`` nella CSP.
         event.response.headers.set(
           'Reporting-Endpoints',

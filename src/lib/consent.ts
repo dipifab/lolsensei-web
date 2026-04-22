@@ -48,17 +48,41 @@ function sleep(ms: number): Promise<void> {
   return new Promise((r) => setTimeout(r, ms));
 }
 
-async function toConsentError(res: Response): Promise<ConsentError> {
-  let body: { detail?: string; error_code?: string } = {};
+// WP24 R2-MAJ-01 — shape error multi-formato (allineato a dsr.ts::toDsrError).
+// Backend WP24 emette `{"detail": {"error": {"code", "message"}}}` o
+// `{"detail": {"code": ...}}` su validazione; legacy usa `{"detail": str, "error_code": str}`.
+type ConsentErrorBody = {
+  detail?:
+    | string
+    | { error?: { code?: string; message?: string }; code?: string }
+    | Record<string, unknown>;
+  error?: { code?: string; message?: string };
+  error_code?: string;
+};
+
+export async function toConsentError(res: Response): Promise<ConsentError> {
+  let body: ConsentErrorBody = {};
   try {
-    body = await res.json();
+    body = (await res.json()) as ConsentErrorBody;
   } catch {
     // body non JSON
   }
+  const detailValue = body.detail;
+  const detailObj =
+    typeof detailValue === 'object' && detailValue !== null
+      ? (detailValue as { error?: { code?: string; message?: string }; code?: string })
+      : undefined;
+  const errObj = detailObj?.error ?? body.error;
+
+  const detail =
+    errObj?.message ??
+    (typeof detailValue === 'string' ? detailValue : `HTTP ${res.status}`);
+  const errorCode = errObj?.code ?? detailObj?.code ?? body.error_code;
+
   return {
     status: res.status,
-    detail: body.detail ?? `HTTP ${res.status}`,
-    error_code: body.error_code,
+    detail,
+    error_code: errorCode,
   };
 }
 
