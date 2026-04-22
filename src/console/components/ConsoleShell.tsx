@@ -47,8 +47,15 @@ export default function ConsoleShell(props: ConsoleShellProps) {
 
   createEffect(() => {
     checkApiStatus();
-    const interval = setInterval(checkApiStatus, 30_000);
-    onCleanup(() => clearInterval(interval));
+    const interval = setInterval(checkApiStatus, 300_000);
+    const onVisibility = () => {
+      if (document.visibilityState === 'visible') checkApiStatus();
+    };
+    document.addEventListener('visibilitychange', onVisibility);
+    onCleanup(() => {
+      clearInterval(interval);
+      document.removeEventListener('visibilitychange', onVisibility);
+    });
   });
 
   createEffect(() => {
