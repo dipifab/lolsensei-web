@@ -5,6 +5,10 @@ const icons: Record<string, string> = {
   // --- Outlined variants ---
   analytics:
     'M7 20h4V8H7v12zm6-16v16h4V4h-4zM3 20h4v-8H3v8z',
+  dataset:
+    'M11 7H7v4h4V7zm2 10h4v-4h-4v4zm4-6V7h-4v4h4zm-6 6v-4H7v4h4zM5 3h14c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2H5c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2zm0 2v14h14V5H5z',
+  sync:
+    'M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46A7.93 7.93 0 0 0 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74A7.93 7.93 0 0 0 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z',
   arrow_back:
     'M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z',
   block:

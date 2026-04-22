@@ -124,6 +124,20 @@ export interface PromotionUpdateRequest {
   is_active?: boolean;
 }
 
+// === Game Data (Data Dragon sync) ===
+
+export interface GameDataPatchResponse {
+  version: string;
+  champions_count: number;
+  items_count: number;
+}
+
+export interface GameDataSyncResponse {
+  version: string;
+  champions_synced: number;
+  items_synced: number;
+}
+
 // === Trial Config ===
 
 export interface TrialConfigResponse {

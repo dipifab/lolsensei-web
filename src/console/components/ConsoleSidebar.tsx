@@ -18,6 +18,7 @@ const NAV_ITEMS: readonly NavItem[] = [
   { label: 'AI Providers', href: '/console/ai-providers', icon: 'smart_toy' },
   { label: 'Admin Users', href: '/console/admin-users', icon: 'person' },
   { label: 'Allowlist', href: '/console/allowlist', icon: 'verified_user' },
+  { label: 'Game Data', href: '/console/game-data', icon: 'dataset' },
 ] as const;
 
 interface ConsoleSidebarProps {
