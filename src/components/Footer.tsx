@@ -1,5 +1,6 @@
 import { A } from '@solidjs/router';
 import { useI18n } from '../i18n';
+import { consentStore } from '../stores/consentStore';
 
 export default function Footer() {
   const { t, locale } = useI18n();
@@ -23,6 +24,16 @@ export default function Footer() {
           <A href={localizedHref('/privacy')} class={linkClass}>
             {t('footer.privacy')}
           </A>
+          <A href={localizedHref('/cookies')} class={linkClass}>
+            {t('cookies.title')}
+          </A>
+          <button
+            type="button"
+            onClick={() => consentStore.openCenter()}
+            class={`${linkClass} bg-transparent border-0 cursor-pointer`}
+          >
+            {t('consent.footer_link')}
+          </button>
           <A href={localizedHref('/community')} class={linkClass}>
             {t('nav.community')}
           </A>

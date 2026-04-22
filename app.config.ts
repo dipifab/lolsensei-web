@@ -1,5 +1,8 @@
 import { defineConfig } from '@solidjs/start/config';
 import tailwindcss from '@tailwindcss/vite';
+import mdx from '@mdx-js/rollup';
+import remarkFrontmatter from 'remark-frontmatter';
+import remarkMdxFrontmatter from 'remark-mdx-frontmatter';
 
 const PUBLIC_PAGES_ENABLED = process.env.VITE_PUBLIC_PAGES_ENABLED === 'true';
 
@@ -35,7 +38,21 @@ export default defineConfig({
       autoSubfolderIndex: false,
     },
   },
+  extensions: ['mdx', 'md', 'ts', 'tsx', 'js', 'jsx'],
   vite: {
-    plugins: [tailwindcss()],
+    plugins: [
+      {
+        // WP24 TASK-3-026 — MDX plugin enforced-pre so Vinxi route loader
+        // recognises `.mdx` files before SolidJS/TS transforms.
+        enforce: 'pre',
+        ...mdx({
+          jsx: true,
+          jsxImportSource: 'solid-js',
+          providerImportSource: undefined,
+          remarkPlugins: [remarkFrontmatter, remarkMdxFrontmatter],
+        }),
+      },
+      tailwindcss(),
+    ],
   },
 });

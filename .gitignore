@@ -39,3 +39,7 @@ test-results/
 
 # Local baseline artifacts (Lighthouse JSON, etc.) — not committed
 dev-repository/
+
+# Test and perf report artifacts
+playwright-report/
+.lighthouseci/

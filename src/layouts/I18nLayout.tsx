@@ -1,7 +1,11 @@
-import { createEffect, onCleanup } from 'solid-js';
+import { createEffect, onCleanup, Show } from 'solid-js';
+import { isServer } from 'solid-js/web';
 import type { RouteSectionProps } from '@solidjs/router';
 import { useParams } from '@solidjs/router';
 import { I18nProvider, isValidLocale, DEFAULT_LOCALE } from '../i18n';
+import CookieBanner from '../components/CookieBanner';
+import CFAnalytics from '../components/CFAnalytics';
+import ToastContainer from '../components/ui/Toast';
 
 export default function I18nLayout(props: RouteSectionProps) {
   const params = useParams<{ lang?: string }>();
@@ -20,5 +24,15 @@ export default function I18nLayout(props: RouteSectionProps) {
     }
   });
 
-  return <I18nProvider>{props.children}</I18nProvider>;
+  return (
+    <I18nProvider>
+      {props.children}
+      {/* WP24 TASK-3-022: cookie banner + toast globali, client-only (Show gate SSR). */}
+      <Show when={!isServer}>
+        <CookieBanner />
+        <ToastContainer />
+        <CFAnalytics />
+      </Show>
+    </I18nProvider>
+  );
 }

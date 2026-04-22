@@ -5,7 +5,9 @@
         "http://127.0.0.1:8787/en/",
         "http://127.0.0.1:8787/en/pricing",
         "http://127.0.0.1:8787/en/faq",
-        "http://127.0.0.1:8787/en/blog"
+        "http://127.0.0.1:8787/en/blog",
+        "http://127.0.0.1:8787/en/privacy",
+        "http://127.0.0.1:8787/en/cookies"
       ],
       "numberOfRuns": 3,
       "settings": {
@@ -20,7 +22,17 @@
             "first-contentful-paint": ["warn", {"maxNumericValue": 1200}],
             "largest-contentful-paint": ["error", {"maxNumericValue": 2500}],
             "cumulative-layout-shift": ["error", {"maxNumericValue": 0.1}],
-            "categories:performance": ["error", {"minScore": 0.9}]
+            "categories:performance": ["error", {"minScore": 0.9}],
+            "categories:accessibility": ["error", {"minScore": 0.95}]
+          }
+        },
+        {
+          "matchingUrlPattern": "/en/(privacy|cookies)$",
+          "assertions": {
+            "first-contentful-paint": ["warn", {"maxNumericValue": 1200}],
+            "largest-contentful-paint": ["warn", {"maxNumericValue": 2500}],
+            "cumulative-layout-shift": ["warn", {"maxNumericValue": 0.1}],
+            "categories:accessibility": ["error", {"minScore": 0.95}]
           }
         },
         {

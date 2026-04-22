@@ -551,6 +551,54 @@ const it = {
   'cta.preview.modal.description': 'Una breve anteprima che mostra come il coach IA spiega champion select, build e stato di gioco in tempo reale.',
   'cta.preview.modal.close': 'Chiudi anteprima',
   'cta.preview.modal.caption': 'Anteprima in arrivo — qui troverai presto il video finale.',
+
+  // WP24 — GDPR & Cookie Compliance
+  // Cookie banner (Screen #1)
+  'consent.banner.title': 'Rispettiamo la tua privacy',
+  'consent.banner.body': 'Usiamo cookie per far funzionare il sito e, con il tuo consenso, per misurare il traffico e migliorare la tua esperienza. Puoi accettarli tutti, rifiutare i non essenziali o personalizzare le tue scelte. Puoi cambiare idea in qualsiasi momento dal footer.',
+  'consent.banner.accept': 'Accetta tutti',
+  'consent.banner.reject': 'Rifiuta non essenziali',
+  'consent.banner.customize': 'Personalizza',
+  'consent.banner.close_aria': 'Chiudi il banner e rifiuta i cookie non essenziali',
+
+  // Preference Center (Screen #2)
+  'consent.preferences.title': 'Preferenze cookie',
+  'consent.preferences.intro': 'Scegli quali categorie di cookie vuoi abilitare. I cookie strettamente necessari sono sempre attivi perché indispensabili al funzionamento del sito.',
+  'consent.preferences.technical.label': 'Strettamente necessari',
+  'consent.preferences.technical.description': 'Indispensabili per il funzionamento del sito e per memorizzare le tue preferenze. Non possono essere disattivati.',
+  'consent.preferences.analytics.label': 'Statistiche',
+  'consent.preferences.analytics.description': 'Statistiche anonime di utilizzo che ci aiutano a capire come viene usato il sito e a migliorarlo.',
+  'consent.preferences.marketing.label': 'Marketing',
+  'consent.preferences.marketing.description': 'Utilizzati per mostrare contenuti rilevanti o misurare l\'efficacia delle nostre campagne. Al momento non attivi.',
+  'consent.preferences.save': 'Salva preferenze',
+  'consent.preferences.saved': 'Preferenze salvate',
+
+  // Footer link
+  'consent.footer_link': 'Preferenze cookie',
+
+  // Privacy Policy page (WP24 MDX route; `privacy.title` legacy WP10 resta
+  // per retrocompat fino alla riscrittura in TASK-3-012)
+  'privacy.page_title': 'Informativa Privacy',
+  'privacy.changelog': 'Cronologia versioni',
+  'privacy.version_label': 'Versione',
+
+  // Cookie Policy page
+  'cookies.title': 'Informativa Cookie',
+  'cookies.inventory_title': 'Elenco cookie',
+
+  // Settings — Privacy & Data (DSR Dashboard)
+  'settings.privacy.title': 'Privacy e Dati',
+  'settings.privacy.export_button': 'Esporta i miei dati',
+  'settings.privacy.export_description': 'Scarica una copia JSON dei dati del tuo account (profilo, abbonamenti, cronologia consensi).',
+  'settings.privacy.delete_button': 'Elimina il mio account',
+  'settings.privacy.delete_description': 'Anonimizza definitivamente il tuo account. Questa azione non può essere annullata.',
+  'settings.privacy.delete_confirm_placeholder': 'Digita DELETE_MY_ACCOUNT per confermare',
+  'settings.privacy.manage_cookies': 'Gestisci preferenze cookie',
+
+  // Age gate (GDPR Art. 8 — eta minima 16 anni IT/DE)
+  'age_gate.label': 'Confermo di avere almeno 16 anni',
+  'age_gate.error': 'Devi confermare la tua eta per continuare',
+  'age_gate.explanation': 'La normativa europea sulla protezione dei dati (GDPR Art. 8) richiede che tu confermi di avere l\'eta minima per prestare un consenso valido al trattamento dei tuoi dati personali.',
 } as const;
 
 export default it;

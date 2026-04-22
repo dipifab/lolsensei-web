@@ -554,6 +554,54 @@ const en = {
   'cta.preview.modal.description': 'A short preview showing how the AI coach explains champion select, builds, and game state in real time.',
   'cta.preview.modal.close': 'Close preview',
   'cta.preview.modal.caption': 'Preview coming soon — the final clip will appear here.',
+
+  // WP24 — GDPR & Cookie Compliance
+  // Cookie banner (Screen #1)
+  'consent.banner.title': 'We value your privacy',
+  'consent.banner.body': 'We use cookies to run the site and, with your permission, to measure traffic and improve your experience. You can accept all, reject non-essential, or customize your choices. You can change your mind anytime from the footer.',
+  'consent.banner.accept': 'Accept all',
+  'consent.banner.reject': 'Reject non-essential',
+  'consent.banner.customize': 'Customize',
+  'consent.banner.close_aria': 'Close banner and reject non-essential cookies',
+
+  // Preference Center (Screen #2)
+  'consent.preferences.title': 'Cookie preferences',
+  'consent.preferences.intro': 'Choose which categories of cookies you allow. Strictly necessary cookies are always active because they are required for the site to work.',
+  'consent.preferences.technical.label': 'Strictly necessary',
+  'consent.preferences.technical.description': 'Required to run the site and remember your preferences. Cannot be turned off.',
+  'consent.preferences.analytics.label': 'Analytics',
+  'consent.preferences.analytics.description': 'Anonymous usage statistics that help us understand how the site is used and improve it.',
+  'consent.preferences.marketing.label': 'Marketing',
+  'consent.preferences.marketing.description': 'Used to show relevant content or measure the effectiveness of our campaigns. Currently not active.',
+  'consent.preferences.save': 'Save preferences',
+  'consent.preferences.saved': 'Preferences saved',
+
+  // Footer link
+  'consent.footer_link': 'Cookie preferences',
+
+  // Privacy Policy page (WP24 MDX route; `privacy.title` legacy WP10 resta
+  // per retrocompat fino alla riscrittura in TASK-3-012)
+  'privacy.page_title': 'Privacy Policy',
+  'privacy.changelog': 'Changelog',
+  'privacy.version_label': 'Version',
+
+  // Cookie Policy page
+  'cookies.title': 'Cookie Policy',
+  'cookies.inventory_title': 'Cookie inventory',
+
+  // Settings — Privacy & Data (DSR Dashboard)
+  'settings.privacy.title': 'Privacy & Data',
+  'settings.privacy.export_button': 'Export my data',
+  'settings.privacy.export_description': 'Download a JSON copy of your account data (profile, subscriptions, consent history).',
+  'settings.privacy.delete_button': 'Delete my account',
+  'settings.privacy.delete_description': 'Permanently anonymize your account. This action cannot be undone.',
+  'settings.privacy.delete_confirm_placeholder': 'Type DELETE_MY_ACCOUNT to confirm',
+  'settings.privacy.manage_cookies': 'Manage cookie preferences',
+
+  // Age gate (GDPR Art. 8 — minimum age 16 IT/DE, 14-16 others)
+  'age_gate.label': 'I confirm I am at least 16 years old',
+  'age_gate.error': 'You must confirm your age to continue',
+  'age_gate.explanation': 'Under EU data-protection law (GDPR Art. 8), we need your confirmation that you are old enough to provide valid consent for processing your personal data.',
 } as const;
 
 export default en;

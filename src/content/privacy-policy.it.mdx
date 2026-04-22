@@ -1,0 +1,94 @@
+---
+title: Informativa Privacy
+version: 1.0.0
+effective_date: 2026-04-22
+locale: it
+---
+
+# Informativa sulla Privacy
+
+**Versione:** 1.0.0 &nbsp;·&nbsp; **Data di efficacia:** 22 aprile 2026
+
+LoL Sensei ("noi") è gestito da Fabrizio Di Pietro. Questa informativa spiega quali dati personali raccogliamo tramite il sito **lolsensei.com** e l'applicazione desktop LoL Sensei, per quali finalità li trattiamo e quali diritti hai ai sensi del Regolamento generale UE sulla protezione dei dati (GDPR).
+
+Contatto: **privacy@lolsensei.com**.
+
+## 1. Dati che raccogliamo
+
+| Categoria | Dati | Fonte | Base giuridica (GDPR Art. 6) |
+|---|---|---|---|
+| Account | Email, Google account ID, nome visualizzato, foto profilo | Google OAuth | Contratto (Art. 6(1)(b)) |
+| Cronologia consensi | Timestamp, categoria (tecnici/analitici/marketing), versione policy, hash IP, user-agent | Banner cookie + preference center | Obbligo di legge (Art. 6(1)(c)) |
+| Abbonamento | Stripe customer ID, piano, stato, periodo | Checkout Stripe | Contratto (Art. 6(1)(b)) |
+| Utilizzo coaching AI | Contatori aggregati per modello, nessun contenuto prompt | Telemetria app desktop | Interesse legittimo (Art. 6(1)(f)) |
+| Cookie tecnici | Sessione, CSRF, stato consenso, identificativo anonimo | Browser | Obbligo di legge (Art. 6(1)(c)) |
+| Cookie analitici | Cloudflare Web Analytics (cookieless) | Browser, solo se acconsenti | Consenso (Art. 6(1)(a)) |
+
+Non raccogliamo mai: indirizzi IP in chiaro, dati di gioco in tempo reale, numeri di carta (gestiti da Stripe), dati biometrici.
+
+## 2. Come usiamo i tuoi dati
+
+- Fornire e proteggere il servizio LoL Sensei (autenticazione, verifiche di abbonamento).
+- Elaborare e fatturare gli abbonamenti Pro tramite Stripe.
+- Misurare il traffico con strumenti analitici rispettosi della privacy (solo con il tuo consenso).
+- Migliorare la qualità del coaching AI tramite contatori aggregati non identificativi.
+- Adempiere agli obblighi di legge (conservazione consensi, registri fiscali, prevenzione frodi).
+
+**Non** vendiamo i tuoi dati, **non** li condividiamo con reti pubblicitarie, **non** costruiamo profili comportamentali.
+
+## 3. Destinatari dei dati
+
+| Responsabile | Finalità | Sede | Garanzia |
+|---|---|---|---|
+| Cloudflare, Inc. | CDN, Web Analytics, protezione DDoS | USA (edge UE) | SCC, DPA Art. 28 |
+| Stripe Payments Europe Ltd. | Fatturazione abbonamenti | Irlanda (UE) | DPA Art. 28 |
+| Anthropic PBC | Inference AI coaching | USA | SCC, DPA Art. 28 |
+| Railway Corp. | Hosting applicazione | USA | SCC, DPA Art. 28 |
+| Neon Inc. | Hosting database | USA / regione UE | SCC, DPA Art. 28 (vedi `records-of-processing`) |
+
+I Transfer Impact Assessment (TIA) per ciascun responsabile extra-UE sono disponibili su richiesta.
+
+## 4. Conservazione
+
+| Dato | Tempo di conservazione |
+|---|---|
+| Account attivo | Finché non elimini l'account |
+| Account eliminato | Email e Google ID sono hashati in modo irreversibile; la riga anonimizzata resta per prevenzione frodi |
+| Cronologia consensi | 10 anni (analogia Art. 2220 c.c. per evidenza e-commerce) |
+| Fatture Stripe | 10 anni (obbligo fiscale) |
+| Analytics | Cloudflare cookieless: 6 mesi aggregati, nessuna traccia individuale |
+
+## 5. I tuoi diritti (GDPR Art. 15-22)
+
+Puoi esercitare in qualsiasi momento i seguenti diritti:
+
+- **Accesso e portabilità** — scarica una copia JSON del tuo account, abbonamenti e cronologia consensi da **Impostazioni → Privacy e Dati → Esporta i miei dati**.
+- **Cancellazione** — elimina l'account da **Impostazioni → Privacy e Dati → Elimina il mio account**. La cronologia consensi e i log di audit aggregati sono conservati come richiesto dalla legge.
+- **Rettifica** — aggiorna i dati del profilo tramite il tuo account Google o contattandoci.
+- **Revoca del consenso** — in qualsiasi momento tramite **Preferenze cookie** nel footer. La revoca non incide sulla liceità dei trattamenti precedenti.
+- **Opposizione / limitazione** — scrivici a privacy@lolsensei.com.
+- **Reclamo** — al **Garante per la Protezione dei Dati Personali** (garanteprivacy.it).
+
+Rispondiamo entro 30 giorni (Art. 12(3)).
+
+## 6. Minori (GDPR Art. 8)
+
+LoL Sensei non è destinato a minori di 16 anni. Durante l'onboarding devi confermare di avere almeno 16 anni. Se veniamo a conoscenza di dati raccolti da un minore senza idonea autorizzazione, li cancelliamo tempestivamente.
+
+## 7. Sicurezza
+
+- TLS ovunque (HSTS preload).
+- Password: non le trattiamo mai (solo Google OAuth).
+- Cifratura del database a riposo.
+- Content-Security-Policy stretta; analisi statica delle dipendenze in build.
+- Runbook di incident response con notifica violazione entro 72 ore (Art. 33).
+
+## 8. Modifiche a questa informativa
+
+{/* #changelog */}
+
+Utilizziamo il versionamento semantico. Un bump MAJOR (es. 1.x.x → 2.x.x) rappresenta una modifica sostanziale e attiva una richiesta di nuovo consenso. Modifiche MINOR / PATCH sono informative.
+
+### Cronologia versioni
+
+- **1.0.0** — 2026-04-22 — Rilascio iniziale WP24: banner consenso cookie, endpoint DSR (export + cancellazione), age gate, elenco processori aggiornato.

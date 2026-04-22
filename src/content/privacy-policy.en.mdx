@@ -1,0 +1,94 @@
+---
+title: Privacy Policy
+version: 1.0.0
+effective_date: 2026-04-22
+locale: en
+---
+
+# Privacy Policy
+
+**Version:** 1.0.0 &nbsp;·&nbsp; **Effective date:** 22 April 2026
+
+LoL Sensei ("we", "us", "our") is operated by Fabrizio Di Pietro. This policy explains what personal data we collect through the website **lolsensei.com** and the LoL Sensei desktop application, why we process it, and the rights you have under the EU General Data Protection Regulation (GDPR).
+
+Contact: **privacy@lolsensei.com**.
+
+## 1. What we collect
+
+| Category | Data | Source | Legal basis (GDPR Art. 6) |
+|---|---|---|---|
+| Account | Email, Google account ID, display name, picture URL | Google OAuth sign-in | Contract (Art. 6(1)(b)) |
+| Consent history | Timestamp, scope (technical/analytics/marketing), privacy policy version, IP hash, user-agent | Cookie banner + preference center | Legal obligation (Art. 6(1)(c)) |
+| Subscription | Stripe customer ID, plan, status, period dates | Stripe checkout | Contract (Art. 6(1)(b)) |
+| AI coaching usage | Aggregate counters by model, no prompt payloads | Desktop app telemetry | Legitimate interest (Art. 6(1)(f)) |
+| Cookies (technical) | Session, CSRF, consent state, anonymous ID | Browser | Legal obligation (Art. 6(1)(c)) |
+| Cookies (analytics) | Cloudflare Web Analytics (cookieless) | Browser, only if you accept | Consent (Art. 6(1)(a)) |
+
+We never collect: IP addresses in clear text, real-time in-game data, payment card numbers (handled by Stripe), or biometric data.
+
+## 2. How we use your data
+
+- Provide and secure the LoL Sensei service (authentication, entitlement checks).
+- Process and invoice Pro subscriptions via Stripe.
+- Measure traffic with privacy-preserving analytics (only if you consent).
+- Improve AI coaching quality through aggregate, non-identifying usage counters.
+- Comply with legal obligations (consent record-keeping, tax records, fraud prevention).
+
+We **do not** sell your data, share it with advertising networks, or use it to build behavioural profiles.
+
+## 3. Data sharing
+
+| Processor | Purpose | Location | Safeguard |
+|---|---|---|---|
+| Cloudflare, Inc. | CDN, Web Analytics, DDoS protection | US (EU edge) | SCCs, Art. 28 DPA |
+| Stripe Payments Europe Ltd. | Subscription billing | Ireland (EU) | Art. 28 DPA |
+| Anthropic PBC | AI coaching inference | US | SCCs, Art. 28 DPA |
+| Railway Corp. | Application hosting | US | SCCs, Art. 28 DPA |
+| Neon Inc. | Database hosting | US / EU region | SCCs, Art. 28 DPA (see `records-of-processing`) |
+
+Transfer Impact Assessments (TIA) for each non-EU processor are available on request.
+
+## 4. Retention
+
+| Data | Retention |
+|---|---|
+| Account (active) | Until you delete the account |
+| Account (deleted) | Email and Google ID are one-way hashed; the anonymised row is kept for fraud prevention |
+| Consent history | 10 years (Italian civil code Art. 2220 analogous obligation for e-commerce evidence) |
+| Stripe invoices | 10 years (tax obligation) |
+| Analytics | Cloudflare cookieless: 6 months aggregate, no individual traces |
+
+## 5. Your rights (GDPR Art. 15-22)
+
+You can exercise any of the following rights at any time:
+
+- **Access and portability** — download a JSON copy of your account, subscriptions, and consent history from **Settings → Privacy & Data → Export my data**.
+- **Erasure** — delete your account from **Settings → Privacy & Data → Delete my account**. Consent history and aggregate audit logs are retained as required by law.
+- **Rectification** — update profile data via Google account or by contacting us.
+- **Withdraw consent** — at any time via **Cookie preferences** in the footer. Withdrawal does not affect the lawfulness of prior processing.
+- **Object / restrict processing** — email privacy@lolsensei.com.
+- **Lodge a complaint** — with your national Data Protection Authority (in Italy: **Garante per la Protezione dei Dati Personali**, garanteprivacy.it).
+
+We respond within 30 days (Art. 12(3)).
+
+## 6. Children (GDPR Art. 8)
+
+LoL Sensei is not directed at children under 16. During onboarding you must confirm you are at least 16 years old. If we learn we collected data from a minor without proper authorisation, we will delete it promptly.
+
+## 7. Security
+
+- TLS everywhere (HSTS preload).
+- Passwords: we never handle them (Google OAuth only).
+- Database encryption at rest.
+- Strict Content-Security-Policy; static-analysis of dependencies at build time.
+- Incident response runbook with 72-hour breach notification (Art. 33).
+
+## 8. Changes to this policy
+
+{/* #changelog */}
+
+We version this policy using Semantic Versioning. A MAJOR bump (e.g. 1.x.x → 2.x.x) represents a material change and triggers a re-consent prompt. MINOR / PATCH changes are informative.
+
+### Changelog
+
+- **1.0.0** — 2026-04-22 — Initial WP24 release: cookie consent banner, DSR endpoints (export + delete), age gate, updated processor list.

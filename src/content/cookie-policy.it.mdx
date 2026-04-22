@@ -1,0 +1,68 @@
+---
+title: Informativa Cookie
+version: 1.0.0
+effective_date: 2026-04-22
+locale: it
+---
+
+# Informativa Cookie
+
+**Versione:** 1.0.0 &nbsp;·&nbsp; **Data di efficacia:** 22 aprile 2026
+
+Questa pagina integra l'[Informativa Privacy](/it/privacy). Elenca ogni cookie e meccanismo di archiviazione lato browser utilizzato da **lolsensei.com**, la base giuridica con cui viene impostato e quanto dura.
+
+Puoi accettare, rifiutare o personalizzare i cookie non essenziali in qualsiasi momento tramite il link **Preferenze cookie** nel footer.
+
+## 1. Come funziona il consenso
+
+- Non impostiamo mai cookie analitici o di marketing prima del tuo consenso.
+- I cookie strettamente necessari sono sempre attivi e non richiedono consenso (Direttiva 2002/58/CE Art. 5(3)).
+- Lo scorrimento non equivale a consenso. La chiusura del banner equivale al rifiuto dei cookie non essenziali.
+- Un bump MAJOR di questa informativa attiva una nuova richiesta di consenso.
+
+## 2. Elenco cookie
+
+{/* #inventario */}
+
+### 2.1 Strettamente necessari
+
+| Nome | Finalità | Durata | Parte |
+|---|---|---|---|
+| `lolsensei_consent` | Memorizza le tue preferenze cookie (JSON: `technical`, `analytics`, `marketing`) | 6 mesi | Prima parte |
+| `lolsensei_anon` | Identificativo anonimo per riconciliare il consenso pre-login con il tuo account | 6 mesi | Prima parte |
+| `jwt` (localStorage) | Token di sessione dopo l'accesso | Sessione / logout esplicito | Prima parte |
+| `csrf` (sessione) | Protezione contro attacchi CSRF | Sessione | Prima parte |
+
+### 2.2 Analitici (opt-in)
+
+| Nome | Finalità | Durata | Parte |
+|---|---|---|---|
+| Cloudflare Web Analytics | Metriche di traffico aggregate (pagine viste, paese, classe di dispositivo) | **Cookieless** — nessun cookie browser | Prima parte tramite `static.cloudflareinsights.com` |
+
+Cloudflare Web Analytics è configurato per funzionare **senza cookie**. Viene caricato solo se concedi il consenso per gli analitici.
+
+### 2.3 Marketing
+
+Al momento non utilizziamo cookie di marketing. Se la situazione cambia, il banner richiederà nuovamente il consenso.
+
+## 3. Servizi di terze parti (nessun cookie su lolsensei.com)
+
+I seguenti fornitori operano su domini diversi (checkout, fatturazione, inference AI). Possono impostare propri cookie quando interagisci con i loro flussi:
+
+- **Stripe Payments Europe Ltd.** — fatturazione; cookie impostati solo su `checkout.stripe.com`.
+- **Google Inc.** — accesso OAuth; cookie impostati solo su `accounts.google.com`.
+- **Anthropic PBC** — inference coaching AI; nessun cookie, solo API.
+
+## 4. Come gestire i cookie
+
+- **Dall'app**: usa il bottone **Preferenze cookie** nel footer in qualsiasi momento.
+- **Dal browser**: Chrome, Firefox, Safari ed Edge consentono di bloccare o eliminare i cookie. Questo può compromettere le funzionalità tecniche.
+- **Do Not Track**: rispettiamo il segnale `GPC` (Global Privacy Control) impostando di default analytics e marketing a disattivati.
+
+## 5. Domande
+
+Scrivici a **privacy@lolsensei.com** — rispondiamo entro 30 giorni (GDPR Art. 12(3)).
+
+### Cronologia versioni
+
+- **1.0.0** — 2026-04-22 — Rilascio iniziale WP24.

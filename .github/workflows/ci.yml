@@ -49,6 +49,31 @@ jobs:
       - name: Verify bundle is clean (WP21 CLR-213)
         run: npm run check:bundle-clean
 
+      - name: WP24 bundle guard (banner<8KB, preference-center<15KB)
+        run: bash scripts/check-bundle-wp24.sh
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: WP24 E2E smoke (tag @wp24, fast gate <10min)
+        env:
+          PLAYWRIGHT_BASE_URL: http://127.0.0.1:8787
+        run: |
+          npx wrangler dev --port 8787 --local &
+          WRANGLER_PID=$!
+          # attendi che il server sia up
+          for i in $(seq 1 30); do
+            if curl -sf http://127.0.0.1:8787/en/ > /dev/null; then
+              break
+            fi
+            sleep 1
+          done
+          set +e
+          npx playwright test --grep @wp24 --project=desktop-chrome
+          EC=$?
+          kill $WRANGLER_PID || true
+          exit $EC
+
       - name: Install Lighthouse CI
         run: npm install -g @lhci/cli
 

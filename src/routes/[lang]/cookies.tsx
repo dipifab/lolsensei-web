@@ -1,5 +1,4 @@
-// WP24 TASK-3-012 — Privacy Policy route (MDX SSG).
-// Build-time inline `VITE_PRIVACY_POLICY_VERSION` come badge versione.
+// WP24 TASK-3-013 — Cookie Policy route (MDX SSG).
 import { Link, Meta, Title } from '@solidjs/meta';
 import { ErrorBoundary, Show } from 'solid-js';
 import Navbar from '../../components/Navbar';
@@ -8,23 +7,23 @@ import { HreflangCluster } from '../../components/seo/HreflangCluster';
 import { useI18n } from '../../i18n';
 import { BASE_URL } from '../../lib/seo/routes';
 import { canonicalLocale } from '../../lib/i18n/locales';
-import PrivacyEN from '../../content/privacy-policy.en.mdx';
-import PrivacyIT from '../../content/privacy-policy.it.mdx';
+import CookiesEN from '../../content/cookie-policy.en.mdx';
+import CookiesIT from '../../content/cookie-policy.it.mdx';
 
 const POLICY_VERSION =
   (import.meta.env.VITE_PRIVACY_POLICY_VERSION as string | undefined) ?? '1.0.0';
 
-export default function PrivacyRoute() {
+export default function CookiesRoute() {
   const { t, locale } = useI18n();
-  const canonical = () => `${BASE_URL}/${canonicalLocale(locale())}/privacy`;
-  const pageTitle = () => `${t('privacy.page_title')} — LoL Sensei`;
+  const canonical = () => `${BASE_URL}/${canonicalLocale(locale())}/cookies`;
+  const pageTitle = () => `${t('cookies.title')} — LoL Sensei`;
 
   return (
     <>
       <Title>{pageTitle()}</Title>
-      <Meta name="description" content="LoL Sensei privacy policy: what data we collect, processors, retention, and your GDPR rights." />
+      <Meta name="description" content="LoL Sensei cookie inventory: names, purpose, duration, and how to manage your preferences." />
       <Link rel="canonical" href={canonical()} />
-      <HreflangCluster path="privacy" baseUrl={BASE_URL} />
+      <HreflangCluster path="cookies" baseUrl={BASE_URL} />
       <Navbar />
       <main class="mx-auto max-w-[65ch] px-6 py-10 md:py-16 text-on-surface prose prose-sm md:prose prose-invert prose-headings:font-headline prose-a:text-primary-container">
         <div class="mb-6 text-xs uppercase tracking-wider text-on-surface/60">
@@ -34,20 +33,20 @@ export default function PrivacyRoute() {
           fallback={
             <div>
               <p>
-                The full privacy policy is temporarily unavailable in this language.
+                The full cookie policy is temporarily unavailable in this language.
                 For any privacy-related inquiry, contact{' '}
                 <a href="mailto:privacy@lolsensei.com">privacy@lolsensei.com</a>.
               </p>
               <p>
-                English version: <a href={`${BASE_URL}/en/privacy`}>lolsensei.com/en/privacy</a>
+                English version: <a href={`${BASE_URL}/en/cookies`}>lolsensei.com/en/cookies</a>
                 {' · '}
-                Italian version: <a href={`${BASE_URL}/it/privacy`}>lolsensei.com/it/privacy</a>.
+                Italian version: <a href={`${BASE_URL}/it/cookies`}>lolsensei.com/it/cookies</a>.
               </p>
             </div>
           }
         >
-          <Show when={locale() === 'it'} fallback={<PrivacyEN />}>
-            <PrivacyIT />
+          <Show when={locale() === 'it'} fallback={<CookiesEN />}>
+            <CookiesIT />
           </Show>
         </ErrorBoundary>
       </main>

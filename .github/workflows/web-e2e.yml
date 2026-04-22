@@ -1,0 +1,67 @@
+name: Web E2E full suite (WP24 TASK-4-026)
+
+# Workflow dedicato alla suite Playwright completa (@wp24 + wp10/18/19).
+# Trigger su pull_request (opt-in via label) o manual dispatch, per tenere
+# il PR-gate base <10min. La full suite include tutti i project
+# (desktop-chrome + mobile-chrome) e i visual baseline.
+
+on:
+  pull_request:
+    types: [labeled]
+  workflow_dispatch:
+
+jobs:
+  e2e-full:
+    if: github.event.label.name == 'run-full-e2e' || github.event_name == 'workflow_dispatch'
+    name: Full E2E suite (all projects)
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build (prod)
+        env:
+          VITE_GOOGLE_CLIENT_ID: ci-placeholder
+          VITE_PUBLIC_PAGES_ENABLED: 'true'
+        run: npm run build
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium webkit
+
+      - name: Run wrangler dev (background)
+        run: |
+          npx wrangler dev --port 8787 --local &
+          echo $! > /tmp/wrangler.pid
+          for i in $(seq 1 30); do
+            if curl -sf http://127.0.0.1:8787/en/ > /dev/null; then
+              break
+            fi
+            sleep 1
+          done
+
+      - name: Playwright full suite
+        env:
+          PLAYWRIGHT_BASE_URL: http://127.0.0.1:8787
+        run: npx playwright test
+
+      - name: Upload Playwright report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 7
+
+      - name: Stop wrangler
+        if: always()
+        run: kill $(cat /tmp/wrangler.pid) || true
