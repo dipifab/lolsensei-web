@@ -8,6 +8,8 @@
     "prebuild": "bash scripts/check-competitors.sh && node scripts/generate-sitemap.mjs",
     "build:favicons": "node scripts/generate-favicons.mjs",
     "build": "cross-env NODE_ENV=production vinxi build && node scripts/compute-csp-hashes.mjs && cross-env NODE_ENV=production vinxi build",
+    "build:prod": "cross-env NODE_ENV=production VITE_API_BASE_URL=https://api.lolsensei.com VITE_GOOGLE_CLIENT_ID=131572792996-nquuph9r1ki8i1n7oditjg9j94v6194r.apps.googleusercontent.com VITE_PRIVACY_POLICY_VERSION=1.0.0 VITE_PUBLIC_PAGES_ENABLED=true VITE_CONSENT_BANNER_ENABLED=false VITE_CSP_REPORT_ONLY=false VITE_BUILD_VERSION=production npm run build",
+    "deploy:prod": "npm run build:prod && npx wrangler deploy",
     "build:beta": "tsc -b && vite build --mode beta",
     "deploy:beta": "npm run build:beta && npx wrangler deploy --env beta",
     "preview": "vite preview",
