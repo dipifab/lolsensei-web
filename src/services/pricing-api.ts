@@ -104,7 +104,7 @@ export async function fetchPricing(signal?: AbortSignal): Promise<PricingRespons
     return lastKnown;
   }
 
-  const url = `${ENV.apiBaseUrl}/api/v1/public/pricing`;
+  const url = `${ENV.apiBaseUrl}/api/subscription/pricing`;
   const timeoutController = new AbortController();
   const timer = setTimeout(() => timeoutController.abort(), TIMEOUT_MS);
 
