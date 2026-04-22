@@ -19,18 +19,18 @@ function computeDateRange(range: DateRange): { start: string; end: string } {
   switch (range) {
     case '7d':
       start = new Date(today);
-      start.setDate(start.getDate() - 7);
+      start.setUTCDate(start.getUTCDate() - 7);
       break;
     case '30d':
       start = new Date(today);
-      start.setDate(start.getDate() - 30);
+      start.setUTCDate(start.getUTCDate() - 30);
       break;
     case '90d':
       start = new Date(today);
-      start.setDate(start.getDate() - 90);
+      start.setUTCDate(start.getUTCDate() - 90);
       break;
     case 'ytd':
-      start = new Date(today.getFullYear(), 0, 1);
+      start = new Date(Date.UTC(today.getUTCFullYear(), 0, 1));
       break;
   }
 
@@ -38,10 +38,7 @@ function computeDateRange(range: DateRange): { start: string; end: string } {
 }
 
 function formatISODate(date: Date): string {
-  const y = date.getFullYear();
-  const m = String(date.getMonth() + 1).padStart(2, '0');
-  const d = String(date.getDate()).padStart(2, '0');
-  return `${y}-${m}-${d}`;
+  return date.toISOString().slice(0, 10);
 }
 
 const RANGE_OPTIONS: { value: DateRange; label: string }[] = [
