@@ -79,7 +79,11 @@ function buildCspHeader(): string {
     "frame-ancestors 'none'",
     "base-uri 'self'",
     "form-action 'self' https://api.lolsensei.com",
-    'report-uri /csp-report',
+    // WP24 M4 — ``report-to`` e' il successore di ``report-uri`` (deprecato).
+    // Entrambi emessi per compat: browser legacy usano report-uri, i moderni
+    // preferiscono report-to e il Reporting-API group ``csp-endpoint``.
+    "report-uri /csp-report",
+    "report-to csp-endpoint",
   ].join('; ');
 }
 
@@ -152,6 +156,21 @@ export default createMiddleware({
       const contentType = event.response.headers.get('content-type') || '';
       if (contentType.includes('text/html')) {
         event.response.headers.set(CSP_HEADER_NAME, CSP_HEADER);
+
+        // WP24 M4 (SEC#7) — hardening cross-origin isolation.
+        // COOP same-origin e COEP require-corp mitigano classi di attacchi
+        // Spectre-style e cross-origin leaks che non sono coperti da CSP.
+        event.response.headers.set('Cross-Origin-Opener-Policy', 'same-origin');
+        event.response.headers.set('Cross-Origin-Resource-Policy', 'same-origin');
+        // Nota: COEP: require-corp blocca iframe/worker cross-origin. Applicato
+        // solo se il sito non embedda contenuti esterni — LoL Sensei web non lo
+        // fa (beacon Cloudflare e' <script>, non iframe).
+        event.response.headers.set('Cross-Origin-Embedder-Policy', 'require-corp');
+        // Reporting-API endpoint group referenziato da ``report-to`` nella CSP.
+        event.response.headers.set(
+          'Reporting-Endpoints',
+          'csp-endpoint="/csp-report"'
+        );
       }
 
       // NOINDEX + Cache-Control: sensitive paths (checkout/console/auth).

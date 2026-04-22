@@ -599,6 +599,32 @@ const it = {
   'age_gate.label': 'Confermo di avere almeno 16 anni',
   'age_gate.error': 'Devi confermare la tua eta per continuare',
   'age_gate.explanation': 'La normativa europea sulla protezione dei dati (GDPR Art. 8) richiede che tu confermi di avere l\'eta minima per prestare un consenso valido al trattamento dei tuoi dati personali.',
+  'age_gate.page_title': 'Conferma la tua eta — LoL Sensei',
+  'age_gate.heading': 'Prima di continuare',
+  'age_gate.submit': 'Continua',
+  'age_gate.submit_error': 'Impossibile confermare in questo momento. Riprova.',
+
+  // Common UI strings shared across components
+  'common.cancel': 'Annulla',
+  'common.close': 'Chiudi',
+  'common.dismiss': 'Chiudi',
+  'common.loading': 'Caricamento',
+
+  // A11y labels
+  'a11y.notifications': 'Notifiche',
+  'a11y.privacy_nav': 'Preferenze privacy e cookie',
+
+  // Settings privacy DSR — status/errors (U3)
+  'settings.privacy.export_success': 'Esportazione pronta — il download e\' avviato',
+  'settings.privacy.delete_success': 'Account anonimizzato',
+  'settings.privacy.error.export_failed': 'Esportazione non riuscita. Riprova.',
+  'settings.privacy.error.delete_failed': 'Eliminazione non riuscita. Riprova.',
+  'settings.privacy.error.rate_limited': 'Limite richieste raggiunto. Riprova tra {minutes} min.',
+  'settings.privacy.delete_mismatch_hint': 'Digita esattamente DELETE_MY_ACCOUNT per abilitare il pulsante.',
+
+  // MDX ErrorBoundary fallback localized
+  'privacy.policy_unavailable': 'La privacy policy non e\' momentaneamente disponibile. Riprova piu\' tardi.',
+  'cookies.policy_unavailable': 'La cookie policy non e\' momentaneamente disponibile. Riprova piu\' tardi.',
 } as const;
 
 export default it;

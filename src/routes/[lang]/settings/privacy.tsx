@@ -39,13 +39,17 @@ export default function SettingsPrivacyRoute() {
     try {
       const data = await getUserDataExport();
       downloadExportAsJson(data);
-      pushToast({ message: t('consent.preferences.saved'), variant: 'success' });
+      // WP24 F-06 — copy dedicato per l'export (non la chiave consent.preferences.saved).
+      pushToast({ message: t('settings.privacy.export_success'), variant: 'success' });
     } catch (err) {
       const e = err as DsrError;
       const msg =
         e.status === 429 && e.retry_after_sec
-          ? `Rate limited. Retry in ${Math.ceil(e.retry_after_sec / 60)} min.`
-          : e.detail || 'Export failed';
+          ? t('settings.privacy.error.rate_limited').replace(
+              '{minutes}',
+              String(Math.ceil(e.retry_after_sec / 60)),
+            )
+          : e.detail || t('settings.privacy.error.export_failed');
       pushToast({ message: msg, variant: 'error' });
     } finally {
       setExporting(false);
@@ -58,11 +62,14 @@ export default function SettingsPrivacyRoute() {
     try {
       await deleteUserData();
       setConfirmOpen(false);
-      pushToast({ message: 'Account anonymized.', variant: 'success' });
+      pushToast({ message: t('settings.privacy.delete_success'), variant: 'success' });
       navigate(`/${locale()}/`, { replace: true });
     } catch (err) {
       const e = err as DsrError;
-      pushToast({ message: e.detail || 'Delete failed', variant: 'error' });
+      pushToast({
+        message: e.detail || t('settings.privacy.error.delete_failed'),
+        variant: 'error',
+      });
     } finally {
       setDeleting(false);
     }
@@ -85,10 +92,14 @@ export default function SettingsPrivacyRoute() {
             type="button"
             onClick={handleExport}
             disabled={exporting()}
+            aria-busy={exporting()}
             class="inline-flex items-center justify-center min-h-11 px-6 py-3 rounded-lg font-headline font-semibold bg-primary-container text-on-primary-container hover:brightness-110 disabled:opacity-60 disabled:cursor-not-allowed motion-safe:transition-all focus-visible:ring-2 focus-visible:ring-primary-container focus-visible:ring-offset-2 focus-visible:ring-offset-surface focus-visible:outline-none"
           >
             {exporting() ? '…' : t('settings.privacy.export_button')}
           </button>
+          <span class="sr-only" aria-live="polite">
+            {exporting() ? t('common.loading') : ''}
+          </span>
         </section>
 
         <section class="mb-8 p-6 rounded-2xl bg-surface-container-lowest border border-outline-variant/20">
@@ -122,6 +133,7 @@ export default function SettingsPrivacyRoute() {
         open={confirmOpen}
         onClose={() => setConfirmOpen(false)}
         title={t('settings.privacy.delete_button')}
+        dismissOnOverlay={false}
       >
         <p class="text-sm text-on-surface/80 mb-4">{t('settings.privacy.delete_description')}</p>
         <label class="block mb-4">
@@ -133,8 +145,21 @@ export default function SettingsPrivacyRoute() {
             value={confirmText()}
             onInput={(e) => setConfirmText(e.currentTarget.value)}
             placeholder={DELETE_CONFIRMATION}
+            aria-invalid={
+              confirmText().length > 0 && confirmText() !== DELETE_CONFIRMATION
+            }
+            aria-describedby="delete-confirm-hint"
             class="w-full min-h-11 px-4 py-2 rounded-lg bg-surface border border-outline text-on-surface font-mono focus-visible:ring-2 focus-visible:ring-error focus-visible:outline-none"
           />
+          <p id="delete-confirm-hint" class="sr-only" role="status">
+            <Show
+              when={
+                confirmText().length > 0 && confirmText() !== DELETE_CONFIRMATION
+              }
+            >
+              {t('settings.privacy.delete_mismatch_hint')}
+            </Show>
+          </p>
         </label>
         <div class="flex flex-col sm:flex-row gap-3 sm:justify-end">
           <button
@@ -142,12 +167,13 @@ export default function SettingsPrivacyRoute() {
             onClick={() => setConfirmOpen(false)}
             class="inline-flex items-center justify-center min-h-11 px-6 py-3 rounded-lg font-headline font-semibold border border-on-surface/30 text-on-surface hover:bg-on-surface/5"
           >
-            Cancel
+            {t('common.cancel')}
           </button>
           <button
             type="button"
             onClick={handleDelete}
             disabled={deleting() || confirmText() !== DELETE_CONFIRMATION}
+            aria-busy={deleting()}
             class="inline-flex items-center justify-center min-h-11 px-6 py-3 rounded-lg font-headline font-semibold bg-error text-on-error disabled:opacity-60 disabled:cursor-not-allowed focus-visible:ring-2 focus-visible:ring-error focus-visible:outline-none"
           >
             <Show when={deleting()} fallback={t('settings.privacy.delete_button')}>

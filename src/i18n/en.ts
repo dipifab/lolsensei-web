@@ -602,6 +602,32 @@ const en = {
   'age_gate.label': 'I confirm I am at least 16 years old',
   'age_gate.error': 'You must confirm your age to continue',
   'age_gate.explanation': 'Under EU data-protection law (GDPR Art. 8), we need your confirmation that you are old enough to provide valid consent for processing your personal data.',
+  'age_gate.page_title': 'Confirm your age — LoL Sensei',
+  'age_gate.heading': 'Before you continue',
+  'age_gate.submit': 'Continue',
+  'age_gate.submit_error': 'Unable to confirm at this time. Please retry.',
+
+  // Common UI strings shared across components
+  'common.cancel': 'Cancel',
+  'common.close': 'Close',
+  'common.dismiss': 'Dismiss',
+  'common.loading': 'Loading',
+
+  // A11y labels
+  'a11y.notifications': 'Notifications',
+  'a11y.privacy_nav': 'Privacy and cookie preferences',
+
+  // Settings privacy DSR — status/errors (U3)
+  'settings.privacy.export_success': 'Export ready — your download has started',
+  'settings.privacy.delete_success': 'Account anonymized',
+  'settings.privacy.error.export_failed': 'Export failed. Please try again.',
+  'settings.privacy.error.delete_failed': 'Delete failed. Please try again.',
+  'settings.privacy.error.rate_limited': 'Rate limited. Retry in {minutes} min.',
+  'settings.privacy.delete_mismatch_hint': 'Type DELETE_MY_ACCOUNT exactly to enable the button.',
+
+  // MDX ErrorBoundary fallback localized
+  'privacy.policy_unavailable': 'Privacy policy is temporarily unavailable. Please try again later.',
+  'cookies.policy_unavailable': 'Cookie policy is temporarily unavailable. Please try again later.',
 } as const;
 
 export default en;

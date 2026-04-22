@@ -28,6 +28,7 @@ export default function AgeGateCheckbox(props: Props) {
           type="checkbox"
           checked={props.checked}
           onChange={(e) => props.onChange(e.currentTarget.checked)}
+          aria-required="true"
           aria-invalid={!!props.error}
           aria-describedby={`${descId()}${props.error ? ` ${errorId()}` : ''}`}
           class="mt-1 w-5 h-5 rounded border-outline focus-visible:ring-2 focus-visible:ring-primary-container focus-visible:outline-none"

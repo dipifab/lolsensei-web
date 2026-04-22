@@ -4,6 +4,7 @@
 import type { Accessor, JSX } from 'solid-js';
 import { Show, createEffect, createUniqueId, onCleanup } from 'solid-js';
 import { Portal } from 'solid-js/web';
+import { useI18n } from '../../i18n';
 
 type Size = 'sm' | 'md' | 'lg';
 
@@ -14,6 +15,8 @@ interface Props {
   children: JSX.Element;
   size?: Size;
   dismissOnOverlay?: boolean;
+  /** Override ``aria-label`` del bottone close. Default ``t('common.close')``. */
+  closeLabel?: string;
 }
 
 const FOCUSABLE_SELECTOR =
@@ -26,6 +29,7 @@ const SIZE_CLASSES: Record<Size, string> = {
 };
 
 export default function Modal(props: Props) {
+  const { t } = useI18n();
   const titleId = createUniqueId();
   let dialogRef: HTMLDivElement | undefined;
   let closeButtonRef: HTMLButtonElement | undefined;
@@ -79,6 +83,20 @@ export default function Modal(props: Props) {
     });
   });
 
+  // WP24 F-11 (WCAG 2.4.11) — scroll lock del body quando il modal e' aperto.
+  createEffect(() => {
+    if (typeof document === 'undefined') return;
+    if (!props.open()) return;
+    const previousOverflow = document.body.style.overflow;
+    const previousOverscroll = document.body.style.overscrollBehavior;
+    document.body.style.overflow = 'hidden';
+    document.body.style.overscrollBehavior = 'contain';
+    onCleanup(() => {
+      document.body.style.overflow = previousOverflow;
+      document.body.style.overscrollBehavior = previousOverscroll;
+    });
+  });
+
   const handleOverlayClick: JSX.EventHandler<HTMLDivElement, MouseEvent> = (e) => {
     if (e.currentTarget !== e.target) return;
     if (props.dismissOnOverlay === false) return;
@@ -113,7 +131,7 @@ export default function Modal(props: Props) {
                 ref={closeButtonRef}
                 type="button"
                 onClick={() => props.onClose()}
-                aria-label="Close"
+                aria-label={props.closeLabel ?? t('common.close')}
                 class="shrink-0 inline-flex items-center justify-center min-h-11 min-w-11 rounded-lg text-on-surface/70 hover:text-on-surface hover:bg-surface-container-highest/50 motion-safe:transition-colors focus-visible:ring-2 focus-visible:ring-primary-container focus-visible:ring-offset-2 focus-visible:ring-offset-surface focus-visible:outline-none"
               >
                 <svg

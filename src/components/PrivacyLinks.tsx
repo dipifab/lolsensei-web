@@ -17,7 +17,7 @@ export default function PrivacyLinks(props: Props) {
     'inline-flex items-center min-h-11 min-w-11 px-1 text-sm text-on-surface/80 hover:text-on-surface underline-offset-2 hover:underline focus-visible:ring-2 focus-visible:ring-primary-container focus-visible:outline-none rounded';
 
   return (
-    <nav aria-label="Privacy and cookie preferences" class={`flex flex-wrap items-center ${gap()}`}>
+    <nav aria-label={t('a11y.privacy_nav')} class={`flex flex-wrap items-center ${gap()}`}>
       <A href={href('/privacy')} class={linkCls}>
         {t('privacy.page_title')}
       </A>

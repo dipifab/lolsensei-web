@@ -1,6 +1,7 @@
 // WP24 TASK-3-002 — Toast container + item.
 // Mount una volta sola globalmente. Aria-live per a11y.
 import { For, Show } from 'solid-js';
+import { useI18n } from '../../i18n';
 import { toasts, dismissToast, type Toast } from './toastStore';
 
 const VARIANT_CLASSES: Record<Toast['variant'], string> = {
@@ -10,6 +11,7 @@ const VARIANT_CLASSES: Record<Toast['variant'], string> = {
 };
 
 function ToastItem(props: { toast: Toast }) {
+  const { t } = useI18n();
   const isError = () => props.toast.variant === 'error';
   return (
     <div
@@ -21,7 +23,7 @@ function ToastItem(props: { toast: Toast }) {
       <button
         type="button"
         onClick={() => dismissToast(props.toast.id)}
-        aria-label="Dismiss"
+        aria-label={t('common.dismiss')}
         class="shrink-0 inline-flex items-center justify-center min-h-11 min-w-11 -m-2 rounded text-current/80 hover:text-current hover:bg-current/10 focus-visible:ring-2 focus-visible:ring-current focus-visible:outline-none"
       >
         <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
@@ -33,11 +35,12 @@ function ToastItem(props: { toast: Toast }) {
 }
 
 export default function ToastContainer() {
+  const { t } = useI18n();
   return (
     <Show when={toasts().length > 0}>
       <div
         class="fixed bottom-4 right-4 z-[60] flex flex-col gap-2 pb-[env(safe-area-inset-bottom)]"
-        aria-label="Notifications"
+        aria-label={t('a11y.notifications')}
       >
         <For each={toasts()}>{(toast) => <ToastItem toast={toast} />}</For>
       </div>

@@ -63,7 +63,7 @@ export default function PreferenceCenter(props: Props) {
           onClick={props.onClose}
           class="inline-flex items-center justify-center min-h-11 px-6 py-3 rounded-lg font-headline font-semibold border border-on-surface/30 text-on-surface hover:bg-on-surface/5 motion-safe:transition-colors focus-visible:ring-2 focus-visible:ring-on-surface/40 focus-visible:outline-none"
         >
-          Cancel
+          {t('common.cancel')}
         </button>
         <button
           type="button"
