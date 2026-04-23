@@ -13,8 +13,14 @@ dist-ssr
 *.local
 
 # Environment
+# .env / .env.local / .env.beta / .env.development etc. restano ignorati.
+# .env.production e .env.example sono committati: contengono SOLO valori pubblici
+# build-time (prefisso VITE_*) iniettati nel bundle browser. Vedi header di
+# .env.production per la policy di safety.
 .env
 .env.*
+!.env.example
+!.env.production
 
 # Editor directories and files
 .vscode/*

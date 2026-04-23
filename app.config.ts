@@ -3,6 +3,17 @@ import tailwindcss from '@tailwindcss/vite';
 import mdx from '@mdx-js/rollup';
 import remarkFrontmatter from 'remark-frontmatter';
 import remarkMdxFrontmatter from 'remark-mdx-frontmatter';
+import { config as dotenvConfig } from 'dotenv';
+import { resolve } from 'node:path';
+
+// `app.config.ts` e' eseguito da Node prima che Vite carichi `.env.{mode}`.
+// Carichiamo esplicitamente `.env.production` quando NODE_ENV=production cosi'
+// `process.env.VITE_PUBLIC_PAGES_ENABLED` (usato sotto) e' coerente con i
+// valori che Vite iniettera' nel bundle client. Vite continua poi a leggere
+// `.env.production` nativamente per la sostituzione di `import.meta.env.*`.
+if (process.env.NODE_ENV === 'production') {
+  dotenvConfig({ path: resolve(process.cwd(), '.env.production') });
+}
 
 const PUBLIC_PAGES_ENABLED = process.env.VITE_PUBLIC_PAGES_ENABLED === 'true';
 
