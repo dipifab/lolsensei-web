@@ -44,9 +44,9 @@ test.describe('@wp24 visual — banner 3-button parity', () => {
     const banner = page.locator('[role="dialog"][aria-labelledby="cookie-banner-title"]');
     await banner.waitFor({ state: 'visible', timeout: 5000 });
 
-    const acceptBtn = banner.getByRole('button', { name: /Accept all/i });
-    const rejectBtn = banner.getByRole('button', { name: /Reject non-essential/i });
-    const customizeBtn = banner.getByRole('button', { name: /Customize/i });
+    const acceptBtn = banner.getByRole('button', { name: 'Accept all', exact: true });
+    const rejectBtn = banner.getByRole('button', { name: 'Reject non-essential', exact: true });
+    const customizeBtn = banner.getByRole('button', { name: 'Customize', exact: true });
 
     // Confronta gli stili computati chiave: background-color, font-weight,
     // min-height. I 3 bottoni usano classe `bg-primary-container` + classi

@@ -13,7 +13,7 @@ test.describe('@wp24 reject non-essential flow', () => {
     const banner = page.locator(BANNER_SELECTOR);
     await expect(banner).toBeVisible();
 
-    await page.getByRole('button', { name: /Reject non-essential/i }).click();
+    await page.getByRole('button', { name: 'Reject non-essential', exact: true }).click();
 
     await expect(banner).toHaveCount(0);
 
