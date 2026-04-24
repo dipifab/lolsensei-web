@@ -96,6 +96,7 @@ const es = {
   'pricing.pro.badge_launch': 'Launch Offer', // TODO: translate
 
   // Canonical keys — BE /api/v1/public/pricing contract (api-contracts-wp10.md §1.1)
+  // Implementation aligned 2026-04-24 via WP25 / ADR-014 / CR-038.
   'pricing.tier.free.name': 'Free',
   'pricing.tier.free.cta': 'Descargar Gratis',
   'pricing.tier.adfree.name': 'Ad-Free',
@@ -255,7 +256,7 @@ const es = {
   'faq.item4.question': '¿Qué modelos de IA se usan para el coaching?',
   'faq.item4.answer': 'Utilizamos modelos de IA avanzados con altas capacidades de razonamiento y procesamiento de baja latencia. El sistema combina procesamiento de datos a gran escala con análisis especializado del estado del juego para coaching en tiempo real y explicaciones en lenguaje natural. Esto significa que tu coach puede explicar conceptos complejos en un lenguaje claro y fácil de entender.',
   'faq.item5.question': '¿Cómo funcionan los límites de créditos?',
-  'faq.item5.answer': 'Los miembros Pro reciben una asignación diaria de créditos de IA. Cada sesión de coaching de IA en profundidad consume 1 crédito. Los overlays básicos en vivo y la información de matchups siempre están disponibles y no consumen créditos. Los usuarios gratuitos reciben 1 crédito por día, los usuarios Pro reciben 15 créditos por día.',
+  'faq.item5.answer': 'Los miembros Pro reciben una asignación de créditos de IA según los límites del plan contratado. Cada sesión de coaching de IA en profundidad consume 1 crédito. Los overlays básicos en vivo y la información de matchups siempre están disponibles para todos y no consumen créditos. El plan gratuito incluye las funciones básicas de la aplicación sin coaching de IA — actualiza a Pro para desbloquear los créditos de IA.',
   'faq.item6.question': '¿Para quién es LoL Sensei?',
   'faq.item6.answer': 'LoL Sensei es para jugadores de League of Legends de todos los niveles — desde principiantes que aprenden lo básico hasta jugadores experimentados que quieren profundizar su comprensión. Ya sea que estés jugando tus primeras partidas clasificatorias o intentando entender conceptos avanzados como el manejo de oleadas y la composición de equipos, nuestro coach de IA se adapta a tu nivel.',
   'faq.item7.question': '¿Necesito ser bueno en el juego para usarlo?',

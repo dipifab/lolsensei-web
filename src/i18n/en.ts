@@ -96,6 +96,7 @@ const en = {
   'pricing.pro.badge_launch': 'Launch Offer',
 
   // Canonical keys — BE /api/v1/public/pricing contract (api-contracts-wp10.md §1.1)
+  // Implementation aligned 2026-04-24 via WP25 / ADR-014 / CR-038.
   // Tier identity + CTA + badge (v1 badge_key is null for Free and Ad-Free)
   'pricing.tier.free.name': 'Free',
   'pricing.tier.free.cta': 'Download Free',
@@ -257,7 +258,7 @@ const en = {
   'faq.item4.question': 'What AI models are used for coaching?',
   'faq.item4.answer': 'We leverage advanced AI models with high-reasoning capabilities and low-latency processing. The system combines large-scale data processing with specialized game-state analysis for real-time coaching and natural language explanations. This means your coach can explain complex concepts in plain, easy-to-understand language.',
   'faq.item5.question': 'How do credit limits work?',
-  'faq.item5.answer': 'Pro members receive a daily allocation of AI credits. Each deep-dive AI coaching session consumes 1 credit. Live basic overlays and match-up information are always available and do not consume credits. Free users get 1 credit per day, Pro users get 15 credits per day.',
+  'faq.item5.answer': 'Pro members receive an allocation of AI credits according to the limits of their subscribed plan. Each deep-dive AI coaching session consumes 1 credit. Live basic overlays and match-up information are always available to everyone and do not consume credits. The Free plan includes the app\'s core features without AI coaching — upgrade to Pro to unlock AI credits.',
   'faq.item6.question': 'Who is LoL Sensei for?',
   'faq.item6.answer': 'LoL Sensei is for League of Legends players of all skill levels — from beginners learning the basics to experienced players who want to deepen their understanding. Whether you\'re playing your first ranked games or trying to understand advanced concepts like wave management and team composition, our AI coach adapts to your level.',
   'faq.item7.question': 'Do I need to be good at the game to use it?',

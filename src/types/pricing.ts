@@ -1,5 +1,7 @@
 // SYNC: manually mirrored from backend OpenAPI /api/v1/public/pricing
 // Contract: dev-repository/design/api-contracts-wp10.md §1.1 (data-model-wp10.md §2.3)
+// Implementation aligned 2026-04-24 via WP25 / ADR-014 / CR-038.
+// Canonical source: BE /api/v1/public/pricing (routes/public_pricing.py).
 // Any change to the backend DTO MUST be mirrored here.
 
 export type Tier = 'free' | 'ad-free' | 'pro';

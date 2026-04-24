@@ -96,6 +96,7 @@ const it = {
   'pricing.pro.badge_launch': 'Launch Offer', // TODO: translate
 
   // Canonical keys — BE /api/v1/public/pricing contract (api-contracts-wp10.md §1.1)
+  // Implementation aligned 2026-04-24 via WP25 / ADR-014 / CR-038.
   'pricing.tier.free.name': 'Free',
   'pricing.tier.free.cta': 'Scarica Gratis',
   'pricing.tier.adfree.name': 'Ad-Free',
@@ -255,7 +256,7 @@ const it = {
   'faq.item4.question': 'Quali modelli di IA vengono usati per il coaching?',
   'faq.item4.answer': 'Utilizziamo modelli di IA avanzati con elevate capacità di ragionamento ed elaborazione a bassa latenza. Il sistema combina l\'elaborazione di dati su larga scala con un\'analisi specializzata dello stato di gioco per coaching in tempo reale e spiegazioni in linguaggio naturale. Questo significa che il tuo coach può spiegare concetti complessi in modo semplice e comprensibile.',
   'faq.item5.question': 'Come funzionano i limiti dei crediti?',
-  'faq.item5.answer': 'I membri Pro ricevono un\'allocazione giornaliera di crediti IA. Ogni sessione di coaching approfondita consuma 1 credito. Gli overlay live di base e le informazioni sui matchup sono sempre disponibili e non consumano crediti. Gli utenti Free ottengono 1 credito al giorno, gli utenti Pro 15 crediti al giorno.',
+  'faq.item5.answer': 'I membri Pro ricevono un\'allocazione di crediti IA secondo i limiti del piano sottoscritto. Ogni sessione di coaching approfondita consuma 1 credito. Gli overlay live di base e le informazioni sui matchup sono sempre disponibili per tutti e non consumano crediti. Il piano Free include le funzionalità di base dell\'app senza coaching IA — passa a Pro per sbloccare i crediti IA.',
   'faq.item6.question': 'A chi è rivolto LoL Sensei?',
   'faq.item6.answer': 'LoL Sensei è per giocatori di League of Legends di qualsiasi livello — dai principianti che imparano le basi ai giocatori esperti che vogliono approfondire la propria comprensione del gioco. Che tu stia affrontando le tue prime ranked o cercando di padroneggiare concetti avanzati come il wave management e la composizione del team, il nostro coach IA si adatta al tuo livello.',
   'faq.item7.question': 'Devo essere bravo nel gioco per usarlo?',

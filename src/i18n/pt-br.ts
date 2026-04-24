@@ -96,6 +96,7 @@ const ptBr = {
   'pricing.pro.badge_launch': 'Launch Offer', // TODO: translate
 
   // Canonical keys — BE /api/v1/public/pricing contract (api-contracts-wp10.md §1.1)
+  // Implementation aligned 2026-04-24 via WP25 / ADR-014 / CR-038.
   'pricing.tier.free.name': 'Free',
   'pricing.tier.free.cta': 'Baixar Gratuito',
   'pricing.tier.adfree.name': 'Ad-Free',
@@ -255,7 +256,7 @@ const ptBr = {
   'faq.item4.question': 'Quais modelos de IA são usados para o coaching?',
   'faq.item4.answer': 'Utilizamos modelos avançados de IA com alta capacidade de raciocínio e processamento de baixa latência. O sistema combina processamento de dados em larga escala com análise especializada de estado de jogo para coaching em tempo real e explicações em linguagem natural. Isso significa que seu coach consegue explicar conceitos complexos de forma clara e fácil de entender.',
   'faq.item5.question': 'Como funcionam os limites de créditos?',
-  'faq.item5.answer': 'Membros Pro recebem uma alocação diária de créditos de IA. Cada sessão aprofundada de coaching consome 1 crédito. Overlays básicos ao vivo e informações de matchup estão sempre disponíveis e não consomem créditos. Usuários Free recebem 1 crédito por dia, usuários Pro recebem 15 créditos por dia.',
+  'faq.item5.answer': 'Membros Pro recebem uma alocação de créditos de IA de acordo com os limites do plano contratado. Cada sessão aprofundada de coaching consome 1 crédito. Overlays básicos ao vivo e informações de matchup estão sempre disponíveis para todos e não consomem créditos. O plano Free inclui as funcionalidades básicas do app sem coaching de IA — faça upgrade para Pro para desbloquear os créditos de IA.',
   'faq.item6.question': 'Para quem é o LoL Sensei?',
   'faq.item6.answer': 'O LoL Sensei é para jogadores de League of Legends de todos os níveis — de iniciantes aprendendo o básico a jogadores experientes que querem aprofundar seu conhecimento. Seja nas suas primeiras ranqueadas ou tentando entender conceitos avançados como wave management e composição de time, nosso coach de IA se adapta ao seu nível.',
   'faq.item7.question': 'Preciso ser bom no jogo para usar?',

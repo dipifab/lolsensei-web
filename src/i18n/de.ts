@@ -96,6 +96,7 @@ const de = {
   'pricing.pro.badge_launch': 'Launch Offer', // TODO: translate
 
   // Canonical keys — BE /api/v1/public/pricing contract (api-contracts-wp10.md §1.1)
+  // Implementation aligned 2026-04-24 via WP25 / ADR-014 / CR-038.
   'pricing.tier.free.name': 'Free',
   'pricing.tier.free.cta': 'Kostenlos Herunterladen',
   'pricing.tier.adfree.name': 'Ad-Free',
@@ -255,7 +256,7 @@ const de = {
   'faq.item4.question': 'Welche KI-Modelle werden für das Coaching verwendet?',
   'faq.item4.answer': 'Wir nutzen fortschrittliche KI-Modelle mit hohen Reasoning-Fähigkeiten und niedriger Latenz. Das System kombiniert groß angelegte Datenverarbeitung mit spezialisierter Spielzustandsanalyse für Echtzeit-Coaching und natürlichsprachliche Erklärungen. Das bedeutet, dein Coach kann komplexe Konzepte in verständlicher Sprache erklären.',
   'faq.item5.question': 'Wie funktionieren die Credit-Limits?',
-  'faq.item5.answer': 'Pro-Mitglieder erhalten ein tägliches Kontingent an KI-Credits. Jede vertiefte KI-Coaching-Sitzung verbraucht 1 Credit. Live-Basis-Overlays und Matchup-Informationen sind immer verfügbar und verbrauchen keine Credits. Free-Nutzer erhalten 1 Credit pro Tag, Pro-Nutzer erhalten 15 Credits pro Tag.',
+  'faq.item5.answer': 'Pro-Mitglieder erhalten ein Kontingent an KI-Credits gemäß den Limits des abonnierten Tarifs. Jede vertiefte KI-Coaching-Sitzung verbraucht 1 Credit. Live-Basis-Overlays und Matchup-Informationen sind für alle immer verfügbar und verbrauchen keine Credits. Der Free-Plan umfasst die Kernfunktionen der App ohne KI-Coaching — upgrade auf Pro, um KI-Credits freizuschalten.',
   'faq.item6.question': 'Für wen ist LoL Sensei?',
   'faq.item6.answer': 'LoL Sensei richtet sich an League of Legends-Spieler aller Spielstufen — von Anfängern, die die Grundlagen lernen, bis hin zu erfahrenen Spielern, die ihr Verständnis vertiefen möchten. Ob du deine ersten Ranked-Spiele spielst oder fortgeschrittene Konzepte wie Wave-Management und Teamzusammenstellung verstehen willst — unser KI-Coach passt sich an dein Niveau an.',
   'faq.item7.question': 'Muss ich gut im Spiel sein, um es zu nutzen?',

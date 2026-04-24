@@ -96,6 +96,7 @@ const zh = {
   'pricing.pro.badge_launch': 'Launch Offer', // TODO: translate
 
   // Canonical keys — BE /api/v1/public/pricing contract (api-contracts-wp10.md §1.1)
+  // Implementation aligned 2026-04-24 via WP25 / ADR-014 / CR-038.
   'pricing.tier.free.name': 'Free',
   'pricing.tier.free.cta': '免费下载',
   'pricing.tier.adfree.name': 'Ad-Free',
@@ -255,7 +256,7 @@ const zh = {
   'faq.item4.question': '使用了什么 AI 模型进行教练指导？',
   'faq.item4.answer': '我们采用具有高推理能力和低延迟处理的先进 AI 模型。该系统将大规模数据处理与专业的游戏状态分析相结合，提供实时教练指导和自然语言解说。这意味着你的教练能够用通俗易懂的语言解释复杂的概念。',
   'faq.item5.question': '额度限制如何运作？',
-  'faq.item5.answer': 'Pro 会员每日获得 AI 额度分配。每次深度 AI 教练分析消耗 1 个额度。实时基础悬浮显示和对线信息始终可用，不消耗额度。免费用户每日 1 个额度，Pro 用户每日 15 个额度。',
+  'faq.item5.answer': 'Pro 会员根据所订阅套餐的限额获得 AI 额度分配。每次深度 AI 教练分析消耗 1 个额度。实时基础悬浮显示和对线信息对所有用户始终可用，不消耗额度。免费套餐包含应用的核心功能，但不含 AI 教练服务——升级到 Pro 以解锁 AI 额度。',
   'faq.item6.question': 'LoL Sensei 适合谁使用？',
   'faq.item6.answer': 'LoL Sensei 适合所有水平的英雄联盟玩家——从学习基础的新手到希望深入理解游戏的资深玩家。无论你是在打第一场排位赛，还是想要理解兵线管理和团队阵容等进阶概念，我们的 AI 教练都会根据你的水平调整。',
   'faq.item7.question': '游戏水平不高也能用吗？',

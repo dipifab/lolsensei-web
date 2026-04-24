@@ -96,6 +96,7 @@ const ko = {
   'pricing.pro.badge_launch': 'Launch Offer', // TODO: translate
 
   // Canonical keys — BE /api/v1/public/pricing contract (api-contracts-wp10.md §1.1)
+  // Implementation aligned 2026-04-24 via WP25 / ADR-014 / CR-038.
   'pricing.tier.free.name': 'Free',
   'pricing.tier.free.cta': '무료 다운로드',
   'pricing.tier.adfree.name': 'Ad-Free',
@@ -255,7 +256,7 @@ const ko = {
   'faq.item4.question': '어떤 AI 모델이 코칭에 사용되나요?',
   'faq.item4.answer': '높은 추론 능력과 저지연 처리를 갖춘 고급 AI 모델을 활용합니다. 시스템은 대규모 데이터 처리와 특화된 게임 상태 분석을 결합하여 실시간 코칭과 자연어 설명을 제공합니다. 이를 통해 코치가 복잡한 개념을 이해하기 쉬운 언어로 설명할 수 있습니다.',
   'faq.item5.question': '크레딧 한도는 어떻게 작동하나요?',
-  'faq.item5.answer': 'Pro 회원은 매일 AI 크레딧이 할당됩니다. 심층 AI 코칭 세션마다 1크레딧이 소모됩니다. 라이브 기본 오버레이와 매치업 정보는 항상 사용 가능하며 크레딧을 소모하지 않습니다. 무료 사용자는 하루 1크레딧, Pro 사용자는 하루 15크레딧을 받습니다.',
+  'faq.item5.answer': 'Pro 회원은 구독한 플랜의 한도에 따라 AI 크레딧을 할당받습니다. 심층 AI 코칭 세션마다 1크레딧이 소모됩니다. 라이브 기본 오버레이와 매치업 정보는 모든 사용자에게 항상 제공되며 크레딧을 소모하지 않습니다. 무료 플랜은 AI 코칭 없이 앱의 핵심 기능을 포함합니다 — Pro로 업그레이드하여 AI 크레딧을 잠금 해제하세요.',
   'faq.item6.question': 'LoL Sensei는 누구를 위한 건가요?',
   'faq.item6.answer': 'LoL Sensei는 기본을 배우는 초보자부터 이해를 심화하려는 숙련된 플레이어까지 모든 실력의 League of Legends 플레이어를 위한 것입니다. 첫 랭크 게임을 하든 웨이브 관리나 팀 구성 같은 고급 개념을 이해하려는 것이든, AI 코치가 당신의 수준에 맞게 적응합니다.',
   'faq.item7.question': '게임을 잘해야 사용할 수 있나요?',

@@ -104,7 +104,10 @@ export async function fetchPricing(signal?: AbortSignal): Promise<PricingRespons
     return lastKnown;
   }
 
-  const url = `${ENV.apiBaseUrl}/api/subscription/pricing`;
+  // Canonical endpoint per ADR-014 / WP25 (CR-038). Precedente path
+  // `/api/subscription/pricing` (shape flat) non era piu' allineato al BE
+  // e faceva cadere il FE sul BUILD_TIME_FALLBACK in modo silenzioso.
+  const url = `${ENV.apiBaseUrl}/api/v1/public/pricing`;
   const timeoutController = new AbortController();
   const timer = setTimeout(() => timeoutController.abort(), TIMEOUT_MS);
 
@@ -132,9 +135,26 @@ export async function fetchPricing(signal?: AbortSignal): Promise<PricingRespons
     lastKnown = json;
     return json;
   } catch (err) {
-    if (import.meta.env.DEV) {
-      console.warn('[pricing-api] fetch failed, using last-known fallback', err);
-    }
+    const errorType =
+      err instanceof DOMException && err.name === 'AbortError'
+        ? 'timeout_or_abort'
+        : err instanceof Error && err.message.startsWith('HTTP ')
+          ? 'http_error'
+          : err instanceof Error && err.message === 'Invalid pricing response shape'
+            ? 'schema_mismatch'
+            : 'network_error';
+    const errorMessage = err instanceof Error ? err.message : String(err);
+    // Structured log: a future metrics pipeline (CF Workers Analytics Engine o simile)
+    // potra' aggregare questi eventi per monitorare il tasso di fallback in prod.
+    console.warn(
+      JSON.stringify({
+        event: 'pricing_api_fallback',
+        error_type: errorType,
+        error_message: errorMessage,
+        using_last_known: lastKnown !== BUILD_TIME_FALLBACK,
+        timestamp: new Date().toISOString(),
+      }),
+    );
     return lastKnown;
   } finally {
     clearTimeout(timer);

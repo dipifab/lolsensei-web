@@ -11,7 +11,20 @@
       ],
       "numberOfRuns": 3,
       "settings": {
+        "_comment": "WP19.1 TASK-3-005: default CLI preset Lighthouse 13.x = mobile Moto G Power + Slow 4G (1.6Mbps DL / 750Kbps UL / 150ms RTT). Non passare 'mobile' come valore (non esiste in 13.x); omettere preset = mobile default. Desktop mantenuto come override per profili non-gate.",
         "preset": "desktop"
+      }
+    },
+    "mobile_target": {
+      "_comment": "WP19.1 gate REQ-NF-019-1-005. Invocazione manuale via npx lighthouse (NON lhci autorun), vedi dev-repository/design/wp19_1/api-contracts.md §4. Soglia LCP <2000ms, delta ≥500ms vs baseline 4290ms.",
+      "url": "https://www.lolsensei.com/en/",
+      "numberOfRuns": 3,
+      "variance_threshold_ms": 1000,
+      "variance_threshold_pct": 30,
+      "assertions": {
+        "largest-contentful-paint_ms": 2000,
+        "cumulative-layout-shift": 0,
+        "categories:performance": 0.95
       }
     },
     "assert": {

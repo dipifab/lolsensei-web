@@ -49,3 +49,6 @@ dev-repository/
 # Test and perf report artifacts
 playwright-report/
 .lighthouseci/
+
+# WP19.1 font source (upstream TTF auto-fetched by scripts/optimize-assets.sh)
+public/fonts/source/

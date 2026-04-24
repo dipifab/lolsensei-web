@@ -1,27 +1,29 @@
 #!/usr/bin/env bash
-# optimize-assets.sh — WP19 P3 asset optimization
+# optimize-assets.sh — WP19.1 asset pipeline (REQ-F-019-1-001, REQ-NF-019-1-001, REQ-NF-019-1-003)
 #
-# Scope (TASK-W19-P3-03 / REQ-NF-019-002):
-#   - Subset Inter Regular (400) in due slice WOFF2: latin + latin-ext
-#   - Target budget: ogni file <25KB gzip (singolo slice); totale dei due <25KB gzip
-#     e' il target piu stringente in design/security-performance-wp19.md §4.4
-#     (<12KB latin, <15KB latin-ext).
+# Scope:
+#   1. .gitignore enforcement per public/fonts/source/
+#   2. Auto-fetch Inter-Regular.ttf v4.0 da rsms/inter se mancante
+#   3. Preflight TTF (ttx family/weight) + preflight hero-panel-large.webp (sanity >=512x512)
+#   4. Subset Inter weight 400 → inter-latin.woff2 + inter-latin-ext.woff2 (budget 12/15/25 KB)
+#   5. Hero mobile crop 760x760 q=85 via sharp (budget 80 KB)
+#   6. Idempotency + summary
 #
-# Prerequisiti:
-#   1. File sorgente Inter-Regular in ./public/fonts/source/Inter-Regular.ttf
-#      (oppure .woff — fonttools accetta entrambi). Se manca: BLOCKER.
-#   2. fonttools installato (fornisce pyftsubset). Install:
-#        python3 -m pip install --user fonttools brotli zopfli
-#      Su macOS via brew: brew install fonttools
+# User-side prereq:
+#   pip install fonttools brotli
+#   (zopfli opzionale, non bloccante)
 #
 # Uso:
 #   bash scripts/optimize-assets.sh
 #
-# Exit codes:
-#   0  success (entrambi i file generati e sotto budget)
-#   10 source font mancante
-#   11 pyftsubset non disponibile
-#   12 slice fuori budget (>25KB gzip)
+# Exit codes (allineati a dev-repository/design/wp19_1/api-contracts.md §1.1):
+#   0  success
+#   1  preflight TTF fail (family != Inter OR weight != 400)
+#   2  preflight hero fail (source <512x512)
+#   3  auto-fetch TTF fail (curl/unzip)
+#   4  pyftsubset/ttx not in PATH
+#   5  WOFF2 budget exceeded (>12288 latin OR >15360 latin-ext OR >25600 totale)
+#   6  hero mobile fail (sharp resize error OR >81920 bytes)
 
 set -euo pipefail
 
@@ -30,95 +32,184 @@ REPO_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 
 SRC_DIR="${REPO_ROOT}/public/fonts/source"
 OUT_DIR="${REPO_ROOT}/public/fonts"
-SRC_FILE_TTF="${SRC_DIR}/Inter-Regular.ttf"
-SRC_FILE_WOFF="${SRC_DIR}/Inter-Regular.woff"
+IMG_DIR="${REPO_ROOT}/public/images"
+SRC_TTF="${SRC_DIR}/Inter-Regular.ttf"
 
-BUDGET_BYTES_PER_SLICE=$((25 * 1024))  # 25KB gzip hard cap per slice (REQ-NF-019-002)
+# Inter v4.0 pinned release (ADR-010 self-host fonts)
+INTER_URL="https://github.com/rsms/inter/releases/download/v4.0/Inter-4.0.zip"
+INTER_ZIP="/tmp/inter-4.0.zip"
+INTER_EXTRACT="/tmp/inter-4.0-extract"
 
-# Unicode ranges coerenti con public/fonts/fonts.css (NO overlap con CJK fonts).
-# Fonte: Google Fonts split standard per Inter.
-UNICODES_LATIN="U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD"
-UNICODES_LATIN_EXT="U+0100-024F,U+0259,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF"
+# Budget (WP19.1 REQ-NF-019-1-001, REQ-NF-019-1-003)
+BUDGET_LATIN=12288          # 12 KB
+BUDGET_LATIN_EXT=15360      # 15 KB
+BUDGET_TOTAL=25600          # 25 KB totale
+BUDGET_HERO=81920           # 80 KB hero mobile
+
+# Unicode ranges (WP19.1 tightened per budget strict 12KB/15KB).
+# Rimossi PUA/symbol/general-punctuation per rispettare budget (REQ-NF-019-1-001).
+# Coerenti con public/fonts/fonts.css @font-face unicode-range.
+UNICODES_LATIN="U+0020-007E,U+00A0-00FF"
+UNICODES_LATIN_EXT="U+0100-024F"
+# Layout features essential only (typography core). `calt`/`rclt` aggiungerebbero ~2KB.
+LAYOUT_FEATURES="kern,liga,rlig"
 
 log() { printf '[optimize-assets] %s\n' "$*"; }
 err() { printf '[optimize-assets] ERROR: %s\n' "$*" >&2; }
 
-# --- Validation: source font ---
-if [[ -f "${SRC_FILE_TTF}" ]]; then
-  SRC="${SRC_FILE_TTF}"
-elif [[ -f "${SRC_FILE_WOFF}" ]]; then
-  SRC="${SRC_FILE_WOFF}"
-else
-  err "Inter source font missing."
-  err "Expected one of:"
-  err "  ${SRC_FILE_TTF}"
-  err "  ${SRC_FILE_WOFF}"
-  err ""
-  err "Action required: download Inter-Regular.ttf from https://rsms.me/inter/"
-  err "(or https://github.com/rsms/inter/releases) and place it under public/fonts/source/."
-  err "This file is typically gitignored; keep under public/fonts/source/ locally."
-  exit 10
-fi
-log "Source font: ${SRC}"
-
-# --- Validation: pyftsubset ---
-if ! command -v pyftsubset >/dev/null 2>&1; then
-  err "pyftsubset not found on PATH."
-  err "Install fonttools + brotli:"
-  err "  python3 -m pip install --user fonttools brotli zopfli"
-  err "or"
-  err "  brew install fonttools"
-  err "Optionally verify: python3 -c 'from fontTools.ttLib import TTFont'"
-  exit 11
-fi
-log "Using: $(command -v pyftsubset)"
-
-mkdir -p "${OUT_DIR}"
-
-# --- Subset: latin ---
-OUT_LATIN="${OUT_DIR}/inter-latin.woff2"
-log "Subsetting latin slice -> ${OUT_LATIN}"
-pyftsubset "${SRC}" \
-  --unicodes="${UNICODES_LATIN}" \
-  --layout-features='*' \
-  --flavor=woff2 \
-  --no-hinting \
-  --desubroutinize \
-  --output-file="${OUT_LATIN}"
-
-# --- Subset: latin-ext ---
-OUT_LATIN_EXT="${OUT_DIR}/inter-latin-ext.woff2"
-log "Subsetting latin-ext slice -> ${OUT_LATIN_EXT}"
-pyftsubset "${SRC}" \
-  --unicodes="${UNICODES_LATIN_EXT}" \
-  --layout-features='*' \
-  --flavor=woff2 \
-  --no-hinting \
-  --desubroutinize \
-  --output-file="${OUT_LATIN_EXT}"
-
-# --- Budget check (WOFF2 is already Brotli-compressed; compare raw bytes) ---
-check_budget() {
-  local file="$1"
-  local label="$2"
-  if [[ ! -f "${file}" ]]; then
-    err "${label} slice not produced."
-    exit 12
-  fi
-  local size
-  size=$(wc -c <"${file}" | tr -d '[:space:]')
-  log "${label}: ${size} bytes (budget ${BUDGET_BYTES_PER_SLICE})"
-  if (( size > BUDGET_BYTES_PER_SLICE )); then
-    err "${label} slice exceeds budget (${size} > ${BUDGET_BYTES_PER_SLICE})."
-    err "Action: narrow unicode-range, disable extra features, or split further."
-    exit 12
+file_size() {
+  # Portable stat: BSD (-f%z) vs GNU (-c%s)
+  if stat -f%z "$1" >/dev/null 2>&1; then
+    stat -f%z "$1"
+  else
+    stat -c%s "$1"
   fi
 }
 
-check_budget "${OUT_LATIN}" "inter-latin"
-check_budget "${OUT_LATIN_EXT}" "inter-latin-ext"
+# --- Block 1: .gitignore enforcement (AC #1) ---------------------------------
+
+GITIGNORE="${REPO_ROOT}/.gitignore"
+if ! grep -q '^public/fonts/source/' "${GITIGNORE}" 2>/dev/null; then
+  log ".gitignore missing public/fonts/source/ — appending"
+  printf '\n# WP19.1 font source (auto-fetched, not committed)\npublic/fonts/source/\n' >> "${GITIGNORE}"
+fi
+
+# --- Block 2: auto-fetch TTF (AC #2, exit 3) ---------------------------------
+
+mkdir -p "${SRC_DIR}" "${OUT_DIR}" "${IMG_DIR}"
+
+if [[ ! -f "${SRC_TTF}" ]]; then
+  log "Inter-Regular.ttf missing; fetching ${INTER_URL}"
+  if ! curl -fsSL "${INTER_URL}" -o "${INTER_ZIP}"; then
+    err "fetch: curl exited $? on rsms/inter v4.0 zip"
+    exit 3
+  fi
+  rm -rf "${INTER_EXTRACT}"
+  mkdir -p "${INTER_EXTRACT}"
+  if ! unzip -q -o "${INTER_ZIP}" -d "${INTER_EXTRACT}"; then
+    err "fetch: unzip failed on ${INTER_ZIP}"
+    exit 3
+  fi
+  # rsms/inter v4.0 ships Inter-Regular.ttf under extras/ttf/
+  FOUND_TTF="$(find "${INTER_EXTRACT}" -type f -name 'Inter-Regular.ttf' | head -1)"
+  if [[ -z "${FOUND_TTF}" ]]; then
+    err "fetch: Inter-Regular.ttf not found in zip (archive layout changed?)"
+    exit 3
+  fi
+  cp "${FOUND_TTF}" "${SRC_TTF}"
+  log "Auto-fetched Inter-Regular.ttf → ${SRC_TTF}"
+fi
+
+# --- Block 3: tooling check (exit 4) -----------------------------------------
+
+if ! command -v pyftsubset >/dev/null 2>&1; then
+  err "pyftsubset not in PATH. Install: pip install fonttools brotli"
+  exit 4
+fi
+if ! command -v ttx >/dev/null 2>&1; then
+  err "ttx not in PATH (fonttools missing). Install: pip install fonttools brotli"
+  exit 4
+fi
+
+# --- Block 4: preflight TTF family/weight (AC #3, exit 1) --------------------
+
+# Parse TTX headers to check name table (family) + OS/2 weight
+TTX_HEAD="$(ttx -t name -o - "${SRC_TTF}" 2>/dev/null || true)"
+if ! echo "${TTX_HEAD}" | grep -q 'Inter'; then
+  err "preflight: TTF family does not contain 'Inter' (got unknown)"
+  exit 1
+fi
+TTX_OS2="$(ttx -t OS/2 -o - "${SRC_TTF}" 2>/dev/null || true)"
+WEIGHT_LINE="$(echo "${TTX_OS2}" | grep -E 'usWeightClass' | head -1 || true)"
+if ! echo "${WEIGHT_LINE}" | grep -qE 'value="400"'; then
+  err "preflight: TTF usWeightClass != 400 (got: ${WEIGHT_LINE})"
+  exit 1
+fi
+log "preflight TTF OK (family=Inter, weight=400)"
+
+# --- Block 5: preflight hero source (AC #4 relaxed, exit 2) ------------------
+
+HERO_LARGE="${IMG_DIR}/hero-panel-large.webp"
+if [[ ! -f "${HERO_LARGE}" ]]; then
+  err "preflight: ${HERO_LARGE} missing"
+  exit 2
+fi
+# Use node+sharp for dimensions (portable, identify not required)
+HERO_DIMS="$(node -e "require('sharp')('${HERO_LARGE}').metadata().then(m => console.log(m.width + 'x' + m.height)).catch(e => {console.error(e.message); process.exit(1)})")"
+HERO_W="${HERO_DIMS%x*}"
+HERO_H="${HERO_DIMS#*x}"
+if (( HERO_W < 512 || HERO_H < 512 )); then
+  err "preflight: hero-panel-large.webp ${HERO_DIMS} below 512x512 sanity threshold"
+  exit 2
+fi
+log "preflight hero OK (${HERO_DIMS}; target mobile 760x760 via upscale se necessario)"
+
+# --- Block 6: pyftsubset latin + latin-ext (budget gate, exit 5) -------------
+
+OUT_LATIN="${OUT_DIR}/inter-latin.woff2"
+OUT_LATIN_EXT="${OUT_DIR}/inter-latin-ext.woff2"
+
+log "pyftsubset latin → ${OUT_LATIN}"
+pyftsubset "${SRC_TTF}" \
+  --unicodes="${UNICODES_LATIN}" \
+  --flavor=woff2 \
+  --desubroutinize \
+  --no-hinting \
+  --layout-features="${LAYOUT_FEATURES}" \
+  --no-recalc-timestamp \
+  --output-file="${OUT_LATIN}"
+
+log "pyftsubset latin-ext → ${OUT_LATIN_EXT}"
+pyftsubset "${SRC_TTF}" \
+  --unicodes="${UNICODES_LATIN_EXT}" \
+  --flavor=woff2 \
+  --desubroutinize \
+  --no-hinting \
+  --layout-features="${LAYOUT_FEATURES}" \
+  --no-recalc-timestamp \
+  --output-file="${OUT_LATIN_EXT}"
+
+SIZE_LATIN=$(file_size "${OUT_LATIN}")
+SIZE_LATIN_EXT=$(file_size "${OUT_LATIN_EXT}")
+SIZE_TOTAL=$((SIZE_LATIN + SIZE_LATIN_EXT))
+
+if (( SIZE_LATIN > BUDGET_LATIN )); then
+  err "inter-latin.woff2: ${SIZE_LATIN} bytes > ${BUDGET_LATIN} budget; tune --unicodes range or --layout-features"
+  exit 5
+fi
+if (( SIZE_LATIN_EXT > BUDGET_LATIN_EXT )); then
+  err "inter-latin-ext.woff2: ${SIZE_LATIN_EXT} bytes > ${BUDGET_LATIN_EXT} budget; tune --unicodes range or --layout-features"
+  exit 5
+fi
+if (( SIZE_TOTAL > BUDGET_TOTAL )); then
+  err "inter-latin + inter-latin-ext total: ${SIZE_TOTAL} bytes > ${BUDGET_TOTAL} budget"
+  exit 5
+fi
+
+# --- Block 7: hero mobile crop (exit 6) --------------------------------------
+
+HERO_MOBILE="${IMG_DIR}/hero-panel-mobile.webp"
+log "sharp crop hero mobile → ${HERO_MOBILE} (760x760 q=85)"
+# fit:'cover' gestisce upscale se source <760 (bassa qualità ma non errore)
+if ! node -e "require('sharp')('${HERO_LARGE}').resize(760, 760, {fit: 'cover'}).webp({quality: 85}).toFile('${HERO_MOBILE}')"; then
+  err "hero: sharp resize exited $?"
+  exit 6
+fi
+
+SIZE_HERO=$(file_size "${HERO_MOBILE}")
+if (( SIZE_HERO > BUDGET_HERO )); then
+  err "hero-panel-mobile.webp: ${SIZE_HERO} bytes > ${BUDGET_HERO} budget; lower quality or adjust crop"
+  exit 6
+fi
+
+# --- Block 8: summary --------------------------------------------------------
 
 log "OK. Fonts emitted:"
-log "  $(ls -la "${OUT_LATIN}" | awk '{print $5, $NF}')"
-log "  $(ls -la "${OUT_LATIN_EXT}" | awk '{print $5, $NF}')"
-log "Remember: align public/fonts/fonts.css @font-face unicode-range with this script."
+log "  inter-latin.woff2     ${SIZE_LATIN} bytes (budget ${BUDGET_LATIN})"
+log "  inter-latin-ext.woff2 ${SIZE_LATIN_EXT} bytes (budget ${BUDGET_LATIN_EXT})"
+log "  total                 ${SIZE_TOTAL} bytes (budget ${BUDGET_TOTAL})"
+log "Hero mobile emitted:"
+log "  hero-panel-mobile.webp ${SIZE_HERO} bytes (budget ${BUDGET_HERO})"
+log "Remember: align public/fonts/fonts.css @font-face unicode-range with this script if modified."
+
+exit 0
