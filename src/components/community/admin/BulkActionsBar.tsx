@@ -30,7 +30,7 @@ export default function BulkActionsBar(props: Props) {
     if (props.selectedIds.length === 0) return;
     if (props.selectedIds.length > MAX_BULK) {
       pushToast({
-        variant: "error",
+        variant: "warning",
         message: formatTemplate(t("mod_admin.bulk.over_limit"), {
           max: MAX_BULK,
         }),
@@ -39,7 +39,7 @@ export default function BulkActionsBar(props: Props) {
     }
     if (reason().trim().length < 1) {
       pushToast({
-        variant: "error",
+        variant: "warning",
         message: t("mod_admin.bulk.reason_required"),
       });
       return;
@@ -52,7 +52,7 @@ export default function BulkActionsBar(props: Props) {
         reason: reason().trim(),
       });
       pushToast({
-        variant: resp.failed_count === 0 ? "success" : "error",
+        variant: resp.failed_count === 0 ? "success" : "warning",
         message: formatTemplate(t("mod_admin.bulk.completed"), {
           ok: resp.success_count,
           fail: resp.failed_count,

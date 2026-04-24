@@ -2,7 +2,7 @@
 // FIFO max 3 toast visibili. Auto-dismiss dopo `duration` (default 5s).
 import { createSignal } from 'solid-js';
 
-export type ToastVariant = 'success' | 'error' | 'info';
+export type ToastVariant = 'success' | 'error' | 'info' | 'warning';
 
 export interface Toast {
   id: string;

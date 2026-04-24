@@ -8,15 +8,17 @@ const VARIANT_CLASSES: Record<Toast['variant'], string> = {
   success: 'bg-surface-variant text-on-surface border-outline-variant/30',
   error: 'bg-error text-on-error border-on-error/20',
   info: 'bg-surface-container-highest text-on-surface border-outline-variant/30',
+  warning: 'bg-amber-500 text-amber-950 border-amber-600/40',
 };
 
 function ToastItem(props: { toast: Toast }) {
   const { t } = useI18n();
-  const isError = () => props.toast.variant === 'error';
+  const isAssertive = () =>
+    props.toast.variant === 'error' || props.toast.variant === 'warning';
   return (
     <div
-      role={isError() ? 'alert' : 'status'}
-      aria-live={isError() ? 'assertive' : 'polite'}
+      role={isAssertive() ? 'alert' : 'status'}
+      aria-live={isAssertive() ? 'assertive' : 'polite'}
       class={`flex items-start gap-3 min-w-[260px] max-w-sm rounded-lg border px-4 py-3 shadow-lg motion-safe:transition-all ${VARIANT_CLASSES[props.toast.variant]}`}
     >
       <p class="flex-1 text-sm leading-relaxed">{props.toast.message}</p>
