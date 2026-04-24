@@ -553,6 +553,81 @@ const ko = {
   'cta.preview.modal.description': 'AI 코치가 챔피언 선택, 아이템 빌드, 게임 상태를 실시간으로 설명하는 짧은 미리보기입니다.',
   'cta.preview.modal.close': '미리보기 닫기',
   'cta.preview.modal.caption': '미리보기 준비 중 — 최종 영상이 곧 여기에 표시됩니다.',
+
+  // WP24 — GDPR & Cookie Compliance
+  // TODO: translate consent.* section (currently EN placeholder) — legal/privacy content, manual review required
+  // Cookie banner (Screen #1)
+  'consent.banner.title': 'We value your privacy',
+  'consent.banner.body': 'We use cookies to run the site and, with your permission, to measure traffic and improve your experience. You can accept all, reject non-essential, or customize your choices. You can change your mind anytime from the footer.',
+  'consent.banner.accept': 'Accept all',
+  'consent.banner.reject': 'Reject non-essential',
+  'consent.banner.customize': 'Customize',
+  'consent.banner.close_aria': 'Close banner and reject non-essential cookies',
+
+  // Preference Center (Screen #2)
+  'consent.preferences.title': 'Cookie preferences',
+  'consent.preferences.intro': 'Choose which categories of cookies you allow. Strictly necessary cookies are always active because they are required for the site to work.',
+  'consent.preferences.technical.label': 'Strictly necessary',
+  'consent.preferences.technical.description': 'Required to run the site and remember your preferences. Cannot be turned off.',
+  'consent.preferences.analytics.label': 'Analytics',
+  'consent.preferences.analytics.description': 'Anonymous usage statistics that help us understand how the site is used and improve it.',
+  'consent.preferences.marketing.label': 'Marketing',
+  'consent.preferences.marketing.description': 'Used to show relevant content or measure the effectiveness of our campaigns. Currently not active.',
+  'consent.preferences.save': 'Save preferences',
+  'consent.preferences.saved': 'Preferences saved',
+
+  // Footer link
+  'consent.footer_link': 'Cookie preferences',
+
+  // TODO: translate privacy.* / cookies.* / settings.privacy.* / age_gate.* section (currently EN placeholder) — legal/privacy content, manual review required
+  // Privacy Policy page (WP24 MDX route)
+  'privacy.page_title': 'Privacy Policy',
+  'privacy.changelog': 'Changelog',
+  'privacy.version_label': 'Version',
+
+  // Cookie Policy page
+  'cookies.title': 'Cookie Policy',
+  'cookies.inventory_title': 'Cookie inventory',
+
+  // Settings — Privacy & Data (DSR Dashboard)
+  'settings.privacy.title': 'Privacy & Data',
+  'settings.privacy.export_button': 'Export my data',
+  'settings.privacy.export_description': 'Download a JSON copy of your account data (profile, subscriptions, consent history).',
+  'settings.privacy.delete_button': 'Delete my account',
+  'settings.privacy.delete_description': 'Permanently anonymize your account. This action cannot be undone.',
+  'settings.privacy.delete_confirm_placeholder': 'Type DELETE_MY_ACCOUNT to confirm',
+  'settings.privacy.manage_cookies': 'Manage cookie preferences',
+
+  // Age gate (GDPR Art. 8)
+  'age_gate.label': 'I confirm I am at least 16 years old',
+  'age_gate.error': 'You must confirm your age to continue',
+  'age_gate.explanation': 'Under EU data-protection law (GDPR Art. 8), we need your confirmation that you are old enough to provide valid consent for processing your personal data.',
+  'age_gate.page_title': 'Confirm your age — LoL Sensei',
+  'age_gate.heading': 'Before you continue',
+  'age_gate.submit': 'Continue',
+  'age_gate.submit_error': 'Unable to confirm at this time. Please retry.',
+
+  // Common UI strings shared across components
+  'common.cancel': 'Cancel',
+  'common.close': 'Close',
+  'common.dismiss': 'Dismiss',
+  'common.loading': 'Loading',
+
+  // A11y labels
+  'a11y.notifications': 'Notifications',
+  'a11y.privacy_nav': 'Privacy and cookie preferences',
+
+  // Settings privacy DSR — status/errors (U3)
+  'settings.privacy.export_success': 'Export ready — your download has started',
+  'settings.privacy.delete_success': 'Account anonymized',
+  'settings.privacy.error.export_failed': 'Export failed. Please try again.',
+  'settings.privacy.error.delete_failed': 'Delete failed. Please try again.',
+  'settings.privacy.error.rate_limited': 'Rate limited. Retry in {minutes} min.',
+  'settings.privacy.delete_mismatch_hint': 'Type DELETE_MY_ACCOUNT exactly to enable the button.',
+
+  // MDX ErrorBoundary fallback localized
+  'privacy.policy_unavailable': 'Privacy policy is temporarily unavailable. Please try again later.',
+  'cookies.policy_unavailable': 'Cookie policy is temporarily unavailable. Please try again later.',
 } as const;
 
 export default ko;
