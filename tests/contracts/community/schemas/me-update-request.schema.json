@@ -1,0 +1,76 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/me-update-request.schema.json",
+  "x-endpoint": "PUT /api/community/me",
+  "description": "Body ``PUT /api/community/me`` (api-contracts \u00a72.6).\n\nTutti i campi opzionali: il service applica PATCH semantics (campi\nassenti => no change). Per fare unset di bio/nickname occorre\npassare stringa vuota \u2014 interpretata lato service come \"clear\"\n(non in scope F1-004).",
+  "properties": {
+    "nickname": {
+      "anyOf": [
+        {
+          "maxLength": 30,
+          "minLength": 3,
+          "pattern": "^[a-z0-9_-]+$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Nickname"
+    },
+    "bio_markdown": {
+      "anyOf": [
+        {
+          "maxLength": 2000,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Bio Markdown"
+    },
+    "language_preference": {
+      "anyOf": [
+        {
+          "maxLength": 10,
+          "pattern": "^[a-z]{2}(-[A-Za-z0-9]+)*$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Language Preference"
+    },
+    "digest_optin": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Digest Optin"
+    },
+    "email_reply_optout": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Email Reply Optout"
+    }
+  },
+  "title": "MeUpdateRequest",
+  "type": "object"
+}

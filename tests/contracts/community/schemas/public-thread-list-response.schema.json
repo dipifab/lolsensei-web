@@ -1,0 +1,200 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/public-thread-list-response.schema.json",
+  "x-endpoint": "GET /api/v1/public/community/threads",
+  "$defs": {
+    "PublicAuthorSummary": {
+      "description": "Author minimale per payload public cache-friendly.\n\nNessun ``id`` UUID esposto (cursor anti-scraping), no avatar_url\n(cache efficiency \u2014 l'avatar richiede richiesta separata + ETag).\nFallback ``nickname=None`` + ``deleted=True`` se utente anonimizzato.",
+      "properties": {
+        "nickname": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Nickname"
+        },
+        "has_premium_badge": {
+          "default": false,
+          "title": "Has Premium Badge",
+          "type": "boolean"
+        },
+        "deleted": {
+          "default": false,
+          "title": "Deleted",
+          "type": "boolean"
+        }
+      },
+      "title": "PublicAuthorSummary",
+      "type": "object"
+    },
+    "PublicCategorySummary": {
+      "properties": {
+        "slug": {
+          "title": "Slug",
+          "type": "string"
+        },
+        "name_i18n": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Name I18N",
+          "type": "object"
+        }
+      },
+      "required": [
+        "slug"
+      ],
+      "title": "PublicCategorySummary",
+      "type": "object"
+    },
+    "PublicThreadSummary": {
+      "description": "Item ``GET /api/v1/public/community/threads`` (api-contracts \u00a73.2).\n\nVersione cache-friendly: no ``has_reacted`` (user-specific), no\n``edit_window`` (author-specific). L'excerpt e' computato\nserver-side (primi 200 char plaintext del body).",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "slug": {
+          "title": "Slug",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "category": {
+          "$ref": "#/$defs/PublicCategorySummary"
+        },
+        "author": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/PublicAuthorSummary"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "tags": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Tags",
+          "type": "array"
+        },
+        "reply_count": {
+          "default": 0,
+          "title": "Reply Count",
+          "type": "integer"
+        },
+        "reaction_count": {
+          "default": 0,
+          "title": "Reaction Count",
+          "type": "integer"
+        },
+        "language": {
+          "default": "en",
+          "title": "Language",
+          "type": "string"
+        },
+        "status": {
+          "default": "published",
+          "enum": [
+            "published",
+            "pending_review",
+            "rejected",
+            "hidden_by_staff"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "has_staff_response": {
+          "default": false,
+          "title": "Has Staff Response",
+          "type": "boolean"
+        },
+        "excerpt": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Excerpt"
+        },
+        "created_at": {
+          "format": "date-time",
+          "title": "Created At",
+          "type": "string"
+        },
+        "edited_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Edited At"
+        }
+      },
+      "required": [
+        "id",
+        "slug",
+        "title",
+        "category",
+        "created_at"
+      ],
+      "title": "PublicThreadSummary",
+      "type": "object"
+    }
+  },
+  "description": "Envelope paginato ``GET /threads``.",
+  "properties": {
+    "items": {
+      "items": {
+        "$ref": "#/$defs/PublicThreadSummary"
+      },
+      "title": "Items",
+      "type": "array"
+    },
+    "page": {
+      "title": "Page",
+      "type": "integer"
+    },
+    "page_size": {
+      "title": "Page Size",
+      "type": "integer"
+    },
+    "total": {
+      "title": "Total",
+      "type": "integer"
+    },
+    "has_more": {
+      "title": "Has More",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "items",
+    "page",
+    "page_size",
+    "total",
+    "has_more"
+  ],
+  "title": "PublicThreadListResponse",
+  "type": "object"
+}

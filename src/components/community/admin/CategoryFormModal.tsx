@@ -13,8 +13,11 @@ import {
 } from "../../../services/community-admin-api";
 import { pushToast } from "../../ui/toastStore";
 
-// Locales aligned with src/i18n/index.ts (SUPPORTED_LOCALES).
-const LOCALES = ["en", "it", "es", "fr", "de", "pt-br", "ko", "zh-Hans"] as const;
+// Locale keys for backend JSONB columns (name_i18n / description_i18n).
+// Backend CORE_LANGUAGES uses short codes (pt, zh), not the UI locales
+// (pt-br, zh-Hans). Keep this list aligned with backend _SUPPORTED_LANGS
+// in app/routes/community_me.py and community_category model.
+const LOCALES = ["en", "it", "fr", "de", "es", "pt", "ko", "ja", "zh"] as const;
 
 interface Props {
   category?: CategoryAdmin;

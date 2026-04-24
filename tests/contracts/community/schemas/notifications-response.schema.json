@@ -1,0 +1,193 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/notifications-response.schema.json",
+  "x-endpoint": "GET /api/community/notifications",
+  "$defs": {
+    "AuthorSummary": {
+      "description": "Rappresentazione minima di un autore nelle response content.\n\nCampi copiati da ``CommunityUser`` + ``has_premium_badge`` derivato\nservice-side (lookup ``user.subscription``). Se l'utente e' stato\nanonymized (``deleted_at`` set), il service popola ``deleted=True``\ne azzerra nickname/avatar.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "nickname": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Nickname"
+        },
+        "avatar_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Avatar Url"
+        },
+        "role": {
+          "enum": [
+            "user",
+            "moderator",
+            "admin"
+          ],
+          "title": "Role",
+          "type": "string"
+        },
+        "has_premium_badge": {
+          "default": false,
+          "title": "Has Premium Badge",
+          "type": "boolean"
+        },
+        "deleted": {
+          "default": false,
+          "title": "Deleted",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "role"
+      ],
+      "title": "AuthorSummary",
+      "type": "object"
+    },
+    "NotificationItem": {
+      "description": "Singola entry nel bell feed.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "reply",
+            "mention",
+            "reaction",
+            "ban",
+            "warn",
+            "pending_result_approved",
+            "pending_result_rejected"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "target_type": {
+          "anyOf": [
+            {
+              "enum": [
+                "thread",
+                "post",
+                "user"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Target Type"
+        },
+        "target_id": {
+          "anyOf": [
+            {
+              "format": "uuid",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Target Id"
+        },
+        "actor": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/AuthorSummary"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "payload": {
+          "additionalProperties": true,
+          "title": "Payload",
+          "type": "object"
+        },
+        "read_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Read At"
+        },
+        "created_at": {
+          "format": "date-time",
+          "title": "Created At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "created_at"
+      ],
+      "title": "NotificationItem",
+      "type": "object"
+    }
+  },
+  "description": "Response ``GET /api/community/notifications``.",
+  "properties": {
+    "items": {
+      "items": {
+        "$ref": "#/$defs/NotificationItem"
+      },
+      "title": "Items",
+      "type": "array"
+    },
+    "next_cursor": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Next Cursor"
+    },
+    "unread_count": {
+      "minimum": 0,
+      "title": "Unread Count",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "items",
+    "unread_count"
+  ],
+  "title": "NotificationListResponse",
+  "type": "object"
+}

@@ -1,0 +1,268 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/thread-detail-response.schema.json",
+  "x-endpoint": "GET /api/community/threads/{slug}",
+  "$defs": {
+    "AuthorSummary": {
+      "description": "Rappresentazione minima di un autore nelle response content.\n\nCampi copiati da ``CommunityUser`` + ``has_premium_badge`` derivato\nservice-side (lookup ``user.subscription``). Se l'utente e' stato\nanonymized (``deleted_at`` set), il service popola ``deleted=True``\ne azzerra nickname/avatar.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "nickname": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Nickname"
+        },
+        "avatar_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Avatar Url"
+        },
+        "role": {
+          "enum": [
+            "user",
+            "moderator",
+            "admin"
+          ],
+          "title": "Role",
+          "type": "string"
+        },
+        "has_premium_badge": {
+          "default": false,
+          "title": "Has Premium Badge",
+          "type": "boolean"
+        },
+        "deleted": {
+          "default": false,
+          "title": "Deleted",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "role"
+      ],
+      "title": "AuthorSummary",
+      "type": "object"
+    },
+    "CategorySummary": {
+      "description": "Sub-object delle response thread (non espone i18n full, solo la\n``name`` gia risolta per la request lang).",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "slug": {
+          "title": "Slug",
+          "type": "string"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Description"
+        },
+        "order_index": {
+          "default": 100,
+          "title": "Order Index",
+          "type": "integer"
+        },
+        "is_admin_only": {
+          "default": false,
+          "title": "Is Admin Only",
+          "type": "boolean"
+        },
+        "is_premium_only": {
+          "default": false,
+          "title": "Is Premium Only",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "slug",
+        "name"
+      ],
+      "title": "CategorySummary",
+      "type": "object"
+    },
+    "TagResponse": {
+      "description": "Response per endpoint ``GET /api/community/tags`` (api-contracts \u00a73.13).",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "slug": {
+          "title": "Slug",
+          "type": "string"
+        },
+        "usage_count": {
+          "title": "Usage Count",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "slug",
+        "usage_count"
+      ],
+      "title": "TagResponse",
+      "type": "object"
+    }
+  },
+  "description": "``ThreadDetail`` api-contracts \u00a73.3.",
+  "properties": {
+    "id": {
+      "format": "uuid",
+      "title": "Id",
+      "type": "string"
+    },
+    "slug": {
+      "title": "Slug",
+      "type": "string"
+    },
+    "title": {
+      "title": "Title",
+      "type": "string"
+    },
+    "category": {
+      "$ref": "#/$defs/CategorySummary"
+    },
+    "tags": {
+      "items": {
+        "$ref": "#/$defs/TagResponse"
+      },
+      "title": "Tags",
+      "type": "array"
+    },
+    "author": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/AuthorSummary"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "body_markdown": {
+      "title": "Body Markdown",
+      "type": "string"
+    },
+    "body_html_sanitized": {
+      "title": "Body Html Sanitized",
+      "type": "string"
+    },
+    "language": {
+      "default": "en",
+      "title": "Language",
+      "type": "string"
+    },
+    "status": {
+      "default": "published",
+      "enum": [
+        "published",
+        "pending_review",
+        "rejected",
+        "hidden_by_staff"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "reply_count": {
+      "default": 0,
+      "title": "Reply Count",
+      "type": "integer"
+    },
+    "reaction_count": {
+      "default": 0,
+      "title": "Reaction Count",
+      "type": "integer"
+    },
+    "has_reacted": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Has Reacted"
+    },
+    "edit_window_expires_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Edit Window Expires At"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    },
+    "edited_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Edited At"
+    }
+  },
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "category",
+    "body_markdown",
+    "body_html_sanitized",
+    "created_at"
+  ],
+  "title": "ThreadDetail",
+  "type": "object"
+}

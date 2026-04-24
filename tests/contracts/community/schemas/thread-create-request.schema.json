@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/thread-create-request.schema.json",
+  "x-endpoint": "POST /api/community/threads",
+  "description": "Body ``POST /api/community/threads`` (api-contracts \u00a73.4).\n\nRegola 33 (markdown sanitize, anti-competitor, rate-limit, captcha,\npending review) applicata lato service \u2014 qui solo range check.",
+  "properties": {
+    "category_id": {
+      "format": "uuid",
+      "title": "Category Id",
+      "type": "string"
+    },
+    "title": {
+      "maxLength": 200,
+      "minLength": 5,
+      "title": "Title",
+      "type": "string"
+    },
+    "body_markdown": {
+      "maxLength": 10000,
+      "minLength": 1,
+      "title": "Body Markdown",
+      "type": "string"
+    },
+    "language": {
+      "anyOf": [
+        {
+          "maxLength": 10,
+          "pattern": "^[a-z]{2}(-[A-Za-z0-9]+)*$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Language"
+    },
+    "tags": {
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 5,
+      "title": "Tags",
+      "type": "array"
+    }
+  },
+  "required": [
+    "category_id",
+    "title",
+    "body_markdown"
+  ],
+  "title": "ThreadCreateRequest",
+  "type": "object"
+}

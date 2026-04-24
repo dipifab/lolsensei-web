@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/tag-merge-request.schema.json",
+  "x-endpoint": "POST /api/community/mod/tags/merge",
+  "description": "Body di ``POST /api/community/mod/tags/merge``.\n\nFonde ``from_slug`` in ``to_slug``: riassegna tutti i thread\nassociati al tag sorgente sul tag destinazione, quindi elimina\nil tag sorgente. Idempotente su from==to (no-op, 400).",
+  "properties": {
+    "from_slug": {
+      "maxLength": 64,
+      "minLength": 2,
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "title": "From Slug",
+      "type": "string"
+    },
+    "to_slug": {
+      "maxLength": 64,
+      "minLength": 2,
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "title": "To Slug",
+      "type": "string"
+    }
+  },
+  "required": [
+    "from_slug",
+    "to_slug"
+  ],
+  "title": "TagMergeRequest",
+  "type": "object"
+}

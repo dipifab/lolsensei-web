@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/notifications-preferences-update.schema.json",
+  "x-endpoint": "PUT /api/community/me/preferences/notifications",
+  "description": "Body ``PUT /api/community/notifications/preferences``.\n\nCampi obbligatori: garantisce update atomico (no PATCH semantics).\nLa retrocompatibilita' con il FE che setta singolo flag e' gestita\nlato route leggendo i valori correnti prima dell'update quando il\ncampo manca \u2014 NON qui per mantenere lo schema strict.",
+  "properties": {
+    "digest_optin": {
+      "title": "Digest Optin",
+      "type": "boolean"
+    },
+    "email_reply_optout": {
+      "title": "Email Reply Optout",
+      "type": "boolean"
+    },
+    "bell_enabled": {
+      "default": true,
+      "title": "Bell Enabled",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "digest_optin",
+    "email_reply_optout"
+  ],
+  "title": "NotificationPreferencesUpdate",
+  "type": "object"
+}

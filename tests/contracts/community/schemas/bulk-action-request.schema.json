@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/bulk-action-request.schema.json",
+  "x-endpoint": "POST /api/community/mod/bulk-actions",
+  "description": "Body di ``POST /api/community/mod/bulk-actions``.\n\nIl contratto limita il set a azioni \"di chiusura\" senza side-effect\nsull'entita' target (niente delete/ban bulk \u2014 queste richiedono\nreview individuale con ``reason`` contestuale).",
+  "properties": {
+    "report_ids": {
+      "items": {
+        "format": "uuid",
+        "type": "string"
+      },
+      "maxItems": 50,
+      "minItems": 1,
+      "title": "Report Ids",
+      "type": "array"
+    },
+    "action": {
+      "enum": [
+        "dismiss",
+        "approve_no_action"
+      ],
+      "title": "Action",
+      "type": "string"
+    },
+    "reason": {
+      "maxLength": 1000,
+      "minLength": 1,
+      "title": "Reason",
+      "type": "string"
+    }
+  },
+  "required": [
+    "report_ids",
+    "action",
+    "reason"
+  ],
+  "title": "ModBulkActionRequest",
+  "type": "object"
+}

@@ -933,6 +933,17 @@ const it = {
   'mod_admin.errors.already_resolved_by': 'Segnalazione gia\' risolta da un altro moderatore.',
   'mod_admin.errors.forbidden': 'Azione non consentita.',
   'mod_admin.errors.category_not_empty': 'La categoria ha thread. Spostali prima.',
+  // community.me.* — pagina profilo (F1-014 integration)
+  'community.me.title': 'Il mio profilo community',
+  'community.me.profile': 'Profilo',
+  'community.me.nickname': 'Nickname',
+  'community.me.nickname_empty': 'Non impostato',
+  'community.me.email': 'Email',
+  'community.me.role': 'Ruolo',
+  'community.me.role_user': 'Utente',
+  'community.me.role_moderator': 'Moderatore',
+  'community.me.role_admin': 'Amministratore',
+  'community.me.error_generic': 'Impossibile caricare il profilo. Riprova.',
 } as const;
 
 export default it;

@@ -12,8 +12,7 @@ export type CommunityRole = "user" | "moderator" | "admin";
 
 interface JwtPayload {
   role?: CommunityRole;
-  community_role?: CommunityRole;
-  is_admin?: boolean;
+  scope?: string;
   exp?: number;
   sub?: string;
 }
@@ -46,15 +45,18 @@ export function decodeJwtPayload(token: string | null): JwtPayload | null {
   }
 }
 
+const VALID_ROLES: ReadonlySet<CommunityRole> = new Set([
+  "user",
+  "moderator",
+  "admin",
+]);
+
 export function getCommunityRole(): CommunityRole | null {
   const payload = decodeJwtPayload(jwtSignal());
   if (!payload) return null;
-  if (payload.is_admin === true) return "admin";
-  return (
-    (payload.community_role as CommunityRole | undefined) ??
-    (payload.role as CommunityRole | undefined) ??
-    null
-  );
+  if (payload.scope !== "community") return null;
+  const role = payload.role;
+  return role && VALID_ROLES.has(role) ? role : null;
 }
 
 export function hasModeratorAccess(): boolean {

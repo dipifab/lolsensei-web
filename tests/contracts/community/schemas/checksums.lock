@@ -1,0 +1,39 @@
+# WP-COMMUNITY — schema checksum lockfile (F6-014)
+# Format: sha256(hex)  <filename>
+# Generated: 2026-04-24
+# Contracts version: v1 (31 snapshot)
+# Regenerate: cd /Users/fdipietro/Projects/lolai && \
+#   for f in dev-repository/tests/contracts/community/*.schema.json; do
+#     shasum -a 256 "$f" | awk '{print $1"  "basename_via_substr}' ; done
+#
+28f364bcaa7479eac67e58d29a81cbb70dc8410300bd4b9a55be94ae0e8da3c6  account-delete-request.schema.json
+3e68d6cbe0b2da9acf15241bec3c489c6074a6e20dff67a9dbf07ba84326f5f2  action-request.schema.json
+7a99d73b455f108c99f70d7bde1617c4858b2a15a470a4443126e84d2a0e9e75  audit-response.schema.json
+7afb2b3ddc18d16c505b65e84dc0d6c6501d1d62f8d22fba38b333afa1474b15  auth-magic-link-request.schema.json
+89c8765e42ccbd1cec16f16782c9f85a2b628ff74275d26eaed441d5d38a2a37  auth-magic-link-response.schema.json
+9bd2857c38a66d65fdc7338e8d6cdac5e1c2820dfec09302b8a18b7645688be6  auth-verify-response.schema.json
+963f574a51a628d4f77e6681751e3a487dbd10f10fbf1f068a32bcec9eedad62  avatar-confirm.schema.json
+02ab0132a291b1e21019724390c06e04857bd361344b3c197729ee324ec6192f  avatar-upload-url.schema.json
+c9550b33b46452580e1ab5dad37458336333f5586dc638d6c8336853d3002f4c  bulk-action-request.schema.json
+de7719af8ebe2ba90d69a844b72af8aac9d042c99b17857aa516ea55868d98bc  category-admin-request.schema.json
+8d845a14350c0ff21fedde26591cc9608a7668696500a667382eca2a52eb9a1a  filter-whitelist-request.schema.json
+d16edcd1212a7b048a2663428a462edbd41ce385917c4483f3a08b6f499cadcc  me-response.schema.json
+acfd03544b9722c44dc9c5e6671c3b187949581c4c37e78b80faab956290221f  me-update-request.schema.json
+4038b9dc64ccc3253dae901be3908a7715bccf1c541a3d9b9f357df822d5b93e  notifications-preferences-update.schema.json
+edc02cf1745f3d7430d8245d8ac661801a2450f35ca4b9ff1d693ad54a16b2f5  notifications-read-request.schema.json
+351250e3f42a47ea787dd8458ed5d36d121a086967ed4bd28051a25e6f06d1b9  notifications-response.schema.json
+9ea1d60a77bca0fbec4ff2c9b596cdecac1d30764fda91d9602d5d3a710967b1  post-create-request.schema.json
+11b9fc47c143207d8a73538d77878070e5ac904c6b147213c724c053296d90e8  post-response.schema.json
+c24622f84f0dc74b8864f65b687e4b84ee9f74c2aa88e2ea1d4fb2e33e0144fc  public-categories-response.schema.json
+1710dd95b1da8607c73c905631045aa22043e66dab8d5763181b6aa446837f7d  public-thread-list-response.schema.json
+29b3b50b8ff882ae918364c089b166d99da2d1fd6699ecaa727dde185462b109  queue-response.schema.json
+0f07bae0ba9e0d68f9c341fb197d5befec64e1eb9e36a6f8f9722ce4385df6af  reaction-toggle-request.schema.json
+55575e64f34e6e72163628384d93dcb440702205e2cdfb8e21f609b8771b3c64  reaction-toggle-response.schema.json
+cda23dd1211a516d851d2cb6e328922997245001f893040d4abdaa921a065a19  report-create-request.schema.json
+b4529db83946d6eede4f751ea495886a04ba2ea5b90118938c057431a99864e6  role-change-request.schema.json
+6ccbb9a5906cc7f163259363aaa108dc3622e8743234e8fd4395bbf34fd8fb34  search-request.schema.json
+32d00bd511916adf49543ca97ab3c495ecdcabd7b8f0802891b01afdcbc89eb9  search-response.schema.json
+083ccc8af9e799b533bd090d451487e078f04238f942cf926188ad50c91beabc  tag-merge-request.schema.json
+16123f0837fa84a20422e7bc81884d457485e650511772af25066dc5a27b00be  thread-create-request.schema.json
+6ed93839b1168ee8b636aa024a582c144205079ef807bcfb9575355f3ad799e9  thread-detail-response.schema.json
+46d7c28cc9b884f4400fc9f7114b4fb35211ada3b7900078d50a3f7cfec1d933  thread-list-response.schema.json

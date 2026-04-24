@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/avatar-confirm.schema.json",
+  "x-endpoint": "POST /api/community/me/avatar/confirm",
+  "description": "Body ``POST /me/avatar/confirm`` \u2014 enqueue validation worker.",
+  "properties": {
+    "upload_id": {
+      "format": "uuid",
+      "title": "Upload Id",
+      "type": "string"
+    }
+  },
+  "required": [
+    "upload_id"
+  ],
+  "title": "AvatarConfirmRequest",
+  "type": "object"
+}

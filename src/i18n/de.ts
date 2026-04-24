@@ -859,6 +859,17 @@ const de = {
   'mod_admin.errors.already_resolved_by': 'Report already resolved by another moderator.',
   'mod_admin.errors.forbidden': 'Action not allowed.',
   'mod_admin.errors.category_not_empty': 'Category has threads. Move them first.',
+  // community.me.* — TODO: native review (EN fallback)
+  'community.me.title': 'My community profile',
+  'community.me.profile': 'Profile',
+  'community.me.nickname': 'Nickname',
+  'community.me.nickname_empty': 'Not set',
+  'community.me.email': 'Email',
+  'community.me.role': 'Role',
+  'community.me.role_user': 'Member',
+  'community.me.role_moderator': 'Moderator',
+  'community.me.role_admin': 'Admin',
+  'community.me.error_generic': 'Could not load profile. Please try again.',
 } as const;
 
 export default de;

@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/auth-magic-link-response.schema.json",
+  "x-endpoint": "POST /api/community/auth/magic-link",
+  "description": "Risposta 202 opaca (no email enumeration).",
+  "properties": {
+    "status": {
+      "const": "ok",
+      "default": "ok",
+      "title": "Status",
+      "type": "string"
+    }
+  },
+  "title": "MagicLinkResponse",
+  "type": "object"
+}

@@ -1,0 +1,136 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/search-request.schema.json",
+  "x-endpoint": "GET /api/v1/public/community/search (query params)",
+  "additionalProperties": false,
+  "description": "Modello request per search (query string) \u2014 usato per documentare\nil contratto (JSON Schema snapshot) + validazione cross-repo.\n\nIl route FastAPI espone i campi come query params individuali: questo\nmodello e' principalmente un manifest del contratto per il contract\ntest cross-repo (Regola 34, REQ-NF-COMM-*).",
+  "properties": {
+    "q": {
+      "anyOf": [
+        {
+          "maxLength": 500,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Full-text query (NFKC-normalized). Min 2 char after strip.",
+      "title": "Q"
+    },
+    "category": {
+      "anyOf": [
+        {
+          "maxLength": 64,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Category"
+    },
+    "tag": {
+      "anyOf": [
+        {
+          "maxLength": 64,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Tag"
+    },
+    "author_nickname": {
+      "anyOf": [
+        {
+          "maxLength": 30,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Author Nickname"
+    },
+    "date_from": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Date From"
+    },
+    "date_to": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Date To"
+    },
+    "sort": {
+      "default": "relevance",
+      "enum": [
+        "relevance",
+        "latest",
+        "popular",
+        "unanswered",
+        "trending"
+      ],
+      "title": "Sort",
+      "type": "string"
+    },
+    "lang": {
+      "anyOf": [
+        {
+          "maxLength": 10,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "BCP-47 language subset (en/it/de/es/fr/pt/ja/ko).",
+      "title": "Lang"
+    },
+    "cursor": {
+      "anyOf": [
+        {
+          "maxLength": 512,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Cursor"
+    },
+    "limit": {
+      "default": 20,
+      "maximum": 50,
+      "minimum": 1,
+      "title": "Limit",
+      "type": "integer"
+    }
+  },
+  "title": "SearchRequest",
+  "type": "object"
+}

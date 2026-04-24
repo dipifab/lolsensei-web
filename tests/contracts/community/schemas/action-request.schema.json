@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/action-request.schema.json",
+  "x-endpoint": "POST /api/community/mod/actions",
+  "description": "Payload per ``POST /api/community/mod/actions`` (dispatcher).\n\n``ban_duration_days`` e' obbligatorio solo per ``action='ban_temp'``:\nil service valida il constraint e ritorna 400 ``duration_required``\nse manca. ``break_glass_override`` bypassa Regola 33 filter \u2014 audit\nobbligatorio (service ``log_break_glass``).",
+  "properties": {
+    "report_id": {
+      "format": "uuid",
+      "title": "Report Id",
+      "type": "string"
+    },
+    "action": {
+      "enum": [
+        "dismiss",
+        "delete_target",
+        "warn_user",
+        "ban_temp",
+        "ban_perm",
+        "escalate_to_admin"
+      ],
+      "title": "Action",
+      "type": "string"
+    },
+    "reason": {
+      "anyOf": [
+        {
+          "maxLength": 2000,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Reason"
+    },
+    "ban_duration_days": {
+      "anyOf": [
+        {
+          "maximum": 365,
+          "minimum": 1,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Ban Duration Days"
+    },
+    "break_glass_override": {
+      "default": false,
+      "title": "Break Glass Override",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "report_id",
+    "action"
+  ],
+  "title": "ModActionRequest",
+  "type": "object"
+}
