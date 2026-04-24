@@ -19,7 +19,7 @@ import { consentStore } from '../../../stores/consentStore';
 const DELETE_CONFIRMATION = 'DELETE_MY_ACCOUNT';
 
 export default function SettingsPrivacyRoute() {
-  const { t, locale } = useI18n();
+  const { t, locale, loadLegal } = useI18n();
   const navigate = useNavigate();
 
   const [exporting, setExporting] = createSignal(false);
@@ -28,6 +28,7 @@ export default function SettingsPrivacyRoute() {
   const [confirmText, setConfirmText] = createSignal('');
 
   onMount(() => {
+    void loadLegal();
     if (!getJwt()) {
       navigate(`/${locale()}/`, { replace: true });
     }

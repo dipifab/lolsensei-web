@@ -14,13 +14,14 @@ const API_BASE_URL = (
 ).replace(/\/$/, '');
 
 export default function ConfirmAgeRoute() {
-  const { t, locale } = useI18n();
+  const { t, locale, loadLegal } = useI18n();
   const navigate = useNavigate();
   const [checked, setChecked] = createSignal(false);
   const [submitting, setSubmitting] = createSignal(false);
   const [error, setError] = createSignal<string | undefined>();
 
   onMount(() => {
+    void loadLegal();
     if (!getJwt()) {
       navigate(`/${locale()}/`, { replace: true });
     }

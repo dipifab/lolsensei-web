@@ -1,7 +1,11 @@
 // WP24 TASK-3-009 — Preference center modale.
 // Consumato sia via footer link sia via CookieBanner (lazy-loaded).
+// WP24 TASK-4-024 — Le chiavi `consent.preferences.*` vivono nel bundle legal
+// lazy (src/i18n/legal/<lang>.ts); invochiamo `loadLegal()` in onMount per
+// coprire il path "footer link -> preference center" in cui il banner potrebbe
+// non essere mai stato montato.
 import type { Accessor } from 'solid-js';
-import { createSignal } from 'solid-js';
+import { createSignal, onMount } from 'solid-js';
 import Modal from './ui/Modal';
 import ConsentToggle from './ConsentToggle';
 import { useI18n } from '../i18n';
@@ -16,9 +20,19 @@ interface Props {
 }
 
 export default function PreferenceCenter(props: Props) {
-  const { t } = useI18n();
+  const { t, loadLegal } = useI18n();
   const [analytics, setAnalytics] = createSignal(props.initialScope.analytics);
   const [marketing, setMarketing] = createSignal(props.initialScope.marketing);
+
+  onMount(() => {
+    // Idempotent: se CookieBanner ha gia' caricato il legal, questa chiamata
+    // e' un no-op (cache hit sulla promise).
+    loadLegal().catch(() => {
+      // Failure silenzioso: Modal resta visibile con chiavi raw come fallback
+      // finale. Il PreferenceCenter e' comunque gia' lazy-loaded quindi siamo
+      // dentro una action utente (no SSR / no prerender concerns).
+    });
+  });
 
   const handleSave = () => {
     const next: ConsentScope = {

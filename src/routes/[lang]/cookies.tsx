@@ -1,6 +1,6 @@
 // WP24 TASK-3-013 — Cookie Policy route (MDX SSG).
 import { Link, Meta, Title } from '@solidjs/meta';
-import { ErrorBoundary, Show } from 'solid-js';
+import { ErrorBoundary, Show, onMount } from 'solid-js';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import { HreflangCluster } from '../../components/seo/HreflangCluster';
@@ -14,7 +14,8 @@ const POLICY_VERSION =
   (import.meta.env.VITE_PRIVACY_POLICY_VERSION as string | undefined) ?? '1.0.0';
 
 export default function CookiesRoute() {
-  const { t, locale } = useI18n();
+  const { t, locale, loadLegal } = useI18n();
+  onMount(() => { void loadLegal(); });
   const canonical = () => `${BASE_URL}/${canonicalLocale(locale())}/cookies`;
   const pageTitle = () => `${t('cookies.title')} — LoL Sensei`;
 

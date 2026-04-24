@@ -1,7 +1,7 @@
 // WP24 TASK-3-012 — Privacy Policy route (MDX SSG).
 // Build-time inline `VITE_PRIVACY_POLICY_VERSION` come badge versione.
 import { Link, Meta, Title } from '@solidjs/meta';
-import { ErrorBoundary, Show } from 'solid-js';
+import { ErrorBoundary, Show, onMount } from 'solid-js';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import { HreflangCluster } from '../../components/seo/HreflangCluster';
@@ -15,7 +15,8 @@ const POLICY_VERSION =
   (import.meta.env.VITE_PRIVACY_POLICY_VERSION as string | undefined) ?? '1.0.0';
 
 export default function PrivacyRoute() {
-  const { t, locale } = useI18n();
+  const { t, locale, loadLegal } = useI18n();
+  onMount(() => { void loadLegal(); });
   const canonical = () => `${BASE_URL}/${canonicalLocale(locale())}/privacy`;
   const pageTitle = () => `${t('privacy.page_title')} — LoL Sensei`;
 

@@ -1,5 +1,8 @@
 // WP24 TASK-3-007 — Cookie banner globale, client-only post hydration.
 // Gate su `consentStore.shouldPrompt`. Lazy-load PreferenceCenter on Customize.
+// WP24 TASK-4-024 — Legal i18n bundle lazy-loaded via `loadLegal()`: il banner
+// aspetta che il chunk sia pronto prima di diventare visibile, altrimenti
+// mostrerebbe chiavi raw tipo `consent.banner.title`.
 import { A } from '@solidjs/router';
 import { Show, createEffect, createSignal, lazy, onCleanup, onMount } from 'solid-js';
 import { useI18n } from '../i18n';
@@ -8,16 +11,28 @@ import { consentStore, consentHydrated } from '../stores/consentStore';
 const PreferenceCenter = lazy(() => import('./PreferenceCenter'));
 
 export default function CookieBanner() {
-  const { t, locale } = useI18n();
+  const { t, locale, loadLegal } = useI18n();
   const [mounted, setMounted] = createSignal(false);
+  const [legalReady, setLegalReady] = createSignal(false);
   let asideRef: HTMLElement | undefined;
 
   onMount(() => {
     consentStore.init();
     setMounted(true);
+    // Carica il bundle legal (consent/privacy/cookies) per la lingua corrente.
+    // Fire-and-forget: eventuali fallimenti lasciano `legalReady=false` e il
+    // banner non appare (fail-safe: meglio nessun banner che un banner con
+    // placeholder raw).
+    loadLegal()
+      .then(() => setLegalReady(true))
+      .catch(() => {
+        // Silenzioso: log-free per non sporcare la console lato utente. Il
+        // banner resta nascosto finche' il legal non e' disponibile.
+      });
   });
 
-  const visible = () => mounted() && consentHydrated() && consentStore.shouldPrompt();
+  const visible = () =>
+    mounted() && legalReady() && consentHydrated() && consentStore.shouldPrompt();
 
   const handleAcceptAll = () => {
     consentStore.setScope({ analytics: true, marketing: true });
