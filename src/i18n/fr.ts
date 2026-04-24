@@ -558,6 +558,7 @@ const fr = {
   'community.notifications.subtitle': 'Réponses, mentions et mises à jour de modération.',
   'community.notifications.page_title': 'Notifications — Communauté',
   'community.notifications.mark_all_read': 'Tout marquer comme lu',
+  'community.notifications.mark_all_error': 'Impossible de tout marquer comme lu. Réessaie.',
   'community.notifications.view_all': 'Voir toutes les notifications',
   'community.notifications.load_more': 'Charger plus',
   'community.notifications.skip_to_list': 'Aller à la liste des notifications',

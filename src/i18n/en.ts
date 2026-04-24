@@ -635,6 +635,7 @@ const en = {
   'community.notifications.subtitle': 'Replies, mentions, and moderation updates.',
   'community.notifications.page_title': 'Notifications — Community',
   'community.notifications.mark_all_read': 'Mark all as read',
+  'community.notifications.mark_all_error': "Couldn't mark all as read. Please try again.",
   'community.notifications.view_all': 'View all notifications',
   'community.notifications.load_more': 'Load more',
   'community.notifications.skip_to_list': 'Skip to notifications list',

@@ -558,6 +558,7 @@ const es = {
   'community.notifications.subtitle': 'Respuestas, menciones y actualizaciones de moderación.',
   'community.notifications.page_title': 'Notificaciones — Comunidad',
   'community.notifications.mark_all_read': 'Marcar todas como leídas',
+  'community.notifications.mark_all_error': 'No se pudieron marcar todas como leídas. Inténtalo de nuevo.',
   'community.notifications.view_all': 'Ver todas las notificaciones',
   'community.notifications.load_more': 'Cargar más',
   'community.notifications.skip_to_list': 'Ir a la lista de notificaciones',

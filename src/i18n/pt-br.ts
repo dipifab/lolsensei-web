@@ -559,6 +559,7 @@ const ptBr = {
   'community.notifications.subtitle': 'Respostas, menções e atualizações de moderação.',
   'community.notifications.page_title': 'Notificações — Comunidade',
   'community.notifications.mark_all_read': 'Marcar todas como lidas',
+  'community.notifications.mark_all_error': 'Não foi possível marcar todas como lidas. Tente novamente.',
   'community.notifications.view_all': 'Ver todas as notificações',
   'community.notifications.load_more': 'Carregar mais',
   'community.notifications.skip_to_list': 'Ir para a lista de notificações',

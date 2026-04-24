@@ -632,6 +632,7 @@ const it = {
   'community.notifications.subtitle': 'Risposte, menzioni e aggiornamenti di moderazione.',
   'community.notifications.page_title': 'Notifiche — Community',
   'community.notifications.mark_all_read': 'Segna tutte come lette',
+  'community.notifications.mark_all_error': 'Impossibile segnare tutte come lette. Riprova.',
   'community.notifications.view_all': 'Vedi tutte le notifiche',
   'community.notifications.load_more': 'Carica altro',
   'community.notifications.skip_to_list': 'Vai alla lista notifiche',

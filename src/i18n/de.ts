@@ -558,6 +558,7 @@ const de = {
   'community.notifications.subtitle': 'Antworten, Erwähnungen und Moderationsupdates.',
   'community.notifications.page_title': 'Benachrichtigungen — Community',
   'community.notifications.mark_all_read': 'Alle als gelesen markieren',
+  'community.notifications.mark_all_error': 'Konnte nicht alle als gelesen markieren. Bitte erneut versuchen.',
   'community.notifications.view_all': 'Alle Benachrichtigungen anzeigen',
   'community.notifications.load_more': 'Mehr laden',
   'community.notifications.skip_to_list': 'Zur Benachrichtigungsliste springen',

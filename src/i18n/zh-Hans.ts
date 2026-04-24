@@ -558,6 +558,7 @@ const zh = {
   'community.notifications.subtitle': '回复、提及和管理员动态。',
   'community.notifications.page_title': '通知 — 社区',
   'community.notifications.mark_all_read': '全部标为已读',
+  'community.notifications.mark_all_error': '无法将全部标为已读，请重试。',
   'community.notifications.view_all': '查看全部通知',
   'community.notifications.load_more': '加载更多',
   'community.notifications.skip_to_list': '跳转至通知列表',

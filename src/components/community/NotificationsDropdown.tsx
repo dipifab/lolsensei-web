@@ -15,6 +15,7 @@ import {
 } from "../../stores/community/notifications-store";
 import type { NotificationItem as Notif } from "../../services/community-notifications-api";
 import { buildNotificationTargetUrl } from "../../services/community-notifications-api";
+import { pushToast } from "../ui/toastStore";
 
 export interface NotificationsDropdownProps {
   open: boolean;
@@ -107,7 +108,10 @@ export default function NotificationsDropdown(
     try {
       await markAllAsRead();
     } catch {
-      // TODO: surface via pushToast once dropdown has a dedicated error slot.
+      pushToast({
+        variant: "error",
+        message: t("community.notifications.mark_all_error"),
+      });
     }
   };
 

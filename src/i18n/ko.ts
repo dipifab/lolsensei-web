@@ -558,6 +558,7 @@ const ko = {
   'community.notifications.subtitle': '답글, 멘션, 모더레이션 관련 업데이트입니다.',
   'community.notifications.page_title': '알림 — 커뮤니티',
   'community.notifications.mark_all_read': '모두 읽음으로 표시',
+  'community.notifications.mark_all_error': '모두 읽음으로 표시하지 못했습니다. 다시 시도해주세요.',
   'community.notifications.view_all': '모든 알림 보기',
   'community.notifications.load_more': '더 보기',
   'community.notifications.skip_to_list': '알림 목록으로 건너뛰기',
