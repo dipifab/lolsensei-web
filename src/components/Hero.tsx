@@ -14,11 +14,10 @@ export default function Hero() {
   const titleHighlight = () => t('hero.titleHighlight');
   const titleSuffix = () => t('hero.titleSuffix');
 
-  // WP19 P2-02 — mobile-first H1 + `<picture>` responsive.
-  // TODO(WP19 P2-02): ship `/images/hero-panel-mobile.webp` (square/portrait crop
-  // optimized for <1024px). Until then the mobile source reuses the large asset.
+  // WP19.1 — hero mobile asset shipped: /images/hero-panel-mobile.webp (760x760, q=85).
+  // Produced by scripts/optimize-assets.sh (sharp crop da hero-panel-large.webp).
   const heroLargeSrc = '/images/hero-panel-large.webp';
-  const heroMobileSrc = heroLargeSrc;
+  const heroMobileSrc = '/images/hero-panel-mobile.webp';
   const heroAlt = () => t('hero.image.alt');
 
   return (
@@ -63,6 +62,32 @@ export default function Hero() {
             </button>
           </div>
           <PreviewModal open={previewOpen()} onClose={() => setPreviewOpen(false)} />
+        </div>
+
+        {/* WP19.1 TASK-3-001 — mobile hero image. Visibile solo <1024px (lg:hidden).
+            LCP candidate mobile (width/height intrinseci per CLS=0, fetchpriority=high,
+            NO loading=lazy). Complementare a <link rel="preload"> in entry-server.tsx. */}
+        <div class="lg:hidden relative z-10 mt-8">
+          <div class="glass-panel rounded-xl border border-primary-container/30 p-3 shadow-[0_0_40px_rgba(240,191,92,0.06)]">
+            <div class="rounded-lg overflow-hidden">
+              <picture>
+                <source
+                  media="(max-width: 1023px)"
+                  srcset={heroMobileSrc}
+                  type="image/webp"
+                />
+                <img
+                  class="w-full h-auto"
+                  alt={heroAlt()}
+                  src={heroMobileSrc}
+                  fetchpriority="high"
+                  decoding="async"
+                  width={760}
+                  height={760}
+                />
+              </picture>
+            </div>
+          </div>
         </div>
 
         {/* Glass panel mockups — desktop-only composition (decorative) */}

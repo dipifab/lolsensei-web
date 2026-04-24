@@ -109,6 +109,78 @@ else
   PASS=$((PASS + 1))
 fi
 
+echo "=== WP19.1 assets + critical CSS ==="
+WP19_1_HTML="$(curl -sS "$HOST/en/")"
+
+# S1: HTTP 200 on /en/
+if [ -n "$WP19_1_HTML" ]; then
+  echo "  [PASS] S1 HTTP 200 /en/"
+  PASS=$((PASS + 1))
+else
+  echo "  [FAIL] S1 /en/ empty response"
+  FAIL=$((FAIL + 1))
+fi
+
+# S2: <style> inline present (>=1)
+style_count=$(printf '%s' "$WP19_1_HTML" | grep -c '<style')
+if [ "$style_count" -ge 1 ]; then
+  echo "  [PASS] S2 <style> inline count=$style_count"
+  PASS=$((PASS + 1))
+else
+  echo "  [FAIL] S2 <style> inline missing (count=$style_count)"
+  FAIL=$((FAIL + 1))
+fi
+
+# S3: <style> inner content size > 1024 byte (deterministic Node, BSD-safe)
+style_content_bytes=$(printf '%s' "$WP19_1_HTML" | node -e "let d=''; process.stdin.on('data',c=>d+=c).on('end',()=>{const m=d.match(/<style[^>]*>([\\s\\S]*?)<\\/style>/); console.log(m ? m[1].length : 0)})")
+if [ "$style_content_bytes" -gt 1024 ]; then
+  echo "  [PASS] S3 <style> content $style_content_bytes bytes > 1024"
+  PASS=$((PASS + 1))
+else
+  echo "  [FAIL] S3 <style> content $style_content_bytes bytes <= 1024"
+  FAIL=$((FAIL + 1))
+fi
+
+# S4: @font-face count >= 2
+ff_count=$(printf '%s' "$WP19_1_HTML" | grep -c '@font-face')
+if [ "$ff_count" -ge 2 ]; then
+  echo "  [PASS] S4 @font-face count=$ff_count"
+  PASS=$((PASS + 1))
+else
+  echo "  [FAIL] S4 @font-face count=$ff_count < 2"
+  FAIL=$((FAIL + 1))
+fi
+
+# S5: hero-panel-mobile.webp referenced
+if printf '%s' "$WP19_1_HTML" | grep -q 'hero-panel-mobile.webp'; then
+  echo "  [PASS] S5 hero-panel-mobile.webp referenced"
+  PASS=$((PASS + 1))
+else
+  echo "  [FAIL] S5 hero-panel-mobile.webp missing"
+  FAIL=$((FAIL + 1))
+fi
+
+# S6: WOFF2 inter-latin 200 + font/woff2
+check_header "S6 WOFF2 inter-latin font/woff2" "$HOST/fonts/inter-latin.woff2" "content-type" "font/woff2"
+check "S6b WOFF2 inter-latin 200" "$HOST/fonts/inter-latin.woff2" "200"
+
+# S7: WOFF2 inter-latin-ext
+check_header "S7 WOFF2 inter-latin-ext font/woff2" "$HOST/fonts/inter-latin-ext.woff2" "content-type" "font/woff2"
+check "S7b WOFF2 inter-latin-ext 200" "$HOST/fonts/inter-latin-ext.woff2" "200"
+
+# S8: hero-panel-mobile.webp 200
+check "S8 hero-panel-mobile.webp 200" "$HOST/images/hero-panel-mobile.webp" "200"
+
+# S9: No onload= on <link> tags (REQ-NF-019-1-006)
+onload_count=$(printf '%s' "$WP19_1_HTML" | grep -cE '<link[^>]*onload=' || true)
+if [ "$onload_count" -eq 0 ]; then
+  echo "  [PASS] S9 no onload= on <link> (CSP compliant)"
+  PASS=$((PASS + 1))
+else
+  echo "  [FAIL] S9 onload= on <link> detected ($onload_count)"
+  FAIL=$((FAIL + 1))
+fi
+
 echo
 echo "=== Summary: $PASS pass, $FAIL fail ==="
 if [ "$FAIL" -gt 0 ]; then

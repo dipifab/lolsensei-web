@@ -1,62 +1,66 @@
 #!/usr/bin/env node
 /**
- * extract-critical-css.mjs — WP19 P3 fallback (TASK-W19-P3-06)
+ * extract-critical-css.mjs — WP19.1 critical CSS extraction (REQ-F-019-1-003)
  *
- * Emesso perche TASK-W19-P3-01 POC Beasties ha dato verdetto NO-GO.
- * Cfr. dev-repository/specs/wp19/beasties-poc-result.md per rationale.
+ * Scope: off-cycle one-shot estrazione critical CSS above-the-fold per viewport mobile
+ * 375x812 su due homepage locale (/en/, /zh-Hans/ worst-case glyph density),
+ * coverage-merge, write in scripts/critical-css.txt (committato).
  *
- * Strategia: rendering headless di dist/index.html in due viewport
- * (mobile 390x844 + desktop 1280x800), CSS coverage via DevTools Protocol,
- * merge regole applicate above-the-fold, inline <style id="critical-css">
- * in <head>, async-preload del bundle CSS completo.
+ * IMPORTANTE: questo script NON modifica HTML — il critical CSS emitted va letto
+ * da src/entry-server.tsx via `?raw` import e inlinato nel <head> JSX a build-time
+ * (vedi WP19.1 architecture.md §3.4). Rimosso pattern async-preload `onload=`
+ * del precedente WP19 (VIETATO da REQ-NF-019-1-006 — CSP strict).
+ *
+ * Target build output: .output/public/<locale>/index.html (SolidStart Vinxi prerender).
+ * MAI in postbuild, MAI in CI (puppeteer troppo pesante per GH Actions).
  *
  * Uso:
- *   node scripts/extract-critical-css.mjs
+ *   1. npm run build     (produce .output/public/)
+ *   2. node scripts/extract-critical-css.mjs
+ *   3. git diff scripts/critical-css.txt
+ *   4. rebuild, verify size, commit
  *
- * Pre-req:
- *   - npm run build (per produrre dist/)
- *   - devDep `puppeteer` installato (SEGNALARE al main se missing)
- *   - alternativa runtime: `penthouse` (API diversa — questo script usa puppeteer)
+ *   node scripts/extract-critical-css.mjs --help   (banner)
  *
- * Exit codes:
+ * Exit codes (allineati a api-contracts.md §1.2):
  *   0  success
- *   20 puppeteer missing
- *   21 dist/index.html missing
- *   22 bundle CSS non trovato
- *   23 critical CSS eccede budget
- *   24 errore runtime headless
- *
- * Output:
- *   - Sovrascrive dist/index.html con critical inline + async preload.
- *   - NOTA: toccare index.html richiede coordinamento con altro agent
- *     (index.html e' shared file in WP19). Prima di applicare in main branch
- *     merge finale, SEGNALARE al main per merge coordinato.
+ *   1  puppeteer launch fail (fallback: beasties pre-built, runbook §5.3)
+ *   2  .output/public/ assente (run `npm run build` first)
  */
 
-import { readFile, writeFile, stat } from 'node:fs/promises';
+import { writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
-import { gzipSync } from 'node:zlib';
-import { createRequire } from 'node:module';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createRequire } from 'node:module';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, '..');
-const DIST_DIR = path.join(REPO_ROOT, 'dist');
-const INDEX_HTML = path.join(DIST_DIR, 'index.html');
-const BUDGET_GZIP_BYTES = 14 * 1024; // 14KB gzip (design §4.3)
+const OUTPUT_DIR = path.join(REPO_ROOT, '.output', 'public');
+const CRITICAL_OUT = path.join(REPO_ROOT, 'scripts', 'critical-css.txt');
 
-const VIEWPORTS = [
-  { label: 'mobile', width: 390, height: 844, deviceScaleFactor: 2, isMobile: true },
-  { label: 'desktop', width: 1280, height: 800, deviceScaleFactor: 1, isMobile: false },
-];
+const LOCALES = ['en', 'zh-Hans'];
+const VIEWPORT = { width: 375, height: 812, deviceScaleFactor: 2, isMobile: true };
+const BUDGET_CONTENT_BYTES = 14 * 1024;
 
-function log(...args) {
-  console.log('[extract-critical-css]', ...args);
-}
-function die(code, msg) {
-  console.error('[extract-critical-css] ERROR:', msg);
-  process.exit(code);
+function log(...args) { console.log('[extract-critical-css]', ...args); }
+function die(code, msg) { console.error('[extract-critical-css] ERROR:', msg); process.exit(code); }
+
+function printHelp() {
+  console.log(`
+Usage: node scripts/extract-critical-css.mjs [--help]
+
+WP19.1 off-cycle critical CSS extractor.
+  Input:  .output/public/<locale>/index.html (requires prior 'npm run build')
+  Output: scripts/critical-css.txt (committed artifact)
+
+Exit codes:
+  0  success
+  1  puppeteer launch fail
+  2  .output/public/ missing
+
+See dev-repository/specs/wp19_1/runbook.md for fallback strategies.
+`);
 }
 
 async function loadPuppeteer() {
@@ -64,27 +68,10 @@ async function loadPuppeteer() {
   try {
     return require_('puppeteer');
   } catch {
-    try {
-      return require_('puppeteer-core');
-    } catch {
-      die(
-        20,
-        [
-          'puppeteer (or puppeteer-core) not installed.',
-          'Install (devDep):',
-          '  npm i -D puppeteer',
-          'or if system chromium already available:',
-          '  npm i -D puppeteer-core',
-          'Alternative fallback library: penthouse (different API — update this script).',
-        ].join('\n  '),
-      );
-    }
+    die(1, 'puppeteer not installed. devDep required: npm i -D puppeteer\n  Fallback: beasties pre-built (runbook §5.3)');
   }
 }
 
-/**
- * Dedup + merge used CSS ranges da coverage puppeteer.
- */
 function mergeCoverage(coverageAllViewports) {
   const perFile = new Map();
   for (const coverageList of coverageAllViewports) {
@@ -99,7 +86,6 @@ function mergeCoverage(coverageAllViewports) {
   }
   let merged = '';
   for (const { text, ranges } of perFile.values()) {
-    // Sort + merge overlapping ranges (coverage ranges can overlap fra viewport).
     const sorted = [...ranges].sort((a, b) => a.start - b.start);
     const flat = [];
     for (const r of sorted) {
@@ -117,15 +103,7 @@ function mergeCoverage(coverageAllViewports) {
   return merged.trim();
 }
 
-async function extractCritical() {
-  if (!existsSync(INDEX_HTML)) {
-    die(21, `dist/index.html not found. Run \`npm run build\` first.`);
-  }
-
-  const puppeteer = await loadPuppeteer();
-
-  // NOTE: serve dist/ via file:// URL. Risorse assolute ("/assets/...") richiedono
-  // un server locale. Strategia: avvia server statico in-process sulla dist/.
+async function startStaticServer(rootDir) {
   const http = await import('node:http');
   const { createReadStream } = await import('node:fs');
   const mime = {
@@ -141,8 +119,10 @@ async function extractCritical() {
   };
   const server = http.createServer((req, res) => {
     const urlPath = decodeURIComponent((req.url || '/').split('?')[0]);
-    let filePath = path.join(DIST_DIR, urlPath);
-    if (urlPath === '/' || urlPath.endsWith('/')) filePath = path.join(filePath, 'index.html');
+    let filePath = path.join(rootDir, urlPath);
+    if (urlPath === '/' || urlPath.endsWith('/')) {
+      filePath = path.join(filePath, 'index.html');
+    }
     if (!existsSync(filePath)) {
       res.statusCode = 404;
       res.end('not found');
@@ -155,88 +135,74 @@ async function extractCritical() {
   await new Promise((resolve) => server.listen(0, '127.0.0.1', resolve));
   const address = server.address();
   const port = typeof address === 'object' && address ? address.port : 0;
-  const baseUrl = `http://127.0.0.1:${port}/`;
-  log(`Local static server: ${baseUrl}`);
+  return { server, baseUrl: `http://127.0.0.1:${port}` };
+}
 
-  let browser;
+async function run() {
+  if (process.argv.includes('--help') || process.argv.includes('-h')) {
+    printHelp();
+    return;
+  }
+
+  if (!existsSync(OUTPUT_DIR)) {
+    die(2, `.output/public/ not found. Run 'npm run build' first.`);
+  }
+
+  const puppeteer = await loadPuppeteer();
+  const { server, baseUrl } = await startStaticServer(OUTPUT_DIR);
+  log(`Local static server: ${baseUrl}/`);
+
   const coverageAll = [];
+  let browser;
   try {
     browser = await puppeteer.launch({
       headless: 'new',
       args: ['--no-sandbox', '--disable-setuid-sandbox'],
     });
-    for (const vp of VIEWPORTS) {
+    for (const locale of LOCALES) {
       const page = await browser.newPage();
-      await page.setViewport({
-        width: vp.width,
-        height: vp.height,
-        deviceScaleFactor: vp.deviceScaleFactor,
-        isMobile: vp.isMobile,
-      });
+      await page.setViewport(VIEWPORT);
       await page.coverage.startCSSCoverage({ resetOnNavigation: true });
-      await page.goto(baseUrl, { waitUntil: 'networkidle0', timeout: 30_000 });
-      // Piccolo settle: lascia girare eventuali effect Solid ATF.
+      const url = `${baseUrl}/${locale}/`;
+      log(`Analyzing ATF: ${url}`);
+      await page.goto(url, { waitUntil: 'networkidle0', timeout: 30_000 });
       await page.evaluate(() => new Promise((r) => setTimeout(r, 500)));
       const cov = await page.coverage.stopCSSCoverage();
-      log(`${vp.label} viewport: ${cov.length} css file(s) analyzed`);
+      log(`  ${locale}: ${cov.length} css file(s) analyzed`);
       coverageAll.push(cov);
       await page.close();
     }
   } catch (e) {
-    die(24, `Headless run failed: ${e instanceof Error ? e.message : String(e)}`);
+    die(1, `puppeteer run failed: ${e instanceof Error ? e.message : String(e)}\n  Fallback: beasties pre-built (runbook §5.3)`);
   } finally {
     if (browser) await browser.close().catch(() => {});
     server.close();
   }
 
-  const critical = mergeCoverage(coverageAll);
-  if (!critical) {
-    die(22, 'No CSS coverage collected. Check that bundle CSS is referenced in dist/index.html.');
+  const merged = mergeCoverage(coverageAll);
+  if (!merged) {
+    die(1, 'No CSS coverage collected. Verify <link rel="stylesheet"> present in .output/public/<locale>/index.html');
   }
 
-  const gzipSize = gzipSync(Buffer.from(critical, 'utf8')).length;
-  log(`Critical CSS raw: ${critical.length} bytes, gzip: ${gzipSize} bytes (budget ${BUDGET_GZIP_BYTES})`);
-  if (gzipSize > BUDGET_GZIP_BYTES) {
-    die(
-      23,
-      `Critical CSS exceeds budget (${gzipSize} > ${BUDGET_GZIP_BYTES} bytes gzip).\n  Action: narrow viewport ATF, tighten Tailwind purge, or split hero component styles.`,
-    );
+  const minified = merged
+    .replace(/\/\*[\s\S]*?\*\//g, '')
+    .replace(/\s+/g, ' ')
+    .replace(/\s*([{}:;,])\s*/g, '$1')
+    .trim();
+
+  const header = `/* generated by extract-critical-css.mjs — do not edit. WP19.1 critical CSS ATF mobile 375x812 (en + zh-Hans merged). */\n`;
+  const content = header + minified + '\n';
+
+  log(`Critical CSS content: ${minified.length} bytes (budget ${BUDGET_CONTENT_BYTES})`);
+  if (minified.length > BUDGET_CONTENT_BYTES) {
+    log(`WARNING: content exceeds ${BUDGET_CONTENT_BYTES} — caller must tighten ATF selectors or split hero component styles.`);
   }
 
-  // Inline into dist/index.html.
-  let html = await readFile(INDEX_HTML, 'utf8');
-
-  // Find main bundle CSS link (Vite emits <link rel="stylesheet" href="/assets/index-*.css">).
-  const cssLinkRe = /<link\s+[^>]*rel=["']stylesheet["'][^>]*href=["'](\/assets\/[^"']+\.css)["'][^>]*>/i;
-  const cssMatch = html.match(cssLinkRe);
-  if (!cssMatch) {
-    log('WARN: no /assets/*.css <link rel="stylesheet"> found in dist/index.html');
-    log('      Skipping async-preload rewrite; inlining critical only.');
-  } else {
-    const href = cssMatch[1];
-    const asyncLink =
-      `<link rel="preload" as="style" href="${href}" onload="this.onload=null;this.rel='stylesheet'">\n` +
-      `    <noscript><link rel="stylesheet" href="${href}"></noscript>`;
-    html = html.replace(cssMatch[0], asyncLink);
-    log(`Converted ${href} to async preload.`);
-  }
-
-  // Inject <style id="critical-css"> before </head>.
-  const styleTag = `<style id="critical-css">\n${critical}\n</style>`;
-  if (/id=["']critical-css["']/.test(html)) {
-    html = html.replace(/<style[^>]*id=["']critical-css["'][^>]*>[\s\S]*?<\/style>/i, styleTag);
-    log('Replaced existing <style id="critical-css"> block.');
-  } else {
-    html = html.replace(/<\/head>/i, `    ${styleTag}\n  </head>`);
-    log('Injected <style id="critical-css"> before </head>.');
-  }
-
-  await writeFile(INDEX_HTML, html, 'utf8');
-  const finalSize = (await stat(INDEX_HTML)).size;
-  log(`Wrote ${INDEX_HTML} (${finalSize} bytes).`);
-  log('Done. Coordinate with index.html owner agent before committing.');
+  await writeFile(CRITICAL_OUT, content, 'utf8');
+  log(`Wrote ${CRITICAL_OUT} (${content.length} bytes total with header).`);
+  log('Next: rebuild (npm run build) and verify size; commit scripts/critical-css.txt.');
 }
 
-extractCritical().catch((e) => {
-  die(24, e instanceof Error ? e.stack || e.message : String(e));
+run().catch((e) => {
+  die(1, e instanceof Error ? e.stack || e.message : String(e));
 });
