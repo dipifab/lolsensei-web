@@ -23,6 +23,7 @@ import {
 } from "../../stores/community/notifications-store";
 import { formatTemplate } from "../../lib/datetime";
 import NotificationsDropdown from "./NotificationsDropdown";
+import Icon from "../Icon";
 
 export interface BellWidgetProps {
   lang: string;
@@ -64,26 +65,7 @@ export default function BellWidget(props: BellWidgetProps) {
                focus-visible:outline-none focus-visible:ring-2
                focus-visible:ring-primary"
       >
-        {/* Inline SVG bell icon. TODO: replace with shared <Icon name="notifications" /> once available. */}
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="1.8"
-          class="w-5 h-5"
-          aria-hidden="true"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31
-               A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75
-               a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085
-               5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0
-               m5.714 0a3 3 0 1 1-5.714 0"
-          />
-        </svg>
+        <Icon name="notifications" class="w-5 h-5" />
         <Show when={notifState.unreadCount > 0}>
           <span
             aria-live="polite"
