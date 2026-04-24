@@ -5,6 +5,7 @@
 // Three states: loading, success, error (401 expired, 429 rate-limited, other).
 
 import { createResource, Show, Switch, Match } from "solid-js";
+import { isServer } from "solid-js/web";
 import { useSearchParams } from "@solidjs/router";
 import { Title, Meta } from "@solidjs/meta";
 import { useI18n } from "../../i18n";
@@ -37,7 +38,7 @@ export default function UnsubscribePage() {
   const lang = (params.lang ?? "en") as string;
 
   const [res] = createResource(
-    () => ({ token, kind, lang }),
+    () => (isServer ? null : { token, kind, lang }),
     async (q): Promise<UnsubscribeResponse> => {
       if (!q.token) {
         throw new ApiError(400, "missing_token", "token required", null);

@@ -10,6 +10,7 @@
 //  - empty state with CTA
 
 import { For, Show, createEffect, createResource, createSignal } from "solid-js";
+import { isServer } from "solid-js/web";
 import { useParams, useNavigate, useLocation } from "@solidjs/router";
 import { Title, Meta } from "@solidjs/meta";
 import { useI18n } from "../../../i18n";
@@ -51,7 +52,7 @@ export default function NotificationsRoute() {
   const [loadingMore, setLoadingMore] = createSignal(false);
 
   const [initial] = createResource(
-    () => filter(),
+    () => (isServer ? false : filter()),
     async (f): Promise<NotificationListResponse> => {
       setPageError(null);
       const res = await fetchNotifications({
