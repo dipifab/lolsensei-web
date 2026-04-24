@@ -1,0 +1,205 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/me-response.schema.json",
+  "x-endpoint": "GET /api/community/me",
+  "$defs": {
+    "BanSummary": {
+      "description": "Riassunto ban attivo esposto in ``GET /me``.",
+      "properties": {
+        "kind": {
+          "title": "Kind",
+          "type": "string"
+        },
+        "ends_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Ends At"
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reason"
+        },
+        "is_active": {
+          "default": true,
+          "title": "Is Active",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "kind"
+      ],
+      "title": "BanSummary",
+      "type": "object"
+    }
+  },
+  "description": "Payload ``GET /api/community/me`` (api-contracts \u00a72.5).",
+  "properties": {
+    "id": {
+      "format": "uuid",
+      "title": "Id",
+      "type": "string"
+    },
+    "email": {
+      "title": "Email",
+      "type": "string"
+    },
+    "nickname": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Nickname"
+    },
+    "role": {
+      "enum": [
+        "user",
+        "moderator",
+        "admin"
+      ],
+      "title": "Role",
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "warned",
+        "banned"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "lol_user_id": {
+      "anyOf": [
+        {
+          "format": "uuid",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Lol User Id"
+    },
+    "has_premium_badge": {
+      "default": false,
+      "title": "Has Premium Badge",
+      "type": "boolean"
+    },
+    "language_preference": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Language Preference"
+    },
+    "bio_markdown": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Bio Markdown"
+    },
+    "avatar_url": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Avatar Url"
+    },
+    "avatar_status": {
+      "default": "none",
+      "enum": [
+        "none",
+        "pending",
+        "active",
+        "rejected"
+      ],
+      "title": "Avatar Status",
+      "type": "string"
+    },
+    "email_verified_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Email Verified At"
+    },
+    "digest_optin": {
+      "default": false,
+      "title": "Digest Optin",
+      "type": "boolean"
+    },
+    "email_reply_optout": {
+      "default": false,
+      "title": "Email Reply Optout",
+      "type": "boolean"
+    },
+    "active_ban": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/BanSummary"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "unread_notification_count": {
+      "default": 0,
+      "title": "Unread Notification Count",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "id",
+    "email",
+    "role",
+    "status"
+  ],
+  "title": "MeResponse",
+  "type": "object"
+}

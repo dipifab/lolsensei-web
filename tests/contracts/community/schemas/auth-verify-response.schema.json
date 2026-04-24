@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/auth-verify-response.schema.json",
+  "x-endpoint": "GET /api/community/auth/verify",
+  "description": "Response 302 \u2192 body per test contract (il browser segue il Location).\n\nIl router emette 302 + Set-Cookie; questo schema serve per il\ncontract test JSON (Regola 34) sul payload opzionale di debug in\ndevelopment.",
+  "properties": {
+    "success": {
+      "default": true,
+      "title": "Success",
+      "type": "boolean"
+    },
+    "redirect_to": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Redirect To"
+    }
+  },
+  "title": "MagicLinkVerifyResponse",
+  "type": "object"
+}

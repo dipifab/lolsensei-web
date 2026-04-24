@@ -1,0 +1,289 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/search-response.schema.json",
+  "x-endpoint": "GET /api/v1/public/community/search",
+  "$defs": {
+    "SearchAuthor": {
+      "description": "Author minimale per hit search \u2014 cache-friendly, no ``id`` UUID.\n\nCoerente con ``PublicAuthorSummary`` (community_public.py) per\nallineare la cache di edge.",
+      "properties": {
+        "nickname": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Nickname"
+        },
+        "has_premium_badge": {
+          "default": false,
+          "title": "Has Premium Badge",
+          "type": "boolean"
+        },
+        "deleted": {
+          "default": false,
+          "title": "Deleted",
+          "type": "boolean"
+        }
+      },
+      "title": "SearchAuthor",
+      "type": "object"
+    },
+    "SearchHit": {
+      "description": "Singolo risultato di search \u2014 match aggregato a livello thread.\n\nI match su post (reply) sono dedotti al thread padre. Il campo\n``matched_in`` indica la sorgente principale del match (``title`` |\n``body`` | ``post``) per informare il client e l'analytics.\n``snippet`` e' plain-text con delimitatori sentinel (vedi module\ndocstring). ``rank_score`` e' la somma ts_rank_cd pesata (solo per\nsort=``relevance``, 0.0 per gli altri sort).",
+      "properties": {
+        "thread_id": {
+          "format": "uuid",
+          "title": "Thread Id",
+          "type": "string"
+        },
+        "thread_slug": {
+          "title": "Thread Slug",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "snippet": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Snippet"
+        },
+        "matched_in": {
+          "default": "body",
+          "enum": [
+            "title",
+            "body",
+            "post"
+          ],
+          "title": "Matched In",
+          "type": "string"
+        },
+        "author": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/SearchAuthor"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "category_slug": {
+          "title": "Category Slug",
+          "type": "string"
+        },
+        "tag_slugs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Tag Slugs",
+          "type": "array"
+        },
+        "reply_count": {
+          "default": 0,
+          "title": "Reply Count",
+          "type": "integer"
+        },
+        "reaction_count": {
+          "default": 0,
+          "title": "Reaction Count",
+          "type": "integer"
+        },
+        "language": {
+          "default": "en",
+          "title": "Language",
+          "type": "string"
+        },
+        "rank_score": {
+          "default": 0.0,
+          "title": "Rank Score",
+          "type": "number"
+        },
+        "created_at": {
+          "format": "date-time",
+          "title": "Created At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "thread_id",
+        "thread_slug",
+        "title",
+        "category_slug",
+        "created_at"
+      ],
+      "title": "SearchHit",
+      "type": "object"
+    },
+    "SearchQueryEcho": {
+      "description": "Eco dei parametri di query (debug + client).\n\n``dictionary_used`` e' sempre ``'simple'`` in v1 (ADR-012):\nutilizziamo ``plainto_tsquery('simple', :q)`` per garantire\ncross-language matching token-literal.",
+      "properties": {
+        "q": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Q"
+        },
+        "sort": {
+          "default": "relevance",
+          "enum": [
+            "relevance",
+            "latest",
+            "popular",
+            "unanswered",
+            "trending"
+          ],
+          "title": "Sort",
+          "type": "string"
+        },
+        "language": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Language"
+        },
+        "category": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Category"
+        },
+        "tag": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Tag"
+        },
+        "author_nickname": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Author Nickname"
+        },
+        "date_from": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Date From"
+        },
+        "date_to": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Date To"
+        },
+        "dictionary_used": {
+          "const": "simple",
+          "default": "simple",
+          "title": "Dictionary Used",
+          "type": "string"
+        }
+      },
+      "title": "SearchQueryEcho",
+      "type": "object"
+    }
+  },
+  "description": "Envelope ``GET /search`` (api-contracts \u00a76.1).\n\n``next_cursor`` e' base64 opaque: il client lo ripassa in ``?cursor=``\nper la pagina successiva. ``total_approx`` e' un count approssimato\n(COUNT(*) con LIMIT capped) per evitare scan costosi \u2014 il client\ndeve mostrarlo come \"~N\" se ``has_more=true``.",
+  "properties": {
+    "items": {
+      "items": {
+        "$ref": "#/$defs/SearchHit"
+      },
+      "title": "Items",
+      "type": "array"
+    },
+    "next_cursor": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Next Cursor"
+    },
+    "total_approx": {
+      "default": 0,
+      "title": "Total Approx",
+      "type": "integer"
+    },
+    "has_more": {
+      "default": false,
+      "title": "Has More",
+      "type": "boolean"
+    },
+    "took_ms": {
+      "default": 0,
+      "title": "Took Ms",
+      "type": "integer"
+    },
+    "query_echo": {
+      "$ref": "#/$defs/SearchQueryEcho"
+    }
+  },
+  "required": [
+    "items",
+    "query_echo"
+  ],
+  "title": "SearchResponse",
+  "type": "object"
+}

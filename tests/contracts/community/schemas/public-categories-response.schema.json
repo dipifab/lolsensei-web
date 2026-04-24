@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/public-categories-response.schema.json",
+  "x-endpoint": "GET /api/v1/public/community/categories",
+  "$defs": {
+    "PublicCategoryResponse": {
+      "description": "Item di ``GET /api/v1/public/community/categories`` (api-contracts \u00a73.1).\n\nEspone i18n full: il client (FE SolidJS) applica la localizzazione\nusando ``user.language_preference`` o ``Accept-Language`` al momento\ndel render. ``thread_count`` e' opzionale: il server puo' ometterlo\nper alleggerire il payload cache (computato via JOIN costoso).",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "slug": {
+          "title": "Slug",
+          "type": "string"
+        },
+        "name_i18n": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Name I18N",
+          "type": "object"
+        },
+        "description_i18n": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Description I18N",
+          "type": "object"
+        },
+        "order_index": {
+          "default": 100,
+          "title": "Order Index",
+          "type": "integer"
+        },
+        "is_admin_only": {
+          "default": false,
+          "title": "Is Admin Only",
+          "type": "boolean"
+        },
+        "is_premium_only": {
+          "default": false,
+          "title": "Is Premium Only",
+          "type": "boolean"
+        },
+        "thread_count": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Thread Count"
+        }
+      },
+      "required": [
+        "id",
+        "slug"
+      ],
+      "title": "PublicCategoryResponse",
+      "type": "object"
+    }
+  },
+  "description": "Envelope ``GET /categories``.",
+  "properties": {
+    "items": {
+      "items": {
+        "$ref": "#/$defs/PublicCategoryResponse"
+      },
+      "title": "Items",
+      "type": "array"
+    }
+  },
+  "required": [
+    "items"
+  ],
+  "title": "PublicCategoriesResponse",
+  "type": "object"
+}

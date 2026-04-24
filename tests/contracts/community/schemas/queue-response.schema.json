@@ -1,0 +1,237 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/queue-response.schema.json",
+  "x-endpoint": "GET /api/community/mod/queue",
+  "$defs": {
+    "ModQueueItem": {
+      "description": "Riga della queue moderator (report + snapshot target).\n\nLo snapshot body excerpt (``target_preview``) evita al moderator\ndi navigare via e avere un secondo rate-limit sulla content API.",
+      "properties": {
+        "report": {
+          "$ref": "#/$defs/ReportResponse"
+        },
+        "target_author_nickname": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Target Author Nickname"
+        },
+        "target_title": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Target Title"
+        },
+        "target_preview": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Target Preview"
+        },
+        "target_deleted": {
+          "default": false,
+          "title": "Target Deleted",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "report"
+      ],
+      "title": "ModQueueItem",
+      "type": "object"
+    },
+    "ReportResponse": {
+      "description": "Singolo report esposto al moderator/admin console.\n\n``reporter_id_redacted`` e' ``True`` per moderator: in tal caso\n``reporter_nickname`` e ``reporter_id`` sono settati a ``None``\n(contract: moderator non deve poter identificare il reporter).",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "reporter_id": {
+          "anyOf": [
+            {
+              "format": "uuid",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reporter Id"
+        },
+        "reporter_id_redacted": {
+          "default": false,
+          "title": "Reporter Id Redacted",
+          "type": "boolean"
+        },
+        "reporter_nickname": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reporter Nickname"
+        },
+        "target_type": {
+          "enum": [
+            "thread",
+            "post"
+          ],
+          "title": "Target Type",
+          "type": "string"
+        },
+        "target_id": {
+          "format": "uuid",
+          "title": "Target Id",
+          "type": "string"
+        },
+        "reason": {
+          "enum": [
+            "spam",
+            "abuse",
+            "competitor",
+            "other"
+          ],
+          "title": "Reason",
+          "type": "string"
+        },
+        "note": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Note"
+        },
+        "status": {
+          "enum": [
+            "pending",
+            "resolved",
+            "dismissed"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "handled_by_nickname": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Handled By Nickname"
+        },
+        "handled_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Handled At"
+        },
+        "action_taken": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Action Taken"
+        },
+        "is_high_priority": {
+          "default": false,
+          "title": "Is High Priority",
+          "type": "boolean"
+        },
+        "created_at": {
+          "format": "date-time",
+          "title": "Created At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "target_type",
+        "target_id",
+        "reason",
+        "status",
+        "created_at"
+      ],
+      "title": "ReportResponse",
+      "type": "object"
+    }
+  },
+  "description": "Envelope paginato per ``GET /api/community/mod/queue`` (\u00a74.2).\n\nIl flag ``reporter_identity_redacted`` riflette la policy REQ-F-COMM-014:\n``True`` se il viewer e' moderator (gli item dentro hanno\n``reporter_id=None``), ``False`` se admin (identity visibile).",
+  "properties": {
+    "items": {
+      "items": {
+        "$ref": "#/$defs/ModQueueItem"
+      },
+      "title": "Items",
+      "type": "array"
+    },
+    "total": {
+      "title": "Total",
+      "type": "integer"
+    },
+    "page": {
+      "title": "Page",
+      "type": "integer"
+    },
+    "per_page": {
+      "title": "Per Page",
+      "type": "integer"
+    },
+    "reporter_identity_redacted": {
+      "default": true,
+      "title": "Reporter Identity Redacted",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "items",
+    "total",
+    "page",
+    "per_page"
+  ],
+  "title": "ModQueueResponse",
+  "type": "object"
+}

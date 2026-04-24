@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/report-create-request.schema.json",
+  "x-endpoint": "POST /api/community/reports",
+  "description": "Payload per ``POST /api/community/reports``.\n\nIl service mappera' ``reason`` sul campo colonna ``category`` della\ntabella ``community_report`` (migration 037 usa ``category``). Il\nvalore ``competitor`` viene trattato come ``abuse`` lato DB \u2014 la\ndistinzione UI/moderator viene preservata in ``report.note``\n(audit rationale) e in metriche separate.",
+  "properties": {
+    "target_type": {
+      "enum": [
+        "thread",
+        "post"
+      ],
+      "title": "Target Type",
+      "type": "string"
+    },
+    "target_id": {
+      "format": "uuid",
+      "title": "Target Id",
+      "type": "string"
+    },
+    "reason": {
+      "enum": [
+        "spam",
+        "abuse",
+        "competitor",
+        "other"
+      ],
+      "title": "Reason",
+      "type": "string"
+    },
+    "note": {
+      "anyOf": [
+        {
+          "maxLength": 1000,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Note"
+    }
+  },
+  "required": [
+    "target_type",
+    "target_id",
+    "reason"
+  ],
+  "title": "ReportCreateRequest",
+  "type": "object"
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/auth-magic-link-request.schema.json",
+  "x-endpoint": "POST /api/community/auth/magic-link",
+  "description": "``POST /api/community/auth/magic-link`` body.",
+  "properties": {
+    "email": {
+      "maxLength": 254,
+      "pattern": "^[A-Za-z0-9._%+\\-]+@[A-Za-z0-9][A-Za-z0-9.\\-]*\\.[A-Za-z]{2,}$",
+      "title": "Email",
+      "type": "string"
+    },
+    "lang_hint": {
+      "anyOf": [
+        {
+          "maxLength": 16,
+          "pattern": "^[a-z]{2}(-[A-Za-z0-9]+)*$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "BCP-47 hint per Postmark template fallback.",
+      "title": "Lang Hint"
+    }
+  },
+  "required": [
+    "email"
+  ],
+  "title": "MagicLinkRequest",
+  "type": "object"
+}

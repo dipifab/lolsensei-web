@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/reaction-toggle-request.schema.json",
+  "x-endpoint": "POST /api/community/threads|posts/{id}/reactions",
+  "description": "Body ``POST /threads|posts/{id}/reactions`` (api-contracts \u00a73.11).\n\nBody opzionale; ``kind`` reserved per v2 (al momento unico valore\naccettato = ``like``). FE puo POSTare body vuoto ``{}``.",
+  "properties": {
+    "kind": {
+      "default": "like",
+      "maxLength": 32,
+      "title": "Kind",
+      "type": "string"
+    }
+  },
+  "title": "ReactionToggleRequest",
+  "type": "object"
+}

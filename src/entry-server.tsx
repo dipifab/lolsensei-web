@@ -22,7 +22,7 @@ export default createHandler(() => (
               2. Preload hero mobile (media-query gated <1024px)
               3. Preload hero desktop (media-query gated ≥1024px)
               4. Bundle CSS standard via <link rel="stylesheet"> (da {assets} SolidStart)
-              5. Preload Manrope (font critico heading, FOUT minimizzato)
+              5. Preload Inter Latin (font critico, FOUT minimizzato)
           */}
           {/* 1 — critical <style> inline (WP19.1 REQ-F-019-1-003/008, REQ-NF-019-1-002) */}
           {/* eslint-disable-next-line solid/no-innerhtml */}
@@ -41,11 +41,6 @@ export default createHandler(() => (
             href="/images/hero-panel-large.webp"
             media="(min-width: 1024px)"
           />
-          {/*
-            WP24 MIN-07 (perf) — font preload Manrope Latin ridotto FOUT CookieBanner
-            (target INP < 200ms). latin-ext / CJK / Inter restano in lazy @font-face.
-            WP19.1: Inter preload spostato qui come ordine #5 (dopo bundle CSS, heading font critico).
-          */}
           {/* 4 — bundle CSS + altri asset SolidStart */}
           {assets}
           {/* 5 — preload Inter latin (WP24 heritage, WP19.1 preservato) */}

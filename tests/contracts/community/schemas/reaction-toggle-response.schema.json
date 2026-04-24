@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/reaction-toggle-response.schema.json",
+  "x-endpoint": "POST /api/community/threads|posts/{id}/reactions",
+  "description": "Response ``POST /threads/:id/reactions`` e ``POST /posts/:id/reactions``.\n\nEventual consistency 5s col flush worker (Q-IMPL-001): il\n``reaction_count`` e' quello denormalizzato dal DB al momento del\ntoggle, potrebbe non riflettere subito la mutazione appena fatta.\nIl FE fa ottimistic UI update usando il ``reacted`` bool.",
+  "properties": {
+    "reacted": {
+      "title": "Reacted",
+      "type": "boolean"
+    },
+    "reaction_count": {
+      "title": "Reaction Count",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "reacted",
+    "reaction_count"
+  ],
+  "title": "ReactionToggleResponse",
+  "type": "object"
+}

@@ -1,0 +1,181 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/post-response.schema.json",
+  "x-endpoint": "GET /api/community/posts/{id}",
+  "$defs": {
+    "AuthorSummary": {
+      "description": "Rappresentazione minima di un autore nelle response content.\n\nCampi copiati da ``CommunityUser`` + ``has_premium_badge`` derivato\nservice-side (lookup ``user.subscription``). Se l'utente e' stato\nanonymized (``deleted_at`` set), il service popola ``deleted=True``\ne azzerra nickname/avatar.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "nickname": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Nickname"
+        },
+        "avatar_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Avatar Url"
+        },
+        "role": {
+          "enum": [
+            "user",
+            "moderator",
+            "admin"
+          ],
+          "title": "Role",
+          "type": "string"
+        },
+        "has_premium_badge": {
+          "default": false,
+          "title": "Has Premium Badge",
+          "type": "boolean"
+        },
+        "deleted": {
+          "default": false,
+          "title": "Deleted",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "role"
+      ],
+      "title": "AuthorSummary",
+      "type": "object"
+    }
+  },
+  "description": "``PostDetail`` api-contracts \u00a73.3 (embed in thread detail + list).\n\n``body_html_sanitized`` popolato dal service (render markdown safe)\nprima di serializzare. ``has_reacted`` None se chiamante unauth;\nbool se autenticato.",
+  "properties": {
+    "id": {
+      "format": "uuid",
+      "title": "Id",
+      "type": "string"
+    },
+    "thread_id": {
+      "format": "uuid",
+      "title": "Thread Id",
+      "type": "string"
+    },
+    "parent_post_id": {
+      "anyOf": [
+        {
+          "format": "uuid",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Parent Post Id"
+    },
+    "author": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/AuthorSummary"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "body_markdown": {
+      "title": "Body Markdown",
+      "type": "string"
+    },
+    "body_html_sanitized": {
+      "title": "Body Html Sanitized",
+      "type": "string"
+    },
+    "language": {
+      "default": "en",
+      "title": "Language",
+      "type": "string"
+    },
+    "status": {
+      "default": "published",
+      "enum": [
+        "published",
+        "pending_review",
+        "rejected",
+        "hidden_by_staff"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "reaction_count": {
+      "default": 0,
+      "title": "Reaction Count",
+      "type": "integer"
+    },
+    "has_reacted": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Has Reacted"
+    },
+    "can_edit": {
+      "default": false,
+      "title": "Can Edit",
+      "type": "boolean"
+    },
+    "deleted": {
+      "default": false,
+      "title": "Deleted",
+      "type": "boolean"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    },
+    "edited_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Edited At"
+    }
+  },
+  "required": [
+    "id",
+    "thread_id",
+    "body_markdown",
+    "body_html_sanitized",
+    "created_at"
+  ],
+  "title": "PostResponse",
+  "type": "object"
+}

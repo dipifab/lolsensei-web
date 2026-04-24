@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/post-create-request.schema.json",
+  "x-endpoint": "POST /api/community/threads/{id}/posts",
+  "description": "Body ``POST /api/community/threads/:id/posts`` (api-contracts \u00a73.8).\n\n``parent_post_id`` controllato server-side:\n  * None -> reply al thread (level 1).\n  * UUID -> reply a un post esistente con ``parent_post_id IS NULL``.\n  * UUID con parent.parent_post_id NOT NULL -> 400 max_nesting_depth.",
+  "properties": {
+    "body_markdown": {
+      "maxLength": 10000,
+      "minLength": 1,
+      "title": "Body Markdown",
+      "type": "string"
+    },
+    "parent_post_id": {
+      "anyOf": [
+        {
+          "format": "uuid",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Parent Post Id"
+    },
+    "language": {
+      "anyOf": [
+        {
+          "maxLength": 10,
+          "pattern": "^[a-z]{2}(-[A-Za-z0-9]+)*$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Language"
+    }
+  },
+  "required": [
+    "body_markdown"
+  ],
+  "title": "PostCreateRequest",
+  "type": "object"
+}

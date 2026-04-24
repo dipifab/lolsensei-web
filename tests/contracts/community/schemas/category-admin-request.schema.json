@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/category-admin-request.schema.json",
+  "x-endpoint": "POST/PUT /api/community/mod/categories",
+  "description": "Body di ``POST/PUT /api/community/mod/categories`` (\u00a74.8).\n\nLo stesso shape serve sia create sia update: su create ``slug`` e'\nobbligatorio, su update e' ignorato (slug immutable \u2014 REQ-F-COMM-008,\nenforced da ``community_category_service.update_category``).",
+  "properties": {
+    "slug": {
+      "anyOf": [
+        {
+          "maxLength": 64,
+          "minLength": 2,
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Slug"
+    },
+    "name_i18n": {
+      "anyOf": [
+        {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Name I18N"
+    },
+    "description_i18n": {
+      "anyOf": [
+        {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Description I18N"
+    },
+    "is_admin_only": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Is Admin Only"
+    },
+    "is_premium_only": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Is Premium Only"
+    },
+    "order_index": {
+      "anyOf": [
+        {
+          "maximum": 10000,
+          "minimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Order Index"
+    }
+  },
+  "title": "CategoryAdminRequest",
+  "type": "object"
+}

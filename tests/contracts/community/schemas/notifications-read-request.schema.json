@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/notifications-read-request.schema.json",
+  "x-endpoint": "POST /api/community/notifications/read",
+  "description": "Body ``POST /api/community/notifications/read``.\n\n``ids=None`` => mark-all (contrattualizzato esplicitamente per\nnon confondere con lista vuota ``[]`` che significa no-op).",
+  "properties": {
+    "ids": {
+      "anyOf": [
+        {
+          "items": {
+            "format": "uuid",
+            "type": "string"
+          },
+          "maxItems": 200,
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Ids"
+    }
+  },
+  "title": "NotificationReadRequest",
+  "type": "object"
+}

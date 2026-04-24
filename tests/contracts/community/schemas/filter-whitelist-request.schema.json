@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/filter-whitelist-request.schema.json",
+  "x-endpoint": "POST /api/community/mod/filter-whitelist",
+  "description": "Body di ``POST /api/community/mod/filter-whitelist``.\n\nAggiunge un domain/keyword alla whitelist override del content\nfilter (Regola 33 gate 4). Il servizio persiste la entry in-process\n(non-persistent v1 \u2014 audit log e' la source-of-truth post-restart).",
+  "properties": {
+    "domain": {
+      "maxLength": 253,
+      "minLength": 2,
+      "title": "Domain",
+      "type": "string"
+    },
+    "reason": {
+      "maxLength": 1000,
+      "minLength": 5,
+      "title": "Reason",
+      "type": "string"
+    }
+  },
+  "required": [
+    "domain",
+    "reason"
+  ],
+  "title": "FilterWhitelistRequest",
+  "type": "object"
+}

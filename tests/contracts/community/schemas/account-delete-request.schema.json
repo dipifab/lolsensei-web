@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://lolsensei.com/schemas/community/account-delete-request.schema.json",
+  "x-endpoint": "DELETE /api/community/account",
+  "description": "Body di ``DELETE /api/community/account``.\n\nSealed con ``Literal`` per forzare la stringa esatta: qualunque\naltro valore e` 400 ``invalid_confirmation`` (Pydantic restituisce\nvalidation error prima che il router la elabori).",
+  "properties": {
+    "confirmation": {
+      "const": "DELETE_MY_COMMUNITY_ACCOUNT",
+      "title": "Confirmation",
+      "type": "string"
+    }
+  },
+  "required": [
+    "confirmation"
+  ],
+  "title": "AccountDeleteRequest",
+  "type": "object"
+}
