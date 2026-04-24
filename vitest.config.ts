@@ -6,6 +6,7 @@ export default defineConfig({
     include: [
       'tests/unit/**/*.test.{ts,tsx}',
       'tests/integration/**/*.test.{ts,tsx}',
+      'tests/contracts/**/*.test.{ts,tsx}',
     ],
     exclude: ['tests/e2e/**', 'node_modules/**'],
   },
