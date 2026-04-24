@@ -43,13 +43,14 @@ export default defineConfig({
       },
     },
   ],
-  webServer: {
-    // When PLAYWRIGHT_BASE_URL is set (e.g. CI hitting a preview server), skip boot.
-    // Requires a prior `npm run build` so .output/ exists.
-    command:
-      'cross-env VITE_PUBLIC_PAGES_ENABLED=true npx wrangler dev .output/server/index.mjs --assets .output/public --port 8787',
-    url: process.env.PLAYWRIGHT_BASE_URL ?? 'http://127.0.0.1:8787/en/',
-    reuseExistingServer: !process.env.CI,
-    timeout: 120_000,
-  },
+  webServer: process.env.PLAYWRIGHT_BASE_URL
+    ? undefined
+    : {
+        // Requires a prior `npm run build` so .output/ exists.
+        command:
+          'cross-env VITE_PUBLIC_PAGES_ENABLED=true npx wrangler dev .output/server/index.mjs --assets .output/public --port 8787',
+        url: 'http://127.0.0.1:8787/en/',
+        reuseExistingServer: !process.env.CI,
+        timeout: 120_000,
+      },
 });
