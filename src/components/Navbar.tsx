@@ -4,6 +4,8 @@ import { A, useLocation } from '@solidjs/router';
 import { useI18n, SUPPORTED_LOCALES, type Locale } from '../i18n';
 import DownloadCTA from './DownloadCTA';
 import Icon from './Icon';
+import BellWidget from './community/BellWidget';
+import { jwtSignal } from '../auth/store';
 
 const NAV_KEYS = [
   { key: 'nav.features', path: '/features' },
@@ -166,6 +168,9 @@ export default function Navbar() {
               </ul>
             </Show>
           </div>
+
+          {/* Community notifications bell (authenticated-only) */}
+          <BellWidget lang={locale()} authenticated={!!jwtSignal()} />
 
           {/* CTA button */}
           <DownloadCTA variant="nav" />
