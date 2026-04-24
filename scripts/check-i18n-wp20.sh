@@ -3,8 +3,11 @@
 # Fails (exit 1) if any WP20 required key is missing in any of the 8 locales,
 # or if any banned marketing claim slips back into src/.
 #
+# WP24 TASK-4-024 — Il dizionario per-locale e' splittato in base
+# (src/i18n/<lang>.ts) e legal lazy (src/i18n/legal/<lang>.ts). Il check
+# cerca la chiave in entrambe le sorgenti.
+#
 # Usage: bash scripts/check-i18n-wp20.sh
-#        (wired into package.json via ``pnpm check-i18n`` if desired)
 
 set -uo pipefail
 
@@ -47,14 +50,21 @@ KEYS=(
 
 missing=0
 for lang in "${LANGS[@]}"; do
-  file="src/i18n/${lang}.ts"
-  if [[ ! -f "$file" ]]; then
-    echo "MISSING FILE: $file"
+  base_file="src/i18n/${lang}.ts"
+  legal_file="src/i18n/legal/${lang}.ts"
+  if [[ ! -f "$base_file" ]]; then
+    echo "MISSING FILE: $base_file"
     missing=$((missing + 1))
     continue
   fi
   for key in "${KEYS[@]}"; do
-    if ! grep -q "\"$key\"\|'$key'" "$file"; then
+    found=0
+    if grep -q "\"$key\"\|'$key'" "$base_file"; then
+      found=1
+    elif [[ -f "$legal_file" ]] && grep -q "\"$key\"\|'$key'" "$legal_file"; then
+      found=1
+    fi
+    if [[ "$found" -eq 0 ]]; then
       echo "MISSING: $lang $key"
       missing=$((missing + 1))
     fi
