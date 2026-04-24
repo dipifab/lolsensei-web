@@ -17,7 +17,20 @@
 
 import { expect, test } from '@playwright/test';
 
+// Security headers are injected by Cloudflare edge via _headers in production.
+// `wrangler dev` used in CI does NOT replay those headers (it serves the
+// Workers runtime locally without the CDN layer). Run this suite against a
+// production-like URL, e.g.:
+//   PLAYWRIGHT_BASE_URL=https://www.lolsensei.com npx playwright test wp24-security-headers
+const isLocalDev = (() => {
+  const base = process.env.PLAYWRIGHT_BASE_URL || '';
+  return base.includes('127.0.0.1') || base.includes('localhost') || base === '';
+})();
+
 test.describe('@wp24 security headers — enforce', () => {
+  test.skip(isLocalDev, 'Security headers come from Cloudflare _headers; skip on wrangler dev');
+
+
   test('Content-Security-Policy present and enforce-mode', async ({ request }) => {
     const res = await request.get('/en/');
     const csp = res.headers()['content-security-policy'];
