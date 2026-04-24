@@ -1,14 +1,14 @@
 import { Title, Meta, Link } from '@solidjs/meta';
 import { useParams } from '@solidjs/router';
-import Navbar from '../../components/Navbar';
-import Footer from '../../components/Footer';
-import { BreadcrumbJsonLd } from '../../components/JsonLd';
-import Icon from '../../components/Icon';
-import { useI18n } from '../../i18n';
-import { HreflangCluster } from '../../components/seo/HreflangCluster';
-import { BASE_URL, getRouteSeo } from '../../lib/seo/routes';
-import { canonicalLocale } from '../../lib/i18n/locales';
-import { getStaticMeta } from '../../lib/seo/meta-resolver';
+import Navbar from '../../../components/Navbar';
+import Footer from '../../../components/Footer';
+import { BreadcrumbJsonLd } from '../../../components/JsonLd';
+import Icon from '../../../components/Icon';
+import { useI18n } from '../../../i18n';
+import { HreflangCluster } from '../../../components/seo/HreflangCluster';
+import { BASE_URL, getRouteSeo } from '../../../lib/seo/routes';
+import { canonicalLocale } from '../../../lib/i18n/locales';
+import { getStaticMeta } from '../../../lib/seo/meta-resolver';
 
 export default function CommunityRoute() {
   const params = useParams<{ lang: string }>();
