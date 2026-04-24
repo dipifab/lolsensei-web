@@ -48,15 +48,33 @@ test.describe('@wp24 DSR rate limit', () => {
         await route.fulfill({
           status: 200,
           contentType: 'application/json',
+          // WP24 note: VITE_API_BASE_URL punta a https://api.lolsensei.com
+          // quindi la fetch e' cross-origin rispetto al preview wrangler
+          // (127.0.0.1:8787). Per permettere al JS di leggere gli headers
+          // non CORS-safelisted (es. Retry-After nella seconda chiamata)
+          // dobbiamo rispondere coerentemente con i CORS headers del
+          // backend reale.
+          headers: {
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Expose-Headers': 'Retry-After',
+          },
           body: JSON.stringify(EXPORT_PAYLOAD),
         });
         return;
       }
       // Seconda chiamata: 429 con Retry-After.
+      // IMPORTANTE: senza `Access-Control-Expose-Headers: Retry-After`
+      // il JS cross-origin NON vede l'header tramite `res.headers.get()`
+      // (ritorna null), il client non calcola retry_after_sec e cade sul
+      // fallback `detail` anziche' mostrare il toast i18n formattato.
       await route.fulfill({
         status: 429,
         contentType: 'application/json',
-        headers: { 'Retry-After': '420' },
+        headers: {
+          'Retry-After': '420',
+          'Access-Control-Allow-Origin': '*',
+          'Access-Control-Expose-Headers': 'Retry-After',
+        },
         body: JSON.stringify({
           detail: 'Export rate limit reached. Try again later.',
           error_code: 'DSR_EXPORT_RATE_LIMIT',

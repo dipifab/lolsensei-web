@@ -41,7 +41,9 @@ test.describe('@wp24 age gate', () => {
 
     const req = await patchRequest;
     expect(req.headers()['authorization']).toBe('Bearer fake.jwt.token');
-    expect(req.postData()).toBe(JSON.stringify({ confirmed: true }));
+    // WP24 BL-01 — il contratto backend richiede il campo `age_confirmed`
+    // (Literal[True]); la shape `confirmed` precedente produceva 422.
+    expect(req.postData()).toBe(JSON.stringify({ age_confirmed: true }));
 
     await page.waitForURL(/\/en\/?$/, { timeout: 5_000 });
   });

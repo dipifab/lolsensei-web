@@ -47,22 +47,27 @@ test.describe('@wp24 customize flow', () => {
       .poll(() => jsRequests.filter((u) => PREF_CENTER_CHUNK_RE.test(u)).length, { timeout: 5_000 })
       .toBeGreaterThan(0);
 
-    // Toggle: analytics ON, marketing OFF. I toggle sono input role="switch".
-    const switches = modal.getByRole('switch');
-
-    // Strategia conservativa: individuiamo i singoli switch tramite il loro
-    // accessible name. I label i18n EN contengono "Analytics" e "Marketing".
-    const analyticsSwitch = switches.filter({ hasText: /./ }).and(modal.getByRole('switch', { name: /analytics/i }));
+    // Toggle: analytics ON, marketing OFF. I toggle sono <input role="switch">
+    // con class `sr-only` (ConsentToggle.tsx): l'input vero e' nascosto e un
+    // <span aria-hidden> visibile intercetta i pointer events, quindi un
+    // click "normale" di Playwright fallisce l'actionability.
+    // Usiamo click({ force: true }): bypassa i check di actionability, il
+    // browser comunque sintetizza il change event sul checkbox (role=switch).
+    const analyticsSwitch = modal.getByRole('switch', { name: /analytics/i });
     const marketingSwitch = modal.getByRole('switch', { name: /marketing/i });
 
     // Portiamo analytics a ON se non lo e' gia'.
     if ((await analyticsSwitch.getAttribute('aria-checked')) !== 'true') {
-      await analyticsSwitch.click();
+      await analyticsSwitch.click({ force: true });
     }
     // Portiamo marketing a OFF se risulta ON.
     if ((await marketingSwitch.getAttribute('aria-checked')) === 'true') {
-      await marketingSwitch.click();
+      await marketingSwitch.click({ force: true });
     }
+
+    // Stato finale atteso prima del salvataggio (evita race con reattivita' Solid).
+    await expect(analyticsSwitch).toHaveAttribute('aria-checked', 'true');
+    await expect(marketingSwitch).toHaveAttribute('aria-checked', 'false');
 
     await modal.getByRole('button', { name: /Save preferences/i }).click();
 
