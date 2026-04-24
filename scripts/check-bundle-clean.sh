@@ -22,25 +22,26 @@
 # Compatibile con bash 3.2 (macOS).
 set -eu
 
-DIST_DIR="dist/assets"
-INDEX_HTML="dist/index.html"
+DIST_ROOT=".output/public"
+DIST_DIR="${DIST_ROOT}/_build/assets"
+INDEX_HTML=$(find "$DIST_ROOT" -name index.html -type f 2>/dev/null | head -1)
 
 if [ ! -d "$DIST_DIR" ]; then
   echo "[ERR] $DIST_DIR non trovata. Eseguire 'npm run build' prima." >&2
   exit 2
 fi
 
-if [ ! -f "$INDEX_HTML" ]; then
-  echo "[ERR] $INDEX_HTML non trovato" >&2
+if [ -z "$INDEX_HTML" ] || [ ! -f "$INDEX_HTML" ]; then
+  echo "[ERR] Nessun index.html trovato sotto $DIST_ROOT" >&2
   exit 2
 fi
 
-ENTRY_REL=$(grep -oE 'src="/assets/[^"]+\.js"' "$INDEX_HTML" | head -1 | sed 's/src="//;s/"$//')
+ENTRY_REL=$(grep -oE 'src="/_build/assets/[^"]+\.js"' "$INDEX_HTML" | head -1 | sed 's/src="//;s/"$//')
 if [ -z "$ENTRY_REL" ]; then
   echo "[ERR] Impossibile identificare l'entry chunk da $INDEX_HTML" >&2
   exit 2
 fi
-ENTRY_FILE="dist${ENTRY_REL}"
+ENTRY_FILE="${DIST_ROOT}${ENTRY_REL}"
 if [ ! -f "$ENTRY_FILE" ]; then
   echo "[ERR] Entry chunk $ENTRY_FILE non esiste" >&2
   exit 2
