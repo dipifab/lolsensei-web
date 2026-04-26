@@ -78,8 +78,10 @@ test.describe('@wp30 tier list E2E', () => {
     // X-Robots-Tag noindex AND skips the JSON-LD ItemList (caller-gated).
     const res = await request.get('/en/tier-list?role=mid&patch=0.0');
     if (res.status() === 503) {
-      // BE-level 503 (e.g. PATCH_NOT_FOUND maps to 503 in tier-list-api). Both
-      // paths emit noindex, both legitimate. We just assert noindex.
+      // BE 5xx / network failure (no stale cache): tier-list-api surfaces
+      // service_unavailable -> route stamps 503 + noindex. Distinct from
+      // PATCH_NOT_FOUND which now (MINOR-5) renders 200 + noindex + empty
+      // state via the `patch_not_found` discriminant.
       expect(xRobotsHasNoindex(res)).toBe(true);
       return;
     }

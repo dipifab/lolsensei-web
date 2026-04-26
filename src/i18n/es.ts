@@ -812,6 +812,13 @@ const es = {
   'wp30.summoner.meta.description_template': 'View League of Legends rank, recent matches, and champion stats for {gameName}#{tagLine} on {region}. Updated hourly.',
   'wp30.summoner.meta.og_description': 'LoL Sensei profile for {gameName}#{tagLine}: rank, KDA, win rate, recent matches.',
 
+  // wp30.summoner.meta.* — MINOR-3/MINOR-4 (5 additional keys)
+  'wp30.summoner.meta.title': '{gameName}#{tagLine} ({region}) — Stats, Rank & Recent Matches | LoL Sensei',
+  'wp30.summoner.meta.description': 'View {gameName}#{tagLine} on {region}: rank, recent matches, and champion stats. Updated hourly.',
+  'wp30.summoner.meta.description_private': '{gameName}#{tagLine} on {region} — match history is private. View available rank info on LoL Sensei.',
+  'wp30.summoner.meta.description_inactive': '{gameName}#{tagLine} on {region} — no recent ranked matches found. Browse the LoL Sensei tier list instead.',
+  'wp30.summoner.meta.description_ranked': '{gameName}#{tagLine} on {region} — {tier} {division}, {wins}W/{losses}L. Recent matches and champion stats on LoL Sensei.',
+
   // wp30.summoner.section.* (16 keys)
   'wp30.summoner.section.rank.heading': 'Ranked Solo / Duo',
   'wp30.summoner.section.rank.tier_label': 'Tier',
@@ -855,6 +862,10 @@ const es = {
   'wp30.tier_list.meta.title_template': 'League of Legends Tier List — Patch {patch}, {role} | LoL Sensei',
   'wp30.tier_list.meta.description_template': 'Best champions for {role} in League of Legends patch {patch}. Win rate, pick rate, ban rate from challenger sample. Updated daily.',
   'wp30.tier_list.meta.og_description': 'LoL Sensei tier list for patch {patch}: best champions ranked by role.',
+
+  // wp30.tier_list.meta.* — MINOR-3 (2 additional keys)
+  'wp30.tier_list.meta.title': 'League of Legends Tier List — {role} — Patch {patch} | LoL Sensei',
+  'wp30.tier_list.meta.description': 'LoL Tier List for {role} on patch {patch}. Win rate, pick rate, ban rate from challenger pool. Updated daily.',
 
   // wp30.tier_list.heading + intro (4 keys)
   'wp30.tier_list.heading': 'Tier List — Patch {patch}',

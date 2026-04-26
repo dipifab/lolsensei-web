@@ -11,10 +11,14 @@
 //   - 1h fresh when `insufficient_sample === true` so the sample can grow
 //     (cron daily 04:00 UTC may flip the flag mid-day).
 //
-// 404 (PATCH_NOT_FOUND from BE) is propagated as `service_unavailable` because
-// from the user's perspective the tier list page is not actionable; the route
-// will surface a 503 + Retry-After. We deliberately do NOT distinguish 404
-// here — the page never goes "not found" semantically, only "no data yet".
+// 404 (PATCH_NOT_FOUND) — MINOR-5 (WP30 audit):
+//   The BE distinguishes "patch not in snapshot" (404) from "Riot upstream
+//   down" (5xx). Previously this proxy collapsed both to `service_unavailable`,
+//   forcing the route to render a 503 + Retry-After. That is the wrong UX for
+//   PATCH_NOT_FOUND: the page IS reachable, the dataset just hasn't been
+//   computed yet. We now surface a dedicated `patch_not_found` kind so the
+//   route can render a 200 + noindex + `<TierListEmpty>` (same UX as
+//   `insufficient_sample`), keeping 503 reserved for genuine outages.
 
 import {
   type CacheLookup,
@@ -35,6 +39,7 @@ export type TierListSource = 'fresh' | 'stale' | 'miss';
 
 export type TierListFetchResult =
   | { kind: 'success'; payload: TierListPayload; source: TierListSource }
+  | { kind: 'patch_not_found' }
   | { kind: 'service_unavailable' };
 
 export interface FetchTierListArgs {
@@ -107,7 +112,23 @@ export async function fetchTierList(
       return { kind: 'service_unavailable' };
     }
 
-    if (response.status >= 500 || response.status === 429 || response.status === 404) {
+    // 404 PATCH_NOT_FOUND — MINOR-5 (WP30): semantically the page is reachable
+    // but the dataset doesn't exist for this (role, patch) combination yet.
+    // Stale cache hits still win (we'd rather serve old data than an empty
+    // state) but a clean miss now surfaces `patch_not_found` so the route can
+    // render the empty state at 200 + noindex.
+    if (response.status === 404) {
+      if (lookup.kind === 'stale') {
+        return {
+          kind: 'success',
+          payload: lookup.data,
+          source: 'stale',
+        } satisfies TierListFetchResult;
+      }
+      return { kind: 'patch_not_found' };
+    }
+
+    if (response.status >= 500 || response.status === 429) {
       if (lookup.kind === 'stale') {
         return {
           kind: 'success',

@@ -42,6 +42,7 @@ import { isAllowedRegion, REGION_DISPLAY } from '../../../../lib/regions';
 import { normalizeHandle } from '../../../../lib/handle-normalize';
 import { fetchSummoner, type SummonerFetchResult } from '../../../../services/summoner-api';
 import { BASE_URL } from '../../../../lib/seo/routes';
+import { useI18n } from '../../../../i18n';
 import type { KVNamespaceLike } from '../../../../lib/kv-cache';
 
 // ---------------------------------------------------------------------------
@@ -354,26 +355,50 @@ function SuccessBranch(props: SuccessBranchProps) {
     fromStaleCache: props.success.source === 'stale',
   });
 
-  // Title format: "{gameName}#{tagLine} ({region}) — Stats, Rank & Recent
-  // Matches | LoL Sensei". Cap at 60 characters by trimming gameName aggressively
-  // when the full string overflows.
-  const fullId = `${payload.summoner_info.game_name}#${payload.summoner_info.tag_line}`;
-  const regionLabel = REGION_DISPLAY[props.region as keyof typeof REGION_DISPLAY] ?? payload.summoner_info.region_display;
-  const title = `${fullId} (${regionLabel}) — LoL Sensei`;
+  // MINOR-4 (WP30): SEO meta via i18n keys instead of hardcoded EN. The
+  // 8-locale parity gate enforces these keys exist everywhere; EN+IT are
+  // fully localized, the other 6 locales fall back to EN copies (consistent
+  // with the existing `wp30.*meta.*_template` pattern: EN+IT are the
+  // indexable WP30 locales).
+  const { t } = useI18n();
 
-  // Description (max 160 chars). Reuse i18n description templates conceptually
-  // but render with concrete values for SSR stability.
+  const gameName = payload.summoner_info.game_name;
+  const tagLine = payload.summoner_info.tag_line;
+  const fullId = `${gameName}#${tagLine}`;
+  const regionLabel =
+    REGION_DISPLAY[props.region as keyof typeof REGION_DISPLAY] ??
+    payload.summoner_info.region_display;
+
+  const interpolate = (key: string, extra: Record<string, string> = {}): string => {
+    let out = t(key)
+      .replace('{gameName}', gameName)
+      .replace('{tagLine}', tagLine)
+      .replace('{region}', regionLabel);
+    for (const [k, v] of Object.entries(extra)) {
+      out = out.replace(`{${k}}`, v);
+    }
+    return out;
+  };
+
+  const title = interpolate('wp30.summoner.meta.title');
+
   const buildDescription = (): string => {
     if (isPrivate) {
-      return `${fullId} on ${regionLabel} — match history is private. View available rank info on LoL Sensei.`;
+      return interpolate('wp30.summoner.meta.description_private');
     }
     if (isInactive) {
-      return `${fullId} on ${regionLabel} — no recent ranked matches found. Browse the LoL Sensei tier list instead.`;
+      return interpolate('wp30.summoner.meta.description_inactive');
     }
     if (payload.rank) {
-      return `${fullId} on ${regionLabel} — ${payload.rank.tier} ${payload.rank.division}, ${payload.rank.wins}W/${payload.rank.losses}L. Recent matches and champion stats on LoL Sensei.`;
+      return interpolate('wp30.summoner.meta.description_ranked', {
+        tier: payload.rank.tier,
+        division: payload.rank.division,
+        wins: String(payload.rank.wins),
+        losses: String(payload.rank.losses),
+      });
     }
-    return `${fullId} on ${regionLabel} — Unranked. Recent matches and champion stats on LoL Sensei.`;
+    // Unranked / generic fallback uses the base description key.
+    return interpolate('wp30.summoner.meta.description');
   };
 
   const canonical = `${BASE_URL}/${props.lang}/summoner/${props.region}/${encodeURIComponent(props.gameName)}-${encodeURIComponent(props.tagLine)}`;

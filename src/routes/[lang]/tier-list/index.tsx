@@ -10,6 +10,8 @@
 //                                            against whitelist, drops `patch`
 //                                            if it's not /^\d+\.\d+$/).
 //   - service_unavailable                 -> 503 + Retry-After 60 + noindex
+//   - patch_not_found (BE 404)            -> 200 + Cache-Control 60s + noindex
+//                                            + TierListEmpty (MINOR-5).
 //   - insufficient_sample === true        -> 200 + Cache-Control 1h + noindex
 //   - sufficient                          -> 200 + Cache-Control 24h + JSON-LD
 //
@@ -106,6 +108,17 @@ function stampSuccess(opts: {
   }
 }
 
+// MINOR-5 (WP30): PATCH_NOT_FOUND BE response. The page is reachable but no
+// snapshot exists yet for (role, patch). We render TierListEmpty at 200 +
+// noindex + short-cache (60s). Mirrors the BE Cache-Control on PATCH_NOT_FOUND.
+function stampPatchNotFound(): void {
+  const event = getRequestEvent();
+  if (!event) return;
+  event.response.status = 200;
+  event.response.headers.set('X-Robots-Tag', 'noindex');
+  event.response.headers.set('Cache-Control', 'public, max-age=60');
+}
+
 // ---------------------------------------------------------------------------
 // Component
 // ---------------------------------------------------------------------------
@@ -143,17 +156,32 @@ interface RenderResultProps {
 }
 
 function RenderResult(props: RenderResultProps) {
+  // Discriminated union dispatch. Cascade pattern matches existing summoner
+  // page style (see /[lang]/summoner/[region]/[handle].tsx).
   return (
     <Show
       when={props.result.kind === 'service_unavailable' && props.result}
       fallback={
         <Show
-          when={props.result.kind === 'success' && (props.result as Extract<TierListFetchResult, { kind: 'success' }>)}
-          fallback={null}
+          when={props.result.kind === 'patch_not_found' && props.result}
+          fallback={
+            <Show
+              when={props.result.kind === 'success' && (props.result as Extract<TierListFetchResult, { kind: 'success' }>)}
+              fallback={null}
+            >
+              {(success) => (
+                <SuccessBranch
+                  success={success()}
+                  role={props.role}
+                  patch={props.patch}
+                  lang={props.lang}
+                />
+              )}
+            </Show>
+          }
         >
-          {(success) => (
-            <SuccessBranch
-              success={success()}
+          {() => (
+            <PatchNotFoundBranch
               role={props.role}
               patch={props.patch}
               lang={props.lang}
@@ -179,6 +207,40 @@ function UnavailableBranch(props: { lang: string }) {
   );
 }
 
+function PatchNotFoundBranch(props: {
+  role: AllowedRole;
+  patch: string | undefined;
+  lang: string;
+}) {
+  // MINOR-5 (WP30): when the BE returns 404 PATCH_NOT_FOUND we still render a
+  // navigable page (200) so the user lands on a curated empty state with
+  // suggested filters, instead of a generic outage page. `patch` may be
+  // undefined (auto-resolution miss) — TierListEmpty accepts that.
+  stampPatchNotFound();
+  const { t } = useI18n();
+  // Best-effort role label even on the empty state — consistent with success
+  // copy. Patch is unknown ("auto" miss): pass empty string to the component
+  // which renders the suggestions block regardless.
+  const patchLabel = props.patch ?? '';
+  const heading = t('wp30.tier_list.heading').replace('{patch}', patchLabel);
+  return (
+    <>
+      <NoindexMeta />
+      <Navbar />
+      <main class="max-w-6xl mx-auto px-8 py-12">
+        <header class="mb-8 max-w-3xl">
+          <h1 class="text-4xl md:text-5xl font-headline font-extrabold tracking-tight text-on-surface mb-2">
+            {heading}
+          </h1>
+        </header>
+        <TierListEmpty role={props.role} patch={patchLabel} lang={props.lang} />
+        <RiotDisclaimer />
+      </main>
+      <Footer />
+    </>
+  );
+}
+
 function SuccessBranch(props: {
   success: Extract<TierListFetchResult, { kind: 'success' }>;
   role: AllowedRole;
@@ -193,22 +255,19 @@ function SuccessBranch(props: {
     fromStaleCache: props.success.source === 'stale',
   });
 
-  const roleLabel = (() => {
-    const i18n = (k: string): string => k; // build static label below via inline mapping
-    const map: Record<AllowedRole, string> = {
-      all: 'All Roles',
-      top: 'Top',
-      jungle: 'Jungle',
-      mid: 'Mid',
-      bot: 'Bot',
-      support: 'Support',
-    };
-    void i18n;
-    return map[props.role];
-  })();
-
-  const title = `League of Legends Tier List — ${roleLabel} — Patch ${payload.patch} | LoL Sensei`;
-  const description = `LoL Tier List for ${roleLabel} on patch ${payload.patch}. Win rate, pick rate, ban rate from challenger pool. Updated daily.`;
+  // MINOR-3 (WP30): SEO meta tags via i18n keys instead of hardcoded EN.
+  // The 8-locale parity gate enforces these keys exist in every locale; EN
+  // falls back to itself, IT is fully localized, the rest copy EN by design
+  // (consistent with the existing `wp30.*meta.*_template` pattern — IT/EN are
+  // the indexable locales for WP30 SEO scope).
+  const { t } = useI18n();
+  const roleLabel = t(`wp30.tier_list.filter.role.${props.role}`);
+  const title = t('wp30.tier_list.meta.title')
+    .replace('{role}', roleLabel)
+    .replace('{patch}', payload.patch);
+  const description = t('wp30.tier_list.meta.description')
+    .replace('{role}', roleLabel)
+    .replace('{patch}', payload.patch);
 
   // Canonical: only functional query params (role, patch). Drop UTM and any
   // unknown params for SEO consolidation.

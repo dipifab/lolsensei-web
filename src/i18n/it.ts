@@ -824,6 +824,13 @@ const it = {
   'wp30.summoner.meta.description_template': 'Visualizza rank, match recenti e statistiche per campione di {gameName}#{tagLine} su {region} in League of Legends. Aggiornato ogni ora.',
   'wp30.summoner.meta.og_description': 'Profilo LoL Sensei di {gameName}#{tagLine}: rank, KDA, win rate, match recenti.',
 
+  // wp30.summoner.meta.* — MINOR-3/MINOR-4 (5 additional keys)
+  'wp30.summoner.meta.title': '{gameName}#{tagLine} ({region}) — Statistiche, Rank e Match recenti | LoL Sensei',
+  'wp30.summoner.meta.description': 'Visualizza {gameName}#{tagLine} su {region}: rank, match recenti e statistiche per campione. Aggiornato ogni ora.',
+  'wp30.summoner.meta.description_private': '{gameName}#{tagLine} su {region} — la cronologia delle partite è privata. Le info sul rank sono disponibili su LoL Sensei.',
+  'wp30.summoner.meta.description_inactive': '{gameName}#{tagLine} su {region} — nessun match ranked recente. Esplora la tier list LoL Sensei.',
+  'wp30.summoner.meta.description_ranked': '{gameName}#{tagLine} su {region} — {tier} {division}, {wins}V/{losses}S. Match recenti e statistiche per campione su LoL Sensei.',
+
   // wp30.summoner.section.* (16 keys)
   'wp30.summoner.section.rank.heading': 'Ranked Solo / Duo',
   'wp30.summoner.section.rank.tier_label': 'Tier',
@@ -867,6 +874,10 @@ const it = {
   'wp30.tier_list.meta.title_template': 'Tier List League of Legends — Patch {patch}, {role} | LoL Sensei',
   'wp30.tier_list.meta.description_template': 'Migliori campioni per {role} in League of Legends patch {patch}. Win rate, pick rate, ban rate da sample challenger. Aggiornato giornalmente.',
   'wp30.tier_list.meta.og_description': 'Tier list LoL Sensei per patch {patch}: migliori campioni ordinati per ruolo.',
+
+  // wp30.tier_list.meta.* — MINOR-3 (2 additional keys)
+  'wp30.tier_list.meta.title': 'Tier List League of Legends — {role} — Patch {patch} | LoL Sensei',
+  'wp30.tier_list.meta.description': 'Tier List LoL per {role} sulla patch {patch}. Win rate, pick rate, ban rate da pool challenger. Aggiornato giornalmente.',
 
   // wp30.tier_list.heading + intro (4 keys)
   'wp30.tier_list.heading': 'Tier List — Patch {patch}',
