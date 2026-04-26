@@ -30,17 +30,24 @@ export interface BellWidgetProps {
   authenticated: boolean;
 }
 
+const COMMUNITY_FEATURE_ENABLED =
+  import.meta.env.VITE_COMMUNITY_FEATURE_ENABLED === "true";
+
 export default function BellWidget(props: BellWidgetProps) {
   const { t } = useI18n();
   const [open, setOpen] = createSignal(false);
   let buttonRef: HTMLButtonElement | undefined;
 
   onMount(() => {
-    if (props.authenticated) startPolling();
+    if (COMMUNITY_FEATURE_ENABLED && props.authenticated) startPolling();
     onCleanup(() => stopPolling());
   });
 
-  // Guard render: if not authenticated, widget is hidden.
+  // Guard render: hidden when community feature disabled or user not authed.
+  // Backend community endpoints (/api/community/*) are not registered when
+  // COMMUNITY_FEATURE_ENABLED=false on backend; polling them produces 404
+  // noise on every authenticated page (incl. admin console).
+  if (!COMMUNITY_FEATURE_ENABLED) return null;
   if (!props.authenticated) return null;
 
   const ariaLabel = () => {
