@@ -35,6 +35,12 @@
   X-Robots-Tag: noindex, nofollow
   Cache-Control: no-store
 
+# Beta channel installer — hidden, no crawl, direct-URL access only
+/beta.exe
+  X-Robots-Tag: noindex, nofollow, noarchive
+  Cache-Control: no-store
+  Content-Disposition: attachment; filename="lolsensei-beta.exe"
+
 /console
   X-Robots-Tag: noindex, nofollow
   Cache-Control: no-store

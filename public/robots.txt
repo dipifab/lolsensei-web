@@ -4,6 +4,8 @@ Disallow: /console-login
 Disallow: /admin
 Disallow: /auth/
 Disallow: /*/checkout/
+Disallow: /beta.exe
+Disallow: /beta
 Allow: /
 
 # WP30 — Public Web Presence (DEC-OP-019 / REQ-NF-030-002)
