@@ -226,7 +226,7 @@ export default function Navbar() {
         <Portal>
         <div
           id="mobile-menu"
-          class="fixed inset-0 bg-surface z-40 flex flex-col items-center justify-center gap-10 motion-safe:animate-[fade-in_200ms_ease-out]"
+          class="fixed inset-0 bg-surface z-40 flex flex-col items-center justify-start gap-8 overflow-y-auto pt-28 pb-10 px-6 motion-safe:animate-[fade-in_200ms_ease-out]"
         >
           <For each={NAV_KEYS}>
             {(item) => (
