@@ -1,0 +1,23 @@
+{
+  "_source": "backend/app/integrations/riot_api/regions.py REGION_MAP",
+  "_synced_at": "2026-04-25",
+  "_sync_protocol": "When the BE REGION_MAP changes: 1) update src/lib/regions.ts ALLOWED_REGIONS + REGION_DISPLAY; 2) update this snapshot; 3) bump i18n keys wp30.shared.region.* if a region is added.",
+  "regions": [
+    { "platform": "br1", "display": "Brazil" },
+    { "platform": "eun1", "display": "EU Nordic & East" },
+    { "platform": "euw1", "display": "EU West" },
+    { "platform": "jp1", "display": "Japan" },
+    { "platform": "kr", "display": "Korea" },
+    { "platform": "la1", "display": "Latin America North" },
+    { "platform": "la2", "display": "Latin America South" },
+    { "platform": "na1", "display": "North America" },
+    { "platform": "oc1", "display": "Oceania" },
+    { "platform": "ph2", "display": "Philippines" },
+    { "platform": "ru", "display": "Russia" },
+    { "platform": "sg2", "display": "Singapore" },
+    { "platform": "th2", "display": "Thailand" },
+    { "platform": "tr1", "display": "Turkey" },
+    { "platform": "tw2", "display": "Taiwan" },
+    { "platform": "vn2", "display": "Vietnam" }
+  ]
+}

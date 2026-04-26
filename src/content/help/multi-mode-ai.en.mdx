@@ -1,0 +1,111 @@
+---
+title: Multi-mode AI — what works, what does not
+description: Which queues support the AI advisor, how the per-game opt-in dialog works, and the Free vs Premium matrix.
+locale: en
+---
+
+# Multi-mode AI
+
+The AI advisor used to run only in Ranked Solo/Duo and Ranked Flex. Starting with this release it also works in **Normal Draft (Pick)**, **Clash**, and **Custom Tournament Draft (Standard)**. This page explains where you will see it, how to opt-in per game, and the Free vs Premium differences.
+
+> Wave 1 covers four queues. **Quickplay** and **Custom Blind** are planned for a later release. **ARAM** is permanently out of scope (random champion selection makes pre-game advice low-signal).
+
+## What changed
+
+| Before this release | After this release (Wave 1) |
+|---------------------|------------------------------|
+| AI advisor active only in Ranked Solo/Duo (420) and Ranked Flex (440) | AI advisor available in 420, 440, **Normal Draft (430)**, **Clash (700)**, and **Custom Tournament Draft (CLASSIC game mode)** |
+| Overlay inactive in non-Ranked queues | Overlay active in all four Wave 1 queues, even on Free tier (timer cooldowns and static info still visible) |
+
+If you only play Ranked, **nothing changes for you**: the AI keeps activating automatically at champ-select start, with no extra clicks.
+
+## How it works
+
+### Ranked Solo/Duo (420) and Ranked Flex (440)
+
+AI is **automatic**. No dialog, no opt-in. The behavior is identical to previous releases.
+
+### Normal Draft (430), Clash (700), Custom Tournament Draft (CLASSIC)
+
+When you enter champ-select, a small dialog appears asking **"Activate AI for this game?"** with two clear actions:
+
+- **Activate AI** — starts the champion advisor and item-build advisor for this match. One AI credit is consumed.
+- **Continue without AI** — overlay remains active for non-AI features (cooldown timers, static information), but no AI calls are made and no credit is spent.
+
+**60-second auto-skip**: if you do not interact with the dialog within 60 seconds, the app assumes you are AFK during the ban phase and skips AI for this game (no credit spent). Pressing **Esc** counts as an explicit "Continue without AI" choice.
+
+**Remember my choice**: tick this checkbox before clicking and your decision will be re-applied automatically next time you enter the same queue. You can change your mind any time from **Settings → AI Mode Preferences** (see below).
+
+### Custom games with non-CLASSIC game modes
+
+Custom games using non-standard game modes (URF, One for All, ARAM custom, and similar) are **not supported** for AI advice. Premium users will see the dialog briefly in disabled mode (informational); Free users will not see it at all. The overlay is fully disabled in this scenario.
+
+### What about the other queues?
+
+- **Quickplay (490)**: not supported in this release. Planned for Wave 2 with a different AI strategy (in-game refined suggestions instead of pre-game).
+- **ARAM (450)**: out of scope permanently. With random champion assignment, pre-game advice is too noisy to be useful.
+- **Custom Blind Pick**: not supported in this release. Planned for Wave 2.
+
+In all unsupported queues the overlay shows a small status pill explaining why AI is not active.
+
+## Free vs Premium
+
+| Queue | Free — overlay active? | Free — AI features? | Premium — overlay active? | Premium — AI features? |
+|-------|------------------------|---------------------|---------------------------|------------------------|
+| Ranked Solo/Duo (420) | Yes | No (daily limit applies) | Yes | Yes (auto-on) |
+| Ranked Flex (440) | Yes | No | Yes | Yes (auto-on) |
+| Normal Draft (430) | Yes (new) | No (no opt-in dialog shown) | Yes (new) | Yes (with opt-in dialog) |
+| Clash (700) | Yes (new) | No | Yes (new) | Yes (with opt-in dialog) |
+| Custom Tournament Draft (CLASSIC) | Yes (new) | No | Yes (new) | Yes (with opt-in dialog) |
+| Custom non-CLASSIC modes | No (overlay off) | No | No (overlay off, dialog shown disabled) | No |
+| Quickplay (490) | — (Wave 2) | — | — (Wave 2) | — |
+| ARAM (450) | — (out of scope) | — | — (out of scope) | — |
+
+**Free tier note**: in Wave 1 queues you still get the overlay value-add for free — cooldown tracking and static information stay visible. The opt-in dialog itself is a Premium feature; on Free tier you will see a small pill indicating that AI is a Premium feature, with a link to upgrade.
+
+## Manage your preferences
+
+Open the desktop app → **Settings** → **AI Mode Preferences**. You will see one row per Wave 1 queue with the current state:
+
+- **Ask each time** (default) — the dialog shows up before every game in this queue.
+- **Always activate** — AI starts automatically, no dialog.
+- **Always skip** — overlay stays in non-AI mode, no dialog, no credit spent.
+
+Each row has a **Reset to ask each time** action. The bottom of the section also has a **Reset all** action that clears every saved preference.
+
+Preferences are stored on your device (Tauri filesystem, JSON file under your user config directory). They are not synced across machines. Uninstalling the app removes them.
+
+## FAQ
+
+### Why don't I see the dialog?
+
+A few common reasons:
+
+- You are on **Free tier** in a non-Ranked Wave 1 queue: the AI dialog is a Premium feature; upgrade to unlock it.
+- You are in **Ranked**: AI is auto-on, no dialog by design.
+- You picked **Always activate** or **Always skip** for this queue: clear it from **Settings → AI Mode Preferences**.
+- You are in a **custom game with a non-CLASSIC game mode** (URF, One for All, ARAM custom, ...): AI is not available there.
+
+### Why do I see the dialog every game?
+
+Default behavior is "ask each time". If you want it to remember, tick **Remember my choice for this queue** before clicking Activate or Continue. You can also set it manually from Settings.
+
+### What happens if I press Esc?
+
+Esc is treated as an explicit "Continue without AI" choice (user-driven skip). It is recorded as a deliberate decision, not as an AFK timeout.
+
+### Does the dialog use one of my AI credits even if I skip?
+
+No. Credits are consumed only when you click **Activate AI**. Skip, auto-skip and Esc cost nothing.
+
+### Can I change my mind mid-game?
+
+Not within the same match. The decision is bound to the current champ-select session. For the next game, either change your saved preference or wait for the next dialog.
+
+## What's next
+
+**Wave 2** (planned later): Quickplay (490) and Custom Blind Pick. Both will use a different AI strategy because the pre-game phase is shorter and ban information is not always available; the AI will deliver refined in-game suggestions during the loading screen instead of fixed pre-game advice.
+
+**ARAM** (450): out of scope permanently. The random champion assignment makes pre-game suggestions low-signal; if you want ARAM-specific advice, watch this space — we may ship targeted in-game tools, not the same AI flow.
+
+If you have feedback on which queues you would like AI to support next, contact us at `support@lolsensei.com`.

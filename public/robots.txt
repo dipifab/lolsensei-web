@@ -6,6 +6,23 @@ Disallow: /auth/
 Disallow: /*/checkout/
 Allow: /
 
+# WP30 — Public Web Presence (DEC-OP-019 / REQ-NF-030-002)
+# Explicit Allow rules: redundant under `Allow: /` but documented for clarity
+# and to defend against future Disallow patterns that could accidentally
+# mask these high-value paths.
+Allow: /*/summoner/*
+Allow: /*/tier-list
+Allow: /*/tier-list?role=*
+
+# Crawl-trap defense for the tier list filter form (DEC-OP-024).
+# The route handler accepts only `role` and `patch`. Any other query
+# string parameter is silently dropped by the SSR normalizer, so URLs with
+# unknown parameters render the canonical content with a different URL —
+# exactly the duplicate-content situation we want crawlers to skip.
+Disallow: /*/tier-list?*utm_*
+Disallow: /*/tier-list?*ref=*
+Disallow: /*/tier-list?*fbclid=*
+
 # AI Crawlers
 User-agent: GPTBot
 Allow: /

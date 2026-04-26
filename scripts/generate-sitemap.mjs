@@ -19,6 +19,14 @@ const LOCALES = SUPPORTED_LOCALES;
 // Quando false, escludiamo le pagine pubbliche opzionali dal sitemap per evitare 404 indicizzati.
 const PUBLIC_PAGES_ENABLED = (process.env.VITE_PUBLIC_PAGES_ENABLED ?? 'true').toLowerCase() === 'true';
 
+// WP30 (DEC-OP-004 / REQ-F-030-010): include only tier-list URLs in the sitemap MVP.
+// Summoner pages have unbounded cardinality and are deferred to WP35.
+// Per design §4.1, the WP30 hreflang cluster is restricted to EN + IT (same set as the blog),
+// because all other locales fall back to EN content; advertising 9 hreflangs would create
+// duplicate-content signals across crawlers.
+const WP30_TIER_LIST_LOCALES = ['en', 'it'];
+const WP30_TIER_LIST_ROLES = ['top', 'jungle', 'mid', 'bot', 'support'];
+
 const CORE_PAGES = [
   { path: '/', key: 'home' },
   { path: '/pricing', key: 'pricing' },
@@ -96,6 +104,44 @@ if (PUBLIC_PAGES_ENABLED) {
   for (const slug of BLOG_POSTS) {
     for (const locale of BLOG_LOCALES) {
       entries.push(buildBlogEntry(locale, slug));
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// WP30 — Tier list entries (DEC-OP-004 / REQ-F-030-010).
+//
+// Total: 12 URLs = 2 root (en, it) + 10 role-filtered (5 roles × 2 locales).
+// Each entry advertises the WP30 hreflang triplet (en, it, x-default → en).
+// `<priority>` 0.8 for root, 0.6 for filters; `<changefreq>daily</changefreq>`
+// matches the cron `tier_list_refresh` cadence (04:00 UTC, app/jobs/).
+// ---------------------------------------------------------------------------
+
+function tierListUrl(locale, query) {
+  // Cloudflare Workers serves both `/en/tier-list` and `/en/tier-list?...`;
+  // the canonical sitemap form keeps the path WITHOUT trailing slash to match
+  // the route handler (no normalization redirects in tier-list).
+  const base = `${BASE}/${locale}/tier-list`;
+  return query ? `${base}?${query}` : base;
+}
+
+function buildTierListEntry(locale, query, priority) {
+  const loc = tierListUrl(locale, query);
+  const alternates = WP30_TIER_LIST_LOCALES.map(
+    (l) => `    <xhtml:link rel="alternate" hreflang="${hreflangFor(l)}" href="${tierListUrl(l, query)}" />`,
+  ).join('\n');
+  const xDefault = `    <xhtml:link rel="alternate" hreflang="x-default" href="${tierListUrl(DEFAULT_LOCALE, query)}" />`;
+  const tag = query ? `tier-list-${query}` : 'tier-list-root';
+  return `  <!-- ${tag}: ${locale} -->\n  <url>\n    <loc>${loc}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>${priority}</priority>\n${alternates}\n${xDefault}\n  </url>`;
+}
+
+if (PUBLIC_PAGES_ENABLED) {
+  for (const locale of WP30_TIER_LIST_LOCALES) {
+    entries.push(buildTierListEntry(locale, null, '0.8'));
+  }
+  for (const role of WP30_TIER_LIST_ROLES) {
+    for (const locale of WP30_TIER_LIST_LOCALES) {
+      entries.push(buildTierListEntry(locale, `role=${role}`, '0.6'));
     }
   }
 }

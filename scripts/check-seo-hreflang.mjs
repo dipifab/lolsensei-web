@@ -2,18 +2,19 @@
 // scripts/check-seo-hreflang.mjs
 //
 // Valida hreflang sugli HTML prerendered sotto il target build (default: .output/public).
-// Due set attesi (OP-W18-001 + OP-W18-008):
-//   - EXPECTED_HREFLANGS_PUBLIC  → 9 entries: en, it, es, fr, de, pt-BR, ko, zh-Hans, x-default
-//   - EXPECTED_HREFLANGS_BLOG    → 3 entries: en, it, x-default
+// Due set attesi:
+//   - EXPECTED_HREFLANGS_PUBLIC  -> 9 entries: en, it, es, fr, de, pt-BR, ko, zh-Hans, x-default
+//                                  (set OP-W18-001: pagine tradotte in tutti i locale)
+//   - EXPECTED_HREFLANGS_TWO_LOCALE -> 3 entries: en, it, x-default
+//                                  (set OP-W18-008 + WP30 design 7.1: pagine pubblicate
+//                                  solo in EN+IT — blog index/post, /tier-list, /summoner/...)
 //
-// Ogni HTML sotto il target viene classificato in base al path:
-//   - contiene `/blog/` (o termina con `/blog/index.html`) → set BLOG
-//   - altrimenti → set PUBLIC
+// Ogni HTML / sitemap URL viene classificato in base al path:
+//   - contiene `/blog`, `/tier-list`, `/summoner/`  -> set TWO_LOCALE
+//   - altrimenti                                    -> set PUBLIC
 //
 // Fallback retrocompatibile: se il target è (o contiene) `sitemap.xml`, il checker
-// esegue la validazione storica sul sitemap (bidirezionalità + hreflang per-URL),
-// usando SUPPORTED_LOCALES come prima. Questo mantiene invariato l'uso `npm run
-// check:seo-hreflang` senza argomenti (che puntava a public/sitemap.xml).
+// esegue la validazione storica sul sitemap (bidirezionalità + hreflang per-URL).
 //
 // CLI:
 //   node scripts/check-seo-hreflang.mjs [--target <path>]
@@ -48,7 +49,9 @@ const EXPECTED_HREFLANGS_PUBLIC = [
   ...SUPPORTED_LOCALES.map((l) => HREFLANG_MAP[l] ?? l),
   'x-default',
 ];
-const EXPECTED_HREFLANGS_BLOG = [
+// BLOG_LOCALES = ['en', 'it'] is the canonical "two-locale" set for routes
+// translated only to EN+IT. Reused by WP30 (tier-list, summoner) per design 7.1.
+const EXPECTED_HREFLANGS_TWO_LOCALE = [
   ...BLOG_LOCALES.map((l) => HREFLANG_MAP[l] ?? l),
   'x-default',
 ];
@@ -72,10 +75,26 @@ function walkHtml(dir) {
   return out;
 }
 
-function isBlogPath(relPath) {
-  // normalizza separatori per windows-safe
-  const p = relPath.split(sep).join('/');
-  return p.includes('/blog/') || p.endsWith('/blog.html');
+/**
+ * True for routes translated only to EN+IT. These advertise the 3-entry
+ * hreflang triplet (en, it, x-default). Other locales fall back to EN
+ * content, so emitting 9 hreflangs there would create duplicate-content
+ * signals across crawlers.
+ *
+ * Members:
+ *   - blog index (`/{lang}/blog`) and blog posts (`/{lang}/blog/...`).
+ *   - WP30 tier list (`/{lang}/tier-list[?...]`).
+ *   - WP30 summoner pages (`/{lang}/summoner/{region}/...`).
+ */
+function isTwoLocaleRoute(pathLike) {
+  const p = pathLike.split(sep).join('/');
+  // Match `/blog`, `/blog/`, `/blog?...`, `/blog.html` and any nested `/blog/...`
+  if (/\/blog(\/|\.html|\?|$)/.test(p)) return true;
+  // Match `/tier-list`, `/tier-list/`, `/tier-list?...`, `/tier-list.html`
+  if (/\/tier-list(\/|\.html|\?|$)/.test(p)) return true;
+  // Match `/summoner/...` (always nested, region segment follows)
+  if (p.includes('/summoner/')) return true;
+  return false;
 }
 
 function extractHreflangs(html) {
@@ -101,7 +120,7 @@ function runHtmlChecker(targetDir) {
   }
   let errors = 0;
   let publicCount = 0;
-  let blogCount = 0;
+  let twoLocaleCount = 0;
   let skipped404 = 0;
 
   for (const file of files) {
@@ -115,37 +134,36 @@ function runHtmlChecker(targetDir) {
     const html = readFileSync(file, 'utf8');
     const alternates = extractHreflangs(html);
     const present = new Set(alternates.map((a) => a.lang));
-    const blog = isBlogPath(rel);
-    const expected = blog ? EXPECTED_HREFLANGS_BLOG : EXPECTED_HREFLANGS_PUBLIC;
-    if (blog) blogCount += 1;
+    const twoLocale = isTwoLocaleRoute(rel);
+    const expected = twoLocale ? EXPECTED_HREFLANGS_TWO_LOCALE : EXPECTED_HREFLANGS_PUBLIC;
+    if (twoLocale) twoLocaleCount += 1;
     else publicCount += 1;
 
     const missing = expected.filter((l) => !present.has(l));
     const extra = [...present].filter((l) => !expected.includes(l));
 
     if (missing.length > 0) {
-      console.error(`[hreflang] ${rel} [${blog ? 'BLOG' : 'PUBLIC'}] missing: ${missing.join(', ')}`);
+      console.error(`[hreflang] ${rel} [${twoLocale ? 'TWO_LOCALE' : 'PUBLIC'}] missing: ${missing.join(', ')}`);
       errors += missing.length;
     }
     if (extra.length > 0) {
-      console.error(`[hreflang] ${rel} [${blog ? 'BLOG' : 'PUBLIC'}] unexpected: ${extra.join(', ')}`);
+      console.error(`[hreflang] ${rel} [${twoLocale ? 'TWO_LOCALE' : 'PUBLIC'}] unexpected: ${extra.join(', ')}`);
       errors += extra.length;
     }
   }
 
   if (errors === 0) {
     console.log(
-      `[hreflang] OK — scanned ${files.length - skipped404} HTML (${publicCount} public × ${EXPECTED_HREFLANGS_PUBLIC.length}, ${blogCount} blog × ${EXPECTED_HREFLANGS_BLOG.length}); skipped ${skipped404} top-level`,
+      `[hreflang] OK — scanned ${files.length - skipped404} HTML (${publicCount} public × ${EXPECTED_HREFLANGS_PUBLIC.length}, ${twoLocaleCount} two-locale × ${EXPECTED_HREFLANGS_TWO_LOCALE.length}); skipped ${skipped404} top-level`,
     );
   } else {
-    console.error(`[hreflang] FAIL with ${errors} errors across ${publicCount + blogCount} pages`);
+    console.error(`[hreflang] FAIL with ${errors} errors across ${publicCount + twoLocaleCount} pages`);
     process.exit(1);
   }
 }
 
 function runSitemapChecker(sitemapPath) {
   // Legacy mode: valida sitemap.xml con bidirezionalità.
-  const EXPECTED = EXPECTED_HREFLANGS_PUBLIC; // sitemap pubblica usa il set completo per le pagine non-blog
   const xml = readFileSync(sitemapPath, 'utf8');
   const urlBlocks = xml.match(/<url>[\s\S]*?<\/url>/g) ?? [];
 
@@ -161,8 +179,8 @@ function runSitemapChecker(sitemapPath) {
     }));
     urlMap.set(loc, alternates);
 
-    const isBlog = loc.includes('/blog');
-    const expected = isBlog ? EXPECTED_HREFLANGS_BLOG : EXPECTED;
+    const twoLocale = isTwoLocaleRoute(loc);
+    const expected = twoLocale ? EXPECTED_HREFLANGS_TWO_LOCALE : EXPECTED_HREFLANGS_PUBLIC;
     const present = new Set(alternates.map((a) => a.lang));
     for (const lang of expected) {
       if (!present.has(lang)) {

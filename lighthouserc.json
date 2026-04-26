@@ -7,11 +7,12 @@
         "http://127.0.0.1:8787/en/faq",
         "http://127.0.0.1:8787/en/blog",
         "http://127.0.0.1:8787/en/privacy",
-        "http://127.0.0.1:8787/en/cookies"
+        "http://127.0.0.1:8787/en/cookies",
+        "http://127.0.0.1:8787/en/tier-list"
       ],
       "numberOfRuns": 3,
       "settings": {
-        "_comment": "WP19.1 TASK-3-005: default CLI preset Lighthouse 13.x = mobile Moto G Power + Slow 4G (1.6Mbps DL / 750Kbps UL / 150ms RTT). Non passare 'mobile' come valore (non esiste in 13.x); omettere preset = mobile default. Desktop mantenuto come override per profili non-gate.",
+        "_comment": "WP19.1 TASK-3-005: default CLI preset Lighthouse 13.x = mobile Moto G Power + Slow 4G (1.6Mbps DL / 750Kbps UL / 150ms RTT). Non passare 'mobile' come valore (non esiste in 13.x); omettere preset = mobile default. Desktop mantenuto come override per profili non-gate. WP30 TASK-WP30-F5-07: aggiunta /en/tier-list (deterministico, no Riot upstream call). /en/summoner/<seed> non aggiunto al collect statico perche' richiede seed real (NO mock); misurato manualmente (vedi `mobile_target_wp30_summoner` block) quando founder fornisce seed via env. WP31 TASK-WP31-F5-07: /en/match-history e /en/match/<id> NON aggiunti al collect statico perche' Premium-gated (richiedono JWT effective_tier active|trialing — NO mock policy). Misurati manualmente con env LIGHTHOUSE_WP31_MATCH_HISTORY_URL + LIGHTHOUSE_WP31_MATCH_DETAIL_URL (vedi blocchi mobile_target_wp31_*).",
         "preset": "desktop"
       }
     },
@@ -25,6 +26,48 @@
         "largest-contentful-paint_ms": 2000,
         "cumulative-layout-shift": 0,
         "categories:performance": 0.95
+      }
+    },
+    "mobile_target_wp30_tier_list": {
+      "_comment": "WP30 REQ-NF-030-001: LCP < 2.5s p75 mobile per /en/tier-list. Manual run con `npx lighthouse https://www.lolsensei.com/en/tier-list --only-categories=performance,accessibility --form-factor=mobile`. Soglia: LCP <= 2500ms, a11y >= 0.90.",
+      "url": "https://www.lolsensei.com/en/tier-list",
+      "numberOfRuns": 3,
+      "variance_threshold_ms": 1000,
+      "assertions": {
+        "largest-contentful-paint_ms": 2500,
+        "categories:accessibility": 0.9
+      }
+    },
+    "mobile_target_wp30_summoner": {
+      "_comment": "WP30 REQ-NF-030-001: LCP < 2.5s p75 mobile per /en/summoner/<seed>. URL e' un placeholder; la run reale richiede seed via env LIGHTHOUSE_WP30_SUMMONER_URL (NO mock policy). Soglia: LCP <= 2500ms, a11y >= 0.90.",
+      "url_env": "LIGHTHOUSE_WP30_SUMMONER_URL",
+      "numberOfRuns": 3,
+      "variance_threshold_ms": 1000,
+      "assertions": {
+        "largest-contentful-paint_ms": 2500,
+        "categories:accessibility": 0.9
+      }
+    },
+    "mobile_target_wp31_match_history": {
+      "_comment": "WP31 REQ-NF-031-001: LCP < 2.5s p75 mobile per /en/match-history. URL e' un placeholder; la run reale richiede premium JWT cookie + URL completi via env LIGHTHOUSE_WP31_MATCH_HISTORY_URL + LIGHTHOUSE_WP31_PREMIUM_COOKIE (NO mock policy — match data reali da utente test Premium). Soglia: LCP <= 2500ms, a11y >= 0.90. Esecuzione manuale ops post-deploy: `npx lighthouse $LIGHTHOUSE_WP31_MATCH_HISTORY_URL --extra-headers='{\"Cookie\":\"<premium_jwt>\"}' --only-categories=performance,accessibility --form-factor=mobile`.",
+      "url_env": "LIGHTHOUSE_WP31_MATCH_HISTORY_URL",
+      "cookie_env": "LIGHTHOUSE_WP31_PREMIUM_COOKIE",
+      "numberOfRuns": 3,
+      "variance_threshold_ms": 1000,
+      "assertions": {
+        "largest-contentful-paint_ms": 2500,
+        "categories:accessibility": 0.9
+      }
+    },
+    "mobile_target_wp31_match_detail": {
+      "_comment": "WP31 REQ-NF-031-001: LCP < 2.5s p75 mobile per /en/match/<id>. URL completo richiesto via env LIGHTHOUSE_WP31_MATCH_DETAIL_URL (NO mock policy — match_id reale di utente test Premium). Soglia: LCP <= 2500ms, a11y >= 0.90. Esecuzione manuale ops post-deploy come sopra.",
+      "url_env": "LIGHTHOUSE_WP31_MATCH_DETAIL_URL",
+      "cookie_env": "LIGHTHOUSE_WP31_PREMIUM_COOKIE",
+      "numberOfRuns": 3,
+      "variance_threshold_ms": 1000,
+      "assertions": {
+        "largest-contentful-paint_ms": 2500,
+        "categories:accessibility": 0.9
       }
     },
     "assert": {
@@ -46,6 +89,36 @@
             "largest-contentful-paint": ["warn", {"maxNumericValue": 2500}],
             "cumulative-layout-shift": ["warn", {"maxNumericValue": 0.1}],
             "categories:accessibility": ["error", {"minScore": 0.95}]
+          }
+        },
+        {
+          "matchingUrlPattern": "/en/tier-list$",
+          "_comment": "WP30 REQ-NF-030-001: LCP gate desktop < 2.5s + a11y >= 90.",
+          "assertions": {
+            "first-contentful-paint": ["warn", {"maxNumericValue": 1500}],
+            "largest-contentful-paint": ["error", {"maxNumericValue": 2500}],
+            "cumulative-layout-shift": ["warn", {"maxNumericValue": 0.1}],
+            "categories:accessibility": ["error", {"minScore": 0.9}]
+          }
+        },
+        {
+          "matchingUrlPattern": "/en/match-history(/.*)?$",
+          "_comment": "WP31 REQ-NF-031-001 + REQ-NF-031-007: LCP gate desktop < 2.5s + a11y >= 90 + noindex enforcement (non gate-able da Lighthouse — verificato in E2E Playwright wp31-paywall-noindex.spec.ts). Premium-gated route: nei run CI con preset desktop la pagina ritorna redirect 302 a /en/pricing — assertMatrix matcha solo run autenticati con cookie.",
+          "assertions": {
+            "first-contentful-paint": ["warn", {"maxNumericValue": 1500}],
+            "largest-contentful-paint": ["warn", {"maxNumericValue": 2500}],
+            "cumulative-layout-shift": ["warn", {"maxNumericValue": 0.1}],
+            "categories:accessibility": ["warn", {"minScore": 0.9}]
+          }
+        },
+        {
+          "matchingUrlPattern": "/en/match/[^/]+$",
+          "_comment": "WP31 REQ-NF-031-001: same as match-history. Premium-gated. Verifica manuale via mobile_target_wp31_match_detail.",
+          "assertions": {
+            "first-contentful-paint": ["warn", {"maxNumericValue": 1500}],
+            "largest-contentful-paint": ["warn", {"maxNumericValue": 2500}],
+            "cumulative-layout-shift": ["warn", {"maxNumericValue": 0.1}],
+            "categories:accessibility": ["warn", {"minScore": 0.9}]
           }
         },
         {

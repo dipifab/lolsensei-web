@@ -50,6 +50,36 @@
 /auth/*
   X-Robots-Tag: noindex, nofollow
 
+# WP31 F4-13 — Premium private content (REQ-NF-031-007).
+# Match-history dashboard + per-match review pages contain user-specific
+# data (champion/KDA/AI summary tied to the signed-in account). They MUST
+# never be indexed by search engines. Defense-in-depth with the
+# `<NoindexMeta>` <meta> tag emitted by the route handlers — the
+# X-Robots-Tag at the edge wins even if the meta is stripped by a proxy.
+/*/match-history
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: no-store
+
+/*/match-history/*
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: no-store
+
+/*/match/*
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: no-store
+
+# WP32 F5-14 — Coach add-on private content (REQ-NF-032-004).
+# /coach (dashboard) + /coach/addon (activation) hold user-specific add-on
+# state, AI conversation history (in-memory) and addon lifecycle controls.
+# noindex defense-in-depth with the route-level <NoindexMeta>.
+/*/coach
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: no-store
+
+/*/coach/*
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: no-store
+
 /favicon.ico
   Cache-Control: public, max-age=86400
 

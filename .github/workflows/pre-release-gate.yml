@@ -1,10 +1,11 @@
-name: Pre-release gate (WP24 TASK-4-027)
+name: Pre-release gate (WP24 TASK-4-027 + WP30 TASK-WP30-F5-07)
 
 # Trigger su tag v*. Esegue il gate G5 aggregato:
-# - Full E2E suite (@wp24 + altri)
-# - Lighthouse CI (accessibility >=95 + perf >=90)
+# - Full E2E suite (@wp24 + @wp30 + altri)
+# - Lighthouse CI (accessibility >=95 + perf >=90 + WP30 LCP <2.5s)
 # - Bundle guard
 # - Security headers E2E
+# - WP30 jsonld:live + smoke-prod-wp30 (skip-graceful senza env/host prod)
 # - Verifica presenza file governance: RPT (Registro Art. 30) + 4 TIA
 # - Manual gate reminder (G5 Garante 10/10 manual review)
 
@@ -18,7 +19,7 @@ jobs:
   gate:
     name: Pre-release gate G5
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 35
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -34,6 +35,17 @@ jobs:
 
       - name: Typecheck
         run: npm run typecheck
+
+      # WP30 baseline gates: i18n parity (926 keys EN+IT+6 fallback), competitor
+      # lint, hreflang sitemap (98 URL incl. 12 tier-list).
+      - name: i18n parity gate
+        run: npm run check:i18n
+
+      - name: Competitor lint baseline
+        run: bash scripts/check-competitors.sh
+
+      - name: SEO hreflang gate
+        run: npm run check:seo-hreflang
 
       - name: Build (prod)
         env:
@@ -63,6 +75,22 @@ jobs:
           PLAYWRIGHT_BASE_URL: http://127.0.0.1:8787
         run: npx playwright test --grep @wp24
 
+      # WP30 TASK-WP30-F5-01..F5-06: E2E behavioural specs (skip-graceful sui
+      # rami che richiedono seed Riot reali — NO mock policy). I rami
+      # deterministici (region invalid, handle malformed, robots.txt, tier list
+      # default) girano sempre.
+      - name: Playwright WP30 (@wp30)
+        env:
+          PLAYWRIGHT_BASE_URL: http://127.0.0.1:8787
+          WP30_SEED_SUMMONER_PATH: ${{ secrets.WP30_SEED_SUMMONER_PATH }}
+          WP30_SEED_SUMMONER_PATH_EUW1: ${{ secrets.WP30_SEED_SUMMONER_PATH_EUW1 }}
+          WP30_SEED_SUMMONER_PATH_NA1: ${{ secrets.WP30_SEED_SUMMONER_PATH_NA1 }}
+          WP30_SEED_SUMMONER_PATH_KR: ${{ secrets.WP30_SEED_SUMMONER_PATH_KR }}
+          WP30_SEED_PRIVATE_SUMMONER_PATH: ${{ secrets.WP30_SEED_PRIVATE_SUMMONER_PATH }}
+          WP30_SEED_INACTIVE_SUMMONER_PATH: ${{ secrets.WP30_SEED_INACTIVE_SUMMONER_PATH }}
+          WP30_SEED_NOT_FOUND_PATH: ${{ secrets.WP30_SEED_NOT_FOUND_PATH }}
+        run: npx playwright test --grep @wp30
+
       - name: Stop wrangler
         if: always()
         run: kill $(cat /tmp/wrangler.pid) || true
@@ -70,10 +98,30 @@ jobs:
       - name: Install Lighthouse CI
         run: npm install -g @lhci/cli
 
-      - name: Lighthouse CI (accessibility >=95)
+      - name: Lighthouse CI (accessibility >=95 + WP30 tier-list LCP <2.5s)
         run: lhci autorun --config=./lighthouserc.json
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+
+      # WP30 TASK-WP30-F3-04: JSON-LD live probe contro production-like URL.
+      # Skip-graceful via WP30_SEED_SUMMONER_URL non settata (NO mock).
+      # Gating on repo variable WP30_JSONLD_LIVE_ENABLED to keep the gate
+      # opt-in mentre i seed reali sono in fase di provisioning founder-side.
+      - name: WP30 JSON-LD live check
+        if: ${{ vars.WP30_JSONLD_LIVE_ENABLED == 'true' }}
+        env:
+          WP30_SEED_SUMMONER_URL: ${{ secrets.WP30_SEED_SUMMONER_URL }}
+        run: npm run check:jsonld:live
+
+      # WP30 TASK-WP30-F4-07: smoke-prod-wp30 contro production URL.
+      # Auto skip-on-localdev (lo script rileva PROD_HOST localhost e exit 0).
+      # In CI gira solo quando vars.WP30_SMOKE_PROD_ENABLED=true e
+      # secrets.WP30_PROD_HOST e' settato (production-like).
+      - name: WP30 smoke-prod
+        if: ${{ vars.WP30_SMOKE_PROD_ENABLED == 'true' }}
+        env:
+          PROD_HOST: ${{ secrets.WP30_PROD_HOST }}
+        run: npm run smoke:prod:wp30
 
       - name: Governance files present (G7 + G8)
         run: |

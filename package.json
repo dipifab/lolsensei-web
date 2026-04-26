@@ -20,6 +20,8 @@
     "check:fonts": "node scripts/check-fonts.mjs",
     "check:links": "node scripts/check-links.mjs",
     "check:seo-hreflang": "node scripts/check-seo-hreflang.mjs",
+    "check:jsonld:live": "node scripts/check-jsonld-live.mjs",
+    "smoke:prod:wp30": "bash scripts/smoke-prod-wp30.sh",
     "baseline:lighthouse": "node scripts/measure-baseline.mjs",
     "test:e2e": "playwright test",
     "test:unit": "vitest run",

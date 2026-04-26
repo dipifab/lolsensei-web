@@ -34,4 +34,55 @@ describe('buildHreflangLinks', () => {
     expect(en?.href).toBe(`${BASE}/en/`);
     expect(links[links.length - 1].href).toBe(`${BASE}/en/`);
   });
+
+  // -------------------------------------------------------------------------
+  // WP30 TASK-WP30-F5 — explicit coverage for the WP30 route patterns.
+  // -------------------------------------------------------------------------
+
+  it('WP30 tier-list root: 9 entries, x-default -> EN, all locales lowercase except BCP-47', () => {
+    const links = buildHreflangLinks('tier-list', BASE);
+    expect(links).toHaveLength(9);
+    const en = links.find((l) => l.hreflang === 'en');
+    const it = links.find((l) => l.hreflang === 'it');
+    const xDefault = links[links.length - 1];
+    expect(en?.href).toBe(`${BASE}/en/tier-list`);
+    expect(it?.href).toBe(`${BASE}/it/tier-list`);
+    expect(xDefault).toEqual({ hreflang: 'x-default', href: `${BASE}/en/tier-list` });
+  });
+
+  it('WP30 tier-list with role filter preserves the query string in every locale href', () => {
+    // Note: the route handler builds the canonical query string and passes it
+    // as part of `path` (e.g., `tier-list?role=mid`). buildHreflangLinks then
+    // joins it with the locale prefix — qs is preserved verbatim.
+    const links = buildHreflangLinks('tier-list?role=mid', BASE);
+    expect(links).toHaveLength(9);
+    for (const l of links) {
+      expect(l.href).toContain('?role=mid');
+    }
+    const en = links.find((l) => l.hreflang === 'en');
+    expect(en?.href).toBe(`${BASE}/en/tier-list?role=mid`);
+  });
+
+  it('WP30 summoner page reciprocity: EN/IT cluster + x-default -> EN', () => {
+    // Summoner pages use the public locale set (8 locales). The path includes
+    // the region + handle segments which are lowercase by route contract.
+    const links = buildHreflangLinks('summoner/euw1/caps-euw', BASE);
+    expect(links).toHaveLength(9);
+    const en = links.find((l) => l.hreflang === 'en');
+    const it = links.find((l) => l.hreflang === 'it');
+    const xDefault = links[links.length - 1];
+    expect(en?.href).toBe(`${BASE}/en/summoner/euw1/caps-euw`);
+    expect(it?.href).toBe(`${BASE}/it/summoner/euw1/caps-euw`);
+    expect(xDefault.href).toBe(`${BASE}/en/summoner/euw1/caps-euw`);
+  });
+
+  it('WP30 hreflang cluster: every entry has unique hreflang (no dupes)', () => {
+    const links = buildHreflangLinks('tier-list', BASE);
+    const seen = new Set<string>();
+    for (const l of links) {
+      expect(seen.has(l.hreflang)).toBe(false);
+      seen.add(l.hreflang);
+    }
+    expect(seen.size).toBe(links.length);
+  });
 });

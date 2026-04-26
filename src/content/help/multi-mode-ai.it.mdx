@@ -1,0 +1,111 @@
+---
+title: AI multi-modalità — cosa funziona e cosa no
+description: Quali code supportano l'assistente AI, come funziona il dialog di opt-in per partita e la matrice Free vs Premium.
+locale: it
+---
+
+# AI multi-modalità
+
+Fino a oggi l'assistente AI funzionava solo in Ranked Solo/Duo e Ranked Flex. Da questa release funziona anche in **Normal Draft (Pick)**, **Clash** e **Custom Tournament Draft (Standard)**. Questa pagina spiega dove vedrai l'AI, come funziona il dialog di opt-in per partita e quali sono le differenze fra account Free e Premium.
+
+> Wave 1 copre quattro code. **Quickplay** e **Custom Blind** sono pianificate per una release successiva. **ARAM** resta fuori scope in modo permanente (la selezione casuale del campione rende i suggerimenti pre-partita poco utili).
+
+## Cosa cambia
+
+| Prima di questa release | Dopo questa release (Wave 1) |
+|-------------------------|------------------------------|
+| Assistente AI attivo solo in Ranked Solo/Duo (420) e Ranked Flex (440) | Assistente AI disponibile in 420, 440, **Normal Draft (430)**, **Clash (700)** e **Custom Tournament Draft (game mode CLASSIC)** |
+| Overlay inattivo nelle code non Ranked | Overlay attivo in tutte e quattro le code Wave 1, anche su Free (timer cooldown e info statiche restano visibili) |
+
+Se giochi solo Ranked **non cambia nulla per te**: l'AI continua ad attivarsi automaticamente all'inizio del champ select, senza click extra.
+
+## Come funziona
+
+### Ranked Solo/Duo (420) e Ranked Flex (440)
+
+L'AI è **automatica**. Nessun dialog, nessun opt-in. Comportamento identico alle release precedenti.
+
+### Normal Draft (430), Clash (700), Custom Tournament Draft (CLASSIC)
+
+Quando entri in champ select compare un piccolo dialog che chiede **"Attivare l'AI per questa partita?"** con due azioni chiare:
+
+- **Attiva AI** — avvia l'assistente per le scelte dei campioni e per la build degli oggetti in questa partita. Viene consumato un credito AI.
+- **Continua senza AI** — l'overlay resta attivo per le funzioni non-AI (timer cooldown, info statiche), ma non vengono fatte chiamate AI e non viene consumato alcun credito.
+
+**Skip automatico dopo 60 secondi**: se non interagisci con il dialog entro 60 secondi, l'app presume che tu sia AFK durante la ban phase e salta l'AI per questa partita (nessun credito consumato). Premere **Esc** vale come scelta esplicita di "Continua senza AI".
+
+**Ricorda la mia scelta**: spunta questa casella prima di cliccare e la tua decisione verrà ri-applicata automaticamente la prossima volta che entrerai nella stessa coda. Puoi cambiare idea in qualsiasi momento da **Impostazioni → Preferenze AI per modalità** (vedi sotto).
+
+### Custom con game mode non CLASSIC
+
+Le partite custom con game mode non standard (URF, One for All, ARAM custom e simili) **non sono supportate** dall'AI. Gli utenti Premium vedranno il dialog brevemente in modalità disabled (informativa); gli utenti Free non lo vedranno affatto. In questo scenario l'overlay è completamente disattivato.
+
+### E le altre code?
+
+- **Quickplay (490)**: non supportata in questa release. Pianificata per Wave 2 con una strategia AI diversa (suggerimenti raffinati in-game invece del pre-partita).
+- **ARAM (450)**: fuori scope in modo permanente. Con il campione assegnato a caso i suggerimenti pre-partita sono troppo rumorosi.
+- **Custom Blind Pick**: non supportata in questa release. Pianificata per Wave 2.
+
+In tutte le code non supportate l'overlay mostra una piccola pill di stato che spiega perché l'AI non è attiva.
+
+## Free vs Premium
+
+| Coda | Free — overlay attivo? | Free — funzioni AI? | Premium — overlay attivo? | Premium — funzioni AI? |
+|------|------------------------|---------------------|---------------------------|------------------------|
+| Ranked Solo/Duo (420) | Sì | No (limite giornaliero applicato) | Sì | Sì (auto-on) |
+| Ranked Flex (440) | Sì | No | Sì | Sì (auto-on) |
+| Normal Draft (430) | Sì (novità) | No (nessun dialog di opt-in) | Sì (novità) | Sì (con dialog di opt-in) |
+| Clash (700) | Sì (novità) | No | Sì (novità) | Sì (con dialog di opt-in) |
+| Custom Tournament Draft (CLASSIC) | Sì (novità) | No | Sì (novità) | Sì (con dialog di opt-in) |
+| Custom non CLASSIC | No (overlay off) | No | No (overlay off, dialog disabled) | No |
+| Quickplay (490) | — (Wave 2) | — | — (Wave 2) | — |
+| ARAM (450) | — (fuori scope) | — | — (fuori scope) | — |
+
+**Nota Free**: nelle code Wave 1 ottieni gratis il valore aggiunto dell'overlay — cooldown tracker e info statiche restano visibili. Il dialog di opt-in è una funzionalità Premium; su Free vedrai una pill che indica che l'AI è una funzione Premium, con un link per fare upgrade.
+
+## Gestire le preferenze
+
+Apri l'app desktop → **Impostazioni** → **Preferenze AI per modalità**. Vedrai una riga per ogni coda Wave 1 con lo stato corrente:
+
+- **Chiedi ogni volta** (default) — il dialog compare prima di ogni partita in quella coda.
+- **Attiva sempre** — l'AI parte in automatico, nessun dialog.
+- **Salta sempre** — l'overlay resta in modalità non-AI, nessun dialog, nessun credito consumato.
+
+Ogni riga ha un'azione **Reimposta a chiedi ogni volta**. In fondo alla sezione c'è anche un'azione **Reimposta tutto** che cancella ogni preferenza salvata.
+
+Le preferenze sono salvate in locale sul tuo dispositivo (filesystem Tauri, file JSON nella tua user config directory). Non sono sincronizzate fra macchine. La disinstallazione dell'app le rimuove.
+
+## FAQ
+
+### Perché non vedo il dialog?
+
+Alcuni motivi comuni:
+
+- Sei su **Free** in una coda Wave 1 non-Ranked: il dialog AI è una funzionalità Premium; passa a Premium per sbloccarlo.
+- Sei in **Ranked**: l'AI è auto-on, nessun dialog per design.
+- Hai scelto **Attiva sempre** o **Salta sempre** per questa coda: rimuovi la preferenza da **Impostazioni → Preferenze AI per modalità**.
+- Sei in una **partita custom con game mode non CLASSIC** (URF, One for All, ARAM custom, ...): l'AI non è disponibile lì.
+
+### Perché vedo il dialog ogni partita?
+
+Il default è "chiedi ogni volta". Se vuoi che ricordi la scelta, spunta **Ricorda la mia scelta per questa coda** prima di cliccare Attiva o Continua. In alternativa puoi impostarlo manualmente dalle Impostazioni.
+
+### Cosa succede se premo Esc?
+
+Esc è trattato come una scelta esplicita di "Continua senza AI" (skip esplicito). Viene registrato come decisione deliberata, non come timeout AFK.
+
+### Il dialog consuma un credito AI anche se faccio skip?
+
+No. I crediti vengono consumati solo quando clicchi **Attiva AI**. Skip, auto-skip ed Esc non costano nulla.
+
+### Posso cambiare idea a partita iniziata?
+
+Non nella stessa partita. La decisione è legata alla session corrente di champ select. Per la prossima partita puoi cambiare la preferenza salvata o aspettare il prossimo dialog.
+
+## Cosa arriverà
+
+**Wave 2** (pianificata per più avanti): Quickplay (490) e Custom Blind Pick. Entrambe useranno una strategia AI diversa perché la fase pre-partita è più corta e le info sui ban non sono sempre disponibili; l'AI fornirà suggerimenti raffinati in-game durante la schermata di caricamento invece dei suggerimenti pre-partita fissi.
+
+**ARAM** (450): fuori scope in modo permanente. L'assegnazione casuale del campione rende i suggerimenti pre-partita poco utili; se vuoi un assistente specifico per ARAM, resta sintonizzato — potremmo proporre strumenti mirati in-game, non lo stesso flusso AI.
+
+Per feedback su quali code vorresti supportate prossimamente, scrivici a `support@lolsensei.com`.
