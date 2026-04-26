@@ -32,6 +32,7 @@ import type {
   ChatRequest,
   ChatResponse,
   CoachLanguage,
+  DrillQuotaExceededResponse,
   DrillRequest,
   DrillResponse,
   QuotaExceededResponse,
@@ -124,6 +125,21 @@ export class CoachQuotaExceededError extends CoachApiError {
   constructor(payload: QuotaExceededResponse) {
     super(200, 'quota_exceeded');
     this.name = 'CoachQuotaExceededError';
+    this.payload = payload;
+  }
+}
+
+/**
+ * Drill-specific quota exhaustion. Distinct from `CoachQuotaExceededError`
+ * (chat) so the UI can render `drill_remaining` / `drill_max` type-safe
+ * without a misleading `chat_*` shape.
+ */
+export class CoachDrillQuotaExceededError extends CoachApiError {
+  public readonly payload: DrillQuotaExceededResponse;
+
+  constructor(payload: DrillQuotaExceededResponse) {
+    super(200, 'quota_exceeded');
+    this.name = 'CoachDrillQuotaExceededError';
     this.payload = payload;
   }
 }
@@ -286,7 +302,15 @@ function isObject(value: unknown): value is Record<string, unknown> {
 }
 
 function isQuotaExceeded(value: unknown): value is QuotaExceededResponse {
-  return isObject(value) && value.quota_exceeded === true;
+  return (
+    isObject(value) &&
+    value.quota_exceeded === true &&
+    (value.surface === 'chat' || value.surface === undefined)
+  );
+}
+
+function isDrillQuotaExceeded(value: unknown): value is DrillQuotaExceededResponse {
+  return isObject(value) && value.quota_exceeded === true && value.surface === 'drill';
 }
 
 function isChatResponse(value: unknown): value is ChatResponse {
@@ -376,8 +400,8 @@ export async function drill(
     language: options.language,
     timeoutMs: 30_000,
   });
-  if (isQuotaExceeded(data)) {
-    throw new CoachQuotaExceededError(data);
+  if (isDrillQuotaExceeded(data)) {
+    throw new CoachDrillQuotaExceededError(data);
   }
   if (!isDrillResponse(data)) {
     throw new CoachSchemaMismatchError(path);

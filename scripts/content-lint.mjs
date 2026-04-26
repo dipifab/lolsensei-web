@@ -1,0 +1,209 @@
+#!/usr/bin/env node
+// WP35 — Content lint hybrid (Node) (DEC-OP-004 / DEC-OP-018).
+//
+// Validates `content/champions/{en,it}/*.md` files BEFORE the build:
+//
+//   HARD failures (exit 1):
+//     - frontmatter Zod-equivalent validation (8 fields, regex bounds);
+//     - file path lang segment must match frontmatter `language`;
+//     - frontmatter `slug` must equal `<champion>-<role>`;
+//     - competitor blocklist boundary match in body OR frontmatter;
+//     - missing YAML frontmatter block.
+//
+//   SOFT warnings (exit 0):
+//     - description length outside [150, 170] (recommended UX/SEO range);
+//     - body word count outside [600, 1500] (DEC-OP-024).
+//
+// Single source of truth for the blocklist:
+//   `scripts/competitor-blocklist.txt` (also consumed by check-competitors.sh).
+//   Comment lines (`#`) and empty lines ignored. Patterns are ERE regex
+//   already escaped (e.g. `op\.gg`).
+//
+// Empty content/ trees are tolerated -> exit 0 (pre-F4 gate).
+
+import { readFileSync, readdirSync, existsSync } from 'node:fs';
+import { resolve, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const REPO_ROOT = resolve(__dirname, '..');
+const CONTENT_ROOT = resolve(REPO_ROOT, 'content/champions');
+const BLOCKLIST_FILE = resolve(__dirname, 'competitor-blocklist.txt');
+
+const LANGS = ['en', 'it'];
+const ROLES = ['top', 'jungle', 'mid', 'bot', 'support'];
+const PATCH_RE = /^\d{1,2}\.\d{1,2}$/;
+const SLUG_FRONTMATTER_RE = /^[a-z0-9-]+-(top|jungle|mid|bot|support)$/;
+const SLUG_CHAMPION_RE = /^[a-z0-9-]+$/;
+const ISO_DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+const DESC_SOFT_MIN = 150;
+const DESC_SOFT_MAX = 170;
+const WORD_SOFT_MIN = 600;
+const WORD_SOFT_MAX = 1500;
+
+let hardFails = 0;
+let softWarns = 0;
+
+function loadBlocklist() {
+  const raw = readFileSync(BLOCKLIST_FILE, 'utf8');
+  const terms = raw
+    .split(/\r?\n/)
+    .map((l) => l.trim())
+    .filter((l) => l.length > 0 && !l.startsWith('#'));
+  if (terms.length === 0) {
+    throw new Error(`competitor blocklist is empty: ${BLOCKLIST_FILE}`);
+  }
+  // Boundary-aware match. Patterns are already regex-escaped (e.g. `op\.gg`).
+  return new RegExp(`\\b(?:${terms.join('|')})\\b`, 'i');
+}
+
+function fail(file, message) {
+  console.error(`[FAIL] ${file}: ${message}`);
+  hardFails++;
+}
+
+function warn(file, message) {
+  console.warn(`[WARN] ${file}: ${message}`);
+  softWarns++;
+}
+
+function extractFrontmatter(rawMarkdown) {
+  const m = rawMarkdown.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
+  if (!m) return { frontmatter: null, body: rawMarkdown };
+  const yaml = m[1];
+  const body = rawMarkdown.slice(m[0].length);
+  const fm = {};
+  for (const rawLine of yaml.split(/\r?\n/)) {
+    const line = rawLine.trim();
+    if (!line || line.startsWith('#')) continue;
+    const idx = line.indexOf(':');
+    if (idx === -1) continue;
+    const key = line.slice(0, idx).trim();
+    let value = line.slice(idx + 1).trim();
+    if (
+      (value.startsWith('"') && value.endsWith('"')) ||
+      (value.startsWith("'") && value.endsWith("'"))
+    ) {
+      value = value.slice(1, -1);
+    }
+    fm[key] = value;
+  }
+  return { frontmatter: fm, body };
+}
+
+function lintFrontmatter(file, fm, lang) {
+  if (typeof fm.title !== 'string' || fm.title.length < 10 || fm.title.length > 120) {
+    fail(file, `frontmatter.title required, length [10, 120]`);
+  }
+  if (typeof fm.slug !== 'string' || !SLUG_FRONTMATTER_RE.test(fm.slug)) {
+    fail(file, `frontmatter.slug must match <champion>-<role>`);
+  }
+  if (!LANGS.includes(fm.language)) {
+    fail(file, `frontmatter.language must be one of ${LANGS.join(', ')}`);
+  }
+  if (typeof fm.patch !== 'string' || !PATCH_RE.test(fm.patch)) {
+    fail(file, `frontmatter.patch must be major.minor (e.g. 14.10)`);
+  }
+  if (typeof fm.champion !== 'string' || !SLUG_CHAMPION_RE.test(fm.champion)) {
+    fail(file, `frontmatter.champion must be lowercase kebab-case`);
+  }
+  if (!ROLES.includes(fm.role)) {
+    fail(file, `frontmatter.role must be one of ${ROLES.join(', ')}`);
+  }
+  if (typeof fm.last_updated !== 'string' || !ISO_DATE_RE.test(fm.last_updated)) {
+    fail(file, `frontmatter.last_updated must be ISO date YYYY-MM-DD`);
+  }
+  if (typeof fm.description !== 'string' || fm.description.length < 100 || fm.description.length > 200) {
+    fail(file, `frontmatter.description length must be [100, 200]`);
+  }
+  // Cross-field checks.
+  if (
+    typeof fm.slug === 'string' &&
+    typeof fm.champion === 'string' &&
+    typeof fm.role === 'string' &&
+    fm.slug !== `${fm.champion}-${fm.role}`
+  ) {
+    fail(file, `slug "${fm.slug}" must equal "${fm.champion}-${fm.role}"`);
+  }
+  if (typeof fm.language === 'string' && fm.language !== lang) {
+    fail(file, `path lang "${lang}" mismatch with frontmatter language "${fm.language}"`);
+  }
+  // Soft warns (only if frontmatter passed hard checks).
+  if (typeof fm.description === 'string' && fm.description.length >= 100) {
+    if (fm.description.length < DESC_SOFT_MIN || fm.description.length > DESC_SOFT_MAX) {
+      warn(
+        file,
+        `description.length=${fm.description.length} outside recommended [${DESC_SOFT_MIN}, ${DESC_SOFT_MAX}]`,
+      );
+    }
+  }
+}
+
+function lintBlocklist(file, fm, body, blockRe) {
+  const bodyMatch = body.match(blockRe);
+  if (bodyMatch) {
+    fail(file, `competitor mention "${bodyMatch[0]}" in body`);
+  }
+  for (const field of ['title', 'description']) {
+    const val = fm[field];
+    if (typeof val === 'string') {
+      const m = val.match(blockRe);
+      if (m) {
+        fail(file, `competitor mention "${m[0]}" in frontmatter.${field}`);
+      }
+    }
+  }
+}
+
+function lintWordCount(file, body) {
+  const stripped = body.replace(/[\s ]+/g, ' ').trim();
+  if (!stripped) {
+    warn(file, `empty body`);
+    return;
+  }
+  const wordCount = stripped.split(' ').length;
+  if (wordCount < WORD_SOFT_MIN || wordCount > WORD_SOFT_MAX) {
+    warn(file, `word_count=${wordCount} outside recommended [${WORD_SOFT_MIN}, ${WORD_SOFT_MAX}]`);
+  }
+}
+
+function lintFile(filePath, lang, blockRe) {
+  const raw = readFileSync(filePath, 'utf8');
+  const { frontmatter, body } = extractFrontmatter(raw);
+  if (frontmatter === null) {
+    fail(filePath, `missing YAML frontmatter block (expected --- ... ---)`);
+    return;
+  }
+  lintFrontmatter(filePath, frontmatter, lang);
+  lintBlocklist(filePath, frontmatter, body, blockRe);
+  lintWordCount(filePath, body);
+}
+
+function main() {
+  const blockRe = loadBlocklist();
+  if (!existsSync(CONTENT_ROOT)) {
+    console.log(`[content-lint] ${CONTENT_ROOT} does not exist — nothing to lint.`);
+    process.exit(0);
+  }
+  let scanned = 0;
+  for (const lang of LANGS) {
+    const dir = resolve(CONTENT_ROOT, lang);
+    if (!existsSync(dir)) continue;
+    for (const file of readdirSync(dir)) {
+      if (!file.endsWith('.md')) continue;
+      lintFile(resolve(dir, file), lang, blockRe);
+      scanned++;
+    }
+  }
+  console.log(
+    `[content-lint] scanned=${scanned} hard_fails=${hardFails} soft_warns=${softWarns}`,
+  );
+  process.exit(hardFails > 0 ? 1 : 0);
+}
+
+try {
+  main();
+} catch (err) {
+  console.error(`[content-lint][ERROR] ${err.stack ?? err.message}`);
+  process.exit(2);
+}

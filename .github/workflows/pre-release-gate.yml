@@ -47,6 +47,18 @@ jobs:
       - name: SEO hreflang gate
         run: npm run check:seo-hreflang
 
+      # WP35 (CR-045 DEC-7/DEC-8) — content lint hybrid (Zod frontmatter +
+      # competitor blocklist) + compile pipeline. Empty content/ tollerato
+      # finche' F4 produce le 100 guide MVP. Il check-competitors.sh
+      # gia' presente sotto "Competitor lint baseline" e' stato esteso
+      # con --exclude-dir=content / --exclude-dir=champions (DEC-OP-018):
+      # qui aggiungiamo solo il lint Zod-side e il compile.
+      - name: WP35 content lint (Zod + blocklist)
+        run: npm run content:lint
+
+      - name: WP35 content compile (Markdown -> TS)
+        run: npm run content:compile
+
       - name: Build (prod)
         env:
           VITE_GOOGLE_CLIENT_ID: ci-placeholder

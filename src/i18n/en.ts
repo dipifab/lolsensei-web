@@ -1162,6 +1162,70 @@ const en = {
   'coach.quota_exceeded.chat': 'You\'ve used all your chat messages this month. Resets on {reset_date}.',
   'coach.quota_exceeded.drill': 'You\'ve used all your drill regenerations this week.',
   'coach.quota_exceeded.upgrade_hint': 'Upgrade to Full for higher limits',
+
+  // ====== WP35 — Champion Guides + Esports (CR-045 DEC-7) =================
+  // Champion Guide meta (3)
+  'wp35.champion_guide.meta.title_template': '{champion} {role} Build & Guide — Patch {patch} | LoL Sensei',
+  'wp35.champion_guide.meta.description_fallback': 'Read the {champion} {role} guide for League of Legends Patch {patch}: build, matchups, power spikes, common mistakes.',
+  'wp35.champion_guide.meta.og_description_template': '{champion} {role} guide on LoL Sensei — Patch {patch}.',
+  // Champion Guide sections (12)
+  'wp35.champion_guide.section.overview.heading': 'Overview',
+  'wp35.champion_guide.section.build.heading': 'Recommended Build',
+  'wp35.champion_guide.section.build.starting_label': 'Starting items',
+  'wp35.champion_guide.section.build.core_label': 'Core items',
+  'wp35.champion_guide.section.build.situational_label': 'Situational items',
+  'wp35.champion_guide.section.build.boots_label': 'Boots',
+  'wp35.champion_guide.section.build.skill_order_label': 'Skill order',
+  'wp35.champion_guide.section.build.runes_label': 'Runes',
+  'wp35.champion_guide.section.matchup.heading': 'Key matchups',
+  'wp35.champion_guide.section.power_spike.heading': 'Power spikes & win conditions',
+  'wp35.champion_guide.section.common_mistakes.heading': 'Common mistakes',
+  'wp35.champion_guide.section.advanced_tip.heading': 'Advanced tip',
+  // Patch badge + last updated (4)
+  'wp35.champion_guide.patch_badge.label': 'Patch {patch}',
+  'wp35.champion_guide.patch_badge.outdated_warning': 'A more recent guide is available for the latest patch.',
+  'wp35.champion_guide.patch_badge.outdated_link': 'View latest patch guide',
+  'wp35.champion_guide.last_updated.label': 'Last updated: {date}',
+  // Past patches (2)
+  'wp35.champion_guide.past_patches.heading': 'Past patches',
+  'wp35.champion_guide.past_patches.empty': 'No previous versions available.',
+  // Related guides (2)
+  'wp35.champion_guide.related.heading': 'Related {role} guides',
+  'wp35.champion_guide.related.empty': 'More guides coming soon.',
+  // Language switcher (2)
+  'wp35.champion_guide.lang_switch.unavailable_in_current_lang': 'This guide is not yet available in {lang}.',
+  'wp35.champion_guide.lang_switch.view_in_other_lang': 'View in English',
+  // 404 (4)
+  'wp35.champion_guide.not_found.title': 'Champion guide not found',
+  'wp35.champion_guide.not_found.description': 'We could not find the requested champion guide.',
+  'wp35.champion_guide.not_found.suggest_latest': 'View the latest guide for {champion}',
+  'wp35.champion_guide.not_found.suggest_back': 'Back to home',
+  // Esports meta (3)
+  'wp35.esports.meta.title': 'LoL Esports Schedule & Results — Live Matches | LoL Sensei',
+  'wp35.esports.meta.description': 'View upcoming and recent League of Legends esports matches across major leagues. Updated hourly via Leaguepedia.',
+  'wp35.esports.meta.og_description': 'LoL Sensei esports hub: schedule, results, leagues.',
+  // Esports headings (4)
+  'wp35.esports.heading': 'LoL Esports',
+  'wp35.esports.subheading': 'Schedule, results, and standings from major leagues.',
+  'wp35.esports.section.schedule.heading': 'Upcoming matches',
+  'wp35.esports.section.results.heading': 'Recent results',
+  // Esports table (9)
+  'wp35.esports.table.date': 'Date',
+  'wp35.esports.table.time': 'Time',
+  'wp35.esports.table.league': 'League',
+  'wp35.esports.table.team1': 'Team 1',
+  'wp35.esports.table.team2': 'Team 2',
+  'wp35.esports.table.score': 'Score',
+  'wp35.esports.table.winner': 'Winner',
+  'wp35.esports.table.empty_schedule': 'No upcoming matches in the next 7 days.',
+  'wp35.esports.table.empty_results': 'No recent results.',
+  // Esports unavailable / degraded (2)
+  'wp35.esports.unavailable.banner': 'Esports schedule temporarily unavailable. Please try again in a few minutes.',
+  'wp35.esports.degraded.stale_warning': 'Showing recently cached data. Live updates temporarily unavailable.',
+  // Esports attribution (3)
+  'wp35.esports.attribution.section': 'Data: Leaguepedia / Fandom — CC BY-SA',
+  'wp35.esports.attribution.footer': 'Esports data provided by Leaguepedia (Fandom), licensed under CC BY-SA. Visit Leaguepedia',
+  'wp35.esports.attribution.link_label': 'Leaguepedia',
 } as const;
 
 export default en;

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "node scripts/check-env-production.mjs && bash scripts/check-competitors.sh && node scripts/generate-sitemap.mjs",
+    "prebuild": "node scripts/check-env-production.mjs && node scripts/content-lint.mjs && bash scripts/check-competitors.sh && node scripts/compile-content.mjs && node scripts/generate-sitemap.mjs",
     "build:favicons": "node scripts/generate-favicons.mjs",
     "build": "cross-env NODE_ENV=production vinxi build && node scripts/compute-csp-hashes.mjs && cross-env NODE_ENV=production vinxi build",
     "build:prod": "npm run build",
@@ -21,6 +21,9 @@
     "check:links": "node scripts/check-links.mjs",
     "check:seo-hreflang": "node scripts/check-seo-hreflang.mjs",
     "check:jsonld:live": "node scripts/check-jsonld-live.mjs",
+    "content:lint": "node scripts/content-lint.mjs && bash scripts/check-competitors.sh",
+    "content:validate": "node scripts/content-lint.mjs",
+    "content:compile": "node scripts/compile-content.mjs",
     "smoke:prod:wp30": "bash scripts/smoke-prod-wp30.sh",
     "baseline:lighthouse": "node scripts/measure-baseline.mjs",
     "test:e2e": "playwright test",
@@ -37,7 +40,8 @@
     "@types/dompurify": "^3.0.5",
     "dompurify": "^3.4.0",
     "solid-js": "1.9.12",
-    "vinxi": "^0.5.11"
+    "vinxi": "^0.5.11",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.11.2",
@@ -57,6 +61,8 @@
     "playwright": "^1.59.1",
     "png-to-ico": "^3.0.1",
     "puppeteer": "24.41.0",
+    "rehype-sanitize": "^6.0.0",
+    "rehype-stringify": "^10.0.1",
     "remark-frontmatter": "^5.0.0",
     "remark-mdx-frontmatter": "^5.2.0",
     "sharp": "^0.34.5",

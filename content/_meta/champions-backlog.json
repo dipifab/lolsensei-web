@@ -1,0 +1,417 @@
+{
+  "_comment": "WP35 backlog tracker (DEC-OP-022). Updated by founder during F4 content seed. Total target = 960 = 160 champions \u00d7 3 roles \u00d7 2 langs (full coverage). MVP target = 100 = Top-50 \u00d7 1 role \u00d7 2 langs.",
+  "updated_at": "2026-04-25",
+  "total_target": 960,
+  "mvp_target": 100,
+  "champions": [
+    {
+      "slug": "aatrox",
+      "primary_role": "top",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "ahri",
+      "primary_role": "mid",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "akali",
+      "primary_role": "mid",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "akshan",
+      "primary_role": "mid",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "amumu",
+      "primary_role": "jungle",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "annie",
+      "primary_role": "mid",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "ashe",
+      "primary_role": "bot",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "blitzcrank",
+      "primary_role": "support",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "braum",
+      "primary_role": "support",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "caitlyn",
+      "primary_role": "bot",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "darius",
+      "primary_role": "top",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "diana",
+      "primary_role": "jungle",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "draven",
+      "primary_role": "bot",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "ekko",
+      "primary_role": "jungle",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "ezreal",
+      "primary_role": "bot",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "fiora",
+      "primary_role": "top",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "garen",
+      "primary_role": "top",
+      "status": "done",
+      "langs_done": [
+        "en",
+        "it"
+      ],
+      "last_generated_at": "2026-04-25",
+      "last_patch": "14.10"
+    },
+    {
+      "slug": "graves",
+      "primary_role": "jungle",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "hecarim",
+      "primary_role": "jungle",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "irelia",
+      "primary_role": "top",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "janna",
+      "primary_role": "support",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "jax",
+      "primary_role": "top",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "jhin",
+      "primary_role": "bot",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "jinx",
+      "primary_role": "bot",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "karma",
+      "primary_role": "support",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "kayn",
+      "primary_role": "jungle",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "kha-zix",
+      "primary_role": "jungle",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "lee-sin",
+      "primary_role": "jungle",
+      "status": "done",
+      "langs_done": [
+        "en",
+        "it"
+      ],
+      "last_generated_at": "2026-04-25",
+      "last_patch": "14.10"
+    },
+    {
+      "slug": "leona",
+      "primary_role": "support",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "lulu",
+      "primary_role": "support",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "lux",
+      "primary_role": "mid",
+      "status": "done",
+      "langs_done": [
+        "en",
+        "it"
+      ],
+      "last_generated_at": "2026-04-25",
+      "last_patch": "14.10"
+    },
+    {
+      "slug": "malphite",
+      "primary_role": "top",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "miss-fortune",
+      "primary_role": "bot",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "morgana",
+      "primary_role": "support",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "nami",
+      "primary_role": "support",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "nasus",
+      "primary_role": "top",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "orianna",
+      "primary_role": "mid",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "pantheon",
+      "primary_role": "support",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "renekton",
+      "primary_role": "top",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "sett",
+      "primary_role": "top",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "soraka",
+      "primary_role": "support",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "syndra",
+      "primary_role": "mid",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "thresh",
+      "primary_role": "support",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "tristana",
+      "primary_role": "bot",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "vayne",
+      "primary_role": "bot",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "vi",
+      "primary_role": "jungle",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "viego",
+      "primary_role": "jungle",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "warwick",
+      "primary_role": "jungle",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "yasuo",
+      "primary_role": "mid",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    },
+    {
+      "slug": "zed",
+      "primary_role": "mid",
+      "status": "todo",
+      "langs_done": [],
+      "last_generated_at": null,
+      "last_patch": null
+    }
+  ]
+}

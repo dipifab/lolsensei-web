@@ -2,6 +2,12 @@
 // WP24 TASK-4-024 — Il dizionario per-locale e' ora splittato in base
 // (src/i18n/<lang>.ts) e legal lazy (src/i18n/legal/<lang>.ts). Il check
 // mergea virtualmente le due sorgenti e verifica la parita' di chiavi vs EN.
+//
+// WP35 (CR-045 DEC-7) — il namespace `wp35.*` (champion guides + esports) e'
+// MVP EN+IT only. Le route `/<lang>/champion/...` sono whitelisted ai due
+// locales: gli altri (es/fr/de/pt-br/ko/zh-Hans) non devono ricevere queste
+// chiavi. Il check applica una `LOCALE_NAMESPACE_EXEMPTIONS` map per
+// escludere selettivamente prefissi di chiave dal parity check.
 import { readFileSync, existsSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -11,6 +17,17 @@ const LOCALES_DIR = resolve(__dirname, '..', 'src', 'i18n');
 const LEGAL_DIR = resolve(LOCALES_DIR, 'legal');
 const BASE = 'en';
 const TARGETS = ['it', 'es', 'fr', 'de', 'pt-br', 'ko', 'zh-Hans'];
+
+// Per-locale namespace exemptions: prefixes that are allowed to be missing
+// in the target locale. Used for feature-gated locales (e.g. WP35 EN+IT only).
+const LOCALE_NAMESPACE_EXEMPTIONS = {
+  es: ['wp35.'],
+  fr: ['wp35.'],
+  de: ['wp35.'],
+  'pt-br': ['wp35.'],
+  ko: ['wp35.'],
+  'zh-Hans': ['wp35.'],
+};
 
 function extractKeys(filePath) {
   if (!existsSync(filePath)) return new Set();
@@ -41,8 +58,16 @@ function collectKeys(locale) {
   return new Set([...base, ...legal]);
 }
 
-function diff(baseKeys, targetKeys) {
-  const missing = [...baseKeys].filter((k) => !targetKeys.has(k));
+function isExempted(key, exemptions) {
+  if (!exemptions || exemptions.length === 0) return false;
+  return exemptions.some((prefix) => key.startsWith(prefix));
+}
+
+function diff(baseKeys, targetKeys, exemptions) {
+  const missing = [...baseKeys].filter(
+    (k) => !targetKeys.has(k) && !isExempted(k, exemptions),
+  );
+  // `extra` rimane sempre hard-fail: nessun locale deve avere chiavi orfane.
   const extra = [...targetKeys].filter((k) => !baseKeys.has(k));
   return { missing, extra };
 }
@@ -52,9 +77,13 @@ let hasError = false;
 
 for (const locale of TARGETS) {
   const keys = collectKeys(locale);
-  const { missing, extra } = diff(baseKeys, keys);
+  const exemptions = LOCALE_NAMESPACE_EXEMPTIONS[locale] ?? [];
+  const { missing, extra } = diff(baseKeys, keys, exemptions);
   if (missing.length === 0 && extra.length === 0) {
-    console.log(`[i18n] ${locale}: OK (${keys.size} keys)`);
+    const note = exemptions.length
+      ? ` (exempt: ${exemptions.join(', ')})`
+      : '';
+    console.log(`[i18n] ${locale}: OK (${keys.size} keys)${note}`);
     continue;
   }
   hasError = true;

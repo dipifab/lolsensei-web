@@ -18,6 +18,7 @@ import {
   CoachAiProviderError,
   CoachApiError,
   CoachConflictError,
+  CoachDrillQuotaExceededError,
   CoachNotFoundError,
   CoachQuotaExceededError,
   CoachSchemaMismatchError,
@@ -224,17 +225,32 @@ describe('drill()', () => {
     expect(r.tier).toBe('light');
   });
 
-  it('discriminates quota_exceeded for drill surface too', async () => {
-    captureFetch(async () =>
-      jsonResponse({
-        quota_exceeded: true,
-        addon_code: 'ai_coach_full',
-        current_quota: { chat_remaining: 0, chat_max: 200, reset_at: '2026-05-01T00:00:00Z' },
-      }),
-    );
-    await expect(drill({}, { jwt: 'token' })).rejects.toBeInstanceOf(
-      CoachQuotaExceededError,
-    );
+  it('discriminates quota_exceeded for drill surface with type-safe shape', async () => {
+    const payload = {
+      quota_exceeded: true as const,
+      surface: 'drill' as const,
+      addon_code: 'ai_coach_full' as const,
+      current_quota: {
+        drill_remaining: 0,
+        drill_max: 16,
+        reset_at: '2026-05-01T00:00:00Z',
+      },
+      upgrade_hint: { addon_code: 'ai_coach_full' as const, drill_max: 16 },
+    };
+    captureFetch(async () => jsonResponse(payload));
+    try {
+      await drill({}, { jwt: 'token' });
+      throw new Error('should have thrown');
+    } catch (err) {
+      expect(err).toBeInstanceOf(CoachDrillQuotaExceededError);
+      const e = err as CoachDrillQuotaExceededError;
+      expect(e.payload.surface).toBe('drill');
+      expect(e.payload.addon_code).toBe('ai_coach_full');
+      expect(e.payload.current_quota.drill_remaining).toBe(0);
+      expect(e.payload.current_quota.drill_max).toBe(16);
+      expect(e.payload.current_quota.reset_at).toBe('2026-05-01T00:00:00Z');
+      expect(e.payload.upgrade_hint?.drill_max).toBe(16);
+    }
   });
 });
 

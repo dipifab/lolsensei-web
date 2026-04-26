@@ -102,17 +102,37 @@ export interface ChatResponse {
 
 /**
  * Payload "200 quota exceeded" — non un errore HTTP ma un branch del response
- * di chat/drill/recap (api-contracts §2.4). FE deve discriminare via
- * `quota_exceeded === true`.
+ * di chat (api-contracts §2.4). FE deve discriminare via
+ * `quota_exceeded === true` + `surface === 'chat'`.
  */
 export interface QuotaExceededResponse {
   quota_exceeded: true;
+  surface: 'chat';
   addon_code: AddonCode;
   current_quota: Pick<RemainingQuota, 'chat_remaining' | 'chat_max'> & {
     reset_at: IsoTimestamp;
   };
   upgrade_hint?: UpgradeHint;
 }
+
+/**
+ * Payload "200 quota exceeded" del response drill (api-contracts §3.4).
+ * Shape `DrillQuotaSnapshot` type-safe (drill_remaining/drill_max).
+ */
+export interface DrillQuotaExceededResponse {
+  quota_exceeded: true;
+  surface: 'drill';
+  addon_code: AddonCode;
+  current_quota: Pick<RemainingQuota, 'drill_remaining' | 'drill_max'> & {
+    reset_at: IsoTimestamp;
+  };
+  upgrade_hint?: UpgradeHint;
+}
+
+/** Discriminator union per error class FE. */
+export type AnyQuotaExceededResponse =
+  | QuotaExceededResponse
+  | DrillQuotaExceededResponse;
 
 // -------------------- Drill --------------------
 
