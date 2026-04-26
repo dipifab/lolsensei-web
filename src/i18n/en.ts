@@ -1226,6 +1226,71 @@ const en = {
   'wp35.esports.attribution.section': 'Data: Leaguepedia / Fandom — CC BY-SA',
   'wp35.esports.attribution.footer': 'Esports data provided by Leaguepedia (Fandom), licensed under CC BY-SA. Visit Leaguepedia',
   'wp35.esports.attribution.link_label': 'Leaguepedia',
+
+  // ---------------------- WP34 — Counters + Pro Builds ----------------------
+  // Counter meta (3)
+  'wp34.counters.meta.title_template': '{champion} {role} Counters — Patch {patch} | LoL Sensei',
+  'wp34.counters.meta.description_template': 'Counter matchups for {champion} ({role}) on patch {patch}: see which opponents are favorable, neutral, or difficult, with sample sizes from public match data.',
+  'wp34.counters.meta.og_description': 'Aggregated public matchup data classified as Favorable / Neutral / Difficult.',
+  // Counter headings (4)
+  'wp34.counters.heading': '{champion} {role} Counters',
+  'wp34.counters.subheading': 'Aggregated matchup classification based on public match data, patch {patch}.',
+  'wp34.counters.section.matrix_heading': 'Matchup table',
+  'wp34.counters.section.tips_heading': 'Matchup notes',
+  // Counter table (5)
+  'wp34.counters.table.opponent': 'Opponent',
+  'wp34.counters.table.classification': 'Classification',
+  'wp34.counters.table.sample_size': 'Sample size',
+  'wp34.counters.table.row_label_template': '{opponent} — {classification}',
+  'wp34.counters.table.empty': 'No matchup data yet for this champion and role.',
+  // Counter classification (3)
+  'wp34.counters.classification.favorable': 'Favorable',
+  'wp34.counters.classification.neutral': 'Neutral',
+  'wp34.counters.classification.difficult': 'Difficult',
+  // Counter freshness (2)
+  'wp34.counters.freshness.label': 'Data updated {date}',
+  'wp34.counters.freshness.patch_badge': 'Patch {patch}',
+  // Counter 404 (3)
+  'wp34.counters.not_found.title': 'No counter data yet',
+  'wp34.counters.not_found.description': 'We have not aggregated matchup data for this champion and role yet. Please check back later or browse other champions.',
+  'wp34.counters.not_found.back': 'Back to home',
+  // Pro builds meta (3)
+  'wp34.pro_builds.meta.title_template': '{champion} {role} Pro Builds — Last 14 Days | LoL Sensei',
+  'wp34.pro_builds.meta.description_template': 'Item builds, runes, and summoner spells from challenger players on {champion} ({role}) in the last 14 days, aggregated from public match data.',
+  'wp34.pro_builds.meta.og_description': 'Top challenger build patterns for the last 14 days, fully anonymized.',
+  // Pro builds headings (4)
+  'wp34.pro_builds.heading': '{champion} {role} Pro Builds',
+  'wp34.pro_builds.subheading': 'Aggregated build patterns from challenger players, rolling 14-day window.',
+  'wp34.pro_builds.section.pattern_heading': 'Top build patterns',
+  'wp34.pro_builds.section.leaderboard_heading': 'Challenger leaderboard',
+  // Pro builds detail (6)
+  'wp34.pro_builds.detail.item_order_heading': 'Item order',
+  'wp34.pro_builds.detail.runes_heading': 'Runes',
+  'wp34.pro_builds.detail.summoners_heading': 'Summoner spells',
+  'wp34.pro_builds.detail.keystone_label': 'Keystone',
+  'wp34.pro_builds.detail.primary_tree_label': 'Primary tree',
+  'wp34.pro_builds.detail.secondary_tree_label': 'Secondary tree',
+  // Pro builds leaderboard (5)
+  'wp34.pro_builds.leaderboard.bucket_id': 'Player bucket',
+  'wp34.pro_builds.leaderboard.region': 'Region',
+  'wp34.pro_builds.leaderboard.matches_14d': 'Matches (14d)',
+  'wp34.pro_builds.leaderboard.win_rate_class': 'Win rate',
+  'wp34.pro_builds.leaderboard.signature': 'Build signature',
+  // Pro builds win rate class (3)
+  'wp34.pro_builds.win_rate.excellent': 'Excellent',
+  'wp34.pro_builds.win_rate.good': 'Good',
+  'wp34.pro_builds.win_rate.medium': 'Medium',
+  // Pro builds freshness + sample (3)
+  'wp34.pro_builds.freshness.label': 'Last refreshed {date}',
+  'wp34.pro_builds.sample_size.label': 'Sample: {count} matches',
+  'wp34.pro_builds.regions.label': 'Regions: {regions}',
+  // Pro builds 404 (3)
+  'wp34.pro_builds.not_found.title': 'No pro builds data yet',
+  'wp34.pro_builds.not_found.description': 'We have not aggregated challenger builds for this champion and role yet. Please check back later.',
+  'wp34.pro_builds.not_found.back': 'Back to home',
+  // Common disclaimer (2)
+  'wp34.common.disclaimer': 'Aggregated from public Match-V5 data. Qualitative classifications only — no exact win rates exposed. Not endorsed by Riot Games.',
+  'wp34.common.empty_state': 'No data available yet.',
 } as const;
 
 export default en;

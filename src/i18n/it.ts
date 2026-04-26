@@ -1223,6 +1223,71 @@ const it = {
   'wp35.esports.attribution.section': 'Dati: Leaguepedia / Fandom — CC BY-SA',
   'wp35.esports.attribution.footer': 'Dati esports forniti da Leaguepedia (Fandom), licenziati CC BY-SA. Visita Leaguepedia',
   'wp35.esports.attribution.link_label': 'Leaguepedia',
+
+  // ---------------------- WP34 — Counters + Pro Builds ----------------------
+  // Counter meta (3)
+  'wp34.counters.meta.title_template': 'Counter di {champion} {role} — Patch {patch} | LoL Sensei',
+  'wp34.counters.meta.description_template': 'Matchup counter di {champion} ({role}) sulla patch {patch}: scopri quali avversari sono favorevoli, neutri o difficili, con dimensioni del campione da dati di match pubblici.',
+  'wp34.counters.meta.og_description': 'Dati di matchup pubblici classificati come Favorevole / Neutro / Difficile.',
+  // Counter headings (4)
+  'wp34.counters.heading': 'Counter di {champion} {role}',
+  'wp34.counters.subheading': 'Classificazione matchup aggregata da dati di match pubblici, patch {patch}.',
+  'wp34.counters.section.matrix_heading': 'Tabella matchup',
+  'wp34.counters.section.tips_heading': 'Note sui matchup',
+  // Counter table (5)
+  'wp34.counters.table.opponent': 'Avversario',
+  'wp34.counters.table.classification': 'Classificazione',
+  'wp34.counters.table.sample_size': 'Dimensione campione',
+  'wp34.counters.table.row_label_template': '{opponent} — {classification}',
+  'wp34.counters.table.empty': 'Nessun dato di matchup disponibile per questo campione e ruolo.',
+  // Counter classification (3)
+  'wp34.counters.classification.favorable': 'Favorevole',
+  'wp34.counters.classification.neutral': 'Neutro',
+  'wp34.counters.classification.difficult': 'Difficile',
+  // Counter freshness (2)
+  'wp34.counters.freshness.label': 'Dati aggiornati al {date}',
+  'wp34.counters.freshness.patch_badge': 'Patch {patch}',
+  // Counter 404 (3)
+  'wp34.counters.not_found.title': 'Nessun dato counter disponibile',
+  'wp34.counters.not_found.description': 'Non abbiamo ancora aggregato dati di matchup per questo campione e ruolo. Riprova piu tardi o esplora altri campioni.',
+  'wp34.counters.not_found.back': 'Torna alla home',
+  // Pro builds meta (3)
+  'wp34.pro_builds.meta.title_template': 'Pro Build di {champion} {role} — Ultimi 14 giorni | LoL Sensei',
+  'wp34.pro_builds.meta.description_template': 'Item build, rune e incantesimi summoner dei giocatori challenger su {champion} ({role}) negli ultimi 14 giorni, aggregati da dati di match pubblici.',
+  'wp34.pro_builds.meta.og_description': 'Pattern di build dei top challenger negli ultimi 14 giorni, completamente anonimizzati.',
+  // Pro builds headings (4)
+  'wp34.pro_builds.heading': 'Pro Build di {champion} {role}',
+  'wp34.pro_builds.subheading': 'Pattern di build aggregati dai giocatori challenger, finestra rolling di 14 giorni.',
+  'wp34.pro_builds.section.pattern_heading': 'Top build pattern',
+  'wp34.pro_builds.section.leaderboard_heading': 'Leaderboard challenger',
+  // Pro builds detail (6)
+  'wp34.pro_builds.detail.item_order_heading': 'Ordine item',
+  'wp34.pro_builds.detail.runes_heading': 'Rune',
+  'wp34.pro_builds.detail.summoners_heading': 'Incantesimi summoner',
+  'wp34.pro_builds.detail.keystone_label': 'Pietra angolare',
+  'wp34.pro_builds.detail.primary_tree_label': 'Albero primario',
+  'wp34.pro_builds.detail.secondary_tree_label': 'Albero secondario',
+  // Pro builds leaderboard (5)
+  'wp34.pro_builds.leaderboard.bucket_id': 'Bucket giocatore',
+  'wp34.pro_builds.leaderboard.region': 'Regione',
+  'wp34.pro_builds.leaderboard.matches_14d': 'Match (14gg)',
+  'wp34.pro_builds.leaderboard.win_rate_class': 'Win rate',
+  'wp34.pro_builds.leaderboard.signature': 'Signature build',
+  // Pro builds win rate class (3)
+  'wp34.pro_builds.win_rate.excellent': 'Eccellente',
+  'wp34.pro_builds.win_rate.good': 'Buono',
+  'wp34.pro_builds.win_rate.medium': 'Medio',
+  // Pro builds freshness + sample (3)
+  'wp34.pro_builds.freshness.label': 'Ultimo refresh: {date}',
+  'wp34.pro_builds.sample_size.label': 'Campione: {count} match',
+  'wp34.pro_builds.regions.label': 'Regioni: {regions}',
+  // Pro builds 404 (3)
+  'wp34.pro_builds.not_found.title': 'Nessun dato Pro Build disponibile',
+  'wp34.pro_builds.not_found.description': 'Non abbiamo ancora aggregato build challenger per questo campione e ruolo. Riprova piu tardi.',
+  'wp34.pro_builds.not_found.back': 'Torna alla home',
+  // Common disclaimer (2)
+  'wp34.common.disclaimer': 'Aggregato da dati pubblici Match-V5. Solo classificazioni qualitative — nessuna percentuale esatta esposta. Non sponsorizzato da Riot Games.',
+  'wp34.common.empty_state': 'Nessun dato disponibile.',
 } as const;
 
 export default it;

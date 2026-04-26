@@ -21,12 +21,12 @@ const TARGETS = ['it', 'es', 'fr', 'de', 'pt-br', 'ko', 'zh-Hans'];
 // Per-locale namespace exemptions: prefixes that are allowed to be missing
 // in the target locale. Used for feature-gated locales (e.g. WP35 EN+IT only).
 const LOCALE_NAMESPACE_EXEMPTIONS = {
-  es: ['wp35.'],
-  fr: ['wp35.'],
-  de: ['wp35.'],
-  'pt-br': ['wp35.'],
-  ko: ['wp35.'],
-  'zh-Hans': ['wp35.'],
+  es: ['wp35.', 'wp34.'],
+  fr: ['wp35.', 'wp34.'],
+  de: ['wp35.', 'wp34.'],
+  'pt-br': ['wp35.', 'wp34.'],
+  ko: ['wp35.', 'wp34.'],
+  'zh-Hans': ['wp35.', 'wp34.'],
 };
 
 function extractKeys(filePath) {

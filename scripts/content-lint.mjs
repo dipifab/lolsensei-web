@@ -28,6 +28,11 @@ import { fileURLToPath } from 'node:url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, '..');
 const CONTENT_ROOT = resolve(REPO_ROOT, 'content/champions');
+// WP34 — extension to counter/pro-builds editorial content (DEC-OP-W34-014).
+// Both directories lint with the same competitor blocklist + frontmatter
+// rules. Empty trees tolerated (pre-F4 gate).
+const CONTENT_ROOT_COUNTERS = resolve(REPO_ROOT, 'content/counters');
+const CONTENT_ROOT_PRO_BUILDS = resolve(REPO_ROOT, 'content/pro-builds');
 const BLOCKLIST_FILE = resolve(__dirname, 'competitor-blocklist.txt');
 
 const LANGS = ['en', 'it'];
@@ -179,15 +184,11 @@ function lintFile(filePath, lang, blockRe) {
   lintWordCount(filePath, body);
 }
 
-function main() {
-  const blockRe = loadBlocklist();
-  if (!existsSync(CONTENT_ROOT)) {
-    console.log(`[content-lint] ${CONTENT_ROOT} does not exist — nothing to lint.`);
-    process.exit(0);
-  }
+function scanRoot(root, blockRe) {
+  if (!existsSync(root)) return 0;
   let scanned = 0;
   for (const lang of LANGS) {
-    const dir = resolve(CONTENT_ROOT, lang);
+    const dir = resolve(root, lang);
     if (!existsSync(dir)) continue;
     for (const file of readdirSync(dir)) {
       if (!file.endsWith('.md')) continue;
@@ -195,8 +196,25 @@ function main() {
       scanned++;
     }
   }
+  return scanned;
+}
+
+function main() {
+  const blockRe = loadBlocklist();
+  // WP35 + WP34 multi-root scan: champions (WP35), counters (WP34),
+  // pro-builds (WP34). Empty roots tolerated (pre-F4 gate).
+  const championsScanned = scanRoot(CONTENT_ROOT, blockRe);
+  const countersScanned = scanRoot(CONTENT_ROOT_COUNTERS, blockRe);
+  const proBuildsScanned = scanRoot(CONTENT_ROOT_PRO_BUILDS, blockRe);
+  const scanned = championsScanned + countersScanned + proBuildsScanned;
+  if (scanned === 0) {
+    console.log(
+      `[content-lint] no content directories present — nothing to lint.`,
+    );
+    process.exit(0);
+  }
   console.log(
-    `[content-lint] scanned=${scanned} hard_fails=${hardFails} soft_warns=${softWarns}`,
+    `[content-lint] champions=${championsScanned} counters=${countersScanned} pro_builds=${proBuildsScanned} hard_fails=${hardFails} soft_warns=${softWarns}`,
   );
   process.exit(hardFails > 0 ? 1 : 0);
 }
