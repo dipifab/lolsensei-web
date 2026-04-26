@@ -20,6 +20,13 @@ binding = "ASSETS"
 html_handling = "none"
 not_found_handling = "none"
 
+# WP30 — Web Public Presence (Summoner Pages + Tier List)
+# KV namespace per stale-while-revalidate cache SSR. Creato 2026-04-26.
+[[kv_namespaces]]
+binding = "LOLAI_PUBLIC_CACHE"
+id = "ca7b2f2b3c244514ac5f09cdeff19d57"
+preview_id = "b10575187e7343d88091bb3dd9bffce5"
+
 # [env.beta] rimosso (WP18 post-T32): vinxi cloudflare-module preset genera
 # .output/server/wrangler.json (redirected config) copiando gli env sections,
 # ma wrangler 4.84 rifiuta redirected configs con environments. Il worker
