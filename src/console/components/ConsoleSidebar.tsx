@@ -7,6 +7,13 @@ interface NavItem {
   label: string;
   href: string;
   icon: string;
+  /**
+   * Quando presente, viene reso un divider con questa label sopra la voce.
+   * Usato per separare la sezione "Runtime Config" (OP-027): la nuova
+   * configurazione DB-backed non e' un peer di "Trial Config" / "Plans"
+   * (tipologie diverse di config), quindi la teniamo in una sezione propria.
+   */
+  sectionDivider?: string;
 }
 
 const NAV_ITEMS: readonly NavItem[] = [
@@ -19,6 +26,12 @@ const NAV_ITEMS: readonly NavItem[] = [
   { label: 'Admin Users', href: '/console/admin-users', icon: 'person' },
   { label: 'Allowlist', href: '/console/allowlist', icon: 'verified_user' },
   { label: 'Game Data', href: '/console/game-data', icon: 'dataset' },
+  {
+    label: 'Runtime Config',
+    href: '/console/config',
+    icon: 'tune',
+    sectionDivider: 'Runtime',
+  },
 ] as const;
 
 interface ConsoleSidebarProps {
@@ -112,30 +125,45 @@ export default function ConsoleSidebar(props: ConsoleSidebarProps) {
             {(item) => {
               const active = () => isRouteActive(location.pathname, item.href);
               return (
-                <A
-                  href={item.href}
-                  onClick={handleNavClick}
-                  title={props.mode === 'collapsed' ? item.label : undefined}
-                  aria-label={item.label}
-                  aria-current={active() ? "page" : undefined}
-                  class={
-                    (props.mode === 'collapsed'
-                      ? 'flex items-center justify-center py-3 text-sm font-medium transition-colors duration-200 '
-                        + (active()
-                          ? 'bg-surface-container text-primary border-l-[3px] border-primary-container'
-                          : 'text-on-surface-variant hover:bg-surface-container hover:text-on-surface')
-                      : 'flex items-center gap-3 px-4 py-3 text-sm font-medium transition-colors duration-200 '
-                        + (active()
-                          ? 'bg-surface-container text-primary border-l-[3px] border-primary-container'
-                          : 'text-on-surface-variant hover:bg-surface-container hover:text-on-surface'))
-                    + NAV_FOCUS_RING
-                  }
-                >
-                  <Icon name={item.icon} class="w-5 h-5" />
-                  <Show when={props.mode !== 'collapsed'}>
-                    <span>{item.label}</span>
+                <>
+                  <Show when={item.sectionDivider}>
+                    <Show when={props.mode !== 'collapsed'}>
+                      <div class="mt-3 mb-1 px-4 text-[10px] font-semibold uppercase tracking-wider text-outline">
+                        {item.sectionDivider}
+                      </div>
+                    </Show>
+                    <Show when={props.mode === 'collapsed'}>
+                      <div
+                        aria-hidden="true"
+                        class="my-2 mx-3 border-t border-outline-variant/30"
+                      />
+                    </Show>
                   </Show>
-                </A>
+                  <A
+                    href={item.href}
+                    onClick={handleNavClick}
+                    title={props.mode === 'collapsed' ? item.label : undefined}
+                    aria-label={item.label}
+                    aria-current={active() ? 'page' : undefined}
+                    class={
+                      (props.mode === 'collapsed'
+                        ? 'flex items-center justify-center py-3 text-sm font-medium transition-colors duration-200 '
+                          + (active()
+                            ? 'bg-surface-container text-primary border-l-[3px] border-primary-container'
+                            : 'text-on-surface-variant hover:bg-surface-container hover:text-on-surface')
+                        : 'flex items-center gap-3 px-4 py-3 text-sm font-medium transition-colors duration-200 '
+                          + (active()
+                            ? 'bg-surface-container text-primary border-l-[3px] border-primary-container'
+                            : 'text-on-surface-variant hover:bg-surface-container hover:text-on-surface'))
+                      + NAV_FOCUS_RING
+                    }
+                  >
+                    <Icon name={item.icon} class="w-5 h-5" />
+                    <Show when={props.mode !== 'collapsed'}>
+                      <span>{item.label}</span>
+                    </Show>
+                  </A>
+                </>
               );
             }}
           </For>
