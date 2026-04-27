@@ -1,0 +1,167 @@
+{
+  "generated_at": "2026-04-27",
+  "guides": [
+    {
+      "slug": "garen-top",
+      "champion": "garen",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Garen Top Build & Guide — Patch 14.10",
+          "description": "Garen top lane guide for League of Legends Patch 14.10: starter kit, juggernaut bruiser build, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "14.10",
+          "last_updated": "2026-04-25",
+          "champion_class": "Juggernaut / Bruiser",
+          "difficulty": 2,
+          "damage_type": "physical",
+          "champion_dd_id": "Garen"
+        },
+        "it": {
+          "title": "Garen Top Build & Guida — Patch 14.10",
+          "description": "Guida Garen top per League of Legends Patch 14.10: starter kit, build juggernaut bruiser, matchup chiave, power spike, errori comuni e una chiusura tecnica.",
+          "patch": "14.10",
+          "last_updated": "2026-04-27",
+          "champion_class": "Juggernaut / Bruiser",
+          "difficulty": 2,
+          "damage_type": "physical",
+          "champion_dd_id": "Garen"
+        }
+      }
+    },
+    {
+      "slug": "lee-sin-jungle",
+      "champion": "lee-sin",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Lee Sin Jungle Build & Guide — Patch 14.10",
+          "description": "Lee Sin jungle guide for League of Legends Patch 14.10: starter kit, bruiser-skirmisher build, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "14.10",
+          "last_updated": "2026-04-25",
+          "champion_class": null,
+          "difficulty": null,
+          "damage_type": null,
+          "champion_dd_id": null
+        },
+        "it": {
+          "title": "Lee Sin Jungle Build & Guida — Patch 14.10",
+          "description": "Guida Lee Sin jungle per League of Legends Patch 14.10: starter kit, build bruiser-skirmisher, matchup chiave, power spike, errori comuni e una chiusura tecnica.",
+          "patch": "14.10",
+          "last_updated": "2026-04-25",
+          "champion_class": null,
+          "difficulty": null,
+          "damage_type": null,
+          "champion_dd_id": null
+        }
+      }
+    },
+    {
+      "slug": "lux-mid",
+      "champion": "lux",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Lux Mid Build & Guide — Patch 14.10",
+          "description": "Lux mid lane guide for League of Legends Patch 14.10: starter kit, core mage build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "14.10",
+          "last_updated": "2026-04-27",
+          "champion_class": "Mage / Burst",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Lux"
+        },
+        "it": {
+          "title": "Lux Mid Build & Guida — Patch 14.10",
+          "description": "Guida Lux mid lane per League of Legends Patch 14.10: starter kit, build mago core, matchup chiave, power spike, errori comuni e un consiglio tecnico finale.",
+          "patch": "14.10",
+          "last_updated": "2026-04-27",
+          "champion_class": "Mago / Burst",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Lux"
+        }
+      }
+    },
+    {
+      "slug": "neeko-mid",
+      "champion": "neeko",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Neeko Mid Build & Guide — Patch 14.10",
+          "description": "Neeko mid lane guide for League of Legends Patch 14.10: AP burst build, clone deception combos, key matchups, power spikes, common mistakes and a closing tip.",
+          "patch": "14.10",
+          "last_updated": "2026-04-27",
+          "champion_class": "Mage / Burst",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Neeko"
+        },
+        "it": {
+          "title": "Neeko Mid Build & Guida — Patch 14.10",
+          "description": "Guida Neeko mid lane per League of Legends Patch 14.10: build AP burst, combo con clone deception, matchup chiave, power spike, errori comuni e un consiglio finale.",
+          "patch": "14.10",
+          "last_updated": "2026-04-27",
+          "champion_class": "Mage / Burst",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Neeko"
+        }
+      }
+    },
+    {
+      "slug": "neeko-support",
+      "champion": "neeko",
+      "role": "support",
+      "locales": {
+        "en": {
+          "title": "Neeko Support Build & Guide — Patch 14.10",
+          "description": "Neeko support guide for League of Legends Patch 14.10: engage build with World Atlas, roam-and-flank R combos, key matchups, power spikes and common mistakes.",
+          "patch": "14.10",
+          "last_updated": "2026-04-27",
+          "champion_class": "Mage / Engage",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Neeko"
+        },
+        "it": {
+          "title": "Neeko Support Build & Guida — Patch 14.10",
+          "description": "Guida Neeko support per League of Legends Patch 14.10: build da engage con World Atlas, combo di flank con R, matchup chiave, power spike ed errori comuni.",
+          "patch": "14.10",
+          "last_updated": "2026-04-27",
+          "champion_class": "Mage / Engage",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Neeko"
+        }
+      }
+    },
+    {
+      "slug": "neeko-top",
+      "champion": "neeko",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Neeko Top Build & Guide — Patch 14.10",
+          "description": "Neeko top lane guide for League of Legends Patch 14.10: AP bruiser build with Riftmaker, niche pick tactics, key matchups, power spikes and common mistakes.",
+          "patch": "14.10",
+          "last_updated": "2026-04-27",
+          "champion_class": "Mage / Bruiser",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Neeko"
+        },
+        "it": {
+          "title": "Neeko Top Build & Guida — Patch 14.10",
+          "description": "Guida Neeko top lane per League of Legends Patch 14.10: build AP bruiser con Riftmaker, tattiche da pick di nicchia, matchup chiave, power spike ed errori comuni.",
+          "patch": "14.10",
+          "last_updated": "2026-04-27",
+          "champion_class": "Mage / Bruiser",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Neeko"
+        }
+      }
+    }
+  ]
+}
