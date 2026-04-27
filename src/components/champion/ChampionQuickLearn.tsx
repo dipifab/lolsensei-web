@@ -123,17 +123,17 @@ export function ChampionQuickLearn(
         </div>
       </div>
 
-      {/* Abilities row */}
+      {/* Abilities — stacked full-width per leggibilita' descrizioni */}
       <div class="mb-8">
         <h3 class="text-[10px] text-on-surface-variant/70 font-bold tracking-widest uppercase mb-3">
           {labels.abilities}
         </h3>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
+        <div class="flex flex-col gap-2">
           <For each={props.data.abilities}>
             {(ability) => (
-              <div class="flex items-start gap-3 bg-surface-container-low border border-outline-variant/20 rounded-lg p-3">
+              <div class="flex items-start gap-4 bg-surface-container-low border border-outline-variant/20 rounded-lg p-3 md:p-4">
                 <div
-                  class={`w-10 h-10 shrink-0 rounded border border-primary-container/50 bg-surface-bright flex items-center justify-center font-bold ${
+                  class={`w-12 h-12 shrink-0 rounded border border-primary-container/50 bg-surface-bright flex items-center justify-center text-lg font-bold ${
                     ABILITY_COLOR[ability.key]
                   } ${
                     ability.key === 'R'
@@ -146,11 +146,11 @@ export function ChampionQuickLearn(
                 </div>
                 <div class="min-w-0 flex-1">
                   <div
-                    class={`text-sm font-bold leading-snug ${ABILITY_COLOR[ability.key]}`}
+                    class={`text-sm md:text-base font-bold leading-snug ${ABILITY_COLOR[ability.key]}`}
                   >
                     {ability.name}
                   </div>
-                  <div class="text-xs text-on-surface-variant/80 mt-1 leading-snug">
+                  <div class="text-xs md:text-sm text-on-surface-variant/85 mt-1 leading-relaxed">
                     {ability.description}
                   </div>
                 </div>
