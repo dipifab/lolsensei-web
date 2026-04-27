@@ -94,6 +94,9 @@ function isTwoLocaleRoute(pathLike) {
   if (/\/tier-list(\/|\.html|\?|$)/.test(p)) return true;
   // Match `/summoner/...` (always nested, region segment follows)
   if (p.includes('/summoner/')) return true;
+  // WP35 (CR-053): champion guides EN+IT only per DEC-7 (other locales fall
+  // back to default landing). Match `/champion/<slug>/<page>` nested routes.
+  if (p.includes('/champion/')) return true;
   return false;
 }
 

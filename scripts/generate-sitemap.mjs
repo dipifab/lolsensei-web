@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { writeFileSync } from 'node:fs';
+import { writeFileSync, readdirSync, existsSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
@@ -142,6 +142,74 @@ if (PUBLIC_PAGES_ENABLED) {
   for (const role of WP30_TIER_LIST_ROLES) {
     for (const locale of WP30_TIER_LIST_LOCALES) {
       entries.push(buildTierListEntry(locale, `role=${role}`, '0.6'));
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// WP35.1 (CR-053) — Champion guides entries.
+//
+// Auto-discovery: scansiona `content/champions/{en,it}/*.md` ed emette per
+// ogni guida l'URL `/<lang>/champion/<slug>/guide` con hreflang triplet
+// (en, it, x-default → en). Solo le guide effettivamente presenti vengono
+// indicizzate (per-locale: una guida solo IT non emette l'URL EN).
+// `<priority>` 0.7 (sotto pricing/home, sopra blog post).
+// `<changefreq>weekly</changefreq>` (le guide cambiano per patch ~weekly).
+//
+// Pattern filename: `<slug>-<role>.md` con role in {top,jungle,mid,bot,support}.
+// Cardinalita prevista al rollout WP35.1: 50 champion top × 1-3 ruoli ≈ 80-120
+// URL × 2 locales = 160-240 entry.
+// ---------------------------------------------------------------------------
+
+const CHAMPION_GUIDE_LOCALES = ['en', 'it'];
+const CHAMPION_GUIDE_ROLES = ['top', 'jungle', 'mid', 'bot', 'support'];
+const CONTENT_CHAMPIONS_ROOT = resolve(__dirname, '..', 'content', 'champions');
+const CHAMPION_FILENAME_RE = /^([a-z0-9-]+)-(top|jungle|mid|bot|support)\.md$/;
+
+function discoverChampionGuides() {
+  // Map: "<slug>-<role>" -> Set di locale che hanno la guida
+  const map = new Map();
+  for (const locale of CHAMPION_GUIDE_LOCALES) {
+    const dir = resolve(CONTENT_CHAMPIONS_ROOT, locale);
+    if (!existsSync(dir)) continue;
+    const files = readdirSync(dir);
+    for (const file of files) {
+      const m = file.match(CHAMPION_FILENAME_RE);
+      if (!m) continue;
+      const [, slug, role] = m;
+      if (!CHAMPION_GUIDE_ROLES.includes(role)) continue;
+      const key = `${slug}-${role}`;
+      if (!map.has(key)) map.set(key, { slug, role, locales: new Set() });
+      map.get(key).locales.add(locale);
+    }
+  }
+  return [...map.values()].sort((a, b) =>
+    a.slug.localeCompare(b.slug) || a.role.localeCompare(b.role),
+  );
+}
+
+function championGuideUrl(locale, slug) {
+  return `${BASE}/${locale}/champion/${slug}/guide`;
+}
+
+function buildChampionGuideEntry(locale, guide) {
+  const loc = championGuideUrl(locale, guide.slug);
+  // hreflang alternates: solo locales dove la guida esiste fisicamente
+  const presentLocales = [...guide.locales].sort();
+  const alternates = presentLocales.map(
+    (l) => `    <xhtml:link rel="alternate" hreflang="${hreflangFor(l)}" href="${championGuideUrl(l, guide.slug)}" />`,
+  ).join('\n');
+  // x-default punta a EN se presente, altrimenti al primo locale disponibile
+  const defaultLocale = guide.locales.has(DEFAULT_LOCALE) ? DEFAULT_LOCALE : presentLocales[0];
+  const xDefault = `    <xhtml:link rel="alternate" hreflang="x-default" href="${championGuideUrl(defaultLocale, guide.slug)}" />`;
+  return `  <!-- champion-guide/${guide.slug}: ${locale} -->\n  <url>\n    <loc>${loc}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.7</priority>\n${alternates}\n${xDefault}\n  </url>`;
+}
+
+if (PUBLIC_PAGES_ENABLED) {
+  const guides = discoverChampionGuides();
+  for (const guide of guides) {
+    for (const locale of [...guide.locales].sort()) {
+      entries.push(buildChampionGuideEntry(locale, guide));
     }
   }
 }
