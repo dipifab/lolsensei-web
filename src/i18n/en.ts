@@ -1193,6 +1193,18 @@ const en = {
   'wp35.champion_guide.section.power_spike.heading': 'Power spikes & win conditions',
   'wp35.champion_guide.section.common_mistakes.heading': 'Common mistakes',
   'wp35.champion_guide.section.advanced_tip.heading': 'Advanced tip',
+  // Quick Learn block (CR-053) — visual tactical dashboard above prose (11)
+  'wp35.champion_guide.quick_learn.title': 'Tactical Dashboard',
+  'wp35.champion_guide.quick_learn.difficulty': 'Difficulty',
+  'wp35.champion_guide.quick_learn.damage': 'Damage',
+  'wp35.champion_guide.quick_learn.class': 'Class',
+  'wp35.champion_guide.quick_learn.patch': 'Patch',
+  'wp35.champion_guide.quick_learn.abilities': 'Core Abilities',
+  'wp35.champion_guide.quick_learn.skill_order': 'Skill Order',
+  'wp35.champion_guide.quick_learn.combo': 'Primary Combo',
+  'wp35.champion_guide.quick_learn.core_items': 'Core Items',
+  'wp35.champion_guide.quick_learn.win_condition': 'Win Condition',
+  'wp35.champion_guide.quick_learn.weakness': 'Weakness',
   // Patch badge + last updated (4)
   'wp35.champion_guide.patch_badge.label': 'Patch {patch}',
   'wp35.champion_guide.patch_badge.outdated_warning': 'A more recent guide is available for the latest patch.',

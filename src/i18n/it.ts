@@ -1190,6 +1190,18 @@ const it = {
   'wp35.champion_guide.section.power_spike.heading': 'Power spike e condizioni di vittoria',
   'wp35.champion_guide.section.common_mistakes.heading': 'Errori comuni',
   'wp35.champion_guide.section.advanced_tip.heading': 'Tip avanzato',
+  // Quick Learn block (CR-053) — dashboard tattica sopra alla prosa (11)
+  'wp35.champion_guide.quick_learn.title': 'Dashboard Tattica',
+  'wp35.champion_guide.quick_learn.difficulty': 'Difficoltà',
+  'wp35.champion_guide.quick_learn.damage': 'Danno',
+  'wp35.champion_guide.quick_learn.class': 'Classe',
+  'wp35.champion_guide.quick_learn.patch': 'Patch',
+  'wp35.champion_guide.quick_learn.abilities': 'Abilità Core',
+  'wp35.champion_guide.quick_learn.skill_order': 'Ordine Skill',
+  'wp35.champion_guide.quick_learn.combo': 'Combo Principale',
+  'wp35.champion_guide.quick_learn.core_items': 'Oggetti Core',
+  'wp35.champion_guide.quick_learn.win_condition': 'Condizione di Vittoria',
+  'wp35.champion_guide.quick_learn.weakness': 'Punto Debole',
   // Patch badge + last updated (4)
   'wp35.champion_guide.patch_badge.label': 'Patch {patch}',
   'wp35.champion_guide.patch_badge.outdated_warning': 'Una guida più recente è disponibile per la patch latest.',

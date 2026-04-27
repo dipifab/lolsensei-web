@@ -42,6 +42,57 @@ export const IsoDateSchema = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, {
   message: 'last_updated must be ISO date YYYY-MM-DD',
 });
 
+// Quick Learn block (CR-053 / WP35.1). Tutti i campi sono opzionali a livello
+// di frontmatter: se `quick_learn` e' assente la guida resta valida e il
+// componente fallback alla sola prosa (backward-compat con le 6 guide v1.0).
+//
+// Le abilita' (passive + Q W E R) usano lo `dd_spell_id` Data Dragon per
+// caricare le icone runtime: champion DD ID e' PascalCase (es. "Lux"), spell
+// DD ID combina champion + ability name (es. "LuxLightBinding"), passive
+// e' "<Champion>_Passive".
+//
+// `core_items[].dd_id` e' lo numeric ID Data Dragon (string per compat YAML).
+// `skill_order` deve avere esattamente 18 entry (livelli 1..18).
+
+export const AbilityKeySchema = z.enum(['P', 'Q', 'W', 'E', 'R']);
+
+export const QuickLearnAbilitySchema = z.object({
+  key: AbilityKeySchema,
+  name: z.string().min(2).max(40),
+  description: z.string().min(10).max(140),
+  /** Data Dragon spell ID (es. "LuxLightBinding"). Per passive: "Lux_Passive". */
+  dd_spell_id: z.string().min(2).max(60).optional(),
+});
+
+export const SkillOrderEntrySchema = z.object({
+  level: z.number().int().min(1).max(18),
+  key: z.enum(['Q', 'W', 'E', 'R']),
+});
+
+export const CoreItemSchema = z.object({
+  /** Data Dragon numeric ID as string (es. "6655" per Luden's Companion). */
+  dd_id: z.string().regex(/^\d{3,5}$/),
+  name: z.string().min(2).max(40),
+});
+
+export const ChampionClassSchema = z.string().min(3).max(40);
+export const DamageTypeSchema = z.enum(['magic', 'physical', 'mixed', 'true']);
+export const DifficultySchema = z.number().int().min(1).max(5);
+
+export const QuickLearnSchema = z.object({
+  /** Data Dragon champion ID PascalCase (es. "Lux", "LeeSin"). */
+  champion_dd_id: z.string().min(2).max(40),
+  difficulty: DifficultySchema,
+  damage_type: DamageTypeSchema,
+  champion_class: ChampionClassSchema,
+  abilities: z.array(QuickLearnAbilitySchema).length(5),
+  skill_order: z.array(SkillOrderEntrySchema).length(18),
+  core_items: z.array(CoreItemSchema).min(3).max(6),
+  base_combo: z.array(z.string().min(1).max(8)).min(2).max(8),
+  win_condition: z.string().min(20).max(220),
+  weakness: z.string().min(20).max(220),
+});
+
 export const ChampionGuideFrontmatterSchema = z.object({
   // SEO title visualizzato come <h1> e dentro <title> tag tramite i18n template.
   title: z.string().min(10).max(120),
@@ -55,6 +106,9 @@ export const ChampionGuideFrontmatterSchema = z.object({
   last_updated: IsoDateSchema,
   // Hard fail bounds 100-200 (DEC-OP-006). Soft warn 150-170 nel lint.
   description: z.string().min(100).max(200),
+  // Quick Learn block opzionale (CR-053). Se presente, tutti i sotto-campi
+  // sono required. Se assente, la guida e' valida e renderizza solo la prosa.
+  quick_learn: QuickLearnSchema.optional(),
 });
 
 export type ChampionGuideFrontmatter = z.infer<
@@ -62,3 +116,8 @@ export type ChampionGuideFrontmatter = z.infer<
 >;
 export type ChampionRole = z.infer<typeof ChampionRoleSchema>;
 export type ChampionLanguage = z.infer<typeof ChampionLanguageSchema>;
+export type AbilityKey = z.infer<typeof AbilityKeySchema>;
+export type QuickLearnAbility = z.infer<typeof QuickLearnAbilitySchema>;
+export type SkillOrderEntry = z.infer<typeof SkillOrderEntrySchema>;
+export type CoreItem = z.infer<typeof CoreItemSchema>;
+export type QuickLearn = z.infer<typeof QuickLearnSchema>;

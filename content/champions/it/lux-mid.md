@@ -5,15 +5,68 @@ language: "it"
 patch: "14.10"
 champion: "lux"
 role: "mid"
-last_updated: "2026-04-25"
+last_updated: "2026-04-27"
 description: "Guida Lux mid lane per League of Legends Patch 14.10: starter kit, build mago core, matchup chiave, power spike, errori comuni e un consiglio tecnico finale."
+quick_learn:
+  champion_dd_id: "Lux"
+  difficulty: 2
+  damage_type: "magic"
+  champion_class: "Mago / Burst"
+  abilities:
+    - key: "P"
+      name: "Illuminazione"
+      description: "Le spell marchiano i nemici. La prossima auto-attack di Lux detona il marchio per danno magico bonus."
+      dd_spell_id: "Lux_Passive"
+    - key: "Q"
+      name: "Vincolo di Luce"
+      description: "Skillshot lineare che immobilizza fino a due nemici. Cooldown lungo — usa come setup, non come poke."
+      dd_spell_id: "LuxLightBinding"
+    - key: "W"
+      name: "Barriera Prismatica"
+      description: "Scudo all'andata e al ritorno su Lux e alleati attraversati. Rilancia per richiamarla in anticipo."
+      dd_spell_id: "LuxPrismaticWave"
+    - key: "E"
+      name: "Singolarità Lucente"
+      description: "Area targettata che rallenta e infligge danno nel tempo. Rilancia per detonare. Strumento principale di waveclear."
+      dd_spell_id: "LuxLightStrikeKugel"
+    - key: "R"
+      name: "Bagliore Finale"
+      description: "Raggio lineare a lunga gittata con danno magico massiccio. Consuma i marchi di Illuminazione presenti."
+      dd_spell_id: "LuxR"
+  skill_order:
+    - { level: 1, key: "E" }
+    - { level: 2, key: "Q" }
+    - { level: 3, key: "W" }
+    - { level: 4, key: "E" }
+    - { level: 5, key: "E" }
+    - { level: 6, key: "R" }
+    - { level: 7, key: "E" }
+    - { level: 8, key: "Q" }
+    - { level: 9, key: "E" }
+    - { level: 10, key: "Q" }
+    - { level: 11, key: "R" }
+    - { level: 12, key: "Q" }
+    - { level: 13, key: "Q" }
+    - { level: 14, key: "W" }
+    - { level: 15, key: "W" }
+    - { level: 16, key: "R" }
+    - { level: 17, key: "W" }
+    - { level: 18, key: "W" }
+  core_items:
+    - { dd_id: "6655", name: "Compagno di Luden" }
+    - { dd_id: "3020", name: "Stivali da Stregone" }
+    - { dd_id: "4645", name: "Fiammaombra" }
+    - { dd_id: "3089", name: "Cappello di Rabadon" }
+  base_combo: ["E", "Q", "AA", "R"]
+  win_condition: "Snipa i target squishy con R dalla massima gittata negli obiettivi una volta online Luden's e Fiammaombra. Controlla lo spazio con E e resta dietro alla front line."
+  weakness: "Nessun dash, mobilità base nulla. Hard counter di tuffatori e assassini; se la front line salta, anche il tuo posizionamento crolla."
 ---
 
 ## Panoramica
 
 Lux è un mago a lunga gittata che eccelle nel zonare, picchiare a distanza e finire i teamfight dalla retroguardia. Il suo kit ruota intorno a colpire **Light Binding (Q)** come setup, per poi concatenare **Lucent Singularity (E)** e **Final Spark (R)** per il danno massimo. La mobilità base è bassa e non ha dash: il prezzo da pagare è restare dietro ai minion e alla front line. Il mid le si adatta perché il river le offre gank a doppio senso a cui può rispondere con **Q** o con una **R** dall'altra parte della mappa.
 
-Il suo piano partita è semplice da spiegare e duro da eseguire: piazza una **Q** per ogni wave, spinge la wave con **E** quando il rischio è basso, e cerca rotazioni in side lane ogni volta che **R** è disponibile. Lo skill expression sta nel piazzamento di **E** (anticipare dove il nemico deve camminare per last-hit) e nello sniping di **R** in fog of war quando ci sono ward.
+Il suo piano partita è semplice da spiegare e duro da eseguire: centra **Q** quando il nemico passa sopra alla tua **E** (lo slow concatena la binding in un root garantito), spingi le wave con **E** quando il rischio è basso e cerca rotazioni in side lane ogni volta che **R** è disponibile. Lo skill expression sta nel piazzamento di **E** (anticipare dove il nemico deve camminare per last-hit) e nello sniping di **R** in fog of war quando ci sono ward.
 
 ## Build Consigliata
 

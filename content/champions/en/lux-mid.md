@@ -5,15 +5,68 @@ language: "en"
 patch: "14.10"
 champion: "lux"
 role: "mid"
-last_updated: "2026-04-25"
+last_updated: "2026-04-27"
 description: "Lux mid lane guide for League of Legends Patch 14.10: starter kit, core mage build path, key matchups, power spikes, common mistakes, and a closing tip."
+quick_learn:
+  champion_dd_id: "Lux"
+  difficulty: 2
+  damage_type: "magic"
+  champion_class: "Mage / Burst"
+  abilities:
+    - key: "P"
+      name: "Illumination"
+      description: "Spells mark enemies. Lux's next basic attack detonates the mark for bonus magic damage."
+      dd_spell_id: "Lux_Passive"
+    - key: "Q"
+      name: "Light Binding"
+      description: "Linear skillshot that roots up to two enemies hit. Long cooldown — use as setup, not poke."
+      dd_spell_id: "LuxLightBinding"
+    - key: "W"
+      name: "Prismatic Barrier"
+      description: "Outbound and return shield on Lux and allies it crosses. Recast to snap it back early."
+      dd_spell_id: "LuxPrismaticWave"
+    - key: "E"
+      name: "Lucent Singularity"
+      description: "Targeted zone that slows enemies and ticks damage. Recast to detonate. Main waveclear tool."
+      dd_spell_id: "LuxLightStrikeKugel"
+    - key: "R"
+      name: "Final Spark"
+      description: "Long-range linear beam dealing massive magic damage. Consumes Illumination marks on hit."
+      dd_spell_id: "LuxR"
+  skill_order:
+    - { level: 1, key: "E" }
+    - { level: 2, key: "Q" }
+    - { level: 3, key: "W" }
+    - { level: 4, key: "E" }
+    - { level: 5, key: "E" }
+    - { level: 6, key: "R" }
+    - { level: 7, key: "E" }
+    - { level: 8, key: "Q" }
+    - { level: 9, key: "E" }
+    - { level: 10, key: "Q" }
+    - { level: 11, key: "R" }
+    - { level: 12, key: "Q" }
+    - { level: 13, key: "Q" }
+    - { level: 14, key: "W" }
+    - { level: 15, key: "W" }
+    - { level: 16, key: "R" }
+    - { level: 17, key: "W" }
+    - { level: 18, key: "W" }
+  core_items:
+    - { dd_id: "6655", name: "Luden's Companion" }
+    - { dd_id: "3020", name: "Sorcerer's Shoes" }
+    - { dd_id: "4645", name: "Shadowflame" }
+    - { dd_id: "3089", name: "Rabadon's Deathcap" }
+  base_combo: ["E", "Q", "AA", "R"]
+  win_condition: "Snipe squishy targets with R from max range during objective fights once Luden's and Shadowflame are online. Control space with E and stay behind your front line."
+  weakness: "No dash and no innate mobility. Hard countered by divers and assassins; if your front line breaks, your positioning collapses with it."
 ---
 
 ## Overview
 
 Lux is a long-range artillery mage who excels at zoning, poking, and finishing fights from the back line. Her kit revolves around landing **Light Binding (Q)** for setup, then chaining **Lucent Singularity (E)** and **Final Spark (R)** for damage. She has weak base mobility and no dash, so positioning behind minions and her front line is the price of admission. The mid lane suits her because the river offers two-way ganks she can answer with **Q** or with a flashy **R** snipe across the map.
 
-Her game plan is simple to describe and demanding to execute: hit one **Q** every wave, push the wave with **E** when safe, and look to roll the side lanes whenever **R** is up. Skill expression sits in **E** placement (predict where the enemy must walk to last-hit) and in **R** vision plays (snipe through fog if you have wards).
+Her game plan is simple to describe and demanding to execute: land **Q** when an enemy steps onto your **E** (the slow chains the binding into a guaranteed root), push the wave with **E** when safe, and look to roll the side lanes whenever **R** is up. Skill expression sits in **E** placement (predict where the enemy must walk to last-hit) and in **R** vision plays (snipe through fog if you have wards).
 
 ## Recommended Build
 

@@ -8,6 +8,7 @@
 import type {
   ChampionLanguage,
   ChampionRole,
+  QuickLearn,
 } from '../../lib/content/champion-schema';
 
 export interface RelatedChampion {
@@ -32,6 +33,8 @@ export interface ChampionGuide {
   /** ISO date YYYY-MM-DD. */
   last_updated: string;
   description: string;
+  /** CR-053 Quick Learn block. Optional — guide remains valid without it. */
+  quick_learn?: QuickLearn;
 
   // ---- Build-time derived --------------------------------------------------
   /** Sanitized HTML rendered from the Markdown body. */

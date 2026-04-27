@@ -25,6 +25,8 @@ import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+import yaml from 'js-yaml';
+
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, '..');
 const CONTENT_ROOT = resolve(REPO_ROOT, 'content/champions');
@@ -75,24 +77,11 @@ function warn(file, message) {
 function extractFrontmatter(rawMarkdown) {
   const m = rawMarkdown.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
   if (!m) return { frontmatter: null, body: rawMarkdown };
-  const yaml = m[1];
+  const yamlBlock = m[1];
   const body = rawMarkdown.slice(m[0].length);
-  const fm = {};
-  for (const rawLine of yaml.split(/\r?\n/)) {
-    const line = rawLine.trim();
-    if (!line || line.startsWith('#')) continue;
-    const idx = line.indexOf(':');
-    if (idx === -1) continue;
-    const key = line.slice(0, idx).trim();
-    let value = line.slice(idx + 1).trim();
-    if (
-      (value.startsWith('"') && value.endsWith('"')) ||
-      (value.startsWith("'") && value.endsWith("'"))
-    ) {
-      value = value.slice(1, -1);
-    }
-    fm[key] = value;
-  }
+  // CR-053: full YAML parse (was a flat trim-based parser that broke on
+  // nested blocks like `quick_learn`, leaking nested keys into top-level).
+  const fm = yaml.load(yamlBlock, { schema: yaml.JSON_SCHEMA }) ?? {};
   return { frontmatter: fm, body };
 }
 
@@ -141,6 +130,96 @@ function lintFrontmatter(file, fm, lang) {
         `description.length=${fm.description.length} outside recommended [${DESC_SOFT_MIN}, ${DESC_SOFT_MAX}]`,
       );
     }
+  }
+  // Quick Learn block (CR-053). Optional. If present, validate shape.
+  if (fm.quick_learn !== undefined) {
+    lintQuickLearn(file, fm.quick_learn);
+  }
+}
+
+const ABILITY_KEYS = ['P', 'Q', 'W', 'E', 'R'];
+const SKILL_LEVEL_KEYS = ['Q', 'W', 'E', 'R'];
+const DAMAGE_TYPES = ['magic', 'physical', 'mixed', 'true'];
+
+function lintQuickLearn(file, ql) {
+  if (typeof ql !== 'object' || ql === null || Array.isArray(ql)) {
+    fail(file, `quick_learn: must be an object`);
+    return;
+  }
+  if (typeof ql.champion_dd_id !== 'string' || ql.champion_dd_id.length < 2) {
+    fail(file, `quick_learn.champion_dd_id: required string min 2 chars`);
+  }
+  if (
+    typeof ql.difficulty !== 'number' ||
+    !Number.isInteger(ql.difficulty) ||
+    ql.difficulty < 1 ||
+    ql.difficulty > 5
+  ) {
+    fail(file, `quick_learn.difficulty: integer in [1, 5]`);
+  }
+  if (!DAMAGE_TYPES.includes(ql.damage_type)) {
+    fail(file, `quick_learn.damage_type: one of ${DAMAGE_TYPES.join('/')}`);
+  }
+  if (typeof ql.champion_class !== 'string' || ql.champion_class.length < 3) {
+    fail(file, `quick_learn.champion_class: required string min 3 chars`);
+  }
+  if (!Array.isArray(ql.abilities) || ql.abilities.length !== 5) {
+    fail(file, `quick_learn.abilities: must have exactly 5 entries (P/Q/W/E/R)`);
+  } else {
+    for (let i = 0; i < ql.abilities.length; i++) {
+      const a = ql.abilities[i];
+      if (!ABILITY_KEYS.includes(a?.key)) {
+        fail(file, `quick_learn.abilities[${i}].key: one of ${ABILITY_KEYS.join('/')}`);
+      }
+      if (typeof a?.name !== 'string' || a.name.length < 2 || a.name.length > 40) {
+        fail(file, `quick_learn.abilities[${i}].name: string in [2, 40]`);
+      }
+      if (typeof a?.description !== 'string' || a.description.length < 10 || a.description.length > 140) {
+        fail(file, `quick_learn.abilities[${i}].description: string in [10, 140]`);
+      }
+    }
+  }
+  if (!Array.isArray(ql.skill_order) || ql.skill_order.length !== 18) {
+    fail(file, `quick_learn.skill_order: must have exactly 18 entries`);
+  } else {
+    for (let i = 0; i < ql.skill_order.length; i++) {
+      const e = ql.skill_order[i];
+      if (!Number.isInteger(e?.level) || e.level !== i + 1) {
+        fail(file, `quick_learn.skill_order[${i}].level must be ${i + 1}`);
+      }
+      if (!SKILL_LEVEL_KEYS.includes(e?.key)) {
+        fail(file, `quick_learn.skill_order[${i}].key: one of ${SKILL_LEVEL_KEYS.join('/')}`);
+      }
+    }
+  }
+  if (!Array.isArray(ql.core_items) || ql.core_items.length < 3 || ql.core_items.length > 6) {
+    fail(file, `quick_learn.core_items: array of [3, 6] entries`);
+  } else {
+    for (let i = 0; i < ql.core_items.length; i++) {
+      const it = ql.core_items[i];
+      if (typeof it?.dd_id !== 'string' || !/^\d{3,5}$/.test(it.dd_id)) {
+        fail(file, `quick_learn.core_items[${i}].dd_id: numeric string 3-5 digits`);
+      }
+      if (typeof it?.name !== 'string' || it.name.length < 2 || it.name.length > 40) {
+        fail(file, `quick_learn.core_items[${i}].name: string in [2, 40]`);
+      }
+    }
+  }
+  if (!Array.isArray(ql.base_combo) || ql.base_combo.length < 2 || ql.base_combo.length > 8) {
+    fail(file, `quick_learn.base_combo: array of [2, 8] short tokens`);
+  } else {
+    for (let i = 0; i < ql.base_combo.length; i++) {
+      const t = ql.base_combo[i];
+      if (typeof t !== 'string' || t.length < 1 || t.length > 8) {
+        fail(file, `quick_learn.base_combo[${i}]: string in [1, 8]`);
+      }
+    }
+  }
+  if (typeof ql.win_condition !== 'string' || ql.win_condition.length < 20 || ql.win_condition.length > 220) {
+    fail(file, `quick_learn.win_condition: string in [20, 220]`);
+  }
+  if (typeof ql.weakness !== 'string' || ql.weakness.length < 20 || ql.weakness.length > 220) {
+    fail(file, `quick_learn.weakness: string in [20, 220]`);
   }
 }
 

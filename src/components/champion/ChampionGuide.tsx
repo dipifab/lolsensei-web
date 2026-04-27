@@ -12,6 +12,7 @@ import { Show } from 'solid-js';
 import type { JSX } from 'solid-js';
 import type { ChampionGuide } from '../../data/champions/types';
 import { useI18n } from '../../i18n';
+import ChampionQuickLearn from './ChampionQuickLearn';
 import PatchHistory from './PatchHistory';
 import RelatedGuides from './RelatedGuides';
 
@@ -99,6 +100,16 @@ export function ChampionGuide(props: ChampionGuideProps): JSX.Element {
           </div>
         </Show>
       </header>
+
+      <Show when={props.guide.quick_learn}>
+        {(data) => (
+          <ChampionQuickLearn
+            data={data()}
+            patch={props.guide.patch}
+            role={props.guide.role}
+          />
+        )}
+      </Show>
 
       <div
         class="prose prose-invert max-w-none

@@ -97,10 +97,148 @@ export const enChampions: ChampionGuide[] = [
     "patch": "14.10",
     "champion": "lux",
     "role": "mid",
-    "last_updated": "2026-04-25",
+    "last_updated": "2026-04-27",
     "description": "Lux mid lane guide for League of Legends Patch 14.10: starter kit, core mage build path, key matchups, power spikes, common mistakes, and a closing tip.",
-    "content_html": "<h2>Overview</h2>\n<p>Lux is a long-range artillery mage who excels at zoning, poking, and finishing fights from the back line. Her kit revolves around landing <strong>Light Binding (Q)</strong> for setup, then chaining <strong>Lucent Singularity (E)</strong> and <strong>Final Spark (R)</strong> for damage. She has weak base mobility and no dash, so positioning behind minions and her front line is the price of admission. The mid lane suits her because the river offers two-way ganks she can answer with <strong>Q</strong> or with a flashy <strong>R</strong> snipe across the map.</p>\n<p>Her game plan is simple to describe and demanding to execute: hit one <strong>Q</strong> every wave, push the wave with <strong>E</strong> when safe, and look to roll the side lanes whenever <strong>R</strong> is up. Skill expression sits in <strong>E</strong> placement (predict where the enemy must walk to last-hit) and in <strong>R</strong> vision plays (snipe through fog if you have wards).</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> Doran's Ring + 2 Health Potions. Skip Corrupting Potion unless the lane is heavy auto-attack harass against you.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><strong>Luden's Companion</strong> — burst spike, mana sustain for E spam.</li>\n<li><strong>Sorcerer's Shoes</strong> — flat magic penetration for the squishy targets you most want to delete.</li>\n<li><strong>Shadowflame</strong> — extra burst, the HP-threshold passive lines up with <strong>R</strong> finishers.</li>\n<li><strong>Rabadon's Deathcap</strong> — late-game scaling multiplier, your highest-AP item slot.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><strong>Banshee's Veil</strong> — into heavy single-target magic CC (Ahri charm, Lissandra R, Twisted Fate stun).</li>\n<li><strong>Zhonya's Hourglass</strong> — into divers and assassins (Zed, Diana, Talon, Akali).</li>\n<li><strong>Morellonomicon</strong> — into healing-stacking compositions (Soraka mid, Vladimir, Dr. Mundo top).</li>\n<li><strong>Void Staff</strong> — the moment any priority target buys a Magic Resist item.</li>\n</ul>\n<p><strong>Boots:</strong> Sorcerer's Shoes is default. Ionian Boots of Lucidity is acceptable if the team needs more <strong>R</strong> uptime as a finisher.</p>\n<p><strong>Skill order:</strong> Max <strong>E</strong> first (waveclear and main DPS), <strong>Q</strong> second (utility binding), <strong>W</strong> last. Take a point in <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Sorcery</strong> with <strong>Arcane Comet</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Scorch</strong>. Secondary <strong>Inspiration</strong> with <strong>Biscuit Delivery</strong> and <strong>Cosmic Insight</strong>, or <strong>Precision</strong> with <strong>Presence of Mind</strong> and <strong>Coup de Grace</strong> if the enemy team has multiple low-resistance squishies.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Yasuo / Yone:</strong> They can Wind Wall your <strong>Q</strong> and <strong>E</strong>. Save <strong>Q</strong> until they push their abilities, hold <strong>E</strong> to clear waves only when you are at safe range.</li>\n<li><strong>Diana / Akali:</strong> Diving threats. Buy Zhonya's after Luden's; never use <strong>Flash</strong> offensively in lane against them.</li>\n<li><strong>Orianna:</strong> Even matchup, decided by team fights. Your range matches hers; do not get baited into auto-attack trades because she scales harder with the same item set.</li>\n<li><strong>Twisted Fate:</strong> Roam priority race. If he picks gold card on you, <strong>Q</strong> him before he closes; otherwise track his <strong>R</strong> with vision wards on river and tri-bush.</li>\n<li><strong>Galio:</strong> Avoid stacking with allies in mid pre-6 (his <strong>W</strong> punishes grouped targets). Punish him while he is melee'ing minions; he has no waveclear range to outpush you.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2:</strong> With one point in <strong>E</strong> plus the <strong>Q</strong> you started with, you have the tools to zone the enemy from a slow-pushing wave.</li>\n<li><strong>Level 6:</strong> First <strong>Final Spark</strong> unlocks roams and snipe pressure. If you have <strong>Q-E-R</strong> combo memorized, an unwarded mid-river fight is a free kill.</li>\n<li><strong>Luden's Companion completion (~ minute 12-14):</strong> Wave control flips. You can shove and roam with the wave on the enemy's side, freeing jungle pathing into their bot side.</li>\n<li><strong>Rabadon's Deathcap online (~ minute 24-28):</strong> Your <strong>R</strong> one-shots squishies that have not built a single Magic Resist item. Force objective fights here.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Throwing Q for harass without setup.</strong> Land <strong>E</strong> under their feet first to slow them, then <strong>Q</strong> the path they have to walk through. Naked <strong>Q</strong> poke is wasted mana.</li>\n<li><strong>Holding E for empty waves.</strong> Push the wave on cooldown when you have the mana; the trade you give up is much smaller than the prio you gain for roams and Scuttle.</li>\n<li><strong>Auto-positioning at max range in team fights.</strong> Maximum <strong>R</strong> range puts you outside your team's peel. Stand at the second-furthest position so a flank does not delete you.</li>\n<li><strong>Q on cooldown when split-pushing.</strong> Hold <strong>Q</strong> to escape ganks; in side lanes you have no team for follow-up, so the binding is a panic button, not poke fuel.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Practice the <strong>W</strong>-cancel by recasting <strong>Prismatic Barrier</strong> the moment it reaches its outbound peak — the return shield arrives at maximum value and you both peel and shield-bomb an ally instantly. In team fights this nets a roughly 2x effective shield value compared to letting <strong>W</strong> travel its full path.</p>",
-    "word_count": 770,
+    "quick_learn": {
+      "champion_dd_id": "Lux",
+      "difficulty": 2,
+      "damage_type": "magic",
+      "champion_class": "Mage / Burst",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Illumination",
+          "description": "Spells mark enemies. Lux's next basic attack detonates the mark for bonus magic damage.",
+          "dd_spell_id": "Lux_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Light Binding",
+          "description": "Linear skillshot that roots up to two enemies hit. Long cooldown — use as setup, not poke.",
+          "dd_spell_id": "LuxLightBinding"
+        },
+        {
+          "key": "W",
+          "name": "Prismatic Barrier",
+          "description": "Outbound and return shield on Lux and allies it crosses. Recast to snap it back early.",
+          "dd_spell_id": "LuxPrismaticWave"
+        },
+        {
+          "key": "E",
+          "name": "Lucent Singularity",
+          "description": "Targeted zone that slows enemies and ticks damage. Recast to detonate. Main waveclear tool.",
+          "dd_spell_id": "LuxLightStrikeKugel"
+        },
+        {
+          "key": "R",
+          "name": "Final Spark",
+          "description": "Long-range linear beam dealing massive magic damage. Consumes Illumination marks on hit.",
+          "dd_spell_id": "LuxR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "E"
+        },
+        {
+          "level": 2,
+          "key": "Q"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "E"
+        },
+        {
+          "level": 5,
+          "key": "E"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "E"
+        },
+        {
+          "level": 8,
+          "key": "Q"
+        },
+        {
+          "level": 9,
+          "key": "E"
+        },
+        {
+          "level": 10,
+          "key": "Q"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "Q"
+        },
+        {
+          "level": 13,
+          "key": "Q"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6655",
+          "name": "Luden's Companion"
+        },
+        {
+          "dd_id": "3020",
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "dd_id": "4645",
+          "name": "Shadowflame"
+        },
+        {
+          "dd_id": "3089",
+          "name": "Rabadon's Deathcap"
+        }
+      ],
+      "base_combo": [
+        "E",
+        "Q",
+        "AA",
+        "R"
+      ],
+      "win_condition": "Snipe squishy targets with R from max range during objective fights once Luden's and Shadowflame are online. Control space with E and stay behind your front line.",
+      "weakness": "No dash and no innate mobility. Hard countered by divers and assassins; if your front line breaks, your positioning collapses with it."
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Lux is a long-range artillery mage who excels at zoning, poking, and finishing fights from the back line. Her kit revolves around landing <strong>Light Binding (Q)</strong> for setup, then chaining <strong>Lucent Singularity (E)</strong> and <strong>Final Spark (R)</strong> for damage. She has weak base mobility and no dash, so positioning behind minions and her front line is the price of admission. The mid lane suits her because the river offers two-way ganks she can answer with <strong>Q</strong> or with a flashy <strong>R</strong> snipe across the map.</p>\n<p>Her game plan is simple to describe and demanding to execute: land <strong>Q</strong> when an enemy steps onto your <strong>E</strong> (the slow chains the binding into a guaranteed root), push the wave with <strong>E</strong> when safe, and look to roll the side lanes whenever <strong>R</strong> is up. Skill expression sits in <strong>E</strong> placement (predict where the enemy must walk to last-hit) and in <strong>R</strong> vision plays (snipe through fog if you have wards).</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> Doran's Ring + 2 Health Potions. Skip Corrupting Potion unless the lane is heavy auto-attack harass against you.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><strong>Luden's Companion</strong> — burst spike, mana sustain for E spam.</li>\n<li><strong>Sorcerer's Shoes</strong> — flat magic penetration for the squishy targets you most want to delete.</li>\n<li><strong>Shadowflame</strong> — extra burst, the HP-threshold passive lines up with <strong>R</strong> finishers.</li>\n<li><strong>Rabadon's Deathcap</strong> — late-game scaling multiplier, your highest-AP item slot.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><strong>Banshee's Veil</strong> — into heavy single-target magic CC (Ahri charm, Lissandra R, Twisted Fate stun).</li>\n<li><strong>Zhonya's Hourglass</strong> — into divers and assassins (Zed, Diana, Talon, Akali).</li>\n<li><strong>Morellonomicon</strong> — into healing-stacking compositions (Soraka mid, Vladimir, Dr. Mundo top).</li>\n<li><strong>Void Staff</strong> — the moment any priority target buys a Magic Resist item.</li>\n</ul>\n<p><strong>Boots:</strong> Sorcerer's Shoes is default. Ionian Boots of Lucidity is acceptable if the team needs more <strong>R</strong> uptime as a finisher.</p>\n<p><strong>Skill order:</strong> Max <strong>E</strong> first (waveclear and main DPS), <strong>Q</strong> second (utility binding), <strong>W</strong> last. Take a point in <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Sorcery</strong> with <strong>Arcane Comet</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Scorch</strong>. Secondary <strong>Inspiration</strong> with <strong>Biscuit Delivery</strong> and <strong>Cosmic Insight</strong>, or <strong>Precision</strong> with <strong>Presence of Mind</strong> and <strong>Coup de Grace</strong> if the enemy team has multiple low-resistance squishies.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Yasuo / Yone:</strong> They can Wind Wall your <strong>Q</strong> and <strong>E</strong>. Save <strong>Q</strong> until they push their abilities, hold <strong>E</strong> to clear waves only when you are at safe range.</li>\n<li><strong>Diana / Akali:</strong> Diving threats. Buy Zhonya's after Luden's; never use <strong>Flash</strong> offensively in lane against them.</li>\n<li><strong>Orianna:</strong> Even matchup, decided by team fights. Your range matches hers; do not get baited into auto-attack trades because she scales harder with the same item set.</li>\n<li><strong>Twisted Fate:</strong> Roam priority race. If he picks gold card on you, <strong>Q</strong> him before he closes; otherwise track his <strong>R</strong> with vision wards on river and tri-bush.</li>\n<li><strong>Galio:</strong> Avoid stacking with allies in mid pre-6 (his <strong>W</strong> punishes grouped targets). Punish him while he is melee'ing minions; he has no waveclear range to outpush you.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2:</strong> With one point in <strong>E</strong> plus the <strong>Q</strong> you started with, you have the tools to zone the enemy from a slow-pushing wave.</li>\n<li><strong>Level 6:</strong> First <strong>Final Spark</strong> unlocks roams and snipe pressure. If you have <strong>Q-E-R</strong> combo memorized, an unwarded mid-river fight is a free kill.</li>\n<li><strong>Luden's Companion completion (~ minute 12-14):</strong> Wave control flips. You can shove and roam with the wave on the enemy's side, freeing jungle pathing into their bot side.</li>\n<li><strong>Rabadon's Deathcap online (~ minute 24-28):</strong> Your <strong>R</strong> one-shots squishies that have not built a single Magic Resist item. Force objective fights here.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Throwing Q for harass without setup.</strong> Land <strong>E</strong> under their feet first to slow them, then <strong>Q</strong> the path they have to walk through. Naked <strong>Q</strong> poke is wasted mana.</li>\n<li><strong>Holding E for empty waves.</strong> Push the wave on cooldown when you have the mana; the trade you give up is much smaller than the prio you gain for roams and Scuttle.</li>\n<li><strong>Auto-positioning at max range in team fights.</strong> Maximum <strong>R</strong> range puts you outside your team's peel. Stand at the second-furthest position so a flank does not delete you.</li>\n<li><strong>Q on cooldown when split-pushing.</strong> Hold <strong>Q</strong> to escape ganks; in side lanes you have no team for follow-up, so the binding is a panic button, not poke fuel.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Practice the <strong>W</strong>-cancel by recasting <strong>Prismatic Barrier</strong> the moment it reaches its outbound peak — the return shield arrives at maximum value and you both peel and shield-bomb an ally instantly. In team fights this nets a roughly 2x effective shield value compared to letting <strong>W</strong> travel its full path.</p>",
+    "word_count": 783,
     "available_patches": [
       "14.10"
     ],

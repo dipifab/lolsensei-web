@@ -97,10 +97,148 @@ export const itChampions: ChampionGuide[] = [
     "patch": "14.10",
     "champion": "lux",
     "role": "mid",
-    "last_updated": "2026-04-25",
+    "last_updated": "2026-04-27",
     "description": "Guida Lux mid lane per League of Legends Patch 14.10: starter kit, build mago core, matchup chiave, power spike, errori comuni e un consiglio tecnico finale.",
-    "content_html": "<h2>Panoramica</h2>\n<p>Lux è un mago a lunga gittata che eccelle nel zonare, picchiare a distanza e finire i teamfight dalla retroguardia. Il suo kit ruota intorno a colpire <strong>Light Binding (Q)</strong> come setup, per poi concatenare <strong>Lucent Singularity (E)</strong> e <strong>Final Spark (R)</strong> per il danno massimo. La mobilità base è bassa e non ha dash: il prezzo da pagare è restare dietro ai minion e alla front line. Il mid le si adatta perché il river le offre gank a doppio senso a cui può rispondere con <strong>Q</strong> o con una <strong>R</strong> dall'altra parte della mappa.</p>\n<p>Il suo piano partita è semplice da spiegare e duro da eseguire: piazza una <strong>Q</strong> per ogni wave, spinge la wave con <strong>E</strong> quando il rischio è basso, e cerca rotazioni in side lane ogni volta che <strong>R</strong> è disponibile. Lo skill expression sta nel piazzamento di <strong>E</strong> (anticipare dove il nemico deve camminare per last-hit) e nello sniping di <strong>R</strong> in fog of war quando ci sono ward.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> Anello di Doran + 2 Pozioni Curative. Evita Pozione Corrotta a meno che la lane non sia di harass auto-attack pesante contro di te.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><strong>Compagno di Luden</strong> — spike di burst, sostegno mana per spammare E.</li>\n<li><strong>Stivali da Stregone</strong> — penetrazione magica fissa per cancellare i target squishy.</li>\n<li><strong>Fiammaombra</strong> — burst extra; la passiva sotto soglia HP combacia con il finisher di <strong>R</strong>.</li>\n<li><strong>Cappello Mortale di Rabadon</strong> — moltiplicatore late-game, lo slot AP più alto.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><strong>Velo della Banshee</strong> — contro CC magici single-target (Ahri ammaliamento, Lissandra R, Twisted Fate stun).</li>\n<li><strong>Clessidra di Zhonya</strong> — contro tuffatori e assassini (Zed, Diana, Talon, Akali).</li>\n<li><strong>Morellonomicon</strong> — contro composizioni che impilano cure (Soraka mid, Vladimir, Dr. Mundo top).</li>\n<li><strong>Bastone del Vuoto</strong> — appena qualunque target prioritario compra un item di Resistenza Magica.</li>\n</ul>\n<p><strong>Stivali:</strong> Stivali da Stregone di default. Stivali Jonici della Lucidità accettabili se il team chiede più uptime di <strong>R</strong> come finisher.</p>\n<p><strong>Skill order:</strong> Massimizza <strong>E</strong> per primo (waveclear e DPS principale), <strong>Q</strong> per secondo (utility binding), <strong>W</strong> per ultimo. Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Stregoneria</strong> con <strong>Cometa Arcana</strong>, <strong>Banda del Flusso di Mana</strong>, <strong>Trascendenza</strong>, <strong>Bruciatura</strong>. Secondario <strong>Ispirazione</strong> con <strong>Consegna di Biscotti</strong> e <strong>Conoscenza Cosmica</strong>, oppure <strong>Precisione</strong> con <strong>Presenza di Spirito</strong> e <strong>Colpo di Grazia</strong> se la squadra avversaria ha più squishy a basse resistenze.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Yasuo / Yone:</strong> Possono Muro di Vento la tua <strong>Q</strong> e <strong>E</strong>. Tieni <strong>Q</strong> finché non hanno bruciato le abilità, e usa <strong>E</strong> per pulire wave solo a distanza di sicurezza.</li>\n<li><strong>Diana / Akali:</strong> Minacce di tuffo. Compra Zhonya dopo Luden; non usare <strong>Flash</strong> in modo offensivo in lane contro di loro.</li>\n<li><strong>Orianna:</strong> Matchup pari, deciso nei teamfight. La gittata coincide; non lasciarti tirare in scambi auto-attack perché scala meglio con lo stesso set di oggetti.</li>\n<li><strong>Twisted Fate:</strong> Gara di rotazione. Se ti tira la carta gialla, <strong>Q</strong> prima che chiuda; altrimenti tracciagli la <strong>R</strong> con ward su river e tri-cespuglio.</li>\n<li><strong>Galio:</strong> Evita di stare appiccicato a un alleato pre-6 (la sua <strong>W</strong> punisce target raggruppati). Puniscilo quando è in melee sui minion; non ha gittata di waveclear per superarti in push.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2:</strong> Con un punto in <strong>E</strong> più la <strong>Q</strong> di partenza hai gli strumenti per zonare il nemico da una wave in slow-push.</li>\n<li><strong>Livello 6:</strong> Prima <strong>Final Spark</strong> sblocca rotazioni e pressione di snipe. Con il combo <strong>Q-E-R</strong> memorizzato, un teamfight su mid-river senza ward è una kill garantita.</li>\n<li><strong>Compagno di Luden completo (~ minuto 12-14):</strong> Il controllo della wave si ribalta. Puoi spingere e roamare lasciando la wave dalla parte avversaria, liberando il jungler verso il loro bot side.</li>\n<li><strong>Cappello di Rabadon online (~ minuto 24-28):</strong> La tua <strong>R</strong> one-shotta gli squishy che non hanno comprato un item di Resistenza Magica. Forza i fight obiettivo qui.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Lanciare Q per harass senza setup.</strong> Atterra <strong>E</strong> sotto i loro piedi prima per rallentarli, poi <strong>Q</strong> sul percorso obbligato. La <strong>Q</strong> nuda di poke è mana sprecato.</li>\n<li><strong>Tenere E per wave vuote.</strong> Spingi la wave a cooldown quando hai mana; il trade che cedi è molto più piccolo della priorità che guadagni per roam e Scuttle.</li>\n<li><strong>Auto-posizionarsi a gittata massima nei teamfight.</strong> Massima distanza di <strong>R</strong> ti mette fuori dal peel del team. Stai nella seconda posizione più arretrata in modo che un flank non ti elimini.</li>\n<li><strong>Q in cooldown quando fai split-push.</strong> Tieni <strong>Q</strong> per scappare dai gank; in side lane non hai team per follow-up, la binding è un pulsante d'emergenza, non carburante per poke.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena la cancellazione di <strong>W</strong> rilanciando <strong>Barriera Prismatica</strong> nel momento in cui raggiunge il picco di andata — lo scudo di ritorno arriva al valore massimo e fai contemporaneamente peel e shield-bomb su un alleato. Nei teamfight questo dà circa il doppio del valore di scudo effettivo rispetto a lasciare la <strong>W</strong> percorrere tutto il tragitto.</p>",
-    "word_count": 827,
+    "quick_learn": {
+      "champion_dd_id": "Lux",
+      "difficulty": 2,
+      "damage_type": "magic",
+      "champion_class": "Mago / Burst",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Illuminazione",
+          "description": "Le spell marchiano i nemici. La prossima auto-attack di Lux detona il marchio per danno magico bonus.",
+          "dd_spell_id": "Lux_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Vincolo di Luce",
+          "description": "Skillshot lineare che immobilizza fino a due nemici. Cooldown lungo — usa come setup, non come poke.",
+          "dd_spell_id": "LuxLightBinding"
+        },
+        {
+          "key": "W",
+          "name": "Barriera Prismatica",
+          "description": "Scudo all'andata e al ritorno su Lux e alleati attraversati. Rilancia per richiamarla in anticipo.",
+          "dd_spell_id": "LuxPrismaticWave"
+        },
+        {
+          "key": "E",
+          "name": "Singolarità Lucente",
+          "description": "Area targettata che rallenta e infligge danno nel tempo. Rilancia per detonare. Strumento principale di waveclear.",
+          "dd_spell_id": "LuxLightStrikeKugel"
+        },
+        {
+          "key": "R",
+          "name": "Bagliore Finale",
+          "description": "Raggio lineare a lunga gittata con danno magico massiccio. Consuma i marchi di Illuminazione presenti.",
+          "dd_spell_id": "LuxR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "E"
+        },
+        {
+          "level": 2,
+          "key": "Q"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "E"
+        },
+        {
+          "level": 5,
+          "key": "E"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "E"
+        },
+        {
+          "level": 8,
+          "key": "Q"
+        },
+        {
+          "level": 9,
+          "key": "E"
+        },
+        {
+          "level": 10,
+          "key": "Q"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "Q"
+        },
+        {
+          "level": 13,
+          "key": "Q"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6655",
+          "name": "Compagno di Luden"
+        },
+        {
+          "dd_id": "3020",
+          "name": "Stivali da Stregone"
+        },
+        {
+          "dd_id": "4645",
+          "name": "Fiammaombra"
+        },
+        {
+          "dd_id": "3089",
+          "name": "Cappello di Rabadon"
+        }
+      ],
+      "base_combo": [
+        "E",
+        "Q",
+        "AA",
+        "R"
+      ],
+      "win_condition": "Snipa i target squishy con R dalla massima gittata negli obiettivi una volta online Luden's e Fiammaombra. Controlla lo spazio con E e resta dietro alla front line.",
+      "weakness": "Nessun dash, mobilità base nulla. Hard counter di tuffatori e assassini; se la front line salta, anche il tuo posizionamento crolla."
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Lux è un mago a lunga gittata che eccelle nel zonare, picchiare a distanza e finire i teamfight dalla retroguardia. Il suo kit ruota intorno a colpire <strong>Light Binding (Q)</strong> come setup, per poi concatenare <strong>Lucent Singularity (E)</strong> e <strong>Final Spark (R)</strong> per il danno massimo. La mobilità base è bassa e non ha dash: il prezzo da pagare è restare dietro ai minion e alla front line. Il mid le si adatta perché il river le offre gank a doppio senso a cui può rispondere con <strong>Q</strong> o con una <strong>R</strong> dall'altra parte della mappa.</p>\n<p>Il suo piano partita è semplice da spiegare e duro da eseguire: centra <strong>Q</strong> quando il nemico passa sopra alla tua <strong>E</strong> (lo slow concatena la binding in un root garantito), spingi le wave con <strong>E</strong> quando il rischio è basso e cerca rotazioni in side lane ogni volta che <strong>R</strong> è disponibile. Lo skill expression sta nel piazzamento di <strong>E</strong> (anticipare dove il nemico deve camminare per last-hit) e nello sniping di <strong>R</strong> in fog of war quando ci sono ward.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> Anello di Doran + 2 Pozioni Curative. Evita Pozione Corrotta a meno che la lane non sia di harass auto-attack pesante contro di te.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><strong>Compagno di Luden</strong> — spike di burst, sostegno mana per spammare E.</li>\n<li><strong>Stivali da Stregone</strong> — penetrazione magica fissa per cancellare i target squishy.</li>\n<li><strong>Fiammaombra</strong> — burst extra; la passiva sotto soglia HP combacia con il finisher di <strong>R</strong>.</li>\n<li><strong>Cappello Mortale di Rabadon</strong> — moltiplicatore late-game, lo slot AP più alto.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><strong>Velo della Banshee</strong> — contro CC magici single-target (Ahri ammaliamento, Lissandra R, Twisted Fate stun).</li>\n<li><strong>Clessidra di Zhonya</strong> — contro tuffatori e assassini (Zed, Diana, Talon, Akali).</li>\n<li><strong>Morellonomicon</strong> — contro composizioni che impilano cure (Soraka mid, Vladimir, Dr. Mundo top).</li>\n<li><strong>Bastone del Vuoto</strong> — appena qualunque target prioritario compra un item di Resistenza Magica.</li>\n</ul>\n<p><strong>Stivali:</strong> Stivali da Stregone di default. Stivali Jonici della Lucidità accettabili se il team chiede più uptime di <strong>R</strong> come finisher.</p>\n<p><strong>Skill order:</strong> Massimizza <strong>E</strong> per primo (waveclear e DPS principale), <strong>Q</strong> per secondo (utility binding), <strong>W</strong> per ultimo. Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Stregoneria</strong> con <strong>Cometa Arcana</strong>, <strong>Banda del Flusso di Mana</strong>, <strong>Trascendenza</strong>, <strong>Bruciatura</strong>. Secondario <strong>Ispirazione</strong> con <strong>Consegna di Biscotti</strong> e <strong>Conoscenza Cosmica</strong>, oppure <strong>Precisione</strong> con <strong>Presenza di Spirito</strong> e <strong>Colpo di Grazia</strong> se la squadra avversaria ha più squishy a basse resistenze.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Yasuo / Yone:</strong> Possono Muro di Vento la tua <strong>Q</strong> e <strong>E</strong>. Tieni <strong>Q</strong> finché non hanno bruciato le abilità, e usa <strong>E</strong> per pulire wave solo a distanza di sicurezza.</li>\n<li><strong>Diana / Akali:</strong> Minacce di tuffo. Compra Zhonya dopo Luden; non usare <strong>Flash</strong> in modo offensivo in lane contro di loro.</li>\n<li><strong>Orianna:</strong> Matchup pari, deciso nei teamfight. La gittata coincide; non lasciarti tirare in scambi auto-attack perché scala meglio con lo stesso set di oggetti.</li>\n<li><strong>Twisted Fate:</strong> Gara di rotazione. Se ti tira la carta gialla, <strong>Q</strong> prima che chiuda; altrimenti tracciagli la <strong>R</strong> con ward su river e tri-cespuglio.</li>\n<li><strong>Galio:</strong> Evita di stare appiccicato a un alleato pre-6 (la sua <strong>W</strong> punisce target raggruppati). Puniscilo quando è in melee sui minion; non ha gittata di waveclear per superarti in push.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2:</strong> Con un punto in <strong>E</strong> più la <strong>Q</strong> di partenza hai gli strumenti per zonare il nemico da una wave in slow-push.</li>\n<li><strong>Livello 6:</strong> Prima <strong>Final Spark</strong> sblocca rotazioni e pressione di snipe. Con il combo <strong>Q-E-R</strong> memorizzato, un teamfight su mid-river senza ward è una kill garantita.</li>\n<li><strong>Compagno di Luden completo (~ minuto 12-14):</strong> Il controllo della wave si ribalta. Puoi spingere e roamare lasciando la wave dalla parte avversaria, liberando il jungler verso il loro bot side.</li>\n<li><strong>Cappello di Rabadon online (~ minuto 24-28):</strong> La tua <strong>R</strong> one-shotta gli squishy che non hanno comprato un item di Resistenza Magica. Forza i fight obiettivo qui.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Lanciare Q per harass senza setup.</strong> Atterra <strong>E</strong> sotto i loro piedi prima per rallentarli, poi <strong>Q</strong> sul percorso obbligato. La <strong>Q</strong> nuda di poke è mana sprecato.</li>\n<li><strong>Tenere E per wave vuote.</strong> Spingi la wave a cooldown quando hai mana; il trade che cedi è molto più piccolo della priorità che guadagni per roam e Scuttle.</li>\n<li><strong>Auto-posizionarsi a gittata massima nei teamfight.</strong> Massima distanza di <strong>R</strong> ti mette fuori dal peel del team. Stai nella seconda posizione più arretrata in modo che un flank non ti elimini.</li>\n<li><strong>Q in cooldown quando fai split-push.</strong> Tieni <strong>Q</strong> per scappare dai gank; in side lane non hai team per follow-up, la binding è un pulsante d'emergenza, non carburante per poke.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena la cancellazione di <strong>W</strong> rilanciando <strong>Barriera Prismatica</strong> nel momento in cui raggiunge il picco di andata — lo scudo di ritorno arriva al valore massimo e fai contemporaneamente peel e shield-bomb su un alleato. Nei teamfight questo dà circa il doppio del valore di scudo effettivo rispetto a lasciare la <strong>W</strong> percorrere tutto il tragitto.</p>",
+    "word_count": 840,
     "available_patches": [
       "14.10"
     ],
