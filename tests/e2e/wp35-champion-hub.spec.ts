@@ -130,7 +130,7 @@ test.describe('@wp35.2 champion guides hub', () => {
     for (const r of roles) expect(r).toBe('mid');
   });
 
-  test('clicking a guide card navigates to the guide page', async ({
+  test('clicking a guide card navigates to the role-explicit guide page', async ({
     page,
   }) => {
     await page.goto('/en/champion');
@@ -139,7 +139,10 @@ test.describe('@wp35.2 champion guides hub', () => {
       .filter({ has: page.locator('[data-champion="lux"]') })
       .first();
     await card.click();
-    await page.waitForURL(/\/en\/champion\/lux\/guide/, { timeout: 5000 });
+    // CR-056: URL nuovo include il role segment, es. /en/champion/lux/mid/guide.
+    await page.waitForURL(/\/en\/champion\/lux\/(top|jungle|mid|bot|support)\/guide/, {
+      timeout: 5000,
+    });
   });
 
   test('non-en/it locales redirect to the home', async ({ page }) => {
@@ -149,5 +152,38 @@ test.describe('@wp35.2 champion guides hub', () => {
     await page.waitForLoadState('networkidle');
     const url = page.url();
     expect(url).not.toContain('/fr/champion');
+  });
+});
+
+test.describe('@wp35 / @cr-056 legacy guide URL 301 redirect', () => {
+  test('GET /en/champion/lux/guide → 301 to role-explicit pattern', async ({
+    request,
+  }) => {
+    // Disable autoredirect so we can assert the 301 status itself.
+    const res = await request.get('/en/champion/lux/guide', {
+      maxRedirects: 0,
+    });
+    expect(res.status()).toBe(301);
+    const location = res.headers()['location'];
+    expect(location).toMatch(
+      /^\/en\/champion\/lux\/(top|jungle|mid|bot|support)\/guide$/,
+    );
+  });
+
+  test('role-explicit URL renders the guide (200)', async ({ request }) => {
+    // Lux mid è la baseline F4 garantita dal seed.
+    const res = await request.get('/en/champion/lux/mid/guide');
+    expect(res.status()).toBe(200);
+    const html = await res.text();
+    expect(html).toContain('href="https://www.lolsensei.com/en/champion/lux/mid/guide"');
+  });
+
+  test('invalid role segment yields 404-style not-found content', async ({
+    request,
+  }) => {
+    const res = await request.get('/en/champion/lux/banana/guide');
+    // Soft 404: page renders not-found content; we only assert noindex meta.
+    const html = await res.text();
+    expect(html).toMatch(/<meta[^>]*name="robots"[^>]*content="noindex/i);
   });
 });

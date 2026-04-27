@@ -90,8 +90,9 @@ export function TierListTable(props: TierListTableProps) {
                     <span class="inline-flex items-center gap-2">
                       {entry.champion}
                       <Show when={guideRole()}>
+                        {(role) => (
                         <a
-                          href={`/${props.lang}/champion/${guideSlug()}/guide`}
+                          href={`/${props.lang}/champion/${guideSlug()}/${role()}/guide`}
                           class="inline-flex items-center gap-1 text-[10px] uppercase tracking-wider font-bold text-primary-container hover:text-primary border border-primary-container/30 hover:border-primary-container/60 rounded px-1.5 py-0.5 transition-colors"
                           aria-label={t('wp30.tier_list.table.guide_link_aria').replace('{champion}', entry.champion)}
                           data-testid="tier-list-guide-link"
@@ -99,6 +100,7 @@ export function TierListTable(props: TierListTableProps) {
                           <span aria-hidden="true">📖</span>
                           {t('wp30.tier_list.table.guide_link_label')}
                         </a>
+                        )}
                       </Show>
                     </span>
                   </td>
