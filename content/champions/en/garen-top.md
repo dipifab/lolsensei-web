@@ -7,6 +7,72 @@ champion: "garen"
 role: "top"
 last_updated: "2026-04-25"
 description: "Garen top lane guide for League of Legends Patch 14.10: starter kit, juggernaut bruiser build, key matchups, power spikes, common mistakes, and a closing tip."
+quick_learn:
+  champion_dd_id: "Garen"
+  difficulty: 2
+  damage_type: "physical"
+  champion_class: "Juggernaut / Bruiser"
+  abilities:
+    - key: "P"
+      name: "Perseverance"
+      description: "Regenerates HP out of combat if not damaged or hit by abilities for a few seconds. Defines the hit-and-retreat trade pattern."
+      dd_spell_id: "Garen_Passive"
+    - key: "Q"
+      name: "Decisive Strike"
+      description: "Burst of move speed and slow cleanse. Next auto silences the target for 1.5s and deals bonus damage."
+      dd_spell_id: "GarenQ"
+    - key: "W"
+      name: "Courage"
+      description: "Passive: stack armor/MR by killing enemies. Active: shield + tenacity, then residual damage mitigation window."
+      dd_spell_id: "GarenW"
+    - key: "E"
+      name: "Judgment"
+      description: "AOE spin dealing physical damage to nearby enemies for 3s. Main waveclear and sustained DPS tool."
+      dd_spell_id: "GarenE"
+    - key: "R"
+      name: "Demacian Justice"
+      description: "Executes an enemy champion based on missing health. Bonus true damage against the most kill-fed enemy."
+      dd_spell_id: "GarenR"
+  skill_order:
+    - { level: 1, key: "Q" }
+    - { level: 2, key: "E" }
+    - { level: 3, key: "W" }
+    - { level: 4, key: "E" }
+    - { level: 5, key: "E" }
+    - { level: 6, key: "R" }
+    - { level: 7, key: "E" }
+    - { level: 8, key: "Q" }
+    - { level: 9, key: "E" }
+    - { level: 10, key: "Q" }
+    - { level: 11, key: "R" }
+    - { level: 12, key: "Q" }
+    - { level: 13, key: "Q" }
+    - { level: 14, key: "W" }
+    - { level: 15, key: "W" }
+    - { level: 16, key: "R" }
+    - { level: 17, key: "W" }
+    - { level: 18, key: "W" }
+  core_items:
+    - { dd_id: "6631", name: "Stridebreaker" }
+    - { dd_id: "3047", name: "Plated Steelcaps" }
+    - { dd_id: "3742", name: "Dead Man's Plate" }
+    - { dd_id: "3053", name: "Sterak's Gage" }
+  situational_items:
+    - dd_id: "3156"
+      name: "Maw of Malmortius"
+      against: "into AP top lane (Mordekaiser, Rumble, Vladimir) — magic shield passive saves extended trades"
+    - dd_id: "6333"
+      name: "Death's Dance"
+      against: "into double-AD comps; works around the bleed mechanic that punishes glass cannons in teamfights"
+    - dd_id: "4401"
+      name: "Force of Nature"
+      against: "into 3+ AP threats; the movement speed passive helps you path to fights"
+    - dd_id: "3161"
+      name: "Spear of Shojin"
+      against: "top-tier offensive third item if you are massively ahead and want the Q ability haste cycle"
+  base_combo: ["W", "Q", "AA", "E", "R"]
+  win_condition: "Survive lane phase with Doran's Shield + passive sustain, scale to Stridebreaker, then flank in side lane and use R to execute kill-fed enemy carries in teamfights."
+  weakness: "No dash or blink, no ranged hard CC. Vulnerable to kite (Quinn, Vayne) and long-range root (Lissandra, Mordekaiser pull). Falls behind in lane if you over-extend without W stacks."
 ---
 
 ## Overview

@@ -13,6 +13,167 @@ export const enChampions: ChampionGuide[] = [
     "role": "top",
     "last_updated": "2026-04-25",
     "description": "Garen top lane guide for League of Legends Patch 14.10: starter kit, juggernaut bruiser build, key matchups, power spikes, common mistakes, and a closing tip.",
+    "quick_learn": {
+      "champion_dd_id": "Garen",
+      "difficulty": 2,
+      "damage_type": "physical",
+      "champion_class": "Juggernaut / Bruiser",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Perseverance",
+          "description": "Regenerates HP out of combat if not damaged or hit by abilities for a few seconds. Defines the hit-and-retreat trade pattern.",
+          "dd_spell_id": "Garen_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Decisive Strike",
+          "description": "Burst of move speed and slow cleanse. Next auto silences the target for 1.5s and deals bonus damage.",
+          "dd_spell_id": "GarenQ"
+        },
+        {
+          "key": "W",
+          "name": "Courage",
+          "description": "Passive: stack armor/MR by killing enemies. Active: shield + tenacity, then residual damage mitigation window.",
+          "dd_spell_id": "GarenW"
+        },
+        {
+          "key": "E",
+          "name": "Judgment",
+          "description": "AOE spin dealing physical damage to nearby enemies for 3s. Main waveclear and sustained DPS tool.",
+          "dd_spell_id": "GarenE"
+        },
+        {
+          "key": "R",
+          "name": "Demacian Justice",
+          "description": "Executes an enemy champion based on missing health. Bonus true damage against the most kill-fed enemy.",
+          "dd_spell_id": "GarenR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "E"
+        },
+        {
+          "level": 5,
+          "key": "E"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "E"
+        },
+        {
+          "level": 8,
+          "key": "Q"
+        },
+        {
+          "level": 9,
+          "key": "E"
+        },
+        {
+          "level": 10,
+          "key": "Q"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "Q"
+        },
+        {
+          "level": 13,
+          "key": "Q"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6631",
+          "name": "Stridebreaker"
+        },
+        {
+          "dd_id": "3047",
+          "name": "Plated Steelcaps"
+        },
+        {
+          "dd_id": "3742",
+          "name": "Dead Man's Plate"
+        },
+        {
+          "dd_id": "3053",
+          "name": "Sterak's Gage"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3156",
+          "name": "Maw of Malmortius",
+          "against": "into AP top lane (Mordekaiser, Rumble, Vladimir) — magic shield passive saves extended trades"
+        },
+        {
+          "dd_id": "6333",
+          "name": "Death's Dance",
+          "against": "into double-AD comps; works around the bleed mechanic that punishes glass cannons in teamfights"
+        },
+        {
+          "dd_id": "4401",
+          "name": "Force of Nature",
+          "against": "into 3+ AP threats; the movement speed passive helps you path to fights"
+        },
+        {
+          "dd_id": "3161",
+          "name": "Spear of Shojin",
+          "against": "top-tier offensive third item if you are massively ahead and want the Q ability haste cycle"
+        }
+      ],
+      "base_combo": [
+        "W",
+        "Q",
+        "AA",
+        "E",
+        "R"
+      ],
+      "win_condition": "Survive lane phase with Doran's Shield + passive sustain, scale to Stridebreaker, then flank in side lane and use R to execute kill-fed enemy carries in teamfights.",
+      "weakness": "No dash or blink, no ranged hard CC. Vulnerable to kite (Quinn, Vayne) and long-range root (Lissandra, Mordekaiser pull). Falls behind in lane if you over-extend without W stacks."
+    },
     "content_html": "<h2>Overview</h2>\n<p>Garen is a melee juggernaut whose value comes from sustained presence: passive <strong>Perseverance</strong> regenerates health out of combat, <strong>Decisive Strike (Q)</strong> lets him close gaps with cleanse, <strong>Courage (W)</strong> gives a flat tankiness window plus a passive resistance stack, <strong>Judgment (E)</strong> is his AOE damage and waveclear, and <strong>Demacian Justice (R)</strong> executes squishies based on missing health and a true-damage scaling against the most kill-fed enemy. He is one of the simplest champions to mechanically execute, which means the entire skill ceiling sits in <strong>map awareness</strong> and <strong>wave management</strong> — not in combo execution.</p>\n<p>In top lane he wants short trades during W's active and full waves on his side of the lane. He is strong from level 1 but not unkillable; he has no dash and no hard CC, so any matchup that can disengage at will (Quinn, Vayne) or root him from range (Lissandra, Mordekaiser pull) will outscale his lane phase if you over-extend.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> Doran's Shield + 1 Health Potion. Doran's Blade only into ranged tops where you need to all-in early to deny CS.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><strong>Stridebreaker</strong> — slow on <strong>Q</strong>, AOE active for sticking to kited targets, AD + HP both useful.</li>\n<li><strong>Plated Steelcaps</strong> — most top lanes are auto-attack-heavy. Mercury's Treads only into 3+ CC champions on the enemy team.</li>\n<li><strong>Dead Man's Plate</strong> — synergy with <strong>Q</strong> movement bonus, the impact passive procs in your usual all-in pattern.</li>\n<li><strong>Sterak's Gage</strong> — life saver into burst windows, AD scaling that makes <strong>R</strong> execute later than its base threshold suggests.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><strong>Maw of Malmortius</strong> — into AP top lane (Mordekaiser, Rumble, Vladimir).</li>\n<li><strong>Death's Dance</strong> — into double-AD comps (works around the bleed mechanic that punishes glass cannons).</li>\n<li><strong>Force of Nature</strong> — into 3+ AP threats; the movement speed passive helps you path to fights.</li>\n<li><strong>Spear of Shojin</strong> — top-tier offensive third item if you are massively ahead and want the ability haste cycle.</li>\n</ul>\n<p><strong>Boots:</strong> Plated Steelcaps default. Mercury's Treads against Renekton+Lissandra+heavy CC.</p>\n<p><strong>Skill order:</strong> Max <strong>E</strong> first (DPS and waveclear), <strong>Q</strong> second (slow + utility), <strong>W</strong> last (passive value scales fine without points). Take <strong>R</strong> at 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Precision</strong> with <strong>Conqueror</strong>, <strong>Triumph</strong>, <strong>Legend: Tenacity</strong>, <strong>Last Stand</strong>. Secondary <strong>Resolve</strong> with <strong>Second Wind</strong> + <strong>Unflinching</strong>, or <strong>Inspiration</strong> with <strong>Magical Footwear</strong> + <strong>Cosmic Insight</strong> for boot timing on rotation maps.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Darius:</strong> Lose level 1, win after Stridebreaker if you avoid his <strong>E</strong> pull. Buy Doran's Shield, hug Q level for the cleanse.</li>\n<li><strong>Fiora:</strong> Hard counter for her until level 6 if you don't get vital'd. Trade with <strong>W</strong> active to deny her parry value, then disengage.</li>\n<li><strong>Quinn:</strong> Skill matchup; she kites with <strong>Q</strong> blind + <strong>E</strong> vault. Take Teleport, give up first wave CS, and roam mid every wave 4 onward.</li>\n<li><strong>Vayne top:</strong> Your worst-feeling matchup. Build Plated Steelcaps level 1, take Doran's Shield + Second Wind, and play for the jungler — you cannot win 1v1 trades after 6 on this matchup.</li>\n<li><strong>Mordekaiser:</strong> Slow lane into a death realm spike. Trade short, hit <strong>Q</strong> + <strong>E</strong> when his <strong>W</strong> is on cooldown, and back to Maw of Malmortius before his second item.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2:</strong> <strong>Q</strong> + <strong>E</strong> unlocks a real all-in. If they push the wave to you and your jungler is on top side, this is your kill window.</li>\n<li><strong>Level 6:</strong> <strong>Demacian Justice</strong> lets you finish low-HP targets that previously walked away. Track enemy summoners; without Flash, every melee top is in execute range.</li>\n<li><strong>Stridebreaker timing (~ 11 minutes):</strong> Wave control flips in your favor. Slow shove, freeze, or split push depending on map state. <strong>Q</strong> + active is gap-close insurance against ganks.</li>\n<li><strong>Late game ace condition:</strong> With <strong>R</strong> scaling against the most-kill enemy and Sterak's Gage, you become a flanking threat that solo-kills carries. Your job is to load up <strong>E</strong> in fog and <strong>R</strong> before they peel.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Walking up at low W stack count.</strong> <strong>Courage</strong> passive grants resistances per stack; if you have 0 stacks (e.g. just respawned), avoid extended trades until you reload via minions.</li>\n<li><strong>Using R as opener.</strong> <strong>R</strong> is for execution, not setup. If you open with it, the cast time tells the enemy to disengage, and you lose the kill timer.</li>\n<li><strong>E into a stationary wave.</strong> Spinning at 3 minions when you can drop them in 2 autos burns mana and tells the lane your cooldown rotation. Save <strong>E</strong> for trades.</li>\n<li><strong>Forgetting Q's silence.</strong> <strong>Q</strong> silences for 1.5 seconds. Always Q-engage on a champion mid-cast (Lulu polymorph, Karma shield, Lissandra R) — the silence interrupts the cast.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>When a fed enemy carry triggers your <strong>R</strong> target priority, you can flash-<strong>R</strong> them mid-team-fight even if their support pops a shield: <strong>R</strong>'s execute damage is true damage on the priority target, and most shield budgets are exhausted by the team's burst before your cast resolves. Save Flash for this play; the ace it generates is worth 2 dragon fights.</p>",
     "word_count": 835,
     "available_patches": [
