@@ -39,6 +39,7 @@ const en = {
   // Hero
   'hero.subtitle': 'Stop guessing, start understanding. Get real-time guidance on champion select, builds, and strategy — tailored to your skill level. Whether you are just starting ranked or pushing for a new peak, LoL Sensei explains every decision so you actually learn.',
   'hero.cta.download': 'Download for Windows',
+  'hero.cta.comingSoon': 'Coming soon',
   'hero.cta.pricing': 'View Pricing',
   'hero.intro': 'League of Legends is one of the most complex competitive games ever made. Hundreds of champions, thousands of item combinations, and a meta that shifts with every patch. Most players rely on static tier lists and copied builds, but that approach only tells you what to do — never why. LoL Sensei is different. Our AI coach watches your champion select, analyzes team compositions in real-time, and explains the reasoning behind every recommendation. Instead of blindly following a build path, you understand how gold differences, enemy itemization, and your team\'s win condition shape the optimal choice. That understanding is what separates someone who copies from someone who truly improves.',
 

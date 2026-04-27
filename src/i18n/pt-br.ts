@@ -39,6 +39,7 @@ const ptBr = {
   // Hero
   'hero.subtitle': 'Pare de adivinhar, comece a entender. Receba orientação em tempo real sobre champion select, builds e estratégia — adaptada ao seu nível.',
   'hero.cta.download': 'Baixar para Windows',
+  'hero.cta.comingSoon': 'Em breve',
   'hero.cta.pricing': 'Ver Preços',
   'hero.intro': 'League of Legends é um dos jogos competitivos mais complexos já criados. Centenas de campeões, milhares de combinações de itens e uma meta que muda a cada patch. A maioria dos jogadores depende de tier lists estáticas e builds copiadas, mas essa abordagem só diz o que fazer — nunca o porquê. O LoL Sensei é diferente. Nosso coach de IA observa sua champion select, analisa composições de time em tempo real e explica o raciocínio por trás de cada recomendação. Em vez de seguir cegamente um build path, você entende como diferenças de gold, a itemização inimiga e a condição de vitória do seu time moldam a escolha ideal. Esse entendimento é o que separa quem copia de quem realmente evolui.',
 

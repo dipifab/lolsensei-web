@@ -39,6 +39,7 @@ const de = {
   // Hero
   'hero.subtitle': 'Hör auf zu raten, fang an zu verstehen. Erhalte Echtzeit-Hilfe bei Championauswahl, Builds und Strategie — angepasst an dein Spielniveau.',
   'hero.cta.download': 'Für Windows herunterladen',
+  'hero.cta.comingSoon': 'Demnächst verfügbar',
   'hero.cta.pricing': 'Preise Ansehen',
   'hero.intro': 'League of Legends ist eines der komplexesten Wettkampfspiele, die je entwickelt wurden. Hunderte Champions, tausende Item-Kombinationen und eine Meta, die sich mit jedem Patch verschiebt. Die meisten Spieler verlassen sich auf statische Tier Lists und kopierte Builds, aber dieser Ansatz sagt dir nur, was du tun sollst — nie warum. LoL Sensei ist anders. Unser KI-Coach beobachtet deine Championauswahl, analysiert Teamzusammenstellungen in Echtzeit und erklärt die Gründe hinter jeder Empfehlung. Statt blind einem Build Path zu folgen, verstehst du, wie Goldunterschiede, gegnerische Itemisierung und die Siegbedingung deines Teams die optimale Wahl formen. Dieses Verständnis unterscheidet jemanden, der kopiert, von jemandem, der sich wirklich verbessert.',
 
