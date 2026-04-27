@@ -128,12 +128,12 @@ export function ChampionQuickLearn(
         <h3 class="text-[10px] text-on-surface-variant/70 font-bold tracking-widest uppercase mb-3">
           {labels.abilities}
         </h3>
-        <div class="flex flex-wrap gap-3">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
           <For each={props.data.abilities}>
             {(ability) => (
-              <div class="flex items-center gap-3 bg-surface-container-low border border-outline-variant/20 rounded-lg p-3 flex-1 min-w-[150px]">
+              <div class="flex items-start gap-3 bg-surface-container-low border border-outline-variant/20 rounded-lg p-3">
                 <div
-                  class={`w-10 h-10 rounded border border-primary-container/50 bg-surface-bright flex items-center justify-center font-bold ${
+                  class={`w-10 h-10 shrink-0 rounded border border-primary-container/50 bg-surface-bright flex items-center justify-center font-bold ${
                     ABILITY_COLOR[ability.key]
                   } ${
                     ability.key === 'R'
@@ -144,13 +144,13 @@ export function ChampionQuickLearn(
                 >
                   {ability.key}
                 </div>
-                <div class="min-w-0">
+                <div class="min-w-0 flex-1">
                   <div
-                    class={`text-sm font-bold truncate ${ABILITY_COLOR[ability.key]}`}
+                    class={`text-sm font-bold leading-snug ${ABILITY_COLOR[ability.key]}`}
                   >
                     {ability.name}
                   </div>
-                  <div class="text-xs text-on-surface-variant/80 truncate">
+                  <div class="text-xs text-on-surface-variant/80 mt-1 leading-snug">
                     {ability.description}
                   </div>
                 </div>
