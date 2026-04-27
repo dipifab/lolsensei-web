@@ -63,6 +63,46 @@ function damageLabel(damage: QuickLearn['damage_type']): string {
   return damage.toUpperCase();
 }
 
+// Data Dragon CDN URL builders. Il frontmatter ha `patch` major.minor (es.
+// "14.10"); DD richiede la full version (es. "14.10.1"). La `.1` e' la prima
+// release pubblica di ogni patch e copre il 99% dei casi. Iterazione futura:
+// fetch versions.json al build per resolver dinamico.
+const DD_BASE = 'https://ddragon.leagueoflegends.com/cdn';
+
+function ddVersion(patch: string): string {
+  return `${patch}.1`;
+}
+
+function championIconUrl(championDdId: string, patch: string): string {
+  return `${DD_BASE}/${ddVersion(patch)}/img/champion/${championDdId}.png`;
+}
+
+function spellIconUrl(ddSpellId: string, patch: string): string {
+  return `${DD_BASE}/${ddVersion(patch)}/img/spell/${ddSpellId}.png`;
+}
+
+function itemIconUrl(ddItemId: string, patch: string): string {
+  return `${DD_BASE}/${ddVersion(patch)}/img/item/${ddItemId}.png`;
+}
+
+/** Fallback pattern: l'<img> assoluta copre la lettera/placeholder se carica;
+ *  in 404 si auto-rimuove e il fallback resta visibile. */
+function imgWithFallback(props: {
+  src: string;
+  alt: string;
+  classes: string;
+}): JSX.Element {
+  return (
+    <img
+      src={props.src}
+      alt={props.alt}
+      loading="lazy"
+      class={`absolute inset-0 w-full h-full object-cover ${props.classes}`}
+      onError={(e) => e.currentTarget.remove()}
+    />
+  );
+}
+
 export function ChampionQuickLearn(
   props: ChampionQuickLearnProps,
 ): JSX.Element {
@@ -87,9 +127,25 @@ export function ChampionQuickLearn(
       aria-label={labels.section}
       data-testid="champion-quick-learn"
     >
-      <h2 class="font-headline text-primary-container text-base md:text-lg font-bold uppercase tracking-widest mb-6">
-        {labels.section}
-      </h2>
+      {/* Header con portrait DD + label sezione */}
+      <div class="flex items-center gap-4 mb-6">
+        <div class="relative w-16 h-16 md:w-20 md:h-20 shrink-0 rounded-lg border-2 border-primary-container/60 bg-surface-bright overflow-hidden shadow-[0_0_15px_rgba(240,191,92,0.15)]">
+          <span
+            class="absolute inset-0 flex items-center justify-center text-primary-container font-headline font-bold text-xl md:text-2xl"
+            aria-hidden="true"
+          >
+            {props.data.champion_dd_id.slice(0, 2).toUpperCase()}
+          </span>
+          {imgWithFallback({
+            src: championIconUrl(props.data.champion_dd_id, props.patch),
+            alt: props.data.champion_dd_id,
+            classes: '',
+          })}
+        </div>
+        <h2 class="font-headline text-primary-container text-base md:text-lg font-bold uppercase tracking-widest">
+          {labels.section}
+        </h2>
+      </div>
 
       {/* Stats row */}
       <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
@@ -133,16 +189,27 @@ export function ChampionQuickLearn(
             {(ability) => (
               <div class="flex items-start gap-4 bg-surface-container-low border border-outline-variant/20 rounded-lg p-3 md:p-4">
                 <div
-                  class={`w-12 h-12 shrink-0 rounded border border-primary-container/50 bg-surface-bright flex items-center justify-center text-lg font-bold ${
-                    ABILITY_COLOR[ability.key]
-                  } ${
+                  class={`relative w-12 h-12 shrink-0 rounded border border-primary-container/50 bg-surface-bright overflow-hidden ${
                     ability.key === 'R'
                       ? 'shadow-[0_0_10px_rgba(240,191,92,0.3)]'
                       : ''
                   }`}
-                  aria-hidden="true"
                 >
-                  {ability.key}
+                  <span
+                    class={`absolute inset-0 flex items-center justify-center text-lg font-bold ${ABILITY_COLOR[ability.key]}`}
+                    aria-hidden="true"
+                  >
+                    {ability.key}
+                  </span>
+                  <Show when={ability.key !== 'P' && ability.dd_spell_id}>
+                    {(spellId) =>
+                      imgWithFallback({
+                        src: spellIconUrl(spellId(), props.patch),
+                        alt: ability.name,
+                        classes: '',
+                      })
+                    }
+                  </Show>
                 </div>
                 <div class="min-w-0 flex-1">
                   <div
@@ -237,11 +304,21 @@ export function ChampionQuickLearn(
                     </span>
                   </Show>
                   <div
-                    class="w-10 h-10 bg-surface-bright rounded border border-outline-variant/50 flex items-center justify-center text-[10px] text-on-surface-variant/60 font-bold"
+                    class="relative w-10 h-10 bg-surface-bright rounded border border-outline-variant/50 overflow-hidden"
                     title={item.name}
                     aria-label={item.name}
                   >
-                    {item.name.slice(0, 3).toUpperCase()}
+                    <span
+                      class="absolute inset-0 flex items-center justify-center text-[10px] text-on-surface-variant/60 font-bold"
+                      aria-hidden="true"
+                    >
+                      {item.name.slice(0, 3).toUpperCase()}
+                    </span>
+                    {imgWithFallback({
+                      src: itemIconUrl(item.dd_id, props.patch),
+                      alt: item.name,
+                      classes: '',
+                    })}
                   </div>
                 </>
               )}

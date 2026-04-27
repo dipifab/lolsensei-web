@@ -14,24 +14,24 @@ quick_learn:
   champion_class: "Mago / Burst"
   abilities:
     - key: "P"
-      name: "Illuminazione"
+      name: "Illumination"
       description: "Le spell marchiano i nemici. La prossima auto-attack di Lux detona il marchio per danno magico bonus."
       dd_spell_id: "Lux_Passive"
     - key: "Q"
-      name: "Vincolo di Luce"
+      name: "Light Binding"
       description: "Skillshot lineare che immobilizza fino a due nemici. Cooldown lungo — usa come setup, non come poke."
       dd_spell_id: "LuxLightBinding"
     - key: "W"
-      name: "Barriera Prismatica"
+      name: "Prismatic Barrier"
       description: "Scudo all'andata e al ritorno su Lux e alleati attraversati. Rilancia per richiamarla in anticipo."
       dd_spell_id: "LuxPrismaticWave"
     - key: "E"
-      name: "Singolarità Lucente"
+      name: "Lucent Singularity"
       description: "Area targettata che rallenta e infligge danno nel tempo. Rilancia per detonare. Strumento principale di waveclear."
       dd_spell_id: "LuxLightStrikeKugel"
     - key: "R"
-      name: "Bagliore Finale"
-      description: "Raggio lineare a lunga gittata con danno magico massiccio. Consuma i marchi di Illuminazione presenti."
+      name: "Final Spark"
+      description: "Raggio lineare a lunga gittata con danno magico massiccio. Consuma i marchi di Illumination presenti."
       dd_spell_id: "LuxR"
   skill_order:
     - { level: 1, key: "E" }
@@ -53,12 +53,12 @@ quick_learn:
     - { level: 17, key: "W" }
     - { level: 18, key: "W" }
   core_items:
-    - { dd_id: "6655", name: "Compagno di Luden" }
-    - { dd_id: "3020", name: "Stivali da Stregone" }
-    - { dd_id: "4645", name: "Fiammaombra" }
-    - { dd_id: "3089", name: "Cappello di Rabadon" }
+    - { dd_id: "6655", name: "Luden's Companion" }
+    - { dd_id: "3020", name: "Sorcerer's Shoes" }
+    - { dd_id: "4645", name: "Shadowflame" }
+    - { dd_id: "3089", name: "Rabadon's Deathcap" }
   base_combo: ["E", "Q", "AA", "R"]
-  win_condition: "Snipa i target squishy con R dalla massima gittata negli obiettivi una volta online Luden's e Fiammaombra. Controlla lo spazio con E e resta dietro alla front line."
+  win_condition: "Snipa i target squishy con R dalla massima gittata negli obiettivi una volta online Luden's Companion e Shadowflame. Controlla lo spazio con E e resta dietro alla front line."
   weakness: "Nessun dash, mobilità base nulla. Hard counter di tuffatori e assassini; se la front line salta, anche il tuo posizionamento crolla."
 ---
 
@@ -70,32 +70,32 @@ Il suo piano partita è semplice da spiegare e duro da eseguire: centra **Q** qu
 
 ## Build Consigliata
 
-**Item iniziali:** Anello di Doran + 2 Pozioni Curative. Evita Pozione Corrotta a meno che la lane non sia di harass auto-attack pesante contro di te.
+**Item iniziali:** Doran's Ring + 2 Health Potions. Evita Corrupting Potion a meno che la lane non sia di harass auto-attack pesante contro di te.
 
 **Item core (nell'ordine):**
 
-1. **Compagno di Luden** — spike di burst, sostegno mana per spammare E.
-2. **Stivali da Stregone** — penetrazione magica fissa per cancellare i target squishy.
-3. **Fiammaombra** — burst extra; la passiva sotto soglia HP combacia con il finisher di **R**.
-4. **Cappello Mortale di Rabadon** — moltiplicatore late-game, lo slot AP più alto.
+1. **Luden's Companion** — spike di burst, sostegno mana per spammare E.
+2. **Sorcerer's Shoes** — penetrazione magica fissa per cancellare i target squishy.
+3. **Shadowflame** — burst extra; la passiva sotto soglia HP combacia con il finisher di **R**.
+4. **Rabadon's Deathcap** — moltiplicatore late-game, lo slot AP più alto.
 
 **Item situazionali:**
 
-- **Velo della Banshee** — contro CC magici single-target (Ahri ammaliamento, Lissandra R, Twisted Fate stun).
-- **Clessidra di Zhonya** — contro tuffatori e assassini (Zed, Diana, Talon, Akali).
+- **Banshee's Veil** — contro CC magici single-target (Ahri charm, Lissandra R, Twisted Fate stun).
+- **Zhonya's Hourglass** — contro tuffatori e assassini (Zed, Diana, Talon, Akali).
 - **Morellonomicon** — contro composizioni che impilano cure (Soraka mid, Vladimir, Dr. Mundo top).
-- **Bastone del Vuoto** — appena qualunque target prioritario compra un item di Resistenza Magica.
+- **Void Staff** — appena qualunque target prioritario compra un item di Resistenza Magica.
 
-**Stivali:** Stivali da Stregone di default. Stivali Jonici della Lucidità accettabili se il team chiede più uptime di **R** come finisher.
+**Stivali:** Sorcerer's Shoes di default. Ionian Boots of Lucidity accettabili se il team chiede più uptime di **R** come finisher.
 
 **Skill order:** Massimizza **E** per primo (waveclear e DPS principale), **Q** per secondo (utility binding), **W** per ultimo. Punto in **R** ai livelli 6, 11, 16.
 
-**Rune:** Albero primario **Stregoneria** con **Cometa Arcana**, **Banda del Flusso di Mana**, **Trascendenza**, **Bruciatura**. Secondario **Ispirazione** con **Consegna di Biscotti** e **Conoscenza Cosmica**, oppure **Precisione** con **Presenza di Spirito** e **Colpo di Grazia** se la squadra avversaria ha più squishy a basse resistenze.
+**Rune:** Albero primario **Sorcery** con **Arcane Comet**, **Manaflow Band**, **Transcendence**, **Scorch**. Secondario **Inspiration** con **Biscuit Delivery** e **Cosmic Insight**, oppure **Precision** con **Presence of Mind** e **Coup de Grace** se la squadra avversaria ha più squishy a basse resistenze.
 
 ## Matchup chiave
 
-- **Yasuo / Yone:** Possono Muro di Vento la tua **Q** e **E**. Tieni **Q** finché non hanno bruciato le abilità, e usa **E** per pulire wave solo a distanza di sicurezza.
-- **Diana / Akali:** Minacce di tuffo. Compra Zhonya dopo Luden; non usare **Flash** in modo offensivo in lane contro di loro.
+- **Yasuo / Yone:** Possono Wind Wall la tua **Q** e **E**. Tieni **Q** finché non hanno bruciato le abilità, e usa **E** per pulire wave solo a distanza di sicurezza.
+- **Diana / Akali:** Minacce di tuffo. Compra Zhonya's Hourglass dopo Luden's Companion; non usare **Flash** in modo offensivo in lane contro di loro.
 - **Orianna:** Matchup pari, deciso nei teamfight. La gittata coincide; non lasciarti tirare in scambi auto-attack perché scala meglio con lo stesso set di oggetti.
 - **Twisted Fate:** Gara di rotazione. Se ti tira la carta gialla, **Q** prima che chiuda; altrimenti tracciagli la **R** con ward su river e tri-cespuglio.
 - **Galio:** Evita di stare appiccicato a un alleato pre-6 (la sua **W** punisce target raggruppati). Puniscilo quando è in melee sui minion; non ha gittata di waveclear per superarti in push.
@@ -104,8 +104,8 @@ Il suo piano partita è semplice da spiegare e duro da eseguire: centra **Q** qu
 
 - **Livello 2:** Con un punto in **E** più la **Q** di partenza hai gli strumenti per zonare il nemico da una wave in slow-push.
 - **Livello 6:** Prima **Final Spark** sblocca rotazioni e pressione di snipe. Con il combo **Q-E-R** memorizzato, un teamfight su mid-river senza ward è una kill garantita.
-- **Compagno di Luden completo (~ minuto 12-14):** Il controllo della wave si ribalta. Puoi spingere e roamare lasciando la wave dalla parte avversaria, liberando il jungler verso il loro bot side.
-- **Cappello di Rabadon online (~ minuto 24-28):** La tua **R** one-shotta gli squishy che non hanno comprato un item di Resistenza Magica. Forza i fight obiettivo qui.
+- **Luden's Companion completo (~ minuto 12-14):** Il controllo della wave si ribalta. Puoi spingere e roamare lasciando la wave dalla parte avversaria, liberando il jungler verso il loro bot side.
+- **Rabadon's Deathcap online (~ minuto 24-28):** La tua **R** one-shotta gli squishy che non hanno comprato un item di Resistenza Magica. Forza i fight obiettivo qui.
 
 ## Errori comuni
 
@@ -116,4 +116,4 @@ Il suo piano partita è semplice da spiegare e duro da eseguire: centra **Q** qu
 
 ## Suggerimento avanzato
 
-Allena la cancellazione di **W** rilanciando **Barriera Prismatica** nel momento in cui raggiunge il picco di andata — lo scudo di ritorno arriva al valore massimo e fai contemporaneamente peel e shield-bomb su un alleato. Nei teamfight questo dà circa il doppio del valore di scudo effettivo rispetto a lasciare la **W** percorrere tutto il tragitto.
+Allena la cancellazione di **W** rilanciando **Prismatic Barrier** nel momento in cui raggiunge il picco di andata — lo scudo di ritorno arriva al valore massimo e fai contemporaneamente peel e shield-bomb su un alleato. Nei teamfight questo dà circa il doppio del valore di scudo effettivo rispetto a lasciare la **W** percorrere tutto il tragitto.
