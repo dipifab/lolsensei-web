@@ -60,7 +60,7 @@ quick_learn:
   situational_items:
     - dd_id: "3157"
       name: "Zhonya's Hourglass"
-      against: "contro tuffatori e assassini (Zed, Diana, Talon, Akali) — la stasi salva il follow-up della R"
+      against: "contro diver e assassini (Zed, Diana, Talon, Akali) — la stasi salva il follow-up della R"
     - dd_id: "3102"
       name: "Banshee's Veil"
       against: "contro CC magici single-target (Ahri charm, Lissandra R, Twisted Fate stun)"
@@ -72,7 +72,7 @@ quick_learn:
       against: "swap appena qualunque target prioritario compra un item di Resistenza Magica"
   base_combo: ["E", "Q", "AA", "R"]
   win_condition: "Snipa i target squishy con R dalla massima gittata negli obiettivi una volta online Luden's Companion e Shadowflame. Controlla lo spazio con E e resta dietro alla front line."
-  weakness: "Nessun dash, mobilità base nulla. Hard counter di tuffatori e assassini; se la front line salta, anche il tuo posizionamento crolla."
+  weakness: "Nessun dash, mobilità base nulla. Hard counter di diver e assassini; se la front line salta, anche il tuo posizionamento crolla."
 ---
 
 ## Panoramica
@@ -95,7 +95,7 @@ Il suo piano partita è semplice da spiegare e duro da eseguire: centra **Q** qu
 **Item situazionali:**
 
 - **Banshee's Veil** — contro CC magici single-target (Ahri charm, Lissandra R, Twisted Fate stun).
-- **Zhonya's Hourglass** — contro tuffatori e assassini (Zed, Diana, Talon, Akali).
+- **Zhonya's Hourglass** — contro diver e assassini (Zed, Diana, Talon, Akali).
 - **Morellonomicon** — contro composizioni che impilano cure (Soraka mid, Vladimir, Dr. Mundo top).
 - **Void Staff** — appena qualunque target prioritario compra un item di Resistenza Magica.
 
@@ -108,7 +108,7 @@ Il suo piano partita è semplice da spiegare e duro da eseguire: centra **Q** qu
 ## Matchup chiave
 
 - **Yasuo / Yone:** Possono Wind Wall la tua **Q** e **E**. Tieni **Q** finché non hanno bruciato le abilità, e usa **E** per pulire wave solo a distanza di sicurezza.
-- **Diana / Akali:** Minacce di tuffo. Compra Zhonya's Hourglass dopo Luden's Companion; non usare **Flash** in modo offensivo in lane contro di loro.
+- **Diana / Akali:** Minacce di dive. Compra Zhonya's Hourglass dopo Luden's Companion; non usare **Flash** in modo offensivo in lane contro di loro.
 - **Orianna:** Matchup pari, deciso nei teamfight. La gittata coincide; non lasciarti tirare in scambi auto-attack perché scala meglio con lo stesso set di oggetti.
 - **Twisted Fate:** Gara di rotazione. Se ti tira la carta gialla, **Q** prima che chiuda; altrimenti tracciagli la **R** con ward su river e tri-cespuglio.
 - **Galio:** Evita di stare appiccicato a un alleato pre-6 (la sua **W** punisce target raggruppati). Puniscilo quando è in melee sui minion; non ha gittata di waveclear per superarti in push.
