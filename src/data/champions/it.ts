@@ -453,5 +453,626 @@ export const itChampions: ChampionGuide[] = [
         "role": "mid"
       }
     ]
+  },
+  {
+    "slug": "neeko-mid",
+    "title": "Neeko Mid Build & Guida — Patch 14.10",
+    "language": "it",
+    "patch": "14.10",
+    "champion": "neeko",
+    "role": "mid",
+    "last_updated": "2026-04-27",
+    "description": "Guida Neeko mid lane per League of Legends Patch 14.10: build AP burst, combo con clone deception, matchup chiave, power spike, errori comuni e un consiglio finale.",
+    "quick_learn": {
+      "champion_dd_id": "Neeko",
+      "difficulty": 2,
+      "damage_type": "magic",
+      "champion_class": "Mage / Burst",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Inherent Glamour",
+          "description": "Travestiti da campione alleato. Ricevere danno dai nemici o lanciare spell con danno rompe l'illusione.",
+          "dd_spell_id": "Neeko_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Blooming Burst",
+          "description": "Lancia un seme che esplode una volta all'impatto, e una seconda se colpisce un campione o uccide un'unità. Waveclear e poke principali.",
+          "dd_spell_id": "NeekoQ"
+        },
+        {
+          "key": "W",
+          "name": "Shapesplitter",
+          "description": "Passiva: la terza auto-attack infligge danno magico bonus. Attiva: invia un clone in una direzione che imita Neeko.",
+          "dd_spell_id": "NeekoW"
+        },
+        {
+          "key": "E",
+          "name": "Tangle-Barbs",
+          "description": "Skillshot lineare di root. Diventa più largo, veloce e roota più a lungo se uccide un'unità o passa prima su un campione.",
+          "dd_spell_id": "NeekoE"
+        },
+        {
+          "key": "R",
+          "name": "Pop Blossom",
+          "description": "Channel che termina con un salto e un AOE knockup. Il channel è nascosto se sei travestita dalla W passive o dalla P.",
+          "dd_spell_id": "NeekoR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6655",
+          "name": "Luden's Companion"
+        },
+        {
+          "dd_id": "3020",
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "dd_id": "4645",
+          "name": "Shadowflame"
+        },
+        {
+          "dd_id": "3089",
+          "name": "Rabadon's Deathcap"
+        },
+        {
+          "dd_id": "3135",
+          "name": "Void Staff"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass",
+          "against": "contro diver e assassini (Zed, Diana, Talon, Akali) — la stasi copre la finestra di atterraggio della R"
+        },
+        {
+          "dd_id": "3102",
+          "name": "Banshee's Veil",
+          "against": "contro CC magici single-target (Ahri charm, Lissandra R, Twisted Fate stun) che interrompono la R"
+        },
+        {
+          "dd_id": "3165",
+          "name": "Morellonomicon",
+          "against": "contro squadre con cure forti (Soraka, Vladimir, Dr. Mundo). L'AOE applica grievous wounds: debuff che taglia del 40% le cure nemiche"
+        },
+        {
+          "dd_id": "4629",
+          "name": "Cosmic Drive",
+          "against": "quando il team gioca su pick e roam invece che teamfight raggruppati e vuoi più movement speed sul burst grezzo"
+        }
+      ],
+      "base_combo": [
+        "W",
+        "E",
+        "Q",
+        "R"
+      ],
+      "win_condition": "Centra la R dentro un teamfight o da un flank travestita da alleato. Con Luden's e Shadowflame online, R + Q double bloom one-shotta la maggior parte delle back line squishy.",
+      "weakness": "Tutto il danno passa da una R lunga e telegrafata, cancellabile da qualsiasi hard CC. Niente dash, niente scudo: la W active è l'unico strumento di mobilità."
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Neeko è un mago AP burst — un campione costruito per fare moltissimo danno in una finestra di 1-2 secondi — che trasforma il travestimento e la clone deception in uno dei combo single-target più esplosivi del mid. Il suo kit ruota attorno al colpire <strong>Tangle-Barbs (E)</strong> attraverso un minion o il suo clone <strong>Shapesplitter (W)</strong> per estendere la durata del root, per poi concatenare <strong>Blooming Burst (Q)</strong> e <strong>Pop Blossom (R)</strong> in un one-shot. Il prezzo da pagare è che la R ha un channel time visibile e qualunque hard CC la cancella, quindi quasi ogni fight dipende dal vendere il bait prima del lancio.</p>\n<p>Il piano partita in mid è lineare: pulisci le wave con il double bloom di <strong>Q</strong>, tieni <strong>E</strong> come setup tool e non come poke, e cerca rotazioni a partire dal livello 6 dove il travestimento trasforma le rotazioni standard in setup di kill. Lo skill expression sta nell'uso del clone — mandare <strong>W</strong> lungo una side path mentre cammini dall'altra parte regala due secondi liberi contro un mid laner attento. La curva di forza è back-loaded: debole prima del livello 6, picca quando puoi accoppiare <strong>Luden's Companion</strong> con una <strong>R</strong> nascosta.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> Doran's Ring + 2 Health Potions. Evita Corrupting Potion a meno che la lane non sia auto-attack harass pesante (Annie, Sylas).</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><strong>Luden's Companion</strong> — spike di burst, sostegno mana per spammare <strong>Q</strong> in waveclear senza prosciugarti.</li>\n<li><strong>Sorcerer's Shoes</strong> — penetrazione magica fissa; i target che vuoi cancellare raramente comprano MR prima del minuto 20.</li>\n<li><strong>Shadowflame</strong> — burst extra; la passiva sotto soglia HP combacia col finisher di <strong>R</strong> sui target con scudo.</li>\n<li><strong>Rabadon's Deathcap</strong> — moltiplicatore late-game, lo slot AP più alto.</li>\n<li><strong>Void Staff</strong> — appena qualunque target prioritario compra un item di Resistenza Magica (MR; riduce il danno magico subito).</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><strong>Zhonya's Hourglass</strong> — contro diver e assassini (Zed, Diana, Talon, Akali). La stasi copre anche la parte visibile della <strong>R</strong> se la canti tardi.</li>\n<li><strong>Banshee's Veil</strong> — contro CC magici single-target che interrompono la <strong>R</strong> (Ahri charm, Lissandra <strong>R</strong>, Twisted Fate stun).</li>\n<li><strong>Morellonomicon</strong> — contro composizioni che impilano cure (Soraka, Vladimir, Dr. Mundo).</li>\n<li><strong>Cosmic Drive</strong> — al posto di Shadowflame quando il team gioca su pick e roam invece che teamfight raggruppati.</li>\n</ul>\n<p><strong>Stivali:</strong> Sorcerer's Shoes di default. Ionian Boots of Lucidity accettabili se snowballi presto e vuoi cooldown di <strong>R</strong> più corti per concatenare rotazioni.</p>\n<p><strong>Skill order:</strong> Massimizza <strong>Q</strong> per primo (waveclear e DPS principale), <strong>E</strong> per secondo (utility root), <strong>W</strong> per ultimo. Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Sorcery</strong> con <strong>Arcane Comet</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Scorch</strong>. Secondario <strong>Domination</strong> con <strong>Cheap Shot</strong> e <strong>Ultimate Hunter</strong>, oppure <strong>Inspiration</strong> con <strong>Biscuit Delivery</strong> e <strong>Cosmic Insight</strong> nelle lane più safe.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Zed:</strong> Counter pesante pre-6. Spingi la wave con <strong>Q</strong>, tieni <strong>E</strong> come pulsante d'emergenza e rusha Zhonya's dopo Luden's. Mai usare <strong>Flash</strong> in modo offensivo in lane.</li>\n<li><strong>Yasuo / Yone:</strong> Possono Wind Wall la <strong>E</strong> e il secondo bloom di <strong>Q</strong>. Bruciagli il wall mandando un clone <strong>W</strong> su un finto angolo di <strong>E</strong>, poi committi il combo vero.</li>\n<li><strong>Ahri:</strong> Matchup di skill. Il suo charm interrompe la <strong>R</strong>; rusha Banshee's dopo Luden's e Sorcerer's. Usa <strong>W</strong> per costringerla a spendere la mobilità della <strong>R</strong> prima di entrare.</li>\n<li><strong>Anivia:</strong> Pesante pre-6 per il wall, più gestibile post-6. Forzala a usare la <strong>R</strong> prima di entrare; con il muro abbassato la maggior parte dei finti col clone non funziona.</li>\n<li><strong>Twisted Fate:</strong> Gara di rotazione. Tracciagli la <strong>R</strong> con ward su river e tri-cespuglio. Se ti tira la carta gialla, <strong>E</strong> prima che chiuda il gap.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 3:</strong> Con <strong>Q-W-E</strong> sbloccati, il primo all-in (uno scambio totale per cercare la kill) è sul tavolo — manda il clone <strong>W</strong> dietro la loro wave per fingere un recall, poi <strong>E</strong> attraverso un minion appena salgono in last-hit.</li>\n<li><strong>Livello 6:</strong> Prima <strong>Pop Blossom</strong>. Il channel nascosto sotto la passiva di <strong>W</strong> rende un travestimento a portata di auto-attack un flash-engage. È la prima finestra di roam.</li>\n<li><strong>Luden's Companion completo (~ minuto 12-14):</strong> Il controllo della wave si ribalta. Shove e roam in travestimento; bot lane è prioritaria perché la loro torre è quella più vicina all'ingresso del river.</li>\n<li><strong>Rabadon's Deathcap online (~ minuto 24-28):</strong> <strong>R</strong> + double bloom di <strong>Q</strong> one-shottano gli squishy che non hanno comprato MR. Forza i fight obiettivo qui.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Lanciare E per poke senza setup.</strong> La <strong>E</strong> nuda è una linea sottile e lenta che si esquiva camminando. Imposta sempre con un minion sul percorso o un clone <strong>W</strong> che arriva prima; allora la <strong>E</strong> rota per la durata estesa.</li>\n<li><strong>Cantare la R allo scoperto.</strong> Un channel visibile annuncia il leap un secondo intero in anticipo. Canta da dentro un brush, dietro la front line, o mentre sei travestita dalla passiva di <strong>W</strong> — mai al centro di una lane con vision addosso.</li>\n<li><strong>Tenere W per i fight.</strong> L'attiva di <strong>Shapesplitter</strong> dà anche un 50% di movement bonus a Neeko stessa per due secondi. Usalo per kitare gank, schivare skillshot, o accelerare roam; non tenerlo per un fight che potrebbe non arrivare.</li>\n<li><strong>Travestirsi dall'alleato sbagliato.</strong> Scegli l'alleato la cui presenza nella tua lane è plausibile — un jungler melee a livello 4 è molto più credibile di un top laner appena respawnato a mid-base. Travestimenti improbabili vengono letti all'istante.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena la <strong>R</strong>-flash. Inizia il channel di <strong>Pop Blossom</strong> appena fuori dalla portata del leap, poi <strong>Flash</strong> negli ultimi 0.25 secondi della finestra. Il leap parte dalla posizione post-Flash, estendendo il raggio AOE effettivo di circa un terzo. Combinato con il travestimento della passiva di <strong>W</strong>, ogni prima <strong>R</strong> in teamfight diventa un engage non reagibile.</p>",
+    "word_count": 972,
+    "available_patches": [
+      "14.10"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "ahri-mid",
+        "champion": "ahri",
+        "role": "mid"
+      },
+      {
+        "slug": "akali-mid",
+        "champion": "akali",
+        "role": "mid"
+      },
+      {
+        "slug": "akshan-mid",
+        "champion": "akshan",
+        "role": "mid"
+      },
+      {
+        "slug": "annie-mid",
+        "champion": "annie",
+        "role": "mid"
+      },
+      {
+        "slug": "lux-mid",
+        "champion": "lux",
+        "role": "mid"
+      }
+    ]
+  },
+  {
+    "slug": "neeko-support",
+    "title": "Neeko Support Build & Guida — Patch 14.10",
+    "language": "it",
+    "patch": "14.10",
+    "champion": "neeko",
+    "role": "support",
+    "last_updated": "2026-04-27",
+    "description": "Guida Neeko support per League of Legends Patch 14.10: build da engage con World Atlas, combo di flank con R, matchup chiave, power spike ed errori comuni.",
+    "quick_learn": {
+      "champion_dd_id": "Neeko",
+      "difficulty": 2,
+      "damage_type": "magic",
+      "champion_class": "Mage / Engage",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Inherent Glamour",
+          "description": "Travestiti da campione alleato. Ricevere danno dai nemici o lanciare spell con danno rompe l'illusione.",
+          "dd_spell_id": "Neeko_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Blooming Burst",
+          "description": "Lancia un seme che esplode all'impatto, e di nuovo se colpisce un campione o uccide un'unità. Poke in lane e follow-up di danno.",
+          "dd_spell_id": "NeekoQ"
+        },
+        {
+          "key": "W",
+          "name": "Shapesplitter",
+          "description": "Passiva: la terza auto-attack infligge danno magico bonus. Attiva: invia un clone — il tuo principale strumento di bait e roam.",
+          "dd_spell_id": "NeekoW"
+        },
+        {
+          "key": "E",
+          "name": "Tangle-Barbs",
+          "description": "Skillshot lineare di root. Diventa più largo, veloce e roota più a lungo se uccide un'unità o passa prima su un campione.",
+          "dd_spell_id": "NeekoE"
+        },
+        {
+          "key": "R",
+          "name": "Pop Blossom",
+          "description": "Channel che termina con salto e AOE knockup. Nascosto se travestita dalla W passive o dalla P — il tuo strumento di engage.",
+          "dd_spell_id": "NeekoR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "E"
+        },
+        {
+          "level": 2,
+          "key": "W"
+        },
+        {
+          "level": 3,
+          "key": "Q"
+        },
+        {
+          "level": 4,
+          "key": "E"
+        },
+        {
+          "level": 5,
+          "key": "E"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "E"
+        },
+        {
+          "level": 8,
+          "key": "Q"
+        },
+        {
+          "level": 9,
+          "key": "E"
+        },
+        {
+          "level": 10,
+          "key": "Q"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "Q"
+        },
+        {
+          "level": 13,
+          "key": "Q"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "3865",
+          "name": "World Atlas"
+        },
+        {
+          "dd_id": "3876",
+          "name": "Solstice Sleigh"
+        },
+        {
+          "dd_id": "3020",
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "dd_id": "6653",
+          "name": "Liandry's Torment"
+        },
+        {
+          "dd_id": "3089",
+          "name": "Rabadon's Deathcap"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass",
+          "against": "contro diver focalizzati su di te (Pyke, Rell, Leona) — la stasi copre il channel visibile della R post-engage"
+        },
+        {
+          "dd_id": "3041",
+          "name": "Mejai's Soulstealer",
+          "against": "quando snowballi (vantaggio che cresce di kill in kill) con 3+ takedown entro il minuto 12 e il team avversario non ha hard CC mirato"
+        },
+        {
+          "dd_id": "3102",
+          "name": "Banshee's Veil",
+          "against": "contro hook support (Blitzcrank, Thresh, Pyke, Nautilus) e qualsiasi CC magico single-target che interrompe la R"
+        },
+        {
+          "dd_id": "3135",
+          "name": "Void Staff",
+          "against": "swap quando il carry avversario compra un item MR (di solito al 3°/4° item)"
+        }
+      ],
+      "base_combo": [
+        "W",
+        "E",
+        "R",
+        "Q"
+      ],
+      "win_condition": "Roama in side lane e flank intorno alla vision con W e travestimento. Centrata una R nascosta su due o più nemici, il team trade pulito grazie all'AOE knockup.",
+      "weakness": "Nessun CC mirato, nessuno scudo, nessun peel per l'ADC. Senza engage il valore crolla a poke; un nemico con hard CC affidabile chiude completamente la finestra di R."
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Neeko support è la variante engage del kit — engage significa aprire il fight saltandoci dentro e impegnando il team a seguirti. Invece di farmare AP coi last-hit in mid, raccogli oro da <strong>World Atlas</strong> e baratti il poke di <strong>Q</strong> (danno a distanza per logorare l'HP) con setup di vision sul river. Tutto il ruolo gira intorno a due strumenti — il travestimento e il clone di <strong>W</strong> — che ti permettono di organizzare flank engage da angolazioni che un support normale non raggiunge. Il soffitto è alto, il pavimento è duro: una <strong>E</strong> sbagliata in lane è harassment perso, una <strong>R</strong> visibile è una ulti sprecata.</p>\n<p>Il piano in bot lane parte dal livello 1: cammina in lane travestita dal jungler se la squadra te lo permette, imposta un cheese di livello 2 con la <strong>E</strong> attraverso la prima wave e minaccia una <strong>R</strong> precoce al livello 6. Dal minuto 8 in poi il tuo lavoro è priorità di roam — pulisci la vision, nasconditi in fog, ed engage di <strong>R</strong> sulle rotazioni. Quando Solstice Sleigh è online, ogni gank diventa slow esteso più AOE knockup, più lockdown di quanto la maggior parte dei support engage ottenga dall'intera build.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> World Atlas + 2 Health Potions. Stealth Ward come trinket di partenza, swap a Oracle Lens al minuto 14.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><strong>World Atlas → Solstice Sleigh</strong> — percorso item support principale. La passiva Snowfall di Solstice Sleigh procca su ogni CC che applichi, dando slow extra, HP e scudo all'alleato che bonki.</li>\n<li><strong>Sorcerer's Shoes</strong> — penetrazione magica fissa. Il tuo danno è abbastanza burst da preferire la pen flat agli stivali Ionian.</li>\n<li><strong>Liandry's Torment</strong> — la bruciatura scala con l'HP e il tuo AOE la applica su più target in una volta. L'HP ti tiene viva durante la parte visibile della <strong>R</strong>.</li>\n<li><strong>Rabadon's Deathcap</strong> — moltiplicatore late-game, da prendere quando la partita supera il minuto 25.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><strong>Zhonya's Hourglass</strong> — contro diver focalizzati su di te (Pyke, Rell, Leona). La stasi copre la parte visibile della <strong>R</strong> post-engage.</li>\n<li><strong>Mejai's Soulstealer</strong> — solo con 3+ takedown entro il minuto 12 e zero hard CC mirato avversario.</li>\n<li><strong>Banshee's Veil</strong> — contro hook support (Blitzcrank, Thresh, Pyke, Nautilus) e qualsiasi CC magico che interrompe la <strong>R</strong>.</li>\n<li><strong>Void Staff</strong> — quando il carry avversario compra un item MR (Magic Resist; riduce il danno magico ricevuto).</li>\n</ul>\n<p><strong>Stivali:</strong> Sorcerer's Shoes di default. Mobility Boots accettabili in composizioni dove il resto del team ha lockdown e a te serve solo roamare ed engagiare.</p>\n<p><strong>Skill order:</strong> Massimizza <strong>E</strong> per primo (l'affidabilità del CC è il tuo engage), <strong>Q</strong> per secondo (poke e supporto al waveclear), <strong>W</strong> per ultimo. Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Sorcery</strong> con <strong>Arcane Comet</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Scorch</strong>. Secondario <strong>Inspiration</strong> con <strong>Magical Footwear</strong> e <strong>Cosmic Insight</strong>. Aery accettabile in lane di poke pesante; <strong>Aftershock</strong> è sbagliato su Neeko perché la <strong>R</strong> rompe l'illusione prima che le resistenze bonus si attivino.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Blitzcrank:</strong> Stai fuori dai primi 1000 unità di lane finché <strong>W</strong> non è up. Manda un clone in avanti ogni volta che minaccia la <strong>Q</strong>; se hooka il clone, il suo cooldown è speso e puoi avanzare libera.</li>\n<li><strong>Leona:</strong> Matchup pari, deciso dalla wave state. Se ti cammina addosso, <strong>E</strong> attraverso la wave per il root esteso e segui con <strong>R</strong>. Non engagiare quando la wave è dalla loro parte.</li>\n<li><strong>Lulu / Janna (enchanter):</strong> Difficile lockdownare chiunque. Cerca i roam; in lane tieni la <strong>R</strong> per finestre di engage dopo che ti polymorphano o slowano.</li>\n<li><strong>Thresh:</strong> Matchup standard, ma il suo lantern salva i tuoi target di engage. Tempa la <strong>E</strong> in modo che colpisca dopo che il lantern è stato consumato, non prima.</li>\n<li><strong>Pyke:</strong> Resta vicino ai minion. La gittata della sua <strong>Q</strong> è più corta di quanto sembri; la vera minaccia è la sua <strong>R</strong> che finisce il tuo ADC. Compra Banshee's dopo Solstice Sleigh.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2:</strong> Con <strong>E</strong> più <strong>W</strong>, un cheese di livello 2 (un all-in anticipato al livello 2 per sorprendere il nemico prima che abbia la seconda abilità) è sul tavolo. Spingi la prima wave con <strong>Q</strong> sul percorso, prendi <strong>W</strong> al 2, manda un clone, <strong>E</strong> attraverso un minion appena salgono.</li>\n<li><strong>Livello 6:</strong> Prima <strong>Pop Blossom</strong>. Channel nascosto sotto travestimento trasforma le rotazioni standard in setup di kill. È la prima finestra di gank significativa.</li>\n<li><strong>Solstice Sleigh completo (~ minuto 14-16):</strong> Ogni CC che applichi procca Snowfall — slow extra sulla <strong>E</strong>, slow extra sul knockup di <strong>R</strong>, e un piccolo scudo sull'alleato bonkato. La pressione di roam sale di un livello.</li>\n<li><strong>Terzo item + livello 11 (~ minuto 22):</strong> Secondo punto in <strong>R</strong> abbassa il cooldown a 105 secondi. Puoi engagiare ogni fight obiettivo a ciclo.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Engagiare senza una via d'uscita.</strong> La <strong>R</strong> è un commit a senso unico. Se il team non è pronto a seguire — o se sei sola in fondo alla fog — l'AOE knockup ti scambia per niente. Aspetta un vantaggio numerico.</li>\n<li><strong>Cantare R fuori dalla passiva di W.</strong> Channel visibili vengono pre-CC'd da qualsiasi nemico decente. Travestiti sempre dalla passiva di <strong>W</strong> o dalla <strong>P</strong> vera prima di iniziare il channel di <strong>R</strong>.</li>\n<li><strong>Mandare W come dodge di panico.</strong> <strong>W</strong> è uno strumento di bait con 12 secondi di cooldown. Usalo per setup, non come \"clone, scappo\" — quel pattern viene letto all'istante e sprechi l'unica mobilità che hai.</li>\n<li><strong>Saltare la vision per roam veloci.</strong> Un roam nudo senza Control Ward nella loro jungle è il modo in cui cammini dentro un counter-gank. Sweep, ward, poi travestimento; mai l'inverso.</li>\n<li><strong>Travestirsi dall'alleato sbagliato.</strong> Un jungler che appare come tuo doppio su una lane in slow-push è plausibile. Un bot laner in base, recall annullato, no. Travestimenti improbabili vengono pingati a vista.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>La <strong>R</strong>-flash è il trick a leva più alta: inizia il channel di <strong>Pop Blossom</strong> appena fuori dalla portata del leap, poi <strong>Flash</strong> negli ultimi 0.25 secondi. Il leap parte dalla posizione post-Flash, estendendo la portata di engage di circa un terzo. Combinato col travestimento della passiva di <strong>W</strong> — per esempio, camminare in lane travestita dall'ADC — la seconda wave a livello 6 diventa un engage non reagibile che la bot lane avversaria non ha informazioni per leggere.</p>",
+    "word_count": 1069,
+    "available_patches": [
+      "14.10"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "blitzcrank-support",
+        "champion": "blitzcrank",
+        "role": "support"
+      },
+      {
+        "slug": "braum-support",
+        "champion": "braum",
+        "role": "support"
+      },
+      {
+        "slug": "janna-support",
+        "champion": "janna",
+        "role": "support"
+      },
+      {
+        "slug": "karma-support",
+        "champion": "karma",
+        "role": "support"
+      },
+      {
+        "slug": "leona-support",
+        "champion": "leona",
+        "role": "support"
+      }
+    ]
+  },
+  {
+    "slug": "neeko-top",
+    "title": "Neeko Top Build & Guida — Patch 14.10",
+    "language": "it",
+    "patch": "14.10",
+    "champion": "neeko",
+    "role": "top",
+    "last_updated": "2026-04-27",
+    "description": "Guida Neeko top lane per League of Legends Patch 14.10: build AP bruiser con Riftmaker, tattiche da pick di nicchia, matchup chiave, power spike ed errori comuni.",
+    "quick_learn": {
+      "champion_dd_id": "Neeko",
+      "difficulty": 3,
+      "damage_type": "magic",
+      "champion_class": "Mage / Bruiser",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Inherent Glamour",
+          "description": "Travestiti da campione alleato. Ricevere danno dai nemici o lanciare spell con danno rompe l'illusione.",
+          "dd_spell_id": "Neeko_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Blooming Burst",
+          "description": "Lancia un seme che esplode all'impatto, e di nuovo se colpisce un campione o uccide un'unità. Waveclear e danno principale in lane.",
+          "dd_spell_id": "NeekoQ"
+        },
+        {
+          "key": "W",
+          "name": "Shapesplitter",
+          "description": "Passiva: la terza auto-attack infligge danno magico bonus. Attiva: invia un clone per baitare skillshot e disengage.",
+          "dd_spell_id": "NeekoW"
+        },
+        {
+          "key": "E",
+          "name": "Tangle-Barbs",
+          "description": "Skillshot lineare di root. Diventa più largo, veloce e roota più a lungo se uccide un'unità o passa prima su un campione.",
+          "dd_spell_id": "NeekoE"
+        },
+        {
+          "key": "R",
+          "name": "Pop Blossom",
+          "description": "Channel che termina con un salto e un AOE knockup. Il channel è nascosto sotto la passiva di W o la P — il tuo strumento di engage e flank.",
+          "dd_spell_id": "NeekoR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "1056",
+          "name": "Doran's Ring"
+        },
+        {
+          "dd_id": "4633",
+          "name": "Riftmaker"
+        },
+        {
+          "dd_id": "3020",
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "dd_id": "3089",
+          "name": "Rabadon's Deathcap"
+        },
+        {
+          "dd_id": "4629",
+          "name": "Cosmic Drive"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass",
+          "against": "contro AD assassini/diver (Camille, Fiora, Pantheon). La stasi è 2.5s di invulnerabilità: ti compra tempo quando hanno bruciato i cooldown"
+        },
+        {
+          "dd_id": "3047",
+          "name": "Plated Steelcaps",
+          "against": "contro squadre full-AD (es. Renekton top + Jhin + Zed). Sostituisci i Sorcerer's Shoes con questi quando 4 nemici su 5 fanno danno fisico"
+        },
+        {
+          "dd_id": "3102",
+          "name": "Banshee's Veil",
+          "against": "contro CC magico single-target che cancella la R (Lissandra R, Ryze stun, Rumble equalizer). Protegge la finestra di engage"
+        },
+        {
+          "dd_id": "3135",
+          "name": "Void Staff",
+          "against": "swap quando 2+ target avversari comprano un item MR (Magic Resist; riduce il danno magico)"
+        }
+      ],
+      "base_combo": [
+        "W",
+        "E",
+        "Q",
+        "R"
+      ],
+      "win_condition": "Sopravvivi alla lane fino al 2° item, poi raggruppati col team e flanka (entra nel fight da un'angolazione laterale) col travestimento. Riftmaker trasforma il tuo danno AOE in cura sostenuta nei fight lunghi.",
+      "weakness": "Pick di nicchia che perde lane contro bruiser pesanti (Darius, Garen, Sett). Niente dash, niente scudo: se non baiti un'abilità con il clone W, mangi i trade pieni."
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Neeko top è una pick di nicchia — significa che non si gioca abitualmente in questo ruolo e gran parte degli avversari non saprà cosa aspettarsi. Il prezzo è reale: perde i trade lunghi contro i bruiser pesanti (campioni costruiti per combattere corpo a corpo per molti secondi), quindi l'early game è sopravvivere, non vincere lane. Il valore vero arriva online quando hai Riftmaker e puoi unirti ai teamfight come AP bruiser (un campione che mescola danno magico ad abbastanza HP e cure per restare nel fight più a lungo di un mago classico).</p>\n<p>Il piano in top si divide in tre fasi. Livelli 1-5 sono damage control: pulisci la wave con il double-bloom di <strong>Q</strong> (la seconda esplosione che parte quando la <strong>Q</strong> colpisce un campione o uccide un minion), tieni la <strong>E</strong> come pulsante d'emergenza per i gank (imboscate del jungler dal river), ed evita scambi auto-attack contro bruiser melee. Livelli 6-11 sei alla ricerca di flank di <strong>R</strong> dall'altra parte della mappa — hai una pressione mappa che un Garen o un Sett non hanno. Dopo il livello 12, raggruppati col team. La prio di lane (priority — controllo della lane sufficiente a roamare senza perdere CS o piastre torre) diventa secondaria al setup di teamfight.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> Doran's Ring + 2 Health Potions. Evita Doran's Shield: il regen non compete con lo scaling AP del Doran's Ring per il danno della <strong>Q</strong> in lane.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><strong>Doran's Ring</strong> — starter. AP bonus e mana regen per spammare la <strong>Q</strong> in lane.</li>\n<li><strong>Riftmaker</strong> — item principale. Spike da AP bruiser: HP, AP, omnivamp (cura su tutto il danno che infliggi) e un'amplificazione di danno che cresce mentre il fight si allunga. Perfetto per l'AOE di Neeko nei teamfight prolungati.</li>\n<li><strong>Sorcerer's Shoes</strong> — penetrazione magica fissa; gli squishy che flanki raramente hanno MR prima del minuto 25.</li>\n<li><strong>Rabadon's Deathcap</strong> — moltiplicatore AP late-game, lo slot più alto.</li>\n<li><strong>Cosmic Drive</strong> — AP, ability haste, movement speed; la velocità extra si combina con il sustain di <strong>Riftmaker</strong> e ti rende una minaccia in roaming dal minuto 25-30.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><strong>Zhonya's Hourglass</strong> — contro AD assassini e diver (campioni che saltano sulla back line: Camille, Fiora, Pantheon). La stasi è una invulnerabilità di 2.5 secondi che ti blocca sul posto — ti salva mentre i loro cooldown rientrano.</li>\n<li><strong>Plated Steelcaps</strong> — contro squadre full-AD. Scambia i Sorcerer's Shoes con questi quando 4 nemici su 5 fanno danno fisico.</li>\n<li><strong>Banshee's Veil</strong> — contro CC magico single-target che annulla il channel della <strong>R</strong> (Lissandra <strong>R</strong>, Ryze stun, Rumble equalizer).</li>\n<li><strong>Void Staff</strong> — quando 2+ target avversari comprano un item MR.</li>\n</ul>\n<p><strong>Stivali:</strong> Sorcerer's Shoes di default. Mercury's Treads se il team avversario ha 2+ fonti di hard CC (stun, charm, fear, knockup) e devi assolutamente atterrare la <strong>R</strong> in teamfight.</p>\n<p><strong>Skill order:</strong> Massimizza <strong>Q</strong> per primo (waveclear e DPS), <strong>E</strong> per secondo (utility root), <strong>W</strong> per ultimo. Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Sorcery</strong> con <strong>Phase Rush</strong> (un burst di movement speed che procca dopo tre attacchi/abilità — perfetto per kitare i bruiser), <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Scorch</strong>. Secondario <strong>Resolve</strong> con <strong>Conditioning</strong> e <strong>Overgrowth</strong> per gli HP extra che fanno valere il sustain di Riftmaker.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Darius:</strong> Counter pesante. Ti supera negli scambi melee e la cura della sua <strong>Q</strong> mangia il tuo danno. Stai indietro, pusha <strong>Q</strong> alla distanza minima e chiama il jungler al livello 6. Non engagiare anche se sembra basso — la sua passiva (sanguinamento) e il reset della <strong>R</strong> ti cancellano.</li>\n<li><strong>Garen:</strong> Pari/difficile. Spingi la wave veloce con il double-bloom di <strong>Q</strong> e roama in mid; hai pressione mappa con la <strong>R</strong> che lui non ha. Evita 1v1 prolungati — il silenzio della sua <strong>W</strong> cancella il channel della tua <strong>R</strong>.</li>\n<li><strong>Renekton:</strong> Difficile pre-6 per il suo doppio stun rapido. Tieni la <strong>E</strong> per il dash della sua <strong>W</strong>, poi cammina via. Post-6 la tua <strong>R</strong> è nascosta sotto travestimento; quella è la tua finestra di kill.</li>\n<li><strong>Camille:</strong> Lane difficile ma ottimo matchup-of-pick quando lei roama a mid. Tieni il clone <strong>W</strong> per il suo hookshot <strong>E</strong> — baitalo col clone, poi <strong>E</strong> root attraverso la wave quando il dash è in cooldown.</li>\n<li><strong>Sett:</strong> Lane difficile, teamfight pesante. Tieni distanza, spingi wave veloci ed evita di farti afferrare dallo stun della sua <strong>W</strong>. Compra Banshee's Veil se ti ulta fuori posizione.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 3:</strong> <strong>Q-W-E</strong> sbloccati. Non è una finestra di kill in questi matchup, ma abbastanza per baitare un'abilità del bruiser con il clone <strong>W</strong> e tradare in sicurezza con il double-bloom di <strong>Q</strong>.</li>\n<li><strong>Livello 6:</strong> Prima <strong>Pop Blossom</strong>. Channel nascosto sotto travestimento trasforma le rotazioni standard in setup di kill — la prima finestra di flank di <strong>R</strong> dall'altra parte della mappa (saltare in un fight da una direzione che il nemico non sta guardando).</li>\n<li><strong>Riftmaker completo (~ minuto 16-18):</strong> Power spike. AP, HP e omnivamp arrivano insieme. Passi da \"sopravvivere alla lane\" a \"cercare i teamfight\".</li>\n<li><strong>Livello 11 + 2 item (~ minuto 22):</strong> Secondo punto in <strong>R</strong>. Con il sustain di Riftmaker (cura sul danno AOE), puoi engagiare un 5v5, baitare i dive e outhealare il danno sostenuto in mezzo al fight.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Cercare di vincere lane contro i bruiser.</strong> Top su Neeko è una lane di sopravvivenza, non di kill. Pusha <strong>Q</strong> sulla wave, last-hitta con le auto a distanza massima e accetta di perdere 5-10 CS per evitare di morire.</li>\n<li><strong>Cantare R allo scoperto.</strong> Un channel visibile annuncia il leap un secondo intero in anticipo. Travestiti sempre dalla passiva di <strong>W</strong> (o dalla <strong>P</strong> vera) prima di iniziare la <strong>R</strong>, o canta da dentro un brush.</li>\n<li><strong>Mandare W per inseguire, non per baitare.</strong> <strong>W</strong> è il tuo unico strumento di mobilità. Sprecarlo per chiudere una kill che non c'era ti lascia bloccata quando arriva il jungler avversario. Usa <strong>W</strong> prima per scappare dai gank, poi per baitare skillshot, e per inseguire solo quando la kill è certa.</li>\n<li><strong>Buildare come un mage da mid.</strong> Luden's Companion è l'item sbagliato per il top. Non hai priorità di lane e il tuo lavoro è teamfightare; gli HP e il sustain di Riftmaker valgono più del burst.</li>\n<li><strong>Saltare il flank di R per engage da manuale.</strong> L'unico motivo per giocare Neeko top è il flank dall'altra parte della mappa — entrare nel fight da un'angolazione che il nemico non vede arrivare. Raggrupparsi di default col team annulla l'unico vantaggio della pick.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena la <strong>R</strong>-flash. Inizia il channel di <strong>Pop Blossom</strong> appena fuori dalla portata del leap, poi <strong>Flash</strong> negli ultimi 0.25 secondi. Il leap parte dalla posizione post-Flash, estendendo il raggio AOE effettivo di circa un terzo. Combinato con il travestimento della passiva di <strong>W</strong> — per esempio, camminare verso un teamfight travestita da un compagno già in posizione — ogni prima <strong>R</strong> in fight diventa un engage non reagibile su più target in una volta.</p>",
+    "word_count": 1168,
+    "available_patches": [
+      "14.10"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "aatrox-top",
+        "champion": "aatrox",
+        "role": "top"
+      },
+      {
+        "slug": "darius-top",
+        "champion": "darius",
+        "role": "top"
+      },
+      {
+        "slug": "fiora-top",
+        "champion": "fiora",
+        "role": "top"
+      },
+      {
+        "slug": "garen-top",
+        "champion": "garen",
+        "role": "top"
+      },
+      {
+        "slug": "irelia-top",
+        "champion": "irelia",
+        "role": "top"
+      }
+    ]
   }
 ];

@@ -304,7 +304,11 @@ function SuccessBranch(props: {
         {insufficient ? (
           <TierListEmpty role={props.role} patch={payload.patch} lang={props.lang} />
         ) : (
-          <TierListTable tiers={payload.tiers} />
+          <TierListTable
+            tiers={payload.tiers}
+            lang={props.lang as 'en' | 'it'}
+            currentRole={props.role}
+          />
         )}
 
         <RiotDisclaimer />

@@ -6,6 +6,7 @@ const zh = {
   'nav.faq': '常见问题',
   'nav.community': '社区',
   'nav.about': '关于我们',
+  'nav.guides': '攻略',
   'nav.blog': '博客',
 
   // Meta (per-page SEO)
@@ -898,6 +899,8 @@ const zh = {
   'wp30.tier_list.table.tier_b_label': 'B-tier',
   'wp30.tier_list.table.tier_c_label': 'C-tier',
   'wp30.tier_list.table.tier_d_label': 'D-tier',
+  'wp30.tier_list.table.guide_link_label': '攻略',
+  'wp30.tier_list.table.guide_link_aria': '阅读{champion}攻略',
 
   // wp30.tier_list.empty.* (4 keys)
   'wp30.tier_list.empty.heading': 'No data yet for this combination',

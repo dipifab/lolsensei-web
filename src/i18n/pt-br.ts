@@ -6,6 +6,7 @@ const ptBr = {
   'nav.faq': 'FAQ',
   'nav.community': 'Comunidade',
   'nav.about': 'Sobre',
+  'nav.guides': 'Guias',
   'nav.blog': 'Blog',
 
   // Meta (per-page SEO)
@@ -901,6 +902,8 @@ const ptBr = {
   'wp30.tier_list.table.tier_b_label': 'B-tier',
   'wp30.tier_list.table.tier_c_label': 'C-tier',
   'wp30.tier_list.table.tier_d_label': 'D-tier',
+  'wp30.tier_list.table.guide_link_label': 'Guia',
+  'wp30.tier_list.table.guide_link_aria': 'Ler o guia de {champion}',
 
   // wp30.tier_list.empty.* (4 keys)
   'wp30.tier_list.empty.heading': 'No data yet for this combination',

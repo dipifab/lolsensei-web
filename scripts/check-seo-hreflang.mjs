@@ -97,6 +97,9 @@ function isTwoLocaleRoute(pathLike) {
   // WP35 (CR-053): champion guides EN+IT only per DEC-7 (other locales fall
   // back to default landing). Match `/champion/<slug>/<page>` nested routes.
   if (p.includes('/champion/')) return true;
+  // CR-054 (WP35.2): hub root `/<lang>/champion` (no trailing slash) is also
+  // EN+IT only. Match `/champion`, `/champion/`, `/champion?...`, `/champion.html`.
+  if (/\/champion(\/|\.html|\?|$)/.test(p)) return true;
   return false;
 }
 
