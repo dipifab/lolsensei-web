@@ -13,6 +13,9 @@ const NAV_KEYS = [
   { key: 'nav.faq', path: '/faq' },
   { key: 'nav.community', path: '/community' },
   { key: 'nav.about', path: '/about' },
+  // CR-054 (WP35.2): Guide hub. Indexed only in EN+IT (DEC-7); other
+  // locales follow the same href and the route Navigates to the home.
+  { key: 'nav.guides', path: '/champion' },
   { key: 'nav.blog', path: '/blog' },
 ] as const;
 

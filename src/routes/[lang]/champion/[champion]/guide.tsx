@@ -171,6 +171,10 @@ export default function ChampionGuideRoute() {
                 items={[
                   { name: t('breadcrumbs.home'), path: '/' },
                   {
+                    name: t('wp35.hub.breadcrumb_label'),
+                    path: '/champion',
+                  },
+                  {
                     name: capitalize(current.champion),
                     path: `/champion/${current.champion}/guide`,
                   },
@@ -182,6 +186,10 @@ export default function ChampionGuideRoute() {
                   {
                     label: t('breadcrumbs.home'),
                     href: `/${current.language}/`,
+                  },
+                  {
+                    label: t('wp35.hub.breadcrumb_label'),
+                    href: `/${current.language}/champion`,
                   },
                   { label: capitalize(current.champion) },
                 ]}

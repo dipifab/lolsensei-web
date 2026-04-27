@@ -391,17 +391,74 @@ function emitTsModule(lang, guides) {
   ].join('\n');
 }
 
+// WP35.2 (CR-054): hub index. Flat list of unique (champion, role) tuples
+// with per-locale metadata. Consumed by ChampionGuidesHub for client-side
+// search + filters. Emits a deterministic JSON (sorted entries, sorted keys)
+// so re-runs are byte-identical.
+function buildHubIndex(guidesByLang) {
+  const map = new Map(); // key `${champion}-${role}` → entry
+  for (const lang of LANGS) {
+    const guides = guidesByLang[lang] ?? [];
+    for (const g of guides) {
+      const key = `${g.champion}-${g.role}`;
+      if (!map.has(key)) {
+        map.set(key, {
+          slug: key,
+          champion: g.champion,
+          role: g.role,
+          locales: {},
+        });
+      }
+      const entry = map.get(key);
+      entry.locales[lang] = {
+        title: g.title,
+        description: g.description,
+        patch: g.patch,
+        last_updated: g.last_updated,
+        // CR-053 Quick Learn fields, all optional. Hub uses these for
+        // filters; absent values fall into the "unknown" filter bucket so
+        // pre-CR-053 guides still surface in the hub.
+        champion_class: g.quick_learn?.champion_class ?? null,
+        difficulty: g.quick_learn?.difficulty ?? null,
+        damage_type: g.quick_learn?.damage_type ?? null,
+        champion_dd_id: g.quick_learn?.champion_dd_id ?? null,
+      };
+    }
+  }
+  const entries = [...map.values()].sort((a, b) => {
+    if (a.champion !== b.champion) return a.champion.localeCompare(b.champion);
+    return a.role.localeCompare(b.role);
+  });
+  return {
+    generated_at: new Date().toISOString().slice(0, 10),
+    guides: entries,
+  };
+}
+
 async function main() {
   await mkdir(OUTPUT_DIR, { recursive: true });
   const top50 = await loadTop50();
   let totalGuides = 0;
+  const guidesByLang = {};
   for (const lang of LANGS) {
     const guides = await compileLanguage(lang, top50);
     const out = emitTsModule(lang, guides);
     await writeFile(resolve(OUTPUT_DIR, `${lang}.ts`), out, 'utf8');
     console.log(`[compile-content] ${lang}: ${guides.length} guide(s) emitted`);
+    guidesByLang[lang] = guides;
     totalGuides += guides.length;
   }
+  // CR-054: hub index. JSON instead of TS because consumed at runtime by
+  // hub component and at build-time by sitemap script — JSON is portable.
+  const hubIndex = buildHubIndex(guidesByLang);
+  await writeFile(
+    resolve(OUTPUT_DIR, 'index.json'),
+    JSON.stringify(hubIndex, null, 2),
+    'utf8',
+  );
+  console.log(
+    `[compile-content] hub index: ${hubIndex.guides.length} unique (champion, role) entr(y/ies) emitted`,
+  );
   console.log(`[compile-content] done: ${totalGuides} total guide(s).`);
 }
 

@@ -1241,6 +1241,26 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/tier-list?role=support" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/tier-list?role=support" />
   </url>
+  <!-- champion-hub: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion" />
+  </url>
+  <!-- champion-hub: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion" />
+  </url>
   <!-- champion-guide/garen: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/garen/guide</loc>

@@ -147,6 +147,36 @@ if (PUBLIC_PAGES_ENABLED) {
 }
 
 // ---------------------------------------------------------------------------
+// CR-054 (WP35.2) — Champion Guides Hub.
+//
+// Two-locale (EN+IT) page that lists all guide cards with search and filters.
+// Same locale set as champion-guide detail pages (DEC-7) and tier-list root.
+// `<priority>` 0.8 (peer of tier-list root), `<changefreq>weekly</changefreq>`
+// since the underlying dataset grows as new guides are produced.
+// ---------------------------------------------------------------------------
+
+const WP35_HUB_LOCALES = ['en', 'it'];
+
+function championHubUrl(locale) {
+  return `${BASE}/${locale}/champion`;
+}
+
+function buildChampionHubEntry(locale) {
+  const loc = championHubUrl(locale);
+  const alternates = WP35_HUB_LOCALES.map(
+    (l) => `    <xhtml:link rel="alternate" hreflang="${hreflangFor(l)}" href="${championHubUrl(l)}" />`,
+  ).join('\n');
+  const xDefault = `    <xhtml:link rel="alternate" hreflang="x-default" href="${championHubUrl(DEFAULT_LOCALE)}" />`;
+  return `  <!-- champion-hub: ${locale} -->\n  <url>\n    <loc>${loc}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n${alternates}\n${xDefault}\n  </url>`;
+}
+
+if (PUBLIC_PAGES_ENABLED) {
+  for (const locale of WP35_HUB_LOCALES) {
+    entries.push(buildChampionHubEntry(locale));
+  }
+}
+
+// ---------------------------------------------------------------------------
 // WP35.1 (CR-053) — Champion guides entries.
 //
 // Auto-discovery: scansiona `content/champions/{en,it}/*.md` ed emette per

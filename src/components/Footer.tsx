@@ -40,6 +40,9 @@ export default function Footer() {
           <A href={localizedHref('/community')} class={linkClass}>
             {t('nav.community')}
           </A>
+          <A href={localizedHref('/champion')} class={linkClass}>
+            {t('nav.guides')}
+          </A>
           <A href={localizedHref('/contact')} class={linkClass}>
             {t('footer.contact')}
           </A>

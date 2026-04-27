@@ -6,6 +6,7 @@ const es = {
   'nav.faq': 'FAQ',
   'nav.community': 'Comunidad',
   'nav.about': 'Sobre Nosotros',
+  'nav.guides': 'Guías',
   'nav.blog': 'Blog',
 
   // Meta (per-page SEO)
@@ -898,6 +899,8 @@ const es = {
   'wp30.tier_list.table.tier_b_label': 'B-tier',
   'wp30.tier_list.table.tier_c_label': 'C-tier',
   'wp30.tier_list.table.tier_d_label': 'D-tier',
+  'wp30.tier_list.table.guide_link_label': 'Guía',
+  'wp30.tier_list.table.guide_link_aria': 'Lee la guía de {champion}',
 
   // wp30.tier_list.empty.* (4 keys)
   'wp30.tier_list.empty.heading': 'No data yet for this combination',

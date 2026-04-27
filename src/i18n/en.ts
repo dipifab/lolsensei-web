@@ -6,6 +6,7 @@ const en = {
   'nav.faq': 'FAQ',
   'nav.community': 'Community',
   'nav.about': 'About',
+  'nav.guides': 'Guides',
   'nav.blog': 'Blog',
 
   // Meta (per-page SEO)
@@ -913,6 +914,9 @@ const en = {
   'wp30.tier_list.table.tier_b_label': 'B-tier',
   'wp30.tier_list.table.tier_c_label': 'C-tier',
   'wp30.tier_list.table.tier_d_label': 'D-tier',
+  // CR-054 (WP35.2) tier-list → guide cross-link
+  'wp30.tier_list.table.guide_link_label': 'Guide',
+  'wp30.tier_list.table.guide_link_aria': 'Read the {champion} guide',
 
   // wp30.tier_list.empty.* (4 keys)
   'wp30.tier_list.empty.heading': 'No data yet for this combination',
@@ -1225,6 +1229,53 @@ const en = {
   'wp35.champion_guide.not_found.description': 'We could not find the requested champion guide.',
   'wp35.champion_guide.not_found.suggest_latest': 'View the latest guide for {champion}',
   'wp35.champion_guide.not_found.suggest_back': 'Back to home',
+  // CR-054 (WP35.2) — Champion Guides Hub
+  'wp35.hub.meta.title': 'Champion Guides — Tactical Playbooks | LoL Sensei',
+  'wp35.hub.meta.description':
+    'Browse League of Legends champion guides written by humans and verified against Riot Data Dragon. Search by name, filter by role, class, difficulty, and damage type.',
+  'wp35.hub.heading': 'Champion Guides',
+  'wp35.hub.subtitle':
+    'Tactical playbooks for the top champions, written by humans and verified against patch data.',
+  'wp35.hub.counter': 'Showing {shown} of {total} guides',
+  'wp35.hub.breadcrumb_label': 'Champion guides',
+  'wp35.hub.empty.title': 'No guides match these filters',
+  'wp35.hub.empty.body':
+    'Try removing a filter or clearing the search to see more guides.',
+  'wp35.hub.empty.cta_clear': 'Clear filters and search',
+  'wp35.hub.card.cta_read': 'Read guide',
+  'wp35.hub.card.coming_soon': 'Guide coming soon',
+  'wp35.hub.card.coming_soon_aria': '{champion} guide coming soon',
+  'wp35.hub.card.portrait_alt': '{champion} portrait',
+  'wp35.hub.card.damage_label': '{type} damage',
+  // Search
+  'wp35.hub.search.placeholder': 'Search a champion…',
+  'wp35.hub.search.aria_label': 'Search champions',
+  'wp35.hub.search.section_label': 'Champions',
+  'wp35.hub.search.hint_navigate': '↑↓ to navigate',
+  'wp35.hub.search.hint_open': '↵ to open guide',
+  'wp35.hub.search.hint_close': 'Esc to close',
+  // Filters
+  'wp35.hub.filters.aria_label': 'Filter guides',
+  'wp35.hub.filters.role_label': 'Role',
+  'wp35.hub.filters.class_label': 'Class',
+  'wp35.hub.filters.difficulty_label': 'Difficulty',
+  'wp35.hub.filters.damage_label': 'Damage',
+  'wp35.hub.filters.clear_all': 'Clear filters',
+  'wp35.hub.filters.role.top': 'Top',
+  'wp35.hub.filters.role.jungle': 'Jungle',
+  'wp35.hub.filters.role.mid': 'Mid',
+  'wp35.hub.filters.role.bot': 'Bot',
+  'wp35.hub.filters.role.support': 'Support',
+  'wp35.hub.filters.class.mage': 'Mage',
+  'wp35.hub.filters.class.tank': 'Tank',
+  'wp35.hub.filters.class.fighter': 'Fighter',
+  'wp35.hub.filters.class.marksman': 'Marksman',
+  'wp35.hub.filters.class.support': 'Support',
+  'wp35.hub.filters.class.assassin': 'Assassin',
+  'wp35.hub.filters.damage.magic': 'Magic',
+  'wp35.hub.filters.damage.physical': 'Physical',
+  'wp35.hub.filters.damage.mixed': 'Mixed',
+  'wp35.hub.filters.damage.true': 'True',
   // Esports meta (3)
   'wp35.esports.meta.title': 'LoL Esports Schedule & Results — Live Matches | LoL Sensei',
   'wp35.esports.meta.description': 'View upcoming and recent League of Legends esports matches across major leagues. Updated hourly via Leaguepedia.',

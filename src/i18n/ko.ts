@@ -6,6 +6,7 @@ const ko = {
   'nav.faq': 'FAQ',
   'nav.community': '커뮤니티',
   'nav.about': '소개',
+  'nav.guides': '가이드',
   'nav.blog': '블로그',
 
   // Meta (per-page SEO)
@@ -898,6 +899,8 @@ const ko = {
   'wp30.tier_list.table.tier_b_label': 'B-tier',
   'wp30.tier_list.table.tier_c_label': 'C-tier',
   'wp30.tier_list.table.tier_d_label': 'D-tier',
+  'wp30.tier_list.table.guide_link_label': '가이드',
+  'wp30.tier_list.table.guide_link_aria': '{champion} 가이드 읽기',
 
   // wp30.tier_list.empty.* (4 keys)
   'wp30.tier_list.empty.heading': 'No data yet for this combination',
