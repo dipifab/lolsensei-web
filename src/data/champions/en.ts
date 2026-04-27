@@ -228,6 +228,28 @@ export const enChampions: ChampionGuide[] = [
           "name": "Rabadon's Deathcap"
         }
       ],
+      "situational_items": [
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass",
+          "against": "vs divers and assassins (Zed, Diana, Talon, Akali) — stasis saves your R combo follow-up"
+        },
+        {
+          "dd_id": "3102",
+          "name": "Banshee's Veil",
+          "against": "vs single-target magic CC (Ahri charm, Lissandra R, Twisted Fate stun)"
+        },
+        {
+          "dd_id": "3165",
+          "name": "Morellonomicon",
+          "against": "vs healing-stacking comps (Soraka mid, Vladimir, Dr. Mundo top)"
+        },
+        {
+          "dd_id": "3135",
+          "name": "Void Staff",
+          "against": "swap when any priority target buys a Magic Resist item"
+        }
+      ],
       "base_combo": [
         "E",
         "Q",

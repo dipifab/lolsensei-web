@@ -205,6 +205,24 @@ function lintQuickLearn(file, ql) {
       }
     }
   }
+  if (ql.situational_items !== undefined) {
+    if (!Array.isArray(ql.situational_items) || ql.situational_items.length < 2 || ql.situational_items.length > 6) {
+      fail(file, `quick_learn.situational_items: array of [2, 6] entries`);
+    } else {
+      for (let i = 0; i < ql.situational_items.length; i++) {
+        const it = ql.situational_items[i];
+        if (typeof it?.dd_id !== 'string' || !/^\d{3,5}$/.test(it.dd_id)) {
+          fail(file, `quick_learn.situational_items[${i}].dd_id: numeric string 3-5 digits`);
+        }
+        if (typeof it?.name !== 'string' || it.name.length < 2 || it.name.length > 40) {
+          fail(file, `quick_learn.situational_items[${i}].name: string in [2, 40]`);
+        }
+        if (typeof it?.against !== 'string' || it.against.length < 5 || it.against.length > 140) {
+          fail(file, `quick_learn.situational_items[${i}].against: string in [5, 140]`);
+        }
+      }
+    }
+  }
   if (!Array.isArray(ql.base_combo) || ql.base_combo.length < 2 || ql.base_combo.length > 8) {
     fail(file, `quick_learn.base_combo: array of [2, 8] short tokens`);
   } else {

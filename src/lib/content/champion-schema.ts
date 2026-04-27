@@ -75,6 +75,14 @@ export const CoreItemSchema = z.object({
   name: z.string().min(2).max(40),
 });
 
+// Situational item: come CoreItem ma con `against` (trigger di acquisto).
+// Es. against = "vs divers/assassins (Zed, Diana, Talon, Akali)".
+export const SituationalItemSchema = z.object({
+  dd_id: z.string().regex(/^\d{3,5}$/),
+  name: z.string().min(2).max(40),
+  against: z.string().min(5).max(140),
+});
+
 export const ChampionClassSchema = z.string().min(3).max(40);
 export const DamageTypeSchema = z.enum(['magic', 'physical', 'mixed', 'true']);
 export const DifficultySchema = z.number().int().min(1).max(5);
@@ -88,6 +96,8 @@ export const QuickLearnSchema = z.object({
   abilities: z.array(QuickLearnAbilitySchema).length(5),
   skill_order: z.array(SkillOrderEntrySchema).length(18),
   core_items: z.array(CoreItemSchema).min(3).max(6),
+  /** Situational item swaps (opzionale). Quando presente, min 2 max 6. */
+  situational_items: z.array(SituationalItemSchema).min(2).max(6).optional(),
   base_combo: z.array(z.string().min(1).max(8)).min(2).max(8),
   win_condition: z.string().min(20).max(220),
   weakness: z.string().min(20).max(220),
@@ -120,4 +130,5 @@ export type AbilityKey = z.infer<typeof AbilityKeySchema>;
 export type QuickLearnAbility = z.infer<typeof QuickLearnAbilitySchema>;
 export type SkillOrderEntry = z.infer<typeof SkillOrderEntrySchema>;
 export type CoreItem = z.infer<typeof CoreItemSchema>;
+export type SituationalItem = z.infer<typeof SituationalItemSchema>;
 export type QuickLearn = z.infer<typeof QuickLearnSchema>;

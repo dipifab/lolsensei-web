@@ -1200,6 +1200,7 @@ const it = {
   'wp35.champion_guide.quick_learn.skill_order': 'Ordine Skill',
   'wp35.champion_guide.quick_learn.combo': 'Combo Principale',
   'wp35.champion_guide.quick_learn.core_items': 'Oggetti Core',
+  'wp35.champion_guide.quick_learn.situational_items': 'Oggetti Situazionali',
   'wp35.champion_guide.quick_learn.win_condition': 'Condizione di Vittoria',
   'wp35.champion_guide.quick_learn.weakness': 'Punto Debole',
   // Patch badge + last updated (4)

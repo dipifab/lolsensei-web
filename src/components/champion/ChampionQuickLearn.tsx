@@ -117,6 +117,7 @@ export function ChampionQuickLearn(
     skill_order: t('wp35.champion_guide.quick_learn.skill_order'),
     combo: t('wp35.champion_guide.quick_learn.combo'),
     core_items: t('wp35.champion_guide.quick_learn.core_items'),
+    situational_items: t('wp35.champion_guide.quick_learn.situational_items'),
     win_condition: t('wp35.champion_guide.quick_learn.win_condition'),
     weakness: t('wp35.champion_guide.quick_learn.weakness'),
   };
@@ -326,6 +327,50 @@ export function ChampionQuickLearn(
           </div>
         </div>
       </div>
+
+      {/* Situational items (opzionale) */}
+      <Show when={props.data.situational_items}>
+        {(items) => (
+          <div class="mb-8">
+            <h3 class="text-[10px] text-on-surface-variant/70 font-bold tracking-widest uppercase mb-3">
+              {labels.situational_items}
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+              <For each={items()}>
+                {(item) => (
+                  <div class="flex items-start gap-3 bg-surface-container-low border border-outline-variant/20 rounded-lg p-3">
+                    <div
+                      class="relative w-10 h-10 shrink-0 bg-surface-bright rounded border border-outline-variant/50 overflow-hidden"
+                      title={item.name}
+                      aria-label={item.name}
+                    >
+                      <span
+                        class="absolute inset-0 flex items-center justify-center text-[10px] text-on-surface-variant/60 font-bold"
+                        aria-hidden="true"
+                      >
+                        {item.name.slice(0, 3).toUpperCase()}
+                      </span>
+                      {imgWithFallback({
+                        src: itemIconUrl(item.dd_id, props.patch),
+                        alt: item.name,
+                        classes: '',
+                      })}
+                    </div>
+                    <div class="min-w-0 flex-1">
+                      <div class="text-sm font-bold text-on-surface leading-snug">
+                        {item.name}
+                      </div>
+                      <div class="text-xs text-on-surface-variant/85 mt-1 leading-snug">
+                        {item.against}
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </For>
+            </div>
+          </div>
+        )}
+      </Show>
 
       {/* Win condition + Weakness */}
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">

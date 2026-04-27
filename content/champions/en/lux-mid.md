@@ -57,6 +57,19 @@ quick_learn:
     - { dd_id: "3020", name: "Sorcerer's Shoes" }
     - { dd_id: "4645", name: "Shadowflame" }
     - { dd_id: "3089", name: "Rabadon's Deathcap" }
+  situational_items:
+    - dd_id: "3157"
+      name: "Zhonya's Hourglass"
+      against: "vs divers and assassins (Zed, Diana, Talon, Akali) — stasis saves your R combo follow-up"
+    - dd_id: "3102"
+      name: "Banshee's Veil"
+      against: "vs single-target magic CC (Ahri charm, Lissandra R, Twisted Fate stun)"
+    - dd_id: "3165"
+      name: "Morellonomicon"
+      against: "vs healing-stacking comps (Soraka mid, Vladimir, Dr. Mundo top)"
+    - dd_id: "3135"
+      name: "Void Staff"
+      against: "swap when any priority target buys a Magic Resist item"
   base_combo: ["E", "Q", "AA", "R"]
   win_condition: "Snipe squishy targets with R from max range during objective fights once Luden's and Shadowflame are online. Control space with E and stay behind your front line."
   weakness: "No dash and no innate mobility. Hard countered by divers and assassins; if your front line breaks, your positioning collapses with it."

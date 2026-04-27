@@ -1203,6 +1203,7 @@ const en = {
   'wp35.champion_guide.quick_learn.skill_order': 'Skill Order',
   'wp35.champion_guide.quick_learn.combo': 'Primary Combo',
   'wp35.champion_guide.quick_learn.core_items': 'Core Items',
+  'wp35.champion_guide.quick_learn.situational_items': 'Situational Items',
   'wp35.champion_guide.quick_learn.win_condition': 'Win Condition',
   'wp35.champion_guide.quick_learn.weakness': 'Weakness',
   // Patch badge + last updated (4)

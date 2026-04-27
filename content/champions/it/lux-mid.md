@@ -57,6 +57,19 @@ quick_learn:
     - { dd_id: "3020", name: "Sorcerer's Shoes" }
     - { dd_id: "4645", name: "Shadowflame" }
     - { dd_id: "3089", name: "Rabadon's Deathcap" }
+  situational_items:
+    - dd_id: "3157"
+      name: "Zhonya's Hourglass"
+      against: "contro tuffatori e assassini (Zed, Diana, Talon, Akali) — la stasi salva il follow-up della R"
+    - dd_id: "3102"
+      name: "Banshee's Veil"
+      against: "contro CC magici single-target (Ahri charm, Lissandra R, Twisted Fate stun)"
+    - dd_id: "3165"
+      name: "Morellonomicon"
+      against: "contro composizioni che impilano cure (Soraka mid, Vladimir, Dr. Mundo top)"
+    - dd_id: "3135"
+      name: "Void Staff"
+      against: "swap appena qualunque target prioritario compra un item di Resistenza Magica"
   base_combo: ["E", "Q", "AA", "R"]
   win_condition: "Snipa i target squishy con R dalla massima gittata negli obiettivi una volta online Luden's Companion e Shadowflame. Controlla lo spazio con E e resta dietro alla front line."
   weakness: "Nessun dash, mobilità base nulla. Hard counter di tuffatori e assassini; se la front line salta, anche il tuo posizionamento crolla."
