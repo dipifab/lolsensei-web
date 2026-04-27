@@ -136,7 +136,7 @@ export function ChampionSearch(props: ChampionSearchProps): JSX.Element {
       if (idx >= 0 && idx < list.length) {
         e.preventDefault();
         const s = list[idx];
-        window.location.href = `/${props.lang}/champion/${s.champion}/guide`;
+        window.location.href = `/${props.lang}/champion/${s.champion}/${s.role}/guide`;
         return;
       }
       // No active selection → apply as filter immediately (skip debounce).
@@ -245,7 +245,7 @@ export function ChampionSearch(props: ChampionSearchProps): JSX.Element {
                 <li>
                   <a
                     role="option"
-                    href={`/${props.lang}/champion/${s.champion}/guide`}
+                    href={`/${props.lang}/champion/${s.champion}/${s.role}/guide`}
                     class={`flex items-center gap-3 px-3 py-2 transition-colors ${
                       activeIdx() === i()
                         ? 'bg-surface-container'

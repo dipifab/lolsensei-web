@@ -118,7 +118,7 @@ export function GuideCard(props: GuideCardProps): JSX.Element {
   const ddId = (): string =>
     props.locale.champion_dd_id ?? fallbackDdId(props.champion);
   const guideHref = (): string =>
-    `/${props.lang}/champion/${props.champion}/guide`;
+    `/${props.lang}/champion/${props.champion}/${props.role}/guide`;
 
   return (
     <Show

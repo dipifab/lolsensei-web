@@ -218,21 +218,22 @@ function discoverChampionGuides() {
   );
 }
 
-function championGuideUrl(locale, slug) {
-  return `${BASE}/${locale}/champion/${slug}/guide`;
+// CR-056: URL role-explicit. Una entry per (champion, role, locale).
+function championGuideUrl(locale, slug, role) {
+  return `${BASE}/${locale}/champion/${slug}/${role}/guide`;
 }
 
 function buildChampionGuideEntry(locale, guide) {
-  const loc = championGuideUrl(locale, guide.slug);
-  // hreflang alternates: solo locales dove la guida esiste fisicamente
+  const loc = championGuideUrl(locale, guide.slug, guide.role);
+  // hreflang alternates: solo locales dove la guida (slug, role) esiste fisicamente
   const presentLocales = [...guide.locales].sort();
   const alternates = presentLocales.map(
-    (l) => `    <xhtml:link rel="alternate" hreflang="${hreflangFor(l)}" href="${championGuideUrl(l, guide.slug)}" />`,
+    (l) => `    <xhtml:link rel="alternate" hreflang="${hreflangFor(l)}" href="${championGuideUrl(l, guide.slug, guide.role)}" />`,
   ).join('\n');
   // x-default punta a EN se presente, altrimenti al primo locale disponibile
   const defaultLocale = guide.locales.has(DEFAULT_LOCALE) ? DEFAULT_LOCALE : presentLocales[0];
-  const xDefault = `    <xhtml:link rel="alternate" hreflang="x-default" href="${championGuideUrl(defaultLocale, guide.slug)}" />`;
-  return `  <!-- champion-guide/${guide.slug}: ${locale} -->\n  <url>\n    <loc>${loc}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.7</priority>\n${alternates}\n${xDefault}\n  </url>`;
+  const xDefault = `    <xhtml:link rel="alternate" hreflang="x-default" href="${championGuideUrl(defaultLocale, guide.slug, guide.role)}" />`;
+  return `  <!-- champion-guide/${guide.slug}/${guide.role}: ${locale} -->\n  <url>\n    <loc>${loc}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.7</priority>\n${alternates}\n${xDefault}\n  </url>`;
 }
 
 if (PUBLIC_PAGES_ENABLED) {
