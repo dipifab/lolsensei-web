@@ -15,7 +15,7 @@ quick_learn:
   abilities:
     - key: "P"
       name: "Damnation"
-      description: "I nemici che muoiono vicino a Thresh lasciano un'anima. Camminaci sopra per guadagnare Armor e Ability Power in modo permanente. Nessun tetto al numero di anime raccolte."
+      description: "Quando un nemico (minion, mostro della jungle o champion) muore vicino a Thresh può lasciare un'anima. Camminaci sopra per guadagnare Armor e Ability Power in modo permanente. Nessun tetto."
       dd_spell_id: "Thresh_Passive"
     - key: "Q"
       name: "Death Sentence"

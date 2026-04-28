@@ -15,7 +15,7 @@ quick_learn:
   abilities:
     - key: "P"
       name: "Damnation"
-      description: "Enemies that die near Thresh drop a soul. Walk over it to permanently gain a small amount of Armor and Ability Power. No cap."
+      description: "When an enemy (minion, jungle monster, or champion) dies near Thresh, it can drop a soul. Walk over it to permanently gain a small amount of Armor and Ability Power. No cap."
       dd_spell_id: "Thresh_Passive"
     - key: "Q"
       name: "Death Sentence"
