@@ -245,6 +245,33 @@
       }
     },
     {
+      "slug": "thresh-support",
+      "champion": "thresh",
+      "role": "support",
+      "locales": {
+        "en": {
+          "title": "Thresh Support Build & Guide — Patch 14.10",
+          "description": "Thresh support guide for League of Legends Patch 14.10: starter kit, tank-catcher build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "14.10",
+          "last_updated": "2026-04-28",
+          "champion_class": "Tank / Catcher",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Thresh"
+        },
+        "it": {
+          "title": "Thresh Support: Build & Guida — Patch 14.10",
+          "description": "Guida Thresh support per League of Legends Patch 14.10: starter, build da tank-catcher, matchup chiave, power spike, errori comuni e una tip di chiusura.",
+          "patch": "14.10",
+          "last_updated": "2026-04-28",
+          "champion_class": "Tank / Catcher",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Thresh"
+        }
+      }
+    },
+    {
       "slug": "udyr-jungle",
       "champion": "udyr",
       "role": "jungle",

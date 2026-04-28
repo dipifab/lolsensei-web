@@ -1859,6 +1859,213 @@ export const enChampions: ChampionGuide[] = [
     ]
   },
   {
+    "slug": "thresh-support",
+    "title": "Thresh Support Build & Guide — Patch 14.10",
+    "language": "en",
+    "patch": "14.10",
+    "champion": "thresh",
+    "role": "support",
+    "last_updated": "2026-04-28",
+    "description": "Thresh support guide for League of Legends Patch 14.10: starter kit, tank-catcher build path, key matchups, power spikes, common mistakes, and a closing tip.",
+    "quick_learn": {
+      "champion_dd_id": "Thresh",
+      "difficulty": 3,
+      "damage_type": "magic",
+      "champion_class": "Tank / Catcher",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Damnation",
+          "description": "Enemies that die near Thresh drop a soul. Walk over it to permanently gain a small amount of Armor and Ability Power. No cap.",
+          "dd_spell_id": "Thresh_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Death Sentence",
+          "description": "Long linear hook (skillshot — must be aimed and dodged). Stuns the first enemy hit and pulls them. Recast to dash to the target.",
+          "dd_spell_id": "ThreshQ"
+        },
+        {
+          "key": "W",
+          "name": "Dark Passage",
+          "description": "Throws a lantern that shields the first allied champion who touches it. Allies can click the lantern to dash straight to Thresh.",
+          "dd_spell_id": "ThreshW"
+        },
+        {
+          "key": "E",
+          "name": "Flay",
+          "description": "Passive: basic attacks deal extra magic damage that grows the longer between hits. Active: sweeps the chain, slowing and shoving enemies in the swing direction.",
+          "dd_spell_id": "ThreshE"
+        },
+        {
+          "key": "R",
+          "name": "The Box",
+          "description": "A ring of spectral walls around Thresh. The first wall an enemy crosses breaks, dealing magic damage and slowing them; the rest only slow at half value.",
+          "dd_spell_id": "ThreshRPenta"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "E"
+        },
+        {
+          "level": 5,
+          "key": "E"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "E"
+        },
+        {
+          "level": 8,
+          "key": "Q"
+        },
+        {
+          "level": 9,
+          "key": "E"
+        },
+        {
+          "level": 10,
+          "key": "Q"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "Q"
+        },
+        {
+          "level": 13,
+          "key": "Q"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "3865",
+          "name": "World Atlas"
+        },
+        {
+          "dd_id": "3117",
+          "name": "Mobility Boots"
+        },
+        {
+          "dd_id": "3190",
+          "name": "Locket of the Iron Solari"
+        },
+        {
+          "dd_id": "3109",
+          "name": "Knight's Vow"
+        },
+        {
+          "dd_id": "3877",
+          "name": "Bloodsong"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3111",
+          "name": "Mercury's Treads",
+          "against": "vs heavy magic damage or chain crowd-control (Leona, Ashe R, Maokai R) — swap Mobility Boots before teamfights start"
+        },
+        {
+          "dd_id": "3047",
+          "name": "Plated Steelcaps",
+          "against": "vs auto-attack heavy enemy bot lane (Caitlyn, Draven, Tristana) — swap Mobility Boots when their early harass dominates"
+        },
+        {
+          "dd_id": "3050",
+          "name": "Zeke's Convergence",
+          "against": "with a strong AD carry (Caitlyn, Vayne, Aphelios): R triggers a slow zone and bonus damage on the carry's next attack"
+        },
+        {
+          "dd_id": "4643",
+          "name": "Vigilant Wardstone",
+          "against": "late-game (after minute 25) when your six slots are full and you want extra wards plus a small stat boost"
+        }
+      ],
+      "base_combo": [
+        "Q",
+        "AA",
+        "E",
+        "R"
+      ],
+      "win_condition": "Land Death Sentence on a priority squishy (carry, mid) and chain into Flay knockback so your team converts the catch. With The Box dropped, the catch has nowhere to walk that doesn't cost HP.",
+      "weakness": "A missed Q leaves you with no engage tool for around 10 seconds. Slow base movement and zero dashes mean you can't reposition once your hook is gone — flank routes punish you hard."
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Thresh is an <strong>engage support</strong> (the one who opens the fight) and a <strong>catcher</strong> — a champion whose job is to <strong>pickoff</strong> (eliminate an isolated enemy before a fight starts) by landing a long-range hook. His <strong>Death Sentence (Q)</strong> is the centerpiece of the kit: a slow, telegraphed (= clearly visible in advance) skillshot that, when it lands, decides the fight. Around the hook, <strong>Flay (E)</strong> repositions enemies (slow + knockback in the swing direction), <strong>Dark Passage (W)</strong> lets an ally dash to him, and <strong>The Box (R)</strong> boxes a target into walls of magic damage. Thresh builds tank items only (HP, armor, magic resist — no damage stats): his value is enabling the rest of the team, not personally killing.</p>\n<p>Game plan: place wards in the <strong>river</strong> (the corridor between the two halves of the map) and the brushes around bot lane, pick an isolated target (an <strong>over-extending</strong> carry pushed too far forward, or an enemy mid laner roaming for a gank), land <strong>Q</strong>, follow with <strong>E</strong>, drop <strong>R</strong> and the target can't walk out without losing more HP.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> (the unified support starter) plus 2 Health Potions. World Atlas evolves automatically as you accumulate quest gold — through <img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3866.png\" alt=\"Runic Compass\"> <strong>Runic Compass</strong> and <img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3867.png\" alt=\"Bounty of Worlds\"> <strong>Bounty of Worlds</strong> — into the endgame upgrade you choose.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> — starter. Don't last-hit minions, let your ADC have them.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3117.png\" alt=\"Mobility Boots\"> <strong>Mobility Boots</strong> — out-of-combat movement speed. Lets you <strong>roam</strong> (leave bot lane to help mid or jungle) and ward deeper.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> <strong>Locket of the Iron Solari</strong> — active that shields all nearby allies for a few seconds. Use it right before an engage to soak the enemy team's first <strong>burst</strong> (the high damage they dump in the first 1-2 seconds of a fight).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3109.png\" alt=\"Knight&#x27;s Vow\"> <strong>Knight's Vow</strong> — bonds you to your <strong>ADC</strong> (Attack Damage Carry — the auto-attacking bot lane teammate, your team's main late-game damage dealer): a portion of the damage they take is redirected to you, and you heal them in return. Pick the carry whose life you most want to extend.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3877.png\" alt=\"Bloodsong\"> <strong>Bloodsong</strong> — the engage-focused endgame upgrade of your support item (World Atlas auto-transforms into one of these once you've completed its quest). Adds bonus damage to your next basic attack right after you apply <strong>crowd-control</strong> (any stun, slow, root, or knockback) — fits perfectly after a Q hook or R box.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — boots that grant magic resist and reduce the duration of crowd-control on you. Pick into heavy magic damage or chain crowd-control teams (Leona engage, Ashe arrow ult). Swap your Mobility Boots before fights start.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> — boots that give armor and reduce damage from basic attacks. Pick into auto-attack-heavy enemy bot lanes (Caitlyn, Draven, Tristana) when their early <strong>harass</strong> (poke and chip damage in lane) on you is the bigger threat than late-game teamfight CC.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3050.png\" alt=\"Zeke&#x27;s Convergence\"> <strong>Zeke's Convergence</strong> — pair this with a strong AD carry. When you ult (R), Zeke's drops a slow zone and gives the bonded carry bonus damage on their next attack. Big combo synergy.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/4643.png\" alt=\"Vigilant Wardstone\"> <strong>Vigilant Wardstone</strong> — late-game sixth-item slot. More wards on the map, longer ward range, small stat boost.</li>\n</ul>\n<p><strong>Boots:</strong> Default <img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3117.png\" alt=\"Mobility Boots\"> <strong>Mobility Boots</strong> to roam aggressively in lane phase. Swap into one of the situational defensive boots <strong>before the first major teamfight</strong> (around minute 18-22), because Mobility Boots lose their out-of-combat speed bonus once the fight starts.</p>\n<p><strong>Skill order:</strong> Max <strong>E</strong> (Flay) first — slow, knockback, and the auto-attack passive damage are your primary lane trade tool. Max <strong>Q</strong> second — lower cooldown means more pickoff windows. Max <strong>W</strong> last. Take <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Resolve</strong> (the defensive tree — durability) with <strong>Aftershock</strong> (free armor and magic resist for a few seconds when you crowd-control someone, fires on every Q hook), <strong>Font of Life</strong> (your CC marks the target; allies who attack it heal a bit), <strong>Bone Plating</strong> vs hard-burst lanes or <strong>Conditioning</strong> vs slow-scaling lanes, and <strong>Revitalize</strong> (boosts your shields and heals). Secondary <strong>Inspiration</strong> (utility) with <strong>Hextech Flashtraption</strong> (a backup short-range Flash on a long cooldown — priceless for surprise hooks) and <strong>Cosmic Insight</strong> (lower cooldowns on summoner spells and item actives). Stat shards: Adaptive Force / Adaptive Force / Health.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Leona:</strong> Mirror matchup (you're both engage supports). Whoever lands their CC first wins the <strong>trade</strong> (the brief HP exchange). Save your <strong>Q</strong> for after she throws her Zenith Blade (the dash she uses to engage) — once it's on cooldown you have a 10-second pickoff window.</li>\n<li><strong>Nautilus:</strong> Same playstyle as you with shorter range. He out-trades you at melee, you out-range him with <strong>Q</strong>. Stand at hook range, never at his auto-attack range.</li>\n<li><strong>Soraka:</strong> Pure <strong>sustain enchanter</strong> (a healing-focused support that wins by keeping her ADC alive, not by starting fights) with no engage tool of her own. You win by hooking her during her healing animation. If she stands behind her ADC, hook the ADC instead — your <strong>R</strong> boxes both of them.</li>\n<li><strong>Lulu:</strong> She <strong>peels</strong> (protects her carry from your engage with shields and a polymorph). Don't hook the ADC first when Lulu has her cooldowns up — hook <strong>Lulu</strong> to remove the peel, then your team converts on the carry.</li>\n<li><strong>Pyke:</strong> Skill matchup — no clear edge on paper, decided by who plays better. He also has a long-range engage tool. Keep an eye on his <strong>stealth</strong> (he becomes invisible while passing through terrain): don't get caught warding alone.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2 (Q + E):</strong> First spike. With <strong>Q</strong> to engage and <strong>E</strong> to keep them locked, you can <strong>all-in</strong> (commit to a full kill attempt) on an over-extending enemy who has pushed past their first <strong>wave</strong> (the row of incoming minions).</li>\n<li><strong>Level 6 (R unlocks):</strong> Pickoff potential explodes. A landed <strong>Q</strong> in the river or in a side brush followed by <strong>R</strong> behind the target is a guaranteed kill at this point of the game.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> Locket of the Iron Solari completion (~ minute 14-16):</strong> First teamfight item ready. Your engage now comes with a free team shield — group with your team for <strong>Drake</strong> (the dragon objective in the bottom river — kills give your team permanent stat buffs) or <strong>Voidgrubs</strong> (small monsters in the top river — the team that kills them gets bonus damage to enemy structures).</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3877.png\" alt=\"Bloodsong\"> Bloodsong endgame (~ minute 24-30):</strong> Your post-CC auto-attack starts dealing real damage. Suddenly Q → auto-attack → E isn't just a setup — it's a kill on a <strong>squishy</strong> (a low-defense champion like an ADC or a mage) on its own.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Throwing Q at full HP targets behind their minions.</strong> The hook collides with minions. Wait until the enemy steps forward to <strong>last-hit</strong> (deliver the final blow on a minion to claim its gold), or until your wave is thin (only a couple of minions left between you and them). A naked <strong>Q</strong> fishing for the dream hook just wastes mana and leaves you without engage for 10 seconds.</li>\n<li><strong>Flaying enemies away from your team.</strong> Flay's direction depends on your position relative to the target — moving forward swings them backward (toward you), moving back swings them forward (away from you). Position so your <strong>E</strong> shoves them <strong>into</strong> your team, not out of it.</li>\n<li><strong>Throwing the lantern with no communication.</strong> If your ADC isn't watching for it, the lantern wastes its cooldown. Ping it when you drop it. Better yet, drop it preemptively in a scary fog area so the ADC has a guaranteed escape route.</li>\n<li><strong>Engaging without vision.</strong> A blind hook into the <strong>fog of war</strong> (the unrevealed areas of the map) often catches a tank instead of a carry, or worse, walks you into the enemy jungler. Use your <strong>trinket</strong> (the free vision item every champion gets) and <strong>Control Wards</strong> (the pink wards bought from shop, which detect invisible units and disable enemy wards) before you commit.</li>\n<li><strong>Saving R for the \"perfect\" moment.</strong> <strong>The Box</strong> is a denial tool (something that takes away enemy options), not just a damage spell. Drop it as a wall behind a fleeing carry to slow them, or in front of an engaging Malphite to break his ult charge. Don't hoard it.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Lantern-Hook setup. Throw <strong>Q</strong> first, and the moment it leaves your hand drop <strong>W</strong> lantern at maximum range in the same direction. If the <strong>Q</strong> lands, your ADC clicks the lantern and arrives next to the hooked target the instant the stun fires — full follow-up damage without having to walk forward at all (zero <strong>gap-closing</strong>, the act of running across distance to reach the enemy). This turns a hook from a setup into a guaranteed kill. The drill is muscle memory (the automatic finger reflex): practice Q-W in the same half-second so the lantern is in flight before your ADC even reads what's happening.</p>",
+    "word_count": 1477,
+    "available_patches": [
+      "14.10"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "blitzcrank-support",
+        "champion": "blitzcrank",
+        "role": "support"
+      },
+      {
+        "slug": "braum-support",
+        "champion": "braum",
+        "role": "support"
+      },
+      {
+        "slug": "janna-support",
+        "champion": "janna",
+        "role": "support"
+      },
+      {
+        "slug": "karma-support",
+        "champion": "karma",
+        "role": "support"
+      },
+      {
+        "slug": "leona-support",
+        "champion": "leona",
+        "role": "support"
+      }
+    ]
+  },
+  {
     "slug": "udyr-jungle",
     "title": "Udyr Jungle Build & Guide — Patch 14.10",
     "language": "en",

@@ -1859,6 +1859,213 @@ export const itChampions: ChampionGuide[] = [
     ]
   },
   {
+    "slug": "thresh-support",
+    "title": "Thresh Support: Build & Guida — Patch 14.10",
+    "language": "it",
+    "patch": "14.10",
+    "champion": "thresh",
+    "role": "support",
+    "last_updated": "2026-04-28",
+    "description": "Guida Thresh support per League of Legends Patch 14.10: starter, build da tank-catcher, matchup chiave, power spike, errori comuni e una tip di chiusura.",
+    "quick_learn": {
+      "champion_dd_id": "Thresh",
+      "difficulty": 3,
+      "damage_type": "magic",
+      "champion_class": "Tank / Catcher",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Damnation",
+          "description": "I nemici che muoiono vicino a Thresh lasciano un'anima. Camminaci sopra per guadagnare Armor e Ability Power in modo permanente. Nessun tetto al numero di anime raccolte.",
+          "dd_spell_id": "Thresh_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Death Sentence",
+          "description": "Hook lineare a lungo raggio (skillshot: va mirato e si può schivare). Stunna il primo nemico colpito e lo tira. Recast per scattare verso il bersaglio.",
+          "dd_spell_id": "ThreshQ"
+        },
+        {
+          "key": "W",
+          "name": "Dark Passage",
+          "description": "Lancia una lanterna che scuda il primo alleato che la tocca. Gli alleati possono cliccarla per scattare verso Thresh.",
+          "dd_spell_id": "ThreshW"
+        },
+        {
+          "key": "E",
+          "name": "Flay",
+          "description": "Passive: gli auto-attack fanno danno magico extra, e il bonus cresce più tempo passa tra un colpo e l'altro. Active: spazza la catena, rallentando e spingendo i nemici nella direzione del colpo.",
+          "dd_spell_id": "ThreshE"
+        },
+        {
+          "key": "R",
+          "name": "The Box",
+          "description": "Anello di muri spettrali intorno a Thresh. Il primo muro attraversato si rompe e infligge danno magico più slow; gli altri rallentano solo a metà valore.",
+          "dd_spell_id": "ThreshRPenta"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "E"
+        },
+        {
+          "level": 5,
+          "key": "E"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "E"
+        },
+        {
+          "level": 8,
+          "key": "Q"
+        },
+        {
+          "level": 9,
+          "key": "E"
+        },
+        {
+          "level": 10,
+          "key": "Q"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "Q"
+        },
+        {
+          "level": 13,
+          "key": "Q"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "3865",
+          "name": "World Atlas"
+        },
+        {
+          "dd_id": "3117",
+          "name": "Mobility Boots"
+        },
+        {
+          "dd_id": "3190",
+          "name": "Locket of the Iron Solari"
+        },
+        {
+          "dd_id": "3109",
+          "name": "Knight's Vow"
+        },
+        {
+          "dd_id": "3877",
+          "name": "Bloodsong"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3111",
+          "name": "Mercury's Treads",
+          "against": "contro tanto danno magico o catene di crowd-control (Leona, Ashe R, Maokai R) — sostituisci Mobility Boots prima che inizino i teamfight"
+        },
+        {
+          "dd_id": "3047",
+          "name": "Plated Steelcaps",
+          "against": "contro bot lane molto basata su auto-attack (Caitlyn, Draven, Tristana) — sostituisci Mobility Boots quando l'harass early ti pesa"
+        },
+        {
+          "dd_id": "3050",
+          "name": "Zeke's Convergence",
+          "against": "con un ADC forte (Caitlyn, Vayne, Aphelios): la R attiva una zona di slow e bonus damage sul prossimo colpo del carry"
+        },
+        {
+          "dd_id": "4643",
+          "name": "Vigilant Wardstone",
+          "against": "late-game (dopo il minuto 25) quando i sei slot sono pieni e vuoi più ward attivi più un piccolo upgrade di stat"
+        }
+      ],
+      "base_combo": [
+        "Q",
+        "AA",
+        "E",
+        "R"
+      ],
+      "win_condition": "Landa una Death Sentence su un bersaglio prioritario (carry, mid) e concatena con il knockback di Flay perché il team converta il pickoff. Con The Box piazzato non c'è direzione di fuga gratis.",
+      "weakness": "Una Q mancata ti lascia senza tool d'engage per circa 10 secondi. Movement base lento e zero dash: una volta giocato l'hook non puoi riposizionarti, le rotazioni di flank ti puniscono pesante."
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Thresh è un <strong>support da engage</strong> (il campione che apre il fight) e un <strong>catcher</strong>: un campione il cui lavoro è fare <strong>pickoff</strong>, cioè eliminare un nemico isolato prima che il fight inizi. Si basa tutto sull'hook a lungo raggio. La sua <strong>Death Sentence (Q)</strong> è il fulcro del kit: uno skillshot (abilità non automatica, va mirata e si può schivare) lento e telegrafato (= chiaramente visibile in anticipo) che, quando atterra, decide il fight. Intorno all'hook, <strong>Flay (E)</strong> riposiziona i nemici (slow + spinta nella direzione del colpo), <strong>Dark Passage (W)</strong> permette a un alleato di scattare da lui, e <strong>The Box (R)</strong> chiude il bersaglio dentro un anello di muri di danno magico. Thresh builda solo item da tank (HP, armor, magic resist — niente danno): il suo valore è abilitare il resto del team, non chiudere kill in solitario.</p>\n<p>Game plan: piazza ward (gli oggetti di vision) nel <strong>river</strong> (il corridoio al centro della mappa) e nei cespugli intorno alla bot lane, scegli un bersaglio isolato (un carry <strong>over-extended</strong> spinto troppo avanti, o un mid laner avversario che roama cercando un gank), landa <strong>Q</strong>, segui con <strong>E</strong>, piazza <strong>R</strong> e il bersaglio non esce senza perdere HP.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> (lo starter unificato dei support) più 2 Health Potions. World Atlas evolve da solo man mano che accumuli quest gold — passando per <img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3866.png\" alt=\"Runic Compass\"> <strong>Runic Compass</strong> e <img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3867.png\" alt=\"Bounty of Worlds\"> <strong>Bounty of Worlds</strong> — fino all'upgrade endgame che scegli.</p>\n<p><strong>Core items (in ordine di acquisto):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> — starter. Non last-hittare i minion: lascia il farm al tuo ADC.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3117.png\" alt=\"Mobility Boots\"> <strong>Mobility Boots</strong> — velocità fuori combattimento. Ti permette di <strong>roamare</strong> (lasciare la lane bot per aiutare mid o jungle) e di piazzare ward in profondità.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> <strong>Locket of the Iron Solari</strong> — attiva uno scudo ad area per il team. Usalo subito prima dell'engage per assorbire la prima raffica di <strong>burst</strong> (il danno alto e concentrato che la squadra avversaria scarica nei primi 1-2 secondi del fight).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3109.png\" alt=\"Knight&#x27;s Vow\"> <strong>Knight's Vow</strong> — ti lega al tuo <strong>ADC</strong> (Attack Damage Carry: il compagno di bot lane che fa danno con gli auto-attack, di solito il damage dealer principale del team a fine partita). Una parte del danno che lui prende viene dirottata su di te, e in cambio lo curi. Scegli il carry la cui vita vuoi proteggere di più.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3877.png\" alt=\"Bloodsong\"> <strong>Bloodsong</strong> — l'upgrade endgame del support item, variante da engage (World Atlas si trasforma automaticamente in uno di questi item finali quando completi la sua quest). Aggiunge danno extra al tuo prossimo auto-attack subito dopo aver applicato <strong>crowd-control / CC</strong> (qualsiasi stun, slow, root o knockback): perfetto dopo una Q o una R.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — boots che danno magic resist e riducono la durata dei CC ricevuti. Vai su questi contro squadre con tanto danno magico o catene di CC (Leona engage, ulti di Ashe). Sostituisci le Mobility Boots prima che il teamfight inizi.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> — boots che danno armor e riducono il danno degli auto-attack ricevuti. Vai su questi contro bot lane basate sugli auto-attack (Caitlyn, Draven, Tristana) quando il loro <strong>harass</strong> early (il danno costante in lane usato per logorarti senza committare a un fight) ti pesa più del CC nei teamfight late.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3050.png\" alt=\"Zeke&#x27;s Convergence\"> <strong>Zeke's Convergence</strong> — abbinalo a un ADC che fa tanto danno. Quando ulti con la R, Zeke's piazza una zona di slow e dà al carry bonus damage sul prossimo colpo. Combo perfetta.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/4643.png\" alt=\"Vigilant Wardstone\"> <strong>Vigilant Wardstone</strong> — sesto slot late-game. Più ward attivi sulla mappa, range ward maggiore, piccolo bonus stat.</li>\n</ul>\n<p><strong>Boots:</strong> Default <img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3117.png\" alt=\"Mobility Boots\"> <strong>Mobility Boots</strong> per roamare aggressivo in lane. Sostituiscile con uno dei boots difensivi situazionali <strong>prima del primo grosso teamfight</strong> (intorno al minuto 18-22), perché Mobility perde il bonus di velocità non appena il fight inizia.</p>\n<p><strong>Skill order:</strong> Maxa <strong>E</strong> (Flay) per primo — lo slow, il knockback e il danno della passive sugli auto-attack sono il tuo strumento di trade in lane. Maxa <strong>Q</strong> per seconda: cooldown più basso significa più finestre di pickoff. Maxa <strong>W</strong> per ultima. Prendi un punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primaria <strong>Resolve</strong> (albero difensivo, sopravvivenza) con <strong>Aftershock</strong> (Armor e Magic Resist gratis per qualche secondo quando applichi un CC, scatta su ogni Q andata a segno), <strong>Font of Life</strong> (il tuo CC marca il bersaglio; gli alleati che lo attaccano si curano un po'), <strong>Bone Plating</strong> contro lane di burst o <strong>Conditioning</strong> contro lane scaling, e <strong>Revitalize</strong> (potenzia scudi e cure). Secondaria <strong>Inspiration</strong> (utility) con <strong>Hextech Flashtraption</strong> (un secondo Flash a corto raggio su cooldown lungo, prezioso per gli hook a sorpresa) e <strong>Cosmic Insight</strong> (riduce i cooldown di summoner spell e attivabili degli item). Stat shards: Adaptive Force / Adaptive Force / Health.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Leona:</strong> Mirror matchup (siete entrambi support da engage). Vince il <strong>trade</strong> (lo scambio breve di danno) chi atterra il primo CC. Tieni la <strong>Q</strong> per il momento dopo che lei spara la sua Zenith Blade (l'abilità con cui fa engage scattando sul bersaglio): appena è in cooldown, hai una finestra di pickoff di 10 secondi.</li>\n<li><strong>Nautilus:</strong> Stesso playstyle del tuo, range più corto. Lui ti batte in melee (in mischia), tu lo batti a distanza con la <strong>Q</strong>. Stai a distanza di hook, mai a distanza di auto-attack suo.</li>\n<li><strong>Soraka:</strong> <strong>Enchanter</strong> (classe di support focalizzata sul curare il proprio carry più che sull'iniziare fight) di puro <strong>sustain</strong> (capacità di rigenerarsi/curarsi durante la lane), zero engage. La batti hookando lei durante l'animazione di cura. Se sta dietro al suo ADC, hooka l'ADC: la <strong>R</strong> chiude tutti e due dentro la box.</li>\n<li><strong>Lulu:</strong> Lei fa <strong>peel</strong> (protegge il suo carry dal tuo engage con scudi e un polymorph che ti trasforma in animaletto inoffensivo). Non hookare l'ADC per primo se Lulu ha cooldown pronti — hooka <strong>Lulu</strong>, togli il peel, e il tuo team converte sul carry.</li>\n<li><strong>Pyke:</strong> Skill matchup — sulla carta zero vantaggio, vince chi gioca meglio. Anche lui ha un engage tool a lungo raggio. Tieni d'occhio la sua <strong>stealth</strong> (diventa invisibile passando attraverso un muro): evita di farti pescare mentre piazzi ward da solo.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Livello 2 (Q + E):</strong> Primo spike. Con la <strong>Q</strong> per fare engage e la <strong>E</strong> per tenerli bloccati, puoi giocare un <strong>all-in</strong> (impegnarti in un tentativo di kill totale, senza spazio per disimpegnarti) su un nemico che si è spinto troppo oltre la prima <strong>wave</strong> (l'onda di minion).</li>\n<li><strong>Livello 6 (R sbloccata):</strong> Il potenziale di pickoff esplode. Una <strong>Q</strong> atterrata nel river o in un cespuglio laterale seguita da <strong>R</strong> dietro al bersaglio è una kill garantita a questo punto della partita.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> Locket of the Iron Solari completato (~ minuto 14-16):</strong> Primo item da teamfight pronto. Adesso ogni engage ti dà uno scudo gratis per il team — raggruppati col team su <strong>Drake</strong> (il drago, l'obiettivo nel river basso che dà buff permanenti a chi lo uccide) o <strong>Voidgrubs</strong> (i piccoli mostri nel river alto: chi li uccide guadagna danno bonus contro le strutture nemiche).</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3877.png\" alt=\"Bloodsong\"> Bloodsong endgame (~ minuto 24-30):</strong> L'auto-attack post-CC inizia a fare danno reale. Improvvisamente il combo Q → auto-attack → E non è più solo un setup — è una kill su uno <strong>squishy</strong> (un campione fragile come un ADC o un mage) anche da solo.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Lanciare la Q su nemici a HP pieni nascosti dietro i loro minion.</strong> L'hook collide con i minion. Aspetta che il nemico avanzi per fare <strong>last-hit</strong> (dare il colpo finale a un minion per ottenere oro), oppure che la wave sia sottile (pochi minion residui tra te e lui). Una <strong>Q</strong> lanciata a caso sperando nell'hook da sogno spreca mana e ti lascia senza engage per 10 secondi.</li>\n<li><strong>Usare Flay per spingere i nemici lontano dal team.</strong> La direzione di Flay dipende dalla tua posizione rispetto al bersaglio: se ti muovi avanti li spingi indietro (verso di te), se ti muovi indietro li spingi avanti (lontano da te). Posizionati così che la <strong>E</strong> li spinga <strong>dentro</strong> il tuo team, non fuori.</li>\n<li><strong>Lanciare la lanterna senza comunicare.</strong> Se il tuo ADC non la sta guardando, la lanterna brucia il cooldown a vuoto. Pingala quando la piazzi. Meglio ancora, piazzala in anticipo in una zona oscura della mappa (zona di fog of war, dove non hai vision) così il carry ha già una via di fuga sicura.</li>\n<li><strong>Fare engage senza vision.</strong> Un hook alla cieca dentro la <strong>fog of war</strong> (le zone della mappa non illuminate dai tuoi ward) spesso prende un tank invece di un carry, o peggio ti porta dritto sul jungler avversario. Usa il <strong>trinket</strong> (l'oggetto di vision gratis che ogni campione ha nell'inventario) e i <strong>Control Ward</strong> (i ward rosa che si comprano dallo shop, rivelano unità invisibili e disabilitano i ward avversari) prima di impegnarti.</li>\n<li><strong>Tenere la R per il \"momento perfetto\".</strong> <strong>The Box</strong> è uno strumento di denial (toglie spazio e opzioni al nemico), non solo di danno. Piazzala come muro dietro un carry in fuga per rallentarlo, o davanti a un Malphite che entra per spezzargli la corsa dell'ulti. Non tesoreggiarla.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Combo Lantern-Hook. Lancia la <strong>Q</strong> per prima, e nell'istante in cui parte piazza la <strong>W</strong> lanterna a max range nella stessa direzione. Se la <strong>Q</strong> atterra, il tuo ADC clicca la lanterna e arriva accanto al bersaglio hookato proprio mentre lo stun fa effetto — pieno follow-up di danno senza dover percorrere fisicamente la distanza (zero <strong>gap-closing</strong>, l'atto di chiudere la distanza correndo verso il nemico). Trasforma un hook da setup in una kill garantita. L'esercizio è la <strong>muscle memory</strong> (memoria muscolare, il riflesso automatico delle dita): Q-W in mezzo secondo, così la lanterna è già in volo prima che l'ADC capisca cosa stai facendo.</p>",
+    "word_count": 1618,
+    "available_patches": [
+      "14.10"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "blitzcrank-support",
+        "champion": "blitzcrank",
+        "role": "support"
+      },
+      {
+        "slug": "braum-support",
+        "champion": "braum",
+        "role": "support"
+      },
+      {
+        "slug": "janna-support",
+        "champion": "janna",
+        "role": "support"
+      },
+      {
+        "slug": "karma-support",
+        "champion": "karma",
+        "role": "support"
+      },
+      {
+        "slug": "leona-support",
+        "champion": "leona",
+        "role": "support"
+      }
+    ]
+  },
+  {
     "slug": "udyr-jungle",
     "title": "Guida a Udyr Jungle — Build e matchup, Patch 14.10",
     "language": "it",
