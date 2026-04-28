@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27",
+  "generated_at": "2026-04-28",
   "guides": [
     {
       "slug": "garen-top",
@@ -25,6 +25,33 @@
           "difficulty": 2,
           "damage_type": "physical",
           "champion_dd_id": "Garen"
+        }
+      }
+    },
+    {
+      "slug": "graves-jungle",
+      "champion": "graves",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Graves Jungle Build & Guide — Patch 14.10",
+          "description": "Graves jungle guide for League of Legends Patch 14.10: starter kit, lethality build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "14.10",
+          "last_updated": "2026-04-28",
+          "champion_class": "Marksman / Skirmisher Jungle",
+          "difficulty": 2,
+          "damage_type": "physical",
+          "champion_dd_id": "Graves"
+        },
+        "it": {
+          "title": "Graves Jungle Build & Guida — Patch 14.10",
+          "description": "Guida Graves jungle per League of Legends Patch 14.10: starter kit, build lethality, matchup chiave, power spike, errori comuni e una chiusura tecnica.",
+          "patch": "14.10",
+          "last_updated": "2026-04-28",
+          "champion_class": "Marksman / Skirmisher Jungle",
+          "difficulty": 2,
+          "damage_type": "physical",
+          "champion_dd_id": "Graves"
         }
       }
     },

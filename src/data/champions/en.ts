@@ -209,6 +209,214 @@ export const enChampions: ChampionGuide[] = [
     ]
   },
   {
+    "slug": "graves-jungle",
+    "title": "Graves Jungle Build & Guide — Patch 14.10",
+    "language": "en",
+    "patch": "14.10",
+    "champion": "graves",
+    "role": "jungle",
+    "last_updated": "2026-04-28",
+    "description": "Graves jungle guide for League of Legends Patch 14.10: starter kit, lethality build path, key matchups, power spikes, common mistakes, and a closing tip.",
+    "quick_learn": {
+      "champion_dd_id": "Graves",
+      "difficulty": 2,
+      "damage_type": "physical",
+      "champion_class": "Marksman / Skirmisher Jungle",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "New Destiny",
+          "description": "Shotgun reload mechanic. Each shot fires 4 cone-shaped bullets that don't pierce minions; multiple pellets on a non-champion knock it back.",
+          "dd_spell_id": "Graves_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "End of the Line",
+          "description": "Linear shell that detonates after 2s, or instantly on terrain — bounces off walls. Main jungle clear and angle-shot tool.",
+          "dd_spell_id": "GravesQLineSpell"
+        },
+        {
+          "key": "W",
+          "name": "Smoke Screen",
+          "description": "Lobs a smoke cloud that blocks vision and slows enemies on the initial impact. Disengage, deny wards, or fog up gank paths.",
+          "dd_spell_id": "GravesSmokeGrenade"
+        },
+        {
+          "key": "E",
+          "name": "Quickdraw",
+          "description": "Short forward dash with an armor buff that stacks toward a champion. Auto-attacks lower its cooldown and refresh the buff. Holds 2 charges.",
+          "dd_spell_id": "GravesMove"
+        },
+        {
+          "key": "R",
+          "name": "Collateral Damage",
+          "description": "Long-range explosive shot — hits the first champion then bursts into a cone behind them. Burst spike at levels 6/11/16.",
+          "dd_spell_id": "GravesChargeShot"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "Q"
+        },
+        {
+          "level": 9,
+          "key": "E"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6692",
+          "name": "Eclipse"
+        },
+        {
+          "dd_id": "3047",
+          "name": "Plated Steelcaps"
+        },
+        {
+          "dd_id": "3142",
+          "name": "Youmuu's Ghostblade"
+        },
+        {
+          "dd_id": "6694",
+          "name": "Serylda's Grudge"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3814",
+          "name": "Edge of Night",
+          "against": "vs single-target hard CC (Malzahar R, Skarner R, Warwick R) — the spell shield blocks the lock-on"
+        },
+        {
+          "dd_id": "6676",
+          "name": "The Collector",
+          "against": "when you are ahead and the enemy team has no early armor stackers — execute below 5% HP closes leads"
+        },
+        {
+          "dd_id": "3156",
+          "name": "Maw of Malmortius",
+          "against": "vs heavy AP burst (Diana, Syndra, Lux mid) — the lifeline shield turns one-shots into survivable trades"
+        },
+        {
+          "dd_id": "6333",
+          "name": "Death's Dance",
+          "against": "vs squads with two strong physical damage dealers (e.g. Yasuo + Caitlyn) — the bleed spreads damage so you don't get one-shot"
+        },
+        {
+          "dd_id": "3111",
+          "name": "Mercury's Treads",
+          "against": "vs 3+ hard CC champions (e.g. Leona + Lissandra + Sejuani) — tenacity shortens stuns and roots"
+        }
+      ],
+      "base_combo": [
+        "E",
+        "Q",
+        "AA",
+        "R"
+      ],
+      "win_condition": "Snowball lethality through invades and ganks before minute 14. Once Eclipse is up, contest every objective — your shotgun melts a squishy in two volleys and E refunds the trade window.",
+      "weakness": "Mana-hungry early. Your shotgun reload window punishes greedy positioning, and you melt under hard CC chains because you have no built-in safety beyond E's armor buff."
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Graves is a marksman that lives in the jungle, not in the bot lane. His shotgun-style auto-attacks and the armor buff baked into <strong>Quickdraw (E)</strong> let him fight tanks and brawlers head-on, while still bursting squishies down with lethality. The whole kit is built around tempo — clear fast, invade on cooldown, and trade your jungle priority for kills before the enemy carries scale.</p>\n<p>His game plan is simple: in the first 8 minutes you are the strongest dueller on the map, so use that. Power-farm a clean clear, look at the map, and walk into whichever lane has Flash down or low HP. After Eclipse you contest objectives; after three items you are a teamfight skirmisher who deletes back lines from a flank — but you do not splitpush late, because a Graves caught alone at minute 30 is one CC chain from dying.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> Smite + <strong>Hailblade</strong> for a faster jungle clear and AOE damage on <strong>R</strong>, with <strong>Refillable Potion</strong>. Take Emberknife only if your team needs Red-side counter-jungle pressure (slower clear, more sustain).</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><strong>Eclipse</strong> — burst+shield+omnivamp, the cleanest first item for skirmishing junglers. The shield procs after two hits, which lines up with your shotgun rhythm.</li>\n<li><strong>Plated Steelcaps</strong> vs AD-heavy teams / <strong>Mercury's Treads</strong> vs 3+ hard CC. Default is Plated.</li>\n<li><strong>Youmuu's Ghostblade</strong> — movement-speed active and lethality, your gap-close and gank-finisher tool.</li>\n<li><strong>Serylda's Grudge</strong> — armor pen scaling for late game when enemies start stacking armor; the slow on damaged targets keeps you in range.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><strong>Edge of Night</strong> — vs single-target lock-on ults (Malzahar, Skarner, Warwick).</li>\n<li><strong>The Collector</strong> — when you are ahead and want execute pressure on squishies.</li>\n<li><strong>Maw of Malmortius</strong> — vs heavy AP burst (Diana, Syndra, Lux mid).</li>\n<li><strong>Death's Dance</strong> — vs squads with two strong physical damage dealers (e.g. Yasuo + Caitlyn). The damage you take gets spread out as a slow bleed instead of arriving instantly.</li>\n<li><strong>Bloodthirster</strong> — late game when you need a fifth damage item with built-in shield and lifesteal.</li>\n</ul>\n<p><strong>Boots:</strong> Plated Steelcaps default. Berserker's Greaves only if the enemy has zero CC threats and you specifically want attack-speed scaling — a niche pick on Graves.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (clear and damage), <strong>E</strong> second (more dashes via the lower CD per rank), <strong>W</strong> last (the slow scales fine on rank 1). <strong>R</strong> at 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Domination</strong> with <strong>Hail of Blades</strong>, <strong>Sudden Impact</strong>, <strong>Eyeball Collection</strong>, <strong>Treasure Hunter</strong>. Secondary <strong>Precision</strong> with <strong>Triumph</strong> + <strong>Coup de Grace</strong> for snowball pressure, or <strong>Resolve</strong> with <strong>Second Wind</strong> + <strong>Revitalize</strong> if you expect to be poked in your jungle.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Hecarim:</strong> He outscales you past 3 items but loses skirmishes pre-6 if you E-roll into a spaced auto pattern. Punish him before minute 9, then back off — do not 1v1 him after his first item.</li>\n<li><strong>Lee Sin:</strong> Mirror tempo matchup. Both win the first 6 levels; the jungler with more ganks wins. Track his <strong>Q</strong> cooldown and W-jump windows; if his Q is down, your shotgun wins the trade outright.</li>\n<li><strong>Master Yi:</strong> Must-kill before his level 6 + first item. <strong>W</strong> on top of him during his <strong>Q</strong> active blocks his vision so he loses the lock — practice this in Practice Tool until it's reflex.</li>\n<li><strong>Vi:</strong> Tanky and gank-heavy. She loses extended skirmishes if you have E charges; do not get caught in the air by her <strong>Q</strong> — that's a guaranteed all-in for her side.</li>\n<li><strong>Diana:</strong> Snowballs hard post-6. Save <strong>W</strong> for her <strong>R</strong> windup (it doesn't break the engage, but the slow on impact extends her commit and gives your team time to peel). Build <strong>Maw of Malmortius</strong> as your second damage item.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 3:</strong> Full kit unlocks. Your gank pattern is <strong>E into range -> Q on the wall behind them -> AA reset -> W slow on retreat path</strong>. With Hail of Blades runes, this kills any squishy at 60% HP and no Flash.</li>\n<li><strong>Level 6:</strong> <strong>Collateral Damage</strong> unlocks the long-range execute. The shell hits the first champion and then bursts in a cone — flash a target into a wall and you guarantee both the direct hit and the cone damage.</li>\n<li><strong>Eclipse timing (~ minute 9):</strong> You win every contested objective fight. Force a fight on Scuttle, Drake, or Voidgrubs in this window — past 12 minutes, scaling junglers (Hecarim, Master Yi) start matching your pace.</li>\n<li><strong>3 items (~ minute 22):</strong> You become a teamfight flanker. Your job is to flank the enemy back line (their squishy carry, the one furthest from their tank) and burst it before they can react. Do not engage from the front.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Wasting E charges to escape a clear.</strong> <strong>E</strong> has 2 charges and the cooldown drops every time you auto-attack. Burning both charges to dodge a single skillshot leaves you with no gap-close for the next 12 seconds. Save at least one.</li>\n<li><strong>Q-ing into the back of a wall by accident.</strong> <strong>End of the Line</strong> detonates instantly on terrain. If you Q with your back to a wall, the shell explodes behind you for zero damage. Always check your facing before you cast.</li>\n<li><strong>Smoke Screen on yourself for sustain.</strong> <strong>W</strong> does not heal. The slow on impact is the value — throw it on the enemy carry's retreat path, not on top of yourself.</li>\n<li><strong>R from full range with no setup.</strong> The shell is dodgeable at long range. Use <strong>R</strong> point-blank after a Flash or as a pre-fired finisher when an enemy has already committed Flash. Don't open fights with it unless they are walking in a straight line through fog.</li>\n<li><strong>Splitpushing at minute 30.</strong> Late-game Graves has no escape if a Skarner/Warwick/Malzahar lands their R. Group with your team after minute 25 and play flanks from team-fight range, not 1v1 in a side lane.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>The <strong>E-buffer-roll</strong> technique: while you are mid-Q windup or auto-attack windup, queue a <strong>Quickdraw</strong> input. The dash fires the moment the windup completes, so you get the auto/Q damage <strong>and</strong> reposition in the same animation cycle — you keep DPS uptime while dodging or chasing. The recovery window where you cannot move is roughly 0.4 seconds without this; with the buffer roll, it's almost zero. Practice it on training-tool dummies until your stutter-step rhythm is auto-attack → E → auto-attack without pausing.</p>",
+    "word_count": 1067,
+    "available_patches": [
+      "14.10"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "amumu-jungle",
+        "champion": "amumu",
+        "role": "jungle"
+      },
+      {
+        "slug": "diana-jungle",
+        "champion": "diana",
+        "role": "jungle"
+      },
+      {
+        "slug": "ekko-jungle",
+        "champion": "ekko",
+        "role": "jungle"
+      },
+      {
+        "slug": "hecarim-jungle",
+        "champion": "hecarim",
+        "role": "jungle"
+      },
+      {
+        "slug": "kayn-jungle",
+        "champion": "kayn",
+        "role": "jungle"
+      }
+    ]
+  },
+  {
     "slug": "lee-sin-jungle",
     "title": "Lee Sin Jungle Build & Guide — Patch 14.10",
     "language": "en",

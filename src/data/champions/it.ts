@@ -209,6 +209,214 @@ export const itChampions: ChampionGuide[] = [
     ]
   },
   {
+    "slug": "graves-jungle",
+    "title": "Graves Jungle Build & Guida — Patch 14.10",
+    "language": "it",
+    "patch": "14.10",
+    "champion": "graves",
+    "role": "jungle",
+    "last_updated": "2026-04-28",
+    "description": "Guida Graves jungle per League of Legends Patch 14.10: starter kit, build lethality, matchup chiave, power spike, errori comuni e una chiusura tecnica.",
+    "quick_learn": {
+      "champion_dd_id": "Graves",
+      "difficulty": 2,
+      "damage_type": "physical",
+      "champion_class": "Marksman / Skirmisher Jungle",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "New Destiny",
+          "description": "Meccanica fucile a pompa: ogni colpo spara 4 pellet in cono che non passano i minion. Più pellet su un non-campione lo respingono.",
+          "dd_spell_id": "Graves_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "End of the Line",
+          "description": "Proiettile lineare che esplode dopo 2s, o all'istante se tocca il muro — rimbalza dai muri. Strumento principale di clear e angle-shot.",
+          "dd_spell_id": "GravesQLineSpell"
+        },
+        {
+          "key": "W",
+          "name": "Smoke Screen",
+          "description": "Lancia una nuvola di fumo che blocca la vision e rallenta i nemici colpiti dall'impatto. Usala per disengage, denying ward, o velare i gank.",
+          "dd_spell_id": "GravesSmokeGrenade"
+        },
+        {
+          "key": "E",
+          "name": "Quickdraw",
+          "description": "Dash corto in avanti con buff di armatura (più stack se vai verso un campione). Le auto abbassano il CD e refreshano il buff. Ha 2 cariche.",
+          "dd_spell_id": "GravesMove"
+        },
+        {
+          "key": "R",
+          "name": "Collateral Damage",
+          "description": "Colpo esplosivo a lungo raggio: prende il primo campione e poi esplode in un cono dietro di lui. Burst spike ai livelli 6/11/16.",
+          "dd_spell_id": "GravesChargeShot"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "Q"
+        },
+        {
+          "level": 9,
+          "key": "E"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6692",
+          "name": "Eclipse"
+        },
+        {
+          "dd_id": "3047",
+          "name": "Plated Steelcaps"
+        },
+        {
+          "dd_id": "3142",
+          "name": "Youmuu's Ghostblade"
+        },
+        {
+          "dd_id": "6694",
+          "name": "Serylda's Grudge"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3814",
+          "name": "Edge of Night",
+          "against": "contro hard CC mono-bersaglio (Malzahar R, Skarner R, Warwick R) — lo spell shield blocca il lock-on"
+        },
+        {
+          "dd_id": "6676",
+          "name": "The Collector",
+          "against": "quando sei avanti e gli avversari non stackano armatura presto — l'execute sotto il 5% HP chiude i lead"
+        },
+        {
+          "dd_id": "3156",
+          "name": "Maw of Malmortius",
+          "against": "contro burst AP pesante (Diana, Syndra, Lux mid) — lo shield della lifeline trasforma un one-shot in un trade sopravvivibile"
+        },
+        {
+          "dd_id": "6333",
+          "name": "Death's Dance",
+          "against": "contro squadre con due forti damage dealer fisici (es. Yasuo + Caitlyn) — il bleed spalma il danno e ti dà tempo di reagire"
+        },
+        {
+          "dd_id": "3111",
+          "name": "Mercury's Treads",
+          "against": "contro 3+ campioni con hard CC (es. Leona + Lissandra + Sejuani) — la tenacity riduce la durata di stun e root"
+        }
+      ],
+      "base_combo": [
+        "E",
+        "Q",
+        "AA",
+        "R"
+      ],
+      "win_condition": "Snowball di lethality tramite invade e gank prima del minuto 14. Una volta su Eclipse contesta ogni obiettivo — il fucile fonde uno squishy in due colpi e la E ti restituisce la finestra di trade.",
+      "weakness": "Mana-hungry early. La finestra di reload del fucile punisce il posizionamento avido, e fondi sotto catene di hard CC perché non hai safety oltre al buff di armatura della E."
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Graves è un marksman che vive nel jungle, non in bot lane. Le auto-attack a fucile e il buff di armatura cucito dentro <strong>Quickdraw (E)</strong> gli permettono di trade con tank e bruiser a viso aperto, restando però in grado di bursare le squishy con la lethality. Tutto il kit è costruito attorno al <strong>tempo</strong>: clear veloce, invade a cooldown, e barattare la priority del jungle per kill prima che le carry avversarie scalino.</p>\n<p>Il game plan è semplice: nei primi 8 minuti sei il duellante più forte sulla mappa, e va sfruttato. Power-farma un clear pulito, guarda la mappa, e cammina nella lane che ha Flash giù o HP basso. Dopo Eclipse contesti gli obiettivi; dopo tre item diventi uno skirmisher da teamfight che cancella la backline da un flank — ma <strong>non</strong> splitpushi late, perché un Graves preso da solo al minuto 30 è a una catena di CC dalla morte.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> Smite + <strong>Hailblade</strong> per un clear più veloce e danno AOE sulla <strong>R</strong>, con <strong>Refillable Potion</strong>. Prendi Emberknife solo se il team ha bisogno di pressione di counter-jungle dal red side avversario (clear più lento, più sustain).</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><strong>Eclipse</strong> — burst+shield+omnivamp, il primo item più pulito per i jungler skirmisher. Lo shield si attiva dopo due colpi, e questo si allinea col ritmo del fucile.</li>\n<li><strong>Plated Steelcaps</strong> contro team AD-pesanti / <strong>Mercury's Treads</strong> contro 3+ hard CC. Default Plated.</li>\n<li><strong>Youmuu's Ghostblade</strong> — l'attivo di movement speed più la lethality lo rendono il tuo strumento di gap-close e di chiusura del gank.</li>\n<li><strong>Serylda's Grudge</strong> — scaling di armor pen per il late, quando i nemici iniziano a stackare armatura; lo slow su bersagli danneggiati ti tiene in range.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><strong>Edge of Night</strong> — contro ult mono-bersaglio a lock-on (Malzahar, Skarner, Warwick).</li>\n<li><strong>The Collector</strong> — quando sei avanti e vuoi pressione di execute sulle squishy.</li>\n<li><strong>Maw of Malmortius</strong> — contro burst AP pesante (Diana, Syndra, Lux mid).</li>\n<li><strong>Death's Dance</strong> — contro squadre con due forti damage dealer fisici (es. Yasuo + Caitlyn). Il danno che incassi viene spalmato come bleed lento invece di arrivare istantaneo.</li>\n<li><strong>Bloodthirster</strong> — late game quando ti serve un quinto item da danno con shield e lifesteal incorporati.</li>\n</ul>\n<p><strong>Stivali:</strong> Plated Steelcaps di default. Berserker's Greaves solo se il team avversario ha zero minacce di CC e vuoi specificamente scaling di attack speed — pick di nicchia su Graves.</p>\n<p><strong>Skill order:</strong> Massimizza <strong>Q</strong> per primo (clear e danno), <strong>E</strong> per secondo (più dash grazie al CD ridotto per rank), <strong>W</strong> per ultimo (lo slow scala bene già a rank 1). <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Dominio</strong> con <strong>Hail of Blades</strong>, <strong>Sudden Impact</strong>, <strong>Eyeball Collection</strong>, <strong>Treasure Hunter</strong>. Secondario <strong>Precisione</strong> con <strong>Trionfo</strong> + <strong>Coup de Grace</strong> per pressione di snowball, oppure <strong>Risolutezza</strong> con <strong>Vento Secondario</strong> + <strong>Rivitalizzare</strong> se ti aspetti di essere pokato nel jungle.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Hecarim:</strong> Ti supera dopo 3 item ma perde gli skirmish pre-6 se E-rolli in pattern di auto spaziate. Mettilo sotto pressione prima del minuto 9, poi tirati indietro — non duellarlo dopo il suo primo item.</li>\n<li><strong>Lee Sin:</strong> Matchup di tempo speculare. Entrambi vincete i primi 6 livelli; il jungler con più gank vince. Tracka il cooldown della sua <strong>Q</strong> e le finestre di W-jump; se la sua Q è giù, il tuo fucile vince il trade netto.</li>\n<li><strong>Master Yi:</strong> Lo devi killare prima del suo livello 6 + primo item. La <strong>W</strong> sopra di lui durante la <strong>Q</strong> active gli blocca la vision e perde il lock — allenala in Sala Allenamento finché non diventa riflesso.</li>\n<li><strong>Vi:</strong> Tanky e gank-heavy. Perde gli skirmish prolungati se hai cariche di E; non farti prendere in aria dalla sua <strong>Q</strong> — è un all-in garantito per il suo team.</li>\n<li><strong>Diana:</strong> Snowball pesante post-6. Salva <strong>W</strong> per il windup della sua <strong>R</strong> (non spezza l'engage, ma lo slow all'impatto allunga il commit e dà al tuo team il tempo di peelare). Costruisci <strong>Maw of Malmortius</strong> come secondo item da danno.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 3:</strong> Kit completo sbloccato. Il tuo pattern di gank è <strong>E in range -> Q sul muro dietro di loro -> reset auto -> W slow sul percorso di ritirata</strong>. Con le rune Hail of Blades, è una kill su qualsiasi squishy al 60% HP e senza Flash.</li>\n<li><strong>Livello 6:</strong> <strong>Collateral Damage</strong> sblocca l'execute a lungo raggio. Il proiettile prende il primo campione e poi esplode in cono — flasha un bersaglio contro un muro e ti garantisci sia il colpo diretto sia il danno del cono.</li>\n<li><strong>Timing Eclipse (~ minuto 9):</strong> Vinci ogni fight contestato sugli obiettivi. Forza un fight su Scuttle, Drake o Voidgrub in questa finestra — oltre il minuto 12, i jungler che scalano (Hecarim, Master Yi) iniziano a pareggiare il tuo ritmo.</li>\n<li><strong>3 item (~ minuto 22):</strong> Diventi un flanker da teamfight. Il tuo lavoro è flankare la backline avversaria (la carry squishy, quella più lontana dal loro tank) e bursarla prima che reagisca. Non engaggi mai dal frontline.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Sprecare le cariche di E per scappare durante il clear.</strong> <strong>E</strong> ha 2 cariche e il cooldown cala ogni volta che fai auto-attack. Bruciare entrambe le cariche per schivare un singolo skillshot ti lascia senza gap-close per i 12 secondi successivi. Salvane sempre almeno una.</li>\n<li><strong>Q nel muro dietro di te per sbaglio.</strong> <strong>End of the Line</strong> esplode istantaneamente sul terreno. Se spari Q con il muro alle spalle, il proiettile esplode dietro di te per zero danno. Controlla sempre il facing prima di castarla.</li>\n<li><strong>Smoke Screen su te stesso per sustain.</strong> <strong>W</strong> non cura. Il valore è lo slow all'impatto — gettala sul percorso di ritirata della carry avversaria, non sopra di te.</li>\n<li><strong>R da full range senza setup.</strong> Il proiettile a lungo raggio è schivabile. Usa <strong>R</strong> point-blank dopo un Flash, oppure pre-firata come finisher quando il nemico ha già committato Flash. Non aprire i fight con la R, a meno che non stiano camminando in linea retta nella fog.</li>\n<li><strong>Splitpush al minuto 30.</strong> Graves late non ha escape se uno Skarner/Warwick/Malzahar atterra la propria R. Raggruppati con il team dopo il minuto 25 e gioca flank a distanza di teamfight, non 1v1 in una side lane.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>La tecnica del <strong>E-buffer-roll</strong>: mentre sei a metà del windup di Q o di un'auto-attack, accoda un input di <strong>Quickdraw</strong>. Il dash parte nell'istante in cui il windup termina, quindi ottieni il danno dell'auto/Q <strong>e</strong> ti riposizioni nello stesso ciclo di animazione — mantieni l'uptime di DPS mentre schivi o insegui. La finestra di recovery in cui non puoi muoverti è circa 0.4 secondi senza questo trick; con il buffer roll è quasi zero. Allenala sui dummy della Sala Allenamento finché il ritmo dello stutter-step non diventa auto-attack → E → auto-attack senza pause.</p>",
+    "word_count": 1146,
+    "available_patches": [
+      "14.10"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "amumu-jungle",
+        "champion": "amumu",
+        "role": "jungle"
+      },
+      {
+        "slug": "diana-jungle",
+        "champion": "diana",
+        "role": "jungle"
+      },
+      {
+        "slug": "ekko-jungle",
+        "champion": "ekko",
+        "role": "jungle"
+      },
+      {
+        "slug": "hecarim-jungle",
+        "champion": "hecarim",
+        "role": "jungle"
+      },
+      {
+        "slug": "kayn-jungle",
+        "champion": "kayn",
+        "role": "jungle"
+      }
+    ]
+  },
+  {
     "slug": "lee-sin-jungle",
     "title": "Lee Sin Jungle Build & Guida — Patch 14.10",
     "language": "it",
