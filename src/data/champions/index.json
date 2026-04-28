@@ -243,6 +243,33 @@
           "champion_dd_id": "Udyr"
         }
       }
+    },
+    {
+      "slug": "udyr-top",
+      "champion": "udyr",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Udyr Top Build & Guide — Patch 14.10",
+          "description": "Udyr top lane guide for League of Legends Patch 14.10: starter kit, bruiser build path, key matchups, power spikes, common mistakes, and one advanced tip.",
+          "patch": "14.10",
+          "last_updated": "2026-04-28",
+          "champion_class": "Fighter / Bruiser Top",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Udyr"
+        },
+        "it": {
+          "title": "Udyr Top — Build e Guida — Patch 14.10",
+          "description": "Guida Udyr top per League of Legends Patch 14.10: starter kit, build path bruiser, matchup chiave, power spike, errori frequenti e una tecnica avanzata.",
+          "patch": "14.10",
+          "last_updated": "2026-04-28",
+          "champion_class": "Fighter / Bruiser Top",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Udyr"
+        }
+      }
     }
   ]
 }

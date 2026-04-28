@@ -1870,5 +1870,224 @@ export const enChampions: ChampionGuide[] = [
         "role": "jungle"
       }
     ]
+  },
+  {
+    "slug": "udyr-top",
+    "title": "Udyr Top Build & Guide — Patch 14.10",
+    "language": "en",
+    "patch": "14.10",
+    "champion": "udyr",
+    "role": "top",
+    "last_updated": "2026-04-28",
+    "description": "Udyr top lane guide for League of Legends Patch 14.10: starter kit, bruiser build path, key matchups, power spikes, common mistakes, and one advanced tip.",
+    "quick_learn": {
+      "champion_dd_id": "Udyr",
+      "difficulty": 3,
+      "damage_type": "physical",
+      "champion_class": "Fighter / Bruiser Top",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Bridge Between",
+          "description": "Each ability is a stance. Recast within a window to fire its empowered version. After any ability, the next two attacks gain attack speed.",
+          "dd_spell_id": "Udyr_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Wilding Claw",
+          "description": "Attack speed buff; next two attacks deal bonus physical damage. Recast: more attack speed and lightning bolts on the target.",
+          "dd_spell_id": "UdyrQ"
+        },
+        {
+          "key": "W",
+          "name": "Iron Mantle",
+          "description": "Shield plus next two attacks heal. Recast: bigger shield and a heal-over-time tied to your max HP. Main lane sustain tool.",
+          "dd_spell_id": "UdyrW"
+        },
+        {
+          "key": "E",
+          "name": "Blazing Stampede",
+          "description": "Movement speed; first attack on each enemy stuns. Recast: more move speed and immunity to immobilizing CC (stuns, roots).",
+          "dd_spell_id": "UdyrE"
+        },
+        {
+          "key": "R",
+          "name": "Wingborne Storm",
+          "description": "AOE storm that damages and slows enemies near you. Recast: storm tracks the target and erupts for extra damage. Levels at 6/11/16.",
+          "dd_spell_id": "UdyrR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "W"
+        },
+        {
+          "level": 3,
+          "key": "E"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "W"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "W"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "W"
+        },
+        {
+          "level": 13,
+          "key": "W"
+        },
+        {
+          "level": 14,
+          "key": "E"
+        },
+        {
+          "level": 15,
+          "key": "E"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "E"
+        },
+        {
+          "level": 18,
+          "key": "E"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "1054",
+          "name": "Doran's Shield"
+        },
+        {
+          "dd_id": "3078",
+          "name": "Trinity Force"
+        },
+        {
+          "dd_id": "3047",
+          "name": "Plated Steelcaps"
+        },
+        {
+          "dd_id": "6610",
+          "name": "Sundered Sky"
+        },
+        {
+          "dd_id": "3053",
+          "name": "Sterak's Gage"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3111",
+          "name": "Mercury's Treads",
+          "against": "vs 3+ hard CC champions (e.g. Lissandra + Sejuani + Leona) — tenacity shortens stuns and roots so you can still reach the back line"
+        },
+        {
+          "dd_id": "3181",
+          "name": "Hullbreaker",
+          "against": "when you can splitpush a side lane (push alone while four enemies hold mid) — bonus solo HP and damage let you take towers under pressure"
+        },
+        {
+          "dd_id": "3065",
+          "name": "Spirit Visage",
+          "against": "vs heavy AP top laners (Mordekaiser, Rumble, Vladimir) — boosts the heal from your W by 25% and adds magic resist"
+        },
+        {
+          "dd_id": "3091",
+          "name": "Wit's End",
+          "against": "vs mobile AP threats (Akali, Gwen, Sylas) — magic resist plus on-hit magic damage punishes them when they dive your back line"
+        },
+        {
+          "dd_id": "6333",
+          "name": "Death's Dance",
+          "against": "vs squads with two strong physical damage dealers (e.g. Yasuo + Caitlyn) — turns AD burst into a slow bleed you can survive"
+        },
+        {
+          "dd_id": "3742",
+          "name": "Dead Man's Plate",
+          "against": "when you need map presence to roam or splitpush — the move speed stack closes the gap on kited targets that out-pace you naturally"
+        }
+      ],
+      "base_combo": [
+        "E",
+        "AA",
+        "Q",
+        "AA",
+        "W",
+        "R"
+      ],
+      "win_condition": "Survive lane with W sustain, scale to Trinity Force around minute 14, then snowball (turn early gold leads into kills) by side-laning and forcing 1v1 duels — your W heal outlasts most top laners.",
+      "weakness": "Short range, no dash, no built-in disengage. Hard kiting (Quinn, Vayne, Teemo) outpaces you, and once W is on cooldown there is no second layer of survivability."
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Udyr is a melee shapeshifter top laner who switches between four stances — <strong>Q</strong>, <strong>W</strong>, <strong>E</strong>, <strong>R</strong> — and can recast each one inside a short window to fire an empowered version. There are no skillshots in his kit: every ability is point-and-click, so the skill expression sits in stance order, recast timing, and choosing the right trade window. In top lane he plays as a sustain bruiser: <strong>Iron Mantle (W)</strong> gives you a shield plus a heal-over-time that outlasts most pre-6 trades, <strong>Blazing Stampede (E)</strong> stuns on the first attack against each enemy and gives move speed to gap-close, and <strong>Trinity Force</strong> is the item that turns the kit into real kill pressure.</p>\n<p>The game plan is straightforward: play short trades during <strong>W</strong>'s active, scale to Trinity Force around minute 14, then look for splitpush windows (push a side lane alone while four enemies hold mid) and 1v1 duels — your sustain wins most extended fights against other bruisers. You do not have a dash or a long-range disengage, so committing fully (\"all-in\" — no holding back, no escape plan) is usually the right call once <strong>E</strong> is up.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> Doran's Shield + 1 Health Potion. Doran's Blade only into ranged tops where you want to all-in early to deny CS — and even then, the shield is usually the safer pick because Udyr has no escape to bail on a failed all-in.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><strong>Trinity Force</strong> — bruiser core. Gives on-hit damage, attack speed, ability haste, and the Spellblade proc that fires every time you switch stance. Udyr's stance-then-attack rhythm makes this item read as if it were designed for him.</li>\n<li><strong>Plated Steelcaps</strong> — armor plus 12% reduced damage from auto-attacks. Default against most top laners and any AD-heavy team.</li>\n<li><strong>Sundered Sky</strong> — every first attack on a target below 35% HP becomes a critical strike that heals you. Synergizes with the <strong>E</strong> stun (your first attack on each target also stuns) and turns close 1v1s into kills.</li>\n<li><strong>Sterak's Gage</strong> — HP plus a lifeline shield (a passive that triggers when you take heavy damage). Buys the time to land a <strong>W</strong> recast and survive a burst window.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><strong>Mercury's Treads</strong> — swap from Plated Steelcaps when you face 3 or more hard CC champions (e.g. Lissandra + Sejuani + Leona). Tenacity shortens stuns and roots.</li>\n<li><strong>Hullbreaker</strong> — when you can splitpush a side lane uncontested. Bonus solo HP and damage let you take towers under pressure.</li>\n<li><strong>Spirit Visage</strong> — into AP top lanes (Mordekaiser, Rumble, Vladimir). Boosts the heal coming from <strong>W</strong> by 25% and adds magic resist.</li>\n<li><strong>Wit's End</strong> — into mobile AP threats (Akali, Gwen, Sylas). Magic resist plus on-hit magic damage punishes them when they dive your back line.</li>\n<li><strong>Death's Dance</strong> — into squads with two strong physical damage dealers (Yasuo + Caitlyn). Turns AD burst into a slow bleed (damage spread over a few seconds) you can survive.</li>\n</ul>\n<p><strong>Boots:</strong> Plated Steelcaps default. Mercury's Treads only against 3+ CC champions on the enemy team.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first for the on-hit damage and trade pattern, <strong>W</strong> second for lane sustain, <strong>E</strong> last (the stun is on the first attack regardless of points; extra ranks only shorten the cooldown). Take <strong>R</strong> at levels 6/11/16.</p>\n<p><strong>Runes:</strong> Primary <strong>Resolve</strong> with <strong>Grasp of the Undying</strong> (free HP and damage on every empowered attack), <strong>Demolish</strong>, <strong>Conditioning</strong>, <strong>Overgrowth</strong>. Secondary <strong>Precision</strong> with <strong>Triumph</strong> (heal on takedowns) and <strong>Legend: Alacrity</strong> (attack speed scales). Stat shards: attack speed, adaptive force, scaling HP.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Darius:</strong> Lane bully early. He out-trades you at level 1-2; survive with Doran's Shield, save <strong>W</strong> for after his <strong>W</strong> lands (so the recast heals through his bleed). After Trinity Force you out-sustain him 1v1.</li>\n<li><strong>Fiora:</strong> Skill matchup decided by <strong>W</strong> timing. Her parry counters every stance you cast first, so open with an auto-attack to bait it, then <strong>E</strong>-stun and <strong>W</strong> to sustain through her vital procs.</li>\n<li><strong>Mordekaiser:</strong> Slow lane into a death realm spike at 6. Trade short, save <strong>E</strong> recast for his <strong>R</strong> so the CC-immune dash drags you out of the realm. Rush Spirit Visage second item.</li>\n<li><strong>Quinn:</strong> Your worst-feeling matchup. She kites with <strong>Q</strong> blind plus <strong>E</strong> vault. Take Teleport (instead of Ghost), give up first wave CS, and roam mid every time the wave crashes — you cannot win extended 1v1s against her.</li>\n<li><strong>Camille:</strong> Scaling battle. Pre-6 you win with <strong>W</strong> sustain; once she has Divine Sunderer she out-trades you on her <strong>E</strong> stun. Avoid extended fights after minute 12 unless <strong>E</strong> recast is up to break her stun chain.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 3 (Q + W + E):</strong> All four stances are unlocked. <strong>E</strong> has a stun on the first attack against each enemy — this is your first all-in window if the wave is on your side and your jungler is top-side.</li>\n<li><strong>Level 6:</strong> <strong>Wingborne Storm (R)</strong> unlocks. AOE damage in skirmishes plus a recast that tracks the target. Now you can dive (go under tower for a kill) when the enemy is below half HP because the storm keeps ticking even if you back off briefly.</li>\n<li><strong>Trinity Force completion (~ minute 14):</strong> Massive spike. Spellblade procs every stance switch, and the move speed lets you stick to kited targets. Force a side-lane fight or freeze near your tower depending on jungler position.</li>\n<li><strong>Sundered Sky online (~ minute 21-23):</strong> With Trinity + Sundered + Sterak's, you become almost unkillable in 1v1s. Look for picks (eliminating an isolated enemy out of teamfight) on the side lanes around drake and baron timers.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Forgetting to recast.</strong> Every stance has a recast window where the empowered version fires for free. Without recasts you are playing 4 abilities; with recasts you are playing 8. Drill the rhythm: cast → 2 attacks → recast → 2 more attacks.</li>\n<li><strong>Burning E stun on the wave.</strong> <strong>E</strong>'s first attack on each target stuns. If you walk into the lane and auto-attack a minion first, you waste the stun on a 50-gold creature. Always open with <strong>E</strong> on the champion you want to kill.</li>\n<li><strong>Greedy all-ins pre-Trinity Force.</strong> Before your first item you are a stat-stick with no burst. If the lane is not pre-frozen near your tower, hold the trade and farm. The spike at minute 14 is what wins you the matchup, not a level-3 cheese.</li>\n<li><strong>Building pure tank.</strong> Udyr wants the bruiser stat sheet (HP + attack damage + ability haste + on-hit). Pure armor stacks like Frozen Heart make you tanky but useless in a 1v1 — you cannot kill anything in a side-lane duel.</li>\n<li><strong>Splitpushing without vision.</strong> Without river and tri-bush wards, a 4-man collapse from the enemy team turns your splitpush into a free kill for them. Always drop a Control Ward on the enemy side of the lane before you commit to the push.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Practice the <strong>W-into-E recast bait</strong>. Open a trade with <strong>W</strong> first stance to absorb the enemy's opening burst, then immediately cast <strong>E</strong> and recast it the moment the enemy fires their CC at you — the recast grants immunity to immobilizing CC for its duration, and the move speed lets you stick to them while their burst window is on cooldown. Most top laners commit their stun or root expecting you to be locked in place; eating the cast through the recast window swings the trade by roughly one full ability rotation in your favor.</p>",
+    "word_count": 1251,
+    "available_patches": [
+      "14.10"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "aatrox-top",
+        "champion": "aatrox",
+        "role": "top"
+      },
+      {
+        "slug": "darius-top",
+        "champion": "darius",
+        "role": "top"
+      },
+      {
+        "slug": "fiora-top",
+        "champion": "fiora",
+        "role": "top"
+      },
+      {
+        "slug": "garen-top",
+        "champion": "garen",
+        "role": "top"
+      },
+      {
+        "slug": "irelia-top",
+        "champion": "irelia",
+        "role": "top"
+      }
+    ]
   }
 ];

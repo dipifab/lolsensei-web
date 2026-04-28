@@ -1441,4 +1441,24 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/udyr/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/udyr/jungle/guide" />
   </url>
+  <!-- champion-guide/udyr/top: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/udyr/top/guide</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/udyr/top/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/udyr/top/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/udyr/top/guide" />
+  </url>
+  <!-- champion-guide/udyr/top: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/udyr/top/guide</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/udyr/top/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/udyr/top/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/udyr/top/guide" />
+  </url>
 </urlset>
