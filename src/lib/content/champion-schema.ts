@@ -103,6 +103,37 @@ export const QuickLearnSchema = z.object({
   weakness: z.string().min(20).max(220),
 });
 
+// Matchup Draft block (CR-057). Fonte editoriale e strutturata per:
+//   1. Rendering della sezione "Pick into / Counterpicks" tra Recommended
+//      Build e Key matchups, derivata dal frontmatter (no drift body/data).
+//   2. Indice inverso `counter-by-target.json` (build-time): per ogni champion
+//      target, lista delle guide che lo elencano in `pick_into[].examples` o
+//      `counterpicks[].examples`. Alimenta la futura feature champ-select.
+//
+// Schema voce: `examples` (array di slug champion concreti, alimenta indice
+// inverso), `archetype` (label umana per il rendering), `reason` (una frase
+// di ragionamento meccanico — niente winrate, niente statistiche).
+//
+// Backward-compat: il blocco e' opzionale a livello di frontmatter. Le guide
+// pre-CR-057 senza `matchup_draft` restano valide; il compile script salta lo
+// split del body e omette la guida dall'indice inverso.
+
+export const MatchupExampleSchema = z.object({
+  /** Slug champion concreti (1-5). Usati per costruire l'indice inverso. */
+  examples: z.array(ChampionSlugSchema).min(1).max(5),
+  /** Label leggibile dell'archetipo (es. "Mobile assassins with multi-gap-close"). */
+  archetype: z.string().min(5).max(80),
+  /** Ragionamento meccanico in una frase (no winrate, no statistiche). */
+  reason: z.string().min(20).max(280),
+});
+
+export const MatchupDraftSchema = z.object({
+  /** Champion contro cui questo pick e' forte (livello draft). */
+  pick_into: z.array(MatchupExampleSchema).min(2).max(5),
+  /** Champion che vengono pickati contro perche' lo neutralizzano. */
+  counterpicks: z.array(MatchupExampleSchema).min(2).max(5),
+});
+
 export const ChampionGuideFrontmatterSchema = z.object({
   // SEO title visualizzato come <h1> e dentro <title> tag tramite i18n template.
   title: z.string().min(10).max(120),
@@ -119,6 +150,8 @@ export const ChampionGuideFrontmatterSchema = z.object({
   // Quick Learn block opzionale (CR-053). Se presente, tutti i sotto-campi
   // sono required. Se assente, la guida e' valida e renderizza solo la prosa.
   quick_learn: QuickLearnSchema.optional(),
+  // Matchup Draft block opzionale (CR-057). Se presente, hard-validato.
+  matchup_draft: MatchupDraftSchema.optional(),
 });
 
 export type ChampionGuideFrontmatter = z.infer<
@@ -132,3 +165,5 @@ export type SkillOrderEntry = z.infer<typeof SkillOrderEntrySchema>;
 export type CoreItem = z.infer<typeof CoreItemSchema>;
 export type SituationalItem = z.infer<typeof SituationalItemSchema>;
 export type QuickLearn = z.infer<typeof QuickLearnSchema>;
+export type MatchupExample = z.infer<typeof MatchupExampleSchema>;
+export type MatchupDraft = z.infer<typeof MatchupDraftSchema>;

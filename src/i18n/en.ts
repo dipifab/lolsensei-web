@@ -1210,6 +1210,12 @@ const en = {
   'wp35.champion_guide.quick_learn.situational_items': 'Situational Items',
   'wp35.champion_guide.quick_learn.win_condition': 'Win Condition',
   'wp35.champion_guide.quick_learn.weakness': 'Weakness',
+  // Matchup Draft block (CR-057) — 4 keys
+  'wp35.matchup_draft.heading': 'Pick into / Counterpicks',
+  'wp35.matchup_draft.subtitle':
+    'Draft-level matchups: when this pick shines and which champions are picked against it. Mechanical reasoning, not winrate.',
+  'wp35.matchup_draft.pick_into_title': 'Pick into',
+  'wp35.matchup_draft.counterpicks_title': 'Counterpicks',
   // Patch badge + last updated (4)
   'wp35.champion_guide.patch_badge.label': 'Patch {patch}',
   'wp35.champion_guide.patch_badge.outdated_warning': 'A more recent guide is available for the latest patch.',

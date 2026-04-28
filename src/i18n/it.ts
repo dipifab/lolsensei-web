@@ -1207,6 +1207,12 @@ const it = {
   'wp35.champion_guide.quick_learn.situational_items': 'Oggetti Situazionali',
   'wp35.champion_guide.quick_learn.win_condition': 'Condizione di Vittoria',
   'wp35.champion_guide.quick_learn.weakness': 'Punto Debole',
+  // Matchup Draft block (CR-057) — 4 keys
+  'wp35.matchup_draft.heading': 'Pick favorevoli / Counterpick',
+  'wp35.matchup_draft.subtitle':
+    'Matchup di draft: quando questo pick brilla e quali champion vengono scelti contro di lui. Ragionamento meccanico, non winrate.',
+  'wp35.matchup_draft.pick_into_title': 'Pick favorevoli',
+  'wp35.matchup_draft.counterpicks_title': 'Counterpick',
   // Patch badge + last updated (4)
   'wp35.champion_guide.patch_badge.label': 'Patch {patch}',
   'wp35.champion_guide.patch_badge.outdated_warning': 'Una guida più recente è disponibile per la patch latest.',

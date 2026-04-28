@@ -8,6 +8,7 @@
 import type {
   ChampionLanguage,
   ChampionRole,
+  MatchupDraft,
   QuickLearn,
 } from '../../lib/content/champion-schema';
 
@@ -35,10 +36,18 @@ export interface ChampionGuide {
   description: string;
   /** CR-053 Quick Learn block. Optional — guide remains valid without it. */
   quick_learn?: QuickLearn;
+  /** CR-057 Matchup Draft block. Optional. When present the body is
+   *  splitted at compile time on `## Key matchups` (EN) / `## Matchup chiave`
+   *  (IT) and `content_html_pre` / `content_html_post` are populated. */
+  matchup_draft?: MatchupDraft;
 
   // ---- Build-time derived --------------------------------------------------
-  /** Sanitized HTML rendered from the Markdown body. */
+  /** Sanitized HTML rendered from the Markdown body (single block, fallback). */
   content_html: string;
+  /** When `matchup_draft` is set: HTML up to the H2 that opens Key matchups. */
+  content_html_pre?: string;
+  /** When `matchup_draft` is set: HTML from Key matchups onward (inclusive). */
+  content_html_post?: string;
   /** Word count of the body (post-HTML strip). Editorial QA helper. */
   word_count: number;
   /** All patches present in the dataset for `(champion, role, language)`. Sorted ascending. */

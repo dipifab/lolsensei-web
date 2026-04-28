@@ -153,9 +153,16 @@ export default createMiddleware({
     (event) => {
       // CSP: only on HTML responses. Assets (js/css/img/font) don't need it
       // and stamping CSP on them just inflates egress.
+      // Dev mode skip: Vinxi/Vite inject their own HMR/runtime inline scripts
+      // (`@vite/client`, `vinxi/runtime/client.js`, entry-client.tsx) whose
+      // hashes are not in INLINE_SCRIPT_HASHES (production-only). The strict
+      // CSP would block hydration entirely. The browser still gets COOP/COEP
+      // and the prod build keeps the strict CSP — this only loosens dev.
       const contentType = event.response.headers.get('content-type') || '';
       if (contentType.includes('text/html')) {
-        event.response.headers.set(CSP_HEADER_NAME, CSP_HEADER);
+        if (!import.meta.env.DEV) {
+          event.response.headers.set(CSP_HEADER_NAME, CSP_HEADER);
+        }
 
         // WP24 M4 (SEC#7) + R2-MAJ-03 — hardening cross-origin isolation.
         // COOP ``same-origin`` mitiga Spectre-style cross-origin leaks.

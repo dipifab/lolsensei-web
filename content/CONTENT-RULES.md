@@ -178,18 +178,49 @@ Convenzioni per `dd_spell_id`:
 
 ## 5. Struttura body (sezioni ricorrenti)
 
-Le 6 sezioni canoniche di una champion guide sono:
+Le 7 sezioni canoniche di una champion guide sono:
 
 1. **## Overview** — 2 paragrafi: identità del champ + game plan in una frase
 2. **## Recommended Build** — starting items, core (in ordine), situational
    (con trigger), boots, skill order, runes
-3. **## Key matchups** — 5 matchup tipici (mix favorevoli/neutri/sfavorevoli)
-4. **## Power spikes & win conditions** — 3-4 momenti chiave (livelli + item completion)
-5. **## Common mistakes** — 3-5 errori frequenti, ognuno con la correzione
-6. **## Advanced tip** — UNA tecnica avanzata, non un elenco
+3. **Pick into / Counterpicks** — livello draft, archetipi (non champion
+   isolati). **Sezione strutturata, NON prosa nel body**: si scrive nel
+   frontmatter come `matchup_draft:` e il rendering è automatico. Schema:
+   ```yaml
+   matchup_draft:
+     pick_into:                    # 2-5 voci, archetipi contro cui sei forte
+       - examples: ["zed", "akali"]    # 1-5 slug champion (alimenta indice inverso)
+         archetype: "..."              # 5-80 char, label umana
+         reason: "..."                 # 20-280 char, ragionamento meccanico
+     counterpicks:                 # 2-5 voci, chi ti picka contro in draft
+       - examples: [...]
+         archetype: "..."
+         reason: "..."
+   ```
+   - Niente winrate, niente statistiche: solo ragionamento meccanico (es.
+     "champion immobili senza dash: la Q rooting li trova senza che possano
+     schivarla").
+   - **Body markdown**: NON scrivere `## Pick into / Counterpicks` come
+     sezione di prosa. Il compile script splitta automaticamente il body
+     sull'header `## Key matchups` (EN) / `## Matchup chiave` (IT) e il
+     componente `<MatchupDraft />` viene iniettato nel mezzo.
+   - Posizione visuale: tra Recommended Build e Key matchups.
+   - Titolo nel rendering: `Pick into / Counterpicks` (EN), `Pick favorevoli /
+     Counterpick` (IT — counterpick resta EN, vedi §2 termini tattici).
+   - Indice inverso: gli `examples` di tutte le guide alimentano
+     `src/data/champions/counter-by-target.json` per la feature champ-select
+     "avversario picka X → chi è forte contro X".
+4. **## Key matchups** — 5 matchup tipici in lane (mix favorevoli/neutri/
+   sfavorevoli) con consigli di **gameplay** (come giocarci contro), non
+   di draft. Differenza con §3: qui spieghi *come* affrontare il matchup
+   in lane, non *se* pickarlo.
+5. **## Power spikes & win conditions** — 3-4 momenti chiave (livelli + item completion)
+6. **## Common mistakes** — 3-5 errori frequenti, ognuno con la correzione
+7. **## Advanced tip** — UNA tecnica avanzata, non un elenco
 
-Lunghezza target body: **800-1200 parole**. Sotto i 600 il lint warna; sopra
-i 1500 anche.
+Lunghezza target body: **800-1300 parole** (target spostato da 1200 a 1300
+per accogliere la sezione Pick into / Counterpicks). Soft warn del lint:
+sotto i 600 e sopra i 1500.
 
 ---
 

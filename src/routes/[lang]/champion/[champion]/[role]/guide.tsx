@@ -130,6 +130,7 @@ export default function ChampionRoleGuideRoute() {
       when={isSupported()}
       fallback={<Navigate href={`/${langParam()}/`} />}
     >
+      <Navbar />
       <Show
         when={isRoleValid()}
         fallback={
@@ -203,7 +204,6 @@ export default function ChampionRoleGuideRoute() {
                     },
                   ]}
                 />
-                <Navbar />
                 <Breadcrumbs
                   items={[
                     {
@@ -220,12 +220,12 @@ export default function ChampionRoleGuideRoute() {
                   ]}
                 />
                 <ChampionGuide guide={current} lang={current.language} />
-                <Footer />
               </>
             );
           }}
         </Show>
       </Show>
+      <Footer />
     </Show>
   );
 }
@@ -269,7 +269,6 @@ function NotFoundFallback(props: {
   return (
     <>
       <Meta name="robots" content="noindex, nofollow" />
-      <Navbar />
       <main class="min-h-[60vh] flex items-center justify-center px-8 py-24">
         <div class="max-w-xl text-center">
           <h1 class="text-3xl md:text-4xl font-headline font-extrabold tracking-tight text-on-surface mb-4">
@@ -301,7 +300,6 @@ function NotFoundFallback(props: {
           </Show>
         </div>
       </main>
-      <Footer />
     </>
   );
 }

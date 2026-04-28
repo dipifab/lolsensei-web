@@ -90,6 +90,10 @@ function validateFrontmatter(fm, file) {
   if (fm.quick_learn !== undefined) {
     validateQuickLearn(fm.quick_learn, errs);
   }
+  // Matchup Draft block (CR-057). Optional. If present, validate shape.
+  if (fm.matchup_draft !== undefined) {
+    validateMatchupDraft(fm.matchup_draft, errs);
+  }
   if (errs.length) {
     throw new ValidationError(file, errs);
   }
@@ -200,6 +204,56 @@ function validateQuickLearn(ql, errs) {
   }
 }
 
+// CR-057: Matchup Draft block. Optional. If present, validates shape mirror
+// of MatchupDraftSchema in src/lib/content/champion-schema.ts.
+function validateMatchupDraft(md, errs) {
+  if (typeof md !== 'object' || md === null) {
+    errs.push(`matchup_draft: must be an object`);
+    return;
+  }
+  for (const block of ['pick_into', 'counterpicks']) {
+    const arr = md[block];
+    if (!Array.isArray(arr) || arr.length < 2 || arr.length > 5) {
+      errs.push(`matchup_draft.${block}: array of [2, 5] entries`);
+      continue;
+    }
+    arr.forEach((entry, i) => {
+      const path = `matchup_draft.${block}[${i}]`;
+      if (typeof entry !== 'object' || entry === null) {
+        errs.push(`${path}: must be an object`);
+        return;
+      }
+      if (
+        !Array.isArray(entry.examples) ||
+        entry.examples.length < 1 ||
+        entry.examples.length > 5
+      ) {
+        errs.push(`${path}.examples: array of [1, 5] champion slugs`);
+      } else {
+        entry.examples.forEach((slug, j) => {
+          if (typeof slug !== 'string' || !SLUG_CHAMPION_RE.test(slug)) {
+            errs.push(`${path}.examples[${j}]: must be lowercase kebab-case slug`);
+          }
+        });
+      }
+      if (
+        typeof entry.archetype !== 'string' ||
+        entry.archetype.length < 5 ||
+        entry.archetype.length > 80
+      ) {
+        errs.push(`${path}.archetype: string in [5, 80]`);
+      }
+      if (
+        typeof entry.reason !== 'string' ||
+        entry.reason.length < 20 ||
+        entry.reason.length > 280
+      ) {
+        errs.push(`${path}.reason: string in [20, 280]`);
+      }
+    });
+  }
+}
+
 class ValidationError extends Error {
   constructor(file, issues) {
     super(`[${file}] ${issues.join('; ')}`);
@@ -236,6 +290,38 @@ const renderer = unified()
 async function renderHtml(markdownBody) {
   const file = await renderer.process(markdownBody);
   return String(file);
+}
+
+// CR-057: split del body markdown sull'header H2 di "Key matchups". Quando la
+// guida ha `matchup_draft` nel frontmatter il componente <MatchupDraft /> va
+// renderizzato tra Recommended Build e Key matchups, quindi il body viene
+// splittato in due parti che il client renderizza prima/dopo del componente.
+//
+// EN guides: marker `## Key matchups`. IT guides: `## Matchup chiave`.
+// Caso di errore: matchup_draft presente ma marker non trovato. Il compile
+// fallisce con un errore esplicito (l'autore deve avere la sezione body H2
+// per dare la posizione di split).
+const MATCHUP_SPLIT_MARKERS = {
+  en: /^## Key matchups\s*$/m,
+  it: /^## Matchup chiave\s*$/m,
+};
+
+function splitBodyForMatchupDraft(body, lang) {
+  const re = MATCHUP_SPLIT_MARKERS[lang];
+  if (!re) {
+    throw new Error(`splitBodyForMatchupDraft: unsupported lang ${lang}`);
+  }
+  const m = body.match(re);
+  if (!m) {
+    throw new Error(
+      `body has no "${re.source.replace(/[/^$\\]/g, '')}" header — required when matchup_draft is set`,
+    );
+  }
+  const idx = m.index;
+  return {
+    pre: body.slice(0, idx),
+    post: body.slice(idx),
+  };
 }
 
 function countWords(text) {
@@ -328,11 +414,28 @@ async function compileLanguage(lang, top50) {
         `frontmatter language=${fm.language} but file is under content/champions/${lang}/`,
       ]);
     }
-    const html = await renderHtml(body);
+    let content_html;
+    let content_html_pre = null;
+    let content_html_post = null;
+    if (fm.matchup_draft) {
+      try {
+        const { pre, post } = splitBodyForMatchupDraft(body, lang);
+        content_html_pre = await renderHtml(pre);
+        content_html_post = await renderHtml(post);
+        // content_html resta come fallback / single-block per consumer legacy.
+        content_html = await renderHtml(body);
+      } catch (e) {
+        throw new ValidationError(path, [e.message]);
+      }
+    } else {
+      content_html = await renderHtml(body);
+    }
     parsed.push({
       ...fm,
-      content_html: html,
-      word_count: countWords(html),
+      content_html,
+      content_html_pre,
+      content_html_post,
+      word_count: countWords(content_html),
       _filename: file,
       _path: path,
     });
@@ -362,7 +465,14 @@ async function compileLanguage(lang, top50) {
       last_updated: guide.last_updated,
       description: guide.description,
       ...(guide.quick_learn ? { quick_learn: guide.quick_learn } : {}),
+      ...(guide.matchup_draft ? { matchup_draft: guide.matchup_draft } : {}),
       content_html: guide.content_html,
+      ...(guide.content_html_pre !== null
+        ? { content_html_pre: guide.content_html_pre }
+        : {}),
+      ...(guide.content_html_post !== null
+        ? { content_html_post: guide.content_html_post }
+        : {}),
       word_count: guide.word_count,
       available_patches: allPatches,
       is_latest: isLatest,
@@ -435,6 +545,66 @@ function buildHubIndex(guidesByLang) {
   };
 }
 
+// CR-057: counter index. Indice inverso costruito da matchup_draft.* di tutte
+// le guide. Forma: { [target_slug]: [{ publisher: {champion, role, lang},
+// archetype, reason, via }] }. Usato a runtime dalla feature champ-select
+// ("avversario picka X → chi e' forte contro X?"). Output in JSON
+// deterministico (sorted by target, sorted by publisher slug).
+function buildCounterIndex(guidesByLang) {
+  const index = {}; // target slug → array di entry
+  for (const lang of LANGS) {
+    const guides = guidesByLang[lang] ?? [];
+    for (const g of guides) {
+      if (!g.matchup_draft) continue;
+      const publisher = {
+        champion: g.champion,
+        role: g.role,
+        lang,
+      };
+      // pick_into: questa guida e' forte contro `target`. La feature lookup
+      // su `target` dovrebbe mostrare questa guida come "pick into target".
+      for (const entry of g.matchup_draft.pick_into) {
+        for (const target of entry.examples) {
+          if (!index[target]) index[target] = [];
+          index[target].push({
+            publisher,
+            archetype: entry.archetype,
+            reason: entry.reason,
+            via: 'pick_into',
+          });
+        }
+      }
+      // counterpicks: `target` e' counter di questa guida — semantica inversa.
+      // Manteniamo un campo distinto cosi' la UI puo' decidere come mostrarlo
+      // (es. "avversario ha pickato X = counter di questo champion").
+      for (const entry of g.matchup_draft.counterpicks) {
+        for (const target of entry.examples) {
+          if (!index[target]) index[target] = [];
+          index[target].push({
+            publisher,
+            archetype: entry.archetype,
+            reason: entry.reason,
+            via: 'counterpick',
+          });
+        }
+      }
+    }
+  }
+  // Sort deterministico: target alfabetico, entry per publisher slug+lang+via.
+  const sorted = {};
+  for (const target of Object.keys(index).sort()) {
+    sorted[target] = index[target].slice().sort((a, b) => {
+      const aKey = `${a.publisher.champion}-${a.publisher.role}|${a.publisher.lang}|${a.via}`;
+      const bKey = `${b.publisher.champion}-${b.publisher.role}|${b.publisher.lang}|${b.via}`;
+      return aKey.localeCompare(bKey);
+    });
+  }
+  return {
+    generated_at: new Date().toISOString().slice(0, 10),
+    targets: sorted,
+  };
+}
+
 async function main() {
   await mkdir(OUTPUT_DIR, { recursive: true });
   const top50 = await loadTop50();
@@ -458,6 +628,17 @@ async function main() {
   );
   console.log(
     `[compile-content] hub index: ${hubIndex.guides.length} unique (champion, role) entr(y/ies) emitted`,
+  );
+  // CR-057: counter index (inverso da matchup_draft).
+  const counterIndex = buildCounterIndex(guidesByLang);
+  const counterTargets = Object.keys(counterIndex.targets).length;
+  await writeFile(
+    resolve(OUTPUT_DIR, 'counter-by-target.json'),
+    JSON.stringify(counterIndex, null, 2),
+    'utf8',
+  );
+  console.log(
+    `[compile-content] counter index: ${counterTargets} target champion(s) covered`,
   );
   console.log(`[compile-content] done: ${totalGuides} total guide(s).`);
 }
