@@ -118,7 +118,8 @@ export function ChampionGuide(props: ChampionGuideProps): JSX.Element {
           prose-p:text-on-surface-variant/90 prose-p:leading-relaxed prose-p:text-base prose-p:md:text-lg prose-p:mb-6
           prose-strong:text-primary-container prose-strong:font-bold
           prose-a:text-primary prose-a:underline prose-a:hover:text-primary-container
-          prose-ul:text-on-surface-variant/90 prose-li:mb-2"
+          prose-ul:text-on-surface-variant/90 prose-li:mb-2
+          [&_img]:inline-block [&_img]:!my-0 [&_img]:!mx-1 [&_img]:h-6 [&_img]:w-6 [&_img]:align-text-bottom [&_img]:rounded"
         innerHTML={props.guide.content_html}
         data-testid="champion-guide-body"
       />

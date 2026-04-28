@@ -161,7 +161,7 @@ senza `quick_learn:` restano valide.
 | `difficulty` | int | [1, 5] |
 | `damage_type` | enum | `magic | physical | mixed | true` |
 | `champion_class` | string | `[3, 40]` — NB: free text, non usato per logica, solo per display. Per theming visuale userai `archetype` quando lo aggiungeremo. |
-| `abilities` | array length 5 | P/Q/W/E/R nell'ordine. Ogni: `key`, `name [2,40]`, `description [10,140]`, `dd_spell_id?` |
+| `abilities` | array length 5 | P/Q/W/E/R nell'ordine. Ogni: `key`, `name [2,40]`, `description [10,240]`, `dd_spell_id?` |
 | `skill_order` | array length 18 | levels 1..18 esatti, key `Q|W|E|R` |
 | `core_items` | array `[3, 6]` | `dd_id` regex `\d{3,5}`, `name [2,40]`, in **ordine di acquisto** |
 | `situational_items?` | array `[2, 6]` | come core_items + `against [5, 140]` (trigger di acquisto) |

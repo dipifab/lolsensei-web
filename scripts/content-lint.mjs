@@ -174,8 +174,8 @@ function lintQuickLearn(file, ql) {
       if (typeof a?.name !== 'string' || a.name.length < 2 || a.name.length > 40) {
         fail(file, `quick_learn.abilities[${i}].name: string in [2, 40]`);
       }
-      if (typeof a?.description !== 'string' || a.description.length < 10 || a.description.length > 140) {
-        fail(file, `quick_learn.abilities[${i}].description: string in [10, 140]`);
+      if (typeof a?.description !== 'string' || a.description.length < 10 || a.description.length > 240) {
+        fail(file, `quick_learn.abilities[${i}].description: string in [10, 240]`);
       }
     }
   }

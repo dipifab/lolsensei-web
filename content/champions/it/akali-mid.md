@@ -23,7 +23,7 @@ quick_learn:
       dd_spell_id: "AkaliQ"
     - key: "W"
       name: "Twilight Shroud"
-      description: "Zona di fumo che rende Akali invisibile al targeting nemico. Agire dentro la rivela. Usala per dodgiare skillshot o rompere vision."
+      description: "Zona di fumo che rende Akali invisibile al targeting e aumenta la max energia fino a +80 mentre attiva. Agire dentro la rivela. Droppala in mezzo alla combo, non solo per scappare: il bonus energia regala una Q extra nella rotation."
       dd_spell_id: "AkaliW"
     - key: "E"
       name: "Shuriken Flip"

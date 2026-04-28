@@ -59,7 +59,7 @@ export const AbilityKeySchema = z.enum(['P', 'Q', 'W', 'E', 'R']);
 export const QuickLearnAbilitySchema = z.object({
   key: AbilityKeySchema,
   name: z.string().min(2).max(40),
-  description: z.string().min(10).max(140),
+  description: z.string().min(10).max(240),
   /** Data Dragon spell ID (es. "LuxLightBinding"). Per passive: "Lux_Passive". */
   dd_spell_id: z.string().min(2).max(60).optional(),
 });

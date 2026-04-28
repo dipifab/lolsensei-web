@@ -23,7 +23,7 @@ quick_learn:
       dd_spell_id: "AkaliQ"
     - key: "W"
       name: "Twilight Shroud"
-      description: "Smoke zone that makes Akali invisible to enemy targeting. Acting inside reveals her briefly. Use to dodge skillshots or break vision."
+      description: "Smoke zone that makes Akali invisible to enemy targeting and grants up to +80 max energy while active. Acting inside reveals her briefly. Drop W mid-combo, not just to disengage — the energy bonus fuels an extra Q in the rotation."
       dd_spell_id: "AkaliW"
     - key: "E"
       name: "Shuriken Flip"
