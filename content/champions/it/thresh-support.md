@@ -1,12 +1,12 @@
 ---
-title: "Thresh Support: Build & Guida — Patch 14.10"
+title: "Thresh Support: Build & Guida — Patch 16.9"
 slug: "thresh-support"
 language: "it"
-patch: "14.10"
+patch: "16.9"
 champion: "thresh"
 role: "support"
-last_updated: "2026-04-28"
-description: "Guida Thresh support per League of Legends Patch 14.10: starter, build da tank-catcher, matchup chiave, power spike, errori comuni e una tip di chiusura."
+last_updated: "2026-04-29"
+description: "Guida Thresh support per League of Legends Patch 16.9: starter, build da tank-catcher, matchup chiave, power spike, errori comuni e una tip di chiusura."
 quick_learn:
   champion_dd_id: "Thresh"
   difficulty: 3
@@ -84,24 +84,24 @@ Game plan: piazza ward (gli oggetti di vision) nel **river** (il corridoio al ce
 
 ## Recommended Build
 
-**Starting items:** ![World Atlas](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3865.png) **World Atlas** (lo starter unificato dei support) più 2 Health Potions. World Atlas evolve da solo man mano che accumuli quest gold — passando per ![Runic Compass](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3866.png) **Runic Compass** e ![Bounty of Worlds](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3867.png) **Bounty of Worlds** — fino all'upgrade endgame che scegli.
+**Starting items:** ![World Atlas](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png) **World Atlas** (lo starter unificato dei support) più 2 Health Potions. World Atlas evolve da solo man mano che accumuli quest gold — passando per ![Runic Compass](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3866.png) **Runic Compass** e ![Bounty of Worlds](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3867.png) **Bounty of Worlds** — fino all'upgrade endgame che scegli.
 
 **Core items (in ordine di acquisto):**
 
-1. ![World Atlas](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3865.png) **World Atlas** — starter. Non last-hittare i minion: lascia il farm al tuo ADC.
-2. ![Mobility Boots](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3117.png) **Mobility Boots** — velocità fuori combattimento. Ti permette di **roamare** (lasciare la lane bot per aiutare mid o jungle) e di piazzare ward in profondità.
-3. ![Locket of the Iron Solari](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3190.png) **Locket of the Iron Solari** — attiva uno scudo ad area per il team. Usalo subito prima dell'engage per assorbire la prima raffica di **burst** (il danno alto e concentrato che la squadra avversaria scarica nei primi 1-2 secondi del fight).
-4. ![Knight's Vow](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3109.png) **Knight's Vow** — ti lega al tuo **ADC** (Attack Damage Carry: il compagno di bot lane che fa danno con gli auto-attack, di solito il damage dealer principale del team a fine partita). Una parte del danno che lui prende viene dirottata su di te, e in cambio lo curi. Scegli il carry la cui vita vuoi proteggere di più.
-5. ![Bloodsong](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3877.png) **Bloodsong** — l'upgrade endgame del support item, variante da engage (World Atlas si trasforma automaticamente in uno di questi item finali quando completi la sua quest). Aggiunge danno extra al tuo prossimo auto-attack subito dopo aver applicato **crowd-control / CC** (qualsiasi stun, slow, root o knockback): perfetto dopo una Q o una R.
+1. ![World Atlas](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png) **World Atlas** — starter. Non last-hittare i minion: lascia il farm al tuo ADC.
+2. ![Mobility Boots](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3117.png) **Mobility Boots** — velocità fuori combattimento. Ti permette di **roamare** (lasciare la lane bot per aiutare mid o jungle) e di piazzare ward in profondità.
+3. ![Locket of the Iron Solari](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png) **Locket of the Iron Solari** — attiva uno scudo ad area per il team. Usalo subito prima dell'engage per assorbire la prima raffica di **burst** (il danno alto e concentrato che la squadra avversaria scarica nei primi 1-2 secondi del fight).
+4. ![Knight's Vow](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3109.png) **Knight's Vow** — ti lega al tuo **ADC** (Attack Damage Carry: il compagno di bot lane che fa danno con gli auto-attack, di solito il damage dealer principale del team a fine partita). Una parte del danno che lui prende viene dirottata su di te, e in cambio lo curi. Scegli il carry la cui vita vuoi proteggere di più.
+5. ![Bloodsong](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png) **Bloodsong** — l'upgrade endgame del support item, variante da engage (World Atlas si trasforma automaticamente in uno di questi item finali quando completi la sua quest). Aggiunge danno extra al tuo prossimo auto-attack subito dopo aver applicato **crowd-control / CC** (qualsiasi stun, slow, root o knockback): perfetto dopo una Q o una R.
 
 **Situational items:**
 
-- ![Mercury's Treads](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3111.png) **Mercury's Treads** — boots che danno magic resist e riducono la durata dei CC ricevuti. Vai su questi contro squadre con tanto danno magico o catene di CC (Leona engage, ulti di Ashe). Sostituisci le Mobility Boots prima che il teamfight inizi.
-- ![Plated Steelcaps](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3047.png) **Plated Steelcaps** — boots che danno armor e riducono il danno degli auto-attack ricevuti. Vai su questi contro bot lane basate sugli auto-attack (Caitlyn, Draven, Tristana) quando il loro **harass** early (il danno costante in lane usato per logorarti senza committare a un fight) ti pesa più del CC nei teamfight late.
-- ![Zeke's Convergence](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3050.png) **Zeke's Convergence** — abbinalo a un ADC che fa tanto danno. Quando ulti con la R, Zeke's piazza una zona di slow e dà al carry bonus damage sul prossimo colpo. Combo perfetta.
-- ![Vigilant Wardstone](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/4643.png) **Vigilant Wardstone** — sesto slot late-game. Più ward attivi sulla mappa, range ward maggiore, piccolo bonus stat.
+- ![Mercury's Treads](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png) **Mercury's Treads** — boots che danno magic resist e riducono la durata dei CC ricevuti. Vai su questi contro squadre con tanto danno magico o catene di CC (Leona engage, ulti di Ashe). Sostituisci le Mobility Boots prima che il teamfight inizi.
+- ![Plated Steelcaps](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png) **Plated Steelcaps** — boots che danno armor e riducono il danno degli auto-attack ricevuti. Vai su questi contro bot lane basate sugli auto-attack (Caitlyn, Draven, Tristana) quando il loro **harass** early (il danno costante in lane usato per logorarti senza committare a un fight) ti pesa più del CC nei teamfight late.
+- ![Zeke's Convergence](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3050.png) **Zeke's Convergence** — abbinalo a un ADC che fa tanto danno. Quando ulti con la R, Zeke's piazza una zona di slow e dà al carry bonus damage sul prossimo colpo. Combo perfetta.
+- ![Vigilant Wardstone](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4643.png) **Vigilant Wardstone** — sesto slot late-game. Più ward attivi sulla mappa, range ward maggiore, piccolo bonus stat.
 
-**Boots:** Default ![Mobility Boots](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3117.png) **Mobility Boots** per roamare aggressivo in lane. Sostituiscile con uno dei boots difensivi situazionali **prima del primo grosso teamfight** (intorno al minuto 18-22), perché Mobility perde il bonus di velocità non appena il fight inizia.
+**Boots:** Default ![Mobility Boots](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3117.png) **Mobility Boots** per roamare aggressivo in lane. Sostituiscile con uno dei boots difensivi situazionali **prima del primo grosso teamfight** (intorno al minuto 18-22), perché Mobility perde il bonus di velocità non appena il fight inizia.
 
 **Skill order:** Maxa **E** (Flay) per primo — lo slow, il knockback e il danno della passive sugli auto-attack sono il tuo strumento di trade in lane. Maxa **Q** per seconda: cooldown più basso significa più finestre di pickoff. Maxa **W** per ultima. Prendi un punto in **R** ai livelli 6, 11, 16.
 
@@ -119,8 +119,8 @@ Game plan: piazza ward (gli oggetti di vision) nel **river** (il corridoio al ce
 
 - **Livello 2 (Q + E):** Primo spike. Con la **Q** per fare engage e la **E** per tenerli bloccati, puoi giocare un **all-in** (impegnarti in un tentativo di kill totale, senza spazio per disimpegnarti) su un nemico che si è spinto troppo oltre la prima **wave** (l'onda di minion).
 - **Livello 6 (R sbloccata):** Il potenziale di pickoff esplode. Una **Q** atterrata nel river o in un cespuglio laterale seguita da **R** dietro al bersaglio è una kill garantita a questo punto della partita.
-- **![Locket of the Iron Solari](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3190.png) Locket of the Iron Solari completato (~ minuto 14-16):** Primo item da teamfight pronto. Adesso ogni engage ti dà uno scudo gratis per il team — raggruppati col team su **Drake** (il drago, l'obiettivo nel river basso che dà buff permanenti a chi lo uccide) o **Voidgrubs** (i piccoli mostri nel river alto: chi li uccide guadagna danno bonus contro le strutture nemiche).
-- **![Bloodsong](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3877.png) Bloodsong endgame (~ minuto 24-30):** L'auto-attack post-CC inizia a fare danno reale. Improvvisamente il combo Q → auto-attack → E non è più solo un setup — è una kill su uno **squishy** (un campione fragile come un ADC o un mage) anche da solo.
+- **![Locket of the Iron Solari](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png) Locket of the Iron Solari completato (~ minuto 14-16):** Primo item da teamfight pronto. Adesso ogni engage ti dà uno scudo gratis per il team — raggruppati col team su **Drake** (il drago, l'obiettivo nel river basso che dà buff permanenti a chi lo uccide) o **Voidgrubs** (i piccoli mostri nel river alto: chi li uccide guadagna danno bonus contro le strutture nemiche).
+- **![Bloodsong](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png) Bloodsong endgame (~ minuto 24-30):** L'auto-attack post-CC inizia a fare danno reale. Improvvisamente il combo Q → auto-attack → E non è più solo un setup — è una kill su uno **squishy** (un campione fragile come un ADC o un mage) anche da solo.
 
 ## Common mistakes
 

@@ -1,12 +1,12 @@
 ---
-title: "Neeko Mid Build & Guide — Patch 14.10"
+title: "Neeko Mid Build & Guide — Patch 16.9"
 slug: "neeko-mid"
 language: "en"
-patch: "14.10"
+patch: "16.9"
 champion: "neeko"
 role: "mid"
-last_updated: "2026-04-27"
-description: "Neeko mid lane guide for League of Legends Patch 14.10: AP burst build, clone deception combos, key matchups, power spikes, common mistakes and a closing tip."
+last_updated: "2026-04-29"
+description: "Neeko mid lane guide for League of Legends Patch 16.9: AP burst build, clone deception combos, key matchups, power spikes, common mistakes and a closing tip."
 quick_learn:
   champion_dd_id: "Neeko"
   difficulty: 2
@@ -53,7 +53,7 @@ quick_learn:
     - { level: 17, key: "W" }
     - { level: 18, key: "W" }
   core_items:
-    - { dd_id: "6655", name: "Luden's Companion" }
+    - { dd_id: "6655", name: "Luden's Echo" }
     - { dd_id: "3020", name: "Sorcerer's Shoes" }
     - { dd_id: "4645", name: "Shadowflame" }
     - { dd_id: "3089", name: "Rabadon's Deathcap" }
@@ -72,7 +72,7 @@ quick_learn:
       name: "Cosmic Drive"
       against: "when the team needs more roams and you want extra movement speed mid-game over raw burst"
   base_combo: ["W", "E", "Q", "R"]
-  win_condition: "Land R inside a teamfight or off a flank disguised as an ally. Once Luden's and Shadowflame are online, a hit R + Q double bloom one-shots most squishy back lines."
+  win_condition: "Land R inside a teamfight or off a flank disguised as an ally. Once Luden's Echo and Shadowflame are online, a hit R + Q double bloom one-shots most squishy back lines."
   weakness: "All damage is locked behind a long, telegraphed R that can be canceled by any hard CC. No dash, no shield, and the W active is the only mobility tool."
 ---
 
@@ -80,7 +80,7 @@ quick_learn:
 
 Neeko is an AP burst mage — a champion built around dealing very high damage in a 1-2 second window — who turns disguise and clone deception into one of the most explosive single-target combos in mid lane. Her kit is built around landing **Tangle-Barbs (E)** through a minion or her **Shapesplitter (W)** clone to extend the root duration, then chaining **Blooming Burst (Q)** and **Pop Blossom (R)** for a one-shot. The trade-off is that her ultimate has a hidden but real channel time, and almost every fight depends on selling the bait before the R lands.
 
-Her game plan in mid is straightforward: clear waves with **Q** double-bloom, hold **E** as a setup tool rather than poke, and look for roams from level 6 onward where her disguise turns standard rotations into kill setups. Skill expression sits in clone usage — sending **W** down a side path while you walk the other way buys two free seconds against an aware enemy mid laner. Her power curve is back-loaded: weakest before level 6, peaks once she can pair **Luden's Companion** with a hidden **R**.
+Her game plan in mid is straightforward: clear waves with **Q** double-bloom, hold **E** as a setup tool rather than poke, and look for roams from level 6 onward where her disguise turns standard rotations into kill setups. Skill expression sits in clone usage — sending **W** down a side path while you walk the other way buys two free seconds against an aware enemy mid laner. Her power curve is back-loaded: weakest before level 6, peaks once she can pair **Luden's Echo** with a hidden **R**.
 
 ## Recommended Build
 
@@ -88,7 +88,7 @@ Her game plan in mid is straightforward: clear waves with **Q** double-bloom, ho
 
 **Core items (in order):**
 
-1. **Luden's Companion** — burst spike, mana sustain so you can spam **Q** for waveclear without going dry.
+1. **Luden's Echo** — burst spike, mana sustain so you can spam **Q** for waveclear without going dry.
 2. **Sorcerer's Shoes** — flat magic penetration; the squishy targets you want to delete rarely build MR before minute 20.
 3. **Shadowflame** — extra burst; the HP-threshold passive lines up with your **R** combo finisher on shielded targets.
 4. **Rabadon's Deathcap** — the late-game multiplier, your highest AP slot.
@@ -109,9 +109,9 @@ Her game plan in mid is straightforward: clear waves with **Q** double-bloom, ho
 
 ## Key matchups
 
-- **Zed:** Hard counter pre-6. Push the wave with **Q**, hold **E** as a panic button, and rush Zhonya's after Luden's. Never use Flash offensively in lane.
+- **Zed:** Hard counter pre-6. Push the wave with **Q**, hold **E** as a panic button, and rush Zhonya's after Luden's Echo. Never use Flash offensively in lane.
 - **Yasuo / Yone:** They Wind Wall your **E** and the second bloom of **Q**. Bait the wall by sending a **W** clone into a fake **E** angle, then commit your real combo.
-- **Ahri:** Skill matchup. Her charm interrupts your **R**; rush Banshee's after Luden's and Sorcerer's. Use **W** to bait her **R** mobility before going in.
+- **Ahri:** Skill matchup. Her charm interrupts your **R**; rush Banshee's after Luden's Echo and Sorcerer's. Use **W** to bait her **R** mobility before going in.
 - **Anivia:** Hard pre-6 because of her wall, easier post-6. Force her to spend **R** before you go in; her wall denies most clone fakes once it's down.
 - **Twisted Fate:** Roam priority race. Track his **R** with vision wards on river and tri-bush. If he picks gold card on you, **E** him before he closes the gap.
 
@@ -119,7 +119,7 @@ Her game plan in mid is straightforward: clear waves with **Q** double-bloom, ho
 
 - **Level 3:** With **Q-W-E** unlocked, your first all-in (a full commit fight aiming for the kill) is on the table — send the **W** clone behind their wave to fake a recall, then **E** through a minion the moment they step up to last-hit.
 - **Level 6:** First **Pop Blossom**. Hidden channel under **W** passive means a basic-attack range disguise becomes a flash-engage. This is your first roam window.
-- **Luden's Companion completion (~ minute 12-14):** Wave control flips. You shove and roam with disguise; bot lane is the priority because their tower is closest to the river entry.
+- **Luden's Echo completion (~ minute 12-14):** Wave control flips. You shove and roam with disguise; bot lane is the priority because their tower is closest to the river entry.
 - **Rabadon's Deathcap online (~ minute 24-28):** **R** + **Q** double bloom one-shots squishies that have not built MR. Force objective fights here.
 
 ## Common mistakes

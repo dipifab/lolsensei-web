@@ -1,12 +1,12 @@
 ---
-title: "Akali Mid Build & Guide — Patch 14.10"
+title: "Akali Mid Build & Guide — Patch 16.9"
 slug: "akali-mid"
 language: "it"
-patch: "14.10"
+patch: "16.9"
 champion: "akali"
 role: "mid"
-last_updated: "2026-04-28"
-description: "Guida Akali mid lane per League of Legends Patch 14.10: build da assassino AP, matchup chiave, power spike al livello 6, errori comuni e una tip finale."
+last_updated: "2026-04-29"
+description: "Guida Akali mid lane per League of Legends Patch 16.9: build da assassino AP, matchup chiave, power spike al livello 6, errori comuni e una tip finale."
 quick_learn:
   champion_dd_id: "Akali"
   difficulty: 3
@@ -83,23 +83,23 @@ Il piano partita è sopravvivere a una fase di lane debole (waveclear scarsa —
 
 ## Recommended Build
 
-**Starting items:** ![Doran's Ring](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/1056.png) **Doran's Ring** + 2 Health Potions. Il Doran's Ring dà AP e mana regen che ad Akali non servono, ma il bonus damage ai minion sistema la sua waveclear early debole. Salta ![Corrupting Potion](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/2033.png) **Corrupting Potion** a meno che la lane non sia un matchup di harass pesante con auto-attack.
+**Starting items:** ![Doran's Ring](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1056.png) **Doran's Ring** + 2 Health Potions. Il Doran's Ring dà AP e mana regen che ad Akali non servono, ma il bonus damage ai minion sistema la sua waveclear early debole. Salta ![Corrupting Potion](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2033.png) **Corrupting Potion** a meno che la lane non sia un matchup di harass pesante con auto-attack.
 
 **Core items (in ordine):**
 
-1. ![Hextech Rocketbelt](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3152.png) **Hextech Rocketbelt** — gap-closer (un attivo che ti scaglia in dash verso il nemico) più burst damage; si combina con **E** e **R** per engagiare (aprire il fight) da fuori range.
-2. ![Sorcerer's Shoes](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3020.png) **Sorcerer's Shoes** — magic penetration piatta (il danno delle abilità ignora una fetta della Magic Resist nemica). Upgrade diretto del danno per finire bersagli squishy (campioni ad alto danno e poche difese, tipo gli ADC).
-3. ![Shadowflame](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/4645.png) **Shadowflame** — burst extra con bonus damage quando il nemico è sotto ~40% HP, perfettamente in linea con l'execute della **R2**.
-4. ![Rabadon's Deathcap](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3089.png) **Rabadon's Deathcap** — moltiplicatore late-game su tutto il tuo AP. Il tuo slot con più potenza magica.
+1. ![Hextech Rocketbelt](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3152.png) **Hextech Rocketbelt** — gap-closer (un attivo che ti scaglia in dash verso il nemico) più burst damage; si combina con **E** e **R** per engagiare (aprire il fight) da fuori range.
+2. ![Sorcerer's Shoes](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png) **Sorcerer's Shoes** — magic penetration piatta (il danno delle abilità ignora una fetta della Magic Resist nemica). Upgrade diretto del danno per finire bersagli squishy (campioni ad alto danno e poche difese, tipo gli ADC).
+3. ![Shadowflame](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png) **Shadowflame** — burst extra con bonus damage quando il nemico è sotto ~40% HP, perfettamente in linea con l'execute della **R2**.
+4. ![Rabadon's Deathcap](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png) **Rabadon's Deathcap** — moltiplicatore late-game su tutto il tuo AP. Il tuo slot con più potenza magica.
 
 **Situational items:**
 
-- ![Zhonya's Hourglass](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3157.png) **Zhonya's Hourglass** — contro Zed, Veigar, LeBlanc o qualunque avversario il cui burst arriva nella stessa finestra del tuo. L'attivo di stasi ti rende invulnerabile e immobile per ~2.5 secondi: aspetti che esauriscano il danno e chiudi con **R2**.
-- ![Void Staff](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3135.png) **Void Staff** — swap appena un bersaglio prioritario compra un item di Magic Resist; tiene il danno scalato.
-- ![Banshee's Veil](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3102.png) **Banshee's Veil** — contro CC magico singolo (Ahri charm, Lissandra R, Twisted Fate stun); lo spell shield mangia il loro setup.
-- ![Riftmaker](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/4633.png) **Riftmaker** — primo item alternativo nei fight più lunghi contro composizioni piene di bruiser; baratta burst per danno sostenuto e healing.
+- ![Zhonya's Hourglass](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png) **Zhonya's Hourglass** — contro Zed, Veigar, LeBlanc o qualunque avversario il cui burst arriva nella stessa finestra del tuo. L'attivo di stasi ti rende invulnerabile e immobile per ~2.5 secondi: aspetti che esauriscano il danno e chiudi con **R2**.
+- ![Void Staff](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png) **Void Staff** — swap appena un bersaglio prioritario compra un item di Magic Resist; tiene il danno scalato.
+- ![Banshee's Veil](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png) **Banshee's Veil** — contro CC magico singolo (Ahri charm, Lissandra R, Twisted Fate stun); lo spell shield mangia il loro setup.
+- ![Riftmaker](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4633.png) **Riftmaker** — primo item alternativo nei fight più lunghi contro composizioni piene di bruiser; baratta burst per danno sostenuto e healing.
 
-**Boots:** ![Sorcerer's Shoes](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3020.png) **Sorcerer's Shoes** sono il default. ![Mercury's Treads](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3111.png) **Mercury's Treads** sono accettabili contro CC pesante (Lissandra, Ahri, Galio).
+**Boots:** ![Sorcerer's Shoes](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png) **Sorcerer's Shoes** sono il default. ![Mercury's Treads](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png) **Mercury's Treads** sono accettabili contro CC pesante (Lissandra, Ahri, Galio).
 
 **Skill order:** Maxa **Q** per prima (danno principale e refund di energia, cioè recupero di energia dopo l'uso), **E** per seconda (cooldown più basso sul dash), **W** per ultima. Metti un punto in **R** ai livelli 6, 11, 16.
 
@@ -108,8 +108,8 @@ Il piano partita è sopravvivere a una fase di lane debole (waveclear scarsa —
 ## Key matchups
 
 - **Galio:** Counter duro pre-6. La sua passive aumenta gli auto-attack e la sua **W** ti taunta durante l'all-in (uno scambio totale fino alla kill, senza spazio per disimpegnarsi). Farma in sicurezza fino al livello 6, pinga la jungle e committa solo quando la sua **W** è in cooldown.
-- **Yasuo:** La sua **Wind Wall** blocca **Q** e lo shuriken di **E**. Apri con il dash di ![Hextech Rocketbelt](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3152.png) **Hextech Rocketbelt** o con la **E**, tieni la **Q** finché la Wind Wall non è giù.
-- **Lux:** La superi nel duello 1v1. Schiva la sua **Q** (skillshot lineare lungo e lento — un'abilità a bersaglio non automatico, va schivata muovendoti di lato) con **E**, poi tuffati su di lei al livello 6. Compra ![Zhonya's Hourglass](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3157.png) **Zhonya's Hourglass** se finisce il suo ![Luden's Companion](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/6655.png) **Luden's Companion** prima del tuo.
+- **Yasuo:** La sua **Wind Wall** blocca **Q** e lo shuriken di **E**. Apri con il dash di ![Hextech Rocketbelt](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3152.png) **Hextech Rocketbelt** o con la **E**, tieni la **Q** finché la Wind Wall non è giù.
+- **Lux:** La superi nel duello 1v1. Schiva la sua **Q** (skillshot lineare lungo e lento — un'abilità a bersaglio non automatico, va schivata muovendoti di lato) con **E**, poi tuffati su di lei al livello 6. Compra ![Zhonya's Hourglass](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png) **Zhonya's Hourglass** se finisce il suo ![Luden's Echo](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png) **Luden's Echo** prima del tuo.
 - **Twisted Fate:** Gara di roam. Lui ha lo strumento di roam migliore (la sua **R** lo teletrasporta in mappa), quindi devi pushare la tua wave (spingere la linea di minion verso la torre nemica) più velocemente di quanto lui può lasciare lane. Tracciagli la **R** con vision ward (oggetti piazzati che danno vision in un'area) su river e tri-bush (il punto a tre cespugli vicino alla mid lane).
 - **Zed:** Matchup pari. Lui vince i trade corti prima del 6; dopo il 6 la tua **R** lo finisce sotto soglia HP. Non andare all-in se non ha bruciato le **W** ombra; altrimenti scappa dalla tua **R2**.
 
@@ -117,8 +117,8 @@ Il piano partita è sopravvivere a una fase di lane debole (waveclear scarsa —
 
 - **Livello 3:** Kit base completo (Q + W + E). Hai finalmente la combo dash + invisibilità per tradare (uno scambio breve di abilità in lane, non un tentativo di kill) o disengagiare (uscire da un fight che si sta mettendo male). Cerca un trade corto per prendere prio (priority, vantaggio in lane che ti permette di lasciare la lane senza perdere risorse) prima del primo gank della jungle (un attacco a sorpresa del jungler avversario che entra in lane).
 - **Livello 6:** La prima **R** è il singolo spike più grande della partita. Sblocchi una kill threshold contro qualunque bersaglio squishy. Se il river non è wardato (coperto da vision ward nemiche), i fight a metà river sono kill gratis.
-- **![Hextech Rocketbelt](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3152.png) Hextech Rocketbelt completo (~ minuto 12-14):** Il danno full all-in adesso one-shotta i bersagli squishy attraverso l'execute della R2 (la R2 li giustizia quando l'HP scende sotto la soglia). Roamma sulle side lane appena la tua wave è spinta sotto la torre nemica.
-- **![Rabadon's Deathcap](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3089.png) Rabadon's Deathcap online (~ minuto 24-28):** Il burst scala in modo enorme. Forza i fight sugli obiettivi (Drago, Baron, torri) e cerca pick sulla back line (la linea posteriore: i carry che fanno danno da dietro) usando **W** per fiancheggiare — entrare nel fight da un fianco non sorvegliato, di solito attraverso fog of war non wardata (le zone della mappa senza vision).
+- **![Hextech Rocketbelt](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3152.png) Hextech Rocketbelt completo (~ minuto 12-14):** Il danno full all-in adesso one-shotta i bersagli squishy attraverso l'execute della R2 (la R2 li giustizia quando l'HP scende sotto la soglia). Roamma sulle side lane appena la tua wave è spinta sotto la torre nemica.
+- **![Rabadon's Deathcap](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png) Rabadon's Deathcap online (~ minuto 24-28):** Il burst scala in modo enorme. Forza i fight sugli obiettivi (Drago, Baron, torri) e cerca pick sulla back line (la linea posteriore: i carry che fanno danno da dietro) usando **W** per fiancheggiare — entrare nel fight da un fianco non sorvegliato, di solito attraverso fog of war non wardata (le zone della mappa senza vision).
 
 ## Common mistakes
 
@@ -126,7 +126,7 @@ Il piano partita è sopravvivere a una fase di lane debole (waveclear scarsa —
 - **Sprecare E1 su un minion.** Il primo colpo dello Shuriken Flip marchia qualunque cosa tocchi, minion incluso. Se la shuriken atterra su un creep, perdi il dash sul campione dietro. Angola sempre la **E** in modo che il campione sia il primo bersaglio toccato dalla shuriken.
 - **Auto-attaccare dentro la W.** Agire (qualunque spell o auto-attack) ti rivela per ~0.5s. Stare dentro **Twilight Shroud** e pokare da lì non ti tiene invisibile — usa **W** per dodgiare un singolo skillshot o per rompere la vision prima di riposizionarti.
 - **Bruciare R1 senza un piano per R2.** R1 da sola ti pianta in mezzo alla squadra avversaria. Avere sempre un bersaglio per la R2: come kill finale o come dash di fuga.
-- **Buildare item da bruiser contro una squadra squishy.** Item come ![Riftmaker](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/4633.png) **Riftmaker** scambiano burst per sustain (capacità di curarsi durante il fight). Contro una squadra di carry fragili vuoi burst puro (![Hextech Rocketbelt](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3152.png) **Hextech Rocketbelt** + ![Shadowflame](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/4645.png) **Shadowflame**), non durabilità.
+- **Buildare item da bruiser contro una squadra squishy.** Item come ![Riftmaker](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4633.png) **Riftmaker** scambiano burst per sustain (capacità di curarsi durante il fight). Contro una squadra di carry fragili vuoi burst puro (![Hextech Rocketbelt](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3152.png) **Hextech Rocketbelt** + ![Shadowflame](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png) **Shadowflame**), non durabilità.
 
 ## Advanced tip
 

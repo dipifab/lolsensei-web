@@ -1,12 +1,12 @@
 ---
-title: "Neeko Support Build & Guida — Patch 14.10"
+title: "Neeko Support Build & Guida — Patch 16.9"
 slug: "neeko-support"
 language: "it"
-patch: "14.10"
+patch: "16.9"
 champion: "neeko"
 role: "support"
-last_updated: "2026-04-27"
-description: "Guida Neeko support per League of Legends Patch 14.10: build da engage con World Atlas, combo di flank con R, matchup chiave, power spike ed errori comuni."
+last_updated: "2026-04-29"
+description: "Guida Neeko support per League of Legends Patch 16.9: build da engage con World Atlas, combo di flank con R, matchup chiave, power spike ed errori comuni."
 quick_learn:
   champion_dd_id: "Neeko"
   difficulty: 2

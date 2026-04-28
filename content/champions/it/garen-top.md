@@ -1,12 +1,12 @@
 ---
-title: "Garen Top Build & Guida — Patch 14.10"
+title: "Garen Top Build & Guida — Patch 16.9"
 slug: "garen-top"
 language: "it"
-patch: "14.10"
+patch: "16.9"
 champion: "garen"
 role: "top"
-last_updated: "2026-04-27"
-description: "Guida Garen top per League of Legends Patch 14.10: starter kit, build juggernaut bruiser, matchup chiave, power spike, errori comuni e una chiusura tecnica."
+last_updated: "2026-04-29"
+description: "Guida Garen top per League of Legends Patch 16.9: starter kit, build juggernaut bruiser, matchup chiave, power spike, errori comuni e una chiusura tecnica."
 quick_learn:
   champion_dd_id: "Garen"
   difficulty: 2

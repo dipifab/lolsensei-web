@@ -1,12 +1,12 @@
 ---
-title: "Udyr Top Build & Guide — Patch 14.10"
+title: "Udyr Top Build & Guide — Patch 16.9"
 slug: "udyr-top"
 language: "en"
-patch: "14.10"
+patch: "16.9"
 champion: "udyr"
 role: "top"
-last_updated: "2026-04-28"
-description: "Udyr top lane guide for League of Legends Patch 14.10: starter kit, bruiser build path, key matchups, power spikes, common mistakes, and one advanced tip."
+last_updated: "2026-04-29"
+description: "Udyr top lane guide for League of Legends Patch 16.9: starter kit, bruiser build path, key matchups, power spikes, common mistakes, and one advanced tip."
 quick_learn:
   champion_dd_id: "Udyr"
   difficulty: 3

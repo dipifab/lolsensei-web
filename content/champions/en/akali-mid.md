@@ -1,12 +1,12 @@
 ---
-title: "Akali Mid Build & Guide — Patch 14.10"
+title: "Akali Mid Build & Guide — Patch 16.9"
 slug: "akali-mid"
 language: "en"
-patch: "14.10"
+patch: "16.9"
 champion: "akali"
 role: "mid"
-last_updated: "2026-04-28"
-description: "Akali mid lane guide for League of Legends Patch 14.10: AP assassin build path, key matchups, level 6 power spikes, common mistakes, and a closing tip."
+last_updated: "2026-04-29"
+description: "Akali mid lane guide for League of Legends Patch 16.9: AP assassin build path, key matchups, level 6 power spikes, common mistakes, and a closing tip."
 quick_learn:
   champion_dd_id: "Akali"
   difficulty: 3
@@ -83,23 +83,23 @@ The game plan is to survive a weak laning phase (poor waveclear — meaning her 
 
 ## Recommended Build
 
-**Starting items:** ![Doran's Ring](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/1056.png) **Doran's Ring** + 2 Health Potions. Doran's Ring gives the AP and mana regen Akali doesn't need, but the bonus damage to minions fixes her weak early waveclear. Skip ![Corrupting Potion](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/2033.png) **Corrupting Potion** unless the lane is a heavy auto-attack harass matchup.
+**Starting items:** ![Doran's Ring](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1056.png) **Doran's Ring** + 2 Health Potions. Doran's Ring gives the AP and mana regen Akali doesn't need, but the bonus damage to minions fixes her weak early waveclear. Skip ![Corrupting Potion](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2033.png) **Corrupting Potion** unless the lane is a heavy auto-attack harass matchup.
 
 **Core items (in order):**
 
-1. ![Hextech Rocketbelt](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3152.png) **Hextech Rocketbelt** — gap-closer (an active that dashes you toward the enemy) plus burst damage; stacks with **E** and **R** so you can engage (start the fight) from out of range.
-2. ![Sorcerer's Shoes](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3020.png) **Sorcerer's Shoes** — flat magic penetration (your spell damage ignores a slice of the enemy's Magic Resist). A direct damage upgrade for killing squishy targets.
-3. ![Shadowflame](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/4645.png) **Shadowflame** — extra burst with bonus damage when the enemy is below ~40% HP, lining up perfectly with **R2** execute.
-4. ![Rabadon's Deathcap](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3089.png) **Rabadon's Deathcap** — late-game multiplier on all your AP. Your highest-AP slot.
+1. ![Hextech Rocketbelt](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3152.png) **Hextech Rocketbelt** — gap-closer (an active that dashes you toward the enemy) plus burst damage; stacks with **E** and **R** so you can engage (start the fight) from out of range.
+2. ![Sorcerer's Shoes](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png) **Sorcerer's Shoes** — flat magic penetration (your spell damage ignores a slice of the enemy's Magic Resist). A direct damage upgrade for killing squishy targets.
+3. ![Shadowflame](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png) **Shadowflame** — extra burst with bonus damage when the enemy is below ~40% HP, lining up perfectly with **R2** execute.
+4. ![Rabadon's Deathcap](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png) **Rabadon's Deathcap** — late-game multiplier on all your AP. Your highest-AP slot.
 
 **Situational items:**
 
-- ![Zhonya's Hourglass](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3157.png) **Zhonya's Hourglass** — into Zed, Veigar, LeBlanc, or any opponent whose burst arrives in the same window as yours. Its stasis active makes you invulnerable and frozen in place for ~2.5 seconds, letting you wait out their damage and finish with **R2**.
-- ![Void Staff](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3135.png) **Void Staff** — swap as soon as any priority target buys a Magic Resist item; keeps your damage scaling.
-- ![Banshee's Veil](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3102.png) **Banshee's Veil** — vs single-target magic CC (Ahri charm, Lissandra R, Twisted Fate stun); the spell shield eats their setup.
-- ![Riftmaker](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/4633.png) **Riftmaker** — alternative first item in longer fights vs bruiser-heavy compositions; trades burst for sustained damage and healing.
+- ![Zhonya's Hourglass](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png) **Zhonya's Hourglass** — into Zed, Veigar, LeBlanc, or any opponent whose burst arrives in the same window as yours. Its stasis active makes you invulnerable and frozen in place for ~2.5 seconds, letting you wait out their damage and finish with **R2**.
+- ![Void Staff](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png) **Void Staff** — swap as soon as any priority target buys a Magic Resist item; keeps your damage scaling.
+- ![Banshee's Veil](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png) **Banshee's Veil** — vs single-target magic CC (Ahri charm, Lissandra R, Twisted Fate stun); the spell shield eats their setup.
+- ![Riftmaker](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4633.png) **Riftmaker** — alternative first item in longer fights vs bruiser-heavy compositions; trades burst for sustained damage and healing.
 
-**Boots:** ![Sorcerer's Shoes](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3020.png) **Sorcerer's Shoes** are default. ![Mercury's Treads](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3111.png) **Mercury's Treads** is acceptable into heavy CC (Lissandra, Ahri, Galio).
+**Boots:** ![Sorcerer's Shoes](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png) **Sorcerer's Shoes** are default. ![Mercury's Treads](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png) **Mercury's Treads** is acceptable into heavy CC (Lissandra, Ahri, Galio).
 
 **Skill order:** Max **Q** first (main damage and energy refund), **E** second (lower cooldown on the dash), **W** last. Take a point in **R** at levels 6, 11, 16.
 
@@ -108,8 +108,8 @@ The game plan is to survive a weak laning phase (poor waveclear — meaning her 
 ## Key matchups
 
 - **Galio:** Hard pre-6 counter. His passive auto-attack hits hard, and his **W** taunt locks down your **R** dive. Farm safely until level 6, ping for jungle help, and only commit when his **W** is on cooldown.
-- **Yasuo:** His **Wind Wall** blocks **Q** and the **E** shuriken. Open with ![Hextech Rocketbelt](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3152.png) **Hextech Rocketbelt** dash or **E** dash first, save **Q** for after his Wind Wall is down.
-- **Lux:** You outscale her in single combat. Dodge her **Q** (a long, slow line ability — try to be moving sideways when she casts) with **E**, then dive her at 6. Buy ![Zhonya's Hourglass](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3157.png) **Zhonya's Hourglass** if she finishes her ![Luden's Companion](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/6655.png) **Luden's Companion** before yours.
+- **Yasuo:** His **Wind Wall** blocks **Q** and the **E** shuriken. Open with ![Hextech Rocketbelt](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3152.png) **Hextech Rocketbelt** dash or **E** dash first, save **Q** for after his Wind Wall is down.
+- **Lux:** You outscale her in single combat. Dodge her **Q** (a long, slow line ability — try to be moving sideways when she casts) with **E**, then dive her at 6. Buy ![Zhonya's Hourglass](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png) **Zhonya's Hourglass** if she finishes her ![Luden's Echo](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png) **Luden's Echo** before yours.
 - **Twisted Fate:** A roaming race. He has the better roam tool (his **R** lets him teleport across the map), so you have to push your wave (force the line of minions toward the enemy tower) faster than he can leave. Track his **R** with vision wards (placeable items that give vision in an area) on river and tri-bush (the three-bush spot near mid lane).
 - **Zed:** Even matchup. He wins short trades before 6; after 6 your **R** can finish him on low HP. Don't all-in (commit to a full kill exchange, no retreat) unless he's burned his **W** shadows; otherwise he escapes your **R2**.
 
@@ -117,8 +117,8 @@ The game plan is to survive a weak laning phase (poor waveclear — meaning her 
 
 - **Level 3:** Full basic kit (Q + W + E). You finally have the dash + invisibility combo to trade (a short ability exchange in lane, not a full kill attempt) or disengage (escape from a fight). Look for one short trade to push lane priority (when your wave is closer to the enemy tower than yours, so you can leave lane safely) before the first jungle gank (a surprise attack from the enemy jungler).
 - **Level 6:** First **R** is the largest single spike of the game. You gain a kill threshold against any squishy target (champions with high damage and low defense, like ADCs). If the river isn't warded (covered by enemy vision wards), mid-river fights are free.
-- **![Hextech Rocketbelt](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3152.png) Hextech Rocketbelt completion (~ minute 12-14):** All-in damage now one-shots squishy targets through R2 execute (the R2 finishes them off when their HP is below the kill threshold). Roam to side lanes the moment your wave is pushed under the enemy tower.
-- **![Rabadon's Deathcap](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3089.png) Rabadon's Deathcap online (~ minute 24-28):** Burst damage scales massively. Force fights around objectives (Drake, Baron, towers) and look for back-line picks (eliminating an enemy isolated from their team) using **W** to flank — entering the fight from a side they're not watching, usually through unwarded fog of war (areas of the map without vision).
+- **![Hextech Rocketbelt](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3152.png) Hextech Rocketbelt completion (~ minute 12-14):** All-in damage now one-shots squishy targets through R2 execute (the R2 finishes them off when their HP is below the kill threshold). Roam to side lanes the moment your wave is pushed under the enemy tower.
+- **![Rabadon's Deathcap](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png) Rabadon's Deathcap online (~ minute 24-28):** Burst damage scales massively. Force fights around objectives (Drake, Baron, towers) and look for back-line picks (eliminating an enemy isolated from their team) using **W** to flank — entering the fight from a side they're not watching, usually through unwarded fog of war (areas of the map without vision).
 
 ## Common mistakes
 
@@ -126,7 +126,7 @@ The game plan is to survive a weak laning phase (poor waveclear — meaning her 
 - **Wasting E1 on a minion.** The first hit of Shuriken Flip marks whatever it touches, including a minion. If your shuriken lands on a creep, you lose the dash to the champion behind it. Always angle E so the champion is the first thing the shuriken touches.
 - **Auto-attacking inside your W.** Acting (any spell or auto-attack) reveals you for ~0.5s. Standing inside **Twilight Shroud** and poking out of it doesn't keep you invisible — use **W** to dodge a single skillshot (an aimed ability that can be sidestepped) or to break vision before you reposition.
 - **Burning R1 without a plan for R2.** R1 alone lands you in the middle of the enemy team. Always have an R2 target lined up — either as the killing blow or as an escape dash.
-- **Building bruiser items into a squishy enemy team.** Items like ![Riftmaker](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/4633.png) **Riftmaker** trade burst for sustain. Against a team of fragile carries you want pure burst (![Hextech Rocketbelt](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3152.png) **Hextech Rocketbelt** + ![Shadowflame](https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/4645.png) **Shadowflame**), not durability.
+- **Building bruiser items into a squishy enemy team.** Items like ![Riftmaker](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4633.png) **Riftmaker** trade burst for sustain. Against a team of fragile carries you want pure burst (![Hextech Rocketbelt](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3152.png) **Hextech Rocketbelt** + ![Shadowflame](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png) **Shadowflame**), not durability.
 
 ## Advanced tip
 

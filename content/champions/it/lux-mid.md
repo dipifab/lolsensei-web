@@ -1,12 +1,12 @@
 ---
-title: "Lux Mid Build & Guida — Patch 14.10"
+title: "Lux Mid Build & Guida — Patch 16.9"
 slug: "lux-mid"
 language: "it"
-patch: "14.10"
+patch: "16.9"
 champion: "lux"
 role: "mid"
-last_updated: "2026-04-27"
-description: "Guida Lux mid lane per League of Legends Patch 14.10: starter kit, build mago core, matchup chiave, power spike, errori comuni e un consiglio tecnico finale."
+last_updated: "2026-04-29"
+description: "Guida Lux mid lane per League of Legends Patch 16.9: starter kit, build mago core, matchup chiave, power spike, errori comuni e un consiglio tecnico finale."
 quick_learn:
   champion_dd_id: "Lux"
   difficulty: 2
@@ -53,7 +53,7 @@ quick_learn:
     - { level: 17, key: "W" }
     - { level: 18, key: "W" }
   core_items:
-    - { dd_id: "6655", name: "Luden's Companion" }
+    - { dd_id: "6655", name: "Luden's Echo" }
     - { dd_id: "3020", name: "Sorcerer's Shoes" }
     - { dd_id: "4645", name: "Shadowflame" }
     - { dd_id: "3089", name: "Rabadon's Deathcap" }
@@ -71,8 +71,29 @@ quick_learn:
       name: "Void Staff"
       against: "swap appena qualunque target prioritario compra un item di Resistenza Magica"
   base_combo: ["E", "Q", "AA", "R"]
-  win_condition: "Snipa i target squishy con R dalla massima gittata negli obiettivi una volta online Luden's Companion e Shadowflame. Controlla lo spazio con E e resta dietro alla front line."
+  win_condition: "Snipa i target squishy con R dalla massima gittata negli obiettivi una volta online Luden's Echo e Shadowflame. Controlla lo spazio con E e resta dietro alla front line."
   weakness: "Nessun dash, mobilità base nulla. Hard counter di diver e assassini; se la front line salta, anche il tuo posizionamento crolla."
+matchup_draft:
+  pick_into:
+    - examples: ["karthus", "veigar", "viktor", "anivia"]
+      archetype: "Mage immobili senza dash"
+      reason: "La Q di Lux è un root a lunga gittata: chi non ha dash né stealth viene bindato su una linea pulita e mangia tutto il combo E + R prima di poter rispondere."
+    - examples: ["senna", "xerath", "ziggs"]
+      archetype: "Carry da retroguardia con escape debole"
+      reason: "La R cross-map trasforma errori di posizionamento in kill. Contribuiscono da lontano ma non possono schivare uno snipe a max range sugli obiettivi."
+    - examples: ["annie", "sylas"]
+      archetype: "Mage da all-in telegrafato"
+      reason: "Il loro engage richiede corto raggio e un tell lento: Lux scuda il burst con W, Q nel frame di recovery, e passeggia via per resettare il trade."
+  counterpicks:
+    - examples: ["zed", "akali", "fizz"]
+      archetype: "Assassini mobili con multi gap-close"
+      reason: "Entrano dentro il cast window della R di Lux prima che lei finisca il channel; Zhonya's Hourglass aiuta ma non basta se la catena di dash colpisce prima che la stasi parta."
+    - examples: ["xerath", "vel-koz"]
+      archetype: "Artillery mage a gittata superiore"
+      reason: "Pokano Lux oltre il range della Q. Lei non ha modo di chiudere la distanza, quindi ogni scambio in lane le costa HP senza opzione di all-in di ritorno."
+    - examples: ["twisted-fate", "galio", "ryze"]
+      archetype: "Roamer globali / cross-map"
+      reason: "Lux pusha la wave e resta in lane; l'avversario usa l'ult per ribaltare le sidelane e i dragoni. Lux perde il macro game anche quando vince il matchup 1v1."
 ---
 
 ## Panoramica
@@ -87,7 +108,7 @@ Il suo piano partita è semplice da spiegare e duro da eseguire: centra **Q** qu
 
 **Item core (nell'ordine):**
 
-1. **Luden's Companion** — spike di burst, sostegno mana per spammare E.
+1. **Luden's Echo** — spike di burst, sostegno mana per spammare E.
 2. **Sorcerer's Shoes** — penetrazione magica fissa per cancellare i target squishy.
 3. **Shadowflame** — burst extra; la passiva sotto soglia HP combacia con il finisher di **R**.
 4. **Rabadon's Deathcap** — moltiplicatore late-game, lo slot AP più alto.
@@ -108,7 +129,7 @@ Il suo piano partita è semplice da spiegare e duro da eseguire: centra **Q** qu
 ## Matchup chiave
 
 - **Yasuo / Yone:** Possono Wind Wall la tua **Q** e **E**. Tieni **Q** finché non hanno bruciato le abilità, e usa **E** per pulire wave solo a distanza di sicurezza.
-- **Diana / Akali:** Minacce di dive. Compra Zhonya's Hourglass dopo Luden's Companion; non usare **Flash** in modo offensivo in lane contro di loro.
+- **Diana / Akali:** Minacce di dive. Compra Zhonya's Hourglass dopo Luden's Echo; non usare **Flash** in modo offensivo in lane contro di loro.
 - **Orianna:** Matchup pari, deciso nei teamfight. La gittata coincide; non lasciarti tirare in scambi auto-attack perché scala meglio con lo stesso set di oggetti.
 - **Twisted Fate:** Gara di rotazione. Se ti tira la carta gialla, **Q** prima che chiuda; altrimenti tracciagli la **R** con ward su river e tri-cespuglio.
 - **Galio:** Evita di stare appiccicato a un alleato pre-6 (la sua **W** punisce target raggruppati). Puniscilo quando è in melee sui minion; non ha gittata di waveclear per superarti in push.
@@ -117,7 +138,7 @@ Il suo piano partita è semplice da spiegare e duro da eseguire: centra **Q** qu
 
 - **Livello 2:** Con un punto in **E** più la **Q** di partenza hai gli strumenti per zonare il nemico da una wave in slow-push.
 - **Livello 6:** Prima **Final Spark** sblocca rotazioni e pressione di snipe. Con il combo **Q-E-R** memorizzato, un teamfight su mid-river senza ward è una kill garantita.
-- **Luden's Companion completo (~ minuto 12-14):** Il controllo della wave si ribalta. Puoi spingere e roamare lasciando la wave dalla parte avversaria, liberando il jungler verso il loro bot side.
+- **Luden's Echo completo (~ minuto 12-14):** Il controllo della wave si ribalta. Puoi spingere e roamare lasciando la wave dalla parte avversaria, liberando il jungler verso il loro bot side.
 - **Rabadon's Deathcap online (~ minuto 24-28):** La tua **R** one-shotta gli squishy che non hanno comprato un item di Resistenza Magica. Forza i fight obiettivo qui.
 
 ## Errori comuni

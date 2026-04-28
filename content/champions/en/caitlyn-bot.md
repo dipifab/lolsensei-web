@@ -1,12 +1,12 @@
 ---
-title: "Caitlyn Bot Build & Guide — Patch 14.10"
+title: "Caitlyn Bot Build & Guide — Patch 16.9"
 slug: "caitlyn-bot"
 language: "en"
-patch: "14.10"
+patch: "16.9"
 champion: "caitlyn"
 role: "bot"
-last_updated: "2026-04-28"
-description: "Caitlyn bot lane guide for League of Legends Patch 14.10: starter kit, lane-bully build path, key matchups, power spikes, common mistakes, and a closing tip."
+last_updated: "2026-04-29"
+description: "Caitlyn bot lane guide for League of Legends Patch 16.9: starter kit, lane-bully build path, key matchups, power spikes, common mistakes, and a closing tip."
 quick_learn:
   champion_dd_id: "Caitlyn"
   difficulty: 3

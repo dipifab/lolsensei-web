@@ -1,12 +1,12 @@
 ---
-title: "Guida a Udyr Jungle — Build e matchup, Patch 14.10"
+title: "Guida a Udyr Jungle — Build e matchup, Patch 16.9"
 slug: "udyr-jungle"
 language: "it"
-patch: "14.10"
+patch: "16.9"
 champion: "udyr"
 role: "jungle"
-last_updated: "2026-04-28"
-description: "Guida a Udyr jungle per League of Legends patch 14.10: starter kit, build da bruiser, matchup chiave, power spike, errori frequenti e una nota di chiusura."
+last_updated: "2026-04-29"
+description: "Guida a Udyr jungle per League of Legends patch 16.9: starter kit, build da bruiser, matchup chiave, power spike, errori frequenti e una nota di chiusura."
 quick_learn:
   champion_dd_id: "Udyr"
   difficulty: 3

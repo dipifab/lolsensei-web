@@ -1,12 +1,12 @@
 ---
-title: "Neeko Top Build & Guida — Patch 14.10"
+title: "Neeko Top Build & Guida — Patch 16.9"
 slug: "neeko-top"
 language: "it"
-patch: "14.10"
+patch: "16.9"
 champion: "neeko"
 role: "top"
-last_updated: "2026-04-27"
-description: "Guida Neeko top lane per League of Legends Patch 14.10: build AP bruiser con Riftmaker, tattiche da pick di nicchia, matchup chiave, power spike ed errori comuni."
+last_updated: "2026-04-29"
+description: "Guida Neeko top lane per League of Legends Patch 16.9: build AP bruiser con Riftmaker, tattiche da pick di nicchia, matchup chiave, power spike ed errori comuni."
 quick_learn:
   champion_dd_id: "Neeko"
   difficulty: 3

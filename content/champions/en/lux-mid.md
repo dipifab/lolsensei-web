@@ -1,12 +1,12 @@
 ---
-title: "Lux Mid Build & Guide — Patch 14.10"
+title: "Lux Mid Build & Guide — Patch 16.9"
 slug: "lux-mid"
 language: "en"
-patch: "14.10"
+patch: "16.9"
 champion: "lux"
 role: "mid"
-last_updated: "2026-04-27"
-description: "Lux mid lane guide for League of Legends Patch 14.10: starter kit, core mage build path, key matchups, power spikes, common mistakes, and a closing tip."
+last_updated: "2026-04-29"
+description: "Lux mid lane guide for League of Legends Patch 16.9: starter kit, core mage build path, key matchups, power spikes, common mistakes, and a closing tip."
 quick_learn:
   champion_dd_id: "Lux"
   difficulty: 2
@@ -53,7 +53,7 @@ quick_learn:
     - { level: 17, key: "W" }
     - { level: 18, key: "W" }
   core_items:
-    - { dd_id: "6655", name: "Luden's Companion" }
+    - { dd_id: "6655", name: "Luden's Echo" }
     - { dd_id: "3020", name: "Sorcerer's Shoes" }
     - { dd_id: "4645", name: "Shadowflame" }
     - { dd_id: "3089", name: "Rabadon's Deathcap" }
@@ -71,8 +71,29 @@ quick_learn:
       name: "Void Staff"
       against: "swap when any priority target buys a Magic Resist item"
   base_combo: ["E", "Q", "AA", "R"]
-  win_condition: "Snipe squishy targets with R from max range during objective fights once Luden's and Shadowflame are online. Control space with E and stay behind your front line."
+  win_condition: "Snipe squishy targets with R from max range during objective fights once Luden's Echo and Shadowflame are online. Control space with E and stay behind your front line."
   weakness: "No dash and no innate mobility. Hard countered by divers and assassins; if your front line breaks, your positioning collapses with it."
+matchup_draft:
+  pick_into:
+    - examples: ["karthus", "veigar", "viktor", "anivia"]
+      archetype: "Immobile mages without dash"
+      reason: "Lux's Q is a long-range root: targets with no dash or stealth get bound on a clean line and eat the full E + R combo before they can answer."
+    - examples: ["senna", "xerath", "ziggs"]
+      archetype: "Backline scalers with weak escape"
+      reason: "Cross-map R turns positioning mistakes into kills. They contribute from far away but cannot dodge a max-range snipe on objective spawns."
+    - examples: ["annie", "sylas"]
+      archetype: "Telegraphed all-in mages"
+      reason: "Their engage requires close range and a slow tell — Lux can W-shield the burst, Q on the recovery frame, and walk away to reset the trade."
+  counterpicks:
+    - examples: ["zed", "akali", "fizz"]
+      archetype: "Mobile assassins with multiple gap-closers"
+      reason: "They enter the cast window of Lux's R before she can finish the channel; Zhonya's helps but cannot save you if the dash chain hits before stasis is up."
+    - examples: ["xerath", "vel-koz"]
+      archetype: "Longer-range artillery mages"
+      reason: "Out-poke Lux beyond her Q range. She has no way to close the gap, so every wave fight bleeds her HP without the option to all-in back."
+    - examples: ["twisted-fate", "galio", "ryze"]
+      archetype: "Global / cross-map roamers"
+      reason: "Lux clears waves and stays in lane; opponent uses ult to flip side lanes and dragons. Lux loses the macro game even when she wins her matchup 1v1."
 ---
 
 ## Overview
@@ -87,7 +108,7 @@ Her game plan is simple to describe and demanding to execute: land **Q** when an
 
 **Core items (in order):**
 
-1. **Luden's Companion** — burst spike, mana sustain for E spam.
+1. **Luden's Echo** — burst spike, mana sustain for E spam.
 2. **Sorcerer's Shoes** — flat magic penetration for the squishy targets you most want to delete.
 3. **Shadowflame** — extra burst, the HP-threshold passive lines up with **R** finishers.
 4. **Rabadon's Deathcap** — late-game scaling multiplier, your highest-AP item slot.
@@ -117,7 +138,7 @@ Her game plan is simple to describe and demanding to execute: land **Q** when an
 
 - **Level 2:** With one point in **E** plus the **Q** you started with, you have the tools to zone the enemy from a slow-pushing wave.
 - **Level 6:** First **Final Spark** unlocks roams and snipe pressure. If you have **Q-E-R** combo memorized, an unwarded mid-river fight is a free kill.
-- **Luden's Companion completion (~ minute 12-14):** Wave control flips. You can shove and roam with the wave on the enemy's side, freeing jungle pathing into their bot side.
+- **Luden's Echo completion (~ minute 12-14):** Wave control flips. You can shove and roam with the wave on the enemy's side, freeing jungle pathing into their bot side.
 - **Rabadon's Deathcap online (~ minute 24-28):** Your **R** one-shots squishies that have not built a single Magic Resist item. Force objective fights here.
 
 ## Common mistakes

@@ -1,12 +1,12 @@
 ---
-title: "Graves Jungle Build & Guida — Patch 14.10"
+title: "Graves Jungle Build & Guida — Patch 16.9"
 slug: "graves-jungle"
 language: "it"
-patch: "14.10"
+patch: "16.9"
 champion: "graves"
 role: "jungle"
-last_updated: "2026-04-28"
-description: "Guida Graves jungle per League of Legends Patch 14.10: starter kit, build lethality, matchup chiave, power spike, errori comuni e una chiusura tecnica."
+last_updated: "2026-04-29"
+description: "Guida Graves jungle per League of Legends Patch 16.9: starter kit, build lethality, matchup chiave, power spike, errori comuni e una chiusura tecnica."
 quick_learn:
   champion_dd_id: "Graves"
   difficulty: 2

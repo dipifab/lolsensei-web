@@ -1,12 +1,12 @@
 ---
-title: "Neeko Mid Build & Guida — Patch 14.10"
+title: "Neeko Mid Build & Guida — Patch 16.9"
 slug: "neeko-mid"
 language: "it"
-patch: "14.10"
+patch: "16.9"
 champion: "neeko"
 role: "mid"
-last_updated: "2026-04-27"
-description: "Guida Neeko mid lane per League of Legends Patch 14.10: build AP burst, combo con clone deception, matchup chiave, power spike, errori comuni e un consiglio finale."
+last_updated: "2026-04-29"
+description: "Guida Neeko mid lane per League of Legends Patch 16.9: build AP burst, combo con clone deception, matchup chiave, power spike, errori comuni e un consiglio finale."
 quick_learn:
   champion_dd_id: "Neeko"
   difficulty: 2
@@ -53,7 +53,7 @@ quick_learn:
     - { level: 17, key: "W" }
     - { level: 18, key: "W" }
   core_items:
-    - { dd_id: "6655", name: "Luden's Companion" }
+    - { dd_id: "6655", name: "Luden's Echo" }
     - { dd_id: "3020", name: "Sorcerer's Shoes" }
     - { dd_id: "4645", name: "Shadowflame" }
     - { dd_id: "3089", name: "Rabadon's Deathcap" }
@@ -72,7 +72,7 @@ quick_learn:
       name: "Cosmic Drive"
       against: "quando il team gioca su pick e roam invece che teamfight raggruppati e vuoi più movement speed sul burst grezzo"
   base_combo: ["W", "E", "Q", "R"]
-  win_condition: "Centra la R dentro un teamfight o da un flank travestita da alleato. Con Luden's e Shadowflame online, R + Q double bloom one-shotta la maggior parte delle back line squishy."
+  win_condition: "Centra la R dentro un teamfight o da un flank travestita da alleato. Con Luden's Echo e Shadowflame online, R + Q double bloom one-shotta la maggior parte delle back line squishy."
   weakness: "Tutto il danno passa da una R lunga e telegrafata, cancellabile da qualsiasi hard CC. Niente dash, niente scudo: la W active è l'unico strumento di mobilità."
 ---
 
@@ -80,7 +80,7 @@ quick_learn:
 
 Neeko è un mago AP burst — un campione costruito per fare moltissimo danno in una finestra di 1-2 secondi — che trasforma il travestimento e la clone deception in uno dei combo single-target più esplosivi del mid. Il suo kit ruota attorno al colpire **Tangle-Barbs (E)** attraverso un minion o il suo clone **Shapesplitter (W)** per estendere la durata del root, per poi concatenare **Blooming Burst (Q)** e **Pop Blossom (R)** in un one-shot. Il prezzo da pagare è che la R ha un channel time visibile e qualunque hard CC la cancella, quindi quasi ogni fight dipende dal vendere il bait prima del lancio.
 
-Il piano partita in mid è lineare: pulisci le wave con il double bloom di **Q**, tieni **E** come setup tool e non come poke, e cerca rotazioni a partire dal livello 6 dove il travestimento trasforma le rotazioni standard in setup di kill. Lo skill expression sta nell'uso del clone — mandare **W** lungo una side path mentre cammini dall'altra parte regala due secondi liberi contro un mid laner attento. La curva di forza è back-loaded: debole prima del livello 6, picca quando puoi accoppiare **Luden's Companion** con una **R** nascosta.
+Il piano partita in mid è lineare: pulisci le wave con il double bloom di **Q**, tieni **E** come setup tool e non come poke, e cerca rotazioni a partire dal livello 6 dove il travestimento trasforma le rotazioni standard in setup di kill. Lo skill expression sta nell'uso del clone — mandare **W** lungo una side path mentre cammini dall'altra parte regala due secondi liberi contro un mid laner attento. La curva di forza è back-loaded: debole prima del livello 6, picca quando puoi accoppiare **Luden's Echo** con una **R** nascosta.
 
 ## Build Consigliata
 
@@ -88,7 +88,7 @@ Il piano partita in mid è lineare: pulisci le wave con il double bloom di **Q**
 
 **Item core (nell'ordine):**
 
-1. **Luden's Companion** — spike di burst, sostegno mana per spammare **Q** in waveclear senza prosciugarti.
+1. **Luden's Echo** — spike di burst, sostegno mana per spammare **Q** in waveclear senza prosciugarti.
 2. **Sorcerer's Shoes** — penetrazione magica fissa; i target che vuoi cancellare raramente comprano MR prima del minuto 20.
 3. **Shadowflame** — burst extra; la passiva sotto soglia HP combacia col finisher di **R** sui target con scudo.
 4. **Rabadon's Deathcap** — moltiplicatore late-game, lo slot AP più alto.
@@ -109,9 +109,9 @@ Il piano partita in mid è lineare: pulisci le wave con il double bloom di **Q**
 
 ## Matchup chiave
 
-- **Zed:** Counter pesante pre-6. Spingi la wave con **Q**, tieni **E** come pulsante d'emergenza e rusha Zhonya's dopo Luden's. Mai usare **Flash** in modo offensivo in lane.
+- **Zed:** Counter pesante pre-6. Spingi la wave con **Q**, tieni **E** come pulsante d'emergenza e rusha Zhonya's dopo Luden's Echo. Mai usare **Flash** in modo offensivo in lane.
 - **Yasuo / Yone:** Possono Wind Wall la **E** e il secondo bloom di **Q**. Bruciagli il wall mandando un clone **W** su un finto angolo di **E**, poi committi il combo vero.
-- **Ahri:** Matchup di skill. Il suo charm interrompe la **R**; rusha Banshee's dopo Luden's e Sorcerer's. Usa **W** per costringerla a spendere la mobilità della **R** prima di entrare.
+- **Ahri:** Matchup di skill. Il suo charm interrompe la **R**; rusha Banshee's dopo Luden's Echo e Sorcerer's. Usa **W** per costringerla a spendere la mobilità della **R** prima di entrare.
 - **Anivia:** Pesante pre-6 per il wall, più gestibile post-6. Forzala a usare la **R** prima di entrare; con il muro abbassato la maggior parte dei finti col clone non funziona.
 - **Twisted Fate:** Gara di rotazione. Tracciagli la **R** con ward su river e tri-cespuglio. Se ti tira la carta gialla, **E** prima che chiuda il gap.
 
@@ -119,7 +119,7 @@ Il piano partita in mid è lineare: pulisci le wave con il double bloom di **Q**
 
 - **Livello 3:** Con **Q-W-E** sbloccati, il primo all-in (uno scambio totale per cercare la kill) è sul tavolo — manda il clone **W** dietro la loro wave per fingere un recall, poi **E** attraverso un minion appena salgono in last-hit.
 - **Livello 6:** Prima **Pop Blossom**. Il channel nascosto sotto la passiva di **W** rende un travestimento a portata di auto-attack un flash-engage. È la prima finestra di roam.
-- **Luden's Companion completo (~ minuto 12-14):** Il controllo della wave si ribalta. Shove e roam in travestimento; bot lane è prioritaria perché la loro torre è quella più vicina all'ingresso del river.
+- **Luden's Echo completo (~ minuto 12-14):** Il controllo della wave si ribalta. Shove e roam in travestimento; bot lane è prioritaria perché la loro torre è quella più vicina all'ingresso del river.
 - **Rabadon's Deathcap online (~ minuto 24-28):** **R** + double bloom di **Q** one-shottano gli squishy che non hanno comprato MR. Forza i fight obiettivo qui.
 
 ## Errori comuni
