@@ -5,6 +5,212 @@ import type { ChampionGuide } from './types';
 
 export const itChampions: ChampionGuide[] = [
   {
+    "slug": "akali-mid",
+    "title": "Akali Mid Build & Guide — Patch 14.10",
+    "language": "it",
+    "patch": "14.10",
+    "champion": "akali",
+    "role": "mid",
+    "last_updated": "2026-04-28",
+    "description": "Guida Akali mid lane per League of Legends Patch 14.10: build da assassino AP, matchup chiave, power spike al livello 6, errori comuni e una tip finale.",
+    "quick_learn": {
+      "champion_dd_id": "Akali",
+      "difficulty": 3,
+      "damage_type": "magic",
+      "champion_class": "Assassin / Burst",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Assassin's Mark",
+          "description": "Colpire un campione con un'abilità lo marca. Uscire dal cerchio potenzia il prossimo basic attack con range e danno extra.",
+          "dd_spell_id": "Akali_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Five Point Strike",
+          "description": "Cono di kunai che danneggia e rallenta. Tool principale di poke e trade. Costa energia, cooldown corto: usala on-cooldown nei trade.",
+          "dd_spell_id": "AkaliQ"
+        },
+        {
+          "key": "W",
+          "name": "Twilight Shroud",
+          "description": "Zona di fumo che rende Akali invisibile al targeting nemico. Agire dentro la rivela. Usala per dodgiare skillshot o rompere vision.",
+          "dd_spell_id": "AkaliW"
+        },
+        {
+          "key": "E",
+          "name": "Shuriken Flip",
+          "description": "Salto indietro + shuriken che marca il primo nemico colpito. Re-cast per dashare sul bersaglio marcato. Marca solo campioni.",
+          "dd_spell_id": "AkaliE"
+        },
+        {
+          "key": "R",
+          "name": "Perfect Execution",
+          "description": "Ulti in due parti. R1 salta e fa danno; R2 dasha e giustizia i nemici sotto soglia HP. Scala con HP mancanti del bersaglio.",
+          "dd_spell_id": "AkaliR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "3152",
+          "name": "Hextech Rocketbelt"
+        },
+        {
+          "dd_id": "3020",
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "dd_id": "4645",
+          "name": "Shadowflame"
+        },
+        {
+          "dd_id": "3089",
+          "name": "Rabadon's Deathcap"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass",
+          "against": "contro burst alto su singolo bersaglio (Zed R, Veigar combo, LeBlanc): la stasi ti fa sopravvivere prima di chiudere con R2."
+        },
+        {
+          "dd_id": "3135",
+          "name": "Void Staff",
+          "against": "appena un bersaglio prioritario compra un item di Magic Resist — mantiene il danno delle abilità contro nemici più resistenti"
+        },
+        {
+          "dd_id": "3102",
+          "name": "Banshee's Veil",
+          "against": "contro CC magico singolo che ti spegne l'engage (Ahri charm, Lissandra R, Twisted Fate stun) — lo spell shield mangia il primo colpo"
+        },
+        {
+          "dd_id": "4633",
+          "name": "Riftmaker",
+          "against": "in fight più lunghi e contro composizioni con tanti bruiser dove serve cura e durabilità invece che solo burst"
+        }
+      ],
+      "base_combo": [
+        "E1",
+        "Q",
+        "AA",
+        "R1",
+        "AA",
+        "E2",
+        "R2"
+      ],
+      "win_condition": "Aggancia bersagli squishy isolati con E1+E2 dash, poi concatena Q + auto-attack potenziato + combo R per l'execute. Roamma sulle side lane ogni volta che hai R pronta.",
+      "weakness": "Waveclear debole e range corto pre-6: vulnerabile a poke a distanza e gank della jungle. Niente CC duro e nessuna fuga se W è in cooldown — possono lockarti e bruciarti prima che la combo parta."
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Akali è un'assassina AP da burst: una campionessa costruita per fare tantissimo danno in 1-2 secondi (il \"burst\", danno alto concentrato in pochissimo tempo) su un singolo bersaglio. Il suo kit è una catena di dash — <strong>Shuriken Flip (E)</strong>, <strong>Perfect Execution (R)</strong> — costruita attorno alla finestra di invisibilità di <strong>Twilight Shroud (W)</strong>. Non ha mana, usa energia: i cooldown corti contano più del budget di risorse. La mid lane le si addice perché il river offre percorsi brevi per roamare (lasciare la propria lane per giocare in un'altra lane) le side lane, e la <strong>R</strong> al livello 6 trasforma qualsiasi fight senza vision ward nemiche (oggetti piazzati che rivelano un'area) in un pickoff (eliminare un nemico isolato dalla sua squadra).</p>\n<p>Il piano partita è sopravvivere a una fase di lane debole (waveclear scarsa — cioè le abilità sono lente a pulire l'onda di minion, e nessuna kill threat early) fino al livello 6, poi convertire qualsiasi piccolo lead (vantaggio) in roam e dive sotto torre. Il segreto del campione sta nel piazzamento della <strong>E</strong>: la E parte come shuriken; solo il primo campione nemico colpito diventa il bersaglio del dash. Marchia un minion per sbaglio e perdi il dash per tutta la rotation di abilità (il ciclo Q + W + E + R lanciate una volta ciascuna).</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/1056.png\" alt=\"Doran&#x27;s Ring\"> <strong>Doran's Ring</strong> + 2 Health Potions. Il Doran's Ring dà AP e mana regen che ad Akali non servono, ma il bonus damage ai minion sistema la sua waveclear early debole. Salta <img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/2033.png\" alt=\"Corrupting Potion\"> <strong>Corrupting Potion</strong> a meno che la lane non sia un matchup di harass pesante con auto-attack.</p>\n<p><strong>Core items (in ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3152.png\" alt=\"Hextech Rocketbelt\"> <strong>Hextech Rocketbelt</strong> — gap-closer (un attivo che ti scaglia in dash verso il nemico) più burst damage; si combina con <strong>E</strong> e <strong>R</strong> per engagiare (aprire il fight) da fuori range.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — magic penetration piatta (il danno delle abilità ignora una fetta della Magic Resist nemica). Upgrade diretto del danno per finire bersagli squishy (campioni ad alto danno e poche difese, tipo gli ADC).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — burst extra con bonus damage quando il nemico è sotto ~40% HP, perfettamente in linea con l'execute della <strong>R2</strong>.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — moltiplicatore late-game su tutto il tuo AP. Il tuo slot con più potenza magica.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — contro Zed, Veigar, LeBlanc o qualunque avversario il cui burst arriva nella stessa finestra del tuo. L'attivo di stasi ti rende invulnerabile e immobile per ~2.5 secondi: aspetti che esauriscano il danno e chiudi con <strong>R2</strong>.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — swap appena un bersaglio prioritario compra un item di Magic Resist; tiene il danno scalato.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — contro CC magico singolo (Ahri charm, Lissandra R, Twisted Fate stun); lo spell shield mangia il loro setup.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/4633.png\" alt=\"Riftmaker\"> <strong>Riftmaker</strong> — primo item alternativo nei fight più lunghi contro composizioni piene di bruiser; baratta burst per danno sostenuto e healing.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> sono il default. <img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> sono accettabili contro CC pesante (Lissandra, Ahri, Galio).</p>\n<p><strong>Skill order:</strong> Maxa <strong>Q</strong> per prima (danno principale e refund di energia, cioè recupero di energia dopo l'uso), <strong>E</strong> per seconda (cooldown più basso sul dash), <strong>W</strong> per ultima. Metti un punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Runes:</strong> Le rune sono bonus passivi che scegli prima della partita: un albero primario (5 rune) e uno secondario (2 rune). Primaria <strong>Domination</strong> con <strong>Electrocute</strong> (burst extra quando colpisci con tre abilità in fila), <strong>Sudden Impact</strong> (più magic penetration dopo un dash), <strong>Eyeball Collection</strong> (o <strong>Zombie Ward</strong>) per stack di AP, e <strong>Ultimate Hunter</strong> (cooldown più basso sulla <strong>R</strong>). Secondaria <strong>Sorcery</strong> con <strong>Transcendence</strong> (ability haste — abilità che tornano disponibili più in fretta) e <strong>Gathering Storm</strong> (scaling AP late-game). Akali usa energia, non mana: niente <strong>Manaflow Band</strong>.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Galio:</strong> Counter duro pre-6. La sua passive aumenta gli auto-attack e la sua <strong>W</strong> ti taunta durante l'all-in (uno scambio totale fino alla kill, senza spazio per disimpegnarsi). Farma in sicurezza fino al livello 6, pinga la jungle e committa solo quando la sua <strong>W</strong> è in cooldown.</li>\n<li><strong>Yasuo:</strong> La sua <strong>Wind Wall</strong> blocca <strong>Q</strong> e lo shuriken di <strong>E</strong>. Apri con il dash di <img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3152.png\" alt=\"Hextech Rocketbelt\"> <strong>Hextech Rocketbelt</strong> o con la <strong>E</strong>, tieni la <strong>Q</strong> finché la Wind Wall non è giù.</li>\n<li><strong>Lux:</strong> La superi nel duello 1v1. Schiva la sua <strong>Q</strong> (skillshot lineare lungo e lento — un'abilità a bersaglio non automatico, va schivata muovendoti di lato) con <strong>E</strong>, poi tuffati su di lei al livello 6. Compra <img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> se finisce il suo <img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/6655.png\" alt=\"Luden&#x27;s Companion\"> <strong>Luden's Companion</strong> prima del tuo.</li>\n<li><strong>Twisted Fate:</strong> Gara di roam. Lui ha lo strumento di roam migliore (la sua <strong>R</strong> lo teletrasporta in mappa), quindi devi pushare la tua wave (spingere la linea di minion verso la torre nemica) più velocemente di quanto lui può lasciare lane. Tracciagli la <strong>R</strong> con vision ward (oggetti piazzati che danno vision in un'area) su river e tri-bush (il punto a tre cespugli vicino alla mid lane).</li>\n<li><strong>Zed:</strong> Matchup pari. Lui vince i trade corti prima del 6; dopo il 6 la tua <strong>R</strong> lo finisce sotto soglia HP. Non andare all-in se non ha bruciato le <strong>W</strong> ombra; altrimenti scappa dalla tua <strong>R2</strong>.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Livello 3:</strong> Kit base completo (Q + W + E). Hai finalmente la combo dash + invisibilità per tradare (uno scambio breve di abilità in lane, non un tentativo di kill) o disengagiare (uscire da un fight che si sta mettendo male). Cerca un trade corto per prendere prio (priority, vantaggio in lane che ti permette di lasciare la lane senza perdere risorse) prima del primo gank della jungle (un attacco a sorpresa del jungler avversario che entra in lane).</li>\n<li><strong>Livello 6:</strong> La prima <strong>R</strong> è il singolo spike più grande della partita. Sblocchi una kill threshold contro qualunque bersaglio squishy. Se il river non è wardato (coperto da vision ward nemiche), i fight a metà river sono kill gratis.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3152.png\" alt=\"Hextech Rocketbelt\"> Hextech Rocketbelt completo (~ minuto 12-14):</strong> Il danno full all-in adesso one-shotta i bersagli squishy attraverso l'execute della R2 (la R2 li giustizia quando l'HP scende sotto la soglia). Roamma sulle side lane appena la tua wave è spinta sotto la torre nemica.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> Rabadon's Deathcap online (~ minuto 24-28):</strong> Il burst scala in modo enorme. Forza i fight sugli obiettivi (Drago, Baron, torri) e cerca pick sulla back line (la linea posteriore: i carry che fanno danno da dietro) usando <strong>W</strong> per fiancheggiare — entrare nel fight da un fianco non sorvegliato, di solito attraverso fog of war non wardata (le zone della mappa senza vision).</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>All-in prima del livello 6 senza setup della jungle.</strong> Il danno di trade pre-6 di Akali è mediocre — Q + auto-attack da soli non killano un avversario attento. Farma in sicurezza, pinga la jungle, committa al 6.</li>\n<li><strong>Sprecare E1 su un minion.</strong> Il primo colpo dello Shuriken Flip marchia qualunque cosa tocchi, minion incluso. Se la shuriken atterra su un creep, perdi il dash sul campione dietro. Angola sempre la <strong>E</strong> in modo che il campione sia il primo bersaglio toccato dalla shuriken.</li>\n<li><strong>Auto-attaccare dentro la W.</strong> Agire (qualunque spell o auto-attack) ti rivela per ~0.5s. Stare dentro <strong>Twilight Shroud</strong> e pokare da lì non ti tiene invisibile — usa <strong>W</strong> per dodgiare un singolo skillshot o per rompere la vision prima di riposizionarti.</li>\n<li><strong>Bruciare R1 senza un piano per R2.</strong> R1 da sola ti pianta in mezzo alla squadra avversaria. Avere sempre un bersaglio per la R2: come kill finale o come dash di fuga.</li>\n<li><strong>Buildare item da bruiser contro una squadra squishy.</strong> Item come <img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/4633.png\" alt=\"Riftmaker\"> <strong>Riftmaker</strong> scambiano burst per sustain (capacità di curarsi durante il fight). Contro una squadra di carry fragili vuoi burst puro (<img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/3152.png\" alt=\"Hextech Rocketbelt\"> <strong>Hextech Rocketbelt</strong> + <img src=\"https://ddragon.leagueoflegends.com/cdn/14.10.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong>), non durabilità.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Lascia cadere <strong>Twilight Shroud (W)</strong> nell'istante esatto in cui atterra <strong>R1</strong>. Lo shroud si apre ai tuoi piedi proprio mentre arrivi in mezzo alla squadra avversaria, spezzando il loro target lock (forza i nemici a riselezionarti, perché per un istante diventi non bersagliabile) per la mezza finestra di tempo prima che riescano a riselezionarti. Usata bene, questa giocata ti permette di riposizionarti per la <strong>R2</strong> execute o anche di annullare l'all-in se il trade sembra perso — e l'abilità di peel (il proteggere un alleato dall'attacco nemico) del support avversario spesso atterra a vuoto perché sei diventata non bersagliabile a metà ingaggio.</p>",
+    "word_count": 1405,
+    "available_patches": [
+      "14.10"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "ahri-mid",
+        "champion": "ahri",
+        "role": "mid"
+      },
+      {
+        "slug": "akshan-mid",
+        "champion": "akshan",
+        "role": "mid"
+      },
+      {
+        "slug": "annie-mid",
+        "champion": "annie",
+        "role": "mid"
+      },
+      {
+        "slug": "lux-mid",
+        "champion": "lux",
+        "role": "mid"
+      },
+      {
+        "slug": "orianna-mid",
+        "champion": "orianna",
+        "role": "mid"
+      }
+    ]
+  },
+  {
     "slug": "caitlyn-bot",
     "title": "Caitlyn Bot Build & Guida — Patch 14.10",
     "language": "it",

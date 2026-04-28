@@ -2,6 +2,33 @@
   "generated_at": "2026-04-28",
   "guides": [
     {
+      "slug": "akali-mid",
+      "champion": "akali",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Akali Mid Build & Guide — Patch 14.10",
+          "description": "Akali mid lane guide for League of Legends Patch 14.10: AP assassin build path, key matchups, level 6 power spikes, common mistakes, and a closing tip.",
+          "patch": "14.10",
+          "last_updated": "2026-04-28",
+          "champion_class": "Assassin / Burst",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Akali"
+        },
+        "it": {
+          "title": "Akali Mid Build & Guide — Patch 14.10",
+          "description": "Guida Akali mid lane per League of Legends Patch 14.10: build da assassino AP, matchup chiave, power spike al livello 6, errori comuni e una tip finale.",
+          "patch": "14.10",
+          "last_updated": "2026-04-28",
+          "champion_class": "Assassin / Burst",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Akali"
+        }
+      }
+    },
+    {
       "slug": "caitlyn-bot",
       "champion": "caitlyn",
       "role": "bot",
