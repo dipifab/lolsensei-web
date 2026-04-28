@@ -2,6 +2,33 @@
   "generated_at": "2026-04-28",
   "guides": [
     {
+      "slug": "caitlyn-bot",
+      "champion": "caitlyn",
+      "role": "bot",
+      "locales": {
+        "en": {
+          "title": "Caitlyn Bot Build & Guide — Patch 14.10",
+          "description": "Caitlyn bot lane guide for League of Legends Patch 14.10: starter kit, lane-bully build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "14.10",
+          "last_updated": "2026-04-28",
+          "champion_class": "Marksman / Lane Bully",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Caitlyn"
+        },
+        "it": {
+          "title": "Caitlyn Bot Build & Guida — Patch 14.10",
+          "description": "Guida Caitlyn bot lane per League of Legends Patch 14.10: starter kit, build da lane bully, matchup chiave, power spike, errori comuni e una tip avanzata.",
+          "patch": "14.10",
+          "last_updated": "2026-04-28",
+          "champion_class": "Marksman / Lane Bully",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Caitlyn"
+        }
+      }
+    },
+    {
       "slug": "garen-top",
       "champion": "garen",
       "role": "top",

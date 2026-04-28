@@ -5,6 +5,208 @@ import type { ChampionGuide } from './types';
 
 export const itChampions: ChampionGuide[] = [
   {
+    "slug": "caitlyn-bot",
+    "title": "Caitlyn Bot Build & Guida — Patch 14.10",
+    "language": "it",
+    "patch": "14.10",
+    "champion": "caitlyn",
+    "role": "bot",
+    "last_updated": "2026-04-28",
+    "description": "Guida Caitlyn bot lane per League of Legends Patch 14.10: starter kit, build da lane bully, matchup chiave, power spike, errori comuni e una tip avanzata.",
+    "quick_learn": {
+      "champion_dd_id": "Caitlyn",
+      "difficulty": 3,
+      "damage_type": "physical",
+      "champion_class": "Marksman / Lane Bully",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Headshot",
+          "description": "Ogni N attacchi spara un colpo bonus che scala col crit. Range raddoppiato contro nemici intrappolati o nettati.",
+          "dd_spell_id": "Caitlyn_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Piltover Peacemaker",
+          "description": "Skillshot lineare a lungo raggio con channel iniziale. Colpisce in fila; danno ridotto sui bersagli successivi. Main DPS e waveclear.",
+          "dd_spell_id": "CaitlynQ"
+        },
+        {
+          "key": "W",
+          "name": "Yordle Snap Trap",
+          "description": "Piazza una trappola che, attivata, rivela e radica il campione nemico per 1.5s e concede un Headshot potenziato.",
+          "dd_spell_id": "CaitlynW"
+        },
+        {
+          "key": "E",
+          "name": "90 Caliber Net",
+          "description": "Rete che rallenta il nemico e respinge Caitlyn all'indietro. È un'escape dai diver, non un tool d'ingaggio.",
+          "dd_spell_id": "CaitlynE"
+        },
+        {
+          "key": "R",
+          "name": "Ace in the Hole",
+          "description": "Channel + execute globale single-target. Gli alleati del bersaglio possono fare da scudo: serve isolamento.",
+          "dd_spell_id": "CaitlynR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6676",
+          "name": "The Collector"
+        },
+        {
+          "dd_id": "3006",
+          "name": "Berserker's Greaves"
+        },
+        {
+          "dd_id": "3031",
+          "name": "Infinity Edge"
+        },
+        {
+          "dd_id": "3094",
+          "name": "Rapid Firecannon"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3036",
+          "name": "Lord Dominik's Regards",
+          "against": "contro frontline tank o squadre HP-stack (Sion, Cho'Gath, Dr. Mundo): l'armor pen bonus scala con gli HP del nemico"
+        },
+        {
+          "dd_id": "3033",
+          "name": "Mortal Reminder",
+          "against": "contro comp con cure pesanti (Soraka, Vladimir, Aatrox): applica Grievous Wounds e dimezza le cure non appena tagghi un bersaglio"
+        },
+        {
+          "dd_id": "3046",
+          "name": "Phantom Dancer",
+          "against": "contro pressione di assassin o diver (Zed, Samira, Yasuo flank): movement speed più una passiva-scudo che scatta sotto soglia HP"
+        },
+        {
+          "dd_id": "3814",
+          "name": "Edge of Night",
+          "against": "contro pick comp e hook (Blitzcrank, Thresh, Morgana Q): lo spell shield mangia un CC prioritario prima che ti sciolgano"
+        }
+      ],
+      "base_combo": [
+        "W",
+        "Q",
+        "AA"
+      ],
+      "win_condition": "Domina la lane con il range della Q e i setup di trap, snowballa Headshot procs con The Collector e Infinity Edge, poi chiudi i fight da dietro la front line, kitando con E e finendo i nemici low-HP con la R.",
+      "weakness": "Nessuna escape vera quando E è in cooldown. Counter durissimi: diver e assassin (Samira, Yasuo, Zed flank). Se l'early lead non si converte in pick a midgame, gli hyperscaler tipo Jinx o Vayne ti superano."
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Caitlyn è il marksman con il range base più alto del gioco e l'archetipo del <strong>lane bully</strong> (un campione che domina la lane fin dai primi minuti, vivendo del vantaggio che costruisce in laning phase). Tutta la sua identità sta nel rendere miserabili i primi 12 minuti per il duo nemico e poi convertire quel vantaggio in obiettivi. La sua <strong>Piltover Peacemaker (Q)</strong> ha più range del basic attack di praticamente ogni altro ADC, la sua <strong>Yordle Snap Trap (W)</strong> trasforma i chokepoint in zone di danno, e la passiva <strong>Headshot</strong> punisce chiunque sbagli il posizionamento attorno alle trap o al net. In compenso ha tra i valori di armor e HP più bassi tra gli ADC: il prezzo della sua dittatura in lane è che si scioglie nell'attimo in cui la pesca un nemico fuori posizione.</p>\n<p>Il game plan è semplice da raccontare e duro da eseguire: poke (logorare gli HP del nemico a distanza senza committare) la lane con la <strong>Q</strong>, piazza trap nei bush e nel tri-bush per minacciare il combo <strong>W → Headshot potenziato</strong>, e converti il lead del primo recall in oro da turret plate. Dopo <strong>The Collector</strong> e <strong>Infinity Edge</strong> il tuo ruolo cambia: diventi una back line carry (la carry da retroguardia che fa danno da dietro al teamfight). Stai nella seconda posizione più arretrata, kita con <strong>E</strong> quando un diver ti salta addosso, e usa la <strong>R</strong> come execute (esecuzione del nemico sotto soglia HP) sui runner low-HP — mai come tool di poke.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> Doran's Blade + 2 Health Potions. Anche se stai vincendo la lane, salta il secondo Doran's: l'oro va molto più lontano se lo metti su una component Pickaxe per The Collector.</p>\n<p><strong>Core items (in ordine):</strong></p>\n<ol>\n<li><strong>The Collector</strong> — first-item rush. La passiva execute scatta sotto il 5% HP del nemico e cancella esattamente quel tipo di runner low-HP che la <strong>R</strong> vuole finire. La lethality è ideale early, perché gli ADC nemici hanno ancora pochissimo armor.</li>\n<li><strong>Berserker's Greaves</strong> — boots da attack speed. Mercury's Treads solo se la squadra nemica ha 3+ minacce di hard CC (crowd control, cioè effetti che ti bloccano: stun, root, knockup).</li>\n<li><strong>Infinity Edge</strong> — il tuo spike di danno più grosso. La passiva Headshot scala con la critical strike chance, e IE trasforma ogni Headshot in un quasi one-shot sui bersagli backline.</li>\n<li><strong>Rapid Firecannon</strong> — più range sull'auto-attack (oltre 700 base + RFC + IE ti rende l'auto-attacker più lungo del lobby) e un proc Energized che si sincronizza naturalmente col timing dell'Headshot.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><strong>Lord Dominik's Regards</strong> — contro frontline tank o comp HP-stack (Sion, Cho'Gath, Dr. Mundo). Sostituisce Rapid Firecannon se la squadra nemica ha 3+ tank.</li>\n<li><strong>Mortal Reminder</strong> — contro comp con cure pesanti (Soraka, Vladimir, Aatrox). Applica Grievous Wounds (effetto che dimezza le cure ricevute) non appena tagghi un nemico.</li>\n<li><strong>Phantom Dancer</strong> — contro pressione di assassin o diver. La passiva HP-threshold (uno scudo che scatta quando scendi sotto soglia HP) più la movement speed ti dà il mezzo secondo che ti serve per fare <strong>E</strong> e scappare.</li>\n<li><strong>Edge of Night</strong> — contro hook comp o pick comp (Blitzcrank, Thresh, Morgana Q). Lo spell shield mangia un CC prioritario prima che ti brucino: è la differenza tra restare viva e morire in quei matchup.</li>\n</ul>\n<p><strong>Boots:</strong> Berserker's Greaves di default. Mercury's Treads solo contro pesante CC AP tipo Brand support o Zyra support.</p>\n<p><strong>Skill order:</strong> Massa <strong>Q</strong> per prima (waveclear e main DPS), <strong>E</strong> per seconda (riduce il cooldown della tua unica escape), <strong>W</strong> per ultima (la trap fa più danno coi rank ma il timer non cambia). Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primaria <strong>Precision</strong> con <strong>Fleet Footwork</strong>, <strong>Presence of Mind</strong>, <strong>Legend: Alacrity</strong>, <strong>Coup de Grace</strong>. Secondaria <strong>Sorcery</strong> con <strong>Manaflow Band</strong> e <strong>Gathering Storm</strong>, oppure passa a <strong>Inspiration</strong> con <strong>Magical Footwear</strong> e <strong>Cosmic Insight</strong> se vuoi più oro sul completamento delle Boots.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Draven:</strong> Leggermente sfavorita ai livelli 1-3 perché il burst (danno alto concentrato in 1-2 secondi) della sua Spinning Axe ti supera nei trade. Non fight pre-3: freeza la wave (tieni la lane congelata vicino alla tua torre per non spingere) sotto torre, arriva al livello 3 con tutte e tre le ability, e poi tradi (scambi brevi di colpi/abilità in lane) solo quando hai una <strong>W</strong> piazzata nel bush. Punisci le finestre in cui ha la mana esaurita dopo Q-Q-Q.</li>\n<li><strong>Ezreal:</strong> Even, tendenzialmente favore Caitlyn se il support ti lascia committare. Outranggi la sua <strong>Q</strong> di parecchio. Ogni volta che lui Q-a un minion, libera la tua <strong>Q</strong> in lane. Non dodgiare <strong>dentro</strong> la traiettoria della sua <strong>W</strong>.</li>\n<li><strong>Jhin:</strong> Matchup even, deciso dalla disciplina nello sniping di <strong>R</strong>. Rispetta il suo quarto proiettile (fa danno enorme). Quando la sua <strong>W</strong> è giù, cammina avanti e tradi. Usa la tua <strong>E</strong> per dodgiare la sua <strong>W</strong> root se la telegrafa.</li>\n<li><strong>Vayne:</strong> Pesantemente favore Caitlyn prima del livello 9, incubo dopo il livello 11. È la tua miniera d'oro: shova la wave forte pre-3 (spingi forte la lane), forzala via dalla lane con la <strong>Q</strong>, e tieni il jungler informato sulle dive (andare sotto torre per ucciderla nonostante i tiri della torre) al livello 6. Se sopravvive a due item, la lane è andata e devi switchare in modalità back line.</li>\n<li><strong>Samira:</strong> Vuole un all-in (scambio totale fino alla kill) corpo a corpo non appena ha la W. Piazza trap nel bush della lane per chiudere la sua via d'ingaggio, salva la <strong>E</strong> come knockback nel momento esatto in cui dasha addosso (non bruciarla in poke), e mai fight contro di lei senza la Phantom Dancer in shield.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Livello 2:</strong> Con un punto in <strong>Q</strong> e uno in <strong>E</strong>, il combo Q-AA-AA chunka il 30-40% degli HP dell'ADC nemico se cammina avanti per last-hittare. Tieni la wave al centro lane e cerca questa finestra.</li>\n<li><strong>Livello 6:</strong> Prima <strong>Ace in the Hole</strong> sblocca la pressione da pick (eliminare un nemico isolato fuori dal teamfight). Lanciala da dentro un tri-bush così il reveal del proiettile non telegrafa la tua posizione. Non sprecarla in poke: aspetta un runner low-HP senza alleati vicini.</li>\n<li><strong>Completamento The Collector (~ minuto 8-10):</strong> Primo breakpoint di execute. Quasi tutti i squishie (campioni con poche difese) sotto il 5% HP muoiono istantaneamente alla passiva, quindi una <strong>Q</strong> che cleava una linea bassa di minion fino al campione nemico diventa kill gratis.</li>\n<li><strong>Infinity Edge online (~ minuto 18-22):</strong> Il tuo spike di danno più grande. I proc Headshot passano da \"pungono\" a \"cancellano l'ADC nemico\". Forza fight su obiettivi qui — Drake o Rift Herald — e costruisci vision attorno alle zone della tua win condition.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Spammare la Q per waveclear senza gestire la mana.</strong> Caitlyn è mana-hungry early. Q la wave solo quando si allineano due melee minion più un caster, sennò arrivi al trade dopo con la mana vuota.</li>\n<li><strong>Lanciare W trap come poke.</strong> Le trap sono un setup tool, non un damage tool. Piazzale nei chokepoint (bush della lane, tri-bush, ingresso del river) dove il nemico deve passare per last-hittare o rotare. Una trap nuda ai piedi dell'ADC nemico spreca un secondo di lane prio (priority — l'ascendente in lane che ti fa lasciare la lane senza perdere risorse).</li>\n<li><strong>Stare sempre al massimo range in teamfight.</strong> Il range max dell'AA ti mette fuori dalla peel (la protezione che gli alleati ti mettono addosso). Stai nella seconda posizione più arretrata: così un assassin che fa flank (entra da un fianco non coperto) non ti cancella prima che il tuo support reagisca.</li>\n<li><strong>Usare la R come poke da metà mappa.</strong> <strong>Ace in the Hole</strong> ha channel lungo e qualunque alleato vicino al bersaglio body-blocca il proiettile. Salvala per runner <strong>isolati</strong> low-HP — bersagli senza alleati a meno di 350 unità.</li>\n<li><strong>Bruciare la E per inseguire una kill.</strong> <strong>90 Caliber Net</strong> è la tua unica escape. In cooldown sei un glass cannon (campione ad alto danno e poche difese, tipico degli ADC) senza risposta a un diver. Usala per scappare, non per chiudere la distanza.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Allena la sequenza <strong>\"Trap → Q → Headshot potenziato\"</strong> nei chokepoint. Cammina fino a un tri-bush o all'ingresso jungle, piazza la <strong>W</strong> dietro la linea nemica sul lato della loro ritirata, poi spingili indietro col poke della <strong>Q</strong>. Nell'attimo in cui pestano la trap, il root da 1.5s ti garantisce un follow-up di <strong>Q</strong> più un Headshot potenziato — e il colpo potenziato ha <strong>range raddoppiato</strong> contro i bersagli intrappolati, il che significa che lo spari da una distanza dalla quale la maggior parte degli ADC non può nemmeno auto-attaccare. Trasforma un 2v2 in lane in un 1.5v2: l'ADC nemico sceglie tra perdere wave prio (lasciare la lane senza gestire i minion) o pestare un combo garantito. In entrambi i casi vinci il trade.</p>",
+    "word_count": 1481,
+    "available_patches": [
+      "14.10"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "ashe-bot",
+        "champion": "ashe",
+        "role": "bot"
+      },
+      {
+        "slug": "draven-bot",
+        "champion": "draven",
+        "role": "bot"
+      },
+      {
+        "slug": "ezreal-bot",
+        "champion": "ezreal",
+        "role": "bot"
+      },
+      {
+        "slug": "jhin-bot",
+        "champion": "jhin",
+        "role": "bot"
+      },
+      {
+        "slug": "jinx-bot",
+        "champion": "jinx",
+        "role": "bot"
+      }
+    ]
+  },
+  {
     "slug": "garen-top",
     "title": "Garen Top Build & Guida — Patch 14.10",
     "language": "it",
