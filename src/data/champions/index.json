@@ -89,23 +89,23 @@
       "locales": {
         "en": {
           "title": "Lee Sin Jungle Build & Guide — Patch 14.10",
-          "description": "Lee Sin jungle guide for League of Legends Patch 14.10: starter kit, bruiser-skirmisher build, key matchups, power spikes, common mistakes, and a closing tip.",
+          "description": "Lee Sin jungle guide for League of Legends Patch 14.10: starter kit, skirmisher build path, key matchups, power spikes, common mistakes, and a closing tip.",
           "patch": "14.10",
-          "last_updated": "2026-04-25",
-          "champion_class": null,
-          "difficulty": null,
-          "damage_type": null,
-          "champion_dd_id": null
+          "last_updated": "2026-04-28",
+          "champion_class": "Fighter / Skirmisher Jungle",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "LeeSin"
         },
         "it": {
           "title": "Lee Sin Jungle Build & Guida — Patch 14.10",
-          "description": "Guida Lee Sin jungle per League of Legends Patch 14.10: starter kit, build bruiser-skirmisher, matchup chiave, power spike, errori comuni e una chiusura tecnica.",
+          "description": "Guida Lee Sin jungle per League of Legends Patch 14.10: starter kit, build da skirmisher, matchup chiave, power spike, errori comuni e una chiusura tecnica.",
           "patch": "14.10",
-          "last_updated": "2026-04-25",
-          "champion_class": null,
-          "difficulty": null,
-          "damage_type": null,
-          "champion_dd_id": null
+          "last_updated": "2026-04-28",
+          "champion_class": "Fighter / Skirmisher Jungle",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "LeeSin"
         }
       }
     },
@@ -214,6 +214,33 @@
           "difficulty": 3,
           "damage_type": "magic",
           "champion_dd_id": "Neeko"
+        }
+      }
+    },
+    {
+      "slug": "udyr-jungle",
+      "champion": "udyr",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Udyr Jungle Build & Guide — Patch 14.10",
+          "description": "Udyr jungle guide for League of Legends Patch 14.10: starter kit, bruiser build path, key matchups, power spikes, common mistakes, and one advanced tip.",
+          "patch": "14.10",
+          "last_updated": "2026-04-28",
+          "champion_class": "Fighter / Diver Jungle",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Udyr"
+        },
+        "it": {
+          "title": "Guida a Udyr Jungle — Build e matchup, Patch 14.10",
+          "description": "Guida a Udyr jungle per League of Legends patch 14.10: starter kit, build da bruiser, matchup chiave, power spike, errori frequenti e una nota di chiusura.",
+          "patch": "14.10",
+          "last_updated": "2026-04-28",
+          "champion_class": "Fighter / Diver Jungle",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Udyr"
         }
       }
     }

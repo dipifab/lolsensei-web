@@ -625,10 +625,177 @@ export const enChampions: ChampionGuide[] = [
     "patch": "14.10",
     "champion": "lee-sin",
     "role": "jungle",
-    "last_updated": "2026-04-25",
-    "description": "Lee Sin jungle guide for League of Legends Patch 14.10: starter kit, bruiser-skirmisher build, key matchups, power spikes, common mistakes, and a closing tip.",
-    "content_html": "<h2>Overview</h2>\n<p>Lee Sin is an early-game skirmisher jungler whose primary job is <strong>tempo</strong>: invading, ganking, and creating priority before the enemy team accrues item value. His kit is a chain of high-skill micro: <strong>Sonic Wave / Resonating Strike (Q)</strong> is a skillshot that, when landed, gives you a free dash; <strong>Safeguard / Iron Will (W)</strong> doubles as gap closer onto an ally and a sustain window; <strong>Tempest / Cripple (E)</strong> is AOE damage with reveal and slow; <strong>Dragon's Rage (R)</strong> kicks a target into your team for execute follow-up or for a flashy displacement out of the enemy backline.</p>\n<p>The skill ceiling is famous and well-deserved: insec, ward-jumping, double <strong>Q</strong> procs, <strong>R</strong>-flash combos. The skill <strong>floor</strong> is higher than people remember. If you cannot consistently land Q1 and time <strong>W</strong> to refresh on minions, your win rate will sit below 47% on him no matter the patch.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> Hailblade if your first clear leads through bot side (slower clear but better invade pressure); Emberknife for top side starts (faster clear, more sustain).</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><strong>Goredrinker</strong> — burst+sustain in fights, syncs with extended <strong>Q</strong> chains, AD + HP statline.</li>\n<li><strong>Plated Steelcaps</strong> vs AD-heavy enemies / <strong>Mercury's Treads</strong> vs 3+ CC. Default Plated.</li>\n<li><strong>Sterak's Gage</strong> — life saver in dives, AD steroid, Q-W-E-Q rotations stay safe past your typical \"die at 2 items\" timing.</li>\n<li><strong>Death's Dance</strong> — sustained skirmish power, bleed mechanic recovers HP through long fights.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><strong>Maw of Malmortius</strong> — into AP burst (Syndra, Lux mid).</li>\n<li><strong>Spear of Shojin</strong> — if you are massively ahead and the team needs faster R uptime.</li>\n<li><strong>Black Cleaver</strong> — into stacked-armor compositions; the armor shred carries the team's AD damage.</li>\n<li><strong>Guardian Angel</strong> — late-game flanking insurance after 4 items.</li>\n</ul>\n<p><strong>Boots:</strong> Plated Steelcaps default. Mobility Boots only if you specifically want gank-route maps and the enemy team has no early CC champions to punish you in skirmishes.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (DPS and gap close), <strong>E</strong> second (waveclear and slow uptime), <strong>W</strong> last (utility scales fine without points). <strong>R</strong> at 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Precision</strong> with <strong>Conqueror</strong>, <strong>Triumph</strong>, <strong>Legend: Alacrity</strong>, <strong>Last Stand</strong>. Secondary <strong>Domination</strong> with <strong>Sudden Impact</strong> + <strong>Treasure Hunter</strong> for snowball pressure, or <strong>Resolve</strong> with <strong>Second Wind</strong> + <strong>Revitalize</strong> if you expect a long game.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Vi:</strong> She loses skirmishes pre-6 if you bait her <strong>Q</strong>. Insec her to a teammate after a successful <strong>Q</strong> chain. Avoid 1v1 around her <strong>R</strong> ult range.</li>\n<li><strong>Hecarim:</strong> Outscales you after 3 items. Pressure him pre-9 minutes; if you hit 6 before he ramps, gank top or mid relentlessly.</li>\n<li><strong>Master Yi:</strong> Skill matchup; <strong>E</strong> reveals him through <strong>Q</strong> active. Save <strong>R</strong> for kicking him out of the team fight backline. Buy Goredrinker before any squishier item.</li>\n<li><strong>Kha'Zix:</strong> Invade on cooldown until level 6. After his <strong>R</strong>, he can solo-kill you if isolated; never go alone toward enemy red side without team coverage.</li>\n<li><strong>Graves:</strong> Loses early skirmishes to your kite-and-Q3-back pattern. Punish him while he buffer-rolls <strong>E</strong>: that 0.4s recovery window is your free auto-attack.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 3:</strong> Full kit unlocks. Your gank pattern is <strong>Q1 -> wait for ally CC or Flash -> Q2 -> E slow -> auto reset</strong>. If they have no Flash, this is a kill at 60% HP.</li>\n<li><strong>Level 6:</strong> <strong>Dragon's Rage</strong> unlocks the dive game and the kick-into-team play. Pre-6, <strong>R</strong> has no value, so first blood pre-6 is your highest leverage point.</li>\n<li><strong>Goredrinker timing (~ 9 minutes):</strong> You win extended skirmishes. Look for Scuttle fights and Herald contests around this timer.</li>\n<li><strong>Late game (~ 30 minutes):</strong> Lee falls off compared to scaling carries. Your remaining win condition is ace-flank engages — get vision in enemy jungle, <strong>R</strong> their carry across the map, follow with <strong>Q-E-W</strong>.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Wasting Q1 on minions in fights.</strong> <strong>Q1</strong> is a charge ability; if you fire it on a low-HP minion, you give the enemy a 12s window where you have no gap-close. Save it for the champion all-in.</li>\n<li><strong>W-jumping mid skirmish for sustain.</strong> <strong>W</strong> sustain is real but you give up your gap close. If the trade is winnable, save <strong>W</strong> for an Insec or for jumping on the support post-<strong>R</strong> kick.</li>\n<li><strong>R-into-tower without follow-up.</strong> Kicking a low-HP carry toward your team only works if the team is in range and ready. <strong>R</strong> alone, off-screen, is a 100g coin flip.</li>\n<li><strong>Auto-leashing red side at level 1.</strong> With Hailblade you can solo full-clear from the bot side; the leash gives up a Scuttle race. Communicate with bot lane: leash only the first attack-and-go, then go.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>The \"ward-flash\" sequence: drop a Stealth Ward over a wall, <strong>W</strong> to it, then immediately <strong>Flash</strong> before resolution — your model arrives on the other side of the wall in roughly 0.15 seconds, eating Flash CD but shipping you behind the enemy's backline mid-team-fight. Practice this in Practice Tool until you can land <strong>R</strong> on the squishiest target before they react. The window is small enough that lower-elo enemies do not anticipate it past the fifth time you do it in their match.</p>",
-    "word_count": 858,
+    "last_updated": "2026-04-28",
+    "description": "Lee Sin jungle guide for League of Legends Patch 14.10: starter kit, skirmisher build path, key matchups, power spikes, common mistakes, and a closing tip.",
+    "quick_learn": {
+      "champion_dd_id": "LeeSin",
+      "difficulty": 3,
+      "damage_type": "physical",
+      "champion_class": "Fighter / Skirmisher Jungle",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Flurry",
+          "description": "After casting an ability, Lee Sin's next 2 basic attacks gain attack speed and refund energy. Cast — auto — auto rhythm.",
+          "dd_spell_id": "LeeSin_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Sonic Wave / Resonating Strike",
+          "description": "Linear skillshot. On hit, recast to dash to the target dealing missing-HP physical damage. Your main gap close.",
+          "dd_spell_id": "LeeSinQOne"
+        },
+        {
+          "key": "W",
+          "name": "Safeguard / Iron Will",
+          "description": "Dash to an ally, ward, or yourself with a shield. Recast for lifesteal and spell vamp. Mobility plus sustain.",
+          "dd_spell_id": "LeeSinWOne"
+        },
+        {
+          "key": "E",
+          "name": "Tempest / Cripple",
+          "description": "AOE damage that reveals enemies. Recast slows targets it hit. Clear tool, anti-stealth, and slow source.",
+          "dd_spell_id": "LeeSinEOne"
+        },
+        {
+          "key": "R",
+          "name": "Dragon's Rage",
+          "description": "Roundhouse kick that knocks back the target and damages enemies behind them. Pickoff finisher and disruption tool.",
+          "dd_spell_id": "LeeSinR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6692",
+          "name": "Eclipse"
+        },
+        {
+          "dd_id": "3047",
+          "name": "Plated Steelcaps"
+        },
+        {
+          "dd_id": "3084",
+          "name": "Heartsteel"
+        },
+        {
+          "dd_id": "3071",
+          "name": "Black Cleaver"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "6333",
+          "name": "Death's Dance",
+          "against": "vs squads with two strong physical damage dealers (Yasuo + Caitlyn) — converts physical damage taken into a slow bleed, not instant"
+        },
+        {
+          "dd_id": "3156",
+          "name": "Maw of Malmortius",
+          "against": "vs heavy AP burst (Diana, Syndra, Lux mid) — the lifeline shield turns one-shots into survivable trades"
+        },
+        {
+          "dd_id": "3111",
+          "name": "Mercury's Treads",
+          "against": "vs 3+ hard CC champions (e.g. Leona + Lissandra + Sejuani) — tenacity shortens stuns and roots so you keep your dash chain"
+        },
+        {
+          "dd_id": "3053",
+          "name": "Sterak's Gage",
+          "against": "when the team needs you to dive (go under enemy turret to kill someone) — the lifeline shield procs after the first big hit"
+        },
+        {
+          "dd_id": "3026",
+          "name": "Guardian Angel",
+          "against": "late-game flank insurance — if you mistime an R, the resurrect lets your team trade the engage favorably"
+        }
+      ],
+      "base_combo": [
+        "Q1",
+        "AA",
+        "E",
+        "AA",
+        "Q2",
+        "R"
+      ],
+      "win_condition": "Win the first 14 minutes through invades and ganks. Once Eclipse is up, contest every objective and use R to peel a key enemy out of position. Late game, find a flank, kick a squishy carry into your team.",
+      "weakness": "Falls off hard after minute 25 against scaling carries. No reliable dash if Q1 misses or W has nothing to jump to. Hard CC chains end your engage instantly."
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Lee Sin is an early-game jungler — a skirmisher who wins short fights between two or three players. Imagine a martial artist with a chain of dashes: he hits you with a sound wave, dashes onto you, kicks you into his team, and his auto-attacks come with a built-in attack-speed bonus after every spell. The whole kit is built around one idea: be the strongest fighter on the map for the first 15 minutes, then convert that lead into kills, objectives, and tempo before the opposing carries scale.</p>\n<p>His game plan is direct. In the first 8 minutes you invade — meaning you walk into the enemy jungle to steal camps and pick off the enemy jungler. After that you gank lanes whenever your <strong>Q</strong> is up. Late game you stop trying to fight 1v1 (you lose those) and instead look for flanks: you walk around the side of the map, hide in unwarded brush, then <strong>R</strong> the enemy carry into your team. If you cannot land <strong>Q1</strong> consistently, none of this works — the rest of the kit chains off the first skillshot.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> Smite + <strong>Hailblade</strong> for a faster jungle clear with AOE damage on the second hit, plus <strong>Refillable Potion</strong>. Take Emberknife only if you want max sustain on a slower full clear with more solo dueling.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><strong>Eclipse</strong> — burst, shield, and omnivamp. The two-hit shield procs perfectly with your Cast → AA → AA passive rhythm. Cleanest first item for skirmishing.</li>\n<li><strong>Plated Steelcaps</strong> vs AD-heavy enemies / <strong>Mercury's Treads</strong> vs 3+ hard CC champions. Default Plated.</li>\n<li><strong>Heartsteel</strong> — HP and a charged auto-attack that punishes extended skirmishes. Lets you brawl past the \"I die at 2 items\" timer.</li>\n<li><strong>Black Cleaver</strong> — armor shred that scales with your Q-AA-Q rhythm. Turns your team's physical damage into kill threats too.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><strong>Death's Dance</strong> — against squads with two strong physical damage dealers (e.g. Yasuo + Caitlyn). Spreads incoming physical damage as a slow bleed instead of arriving instantly.</li>\n<li><strong>Maw of Malmortius</strong> — against AP burst lanes (Diana, Syndra, Lux mid).</li>\n<li><strong>Sterak's Gage</strong> — when you need to dive (go under enemy tower to kill someone). The lifeline shield buys you the second your team needs to follow up.</li>\n<li><strong>Guardian Angel</strong> — late-game flank insurance after 4 items.</li>\n</ul>\n<p><strong>Boots:</strong> Plated Steelcaps default. Boots of Mobility only on gank-heavy maps with no early CC threats — niche, not standard.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (damage and gap close), <strong>E</strong> second (clear and slow uptime), <strong>W</strong> last (utility scales fine on rank 1). <strong>R</strong> at 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Precision</strong> with <strong>Conqueror</strong>, <strong>Triumph</strong>, <strong>Legend: Alacrity</strong>, <strong>Last Stand</strong>. Secondary <strong>Domination</strong> with <strong>Sudden Impact</strong> + <strong>Treasure Hunter</strong> for a snowball lead (vantaggio iniziale che cresce nel tempo: kill → gold → item → più kill), or <strong>Resolve</strong> with <strong>Second Wind</strong> + <strong>Revitalize</strong> if you expect a long, scaling game.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Vi:</strong> She loses skirmishes pre-6 if you bait her <strong>Q</strong> charge. Land <strong>Q1</strong> on her, <strong>E</strong> to slow, then dash to the support after the kick — peel for your carry while she's on cooldown.</li>\n<li><strong>Hecarim:</strong> He outscales you past 3 items but loses fights pre-9 minutes. Pressure him hard early; if you reach level 6 first, gank top or mid relentlessly. Do not 1v1 him after his first item.</li>\n<li><strong>Master Yi:</strong> Skill matchup. Your <strong>E</strong> reveals him while his <strong>Q</strong> is active, breaking his target lock. Practice that until it's reflex. Save <strong>R</strong> to kick him out of your back line in team fights.</li>\n<li><strong>Kha'Zix:</strong> Invade until level 6. After his evolved <strong>R</strong>, he can solo-kill you if you're alone — never walk into the enemy jungle alone past minute 12 without team coverage.</li>\n<li><strong>Graves:</strong> Mirror tempo matchup. Both junglers win the first 6 levels. Whichever side ganks more wins. Track his <strong>E</strong> charges; if he burned both, you outduel him.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 3:</strong> Full kit unlocks. Your gank pattern is <strong>Q1 → wait for ally CC or Flash → Q2 → E slow → auto reset</strong>. With no enemy Flash, this kills any squishy at 60% HP.</li>\n<li><strong>Level 6:</strong> <strong>Dragon's Rage</strong> unlocks the kick play. Pre-6, <strong>R</strong> has no value — first blood pre-6 is your highest leverage point in the game.</li>\n<li><strong>Eclipse timing (~ minute 9):</strong> You win extended skirmishes. Force fights on Scuttle, Drake, and Voidgrubs in this window.</li>\n<li><strong>Late game (~ minute 30):</strong> Lee falls off compared to scaling carries (Vayne, Kog'Maw, Master Yi). Your remaining win condition is the ace-flank: get vision in the enemy jungle, find a side position, <strong>R</strong> their carry across the map, follow up with <strong>Q-E-W</strong>.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Wasting Q1 on a low-HP minion in a fight.</strong> Your <strong>Q</strong> has two parts: the skillshot and the dash. If you cast Q1 on a minion to clear it, you've burned the whole ability for 12 seconds and have no gap close. Save Q1 for the all-in (full commitment trade until someone dies).</li>\n<li><strong>W-jumping mid skirmish for sustain.</strong> <strong>W</strong>'s lifesteal is real, but if you W onto a ward to heal you give up your gap close. If the trade is winnable, save <strong>W</strong> for an Insec (the kick-back trick — see Advanced tip) or for jumping onto the support after <strong>R</strong>.</li>\n<li><strong>R-into-tower without follow-up.</strong> Kicking a low-HP carry toward your team only works if the team is in range and ready to commit. <strong>R</strong> alone, off-screen, is a 100g coin flip.</li>\n<li><strong>Auto-leashing red side at level 1.</strong> With Hailblade you can full-clear from bot side without help. The leash gives up a Scuttle race. Tell bot lane: leash only the first attack-and-go, then leave.</li>\n<li><strong>Picking Lee in a comp with no pickoff plan.</strong> Lee shines when his team can capitalize on a single isolated kill (a \"pickoff\": eliminating a nemico fuori dal teamfight). If your team has no follow-up CC, <strong>R</strong> is just a peel tool — adjust your build toward Death's Dance and Sterak's instead of all-in items.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>The \"Insec\" kick: walk past your target, <strong>W</strong> to a ward you placed behind them, then <strong>R</strong> as you land — the kick fires from behind, sending them toward your team instead of away. The full sequence is <strong>Q1 hit → Q2 dash → ward behind → W to ward → R</strong>. Practice it in Practice Tool until you can hit the timing without thinking. The window between landing the W and the R is roughly 0.3 seconds — too slow and the target turns to face you; too fast and the W animation eats the R cast. When you can chain it under pressure, Lee jumps two tiers in your hands.</p>",
+    "word_count": 1125,
     "available_patches": [
       "14.10"
     ],
@@ -1482,6 +1649,225 @@ export const enChampions: ChampionGuide[] = [
         "slug": "irelia-top",
         "champion": "irelia",
         "role": "top"
+      }
+    ]
+  },
+  {
+    "slug": "udyr-jungle",
+    "title": "Udyr Jungle Build & Guide — Patch 14.10",
+    "language": "en",
+    "patch": "14.10",
+    "champion": "udyr",
+    "role": "jungle",
+    "last_updated": "2026-04-28",
+    "description": "Udyr jungle guide for League of Legends Patch 14.10: starter kit, bruiser build path, key matchups, power spikes, common mistakes, and one advanced tip.",
+    "quick_learn": {
+      "champion_dd_id": "Udyr",
+      "difficulty": 3,
+      "damage_type": "physical",
+      "champion_class": "Fighter / Diver Jungle",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Bridge Between",
+          "description": "Each ability is a stance. Recast within a window to fire its empowered version. After any ability, the next two attacks gain attack speed.",
+          "dd_spell_id": "Udyr_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Wilding Claw",
+          "description": "Attack speed buff; next two attacks deal bonus physical damage. Recast: more attack speed and lightning bolts on the target.",
+          "dd_spell_id": "UdyrQ"
+        },
+        {
+          "key": "W",
+          "name": "Iron Mantle",
+          "description": "Shield plus next two attacks heal. Recast: bigger shield and a heal-over-time tied to your max HP. Main sustain tool.",
+          "dd_spell_id": "UdyrW"
+        },
+        {
+          "key": "E",
+          "name": "Blazing Stampede",
+          "description": "Movement speed; first attack on each enemy stuns. Recast: more move speed and immunity to immobilizing CC (stuns, roots).",
+          "dd_spell_id": "UdyrE"
+        },
+        {
+          "key": "R",
+          "name": "Wingborne Storm",
+          "description": "AOE storm that damages and slows enemies near you. Recast: storm tracks targets and erupts for extra damage. Levels at 6/11/16.",
+          "dd_spell_id": "UdyrR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "Q"
+        },
+        {
+          "level": 9,
+          "key": "E"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "1102",
+          "name": "Gustwalker Hatchling"
+        },
+        {
+          "dd_id": "3078",
+          "name": "Trinity Force"
+        },
+        {
+          "dd_id": "3047",
+          "name": "Plated Steelcaps"
+        },
+        {
+          "dd_id": "6610",
+          "name": "Sundered Sky"
+        },
+        {
+          "dd_id": "3053",
+          "name": "Sterak's Gage"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3111",
+          "name": "Mercury's Treads",
+          "against": "vs 3+ hard CC champions (e.g. Leona + Sejuani + Lissandra) — tenacity shortens stuns and roots so you can still reach the back line"
+        },
+        {
+          "dd_id": "6333",
+          "name": "Death's Dance",
+          "against": "vs squads with two strong physical damage dealers (e.g. Yasuo + Caitlyn) — turns AD burst into a slow bleed you can survive"
+        },
+        {
+          "dd_id": "3065",
+          "name": "Spirit Visage",
+          "against": "vs heavy AP threats (Brand jungle, Karthus, Lillia) — boosts the heal from your W and the magic resist saves you from burst"
+        },
+        {
+          "dd_id": "3091",
+          "name": "Wit's End",
+          "against": "vs mobile AP carries (Akali, Diana, Ekko) — magic resist plus on-hit magic damage punishes their dive into your back line"
+        },
+        {
+          "dd_id": "3181",
+          "name": "Hullbreaker",
+          "against": "when you can splitpush a side lane uncontested — solo HP and damage scaling lets you take towers while four enemies hold mid"
+        },
+        {
+          "dd_id": "3161",
+          "name": "Spear of Shojin",
+          "against": "when the team needs more skirmish DPS — the ability haste lets you cycle stances faster in extended fights"
+        }
+      ],
+      "base_combo": [
+        "E",
+        "AA",
+        "Q",
+        "AA",
+        "W",
+        "R"
+      ],
+      "win_condition": "Snowball through level 3 ganks and a strong jungle clear. Once Trinity Force comes online (~minute 14), pick skirmishes around objectives — your W heal plus E stun let you outlast most junglers 1v1.",
+      "weakness": "Short range, no dash, no built-in disengage. Heavy kiting (Caitlyn, Vayne, Yasuo Wind Wall) outpaces you, and once W is on cooldown there is no second layer of survivability."
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Udyr is a melee shapeshifter jungler who switches between four stances — <strong>Q</strong>, <strong>W</strong>, <strong>E</strong>, <strong>R</strong> — and can recast each one inside a short window for an empowered version. There are no skillshots in his kit: every ability is point-and-click, so the skill expression sits in stance order, recast timing, and choosing the right gank window. He clears the jungle quickly, ganks reliably from level 3 onward thanks to the <strong>E</strong> stun on the first attack, and trades stat-for-stat with most other junglers once Trinity Force comes online.</p>\n<p>The game plan is simple to describe: full clear into a level 3 gank, scale into Trinity Force, then look for skirmishes around objectives where your healing on <strong>W</strong> outlasts the enemy jungler. You do not have a dash or a long-range disengage, so committing fully (\"all-in\" — no holding back, no escape plan) is usually the right call once <strong>E</strong> is up.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> Gustwalker Hatchling jungle pet plus Refillable Potion. Gustwalker gives you out-of-combat move speed for faster clears and quicker ganks; pick Mosstomper Seedling instead only if you expect to be invaded constantly.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><strong>Trinity Force</strong> — bruiser core. Gives you on-hit damage, attack speed, ability haste, and the Spellblade proc that scales perfectly with Udyr's stance-then-attack pattern.</li>\n<li><strong>Plated Steelcaps</strong> — armor plus 12% reduced damage from auto-attacks. Standard against most enemy junglers and any AD-heavy team.</li>\n<li><strong>Sundered Sky</strong> — every first attack on a target below 35% HP becomes a critical strike that heals you. Synergizes with the <strong>E</strong> stun (your first attack on each target also stuns) and turns close 1v1s into kills.</li>\n<li><strong>Sterak's Gage</strong> — HP plus a lifeline shield that triggers when you take heavy damage. Buys you the time to land a <strong>W</strong> recast and survive a burst window.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><strong>Mercury's Treads</strong> — swap from Plated Steelcaps when you face 3 or more hard CC champions (e.g. Leona + Sejuani + Lissandra). Tenacity shortens stuns and roots.</li>\n<li><strong>Death's Dance</strong> — against squads with two strong physical damage dealers (e.g. Yasuo + Caitlyn). It turns physical burst into a slow sanguinamento (passive on-hit damage spread over the next seconds) that you can survive.</li>\n<li><strong>Spirit Visage</strong> — against heavy AP threats (Brand jungle, Karthus, Lillia). It boosts the heal coming from <strong>W</strong> by 25% and adds magic resist.</li>\n<li><strong>Wit's End</strong> — against mobile AP carries (Akali, Diana, Ekko). Magic resist plus on-hit magic damage punishes them when they dive your back line.</li>\n<li><strong>Hullbreaker</strong> — when you can splitpush (push a side lane alone while four enemies hold mid). Bonus solo damage and HP let you take towers under pressure.</li>\n</ul>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first for jungle clear and on-hit damage, <strong>E</strong> second for the stun cooldown, <strong>W</strong> last. Take <strong>R</strong> at levels 6/11/16.</p>\n<p><strong>Runes:</strong> Primary <strong>Resolve</strong> with <strong>Grasp of the Undying</strong> (free HP per stack), <strong>Demolish</strong>, <strong>Conditioning</strong>, <strong>Overgrowth</strong>. Secondary <strong>Precision</strong> with <strong>Triumph</strong> (heal on takedowns) and <strong>Legend: Alacrity</strong> (attack speed scales). Stat shards: attack speed, adaptive force, scaling HP.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Lee Sin:</strong> Skirmish race. He out-trades you at level 2, you out-trade him at level 3 once <strong>E</strong> stun is online. Track his cooldowns; if his <strong>Q</strong> is down, you win the duel.</li>\n<li><strong>Master Yi:</strong> He scales harder than you do but he is fragile pre-3 items. Invade his red buff on the second clear, gank his lane every time <strong>E</strong> is up, deny him farm. If he reaches Bork + Phantom Dancer with even gold, the lane is lost.</li>\n<li><strong>Hecarim:</strong> He outpaces you with <strong>R</strong> (Onslaught of Shadows). Do not chase him into the fog of war. Wait for him to engage on your team, then <strong>E</strong>-stun and burst him while his <strong>R</strong> is on cooldown.</li>\n<li><strong>Graves:</strong> Tough early matchup — his <strong>R</strong> kites you and his <strong>W</strong> smoke screen denies your auto-attacks. Wait for level 6, dodge his <strong>R</strong>, then commit with <strong>E</strong> stun and <strong>R</strong> AOE.</li>\n<li><strong>Warwick:</strong> Mirror bruiser duel decided by W usage. Your shield plus heal is bigger than his sustain. Save <strong>W</strong> for after his fear lands, not before — the recast value is wasted if you pop it under no pressure.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 3 (after first clear):</strong> All four stances are unlocked. <strong>E</strong> has a stun on the first attack against each enemy — this is your first gank window. Path raptors → red → first scuttle → mid or top gank.</li>\n<li><strong>Level 6:</strong> <strong>Wingborne Storm (R)</strong> unlocks. AOE damage in skirmishes plus a recast that tracks targets. Now you can dive (go under tower for a kill) two-versus-one because the storm chunks both targets.</li>\n<li><strong>Trinity Force completion (~minute 14):</strong> Massive spike. Spellblade procs every stance switch, and the move speed lets you stick to kited targets. Force objective fights here.</li>\n<li><strong>Sundered Sky online (~minute 21-23):</strong> With Trinity + Sundered + Sterak's, you become almost unkillable in 1v1s. Look for picks (eliminating an isolated enemy out of teamfight) on the side lanes around drake and baron timers.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Forgetting to recast.</strong> Every stance has a recast window where the empowered version fires for free. Without recasts you are playing 4 abilities; with recasts you are playing 8. Drill the rhythm: cast → 2 attacks → recast → 2 more attacks.</li>\n<li><strong>Greedy ganks pre-Trinity Force.</strong> Before your first item you are a stat-stick with no burst. If the lane is not pre-frozen near your tower, leave it. Path to objectives or counter-jungle instead.</li>\n<li><strong>Burning E stun on the wave.</strong> <strong>E</strong>'s first attack on each target stuns. If you walk into the lane and auto-attack a minion first, you waste the stun on a 50-gold creature. Always open with <strong>E</strong> on the champion you want to kill.</li>\n<li><strong>Building pure tank.</strong> Udyr wants the bruiser stat sheet (HP + attack damage + ability haste + on-hit). Pure armor stacks like Frozen Heart make you tanky but useless in a 1v1 — you cannot kill anything.</li>\n<li><strong>Ulting a single target without a recast plan.</strong> <strong>R</strong> plus its recast is your biggest damage window. Pressing <strong>R</strong> once and walking away leaves half its damage on the table.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Practice the <strong>Q-W double recast</strong> in extended fights. Open with <strong>Q</strong> on the target, weave two attacks, recast <strong>Q</strong> for the lightning bolts; in the same window pop <strong>W</strong> before the recast expires, weave two more attacks, recast <strong>W</strong> for the heal-over-time. This pattern stacks roughly four seconds of empowered on-hit damage with a full HP bar of sustain — most junglers cannot win that exchange even with a small gold lead on you.</p>",
+    "word_count": 1102,
+    "available_patches": [
+      "14.10"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "amumu-jungle",
+        "champion": "amumu",
+        "role": "jungle"
+      },
+      {
+        "slug": "diana-jungle",
+        "champion": "diana",
+        "role": "jungle"
+      },
+      {
+        "slug": "ekko-jungle",
+        "champion": "ekko",
+        "role": "jungle"
+      },
+      {
+        "slug": "graves-jungle",
+        "champion": "graves",
+        "role": "jungle"
+      },
+      {
+        "slug": "hecarim-jungle",
+        "champion": "hecarim",
+        "role": "jungle"
       }
     ]
   }
