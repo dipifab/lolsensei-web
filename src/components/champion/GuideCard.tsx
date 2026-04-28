@@ -51,17 +51,13 @@ const LOCALE_MAP: Record<string, string> = {
   it: 'it-IT',
 };
 
-const DD_BASE = 'https://ddragon.leagueoflegends.com/cdn';
-
-function ddVersion(patch: string): string {
-  return `${patch}.1`;
-}
+const CDRAGON_BASE = 'https://cdn.communitydragon.org/latest/champion';
 
 /**
  * Fallback: if `champion_dd_id` is null (pre-CR-053 guide), heuristically
  * convert the kebab-case slug to PascalCase (e.g. "lee-sin" -> "LeeSin",
  * "kha-zix" -> "KhaZix"). Covers ~99% of cases; the remaining mismatch
- * results in a broken DD URL and the `onError` removes the `<img>`,
+ * results in a broken URL and the `onError` removes the `<img>`,
  * leaving the placeholder visible.
  */
 function fallbackDdId(slug: string): string {
@@ -71,8 +67,8 @@ function fallbackDdId(slug: string): string {
     .join('');
 }
 
-function portraitUrl(ddId: string, patch: string): string {
-  return `${DD_BASE}/${ddVersion(patch)}/img/champion/${ddId}.png`;
+function portraitUrl(ddId: string): string {
+  return `${CDRAGON_BASE}/${ddId.toLowerCase()}/splash-art/centered`;
 }
 
 function relativeTime(iso: string, lang: 'en' | 'it'): string {
@@ -166,12 +162,12 @@ export function GuideCard(props: GuideCardProps): JSX.Element {
       >
         <div class="aspect-[16/9] relative bg-surface-container-low overflow-hidden">
           <img
-            src={portraitUrl(ddId(), props.locale.patch)}
+            src={portraitUrl(ddId())}
             alt={tpl('wp35.hub.card.portrait_alt', {
               champion: props.champion,
             })}
             loading="lazy"
-            class="absolute inset-0 w-full h-full object-cover object-top transition-transform duration-300 group-hover:scale-105"
+            class="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-105"
             onError={(e) => e.currentTarget.remove()}
           />
           {/* Gradient scrim so the role pill + difficulty pips remain legible. */}
