@@ -1301,6 +1301,26 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/caitlyn/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/caitlyn/bot/guide" />
   </url>
+  <!-- champion-guide/fizz/mid: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/fizz/mid/guide</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/fizz/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/fizz/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/fizz/mid/guide" />
+  </url>
+  <!-- champion-guide/fizz/mid: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/fizz/mid/guide</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/fizz/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/fizz/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/fizz/mid/guide" />
+  </url>
   <!-- champion-guide/garen/top: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/garen/top/guide</loc>

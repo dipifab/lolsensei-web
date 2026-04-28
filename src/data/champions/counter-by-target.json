@@ -1,0 +1,691 @@
+{
+  "generated_at": "2026-04-28",
+  "targets": {
+    "akali": [
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "They enter the cast window of Lux's R before she can finish the channel; Zhonya's helps but cannot save you if the dash chain hits before stasis is up.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con multi gap-close",
+        "reason": "Entrano dentro il cast window della R di Lux prima che lei finisca il channel; Zhonya's Hourglass aiuta ma non basta se la catena di dash colpisce prima che la stasi parta.",
+        "via": "counterpick"
+      }
+    ],
+    "anivia": [
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without a dash",
+        "reason": "Fizz's Q dashes through them on instinct and E gives 0.75s untargetability to dodge their main spell. Without an escape dash they cannot answer the all-in once R fish attaches.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "La Q di Fizz li dasha d'istinto e la E gli regala 0.75s di untargettabilità per schivare la spell chiave. Senza un dash di escape non possono rispondere all'all-in una volta che la R fish si attacca.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "Lux's Q is a long-range root: targets with no dash or stealth get bound on a clean line and eat the full E + R combo before they can answer.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "La Q di Lux è un root a lunga gittata: chi non ha dash né stealth viene bindato su una linea pulita e mangia tutto il combo E + R prima di poter rispondere.",
+        "via": "pick_into"
+      }
+    ],
+    "annie": [
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Telegraphed close-range mages",
+        "reason": "Their burst needs them to walk up with a slow tell (Annie stun buffer, Syndra E setup). Fizz E during the cast window makes him untargetable and the combo whiffs.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage close-range con engage telegrafato",
+        "reason": "Il loro burst richiede di camminare avanti con un tell lento (lo stun-buffer di Annie, il setup E di Syndra). Fizz E nella cast window lo rende untargettabile e il combo va a vuoto.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Telegraphed all-in mages",
+        "reason": "Their engage requires close range and a slow tell — Lux can W-shield the burst, Q on the recovery frame, and walk away to reset the trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage da all-in telegrafato",
+        "reason": "Il loro engage richiede corto raggio e un tell lento: Lux scuda il burst con W, Q nel frame di recovery, e passeggia via per resettare il trade.",
+        "via": "pick_into"
+      }
+    ],
+    "fizz": [
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "They enter the cast window of Lux's R before she can finish the channel; Zhonya's helps but cannot save you if the dash chain hits before stasis is up.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con multi gap-close",
+        "reason": "Entrano dentro il cast window della R di Lux prima che lei finisca il channel; Zhonya's Hourglass aiuta ma non basta se la catena di dash colpisce prima che la stasi parta.",
+        "via": "counterpick"
+      }
+    ],
+    "galio": [
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Tanky mid laners with hard engage",
+        "reason": "Their resistances cut Fizz burst in half (Galio W reduces magic damage by ~50%, Malphite passive shield blocks the W proc). Both also have a hard engage at 6 that punishes him committing first.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mid tanky con engage hard",
+        "reason": "Le loro resistenze tagliano il burst a metà (la W di Galio riduce ~50% del danno magico, la passiva-shield di Malphite blocca il proc di W). Entrambi hanno engage forte a 6 che punisce Fizz quando committa per primo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Global / cross-map roamers",
+        "reason": "Lux clears waves and stays in lane; opponent uses ult to flip side lanes and dragons. Lux loses the macro game even when she wins her matchup 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Roamer globali / cross-map",
+        "reason": "Lux pusha la wave e resta in lane; l'avversario usa l'ult per ribaltare le sidelane e i dragoni. Lux perde il macro game anche quando vince il matchup 1v1.",
+        "via": "counterpick"
+      }
+    ],
+    "karthus": [
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without a dash",
+        "reason": "Fizz's Q dashes through them on instinct and E gives 0.75s untargetability to dodge their main spell. Without an escape dash they cannot answer the all-in once R fish attaches.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "La Q di Fizz li dasha d'istinto e la E gli regala 0.75s di untargettabilità per schivare la spell chiave. Senza un dash di escape non possono rispondere all'all-in una volta che la R fish si attacca.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "Lux's Q is a long-range root: targets with no dash or stealth get bound on a clean line and eat the full E + R combo before they can answer.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "La Q di Lux è un root a lunga gittata: chi non ha dash né stealth viene bindato su una linea pulita e mangia tutto il combo E + R prima di poter rispondere.",
+        "via": "pick_into"
+      }
+    ],
+    "lissandra": [
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Point-and-click CC mages",
+        "reason": "Lissandra R is point-and-click stasis (no skillshot to dodge with E), Malzahar R suppresses through E recast. Both also clear waves so Fizz cannot zone them in lane.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage con CC point-and-click",
+        "reason": "La R di Lissandra è stasi point-and-click (niente skillshot da schivare con E), la R di Malzahar suppressa attraverso il recast di E. Entrambe puliscono la wave, quindi Fizz non può zonarle in lane.",
+        "via": "counterpick"
+      }
+    ],
+    "lux": [
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery with no mobility",
+        "reason": "R fish reaches 1300 units: it punishes max-range positioning. Once Fizz commits with Q + E they have no dash to reset distance and the burst window is theirs to absorb.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Artillery a lunga gittata senza mobilità",
+        "reason": "La R fish arriva a 1300 unità: punisce il posizionamento a max range. Una volta che Fizz committa con Q + E loro non hanno un dash per riazzerare la distanza e devono assorbire l'intera burst window.",
+        "via": "pick_into"
+      }
+    ],
+    "malphite": [
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Tanky mid laners with hard engage",
+        "reason": "Their resistances cut Fizz burst in half (Galio W reduces magic damage by ~50%, Malphite passive shield blocks the W proc). Both also have a hard engage at 6 that punishes him committing first.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mid tanky con engage hard",
+        "reason": "Le loro resistenze tagliano il burst a metà (la W di Galio riduce ~50% del danno magico, la passiva-shield di Malphite blocca il proc di W). Entrambi hanno engage forte a 6 che punisce Fizz quando committa per primo.",
+        "via": "counterpick"
+      }
+    ],
+    "malzahar": [
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Point-and-click CC mages",
+        "reason": "Lissandra R is point-and-click stasis (no skillshot to dodge with E), Malzahar R suppresses through E recast. Both also clear waves so Fizz cannot zone them in lane.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage con CC point-and-click",
+        "reason": "La R di Lissandra è stasi point-and-click (niente skillshot da schivare con E), la R di Malzahar suppressa attraverso il recast di E. Entrambe puliscono la wave, quindi Fizz non può zonarle in lane.",
+        "via": "counterpick"
+      }
+    ],
+    "pantheon": [
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Early-game lane bullies",
+        "reason": "They out-trade Fizz at levels 1-3 before he hits the level 6 spike. Pantheon W stun and shielded Q poke punish every step forward; Talon Q range matches Fizz Q with lower mana cost.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Bullies di lane early-game",
+        "reason": "Out-tradano Fizz ai livelli 1-3 prima che arrivi al power spike di livello 6. Lo stun di Pantheon W e la Q scudata pokano ogni passo avanti; la Q di Talon ha la stessa range con costo mana inferiore.",
+        "via": "counterpick"
+      }
+    ],
+    "ryze": [
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Global / cross-map roamers",
+        "reason": "Lux clears waves and stays in lane; opponent uses ult to flip side lanes and dragons. Lux loses the macro game even when she wins her matchup 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Roamer globali / cross-map",
+        "reason": "Lux pusha la wave e resta in lane; l'avversario usa l'ult per ribaltare le sidelane e i dragoni. Lux perde il macro game anche quando vince il matchup 1v1.",
+        "via": "counterpick"
+      }
+    ],
+    "senna": [
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Backline scalers with weak escape",
+        "reason": "Cross-map R turns positioning mistakes into kills. They contribute from far away but cannot dodge a max-range snipe on objective spawns.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Carry da retroguardia con escape debole",
+        "reason": "La R cross-map trasforma errori di posizionamento in kill. Contribuiscono da lontano ma non possono schivare uno snipe a max range sugli obiettivi.",
+        "via": "pick_into"
+      }
+    ],
+    "sylas": [
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Telegraphed all-in mages",
+        "reason": "Their engage requires close range and a slow tell — Lux can W-shield the burst, Q on the recovery frame, and walk away to reset the trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage da all-in telegrafato",
+        "reason": "Il loro engage richiede corto raggio e un tell lento: Lux scuda il burst con W, Q nel frame di recovery, e passeggia via per resettare il trade.",
+        "via": "pick_into"
+      }
+    ],
+    "syndra": [
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Telegraphed close-range mages",
+        "reason": "Their burst needs them to walk up with a slow tell (Annie stun buffer, Syndra E setup). Fizz E during the cast window makes him untargetable and the combo whiffs.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage close-range con engage telegrafato",
+        "reason": "Il loro burst richiede di camminare avanti con un tell lento (lo stun-buffer di Annie, il setup E di Syndra). Fizz E nella cast window lo rende untargettabile e il combo va a vuoto.",
+        "via": "pick_into"
+      }
+    ],
+    "talon": [
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Early-game lane bullies",
+        "reason": "They out-trade Fizz at levels 1-3 before he hits the level 6 spike. Pantheon W stun and shielded Q poke punish every step forward; Talon Q range matches Fizz Q with lower mana cost.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Bullies di lane early-game",
+        "reason": "Out-tradano Fizz ai livelli 1-3 prima che arrivi al power spike di livello 6. Lo stun di Pantheon W e la Q scudata pokano ogni passo avanti; la Q di Talon ha la stessa range con costo mana inferiore.",
+        "via": "counterpick"
+      }
+    ],
+    "twisted-fate": [
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without a dash",
+        "reason": "Fizz's Q dashes through them on instinct and E gives 0.75s untargetability to dodge their main spell. Without an escape dash they cannot answer the all-in once R fish attaches.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "La Q di Fizz li dasha d'istinto e la E gli regala 0.75s di untargettabilità per schivare la spell chiave. Senza un dash di escape non possono rispondere all'all-in una volta che la R fish si attacca.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Global / cross-map roamers",
+        "reason": "Lux clears waves and stays in lane; opponent uses ult to flip side lanes and dragons. Lux loses the macro game even when she wins her matchup 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Roamer globali / cross-map",
+        "reason": "Lux pusha la wave e resta in lane; l'avversario usa l'ult per ribaltare le sidelane e i dragoni. Lux perde il macro game anche quando vince il matchup 1v1.",
+        "via": "counterpick"
+      }
+    ],
+    "veigar": [
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without a dash",
+        "reason": "Fizz's Q dashes through them on instinct and E gives 0.75s untargetability to dodge their main spell. Without an escape dash they cannot answer the all-in once R fish attaches.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "La Q di Fizz li dasha d'istinto e la E gli regala 0.75s di untargettabilità per schivare la spell chiave. Senza un dash di escape non possono rispondere all'all-in una volta che la R fish si attacca.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "Lux's Q is a long-range root: targets with no dash or stealth get bound on a clean line and eat the full E + R combo before they can answer.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "La Q di Lux è un root a lunga gittata: chi non ha dash né stealth viene bindato su una linea pulita e mangia tutto il combo E + R prima di poter rispondere.",
+        "via": "pick_into"
+      }
+    ],
+    "vel-koz": [
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Longer-range artillery mages",
+        "reason": "Out-poke Lux beyond her Q range. She has no way to close the gap, so every wave fight bleeds her HP without the option to all-in back.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Artillery mage a gittata superiore",
+        "reason": "Pokano Lux oltre il range della Q. Lei non ha modo di chiudere la distanza, quindi ogni scambio in lane le costa HP senza opzione di all-in di ritorno.",
+        "via": "counterpick"
+      }
+    ],
+    "viktor": [
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "Lux's Q is a long-range root: targets with no dash or stealth get bound on a clean line and eat the full E + R combo before they can answer.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "La Q di Lux è un root a lunga gittata: chi non ha dash né stealth viene bindato su una linea pulita e mangia tutto il combo E + R prima di poter rispondere.",
+        "via": "pick_into"
+      }
+    ],
+    "xerath": [
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery with no mobility",
+        "reason": "R fish reaches 1300 units: it punishes max-range positioning. Once Fizz commits with Q + E they have no dash to reset distance and the burst window is theirs to absorb.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Artillery a lunga gittata senza mobilità",
+        "reason": "La R fish arriva a 1300 unità: punisce il posizionamento a max range. Una volta che Fizz committa con Q + E loro non hanno un dash per riazzerare la distanza e devono assorbire l'intera burst window.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Longer-range artillery mages",
+        "reason": "Out-poke Lux beyond her Q range. She has no way to close the gap, so every wave fight bleeds her HP without the option to all-in back.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Backline scalers with weak escape",
+        "reason": "Cross-map R turns positioning mistakes into kills. They contribute from far away but cannot dodge a max-range snipe on objective spawns.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Artillery mage a gittata superiore",
+        "reason": "Pokano Lux oltre il range della Q. Lei non ha modo di chiudere la distanza, quindi ogni scambio in lane le costa HP senza opzione di all-in di ritorno.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Carry da retroguardia con escape debole",
+        "reason": "La R cross-map trasforma errori di posizionamento in kill. Contribuiscono da lontano ma non possono schivare uno snipe a max range sugli obiettivi.",
+        "via": "pick_into"
+      }
+    ],
+    "zed": [
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "They enter the cast window of Lux's R before she can finish the channel; Zhonya's helps but cannot save you if the dash chain hits before stasis is up.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con multi gap-close",
+        "reason": "Entrano dentro il cast window della R di Lux prima che lei finisca il channel; Zhonya's Hourglass aiuta ma non basta se la catena di dash colpisce prima che la stasi parta.",
+        "via": "counterpick"
+      }
+    ],
+    "ziggs": [
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery with no mobility",
+        "reason": "R fish reaches 1300 units: it punishes max-range positioning. Once Fizz commits with Q + E they have no dash to reset distance and the burst window is theirs to absorb.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fizz",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Artillery a lunga gittata senza mobilità",
+        "reason": "La R fish arriva a 1300 unità: punisce il posizionamento a max range. Una volta che Fizz committa con Q + E loro non hanno un dash per riazzerare la distanza e devono assorbire l'intera burst window.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Backline scalers with weak escape",
+        "reason": "Cross-map R turns positioning mistakes into kills. They contribute from far away but cannot dodge a max-range snipe on objective spawns.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Carry da retroguardia con escape debole",
+        "reason": "La R cross-map trasforma errori di posizionamento in kill. Contribuiscono da lontano ma non possono schivare uno snipe a max range sugli obiettivi.",
+        "via": "pick_into"
+      }
+    ]
+  }
+}
