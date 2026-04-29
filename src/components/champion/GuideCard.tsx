@@ -52,6 +52,7 @@ const LOCALE_MAP: Record<string, string> = {
 };
 
 const CDRAGON_BASE = 'https://cdn.communitydragon.org/latest/champion';
+const DDRAGON_SPLASH_BASE = 'https://ddragon.leagueoflegends.com/cdn/img/champion/splash';
 
 /**
  * Fallback: if `champion_dd_id` is null (pre-CR-053 guide), heuristically
@@ -69,6 +70,17 @@ function fallbackDdId(slug: string): string {
 
 function portraitUrl(ddId: string): string {
   return `${CDRAGON_BASE}/${ddId.toLowerCase()}/splash-art/centered`;
+}
+
+/**
+ * DDragon splash fallback used when CDragon `latest` returns 502 for some
+ * specific slugs (observed 2026-04-29 on aatrox/ahri/akshan: `latest` alias
+ * is broken for these three slugs but works on others). The DDragon splash
+ * is 1215x717 (≈16:9) but framing is not centered per-character, so we
+ * accept slight offset rather than a blank tile.
+ */
+function ddragonSplashUrl(ddId: string): string {
+  return `${DDRAGON_SPLASH_BASE}/${ddId}_0.jpg`;
 }
 
 function relativeTime(iso: string, lang: 'en' | 'it'): string {
@@ -168,7 +180,15 @@ export function GuideCard(props: GuideCardProps): JSX.Element {
             })}
             loading="lazy"
             class="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-105"
-            onError={(e) => e.currentTarget.remove()}
+            onError={(e) => {
+              const img = e.currentTarget;
+              if (img.dataset.fallback === 'ddragon') {
+                img.remove();
+              } else {
+                img.dataset.fallback = 'ddragon';
+                img.src = ddragonSplashUrl(ddId());
+              }
+            }}
           />
           {/* Gradient scrim so the role pill + difficulty pips remain legible. */}
           <div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-surface-container/40 pointer-events-none" />
