@@ -189,6 +189,28 @@
         "via": "pick_into"
       }
     ],
+    "brand": [
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Mage supports with skillshot poke and no escape",
+        "reason": "Their poke fishes for cooldowns, but a Q-stacked Trample channel into a flash-Q on top of them deletes them: their range advantage doesn't matter once you cross the gap.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Mage support con poke skillshot e nessun escape",
+        "reason": "Il loro poke fa pressione sui cooldown, ma una E con stack pronti più un flash-Q in faccia li cancella: il vantaggio di range non conta nulla una volta che chiudi la distanza.",
+        "via": "pick_into"
+      }
+    ],
     "caitlyn": [
       {
         "publisher": {
@@ -208,6 +230,26 @@
         },
         "archetype": "Carry da retroguardia senza escape",
         "reason": "Spirit Rush dà ad Ahri tre dash che si resettano sui takedown — può tuffarsi oltre la front line, eliminare un carry immobile e dashare via prima che arrivi il peel.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile ADCs with no dash",
+        "reason": "W has 650 range and is point-and-click: ADCs without a dash or blink eat the full combo whenever they step up to last-hit. They can't outrun your engage once you commit.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC immobili senza dash",
+        "reason": "La W ha 650 di range ed è target singolo: gli ADC senza dash o blink mangiano la combo intera ogni volta che si avvicinano per last-hittare. Una volta che parti non possono fuggire.",
         "via": "pick_into"
       }
     ],
@@ -401,6 +443,50 @@
         "via": "counterpick"
       }
     ],
+    "janna": [
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Squishy enchanters with no hard CC of their own",
+        "reason": "They have no tools to stop a flash + W-Q combo. Once you land the knock-up under them, they die before their ADC can peel — Sona and Yuumi especially have no escape.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter squishy senza hard CC propria",
+        "reason": "Non hanno strumenti per fermare la combo flash + W-Q. Una volta che piazzi il knock-up sotto di loro muoiono prima che il loro ADC possa peelare: Sona e Yuumi non hanno escape.",
+        "via": "pick_into"
+      }
+    ],
+    "jhin": [
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile ADCs with no dash",
+        "reason": "W has 650 range and is point-and-click: ADCs without a dash or blink eat the full combo whenever they step up to last-hit. They can't outrun your engage once you commit.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC immobili senza dash",
+        "reason": "La W ha 650 di range ed è target singolo: gli ADC senza dash o blink mangiano la combo intera ogni volta che si avvicinano per last-hittare. Una volta che parti non possono fuggire.",
+        "via": "pick_into"
+      }
+    ],
     "k-sante": [
       {
         "publisher": {
@@ -421,6 +507,28 @@
         "archetype": "Lane early debole che esplodono late",
         "reason": "Aatrox ha una delle migliori curve di laning early; può ucciderli o negar loro l'XP prima che arrivino agli item late-game che li rendono pericolosi.",
         "via": "pick_into"
+      }
+    ],
+    "karma": [
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range pokers with shields or binding",
+        "reason": "They chip your HP for free at 900-plus range while you have no answer. Morgana Black Shield blocks your Q knock-up entirely — you flash in for nothing.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Poker a lungo raggio con shield o binding",
+        "reason": "Ti mangiano l'HP gratis a 900-plus di range mentre tu non hai risposta. La Black Shield di Morgana blocca la Q knock-up: ti flashi addosso a vuoto.",
+        "via": "counterpick"
       }
     ],
     "karthus": [
@@ -549,6 +657,28 @@
         "via": "pick_into"
       }
     ],
+    "leona": [
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Other tank engage supports with longer-range hard CC",
+        "reason": "Their first cast lands before you can dash into Q range: Nautilus Q hook, Leona E dash-stun, Rell W charge all out-range your W. You eat the engage, they don't eat yours.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Altri tank engage support con hard CC più lungo",
+        "reason": "Il loro primo cast atterra prima che tu entri in range di Q: Q hook di Nautilus, E dash-stun di Leona, W charge di Rell — tutte battono la tua W. Tu mangi il loro engage, loro non mangiano il tuo.",
+        "via": "counterpick"
+      }
+    ],
     "lissandra": [
       {
         "publisher": {
@@ -608,6 +738,28 @@
         },
         "archetype": "Mage con CC point-and-click",
         "reason": "La R di Lissandra è stasi point-and-click (niente skillshot da schivare con E), la R di Malzahar suppressa attraverso il recast di E. Entrambe puliscono la wave, quindi Fizz non può zonarle in lane.",
+        "via": "counterpick"
+      }
+    ],
+    "lulu": [
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Disengage enchanters with peel actives",
+        "reason": "Lulu polymorph cancels your W mid-dash, Milio R cleanses your knock-up at range, Renata E pulls the carry out of your combo. Your single engage gets answered for free.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter di disengage con peel attivo",
+        "reason": "Il polymorph di Lulu ti annulla la W in pieno dash, la R di Milio rimuove il knock-up a distanza, la E di Renata strappa via il carry dalla combo. Il tuo unico engage viene risposto a costo zero.",
         "via": "counterpick"
       }
     ],
@@ -779,6 +931,50 @@
         "via": "counterpick"
       }
     ],
+    "milio": [
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Disengage enchanters with peel actives",
+        "reason": "Lulu polymorph cancels your W mid-dash, Milio R cleanses your knock-up at range, Renata E pulls the carry out of your combo. Your single engage gets answered for free.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter di disengage con peel attivo",
+        "reason": "Il polymorph di Lulu ti annulla la W in pieno dash, la R di Milio rimuove il knock-up a distanza, la E di Renata strappa via il carry dalla combo. Il tuo unico engage viene risposto a costo zero.",
+        "via": "counterpick"
+      }
+    ],
+    "morgana": [
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range pokers with shields or binding",
+        "reason": "They chip your HP for free at 900-plus range while you have no answer. Morgana Black Shield blocks your Q knock-up entirely — you flash in for nothing.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Poker a lungo raggio con shield o binding",
+        "reason": "Ti mangiano l'HP gratis a 900-plus di range mentre tu non hai risposta. La Black Shield di Morgana blocca la Q knock-up: ti flashi addosso a vuoto.",
+        "via": "counterpick"
+      }
+    ],
     "nasus": [
       {
         "publisher": {
@@ -799,6 +995,28 @@
         "archetype": "Fighter melee immobili senza tool di engage",
         "reason": "Aatrox vince i trade prima del livello 6 con i Q sul bordo; la W li tiene fermi abbastanza a lungo che non possono accumulare cariche delle loro passive in sicurezza né scappare al suo all-in.",
         "via": "pick_into"
+      }
+    ],
+    "nautilus": [
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Other tank engage supports with longer-range hard CC",
+        "reason": "Their first cast lands before you can dash into Q range: Nautilus Q hook, Leona E dash-stun, Rell W charge all out-range your W. You eat the engage, they don't eat yours.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Altri tank engage support con hard CC più lungo",
+        "reason": "Il loro primo cast atterra prima che tu entri in range di Q: Q hook di Nautilus, E dash-stun di Leona, W charge di Rell — tutte battono la tua W. Tu mangi il loro engage, loro non mangiano il tuo.",
+        "via": "counterpick"
       }
     ],
     "pantheon": [
@@ -842,6 +1060,50 @@
         },
         "archetype": "Kiter a lungo raggio o con invisibilità",
         "reason": "Restano fuori dal range della Q e rompono i wind-up di Aatrox con blind o vault (il dash di Quinn che lo respinge); lui non ha modo di chiudere il gap senza bruciare E e Flash a vuoto.",
+        "via": "counterpick"
+      }
+    ],
+    "rell": [
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Other tank engage supports with longer-range hard CC",
+        "reason": "Their first cast lands before you can dash into Q range: Nautilus Q hook, Leona E dash-stun, Rell W charge all out-range your W. You eat the engage, they don't eat yours.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Altri tank engage support con hard CC più lungo",
+        "reason": "Il loro primo cast atterra prima che tu entri in range di Q: Q hook di Nautilus, E dash-stun di Leona, W charge di Rell — tutte battono la tua W. Tu mangi il loro engage, loro non mangiano il tuo.",
+        "via": "counterpick"
+      }
+    ],
+    "renata": [
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Disengage enchanters with peel actives",
+        "reason": "Lulu polymorph cancels your W mid-dash, Milio R cleanses your knock-up at range, Renata E pulls the carry out of your combo. Your single engage gets answered for free.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter di disengage con peel attivo",
+        "reason": "Il polymorph di Lulu ti annulla la W in pieno dash, la R di Milio rimuove il knock-up a distanza, la E di Renata strappa via il carry dalla combo. Il tuo unico engage viene risposto a costo zero.",
         "via": "counterpick"
       }
     ],
@@ -930,6 +1192,26 @@
       },
       {
         "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile ADCs with no dash",
+        "reason": "W has 650 range and is point-and-click: ADCs without a dash or blink eat the full combo whenever they step up to last-hit. They can't outrun your engage once you commit.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC immobili senza dash",
+        "reason": "La W ha 650 di range ed è target singolo: gli ADC senza dash o blink mangiano la combo intera ogni volta che si avvicinano per last-hittare. Una volta che parti non possono fuggire.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -946,6 +1228,50 @@
         },
         "archetype": "Carry da retroguardia con escape debole",
         "reason": "La R cross-map trasforma errori di posizionamento in kill. Contribuiscono da lontano ma non possono schivare uno snipe a max range sugli obiettivi.",
+        "via": "pick_into"
+      }
+    ],
+    "sona": [
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Squishy enchanters with no hard CC of their own",
+        "reason": "They have no tools to stop a flash + W-Q combo. Once you land the knock-up under them, they die before their ADC can peel — Sona and Yuumi especially have no escape.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter squishy senza hard CC propria",
+        "reason": "Non hanno strumenti per fermare la combo flash + W-Q. Una volta che piazzi il knock-up sotto di loro muoiono prima che il loro ADC possa peelare: Sona e Yuumi non hanno escape.",
+        "via": "pick_into"
+      }
+    ],
+    "soraka": [
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Squishy enchanters with no hard CC of their own",
+        "reason": "They have no tools to stop a flash + W-Q combo. Once you land the knock-up under them, they die before their ADC can peel — Sona and Yuumi especially have no escape.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter squishy senza hard CC propria",
+        "reason": "Non hanno strumenti per fermare la combo flash + W-Q. Una volta che piazzi il knock-up sotto di loro muoiono prima che il loro ADC possa peelare: Sona e Yuumi non hanno escape.",
         "via": "pick_into"
       }
     ],
@@ -1204,6 +1530,26 @@
       },
       {
         "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Mage supports with skillshot poke and no escape",
+        "reason": "Their poke fishes for cooldowns, but a Q-stacked Trample channel into a flash-Q on top of them deletes them: their range advantage doesn't matter once you cross the gap.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Mage support con poke skillshot e nessun escape",
+        "reason": "Il loro poke fa pressione sui cooldown, ma una E con stack pronti più un flash-Q in faccia li cancella: il vantaggio di range non conta nulla una volta che chiudi la distanza.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -1327,6 +1673,26 @@
         "archetype": "Mage artillery immobili senza dash",
         "reason": "Stanno fermi a scalare o a pokare; la E di Akshan attorno alla parete di mid chiude la distanza e incatena Q + 3-hit della passiva + R di execute prima che finiscano un cast.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range pokers with shields or binding",
+        "reason": "They chip your HP for free at 900-plus range while you have no answer. Morgana Black Shield blocks your Q knock-up entirely — you flash in for nothing.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Poker a lungo raggio con shield o binding",
+        "reason": "Ti mangiano l'HP gratis a 900-plus di range mentre tu non hai risposta. La Black Shield di Morgana blocca la Q knock-up: ti flashi addosso a vuoto.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -1495,6 +1861,28 @@
         "via": "pick_into"
       }
     ],
+    "yuumi": [
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Squishy enchanters with no hard CC of their own",
+        "reason": "They have no tools to stop a flash + W-Q combo. Once you land the knock-up under them, they die before their ADC can peel — Sona and Yuumi especially have no escape.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter squishy senza hard CC propria",
+        "reason": "Non hanno strumenti per fermare la combo flash + W-Q. Una volta che piazzi il knock-up sotto di loro muoiono prima che il loro ADC possa peelare: Sona e Yuumi non hanno escape.",
+        "via": "pick_into"
+      }
+    ],
     "zed": [
       {
         "publisher": {
@@ -1596,6 +1984,28 @@
         },
         "archetype": "Carry da retroguardia con escape debole",
         "reason": "La R cross-map trasforma errori di posizionamento in kill. Contribuiscono da lontano ma non possono schivare uno snipe a max range sugli obiettivi.",
+        "via": "pick_into"
+      }
+    ],
+    "zyra": [
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Mage supports with skillshot poke and no escape",
+        "reason": "Their poke fishes for cooldowns, but a Q-stacked Trample channel into a flash-Q on top of them deletes them: their range advantage doesn't matter once you cross the gap.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "alistar",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Mage support con poke skillshot e nessun escape",
+        "reason": "Il loro poke fa pressione sui cooldown, ma una E con stack pronti più un flash-Q in faccia li cancella: il vantaggio di range non conta nulla una volta che chiudi la distanza.",
         "via": "pick_into"
       }
     ]

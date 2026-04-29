@@ -1018,6 +1018,282 @@ export const itChampions: ChampionGuide[] = [
     "champion_key": "166"
   },
   {
+    "slug": "alistar-support",
+    "title": "Alistar Support — Build e Guida — Patch 16.9",
+    "language": "it",
+    "patch": "16.9",
+    "champion": "alistar",
+    "role": "support",
+    "last_updated": "2026-04-29",
+    "description": "Guida ad Alistar support per League of Legends Patch 16.9: starter kit, build tank-engage, matchup chiave, power spike, errori comuni e una tip finale.",
+    "quick_learn": {
+      "champion_dd_id": "Alistar",
+      "difficulty": 3,
+      "damage_type": "magic",
+      "champion_class": "Tank / Vanguard",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Triumphant Roar",
+          "description": "Alistar carica il ruggito quando stuna o sposta un campione nemico, oppure quando muoiono nemici vicini (minion, mostri della jungle o campioni nemici). A carica piena il prossimo ruggito cura lui e gli alleati vicini.",
+          "dd_spell_id": "Alistar_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Pulverize",
+          "description": "Frantuma il terreno intorno ad Alistar e knock-up i nemici vicini per 1 secondo. Range corto: devi essere già addosso al bersaglio.",
+          "dd_spell_id": "Pulverize"
+        },
+        {
+          "key": "W",
+          "name": "Headbutt",
+          "description": "Alistar fa un dash su un nemico, gli infligge danno e lo respinge in linea retta. Tool di engage chiave: incatena la Q subito dopo per la combo W-Q (lo respingi verso la tua squadra, poi lo knock-uppi).",
+          "dd_spell_id": "Headbutt"
+        },
+        {
+          "key": "E",
+          "name": "Trample",
+          "description": "Calpesta il terreno intorno a sé per 5 secondi infliggendo danno e ignorando la collisione dei minion. Ogni pulse che colpisce un campione aggiunge uno stack: a 5 stack la prossima auto-attack su un campione lo stuna e infligge danno bonus.",
+          "dd_spell_id": "AlistarE"
+        },
+        {
+          "key": "R",
+          "name": "Unbreakable Will",
+          "description": "Cancella istantaneamente tutto il crowd control su Alistar e gli dà forte damage reduction (fisica + magica) per la durata. Va usata prima di engagiare in una squadra con tanto CC, non quando il fight è già finito.",
+          "dd_spell_id": "FerociousHowl"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "W"
+        },
+        {
+          "level": 3,
+          "key": "E"
+        },
+        {
+          "level": 4,
+          "key": "E"
+        },
+        {
+          "level": 5,
+          "key": "E"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "E"
+        },
+        {
+          "level": 8,
+          "key": "W"
+        },
+        {
+          "level": 9,
+          "key": "E"
+        },
+        {
+          "level": 10,
+          "key": "W"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "W"
+        },
+        {
+          "level": 13,
+          "key": "W"
+        },
+        {
+          "level": 14,
+          "key": "Q"
+        },
+        {
+          "level": 15,
+          "key": "Q"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "Q"
+        },
+        {
+          "level": 18,
+          "key": "Q"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "3865",
+          "name": "World Atlas"
+        },
+        {
+          "dd_id": "3117",
+          "name": "Mobility Boots"
+        },
+        {
+          "dd_id": "3190",
+          "name": "Locket of the Iron Solari"
+        },
+        {
+          "dd_id": "3109",
+          "name": "Knight's Vow"
+        },
+        {
+          "dd_id": "3877",
+          "name": "Bloodsong"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3111",
+          "name": "Mercury's Treads",
+          "against": "contro tanto danno magico o catene di crowd control (Leona, R di Ashe, R di Maokai): swappa dalle Mobility Boots prima del fight"
+        },
+        {
+          "dd_id": "3047",
+          "name": "Plated Steelcaps",
+          "against": "contro bot lane da auto-attack pesante (Caitlyn, Draven, Tristana): swappa quando l'harass in lane fa più male del CC late"
+        },
+        {
+          "dd_id": "3110",
+          "name": "Frozen Heart",
+          "against": "contro carry che stackano attack speed (Tristana, Kog'Maw, Master Yi): rallenta la loro velocità di auto-attack in un'aura ampia"
+        },
+        {
+          "dd_id": "3211",
+          "name": "Kaenic Rookern",
+          "against": "contro comp di burst AP (es. doppio mago tipo Syndra mid + Brand support): scudo magico passivo che si rigenera fuori combat"
+        },
+        {
+          "dd_id": "4643",
+          "name": "Vigilant Wardstone",
+          "against": "late game (dopo il minuto 25) quando i sei slot sono pieni e vuoi più ward più un piccolo boost di stat"
+        }
+      ],
+      "base_combo": [
+        "W",
+        "Q",
+        "AA",
+        "E"
+      ],
+      "win_condition": "Piazzare la combo W-Q (Headbutt indietro + Pulverize knock-up) su un carry squishy per aprire un fight che il team converte. Premi R prima di engagiare se hanno hard CC, così le catene di CC rimbalzano su di te.",
+      "weakness": "Range di engage corto: devi essere addosso al bersaglio per piazzare la Q. Mana fragile nei primi livelli e zero poke a distanza; se la bot lane nemica gioca passiva, perdi la lane e devi roamare per restare rilevante."
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "soraka",
+            "sona",
+            "yuumi",
+            "janna"
+          ],
+          "archetype": "Enchanter squishy senza hard CC propria",
+          "reason": "Non hanno strumenti per fermare la combo flash + W-Q. Una volta che piazzi il knock-up sotto di loro muoiono prima che il loro ADC possa peelare: Sona e Yuumi non hanno escape."
+        },
+        {
+          "examples": [
+            "caitlyn",
+            "jhin",
+            "senna"
+          ],
+          "archetype": "ADC immobili senza dash",
+          "reason": "La W ha 650 di range ed è target singolo: gli ADC senza dash o blink mangiano la combo intera ogni volta che si avvicinano per last-hittare. Una volta che parti non possono fuggire."
+        },
+        {
+          "examples": [
+            "zyra",
+            "brand",
+            "vel-koz"
+          ],
+          "archetype": "Mage support con poke skillshot e nessun escape",
+          "reason": "Il loro poke fa pressione sui cooldown, ma una E con stack pronti più un flash-Q in faccia li cancella: il vantaggio di range non conta nulla una volta che chiudi la distanza."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "lulu",
+            "milio",
+            "renata"
+          ],
+          "archetype": "Enchanter di disengage con peel attivo",
+          "reason": "Il polymorph di Lulu ti annulla la W in pieno dash, la R di Milio rimuove il knock-up a distanza, la E di Renata strappa via il carry dalla combo. Il tuo unico engage viene risposto a costo zero."
+        },
+        {
+          "examples": [
+            "xerath",
+            "karma",
+            "morgana"
+          ],
+          "archetype": "Poker a lungo raggio con shield o binding",
+          "reason": "Ti mangiano l'HP gratis a 900-plus di range mentre tu non hai risposta. La Black Shield di Morgana blocca la Q knock-up: ti flashi addosso a vuoto."
+        },
+        {
+          "examples": [
+            "nautilus",
+            "leona",
+            "rell"
+          ],
+          "archetype": "Altri tank engage support con hard CC più lungo",
+          "reason": "Il loro primo cast atterra prima che tu entri in range di Q: Q hook di Nautilus, E dash-stun di Leona, W charge di Rell — tutte battono la tua W. Tu mangi il loro engage, loro non mangiano il tuo."
+        }
+      ]
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Alistar è un <strong>vanguard support</strong> (un support di classe tank il cui lavoro è aprire i fight, non curare gli alleati): engagia saltando addosso al carry nemico e tenendolo bloccato con il crowd control. Il suo kit è costruito intorno a una combo iconica: la <strong>Headbutt (W)</strong> è un dash che respinge il bersaglio in linea retta, e ricastando subito <strong>Pulverize (Q)</strong> sotto i tuoi piedi lo knock-uppi. La sequenza completa (W in Q) sposta il nemico <strong>dentro la tua squadra</strong> e lo sospende in aria per un secondo intero, abbastanza perché il tuo ADC ci cammini sopra e scarichi danno gratis. <strong>Trample (E)</strong> ti dà movimento <strong>ghosted</strong> breve (passi attraverso minion e altre unità senza collidere) e una <strong>proc</strong> di stun (un effetto a stack che si attiva quando raggiungi una soglia) sulla prossima auto-attack a 5 stack. <strong>Unbreakable Will (R)</strong> rimuove qualsiasi crowd control su di te e dà forte damage reduction: è quello che permette a un Alistar a 1 HP di camminare attraverso un root di Morgana e finire comunque il kill.</p>\n<p>Game plan: in lane, <strong>bait</strong> stando un po' avanti; nel momento in cui l'ADC nemico si fa avanti per last-hittare, Headbutt-lo verso il tuo team, knock-up con Q, cammina addosso con Trample stackato e il tuo ADC converte. Mid-game, <strong>roam</strong> (lascia la bot lane per aiutare mid o jungle) su <strong>Mobility Boots</strong>: Alistar è uno dei roamer più veloci del gioco grazie al movimento ghosted di E. Late-game, sta in front line, ti mangi il CC nemico con R, e fai engage sul carry la cui morte chiude il fight.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> (lo starter unificato per i support) più 2 Health Potion. Non last-hittare i minion in lane: lascia il gold al tuo ADC, World Atlas paga il tuo gold a parte tramite la sua quest.</p>\n<p><strong>Core items (in ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> — starter. Si evolve automaticamente man mano che accumuli progresso della quest passando per <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3866.png\" alt=\"Runic Compass\"> <strong>Runic Compass</strong> e <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3867.png\" alt=\"Bounty of Worlds\"> <strong>Bounty of Worlds</strong>, fino all'upgrade endgame che scegli.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3117.png\" alt=\"Mobility Boots\"> <strong>Mobility Boots</strong> — velocità di movimento fuori combat. Ti permettono di roamare aggressivamente al mid-river e di wardare in profondità nella jungle nemica senza perdere il ritmo della lane. Swap a boots difensivi prima del primo grosso teamfight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> <strong>Locket of the Iron Solari</strong> — active che scuda tutti gli alleati vicini per pochi secondi. Premilo nel momento esatto in cui parti con l'engage, così il tuo team assorbe il primo <strong>burst</strong> (il danno alto concentrato nei primi 1-2 secondi del fight) della squadra nemica.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3109.png\" alt=\"Knight&#x27;s Vow\"> <strong>Knight's Vow</strong> — ti lega all'<strong>ADC</strong> (Attack Damage Carry: il compagno di bot lane che fa danno con le auto-attack, il principale damage dealer late-game della tua squadra): una parte del danno che lui prende viene redirezionata su di te, e in cambio lo curi. Bondi sempre il carry la cui vita ti serve di più.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png\" alt=\"Bloodsong\"> <strong>Bloodsong</strong> — l'upgrade endgame engage-focused del tuo support item (World Atlas si trasforma automaticamente in uno di questi una volta finita la quest). Aggiunge danno bonus alla tua prossima auto-attack subito dopo che applichi <strong>crowd control</strong> (qualsiasi stun, slow, root o knockback): perfetto dopo una Q knock-up, un re-engage post-R, o una proc di stun di Trample.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — boots con magic resist e tenacia (riduzione della durata del crowd control su di te). Pickale contro squadre con tanto danno magico o catene di CC (engage di Leona, freccia R di Ashe). Swap dalle Mobility Boots prima del fight, non dopo.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> — boots con armor e riduzione del danno da auto-attack. Pickale contro bot lane nemiche da auto-attack pesante (Caitlyn, Draven, Tristana) quando l'harass in lane fa più male del CC nei teamfight late.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3110.png\" alt=\"Frozen Heart\"> <strong>Frozen Heart</strong> — rallenta la velocità di auto-attack dei nemici vicini in un'aura ampia. Pickalo contro carry che stackano attack speed (Tristana, Kog'Maw, Master Yi) dove il tuo lavoro diventa <strong>peelare</strong> (proteggere il tuo carry dai nemici che provano a ucciderlo) invece di engagiare.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3211.png\" alt=\"Kaenic Rookern\"> <strong>Kaenic Rookern</strong> — scudo magico passivo che si rigenera mentre sei fuori combat. Pickalo contro comp da burst AP (un setup tipo Syndra mid + Brand support): lo scudo si mangia un'ulti intera e ti permette di sopravvivere all'engage che hai aperto.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4643.png\" alt=\"Vigilant Wardstone\"> <strong>Vigilant Wardstone</strong> — slot del sesto item late-game (dopo il minuto 25). Più ward sulla mappa, range delle ward più lungo, piccolo boost di stat.</li>\n</ul>\n<p><strong>Boots:</strong> Default <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3117.png\" alt=\"Mobility Boots\"> <strong>Mobility Boots</strong> per roamare aggressivo in lane phase. Swap a uno dei boots difensivi sopra <strong>prima del primo grosso teamfight</strong> (intorno al minuto 18-22), perché le Mobility Boots perdono il bonus di velocità out-of-combat nel momento in cui inizia il combat.</p>\n<p><strong>Skill order:</strong> Maxa <strong>E</strong> (Trample) per primo: è il tuo danno in lane più la proc di stun che ti dà un secondo crowd control dopo la Q. Maxa <strong>W</strong> secondo: cooldown più basso significa più finestre di engage. Maxa <strong>Q</strong> per ultima (è soprattutto un finisher; il rank-up cambia poco il knock-up, solo il danno). Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Resolve</strong> (l'albero rune difensivo, durability) con <strong>Aftershock</strong> (armor e magic resist gratis per pochi secondi quando applichi crowd control: scatta su ogni Q knock-up), <strong>Font of Life</strong> (il tuo CC marchia il bersaglio; gli alleati che lo attaccano si curano un po'), <strong>Conditioning</strong> contro lane che vincono late o <strong>Bone Plating</strong> contro lane che provano a bruciarti l'HP presto, e <strong>Unflinching</strong> (extra <strong>tenacity</strong>, la stat che accorcia il crowd control su di te, quando usi una summoner spell). Secondary <strong>Inspiration</strong> (albero utility) con <strong>Hextech Flashtraption</strong> (un Flash backup a corto raggio su cooldown lungo: oro per combo W-Q a sorpresa) e <strong>Cosmic Insight</strong> (cooldown ridotti su summoner spell e item active). <strong>Stat shard</strong> (i tre piccoli boost di stat in fondo alla pagina rune): Adaptive Force / Adaptive Force / Health (Adaptive Force = bonus AD o AP in base a cosa il tuo kit usa).</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Leona:</strong> Specchio di <strong>engage</strong> (entrambi volete aprire il fight). Lei ha CC più lungo del tuo (dash-stun Zenith Blade, R Solar Flare), quindi non provare a engagiare per primo mentre lei ha cooldown su. Aspetta che lanci la E, poi si apre la tua finestra di 10 secondi: flash-Q sul suo ADC mentre lei è senza follow-up.</li>\n<li><strong>Pyke:</strong> Skill matchup, niente edge chiaro sulla carta, decide chi gioca meglio. Ti out-poka con Q e ti out-roama in <strong>stealth</strong> (diventa invisibile mentre attraversa le brush). Tieni vision profonda nel river e forzalo a fightare in lane dove la R non gli resetta il kill.</li>\n<li><strong>Lulu:</strong> Hard counter per il tuo <strong>all-in</strong> (commit totale alla kill). Il polymorph ti annulla la W in pieno dash. Non engagiare quando ha il polymorph su; tracciane il cooldown e forza fight solo nella finestra di 13 secondi in cui è giù.</li>\n<li><strong>Soraka:</strong> Pura <strong>enchanter da sustain</strong> (un support healing-focused che vince tenendo l'ADC vivo, non aprendo i fight) senza tool di engage suo. Le puoi flash-Q in faccia ogni volta che il suo Flash è giù: muore nella tua combo prima che il suo ADC reagisca.</li>\n<li><strong>Senna:</strong> Matchup di <strong>poke</strong> lungo (danno chip a distanza per consumarti l'HP). Ti bullizza l'HP sotto torre. Non rispondere, accetta la lane brutta, e roama mid o invade su Mobility Boots: la lane di Alistar perde, ma il suo macro game vince.</li>\n</ul>\n<h2>Power spike e win condition</h2>\n<ul>\n<li><strong>Livello 2 (Q + W):</strong> Primo spike. La combo W-Q completa si sblocca nel momento in cui hai entrambe le abilità. Un ADC nemico che over-extende (si è spinto troppo avanti rispetto al primo <strong>wave</strong>, la riga di minion in arrivo) è una kill gratis se ingaggi con <strong>Flash</strong> ancora su.</li>\n<li><strong>Livello 6 (R sblocca):</strong> Il potenziale di engage esplode. <strong>Unbreakable Will</strong> ti trasforma da <strong>diver</strong> one-shot (un campione che salta dentro la backline nemica e muore subito dopo) a tank che cammina attraverso hard CC e ri-apre il fight. Puoi flash-Q a una Morgana, mangiarti il root, R per cancellarlo, e Q ancora sul suo ADC.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> Locket of the Iron Solari completion (~ minuto 14-16):</strong> Primo item da teamfight pronto. Il tuo engage ora porta uno shield gratis al team. Raggruppati con la squadra per il <strong>Drake</strong> (l'obiettivo dragone nel river bot: ucciderlo dà alla tua squadra buff stat permanenti) o per i <strong>Voidgrubs</strong> (piccoli mostri nel river top: la squadra che li uccide guadagna danno bonus alle strutture nemiche).</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png\" alt=\"Bloodsong\"> Bloodsong endgame (~ minuto 24-30):</strong> La tua auto-attack post-CC inizia a fare danno vero. Ora W → Q → AA non è più solo setup per il tuo ADC: può togliere il 25-30% di HP da un <strong>squishy</strong> (un campione a bassa difesa, tipo un ADC o un mago) da solo.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>W-Q nella direzione sbagliata.</strong> Headbutt respinge il bersaglio lontano da te, sulla linea su cui sei in piedi. Se Wi da sotto, lo sbatti su per la lane (lontano dal tuo team). W sempre dal <strong>flank</strong> (l'angolo laterale) così il tuo knockback spinge il carry dentro al danno della tua squadra, non dentro alla loro.</li>\n<li><strong>Engagiare senza follow-up.</strong> Alistar senza il suo ADC e il suo team dietro è un tank senza danno. Se l'ADC è in base o il jungler è dall'altra parte della mappa, tieni la W. Un engage solo a 4v5 è solo regalare il cooldown della tua R alla squadra avversaria.</li>\n<li><strong>Bruciare R in modo proattivo per scappare.</strong> <strong>Unbreakable Will</strong> è un tool offensivo, non un bottone di escape: dà damage reduction e cleanse del CC, ma niente movement speed. Usarla per fuggire senza il team intorno ritarda solo la morte di 5 secondi. Conserva R per l'engage che stai per committare, non per il disengage che non ti sarebbe servito.</li>\n<li><strong>Stackare Trample sui minion.</strong> La E stacka <strong>solo</strong> sui colpi a campioni nemici, non sui minion. Stare su un wave vuoto aspettando che la proc di stun arrivi non fa nulla. La proc conta solo quando puoi incatenarla nel danno della tua squadra.</li>\n<li><strong>Non usare la passiva durante il fight.</strong> <strong>Triumphant Roar</strong> carica dal CC che applichi (Q, R, proc di E) e dalle morti di nemici vicini: minion, mostri della jungle, o campioni nemici. In un teamfight dove minion e jungle creep muoiono intorno a te, puoi stackare il heal più volte. Tappa il bottone della passiva tra un'azione e l'altra: 50-100 HP gratis su di te e sul tuo ADC vicino fanno girare il fight.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Il <strong>flash-W-Q one-shot</strong>. Flash in avanti e cast subito <strong>W</strong> sul bersaglio prioritario nello stesso frame: il dash parte dalla tua nuova posizione flashata, non da dove il nemico si aspettava la tua hitbox. Poi accoda <strong>Q</strong> mentre sei ancora nell'animazione del dash di W: la Pulverize parte nell'istante esatto in cui finisce il knockback di W, con zero gap tra i due crowd control. Fatto bene, il bersaglio non vede nulla a schermo se non un secondo intero di knock-up e muore prima di reagire. La drill è muscle memory (il riflesso automatico delle dita): bindala in modo che Flash + W + Q stiano sotto la stessa mano, e fai pratica del ritmo nel <strong>Practice Tool</strong> finché non riesci a far partire tutti e tre dentro mezzo secondo. È la meccanica che trasforma Alistar da \"tank che aiuta\" a \"tank che chiude i fight\".</p>",
+    "content_html_pre": "<h2>Overview</h2>\n<p>Alistar è un <strong>vanguard support</strong> (un support di classe tank il cui lavoro è aprire i fight, non curare gli alleati): engagia saltando addosso al carry nemico e tenendolo bloccato con il crowd control. Il suo kit è costruito intorno a una combo iconica: la <strong>Headbutt (W)</strong> è un dash che respinge il bersaglio in linea retta, e ricastando subito <strong>Pulverize (Q)</strong> sotto i tuoi piedi lo knock-uppi. La sequenza completa (W in Q) sposta il nemico <strong>dentro la tua squadra</strong> e lo sospende in aria per un secondo intero, abbastanza perché il tuo ADC ci cammini sopra e scarichi danno gratis. <strong>Trample (E)</strong> ti dà movimento <strong>ghosted</strong> breve (passi attraverso minion e altre unità senza collidere) e una <strong>proc</strong> di stun (un effetto a stack che si attiva quando raggiungi una soglia) sulla prossima auto-attack a 5 stack. <strong>Unbreakable Will (R)</strong> rimuove qualsiasi crowd control su di te e dà forte damage reduction: è quello che permette a un Alistar a 1 HP di camminare attraverso un root di Morgana e finire comunque il kill.</p>\n<p>Game plan: in lane, <strong>bait</strong> stando un po' avanti; nel momento in cui l'ADC nemico si fa avanti per last-hittare, Headbutt-lo verso il tuo team, knock-up con Q, cammina addosso con Trample stackato e il tuo ADC converte. Mid-game, <strong>roam</strong> (lascia la bot lane per aiutare mid o jungle) su <strong>Mobility Boots</strong>: Alistar è uno dei roamer più veloci del gioco grazie al movimento ghosted di E. Late-game, sta in front line, ti mangi il CC nemico con R, e fai engage sul carry la cui morte chiude il fight.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> (lo starter unificato per i support) più 2 Health Potion. Non last-hittare i minion in lane: lascia il gold al tuo ADC, World Atlas paga il tuo gold a parte tramite la sua quest.</p>\n<p><strong>Core items (in ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> — starter. Si evolve automaticamente man mano che accumuli progresso della quest passando per <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3866.png\" alt=\"Runic Compass\"> <strong>Runic Compass</strong> e <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3867.png\" alt=\"Bounty of Worlds\"> <strong>Bounty of Worlds</strong>, fino all'upgrade endgame che scegli.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3117.png\" alt=\"Mobility Boots\"> <strong>Mobility Boots</strong> — velocità di movimento fuori combat. Ti permettono di roamare aggressivamente al mid-river e di wardare in profondità nella jungle nemica senza perdere il ritmo della lane. Swap a boots difensivi prima del primo grosso teamfight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> <strong>Locket of the Iron Solari</strong> — active che scuda tutti gli alleati vicini per pochi secondi. Premilo nel momento esatto in cui parti con l'engage, così il tuo team assorbe il primo <strong>burst</strong> (il danno alto concentrato nei primi 1-2 secondi del fight) della squadra nemica.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3109.png\" alt=\"Knight&#x27;s Vow\"> <strong>Knight's Vow</strong> — ti lega all'<strong>ADC</strong> (Attack Damage Carry: il compagno di bot lane che fa danno con le auto-attack, il principale damage dealer late-game della tua squadra): una parte del danno che lui prende viene redirezionata su di te, e in cambio lo curi. Bondi sempre il carry la cui vita ti serve di più.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png\" alt=\"Bloodsong\"> <strong>Bloodsong</strong> — l'upgrade endgame engage-focused del tuo support item (World Atlas si trasforma automaticamente in uno di questi una volta finita la quest). Aggiunge danno bonus alla tua prossima auto-attack subito dopo che applichi <strong>crowd control</strong> (qualsiasi stun, slow, root o knockback): perfetto dopo una Q knock-up, un re-engage post-R, o una proc di stun di Trample.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — boots con magic resist e tenacia (riduzione della durata del crowd control su di te). Pickale contro squadre con tanto danno magico o catene di CC (engage di Leona, freccia R di Ashe). Swap dalle Mobility Boots prima del fight, non dopo.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> — boots con armor e riduzione del danno da auto-attack. Pickale contro bot lane nemiche da auto-attack pesante (Caitlyn, Draven, Tristana) quando l'harass in lane fa più male del CC nei teamfight late.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3110.png\" alt=\"Frozen Heart\"> <strong>Frozen Heart</strong> — rallenta la velocità di auto-attack dei nemici vicini in un'aura ampia. Pickalo contro carry che stackano attack speed (Tristana, Kog'Maw, Master Yi) dove il tuo lavoro diventa <strong>peelare</strong> (proteggere il tuo carry dai nemici che provano a ucciderlo) invece di engagiare.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3211.png\" alt=\"Kaenic Rookern\"> <strong>Kaenic Rookern</strong> — scudo magico passivo che si rigenera mentre sei fuori combat. Pickalo contro comp da burst AP (un setup tipo Syndra mid + Brand support): lo scudo si mangia un'ulti intera e ti permette di sopravvivere all'engage che hai aperto.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4643.png\" alt=\"Vigilant Wardstone\"> <strong>Vigilant Wardstone</strong> — slot del sesto item late-game (dopo il minuto 25). Più ward sulla mappa, range delle ward più lungo, piccolo boost di stat.</li>\n</ul>\n<p><strong>Boots:</strong> Default <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3117.png\" alt=\"Mobility Boots\"> <strong>Mobility Boots</strong> per roamare aggressivo in lane phase. Swap a uno dei boots difensivi sopra <strong>prima del primo grosso teamfight</strong> (intorno al minuto 18-22), perché le Mobility Boots perdono il bonus di velocità out-of-combat nel momento in cui inizia il combat.</p>\n<p><strong>Skill order:</strong> Maxa <strong>E</strong> (Trample) per primo: è il tuo danno in lane più la proc di stun che ti dà un secondo crowd control dopo la Q. Maxa <strong>W</strong> secondo: cooldown più basso significa più finestre di engage. Maxa <strong>Q</strong> per ultima (è soprattutto un finisher; il rank-up cambia poco il knock-up, solo il danno). Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Resolve</strong> (l'albero rune difensivo, durability) con <strong>Aftershock</strong> (armor e magic resist gratis per pochi secondi quando applichi crowd control: scatta su ogni Q knock-up), <strong>Font of Life</strong> (il tuo CC marchia il bersaglio; gli alleati che lo attaccano si curano un po'), <strong>Conditioning</strong> contro lane che vincono late o <strong>Bone Plating</strong> contro lane che provano a bruciarti l'HP presto, e <strong>Unflinching</strong> (extra <strong>tenacity</strong>, la stat che accorcia il crowd control su di te, quando usi una summoner spell). Secondary <strong>Inspiration</strong> (albero utility) con <strong>Hextech Flashtraption</strong> (un Flash backup a corto raggio su cooldown lungo: oro per combo W-Q a sorpresa) e <strong>Cosmic Insight</strong> (cooldown ridotti su summoner spell e item active). <strong>Stat shard</strong> (i tre piccoli boost di stat in fondo alla pagina rune): Adaptive Force / Adaptive Force / Health (Adaptive Force = bonus AD o AP in base a cosa il tuo kit usa).</p>",
+    "content_html_post": "<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Leona:</strong> Specchio di <strong>engage</strong> (entrambi volete aprire il fight). Lei ha CC più lungo del tuo (dash-stun Zenith Blade, R Solar Flare), quindi non provare a engagiare per primo mentre lei ha cooldown su. Aspetta che lanci la E, poi si apre la tua finestra di 10 secondi: flash-Q sul suo ADC mentre lei è senza follow-up.</li>\n<li><strong>Pyke:</strong> Skill matchup, niente edge chiaro sulla carta, decide chi gioca meglio. Ti out-poka con Q e ti out-roama in <strong>stealth</strong> (diventa invisibile mentre attraversa le brush). Tieni vision profonda nel river e forzalo a fightare in lane dove la R non gli resetta il kill.</li>\n<li><strong>Lulu:</strong> Hard counter per il tuo <strong>all-in</strong> (commit totale alla kill). Il polymorph ti annulla la W in pieno dash. Non engagiare quando ha il polymorph su; tracciane il cooldown e forza fight solo nella finestra di 13 secondi in cui è giù.</li>\n<li><strong>Soraka:</strong> Pura <strong>enchanter da sustain</strong> (un support healing-focused che vince tenendo l'ADC vivo, non aprendo i fight) senza tool di engage suo. Le puoi flash-Q in faccia ogni volta che il suo Flash è giù: muore nella tua combo prima che il suo ADC reagisca.</li>\n<li><strong>Senna:</strong> Matchup di <strong>poke</strong> lungo (danno chip a distanza per consumarti l'HP). Ti bullizza l'HP sotto torre. Non rispondere, accetta la lane brutta, e roama mid o invade su Mobility Boots: la lane di Alistar perde, ma il suo macro game vince.</li>\n</ul>\n<h2>Power spike e win condition</h2>\n<ul>\n<li><strong>Livello 2 (Q + W):</strong> Primo spike. La combo W-Q completa si sblocca nel momento in cui hai entrambe le abilità. Un ADC nemico che over-extende (si è spinto troppo avanti rispetto al primo <strong>wave</strong>, la riga di minion in arrivo) è una kill gratis se ingaggi con <strong>Flash</strong> ancora su.</li>\n<li><strong>Livello 6 (R sblocca):</strong> Il potenziale di engage esplode. <strong>Unbreakable Will</strong> ti trasforma da <strong>diver</strong> one-shot (un campione che salta dentro la backline nemica e muore subito dopo) a tank che cammina attraverso hard CC e ri-apre il fight. Puoi flash-Q a una Morgana, mangiarti il root, R per cancellarlo, e Q ancora sul suo ADC.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> Locket of the Iron Solari completion (~ minuto 14-16):</strong> Primo item da teamfight pronto. Il tuo engage ora porta uno shield gratis al team. Raggruppati con la squadra per il <strong>Drake</strong> (l'obiettivo dragone nel river bot: ucciderlo dà alla tua squadra buff stat permanenti) o per i <strong>Voidgrubs</strong> (piccoli mostri nel river top: la squadra che li uccide guadagna danno bonus alle strutture nemiche).</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png\" alt=\"Bloodsong\"> Bloodsong endgame (~ minuto 24-30):</strong> La tua auto-attack post-CC inizia a fare danno vero. Ora W → Q → AA non è più solo setup per il tuo ADC: può togliere il 25-30% di HP da un <strong>squishy</strong> (un campione a bassa difesa, tipo un ADC o un mago) da solo.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>W-Q nella direzione sbagliata.</strong> Headbutt respinge il bersaglio lontano da te, sulla linea su cui sei in piedi. Se Wi da sotto, lo sbatti su per la lane (lontano dal tuo team). W sempre dal <strong>flank</strong> (l'angolo laterale) così il tuo knockback spinge il carry dentro al danno della tua squadra, non dentro alla loro.</li>\n<li><strong>Engagiare senza follow-up.</strong> Alistar senza il suo ADC e il suo team dietro è un tank senza danno. Se l'ADC è in base o il jungler è dall'altra parte della mappa, tieni la W. Un engage solo a 4v5 è solo regalare il cooldown della tua R alla squadra avversaria.</li>\n<li><strong>Bruciare R in modo proattivo per scappare.</strong> <strong>Unbreakable Will</strong> è un tool offensivo, non un bottone di escape: dà damage reduction e cleanse del CC, ma niente movement speed. Usarla per fuggire senza il team intorno ritarda solo la morte di 5 secondi. Conserva R per l'engage che stai per committare, non per il disengage che non ti sarebbe servito.</li>\n<li><strong>Stackare Trample sui minion.</strong> La E stacka <strong>solo</strong> sui colpi a campioni nemici, non sui minion. Stare su un wave vuoto aspettando che la proc di stun arrivi non fa nulla. La proc conta solo quando puoi incatenarla nel danno della tua squadra.</li>\n<li><strong>Non usare la passiva durante il fight.</strong> <strong>Triumphant Roar</strong> carica dal CC che applichi (Q, R, proc di E) e dalle morti di nemici vicini: minion, mostri della jungle, o campioni nemici. In un teamfight dove minion e jungle creep muoiono intorno a te, puoi stackare il heal più volte. Tappa il bottone della passiva tra un'azione e l'altra: 50-100 HP gratis su di te e sul tuo ADC vicino fanno girare il fight.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Il <strong>flash-W-Q one-shot</strong>. Flash in avanti e cast subito <strong>W</strong> sul bersaglio prioritario nello stesso frame: il dash parte dalla tua nuova posizione flashata, non da dove il nemico si aspettava la tua hitbox. Poi accoda <strong>Q</strong> mentre sei ancora nell'animazione del dash di W: la Pulverize parte nell'istante esatto in cui finisce il knockback di W, con zero gap tra i due crowd control. Fatto bene, il bersaglio non vede nulla a schermo se non un secondo intero di knock-up e muore prima di reagire. La drill è muscle memory (il riflesso automatico delle dita): bindala in modo che Flash + W + Q stiano sotto la stessa mano, e fai pratica del ritmo nel <strong>Practice Tool</strong> finché non riesci a far partire tutti e tre dentro mezzo secondo. È la meccanica che trasforma Alistar da \"tank che aiuta\" a \"tank che chiude i fight\".</p>",
+    "word_count": 1883,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "blitzcrank-support",
+        "champion": "blitzcrank",
+        "role": "support"
+      },
+      {
+        "slug": "braum-support",
+        "champion": "braum",
+        "role": "support"
+      },
+      {
+        "slug": "janna-support",
+        "champion": "janna",
+        "role": "support"
+      },
+      {
+        "slug": "karma-support",
+        "champion": "karma",
+        "role": "support"
+      },
+      {
+        "slug": "leona-support",
+        "champion": "leona",
+        "role": "support"
+      }
+    ],
+    "champion_key": "12"
+  },
+  {
     "slug": "caitlyn-bot",
     "title": "Caitlyn Bot Build & Guida — Patch 16.9",
     "language": "it",

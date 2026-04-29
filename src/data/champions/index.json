@@ -118,6 +118,35 @@
       }
     },
     {
+      "slug": "alistar-support",
+      "champion": "alistar",
+      "role": "support",
+      "locales": {
+        "en": {
+          "title": "Alistar Support Build & Guide — Patch 16.9",
+          "description": "Alistar support guide for League of Legends Patch 16.9: starter kit, tank-engage build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Tank / Vanguard",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Alistar",
+          "champion_key": "12"
+        },
+        "it": {
+          "title": "Alistar Support — Build e Guida — Patch 16.9",
+          "description": "Guida ad Alistar support per League of Legends Patch 16.9: starter kit, build tank-engage, matchup chiave, power spike, errori comuni e una tip finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Tank / Vanguard",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Alistar",
+          "champion_key": "12"
+        }
+      }
+    },
+    {
       "slug": "caitlyn-bot",
       "champion": "caitlyn",
       "role": "bot",

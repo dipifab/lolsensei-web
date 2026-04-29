@@ -1341,6 +1341,26 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/akshan/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/akshan/mid/guide" />
   </url>
+  <!-- champion-guide/alistar/support: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/alistar/support/guide</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/alistar/support/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/alistar/support/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/alistar/support/guide" />
+  </url>
+  <!-- champion-guide/alistar/support: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/alistar/support/guide</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/alistar/support/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/alistar/support/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/alistar/support/guide" />
+  </url>
   <!-- champion-guide/caitlyn/bot: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/caitlyn/bot/guide</loc>
