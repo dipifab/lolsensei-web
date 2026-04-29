@@ -10,7 +10,7 @@
 // States: idle (default) | coming-soon (no portrait, lock icon, desaturated).
 // The hover state is CSS-only (group-hover:* utilities) — no JS state.
 
-import { Show, For } from 'solid-js';
+import { Show, For, createSignal } from 'solid-js';
 import type { JSX } from 'solid-js';
 import { useI18n } from '../../i18n';
 
@@ -138,6 +138,12 @@ export function GuideCard(props: GuideCardProps): JSX.Element {
   const guideHref = (): string =>
     `/${props.lang}/champion/${props.champion}/${props.role}/guide`;
 
+  // Tracks whether the splash <img> has fully decoded — used to dismiss the
+  // skeleton placeholder. Stays false until either CDragon or the DDragon
+  // fallback loads successfully (so a totally failed pair keeps the skeleton
+  // visible, which still beats a broken-image icon).
+  const [splashLoaded, setSplashLoaded] = createSignal(false);
+
   return (
     <Show
       when={!props.comingSoon}
@@ -183,14 +189,25 @@ export function GuideCard(props: GuideCardProps): JSX.Element {
         data-role={props.role}
       >
         <div class="aspect-[16/9] relative bg-surface-container-low overflow-hidden">
+          {/* Skeleton: subtle pulsing gradient shown until the splash decodes.
+              Avoids the "empty tile for 4s" UX when CDragon is slow/stalled.
+              Stays visible if both CDragon and DDragon fail. */}
+          <Show when={!splashLoaded()}>
+            <div
+              class="absolute inset-0 animate-pulse bg-gradient-to-br from-surface-container-low via-surface-container to-surface-container-low"
+              aria-hidden="true"
+            />
+          </Show>
           <img
             ref={(el) => {
               // Watchdog timer: when CDragon stalls the connection (TCP open
               // but body never delivered, observed 2026-04-29) the browser
               // never fires `error` and the image stays "loading" forever.
               // After STALL_TIMEOUT we force-switch to the DDragon fallback
-              // so the user sees something instead of the broken-image icon.
-              const STALL_TIMEOUT = 4000;
+              // so the user sees something instead of the skeleton forever.
+              // 2s chosen because CDragon normal loads in <500ms; if it
+              // hasn't responded in 2s on a healthy connection it's stalled.
+              const STALL_TIMEOUT = 2000;
               const timer = setTimeout(() => {
                 if (
                   el.dataset.fallback !== 'ddragon' &&
@@ -210,6 +227,7 @@ export function GuideCard(props: GuideCardProps): JSX.Element {
             })}
             loading="lazy"
             class="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-105"
+            onLoad={() => setSplashLoaded(true)}
             onError={(e) => {
               const img = e.currentTarget;
               if (img.dataset.fallback === 'ddragon') {
