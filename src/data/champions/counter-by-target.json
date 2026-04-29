@@ -86,6 +86,26 @@
       },
       {
         "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "They burst Aurora during the W cooldown gap. Even with Zhonya's, a chained dash plus ult deletes her before she can stasis or resync W.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con più gap-closer",
+        "reason": "La burstano nella finestra di cooldown di W. Anche con Zhonya's, una catena di dash più ulti la elimina prima che possa stasiare o riallineare W.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -103,6 +123,28 @@
         "archetype": "Assassini mobili con multi gap-close",
         "reason": "Entrano dentro il cast window della R di Lux prima che lei finisca il channel; Zhonya's Hourglass aiuta ma non basta se la catena di dash colpisce prima che la stasi parta.",
         "via": "counterpick"
+      }
+    ],
+    "alistar": [
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Telegraphed melee engagers",
+        "reason": "R cancels their commit-style engage. Right after they Flash-W onto your ADC, press R on the engager: they freeze in stasis while your ADC walks out for free.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Engager melee telegrafati",
+        "reason": "La R cancella il loro engage commit. Subito dopo Flash-W sull'ADC, premi R sull'engager: si congelano in stasi mentre il tuo ADC esce gratis.",
+        "via": "pick_into"
       }
     ],
     "anivia": [
@@ -124,6 +166,66 @@
         },
         "archetype": "Mage immobili senza dash",
         "reason": "La R di Annie è uno stun AOE point-blank a 600 di gittata + Tibbers DPS. I mage senza dash o stealth subiscono tutto il combo all'all-in di livello 6 e non hanno tempo di rispondere.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aurelion-sol",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile control mages without dash",
+        "reason": "Aurelion Sol's W flight closes the gap while Q keeps channelling. Targets with no dash or stealth eat sustained Q damage while the flight window keeps him outside their cast range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aurelion-sol",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage da controllo immobili senza dash",
+        "reason": "La W di volo di Aurelion Sol chiude la distanza mentre la Q continua il channel. Target senza dash o stealth mangiano danno Q sostenuto mentre la finestra di volo lo tiene fuori dalla loro gittata.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without escape",
+        "reason": "These mids have no dash or stealth: Aurora can W in once Q lands, finish the curse recast under their nose, and W back out on the takedown reset.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza escape",
+        "reason": "Questi mid non hanno dash né stealth: Aurora può W in una volta che Q è atterrata, finire la curse-recast davanti al loro naso e tornare indietro con W grazie al reset sulla takedown.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "Azir's soldier range out-paces their cast range, and they have no dash to dodge a soldier-Q poke or interrupt the channel of his W auto-attacks.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "Il range dei soldati di Azir batte il loro range di cast, e non hanno dash per schivare il poke soldier-Q né per interrompere la sequenza di auto-attack potenziati dalla W.",
         "via": "pick_into"
       },
       {
@@ -210,6 +312,26 @@
       },
       {
         "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Slow-telegraphed all-in mages at short range",
+        "reason": "Azir keeps distance during their commit windows (the moment they step forward to attack): each time they walk up, soldier basic attacks chip them, and his R Shuffle flips the all-in if they Flash in.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage da all-in lento e prevedibile a corto raggio",
+        "reason": "Azir mantiene le distanze nelle loro finestre di commit (il momento in cui camminano avanti per attaccare): ogni volta che si avvicinano i basic attack dei soldati li danneggiano, e la R Shuffle ribalta l'all-in se Flashano dentro.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -269,6 +391,28 @@
         "archetype": "Carry immobili senza escape",
         "reason": "Q è uno skillshot da 1100 range che trascina Amumu sul primo bersaglio colpito. I carry senza dash o blink (Jinx, Ashe) vengono strappati fuori posizione nel momento in cui si fanno avanti per last-hittare la wave.",
         "via": "pick_into"
+      }
+    ],
+    "blitzcrank": [
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range hookers",
+        "reason": "Their hook (1100-1150 range) reaches you before your Q line is clean. You have no escape after a hook hits, and the lane is forced to play 1v2 for 30 seconds.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Hooker a lunga gittata",
+        "reason": "L'hook (range 1100-1150) ti raggiunge prima che la tua linea di Q sia pulita. Senza dash, dopo un hook la lane gioca 1v2 per 30 secondi.",
+        "via": "counterpick"
       }
     ],
     "brand": [
@@ -436,6 +580,26 @@
         },
         "archetype": "Mage immobili senza dash",
         "reason": "La R di Annie è uno stun AOE point-blank a 600 di gittata + Tibbers DPS. I mage senza dash o stealth subiscono tutto il combo all'all-in di livello 6 e non hanno tempo di rispondere.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without escape",
+        "reason": "These mids have no dash or stealth: Aurora can W in once Q lands, finish the curse recast under their nose, and W back out on the takedown reset.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza escape",
+        "reason": "Questi mid non hanno dash né stealth: Aurora può W in una volta che Q è atterrata, finire la curse-recast davanti al loro naso e tornare indietro con W grazie al reset sulla takedown.",
         "via": "pick_into"
       }
     ],
@@ -672,6 +836,46 @@
       },
       {
         "publisher": {
+          "champion": "aurelion-sol",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "They can dash on top of Aurelion Sol mid-channel, interrupt the Q, and burst him faster than Stardust scaling can carry the fight. W flight has too long a cooldown to be a reliable escape.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aurelion-sol",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con multi gap-close",
+        "reason": "Possono dashare addosso ad Aurelion Sol nel mezzo del channel, interrompere la Q e ucciderlo prima che lo scaling Stardust porti il fight. La W ha cooldown troppo lungo per essere un escape affidabile.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "They burst Aurora during the W cooldown gap. Even with Zhonya's, a chained dash plus ult deletes her before she can stasis or resync W.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con più gap-closer",
+        "reason": "La burstano nella finestra di cooldown di W. Anche con Zhonya's, una catena di dash più ulti la elimina prima che possa stasiare o riallineare W.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -731,6 +935,26 @@
         "archetype": "Roamer globali / cross-map",
         "reason": "Annie non ha range di roam — pulisce le wave e resta in mid. La loro ult ribalta side lane e dragoni, quindi Annie perde il macro game anche quando vince il matchup 1v1.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aurelion-sol",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Short-range melee mid skirmishers",
+        "reason": "Their all-in needs close range. ASol kites with W and Q from outside auto-attack range; if they Flash in, E pulls them off-position and R stuns once Stardust scales the area.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aurelion-sol",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Skirmisher melee mid a corto raggio",
+        "reason": "Il loro all-in richiede corto raggio. ASol li tiene a distanza con W e Q da fuori range di auto-attack; se Flashano dentro, la E li tira fuori posizione e la R stunna una volta che lo Stardust scala l'area.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -901,6 +1125,26 @@
         "archetype": "Enchanter squishy senza hard CC propria",
         "reason": "Non hanno strumenti per fermare la combo flash + W-Q. Una volta che piazzi il knock-up sotto di loro muoiono prima che il loro ADC possa peelare: Sona e Yuumi non hanno escape.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Lockdown enchanters with point-and-click CC",
+        "reason": "Their CC is point-and-click (no skillshot to dodge). They **peel** your dive attempts trivially (peel = protect an ally by interrupting the player who jumped on them), and Bard has no dash to disengage when the trade flips against him.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter di lockdown con CC point-and-click",
+        "reason": "Il loro CC è point-and-click (niente skillshot da schivare). Fanno **peel** sui tuoi tentativi di dive senza fatica (peel = proteggere un alleato interrompendo chi gli è saltato addosso) e Bard non ha dash per disengage quando il trade si ribalta.",
+        "via": "counterpick"
       }
     ],
     "jayce": [
@@ -1133,6 +1377,26 @@
         "archetype": "Poker a lungo raggio con shield o binding",
         "reason": "Ti mangiano l'HP gratis a 900-plus di range mentre tu non hai risposta. La Black Shield di Morgana blocca la Q knock-up: ti flashi addosso a vuoto.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile enchanters with no dash",
+        "reason": "Bard's Q-into-wall stun threat forces them to play far behind minions. With no escape spell, a clean wall-stun turns into a kill before their team can rotate to help.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter immobili senza dash",
+        "reason": "La minaccia del Q-into-wall stun li costringe a giocare lontanissimi dietro ai minion. Senza spell di escape, un wall-stun pulito si trasforma in kill prima che il loro team ruoti in soccorso.",
+        "via": "pick_into"
       }
     ],
     "karthus": [
@@ -1218,6 +1482,66 @@
       },
       {
         "publisher": {
+          "champion": "aurelion-sol",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile control mages without dash",
+        "reason": "Aurelion Sol's W flight closes the gap while Q keeps channelling. Targets with no dash or stealth eat sustained Q damage while the flight window keeps him outside their cast range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aurelion-sol",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage da controllo immobili senza dash",
+        "reason": "La W di volo di Aurelion Sol chiude la distanza mentre la Q continua il channel. Target senza dash o stealth mangiano danno Q sostenuto mentre la finestra di volo lo tiene fuori dalla loro gittata.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without escape",
+        "reason": "These mids have no dash or stealth: Aurora can W in once Q lands, finish the curse recast under their nose, and W back out on the takedown reset.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza escape",
+        "reason": "Questi mid non hanno dash né stealth: Aurora può W in una volta che Q è atterrata, finire la curse-recast davanti al loro naso e tornare indietro con W grazie al reset sulla takedown.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "Azir's soldier range out-paces their cast range, and they have no dash to dodge a soldier-Q poke or interrupt the channel of his W auto-attacks.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "Il range dei soldati di Azir batte il loro range di cast, e non hanno dash per schivare il poke soldier-Q né per interrompere la sequenza di auto-attack potenziati dalla W.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -1296,6 +1620,26 @@
         },
         "archetype": "Mage melee deboli pre-6",
         "reason": "Devono entrare nel range della Q per farmare pre-6: Annie li poka liberamente, tiene il livello 2 con Pyromania caricato e li forza al back senza counter-engage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Late-game mages weak in early small fights",
+        "reason": "Azir farms safely with W from level 1 and matches their late-game power without giving them free experience — by minute 14 he is online before they hit their own spike.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage da late-game deboli negli scontri brevi early",
+        "reason": "Azir farma sicuro con W dal livello 1 e regge il loro potenziale late-game senza regalare exp — al minuto 14 è online prima che loro raggiungano il proprio spike.",
         "via": "pick_into"
       }
     ],
@@ -1527,6 +1871,26 @@
         "archetype": "Mobile assassins with multiple gap-closers",
         "reason": "Entrano nel suo cast range mentre lei sta lanciando E; non ha dash e l'uovo è uno solo, quindi una catena di dash la bursta prima che R sia formata.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Early-game burst assassins with multiple dashes",
+        "reason": "They all-in pre-6 when Azir has no E up; even after Zhonya's, multi-dash kits reach him before his R has time to fire.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini early-game burst con dash multipli",
+        "reason": "All-in pre-6 quando Azir non ha E pronta; anche dopo Zhonya's, i kit con dash multipli gli arrivano addosso prima che la sua R abbia tempo di partire.",
+        "via": "counterpick"
       }
     ],
     "leona": [
@@ -1715,6 +2079,26 @@
         "archetype": "Enchanter di disengage con peel attivo",
         "reason": "Il polymorph di Lulu ti annulla la W in pieno dash, la R di Milio rimuove il knock-up a distanza, la E di Renata strappa via il carry dalla combo. Il tuo unico engage viene risposto a costo zero.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Lockdown enchanters with point-and-click CC",
+        "reason": "Their CC is point-and-click (no skillshot to dodge). They **peel** your dive attempts trivially (peel = protect an ally by interrupting the player who jumped on them), and Bard has no dash to disengage when the trade flips against him.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter di lockdown con CC point-and-click",
+        "reason": "Il loro CC è point-and-click (niente skillshot da schivare). Fanno **peel** sui tuoi tentativi di dive senza fatica (peel = proteggere un alleato interrompendo chi gli è saltato addosso) e Bard non ha dash per disengage quando il trade si ribalta.",
+        "via": "counterpick"
       }
     ],
     "lux": [
@@ -1776,6 +2160,26 @@
         },
         "archetype": "Artillery mage a lunga gittata",
         "reason": "Pokano Annie da 850-1400 di range mentre lei sta a 625. Non ha dash né shield contro il poke a distanza e perde HP a ogni wave senza l'opzione di rispondere con un all-in.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "They poke Aurora outside her Q range every wave. She has no built-in shield, so each step up to E or Q costs HP she cannot reliably heal back through her passive alone.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage artillery a lungo raggio",
+        "reason": "La pokano oltre il range di Q a ogni wave. Aurora non ha shield innato, quindi ogni step in avanti per piazzare E o Q costa HP che la passiva da sola non riesce a recuperare.",
         "via": "counterpick"
       },
       {
@@ -1921,6 +2325,26 @@
         "archetype": "Mage con CC point-and-click",
         "reason": "Lo stun o suppress lock-on cancella il channel della R, rompe lo swing della E a metà rotazione e rivela il camouflage della W — Edge of Night blocca un cast ogni 30s ma non lo salva due volte.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Late-game mages weak in early small fights",
+        "reason": "Azir farms safely with W from level 1 and matches their late-game power without giving them free experience — by minute 14 he is online before they hit their own spike.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage da late-game deboli negli scontri brevi early",
+        "reason": "Azir farma sicuro con W dal livello 1 e regge il loro potenziale late-game senza regalare exp — al minuto 14 è online prima che loro raggiungano il proprio spike.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -2155,6 +2579,26 @@
         "archetype": "Support da engage con burst e CC duro",
         "reason": "Ashe non ha dash né shield per uscire da una catena di lock-down. Una Leona Q o Nautilus Q riuscita la toglie dal trade prima che possa rispondere con W, e lo slow non serve se è già stunata.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Telegraphed melee engagers",
+        "reason": "R cancels their commit-style engage. Right after they Flash-W onto your ADC, press R on the engager: they freeze in stasis while your ADC walks out for free.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Engager melee telegrafati",
+        "reason": "La R cancella il loro engage commit. Subito dopo Flash-W sull'ADC, premi R sull'engager: si congelano in stasi mentre il tuo ADC esce gratis.",
+        "via": "pick_into"
       }
     ],
     "nidalee": [
@@ -2246,6 +2690,46 @@
     "pantheon": [
       {
         "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Short-range melee mids",
+        "reason": "Aurora out-ranges them with Q poke and uses E backward hop to refuse trades; they need to commit gap-closers Aurora can punish with Q recast on the way in.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Melee mid a corto raggio",
+        "reason": "Aurora li out-rangea con il poke Q e usa il backward hop di E per rifiutare i trade; loro devono committare gap-closer che Aurora punisce con la Q recast in entrata.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Aggressive level-2 lane bullies",
+        "reason": "All-in lanes at level 2-3 punish your weak early stats. You have no sustain other than W shrines that need 10 seconds to charge before they pay off.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Bully aggressivi al livello 2",
+        "reason": "Lane di all-in al livello 2-3 puniscono le tue stat early deboli. Non hai sustain a parte la W che richiede 10 secondi per caricarsi prima di pagare.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -2326,6 +2810,26 @@
         },
         "archetype": "Support da engage con burst e CC duro",
         "reason": "Ashe non ha dash né shield per uscire da una catena di lock-down. Una Leona Q o Nautilus Q riuscita la toglie dal trade prima che possa rispondere con W, e lo slow non serve se è già stunata.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range hookers",
+        "reason": "Their hook (1100-1150 range) reaches you before your Q line is clean. You have no escape after a hook hits, and the lane is forced to play 1v2 for 30 seconds.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Hooker a lunga gittata",
+        "reason": "L'hook (range 1100-1150) ti raggiunge prima che la tua linea di Q sia pulita. Senza dash, dopo un hook la lane gioca 1v2 per 30 secondi.",
         "via": "counterpick"
       }
     ],
@@ -2412,6 +2916,28 @@
         },
         "archetype": "Enchanter di disengage con peel attivo",
         "reason": "Il polymorph di Lulu ti annulla la W in pieno dash, la R di Milio rimuove il knock-up a distanza, la E di Renata strappa via il carry dalla combo. Il tuo unico engage viene risposto a costo zero.",
+        "via": "counterpick"
+      }
+    ],
+    "renata-glasc": [
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Lockdown enchanters with point-and-click CC",
+        "reason": "Their CC is point-and-click (no skillshot to dodge). They **peel** your dive attempts trivially (peel = protect an ally by interrupting the player who jumped on them), and Bard has no dash to disengage when the trade flips against him.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter di lockdown con CC point-and-click",
+        "reason": "Il loro CC è point-and-click (niente skillshot da schivare). Fanno **peel** sui tuoi tentativi di dive senza fatica (peel = proteggere un alleato interrompendo chi gli è saltato addosso) e Bard non ha dash per disengage quando il trade si ribalta.",
         "via": "counterpick"
       }
     ],
@@ -2705,6 +3231,26 @@
         "archetype": "Melee bruisers without ranged engage",
         "reason": "Crystallize blocca ogni linea di engage melee; con E per shovare e R per pulire wave, lei farma in sicurezza mentre loro non la raggiungono senza burnare Flash.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Short-range melee mids",
+        "reason": "Aurora out-ranges them with Q poke and uses E backward hop to refuse trades; they need to commit gap-closers Aurora can punish with Q recast on the way in.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Melee mid a corto raggio",
+        "reason": "Aurora li out-rangea con il poke Q e usa il backward hop di E per rifiutare i trade; loro devono committare gap-closer che Aurora punisce con la Q recast in entrata.",
+        "via": "pick_into"
       }
     ],
     "sona": [
@@ -2726,6 +3272,26 @@
         },
         "archetype": "Enchanter squishy senza hard CC propria",
         "reason": "Non hanno strumenti per fermare la combo flash + W-Q. Una volta che piazzi il knock-up sotto di loro muoiono prima che il loro ADC possa peelare: Sona e Yuumi non hanno escape.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile enchanters with no dash",
+        "reason": "Bard's Q-into-wall stun threat forces them to play far behind minions. With no escape spell, a clean wall-stun turns into a kill before their team can rotate to help.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter immobili senza dash",
+        "reason": "La minaccia del Q-into-wall stun li costringe a giocare lontanissimi dietro ai minion. Senza spell di escape, un wall-stun pulito si trasforma in kill prima che il loro team ruoti in soccorso.",
         "via": "pick_into"
       }
     ],
@@ -2749,9 +3315,49 @@
         "archetype": "Enchanter squishy senza hard CC propria",
         "reason": "Non hanno strumenti per fermare la combo flash + W-Q. Una volta che piazzi il knock-up sotto di loro muoiono prima che il loro ADC possa peelare: Sona e Yuumi non hanno escape.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile enchanters with no dash",
+        "reason": "Bard's Q-into-wall stun threat forces them to play far behind minions. With no escape spell, a clean wall-stun turns into a kill before their team can rotate to help.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter immobili senza dash",
+        "reason": "La minaccia del Q-into-wall stun li costringe a giocare lontanissimi dietro ai minion. Senza spell di escape, un wall-stun pulito si trasforma in kill prima che il loro team ruoti in soccorso.",
+        "via": "pick_into"
       }
     ],
     "sylas": [
+      {
+        "publisher": {
+          "champion": "aurelion-sol",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Short-range melee mid skirmishers",
+        "reason": "Their all-in needs close range. ASol kites with W and Q from outside auto-attack range; if they Flash in, E pulls them off-position and R stuns once Stardust scales the area.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aurelion-sol",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Skirmisher melee mid a corto raggio",
+        "reason": "Il loro all-in richiede corto raggio. ASol li tiene a distanza con W e Q da fuori range di auto-attack; se Flashano dentro, la E li tira fuori posizione e la R stunna una volta che lo Stardust scala l'area.",
+        "via": "pick_into"
+      },
       {
         "publisher": {
           "champion": "lux",
@@ -2796,6 +3402,26 @@
       },
       {
         "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Slow-telegraphed all-in mages at short range",
+        "reason": "Azir keeps distance during their commit windows (the moment they step forward to attack): each time they walk up, soldier basic attacks chip them, and his R Shuffle flips the all-in if they Flash in.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage da all-in lento e prevedibile a corto raggio",
+        "reason": "Azir mantiene le distanze nelle loro finestre di commit (il momento in cui camminano avanti per attaccare): ogni volta che si avvicinano i basic attack dei soldati li danneggiano, e la R Shuffle ribalta l'all-in se Flashano dentro.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -2834,6 +3460,46 @@
         },
         "archetype": "Mobile assassins with multiple gap-closers",
         "reason": "Entrano nel suo cast range mentre lei sta lanciando E; non ha dash e l'uovo è uno solo, quindi una catena di dash la bursta prima che R sia formata.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aurelion-sol",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "They can dash on top of Aurelion Sol mid-channel, interrupt the Q, and burst him faster than Stardust scaling can carry the fight. W flight has too long a cooldown to be a reliable escape.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aurelion-sol",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con multi gap-close",
+        "reason": "Possono dashare addosso ad Aurelion Sol nel mezzo del channel, interrompere la Q e ucciderlo prima che lo scaling Stardust porti il fight. La W ha cooldown troppo lungo per essere un escape affidabile.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Early-game burst assassins with multiple dashes",
+        "reason": "They all-in pre-6 when Azir has no E up; even after Zhonya's, multi-dash kits reach him before his R has time to fire.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini early-game burst con dash multipli",
+        "reason": "All-in pre-6 quando Azir non ha E pronta; anche dopo Zhonya's, i kit con dash multipli gli arrivano addosso prima che la sua R abbia tempo di partire.",
         "via": "counterpick"
       },
       {
@@ -2897,6 +3563,28 @@
         "archetype": "Top laner ranged squishy",
         "reason": "I dash brevi multipli del passive chiudono il gap su cui i ranged top contano. In melee la sua Q scala con il max HP del target e li danneggia gravemente prima che possano fare disengage.",
         "via": "pick_into"
+      }
+    ],
+    "thresh": [
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range hookers",
+        "reason": "Their hook (1100-1150 range) reaches you before your Q line is clean. You have no escape after a hook hits, and the lane is forced to play 1v2 for 30 seconds.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Hooker a lunga gittata",
+        "reason": "L'hook (range 1100-1150) ti raggiunge prima che la tua linea di Q sia pulita. Senza dash, dopo un hook la lane gioca 1v2 per 30 secondi.",
+        "via": "counterpick"
       }
     ],
     "tristana": [
@@ -3314,6 +4002,66 @@
       },
       {
         "publisher": {
+          "champion": "aurelion-sol",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile control mages without dash",
+        "reason": "Aurelion Sol's W flight closes the gap while Q keeps channelling. Targets with no dash or stealth eat sustained Q damage while the flight window keeps him outside their cast range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aurelion-sol",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage da controllo immobili senza dash",
+        "reason": "La W di volo di Aurelion Sol chiude la distanza mentre la Q continua il channel. Target senza dash o stealth mangiano danno Q sostenuto mentre la finestra di volo lo tiene fuori dalla loro gittata.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Stationary cast-time burst mages",
+        "reason": "Their kill window needs Aurora standing still for a slow projectile or a cage. W invisibility breaks the cast read and lets her sidestep the setup.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Burst mage a cast lento e immobili",
+        "reason": "Il loro kill pattern richiede che Aurora stia ferma per un proiettile lento o per una gabbia. L'invisibilità di W rompe il read sulla cast e le permette di sidesteppare il setup.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "Azir's soldier range out-paces their cast range, and they have no dash to dodge a soldier-Q poke or interrupt the channel of his W auto-attacks.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "Il range dei soldati di Azir batte il loro range di cast, e non hanno dash per schivare il poke soldier-Q né per interrompere la sequenza di auto-attack potenziati dalla W.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -3432,6 +4180,46 @@
         },
         "archetype": "Artillery mage a lunga gittata",
         "reason": "Pokano Annie da 850-1400 di range mentre lei sta a 625. Non ha dash né shield contro il poke a distanza e perde HP a ogni wave senza l'opzione di rispondere con un all-in.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "They poke Aurora outside her Q range every wave. She has no built-in shield, so each step up to E or Q costs HP she cannot reliably heal back through her passive alone.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage artillery a lungo raggio",
+        "reason": "La pokano oltre il range di Q a ogni wave. Aurora non ha shield innato, quindi ogni step in avanti per piazzare E o Q costa HP che la passiva da sola non riesce a recuperare.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "They chip his HP from beyond Azir's soldier range (740). He cannot match their pre-6 healing and arrives at his first item with low HP.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage artillery a lungo raggio",
+        "reason": "Lo logorano dall'oltre range dei soldati di Azir (740). Lui non ha cure pre-6 per reggere lo scambio e arriva al primo item con HP bassi.",
         "via": "counterpick"
       },
       {
@@ -3704,6 +4492,46 @@
       },
       {
         "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "They poke Aurora outside her Q range every wave. She has no built-in shield, so each step up to E or Q costs HP she cannot reliably heal back through her passive alone.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage artillery a lungo raggio",
+        "reason": "La pokano oltre il range di Q a ogni wave. Aurora non ha shield innato, quindi ogni step in avanti per piazzare E o Q costa HP che la passiva da sola non riesce a recuperare.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "They chip his HP from beyond Azir's soldier range (740). He cannot match their pre-6 healing and arrives at his first item with low HP.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage artillery a lungo raggio",
+        "reason": "Lo logorano dall'oltre range dei soldati di Azir (740). Lui non ha cure pre-6 per reggere lo scambio e arriva al primo item con HP bassi.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -3883,6 +4711,66 @@
         "archetype": "Marksman a corto raggio che devono impegnarsi nel fight",
         "reason": "Calibrum (il fucile) ha più range del loro auto-attack: per scambiare devono entrare e tu li punisci con il mark shot della Q. Poi la W swap a Severum cura il chip damage che ti hanno messo addosso.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aurelion-sol",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Wind Wall champions",
+        "reason": "Their wall blocks the entire Q breath line. ASol's main damage source becomes useless mid-trade and they punish the missed channel with an all-in he cannot kite.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aurelion-sol",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Champion con Wind Wall",
+        "reason": "Il muro blocca tutta la linea di Q. La fonte principale di danno di ASol diventa inutile a metà trade e loro puniscono il channel mancato con un all-in da cui non puoi tirarti fuori.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Champions with projectile blocks",
+        "reason": "Yasuo's Wind Wall negates both the outbound Q and the recast pull-back, removing roughly half of Aurora's lane damage in a single ability.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Champion con projectile block",
+        "reason": "Il Wind Wall di Yasuo annulla sia la Q in uscita sia il pull-back della recast, eliminando circa metà del damage in lane di Aurora con una sola abilità.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Wind Wall users",
+        "reason": "Wind Wall eats every Q soldier line and the R wall projectile follow-up. With his main poke neutralized Azir is a melee mage with no melee tools.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Champion con Wind Wall",
+        "reason": "Wind Wall mangia ogni linea di soldati della Q e il follow-up del muro della R. Con il poke principale neutralizzato Azir resta un mage corpo-a-corpo senza strumenti melee.",
+        "via": "counterpick"
       }
     ],
     "yone": [
@@ -3945,6 +4833,66 @@
         "archetype": "Bruiser mobili con parry, immortalità o dash",
         "reason": "Fiora con W parra lo stun della Q e te lo riflette, Tryndamere con R ignora il danno mentre la tua W tickka durante la finestra unkillable, Yone con la terza Q dasha fuori dalla portata di Tantrum. Sopravvivono all'engage e ribaltano il fight.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aurelion-sol",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Wind Wall champions",
+        "reason": "Their wall blocks the entire Q breath line. ASol's main damage source becomes useless mid-trade and they punish the missed channel with an all-in he cannot kite.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aurelion-sol",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Champion con Wind Wall",
+        "reason": "Il muro blocca tutta la linea di Q. La fonte principale di danno di ASol diventa inutile a metà trade e loro puniscono il channel mancato con un all-in da cui non puoi tirarti fuori.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Short-range melee mids",
+        "reason": "Aurora out-ranges them with Q poke and uses E backward hop to refuse trades; they need to commit gap-closers Aurora can punish with Q recast on the way in.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Melee mid a corto raggio",
+        "reason": "Aurora li out-rangea con il poke Q e usa il backward hop di E per rifiutare i trade; loro devono committare gap-closer che Aurora punisce con la Q recast in entrata.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Wind Wall users",
+        "reason": "Wind Wall eats every Q soldier line and the R wall projectile follow-up. With his main poke neutralized Azir is a melee mage with no melee tools.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Champion con Wind Wall",
+        "reason": "Wind Wall mangia ogni linea di soldati della Q e il follow-up del muro della R. Con il poke principale neutralizzato Azir resta un mage corpo-a-corpo senza strumenti melee.",
+        "via": "counterpick"
       }
     ],
     "yorick": [
@@ -3989,6 +4937,26 @@
         "archetype": "Enchanter squishy senza hard CC propria",
         "reason": "Non hanno strumenti per fermare la combo flash + W-Q. Una volta che piazzi il knock-up sotto di loro muoiono prima che il loro ADC possa peelare: Sona e Yuumi non hanno escape.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile enchanters with no dash",
+        "reason": "Bard's Q-into-wall stun threat forces them to play far behind minions. With no escape spell, a clean wall-stun turns into a kill before their team can rotate to help.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "bard",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter immobili senza dash",
+        "reason": "La minaccia del Q-into-wall stun li costringe a giocare lontanissimi dietro ai minion. Senza spell di escape, un wall-stun pulito si trasforma in kill prima che il loro team ruoti in soccorso.",
+        "via": "pick_into"
       }
     ],
     "zed": [
@@ -4030,6 +4998,66 @@
         },
         "archetype": "Assassini mobili post-6",
         "reason": "I loro dash o intervalli di stealth escono dal raggio di 600 della R prima che lo stun parta. La shroud di Akali e il Wind Wall di Yasuo bloccano direttamente le sue spell principali.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aurelion-sol",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "They can dash on top of Aurelion Sol mid-channel, interrupt the Q, and burst him faster than Stardust scaling can carry the fight. W flight has too long a cooldown to be a reliable escape.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aurelion-sol",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con multi gap-close",
+        "reason": "Possono dashare addosso ad Aurelion Sol nel mezzo del channel, interrompere la Q e ucciderlo prima che lo scaling Stardust porti il fight. La W ha cooldown troppo lungo per essere un escape affidabile.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "They burst Aurora during the W cooldown gap. Even with Zhonya's, a chained dash plus ult deletes her before she can stasis or resync W.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con più gap-closer",
+        "reason": "La burstano nella finestra di cooldown di W. Anche con Zhonya's, una catena di dash più ulti la elimina prima che possa stasiare o riallineare W.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Early-game burst assassins with multiple dashes",
+        "reason": "They all-in pre-6 when Azir has no E up; even after Zhonya's, multi-dash kits reach him before his R has time to fire.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "azir",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini early-game burst con dash multipli",
+        "reason": "All-in pre-6 quando Azir non ha E pronta; anche dopo Zhonya's, i kit con dash multipli gli arrivano addosso prima che la sua R abbia tempo di partire.",
         "via": "counterpick"
       },
       {
@@ -4113,6 +5141,26 @@
         "archetype": "Long-range artillery mages",
         "reason": "Out-rangeano la Q in ogni fase di lane e pokeano da fuori del suo threat range; lei non ha mobilità per chiudere il gap o punire i loro cooldown.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Stationary cast-time burst mages",
+        "reason": "Their kill window needs Aurora standing still for a slow projectile or a cage. W invisibility breaks the cast read and lets her sidestep the setup.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aurora",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Burst mage a cast lento e immobili",
+        "reason": "Il loro kill pattern richiede che Aurora stia ferma per un proiettile lento o per una gabbia. L'invisibilità di W rompe il read sulla cast e le permette di sidesteppare il setup.",
+        "via": "pick_into"
       },
       {
         "publisher": {

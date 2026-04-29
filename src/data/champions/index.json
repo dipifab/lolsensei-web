@@ -321,6 +321,122 @@
       }
     },
     {
+      "slug": "aurelion-sol-mid",
+      "champion": "aurelion-sol",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Aurelion Sol Mid Build & Guide — Patch 16.9",
+          "description": "Aurelion Sol mid lane guide for League of Legends Patch 16.9: Stardust scaling build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mage / Battlemage",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "AurelionSol",
+          "champion_key": "136"
+        },
+        "it": {
+          "title": "Aurelion Sol Mid Build & Guida — Patch 16.9",
+          "description": "Guida Aurelion Sol mid lane per League of Legends Patch 16.9: build path con scaling Stardust, matchup chiave, power spike, errori comuni e un consiglio tecnico finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mago / Battlemage",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "AurelionSol",
+          "champion_key": "136"
+        }
+      }
+    },
+    {
+      "slug": "aurora-mid",
+      "champion": "aurora",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Aurora Mid Build & Guide — Patch 16.9",
+          "description": "Aurora mid lane guide for League of Legends Patch 16.9: starter kit, core burst-mage build, key matchups, power spikes, common mistakes, and one closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mage / Assassin",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Aurora",
+          "champion_key": "893"
+        },
+        "it": {
+          "title": "Aurora Mid Build & Guida — Patch 16.9",
+          "description": "Guida Aurora mid per League of Legends Patch 16.9: starter kit, build burst-mage core, matchup chiave, power spike, errori comuni ricorrenti e una tip avanzata.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mage / Assassin",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Aurora",
+          "champion_key": "893"
+        }
+      }
+    },
+    {
+      "slug": "azir-mid",
+      "champion": "azir",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Azir Mid Build & Guide — Patch 16.9",
+          "description": "Azir mid lane guide for League of Legends Patch 16.9: starter kit, core battle mage build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mage / Specialist",
+          "difficulty": 5,
+          "damage_type": "magic",
+          "champion_dd_id": "Azir",
+          "champion_key": "268"
+        },
+        "it": {
+          "title": "Azir Mid Build & Guide — Patch 16.9",
+          "description": "Guida Azir mid lane per League of Legends Patch 16.9: starter kit, build path battle mage, matchup chiave, power spikes, errori comuni e una tecnica avanzata.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mage / Specialist",
+          "difficulty": 5,
+          "damage_type": "magic",
+          "champion_dd_id": "Azir",
+          "champion_key": "268"
+        }
+      }
+    },
+    {
+      "slug": "bard-support",
+      "champion": "bard",
+      "role": "support",
+      "locales": {
+        "en": {
+          "title": "Bard Support Build & Guide — Patch 16.9",
+          "description": "Bard support guide for League of Legends Patch 16.9: roaming pickoff playstyle, build path, key matchups, power spikes, common mistakes, and a wall-stun tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Roaming Support / Catcher",
+          "difficulty": 5,
+          "damage_type": "magic",
+          "champion_dd_id": "Bard",
+          "champion_key": "432"
+        },
+        "it": {
+          "title": "Bard Support Build & Guida — Patch 16.9",
+          "description": "Guida Bard support per League of Legends Patch 16.9: gameplay roaming-pickoff, build, matchup chiave, power spike, errori comuni e tip avanzata sul wall-stun.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Roaming Support / Catcher",
+          "difficulty": 5,
+          "damage_type": "magic",
+          "champion_dd_id": "Bard",
+          "champion_key": "432"
+        }
+      }
+    },
+    {
       "slug": "caitlyn-bot",
       "champion": "caitlyn",
       "role": "bot",

@@ -1481,6 +1481,86 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/ashe/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/ashe/bot/guide" />
   </url>
+  <!-- champion-guide/aurelion-sol/mid: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/aurelion-sol/mid/guide</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/aurelion-sol/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/aurelion-sol/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/aurelion-sol/mid/guide" />
+  </url>
+  <!-- champion-guide/aurelion-sol/mid: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/aurelion-sol/mid/guide</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/aurelion-sol/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/aurelion-sol/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/aurelion-sol/mid/guide" />
+  </url>
+  <!-- champion-guide/aurora/mid: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/aurora/mid/guide</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/aurora/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/aurora/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/aurora/mid/guide" />
+  </url>
+  <!-- champion-guide/aurora/mid: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/aurora/mid/guide</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/aurora/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/aurora/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/aurora/mid/guide" />
+  </url>
+  <!-- champion-guide/azir/mid: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/azir/mid/guide</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/azir/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/azir/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/azir/mid/guide" />
+  </url>
+  <!-- champion-guide/azir/mid: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/azir/mid/guide</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/azir/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/azir/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/azir/mid/guide" />
+  </url>
+  <!-- champion-guide/bard/support: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/bard/support/guide</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/bard/support/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/bard/support/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/bard/support/guide" />
+  </url>
+  <!-- champion-guide/bard/support: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/bard/support/guide</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/bard/support/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/bard/support/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/bard/support/guide" />
+  </url>
   <!-- champion-guide/caitlyn/bot: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/caitlyn/bot/guide</loc>
