@@ -8,7 +8,15 @@
 //     - file path lang segment must match frontmatter `language`;
 //     - frontmatter `slug` must equal `<champion>-<role>`;
 //     - competitor blocklist boundary match in body OR frontmatter;
-//     - missing YAML frontmatter block.
+//     - missing YAML frontmatter block;
+//     - quick_learn item dd_id not shoppable on Summoner's Rift on the
+//       guide's patch (NOT_IN_JSON / NOT_PURCHASABLE / NOT_IN_STORE /
+//       NOT_ON_SR — items removed from shop or moved to other maps);
+//     - H2 section headers do not match the canonical 6-section set per
+//       locale (Panoramica/Overview, Build Consigliata/Recommended Build,
+//       Matchup chiave/Key matchups, Power spike & condizioni di vittoria/
+//       Power spikes & win conditions, Errori comuni/Common mistakes,
+//       Suggerimento avanzato/Advanced tip).
 //
 //   SOFT warnings (exit 0):
 //     - description length outside [150, 170] (recommended UX/SEO range);
@@ -18,6 +26,13 @@
 //   `scripts/competitor-blocklist.txt` (also consumed by check-competitors.sh).
 //   Comment lines (`#`) and empty lines ignored. Patterns are ERE regex
 //   already escaped (e.g. `op\.gg`).
+//
+// Shop-availability data is fetched live from Data Dragon
+// (`item.json` per patch). Results cached in-process across files of the
+// same patch. Network failure = exit 2 (preserves existing semantics:
+// hard fail = 1, runtime error = 2). Skip the check by setting
+// `LOLAI_SKIP_SHOP_CHECK=1` in the environment (offline dev / CI without
+// outbound DNS).
 //
 // Empty content/ trees are tolerated -> exit 0 (pre-F4 gate).
 
@@ -257,6 +272,48 @@ function lintBlocklist(file, fm, body, blockRe) {
   }
 }
 
+// Canonical H2 section headers per locale. Body must contain exactly these
+// 6 H2s (set equality). Order is not enforced — too brittle for early
+// editorial iteration, and the rendering looks fine in any reasonable order.
+const CANONICAL_H2 = {
+  en: [
+    'Overview',
+    'Recommended Build',
+    'Key matchups',
+    'Power spikes & win conditions',
+    'Common mistakes',
+    'Advanced tip',
+  ],
+  it: [
+    'Panoramica',
+    'Build Consigliata',
+    'Matchup chiave',
+    'Power spike & condizioni di vittoria',
+    'Errori comuni',
+    'Suggerimento avanzato',
+  ],
+};
+
+function lintH2Headers(file, body, lang) {
+  const expected = CANONICAL_H2[lang];
+  if (!expected) return;
+  const found = [];
+  for (const line of body.split(/\r?\n/)) {
+    const m = line.match(/^##\s+(.+?)\s*$/);
+    if (m) found.push(m[1]);
+  }
+  const expectedSet = new Set(expected);
+  const foundSet = new Set(found);
+  const missing = expected.filter((h) => !foundSet.has(h));
+  const extra = found.filter((h) => !expectedSet.has(h));
+  if (missing.length || extra.length) {
+    const parts = [];
+    if (missing.length) parts.push(`missing=[${missing.join(' | ')}]`);
+    if (extra.length) parts.push(`unexpected=[${extra.join(' | ')}]`);
+    fail(file, `H2 sections do not match canonical ${lang} set: ${parts.join(' ')}`);
+  }
+}
+
 function lintWordCount(file, body) {
   const stripped = body.replace(/[\s ]+/g, ' ').trim();
   if (!stripped) {
@@ -269,7 +326,79 @@ function lintWordCount(file, body) {
   }
 }
 
-function lintFile(filePath, lang, blockRe) {
+// In-process cache of item.json per patch (e.g. "16.9" -> { full: "16.9.1",
+// items: { "3117": {...}, ... } }). Avoid one fetch per file.
+const itemMapCache = new Map();
+const SKIP_SHOP_CHECK = process.env.LOLAI_SKIP_SHOP_CHECK === '1';
+
+async function loadItemMap(patch) {
+  if (itemMapCache.has(patch)) return itemMapCache.get(patch);
+  const versionsResp = await fetch('https://ddragon.leagueoflegends.com/api/versions.json');
+  if (!versionsResp.ok) {
+    throw new Error(`DD versions.json fetch failed: HTTP ${versionsResp.status}`);
+  }
+  const versions = await versionsResp.json();
+  let full = versions.find((v) => v.startsWith(patch + '.'));
+  if (!full) {
+    // Older patch: probe likely fix versions until one responds.
+    for (const fix of ['.1', '.2', '.3']) {
+      const candidate = patch + fix;
+      const head = await fetch(
+        `https://ddragon.leagueoflegends.com/cdn/${candidate}/data/en_US/item.json`,
+        { method: 'HEAD' },
+      );
+      if (head.ok) { full = candidate; break; }
+    }
+  }
+  if (!full) throw new Error(`Cannot resolve full DD version for patch ${patch}`);
+  const r = await fetch(`https://ddragon.leagueoflegends.com/cdn/${full}/data/en_US/item.json`);
+  if (!r.ok) throw new Error(`DD item.json fetch failed for ${full}: HTTP ${r.status}`);
+  const data = await r.json();
+  const entry = { full, items: data.data };
+  itemMapCache.set(patch, entry);
+  return entry;
+}
+
+function shopCheckOne(items, ddId) {
+  const it = items[ddId];
+  if (!it) return { ok: false, reason: 'NOT_IN_JSON' };
+  const g = it.gold ?? {};
+  if (!g.purchasable) return { ok: false, reason: 'NOT_PURCHASABLE', name: it.name };
+  if (it.inStore === false) return { ok: false, reason: 'NOT_IN_STORE', name: it.name };
+  if (it.maps && it.maps['11'] === false) return { ok: false, reason: 'NOT_ON_SR', name: it.name };
+  return { ok: true, name: it.name };
+}
+
+async function lintShopAvailability(file, fm) {
+  const ql = fm.quick_learn;
+  if (!ql || typeof fm.patch !== 'string') return;
+  let items;
+  try {
+    ({ items } = await loadItemMap(fm.patch));
+  } catch (err) {
+    fail(file, `shop-availability check unavailable: ${err.message}`);
+    return;
+  }
+  const check = (slot, idx, entry) => {
+    if (typeof entry?.dd_id !== 'string') return; // already flagged by frontmatter validation
+    const r = shopCheckOne(items, entry.dd_id);
+    if (!r.ok) {
+      const ddName = r.name ? ` (DD: ${r.name})` : '';
+      fail(
+        file,
+        `quick_learn.${slot}[${idx}] dd_id=${entry.dd_id} "${entry.name ?? '?'}" not shoppable on SR — ${r.reason}${ddName}`,
+      );
+    }
+  };
+  if (Array.isArray(ql.core_items)) {
+    ql.core_items.forEach((e, i) => check('core_items', i, e));
+  }
+  if (Array.isArray(ql.situational_items)) {
+    ql.situational_items.forEach((e, i) => check('situational_items', i, e));
+  }
+}
+
+async function lintFile(filePath, lang, blockRe) {
   const raw = readFileSync(filePath, 'utf8');
   const { frontmatter, body } = extractFrontmatter(raw);
   if (frontmatter === null) {
@@ -278,10 +407,14 @@ function lintFile(filePath, lang, blockRe) {
   }
   lintFrontmatter(filePath, frontmatter, lang);
   lintBlocklist(filePath, frontmatter, body, blockRe);
+  lintH2Headers(filePath, body, lang);
   lintWordCount(filePath, body);
+  if (!SKIP_SHOP_CHECK) {
+    await lintShopAvailability(filePath, frontmatter);
+  }
 }
 
-function scanRoot(root, blockRe) {
+async function scanRoot(root, blockRe) {
   if (!existsSync(root)) return 0;
   let scanned = 0;
   for (const lang of LANGS) {
@@ -289,20 +422,20 @@ function scanRoot(root, blockRe) {
     if (!existsSync(dir)) continue;
     for (const file of readdirSync(dir)) {
       if (!file.endsWith('.md')) continue;
-      lintFile(resolve(dir, file), lang, blockRe);
+      await lintFile(resolve(dir, file), lang, blockRe);
       scanned++;
     }
   }
   return scanned;
 }
 
-function main() {
+async function main() {
   const blockRe = loadBlocklist();
   // WP35 + WP34 multi-root scan: champions (WP35), counters (WP34),
   // pro-builds (WP34). Empty roots tolerated (pre-F4 gate).
-  const championsScanned = scanRoot(CONTENT_ROOT, blockRe);
-  const countersScanned = scanRoot(CONTENT_ROOT_COUNTERS, blockRe);
-  const proBuildsScanned = scanRoot(CONTENT_ROOT_PRO_BUILDS, blockRe);
+  const championsScanned = await scanRoot(CONTENT_ROOT, blockRe);
+  const countersScanned = await scanRoot(CONTENT_ROOT_COUNTERS, blockRe);
+  const proBuildsScanned = await scanRoot(CONTENT_ROOT_PRO_BUILDS, blockRe);
   const scanned = championsScanned + countersScanned + proBuildsScanned;
   if (scanned === 0) {
     console.log(
@@ -310,14 +443,15 @@ function main() {
     );
     process.exit(0);
   }
+  const shopNote = SKIP_SHOP_CHECK ? ' shop_check=SKIPPED' : '';
   console.log(
-    `[content-lint] champions=${championsScanned} counters=${countersScanned} pro_builds=${proBuildsScanned} hard_fails=${hardFails} soft_warns=${softWarns}`,
+    `[content-lint] champions=${championsScanned} counters=${countersScanned} pro_builds=${proBuildsScanned} hard_fails=${hardFails} soft_warns=${softWarns}${shopNote}`,
   );
   process.exit(hardFails > 0 ? 1 : 0);
 }
 
 try {
-  main();
+  await main();
 } catch (err) {
   console.error(`[content-lint][ERROR] ${err.stack ?? err.message}`);
   process.exit(2);
