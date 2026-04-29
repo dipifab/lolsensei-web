@@ -184,6 +184,26 @@ export function GuideCard(props: GuideCardProps): JSX.Element {
       >
         <div class="aspect-[16/9] relative bg-surface-container-low overflow-hidden">
           <img
+            ref={(el) => {
+              // Watchdog timer: when CDragon stalls the connection (TCP open
+              // but body never delivered, observed 2026-04-29) the browser
+              // never fires `error` and the image stays "loading" forever.
+              // After STALL_TIMEOUT we force-switch to the DDragon fallback
+              // so the user sees something instead of the broken-image icon.
+              const STALL_TIMEOUT = 4000;
+              const timer = setTimeout(() => {
+                if (
+                  el.dataset.fallback !== 'ddragon' &&
+                  (!el.complete || el.naturalWidth === 0)
+                ) {
+                  el.dataset.fallback = 'ddragon';
+                  el.src = ddragonSplashUrl(ddId());
+                }
+              }, STALL_TIMEOUT);
+              const cancel = () => clearTimeout(timer);
+              el.addEventListener('load', cancel, { once: true });
+              el.addEventListener('error', cancel, { once: true });
+            }}
             src={portraitUrl(ddId(), props.locale.champion_key ?? null)}
             alt={tpl('wp35.hub.card.portrait_alt', {
               champion: props.champion,
