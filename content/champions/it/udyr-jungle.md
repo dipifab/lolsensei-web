@@ -88,7 +88,7 @@ Udyr è un jungler corpo a corpo che cambia forma fra quattro stance — **Q**, 
 
 Il game plan è semplice da descrivere: full clear della jungle, gank a livello 3, scaling fino a Trinity Force, poi cerca skirmish sugli obiettivi dove la cura della **W** ti fa durare più a lungo del jungler avversario. Non hai un dash né un disengage a lungo raggio: l'all-in (impegno totale fino alla kill, senza tornare indietro) è quasi sempre la scelta giusta una volta che la **E** è pronta.
 
-## Build consigliata
+## Build Consigliata
 
 **Starting items:** jungle pet Gustwalker Hatchling più Refillable Potion. Gustwalker dà movement speed fuori combattimento per clear più rapidi e gank più veloci; scegli Mosstomper Seedling solo se ti aspetti invasion costanti.
 
@@ -119,14 +119,14 @@ Il game plan è semplice da descrivere: full clear della jungle, gank a livello 
 - **Graves:** matchup early difficile — la sua **R** ti fa kite (lui si muove indietro mentre attacca) e la **W** smoke screen ti nega gli auto-attack. Aspetta livello 6, schiva la **R**, poi committi con **E** stun e **R** AOE.
 - **Warwick:** specchio fra bruiser, decide chi gestisce meglio la **W**. Il tuo scudo più cura batte il suo sustain. Salva la **W** *dopo* il fear, non prima — se la consumi senza pressione, il valore del recast va sprecato.
 
-## Power spike e win condition
+## Power spike & condizioni di vittoria
 
 - **Livello 3 (dopo il primo clear):** tutte e quattro le stance sono attive. La **E** ha lo stun sul primo attacco contro ogni nemico — è la prima finestra di gank. Path: raptor → red → primo scuttle → gank mid o top.
 - **Livello 6:** si sblocca **Wingborne Storm (R)**. Danno AOE in skirmish e un recast che insegue i bersagli. Adesso puoi fare dive (entrare sotto torre per chiudere una kill) in 2v1 perché la tempesta chunk-а entrambi i target.
 - **Trinity Force completato (~minuto 14):** spike enorme. Spellblade procca a ogni cambio di stance, e il movement speed ti fa stare attaccato ai bersagli che provano a kite. Forza i fight sugli obiettivi qui.
 - **Sundered Sky online (~minuto 21-23):** con Trinity + Sundered + Sterak's diventi quasi inuccidibile nei 1v1. Cerca pick (eliminare un nemico isolato fuori dal teamfight) sulle side lane intorno ai timer di drake e baron.
 
-## Errori frequenti
+## Errori comuni
 
 - **Dimenticare il recast.** Ogni stance ha una finestra di recast in cui la versione empowered parte gratis. Senza i recast giochi 4 abilità; con i recast ne giochi 8. Allena il ritmo: cast → 2 AA → recast → altri 2 AA.
 - **Gank avidi prima di Trinity Force.** Senza il primo item sei uno stat-stick senza burst. Se la lane non è pre-freezata vicino alla tua torre, lasciala perdere. Path verso obiettivi o counter-jungle.
@@ -134,6 +134,6 @@ Il game plan è semplice da descrivere: full clear della jungle, gank a livello 
 - **Buildare full tank.** Udyr vuole lo stat sheet da bruiser (HP + AD + ability haste + on-hit). Stack puri di armor come Frozen Heart ti rendono resistente ma inutile nei 1v1 — non uccidi nessuno.
 - **Ultare un singolo bersaglio senza piano di recast.** La **R** più il suo recast è la finestra di danno più grande. Premere **R** una volta e allontanarsi lascia metà del danno sul tavolo.
 
-## Tip avanzato
+## Suggerimento avanzato
 
 Allena il **doppio recast Q-W** nei fight prolungati. Apri con **Q** sul bersaglio, intervalla due AA, fai il recast della **Q** per i fulmini; nella stessa finestra attiva la **W** prima che il recast scada, intervalla altri due AA, fai il recast della **W** per la cura nel tempo. Questo pattern incolla circa quattro secondi di danno on-hit empowered con una barra HP intera di sustain — la maggior parte dei jungler non vince questo scambio, anche con un piccolo lead di gold su di te.

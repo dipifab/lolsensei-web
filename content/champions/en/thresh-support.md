@@ -54,23 +54,17 @@ quick_learn:
     - { level: 18, key: "W" }
   core_items:
     - { dd_id: "3865", name: "World Atlas" }
-    - { dd_id: "3117", name: "Mobility Boots" }
+    - { dd_id: "3111", name: "Mercury's Treads" }
     - { dd_id: "3190", name: "Locket of the Iron Solari" }
     - { dd_id: "3109", name: "Knight's Vow" }
     - { dd_id: "3877", name: "Bloodsong" }
   situational_items:
-    - dd_id: "3111"
-      name: "Mercury's Treads"
-      against: "vs heavy magic damage or chain crowd-control (Leona, Ashe R, Maokai R) — swap Mobility Boots before teamfights start"
     - dd_id: "3047"
       name: "Plated Steelcaps"
-      against: "vs auto-attack heavy enemy bot lane (Caitlyn, Draven, Tristana) — swap Mobility Boots when their early harass dominates"
+      against: "swap from Mercury's vs auto-attack-heavy bot lanes (Caitlyn, Draven, Tristana) when their early harass hurts more than late CC chains"
     - dd_id: "3050"
       name: "Zeke's Convergence"
       against: "with a strong AD carry (Caitlyn, Vayne, Aphelios): R triggers a slow zone and bonus damage on the carry's next attack"
-    - dd_id: "4643"
-      name: "Vigilant Wardstone"
-      against: "late-game (after minute 25) when your six slots are full and you want extra wards plus a small stat boost"
   base_combo: ["Q", "AA", "E", "R"]
   win_condition: "Land Death Sentence on a priority squishy (carry, mid) and chain into Flay knockback so your team converts the catch. With The Box dropped, the catch has nowhere to walk that doesn't cost HP."
   weakness: "A missed Q leaves you with no engage tool for around 10 seconds. Slow base movement and zero dashes mean you can't reposition once your hook is gone — flank routes punish you hard."
@@ -89,19 +83,17 @@ Game plan: place wards in the **river** (the corridor between the two halves of 
 **Core items (in order):**
 
 1. ![World Atlas](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png) **World Atlas** — starter. Don't last-hit minions, let your ADC have them.
-2. ![Mobility Boots](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3117.png) **Mobility Boots** — out-of-combat movement speed. Lets you **roam** (leave bot lane to help mid or jungle) and ward deeper.
+2. ![Mercury's Treads](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png) **Mercury's Treads** — magic resist plus **tenacity** (a stat that shortens the duration of crowd control on you). Default boot for an engage support: a one-second stun that would normally lock you out of your follow-up Q hook becomes a half-second one.
 3. ![Locket of the Iron Solari](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png) **Locket of the Iron Solari** — active that shields all nearby allies for a few seconds. Use it right before an engage to soak the enemy team's first **burst** (the high damage they dump in the first 1-2 seconds of a fight).
 4. ![Knight's Vow](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3109.png) **Knight's Vow** — bonds you to your **ADC** (Attack Damage Carry — the auto-attacking bot lane teammate, your team's main late-game damage dealer): a portion of the damage they take is redirected to you, and you heal them in return. Pick the carry whose life you most want to extend.
-5. ![Bloodsong](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png) **Bloodsong** — the engage-focused endgame upgrade of your support item (World Atlas auto-transforms into one of these once you've completed its quest). Adds bonus damage to your next basic attack right after you apply **crowd-control** (any stun, slow, root, or knockback) — fits perfectly after a Q hook or R box.
+5. ![Bloodsong](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png) **Bloodsong** — the engage-focused endgame upgrade of your support item (World Atlas auto-transforms into one of these once you've completed its quest). Carries a **Spellblade** passive: after you cast any ability — Q hook, W lantern, E flay, R box — your next basic attack deals bonus physical damage on-hit, and if the target is an enemy champion they take increased damage from all sources for 4 seconds. In practice this means you should weave an auto-attack into every ability cast in a fight, not save it for after the CC lands.
 
 **Situational items:**
 
-- ![Mercury's Treads](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png) **Mercury's Treads** — boots that grant magic resist and reduce the duration of crowd-control on you. Pick into heavy magic damage or chain crowd-control teams (Leona engage, Ashe arrow ult). Swap your Mobility Boots before fights start.
-- ![Plated Steelcaps](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png) **Plated Steelcaps** — boots that give armor and reduce damage from basic attacks. Pick into auto-attack-heavy enemy bot lanes (Caitlyn, Draven, Tristana) when their early **harass** (poke and chip damage in lane) on you is the bigger threat than late-game teamfight CC.
+- ![Plated Steelcaps](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png) **Plated Steelcaps** — boots that give armor and reduce damage from basic attacks. Swap into Mercury's Treads when the enemy bot lane is auto-attack heavy (Caitlyn, Draven, Tristana) and their early **harass** (poke and chip damage in lane) hurts you more than the enemy team's late-game CC chain will.
 - ![Zeke's Convergence](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3050.png) **Zeke's Convergence** — pair this with a strong AD carry. When you ult (R), Zeke's drops a slow zone and gives the bonded carry bonus damage on their next attack. Big combo synergy.
-- ![Vigilant Wardstone](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4643.png) **Vigilant Wardstone** — late-game sixth-item slot. More wards on the map, longer ward range, small stat boost.
 
-**Boots:** Default ![Mobility Boots](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3117.png) **Mobility Boots** to roam aggressively in lane phase. Swap into one of the situational defensive boots **before the first major teamfight** (around minute 18-22), because Mobility Boots lose their out-of-combat speed bonus once the fight starts.
+**Boots:** Default ![Mercury's Treads](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png) **Mercury's Treads** for the tenacity — a tank engage support gets focused with CC the moment they commit, and a half-second stun is the difference between landing your follow-up E knockback and watching your team lose the fight you opened. Swap to ![Plated Steelcaps](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png) **Plated Steelcaps** only when the enemy bot lane's auto-attack harass hurts more than the enemy team's late-game CC will.
 
 **Skill order:** Max **E** (Flay) first — slow, knockback, and the auto-attack passive damage are your primary lane trade tool. Max **Q** second — lower cooldown means more pickoff windows. Max **W** last. Take **R** at levels 6, 11, 16.
 
@@ -120,7 +112,7 @@ Game plan: place wards in the **river** (the corridor between the two halves of 
 - **Level 2 (Q + E):** First spike. With **Q** to engage and **E** to keep them locked, you can **all-in** (commit to a full kill attempt) on an over-extending enemy who has pushed past their first **wave** (the row of incoming minions).
 - **Level 6 (R unlocks):** Pickoff potential explodes. A landed **Q** in the river or in a side brush followed by **R** behind the target is a guaranteed kill at this point of the game.
 - **![Locket of the Iron Solari](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png) Locket of the Iron Solari completion (~ minute 14-16):** First teamfight item ready. Your engage now comes with a free team shield — group with your team for **Drake** (the dragon objective in the bottom river — kills give your team permanent stat buffs) or **Voidgrubs** (small monsters in the top river — the team that kills them gets bonus damage to enemy structures).
-- **![Bloodsong](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png) Bloodsong endgame (~ minute 24-30):** Your post-CC auto-attack starts dealing real damage. Suddenly Q → auto-attack → E isn't just a setup — it's a kill on a **squishy** (a low-defense champion like an ADC or a mage) on its own.
+- **![Bloodsong](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png) Bloodsong endgame (~ minute 24-30):** The Spellblade proc plus the 4-second damage-amp on champions turns your "ability → auto" rotation into a real DPS pattern. Suddenly Q → auto-attack → E isn't just a setup for your ADC — it's a kill on a **squishy** (a low-defense champion like an ADC or a mage) on its own.
 
 ## Common mistakes
 

@@ -54,26 +54,20 @@ quick_learn:
     - { level: 18, key: "Q" }
   core_items:
     - { dd_id: "3865", name: "World Atlas" }
-    - { dd_id: "3117", name: "Mobility Boots" }
+    - { dd_id: "3111", name: "Mercury's Treads" }
     - { dd_id: "3190", name: "Locket of the Iron Solari" }
     - { dd_id: "3109", name: "Knight's Vow" }
     - { dd_id: "3877", name: "Bloodsong" }
   situational_items:
-    - dd_id: "3111"
-      name: "Mercury's Treads"
-      against: "vs heavy magic damage or chain crowd-control teams (Leona, Ashe arrow R, Maokai R) — swap Mobility Boots before teamfights start"
     - dd_id: "3047"
       name: "Plated Steelcaps"
-      against: "vs auto-attack heavy enemy bot lane (Caitlyn, Draven, Tristana) — swap Mobility Boots when their lane harass dominates"
+      against: "swap from Mercury's vs auto-attack-heavy bot lanes (Caitlyn, Draven, Tristana) when their early harass hurts more than late CC chains"
     - dd_id: "3110"
       name: "Frozen Heart"
       against: "vs attack-speed-stacking carries (Tristana, Kog'Maw, Master Yi) — slows their auto-attack speed in a wide aura"
     - dd_id: "3211"
       name: "Kaenic Rookern"
       against: "vs AP burst comps (double mage like Syndra mid + Brand support) — passive magic shield that regenerates out of combat"
-    - dd_id: "4643"
-      name: "Vigilant Wardstone"
-      against: "late-game (after minute 25) when your six slots are full and you want extra wards plus a small stat boost"
   base_combo: ["W", "Q", "AA", "E"]
   win_condition: "Land the W-Q combo (Headbutt back, instant Pulverize knock-up) on a priority squishy carry to start a fight your team converts. Pop R before engaging if they have hard CC, so the chain crowd control bounces off you."
   weakness: "Short engage range — you have to be on top of the target to land Q. Mana-hungry early levels and zero ranged poke; if the enemy bot lane plays back, you give up the lane and must roam to stay relevant."
@@ -104,7 +98,7 @@ matchup_draft:
 
 Alistar is a **vanguard support** (a tank-class support whose job is to open fights, not heal allies) — he engages by physically jumping onto the enemy carry and locking them in place with crowd control. His kit is built around one signature combo: **Headbutt (W)** dashes to a target and knocks them backward, and immediately recasting **Pulverize (Q)** under your own feet knocks them up. The full chain (W into Q) displaces the enemy back **into your team** and then suspends them in the air for a full second — long enough for your ADC to walk up and unload free damage. **Trample (E)** grants him short **ghosted** movement (he passes through minions and other units without colliding) and a stun **proc** (a built-up effect that fires once you hit a condition) on his next basic attack at 5 stacks. **Unbreakable Will (R)** cleanses any crowd control on him and gives heavy damage reduction, which is what lets a 1-HP Alistar walk through a Morgana root and still finish the kill.
 
-Game plan: in lane, **bait** (lure the enemy into committing) by standing slightly forward; the moment their ADC steps up to last-hit a minion, **Headbutt** them back, **Pulverize** them up, walk through them with **Trample** stacking, and your ADC converts. Mid-game, **roam** (leave bot lane to help mid or jungle) on **Mobility Boots** — Alistar is one of the fastest roamers in the game thanks to E's ghosted movement and his summoner spell flexibility. Late-game, sit on the front line, eat enemy CC with **R**, and engage on the carry whose death ends the fight.
+Game plan: in lane, **bait** (lure the enemy into committing) by standing slightly forward; the moment their ADC steps up to last-hit a minion, **Headbutt** them back, **Pulverize** them up, walk through them with **Trample** stacking, and your ADC converts. Mid-game, **roam** (leave bot lane to help mid or jungle) using **Trample**'s ghosted movement plus your summoner spell flexibility — Alistar slips through walls of minions other supports get stuck in. Late-game, sit on the front line, eat enemy CC with **R**, and engage on the carry whose death ends the fight.
 
 ## Recommended Build
 
@@ -113,20 +107,18 @@ Game plan: in lane, **bait** (lure the enemy into committing) by standing slight
 **Core items (in order):**
 
 1. ![World Atlas](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png) **World Atlas** — starter. It evolves automatically as you accumulate quest progress through ![Runic Compass](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3866.png) **Runic Compass** and ![Bounty of Worlds](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3867.png) **Bounty of Worlds**, ending in the endgame upgrade you choose.
-2. ![Mobility Boots](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3117.png) **Mobility Boots** — out-of-combat movement speed. Lets you roam aggressively to mid-river and ward deeper into enemy jungle without falling behind in lane. Swap to defensive boots before the first major teamfight.
+2. ![Mercury's Treads](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png) **Mercury's Treads** — magic resist plus **tenacity** (a stat that shortens the duration of crowd control on you). The default boot for an engage tank: shorter stuns and slows mean you don't get locked out of the **W-Q** combo right after you commit it.
 3. ![Locket of the Iron Solari](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png) **Locket of the Iron Solari** — active that shields all nearby allies for a few seconds. Pop it the instant you commit to an engage so your team soaks the enemy's first **burst** (the high damage they dump in the first 1-2 seconds of a fight).
 4. ![Knight's Vow](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3109.png) **Knight's Vow** — bonds you to your **ADC** (Attack Damage Carry — the auto-attacking bot lane teammate, your team's main late-game damage dealer): a portion of the damage they take is redirected to you, and you heal them in return. Always pick the carry whose life you most need to extend.
-5. ![Bloodsong](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png) **Bloodsong** — the engage-focused endgame upgrade of your support item (World Atlas auto-transforms into one of these once you finish the quest). Adds bonus damage to your next basic attack right after you apply **crowd-control** (any stun, slow, root, or knockback) — fits perfectly after a Q knock-up, an R cleanse re-engage, or a Trample stun proc.
+5. ![Bloodsong](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png) **Bloodsong** — the engage-focused endgame upgrade of your support item (World Atlas auto-transforms into one of these once you finish the quest). Carries a **Spellblade** passive: after you cast any ability — W headbutt, Q knock-up, R cleanse, even an E Trample tick — your next basic attack deals bonus physical damage on-hit, and if it lands on an enemy champion they take increased damage from all sources for 4 seconds. The play pattern is "ability → AA → ability → AA" stacked through the fight, not "save the AA for after the CC".
 
 **Situational items:**
 
-- ![Mercury's Treads](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png) **Mercury's Treads** — boots that grant magic resist and reduce the duration of crowd control on you. Pick them into magic-damage or chain-CC teams (Leona, Ashe arrow R, Maokai R). Swap your Mobility Boots before fights start, not after.
-- ![Plated Steelcaps](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png) **Plated Steelcaps** — boots that give armor and reduce damage from basic attacks. Pick them into auto-attack-heavy enemy bot lanes (Caitlyn, Draven, Tristana) when their lane **harass** (poke and chip damage) hurts you more than late-game CC will.
+- ![Plated Steelcaps](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png) **Plated Steelcaps** — boots that give armor and reduce damage from basic attacks. Swap into Mercury's Treads when the enemy bot lane is auto-attack heavy (Caitlyn, Draven, Tristana) and their lane **harass** (poke and chip damage) hurts you more than the enemy team's CC chain will.
 - ![Frozen Heart](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3110.png) **Frozen Heart** — slows nearby enemies' auto-attack speed in a wide aura. Pick it into attack-speed-stacking carries (Tristana, Kog'Maw, Master Yi) where your job becomes **peeling** (protecting your own carry from enemies trying to kill them) instead of engaging.
 - ![Kaenic Rookern](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3211.png) **Kaenic Rookern** — passive magic shield that regenerates while out of combat. Pick it into AP-burst comps (a double-mage setup like Syndra mid + Brand support) — the shield eats a full ult and lets you survive the engage you started.
-- ![Vigilant Wardstone](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4643.png) **Vigilant Wardstone** — late-game sixth-item slot (after minute 25). More wards on the map, longer ward range, small stat boost.
 
-**Boots:** Default ![Mobility Boots](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3117.png) **Mobility Boots** to roam aggressively in lane phase. Swap into one of the defensive boots above **before the first big teamfight** (around minute 18-22), because Mobility Boots lose their out-of-combat speed bonus the moment combat starts.
+**Boots:** Default ![Mercury's Treads](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png) **Mercury's Treads** for the tenacity — a one-second stun on a Thresh hook becomes a half-second one, leaving you the window to chain **R** into your engage. Swap to ![Plated Steelcaps](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png) **Plated Steelcaps** before completing them only if the enemy bot lane is hurting you more than the enemy team's late-game CC will.
 
 **Skill order:** Max **E** (Trample) first — it's your in-lane damage and the stun proc that gives you a second crowd control after Q. Max **W** second — lower cooldown means more engage windows. Max **Q** last (it's mostly a finisher; the rank-up barely changes the knock-up, only the damage). Take **R** at levels 6, 11, 16.
 
@@ -145,7 +137,7 @@ Game plan: in lane, **bait** (lure the enemy into committing) by standing slight
 - **Level 2 (Q + W):** First spike. The full W-Q combo unlocks the moment you have both abilities. An over-extending enemy ADC (one who has pushed too far past their first **wave** — the row of incoming minions) is a free kill if you engage with **Flash** still up.
 - **Level 6 (R unlocks):** Engage potential explodes. **Unbreakable Will** turns you from a one-shot **diver** (a champion that jumps deep into the enemy backline and dies right after) into a tank that walks through hard CC and re-engages. You can flash-Q a Morgana, eat her root, R out of it, and Q again on her ADC.
 - **![Locket of the Iron Solari](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png) Locket of the Iron Solari completion (~ minute 14-16):** First teamfight item online. Your engage now drops a free team shield. Group with your team for **Drake** (the dragon objective in the bottom river — kills give your team permanent stat buffs) or **Voidgrubs** (small monsters in the top river — the team that kills them earns bonus damage to enemy structures).
-- **![Bloodsong](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png) Bloodsong endgame (~ minute 24-30):** Your post-CC auto-attack starts dealing real damage. Now W → Q → AA isn't just a setup for your ADC — it can shave 25-30% HP off a **squishy** (a low-defense champion like an ADC or a mage) by itself.
+- **![Bloodsong](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png) Bloodsong endgame (~ minute 24-30):** The Spellblade proc plus the 4-second damage amplification on champions turns your full rotation into a DPS sequence. Now W → AA → Q → AA isn't just a setup for your ADC — it can shave 25-30% HP off a **squishy** (a low-defense champion like an ADC or a mage) by itself.
 
 ## Common mistakes
 

@@ -61,7 +61,7 @@ quick_learn:
     - dd_id: "3068"
       name: "Sunfire Aegis"
       against: "vs melee bruiser-heavy teams (Sett, Darius, Olaf): the burn aura stacks with W and the bonus armor hardens you against frontline focus"
-    - dd_id: "3001"
+    - dd_id: "8020"
       name: "Abyssal Mask"
       against: "when 3+ enemies deal magic damage: the AOE MR shred amplifies every spell from your team into Cursed targets"
     - dd_id: "3157"
@@ -116,7 +116,7 @@ The trade-off: **R** sits on a 100-150s cooldown and **Q** is your only setup to
 **Situational items:**
 
 - ![Sunfire Aegis](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3068.png) **Sunfire Aegis** — vs melee bruiser-heavy teams (Sett, Darius, Olaf). The fire aura adds on top of **W** for double AOE damage and gives bonus armor.
-- ![Abyssal Mask](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3001.png) **Abyssal Mask** — when 3+ enemies deal magic damage. It reduces magic resist on enemies near you, so every spell your team lands on Cursed targets hits harder.
+- ![Abyssal Mask](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/8020.png) **Abyssal Mask** — when 3+ enemies deal magic damage. It reduces magic resist on enemies near you, so every spell your team lands on Cursed targets hits harder.
 - ![Zhonya's Hourglass](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png) **Zhonya's Hourglass** — vs burst comps that focus you the moment R lands (Zed, LeBlanc, Syndra). Stasis (a 2.5s window where you cannot be damaged or take actions) keeps you alive while your team finishes the fight.
 - ![Banshee's Veil](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png) **Banshee's Veil** — vs long-duration magic CC chains (Ahri charm into all-in, Lissandra R, Morgana Q). The spellshield (a one-use barrier that blocks the next spell aimed at you) eats the engage.
 

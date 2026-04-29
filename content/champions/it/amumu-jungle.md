@@ -61,7 +61,7 @@ quick_learn:
     - dd_id: "3068"
       name: "Sunfire Aegis"
       against: "contro team con tanti melee bruiser (Sett, Darius, Olaf): la burn aura si stacka con W e l'armor extra ti regge il focus della frontline"
-    - dd_id: "3001"
+    - dd_id: "8020"
       name: "Abyssal Mask"
       against: "quando 3+ nemici fanno magic damage: lo shred AOE di magic resist amplifica ogni spell del tuo team sui bersagli con Curse"
     - dd_id: "3157"
@@ -96,13 +96,13 @@ matchup_draft:
       reason: "La E di Ezreal, la W di Tristana e gli hop reset di Kalista escono tutti dal raggio della R di Amumu dopo che la Q connette. Curse va sprecata perché il carry si riposiziona prima che il team possa fare follow-up sullo stun."
 ---
 
-## Overview
+## Panoramica
 
 Amumu è il jungler engage più semplice del gioco: cammina nella fog of war (la parte di mappa non visibile fuori dalla visione del tuo team), tira **Bandage Toss (Q)**, premi **Curse of the Sad Mummy (R)**, e lascia che il team scarichi il danno. Il kit ha un solo lavoro — aprire il fight alle tue condizioni — e lo fa da una distanza più lunga di quasi qualsiasi altro engage, grazie alla pull da 1100 range. La passive **Cursed Touch** moltiplica i compagni AP trasformando i loro spell in true damage bonus su ogni bersaglio con Curse.
 
 Il prezzo: la R sta su 100-150s di cooldown e la Q è il tuo unico setup. Sbagli e passi 90 secondi a essere kitato, quindi questa guida è costruita intorno alla scelta del *fight giusto* invece che a forzare ogni gank. Game plan: clear, arriva al livello 6, poi traduci ogni R in una kill o un objective per i 25-30 minuti successivi.
 
-## Recommended Build
+## Build Consigliata
 
 **Starting items:** ![Hailblade](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1039.png) **Hailblade** + ![Refillable Potion](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2031.png) **Refillable Potion**. Hailblade è l'item da jungler: danneggi i mostri neutrali velocemente e applica un breve slow sui campioni nemici. Refillable è una pozione che si ricarica gratis in base, così risparmi gold quando prendi chip damage (piccoli colpi) sui camp (gruppi di mostri neutrali della jungla).
 
@@ -116,7 +116,7 @@ Il prezzo: la R sta su 100-150s di cooldown e la Q è il tuo unico setup. Sbagli
 **Situational items:**
 
 - ![Sunfire Aegis](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3068.png) **Sunfire Aegis** — contro team con tanti melee bruiser (campioni corpo-a-corpo che mescolano danno e durata, es. Sett, Darius, Olaf). L'aura di fuoco si somma a quella della W per AOE doppio, e dà armor extra.
-- ![Abyssal Mask](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3001.png) **Abyssal Mask** — quando 3+ nemici fanno magic damage. Riduce il magic resist dei nemici vicini, così ogni spell che il tuo team lancia sui bersagli con Curse fa più male.
+- ![Abyssal Mask](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/8020.png) **Abyssal Mask** — quando 3+ nemici fanno magic damage. Riduce il magic resist dei nemici vicini, così ogni spell che il tuo team lancia sui bersagli con Curse fa più male.
 - ![Zhonya's Hourglass](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png) **Zhonya's Hourglass** — contro burst comp che ti focusano l'attimo che la R atterra (Zed, LeBlanc, Syndra). La stasi (una finestra di 2.5s in cui non puoi subire danno né agire) ti tiene vivo mentre il team chiude il fight.
 - ![Banshee's Veil](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png) **Banshee's Veil** — contro CC magico single-target a lunga durata (Ahri charm in all-in, Lissandra R, Morgana Q). Lo spellshield (una barriera monouso che blocca il prossimo spell indirizzato su di te) mangia l'engage.
 
@@ -134,7 +134,7 @@ Il prezzo: la R sta su 100-150s di cooldown e la Q è il tuo unico setup. Sbagli
 - **Maokai / Sejuani:** Tank jungler con la loro AOE engage. Chi connette la R per primo vince il teamfight. Tieni la **Q** per dopo che committano: il tuo stun si somma al loro e il nemico resta bloccato per la durata totale di entrambi.
 - **Kha'Zix / Rengar:** Assassini che burstano la tua backline. Body-blocca per i tuoi carry (mettiti tra l'assassino e il damage dealer per assorbire i colpi) invece di stare davanti al team avversario — la W aura più la E Tantrum li puniscono per aver committato vicino a te.
 
-## Power spike e win condition
+## Power spike & condizioni di vittoria
 
 - **Livello 3:** Con **E**, **W** e **Q** tutte sbloccate, la prima minaccia di gank (la visita a sorpresa del jungler in lane per fare una kill) è reale. Guarda la lane con il nemico più basso di HP e il follow-up CC più forte alleato; una rotation Q-W-AA-E (AA = auto-attack) sotto un alleato che sta snowballando (vantaggio che cresce nel tempo: kill → gold → item → nuova kill) di solito è una kill.
 - **Livello 6:** Prima **Curse of the Sad Mummy**. È il singolo power swing più grande del gioco per Amumu. Trova un fight entro 30 secondi dal raggiungere il 6 — ganka una lane, contesta Scuttle, o prepara il primo Drake.
@@ -149,6 +149,6 @@ Il prezzo: la R sta su 100-150s di cooldown e la Q è il tuo unico setup. Sbagli
 - **Ignorare il reset di cooldown di Tantrum.** La passiva di **E** abbassa il suo stesso cooldown ogni volta che subisci una basic attack. In un fight lungo contro melee, puoi premere E ogni 1-2 secondi — resta nel loro range di attacco e continua a usarla.
 - **R sul tank invece che sul carry.** R è un'abilità da teamfight. Sì il tank è più vicino, sì la prendi su di lui — ma il team vuole lo stun sul carry. Tieni **Flash** (la Summoner Spell che ogni champion sceglie e che ti teletrasporta una distanza breve una volta ogni ~5 minuti) per flankare (entrare nel fight da un lato o da dietro, non frontalmente) sulla backline invece di engagare di fronte.
 
-## Advanced tip
+## Suggerimento avanzato
 
 Allena la combo **Flash + Q** sul training dummy. Il trucco: lancia la Q, *poi* premi Flash a metà animazione nella direzione del bersaglio. L'animazione di pull si riaggancia alla tua posizione post-Flash, dando un proiettile più corto di 425 unità praticamente impossibile da schivare. Trasforma la Q da skillshot da 1100 range in stun garantito a bruciapelo: ti permette di entrare nella backline attraverso la fog e connettere Q su un bersaglio in movimento che non ha mai visto arrivare l'engage.

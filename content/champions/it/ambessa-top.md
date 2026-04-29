@@ -100,13 +100,13 @@ matchup_draft:
       reason: "La R di Olaf rimuove la sua suppression al cast, neutralizzando il suo principale tool da pickoff. La R undying di Tryndamere sopravvive al frame di esecuzione e gli permette di girare fuori dal colpo a terra."
 ---
 
-## Overview
+## Panoramica
 
 Ambessa è una skirmisher top (un campione fatto per piccoli scontri brevi, non per i teamfight lunghi). È un campione AD che fa danno fisico (AD = attack damage; l'alternativa è AP = ability power, la statistica del danno magico dei mage). Usa **energia** come risorsa al posto del mana, e vive o muore con la sua passiva, **Drakehound's Step**: ogni cast di ability attiva un breve dash più un basic attack potenziato con range, danno e attack speed extra. Quel singolo meccanismo la trasforma in una specialista del chain-trade — ogni Q, W o E le concede un auto-attack reset gratuito (un AA che parte subito ignorando il timer normale dell'attack speed), quindi una combo completa mette a segno quattro o cinque colpi in due secondi. Il suo kit punisce chiunque provi ad affrontarla in melee senza un hard interrupt (uno stun, un knock-up o un silence che la fermi a metà cast).
 
 Il game plan è semplice: domina la lane dal livello 2 con un all-in **Q + E** (un "all-in" è un trade totale fino alla kill, non uno scambio breve), poi snowball nelle skirmish a metà partita attorno a Voidgrubs e Drake. "Snowball" significa un piccolo vantaggio iniziale — una kill, una tower plate (un pezzo di corazza della torre nei primi 14 minuti che dà oro extra quando lo rompi) — che si auto-amplifica nel tempo. Usa la **R** per sopprimere un carry avversario isolato (il damage dealer principale del team) prima che il frontline (i tank davanti a lui) possa fare peel — "peel" significa proteggere un alleato usando CC o il proprio corpo per togliere di dosso chi gli sta saltando addosso. Il lategame è la sua debolezza: appena i tank avversari finiscono due item, il suo danno % max HP sulla Q smette di scioglierli, quindi chiudi la partita prima del minuto 28.
 
-## Recommended Build
+## Build Consigliata
 
 **Starting items:** ![Doran's Blade](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1055.png) **Doran's Blade** + 2 ![Health Potion](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png) **Health Potions**. Default per i trade AD; il lifesteal sostiene i tuoi dash chain.
 
@@ -150,7 +150,7 @@ Stat shards (i tre piccoli bonus statistici sotto le rune): Adaptive Force (dà 
 - **Jayce:** Sfavorevole. Lui ha due forme; in forma ranged la combo Q + E ti fa poke (ti consuma HP da distanza sicura) prima che tu possa chiudere il gap. Prendi ![Doran's Shield](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1054.png) **Doran's Shield** come starter, sta attaccato alla wave per la rigenerazione HP dai last-hit sui minion, e cerca le kill solo quando passa in forma melee e spreca la sua E.
 - **Camille:** Skill matchup. Entrambi avete all-in forti; vince chi piazza per primo un cast pulito. La tua Q scala con il suo max HP corrente — costringila prima a usare la heal della W, poi Q1-auto-Q2 per portarla sotto il 50%. Piazza una ward nel tri-bush (il cespuglio a tre entrate vicino alla tua tower) così il suo hookshot — la ability che la lancia come un rampino contro un muro o un nemico — non ti prende gratis mentre torni in lane.
 
-## Power spike e win condition
+## Power spike & condizioni di vittoria
 
 - **Livello 2 (Q + E):** Il primo grande spike. Con entrambe le ability e il dash passivo, una combo completa Q1-auto-E-auto-Q2-auto infligge quattro basic attack più due tick di ability in due secondi. La maggior parte dei top laner non riesce a competere su questo danno in uno scrap melee.
 - **Livello 6 (R sbloccata):** ![R](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/champion/Ambessa.png) **Public Execution** sblocca i pickoff — eliminare un nemico isolato fuori dal main fight. La passiva della R aggiunge anche armor penetration (il tuo danno ignora una parte dell'armor avversaria) e omnivamp (una piccola heal pari a una percentuale del danno che fai con le ability). Ti sostiene nelle skirmish del river.
@@ -165,6 +165,6 @@ Stat shards (i tre piccoli bonus statistici sotto le rune): Adaptive Force (dà 
 - **Tenere la R per l'engage perfetto che non arriva mai.** La R ha 100+ secondi di cooldown nell'early. Se ce l'hai pronta al livello 6 e il laner avversario ha appena usato la sua combo principale (key ability in cooldown), entra e usa la R su di lui. Un laner morto sono due wave di farm gratis e una tower plate extra (le placche di gold sulla torre dei primi 14 minuti).
 - **Andare in 1v1 contro gli iper-tank pensando che la Q li uccida.** Il danno % max HP fa paura sulla carta ma l'armor si applica comunque. Una volta che un Ornn o un Cho'Gath finisce ![Sundered Sky](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6610.png) **Sundered Sky** + item da tank, non li uccidi più da sola. Raggruppati con il tuo jungler invece.
 
-## Tecnica avanzata
+## Suggerimento avanzato
 
 Padroneggia il **dash-AA weave** (intreccio dash + auto-attack). Ogni ability cast attiva il passive dash e un'AA potenziata, quindi la sequenza ottimale in una combo completa è *cast → dash → AA → cast → dash → AA*, non *cast → cast → cast → AA*. Se premi la seconda ability prima di aver completato l'AA potenziata, perdi il bonus su quel colpo. Il ritmo pulito: **Q1 → dash in avanti → AA → E → dash → AA → Q2 → dash → AA → R**. Esercitati nella Practice Tool (la modalità singleplayer di allenamento) contro un target dummy (un manichino bersaglio fisso) finché ogni AA si registra; in lane vera questo trasforma un trade da 2 secondi in sette istanze di danno separate ed è la differenza tra una kill e un nemico che scappa a 50 HP.

@@ -75,13 +75,13 @@ quick_learn:
   weakness: "Waveclear debole e range corto pre-6: vulnerabile a poke a distanza e gank della jungle. Niente CC duro e nessuna fuga se W è in cooldown — possono lockarti e bruciarti prima che la combo parta."
 ---
 
-## Overview
+## Panoramica
 
 Akali è un'assassina AP da burst: una campionessa costruita per fare tantissimo danno in 1-2 secondi (il "burst", danno alto concentrato in pochissimo tempo) su un singolo bersaglio. Il suo kit è una catena di dash — **Shuriken Flip (E)**, **Perfect Execution (R)** — costruita attorno alla finestra di invisibilità di **Twilight Shroud (W)**. Non ha mana, usa energia: i cooldown corti contano più del budget di risorse. La mid lane le si addice perché il river offre percorsi brevi per roamare (lasciare la propria lane per giocare in un'altra lane) le side lane, e la **R** al livello 6 trasforma qualsiasi fight senza vision ward nemiche (oggetti piazzati che rivelano un'area) in un pickoff (eliminare un nemico isolato dalla sua squadra).
 
 Il piano partita è sopravvivere a una fase di lane debole (waveclear scarsa — cioè le abilità sono lente a pulire l'onda di minion, e nessuna kill threat early) fino al livello 6, poi convertire qualsiasi piccolo lead (vantaggio) in roam e dive sotto torre. Il segreto del campione sta nel piazzamento della **E**: la E parte come shuriken; solo il primo campione nemico colpito diventa il bersaglio del dash. Marchia un minion per sbaglio e perdi il dash per tutta la rotation di abilità (il ciclo Q + W + E + R lanciate una volta ciascuna).
 
-## Recommended Build
+## Build Consigliata
 
 **Starting items:** ![Doran's Ring](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1056.png) **Doran's Ring** + 2 Health Potions. Il Doran's Ring dà AP e mana regen che ad Akali non servono, ma il bonus damage ai minion sistema la sua waveclear early debole. Salta ![Corrupting Potion](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2033.png) **Corrupting Potion** a meno che la lane non sia un matchup di harass pesante con auto-attack.
 
@@ -105,7 +105,7 @@ Il piano partita è sopravvivere a una fase di lane debole (waveclear scarsa —
 
 **Runes:** Le rune sono bonus passivi che scegli prima della partita: un albero primario (5 rune) e uno secondario (2 rune). Primaria **Domination** con **Electrocute** (burst extra quando colpisci con tre abilità in fila), **Sudden Impact** (più magic penetration dopo un dash), **Eyeball Collection** (o **Zombie Ward**) per stack di AP, e **Ultimate Hunter** (cooldown più basso sulla **R**). Secondaria **Sorcery** con **Transcendence** (ability haste — abilità che tornano disponibili più in fretta) e **Gathering Storm** (scaling AP late-game). Akali usa energia, non mana: niente **Manaflow Band**.
 
-## Key matchups
+## Matchup chiave
 
 - **Galio:** Counter duro pre-6. La sua passive aumenta gli auto-attack e la sua **W** ti taunta durante l'all-in (uno scambio totale fino alla kill, senza spazio per disimpegnarsi). Farma in sicurezza fino al livello 6, pinga la jungle e committa solo quando la sua **W** è in cooldown.
 - **Yasuo:** La sua **Wind Wall** blocca **Q** e lo shuriken di **E**. Apri con il dash di ![Hextech Rocketbelt](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3152.png) **Hextech Rocketbelt** o con la **E**, tieni la **Q** finché la Wind Wall non è giù.
@@ -113,14 +113,14 @@ Il piano partita è sopravvivere a una fase di lane debole (waveclear scarsa —
 - **Twisted Fate:** Gara di roam. Lui ha lo strumento di roam migliore (la sua **R** lo teletrasporta in mappa), quindi devi pushare la tua wave (spingere la linea di minion verso la torre nemica) più velocemente di quanto lui può lasciare lane. Tracciagli la **R** con vision ward (oggetti piazzati che danno vision in un'area) su river e tri-bush (il punto a tre cespugli vicino alla mid lane).
 - **Zed:** Matchup pari. Lui vince i trade corti prima del 6; dopo il 6 la tua **R** lo finisce sotto soglia HP. Non andare all-in se non ha bruciato le **W** ombra; altrimenti scappa dalla tua **R2**.
 
-## Power spikes & win conditions
+## Power spike & condizioni di vittoria
 
 - **Livello 3:** Kit base completo (Q + W + E). Hai finalmente la combo dash + invisibilità per tradare (uno scambio breve di abilità in lane, non un tentativo di kill) o disengagiare (uscire da un fight che si sta mettendo male). Cerca un trade corto per prendere prio (priority, vantaggio in lane che ti permette di lasciare la lane senza perdere risorse) prima del primo gank della jungle (un attacco a sorpresa del jungler avversario che entra in lane).
 - **Livello 6:** La prima **R** è il singolo spike più grande della partita. Sblocchi una kill threshold contro qualunque bersaglio squishy. Se il river non è wardato (coperto da vision ward nemiche), i fight a metà river sono kill gratis.
 - **![Hextech Rocketbelt](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3152.png) Hextech Rocketbelt completo (~ minuto 12-14):** Il danno full all-in adesso one-shotta i bersagli squishy attraverso l'execute della R2 (la R2 li giustizia quando l'HP scende sotto la soglia). Roamma sulle side lane appena la tua wave è spinta sotto la torre nemica.
 - **![Rabadon's Deathcap](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png) Rabadon's Deathcap online (~ minuto 24-28):** Il burst scala in modo enorme. Forza i fight sugli obiettivi (Drago, Baron, torri) e cerca pick sulla back line (la linea posteriore: i carry che fanno danno da dietro) usando **W** per fiancheggiare — entrare nel fight da un fianco non sorvegliato, di solito attraverso fog of war non wardata (le zone della mappa senza vision).
 
-## Common mistakes
+## Errori comuni
 
 - **All-in prima del livello 6 senza setup della jungle.** Il danno di trade pre-6 di Akali è mediocre — Q + auto-attack da soli non killano un avversario attento. Farma in sicurezza, pinga la jungle, committa al 6.
 - **Sprecare E1 su un minion.** Il primo colpo dello Shuriken Flip marchia qualunque cosa tocchi, minion incluso. Se la shuriken atterra su un creep, perdi il dash sul campione dietro. Angola sempre la **E** in modo che il campione sia il primo bersaglio toccato dalla shuriken.
@@ -128,6 +128,6 @@ Il piano partita è sopravvivere a una fase di lane debole (waveclear scarsa —
 - **Bruciare R1 senza un piano per R2.** R1 da sola ti pianta in mezzo alla squadra avversaria. Avere sempre un bersaglio per la R2: come kill finale o come dash di fuga.
 - **Buildare item da bruiser contro una squadra squishy.** Item come ![Riftmaker](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4633.png) **Riftmaker** scambiano burst per sustain (capacità di curarsi durante il fight). Contro una squadra di carry fragili vuoi burst puro (![Hextech Rocketbelt](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3152.png) **Hextech Rocketbelt** + ![Shadowflame](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png) **Shadowflame**), non durabilità.
 
-## Advanced tip
+## Suggerimento avanzato
 
 Lascia cadere **Twilight Shroud (W)** nell'istante esatto in cui atterra **R1**. Lo shroud si apre ai tuoi piedi proprio mentre arrivi in mezzo alla squadra avversaria, spezzando il loro target lock (forza i nemici a riselezionarti, perché per un istante diventi non bersagliabile) per la mezza finestra di tempo prima che riescano a riselezionarti. Usata bene, questa giocata ti permette di riposizionarti per la **R2** execute o anche di annullare l'all-in se il trade sembra perso — e l'abilità di peel (il proteggere un alleato dall'attacco nemico) del support avversario spesso atterra a vuoto perché sei diventata non bersagliabile a metà ingaggio.

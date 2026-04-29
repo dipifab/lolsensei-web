@@ -67,7 +67,7 @@ quick_learn:
     - dd_id: "3135"
       name: "Void Staff"
       against: "swap appena qualunque target prioritario compra Resistenza Magica (Mercury's Treads + item MR)"
-    - dd_id: "4644"
+    - dd_id: "4646"
       name: "Stormsurge"
       against: "primo item alternativo se la squadra avversaria ha 4+ target squishy da one-shottare — pick ceiling più alto, danno sostenuto inferiore"
   base_combo: ["E", "R", "W", "Q", "AA"]
@@ -118,7 +118,7 @@ Il piano partita è pazienza, poi commit (impegno totale in un combo senza marci
 - ![Zhonya's Hourglass](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png) **Zhonya's Hourglass** — contro diver (champion che si tuffano per uccidere un bersaglio e scappare) e assassini (Zed, Diana, Talon, Fizz). L'attiva ti trasforma in una statua dorata intoccabile (stasi) per 2.5 secondi, e ti fa sopravvivere dopo aver committato **R** in profondità in un teamfight.
 - ![Banshee's Veil](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png) **Banshee's Veil** — contro CC magici single-target (CC = crowd control: stun, root, qualsiasi cosa ti immobilizzi). Lo scudo blocca la prima abilità che ti immobilizzerebbe.
 - ![Void Staff](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png) **Void Staff** — appena qualunque target prioritario compra Resistenza Magica (tipicamente Mercury's Treads + un item MR).
-- ![Stormsurge](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4644.png) **Stormsurge** — primo item alternativo quando la squadra avversaria ha 4 o più target squishy da one-shottare. Cede danno sostenuto in cambio di un tetto più alto sul singolo pick.
+- ![Stormsurge](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4646.png) **Stormsurge** — primo item alternativo quando la squadra avversaria ha 4 o più target squishy da one-shottare. Cede danno sostenuto in cambio di un tetto più alto sul singolo pick.
 
 **Stivali:** ![Sorcerer's Shoes](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png) **Sorcerer's Shoes** di default. ![Mercury's Treads](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png) **Mercury's Treads** solo se la composizione avversaria ha catene multiple di hard CC puntate su di te (hard CC = stun, root, knock-up, taunt — il tipo di CC che ti toglie completamente il controllo del campione).
 

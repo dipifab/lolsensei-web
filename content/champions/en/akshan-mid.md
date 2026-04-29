@@ -71,9 +71,9 @@ quick_learn:
     - dd_id: "3026"
       name: "Guardian Angel"
       against: "vs assassin-heavy comps (Talon + Zed double AD) — late-game safety net for a backline who has to channel R out in the open"
-    - dd_id: "6701"
-      name: "Opportunity"
-      against: "alternative first item vs squishy double-mage comps you snowball through with roams; trades teamfight value for solo-pick power"
+    - dd_id: "6699"
+      name: "Voltaic Cyclosword"
+      against: "alternative first item vs squishy comps you snowball with solo picks: the energized auto slow locks targets your R would otherwise miss"
   base_combo: ["Q", "AA", "E", "AA", "R"]
   win_condition: "Snowball lane with Press the Attack 3-hit trades and Q max-range pokes, then convert your lead with E roams from minute 6 onward and execute squishies with R during objective fights."
   weakness: "His E only hooks to terrain, so open lane positioning leaves him with no swing reset. Single-target point-and-click CC and Wind Wall hard cancel his R channel and Q poke."
@@ -126,7 +126,7 @@ His game plan is straightforward in shape and demanding in timing: shove the wav
 - ![Maw of Malmortius](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png) **Maw of Malmortius** — vs heavy AP burst (one-rotation magic damage that can delete you in a second: Annie, Veigar, Syndra). The magic shield + lifeline (a heal-and-attack buff that triggers when you drop below ~30% HP) keeps you alive long enough to **R** them back.
 - ![Mortal Reminder](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3033.png) **Mortal Reminder** — vs healing-stacking compositions (Soraka mid, Vladimir top, Aatrox top). Applies Grievous Wounds (a debuff that cuts the target's healing by ~50%) on auto-attacks and on every **R** bullet.
 - ![Guardian Angel](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3026.png) **Guardian Angel** — vs assassin-heavy comps (Talon + Zed double AD = two strong physical-damage burst threats). A second life is worth more than any DPS slot when you are the team's main carry channeling **R** in the open.
-- ![Opportunity](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6701.png) **Opportunity** — alternative first item vs squishy double-mage comps you intend to snowball through (build a kill lead that compounds into more kills) with solo picks (catching one isolated enemy at a time). Trades teamfight value for solo-pick power.
+- ![Voltaic Cyclosword](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6699.png) **Voltaic Cyclosword** — alternative first item vs squishy double-mage comps you intend to snowball through (build a kill lead that compounds into more kills) with solo picks (catching one isolated enemy at a time). The energized auto applies a hard slow on hit, which locks down a fleeing carry your **R** would otherwise miss.
 
 **Boots:** ![Berserker's Greaves](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png) **Berserker's Greaves** is default for the attack speed. ![Mercury's Treads](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png) **Mercury's Treads** only into a team with 3+ hard CC sources (stuns, roots, knock-ups that lock you out of your buttons).
 

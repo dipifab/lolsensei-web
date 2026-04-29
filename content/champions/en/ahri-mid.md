@@ -67,7 +67,7 @@ quick_learn:
     - dd_id: "3135"
       name: "Void Staff"
       against: "swap when any priority target buys a Magic Resist item (Mercury's Treads + MR core)"
-    - dd_id: "4644"
+    - dd_id: "4646"
       name: "Stormsurge"
       against: "alternative first item when enemy team has 4+ squishy targets — higher single-pick ceiling, less sustained damage"
   base_combo: ["E", "R", "W", "Q", "AA"]
@@ -118,7 +118,7 @@ Her game plan is patience, then commit (going all-in on a combo without the opti
 - ![Zhonya's Hourglass](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png) **Zhonya's Hourglass** — vs divers (champions that jump in to kill a single target then escape) and assassins (Zed, Diana, Talon, Fizz). The active turns you into an untargetable golden statue (stasis) for 2.5 seconds, letting you survive after committing **R** deep into a teamfight.
 - ![Banshee's Veil](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png) **Banshee's Veil** — vs single-target magic CC (crowd control: stuns, roots, or anything that locks you in place). The shield blocks the first ability that would lock you down.
 - ![Void Staff](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png) **Void Staff** — the moment any priority target on the enemy team buys magic resist (typically Mercury's Treads plus an MR item).
-- ![Stormsurge](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4644.png) **Stormsurge** — alternative first item when the enemy team has four or more squishy targets you want to one-shot. Trades sustained damage for a higher single-pick ceiling.
+- ![Stormsurge](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4646.png) **Stormsurge** — alternative first item when the enemy team has four or more squishy targets you want to one-shot. Trades sustained damage for a higher single-pick ceiling.
 
 **Boots:** ![Sorcerer's Shoes](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png) **Sorcerer's Shoes** is default. ![Mercury's Treads](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png) **Mercury's Treads** only when the enemy comp has multiple hard CC chains aimed at you (hard CC = stun, root, knock-up, taunt — the kind that fully takes control of your champion).
 

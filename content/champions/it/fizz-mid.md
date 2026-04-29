@@ -134,7 +134,7 @@ Il piano partita è sopravvivere in lane fino al power spike a due item (Lich Ba
 - **Galio:** Stat tank e una passiva di **W** che dimezza il danno magico ricevuto. Smetti di provare a ucciderlo solo; spendi mana per shovare la wave (spingere i tuoi minion fino sotto la torre nemica così non possono camminare liberamente verso di te) e roama (sposta il tuo champion fuori dalla lane per aiutare gli alleati altrove) bot o top appena la **R** è online.
 - **Pantheon:** Ti punisce pre-6. Lo stun di **W** e la **Q** scudata out-tradano ai livelli 1-3. Resta dietro alla wave e tradano solo quando la sua **W** è in cooldown. Il matchup si ribalta a 6 quando hai **R**.
 
-## Power spike & win condition
+## Power spike & condizioni di vittoria
 
 - **Livello 2:** Con **E** + **Q** hai un ciclo garantito dash + slow + danno AOE. Se il nemico avanza per last-hittare un melee minion (dare il colpo finale per prendere oro), **E** sopra di lui e scatena **Q-AA** per un trade vincente (un breve scambio di colpi da cui esci in vantaggio).
 - **Livello 6:** La prima **Chum the Waters** sblocca gli all-in. Il combo **R-Q-W-AA-E** cancella qualsiasi mid laner squishy anche con solo i componenti base di Lich Bane comprati. Roama bot lane dopo aver shovato la wave: con i minion spinti dalla parte avversaria, loro perdono più tempo a difendere di quanto tu ne perda a lasciare la lane.
@@ -149,6 +149,6 @@ Il piano partita è sopravvivere in lane fino al power spike a due item (Lich Ba
 - **Dimenticare la W in chase.** Uccidere un bersaglio con **W** attiva rifonde mana e abbassa il cooldown a 1 secondo — puoi concatenare un'altra auto-attack potenziata su un secondo bersaglio istantaneamente. Attiva **W** prima del colpo killante quando c'è un target di follow-up vicino.
 - **Massimizzare W per prima in lane normali.** **Q** ed **E** portano il danno e il timing del combo; il bleed di **W** è DPS sostenuto che conta nei trade lunghi, non nelle finestre di burst. Default: massimizza **E** per prima.
 
-## Tip avanzato
+## Suggerimento avanzato
 
 Pratica il **R-Flash combo** (R + Flash). Lancia il pesce in avanti, poi usa subito **Flash** nella stessa direzione: il pesce atterra molto più lontano dei 1300 unità naturali, dandoti una presa garantita su un bersaglio che si crede fuori range. Usalo per pick attraverso i muri o per aprire fight sugli obiettivi da angoli inaspettati. La finestra cast-to-Flash è corta — bind **Flash** sul tasto secondario (D) per memoria muscolare e ripeti nel practice tool finché il timing diventa automatico.

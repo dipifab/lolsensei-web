@@ -71,9 +71,9 @@ quick_learn:
     - dd_id: "3026"
       name: "Guardian Angel"
       against: "contro comp di assassini (Talon + Zed double AD) — seconda vita per il main carry che deve channellare R allo scoperto"
-    - dd_id: "6701"
-      name: "Opportunity"
-      against: "primo item alternativo contro double-mage squishy che vuoi snowballare con pickoff; cede valore teamfight per potere di solo-pick"
+    - dd_id: "6699"
+      name: "Voltaic Cyclosword"
+      against: "primo item alternativo contro comp squishy che snowballi con pickoff: l'auto energized slow incolla target che la R sbaglierebbe"
   base_combo: ["Q", "AA", "E", "AA", "R"]
   win_condition: "Snowball della lane con trade da 3 colpi e Press the Attack, poke con Q a max gittata, poi converti il lead con roam tramite E dal minuto 6 e finisci gli squishy con R durante gli obiettivi."
   weakness: "La E si aggancia solo al terreno: posizionamento aperto a centro mid lo lascia senza reset di swing. CC point-and-click single-target e Wind Wall cancellano sia il channel della R sia il poke di Q."
@@ -126,7 +126,7 @@ Il piano partita è semplice nella forma e duro nel timing: shova la wave (sping
 - ![Maw of Malmortius](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png) **Maw of Malmortius** — contro burst AP pesante (danno magico in una rotazione che può cancellarti in un secondo: Annie, Veigar, Syndra). Scudo magico + lifeline (un buff di cura e attacco che si attiva quando scendi sotto ~30% HP) ti tiene in vita abbastanza per rispondere con la **R**.
 - ![Mortal Reminder](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3033.png) **Mortal Reminder** — contro composizioni che impilano cure (Soraka mid, Vladimir top, Aatrox top). Applica Grievous Wounds (debuff che dimezza le cure ricevute dal target) sulle auto-attack e su ogni proiettile della **R**.
 - ![Guardian Angel](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3026.png) **Guardian Angel** — contro comp di assassini (Talon + Zed double AD = due forti minacce di burst da danno fisico). Una seconda vita vale più di uno slot di DPS quando sei il carry principale che channela **R** allo scoperto.
-- ![Opportunity](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6701.png) **Opportunity** — primo item alternativo contro composizioni double-mage squishy che intendi snowballare (costruire un vantaggio di kill che cresce a valanga in altre kill) con pickoff (catturare un nemico isolato alla volta fuori dai teamfight). Sacrifica valore teamfight per potere di solo-pick.
+- ![Voltaic Cyclosword](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6699.png) **Voltaic Cyclosword** — primo item alternativo contro composizioni double-mage squishy che intendi snowballare (costruire un vantaggio di kill che cresce a valanga in altre kill) con pickoff (catturare un nemico isolato alla volta fuori dai teamfight). L'auto energized applica uno slow forte che incolla il carry in fuga che la **R** altrimenti sbaglierebbe.
 
 **Stivali:** ![Berserker's Greaves](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png) **Berserker's Greaves** di default per l'attack speed. ![Mercury's Treads](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png) **Mercury's Treads** solo contro team con 3+ fonti di hard CC (stun, root, knock-up che ti bloccano i tasti).
 

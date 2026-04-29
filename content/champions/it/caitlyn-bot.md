@@ -75,13 +75,13 @@ quick_learn:
   weakness: "Nessuna escape vera quando E è in cooldown. Counter durissimi: diver e assassin (Samira, Yasuo, Zed flank). Se l'early lead non si converte in pick a midgame, gli hyperscaler tipo Jinx o Vayne ti superano."
 ---
 
-## Overview
+## Panoramica
 
 Caitlyn è il marksman con il range base più alto del gioco e l'archetipo del **lane bully** (un campione che domina la lane fin dai primi minuti, vivendo del vantaggio che costruisce in laning phase). Tutta la sua identità sta nel rendere miserabili i primi 12 minuti per il duo nemico e poi convertire quel vantaggio in obiettivi. La sua **Piltover Peacemaker (Q)** ha più range del basic attack di praticamente ogni altro ADC, la sua **Yordle Snap Trap (W)** trasforma i chokepoint in zone di danno, e la passiva **Headshot** punisce chiunque sbagli il posizionamento attorno alle trap o al net. In compenso ha tra i valori di armor e HP più bassi tra gli ADC: il prezzo della sua dittatura in lane è che si scioglie nell'attimo in cui la pesca un nemico fuori posizione.
 
 Il game plan è semplice da raccontare e duro da eseguire: poke (logorare gli HP del nemico a distanza senza committare) la lane con la **Q**, piazza trap nei bush e nel tri-bush per minacciare il combo **W → Headshot potenziato**, e converti il lead del primo recall in oro da turret plate. Dopo **The Collector** e **Infinity Edge** il tuo ruolo cambia: diventi una back line carry (la carry da retroguardia che fa danno da dietro al teamfight). Stai nella seconda posizione più arretrata, kita con **E** quando un diver ti salta addosso, e usa la **R** come execute (esecuzione del nemico sotto soglia HP) sui runner low-HP — mai come tool di poke.
 
-## Recommended Build
+## Build Consigliata
 
 **Starting items:** Doran's Blade + 2 Health Potions. Anche se stai vincendo la lane, salta il secondo Doran's: l'oro va molto più lontano se lo metti su una component Pickaxe per The Collector.
 
@@ -105,7 +105,7 @@ Il game plan è semplice da raccontare e duro da eseguire: poke (logorare gli HP
 
 **Runes:** Primaria **Precision** con **Fleet Footwork**, **Presence of Mind**, **Legend: Alacrity**, **Coup de Grace**. Secondaria **Sorcery** con **Manaflow Band** e **Gathering Storm**, oppure passa a **Inspiration** con **Magical Footwear** e **Cosmic Insight** se vuoi più oro sul completamento delle Boots.
 
-## Key matchups
+## Matchup chiave
 
 - **Draven:** Leggermente sfavorita ai livelli 1-3 perché il burst (danno alto concentrato in 1-2 secondi) della sua Spinning Axe ti supera nei trade. Non fight pre-3: freeza la wave (tieni la lane congelata vicino alla tua torre per non spingere) sotto torre, arriva al livello 3 con tutte e tre le ability, e poi tradi (scambi brevi di colpi/abilità in lane) solo quando hai una **W** piazzata nel bush. Punisci le finestre in cui ha la mana esaurita dopo Q-Q-Q.
 - **Ezreal:** Even, tendenzialmente favore Caitlyn se il support ti lascia committare. Outranggi la sua **Q** di parecchio. Ogni volta che lui Q-a un minion, libera la tua **Q** in lane. Non dodgiare **dentro** la traiettoria della sua **W**.
@@ -113,14 +113,14 @@ Il game plan è semplice da raccontare e duro da eseguire: poke (logorare gli HP
 - **Vayne:** Pesantemente favore Caitlyn prima del livello 9, incubo dopo il livello 11. È la tua miniera d'oro: shova la wave forte pre-3 (spingi forte la lane), forzala via dalla lane con la **Q**, e tieni il jungler informato sulle dive (andare sotto torre per ucciderla nonostante i tiri della torre) al livello 6. Se sopravvive a due item, la lane è andata e devi switchare in modalità back line.
 - **Samira:** Vuole un all-in (scambio totale fino alla kill) corpo a corpo non appena ha la W. Piazza trap nel bush della lane per chiudere la sua via d'ingaggio, salva la **E** come knockback nel momento esatto in cui dasha addosso (non bruciarla in poke), e mai fight contro di lei senza la Phantom Dancer in shield.
 
-## Power spikes & win conditions
+## Power spike & condizioni di vittoria
 
 - **Livello 2:** Con un punto in **Q** e uno in **E**, il combo Q-AA-AA chunka il 30-40% degli HP dell'ADC nemico se cammina avanti per last-hittare. Tieni la wave al centro lane e cerca questa finestra.
 - **Livello 6:** Prima **Ace in the Hole** sblocca la pressione da pick (eliminare un nemico isolato fuori dal teamfight). Lanciala da dentro un tri-bush così il reveal del proiettile non telegrafa la tua posizione. Non sprecarla in poke: aspetta un runner low-HP senza alleati vicini.
 - **Completamento The Collector (~ minuto 8-10):** Primo breakpoint di execute. Quasi tutti i squishie (campioni con poche difese) sotto il 5% HP muoiono istantaneamente alla passiva, quindi una **Q** che cleava una linea bassa di minion fino al campione nemico diventa kill gratis.
 - **Infinity Edge online (~ minuto 18-22):** Il tuo spike di danno più grande. I proc Headshot passano da "pungono" a "cancellano l'ADC nemico". Forza fight su obiettivi qui — Drake o Rift Herald — e costruisci vision attorno alle zone della tua win condition.
 
-## Common mistakes
+## Errori comuni
 
 - **Spammare la Q per waveclear senza gestire la mana.** Caitlyn è mana-hungry early. Q la wave solo quando si allineano due melee minion più un caster, sennò arrivi al trade dopo con la mana vuota.
 - **Lanciare W trap come poke.** Le trap sono un setup tool, non un damage tool. Piazzale nei chokepoint (bush della lane, tri-bush, ingresso del river) dove il nemico deve passare per last-hittare o rotare. Una trap nuda ai piedi dell'ADC nemico spreca un secondo di lane prio (priority — l'ascendente in lane che ti fa lasciare la lane senza perdere risorse).
@@ -128,6 +128,6 @@ Il game plan è semplice da raccontare e duro da eseguire: poke (logorare gli HP
 - **Usare la R come poke da metà mappa.** **Ace in the Hole** ha channel lungo e qualunque alleato vicino al bersaglio body-blocca il proiettile. Salvala per runner **isolati** low-HP — bersagli senza alleati a meno di 350 unità.
 - **Bruciare la E per inseguire una kill.** **90 Caliber Net** è la tua unica escape. In cooldown sei un glass cannon (campione ad alto danno e poche difese, tipico degli ADC) senza risposta a un diver. Usala per scappare, non per chiudere la distanza.
 
-## Advanced tip
+## Suggerimento avanzato
 
 Allena la sequenza **"Trap → Q → Headshot potenziato"** nei chokepoint. Cammina fino a un tri-bush o all'ingresso jungle, piazza la **W** dietro la linea nemica sul lato della loro ritirata, poi spingili indietro col poke della **Q**. Nell'attimo in cui pestano la trap, il root da 1.5s ti garantisce un follow-up di **Q** più un Headshot potenziato — e il colpo potenziato ha **range raddoppiato** contro i bersagli intrappolati, il che significa che lo spari da una distanza dalla quale la maggior parte degli ADC non può nemmeno auto-attaccare. Trasforma un 2v2 in lane in un 1.5v2: l'ADC nemico sceglie tra perdere wave prio (lasciare la lane senza gestire i minion) o pestare un combo garantito. In entrambi i casi vinci il trade.
