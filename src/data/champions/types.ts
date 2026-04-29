@@ -56,4 +56,11 @@ export interface ChampionGuide {
   is_latest: boolean;
   /** 3-5 same-role siblings derived from `_meta/top-50-champions.json`. */
   related_champions: RelatedChampion[];
+  /** Riot numeric champion key (string) resolved from `_meta/champion-keys.json`.
+   *  Used to address Community Dragon by stable numeric path
+   *  (`/champion/<key>/...`) instead of slug — the slug-based `latest` alias
+   *  has been observed broken on some champions (e.g. aatrox/ahri/akshan
+   *  on 2026-04-29). Null when the key file is absent or the champion is not
+   *  in it (extremely new champion not yet synced). */
+  champion_key?: string | null;
 }

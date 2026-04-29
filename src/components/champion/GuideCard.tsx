@@ -23,6 +23,9 @@ export type GuideCardLocaleData = {
   difficulty: number | null;
   damage_type: string | null;
   champion_dd_id: string | null;
+  /** Riot numeric champion key (e.g. "166" for Akshan). When present, used
+   *  to address CDragon by stable path; null for guides predating the sync. */
+  champion_key: string | null;
 };
 
 interface GuideCardProps {
@@ -68,7 +71,14 @@ function fallbackDdId(slug: string): string {
     .join('');
 }
 
-function portraitUrl(ddId: string): string {
+function portraitUrl(ddId: string, championKey: string | null): string {
+  // Prefer the numeric champion key when available: CDragon's `latest` alias
+  // resolves reliably by numeric id (e.g. /166/...) but has been observed
+  // broken on some slugs (aatrox/ahri/akshan on 2026-04-29). The slug path
+  // is kept as a fallback for guides predating the keys sync.
+  if (championKey && /^\d+$/.test(championKey)) {
+    return `${CDRAGON_BASE}/${championKey}/splash-art/centered`;
+  }
   return `${CDRAGON_BASE}/${ddId.toLowerCase()}/splash-art/centered`;
 }
 
@@ -174,7 +184,7 @@ export function GuideCard(props: GuideCardProps): JSX.Element {
       >
         <div class="aspect-[16/9] relative bg-surface-container-low overflow-hidden">
           <img
-            src={portraitUrl(ddId())}
+            src={portraitUrl(ddId(), props.locale.champion_key ?? null)}
             alt={tpl('wp35.hub.card.portrait_alt', {
               champion: props.champion,
             })}

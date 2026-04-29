@@ -38,9 +38,24 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, '..');
 const CONTENT_ROOT = resolve(REPO_ROOT, 'content/champions');
 const META_TOP50 = resolve(REPO_ROOT, 'content/_meta/top-50-champions.json');
+const META_CHAMPION_KEYS = resolve(REPO_ROOT, 'content/_meta/champion-keys.json');
 const OUTPUT_DIR = resolve(REPO_ROOT, 'src/data/champions');
 const LANGS = ['en', 'it'];
 const ROLES = ['top', 'jungle', 'mid', 'bot', 'support'];
+
+// Lazy-load Riot numeric champion keys (synced via scripts/sync-champion-keys.mjs).
+// Optional: build still succeeds without the file (champion_key emits null and
+// the hub falls back to the slug-based CDragon path + DDragon fallback).
+async function loadChampionKeys() {
+  if (!existsSync(META_CHAMPION_KEYS)) {
+    console.warn(`[compile-content] champion-keys.json missing — run \`node scripts/sync-champion-keys.mjs\` to enable numeric-id splash URLs`);
+    return new Map();
+  }
+  const raw = await readFile(META_CHAMPION_KEYS, 'utf8');
+  const parsed = JSON.parse(raw);
+  const map = new Map(Object.entries(parsed.keys ?? {}));
+  return map;
+}
 
 // ---------------------------------------------------------------------------
 // Frontmatter validation (mirror of src/lib/content/champion-schema.ts).
@@ -394,7 +409,7 @@ function pickRelated(guide, top50, max = 5) {
 // Compile pipeline.
 // ---------------------------------------------------------------------------
 
-async function compileLanguage(lang, top50) {
+async function compileLanguage(lang, top50, championKeys) {
   const dir = resolve(CONTENT_ROOT, lang);
   if (!existsSync(dir)) {
     return [];
@@ -454,6 +469,8 @@ async function compileLanguage(lang, top50) {
     const latestPatch = allPatches[allPatches.length - 1];
     const isLatest = guide.patch === latestPatch;
     const related = pickRelated(guide, top50);
+    const ddId = guide.quick_learn?.champion_dd_id ?? null;
+    const championKey = ddId ? championKeys.get(ddId) ?? null : null;
     // Emit shape coerente con ChampionGuide TS interface.
     return {
       slug: guide.slug,
@@ -477,6 +494,7 @@ async function compileLanguage(lang, top50) {
       available_patches: allPatches,
       is_latest: isLatest,
       related_champions: related,
+      champion_key: championKey,
     };
   });
   // Stable order: by champion, then by patch desc (latest first).
@@ -532,6 +550,7 @@ function buildHubIndex(guidesByLang) {
         difficulty: g.quick_learn?.difficulty ?? null,
         damage_type: g.quick_learn?.damage_type ?? null,
         champion_dd_id: g.quick_learn?.champion_dd_id ?? null,
+        champion_key: g.champion_key ?? null,
       };
     }
   }
@@ -608,10 +627,11 @@ function buildCounterIndex(guidesByLang) {
 async function main() {
   await mkdir(OUTPUT_DIR, { recursive: true });
   const top50 = await loadTop50();
+  const championKeys = await loadChampionKeys();
   let totalGuides = 0;
   const guidesByLang = {};
   for (const lang of LANGS) {
-    const guides = await compileLanguage(lang, top50);
+    const guides = await compileLanguage(lang, top50, championKeys);
     const out = emitTsModule(lang, guides);
     await writeFile(resolve(OUTPUT_DIR, `${lang}.ts`), out, 'utf8');
     console.log(`[compile-content] ${lang}: ${guides.length} guide(s) emitted`);

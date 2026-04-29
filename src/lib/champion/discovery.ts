@@ -21,6 +21,9 @@ export interface HubIndexLocaleData {
   difficulty: number | null;
   damage_type: string | null;
   champion_dd_id: string | null;
+  /** Riot numeric champion key (e.g. "166" for Akshan). Used to address
+   *  Community Dragon by stable path; null when not synced yet. */
+  champion_key: string | null;
 }
 
 export interface HubIndexEntry {
@@ -44,6 +47,7 @@ function pickLocaleData(g: ChampionGuide): HubIndexLocaleData {
     difficulty: g.quick_learn?.difficulty ?? null,
     damage_type: g.quick_learn?.damage_type ?? null,
     champion_dd_id: g.quick_learn?.champion_dd_id ?? null,
+    champion_key: g.champion_key ?? null,
   };
 }
 

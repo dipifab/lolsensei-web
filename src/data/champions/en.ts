@@ -268,7 +268,8 @@ export const enChampions: ChampionGuide[] = [
         "champion": "jax",
         "role": "top"
       }
-    ]
+    ],
+    "champion_key": "266"
   },
   {
     "slug": "ahri-mid",
@@ -531,7 +532,8 @@ export const enChampions: ChampionGuide[] = [
         "champion": "orianna",
         "role": "mid"
       }
-    ]
+    ],
+    "champion_key": "103"
   },
   {
     "slug": "akali-mid",
@@ -737,7 +739,8 @@ export const enChampions: ChampionGuide[] = [
         "champion": "orianna",
         "role": "mid"
       }
-    ]
+    ],
+    "champion_key": "84"
   },
   {
     "slug": "akshan-mid",
@@ -1011,7 +1014,8 @@ export const enChampions: ChampionGuide[] = [
         "champion": "orianna",
         "role": "mid"
       }
-    ]
+    ],
+    "champion_key": "166"
   },
   {
     "slug": "caitlyn-bot",
@@ -1213,7 +1217,8 @@ export const enChampions: ChampionGuide[] = [
         "champion": "jinx",
         "role": "bot"
       }
-    ]
+    ],
+    "champion_key": "51"
   },
   {
     "slug": "fizz-mid",
@@ -1476,7 +1481,8 @@ export const enChampions: ChampionGuide[] = [
         "champion": "lux",
         "role": "mid"
       }
-    ]
+    ],
+    "champion_key": "105"
   },
   {
     "slug": "garen-top",
@@ -1680,7 +1686,8 @@ export const enChampions: ChampionGuide[] = [
         "champion": "jax",
         "role": "top"
       }
-    ]
+    ],
+    "champion_key": "86"
   },
   {
     "slug": "graves-jungle",
@@ -1888,7 +1895,8 @@ export const enChampions: ChampionGuide[] = [
         "champion": "kayn",
         "role": "jungle"
       }
-    ]
+    ],
+    "champion_key": "104"
   },
   {
     "slug": "lee-sin-jungle",
@@ -2098,7 +2106,8 @@ export const enChampions: ChampionGuide[] = [
         "champion": "hecarim",
         "role": "jungle"
       }
-    ]
+    ],
+    "champion_key": "64"
   },
   {
     "slug": "lux-mid",
@@ -2362,7 +2371,8 @@ export const enChampions: ChampionGuide[] = [
         "champion": "orianna",
         "role": "mid"
       }
-    ]
+    ],
+    "champion_key": "99"
   },
   {
     "slug": "neeko-mid",
@@ -2569,7 +2579,8 @@ export const enChampions: ChampionGuide[] = [
         "champion": "lux",
         "role": "mid"
       }
-    ]
+    ],
+    "champion_key": "518"
   },
   {
     "slug": "neeko-support",
@@ -2776,7 +2787,8 @@ export const enChampions: ChampionGuide[] = [
         "champion": "leona",
         "role": "support"
       }
-    ]
+    ],
+    "champion_key": "518"
   },
   {
     "slug": "neeko-top",
@@ -2983,7 +2995,8 @@ export const enChampions: ChampionGuide[] = [
         "champion": "irelia",
         "role": "top"
       }
-    ]
+    ],
+    "champion_key": "518"
   },
   {
     "slug": "thresh-support",
@@ -3190,7 +3203,8 @@ export const enChampions: ChampionGuide[] = [
         "champion": "leona",
         "role": "support"
       }
-    ]
+    ],
+    "champion_key": "412"
   },
   {
     "slug": "udyr-jungle",
@@ -3409,7 +3423,8 @@ export const enChampions: ChampionGuide[] = [
         "champion": "hecarim",
         "role": "jungle"
       }
-    ]
+    ],
+    "champion_key": "77"
   },
   {
     "slug": "udyr-top",
@@ -3628,6 +3643,7 @@ export const enChampions: ChampionGuide[] = [
         "champion": "irelia",
         "role": "top"
       }
-    ]
+    ],
+    "champion_key": "77"
   }
 ];

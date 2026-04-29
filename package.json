@@ -24,6 +24,7 @@
     "content:lint": "node scripts/content-lint.mjs && bash scripts/check-competitors.sh",
     "content:validate": "node scripts/content-lint.mjs",
     "content:compile": "node scripts/compile-content.mjs",
+    "sync:champion-keys": "node scripts/sync-champion-keys.mjs",
     "smoke:prod:wp30": "bash scripts/smoke-prod-wp30.sh",
     "baseline:lighthouse": "node scripts/measure-baseline.mjs",
     "test:e2e": "playwright test",

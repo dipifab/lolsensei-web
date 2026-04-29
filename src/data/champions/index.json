@@ -14,7 +14,8 @@
           "champion_class": "Fighter / Drain Tank",
           "difficulty": 2,
           "damage_type": "physical",
-          "champion_dd_id": "Aatrox"
+          "champion_dd_id": "Aatrox",
+          "champion_key": "266"
         },
         "it": {
           "title": "Aatrox Top: Build e Guida — Patch 16.9",
@@ -24,7 +25,8 @@
           "champion_class": "Fighter / Drain Tank",
           "difficulty": 2,
           "damage_type": "physical",
-          "champion_dd_id": "Aatrox"
+          "champion_dd_id": "Aatrox",
+          "champion_key": "266"
         }
       }
     },
@@ -41,7 +43,8 @@
           "champion_class": "Mage / Assassin",
           "difficulty": 2,
           "damage_type": "magic",
-          "champion_dd_id": "Ahri"
+          "champion_dd_id": "Ahri",
+          "champion_key": "103"
         },
         "it": {
           "title": "Ahri Mid Build & Guida — Patch 16.9",
@@ -51,7 +54,8 @@
           "champion_class": "Mago / Assassino",
           "difficulty": 2,
           "damage_type": "magic",
-          "champion_dd_id": "Ahri"
+          "champion_dd_id": "Ahri",
+          "champion_key": "103"
         }
       }
     },
@@ -68,7 +72,8 @@
           "champion_class": "Assassin / Burst",
           "difficulty": 3,
           "damage_type": "magic",
-          "champion_dd_id": "Akali"
+          "champion_dd_id": "Akali",
+          "champion_key": "84"
         },
         "it": {
           "title": "Akali Mid Build & Guide — Patch 16.9",
@@ -78,7 +83,8 @@
           "champion_class": "Assassin / Burst",
           "difficulty": 3,
           "damage_type": "magic",
-          "champion_dd_id": "Akali"
+          "champion_dd_id": "Akali",
+          "champion_key": "84"
         }
       }
     },
@@ -95,7 +101,8 @@
           "champion_class": "Marksman / Lethality Assassin",
           "difficulty": 3,
           "damage_type": "physical",
-          "champion_dd_id": "Akshan"
+          "champion_dd_id": "Akshan",
+          "champion_key": "166"
         },
         "it": {
           "title": "Akshan Mid Build & Guida — Patch 16.9",
@@ -105,7 +112,8 @@
           "champion_class": "Marksman / Assassino lethality",
           "difficulty": 3,
           "damage_type": "physical",
-          "champion_dd_id": "Akshan"
+          "champion_dd_id": "Akshan",
+          "champion_key": "166"
         }
       }
     },
@@ -122,7 +130,8 @@
           "champion_class": "Marksman / Lane Bully",
           "difficulty": 3,
           "damage_type": "physical",
-          "champion_dd_id": "Caitlyn"
+          "champion_dd_id": "Caitlyn",
+          "champion_key": "51"
         },
         "it": {
           "title": "Caitlyn Bot Build & Guida — Patch 16.9",
@@ -132,7 +141,8 @@
           "champion_class": "Marksman / Lane Bully",
           "difficulty": 3,
           "damage_type": "physical",
-          "champion_dd_id": "Caitlyn"
+          "champion_dd_id": "Caitlyn",
+          "champion_key": "51"
         }
       }
     },
@@ -149,7 +159,8 @@
           "champion_class": "Assassin / AP Melee",
           "difficulty": 3,
           "damage_type": "magic",
-          "champion_dd_id": "Fizz"
+          "champion_dd_id": "Fizz",
+          "champion_key": "105"
         },
         "it": {
           "title": "Fizz Mid Build & Guida — Patch 16.9",
@@ -159,7 +170,8 @@
           "champion_class": "Assassin / AP Melee",
           "difficulty": 3,
           "damage_type": "magic",
-          "champion_dd_id": "Fizz"
+          "champion_dd_id": "Fizz",
+          "champion_key": "105"
         }
       }
     },
@@ -176,7 +188,8 @@
           "champion_class": "Juggernaut / Bruiser",
           "difficulty": 2,
           "damage_type": "physical",
-          "champion_dd_id": "Garen"
+          "champion_dd_id": "Garen",
+          "champion_key": "86"
         },
         "it": {
           "title": "Garen Top Build & Guida — Patch 16.9",
@@ -186,7 +199,8 @@
           "champion_class": "Juggernaut / Bruiser",
           "difficulty": 2,
           "damage_type": "physical",
-          "champion_dd_id": "Garen"
+          "champion_dd_id": "Garen",
+          "champion_key": "86"
         }
       }
     },
@@ -203,7 +217,8 @@
           "champion_class": "Marksman / Skirmisher Jungle",
           "difficulty": 2,
           "damage_type": "physical",
-          "champion_dd_id": "Graves"
+          "champion_dd_id": "Graves",
+          "champion_key": "104"
         },
         "it": {
           "title": "Graves Jungle Build & Guida — Patch 16.9",
@@ -213,7 +228,8 @@
           "champion_class": "Marksman / Skirmisher Jungle",
           "difficulty": 2,
           "damage_type": "physical",
-          "champion_dd_id": "Graves"
+          "champion_dd_id": "Graves",
+          "champion_key": "104"
         }
       }
     },
@@ -230,7 +246,8 @@
           "champion_class": "Fighter / Skirmisher Jungle",
           "difficulty": 3,
           "damage_type": "physical",
-          "champion_dd_id": "LeeSin"
+          "champion_dd_id": "LeeSin",
+          "champion_key": "64"
         },
         "it": {
           "title": "Lee Sin Jungle Build & Guida — Patch 16.9",
@@ -240,7 +257,8 @@
           "champion_class": "Fighter / Skirmisher Jungle",
           "difficulty": 3,
           "damage_type": "physical",
-          "champion_dd_id": "LeeSin"
+          "champion_dd_id": "LeeSin",
+          "champion_key": "64"
         }
       }
     },
@@ -257,7 +275,8 @@
           "champion_class": "Mage / Burst",
           "difficulty": 2,
           "damage_type": "magic",
-          "champion_dd_id": "Lux"
+          "champion_dd_id": "Lux",
+          "champion_key": "99"
         },
         "it": {
           "title": "Lux Mid Build & Guida — Patch 16.9",
@@ -267,7 +286,8 @@
           "champion_class": "Mago / Burst",
           "difficulty": 2,
           "damage_type": "magic",
-          "champion_dd_id": "Lux"
+          "champion_dd_id": "Lux",
+          "champion_key": "99"
         }
       }
     },
@@ -284,7 +304,8 @@
           "champion_class": "Mage / Burst",
           "difficulty": 2,
           "damage_type": "magic",
-          "champion_dd_id": "Neeko"
+          "champion_dd_id": "Neeko",
+          "champion_key": "518"
         },
         "it": {
           "title": "Neeko Mid Build & Guida — Patch 16.9",
@@ -294,7 +315,8 @@
           "champion_class": "Mage / Burst",
           "difficulty": 2,
           "damage_type": "magic",
-          "champion_dd_id": "Neeko"
+          "champion_dd_id": "Neeko",
+          "champion_key": "518"
         }
       }
     },
@@ -311,7 +333,8 @@
           "champion_class": "Mage / Engage",
           "difficulty": 2,
           "damage_type": "magic",
-          "champion_dd_id": "Neeko"
+          "champion_dd_id": "Neeko",
+          "champion_key": "518"
         },
         "it": {
           "title": "Neeko Support Build & Guida — Patch 16.9",
@@ -321,7 +344,8 @@
           "champion_class": "Mage / Engage",
           "difficulty": 2,
           "damage_type": "magic",
-          "champion_dd_id": "Neeko"
+          "champion_dd_id": "Neeko",
+          "champion_key": "518"
         }
       }
     },
@@ -338,7 +362,8 @@
           "champion_class": "Mage / Bruiser",
           "difficulty": 3,
           "damage_type": "magic",
-          "champion_dd_id": "Neeko"
+          "champion_dd_id": "Neeko",
+          "champion_key": "518"
         },
         "it": {
           "title": "Neeko Top Build & Guida — Patch 16.9",
@@ -348,7 +373,8 @@
           "champion_class": "Mage / Bruiser",
           "difficulty": 3,
           "damage_type": "magic",
-          "champion_dd_id": "Neeko"
+          "champion_dd_id": "Neeko",
+          "champion_key": "518"
         }
       }
     },
@@ -365,7 +391,8 @@
           "champion_class": "Tank / Catcher",
           "difficulty": 3,
           "damage_type": "magic",
-          "champion_dd_id": "Thresh"
+          "champion_dd_id": "Thresh",
+          "champion_key": "412"
         },
         "it": {
           "title": "Thresh Support: Build & Guida — Patch 16.9",
@@ -375,7 +402,8 @@
           "champion_class": "Tank / Catcher",
           "difficulty": 3,
           "damage_type": "magic",
-          "champion_dd_id": "Thresh"
+          "champion_dd_id": "Thresh",
+          "champion_key": "412"
         }
       }
     },
@@ -392,7 +420,8 @@
           "champion_class": "Fighter / Diver Jungle",
           "difficulty": 3,
           "damage_type": "physical",
-          "champion_dd_id": "Udyr"
+          "champion_dd_id": "Udyr",
+          "champion_key": "77"
         },
         "it": {
           "title": "Guida a Udyr Jungle — Build e matchup, Patch 16.9",
@@ -402,7 +431,8 @@
           "champion_class": "Fighter / Diver Jungle",
           "difficulty": 3,
           "damage_type": "physical",
-          "champion_dd_id": "Udyr"
+          "champion_dd_id": "Udyr",
+          "champion_key": "77"
         }
       }
     },
@@ -419,7 +449,8 @@
           "champion_class": "Fighter / Bruiser Top",
           "difficulty": 3,
           "damage_type": "physical",
-          "champion_dd_id": "Udyr"
+          "champion_dd_id": "Udyr",
+          "champion_key": "77"
         },
         "it": {
           "title": "Udyr Top — Build e Guida — Patch 16.9",
@@ -429,7 +460,8 @@
           "champion_class": "Fighter / Bruiser Top",
           "difficulty": 3,
           "damage_type": "physical",
-          "champion_dd_id": "Udyr"
+          "champion_dd_id": "Udyr",
+          "champion_key": "77"
         }
       }
     }
