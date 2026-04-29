@@ -41,6 +41,14 @@
   Cache-Control: no-store
   Content-Disposition: attachment; filename="lolsensei-beta.exe"
 
+# Diag channel installer — temporary instrumented build per debug AI bug
+# (full traffic capture in app_data_dir/diag-session.jsonl). Hidden, no
+# crawl, direct-URL access only. Da rimuovere quando il bug e' chiuso.
+/beta-diag.exe
+  X-Robots-Tag: noindex, nofollow, noarchive
+  Cache-Control: no-store
+  Content-Disposition: attachment; filename="lolsensei-beta-diag.exe"
+
 /console
   X-Robots-Tag: noindex, nofollow
   Cache-Control: no-store
