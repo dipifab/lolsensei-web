@@ -205,6 +205,122 @@
       }
     },
     {
+      "slug": "anivia-mid",
+      "champion": "anivia",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Anivia Mid Build & Guide — Patch 16.9",
+          "description": "Anivia mid lane guide for League of Legends Patch 16.9: starter kit, control mage build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mage / Control",
+          "difficulty": 5,
+          "damage_type": "magic",
+          "champion_dd_id": "Anivia",
+          "champion_key": "34"
+        },
+        "it": {
+          "title": "Anivia Mid Build & Guide — Patch 16.9",
+          "description": "Guida ad Anivia mid lane su League of Legends Patch 16.9: starter kit, build da control mage, matchup chiave, power spike, errori tipici e una tip finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mage / Control",
+          "difficulty": 5,
+          "damage_type": "magic",
+          "champion_dd_id": "Anivia",
+          "champion_key": "34"
+        }
+      }
+    },
+    {
+      "slug": "annie-mid",
+      "champion": "annie",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Annie Mid Build & Guide — Patch 16.9",
+          "description": "Annie mid lane guide for League of Legends Patch 16.9: Pyromania stun setup, burst build path, key matchups, power spikes, common mistakes, and a closing pro tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mage / Burst",
+          "difficulty": 1,
+          "damage_type": "magic",
+          "champion_dd_id": "Annie",
+          "champion_key": "1"
+        },
+        "it": {
+          "title": "Annie Mid Build & Guida — Patch 16.9",
+          "description": "Guida Annie mid lane per League of Legends Patch 16.9: setup dello stun di Pyromania, build burst, matchup chiave, power spike, errori comuni e un consiglio finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mago / Burst",
+          "difficulty": 1,
+          "damage_type": "magic",
+          "champion_dd_id": "Annie",
+          "champion_key": "1"
+        }
+      }
+    },
+    {
+      "slug": "aphelios-bot",
+      "champion": "aphelios",
+      "role": "bot",
+      "locales": {
+        "en": {
+          "title": "Aphelios Bot Build & Guide — Patch 16.9",
+          "description": "Aphelios bot lane guide for League of Legends Patch 16.9: weapon order basics, core marksman build, key matchups, power spikes, mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Marksman / Weapon Swap",
+          "difficulty": 5,
+          "damage_type": "physical",
+          "champion_dd_id": "Aphelios",
+          "champion_key": "523"
+        },
+        "it": {
+          "title": "Aphelios Bot Build & Guida — Patch 16.9",
+          "description": "Guida Aphelios bot lane League of Legends Patch 16.9: rotazione armi, build marksman core, matchup chiave, power spike, errori tipici e una tecnica avanzata.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Marksman / Weapon Swap",
+          "difficulty": 5,
+          "damage_type": "physical",
+          "champion_dd_id": "Aphelios",
+          "champion_key": "523"
+        }
+      }
+    },
+    {
+      "slug": "ashe-bot",
+      "champion": "ashe",
+      "role": "bot",
+      "locales": {
+        "en": {
+          "title": "Ashe ADC Build & Guide — Patch 16.9",
+          "description": "Ashe ADC bot lane guide for League of Legends Patch 16.9: Frost Shot kiting setup, core marksman build, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Marksman / Utility",
+          "difficulty": 2,
+          "damage_type": "physical",
+          "champion_dd_id": "Ashe",
+          "champion_key": "22"
+        },
+        "it": {
+          "title": "Ashe ADC Build & Guida — Patch 16.9",
+          "description": "Guida Ashe ADC per League of Legends Patch 16.9: setup di kiting con Frost Shot, build marksman, matchup chiave, power spike, errori comuni e consiglio finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Marksman / Utility",
+          "difficulty": 2,
+          "damage_type": "physical",
+          "champion_dd_id": "Ashe",
+          "champion_key": "22"
+        }
+      }
+    },
+    {
       "slug": "caitlyn-bot",
       "champion": "caitlyn",
       "role": "bot",

@@ -1401,6 +1401,86 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/amumu/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/amumu/jungle/guide" />
   </url>
+  <!-- champion-guide/anivia/mid: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/anivia/mid/guide</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/anivia/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/anivia/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/anivia/mid/guide" />
+  </url>
+  <!-- champion-guide/anivia/mid: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/anivia/mid/guide</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/anivia/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/anivia/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/anivia/mid/guide" />
+  </url>
+  <!-- champion-guide/annie/mid: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/annie/mid/guide</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/annie/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/annie/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/annie/mid/guide" />
+  </url>
+  <!-- champion-guide/annie/mid: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/annie/mid/guide</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/annie/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/annie/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/annie/mid/guide" />
+  </url>
+  <!-- champion-guide/aphelios/bot: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/aphelios/bot/guide</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/aphelios/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/aphelios/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/aphelios/bot/guide" />
+  </url>
+  <!-- champion-guide/aphelios/bot: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/aphelios/bot/guide</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/aphelios/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/aphelios/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/aphelios/bot/guide" />
+  </url>
+  <!-- champion-guide/ashe/bot: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/ashe/bot/guide</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/ashe/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/ashe/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/ashe/bot/guide" />
+  </url>
+  <!-- champion-guide/ashe/bot: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/ashe/bot/guide</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/ashe/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/ashe/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/ashe/bot/guide" />
+  </url>
   <!-- champion-guide/caitlyn/bot: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/caitlyn/bot/guide</loc>

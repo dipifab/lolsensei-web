@@ -46,6 +46,46 @@
       },
       {
         "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "They enter Anivia's E range during her cast windows; she has no dash and only one egg, so a chained dash combo bursts her before R can finish forming.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "Entrano nel suo cast range mentre lei sta lanciando E; non ha dash e l'uovo è uno solo, quindi una catena di dash la bursta prima che R sia formata.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "High-mobility assassins post-6",
+        "reason": "Their dashes or stealth windows leave the 600 R radius before her stun lands. Akali's shroud and Yasuo's Wind Wall directly eat her main spells.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili post-6",
+        "reason": "I loro dash o intervalli di stealth escono dal raggio di 600 della R prima che lo stun parta. La shroud di Akali e il Wind Wall di Yasuo bloccano direttamente le sue spell principali.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -66,6 +106,26 @@
       }
     ],
     "anivia": [
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "Annie's R is a point-blank 600-range AOE stun + Tibbers DPS. Mages without a dash or stealth eat the whole combo on the level 6 all-in and cannot answer in time.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "La R di Annie è uno stun AOE point-blank a 600 di gittata + Tibbers DPS. I mage senza dash o stealth subiscono tutto il combo all'all-in di livello 6 e non hanno tempo di rispondere.",
+        "via": "pick_into"
+      },
       {
         "publisher": {
           "champion": "fizz",
@@ -293,6 +353,46 @@
         "archetype": "ADC immobili senza dash",
         "reason": "La W ha 650 di range ed è target singolo: gli ADC senza dash o blink mangiano la combo intera ogni volta che si avvicinano per last-hittare. Una volta che parti non possono fuggire.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Long-range poke marksmen",
+        "reason": "They out-poke Aphelios at distances even Calibrum cannot answer (Caitlyn traps + headshot, Senna Q from fog, Jhin W root). Aphelios cannot close the gap, so he bleeds HP without committing back.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Marksman da poke a lungo raggio",
+        "reason": "Logorano Aphelios da distanze in cui nemmeno Calibrum risponde (trap + headshot Caitlyn, Q dalla fog Senna, W root Jhin). Aphelios non può chiudere la distanza, quindi perde HP senza poter rispondere.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Long-range marksmen with poke",
+        "reason": "Caitlyn 650 AA, Jhin 4th-shot 750 range, Varus W stacks at 925 — they out-poke Ashe's 600 AA and bleed her HP every wave without ever entering W range.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Marksman a lunga gittata con poke",
+        "reason": "Caitlyn 650 AA, Jhin 4° colpo a 750, Varus W che stacca a 925 — pokano oltre il 600 di AA di Ashe e le tolgono HP a ogni wave senza mai entrare nel range della W.",
+        "via": "counterpick"
       }
     ],
     "camille": [
@@ -315,6 +415,28 @@
         "archetype": "Duellanti a true damage con parry o scudo",
         "reason": "La W di Fiora fa parry sul knock-up della Q e i Vitals (marker che lei mette su Aatrox e colpisce con auto a true damage — danno che ignora armor e MR) ignorano la build drain tank; la E di Camille aggiunge altro true damage sopra.",
         "via": "counterpick"
+      }
+    ],
+    "cassiopeia": [
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "Annie's R is a point-blank 600-range AOE stun + Tibbers DPS. Mages without a dash or stealth eat the whole combo on the level 6 all-in and cannot answer in time.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "La R di Annie è uno stun AOE point-blank a 600 di gittata + Tibbers DPS. I mage senza dash o stealth subiscono tutto il combo all'all-in di livello 6 e non hanno tempo di rispondere.",
+        "via": "pick_into"
       }
     ],
     "darius": [
@@ -358,6 +480,48 @@
         },
         "archetype": "Assassini mobili con multi gap-close",
         "reason": "La E di Akshan si aggancia solo al terreno, quindi non può swingare attraverso un assassino fed in campo aperto. Lo shroud di Akali rompe il targeting, Fizz scappa con E sopra le auto, la R di Diana lo incatena a metà channel.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Telegraphed melee burst with slow tell",
+        "reason": "Annie pre-stacks Pyromania during waveclear, so the moment they commit to gap-close range her Flash + R stun interrupts their combo before the damage lands.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Burst melee con tell visivo",
+        "reason": "Annie precarica Pyromania durante il waveclear: nel momento in cui fanno il commit alla gap-close, lo stun di Flash + R interrompe il loro combo prima che il danno parta.",
+        "via": "pick_into"
+      }
+    ],
+    "draven": [
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Aggressive early-game marksmen",
+        "reason": "Their level 1-3 windows are brutal: short cooldowns and high base damage punish Aphelios while his Q has 9-second cooldown and weapon ammo is finite. He cannot trade back without giving up ammo he needs to push the wave.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Marksman aggressivi early-game",
+        "reason": "I loro livelli 1-3 sono brutali: cooldown corti e damage base alto puniscono Aphelios mentre la sua Q ha 9s di cooldown e le munizioni sono finite. Non può rispondere senza sprecare ammo che gli serve a spingere la wave.",
         "via": "counterpick"
       }
     ],
@@ -468,6 +632,46 @@
       },
       {
         "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "They enter Anivia's E range during her cast windows; she has no dash and only one egg, so a chained dash combo bursts her before R can finish forming.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "Entrano nel suo cast range mentre lei sta lanciando E; non ha dash e l'uovo è uno solo, quindi una catena di dash la bursta prima che R sia formata.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Melee mages weak before 6",
+        "reason": "Both have to walk into Q range to farm pre-6: Annie pokes them freely, holds level 2 with stacked Pyromania, and forces a back without giving them a counter-engage tool.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage melee deboli pre-6",
+        "reason": "Devono entrare nel range della Q per farmare pre-6: Annie li poka liberamente, tiene il livello 2 con Pyromania caricato e li forza al back senza counter-engage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -506,6 +710,26 @@
         },
         "archetype": "Mage anti-assassino con hard CC",
         "reason": "Il loro hard CC prende Ahri a metà R: un singolo root o taunt durante la finestra di dash cancella sia il danno che l'escape, trasformando un tentativo di pickoff in una kill gratis per loro.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Global / cross-map roamers",
+        "reason": "Annie has no roam range — she clears waves and stays in mid. Their ult flips side lanes and dragons, so Annie loses the macro game even when she wins her 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Roamer globali / cross-map",
+        "reason": "Annie non ha range di roam — pulisce le wave e resta in mid. La loro ult ribalta side lane e dragoni, quindi Annie perde il macro game anche quando vince il matchup 1v1.",
         "via": "counterpick"
       },
       {
@@ -569,6 +793,26 @@
         "archetype": "Bruiser melee immobili senza dash",
         "reason": "I suoi passive dash dopo ogni ability cast le permettono di entrare e uscire dai windup telegrafati (presa di Darius, silenzio di Garen, E di Illaoi). La suppression della R bypassa la loro tankiness per la kill.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Melee bruisers without ranged engage",
+        "reason": "Crystallize blocks every melee engage path; combined with E shove and R waveclear, she farms safely while they cannot reach her without burning Flash.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Melee bruisers without ranged engage",
+        "reason": "Crystallize blocca ogni linea di engage melee; con E per shovare e R per pulire wave, lei farma in sicurezza mentre loro non la raggiungono senza burnare Flash.",
+        "via": "pick_into"
       }
     ],
     "gnar": [
@@ -591,6 +835,28 @@
         "archetype": "Poker e kiter a lungo raggio",
         "reason": "E di Jayce (knockback) e mega R di Gnar interrompono il dash a metà cast. I kiter restano fuori dal suo threat range, costringendola a impegnare i dash da troppo lontano e poi punirla con le ability in cooldown.",
         "via": "counterpick"
+      }
+    ],
+    "heimerdinger": [
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Immobile bot-lane scalers",
+        "reason": "Gravitum (the cannon) slows them on every auto, then the Q roots every slowed target at once. With a level-6 R follow-up, an immobile target eats the full burst before they can finish a channel.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Scaler bot lane senza mobilità",
+        "reason": "Gravitum (il cannone) li rallenta ad ogni auto, poi la Q blocca tutti i bersagli rallentati insieme. Con la R al livello 6 in follow-up, un target immobile si mangia tutto il burst prima di completare un channel.",
+        "via": "pick_into"
       }
     ],
     "illaoi": [
@@ -679,6 +945,46 @@
         "archetype": "ADC immobili senza dash",
         "reason": "La W ha 650 di range ed è target singolo: gli ADC senza dash o blink mangiano la combo intera ogni volta che si avvicinano per last-hittare. Una volta che parti non possono fuggire.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Long-range poke marksmen",
+        "reason": "They out-poke Aphelios at distances even Calibrum cannot answer (Caitlyn traps + headshot, Senna Q from fog, Jhin W root). Aphelios cannot close the gap, so he bleeds HP without committing back.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Marksman da poke a lungo raggio",
+        "reason": "Logorano Aphelios da distanze in cui nemmeno Calibrum risponde (trap + headshot Caitlyn, Q dalla fog Senna, W root Jhin). Aphelios non può chiudere la distanza, quindi perde HP senza poter rispondere.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Long-range marksmen with poke",
+        "reason": "Caitlyn 650 AA, Jhin 4th-shot 750 range, Varus W stacks at 925 — they out-poke Ashe's 600 AA and bleed her HP every wave without ever entering W range.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Marksman a lunga gittata con poke",
+        "reason": "Caitlyn 650 AA, Jhin 4° colpo a 750, Varus W che stacca a 925 — pokano oltre il 600 di AA di Ashe e le tolgono HP a ogni wave senza mai entrare nel range della W.",
+        "via": "counterpick"
       }
     ],
     "jinx": [
@@ -700,6 +1006,26 @@
         },
         "archetype": "Carry immobili senza escape",
         "reason": "Q è uno skillshot da 1100 range che trascina Amumu sul primo bersaglio colpito. I carry senza dash o blink (Jinx, Ashe) vengono strappati fuori posizione nel momento in cui si fanno avanti per last-hittare la wave.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Hyper-scaling marksmen with weak early",
+        "reason": "Aphelios's level 1-2 with Calibrum out-trades anyone whose lane phase is just farming. Apply pressure pre-3 items so they never reach their late-game spike.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Marksman da scaling con early debole",
+        "reason": "Aphelios livello 1-2 con Calibrum vince ogni scambio contro chi vive di solo farm in lane phase. Mettigli pressione prima dei loro 3 item così non arrivano mai al loro spike di late game.",
         "via": "pick_into"
       }
     ],
@@ -745,6 +1071,46 @@
         "archetype": "Marksman con escape integrate nel kit",
         "reason": "La E di Ezreal, la W di Tristana e gli hop reset di Kalista escono tutti dal raggio della R di Amumu dopo che la Q connette. Curse va sprecata perché il carry si riposiziona prima che il team possa fare follow-up sullo stun.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Short-range marksmen that must commit",
+        "reason": "Calibrum (the rifle) out-ranges their auto-attack window: they have to step in to trade, and you punish with the long-range Q mark. The W swap to Severum then heals the chip damage they put on you.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Marksman a corto raggio che devono impegnarsi nel fight",
+        "reason": "Calibrum (il fucile) ha più range del loro auto-attack: per scambiare devono entrare e tu li punisci con il mark shot della Q. Poi la W swap a Severum cura il chip damage che ti hanno messo addosso.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Short-range marksmen with no early poke",
+        "reason": "Ashe's W has 1200 range and Frost Shot slow; she pokes them out from outside their 500-550 AA range and turns every approach into a free trade for her side.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Marksman a corto raggio senza poke iniziale",
+        "reason": "La W di Ashe ha 1200 di range e applica lo slow di Frost Shot; li poka da fuori del loro 500-550 di AA e ogni loro avvicinamento diventa un trade vinto da lei.",
+        "via": "pick_into"
       }
     ],
     "karma": [
@@ -812,6 +1178,46 @@
       },
       {
         "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "Annie's R is a point-blank 600-range AOE stun + Tibbers DPS. Mages without a dash or stealth eat the whole combo on the level 6 all-in and cannot answer in time.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "La R di Annie è uno stun AOE point-blank a 600 di gittata + Tibbers DPS. I mage senza dash o stealth subiscono tutto il combo all'all-in di livello 6 e non hanno tempo di rispondere.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Immobile bot-lane scalers",
+        "reason": "Gravitum (the cannon) slows them on every auto, then the Q roots every slowed target at once. With a level-6 R follow-up, an immobile target eats the full burst before they can finish a channel.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Scaler bot lane senza mobilità",
+        "reason": "Gravitum (il cannone) li rallenta ad ogni auto, poi la Q blocca tutti i bersagli rallentati insieme. Con la R al livello 6 in follow-up, un target immobile si mangia tutto il burst prima di completare un channel.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -871,6 +1277,26 @@
         "archetype": "Assassini mobili con mitigazione magica",
         "reason": "Fizz schiva i bolt della R con la sua E e la passiva riduce il burst magico; Kassadin ha uno scudo contro danno magico più un blink. Ahri scarica un combo intero e loro sopravvivono con un filo di HP, poi la uccidono nel frame di recovery.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Melee mages weak before 6",
+        "reason": "Both have to walk into Q range to farm pre-6: Annie pokes them freely, holds level 2 with stacked Pyromania, and forces a back without giving them a counter-engage tool.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage melee deboli pre-6",
+        "reason": "Devono entrare nel range della Q per farmare pre-6: Annie li poka liberamente, tiene il livello 2 con Pyromania caricato e li forza al back senza counter-engage.",
+        "via": "pick_into"
       }
     ],
     "katarina": [
@@ -892,6 +1318,26 @@
         },
         "archetype": "Comp da teamfight raggruppata con danno AOE",
         "reason": "La R di Amumu prende tutti in un raggio piccolo. Le comp che vogliono combattere raggruppate (Yasuo + Kennen con ult AOE, Katarina che salta tra i bersagli, Miss Fortune Bullet Time) si beccano lo stun insieme e amplificano i loro stessi spell tramite la passive Curse.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Telegraphed melee burst with slow tell",
+        "reason": "Annie pre-stacks Pyromania during waveclear, so the moment they commit to gap-close range her Flash + R stun interrupts their combo before the damage lands.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Burst melee con tell visivo",
+        "reason": "Annie precarica Pyromania durante il waveclear: nel momento in cui fanno il commit alla gap-close, lo stun di Flash + R interrompe il loro combo prima che il danno parta.",
         "via": "pick_into"
       }
     ],
@@ -977,6 +1423,26 @@
         "archetype": "Comp da teamfight raggruppata con danno AOE",
         "reason": "La R di Amumu prende tutti in un raggio piccolo. Le comp che vogliono combattere raggruppate (Yasuo + Kennen con ult AOE, Katarina che salta tra i bersagli, Miss Fortune Bullet Time) si beccano lo stun insieme e amplificano i loro stessi spell tramite la passive Curse.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Single-engage 5-man wombo comps",
+        "reason": "Crystallize splits the enemy team in two on the engage; if she walls between the initiator and the follow-up, the wombo lands on one or two targets, not five.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Single-engage 5-man wombo comps",
+        "reason": "Crystallize spezza in due l'engage avversario: se il muro va tra l'iniziatore e il follow-up, il wombo cade su uno o due bersagli, non su cinque.",
+        "via": "pick_into"
       }
     ],
     "kog-maw": [
@@ -999,6 +1465,68 @@
         "archetype": "Carry immobili senza escape",
         "reason": "Q è uno skillshot da 1100 range che trascina Amumu sul primo bersaglio colpito. I carry senza dash o blink (Jinx, Ashe) vengono strappati fuori posizione nel momento in cui si fanno avanti per last-hittare la wave.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Hyper-scaling marksmen with weak early",
+        "reason": "Aphelios's level 1-2 with Calibrum out-trades anyone whose lane phase is just farming. Apply pressure pre-3 items so they never reach their late-game spike.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Marksman da scaling con early debole",
+        "reason": "Aphelios livello 1-2 con Calibrum vince ogni scambio contro chi vive di solo farm in lane phase. Mettigli pressione prima dei loro 3 item così non arrivano mai al loro spike di late game.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Immobile scaling carries",
+        "reason": "Cross-map R deletes them on objective spawns or fountain reset windows. Their kit has no dash to escape the arrow once it leaves the fog of war.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Carry da scaling immobili",
+        "reason": "La R cross-map li elimina sugli spawn obiettivo o nelle finestre di reset alla fountain. Il loro kit non ha dash per scappare alla freccia che esce dalla fog of war.",
+        "via": "pick_into"
+      }
+    ],
+    "leblanc": [
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "They enter Anivia's E range during her cast windows; she has no dash and only one egg, so a chained dash combo bursts her before R can finish forming.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "Entrano nel suo cast range mentre lei sta lanciando E; non ha dash e l'uovo è uno solo, quindi una catena di dash la bursta prima che R sia formata.",
+        "via": "counterpick"
       }
     ],
     "leona": [
@@ -1020,6 +1548,46 @@
         },
         "archetype": "Altri tank engage support con hard CC più lungo",
         "reason": "Il loro primo cast atterra prima che tu entri in range di Q: Q hook di Nautilus, E dash-stun di Leona, W charge di Rell — tutte battono la tua W. Tu mangi il loro engage, loro non mangiano il tuo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Hard-engage supports",
+        "reason": "Aphelios has zero mobility (no dash, no blink). One CC chain from the support and he is dead before he can W-swap to Severum to heal or burn his Flash. Picking him into engage = picking him into death.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Support hard-engage",
+        "reason": "Aphelios ha mobilità zero (no dash, no blink). Una catena di CC dal support e muore prima di poter swappare a Severum per curarsi o di bruciare Flash. Pickarlo contro hard engage = pickarlo per morire.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Burst engage supports with hard CC",
+        "reason": "Ashe has no dash or shield to escape lock-down chains. A successful Leona Q or Nautilus Q removes her from the trade before she can W back, and her slow does nothing once she is stunned.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Support da engage con burst e CC duro",
+        "reason": "Ashe non ha dash né shield per uscire da una catena di lock-down. Una Leona Q o Nautilus Q riuscita la toglie dal trade prima che possa rispondere con W, e lo slow non serve se è già stunata.",
         "via": "counterpick"
       }
     ],
@@ -1085,6 +1653,48 @@
         "via": "counterpick"
       }
     ],
+    "lucian": [
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Aggressive early-game marksmen",
+        "reason": "Their level 1-3 windows are brutal: short cooldowns and high base damage punish Aphelios while his Q has 9-second cooldown and weapon ammo is finite. He cannot trade back without giving up ammo he needs to push the wave.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Marksman aggressivi early-game",
+        "reason": "I loro livelli 1-3 sono brutali: cooldown corti e damage base alto puniscono Aphelios mentre la sua Q ha 9s di cooldown e le munizioni sono finite. Non può rispondere senza sprecare ammo che gli serve a spingere la wave.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "High-mobility marksmen with dashes",
+        "reason": "Lucian's E and Tristana's W ignore Ashe's slow by repositioning instantly. They close the range gap without paying the kiting tax that hurts every other ADC.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Marksman ad alta mobilità con dash",
+        "reason": "La E di Lucian e la W di Tristana ignorano lo slow di Ashe riposizionandosi. Chiudono la distanza senza pagare la tassa di kite che pesa su ogni altro ADC.",
+        "via": "counterpick"
+      }
+    ],
     "lulu": [
       {
         "publisher": {
@@ -1127,6 +1737,46 @@
         "archetype": "Mage con un singolo tell di escape",
         "reason": "Akshan fa baitare lo stun di Annie, la Q di Lux o la R di Ahri, poi swinga con E sul recovery frame per un trade da 3-hit e la passiva scudata gratis.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without escape",
+        "reason": "Anivia's Q + W trap immobile mages: they cannot dodge the chill into a doubled E, and have no way around the wall when she splits their lane minions.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Immobile mages without escape",
+        "reason": "Q + W intrappolano i mage immobili: non possono schivare il chill in E doppia, e non hanno modo di girare attorno al wall quando lei spezza la wave.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "They poke Annie from 850-1400 range while she sits at 625. She has no dash or shield against ranged poke and bleeds HP every wave without an option to commit back.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Artillery mage a lunga gittata",
+        "reason": "Pokano Annie da 850-1400 di range mentre lei sta a 625. Non ha dash né shield contro il poke a distanza e perde HP a ogni wave senza l'opzione di rispondere con un all-in.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -1189,6 +1839,26 @@
         "archetype": "Tank con hard CC e stat-check",
         "reason": "CC point-and-click (R di Malphite, W di Poppy che blocca i dash, brittle + knock-up di Ornn) interrompe i suoi dash combo prima che la R atterri. L'armor + HP raw attutisce anche il % max HP scaling sulla Q.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Single-engage 5-man wombo comps",
+        "reason": "Crystallize splits the enemy team in two on the engage; if she walls between the initiator and the follow-up, the wombo lands on one or two targets, not five.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Single-engage 5-man wombo comps",
+        "reason": "Crystallize spezza in due l'engage avversario: se il muro va tra l'iniziatore e il follow-up, il wombo cade su uno o due bersagli, non su cinque.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -1339,6 +2009,28 @@
         "via": "pick_into"
       }
     ],
+    "mordekaiser": [
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Melee bruisers without ranged engage",
+        "reason": "Crystallize blocks every melee engage path; combined with E shove and R waveclear, she farms safely while they cannot reach her without burning Flash.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Melee bruisers without ranged engage",
+        "reason": "Crystallize blocca ogni linea di engage melee; con E per shovare e R per pulire wave, lei farma in sicurezza mentre loro non la raggiungono senza burnare Flash.",
+        "via": "pick_into"
+      }
+    ],
     "morgana": [
       {
         "publisher": {
@@ -1423,6 +2115,46 @@
         "archetype": "Altri tank engage support con hard CC più lungo",
         "reason": "Il loro primo cast atterra prima che tu entri in range di Q: Q hook di Nautilus, E dash-stun di Leona, W charge di Rell — tutte battono la tua W. Tu mangi il loro engage, loro non mangiano il tuo.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Hard-engage supports",
+        "reason": "Aphelios has zero mobility (no dash, no blink). One CC chain from the support and he is dead before he can W-swap to Severum to heal or burn his Flash. Picking him into engage = picking him into death.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Support hard-engage",
+        "reason": "Aphelios ha mobilità zero (no dash, no blink). Una catena di CC dal support e muore prima di poter swappare a Severum per curarsi o di bruciare Flash. Pickarlo contro hard engage = pickarlo per morire.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Burst engage supports with hard CC",
+        "reason": "Ashe has no dash or shield to escape lock-down chains. A successful Leona Q or Nautilus Q removes her from the trade before she can W back, and her slow does nothing once she is stunned.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Support da engage con burst e CC duro",
+        "reason": "Ashe non ha dash né shield per uscire da una catena di lock-down. Una Leona Q o Nautilus Q riuscita la toglie dal trade prima che possa rispondere con W, e lo slow non serve se è già stunata.",
+        "via": "counterpick"
       }
     ],
     "nidalee": [
@@ -1489,6 +2221,26 @@
         "archetype": "Tank con hard CC e stat-check",
         "reason": "CC point-and-click (R di Malphite, W di Poppy che blocca i dash, brittle + knock-up di Ornn) interrompe i suoi dash combo prima che la R atterri. L'armor + HP raw attutisce anche il % max HP scaling sulla Q.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Slow tank front lines without mobile dive",
+        "reason": "Ashe perma-slows the front line with W + auto attacks, forcing fights to last until her DPS items finish off the back line. The tanks cannot reach her if she kites with her support.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Front line tank lente senza dive mobile",
+        "reason": "Ashe rallenta in continuazione la front line con W + auto, costringendo i fight a durare finché i suoi item DPS finiscono la back line. I tank non la raggiungono se fa kite con il support.",
+        "via": "pick_into"
       }
     ],
     "pantheon": [
@@ -1532,6 +2284,48 @@
         },
         "archetype": "Tank con hard CC e stat-check",
         "reason": "CC point-and-click (R di Malphite, W di Poppy che blocca i dash, brittle + knock-up di Ornn) interrompe i suoi dash combo prima che la R atterri. L'armor + HP raw attutisce anche il % max HP scaling sulla Q.",
+        "via": "counterpick"
+      }
+    ],
+    "pyke": [
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Hard-engage supports",
+        "reason": "Aphelios has zero mobility (no dash, no blink). One CC chain from the support and he is dead before he can W-swap to Severum to heal or burn his Flash. Picking him into engage = picking him into death.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Support hard-engage",
+        "reason": "Aphelios ha mobilità zero (no dash, no blink). Una catena di CC dal support e muore prima di poter swappare a Severum per curarsi o di bruciare Flash. Pickarlo contro hard engage = pickarlo per morire.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Burst engage supports with hard CC",
+        "reason": "Ashe has no dash or shield to escape lock-down chains. A successful Leona Q or Nautilus Q removes her from the trade before she can W back, and her slow does nothing once she is stunned.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Support da engage con burst e CC duro",
+        "reason": "Ashe non ha dash né shield per uscire da una catena di lock-down. Una Leona Q o Nautilus Q riuscita la toglie dal trade prima che possa rispondere con W, e lo slow non serve se è già stunata.",
         "via": "counterpick"
       }
     ],
@@ -1683,6 +2477,50 @@
         "via": "counterpick"
       }
     ],
+    "samira": [
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Short-range marksmen that must commit",
+        "reason": "Calibrum (the rifle) out-ranges their auto-attack window: they have to step in to trade, and you punish with the long-range Q mark. The W swap to Severum then heals the chip damage they put on you.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Marksman a corto raggio che devono impegnarsi nel fight",
+        "reason": "Calibrum (il fucile) ha più range del loro auto-attack: per scambiare devono entrare e tu li punisci con il mark shot della Q. Poi la W swap a Severum cura il chip damage che ti hanno messo addosso.",
+        "via": "pick_into"
+      }
+    ],
+    "sejuani": [
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Slow tank front lines without mobile dive",
+        "reason": "Ashe perma-slows the front line with W + auto attacks, forcing fights to last until her DPS items finish off the back line. The tanks cannot reach her if she kites with her support.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Front line tank lente senza dive mobile",
+        "reason": "Ashe rallenta in continuazione la front line con W + auto, costringendo i fight a durare finché i suoi item DPS finiscono la back line. I tank non la raggiungono se fa kite con il support.",
+        "via": "pick_into"
+      }
+    ],
     "senna": [
       {
         "publisher": {
@@ -1746,6 +2584,46 @@
       },
       {
         "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Long-range poke marksmen",
+        "reason": "They out-poke Aphelios at distances even Calibrum cannot answer (Caitlyn traps + headshot, Senna Q from fog, Jhin W root). Aphelios cannot close the gap, so he bleeds HP without committing back.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Marksman da poke a lungo raggio",
+        "reason": "Logorano Aphelios da distanze in cui nemmeno Calibrum risponde (trap + headshot Caitlyn, Q dalla fog Senna, W root Jhin). Aphelios non può chiudere la distanza, quindi perde HP senza poter rispondere.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Immobile scaling carries",
+        "reason": "Cross-map R deletes them on objective spawns or fountain reset windows. Their kit has no dash to escape the arrow once it leaves the fog of war.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Carry da scaling immobili",
+        "reason": "La R cross-map li elimina sugli spawn obiettivo o nelle finestre di reset alla fountain. Il loro kit non ha dash per scappare alla freccia che esce dalla fog of war.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -1762,6 +2640,28 @@
         },
         "archetype": "Carry da retroguardia con escape debole",
         "reason": "La R cross-map trasforma errori di posizionamento in kill. Contribuiscono da lontano ma non possono schivare uno snipe a max range sugli obiettivi.",
+        "via": "pick_into"
+      }
+    ],
+    "seraphine": [
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Immobile bot-lane scalers",
+        "reason": "Gravitum (the cannon) slows them on every auto, then the Q roots every slowed target at once. With a level-6 R follow-up, an immobile target eats the full burst before they can finish a channel.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Scaler bot lane senza mobilità",
+        "reason": "Gravitum (il cannone) li rallenta ad ogni auto, poi la Q blocca tutti i bersagli rallentati insieme. Con la R al livello 6 in follow-up, un target immobile si mangia tutto il burst prima di completare un channel.",
         "via": "pick_into"
       }
     ],
@@ -1784,6 +2684,26 @@
         },
         "archetype": "Bruiser melee immobili senza dash",
         "reason": "I suoi passive dash dopo ogni ability cast le permettono di entrare e uscire dai windup telegrafati (presa di Darius, silenzio di Garen, E di Illaoi). La suppression della R bypassa la loro tankiness per la kill.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Melee bruisers without ranged engage",
+        "reason": "Crystallize blocks every melee engage path; combined with E shove and R waveclear, she farms safely while they cannot reach her without burning Flash.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Melee bruisers without ranged engage",
+        "reason": "Crystallize blocca ogni linea di engage melee; con E per shovare e R per pulire wave, lei farma in sicurezza mentre loro non la raggiungono senza burnare Flash.",
         "via": "pick_into"
       }
     ],
@@ -1898,6 +2818,26 @@
     "talon": [
       {
         "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "They enter Anivia's E range during her cast windows; she has no dash and only one egg, so a chained dash combo bursts her before R can finish forming.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "Entrano nel suo cast range mentre lei sta lanciando E; non ha dash e l'uovo è uno solo, quindi una catena di dash la bursta prima che R sia formata.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -1979,6 +2919,46 @@
         "archetype": "Marksman con escape integrate nel kit",
         "reason": "La E di Ezreal, la W di Tristana e gli hop reset di Kalista escono tutti dal raggio della R di Amumu dopo che la Q connette. Curse va sprecata perché il carry si riposiziona prima che il team possa fare follow-up sullo stun.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Aggressive early-game marksmen",
+        "reason": "Their level 1-3 windows are brutal: short cooldowns and high base damage punish Aphelios while his Q has 9-second cooldown and weapon ammo is finite. He cannot trade back without giving up ammo he needs to push the wave.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Marksman aggressivi early-game",
+        "reason": "I loro livelli 1-3 sono brutali: cooldown corti e damage base alto puniscono Aphelios mentre la sua Q ha 9s di cooldown e le munizioni sono finite. Non può rispondere senza sprecare ammo che gli serve a spingere la wave.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "High-mobility marksmen with dashes",
+        "reason": "Lucian's E and Tristana's W ignore Ashe's slow by repositioning instantly. They close the range gap without paying the kiting tax that hurts every other ADC.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Marksman ad alta mobilità con dash",
+        "reason": "La E di Lucian e la W di Tristana ignorano lo slow di Ashe riposizionandosi. Chiudono la distanza senza pagare la tassa di kite che pesa su ogni altro ADC.",
+        "via": "counterpick"
       }
     ],
     "tryndamere": [
@@ -2046,6 +3026,26 @@
       },
       {
         "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Global / cross-map roamers",
+        "reason": "Annie has no roam range — she clears waves and stays in mid. Their ult flips side lanes and dragons, so Annie loses the macro game even when she wins her 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Roamer globali / cross-map",
+        "reason": "Annie non ha range di roam — pulisce le wave e resta in mid. La loro ult ribalta side lane e dragoni, quindi Annie perde il macro game anche quando vince il matchup 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -2085,6 +3085,48 @@
         "via": "counterpick"
       }
     ],
+    "twitch": [
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Hyper-scaling marksmen with weak early",
+        "reason": "Aphelios's level 1-2 with Calibrum out-trades anyone whose lane phase is just farming. Apply pressure pre-3 items so they never reach their late-game spike.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Marksman da scaling con early debole",
+        "reason": "Aphelios livello 1-2 con Calibrum vince ogni scambio contro chi vive di solo farm in lane phase. Mettigli pressione prima dei loro 3 item così non arrivano mai al loro spike di late game.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Short-range marksmen with no early poke",
+        "reason": "Ashe's W has 1200 range and Frost Shot slow; she pokes them out from outside their 500-550 AA range and turns every approach into a free trade for her side.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Marksman a corto raggio senza poke iniziale",
+        "reason": "La W di Ashe ha 1200 di range e applica lo slow di Frost Shot; li poka da fuori del loro 500-550 di AA e ogni loro avvicinamento diventa un trade vinto da lei.",
+        "via": "pick_into"
+      }
+    ],
     "varus": [
       {
         "publisher": {
@@ -2104,6 +3146,26 @@
         },
         "archetype": "Artiglieria long-range che non deve committare",
         "reason": "Pokeano da oltre i 1100 range della Q. Amumu deve camminare nel loro danno solo per minacciare l'engage, e una Q sbagliata vuol dire 25-30 secondi liberi per loro per continuare a pushare la lane o l'objective.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Long-range marksmen with poke",
+        "reason": "Caitlyn 650 AA, Jhin 4th-shot 750 range, Varus W stacks at 925 — they out-poke Ashe's 600 AA and bleed her HP every wave without ever entering W range.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Marksman a lunga gittata con poke",
+        "reason": "Caitlyn 650 AA, Jhin 4° colpo a 750, Varus W che stacca a 925 — pokano oltre il 600 di AA di Ashe e le tolgono HP a ogni wave senza mai entrare nel range della W.",
         "via": "counterpick"
       }
     ],
@@ -2147,6 +3209,26 @@
         "archetype": "Carry immobili senza escape",
         "reason": "Q è uno skillshot da 1100 range che trascina Amumu sul primo bersaglio colpito. I carry senza dash o blink (Jinx, Ashe) vengono strappati fuori posizione nel momento in cui si fanno avanti per last-hittare la wave.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Short-range marksmen with no early poke",
+        "reason": "Ashe's W has 1200 range and Frost Shot slow; she pokes them out from outside their 500-550 AA range and turns every approach into a free trade for her side.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ashe",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Marksman a corto raggio senza poke iniziale",
+        "reason": "La W di Ashe ha 1200 di range e applica lo slow di Frost Shot; li poka da fuori del loro 500-550 di AA e ogni loro avvicinamento diventa un trade vinto da lei.",
+        "via": "pick_into"
       }
     ],
     "veigar": [
@@ -2188,6 +3270,46 @@
         },
         "archetype": "Mage artillery immobili senza dash",
         "reason": "Stanno fermi a scalare o a pokare; la E di Akshan attorno alla parete di mid chiude la distanza e incatena Q + 3-hit della passiva + R di execute prima che finiscano un cast.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without escape",
+        "reason": "Anivia's Q + W trap immobile mages: they cannot dodge the chill into a doubled E, and have no way around the wall when she splits their lane minions.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Immobile mages without escape",
+        "reason": "Q + W intrappolano i mage immobili: non possono schivare il chill in E doppia, e non hanno modo di girare attorno al wall quando lei spezza la wave.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "Annie's R is a point-blank 600-range AOE stun + Tibbers DPS. Mages without a dash or stealth eat the whole combo on the level 6 all-in and cannot answer in time.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "La R di Annie è uno stun AOE point-blank a 600 di gittata + Tibbers DPS. I mage senza dash o stealth subiscono tutto il combo all'all-in di livello 6 e non hanno tempo di rispondere.",
         "via": "pick_into"
       },
       {
@@ -2274,6 +3396,46 @@
       },
       {
         "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "They out-range Anivia's Q at every stage of the lane and poke from outside her threat radius; she has no mobility to gap-close or punish their cooldowns.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "Out-rangeano la Q in ogni fase di lane e pokeano da fuori del suo threat range; lei non ha mobilità per chiudere il gap o punire i loro cooldown.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "They poke Annie from 850-1400 range while she sits at 625. She has no dash or shield against ranged poke and bleeds HP every wave without an option to commit back.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Artillery mage a lunga gittata",
+        "reason": "Pokano Annie da 850-1400 di range mentre lei sta a 625. Non ha dash né shield contro il poke a distanza e perde HP a ogni wave senza l'opzione di rispondere con un all-in.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -2332,6 +3494,26 @@
         },
         "archetype": "Compagni AP che snowballano sull'engage",
         "reason": "La passive Cursed Touch trasforma il magic damage sul bersaglio in true damage bonus. Un team AP-heavy converte un Q-R in kill istantanee perché ogni spell che arriva dopo fa più danno.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without escape",
+        "reason": "Anivia's Q + W trap immobile mages: they cannot dodge the chill into a doubled E, and have no way around the wall when she splits their lane minions.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Immobile mages without escape",
+        "reason": "Q + W intrappolano i mage immobili: non possono schivare il chill in E doppia, e non hanno modo di girare attorno al wall quando lei spezza la wave.",
         "via": "pick_into"
       },
       {
@@ -2397,6 +3579,28 @@
         "via": "pick_into"
       }
     ],
+    "wukong": [
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Single-engage 5-man wombo comps",
+        "reason": "Crystallize splits the enemy team in two on the engage; if she walls between the initiator and the follow-up, the wombo lands on one or two targets, not five.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Single-engage 5-man wombo comps",
+        "reason": "Crystallize spezza in due l'engage avversario: se il muro va tra l'iniziatore e il follow-up, il wombo cade su uno o due bersagli, non su cinque.",
+        "via": "pick_into"
+      }
+    ],
     "xerath": [
       {
         "publisher": {
@@ -2456,6 +3660,46 @@
         },
         "archetype": "Artiglieria long-range che non deve committare",
         "reason": "Pokeano da oltre i 1100 range della Q. Amumu deve camminare nel loro danno solo per minacciare l'engage, e una Q sbagliata vuol dire 25-30 secondi liberi per loro per continuare a pushare la lane o l'objective.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "They out-range Anivia's Q at every stage of the lane and poke from outside her threat radius; she has no mobility to gap-close or punish their cooldowns.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "Out-rangeano la Q in ogni fase di lane e pokeano da fuori del suo threat range; lei non ha mobilità per chiudere il gap o punire i loro cooldown.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "They poke Annie from 850-1400 range while she sits at 625. She has no dash or shield against ranged poke and bleeds HP every wave without an option to commit back.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Artillery mage a lunga gittata",
+        "reason": "Pokano Annie da 850-1400 di range mentre lei sta a 625. Non ha dash né shield contro il poke a distanza e perde HP a ogni wave senza l'opzione di rispondere con un all-in.",
         "via": "counterpick"
       },
       {
@@ -2579,6 +3823,66 @@
         "archetype": "Comp da teamfight raggruppata con danno AOE",
         "reason": "La R di Amumu prende tutti in un raggio piccolo. Le comp che vogliono combattere raggruppate (Yasuo + Kennen con ult AOE, Katarina che salta tra i bersagli, Miss Fortune Bullet Time) si beccano lo stun insieme e amplificano i loro stessi spell tramite la passive Curse.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Projectile-blocking duelists",
+        "reason": "Wind Wall blocks Q outright (the chill never lands) and her main damage threat collapses; without chill, E damage halves and the lane becomes a melee fight she cannot win.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Projectile-blocking duelists",
+        "reason": "Wind Wall blocca la Q (il chill non arriva) e la principale minaccia di danno crolla: senza chill la E dimezza, e il matchup diventa un melee fight che lei non vince.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "High-mobility assassins post-6",
+        "reason": "Their dashes or stealth windows leave the 600 R radius before her stun lands. Akali's shroud and Yasuo's Wind Wall directly eat her main spells.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili post-6",
+        "reason": "I loro dash o intervalli di stealth escono dal raggio di 600 della R prima che lo stun parta. La shroud di Akali e il Wind Wall di Yasuo bloccano direttamente le sue spell principali.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Short-range marksmen that must commit",
+        "reason": "Calibrum (the rifle) out-ranges their auto-attack window: they have to step in to trade, and you punish with the long-range Q mark. The W swap to Severum then heals the chip damage they put on you.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aphelios",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Marksman a corto raggio che devono impegnarsi nel fight",
+        "reason": "Calibrum (il fucile) ha più range del loro auto-attack: per scambiare devono entrare e tu li punisci con il mark shot della Q. Poi la W swap a Severum cura il chip damage che ti hanno messo addosso.",
+        "via": "pick_into"
       }
     ],
     "yone": [
@@ -2690,6 +3994,46 @@
     "zed": [
       {
         "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "They enter Anivia's E range during her cast windows; she has no dash and only one egg, so a chained dash combo bursts her before R can finish forming.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "Entrano nel suo cast range mentre lei sta lanciando E; non ha dash e l'uovo è uno solo, quindi una catena di dash la bursta prima che R sia formata.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "High-mobility assassins post-6",
+        "reason": "Their dashes or stealth windows leave the 600 R radius before her stun lands. Akali's shroud and Yasuo's Wind Wall directly eat her main spells.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "annie",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili post-6",
+        "reason": "I loro dash o intervalli di stealth escono dal raggio di 600 della R prima che lo stun parta. La shroud di Akali e il Wind Wall di Yasuo bloccano direttamente le sue spell principali.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -2749,6 +4093,26 @@
         "archetype": "Carry da retroguardia con peel debole",
         "reason": "La R di Akshan locka a 2500 di range e ignora gran parte del peel; sotto il 50% HP i proiettili eseguono attraverso il loro kit anche dall'altra parte del river.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "They out-range Anivia's Q at every stage of the lane and poke from outside her threat radius; she has no mobility to gap-close or punish their cooldowns.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "anivia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "Out-rangeano la Q in ogni fase di lane e pokeano da fuori del suo threat range; lei non ha mobilità per chiudere il gap o punire i loro cooldown.",
+        "via": "counterpick"
       },
       {
         "publisher": {
