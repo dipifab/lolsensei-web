@@ -147,6 +147,28 @@
         "via": "pick_into"
       }
     ],
+    "amumu": [
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Tank junglers without a dash",
+        "reason": "Bel'Veth's on-hit pattern with Terminus shreds their armor and magic resist; she sticks to them with Q dashes around their hitbox while they have no way to disengage from her.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Tank jungler senza dash",
+        "reason": "L'on-hit pattern di Bel'Veth con Terminus gli sfonda armor e magic resist; resta incollata con i Q dash attorno alla loro hitbox e loro non hanno modo di disengage.",
+        "via": "pick_into"
+      }
+    ],
     "anivia": [
       {
         "publisher": {
@@ -686,6 +708,28 @@
         },
         "archetype": "Marksman aggressivi early-game",
         "reason": "I loro livelli 1-3 sono brutali: cooldown corti e damage base alto puniscono Aphelios mentre la sua Q ha 9s di cooldown e le munizioni sono finite. Non può rispondere senza sprecare ammo che gli serve a spingere la wave.",
+        "via": "counterpick"
+      }
+    ],
+    "elise": [
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Strong early invade junglers",
+        "reason": "Bel'Veth's first clear is okay but not bullying; they invade her at level 3 before she has Q maxed, kill her once, and snowball from there (snowball = a small early lead that grows into a large one over time).",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler forti early con invade",
+        "reason": "Il primo clear di Bel'Veth è onesto ma non bullizza nessuno; loro la invadono a livello 3 prima che lei abbia la Q maxata, la uccidono una volta e snowballano (snowball = un piccolo vantaggio iniziale che cresce nel tempo).",
         "via": "counterpick"
       }
     ],
@@ -1542,6 +1586,26 @@
       },
       {
         "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Squishy ranged junglers",
+        "reason": "Four directional Q dashes close every kite attempt: she gets in melee range before they finish a single rotation of their range tools.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler ranged squishy",
+        "reason": "I quattro Q dash chiudono ogni tentativo di kite (kite = ritirarti continuando ad attaccare): arriva in melee prima che loro completino una rotation a distanza.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -1789,6 +1853,28 @@
         "via": "pick_into"
       }
     ],
+    "kindred": [
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Squishy ranged junglers",
+        "reason": "Four directional Q dashes close every kite attempt: she gets in melee range before they finish a single rotation of their range tools.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler ranged squishy",
+        "reason": "I quattro Q dash chiudono ogni tentativo di kite (kite = ritirarti continuando ad attaccare): arriva in melee prima che loro completino una rotation a distanza.",
+        "via": "pick_into"
+      }
+    ],
     "kog-maw": [
       {
         "publisher": {
@@ -1890,6 +1976,28 @@
         },
         "archetype": "Assassini early-game burst con dash multipli",
         "reason": "All-in pre-6 quando Azir non ha E pronta; anche dopo Zhonya's, i kit con dash multipli gli arrivano addosso prima che la sua R abbia tempo di partire.",
+        "via": "counterpick"
+      }
+    ],
+    "lee-sin": [
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Strong early invade junglers",
+        "reason": "Bel'Veth's first clear is okay but not bullying; they invade her at level 3 before she has Q maxed, kill her once, and snowball from there (snowball = a small early lead that grows into a large one over time).",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler forti early con invade",
+        "reason": "Il primo clear di Bel'Veth è onesto ma non bullizza nessuno; loro la invadono a livello 3 prima che lei abbia la Q maxata, la uccidono una volta e snowballano (snowball = un piccolo vantaggio iniziale che cresce nel tempo).",
         "via": "counterpick"
       }
     ],
@@ -2389,6 +2497,28 @@
         "via": "counterpick"
       }
     ],
+    "master-yi": [
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Scaling skirmishers without early CC",
+        "reason": "She wins the early jungle skirmishes (skirmish = 1v1 or 2v2 fight in the jungle) before they reach their power spike, then converts that lead into objectives.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Skirmisher scaling senza CC iniziale",
+        "reason": "Vince le skirmish iniziali in jungle (skirmish = scontro 1v1 o 2v2 fuori dal teamfight) prima del loro power spike, poi converte il vantaggio sugli obiettivi.",
+        "via": "pick_into"
+      }
+    ],
     "milio": [
       {
         "publisher": {
@@ -2621,6 +2751,26 @@
         "archetype": "Artiglieria long-range che non deve committare",
         "reason": "Pokeano da oltre i 1100 range della Q. Amumu deve camminare nel loro danno solo per minacciare l'engage, e una Q sbagliata vuol dire 25-30 secondi liberi per loro per continuare a pushare la lane o l'objective.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Squishy ranged junglers",
+        "reason": "Four directional Q dashes close every kite attempt: she gets in melee range before they finish a single rotation of their range tools.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler ranged squishy",
+        "reason": "I quattro Q dash chiudono ogni tentativo di kite (kite = ritirarti continuando ad attaccare): arriva in melee prima che loro completino una rotation a distanza.",
+        "via": "pick_into"
       }
     ],
     "olaf": [
@@ -2875,6 +3025,28 @@
         "via": "pick_into"
       }
     ],
+    "rammus": [
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Anti-attack-speed tanks",
+        "reason": "Rammus's passive thorns and W steroid punish her sustained auto-attacks: she damages herself trying to DPS him while he holds objective control.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Tank anti-attack-speed",
+        "reason": "La passiva spinata di Rammus e il suo W steroid puniscono i suoi attacchi continui: si fa danno da sola provando a DPSarlo mentre lui controlla gli obiettivi.",
+        "via": "counterpick"
+      }
+    ],
     "rell": [
       {
         "publisher": {
@@ -3044,6 +3216,46 @@
         },
         "archetype": "Front line tank lente senza dive mobile",
         "reason": "Ashe rallenta in continuazione la front line con W + auto, costringendo i fight a durare finché i suoi item DPS finiscono la back line. I tank non la raggiungono se fa kite con il support.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Junglers with point-and-click hard CC",
+        "reason": "Bel'Veth's Q dash does not dodge targeted abilities. Once she eats a Sejuani R or Vi R, she is locked in place and her on-hit pattern stops cold.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Tank junglers without a dash",
+        "reason": "Bel'Veth's on-hit pattern with Terminus shreds their armor and magic resist; she sticks to them with Q dashes around their hitbox while they have no way to disengage from her.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler con hard CC point-and-click",
+        "reason": "Il Q dash di Bel'Veth non schiva abilità targetate. Una Sejuani R o una Vi R la inchioda e l'on-hit pattern si ferma istante dopo istante.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Tank jungler senza dash",
+        "reason": "L'on-hit pattern di Bel'Veth con Terminus gli sfonda armor e magic resist; resta incollata con i Q dash attorno alla loro hitbox e loro non hanno modo di disengage.",
         "via": "pick_into"
       }
     ],
@@ -3250,6 +3462,70 @@
         },
         "archetype": "Melee mid a corto raggio",
         "reason": "Aurora li out-rangea con il poke Q e usa il backward hop di E per rifiutare i trade; loro devono committare gap-closer che Aurora punisce con la Q recast in entrata.",
+        "via": "pick_into"
+      }
+    ],
+    "shyvana": [
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Scaling skirmishers without early CC",
+        "reason": "She wins the early jungle skirmishes (skirmish = 1v1 or 2v2 fight in the jungle) before they reach their power spike, then converts that lead into objectives.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Skirmisher scaling senza CC iniziale",
+        "reason": "Vince le skirmish iniziali in jungle (skirmish = scontro 1v1 o 2v2 fuori dal teamfight) prima del loro power spike, poi converte il vantaggio sugli obiettivi.",
+        "via": "pick_into"
+      }
+    ],
+    "skarner": [
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Junglers with point-and-click hard CC",
+        "reason": "Bel'Veth's Q dash does not dodge targeted abilities. Once she eats a Sejuani R or Vi R, she is locked in place and her on-hit pattern stops cold.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Tank junglers without a dash",
+        "reason": "Bel'Veth's on-hit pattern with Terminus shreds their armor and magic resist; she sticks to them with Q dashes around their hitbox while they have no way to disengage from her.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler con hard CC point-and-click",
+        "reason": "Il Q dash di Bel'Veth non schiva abilità targetate. Una Sejuani R o una Vi R la inchioda e l'on-hit pattern si ferma istante dopo istante.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Tank jungler senza dash",
+        "reason": "L'on-hit pattern di Bel'Veth con Terminus gli sfonda armor e magic resist; resta incollata con i Q dash attorno alla loro hitbox e loro non hanno modo di disengage.",
         "via": "pick_into"
       }
     ],
@@ -4243,6 +4519,28 @@
         "via": "counterpick"
       }
     ],
+    "vi": [
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Junglers with point-and-click hard CC",
+        "reason": "Bel'Veth's Q dash does not dodge targeted abilities. Once she eats a Sejuani R or Vi R, she is locked in place and her on-hit pattern stops cold.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler con hard CC point-and-click",
+        "reason": "Il Q dash di Bel'Veth non schiva abilità targetate. Una Sejuani R o una Vi R la inchioda e l'on-hit pattern si ferma istante dopo istante.",
+        "via": "counterpick"
+      }
+    ],
     "viktor": [
       {
         "publisher": {
@@ -4589,6 +4887,28 @@
         "archetype": "Carry da retroguardia con escape debole",
         "reason": "La R cross-map trasforma errori di posizionamento in kill. Contribuiscono da lontano ma non possono schivare uno snipe a max range sugli obiettivi.",
         "via": "pick_into"
+      }
+    ],
+    "xin-zhao": [
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Strong early invade junglers",
+        "reason": "Bel'Veth's first clear is okay but not bullying; they invade her at level 3 before she has Q maxed, kill her once, and snowball from there (snowball = a small early lead that grows into a large one over time).",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler forti early con invade",
+        "reason": "Il primo clear di Bel'Veth è onesto ma non bullizza nessuno; loro la invadono a livello 3 prima che lei abbia la Q maxata, la uccidono una volta e snowballano (snowball = un piccolo vantaggio iniziale che cresce nel tempo).",
+        "via": "counterpick"
       }
     ],
     "yasuo": [
@@ -4956,6 +5276,48 @@
         },
         "archetype": "Enchanter immobili senza dash",
         "reason": "La minaccia del Q-into-wall stun li costringe a giocare lontanissimi dietro ai minion. Senza spell di escape, un wall-stun pulito si trasforma in kill prima che il loro team ruoti in soccorso.",
+        "via": "pick_into"
+      }
+    ],
+    "zac": [
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Junglers with point-and-click hard CC",
+        "reason": "Bel'Veth's Q dash does not dodge targeted abilities. Once she eats a Sejuani R or Vi R, she is locked in place and her on-hit pattern stops cold.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Tank junglers without a dash",
+        "reason": "Bel'Veth's on-hit pattern with Terminus shreds their armor and magic resist; she sticks to them with Q dashes around their hitbox while they have no way to disengage from her.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler con hard CC point-and-click",
+        "reason": "Il Q dash di Bel'Veth non schiva abilità targetate. Una Sejuani R o una Vi R la inchioda e l'on-hit pattern si ferma istante dopo istante.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "belveth",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Tank jungler senza dash",
+        "reason": "L'on-hit pattern di Bel'Veth con Terminus gli sfonda armor e magic resist; resta incollata con i Q dash attorno alla loro hitbox e loro non hanno modo di disengage.",
         "via": "pick_into"
       }
     ],

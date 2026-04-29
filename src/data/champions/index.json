@@ -437,6 +437,35 @@
       }
     },
     {
+      "slug": "belveth-jungle",
+      "champion": "belveth",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Bel'Veth Jungle Build & Guide — Patch 16.9",
+          "description": "Bel'Veth jungle guide for League of Legends Patch 16.9: starter kit, on-hit core build, key matchups, power spikes, common mistakes, and one closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / On-hit Skirmisher",
+          "difficulty": 5,
+          "damage_type": "physical",
+          "champion_dd_id": "Belveth",
+          "champion_key": "200"
+        },
+        "it": {
+          "title": "Bel'Veth Jungle Build & Guida — Patch 16.9",
+          "description": "Guida Bel'Veth jungle per League of Legends Patch 16.9: starter kit, build core on-hit, matchup chiave, power spike, errori comuni e una tip avanzata finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Skirmisher on-hit",
+          "difficulty": 5,
+          "damage_type": "physical",
+          "champion_dd_id": "Belveth",
+          "champion_key": "200"
+        }
+      }
+    },
+    {
       "slug": "caitlyn-bot",
       "champion": "caitlyn",
       "role": "bot",

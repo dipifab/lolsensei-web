@@ -1561,6 +1561,26 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/bard/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/bard/support/guide" />
   </url>
+  <!-- champion-guide/belveth/jungle: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/belveth/jungle/guide</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/belveth/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/belveth/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/belveth/jungle/guide" />
+  </url>
+  <!-- champion-guide/belveth/jungle: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/belveth/jungle/guide</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/belveth/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/belveth/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/belveth/jungle/guide" />
+  </url>
   <!-- champion-guide/caitlyn/bot: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/caitlyn/bot/guide</loc>
