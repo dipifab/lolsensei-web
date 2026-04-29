@@ -1,6 +1,60 @@
 {
-  "generated_at": "2026-04-28",
+  "generated_at": "2026-04-29",
   "guides": [
+    {
+      "slug": "aatrox-top",
+      "champion": "aatrox",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Aatrox Top Build & Guide — Patch 16.9",
+          "description": "Aatrox top lane guide for League of Legends Patch 16.9: bruiser build path, Q edge mechanics, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Drain Tank",
+          "difficulty": 2,
+          "damage_type": "physical",
+          "champion_dd_id": "Aatrox"
+        },
+        "it": {
+          "title": "Aatrox Top: Build e Guida — Patch 16.9",
+          "description": "Guida ad Aatrox top per League of Legends Patch 16.9: build da bruiser, meccanica del Q sul bordo, matchup chiave, power spikes, errori comuni e tip finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Drain Tank",
+          "difficulty": 2,
+          "damage_type": "physical",
+          "champion_dd_id": "Aatrox"
+        }
+      }
+    },
+    {
+      "slug": "ahri-mid",
+      "champion": "ahri",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Ahri Mid Build & Guide — Patch 16.9",
+          "description": "Ahri mid lane guide for League of Legends Patch 16.9: starter kit, core mage build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mage / Assassin",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Ahri"
+        },
+        "it": {
+          "title": "Ahri Mid Build & Guida — Patch 16.9",
+          "description": "Guida Ahri mid lane per League of Legends Patch 16.9: starter kit, build mago/assassino, matchup chiave, power spike, errori comuni e un consiglio tecnico finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mago / Assassino",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Ahri"
+        }
+      }
+    },
     {
       "slug": "akali-mid",
       "champion": "akali",
@@ -25,6 +79,33 @@
           "difficulty": 3,
           "damage_type": "magic",
           "champion_dd_id": "Akali"
+        }
+      }
+    },
+    {
+      "slug": "akshan-mid",
+      "champion": "akshan",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Akshan Mid Build & Guide — Patch 16.9",
+          "description": "Akshan mid lane guide for League of Legends Patch 16.9: lethality core build path, Press the Attack runes, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Marksman / Lethality Assassin",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Akshan"
+        },
+        "it": {
+          "title": "Akshan Mid Build & Guida — Patch 16.9",
+          "description": "Guida Akshan mid lane per League of Legends Patch 16.9: build di lethality core, rune Press the Attack, matchup chiave, power spike, errori comuni e un consiglio finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Marksman / Assassino lethality",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Akshan"
         }
       }
     },

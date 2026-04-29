@@ -1,7 +1,49 @@
 {
-  "generated_at": "2026-04-28",
+  "generated_at": "2026-04-29",
   "targets": {
+    "ahri": [
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mages with a single telegraphed escape",
+        "reason": "Akshan baits Annie's stun, Lux's Q, or Ahri's R charge, then E-swings on the recovery frame for a free 3-hit trade and the shielded passive proc.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage con un singolo tell di escape",
+        "reason": "Akshan fa baitare lo stun di Annie, la Q di Lux o la R di Ahri, poi swinga con E sul recovery frame per un trade da 3-hit e la passiva scudata gratis.",
+        "via": "pick_into"
+      }
+    ],
     "akali": [
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Multi-dash close-range assassins",
+        "reason": "Akshan's E attaches only to terrain, so he cannot swing through a fed assassin in the open. Akali's shroud breaks his targeting, Fizz E-jumps over his autos, Diana's R chains him in mid-channel.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con multi gap-close",
+        "reason": "La E di Akshan si aggancia solo al terreno, quindi non può swingare attraverso un assassino fed in campo aperto. Lo shroud di Akali rompe il targeting, Fizz scappa con E sopra le auto, la R di Diana lo incatena a metà channel.",
+        "via": "counterpick"
+      },
       {
         "publisher": {
           "champion": "lux",
@@ -68,6 +110,46 @@
     "annie": [
       {
         "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "Ahri's E (Charm) is a long-range skillshot lock. Targets without a dash or stealth get charmed on a clean line and eat the full R + Q + W combo before they can step out of range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "La E (Charm) di Ahri è uno skillshot a lunga gittata che blocca il bersaglio. Chi non ha dash o stealth viene incantato su una linea pulita e mangia tutto il combo R + Q + W prima di poter uscire dal range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mages with a single telegraphed escape",
+        "reason": "Akshan baits Annie's stun, Lux's Q, or Ahri's R charge, then E-swings on the recovery frame for a free 3-hit trade and the shielded passive proc.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage con un singolo tell di escape",
+        "reason": "Akshan fa baitare lo stun di Annie, la Q di Lux o la R di Ahri, poi swinga con E sul recovery frame per un trade da 3-hit e la passiva scudata gratis.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -107,7 +189,135 @@
         "via": "pick_into"
       }
     ],
+    "caitlyn": [
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Backline scalers without escape",
+        "reason": "Spirit Rush gives Ahri three dashes that reset on takedown — she can dive past the front line, delete an immobile carry, and dash back out before peel arrives.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Carry da retroguardia senza escape",
+        "reason": "Spirit Rush dà ad Ahri tre dash che si resettano sui takedown — può tuffarsi oltre la front line, eliminare un carry immobile e dashare via prima che arrivi il peel.",
+        "via": "pick_into"
+      }
+    ],
+    "camille": [
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "True-damage duelists with parry or shield",
+        "reason": "Fiora's W parries the Q knock-up and her Vitals (marks on Aatrox she autos for true damage — damage that ignores armor and MR) bypass the drain tank build; Camille's E adds more true damage on top.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Duellanti a true damage con parry o scudo",
+        "reason": "La W di Fiora fa parry sul knock-up della Q e i Vitals (marker che lei mette su Aatrox e colpisce con auto a true damage — danno che ignora armor e MR) ignorano la build drain tank; la E di Camille aggiunge altro true damage sopra.",
+        "via": "counterpick"
+      }
+    ],
+    "diana": [
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Multi-dash close-range assassins",
+        "reason": "Akshan's E attaches only to terrain, so he cannot swing through a fed assassin in the open. Akali's shroud breaks his targeting, Fizz E-jumps over his autos, Diana's R chains him in mid-channel.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con multi gap-close",
+        "reason": "La E di Akshan si aggancia solo al terreno, quindi non può swingare attraverso un assassino fed in campo aperto. Lo shroud di Akali rompe il targeting, Fizz scappa con E sopra le auto, la R di Diana lo incatena a metà channel.",
+        "via": "counterpick"
+      }
+    ],
+    "fiora": [
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "True-damage duelists with parry or shield",
+        "reason": "Fiora's W parries the Q knock-up and her Vitals (marks on Aatrox she autos for true damage — damage that ignores armor and MR) bypass the drain tank build; Camille's E adds more true damage on top.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Duellanti a true damage con parry o scudo",
+        "reason": "La W di Fiora fa parry sul knock-up della Q e i Vitals (marker che lei mette su Aatrox e colpisce con auto a true damage — danno che ignora armor e MR) ignorano la build drain tank; la E di Camille aggiunge altro true damage sopra.",
+        "via": "counterpick"
+      }
+    ],
     "fizz": [
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with magic damage mitigation",
+        "reason": "Fizz E dodges Ahri's R bolts and his passive reduces magic burst; Kassadin has a magic damage shield plus a blink. Ahri commits a full combo and they survive on a sliver, then kill her on the recovery frame.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con mitigazione magica",
+        "reason": "Fizz schiva i bolt della R con la sua E e la passiva riduce il burst magico; Kassadin ha uno scudo contro danno magico più un blink. Ahri scarica un combo intero e loro sopravvivono con un filo di HP, poi la uccidono nel frame di recovery.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Multi-dash close-range assassins",
+        "reason": "Akshan's E attaches only to terrain, so he cannot swing through a fed assassin in the open. Akali's shroud breaks his targeting, Fizz E-jumps over his autos, Diana's R chains him in mid-channel.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con multi gap-close",
+        "reason": "La E di Akshan si aggancia solo al terreno, quindi non può swingare attraverso un assassino fed in campo aperto. Lo shroud di Akali rompe il targeting, Fizz scappa con E sopra le auto, la R di Diana lo incatena a metà channel.",
+        "via": "counterpick"
+      },
       {
         "publisher": {
           "champion": "lux",
@@ -130,6 +340,26 @@
       }
     ],
     "galio": [
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Anti-assassin mages with hard CC",
+        "reason": "Their hard CC catches Ahri mid-R: a single root or taunt during her dash window cancels both her damage output and her escape, turning a pickoff attempt into a free kill for them.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage anti-assassino con hard CC",
+        "reason": "Il loro hard CC prende Ahri a metà R: un singolo root o taunt durante la finestra di dash cancella sia il danno che l'escape, trasformando un tentativo di pickoff in una kill gratis per loro.",
+        "via": "counterpick"
+      },
       {
         "publisher": {
           "champion": "fizz",
@@ -171,7 +401,69 @@
         "via": "counterpick"
       }
     ],
+    "k-sante": [
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Weak early-laners that spike late",
+        "reason": "Aatrox has one of the best early-game laning curves; he can kill or deny their XP before they reach the late-game items that make them scary.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Lane early debole che esplodono late",
+        "reason": "Aatrox ha una delle migliori curve di laning early; può ucciderli o negar loro l'XP prima che arrivino agli item late-game che li rendono pericolosi.",
+        "via": "pick_into"
+      }
+    ],
     "karthus": [
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "Ahri's E (Charm) is a long-range skillshot lock. Targets without a dash or stealth get charmed on a clean line and eat the full R + Q + W combo before they can step out of range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "La E (Charm) di Ahri è uno skillshot a lunga gittata che blocca il bersaglio. Chi non ha dash o stealth viene incantato su una linea pulita e mangia tutto il combo R + Q + W prima di poter uscire dal range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile artillery mages without dash",
+        "reason": "These champions sit still to scale or out-poke; Akshan's E around the mid-lane wall closes the gap and chains a Q + 3-hit passive into R execute before they finish a cast.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage artillery immobili senza dash",
+        "reason": "Stanno fermi a scalare o a pokare; la E di Akshan attorno alla parete di mid chiude la distanza e incatena Q + 3-hit della passiva + R di execute prima che finiscano un cast.",
+        "via": "pick_into"
+      },
       {
         "publisher": {
           "champion": "fizz",
@@ -213,7 +505,91 @@
         "via": "pick_into"
       }
     ],
+    "kassadin": [
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with magic damage mitigation",
+        "reason": "Fizz E dodges Ahri's R bolts and his passive reduces magic burst; Kassadin has a magic damage shield plus a blink. Ahri commits a full combo and they survive on a sliver, then kill her on the recovery frame.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con mitigazione magica",
+        "reason": "Fizz schiva i bolt della R con la sua E e la passiva riduce il burst magico; Kassadin ha uno scudo contro danno magico più un blink. Ahri scarica un combo intero e loro sopravvivono con un filo di HP, poi la uccidono nel frame di recovery.",
+        "via": "counterpick"
+      }
+    ],
+    "kayle": [
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Weak early-laners that spike late",
+        "reason": "Aatrox has one of the best early-game laning curves; he can kill or deny their XP before they reach the late-game items that make them scary.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Lane early debole che esplodono late",
+        "reason": "Aatrox ha una delle migliori curve di laning early; può ucciderli o negar loro l'XP prima che arrivino agli item late-game che li rendono pericolosi.",
+        "via": "pick_into"
+      }
+    ],
     "lissandra": [
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Anti-assassin mages with hard CC",
+        "reason": "Their hard CC catches Ahri mid-R: a single root or taunt during her dash window cancels both her damage output and her escape, turning a pickoff attempt into a free kill for them.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage anti-assassino con hard CC",
+        "reason": "Il loro hard CC prende Ahri a metà R: un singolo root o taunt durante la finestra di dash cancella sia il danno che l'escape, trasformando un tentativo di pickoff in una kill gratis per loro.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Point-and-click CC mages",
+        "reason": "Their lock-on stun or suppress cancels Akshan's R channel, breaks his E swing mid-rotation, and outs his W camouflage — Edge of Night blocks one cast per 30s but cannot save him twice.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage con CC point-and-click",
+        "reason": "Lo stun o suppress lock-on cancella il channel della R, rompe lo swing della E a metà rotazione e rivela il camouflage della W — Edge of Night blocca un cast ogni 30s ma non lo salva due volte.",
+        "via": "counterpick"
+      },
       {
         "publisher": {
           "champion": "fizz",
@@ -238,6 +614,26 @@
     "lux": [
       {
         "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mages with a single telegraphed escape",
+        "reason": "Akshan baits Annie's stun, Lux's Q, or Ahri's R charge, then E-swings on the recovery frame for a free 3-hit trade and the shielded passive proc.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage con un singolo tell di escape",
+        "reason": "Akshan fa baitare lo stun di Annie, la Q di Lux o la R di Ahri, poi swinga con E sul recovery frame per un trade da 3-hit e la passiva scudata gratis.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -258,6 +654,26 @@
       }
     ],
     "malphite": [
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Tanks with instant hard CC (no skill aim)",
+        "reason": "Their stuns and roots are point-and-click — no projectile to dodge. They interrupt Q recasts mid-animation, and once Aatrox is locked down he cannot heal back through E lifesteal.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Tank con CC istantaneo (senza mira)",
+        "reason": "Le loro stun e root sono point-and-click — niente proiettile da schivare. Interrompono i recast della Q a metà animazione, e una volta che Aatrox è bloccato dal CC non può curare di nuovo via E lifesteal.",
+        "via": "counterpick"
+      },
       {
         "publisher": {
           "champion": "fizz",
@@ -282,6 +698,46 @@
     "malzahar": [
       {
         "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Sustained mages without burst",
+        "reason": "Ahri's burst from a full R combo deletes them in under a second, before their sustain damage or healing can stack into a meaningful trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage da danno sostenuto senza burst",
+        "reason": "Il burst di Ahri da combo R completa li elimina in meno di un secondo, prima che il loro danno sostenuto o le cure facciano in tempo a stackare in uno scambio significativo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Point-and-click CC mages",
+        "reason": "Their lock-on stun or suppress cancels Akshan's R channel, breaks his E swing mid-rotation, and outs his W camouflage — Edge of Night blocks one cast per 30s but cannot save him twice.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage con CC point-and-click",
+        "reason": "Lo stun o suppress lock-on cancella il channel della R, rompe lo swing della E a metà rotazione e rivela il camouflage della W — Edge of Night blocca un cast ogni 30s ma non lo salva due volte.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -299,6 +755,50 @@
         "archetype": "Mage con CC point-and-click",
         "reason": "La R di Lissandra è stasi point-and-click (niente skillshot da schivare con E), la R di Malzahar suppressa attraverso il recast di E. Entrambe puliscono la wave, quindi Fizz non può zonarle in lane.",
         "via": "counterpick"
+      }
+    ],
+    "maokai": [
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Tanks with instant hard CC (no skill aim)",
+        "reason": "Their stuns and roots are point-and-click — no projectile to dodge. They interrupt Q recasts mid-animation, and once Aatrox is locked down he cannot heal back through E lifesteal.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Tank con CC istantaneo (senza mira)",
+        "reason": "Le loro stun e root sono point-and-click — niente proiettile da schivare. Interrompono i recast della Q a metà animazione, e una volta che Aatrox è bloccato dal CC non può curare di nuovo via E lifesteal.",
+        "via": "counterpick"
+      }
+    ],
+    "nasus": [
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile melee fighters without engage tools",
+        "reason": "Aatrox wins trades before level 6 with Q edge hits; W chains pin them long enough that they cannot stack their passives safely or escape an all-in.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Fighter melee immobili senza tool di engage",
+        "reason": "Aatrox vince i trade prima del livello 6 con i Q sul bordo; la W li tiene fermi abbastanza a lungo che non possono accumulare cariche delle loro passive in sicurezza né scappare al suo all-in.",
+        "via": "pick_into"
       }
     ],
     "pantheon": [
@@ -323,7 +823,49 @@
         "via": "counterpick"
       }
     ],
+    "quinn": [
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Long-range or invisibility-based kiters",
+        "reason": "They stay outside Q range and break Aatrox's wind-ups with blind or vault (Quinn's E knockback dash); he has no way to close the gap without burning both E and Flash.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Kiter a lungo raggio o con invisibilità",
+        "reason": "Restano fuori dal range della Q e rompono i wind-up di Aatrox con blind o vault (il dash di Quinn che lo respinge); lui non ha modo di chiudere il gap senza bruciare E e Flash a vuoto.",
+        "via": "counterpick"
+      }
+    ],
     "ryze": [
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Short-range mages who must walk in to deal damage",
+        "reason": "They have to step into melee for full output; Aatrox punishes the gap with W slow plus a Q edge knock-up before they can disengage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Mage a corto raggio che devono entrare per fare danno",
+        "reason": "Devono mettersi a distanza melee per il danno pieno; Aatrox punisce il gap con lo slow della W + Q sul bordo per knock-up prima che possano disimpegnarsi.",
+        "via": "pick_into"
+      },
       {
         "publisher": {
           "champion": "lux",
@@ -346,6 +888,46 @@
       }
     ],
     "senna": [
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Backline scalers without escape",
+        "reason": "Spirit Rush gives Ahri three dashes that reset on takedown — she can dive past the front line, delete an immobile carry, and dash back out before peel arrives.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Carry da retroguardia senza escape",
+        "reason": "Spirit Rush dà ad Ahri tre dash che si resettano sui takedown — può tuffarsi oltre la front line, eliminare un carry immobile e dashare via prima che arrivi il peel.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Backline scalers with weak self-peel",
+        "reason": "Akshan's R locks on at 2500 range and ignores most peel; once the target dips below 50% HP the bullets execute through their kit even across the river.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Carry da retroguardia con peel debole",
+        "reason": "La R di Akshan locka a 2500 di range e ignora gran parte del peel; sotto il 50% HP i proiettili eseguono attraverso il loro kit anche dall'altra parte del river.",
+        "via": "pick_into"
+      },
       {
         "publisher": {
           "champion": "lux",
@@ -433,7 +1015,49 @@
         "via": "counterpick"
       }
     ],
+    "teemo": [
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Long-range or invisibility-based kiters",
+        "reason": "They stay outside Q range and break Aatrox's wind-ups with blind or vault (Quinn's E knockback dash); he has no way to close the gap without burning both E and Flash.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Kiter a lungo raggio o con invisibilità",
+        "reason": "Restano fuori dal range della Q e rompono i wind-up di Aatrox con blind o vault (il dash di Quinn che lo respinge); lui non ha modo di chiudere il gap senza bruciare E e Flash a vuoto.",
+        "via": "counterpick"
+      }
+    ],
     "twisted-fate": [
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Point-and-click CC mages",
+        "reason": "Their lock-on stun or suppress cancels Akshan's R channel, breaks his E swing mid-rotation, and outs his W camouflage — Edge of Night blocks one cast per 30s but cannot save him twice.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage con CC point-and-click",
+        "reason": "Lo stun o suppress lock-on cancella il channel della R, rompe lo swing della E a metà rotazione e rivela il camouflage della W — Edge of Night blocca un cast ogni 30s ma non lo salva due volte.",
+        "via": "counterpick"
+      },
       {
         "publisher": {
           "champion": "fizz",
@@ -478,6 +1102,46 @@
     "veigar": [
       {
         "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "Ahri's E (Charm) is a long-range skillshot lock. Targets without a dash or stealth get charmed on a clean line and eat the full R + Q + W combo before they can step out of range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "La E (Charm) di Ahri è uno skillshot a lunga gittata che blocca il bersaglio. Chi non ha dash o stealth viene incantato su una linea pulita e mangia tutto il combo R + Q + W prima di poter uscire dal range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile artillery mages without dash",
+        "reason": "These champions sit still to scale or out-poke; Akshan's E around the mid-lane wall closes the gap and chains a Q + 3-hit passive into R execute before they finish a cast.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage artillery immobili senza dash",
+        "reason": "Stanno fermi a scalare o a pokare; la E di Akshan attorno alla parete di mid chiude la distanza e incatena Q + 3-hit della passiva + R di execute prima che finiscano un cast.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -520,6 +1184,26 @@
     "vel-koz": [
       {
         "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile artillery mages without dash",
+        "reason": "These champions sit still to scale or out-poke; Akshan's E around the mid-lane wall closes the gap and chains a Q + 3-hit passive into R execute before they finish a cast.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage artillery immobili senza dash",
+        "reason": "Stanno fermi a scalare o a pokare; la E di Akshan attorno alla parete di mid chiude la distanza e incatena Q + 3-hit della passiva + R di execute prima che finiscano un cast.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -542,6 +1226,26 @@
     "viktor": [
       {
         "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "Ahri's E (Charm) is a long-range skillshot lock. Targets without a dash or stealth get charmed on a clean line and eat the full R + Q + W combo before they can step out of range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "La E (Charm) di Ahri è uno skillshot a lunga gittata che blocca il bersaglio. Chi non ha dash o stealth viene incantato su una linea pulita e mangia tutto il combo R + Q + W prima di poter uscire dal range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -561,7 +1265,69 @@
         "via": "pick_into"
       }
     ],
+    "vladimir": [
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Short-range mages who must walk in to deal damage",
+        "reason": "They have to step into melee for full output; Aatrox punishes the gap with W slow plus a Q edge knock-up before they can disengage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Mage a corto raggio che devono entrare per fare danno",
+        "reason": "Devono mettersi a distanza melee per il danno pieno; Aatrox punisce il gap con lo slow della W + Q sul bordo per knock-up prima che possano disimpegnarsi.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Sustained mages without burst",
+        "reason": "Ahri's burst from a full R combo deletes them in under a second, before their sustain damage or healing can stack into a meaningful trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage da danno sostenuto senza burst",
+        "reason": "Il burst di Ahri da combo R completa li elimina in meno di un secondo, prima che il loro danno sostenuto o le cure facciano in tempo a stackare in uno scambio significativo.",
+        "via": "pick_into"
+      }
+    ],
     "xerath": [
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile artillery mages without dash",
+        "reason": "These champions sit still to scale or out-poke; Akshan's E around the mid-lane wall closes the gap and chains a Q + 3-hit passive into R execute before they finish a cast.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage artillery immobili senza dash",
+        "reason": "Stanno fermi a scalare o a pokare; la E di Akshan attorno alla parete di mid chiude la distanza e incatena Q + 3-hit della passiva + R di execute prima che finiscano un cast.",
+        "via": "pick_into"
+      },
       {
         "publisher": {
           "champion": "fizz",
@@ -623,6 +1389,112 @@
         "via": "pick_into"
       }
     ],
+    "yasuo": [
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Wind Wall users",
+        "reason": "Their Wind Wall blocks Charm and the orb of Q. Ahri loses both her setup tool and her main poke — she has to walk inside the wall to land anything, which is exactly where they want her.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Champion con Wind Wall",
+        "reason": "Il loro Wind Wall blocca Charm e l'orbo di Q. Ahri perde sia lo strumento di setup sia il poke principale — deve entrare dentro il muro per colpire qualcosa, che è esattamente dove la vogliono loro.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Wind Wall blockers",
+        "reason": "Wind Wall blocks Akshan's Q boomerang, every E-swing auto-attack, and every bullet of R; a single well-timed wall flips the entire trade and lets them all-in him with no damage taken.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Champion con Wind Wall",
+        "reason": "Il Wind Wall blocca la Q boomerang, ogni auto durante lo swing di E e ogni proiettile della R; un singolo Wind Wall ben piazzato ribalta il trade e gli permette di all-in senza prendere danno.",
+        "via": "counterpick"
+      }
+    ],
+    "yone": [
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Wind Wall users",
+        "reason": "Their Wind Wall blocks Charm and the orb of Q. Ahri loses both her setup tool and her main poke — she has to walk inside the wall to land anything, which is exactly where they want her.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Champion con Wind Wall",
+        "reason": "Il loro Wind Wall blocca Charm e l'orbo di Q. Ahri perde sia lo strumento di setup sia il poke principale — deve entrare dentro il muro per colpire qualcosa, che è esattamente dove la vogliono loro.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Wind Wall blockers",
+        "reason": "Wind Wall blocks Akshan's Q boomerang, every E-swing auto-attack, and every bullet of R; a single well-timed wall flips the entire trade and lets them all-in him with no damage taken.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Champion con Wind Wall",
+        "reason": "Il Wind Wall blocca la Q boomerang, ogni auto durante lo swing di E e ogni proiettile della R; un singolo Wind Wall ben piazzato ribalta il trade e gli permette di all-in senza prendere danno.",
+        "via": "counterpick"
+      }
+    ],
+    "yorick": [
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile melee fighters without engage tools",
+        "reason": "Aatrox wins trades before level 6 with Q edge hits; W chains pin them long enough that they cannot stack their passives safely or escape an all-in.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "aatrox",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Fighter melee immobili senza tool di engage",
+        "reason": "Aatrox vince i trade prima del livello 6 con i Q sul bordo; la W li tiene fermi abbastanza a lungo che non possono accumulare cariche delle loro passive in sicurezza né scappare al suo all-in.",
+        "via": "pick_into"
+      }
+    ],
     "zed": [
       {
         "publisher": {
@@ -646,6 +1518,46 @@
       }
     ],
     "ziggs": [
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Backline scalers without escape",
+        "reason": "Spirit Rush gives Ahri three dashes that reset on takedown — she can dive past the front line, delete an immobile carry, and dash back out before peel arrives.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ahri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Carry da retroguardia senza escape",
+        "reason": "Spirit Rush dà ad Ahri tre dash che si resettano sui takedown — può tuffarsi oltre la front line, eliminare un carry immobile e dashare via prima che arrivi il peel.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Backline scalers with weak self-peel",
+        "reason": "Akshan's R locks on at 2500 range and ignores most peel; once the target dips below 50% HP the bullets execute through their kit even across the river.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "akshan",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Carry da retroguardia con peel debole",
+        "reason": "La R di Akshan locka a 2500 di range e ignora gran parte del peel; sotto il 50% HP i proiettili eseguono attraverso il loro kit anche dall'altra parte del river.",
+        "via": "pick_into"
+      },
       {
         "publisher": {
           "champion": "fizz",

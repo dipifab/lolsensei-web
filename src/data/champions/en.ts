@@ -5,6 +5,535 @@ import type { ChampionGuide } from './types';
 
 export const enChampions: ChampionGuide[] = [
   {
+    "slug": "aatrox-top",
+    "title": "Aatrox Top Build & Guide — Patch 16.9",
+    "language": "en",
+    "patch": "16.9",
+    "champion": "aatrox",
+    "role": "top",
+    "last_updated": "2026-04-29",
+    "description": "Aatrox top lane guide for League of Legends Patch 16.9: bruiser build path, Q edge mechanics, key matchups, power spikes, common mistakes, and a closing tip.",
+    "quick_learn": {
+      "champion_dd_id": "Aatrox",
+      "difficulty": 2,
+      "damage_type": "physical",
+      "champion_class": "Fighter / Drain Tank",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Deathbringer Stance",
+          "description": "Periodically, his next basic attack deals bonus magic damage scaling with target max HP and heals Aatrox. Track the indicator on his portrait.",
+          "dd_spell_id": "Aatrox_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "The Darkin Blade",
+          "description": "Greatsword slam in three sequential casts, each a different shape. Hitting the outer edge knocks up enemies briefly and deals 25% bonus damage. Aatrox's main damage source.",
+          "dd_spell_id": "AatroxQ"
+        },
+        {
+          "key": "W",
+          "name": "Infernal Chains",
+          "description": "Chain projectile that slows the first target hit. If a champion or large monster does not leave the impact zone in time, they are pulled back and damaged again.",
+          "dd_spell_id": "AatroxW"
+        },
+        {
+          "key": "E",
+          "name": "Umbral Dash",
+          "description": "Passive: heals for a portion of damage dealt to champions. Active: short dash, usable mid-Q-windup to align edge hits or kite.",
+          "dd_spell_id": "AatroxE"
+        },
+        {
+          "key": "R",
+          "name": "World Ender",
+          "description": "Demonic form: bonus AD, Move Speed decaying over the duration, and increased self-healing. Fears nearby enemy minions. Takedowns extend the duration.",
+          "dd_spell_id": "AatroxR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "W"
+        },
+        {
+          "level": 3,
+          "key": "E"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6692",
+          "name": "Eclipse"
+        },
+        {
+          "dd_id": "3047",
+          "name": "Plated Steelcaps"
+        },
+        {
+          "dd_id": "3071",
+          "name": "Black Cleaver"
+        },
+        {
+          "dd_id": "3053",
+          "name": "Sterak's Gage"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3111",
+          "name": "Mercury's Treads",
+          "against": "swap from Plated Steelcaps when the enemy team has heavy magic damage or strong CC chains (e.g. Lissandra, Sett, Malphite ult)"
+        },
+        {
+          "dd_id": "3156",
+          "name": "Maw of Malmortius",
+          "against": "vs heavy AP burst (Syndra, Vex, Fizz mid swapping top): the spell shield blocks one big magic hit and saves your engage"
+        },
+        {
+          "dd_id": "6333",
+          "name": "Death's Dance",
+          "against": "vs squads with two strong physical AD dealers (Yasuo + Caitlyn): turns burst AD into a slow bleed so E lifesteal can heal it back"
+        },
+        {
+          "dd_id": "3814",
+          "name": "Edge of Night",
+          "against": "vs single-target lockdown that one-shots your engage (Morgana Q, Blitzcrank hook, Lissandra R)"
+        },
+        {
+          "dd_id": "3155",
+          "name": "Hexdrinker",
+          "against": "rush this component instead of finishing Eclipse if you are bleeding HP to an AP top (Vladimir, Rumble) and need MR before backing"
+        }
+      ],
+      "base_combo": [
+        "W",
+        "AA",
+        "Q1",
+        "E",
+        "Q2",
+        "Q3"
+      ],
+      "win_condition": "Land Q edges to knock up, chain W to lock targets in place, use E to reset position. Convert Eclipse + Black Cleaver lead into side-lane 1v1 wins.",
+      "weakness": "All damage rides on Q timing. Miss the edge and the trade is lost. Hard CC, long-range kiters, and true-damage duelists (Fiora, Camille) tear his sustain apart."
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "nasus",
+            "yorick"
+          ],
+          "archetype": "Immobile melee fighters without engage tools",
+          "reason": "Aatrox wins trades before level 6 with Q edge hits; W chains pin them long enough that they cannot stack their passives safely or escape an all-in."
+        },
+        {
+          "examples": [
+            "ryze",
+            "vladimir"
+          ],
+          "archetype": "Short-range mages who must walk in to deal damage",
+          "reason": "They have to step into melee for full output; Aatrox punishes the gap with W slow plus a Q edge knock-up before they can disengage."
+        },
+        {
+          "examples": [
+            "kayle",
+            "k-sante"
+          ],
+          "archetype": "Weak early-laners that spike late",
+          "reason": "Aatrox has one of the best early-game laning curves; he can kill or deny their XP before they reach the late-game items that make them scary."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "fiora",
+            "camille"
+          ],
+          "archetype": "True-damage duelists with parry or shield",
+          "reason": "Fiora's W parries the Q knock-up and her Vitals (marks on Aatrox she autos for true damage — damage that ignores armor and MR) bypass the drain tank build; Camille's E adds more true damage on top."
+        },
+        {
+          "examples": [
+            "quinn",
+            "teemo"
+          ],
+          "archetype": "Long-range or invisibility-based kiters",
+          "reason": "They stay outside Q range and break Aatrox's wind-ups with blind or vault (Quinn's E knockback dash); he has no way to close the gap without burning both E and Flash."
+        },
+        {
+          "examples": [
+            "malphite",
+            "maokai"
+          ],
+          "archetype": "Tanks with instant hard CC (no skill aim)",
+          "reason": "Their stuns and roots are point-and-click — no projectile to dodge. They interrupt Q recasts mid-animation, and once Aatrox is locked down he cannot heal back through E lifesteal."
+        }
+      ]
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Aatrox is a melee fighter (a hand-to-hand champion that fights at close range) built around a three-cast greatsword <strong>Q</strong>. Each cast covers a different shape, and hitting the <strong>outer edge</strong> of the swing — not the inner zone — does two extra things: it briefly <strong>knocks up</strong> the target (sends them airborne for a moment so they cannot act) and deals 25% bonus damage. His kit also has a slow + chain pull (<strong>W</strong>), a short <strong>dash</strong> (<strong>E</strong>: a quick burst of movement, usable during the Q animation to reposition), and a demonic-form ultimate (<strong>R</strong>: a long-cooldown buff). He is a <strong>drain tank</strong>: not a real tank, but a fighter who survives by healing damage back through E's <strong>lifesteal</strong> (a percentage of damage you deal that returns to you as health) instead of stacking armor or HP.</p>\n<p>His game plan is short to describe and demanding to execute: in lane, walk up with <strong>W</strong> ready as the lock-down (the slow that nails the enemy in place), then swing <strong>Q</strong> so the <strong>edge</strong> of the blade catches the slowed target. Use <strong>E</strong> to slide into the right position for the second and third Q casts. From mid-game on, look for side-lane 1v1s and 2v2 skirmishes (mini-fights between two players per side, away from the main team fight). Aatrox is one of the strongest <strong>bruisers</strong> (champions that mix damage and durability) in the game once his R is up and at least one item is online.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1054.png\" alt=\"Doran&#x27;s Shield\"> <strong>Doran's Shield</strong> + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potion</strong>. The HP-regen passive on Doran's Shield carries Aatrox through the early levels when his sustain (his ability to heal himself back during a fight) is weakest.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6692.png\" alt=\"Eclipse\"> <strong>Eclipse</strong> — first-item spike (the moment your damage jumps the most). Gives <strong>AD</strong> (Attack Damage, the stat behind your basic-attack and Q damage), <strong>omnivamp</strong> (lifesteal that works on every kind of damage you deal, not just basic attacks), and <strong>ability haste</strong> (which lowers the cooldown of your abilities). Its passive triggers on the second hit, and Q1 + Q2 land them in sequence.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> — default boots when the enemy hurts you mostly with basic attacks. They reduce that damage in extended trades (back-and-forth exchanges of damage in lane).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3071.png\" alt=\"Black Cleaver\"> <strong>Black Cleaver</strong> — every Q hit shaves off a stack of the enemy's <strong>armor</strong> (the stat that reduces physical damage). It also gives HP for survivability and ability haste for more Q rotations per fight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3053.png\" alt=\"Sterak&#x27;s Gage\"> <strong>Sterak's Gage</strong> — HP plus a <strong>lifeline shield</strong>: when your health drops below a threshold (around 30%), an automatic shield triggers. That window is exactly when you need extra time so E lifesteal can heal you back to safety.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — swap from <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> when the enemy team has heavy magic damage or chained <strong>CC</strong> (crowd control: stuns, roots, knockbacks — anything that locks you down so you cannot act). Examples: Lissandra root, Sett pull, Malphite ultimate.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — versus heavy <strong>AP</strong> burst (AP = ability power, the stat behind magic damage; burst = high damage delivered in 1-2 seconds). The Lifeline passive blocks one big magic hit, often the difference between dying mid-engage (mid-fight-initiation) and surviving long enough to land R.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6333.png\" alt=\"Death&#x27;s Dance\"> <strong>Death's Dance</strong> — versus squads with two strong physical (AD) damage dealers (e.g. Yasuo + Caitlyn). It turns burst into a slow <strong>bleed</strong> (damage spread over the next few seconds instead of landing all at once), giving E lifesteal time to heal it back.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> — versus single-target hard CC that one-shots your engage (the Q from Morgana, the hook from Blitzcrank, the R from Lissandra). It carries a one-time spell shield that absorbs the lockdown ability so you can commit (fully go in) instead of dodging at max range.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3155.png\" alt=\"Hexdrinker\"> <strong>Hexdrinker</strong> — early-game <strong>MR</strong> (Magic Resistance, the stat that reduces magic damage) component. Buy it before finishing <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6692.png\" alt=\"Eclipse\"> <strong>Eclipse</strong> if an AP top laner like Vladimir or Rumble is winning lane.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> is the default. Switch to <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> when the enemy team has three or more sources of CC or heavy magic damage.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (it is your only damage), <strong>E</strong> second (the lifesteal scales per rank, so more dashes per fight), <strong>W</strong> last. Take <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Runes are passive effects you choose before the game from a \"tree\" of options, each tree built around a different style. Aatrox uses <strong>Precision</strong> as the primary tree (the one built around sustained damage from basic attacks) with the keystone (the main rune of the tree) <strong>Conqueror</strong> — a passive that ramps up your damage as you keep fighting — plus <strong>Triumph</strong> (a small heal on takedowns), <strong>Legend: Tenacity</strong> (Tenacity = stat that shortens the duration of CC effects on you), and <strong>Last Stand</strong> (more damage when low HP). As secondary tree, take <strong>Resolve</strong> (the durability tree) with <strong>Second Wind</strong> + <strong>Revitalize</strong> for HP sustain in lane, or <strong>Inspiration</strong> with <strong>Magical Footwear</strong> (free boots at 12 minutes) and <strong>Cosmic Insight</strong> (extra ability haste) if you expect a quiet lane.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Fiora:</strong> Hardest matchup. Her <strong>W</strong> is a parry (a brief shield that blocks and counters one ability) that cancels your Q knock-up. Bait the parry — force her to use it on a Q1 — before committing the third Q. Avoid long trades: do quick Q1 + E in/out, and never commit Q3 unless her W is on cooldown.</li>\n<li><strong>Darius:</strong> Skill matchup (the player who plays better wins, regardless of counter picks). Stay outside the range of his <strong>E</strong> pull when his bleed has three or more stacks on you (his passive shaves your HP every second per stack). Hit Q on the edge when his Q is on cooldown; under R, trades favor you if you are at least one item ahead.</li>\n<li><strong>Renekton:</strong> Loses lane before level 6 if you respect his W stun. Walk up only when your W is ready; punish his cooldowns instead of trading face-to-face. After 6, your R sustains better than the fury (his resource bar) he burns.</li>\n<li><strong>Malphite:</strong> Avoid standing on top of your minion wave — his Q is a long-range poke (low-cost ranged damage to chip your HP without committing) that hits you for free. Buy <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3155.png\" alt=\"Hexdrinker\"> <strong>Hexdrinker</strong> if his early poke is winning the lane; <strong>freeze</strong> the wave near your tower (stop pushing and keep the wave on your side of the lane) to deny him farm (the gold and XP from killing minions).</li>\n<li><strong>Quinn:</strong> Very rough. Her ability blinds you (cancels your basic attacks for a short time, including the empowered passive auto), and she kites you out of Q range (moves backwards while attacking, keeping you out of melee). Push the wave hard and roam (leave your lane to help mid) for picks (isolated kills on out-of-position enemies) instead of trying to win the 1v1.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2:</strong> With <strong>Q</strong> + <strong>W</strong> unlocked, Aatrox has a real all-in window (a window where you can fully commit to the kill, with no fallback). If the enemy mispositions, walk up with W ready and hit Q on the edge after the slow lands.</li>\n<li><strong>Level 6:</strong> Your first R unlocks. Look for an all-in if the enemy is below 60% HP — the AD boost and healing buff turn even neutral trades into kills.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6692.png\" alt=\"Eclipse\"> Eclipse completion (~ minute 11-13):</strong> Your damage spikes hard. Force side-lane duels and look to roam bot for a 2v3 dive (going under the enemy bot tower with your jungler — the player who farms the jungle camps and rotates to lanes — to kill them through tower shots).</li>\n<li><strong>Two items + R online (~ minute 18-22):</strong> Peak teamfight window. Use the <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3053.png\" alt=\"Sterak&#x27;s Gage\"> <strong>Sterak's Gage</strong> lifeline shield plus the R healing amp (amplification — R increases all healing you receive) to dive the enemy back line (the squishy carries who stand behind their own tanks during a fight) and reset (refresh) the R duration on takedowns (kills or assists).</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Casting Q1 immediately on contact.</strong> Q1 is the smallest and slowest cast. Lead with <strong>W</strong> for the slow, then time Q1 so the <strong>edge</strong> of the swing clips them — not the inner zone. The bonus damage from edge hits is roughly 25%.</li>\n<li><strong>Burning E for movement instead of for Q alignment.</strong> E is your trade-winning tool. Save it to slide into edge-hit range or to dodge a key enemy ability during the Q wind-up (the brief animation before the Q damage actually lands). Do not blow E just to cross the wave faster.</li>\n<li><strong>Pressing R too early in a fight.</strong> Aatrox's R has a long cooldown and the buff decays over time. Engage (start the fight) first with W + Q, then activate R when you are committed and need the AD/healing amp — not as the opening engage tool.</li>\n<li><strong>Ignoring W on minions.</strong> W passes through a minion to slow the champion behind. In hard matchups (Fiora, Camille), fire W from behind your wave so the projectile clips them through minion bodies before they can react.</li>\n<li><strong>Stacking armor over haste/AD.</strong> Aatrox is a drain tank, not a real tank. He survives by healing damage back through E lifesteal; that healing scales (grows) with the damage you deal. Building HP-tank-only items kills both your output and your sustain.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Use <strong>E</strong> during the Q1 wind-up animation to shift the Q hitbox mid-cast: you can start the Q facing one direction, then dash through a minion or behind the enemy and have the slam land at a completely different angle. This is called the <strong>Q animation cancel</strong>, and it turns predictable Q casts into unpredictable plays. Practice it in a custom game on a target dummy: cast Q1, hold the cast, dash with E, and watch the Q resolve at the new position. In a real game, the highest-impact use is dashing <strong>into</strong> an enemy who tried to side-step (move sideways to dodge) a telegraphed Q (a Q where the wind-up was visible enough that they read it coming), then catching them on the edge of the new angle for the knock-up.</p>",
+    "content_html_pre": "<h2>Overview</h2>\n<p>Aatrox is a melee fighter (a hand-to-hand champion that fights at close range) built around a three-cast greatsword <strong>Q</strong>. Each cast covers a different shape, and hitting the <strong>outer edge</strong> of the swing — not the inner zone — does two extra things: it briefly <strong>knocks up</strong> the target (sends them airborne for a moment so they cannot act) and deals 25% bonus damage. His kit also has a slow + chain pull (<strong>W</strong>), a short <strong>dash</strong> (<strong>E</strong>: a quick burst of movement, usable during the Q animation to reposition), and a demonic-form ultimate (<strong>R</strong>: a long-cooldown buff). He is a <strong>drain tank</strong>: not a real tank, but a fighter who survives by healing damage back through E's <strong>lifesteal</strong> (a percentage of damage you deal that returns to you as health) instead of stacking armor or HP.</p>\n<p>His game plan is short to describe and demanding to execute: in lane, walk up with <strong>W</strong> ready as the lock-down (the slow that nails the enemy in place), then swing <strong>Q</strong> so the <strong>edge</strong> of the blade catches the slowed target. Use <strong>E</strong> to slide into the right position for the second and third Q casts. From mid-game on, look for side-lane 1v1s and 2v2 skirmishes (mini-fights between two players per side, away from the main team fight). Aatrox is one of the strongest <strong>bruisers</strong> (champions that mix damage and durability) in the game once his R is up and at least one item is online.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1054.png\" alt=\"Doran&#x27;s Shield\"> <strong>Doran's Shield</strong> + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potion</strong>. The HP-regen passive on Doran's Shield carries Aatrox through the early levels when his sustain (his ability to heal himself back during a fight) is weakest.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6692.png\" alt=\"Eclipse\"> <strong>Eclipse</strong> — first-item spike (the moment your damage jumps the most). Gives <strong>AD</strong> (Attack Damage, the stat behind your basic-attack and Q damage), <strong>omnivamp</strong> (lifesteal that works on every kind of damage you deal, not just basic attacks), and <strong>ability haste</strong> (which lowers the cooldown of your abilities). Its passive triggers on the second hit, and Q1 + Q2 land them in sequence.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> — default boots when the enemy hurts you mostly with basic attacks. They reduce that damage in extended trades (back-and-forth exchanges of damage in lane).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3071.png\" alt=\"Black Cleaver\"> <strong>Black Cleaver</strong> — every Q hit shaves off a stack of the enemy's <strong>armor</strong> (the stat that reduces physical damage). It also gives HP for survivability and ability haste for more Q rotations per fight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3053.png\" alt=\"Sterak&#x27;s Gage\"> <strong>Sterak's Gage</strong> — HP plus a <strong>lifeline shield</strong>: when your health drops below a threshold (around 30%), an automatic shield triggers. That window is exactly when you need extra time so E lifesteal can heal you back to safety.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — swap from <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> when the enemy team has heavy magic damage or chained <strong>CC</strong> (crowd control: stuns, roots, knockbacks — anything that locks you down so you cannot act). Examples: Lissandra root, Sett pull, Malphite ultimate.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — versus heavy <strong>AP</strong> burst (AP = ability power, the stat behind magic damage; burst = high damage delivered in 1-2 seconds). The Lifeline passive blocks one big magic hit, often the difference between dying mid-engage (mid-fight-initiation) and surviving long enough to land R.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6333.png\" alt=\"Death&#x27;s Dance\"> <strong>Death's Dance</strong> — versus squads with two strong physical (AD) damage dealers (e.g. Yasuo + Caitlyn). It turns burst into a slow <strong>bleed</strong> (damage spread over the next few seconds instead of landing all at once), giving E lifesteal time to heal it back.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> — versus single-target hard CC that one-shots your engage (the Q from Morgana, the hook from Blitzcrank, the R from Lissandra). It carries a one-time spell shield that absorbs the lockdown ability so you can commit (fully go in) instead of dodging at max range.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3155.png\" alt=\"Hexdrinker\"> <strong>Hexdrinker</strong> — early-game <strong>MR</strong> (Magic Resistance, the stat that reduces magic damage) component. Buy it before finishing <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6692.png\" alt=\"Eclipse\"> <strong>Eclipse</strong> if an AP top laner like Vladimir or Rumble is winning lane.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> is the default. Switch to <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> when the enemy team has three or more sources of CC or heavy magic damage.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (it is your only damage), <strong>E</strong> second (the lifesteal scales per rank, so more dashes per fight), <strong>W</strong> last. Take <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Runes are passive effects you choose before the game from a \"tree\" of options, each tree built around a different style. Aatrox uses <strong>Precision</strong> as the primary tree (the one built around sustained damage from basic attacks) with the keystone (the main rune of the tree) <strong>Conqueror</strong> — a passive that ramps up your damage as you keep fighting — plus <strong>Triumph</strong> (a small heal on takedowns), <strong>Legend: Tenacity</strong> (Tenacity = stat that shortens the duration of CC effects on you), and <strong>Last Stand</strong> (more damage when low HP). As secondary tree, take <strong>Resolve</strong> (the durability tree) with <strong>Second Wind</strong> + <strong>Revitalize</strong> for HP sustain in lane, or <strong>Inspiration</strong> with <strong>Magical Footwear</strong> (free boots at 12 minutes) and <strong>Cosmic Insight</strong> (extra ability haste) if you expect a quiet lane.</p>",
+    "content_html_post": "<h2>Key matchups</h2>\n<ul>\n<li><strong>Fiora:</strong> Hardest matchup. Her <strong>W</strong> is a parry (a brief shield that blocks and counters one ability) that cancels your Q knock-up. Bait the parry — force her to use it on a Q1 — before committing the third Q. Avoid long trades: do quick Q1 + E in/out, and never commit Q3 unless her W is on cooldown.</li>\n<li><strong>Darius:</strong> Skill matchup (the player who plays better wins, regardless of counter picks). Stay outside the range of his <strong>E</strong> pull when his bleed has three or more stacks on you (his passive shaves your HP every second per stack). Hit Q on the edge when his Q is on cooldown; under R, trades favor you if you are at least one item ahead.</li>\n<li><strong>Renekton:</strong> Loses lane before level 6 if you respect his W stun. Walk up only when your W is ready; punish his cooldowns instead of trading face-to-face. After 6, your R sustains better than the fury (his resource bar) he burns.</li>\n<li><strong>Malphite:</strong> Avoid standing on top of your minion wave — his Q is a long-range poke (low-cost ranged damage to chip your HP without committing) that hits you for free. Buy <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3155.png\" alt=\"Hexdrinker\"> <strong>Hexdrinker</strong> if his early poke is winning the lane; <strong>freeze</strong> the wave near your tower (stop pushing and keep the wave on your side of the lane) to deny him farm (the gold and XP from killing minions).</li>\n<li><strong>Quinn:</strong> Very rough. Her ability blinds you (cancels your basic attacks for a short time, including the empowered passive auto), and she kites you out of Q range (moves backwards while attacking, keeping you out of melee). Push the wave hard and roam (leave your lane to help mid) for picks (isolated kills on out-of-position enemies) instead of trying to win the 1v1.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2:</strong> With <strong>Q</strong> + <strong>W</strong> unlocked, Aatrox has a real all-in window (a window where you can fully commit to the kill, with no fallback). If the enemy mispositions, walk up with W ready and hit Q on the edge after the slow lands.</li>\n<li><strong>Level 6:</strong> Your first R unlocks. Look for an all-in if the enemy is below 60% HP — the AD boost and healing buff turn even neutral trades into kills.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6692.png\" alt=\"Eclipse\"> Eclipse completion (~ minute 11-13):</strong> Your damage spikes hard. Force side-lane duels and look to roam bot for a 2v3 dive (going under the enemy bot tower with your jungler — the player who farms the jungle camps and rotates to lanes — to kill them through tower shots).</li>\n<li><strong>Two items + R online (~ minute 18-22):</strong> Peak teamfight window. Use the <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3053.png\" alt=\"Sterak&#x27;s Gage\"> <strong>Sterak's Gage</strong> lifeline shield plus the R healing amp (amplification — R increases all healing you receive) to dive the enemy back line (the squishy carries who stand behind their own tanks during a fight) and reset (refresh) the R duration on takedowns (kills or assists).</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Casting Q1 immediately on contact.</strong> Q1 is the smallest and slowest cast. Lead with <strong>W</strong> for the slow, then time Q1 so the <strong>edge</strong> of the swing clips them — not the inner zone. The bonus damage from edge hits is roughly 25%.</li>\n<li><strong>Burning E for movement instead of for Q alignment.</strong> E is your trade-winning tool. Save it to slide into edge-hit range or to dodge a key enemy ability during the Q wind-up (the brief animation before the Q damage actually lands). Do not blow E just to cross the wave faster.</li>\n<li><strong>Pressing R too early in a fight.</strong> Aatrox's R has a long cooldown and the buff decays over time. Engage (start the fight) first with W + Q, then activate R when you are committed and need the AD/healing amp — not as the opening engage tool.</li>\n<li><strong>Ignoring W on minions.</strong> W passes through a minion to slow the champion behind. In hard matchups (Fiora, Camille), fire W from behind your wave so the projectile clips them through minion bodies before they can react.</li>\n<li><strong>Stacking armor over haste/AD.</strong> Aatrox is a drain tank, not a real tank. He survives by healing damage back through E lifesteal; that healing scales (grows) with the damage you deal. Building HP-tank-only items kills both your output and your sustain.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Use <strong>E</strong> during the Q1 wind-up animation to shift the Q hitbox mid-cast: you can start the Q facing one direction, then dash through a minion or behind the enemy and have the slam land at a completely different angle. This is called the <strong>Q animation cancel</strong>, and it turns predictable Q casts into unpredictable plays. Practice it in a custom game on a target dummy: cast Q1, hold the cast, dash with E, and watch the Q resolve at the new position. In a real game, the highest-impact use is dashing <strong>into</strong> an enemy who tried to side-step (move sideways to dodge) a telegraphed Q (a Q where the wind-up was visible enough that they read it coming), then catching them on the edge of the new angle for the knock-up.</p>",
+    "word_count": 1697,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "darius-top",
+        "champion": "darius",
+        "role": "top"
+      },
+      {
+        "slug": "fiora-top",
+        "champion": "fiora",
+        "role": "top"
+      },
+      {
+        "slug": "garen-top",
+        "champion": "garen",
+        "role": "top"
+      },
+      {
+        "slug": "irelia-top",
+        "champion": "irelia",
+        "role": "top"
+      },
+      {
+        "slug": "jax-top",
+        "champion": "jax",
+        "role": "top"
+      }
+    ]
+  },
+  {
+    "slug": "ahri-mid",
+    "title": "Ahri Mid Build & Guide — Patch 16.9",
+    "language": "en",
+    "patch": "16.9",
+    "champion": "ahri",
+    "role": "mid",
+    "last_updated": "2026-04-29",
+    "description": "Ahri mid lane guide for League of Legends Patch 16.9: starter kit, core mage build path, key matchups, power spikes, common mistakes, and a closing tip.",
+    "quick_learn": {
+      "champion_dd_id": "Ahri",
+      "difficulty": 2,
+      "damage_type": "magic",
+      "champion_class": "Mage / Assassin",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Essence Theft",
+          "description": "Heals after killing 9 minions or jungle monsters; a larger heal on champion takedown. Lane sustain that scales with farm.",
+          "dd_spell_id": "Ahri_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Orb of Deception",
+          "description": "Linear skillshot that throws an orb out and pulls it back. Magic damage on the way out, true damage on the way back. Main waveclear and poke.",
+          "dd_spell_id": "AhriQ"
+        },
+        {
+          "key": "W",
+          "name": "Fox-Fire",
+          "description": "Releases 3 fox-fires that auto-seek nearby enemies; first hit deals full damage, additional hits reduced. Also grants a brief Move Speed boost.",
+          "dd_spell_id": "AhriW"
+        },
+        {
+          "key": "E",
+          "name": "Charm",
+          "description": "Skillshot kiss that charms the first enemy hit — they walk harmlessly toward Ahri while taking damage. Setup tool, never raw poke.",
+          "dd_spell_id": "AhriE"
+        },
+        {
+          "key": "R",
+          "name": "Spirit Rush",
+          "description": "Up to three short dashes within a short window, each firing auto-targeting bolts. Champion takedowns extend the recast window. Mobility plus execute.",
+          "dd_spell_id": "AhriR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "W"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "W"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "W"
+        },
+        {
+          "level": 13,
+          "key": "W"
+        },
+        {
+          "level": 14,
+          "key": "E"
+        },
+        {
+          "level": 15,
+          "key": "E"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "E"
+        },
+        {
+          "level": 18,
+          "key": "E"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6655",
+          "name": "Luden's Companion"
+        },
+        {
+          "dd_id": "3020",
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "dd_id": "4645",
+          "name": "Shadowflame"
+        },
+        {
+          "dd_id": "3089",
+          "name": "Rabadon's Deathcap"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass",
+          "against": "vs divers and assassins (Zed, Diana, Talon, Fizz) — stasis lets you survive after committing R into a teamfight"
+        },
+        {
+          "dd_id": "3102",
+          "name": "Banshee's Veil",
+          "against": "vs single-target magic crowd-control (Lissandra R, Twisted Fate stun, Morgana Q)"
+        },
+        {
+          "dd_id": "3135",
+          "name": "Void Staff",
+          "against": "swap when any priority target buys a Magic Resist item (Mercury's Treads + MR core)"
+        },
+        {
+          "dd_id": "4644",
+          "name": "Stormsurge",
+          "against": "alternative first item when enemy team has 4+ squishy targets — higher single-pick ceiling, less sustained damage"
+        }
+      ],
+      "base_combo": [
+        "E",
+        "R",
+        "W",
+        "Q",
+        "AA"
+      ],
+      "win_condition": "Charm a squishy target, dash in with R, dump W and a returning Q for true damage, then dash out with the remaining R charges. Snowball each pickoff into the next dragon or roam.",
+      "weakness": "No burst without Charm. If E misses you commit your full combo to nothing; if R is on cooldown you have no escape and any hard CC deletes you."
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "karthus",
+            "veigar",
+            "annie",
+            "viktor"
+          ],
+          "archetype": "Immobile mages without dash",
+          "reason": "Ahri's E (Charm) is a long-range skillshot lock. Targets without a dash or stealth get charmed on a clean line and eat the full R + Q + W combo before they can step out of range."
+        },
+        {
+          "examples": [
+            "caitlyn",
+            "senna",
+            "ziggs"
+          ],
+          "archetype": "Backline scalers without escape",
+          "reason": "Spirit Rush gives Ahri three dashes that reset on takedown — she can dive past the front line, delete an immobile carry, and dash back out before peel arrives."
+        },
+        {
+          "examples": [
+            "malzahar",
+            "vladimir"
+          ],
+          "archetype": "Sustained mages without burst",
+          "reason": "Ahri's burst from a full R combo deletes them in under a second, before their sustain damage or healing can stack into a meaningful trade."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "yasuo",
+            "yone"
+          ],
+          "archetype": "Wind Wall users",
+          "reason": "Their Wind Wall blocks Charm and the orb of Q. Ahri loses both her setup tool and her main poke — she has to walk inside the wall to land anything, which is exactly where they want her."
+        },
+        {
+          "examples": [
+            "fizz",
+            "kassadin"
+          ],
+          "archetype": "Mobile assassins with magic damage mitigation",
+          "reason": "Fizz E dodges Ahri's R bolts and his passive reduces magic burst; Kassadin has a magic damage shield plus a blink. Ahri commits a full combo and they survive on a sliver, then kill her on the recovery frame."
+        },
+        {
+          "examples": [
+            "lissandra",
+            "galio"
+          ],
+          "archetype": "Anti-assassin mages with hard CC",
+          "reason": "Their hard CC catches Ahri mid-R: a single root or taunt during her dash window cancels both her damage output and her escape, turning a pickoff attempt into a free kill for them."
+        }
+      ]
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Ahri is a mid-lane mage-assassin: she pokes from range like a mage, but <strong>Spirit Rush (R)</strong> lets her dive in, kill a single squishy target (a low-health, low-defense champion like an ADC or a mage), and dash back out — a play pattern called a <strong>pickoff</strong> (eliminating one isolated enemy, not a full teamfight). Her kit (the full set of her abilities) centers on <strong>Charm (E)</strong>, a skillshot kiss that locks an enemy in place. Every other ability she owns is built to chain off that single hit. <strong>R</strong> has a special quirk: each champion takedown refreshes the dash counter, so a successful pick lets her chain into a second one in the same fight.</p>\n<p>Her game plan is patience, then commit (going all-in on a combo without the option to back out). <strong>Farm</strong> with <strong>Q</strong> (kill minions for gold and experience), place vision wards on the river, and wait for an enemy to step into a predictable spot before throwing <strong>E</strong>. Once <strong>Charm</strong> lands the rest of the combo is mechanical: pull them with the returning orb of <strong>Q</strong>, dump <strong>W</strong> for the auto-seeking damage, and use <strong>R</strong> either to close the gap or to escape. After level 6 she becomes one of the strongest <strong>roaming</strong> champions in the game (leaving her own lane to help top or bot lane) — every dragon spawn is a chance to swing the map.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1056.png\" alt=\"Doran&#x27;s Ring\"> <strong>Doran's Ring</strong> + 2 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potions</strong>. Doran's Ring is the standard mage starter: small AP boost (Ability Power, the stat that scales magic damage), bonus HP, and mana regen for spamming <strong>Q</strong>.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png\" alt=\"Luden&#x27;s Companion\"> <strong>Luden's Companion</strong> — burst spike on the first ability hit and the mana sustain (mana regen so you do not run out) you need to spam <strong>Q</strong> every cooldown. Your gold target before minute 12.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — flat magic penetration (your damage ignores a fixed amount of the enemy's Magic Resist).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — extra burst with an HP-threshold passive: it activates when the target is below roughly 35% HP, lining up exactly with your <strong>R</strong> execute (finishing off a low-HP enemy).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — late-game multiplier. Increases your total AP by 35%, which roughly doubles the damage every previous item adds to your combo.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — vs divers (champions that jump in to kill a single target then escape) and assassins (Zed, Diana, Talon, Fizz). The active turns you into an untargetable golden statue (stasis) for 2.5 seconds, letting you survive after committing <strong>R</strong> deep into a teamfight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — vs single-target magic CC (crowd control: stuns, roots, or anything that locks you in place). The shield blocks the first ability that would lock you down.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — the moment any priority target on the enemy team buys magic resist (typically Mercury's Treads plus an MR item).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4644.png\" alt=\"Stormsurge\"> <strong>Stormsurge</strong> — alternative first item when the enemy team has four or more squishy targets you want to one-shot. Trades sustained damage for a higher single-pick ceiling.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> is default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> only when the enemy comp has multiple hard CC chains aimed at you (hard CC = stun, root, knock-up, taunt — the kind that fully takes control of your champion).</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (waveclear — killing minion waves fast — and main DPS, damage per second), <strong>W</strong> second (fight damage), <strong>E</strong> last — its base damage is irrelevant, only the charm duration scales meaningfully. Take a point in <strong>R</strong> at levels 6, 11, and 16.</p>\n<p><strong>Runes:</strong> Primary tree <strong>Sorcery</strong> with <strong>Arcane Comet</strong> (a delayed magic projectile that triggers on every ability hit), <strong>Manaflow Band</strong> (more max mana, scales with ability hits), <strong>Transcendence</strong> (ability haste — lower cooldowns on every spell), <strong>Scorch</strong> (small bonus burn damage to your first ability hit, every 10 seconds — great for early lane harass: chip damage that wears down enemy HP). Secondary <strong>Inspiration</strong> with <strong>Magical Footwear</strong> (free boots that arrive around minute 12) and <strong>Cosmic Insight</strong> (extra ability haste, including on <strong>Flash</strong>, the personal-summoner-spell short-range teleport you bind to F or D).</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Yasuo / Yone:</strong> Both can Wind Wall your <strong>Q</strong> and <strong>E</strong> mid-flight (Wind Wall is a wall-shaped barrier they place that blocks every projectile that crosses it). Hold <strong>E</strong> until they have committed an ability, and farm at max range with <strong>W</strong> — its three fox-fires home in past Wind Wall, so they are your only safe damage tool against the wall.</li>\n<li><strong>Zed:</strong> A coin-flip lane that flips on items. Pre-6, only walk up after his <strong>Q</strong> is visibly on cooldown. After 6, save <strong>R</strong> to dash out of his ultimate — committing <strong>R</strong> offensively and then having no escape when his ult lands is the fastest way to throw the lane.</li>\n<li><strong>Galio:</strong> He punishes you for grouping — his <strong>W</strong> taunts targets near his allies. Push the wave with <strong>Q</strong> and roam to side lanes where he cannot follow with his ult as quickly as you can with three dashes.</li>\n<li><strong>Twisted Fate:</strong> Roam priority race. He has global rotation pressure with his <strong>R</strong>, you have three-dash mobility — equal threat. Push every wave with <strong>Q</strong> the moment his ult goes up, and ward both river entrances so you can answer with <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> if he tries to gank you (the enemy jungler arriving in your lane to kill you).</li>\n<li><strong>Cassiopeia:</strong> Outscales you in extended trades because her <strong>W</strong> denies your <strong>R</strong> dashes (you cannot dash through her grounding zone). Trade in short bursts only (a trade = a brief exchange of abilities and auto-attacks, not a fight to the death), and never commit <strong>R</strong> offensively when her <strong>W</strong> is up.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2:</strong> With <strong>Q + E</strong> unlocked, you have the tools for a lane kill if the enemy steps too far forward. Hold <strong>E</strong>, walk up like you are last-hitting (landing the killing blow on a minion to claim its gold), then snap the charm when they step into your auto-attack range.</li>\n<li><strong>Level 6:</strong> First <strong>Spirit Rush</strong> unlocks pickoff potential. The combo <strong>E → R → W → Q</strong> deletes any squishy champion that has not built a single defensive item.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png\" alt=\"Luden&#x27;s Companion\"> Luden's Companion completion (~ minute 12-14):</strong> Wave control flips — you can shove (push a wave fast all the way to the enemy turret) and roam on every cooldown. This is when your win condition activates: roam, charm, kill, dash out. Each successful pickoff snowballs into the next one — gold from one kill funds an item that makes the next pick easier.</li>\n<li><strong>Three-item spike (~ minute 24):</strong> With your three core items online, your full <strong>R</strong> combo deletes any back-line champion (the carries — ADC, mage — that stand behind their tanks) below 70% HP. Force objective fights here (5v5 fights for dragon, Baron, or turrets).</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Throwing E for poke without setup.</strong> Naked <strong>Charm</strong> has a slow projectile and a long cooldown — most mid-lane opponents will sidestep it on reaction. Use a wave or a minion as cover and aim for the path they have to walk to last-hit a minion.</li>\n<li><strong>Using R to engage (start the fight) instead of to finish.</strong> <strong>Spirit Rush</strong> is your only escape tool. If you dash in without a target you can guarantee will die, you hand over the dash window and die yourself when their team collapses on you (their teammates rotate to crush you because you are now stuck out of position).</li>\n<li><strong>Spamming Q for poke and going OOM.</strong> OOM means out of mana — without mana you cannot cast spells, so you become a useless auto-attacker for 30 seconds. <strong>Orb of Deception</strong> costs significant mana per cast: save it for waveclear and secured trades.</li>\n<li><strong>Forgetting that R resets on takedown.</strong> When you secure a kill during <strong>Spirit Rush</strong>, the recast window extends. Players who internalise this can chain a pick into a second pick in the same teamfight instead of dashing out immediately on the first kill.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Practice the <strong>Q-back combo</strong>: throw <strong>Q</strong> in front of your target, then immediately use <strong>R</strong> to dash through them. The orb on its return path now passes through the enemy at point-blank range, dealing the true-damage portion (true damage ignores all enemy resistances — even tanks take it at full value) while you are already in melee with <strong>W</strong> auto-firing on top. A single <strong>Q + R + W</strong> sequence delivered this way lands three instances of damage in under a second — far more burst than the textbook order <strong>E → R → W → Q</strong> suggests, and it works even when <strong>Charm</strong> is still on cooldown.</p>",
+    "content_html_pre": "<h2>Overview</h2>\n<p>Ahri is a mid-lane mage-assassin: she pokes from range like a mage, but <strong>Spirit Rush (R)</strong> lets her dive in, kill a single squishy target (a low-health, low-defense champion like an ADC or a mage), and dash back out — a play pattern called a <strong>pickoff</strong> (eliminating one isolated enemy, not a full teamfight). Her kit (the full set of her abilities) centers on <strong>Charm (E)</strong>, a skillshot kiss that locks an enemy in place. Every other ability she owns is built to chain off that single hit. <strong>R</strong> has a special quirk: each champion takedown refreshes the dash counter, so a successful pick lets her chain into a second one in the same fight.</p>\n<p>Her game plan is patience, then commit (going all-in on a combo without the option to back out). <strong>Farm</strong> with <strong>Q</strong> (kill minions for gold and experience), place vision wards on the river, and wait for an enemy to step into a predictable spot before throwing <strong>E</strong>. Once <strong>Charm</strong> lands the rest of the combo is mechanical: pull them with the returning orb of <strong>Q</strong>, dump <strong>W</strong> for the auto-seeking damage, and use <strong>R</strong> either to close the gap or to escape. After level 6 she becomes one of the strongest <strong>roaming</strong> champions in the game (leaving her own lane to help top or bot lane) — every dragon spawn is a chance to swing the map.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1056.png\" alt=\"Doran&#x27;s Ring\"> <strong>Doran's Ring</strong> + 2 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potions</strong>. Doran's Ring is the standard mage starter: small AP boost (Ability Power, the stat that scales magic damage), bonus HP, and mana regen for spamming <strong>Q</strong>.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png\" alt=\"Luden&#x27;s Companion\"> <strong>Luden's Companion</strong> — burst spike on the first ability hit and the mana sustain (mana regen so you do not run out) you need to spam <strong>Q</strong> every cooldown. Your gold target before minute 12.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — flat magic penetration (your damage ignores a fixed amount of the enemy's Magic Resist).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — extra burst with an HP-threshold passive: it activates when the target is below roughly 35% HP, lining up exactly with your <strong>R</strong> execute (finishing off a low-HP enemy).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — late-game multiplier. Increases your total AP by 35%, which roughly doubles the damage every previous item adds to your combo.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — vs divers (champions that jump in to kill a single target then escape) and assassins (Zed, Diana, Talon, Fizz). The active turns you into an untargetable golden statue (stasis) for 2.5 seconds, letting you survive after committing <strong>R</strong> deep into a teamfight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — vs single-target magic CC (crowd control: stuns, roots, or anything that locks you in place). The shield blocks the first ability that would lock you down.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — the moment any priority target on the enemy team buys magic resist (typically Mercury's Treads plus an MR item).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4644.png\" alt=\"Stormsurge\"> <strong>Stormsurge</strong> — alternative first item when the enemy team has four or more squishy targets you want to one-shot. Trades sustained damage for a higher single-pick ceiling.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> is default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> only when the enemy comp has multiple hard CC chains aimed at you (hard CC = stun, root, knock-up, taunt — the kind that fully takes control of your champion).</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (waveclear — killing minion waves fast — and main DPS, damage per second), <strong>W</strong> second (fight damage), <strong>E</strong> last — its base damage is irrelevant, only the charm duration scales meaningfully. Take a point in <strong>R</strong> at levels 6, 11, and 16.</p>\n<p><strong>Runes:</strong> Primary tree <strong>Sorcery</strong> with <strong>Arcane Comet</strong> (a delayed magic projectile that triggers on every ability hit), <strong>Manaflow Band</strong> (more max mana, scales with ability hits), <strong>Transcendence</strong> (ability haste — lower cooldowns on every spell), <strong>Scorch</strong> (small bonus burn damage to your first ability hit, every 10 seconds — great for early lane harass: chip damage that wears down enemy HP). Secondary <strong>Inspiration</strong> with <strong>Magical Footwear</strong> (free boots that arrive around minute 12) and <strong>Cosmic Insight</strong> (extra ability haste, including on <strong>Flash</strong>, the personal-summoner-spell short-range teleport you bind to F or D).</p>",
+    "content_html_post": "<h2>Key matchups</h2>\n<ul>\n<li><strong>Yasuo / Yone:</strong> Both can Wind Wall your <strong>Q</strong> and <strong>E</strong> mid-flight (Wind Wall is a wall-shaped barrier they place that blocks every projectile that crosses it). Hold <strong>E</strong> until they have committed an ability, and farm at max range with <strong>W</strong> — its three fox-fires home in past Wind Wall, so they are your only safe damage tool against the wall.</li>\n<li><strong>Zed:</strong> A coin-flip lane that flips on items. Pre-6, only walk up after his <strong>Q</strong> is visibly on cooldown. After 6, save <strong>R</strong> to dash out of his ultimate — committing <strong>R</strong> offensively and then having no escape when his ult lands is the fastest way to throw the lane.</li>\n<li><strong>Galio:</strong> He punishes you for grouping — his <strong>W</strong> taunts targets near his allies. Push the wave with <strong>Q</strong> and roam to side lanes where he cannot follow with his ult as quickly as you can with three dashes.</li>\n<li><strong>Twisted Fate:</strong> Roam priority race. He has global rotation pressure with his <strong>R</strong>, you have three-dash mobility — equal threat. Push every wave with <strong>Q</strong> the moment his ult goes up, and ward both river entrances so you can answer with <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> if he tries to gank you (the enemy jungler arriving in your lane to kill you).</li>\n<li><strong>Cassiopeia:</strong> Outscales you in extended trades because her <strong>W</strong> denies your <strong>R</strong> dashes (you cannot dash through her grounding zone). Trade in short bursts only (a trade = a brief exchange of abilities and auto-attacks, not a fight to the death), and never commit <strong>R</strong> offensively when her <strong>W</strong> is up.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2:</strong> With <strong>Q + E</strong> unlocked, you have the tools for a lane kill if the enemy steps too far forward. Hold <strong>E</strong>, walk up like you are last-hitting (landing the killing blow on a minion to claim its gold), then snap the charm when they step into your auto-attack range.</li>\n<li><strong>Level 6:</strong> First <strong>Spirit Rush</strong> unlocks pickoff potential. The combo <strong>E → R → W → Q</strong> deletes any squishy champion that has not built a single defensive item.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png\" alt=\"Luden&#x27;s Companion\"> Luden's Companion completion (~ minute 12-14):</strong> Wave control flips — you can shove (push a wave fast all the way to the enemy turret) and roam on every cooldown. This is when your win condition activates: roam, charm, kill, dash out. Each successful pickoff snowballs into the next one — gold from one kill funds an item that makes the next pick easier.</li>\n<li><strong>Three-item spike (~ minute 24):</strong> With your three core items online, your full <strong>R</strong> combo deletes any back-line champion (the carries — ADC, mage — that stand behind their tanks) below 70% HP. Force objective fights here (5v5 fights for dragon, Baron, or turrets).</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Throwing E for poke without setup.</strong> Naked <strong>Charm</strong> has a slow projectile and a long cooldown — most mid-lane opponents will sidestep it on reaction. Use a wave or a minion as cover and aim for the path they have to walk to last-hit a minion.</li>\n<li><strong>Using R to engage (start the fight) instead of to finish.</strong> <strong>Spirit Rush</strong> is your only escape tool. If you dash in without a target you can guarantee will die, you hand over the dash window and die yourself when their team collapses on you (their teammates rotate to crush you because you are now stuck out of position).</li>\n<li><strong>Spamming Q for poke and going OOM.</strong> OOM means out of mana — without mana you cannot cast spells, so you become a useless auto-attacker for 30 seconds. <strong>Orb of Deception</strong> costs significant mana per cast: save it for waveclear and secured trades.</li>\n<li><strong>Forgetting that R resets on takedown.</strong> When you secure a kill during <strong>Spirit Rush</strong>, the recast window extends. Players who internalise this can chain a pick into a second pick in the same teamfight instead of dashing out immediately on the first kill.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Practice the <strong>Q-back combo</strong>: throw <strong>Q</strong> in front of your target, then immediately use <strong>R</strong> to dash through them. The orb on its return path now passes through the enemy at point-blank range, dealing the true-damage portion (true damage ignores all enemy resistances — even tanks take it at full value) while you are already in melee with <strong>W</strong> auto-firing on top. A single <strong>Q + R + W</strong> sequence delivered this way lands three instances of damage in under a second — far more burst than the textbook order <strong>E → R → W → Q</strong> suggests, and it works even when <strong>Charm</strong> is still on cooldown.</p>",
+    "word_count": 1448,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "akali-mid",
+        "champion": "akali",
+        "role": "mid"
+      },
+      {
+        "slug": "akshan-mid",
+        "champion": "akshan",
+        "role": "mid"
+      },
+      {
+        "slug": "annie-mid",
+        "champion": "annie",
+        "role": "mid"
+      },
+      {
+        "slug": "lux-mid",
+        "champion": "lux",
+        "role": "mid"
+      },
+      {
+        "slug": "orianna-mid",
+        "champion": "orianna",
+        "role": "mid"
+      }
+    ]
+  },
+  {
     "slug": "akali-mid",
     "title": "Akali Mid Build & Guide — Patch 16.9",
     "language": "en",
@@ -191,6 +720,280 @@ export const enChampions: ChampionGuide[] = [
       {
         "slug": "akshan-mid",
         "champion": "akshan",
+        "role": "mid"
+      },
+      {
+        "slug": "annie-mid",
+        "champion": "annie",
+        "role": "mid"
+      },
+      {
+        "slug": "lux-mid",
+        "champion": "lux",
+        "role": "mid"
+      },
+      {
+        "slug": "orianna-mid",
+        "champion": "orianna",
+        "role": "mid"
+      }
+    ]
+  },
+  {
+    "slug": "akshan-mid",
+    "title": "Akshan Mid Build & Guide — Patch 16.9",
+    "language": "en",
+    "patch": "16.9",
+    "champion": "akshan",
+    "role": "mid",
+    "last_updated": "2026-04-29",
+    "description": "Akshan mid lane guide for League of Legends Patch 16.9: lethality core build path, Press the Attack runes, key matchups, power spikes, common mistakes, and a closing tip.",
+    "quick_learn": {
+      "champion_dd_id": "Akshan",
+      "difficulty": 3,
+      "damage_type": "physical",
+      "champion_class": "Marksman / Lethality Assassin",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Dirty Fighting",
+          "description": "Every 3rd hit deals bonus damage and shields Akshan if it lands on a champion. Auto-attacks fire a second reduced-damage shot you can cancel for Move Speed.",
+          "dd_spell_id": "Akshan_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Avengerang",
+          "description": "Boomerang skillshot that deals physical damage on the way out and back. Range extends each time it hits an enemy, so a chained line through minions reaches further than you think.",
+          "dd_spell_id": "AkshanQ"
+        },
+        {
+          "key": "W",
+          "name": "Going Rogue",
+          "description": "Passive marks enemies who kill allies as Scoundrels: kill one to revive the dead and gain bonus gold. Active gives camouflage and Move Speed toward Scoundrels (broken outside brush/terrain).",
+          "dd_spell_id": "AkshanW"
+        },
+        {
+          "key": "E",
+          "name": "Heroic Swing",
+          "description": "Grappling hook to terrain, swing around it shooting the nearest target, jump off early or on impact. Cooldown refreshes on champion takedowns — chains into a second swing.",
+          "dd_spell_id": "AkshanE"
+        },
+        {
+          "key": "R",
+          "name": "Comeuppance",
+          "description": "Lock onto a champion and channel bullets for ~5 seconds. Recast to fire all stored bullets at once at the first thing hit; damage scales with missing HP, so it is an execute tool.",
+          "dd_spell_id": "AkshanR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "3142",
+          "name": "Youmuu's Ghostblade"
+        },
+        {
+          "dd_id": "3006",
+          "name": "Berserker's Greaves"
+        },
+        {
+          "dd_id": "6698",
+          "name": "Profane Hydra"
+        },
+        {
+          "dd_id": "6676",
+          "name": "The Collector"
+        },
+        {
+          "dd_id": "3036",
+          "name": "Lord Dominik's Regards"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3814",
+          "name": "Edge of Night",
+          "against": "vs single-target point-and-click CC (Lissandra R, Malzahar R, Twisted Fate gold card) — the spellshield blocks one cast on a 30s cooldown"
+        },
+        {
+          "dd_id": "3156",
+          "name": "Maw of Malmortius",
+          "against": "vs heavy AP burst comps (Annie, Veigar, Syndra) — magic shield + lifeline saves you from a one-rotation delete"
+        },
+        {
+          "dd_id": "3033",
+          "name": "Mortal Reminder",
+          "against": "vs healing-stacking comps (Soraka mid, Vladimir, Aatrox top) — applies Grievous Wounds on auto and on R bullets"
+        },
+        {
+          "dd_id": "3026",
+          "name": "Guardian Angel",
+          "against": "vs assassin-heavy comps (Talon + Zed double AD) — late-game safety net for a backline who has to channel R out in the open"
+        },
+        {
+          "dd_id": "6701",
+          "name": "Opportunity",
+          "against": "alternative first item vs squishy double-mage comps you snowball through with roams; trades teamfight value for solo-pick power"
+        }
+      ],
+      "base_combo": [
+        "Q",
+        "AA",
+        "E",
+        "AA",
+        "R"
+      ],
+      "win_condition": "Snowball lane with Press the Attack 3-hit trades and Q max-range pokes, then convert your lead with E roams from minute 6 onward and execute squishies with R during objective fights.",
+      "weakness": "His E only hooks to terrain, so open lane positioning leaves him with no swing reset. Single-target point-and-click CC and Wind Wall hard cancel his R channel and Q poke."
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "karthus",
+            "veigar",
+            "xerath",
+            "vel-koz"
+          ],
+          "archetype": "Immobile artillery mages without dash",
+          "reason": "These champions sit still to scale or out-poke; Akshan's E around the mid-lane wall closes the gap and chains a Q + 3-hit passive into R execute before they finish a cast."
+        },
+        {
+          "examples": [
+            "annie",
+            "lux",
+            "ahri"
+          ],
+          "archetype": "Mages with a single telegraphed escape",
+          "reason": "Akshan baits Annie's stun, Lux's Q, or Ahri's R charge, then E-swings on the recovery frame for a free 3-hit trade and the shielded passive proc."
+        },
+        {
+          "examples": [
+            "senna",
+            "ziggs"
+          ],
+          "archetype": "Backline scalers with weak self-peel",
+          "reason": "Akshan's R locks on at 2500 range and ignores most peel; once the target dips below 50% HP the bullets execute through their kit even across the river."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "lissandra",
+            "malzahar",
+            "twisted-fate"
+          ],
+          "archetype": "Point-and-click CC mages",
+          "reason": "Their lock-on stun or suppress cancels Akshan's R channel, breaks his E swing mid-rotation, and outs his W camouflage — Edge of Night blocks one cast per 30s but cannot save him twice."
+        },
+        {
+          "examples": [
+            "yasuo",
+            "yone"
+          ],
+          "archetype": "Wind Wall blockers",
+          "reason": "Wind Wall blocks Akshan's Q boomerang, every E-swing auto-attack, and every bullet of R; a single well-timed wall flips the entire trade and lets them all-in him with no damage taken."
+        },
+        {
+          "examples": [
+            "akali",
+            "fizz",
+            "diana"
+          ],
+          "archetype": "Multi-dash close-range assassins",
+          "reason": "Akshan's E attaches only to terrain, so he cannot swing through a fed assassin in the open. Akali's shroud breaks his targeting, Fizz E-jumps over his autos, Diana's R chains him in mid-channel."
+        }
+      ]
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Akshan is a marksman/assassin hybrid with a grappling-hook reposition tool, a stealth tied to revenge marks, and a missing-HP execute ultimate (an attack that auto-kills enemies below a HP threshold). His kit pays off mid lane because the wall geometry around the river and tri-bush gives <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/spell/AkshanE.png\" alt=\"Heroic Swing\"> <strong>Heroic Swing</strong> consistent terrain to attach to, and because his <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/spell/AkshanQ.png\" alt=\"Avengerang\"> <strong>Avengerang</strong> out-pushes most mages once it ranks up (gains levels). He is a low-mobility champion in the open, but a high-mobility one near walls — so the entire game becomes about choosing fights where the map is on your side.</p>\n<p>He scales with <strong>lethality</strong> items — gear that turns physical damage into bonus armor penetration, ideal for deleting squishy targets like mages and ranged carries while doing little against full tanks. His damage is mostly physical (AD), not magic.</p>\n<p>His game plan is straightforward in shape and demanding in timing: shove the wave with <strong>Q</strong>, look for a 3-hit trade (a brief exchange of damage where you commit a few hits and back off, not a full kill attempt) through the <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/champion/Akshan.png\" alt=\"Dirty Fighting\"> <strong>Dirty Fighting</strong> passive shield, then roam (leave your lane to help bot or top) between minutes 6 and 12 to convert lane priority (the freedom to leave lane without losing minions or tower) into kills that refresh <strong>E</strong>. Skill expression sits in two places: (1) bouncing <strong>Q</strong> off a tank in the front line (the bruisers/tanks who initiate fights) into a backline target (the squishy carries standing behind them) so the boomerang's range extends through the chain, and (2) reading the right moment to channel <strong>R</strong> — too early and you eat a stun mid-channel, too late and the target healed back above the execute threshold.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1055.png\" alt=\"Doran&#x27;s Blade\"> <strong>Doran's Blade</strong> + 1 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potion</strong>. Default opener — the AD plus the lifesteal feeds your passive shield in 3-hit trades.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3142.png\" alt=\"Youmuu&#x27;s Ghostblade\"> <strong>Youmuu's Ghostblade</strong> — first-item lethality plus an active Move Speed buff that turns side-lane roams into kills. The single biggest power spike in your build (a moment where your strength jumps sharply).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> — attack speed boots make your passive proc faster (every 3rd hit) and tighten the <strong>R</strong> bullet stream.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6698.png\" alt=\"Profane Hydra\"> <strong>Profane Hydra</strong> — adds AOE clear (one swing damaging the whole minion wave at once), an active dash you can chain after <strong>E</strong>, and more lethality. Best second item in lethality builds right now.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6676.png\" alt=\"The Collector\"> <strong>The Collector</strong> — its passive auto-kills any champion under 5% HP, which lines up perfectly with <strong>R</strong>'s missing-HP scaling: targets you cannot quite finish through resistances die anyway.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3036.png\" alt=\"Lord Dominik&#x27;s Regards\"> <strong>Lord Dominik's Regards</strong> — armor-pen finisher for the late-game tank in the enemy front line. Buy this, not a defensive item, when the game runs to 35+ minutes.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> — vs single-target point-and-click CC (lock-on disables that cannot be dodged: Lissandra R, Malzahar R, Twisted Fate gold card). The spellshield (a one-use barrier that absorbs the next enemy spell on you) blocks one cast per 30 seconds.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — vs heavy AP burst (one-rotation magic damage that can delete you in a second: Annie, Veigar, Syndra). The magic shield + lifeline (a heal-and-attack buff that triggers when you drop below ~30% HP) keeps you alive long enough to <strong>R</strong> them back.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3033.png\" alt=\"Mortal Reminder\"> <strong>Mortal Reminder</strong> — vs healing-stacking compositions (Soraka mid, Vladimir top, Aatrox top). Applies Grievous Wounds (a debuff that cuts the target's healing by ~50%) on auto-attacks and on every <strong>R</strong> bullet.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3026.png\" alt=\"Guardian Angel\"> <strong>Guardian Angel</strong> — vs assassin-heavy comps (Talon + Zed double AD = two strong physical-damage burst threats). A second life is worth more than any DPS slot when you are the team's main carry channeling <strong>R</strong> in the open.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6701.png\" alt=\"Opportunity\"> <strong>Opportunity</strong> — alternative first item vs squishy double-mage comps you intend to snowball through (build a kill lead that compounds into more kills) with solo picks (catching one isolated enemy at a time). Trades teamfight value for solo-pick power.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> is default for the attack speed. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> only into a team with 3+ hard CC sources (stuns, roots, knock-ups that lock you out of your buttons).</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (waveclear and main DPS), <strong>E</strong> second (for the swing's per-shot damage when you all-in), <strong>W</strong> last. Take a point in <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Precision</strong> with <strong>Press the Attack</strong> (after 3 hits on a champion, your next damage is amplified — perfect for your passive proc), <strong>Presence of Mind</strong> (refunds mana on takedowns), <strong>Legend: Alacrity</strong> (extra attack speed), <strong>Coup de Grace</strong> (more damage to enemies below 40% HP). Secondary <strong>Sorcery</strong> with <strong>Absolute Focus</strong> + <strong>Gathering Storm</strong>, or <strong>Inspiration</strong> with <strong>Magical Footwear</strong> (free boots at minute 12) + <strong>Cosmic Insight</strong> if you want the saved gold for an earlier first-item spike.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Yasuo / Yone:</strong> Hard matchup. Their <strong>W</strong> Wind Wall (a vertical wall of wind that blocks all incoming non-melee projectiles for ~4 seconds) blocks <strong>Q</strong>, the autos during your <strong>E</strong> swing, and every bullet of <strong>R</strong>. Hold <strong>Q</strong> until after they Wind Wall a minion or your jungler, then commit. Save <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> as a third-item swap into Yasuo (vs his <strong>Q</strong> knock-up — a spell that briefly throws you airborne, locking you out of inputs).</li>\n<li><strong>Zed:</strong> Even-to-favorable in lane. Your 3-hit trade out-damages his Q-W poke before level 6, but his <strong>R</strong> makes him untargetable (cannot be selected by spells or autos) for a moment, dodging your <strong>R</strong> lock-on. Save <strong>E</strong> for his shadow swap and counter-jump.</li>\n<li><strong>Lissandra:</strong> Hard counter. Her <strong>R</strong> is point-and-click and cancels your <strong>R</strong> channel mid-rotation. Buy <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> before second item, never <strong>R</strong> in her face without the spellshield up.</li>\n<li><strong>Annie:</strong> Careful at level 6. Her stun all-in beats your <strong>R</strong> windup if she catches you in lane. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> as third item turns a 1-rotation kill into a survivable trade.</li>\n<li><strong>Veigar:</strong> Favorable. His cage is slow enough that <strong>E</strong> swings out of it cleanly, and he has no escape when you all-in past level 6. Save <strong>R</strong> for after he uses <strong>E</strong> cage on a wave.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2:</strong> With <strong>Q</strong> + <strong>E</strong> you have your first all-in: <strong>Q</strong> the wave to extend the boomerang's range, <strong>E</strong> to a side wall, swing for the auto-attacks, <strong>Q</strong> return on the way out. This is the single biggest level-2 spike in mid lane this patch.</li>\n<li><strong>Level 6:</strong> First <strong>Comeuppance</strong> unlocks side-lane execute pressure. With <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1055.png\" alt=\"Doran&#x27;s Blade\"> <strong>Doran's Blade</strong> alone, an unwarded river fight on a target below 50% HP is a kill.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3142.png\" alt=\"Youmuu&#x27;s Ghostblade\"> Youmuu's Ghostblade completion (~ minute 9-11):</strong> Wave control flips. Active the Ghostblade off cooldown for every roam — a side-lane gank with <strong>E</strong> + <strong>Q</strong> + 3-hit shielded trade is almost guaranteed to convert on a champion who has not built MR.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6676.png\" alt=\"The Collector\"> The Collector online (~ minute 22-26):</strong> Targets at 6% HP die to the item passive even if your <strong>R</strong> would have left them at 1 HP. Force objective fights here and channel <strong>R</strong> the moment a backline pops in vision.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>E-ing into the open mid lane.</strong> Your <strong>E</strong> only attaches to terrain — if you Heroic Swing toward a champion and there is no wall in line, the cast just fails or attaches you to the wrong wall and dumps you into their team. Always pre-plan the wall before you press the button.</li>\n<li><strong>Channeling R in front of the enemy team.</strong> A 5-second windup (the time you spend channelling before releasing) in line of sight is a 5-second target practice for any point-and-click CC. Channel <strong>R</strong> from fog of war (the dark, unwarded part of the map enemies cannot see into) or behind a wall, then walk out to release the bullets at the last frame.</li>\n<li><strong>Cancelling the bonus shot when you should let it fire.</strong> The passive's second auto-attack does ~50% reduced damage, but it still procs the 3-hit count. In a kill trade do not cancel — the Move Speed is worth less than finishing the proc shield.</li>\n<li><strong>Q poke without minion bounce.</strong> Naked <strong>Q</strong> at long range is the worst version of the spell. Always send it through a wave or a low-HP enemy minion so the range extends and the return path stays in line with the next champion.</li>\n<li><strong>Going Rogue camouflage outside terrain.</strong> The active breaks within ~1 second if you are not in brush or hugging a wall. Used in the open lane it does almost nothing — save it for a flank (entering a fight from a side the enemy is not watching) through tri-bush or river brush.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Bounce <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/spell/AkshanQ.png\" alt=\"Avengerang\"> <strong>Q</strong> off a tank in the front line to reach the back-line carry. Each champion the boomerang hits extends its remaining range, so a <strong>Q</strong> that starts at the front-line bruiser at edge-of-vision will keep travelling through the carry and back to you, dealing damage twice on the same target on the return path. Practice the angle in custom games against bots: line up so the boomerang exits the first champion at the angle you want for the second target, and the chained range will reach a backline that thought it was safe behind their team.</p>",
+    "content_html_pre": "<h2>Overview</h2>\n<p>Akshan is a marksman/assassin hybrid with a grappling-hook reposition tool, a stealth tied to revenge marks, and a missing-HP execute ultimate (an attack that auto-kills enemies below a HP threshold). His kit pays off mid lane because the wall geometry around the river and tri-bush gives <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/spell/AkshanE.png\" alt=\"Heroic Swing\"> <strong>Heroic Swing</strong> consistent terrain to attach to, and because his <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/spell/AkshanQ.png\" alt=\"Avengerang\"> <strong>Avengerang</strong> out-pushes most mages once it ranks up (gains levels). He is a low-mobility champion in the open, but a high-mobility one near walls — so the entire game becomes about choosing fights where the map is on your side.</p>\n<p>He scales with <strong>lethality</strong> items — gear that turns physical damage into bonus armor penetration, ideal for deleting squishy targets like mages and ranged carries while doing little against full tanks. His damage is mostly physical (AD), not magic.</p>\n<p>His game plan is straightforward in shape and demanding in timing: shove the wave with <strong>Q</strong>, look for a 3-hit trade (a brief exchange of damage where you commit a few hits and back off, not a full kill attempt) through the <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/champion/Akshan.png\" alt=\"Dirty Fighting\"> <strong>Dirty Fighting</strong> passive shield, then roam (leave your lane to help bot or top) between minutes 6 and 12 to convert lane priority (the freedom to leave lane without losing minions or tower) into kills that refresh <strong>E</strong>. Skill expression sits in two places: (1) bouncing <strong>Q</strong> off a tank in the front line (the bruisers/tanks who initiate fights) into a backline target (the squishy carries standing behind them) so the boomerang's range extends through the chain, and (2) reading the right moment to channel <strong>R</strong> — too early and you eat a stun mid-channel, too late and the target healed back above the execute threshold.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1055.png\" alt=\"Doran&#x27;s Blade\"> <strong>Doran's Blade</strong> + 1 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potion</strong>. Default opener — the AD plus the lifesteal feeds your passive shield in 3-hit trades.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3142.png\" alt=\"Youmuu&#x27;s Ghostblade\"> <strong>Youmuu's Ghostblade</strong> — first-item lethality plus an active Move Speed buff that turns side-lane roams into kills. The single biggest power spike in your build (a moment where your strength jumps sharply).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> — attack speed boots make your passive proc faster (every 3rd hit) and tighten the <strong>R</strong> bullet stream.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6698.png\" alt=\"Profane Hydra\"> <strong>Profane Hydra</strong> — adds AOE clear (one swing damaging the whole minion wave at once), an active dash you can chain after <strong>E</strong>, and more lethality. Best second item in lethality builds right now.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6676.png\" alt=\"The Collector\"> <strong>The Collector</strong> — its passive auto-kills any champion under 5% HP, which lines up perfectly with <strong>R</strong>'s missing-HP scaling: targets you cannot quite finish through resistances die anyway.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3036.png\" alt=\"Lord Dominik&#x27;s Regards\"> <strong>Lord Dominik's Regards</strong> — armor-pen finisher for the late-game tank in the enemy front line. Buy this, not a defensive item, when the game runs to 35+ minutes.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> — vs single-target point-and-click CC (lock-on disables that cannot be dodged: Lissandra R, Malzahar R, Twisted Fate gold card). The spellshield (a one-use barrier that absorbs the next enemy spell on you) blocks one cast per 30 seconds.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — vs heavy AP burst (one-rotation magic damage that can delete you in a second: Annie, Veigar, Syndra). The magic shield + lifeline (a heal-and-attack buff that triggers when you drop below ~30% HP) keeps you alive long enough to <strong>R</strong> them back.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3033.png\" alt=\"Mortal Reminder\"> <strong>Mortal Reminder</strong> — vs healing-stacking compositions (Soraka mid, Vladimir top, Aatrox top). Applies Grievous Wounds (a debuff that cuts the target's healing by ~50%) on auto-attacks and on every <strong>R</strong> bullet.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3026.png\" alt=\"Guardian Angel\"> <strong>Guardian Angel</strong> — vs assassin-heavy comps (Talon + Zed double AD = two strong physical-damage burst threats). A second life is worth more than any DPS slot when you are the team's main carry channeling <strong>R</strong> in the open.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6701.png\" alt=\"Opportunity\"> <strong>Opportunity</strong> — alternative first item vs squishy double-mage comps you intend to snowball through (build a kill lead that compounds into more kills) with solo picks (catching one isolated enemy at a time). Trades teamfight value for solo-pick power.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> is default for the attack speed. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> only into a team with 3+ hard CC sources (stuns, roots, knock-ups that lock you out of your buttons).</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (waveclear and main DPS), <strong>E</strong> second (for the swing's per-shot damage when you all-in), <strong>W</strong> last. Take a point in <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Precision</strong> with <strong>Press the Attack</strong> (after 3 hits on a champion, your next damage is amplified — perfect for your passive proc), <strong>Presence of Mind</strong> (refunds mana on takedowns), <strong>Legend: Alacrity</strong> (extra attack speed), <strong>Coup de Grace</strong> (more damage to enemies below 40% HP). Secondary <strong>Sorcery</strong> with <strong>Absolute Focus</strong> + <strong>Gathering Storm</strong>, or <strong>Inspiration</strong> with <strong>Magical Footwear</strong> (free boots at minute 12) + <strong>Cosmic Insight</strong> if you want the saved gold for an earlier first-item spike.</p>",
+    "content_html_post": "<h2>Key matchups</h2>\n<ul>\n<li><strong>Yasuo / Yone:</strong> Hard matchup. Their <strong>W</strong> Wind Wall (a vertical wall of wind that blocks all incoming non-melee projectiles for ~4 seconds) blocks <strong>Q</strong>, the autos during your <strong>E</strong> swing, and every bullet of <strong>R</strong>. Hold <strong>Q</strong> until after they Wind Wall a minion or your jungler, then commit. Save <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> as a third-item swap into Yasuo (vs his <strong>Q</strong> knock-up — a spell that briefly throws you airborne, locking you out of inputs).</li>\n<li><strong>Zed:</strong> Even-to-favorable in lane. Your 3-hit trade out-damages his Q-W poke before level 6, but his <strong>R</strong> makes him untargetable (cannot be selected by spells or autos) for a moment, dodging your <strong>R</strong> lock-on. Save <strong>E</strong> for his shadow swap and counter-jump.</li>\n<li><strong>Lissandra:</strong> Hard counter. Her <strong>R</strong> is point-and-click and cancels your <strong>R</strong> channel mid-rotation. Buy <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> before second item, never <strong>R</strong> in her face without the spellshield up.</li>\n<li><strong>Annie:</strong> Careful at level 6. Her stun all-in beats your <strong>R</strong> windup if she catches you in lane. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> as third item turns a 1-rotation kill into a survivable trade.</li>\n<li><strong>Veigar:</strong> Favorable. His cage is slow enough that <strong>E</strong> swings out of it cleanly, and he has no escape when you all-in past level 6. Save <strong>R</strong> for after he uses <strong>E</strong> cage on a wave.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2:</strong> With <strong>Q</strong> + <strong>E</strong> you have your first all-in: <strong>Q</strong> the wave to extend the boomerang's range, <strong>E</strong> to a side wall, swing for the auto-attacks, <strong>Q</strong> return on the way out. This is the single biggest level-2 spike in mid lane this patch.</li>\n<li><strong>Level 6:</strong> First <strong>Comeuppance</strong> unlocks side-lane execute pressure. With <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1055.png\" alt=\"Doran&#x27;s Blade\"> <strong>Doran's Blade</strong> alone, an unwarded river fight on a target below 50% HP is a kill.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3142.png\" alt=\"Youmuu&#x27;s Ghostblade\"> Youmuu's Ghostblade completion (~ minute 9-11):</strong> Wave control flips. Active the Ghostblade off cooldown for every roam — a side-lane gank with <strong>E</strong> + <strong>Q</strong> + 3-hit shielded trade is almost guaranteed to convert on a champion who has not built MR.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6676.png\" alt=\"The Collector\"> The Collector online (~ minute 22-26):</strong> Targets at 6% HP die to the item passive even if your <strong>R</strong> would have left them at 1 HP. Force objective fights here and channel <strong>R</strong> the moment a backline pops in vision.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>E-ing into the open mid lane.</strong> Your <strong>E</strong> only attaches to terrain — if you Heroic Swing toward a champion and there is no wall in line, the cast just fails or attaches you to the wrong wall and dumps you into their team. Always pre-plan the wall before you press the button.</li>\n<li><strong>Channeling R in front of the enemy team.</strong> A 5-second windup (the time you spend channelling before releasing) in line of sight is a 5-second target practice for any point-and-click CC. Channel <strong>R</strong> from fog of war (the dark, unwarded part of the map enemies cannot see into) or behind a wall, then walk out to release the bullets at the last frame.</li>\n<li><strong>Cancelling the bonus shot when you should let it fire.</strong> The passive's second auto-attack does ~50% reduced damage, but it still procs the 3-hit count. In a kill trade do not cancel — the Move Speed is worth less than finishing the proc shield.</li>\n<li><strong>Q poke without minion bounce.</strong> Naked <strong>Q</strong> at long range is the worst version of the spell. Always send it through a wave or a low-HP enemy minion so the range extends and the return path stays in line with the next champion.</li>\n<li><strong>Going Rogue camouflage outside terrain.</strong> The active breaks within ~1 second if you are not in brush or hugging a wall. Used in the open lane it does almost nothing — save it for a flank (entering a fight from a side the enemy is not watching) through tri-bush or river brush.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Bounce <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/spell/AkshanQ.png\" alt=\"Avengerang\"> <strong>Q</strong> off a tank in the front line to reach the back-line carry. Each champion the boomerang hits extends its remaining range, so a <strong>Q</strong> that starts at the front-line bruiser at edge-of-vision will keep travelling through the carry and back to you, dealing damage twice on the same target on the return path. Practice the angle in custom games against bots: line up so the boomerang exits the first champion at the angle you want for the second target, and the chained range will reach a backline that thought it was safe behind their team.</p>",
+    "word_count": 1532,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "ahri-mid",
+        "champion": "ahri",
+        "role": "mid"
+      },
+      {
+        "slug": "akali-mid",
+        "champion": "akali",
         "role": "mid"
       },
       {
