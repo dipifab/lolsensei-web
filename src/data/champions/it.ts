@@ -1294,6 +1294,552 @@ export const itChampions: ChampionGuide[] = [
     "champion_key": "12"
   },
   {
+    "slug": "ambessa-top",
+    "title": "Ambessa Top: Build e Guida — Patch 16.9",
+    "language": "it",
+    "patch": "16.9",
+    "champion": "ambessa",
+    "role": "top",
+    "last_updated": "2026-04-29",
+    "description": "Guida Ambessa top per League of Legends patch 16.9: starter kit, build Eclipse skirmisher, matchup chiave, power spike, errori comuni e una tecnica avanzata.",
+    "quick_learn": {
+      "champion_dd_id": "Ambessa",
+      "difficulty": 5,
+      "damage_type": "physical",
+      "champion_class": "Fighter / Assassin",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Drakehound's Step",
+          "description": "Dopo ogni ability cast, esegue un breve dash. Il prossimo basic attack guadagna range, danno e attack speed in più, e rimborsa energia.",
+          "dd_spell_id": "Ambessa_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Cunning Sweep / Sundering Slam",
+          "description": "Ability a due cast. Il primo cast colpisce un arco frontale e scala con il max HP del bersaglio. Colpire un nemico sblocca un secondo cast: un colpo a terra in linea più lungo. Fonte di danno principale.",
+          "dd_spell_id": "AmbessaQ"
+        },
+        {
+          "key": "W",
+          "name": "Repudiation",
+          "description": "Ottiene uno scudo e si mette in posa difensiva (brace) caricando il colpo, poi colpisce a terra. Se durante la posa blocca danno non-minion, il colpo a terra è potenziato. Tool difensivo da trade.",
+          "dd_spell_id": "AmbessaW"
+        },
+        {
+          "key": "E",
+          "name": "Lacerate",
+          "description": "Frusta AOE attorno a sé: danneggia e rallenta i nemici vicini. Attivare il dash della passiva da questa ability aggiunge un secondo strike alla fine del dash.",
+          "dd_spell_id": "AmbessaE"
+        },
+        {
+          "key": "R",
+          "name": "Public Execution",
+          "description": "Diventa unstoppable e salta col blink fino al campione nemico più lontano in linea, sopprimendolo all'arrivo, poi lo colpisce a terra per danno e stun. Passiva: armor pen + omnivamp sulle ability.",
+          "dd_spell_id": "AmbessaR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6692",
+          "name": "Eclipse"
+        },
+        {
+          "dd_id": "3047",
+          "name": "Plated Steelcaps"
+        },
+        {
+          "dd_id": "3071",
+          "name": "Black Cleaver"
+        },
+        {
+          "dd_id": "3053",
+          "name": "Sterak's Gage"
+        },
+        {
+          "dd_id": "6333",
+          "name": "Death's Dance"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3111",
+          "name": "Mercury's Treads",
+          "against": "sostituisce le Plated Steelcaps quando il team avversario ha 2+ fonti di hard CC o danno AP (magico) pesante"
+        },
+        {
+          "dd_id": "3156",
+          "name": "Maw of Malmortius",
+          "against": "contro top AP pesanti (Vladimir, Rumble, Gwen) — magic shield + AD scaling a HP basso"
+        },
+        {
+          "dd_id": "3814",
+          "name": "Edge of Night",
+          "against": "contro hard CC a lunga gittata telegrafato (Malphite R, Ornn R, Sett W) — lo spell shield blocca l'engage"
+        },
+        {
+          "dd_id": "6697",
+          "name": "Hubris",
+          "against": "quando sei già avanti in lane — le kill accumulano AD bonus, alimentando un snowball lead (vantaggio crescente)"
+        },
+        {
+          "dd_id": "3026",
+          "name": "Guardian Angel",
+          "against": "late game: salti col blink della R sul carry; la rebirth (resurrezione singola) ti tiene vivo se ti focusano dopo"
+        }
+      ],
+      "base_combo": [
+        "Q1",
+        "AA",
+        "E",
+        "AA",
+        "Q2",
+        "AA",
+        "R"
+      ],
+      "win_condition": "Vince le lane 2-6 con trade passive-dash, poi sfrutta il vantaggio nelle skirmish a Voidgrubs e Drake. Usa la R per sopprimere un carry isolato prima che il frontline possa fare peel.",
+      "weakness": "Le catene di hard CC spengono i suoi dash combo. Le statline da tank attutiscono il danno % max HP. La R la lega a un singolo target, quindi una comp con peel può isolarla dopo la fine della suppression."
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "darius",
+            "garen",
+            "sett",
+            "illaoi"
+          ],
+          "archetype": "Bruiser melee immobili senza dash",
+          "reason": "I suoi passive dash dopo ogni ability cast le permettono di entrare e uscire dai windup telegrafati (presa di Darius, silenzio di Garen, E di Illaoi). La suppression della R bypassa la loro tankiness per la kill."
+        },
+        {
+          "examples": [
+            "kennen",
+            "teemo",
+            "quinn"
+          ],
+          "archetype": "Top laner ranged squishy",
+          "reason": "I dash brevi multipli del passive chiudono il gap su cui i ranged top contano. In melee la sua Q scala con il max HP del target e li danneggia gravemente prima che possano fare disengage."
+        },
+        {
+          "examples": [
+            "nasus",
+            "kayle"
+          ],
+          "archetype": "Scaler late-game che hanno bisogno di livelli o stack",
+          "reason": "La sua dominance early livello 2-6 li domina prima del loro power spike (stack della Q di Nasus, livelli 11 e 16 di Kayle). Forza le kill presto per negargli il lategame che gli serve."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "malphite",
+            "ornn",
+            "poppy"
+          ],
+          "archetype": "Tank con hard CC e stat-check",
+          "reason": "CC point-and-click (R di Malphite, W di Poppy che blocca i dash, brittle + knock-up di Ornn) interrompe i suoi dash combo prima che la R atterri. L'armor + HP raw attutisce anche il % max HP scaling sulla Q."
+        },
+        {
+          "examples": [
+            "jayce",
+            "gnar",
+            "vayne"
+          ],
+          "archetype": "Poker e kiter a lungo raggio",
+          "reason": "E di Jayce (knockback) e mega R di Gnar interrompono il dash a metà cast. I kiter restano fuori dal suo threat range, costringendola a impegnare i dash da troppo lontano e poi punirla con le ability in cooldown."
+        },
+        {
+          "examples": [
+            "olaf",
+            "tryndamere"
+          ],
+          "archetype": "Campioni con ultimate che annullano suppression o esecuzione",
+          "reason": "La R di Olaf rimuove la sua suppression al cast, neutralizzando il suo principale tool da pickoff. La R undying di Tryndamere sopravvive al frame di esecuzione e gli permette di girare fuori dal colpo a terra."
+        }
+      ]
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Ambessa è una skirmisher top (un campione fatto per piccoli scontri brevi, non per i teamfight lunghi). È un campione AD che fa danno fisico (AD = attack damage; l'alternativa è AP = ability power, la statistica del danno magico dei mage). Usa <strong>energia</strong> come risorsa al posto del mana, e vive o muore con la sua passiva, <strong>Drakehound's Step</strong>: ogni cast di ability attiva un breve dash più un basic attack potenziato con range, danno e attack speed extra. Quel singolo meccanismo la trasforma in una specialista del chain-trade — ogni Q, W o E le concede un auto-attack reset gratuito (un AA che parte subito ignorando il timer normale dell'attack speed), quindi una combo completa mette a segno quattro o cinque colpi in due secondi. Il suo kit punisce chiunque provi ad affrontarla in melee senza un hard interrupt (uno stun, un knock-up o un silence che la fermi a metà cast).</p>\n<p>Il game plan è semplice: domina la lane dal livello 2 con un all-in <strong>Q + E</strong> (un \"all-in\" è un trade totale fino alla kill, non uno scambio breve), poi snowball nelle skirmish a metà partita attorno a Voidgrubs e Drake. \"Snowball\" significa un piccolo vantaggio iniziale — una kill, una tower plate (un pezzo di corazza della torre nei primi 14 minuti che dà oro extra quando lo rompi) — che si auto-amplifica nel tempo. Usa la <strong>R</strong> per sopprimere un carry avversario isolato (il damage dealer principale del team) prima che il frontline (i tank davanti a lui) possa fare peel — \"peel\" significa proteggere un alleato usando CC o il proprio corpo per togliere di dosso chi gli sta saltando addosso. Il lategame è la sua debolezza: appena i tank avversari finiscono due item, il suo danno % max HP sulla Q smette di scioglierli, quindi chiudi la partita prima del minuto 28.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1055.png\" alt=\"Doran&#x27;s Blade\"> <strong>Doran's Blade</strong> + 2 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potions</strong>. Default per i trade AD; il lifesteal sostiene i tuoi dash chain.</p>\n<p><strong>Core items (in ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6692.png\" alt=\"Eclipse\"> <strong>Eclipse</strong> — primo item skirmisher principale. Dopo due hit di ability sullo stesso bersaglio entro 1.5 secondi, attiva uno shield più un grosso bonus damage sul prossimo colpo. Le sue combo dash raggiungono quella soglia in ogni fight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> — boots di default. La maggior parte dei matchup top è AD; la riduzione del danno auto-attack conta nei trade prolungati.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3071.png\" alt=\"Black Cleaver\"> <strong>Black Cleaver</strong> — armor shred (ogni colpo riduce un po' l'armatura del bersaglio, fino al 30% accumulato) più HP più AD. Le sue auto-attack potenziate dal passive accumulano lo shred più velocemente della media.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3053.png\" alt=\"Sterak&#x27;s Gage\"> <strong>Sterak's Gage</strong> — spike di sopravvivenza. Quando subisci grossi danni in pochi secondi, l'item ti dà uno shield ampio. Utile quando salti col blink della R sul carry avversario e il resto del team la focusa sotto.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6333.png\" alt=\"Death&#x27;s Dance\"> <strong>Death's Dance</strong> — converte il danno fisico in arrivo in un sanguinamento lento (danno spalmato sui 3 secondi successivi invece che istantaneo), dandoti il tempo di chiudere il trade.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — sostituisce le Plated Steelcaps quando il team avversario ha due o più fonti di hard CC, oppure danno AP pesante. Danno magic resist più tenacità (riduce la durata di stun e slow su di te).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — contro top AP (Vladimir, Rumble, Gwen). Dà uno scudo \"lifeline\" contro il danno magico (uno scudo che si attiva una volta sola quando scendi sotto il 30% HP) più AD extra a HP basso, pensato per tenerti vivo abbastanza da rispondere e ucciderli.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> — contro hard CC a lunga gittata telegrafato (Malphite R, Ornn R, Sett W). Dà un spell shield monouso (blocca la prossima ability nemica che ti colpisce), così l'engage avversario manca e la R la lanci tu ai tuoi termini.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6697.png\" alt=\"Hubris\"> <strong>Hubris</strong> — quando sei già avanti in lane. Ogni kill o assist accumula AD bonus sull'item, alimentando un snowball lead — più kill fai, più colpisci forte, più kill fai.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3026.png\" alt=\"Guardian Angel\"> <strong>Guardian Angel</strong> — last item lategame. Ti dà una rebirth singola (resurrezione una tantum) ogni 5 minuti. Ti permette di andare a fondo nei salti col blink della R sul carry avversario senza buttare la partita su un misposition.</li>\n</ul>\n<p><strong>Boots:</strong> Plated Steelcaps di default. Mercury's Treads contro AP/CC. Salta i boots da mago tipo Sorcerer's — tu scali fisico.</p>\n<p><strong>Skill order:</strong> Porta al massimo <strong>Q</strong> per prima (danno principale e l'unica ability che scala con il max HP avversario), <strong>E</strong> seconda (waveclear e lo slow AOE che imposta il secondo strike di Q), <strong>W</strong> per ultima. Metti un punto in <strong>R</strong> ai livelli 6, 11 e 16.</p>\n<p><strong>Runes:</strong> Primary tree <strong>Precision</strong>:</p>\n<ul>\n<li><strong>Conqueror</strong> — keystone (la runa principale e più potente del ramo). Accumula AD bonus e healing più rimani in fight contro i campioni; perfetta per il suo kit da chain-trade.</li>\n<li><strong>Triumph</strong> — piccola heal e burst di gold quando ottieni una takedown a HP basso.</li>\n<li><strong>Legend: Tenacity</strong> — tenacità passiva (riduce la durata di stun e slow) che cresce con le takedown.</li>\n<li><strong>Last Stand</strong> — danno extra quando scendi sotto il 60% HP.</li>\n</ul>\n<p>Secondary tree <strong>Resolve</strong>:</p>\n<ul>\n<li><strong>Second Wind</strong> — rigenerazione HP che scatta dopo aver subito danno da campione. Contrasta il poke in lane.</li>\n<li><strong>Unflinching</strong> — tenacità extra una volta che <strong>Flash</strong> è in cooldown. Utile quando salti nel team avversario con la R e provano a incatenare CC su di te.</li>\n</ul>\n<p>Stat shards (i tre piccoli bonus statistici sotto le rune): Adaptive Force (dà AD oppure AP a seconda di cosa il tuo champion costruisce — per Ambessa si converte in AD), poi Adaptive Force di nuovo, e infine Armor o HP a seconda del matchup.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Darius:</strong> Favorevole. Il bordo esterno della sua Q è la parte che lo cura; entragli dentro col dash in avanti della tua Q1, poi Q2 per uscire. Lui ha bisogno di piazzare entrambe Q + E per fare un all-in completo; tu puoi usare la W per assorbire la presa della sua Q con uno scudo e fare uno scambio alla pari. Costringilo a usare prima il bleed della W (forzalo a sprecarla), poi entra quando è in cooldown.</li>\n<li><strong>Sett:</strong> Favorevole. Non ha dash, solo uno slam frontale (W). Pre-6, le tue combo passive-dash lo battono nei trade prolungati. Dopo il 6, tieni <strong>Flash</strong> per schivare il knockback (lo spostamento) della sua R che altrimenti ti spinge dentro la zona del suo team.</li>\n<li><strong>Malphite:</strong> Sfavorevole. Il suo passive shield attutisce l'all-in al livello 2; lo slow della Q gli permette di scappare quando ti impegni nell'attacco. Costruisci <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> come secondo item per bloccare la sua R engage. Evita i teamfight in choke point dove può fare un flank — ovvero attaccare di sorpresa da un fianco — passando dalla fog of war (le parti della mappa che non vedi perché non c'è una ward lì). Una ward è un piccolo occhio magico che piazzi per illuminare una zona.</li>\n<li><strong>Jayce:</strong> Sfavorevole. Lui ha due forme; in forma ranged la combo Q + E ti fa poke (ti consuma HP da distanza sicura) prima che tu possa chiudere il gap. Prendi <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1054.png\" alt=\"Doran&#x27;s Shield\"> <strong>Doran's Shield</strong> come starter, sta attaccato alla wave per la rigenerazione HP dai last-hit sui minion, e cerca le kill solo quando passa in forma melee e spreca la sua E.</li>\n<li><strong>Camille:</strong> Skill matchup. Entrambi avete all-in forti; vince chi piazza per primo un cast pulito. La tua Q scala con il suo max HP corrente — costringila prima a usare la heal della W, poi Q1-auto-Q2 per portarla sotto il 50%. Piazza una ward nel tri-bush (il cespuglio a tre entrate vicino alla tua tower) così il suo hookshot — la ability che la lancia come un rampino contro un muro o un nemico — non ti prende gratis mentre torni in lane.</li>\n</ul>\n<h2>Power spike e win condition</h2>\n<ul>\n<li><strong>Livello 2 (Q + E):</strong> Il primo grande spike. Con entrambe le ability e il dash passivo, una combo completa Q1-auto-E-auto-Q2-auto infligge quattro basic attack più due tick di ability in due secondi. La maggior parte dei top laner non riesce a competere su questo danno in uno scrap melee.</li>\n<li><strong>Livello 6 (R sbloccata):</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/champion/Ambessa.png\" alt=\"R\"> <strong>Public Execution</strong> sblocca i pickoff — eliminare un nemico isolato fuori dal main fight. La passiva della R aggiunge anche armor penetration (il tuo danno ignora una parte dell'armor avversaria) e omnivamp (una piccola heal pari a una percentuale del danno che fai con le ability). Ti sostiene nelle skirmish del river.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6692.png\" alt=\"Eclipse\"> Eclipse completata (~ minuto 11-13):</strong> Il tuo più grande spike da skirmish. Lo shield e il bonus damage si allineano con ogni combo completa, quindi gli 1v1 e i 2v2 attorno ai Voidgrubs girano a tuo favore.</li>\n<li><strong>2 item + boots (~ minuto 18-22):</strong> Con <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3071.png\" alt=\"Black Cleaver\"> <strong>Black Cleaver</strong> online, raggruppati col team per i fight di Drake. Salta sul carry avversario con la R — la suppression (un CC che disabilita ogni ability e movimento, anche <strong>Flash</strong>) lo blocca per 1.5 secondi, quanto basta al tuo team per il follow-up.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Sprecare Sundering Slam (il secondo cast di Q) su un minion.</strong> Il secondo cast potenziato è il tuo damage spike. Se colpisci un minion con la Q1 invece che un campione, hai bruciato il reset su una creatura che muore in un colpo comunque. Tieni Q1 finché non puoi garantire il contatto col campione.</li>\n<li><strong>Saltare troppo profondo dentro il team avversario con la R.</strong> La R va sul campione nemico <strong>più lontano</strong> in linea, non sul più vicino. Se tre nemici stanno davanti al loro carry, il blink ti porterà oltre tutti e ti deposita dietro all'intero team. Controlla sempre il positioning prima di premere R — allinea il carry come unico target tra te e il punto più lontano.</li>\n<li><strong>Mettersi in brace W nel vuoto.</strong> Lo slam potenziato si attiva solo se durante la brace blocchi davvero danno non-minion. Stare in brace in lane contro i minion spreca il cooldown a vuoto. Usa W reattiva — quando vedi partire l'animazione di un'ability nemica, in quel momento attivi la brace.</li>\n<li><strong>Tenere la R per l'engage perfetto che non arriva mai.</strong> La R ha 100+ secondi di cooldown nell'early. Se ce l'hai pronta al livello 6 e il laner avversario ha appena usato la sua combo principale (key ability in cooldown), entra e usa la R su di lui. Un laner morto sono due wave di farm gratis e una tower plate extra (le placche di gold sulla torre dei primi 14 minuti).</li>\n<li><strong>Andare in 1v1 contro gli iper-tank pensando che la Q li uccida.</strong> Il danno % max HP fa paura sulla carta ma l'armor si applica comunque. Una volta che un Ornn o un Cho'Gath finisce <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6610.png\" alt=\"Sundered Sky\"> <strong>Sundered Sky</strong> + item da tank, non li uccidi più da sola. Raggruppati con il tuo jungler invece.</li>\n</ul>\n<h2>Tecnica avanzata</h2>\n<p>Padroneggia il <strong>dash-AA weave</strong> (intreccio dash + auto-attack). Ogni ability cast attiva il passive dash e un'AA potenziata, quindi la sequenza ottimale in una combo completa è <em>cast → dash → AA → cast → dash → AA</em>, non <em>cast → cast → cast → AA</em>. Se premi la seconda ability prima di aver completato l'AA potenziata, perdi il bonus su quel colpo. Il ritmo pulito: <strong>Q1 → dash in avanti → AA → E → dash → AA → Q2 → dash → AA → R</strong>. Esercitati nella Practice Tool (la modalità singleplayer di allenamento) contro un target dummy (un manichino bersaglio fisso) finché ogni AA si registra; in lane vera questo trasforma un trade da 2 secondi in sette istanze di danno separate ed è la differenza tra una kill e un nemico che scappa a 50 HP.</p>",
+    "content_html_pre": "<h2>Overview</h2>\n<p>Ambessa è una skirmisher top (un campione fatto per piccoli scontri brevi, non per i teamfight lunghi). È un campione AD che fa danno fisico (AD = attack damage; l'alternativa è AP = ability power, la statistica del danno magico dei mage). Usa <strong>energia</strong> come risorsa al posto del mana, e vive o muore con la sua passiva, <strong>Drakehound's Step</strong>: ogni cast di ability attiva un breve dash più un basic attack potenziato con range, danno e attack speed extra. Quel singolo meccanismo la trasforma in una specialista del chain-trade — ogni Q, W o E le concede un auto-attack reset gratuito (un AA che parte subito ignorando il timer normale dell'attack speed), quindi una combo completa mette a segno quattro o cinque colpi in due secondi. Il suo kit punisce chiunque provi ad affrontarla in melee senza un hard interrupt (uno stun, un knock-up o un silence che la fermi a metà cast).</p>\n<p>Il game plan è semplice: domina la lane dal livello 2 con un all-in <strong>Q + E</strong> (un \"all-in\" è un trade totale fino alla kill, non uno scambio breve), poi snowball nelle skirmish a metà partita attorno a Voidgrubs e Drake. \"Snowball\" significa un piccolo vantaggio iniziale — una kill, una tower plate (un pezzo di corazza della torre nei primi 14 minuti che dà oro extra quando lo rompi) — che si auto-amplifica nel tempo. Usa la <strong>R</strong> per sopprimere un carry avversario isolato (il damage dealer principale del team) prima che il frontline (i tank davanti a lui) possa fare peel — \"peel\" significa proteggere un alleato usando CC o il proprio corpo per togliere di dosso chi gli sta saltando addosso. Il lategame è la sua debolezza: appena i tank avversari finiscono due item, il suo danno % max HP sulla Q smette di scioglierli, quindi chiudi la partita prima del minuto 28.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1055.png\" alt=\"Doran&#x27;s Blade\"> <strong>Doran's Blade</strong> + 2 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potions</strong>. Default per i trade AD; il lifesteal sostiene i tuoi dash chain.</p>\n<p><strong>Core items (in ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6692.png\" alt=\"Eclipse\"> <strong>Eclipse</strong> — primo item skirmisher principale. Dopo due hit di ability sullo stesso bersaglio entro 1.5 secondi, attiva uno shield più un grosso bonus damage sul prossimo colpo. Le sue combo dash raggiungono quella soglia in ogni fight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> — boots di default. La maggior parte dei matchup top è AD; la riduzione del danno auto-attack conta nei trade prolungati.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3071.png\" alt=\"Black Cleaver\"> <strong>Black Cleaver</strong> — armor shred (ogni colpo riduce un po' l'armatura del bersaglio, fino al 30% accumulato) più HP più AD. Le sue auto-attack potenziate dal passive accumulano lo shred più velocemente della media.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3053.png\" alt=\"Sterak&#x27;s Gage\"> <strong>Sterak's Gage</strong> — spike di sopravvivenza. Quando subisci grossi danni in pochi secondi, l'item ti dà uno shield ampio. Utile quando salti col blink della R sul carry avversario e il resto del team la focusa sotto.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6333.png\" alt=\"Death&#x27;s Dance\"> <strong>Death's Dance</strong> — converte il danno fisico in arrivo in un sanguinamento lento (danno spalmato sui 3 secondi successivi invece che istantaneo), dandoti il tempo di chiudere il trade.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — sostituisce le Plated Steelcaps quando il team avversario ha due o più fonti di hard CC, oppure danno AP pesante. Danno magic resist più tenacità (riduce la durata di stun e slow su di te).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — contro top AP (Vladimir, Rumble, Gwen). Dà uno scudo \"lifeline\" contro il danno magico (uno scudo che si attiva una volta sola quando scendi sotto il 30% HP) più AD extra a HP basso, pensato per tenerti vivo abbastanza da rispondere e ucciderli.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> — contro hard CC a lunga gittata telegrafato (Malphite R, Ornn R, Sett W). Dà un spell shield monouso (blocca la prossima ability nemica che ti colpisce), così l'engage avversario manca e la R la lanci tu ai tuoi termini.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6697.png\" alt=\"Hubris\"> <strong>Hubris</strong> — quando sei già avanti in lane. Ogni kill o assist accumula AD bonus sull'item, alimentando un snowball lead — più kill fai, più colpisci forte, più kill fai.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3026.png\" alt=\"Guardian Angel\"> <strong>Guardian Angel</strong> — last item lategame. Ti dà una rebirth singola (resurrezione una tantum) ogni 5 minuti. Ti permette di andare a fondo nei salti col blink della R sul carry avversario senza buttare la partita su un misposition.</li>\n</ul>\n<p><strong>Boots:</strong> Plated Steelcaps di default. Mercury's Treads contro AP/CC. Salta i boots da mago tipo Sorcerer's — tu scali fisico.</p>\n<p><strong>Skill order:</strong> Porta al massimo <strong>Q</strong> per prima (danno principale e l'unica ability che scala con il max HP avversario), <strong>E</strong> seconda (waveclear e lo slow AOE che imposta il secondo strike di Q), <strong>W</strong> per ultima. Metti un punto in <strong>R</strong> ai livelli 6, 11 e 16.</p>\n<p><strong>Runes:</strong> Primary tree <strong>Precision</strong>:</p>\n<ul>\n<li><strong>Conqueror</strong> — keystone (la runa principale e più potente del ramo). Accumula AD bonus e healing più rimani in fight contro i campioni; perfetta per il suo kit da chain-trade.</li>\n<li><strong>Triumph</strong> — piccola heal e burst di gold quando ottieni una takedown a HP basso.</li>\n<li><strong>Legend: Tenacity</strong> — tenacità passiva (riduce la durata di stun e slow) che cresce con le takedown.</li>\n<li><strong>Last Stand</strong> — danno extra quando scendi sotto il 60% HP.</li>\n</ul>\n<p>Secondary tree <strong>Resolve</strong>:</p>\n<ul>\n<li><strong>Second Wind</strong> — rigenerazione HP che scatta dopo aver subito danno da campione. Contrasta il poke in lane.</li>\n<li><strong>Unflinching</strong> — tenacità extra una volta che <strong>Flash</strong> è in cooldown. Utile quando salti nel team avversario con la R e provano a incatenare CC su di te.</li>\n</ul>\n<p>Stat shards (i tre piccoli bonus statistici sotto le rune): Adaptive Force (dà AD oppure AP a seconda di cosa il tuo champion costruisce — per Ambessa si converte in AD), poi Adaptive Force di nuovo, e infine Armor o HP a seconda del matchup.</p>",
+    "content_html_post": "<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Darius:</strong> Favorevole. Il bordo esterno della sua Q è la parte che lo cura; entragli dentro col dash in avanti della tua Q1, poi Q2 per uscire. Lui ha bisogno di piazzare entrambe Q + E per fare un all-in completo; tu puoi usare la W per assorbire la presa della sua Q con uno scudo e fare uno scambio alla pari. Costringilo a usare prima il bleed della W (forzalo a sprecarla), poi entra quando è in cooldown.</li>\n<li><strong>Sett:</strong> Favorevole. Non ha dash, solo uno slam frontale (W). Pre-6, le tue combo passive-dash lo battono nei trade prolungati. Dopo il 6, tieni <strong>Flash</strong> per schivare il knockback (lo spostamento) della sua R che altrimenti ti spinge dentro la zona del suo team.</li>\n<li><strong>Malphite:</strong> Sfavorevole. Il suo passive shield attutisce l'all-in al livello 2; lo slow della Q gli permette di scappare quando ti impegni nell'attacco. Costruisci <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> come secondo item per bloccare la sua R engage. Evita i teamfight in choke point dove può fare un flank — ovvero attaccare di sorpresa da un fianco — passando dalla fog of war (le parti della mappa che non vedi perché non c'è una ward lì). Una ward è un piccolo occhio magico che piazzi per illuminare una zona.</li>\n<li><strong>Jayce:</strong> Sfavorevole. Lui ha due forme; in forma ranged la combo Q + E ti fa poke (ti consuma HP da distanza sicura) prima che tu possa chiudere il gap. Prendi <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1054.png\" alt=\"Doran&#x27;s Shield\"> <strong>Doran's Shield</strong> come starter, sta attaccato alla wave per la rigenerazione HP dai last-hit sui minion, e cerca le kill solo quando passa in forma melee e spreca la sua E.</li>\n<li><strong>Camille:</strong> Skill matchup. Entrambi avete all-in forti; vince chi piazza per primo un cast pulito. La tua Q scala con il suo max HP corrente — costringila prima a usare la heal della W, poi Q1-auto-Q2 per portarla sotto il 50%. Piazza una ward nel tri-bush (il cespuglio a tre entrate vicino alla tua tower) così il suo hookshot — la ability che la lancia come un rampino contro un muro o un nemico — non ti prende gratis mentre torni in lane.</li>\n</ul>\n<h2>Power spike e win condition</h2>\n<ul>\n<li><strong>Livello 2 (Q + E):</strong> Il primo grande spike. Con entrambe le ability e il dash passivo, una combo completa Q1-auto-E-auto-Q2-auto infligge quattro basic attack più due tick di ability in due secondi. La maggior parte dei top laner non riesce a competere su questo danno in uno scrap melee.</li>\n<li><strong>Livello 6 (R sbloccata):</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/champion/Ambessa.png\" alt=\"R\"> <strong>Public Execution</strong> sblocca i pickoff — eliminare un nemico isolato fuori dal main fight. La passiva della R aggiunge anche armor penetration (il tuo danno ignora una parte dell'armor avversaria) e omnivamp (una piccola heal pari a una percentuale del danno che fai con le ability). Ti sostiene nelle skirmish del river.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6692.png\" alt=\"Eclipse\"> Eclipse completata (~ minuto 11-13):</strong> Il tuo più grande spike da skirmish. Lo shield e il bonus damage si allineano con ogni combo completa, quindi gli 1v1 e i 2v2 attorno ai Voidgrubs girano a tuo favore.</li>\n<li><strong>2 item + boots (~ minuto 18-22):</strong> Con <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3071.png\" alt=\"Black Cleaver\"> <strong>Black Cleaver</strong> online, raggruppati col team per i fight di Drake. Salta sul carry avversario con la R — la suppression (un CC che disabilita ogni ability e movimento, anche <strong>Flash</strong>) lo blocca per 1.5 secondi, quanto basta al tuo team per il follow-up.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Sprecare Sundering Slam (il secondo cast di Q) su un minion.</strong> Il secondo cast potenziato è il tuo damage spike. Se colpisci un minion con la Q1 invece che un campione, hai bruciato il reset su una creatura che muore in un colpo comunque. Tieni Q1 finché non puoi garantire il contatto col campione.</li>\n<li><strong>Saltare troppo profondo dentro il team avversario con la R.</strong> La R va sul campione nemico <strong>più lontano</strong> in linea, non sul più vicino. Se tre nemici stanno davanti al loro carry, il blink ti porterà oltre tutti e ti deposita dietro all'intero team. Controlla sempre il positioning prima di premere R — allinea il carry come unico target tra te e il punto più lontano.</li>\n<li><strong>Mettersi in brace W nel vuoto.</strong> Lo slam potenziato si attiva solo se durante la brace blocchi davvero danno non-minion. Stare in brace in lane contro i minion spreca il cooldown a vuoto. Usa W reattiva — quando vedi partire l'animazione di un'ability nemica, in quel momento attivi la brace.</li>\n<li><strong>Tenere la R per l'engage perfetto che non arriva mai.</strong> La R ha 100+ secondi di cooldown nell'early. Se ce l'hai pronta al livello 6 e il laner avversario ha appena usato la sua combo principale (key ability in cooldown), entra e usa la R su di lui. Un laner morto sono due wave di farm gratis e una tower plate extra (le placche di gold sulla torre dei primi 14 minuti).</li>\n<li><strong>Andare in 1v1 contro gli iper-tank pensando che la Q li uccida.</strong> Il danno % max HP fa paura sulla carta ma l'armor si applica comunque. Una volta che un Ornn o un Cho'Gath finisce <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6610.png\" alt=\"Sundered Sky\"> <strong>Sundered Sky</strong> + item da tank, non li uccidi più da sola. Raggruppati con il tuo jungler invece.</li>\n</ul>\n<h2>Tecnica avanzata</h2>\n<p>Padroneggia il <strong>dash-AA weave</strong> (intreccio dash + auto-attack). Ogni ability cast attiva il passive dash e un'AA potenziata, quindi la sequenza ottimale in una combo completa è <em>cast → dash → AA → cast → dash → AA</em>, non <em>cast → cast → cast → AA</em>. Se premi la seconda ability prima di aver completato l'AA potenziata, perdi il bonus su quel colpo. Il ritmo pulito: <strong>Q1 → dash in avanti → AA → E → dash → AA → Q2 → dash → AA → R</strong>. Esercitati nella Practice Tool (la modalità singleplayer di allenamento) contro un target dummy (un manichino bersaglio fisso) finché ogni AA si registra; in lane vera questo trasforma un trade da 2 secondi in sette istanze di danno separate ed è la differenza tra una kill e un nemico che scappa a 50 HP.</p>",
+    "word_count": 1941,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "aatrox-top",
+        "champion": "aatrox",
+        "role": "top"
+      },
+      {
+        "slug": "darius-top",
+        "champion": "darius",
+        "role": "top"
+      },
+      {
+        "slug": "fiora-top",
+        "champion": "fiora",
+        "role": "top"
+      },
+      {
+        "slug": "garen-top",
+        "champion": "garen",
+        "role": "top"
+      },
+      {
+        "slug": "irelia-top",
+        "champion": "irelia",
+        "role": "top"
+      }
+    ],
+    "champion_key": "799"
+  },
+  {
+    "slug": "amumu-jungle",
+    "title": "Amumu Jungle Build & Guida — Patch 16.9",
+    "language": "it",
+    "patch": "16.9",
+    "champion": "amumu",
+    "role": "jungle",
+    "last_updated": "2026-04-29",
+    "description": "Guida Amumu jungle per LoL Patch 16.9: percorso di clear, build AP-tank (magic damage + tank stats), timing dei gank, matchup chiave, setup della R ed errori frequenti.",
+    "quick_learn": {
+      "champion_dd_id": "Amumu",
+      "difficulty": 2,
+      "damage_type": "magic",
+      "champion_class": "Tank / Engage",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Cursed Touch",
+          "description": "Le basic attack maledicono i nemici. I bersagli con Curse subiscono true damage bonus dal magic damage che ricevono — gli spell del tuo team fanno più male.",
+          "dd_spell_id": "Amumu_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Bandage Toss",
+          "description": "Skillshot lineare a lunga gittata che trascina Amumu sul primo nemico colpito e lo stunna. Due cariche — una per l'engage, una per il follow-up o per uscire.",
+          "dd_spell_id": "BandageToss"
+        },
+        {
+          "key": "W",
+          "name": "Despair",
+          "description": "Aura toggle che infligge danno % HP massimo ai nemici vicini ogni secondo e refresha Curse su di loro. Consuma mana mentre attiva — spegnila fuori combattimento.",
+          "dd_spell_id": "AuraofDespair"
+        },
+        {
+          "key": "E",
+          "name": "Tantrum",
+          "description": "Passiva: subisci meno danno fisico. Attiva: AOE corto raggio. Il cooldown si abbassa ogni volta che Amumu viene colpito, quindi spammala nei fight prolungati.",
+          "dd_spell_id": "Tantrum"
+        },
+        {
+          "key": "R",
+          "name": "Curse of the Sad Mummy",
+          "description": "Stun AOE enorme che blocca tutti i nemici intorno ad Amumu e applica Curse. È il senso del kit — ogni teamfight inizia quando questa connette.",
+          "dd_spell_id": "CurseoftheSadMummy"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "E"
+        },
+        {
+          "level": 2,
+          "key": "W"
+        },
+        {
+          "level": 3,
+          "key": "Q"
+        },
+        {
+          "level": 4,
+          "key": "E"
+        },
+        {
+          "level": 5,
+          "key": "E"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "E"
+        },
+        {
+          "level": 8,
+          "key": "Q"
+        },
+        {
+          "level": 9,
+          "key": "E"
+        },
+        {
+          "level": 10,
+          "key": "Q"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "Q"
+        },
+        {
+          "level": 13,
+          "key": "Q"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6653",
+          "name": "Liandry's Torment"
+        },
+        {
+          "dd_id": "3111",
+          "name": "Mercury's Treads"
+        },
+        {
+          "dd_id": "4633",
+          "name": "Riftmaker"
+        },
+        {
+          "dd_id": "3089",
+          "name": "Rabadon's Deathcap"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3068",
+          "name": "Sunfire Aegis",
+          "against": "contro team con tanti melee bruiser (Sett, Darius, Olaf): la burn aura si stacka con W e l'armor extra ti regge il focus della frontline"
+        },
+        {
+          "dd_id": "3001",
+          "name": "Abyssal Mask",
+          "against": "quando 3+ nemici fanno magic damage: lo shred AOE di magic resist amplifica ogni spell del tuo team sui bersagli con Curse"
+        },
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass",
+          "against": "contro burst comp che ti focusano dopo la R (Zed, LeBlanc, Syndra): la stasi ti tiene vivo mentre il team chiude il fight"
+        },
+        {
+          "dd_id": "3102",
+          "name": "Banshee's Veil",
+          "against": "contro CC magico single-target che apre i fight (Ahri charm, Lissandra R, Morgana Q): lo spellshield blocca l'engage su di te"
+        }
+      ],
+      "base_combo": [
+        "Q",
+        "R",
+        "W",
+        "E"
+      ],
+      "win_condition": "Lancia Q dalla fog su un bersaglio chiave, R per bloccare tutti, poi resta sopra la backline avversaria con W che ticka danno % HP mentre Tantrum si abbassa di cooldown ad ogni colpo subito.",
+      "weakness": "Tool di engage prevedibili e con cooldown lunghi. Se Q sbaglia o la R viene rimossa da una Cleanse Summoner, Amumu non ha follow-up — viene kitato finché non tornano entrambe, contribuendo a niente per 90+ secondi."
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "yasuo",
+            "kennen",
+            "katarina",
+            "miss-fortune"
+          ],
+          "archetype": "Comp da teamfight raggruppata con danno AOE",
+          "reason": "La R di Amumu prende tutti in un raggio piccolo. Le comp che vogliono combattere raggruppate (Yasuo + Kennen con ult AOE, Katarina che salta tra i bersagli, Miss Fortune Bullet Time) si beccano lo stun insieme e amplificano i loro stessi spell tramite la passive Curse."
+        },
+        {
+          "examples": [
+            "jinx",
+            "kog-maw",
+            "ashe",
+            "vayne"
+          ],
+          "archetype": "Carry immobili senza escape",
+          "reason": "Q è uno skillshot da 1100 range che trascina Amumu sul primo bersaglio colpito. I carry senza dash o blink (Jinx, Ashe) vengono strappati fuori posizione nel momento in cui si fanno avanti per last-hittare la wave."
+        },
+        {
+          "examples": [
+            "brand",
+            "syndra",
+            "ryze",
+            "viktor"
+          ],
+          "archetype": "Compagni AP che snowballano sull'engage",
+          "reason": "La passive Cursed Touch trasforma il magic damage sul bersaglio in true damage bonus. Un team AP-heavy converte un Q-R in kill istantanee perché ogni spell che arriva dopo fa più danno."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "fiora",
+            "tryndamere",
+            "yone"
+          ],
+          "archetype": "Bruiser mobili con parry, immortalità o dash",
+          "reason": "Fiora con W parra lo stun della Q e te lo riflette, Tryndamere con R ignora il danno mentre la tua W tickka durante la finestra unkillable, Yone con la terza Q dasha fuori dalla portata di Tantrum. Sopravvivono all'engage e ribaltano il fight."
+        },
+        {
+          "examples": [
+            "xerath",
+            "nidalee",
+            "varus"
+          ],
+          "archetype": "Artiglieria long-range che non deve committare",
+          "reason": "Pokeano da oltre i 1100 range della Q. Amumu deve camminare nel loro danno solo per minacciare l'engage, e una Q sbagliata vuol dire 25-30 secondi liberi per loro per continuare a pushare la lane o l'objective."
+        },
+        {
+          "examples": [
+            "ezreal",
+            "tristana",
+            "kalista"
+          ],
+          "archetype": "Marksman con escape integrate nel kit",
+          "reason": "La E di Ezreal, la W di Tristana e gli hop reset di Kalista escono tutti dal raggio della R di Amumu dopo che la Q connette. Curse va sprecata perché il carry si riposiziona prima che il team possa fare follow-up sullo stun."
+        }
+      ]
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Amumu è il jungler engage più semplice del gioco: cammina nella fog of war (la parte di mappa non visibile fuori dalla visione del tuo team), tira <strong>Bandage Toss (Q)</strong>, premi <strong>Curse of the Sad Mummy (R)</strong>, e lascia che il team scarichi il danno. Il kit ha un solo lavoro — aprire il fight alle tue condizioni — e lo fa da una distanza più lunga di quasi qualsiasi altro engage, grazie alla pull da 1100 range. La passive <strong>Cursed Touch</strong> moltiplica i compagni AP trasformando i loro spell in true damage bonus su ogni bersaglio con Curse.</p>\n<p>Il prezzo: la R sta su 100-150s di cooldown e la Q è il tuo unico setup. Sbagli e passi 90 secondi a essere kitato, quindi questa guida è costruita intorno alla scelta del <em>fight giusto</em> invece che a forzare ogni gank. Game plan: clear, arriva al livello 6, poi traduci ogni R in una kill o un objective per i 25-30 minuti successivi.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1039.png\" alt=\"Hailblade\"> <strong>Hailblade</strong> + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2031.png\" alt=\"Refillable Potion\"> <strong>Refillable Potion</strong>. Hailblade è l'item da jungler: danneggi i mostri neutrali velocemente e applica un breve slow sui campioni nemici. Refillable è una pozione che si ricarica gratis in base, così risparmi gold quando prendi chip damage (piccoli colpi) sui camp (gruppi di mostri neutrali della jungla).</p>\n<p><strong>Core items (in ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> <strong>Liandry's Torment</strong> — il singolo item più importante. Il burn % HP massimo somma con quello della W, sciogliendo i tank che provano a stare nella tua aura. Compralo ogni partita.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — boots di default: danno <strong>tenacity</strong> (una stat che riduce la durata di stun e slow subiti), molto importante per un engage che deve continuare a camminare dopo che la R connette. Cambia in <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> se il team avversario ha 3+ minacce AD e nessuna catena di hard CC.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4633.png\" alt=\"Riftmaker\"> <strong>Riftmaker</strong> — omnivamp (curi su tutto il danno che fai) più una passiva che converte parte del danno in true damage dopo 3 secondi in combat. Si sposa con la W che fa danno costante.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — moltiplicatore di scaling late-game. Con Liandry's + Riftmaker online, Deathcap porta la W da \"fastidiosa\" a \"non posso stare qui 2 secondi\".</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3068.png\" alt=\"Sunfire Aegis\"> <strong>Sunfire Aegis</strong> — contro team con tanti melee bruiser (campioni corpo-a-corpo che mescolano danno e durata, es. Sett, Darius, Olaf). L'aura di fuoco si somma a quella della W per AOE doppio, e dà armor extra.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3001.png\" alt=\"Abyssal Mask\"> <strong>Abyssal Mask</strong> — quando 3+ nemici fanno magic damage. Riduce il magic resist dei nemici vicini, così ogni spell che il tuo team lancia sui bersagli con Curse fa più male.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — contro burst comp che ti focusano l'attimo che la R atterra (Zed, LeBlanc, Syndra). La stasi (una finestra di 2.5s in cui non puoi subire danno né agire) ti tiene vivo mentre il team chiude il fight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — contro CC magico single-target a lunga durata (Ahri charm in all-in, Lissandra R, Morgana Q). Lo spellshield (una barriera monouso che blocca il prossimo spell indirizzato su di te) mangia l'engage.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> sono il default. Plated Steelcaps solo contro comp AD-heavy senza grandi catene di CC.</p>\n<p><strong>Skill order:</strong> Maxa <strong>E</strong> per prima (velocità di clear e damage nei fight prolungati), <strong>Q</strong> seconda (gank threat e cooldown stun più basso), <strong>W</strong> per ultima. Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Resolve</strong> con <strong>Aftershock</strong> (ti dà armor e magic resist bonus per 2.5 secondi quando connetti uno stun di Q o la R — la rune di engage del gioco), <strong>Font of Life</strong> (i tuoi CC marcano i nemici e i tuoi alleati guariscono colpendoli), <strong>Conditioning</strong> (resist extra dopo il minuto 12), <strong>Revitalize</strong> (potenzia gli scudi e le cure su di te). Secondary <strong>Sorcery</strong> con <strong>Manaflow Band</strong> (mana sustain così puoi tenere W attiva durante i clear) e <strong>Transcendence</strong> (ability haste extra — una stat che abbassa il cooldown di tutte le tue abilità).</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Lee Sin / Elise:</strong> Jungler early-game che invadono il tuo lato debole. Tracciali con <strong>ward</strong> (oggetti di visione che rivelano un'area per ~90 secondi) su raptor e red buff (camp della tua jungla). Evita di duellarli prima del livello 3; fai un full clear (uccidi ogni camp una volta) e vai su Scuttle (il granchio sul fiume che dà visione).</li>\n<li><strong>Master Yi / Karthus:</strong> Jungler scaling. Forza fight e objective (Drake bot, Rift Herald top, Baron dopo) prima del minuto 18 — tu scali bene, loro scalano meglio. Ogni R deve mirare al loro carry (marksman o burst mage in backline che fa la maggior parte del danno), non al tank davanti, così non hanno niente da peelare.</li>\n<li><strong>Hecarim / Volibear:</strong> Engage speculare, clear più veloce. Gioca attorno ai tuoi laner e cerca un gank dove hai prio (la lane sta spingendo verso il nemico) entro il minuto 4.</li>\n<li><strong>Maokai / Sejuani:</strong> Tank jungler con la loro AOE engage. Chi connette la R per primo vince il teamfight. Tieni la <strong>Q</strong> per dopo che committano: il tuo stun si somma al loro e il nemico resta bloccato per la durata totale di entrambi.</li>\n<li><strong>Kha'Zix / Rengar:</strong> Assassini che burstano la tua backline. Body-blocca per i tuoi carry (mettiti tra l'assassino e il damage dealer per assorbire i colpi) invece di stare davanti al team avversario — la W aura più la E Tantrum li puniscono per aver committato vicino a te.</li>\n</ul>\n<h2>Power spike e win condition</h2>\n<ul>\n<li><strong>Livello 3:</strong> Con <strong>E</strong>, <strong>W</strong> e <strong>Q</strong> tutte sbloccate, la prima minaccia di gank (la visita a sorpresa del jungler in lane per fare una kill) è reale. Guarda la lane con il nemico più basso di HP e il follow-up CC più forte alleato; una rotation Q-W-AA-E (AA = auto-attack) sotto un alleato che sta snowballando (vantaggio che cresce nel tempo: kill → gold → item → nuova kill) di solito è una kill.</li>\n<li><strong>Livello 6:</strong> Prima <strong>Curse of the Sad Mummy</strong>. È il singolo power swing più grande del gioco per Amumu. Trova un fight entro 30 secondi dal raggiungere il 6 — ganka una lane, contesta Scuttle, o prepara il primo Drake.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> Liandry's Torment completo (~ minuto 12-14):</strong> La tua W passa da poke (danno a distanza per logorare) a vera minaccia. Combattere per Drake o Rift Herald con W che fa danno costante su un bersaglio in contesa vince l'objective senza neanche premere R.</li>\n<li><strong>3-item spike (~ minuto 22-26):</strong> Liandry's + Riftmaker + Deathcap online. Il cooldown di R è abbastanza basso da poter combattere in teamfight due volte per ogni timer di Baron. Forza ogni objective; questo è il tuo picco.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Tirare Q in cooldown senza setup.</strong> Una Q nuda spreca il tuo unico tool di engage. Tieni la Q finché il nemico non è già rallentato, rootato (non si può muovere) o agganciato da un alleato — es. la Q di Morgana atterra → la tua Q sopra è garantita. Q usata per \"vedere se prende\" vuol dire niente quando arriva il fight vero.</li>\n<li><strong>Premere R appena arrivi al fight.</strong> R è AOE <em>centrata su Amumu</em>. Se la premi 200 unità più corto, non stunni nessuno e sprechi il cooldown da 100-150s. Cammina dentro fino a essere nella loro backline, <em>poi</em> R.</li>\n<li><strong>Lasciare W attiva fuori combat.</strong> <strong>Despair</strong> consuma 8 mana al secondo anche se non hai nessun nemico vicino. Arrivi al minuto 8 senza mana per uno stun di Q su un gank pulito. Disattivala l'attimo che il fight o il clear finiscono.</li>\n<li><strong>Ignorare il reset di cooldown di Tantrum.</strong> La passiva di <strong>E</strong> abbassa il suo stesso cooldown ogni volta che subisci una basic attack. In un fight lungo contro melee, puoi premere E ogni 1-2 secondi — resta nel loro range di attacco e continua a usarla.</li>\n<li><strong>R sul tank invece che sul carry.</strong> R è un'abilità da teamfight. Sì il tank è più vicino, sì la prendi su di lui — ma il team vuole lo stun sul carry. Tieni <strong>Flash</strong> (la Summoner Spell che ogni champion sceglie e che ti teletrasporta una distanza breve una volta ogni ~5 minuti) per flankare (entrare nel fight da un lato o da dietro, non frontalmente) sulla backline invece di engagare di fronte.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Allena la combo <strong>Flash + Q</strong> sul training dummy. Il trucco: lancia la Q, <em>poi</em> premi Flash a metà animazione nella direzione del bersaglio. L'animazione di pull si riaggancia alla tua posizione post-Flash, dando un proiettile più corto di 425 unità praticamente impossibile da schivare. Trasforma la Q da skillshot da 1100 range in stun garantito a bruciapelo: ti permette di entrare nella backline attraverso la fog e connettere Q su un bersaglio in movimento che non ha mai visto arrivare l'engage.</p>",
+    "content_html_pre": "<h2>Overview</h2>\n<p>Amumu è il jungler engage più semplice del gioco: cammina nella fog of war (la parte di mappa non visibile fuori dalla visione del tuo team), tira <strong>Bandage Toss (Q)</strong>, premi <strong>Curse of the Sad Mummy (R)</strong>, e lascia che il team scarichi il danno. Il kit ha un solo lavoro — aprire il fight alle tue condizioni — e lo fa da una distanza più lunga di quasi qualsiasi altro engage, grazie alla pull da 1100 range. La passive <strong>Cursed Touch</strong> moltiplica i compagni AP trasformando i loro spell in true damage bonus su ogni bersaglio con Curse.</p>\n<p>Il prezzo: la R sta su 100-150s di cooldown e la Q è il tuo unico setup. Sbagli e passi 90 secondi a essere kitato, quindi questa guida è costruita intorno alla scelta del <em>fight giusto</em> invece che a forzare ogni gank. Game plan: clear, arriva al livello 6, poi traduci ogni R in una kill o un objective per i 25-30 minuti successivi.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1039.png\" alt=\"Hailblade\"> <strong>Hailblade</strong> + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2031.png\" alt=\"Refillable Potion\"> <strong>Refillable Potion</strong>. Hailblade è l'item da jungler: danneggi i mostri neutrali velocemente e applica un breve slow sui campioni nemici. Refillable è una pozione che si ricarica gratis in base, così risparmi gold quando prendi chip damage (piccoli colpi) sui camp (gruppi di mostri neutrali della jungla).</p>\n<p><strong>Core items (in ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> <strong>Liandry's Torment</strong> — il singolo item più importante. Il burn % HP massimo somma con quello della W, sciogliendo i tank che provano a stare nella tua aura. Compralo ogni partita.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — boots di default: danno <strong>tenacity</strong> (una stat che riduce la durata di stun e slow subiti), molto importante per un engage che deve continuare a camminare dopo che la R connette. Cambia in <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> se il team avversario ha 3+ minacce AD e nessuna catena di hard CC.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4633.png\" alt=\"Riftmaker\"> <strong>Riftmaker</strong> — omnivamp (curi su tutto il danno che fai) più una passiva che converte parte del danno in true damage dopo 3 secondi in combat. Si sposa con la W che fa danno costante.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — moltiplicatore di scaling late-game. Con Liandry's + Riftmaker online, Deathcap porta la W da \"fastidiosa\" a \"non posso stare qui 2 secondi\".</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3068.png\" alt=\"Sunfire Aegis\"> <strong>Sunfire Aegis</strong> — contro team con tanti melee bruiser (campioni corpo-a-corpo che mescolano danno e durata, es. Sett, Darius, Olaf). L'aura di fuoco si somma a quella della W per AOE doppio, e dà armor extra.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3001.png\" alt=\"Abyssal Mask\"> <strong>Abyssal Mask</strong> — quando 3+ nemici fanno magic damage. Riduce il magic resist dei nemici vicini, così ogni spell che il tuo team lancia sui bersagli con Curse fa più male.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — contro burst comp che ti focusano l'attimo che la R atterra (Zed, LeBlanc, Syndra). La stasi (una finestra di 2.5s in cui non puoi subire danno né agire) ti tiene vivo mentre il team chiude il fight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — contro CC magico single-target a lunga durata (Ahri charm in all-in, Lissandra R, Morgana Q). Lo spellshield (una barriera monouso che blocca il prossimo spell indirizzato su di te) mangia l'engage.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> sono il default. Plated Steelcaps solo contro comp AD-heavy senza grandi catene di CC.</p>\n<p><strong>Skill order:</strong> Maxa <strong>E</strong> per prima (velocità di clear e damage nei fight prolungati), <strong>Q</strong> seconda (gank threat e cooldown stun più basso), <strong>W</strong> per ultima. Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Resolve</strong> con <strong>Aftershock</strong> (ti dà armor e magic resist bonus per 2.5 secondi quando connetti uno stun di Q o la R — la rune di engage del gioco), <strong>Font of Life</strong> (i tuoi CC marcano i nemici e i tuoi alleati guariscono colpendoli), <strong>Conditioning</strong> (resist extra dopo il minuto 12), <strong>Revitalize</strong> (potenzia gli scudi e le cure su di te). Secondary <strong>Sorcery</strong> con <strong>Manaflow Band</strong> (mana sustain così puoi tenere W attiva durante i clear) e <strong>Transcendence</strong> (ability haste extra — una stat che abbassa il cooldown di tutte le tue abilità).</p>",
+    "content_html_post": "<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Lee Sin / Elise:</strong> Jungler early-game che invadono il tuo lato debole. Tracciali con <strong>ward</strong> (oggetti di visione che rivelano un'area per ~90 secondi) su raptor e red buff (camp della tua jungla). Evita di duellarli prima del livello 3; fai un full clear (uccidi ogni camp una volta) e vai su Scuttle (il granchio sul fiume che dà visione).</li>\n<li><strong>Master Yi / Karthus:</strong> Jungler scaling. Forza fight e objective (Drake bot, Rift Herald top, Baron dopo) prima del minuto 18 — tu scali bene, loro scalano meglio. Ogni R deve mirare al loro carry (marksman o burst mage in backline che fa la maggior parte del danno), non al tank davanti, così non hanno niente da peelare.</li>\n<li><strong>Hecarim / Volibear:</strong> Engage speculare, clear più veloce. Gioca attorno ai tuoi laner e cerca un gank dove hai prio (la lane sta spingendo verso il nemico) entro il minuto 4.</li>\n<li><strong>Maokai / Sejuani:</strong> Tank jungler con la loro AOE engage. Chi connette la R per primo vince il teamfight. Tieni la <strong>Q</strong> per dopo che committano: il tuo stun si somma al loro e il nemico resta bloccato per la durata totale di entrambi.</li>\n<li><strong>Kha'Zix / Rengar:</strong> Assassini che burstano la tua backline. Body-blocca per i tuoi carry (mettiti tra l'assassino e il damage dealer per assorbire i colpi) invece di stare davanti al team avversario — la W aura più la E Tantrum li puniscono per aver committato vicino a te.</li>\n</ul>\n<h2>Power spike e win condition</h2>\n<ul>\n<li><strong>Livello 3:</strong> Con <strong>E</strong>, <strong>W</strong> e <strong>Q</strong> tutte sbloccate, la prima minaccia di gank (la visita a sorpresa del jungler in lane per fare una kill) è reale. Guarda la lane con il nemico più basso di HP e il follow-up CC più forte alleato; una rotation Q-W-AA-E (AA = auto-attack) sotto un alleato che sta snowballando (vantaggio che cresce nel tempo: kill → gold → item → nuova kill) di solito è una kill.</li>\n<li><strong>Livello 6:</strong> Prima <strong>Curse of the Sad Mummy</strong>. È il singolo power swing più grande del gioco per Amumu. Trova un fight entro 30 secondi dal raggiungere il 6 — ganka una lane, contesta Scuttle, o prepara il primo Drake.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> Liandry's Torment completo (~ minuto 12-14):</strong> La tua W passa da poke (danno a distanza per logorare) a vera minaccia. Combattere per Drake o Rift Herald con W che fa danno costante su un bersaglio in contesa vince l'objective senza neanche premere R.</li>\n<li><strong>3-item spike (~ minuto 22-26):</strong> Liandry's + Riftmaker + Deathcap online. Il cooldown di R è abbastanza basso da poter combattere in teamfight due volte per ogni timer di Baron. Forza ogni objective; questo è il tuo picco.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Tirare Q in cooldown senza setup.</strong> Una Q nuda spreca il tuo unico tool di engage. Tieni la Q finché il nemico non è già rallentato, rootato (non si può muovere) o agganciato da un alleato — es. la Q di Morgana atterra → la tua Q sopra è garantita. Q usata per \"vedere se prende\" vuol dire niente quando arriva il fight vero.</li>\n<li><strong>Premere R appena arrivi al fight.</strong> R è AOE <em>centrata su Amumu</em>. Se la premi 200 unità più corto, non stunni nessuno e sprechi il cooldown da 100-150s. Cammina dentro fino a essere nella loro backline, <em>poi</em> R.</li>\n<li><strong>Lasciare W attiva fuori combat.</strong> <strong>Despair</strong> consuma 8 mana al secondo anche se non hai nessun nemico vicino. Arrivi al minuto 8 senza mana per uno stun di Q su un gank pulito. Disattivala l'attimo che il fight o il clear finiscono.</li>\n<li><strong>Ignorare il reset di cooldown di Tantrum.</strong> La passiva di <strong>E</strong> abbassa il suo stesso cooldown ogni volta che subisci una basic attack. In un fight lungo contro melee, puoi premere E ogni 1-2 secondi — resta nel loro range di attacco e continua a usarla.</li>\n<li><strong>R sul tank invece che sul carry.</strong> R è un'abilità da teamfight. Sì il tank è più vicino, sì la prendi su di lui — ma il team vuole lo stun sul carry. Tieni <strong>Flash</strong> (la Summoner Spell che ogni champion sceglie e che ti teletrasporta una distanza breve una volta ogni ~5 minuti) per flankare (entrare nel fight da un lato o da dietro, non frontalmente) sulla backline invece di engagare di fronte.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Allena la combo <strong>Flash + Q</strong> sul training dummy. Il trucco: lancia la Q, <em>poi</em> premi Flash a metà animazione nella direzione del bersaglio. L'animazione di pull si riaggancia alla tua posizione post-Flash, dando un proiettile più corto di 425 unità praticamente impossibile da schivare. Trasforma la Q da skillshot da 1100 range in stun garantito a bruciapelo: ti permette di entrare nella backline attraverso la fog e connettere Q su un bersaglio in movimento che non ha mai visto arrivare l'engage.</p>",
+    "word_count": 1453,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "diana-jungle",
+        "champion": "diana",
+        "role": "jungle"
+      },
+      {
+        "slug": "ekko-jungle",
+        "champion": "ekko",
+        "role": "jungle"
+      },
+      {
+        "slug": "graves-jungle",
+        "champion": "graves",
+        "role": "jungle"
+      },
+      {
+        "slug": "hecarim-jungle",
+        "champion": "hecarim",
+        "role": "jungle"
+      },
+      {
+        "slug": "kayn-jungle",
+        "champion": "kayn",
+        "role": "jungle"
+      }
+    ],
+    "champion_key": "32"
+  },
+  {
     "slug": "caitlyn-bot",
     "title": "Caitlyn Bot Build & Guida — Patch 16.9",
     "language": "it",

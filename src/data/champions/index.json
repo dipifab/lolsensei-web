@@ -147,6 +147,64 @@
       }
     },
     {
+      "slug": "ambessa-top",
+      "champion": "ambessa",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Ambessa Top Build & Guide — Patch 16.9",
+          "description": "Ambessa top lane guide for League of Legends Patch 16.9: starting kit, Eclipse skirmisher build, key matchups, power spikes, common mistakes, and an advanced tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Assassin",
+          "difficulty": 5,
+          "damage_type": "physical",
+          "champion_dd_id": "Ambessa",
+          "champion_key": "799"
+        },
+        "it": {
+          "title": "Ambessa Top: Build e Guida — Patch 16.9",
+          "description": "Guida Ambessa top per League of Legends patch 16.9: starter kit, build Eclipse skirmisher, matchup chiave, power spike, errori comuni e una tecnica avanzata.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Assassin",
+          "difficulty": 5,
+          "damage_type": "physical",
+          "champion_dd_id": "Ambessa",
+          "champion_key": "799"
+        }
+      }
+    },
+    {
+      "slug": "amumu-jungle",
+      "champion": "amumu",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Amumu Jungle Build & Guide — Patch 16.9",
+          "description": "Amumu jungle guide for LoL Patch 16.9: clear path, AP-tank build (magic damage + tank stats), gank timing, key matchups, ultimate setups, and common mistakes.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Tank / Engage",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Amumu",
+          "champion_key": "32"
+        },
+        "it": {
+          "title": "Amumu Jungle Build & Guida — Patch 16.9",
+          "description": "Guida Amumu jungle per LoL Patch 16.9: percorso di clear, build AP-tank (magic damage + tank stats), timing dei gank, matchup chiave, setup della R ed errori frequenti.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Tank / Engage",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Amumu",
+          "champion_key": "32"
+        }
+      }
+    },
+    {
       "slug": "caitlyn-bot",
       "champion": "caitlyn",
       "role": "bot",

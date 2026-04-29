@@ -1294,6 +1294,552 @@ export const enChampions: ChampionGuide[] = [
     "champion_key": "12"
   },
   {
+    "slug": "ambessa-top",
+    "title": "Ambessa Top Build & Guide — Patch 16.9",
+    "language": "en",
+    "patch": "16.9",
+    "champion": "ambessa",
+    "role": "top",
+    "last_updated": "2026-04-29",
+    "description": "Ambessa top lane guide for League of Legends Patch 16.9: starting kit, Eclipse skirmisher build, key matchups, power spikes, common mistakes, and an advanced tip.",
+    "quick_learn": {
+      "champion_dd_id": "Ambessa",
+      "difficulty": 5,
+      "damage_type": "physical",
+      "champion_class": "Fighter / Assassin",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Drakehound's Step",
+          "description": "After any ability cast, she dashes a short distance. Her next basic attack gains bonus range, damage, and attack speed, and refunds energy.",
+          "dd_spell_id": "Ambessa_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Cunning Sweep / Sundering Slam",
+          "description": "Two-stage ability. First cast strikes a forward arc and scales with enemy max HP. Hitting an enemy unlocks a longer forward slam as the second cast — main damage.",
+          "dd_spell_id": "AmbessaQ"
+        },
+        {
+          "key": "W",
+          "name": "Repudiation",
+          "description": "Gain a shield and brace, then slam the ground. If she blocks non-minion damage during the brace, the slam deals empowered damage. Defensive trade tool.",
+          "dd_spell_id": "AmbessaW"
+        },
+        {
+          "key": "E",
+          "name": "Lacerate",
+          "description": "AOE chain whip around herself: damages and slows nearby enemies. Triggering the passive dash from this ability adds a second strike at the end of the dash.",
+          "dd_spell_id": "AmbessaE"
+        },
+        {
+          "key": "R",
+          "name": "Public Execution",
+          "description": "Become unstoppable and blink to the farthest enemy champion in a line, suppressing them on arrival, then slam them for damage and stun. Passive: armor pen + omnivamp on abilities.",
+          "dd_spell_id": "AmbessaR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6692",
+          "name": "Eclipse"
+        },
+        {
+          "dd_id": "3047",
+          "name": "Plated Steelcaps"
+        },
+        {
+          "dd_id": "3071",
+          "name": "Black Cleaver"
+        },
+        {
+          "dd_id": "3053",
+          "name": "Sterak's Gage"
+        },
+        {
+          "dd_id": "6333",
+          "name": "Death's Dance"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3111",
+          "name": "Mercury's Treads",
+          "against": "swap from Plated Steelcaps when the enemy team has 2+ hard CC sources or heavy AP damage"
+        },
+        {
+          "dd_id": "3156",
+          "name": "Maw of Malmortius",
+          "against": "vs heavy AP top laners (Vladimir, Rumble, Gwen) — magic shield + AD scaling at low HP"
+        },
+        {
+          "dd_id": "3814",
+          "name": "Edge of Night",
+          "against": "vs telegraphed long-range CC (Malphite R, Ornn R, Sett W) — spell shield blocks the engage"
+        },
+        {
+          "dd_id": "6697",
+          "name": "Hubris",
+          "against": "when you're already ahead in lane — kills stack ad, fueling a snowball lead (vantaggio crescente)"
+        },
+        {
+          "dd_id": "3026",
+          "name": "Guardian Angel",
+          "against": "late game when you R-blink onto the enemy carry — revive lets you commit fully and survive the followup"
+        }
+      ],
+      "base_combo": [
+        "Q1",
+        "AA",
+        "E",
+        "AA",
+        "Q2",
+        "AA",
+        "R"
+      ],
+      "win_condition": "Win lanes 2-6 with passive-dash trades, then snowball through skirmishes around Voidgrubs and Drake. Use R to suppress an isolated carry in mid-game fights before the enemy frontline can peel.",
+      "weakness": "Hard CC chains shut down her dash combos. Tank statlines blunt her % max HP damage. R commits her onto one target, so a peel comp can isolate her after the suppression ends."
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "darius",
+            "garen",
+            "sett",
+            "illaoi"
+          ],
+          "archetype": "Immobile melee bruisers without a dash",
+          "reason": "Her passive dashes after every ability cast let her weave in and out of telegraphed windups (Darius pull, Garen silence, Illaoi E). R suppression bypasses their tankiness for the kill."
+        },
+        {
+          "examples": [
+            "kennen",
+            "teemo",
+            "quinn"
+          ],
+          "archetype": "Squishy ranged top laners",
+          "reason": "Multiple short dashes from her passive close the gap that ranged tops rely on. In melee her Q scales with target max HP and chunks them faster than they can disengage."
+        },
+        {
+          "examples": [
+            "nasus",
+            "kayle"
+          ],
+          "archetype": "Late-game scalers needing levels or stacks",
+          "reason": "Her level 2-6 power bullies them before their spike (Nasus Q stacks, Kayle level 11 and 16). Force kills early to deny the lategame they need."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "malphite",
+            "ornn",
+            "poppy"
+          ],
+          "archetype": "Tanks with hard CC and stat checks",
+          "reason": "Point-and-click CC (Malphite R, Poppy W stops dashes, Ornn brittle plus knock-up) interrupts her dash combos before R lands. Raw armor plus HP also blunts the % max HP scaling on Q."
+        },
+        {
+          "examples": [
+            "jayce",
+            "gnar",
+            "vayne"
+          ],
+          "archetype": "Long-range pokers and kiters",
+          "reason": "Jayce E (knockback) and Gnar mega R interrupt her dash mid-cast. Kiters stay outside her threat range, forcing her to commit dashes from too far and get punished while abilities are down."
+        },
+        {
+          "examples": [
+            "olaf",
+            "tryndamere"
+          ],
+          "archetype": "Champions whose ultimates defeat suppression or execution",
+          "reason": "Olaf's R cleanses her suppression on cast, neutralizing her main pickoff tool. Tryndamere's undying R survives the execute frame and lets him spin out of the slam."
+        }
+      ]
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Ambessa is a top lane skirmisher (a champion built for short skirmishes and small fights, not long teamfights). She is a physical-damage AD champion (AD = attack damage; the alternative is AP = ability power, the magic-damage stat for mages). She uses <strong>energy</strong> as a resource instead of mana, and lives or dies by her passive, <strong>Drakehound's Step</strong>: every ability cast triggers a short dash plus an empowered next basic attack with bonus range, damage, and attack speed. That single mechanic turns her into a chain-trade specialist — each Q, W, or E grants a free auto-attack reset (a basic attack that fires immediately, ignoring the normal attack-speed timer), so a full combo lays down four to five hits in two seconds. Her kit punishes anyone who tries to fight her in melee without a hard interrupt (a stun, knock-up, or silence that stops her mid-cast).</p>\n<p>Her game plan is simple: bully the lane from level 2 with <strong>Q + E</strong> all-in trades (an \"all-in\" is a full commitment to the kill, not a brief exchange), then snowball into mid-game skirmishes around Voidgrubs and Drake. \"Snowball\" means a small early lead — a kill, a tower plate (a piece of gold-rewarding tower armor that breaks off in the first 14 minutes) — that compounds into a bigger lead over time. Use <strong>R</strong> to suppress an isolated enemy carry (the team's main damage dealer) before their frontline (the tanks who stand at the front) can peel for them — \"peel\" means using CC or your own body to protect a teammate from the enemy who is on top of them. The lategame is her weakness: once enemy tanks finish two items, her % max HP damage on Q stops melting them, so close the game before minute 28.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1055.png\" alt=\"Doran&#x27;s Blade\"> <strong>Doran's Blade</strong> + 2 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potions</strong>. Default for AD trades; the lifesteal sustains your dash chains.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6692.png\" alt=\"Eclipse\"> <strong>Eclipse</strong> — main skirmisher first item. After two ability hits on the same target within 1.5 seconds, it triggers a shield (a temporary HP barrier that absorbs incoming damage) plus a chunk of bonus damage on the next attack. Her dash combos clear that threshold in every fight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> — default boots. Most top matchups are AD; the auto-attack damage reduction matters in extended trades.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3071.png\" alt=\"Black Cleaver\"> <strong>Black Cleaver</strong> — armor shred (each hit removes a small amount of armor from the target, stacking up to 30%) plus HP plus AD. Her empowered passive auto-attacks stack the shred faster than most champions.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3053.png\" alt=\"Sterak&#x27;s Gage\"> <strong>Sterak's Gage</strong> — survivability spike. When you take heavy damage in a short burst, the item gives you a big shield. Useful when you R-blink onto the enemy carry and the rest of their team focuses you down.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6333.png\" alt=\"Death&#x27;s Dance\"> <strong>Death's Dance</strong> — converts incoming physical damage into a slow bleed (damage spread over the next 3 seconds instead of instant), giving you time to finish the trade.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — replace Plated Steelcaps when the enemy team has two or more hard CC sources, or heavy AP (magic) damage. They give magic resist plus tenacity (which shortens how long stuns and slows last on you).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — into AP top laners (Vladimir, Rumble, Gwen). Gives a magic-damage shield (a \"lifeline\" shield that pops once when your HP drops below 30%) plus more AD as you get low — meant to keep you alive long enough to kill them back.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> — vs telegraphed long-range CC (Malphite R, Ornn R, Sett W). It gives you a one-time spell shield (blocks the next enemy ability that hits you) so the engage misses and you R back on your terms.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6697.png\" alt=\"Hubris\"> <strong>Hubris</strong> — when you're already ahead in lane. Each kill or assist stacks bonus AD on the item, fueling a snowball lead — the more kills you get, the harder you hit, which gets you more kills.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3026.png\" alt=\"Guardian Angel\"> <strong>Guardian Angel</strong> — late-game last item. Gives you a one-time revive on death every 5 minutes. Lets you commit fully when you R-blink onto the enemy carry, without throwing the game if you misposition.</li>\n</ul>\n<p><strong>Boots:</strong> Plated Steelcaps default. Mercury's Treads vs AP/CC. Skip Sorcerer's-style mage boots — you scale physical.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (main damage and the only ability that scales with enemy max HP), <strong>E</strong> second (waveclear and the AOE slow that sets up the second Q strike), <strong>W</strong> last. Take <strong>R</strong> at levels 6, 11, and 16.</p>\n<p><strong>Runes:</strong> Primary tree <strong>Precision</strong>:</p>\n<ul>\n<li><strong>Conqueror</strong> — keystone (the main, most powerful rune of the tree). Stacks bonus AD and healing the longer you stay in a fight against champions; perfect for her chain-trade kit.</li>\n<li><strong>Triumph</strong> — small heal and gold burst on takedown, triggered when you finish a fight low HP.</li>\n<li><strong>Legend: Tenacity</strong> — passive tenacity (shortens stun and slow durations) that builds as you get takedowns.</li>\n<li><strong>Last Stand</strong> — extra damage when you drop below 60% HP.</li>\n</ul>\n<p>Secondary tree <strong>Resolve</strong>:</p>\n<ul>\n<li><strong>Second Wind</strong> — HP regeneration that kicks in after taking enemy damage. Counters lane poke.</li>\n<li><strong>Unflinching</strong> — extra tenacity once <strong>Flash</strong> is on cooldown. Useful when you R into the enemy team and they try to chain CC you.</li>\n</ul>\n<p>Stat shards (the three small bonus stats you pick under the runes): Adaptive Force (gives AD or AP based on what your champion already builds — for Ambessa it converts to AD), Adaptive Force again, then Armor or HP based on matchup.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Darius:</strong> Favorable. The outer ring of his Q is the part that heals him; step inside it by dashing forward with your Q1, then Q2 back out. He needs to land both Q + E to commit a full kill attempt; you can use W to shield his Q grip and trade evenly. Make him use his W bleed first (force him to waste it), then engage once it's on cooldown.</li>\n<li><strong>Sett:</strong> Favorable. He has no dash, only a forward slam (W). Pre-6, your passive-dash combos beat him in extended exchanges. After he hits 6, save <strong>Flash</strong> to dodge the knockback (the displacement) on his R that would push you into his team's zone.</li>\n<li><strong>Malphite:</strong> Unfavorable. His passive shield blunts your level 2 all-in; his Q slow lets him run away when you commit. Build <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> second item to block his R engage. Avoid teamfights at choke points where he can flank — surprise-attacking from a side angle — through the fog of war (the parts of the map you cannot see because there is no ward there). A ward is a small magic eye you place to reveal a zone.</li>\n<li><strong>Jayce:</strong> Unfavorable. He has two stances; the ranged-form Q + E combo pokes you (chips your HP from a safe distance) before you can close the gap. Take <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1054.png\" alt=\"Doran&#x27;s Shield\"> <strong>Doran's Shield</strong> as a starter, hug your wave for HP regen from last-hitting minions, and look for kills only when he switches to melee form and wastes his E.</li>\n<li><strong>Camille:</strong> Skill matchup. Both of you have strong all-ins; whoever lands their first cast cleanly wins. Your Q scales with her current max HP — make her use her W heal first, then Q1-auto-Q2 to drop her below 50%. Place a ward in the tri-bush (the three-entrance bush near your tower) so her E hookshot — the grappling-hook ability that pulls her to a wall or enemy — does not catch you walking back to lane.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2 (Q + E):</strong> Your first major spike. With both abilities and the passive dash, a full Q1-auto-E-auto-Q2-auto combo deals four basic attacks plus two ability ticks in two seconds. Most top laners cannot match this damage in a melee scrap.</li>\n<li><strong>Level 6 (R unlocked):</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/champion/Ambessa.png\" alt=\"R\"> <strong>Public Execution</strong> unlocks pickoffs — eliminating an isolated enemy outside the main fight. The R passive also adds armor penetration (your damage ignores some of the enemy's armor) and omnivamp (a small heal you get back as a percentage of damage you deal with abilities). This sustains you in skirmishes around the river.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6692.png\" alt=\"Eclipse\"> Eclipse completion (~ minute 11-13):</strong> Your biggest skirmish power spike. The shield and bonus damage line up with every full combo, so 1v1s and 2v2s around Voidgrubs swing in your favor.</li>\n<li><strong>2 items + boots (~ minute 18-22):</strong> With <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3071.png\" alt=\"Black Cleaver\"> <strong>Black Cleaver</strong> online, group with your team for Drake fights. R-blink onto the enemy carry — the suppression (a CC that disables every ability and movement, even Flash) locks them in place for 1.5 seconds, which is enough for your team to follow up.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Wasting Sundering Slam (the second Q cast) on a minion.</strong> The empowered second cast is your damage spike. If you hit a minion with Q1 instead of a champion, you have burned the second-cast unlock on a creature that dies in one hit anyway. Hold Q1 until you can land it on an enemy champion.</li>\n<li><strong>R-blinking too deep into the enemy team.</strong> R goes to the <strong>farthest</strong> enemy champion in your line, not the nearest. If three enemies stand in front of their carry, your blink will pass through and drop you behind the entire team. Always check positioning before pressing R — line up the carry as the only target between you and the farthest point.</li>\n<li><strong>Bracing W in empty space.</strong> The empowered slam only triggers if you actually block non-minion damage during the brace. Bracing in lane against minions wastes the cooldown for nothing. Use W reactively — when you see an enemy ability animation start, then brace.</li>\n<li><strong>Holding R for the perfect engage that never comes.</strong> R has a 100+ second cooldown early. If you have it up at level 6 and the enemy laner is \"one rotation low\" — meaning they just used their main combo and their key abilities are on cooldown — go in and R them. A dead enemy laner is two waves of free farm and an extra tower plate (those gold-rewarding armor pieces on the tower that drop in the first 14 minutes).</li>\n<li><strong>1v1-ing hyper-tanks expecting your Q to delete them.</strong> % max HP damage looks scary on paper but armor still applies. Once an Ornn or Cho'Gath finishes <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6610.png\" alt=\"Sundered Sky\"> <strong>Sundered Sky</strong> + tank items, you cannot solo-kill them. Group with your jungler instead.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Master the <strong>dash-AA weave</strong> (interleaving the dash with the basic attack). Every ability cast triggers your passive dash and an empowered next basic attack, so the optimal sequence in a full combo is <em>cast → dash → AA → cast → dash → AA</em>, not <em>cast → cast → cast → AA</em>. Pressing your second ability before the empowered AA fires cancels the bonus on that auto. Clean rhythm: <strong>Q1 → dash forward → AA → E → dash → AA → Q2 → dash → AA → R</strong>. Practice in the Practice Tool (the offline training mode) against a target dummy (a fixed practice mannequin) until each AA registers; in a real lane this turns a 2-second trade into seven separate damage instances — the difference between a kill and the enemy escaping at 50 HP.</p>",
+    "content_html_pre": "<h2>Overview</h2>\n<p>Ambessa is a top lane skirmisher (a champion built for short skirmishes and small fights, not long teamfights). She is a physical-damage AD champion (AD = attack damage; the alternative is AP = ability power, the magic-damage stat for mages). She uses <strong>energy</strong> as a resource instead of mana, and lives or dies by her passive, <strong>Drakehound's Step</strong>: every ability cast triggers a short dash plus an empowered next basic attack with bonus range, damage, and attack speed. That single mechanic turns her into a chain-trade specialist — each Q, W, or E grants a free auto-attack reset (a basic attack that fires immediately, ignoring the normal attack-speed timer), so a full combo lays down four to five hits in two seconds. Her kit punishes anyone who tries to fight her in melee without a hard interrupt (a stun, knock-up, or silence that stops her mid-cast).</p>\n<p>Her game plan is simple: bully the lane from level 2 with <strong>Q + E</strong> all-in trades (an \"all-in\" is a full commitment to the kill, not a brief exchange), then snowball into mid-game skirmishes around Voidgrubs and Drake. \"Snowball\" means a small early lead — a kill, a tower plate (a piece of gold-rewarding tower armor that breaks off in the first 14 minutes) — that compounds into a bigger lead over time. Use <strong>R</strong> to suppress an isolated enemy carry (the team's main damage dealer) before their frontline (the tanks who stand at the front) can peel for them — \"peel\" means using CC or your own body to protect a teammate from the enemy who is on top of them. The lategame is her weakness: once enemy tanks finish two items, her % max HP damage on Q stops melting them, so close the game before minute 28.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1055.png\" alt=\"Doran&#x27;s Blade\"> <strong>Doran's Blade</strong> + 2 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potions</strong>. Default for AD trades; the lifesteal sustains your dash chains.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6692.png\" alt=\"Eclipse\"> <strong>Eclipse</strong> — main skirmisher first item. After two ability hits on the same target within 1.5 seconds, it triggers a shield (a temporary HP barrier that absorbs incoming damage) plus a chunk of bonus damage on the next attack. Her dash combos clear that threshold in every fight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> — default boots. Most top matchups are AD; the auto-attack damage reduction matters in extended trades.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3071.png\" alt=\"Black Cleaver\"> <strong>Black Cleaver</strong> — armor shred (each hit removes a small amount of armor from the target, stacking up to 30%) plus HP plus AD. Her empowered passive auto-attacks stack the shred faster than most champions.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3053.png\" alt=\"Sterak&#x27;s Gage\"> <strong>Sterak's Gage</strong> — survivability spike. When you take heavy damage in a short burst, the item gives you a big shield. Useful when you R-blink onto the enemy carry and the rest of their team focuses you down.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6333.png\" alt=\"Death&#x27;s Dance\"> <strong>Death's Dance</strong> — converts incoming physical damage into a slow bleed (damage spread over the next 3 seconds instead of instant), giving you time to finish the trade.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — replace Plated Steelcaps when the enemy team has two or more hard CC sources, or heavy AP (magic) damage. They give magic resist plus tenacity (which shortens how long stuns and slows last on you).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — into AP top laners (Vladimir, Rumble, Gwen). Gives a magic-damage shield (a \"lifeline\" shield that pops once when your HP drops below 30%) plus more AD as you get low — meant to keep you alive long enough to kill them back.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> — vs telegraphed long-range CC (Malphite R, Ornn R, Sett W). It gives you a one-time spell shield (blocks the next enemy ability that hits you) so the engage misses and you R back on your terms.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6697.png\" alt=\"Hubris\"> <strong>Hubris</strong> — when you're already ahead in lane. Each kill or assist stacks bonus AD on the item, fueling a snowball lead — the more kills you get, the harder you hit, which gets you more kills.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3026.png\" alt=\"Guardian Angel\"> <strong>Guardian Angel</strong> — late-game last item. Gives you a one-time revive on death every 5 minutes. Lets you commit fully when you R-blink onto the enemy carry, without throwing the game if you misposition.</li>\n</ul>\n<p><strong>Boots:</strong> Plated Steelcaps default. Mercury's Treads vs AP/CC. Skip Sorcerer's-style mage boots — you scale physical.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (main damage and the only ability that scales with enemy max HP), <strong>E</strong> second (waveclear and the AOE slow that sets up the second Q strike), <strong>W</strong> last. Take <strong>R</strong> at levels 6, 11, and 16.</p>\n<p><strong>Runes:</strong> Primary tree <strong>Precision</strong>:</p>\n<ul>\n<li><strong>Conqueror</strong> — keystone (the main, most powerful rune of the tree). Stacks bonus AD and healing the longer you stay in a fight against champions; perfect for her chain-trade kit.</li>\n<li><strong>Triumph</strong> — small heal and gold burst on takedown, triggered when you finish a fight low HP.</li>\n<li><strong>Legend: Tenacity</strong> — passive tenacity (shortens stun and slow durations) that builds as you get takedowns.</li>\n<li><strong>Last Stand</strong> — extra damage when you drop below 60% HP.</li>\n</ul>\n<p>Secondary tree <strong>Resolve</strong>:</p>\n<ul>\n<li><strong>Second Wind</strong> — HP regeneration that kicks in after taking enemy damage. Counters lane poke.</li>\n<li><strong>Unflinching</strong> — extra tenacity once <strong>Flash</strong> is on cooldown. Useful when you R into the enemy team and they try to chain CC you.</li>\n</ul>\n<p>Stat shards (the three small bonus stats you pick under the runes): Adaptive Force (gives AD or AP based on what your champion already builds — for Ambessa it converts to AD), Adaptive Force again, then Armor or HP based on matchup.</p>",
+    "content_html_post": "<h2>Key matchups</h2>\n<ul>\n<li><strong>Darius:</strong> Favorable. The outer ring of his Q is the part that heals him; step inside it by dashing forward with your Q1, then Q2 back out. He needs to land both Q + E to commit a full kill attempt; you can use W to shield his Q grip and trade evenly. Make him use his W bleed first (force him to waste it), then engage once it's on cooldown.</li>\n<li><strong>Sett:</strong> Favorable. He has no dash, only a forward slam (W). Pre-6, your passive-dash combos beat him in extended exchanges. After he hits 6, save <strong>Flash</strong> to dodge the knockback (the displacement) on his R that would push you into his team's zone.</li>\n<li><strong>Malphite:</strong> Unfavorable. His passive shield blunts your level 2 all-in; his Q slow lets him run away when you commit. Build <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> second item to block his R engage. Avoid teamfights at choke points where he can flank — surprise-attacking from a side angle — through the fog of war (the parts of the map you cannot see because there is no ward there). A ward is a small magic eye you place to reveal a zone.</li>\n<li><strong>Jayce:</strong> Unfavorable. He has two stances; the ranged-form Q + E combo pokes you (chips your HP from a safe distance) before you can close the gap. Take <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1054.png\" alt=\"Doran&#x27;s Shield\"> <strong>Doran's Shield</strong> as a starter, hug your wave for HP regen from last-hitting minions, and look for kills only when he switches to melee form and wastes his E.</li>\n<li><strong>Camille:</strong> Skill matchup. Both of you have strong all-ins; whoever lands their first cast cleanly wins. Your Q scales with her current max HP — make her use her W heal first, then Q1-auto-Q2 to drop her below 50%. Place a ward in the tri-bush (the three-entrance bush near your tower) so her E hookshot — the grappling-hook ability that pulls her to a wall or enemy — does not catch you walking back to lane.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2 (Q + E):</strong> Your first major spike. With both abilities and the passive dash, a full Q1-auto-E-auto-Q2-auto combo deals four basic attacks plus two ability ticks in two seconds. Most top laners cannot match this damage in a melee scrap.</li>\n<li><strong>Level 6 (R unlocked):</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/champion/Ambessa.png\" alt=\"R\"> <strong>Public Execution</strong> unlocks pickoffs — eliminating an isolated enemy outside the main fight. The R passive also adds armor penetration (your damage ignores some of the enemy's armor) and omnivamp (a small heal you get back as a percentage of damage you deal with abilities). This sustains you in skirmishes around the river.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6692.png\" alt=\"Eclipse\"> Eclipse completion (~ minute 11-13):</strong> Your biggest skirmish power spike. The shield and bonus damage line up with every full combo, so 1v1s and 2v2s around Voidgrubs swing in your favor.</li>\n<li><strong>2 items + boots (~ minute 18-22):</strong> With <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3071.png\" alt=\"Black Cleaver\"> <strong>Black Cleaver</strong> online, group with your team for Drake fights. R-blink onto the enemy carry — the suppression (a CC that disables every ability and movement, even Flash) locks them in place for 1.5 seconds, which is enough for your team to follow up.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Wasting Sundering Slam (the second Q cast) on a minion.</strong> The empowered second cast is your damage spike. If you hit a minion with Q1 instead of a champion, you have burned the second-cast unlock on a creature that dies in one hit anyway. Hold Q1 until you can land it on an enemy champion.</li>\n<li><strong>R-blinking too deep into the enemy team.</strong> R goes to the <strong>farthest</strong> enemy champion in your line, not the nearest. If three enemies stand in front of their carry, your blink will pass through and drop you behind the entire team. Always check positioning before pressing R — line up the carry as the only target between you and the farthest point.</li>\n<li><strong>Bracing W in empty space.</strong> The empowered slam only triggers if you actually block non-minion damage during the brace. Bracing in lane against minions wastes the cooldown for nothing. Use W reactively — when you see an enemy ability animation start, then brace.</li>\n<li><strong>Holding R for the perfect engage that never comes.</strong> R has a 100+ second cooldown early. If you have it up at level 6 and the enemy laner is \"one rotation low\" — meaning they just used their main combo and their key abilities are on cooldown — go in and R them. A dead enemy laner is two waves of free farm and an extra tower plate (those gold-rewarding armor pieces on the tower that drop in the first 14 minutes).</li>\n<li><strong>1v1-ing hyper-tanks expecting your Q to delete them.</strong> % max HP damage looks scary on paper but armor still applies. Once an Ornn or Cho'Gath finishes <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6610.png\" alt=\"Sundered Sky\"> <strong>Sundered Sky</strong> + tank items, you cannot solo-kill them. Group with your jungler instead.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Master the <strong>dash-AA weave</strong> (interleaving the dash with the basic attack). Every ability cast triggers your passive dash and an empowered next basic attack, so the optimal sequence in a full combo is <em>cast → dash → AA → cast → dash → AA</em>, not <em>cast → cast → cast → AA</em>. Pressing your second ability before the empowered AA fires cancels the bonus on that auto. Clean rhythm: <strong>Q1 → dash forward → AA → E → dash → AA → Q2 → dash → AA → R</strong>. Practice in the Practice Tool (the offline training mode) against a target dummy (a fixed practice mannequin) until each AA registers; in a real lane this turns a 2-second trade into seven separate damage instances — the difference between a kill and the enemy escaping at 50 HP.</p>",
+    "word_count": 1850,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "aatrox-top",
+        "champion": "aatrox",
+        "role": "top"
+      },
+      {
+        "slug": "darius-top",
+        "champion": "darius",
+        "role": "top"
+      },
+      {
+        "slug": "fiora-top",
+        "champion": "fiora",
+        "role": "top"
+      },
+      {
+        "slug": "garen-top",
+        "champion": "garen",
+        "role": "top"
+      },
+      {
+        "slug": "irelia-top",
+        "champion": "irelia",
+        "role": "top"
+      }
+    ],
+    "champion_key": "799"
+  },
+  {
+    "slug": "amumu-jungle",
+    "title": "Amumu Jungle Build & Guide — Patch 16.9",
+    "language": "en",
+    "patch": "16.9",
+    "champion": "amumu",
+    "role": "jungle",
+    "last_updated": "2026-04-29",
+    "description": "Amumu jungle guide for LoL Patch 16.9: clear path, AP-tank build (magic damage + tank stats), gank timing, key matchups, ultimate setups, and common mistakes.",
+    "quick_learn": {
+      "champion_dd_id": "Amumu",
+      "difficulty": 2,
+      "damage_type": "magic",
+      "champion_class": "Tank / Engage",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Cursed Touch",
+          "description": "Basic attacks Curse enemies. Cursed targets take bonus true damage from any magic damage they receive — your team's spells hit harder.",
+          "dd_spell_id": "Amumu_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Bandage Toss",
+          "description": "Long-range linear skillshot that pulls Amumu to the first enemy hit and stuns them. Two charges — one for engage, one for follow-up or escape.",
+          "dd_spell_id": "BandageToss"
+        },
+        {
+          "key": "W",
+          "name": "Despair",
+          "description": "Toggle aura that ticks max-HP magic damage on nearby enemies and keeps refreshing Curse on them. Drains mana while active — turn it off out of combat.",
+          "dd_spell_id": "AuraofDespair"
+        },
+        {
+          "key": "E",
+          "name": "Tantrum",
+          "description": "Passive: take less physical damage. Active: short-range AOE burst. Cooldown drops every time Amumu is hit, so spam it during sustained fights.",
+          "dd_spell_id": "Tantrum"
+        },
+        {
+          "key": "R",
+          "name": "Curse of the Sad Mummy",
+          "description": "Massive AOE stun that locks down every enemy around Amumu and applies Curse. The whole point of the kit — every teamfight starts when this lands.",
+          "dd_spell_id": "CurseoftheSadMummy"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "E"
+        },
+        {
+          "level": 2,
+          "key": "W"
+        },
+        {
+          "level": 3,
+          "key": "Q"
+        },
+        {
+          "level": 4,
+          "key": "E"
+        },
+        {
+          "level": 5,
+          "key": "E"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "E"
+        },
+        {
+          "level": 8,
+          "key": "Q"
+        },
+        {
+          "level": 9,
+          "key": "E"
+        },
+        {
+          "level": 10,
+          "key": "Q"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "Q"
+        },
+        {
+          "level": 13,
+          "key": "Q"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6653",
+          "name": "Liandry's Torment"
+        },
+        {
+          "dd_id": "3111",
+          "name": "Mercury's Treads"
+        },
+        {
+          "dd_id": "4633",
+          "name": "Riftmaker"
+        },
+        {
+          "dd_id": "3089",
+          "name": "Rabadon's Deathcap"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3068",
+          "name": "Sunfire Aegis",
+          "against": "vs melee bruiser-heavy teams (Sett, Darius, Olaf): the burn aura stacks with W and the bonus armor hardens you against frontline focus"
+        },
+        {
+          "dd_id": "3001",
+          "name": "Abyssal Mask",
+          "against": "when 3+ enemies deal magic damage: the AOE MR shred amplifies every spell from your team into Cursed targets"
+        },
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass",
+          "against": "vs burst comps that focus you on R (Zed, LeBlanc, Syndra): stasis lets your team follow up while you survive the focus"
+        },
+        {
+          "dd_id": "3102",
+          "name": "Banshee's Veil",
+          "against": "vs single-target magic CC that opens fights (Ahri charm, Lissandra R, Morgana Q): the spellshield blocks the engage on you"
+        }
+      ],
+      "base_combo": [
+        "Q",
+        "R",
+        "W",
+        "E"
+      ],
+      "win_condition": "Land Q from fog onto a key target, R to lock everyone in range, then sit on top of the back line with W ticking max-HP damage while Tantrum cools down on every hit you take.",
+      "weakness": "Predictable engage tools on long cooldowns. If Q misses or R is removed by a Cleanse Summoner, Amumu has no follow-up — he gets kited until both come back, contributing nothing for 90+ seconds."
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "yasuo",
+            "kennen",
+            "katarina",
+            "miss-fortune"
+          ],
+          "archetype": "Grouped teamfight comps with AOE damage",
+          "reason": "Amumu's R catches everyone in a tight radius. Comps that want to fight grouped (Yasuo + Kennen AOE ults, Katarina jumping between targets, Miss Fortune Bullet Time) eat the stun together and feed their own AOE damage through the Curse passive."
+        },
+        {
+          "examples": [
+            "jinx",
+            "kog-maw",
+            "ashe",
+            "vayne"
+          ],
+          "archetype": "Immobile carries with no built-in escape",
+          "reason": "Q is a 1100-range skillshot that pulls Amumu to the first target hit. Carries with no dash or blink get yanked out of position the moment they step forward to last-hit a wave."
+        },
+        {
+          "examples": [
+            "brand",
+            "syndra",
+            "ryze",
+            "viktor"
+          ],
+          "archetype": "AP teammates that snowball off your engage",
+          "reason": "Cursed Touch turns magic damage on a target into bonus true damage. An AP-heavy team converts one Q-R into instant kills because every spell that follows hits harder."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "fiora",
+            "tryndamere",
+            "yone"
+          ],
+          "archetype": "Mobile bruisers with parry, immunity, or dashes",
+          "reason": "Fiora W parries the Q stun and reflects it, Tryndamere R ignores the damage your W aura ticks during the unkillable window, Yone's Q3 dashes him out of Tantrum range. They survive the engage and flip the fight."
+        },
+        {
+          "examples": [
+            "xerath",
+            "nidalee",
+            "varus"
+          ],
+          "archetype": "Long-range artillery without commitment",
+          "reason": "They poke from beyond Q's 1100 range. Amumu has to walk into their damage just to threaten engage, and a missed Q means a free 25-30 seconds for them to keep pushing the lane or objective."
+        },
+        {
+          "examples": [
+            "ezreal",
+            "tristana",
+            "kalista"
+          ],
+          "archetype": "Marksmen with built-in escapes",
+          "reason": "Ezreal E, Tristana W, and Kalista's hop reset all step out of Amumu's R radius after the Q lands. Curse goes wasted because the carry repositions before the team can follow up the stun."
+        }
+      ]
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Amumu is the simplest engage jungler in the game: walk into the fog of war (the unseen part of the map outside ally vision), throw <strong>Bandage Toss (Q)</strong>, press <strong>Curse of the Sad Mummy (R)</strong>, and let the team unload. His kit has one job — start the fight on your terms — and he does it from a longer range than almost any other engage thanks to the 1100-range pull. <strong>Cursed Touch (passive)</strong> then multiplies your AP teammates by turning their spells into bonus true damage on every Cursed target.</p>\n<p>The trade-off: <strong>R</strong> sits on a 100-150s cooldown and <strong>Q</strong> is your only setup tool. Miss them and you spend 90 seconds being kited, so this guide is built around picking <em>the right fight</em> instead of forcing every gank. Game plan: clear, hit level 6, then translate every R into a kill or objective for the next 25-30 minutes.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1039.png\" alt=\"Hailblade\"> <strong>Hailblade</strong> + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2031.png\" alt=\"Refillable Potion\"> <strong>Refillable Potion</strong>. Hailblade is the jungle starter: it lets you damage neutral monsters fast and applies a brief slow on enemy champions. Refillable Potion is a healing item that refills for free at base, so you save gold on chip damage from the jungle camps (the neutral monster groups you farm).</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> <strong>Liandry's Torment</strong> — your single most important item. The %max-HP burn passive doubles up with <strong>W</strong>, melting tanks who try to stand inside your aura. Buy this every game.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — default boots: they grant <strong>tenacity</strong> (a stat that shortens the duration of stuns and slows on you), which matters a lot for an engage champion who needs to keep walking after R lands. Swap to <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> if the enemy team has 3+ AD threats and no hard CC chain.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4633.png\" alt=\"Riftmaker\"> <strong>Riftmaker</strong> — omnivamp (you heal off all damage you deal) plus a passive that converts part of your damage into true damage after 3 seconds in combat. Pairs perfectly with <strong>W</strong>'s sustained aura.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — late-game scaling multiplier. With Liandry's + Riftmaker already online, Deathcap pushes your <strong>W</strong> aura damage from \"annoying\" to \"I cannot stand here for 2 seconds\".</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3068.png\" alt=\"Sunfire Aegis\"> <strong>Sunfire Aegis</strong> — vs melee bruiser-heavy teams (Sett, Darius, Olaf). The fire aura adds on top of <strong>W</strong> for double AOE damage and gives bonus armor.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3001.png\" alt=\"Abyssal Mask\"> <strong>Abyssal Mask</strong> — when 3+ enemies deal magic damage. It reduces magic resist on enemies near you, so every spell your team lands on Cursed targets hits harder.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — vs burst comps that focus you the moment R lands (Zed, LeBlanc, Syndra). Stasis (a 2.5s window where you cannot be damaged or take actions) keeps you alive while your team finishes the fight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — vs long-duration magic CC chains (Ahri charm into all-in, Lissandra R, Morgana Q). The spellshield (a one-use barrier that blocks the next spell aimed at you) eats the engage.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> is the default. Plated Steelcaps only into AD-heavy comps with no major CC chain.</p>\n<p><strong>Skill order:</strong> Max <strong>E</strong> first (clear speed and damage during sustained fights), <strong>Q</strong> second (gank threat and lower stun cooldown), <strong>W</strong> last. Take a point in <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Resolve</strong> with <strong>Aftershock</strong> (gives you bonus armor and magic resist for 2.5 seconds the moment you hit a Q stun or R — the engage rune of the game), <strong>Font of Life</strong> (your CC marks enemies and your team heals when they hit them), <strong>Conditioning</strong> (extra resists after minute 12), <strong>Revitalize</strong> (boosts shields and heals on you). Secondary <strong>Sorcery</strong> with <strong>Manaflow Band</strong> (mana sustain so you can leave <strong>W</strong> toggled on through clears) and <strong>Transcendence</strong> (extra ability haste — a stat that lowers all your spell cooldowns).</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Lee Sin / Elise:</strong> Early-game junglers who invade your weak side. Track them with <strong>vision wards</strong> (placed items that reveal a small map area for ~90 seconds) on your raptors and red buff (camps in your own jungle). Avoid 1v1 invades pre-3; do a full clear (kill every camp once), then head to Scuttle (the river crab that grants vision when killed) so they waste tempo looking for you.</li>\n<li><strong>Master Yi / Karthus:</strong> Scaling junglers. Force fights and objectives (Drake on bot side, Rift Herald on top side, Baron later) before minute 18 — you scale fine, but they scale better. Every R you press should aim at their carry (the marksman or burst mage who deals most of the team's damage from the back), not their frontline tank, so the enemy team has nothing to peel for.</li>\n<li><strong>Hecarim / Volibear:</strong> Mirror engage, faster clear. Don't try to outclear them; play around your laners and look to gank a lane with priority (priority = the lane that's pushing toward the enemy, so the laner can leave for a few seconds without losing minions) by minute 4.</li>\n<li><strong>Maokai / Sejuani:</strong> Tank junglers with their own AOE engage. Whoever lands their R first wins the teamfight. Save <strong>Q</strong> for after they commit so your stun chains on top of their stun (the enemy stays locked for the full duration of both stuns added together).</li>\n<li><strong>Kha'Zix / Rengar:</strong> Assassins who burst your back line. Body-block for your carries (literally stand between the assassin and your damage dealer to soak the hits) instead of standing in front of the enemy — your <strong>W</strong> aura plus <strong>E</strong> Tantrum punishes them for committing on a target you're standing next to.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 3:</strong> With <strong>E</strong>, <strong>W</strong>, and <strong>Q</strong> all unlocked, your first gank (a surprise visit from the jungler to a lane to score a kill) threat is real. Look at the lane with the lowest enemy HP and the strongest follow-up CC; one Q-W-AA-E rotation (AA = auto-attack) under a snowballing (a vantage that grows over time: kill → gold → item → more kill) ally is usually a kill.</li>\n<li><strong>Level 6:</strong> First <strong>Curse of the Sad Mummy</strong>. This is the single biggest power swing in the game for Amumu. Find a fight within 30 seconds of hitting 6 — gank a lane, contest Scuttle, or set up the first Drake fight.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> Liandry's Torment completion (~ minute 12-14):</strong> Your <strong>W</strong> goes from poke to real threat. Fighting for Drake or Rift Herald with <strong>W</strong> ticking on a contest target wins the objective without ever pressing <strong>R</strong>.</li>\n<li><strong>3-item spike (~ minute 22-26):</strong> Liandry's + Riftmaker + Deathcap online. R cooldown is short enough that you can teamfight twice per Baron timer. Force every objective; this is your peak.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Throwing Q on cooldown without setup.</strong> A naked Q wastes your only engage tool. Hold Q until the enemy is already slowed, rooted (can't move), or hooked by an ally — e.g. Morgana Q hits → your Q on top is guaranteed. Q used as a scouting tool means you have nothing when the real fight comes.</li>\n<li><strong>Pressing R as soon as you reach the fight.</strong> R is AOE <em>centered on Amumu</em>. If you press it 200 units short, you stun nobody and waste the 100-150s cooldown. Walk in until you are inside their back line, <em>then</em> R.</li>\n<li><strong>Leaving W toggled on out of combat.</strong> <strong>Despair</strong> drains 8 mana per second while on, even with no enemies near. You will hit minute 8 with no mana for a Q stun on a clear gank. Toggle it off the second the fight or clear ends.</li>\n<li><strong>Ignoring Tantrum's cooldown reset.</strong> <strong>E</strong>'s passive cuts its own cooldown every time you take a basic attack. In a long fight against melee enemies you can press <strong>E</strong> every 1-2 seconds — stand in their attack range and keep spamming it.</li>\n<li><strong>R-ing onto a tank instead of the carry.</strong> R is a teamfight ability. Yes the tank is closer, yes you'll land it on them — but your team wants the stun on the carry. Save <strong>Flash</strong> (the Summoner Spell every champion picks that lets you teleport a short distance once every ~5 minutes) to flank around the fight (enter from a side or behind, not from the front) and engage on the back line, not on the front tank.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Practice the <strong>Flash + Q</strong> combo on a target dummy. The trick: cast Q first, <em>then</em> Flash mid-cast in the direction of the target. Q's pull animation re-snaps to your post-Flash position, giving you an instant 425-unit shorter projectile that is almost impossible to dodge. This turns Q from a 1100-range skillshot into a point-blank guaranteed stun, and is the play that separates Amumu mains from one-tricks: it lets you flank into a back line through fog and connect Q on a moving target who never saw the engage coming.</p>",
+    "content_html_pre": "<h2>Overview</h2>\n<p>Amumu is the simplest engage jungler in the game: walk into the fog of war (the unseen part of the map outside ally vision), throw <strong>Bandage Toss (Q)</strong>, press <strong>Curse of the Sad Mummy (R)</strong>, and let the team unload. His kit has one job — start the fight on your terms — and he does it from a longer range than almost any other engage thanks to the 1100-range pull. <strong>Cursed Touch (passive)</strong> then multiplies your AP teammates by turning their spells into bonus true damage on every Cursed target.</p>\n<p>The trade-off: <strong>R</strong> sits on a 100-150s cooldown and <strong>Q</strong> is your only setup tool. Miss them and you spend 90 seconds being kited, so this guide is built around picking <em>the right fight</em> instead of forcing every gank. Game plan: clear, hit level 6, then translate every R into a kill or objective for the next 25-30 minutes.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1039.png\" alt=\"Hailblade\"> <strong>Hailblade</strong> + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2031.png\" alt=\"Refillable Potion\"> <strong>Refillable Potion</strong>. Hailblade is the jungle starter: it lets you damage neutral monsters fast and applies a brief slow on enemy champions. Refillable Potion is a healing item that refills for free at base, so you save gold on chip damage from the jungle camps (the neutral monster groups you farm).</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> <strong>Liandry's Torment</strong> — your single most important item. The %max-HP burn passive doubles up with <strong>W</strong>, melting tanks who try to stand inside your aura. Buy this every game.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — default boots: they grant <strong>tenacity</strong> (a stat that shortens the duration of stuns and slows on you), which matters a lot for an engage champion who needs to keep walking after R lands. Swap to <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> if the enemy team has 3+ AD threats and no hard CC chain.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4633.png\" alt=\"Riftmaker\"> <strong>Riftmaker</strong> — omnivamp (you heal off all damage you deal) plus a passive that converts part of your damage into true damage after 3 seconds in combat. Pairs perfectly with <strong>W</strong>'s sustained aura.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — late-game scaling multiplier. With Liandry's + Riftmaker already online, Deathcap pushes your <strong>W</strong> aura damage from \"annoying\" to \"I cannot stand here for 2 seconds\".</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3068.png\" alt=\"Sunfire Aegis\"> <strong>Sunfire Aegis</strong> — vs melee bruiser-heavy teams (Sett, Darius, Olaf). The fire aura adds on top of <strong>W</strong> for double AOE damage and gives bonus armor.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3001.png\" alt=\"Abyssal Mask\"> <strong>Abyssal Mask</strong> — when 3+ enemies deal magic damage. It reduces magic resist on enemies near you, so every spell your team lands on Cursed targets hits harder.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — vs burst comps that focus you the moment R lands (Zed, LeBlanc, Syndra). Stasis (a 2.5s window where you cannot be damaged or take actions) keeps you alive while your team finishes the fight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — vs long-duration magic CC chains (Ahri charm into all-in, Lissandra R, Morgana Q). The spellshield (a one-use barrier that blocks the next spell aimed at you) eats the engage.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> is the default. Plated Steelcaps only into AD-heavy comps with no major CC chain.</p>\n<p><strong>Skill order:</strong> Max <strong>E</strong> first (clear speed and damage during sustained fights), <strong>Q</strong> second (gank threat and lower stun cooldown), <strong>W</strong> last. Take a point in <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Resolve</strong> with <strong>Aftershock</strong> (gives you bonus armor and magic resist for 2.5 seconds the moment you hit a Q stun or R — the engage rune of the game), <strong>Font of Life</strong> (your CC marks enemies and your team heals when they hit them), <strong>Conditioning</strong> (extra resists after minute 12), <strong>Revitalize</strong> (boosts shields and heals on you). Secondary <strong>Sorcery</strong> with <strong>Manaflow Band</strong> (mana sustain so you can leave <strong>W</strong> toggled on through clears) and <strong>Transcendence</strong> (extra ability haste — a stat that lowers all your spell cooldowns).</p>",
+    "content_html_post": "<h2>Key matchups</h2>\n<ul>\n<li><strong>Lee Sin / Elise:</strong> Early-game junglers who invade your weak side. Track them with <strong>vision wards</strong> (placed items that reveal a small map area for ~90 seconds) on your raptors and red buff (camps in your own jungle). Avoid 1v1 invades pre-3; do a full clear (kill every camp once), then head to Scuttle (the river crab that grants vision when killed) so they waste tempo looking for you.</li>\n<li><strong>Master Yi / Karthus:</strong> Scaling junglers. Force fights and objectives (Drake on bot side, Rift Herald on top side, Baron later) before minute 18 — you scale fine, but they scale better. Every R you press should aim at their carry (the marksman or burst mage who deals most of the team's damage from the back), not their frontline tank, so the enemy team has nothing to peel for.</li>\n<li><strong>Hecarim / Volibear:</strong> Mirror engage, faster clear. Don't try to outclear them; play around your laners and look to gank a lane with priority (priority = the lane that's pushing toward the enemy, so the laner can leave for a few seconds without losing minions) by minute 4.</li>\n<li><strong>Maokai / Sejuani:</strong> Tank junglers with their own AOE engage. Whoever lands their R first wins the teamfight. Save <strong>Q</strong> for after they commit so your stun chains on top of their stun (the enemy stays locked for the full duration of both stuns added together).</li>\n<li><strong>Kha'Zix / Rengar:</strong> Assassins who burst your back line. Body-block for your carries (literally stand between the assassin and your damage dealer to soak the hits) instead of standing in front of the enemy — your <strong>W</strong> aura plus <strong>E</strong> Tantrum punishes them for committing on a target you're standing next to.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 3:</strong> With <strong>E</strong>, <strong>W</strong>, and <strong>Q</strong> all unlocked, your first gank (a surprise visit from the jungler to a lane to score a kill) threat is real. Look at the lane with the lowest enemy HP and the strongest follow-up CC; one Q-W-AA-E rotation (AA = auto-attack) under a snowballing (a vantage that grows over time: kill → gold → item → more kill) ally is usually a kill.</li>\n<li><strong>Level 6:</strong> First <strong>Curse of the Sad Mummy</strong>. This is the single biggest power swing in the game for Amumu. Find a fight within 30 seconds of hitting 6 — gank a lane, contest Scuttle, or set up the first Drake fight.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> Liandry's Torment completion (~ minute 12-14):</strong> Your <strong>W</strong> goes from poke to real threat. Fighting for Drake or Rift Herald with <strong>W</strong> ticking on a contest target wins the objective without ever pressing <strong>R</strong>.</li>\n<li><strong>3-item spike (~ minute 22-26):</strong> Liandry's + Riftmaker + Deathcap online. R cooldown is short enough that you can teamfight twice per Baron timer. Force every objective; this is your peak.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Throwing Q on cooldown without setup.</strong> A naked Q wastes your only engage tool. Hold Q until the enemy is already slowed, rooted (can't move), or hooked by an ally — e.g. Morgana Q hits → your Q on top is guaranteed. Q used as a scouting tool means you have nothing when the real fight comes.</li>\n<li><strong>Pressing R as soon as you reach the fight.</strong> R is AOE <em>centered on Amumu</em>. If you press it 200 units short, you stun nobody and waste the 100-150s cooldown. Walk in until you are inside their back line, <em>then</em> R.</li>\n<li><strong>Leaving W toggled on out of combat.</strong> <strong>Despair</strong> drains 8 mana per second while on, even with no enemies near. You will hit minute 8 with no mana for a Q stun on a clear gank. Toggle it off the second the fight or clear ends.</li>\n<li><strong>Ignoring Tantrum's cooldown reset.</strong> <strong>E</strong>'s passive cuts its own cooldown every time you take a basic attack. In a long fight against melee enemies you can press <strong>E</strong> every 1-2 seconds — stand in their attack range and keep spamming it.</li>\n<li><strong>R-ing onto a tank instead of the carry.</strong> R is a teamfight ability. Yes the tank is closer, yes you'll land it on them — but your team wants the stun on the carry. Save <strong>Flash</strong> (the Summoner Spell every champion picks that lets you teleport a short distance once every ~5 minutes) to flank around the fight (enter from a side or behind, not from the front) and engage on the back line, not on the front tank.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Practice the <strong>Flash + Q</strong> combo on a target dummy. The trick: cast Q first, <em>then</em> Flash mid-cast in the direction of the target. Q's pull animation re-snaps to your post-Flash position, giving you an instant 425-unit shorter projectile that is almost impossible to dodge. This turns Q from a 1100-range skillshot into a point-blank guaranteed stun, and is the play that separates Amumu mains from one-tricks: it lets you flank into a back line through fog and connect Q on a moving target who never saw the engage coming.</p>",
+    "word_count": 1455,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "diana-jungle",
+        "champion": "diana",
+        "role": "jungle"
+      },
+      {
+        "slug": "ekko-jungle",
+        "champion": "ekko",
+        "role": "jungle"
+      },
+      {
+        "slug": "graves-jungle",
+        "champion": "graves",
+        "role": "jungle"
+      },
+      {
+        "slug": "hecarim-jungle",
+        "champion": "hecarim",
+        "role": "jungle"
+      },
+      {
+        "slug": "kayn-jungle",
+        "champion": "kayn",
+        "role": "jungle"
+      }
+    ],
+    "champion_key": "32"
+  },
+  {
     "slug": "caitlyn-bot",
     "title": "Caitlyn Bot Build & Guide — Patch 16.9",
     "language": "en",

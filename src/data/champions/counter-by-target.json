@@ -189,6 +189,28 @@
         "via": "pick_into"
       }
     ],
+    "ashe": [
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile carries with no built-in escape",
+        "reason": "Q is a 1100-range skillshot that pulls Amumu to the first target hit. Carries with no dash or blink get yanked out of position the moment they step forward to last-hit a wave.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Carry immobili senza escape",
+        "reason": "Q è uno skillshot da 1100 range che trascina Amumu sul primo bersaglio colpito. I carry senza dash o blink (Jinx, Ashe) vengono strappati fuori posizione nel momento in cui si fanno avanti per last-hittare la wave.",
+        "via": "pick_into"
+      }
+    ],
     "brand": [
       {
         "publisher": {
@@ -208,6 +230,26 @@
         },
         "archetype": "Mage support con poke skillshot e nessun escape",
         "reason": "Il loro poke fa pressione sui cooldown, ma una E con stack pronti più un flash-Q in faccia li cancella: il vantaggio di range non conta nulla una volta che chiudi la distanza.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "AP teammates that snowball off your engage",
+        "reason": "Cursed Touch turns magic damage on a target into bonus true damage. An AP-heavy team converts one Q-R into instant kills because every spell that follows hits harder.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Compagni AP che snowballano sull'engage",
+        "reason": "La passive Cursed Touch trasforma il magic damage sul bersaglio in true damage bonus. Un team AP-heavy converte un Q-R in kill istantanee perché ogni spell che arriva dopo fa più danno.",
         "via": "pick_into"
       }
     ],
@@ -275,6 +317,28 @@
         "via": "counterpick"
       }
     ],
+    "darius": [
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile melee bruisers without a dash",
+        "reason": "Her passive dashes after every ability cast let her weave in and out of telegraphed windups (Darius pull, Garen silence, Illaoi E). R suppression bypasses their tankiness for the kill.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee immobili senza dash",
+        "reason": "I suoi passive dash dopo ogni ability cast le permettono di entrare e uscire dai windup telegrafati (presa di Darius, silenzio di Garen, E di Illaoi). La suppression della R bypassa la loro tankiness per la kill.",
+        "via": "pick_into"
+      }
+    ],
     "diana": [
       {
         "publisher": {
@@ -297,6 +361,28 @@
         "via": "counterpick"
       }
     ],
+    "ezreal": [
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Marksmen with built-in escapes",
+        "reason": "Ezreal E, Tristana W, and Kalista's hop reset all step out of Amumu's R radius after the Q lands. Curse goes wasted because the carry repositions before the team can follow up the stun.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Marksman con escape integrate nel kit",
+        "reason": "La E di Ezreal, la W di Tristana e gli hop reset di Kalista escono tutti dal raggio della R di Amumu dopo che la Q connette. Curse va sprecata perché il carry si riposiziona prima che il team possa fare follow-up sullo stun.",
+        "via": "counterpick"
+      }
+    ],
     "fiora": [
       {
         "publisher": {
@@ -316,6 +402,26 @@
         },
         "archetype": "Duellanti a true damage con parry o scudo",
         "reason": "La W di Fiora fa parry sul knock-up della Q e i Vitals (marker che lei mette su Aatrox e colpisce con auto a true damage — danno che ignora armor e MR) ignorano la build drain tank; la E di Camille aggiunge altro true damage sopra.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Mobile bruisers with parry, immunity, or dashes",
+        "reason": "Fiora W parries the Q stun and reflects it, Tryndamere R ignores the damage your W aura ticks during the unkillable window, Yone's Q3 dashes him out of Tantrum range. They survive the engage and flip the fight.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Bruiser mobili con parry, immortalità o dash",
+        "reason": "Fiora con W parra lo stun della Q e te lo riflette, Tryndamere con R ignora il danno mentre la tua W tickka durante la finestra unkillable, Yone con la terza Q dasha fuori dalla portata di Tantrum. Sopravvivono all'engage e ribaltano il fight.",
         "via": "counterpick"
       }
     ],
@@ -443,6 +549,72 @@
         "via": "counterpick"
       }
     ],
+    "garen": [
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile melee bruisers without a dash",
+        "reason": "Her passive dashes after every ability cast let her weave in and out of telegraphed windups (Darius pull, Garen silence, Illaoi E). R suppression bypasses their tankiness for the kill.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee immobili senza dash",
+        "reason": "I suoi passive dash dopo ogni ability cast le permettono di entrare e uscire dai windup telegrafati (presa di Darius, silenzio di Garen, E di Illaoi). La suppression della R bypassa la loro tankiness per la kill.",
+        "via": "pick_into"
+      }
+    ],
+    "gnar": [
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Long-range pokers and kiters",
+        "reason": "Jayce E (knockback) and Gnar mega R interrupt her dash mid-cast. Kiters stay outside her threat range, forcing her to commit dashes from too far and get punished while abilities are down.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Poker e kiter a lungo raggio",
+        "reason": "E di Jayce (knockback) e mega R di Gnar interrompono il dash a metà cast. I kiter restano fuori dal suo threat range, costringendola a impegnare i dash da troppo lontano e poi punirla con le ability in cooldown.",
+        "via": "counterpick"
+      }
+    ],
+    "illaoi": [
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile melee bruisers without a dash",
+        "reason": "Her passive dashes after every ability cast let her weave in and out of telegraphed windups (Darius pull, Garen silence, Illaoi E). R suppression bypasses their tankiness for the kill.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee immobili senza dash",
+        "reason": "I suoi passive dash dopo ogni ability cast le permettono di entrare e uscire dai windup telegrafati (presa di Darius, silenzio di Garen, E di Illaoi). La suppression della R bypassa la loro tankiness per la kill.",
+        "via": "pick_into"
+      }
+    ],
     "janna": [
       {
         "publisher": {
@@ -463,6 +635,28 @@
         "archetype": "Enchanter squishy senza hard CC propria",
         "reason": "Non hanno strumenti per fermare la combo flash + W-Q. Una volta che piazzi il knock-up sotto di loro muoiono prima che il loro ADC possa peelare: Sona e Yuumi non hanno escape.",
         "via": "pick_into"
+      }
+    ],
+    "jayce": [
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Long-range pokers and kiters",
+        "reason": "Jayce E (knockback) and Gnar mega R interrupt her dash mid-cast. Kiters stay outside her threat range, forcing her to commit dashes from too far and get punished while abilities are down.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Poker e kiter a lungo raggio",
+        "reason": "E di Jayce (knockback) e mega R di Gnar interrompono il dash a metà cast. I kiter restano fuori dal suo threat range, costringendola a impegnare i dash da troppo lontano e poi punirla con le ability in cooldown.",
+        "via": "counterpick"
       }
     ],
     "jhin": [
@@ -487,6 +681,28 @@
         "via": "pick_into"
       }
     ],
+    "jinx": [
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile carries with no built-in escape",
+        "reason": "Q is a 1100-range skillshot that pulls Amumu to the first target hit. Carries with no dash or blink get yanked out of position the moment they step forward to last-hit a wave.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Carry immobili senza escape",
+        "reason": "Q è uno skillshot da 1100 range che trascina Amumu sul primo bersaglio colpito. I carry senza dash o blink (Jinx, Ashe) vengono strappati fuori posizione nel momento in cui si fanno avanti per last-hittare la wave.",
+        "via": "pick_into"
+      }
+    ],
     "k-sante": [
       {
         "publisher": {
@@ -507,6 +723,28 @@
         "archetype": "Lane early debole che esplodono late",
         "reason": "Aatrox ha una delle migliori curve di laning early; può ucciderli o negar loro l'XP prima che arrivino agli item late-game che li rendono pericolosi.",
         "via": "pick_into"
+      }
+    ],
+    "kalista": [
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Marksmen with built-in escapes",
+        "reason": "Ezreal E, Tristana W, and Kalista's hop reset all step out of Amumu's R radius after the Q lands. Curse goes wasted because the carry repositions before the team can follow up the stun.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Marksman con escape integrate nel kit",
+        "reason": "La E di Ezreal, la W di Tristana e gli hop reset di Kalista escono tutti dal raggio della R di Amumu dopo che la Q connette. Curse va sprecata perché il carry si riposiziona prima che il team possa fare follow-up sullo stun.",
+        "via": "counterpick"
       }
     ],
     "karma": [
@@ -635,6 +873,28 @@
         "via": "counterpick"
       }
     ],
+    "katarina": [
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Grouped teamfight comps with AOE damage",
+        "reason": "Amumu's R catches everyone in a tight radius. Comps that want to fight grouped (Yasuo + Kennen AOE ults, Katarina jumping between targets, Miss Fortune Bullet Time) eat the stun together and feed their own AOE damage through the Curse passive.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Comp da teamfight raggruppata con danno AOE",
+        "reason": "La R di Amumu prende tutti in un raggio piccolo. Le comp che vogliono combattere raggruppate (Yasuo + Kennen con ult AOE, Katarina che salta tra i bersagli, Miss Fortune Bullet Time) si beccano lo stun insieme e amplificano i loro stessi spell tramite la passive Curse.",
+        "via": "pick_into"
+      }
+    ],
     "kayle": [
       {
         "publisher": {
@@ -654,6 +914,90 @@
         },
         "archetype": "Lane early debole che esplodono late",
         "reason": "Aatrox ha una delle migliori curve di laning early; può ucciderli o negar loro l'XP prima che arrivino agli item late-game che li rendono pericolosi.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Late-game scalers needing levels or stacks",
+        "reason": "Her level 2-6 power bullies them before their spike (Nasus Q stacks, Kayle level 11 and 16). Force kills early to deny the lategame they need.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Scaler late-game che hanno bisogno di livelli o stack",
+        "reason": "La sua dominance early livello 2-6 li domina prima del loro power spike (stack della Q di Nasus, livelli 11 e 16 di Kayle). Forza le kill presto per negargli il lategame che gli serve.",
+        "via": "pick_into"
+      }
+    ],
+    "kennen": [
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Squishy ranged top laners",
+        "reason": "Multiple short dashes from her passive close the gap that ranged tops rely on. In melee her Q scales with target max HP and chunks them faster than they can disengage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top laner ranged squishy",
+        "reason": "I dash brevi multipli del passive chiudono il gap su cui i ranged top contano. In melee la sua Q scala con il max HP del target e li danneggia gravemente prima che possano fare disengage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Grouped teamfight comps with AOE damage",
+        "reason": "Amumu's R catches everyone in a tight radius. Comps that want to fight grouped (Yasuo + Kennen AOE ults, Katarina jumping between targets, Miss Fortune Bullet Time) eat the stun together and feed their own AOE damage through the Curse passive.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Comp da teamfight raggruppata con danno AOE",
+        "reason": "La R di Amumu prende tutti in un raggio piccolo. Le comp che vogliono combattere raggruppate (Yasuo + Kennen con ult AOE, Katarina che salta tra i bersagli, Miss Fortune Bullet Time) si beccano lo stun insieme e amplificano i loro stessi spell tramite la passive Curse.",
+        "via": "pick_into"
+      }
+    ],
+    "kog-maw": [
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile carries with no built-in escape",
+        "reason": "Q is a 1100-range skillshot that pulls Amumu to the first target hit. Carries with no dash or blink get yanked out of position the moment they step forward to last-hit a wave.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Carry immobili senza escape",
+        "reason": "Q è uno skillshot da 1100 range che trascina Amumu sul primo bersaglio colpito. I carry senza dash o blink (Jinx, Ashe) vengono strappati fuori posizione nel momento in cui si fanno avanti per last-hittare la wave.",
         "via": "pick_into"
       }
     ],
@@ -828,6 +1172,26 @@
       },
       {
         "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Tanks with hard CC and stat checks",
+        "reason": "Point-and-click CC (Malphite R, Poppy W stops dashes, Ornn brittle plus knock-up) interrupts her dash combos before R lands. Raw armor plus HP also blunts the % max HP scaling on Q.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Tank con hard CC e stat-check",
+        "reason": "CC point-and-click (R di Malphite, W di Poppy che blocca i dash, brittle + knock-up di Ornn) interrompe i suoi dash combo prima che la R atterri. L'armor + HP raw attutisce anche il % max HP scaling sulla Q.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -953,6 +1317,28 @@
         "via": "counterpick"
       }
     ],
+    "miss-fortune": [
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Grouped teamfight comps with AOE damage",
+        "reason": "Amumu's R catches everyone in a tight radius. Comps that want to fight grouped (Yasuo + Kennen AOE ults, Katarina jumping between targets, Miss Fortune Bullet Time) eat the stun together and feed their own AOE damage through the Curse passive.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Comp da teamfight raggruppata con danno AOE",
+        "reason": "La R di Amumu prende tutti in un raggio piccolo. Le comp che vogliono combattere raggruppate (Yasuo + Kennen con ult AOE, Katarina che salta tra i bersagli, Miss Fortune Bullet Time) si beccano lo stun insieme e amplificano i loro stessi spell tramite la passive Curse.",
+        "via": "pick_into"
+      }
+    ],
     "morgana": [
       {
         "publisher": {
@@ -995,6 +1381,26 @@
         "archetype": "Fighter melee immobili senza tool di engage",
         "reason": "Aatrox vince i trade prima del livello 6 con i Q sul bordo; la W li tiene fermi abbastanza a lungo che non possono accumulare cariche delle loro passive in sicurezza né scappare al suo all-in.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Late-game scalers needing levels or stacks",
+        "reason": "Her level 2-6 power bullies them before their spike (Nasus Q stacks, Kayle level 11 and 16). Force kills early to deny the lategame they need.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Scaler late-game che hanno bisogno di livelli o stack",
+        "reason": "La sua dominance early livello 2-6 li domina prima del loro power spike (stack della Q di Nasus, livelli 11 e 16 di Kayle). Forza le kill presto per negargli il lategame che gli serve.",
+        "via": "pick_into"
       }
     ],
     "nautilus": [
@@ -1016,6 +1422,72 @@
         },
         "archetype": "Altri tank engage support con hard CC più lungo",
         "reason": "Il loro primo cast atterra prima che tu entri in range di Q: Q hook di Nautilus, E dash-stun di Leona, W charge di Rell — tutte battono la tua W. Tu mangi il loro engage, loro non mangiano il tuo.",
+        "via": "counterpick"
+      }
+    ],
+    "nidalee": [
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery without commitment",
+        "reason": "They poke from beyond Q's 1100 range. Amumu has to walk into their damage just to threaten engage, and a missed Q means a free 25-30 seconds for them to keep pushing the lane or objective.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Artiglieria long-range che non deve committare",
+        "reason": "Pokeano da oltre i 1100 range della Q. Amumu deve camminare nel loro danno solo per minacciare l'engage, e una Q sbagliata vuol dire 25-30 secondi liberi per loro per continuare a pushare la lane o l'objective.",
+        "via": "counterpick"
+      }
+    ],
+    "olaf": [
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Champions whose ultimates defeat suppression or execution",
+        "reason": "Olaf's R cleanses her suppression on cast, neutralizing her main pickoff tool. Tryndamere's undying R survives the execute frame and lets him spin out of the slam.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Campioni con ultimate che annullano suppression o esecuzione",
+        "reason": "La R di Olaf rimuove la sua suppression al cast, neutralizzando il suo principale tool da pickoff. La R undying di Tryndamere sopravvive al frame di esecuzione e gli permette di girare fuori dal colpo a terra.",
+        "via": "counterpick"
+      }
+    ],
+    "ornn": [
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Tanks with hard CC and stat checks",
+        "reason": "Point-and-click CC (Malphite R, Poppy W stops dashes, Ornn brittle plus knock-up) interrupts her dash combos before R lands. Raw armor plus HP also blunts the % max HP scaling on Q.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Tank con hard CC e stat-check",
+        "reason": "CC point-and-click (R di Malphite, W di Poppy che blocca i dash, brittle + knock-up di Ornn) interrompe i suoi dash combo prima che la R atterri. L'armor + HP raw attutisce anche il % max HP scaling sulla Q.",
         "via": "counterpick"
       }
     ],
@@ -1041,6 +1513,28 @@
         "via": "counterpick"
       }
     ],
+    "poppy": [
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Tanks with hard CC and stat checks",
+        "reason": "Point-and-click CC (Malphite R, Poppy W stops dashes, Ornn brittle plus knock-up) interrupts her dash combos before R lands. Raw armor plus HP also blunts the % max HP scaling on Q.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Tank con hard CC e stat-check",
+        "reason": "CC point-and-click (R di Malphite, W di Poppy che blocca i dash, brittle + knock-up di Ornn) interrompe i suoi dash combo prima che la R atterri. L'armor + HP raw attutisce anche il % max HP scaling sulla Q.",
+        "via": "counterpick"
+      }
+    ],
     "quinn": [
       {
         "publisher": {
@@ -1061,6 +1555,26 @@
         "archetype": "Kiter a lungo raggio o con invisibilità",
         "reason": "Restano fuori dal range della Q e rompono i wind-up di Aatrox con blind o vault (il dash di Quinn che lo respinge); lui non ha modo di chiudere il gap senza bruciare E e Flash a vuoto.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Squishy ranged top laners",
+        "reason": "Multiple short dashes from her passive close the gap that ranged tops rely on. In melee her Q scales with target max HP and chunks them faster than they can disengage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top laner ranged squishy",
+        "reason": "I dash brevi multipli del passive chiudono il gap su cui i ranged top contano. In melee la sua Q scala con il max HP del target e li danneggia gravemente prima che possano fare disengage.",
+        "via": "pick_into"
       }
     ],
     "rell": [
@@ -1126,6 +1640,26 @@
         },
         "archetype": "Mage a corto raggio che devono entrare per fare danno",
         "reason": "Devono mettersi a distanza melee per il danno pieno; Aatrox punisce il gap con lo slow della W + Q sul bordo per knock-up prima che possano disimpegnarsi.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "AP teammates that snowball off your engage",
+        "reason": "Cursed Touch turns magic damage on a target into bonus true damage. An AP-heavy team converts one Q-R into instant kills because every spell that follows hits harder.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Compagni AP che snowballano sull'engage",
+        "reason": "La passive Cursed Touch trasforma il magic damage sul bersaglio in true damage bonus. Un team AP-heavy converte un Q-R in kill istantanee perché ogni spell che arriva dopo fa più danno.",
         "via": "pick_into"
       },
       {
@@ -1231,6 +1765,28 @@
         "via": "pick_into"
       }
     ],
+    "sett": [
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile melee bruisers without a dash",
+        "reason": "Her passive dashes after every ability cast let her weave in and out of telegraphed windups (Darius pull, Garen silence, Illaoi E). R suppression bypasses their tankiness for the kill.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee immobili senza dash",
+        "reason": "I suoi passive dash dopo ogni ability cast le permettono di entrare e uscire dai windup telegrafati (presa di Darius, silenzio di Garen, E di Illaoi). La suppression della R bypassa la loro tankiness per la kill.",
+        "via": "pick_into"
+      }
+    ],
     "sona": [
       {
         "publisher": {
@@ -1300,6 +1856,26 @@
     "syndra": [
       {
         "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "AP teammates that snowball off your engage",
+        "reason": "Cursed Touch turns magic damage on a target into bonus true damage. An AP-heavy team converts one Q-R into instant kills because every spell that follows hits harder.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Compagni AP che snowballano sull'engage",
+        "reason": "La passive Cursed Touch trasforma il magic damage sul bersaglio in true damage bonus. Un team AP-heavy converte un Q-R in kill istantanee perché ogni spell che arriva dopo fa più danno.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -1360,6 +1936,90 @@
         },
         "archetype": "Kiter a lungo raggio o con invisibilità",
         "reason": "Restano fuori dal range della Q e rompono i wind-up di Aatrox con blind o vault (il dash di Quinn che lo respinge); lui non ha modo di chiudere il gap senza bruciare E e Flash a vuoto.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Squishy ranged top laners",
+        "reason": "Multiple short dashes from her passive close the gap that ranged tops rely on. In melee her Q scales with target max HP and chunks them faster than they can disengage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top laner ranged squishy",
+        "reason": "I dash brevi multipli del passive chiudono il gap su cui i ranged top contano. In melee la sua Q scala con il max HP del target e li danneggia gravemente prima che possano fare disengage.",
+        "via": "pick_into"
+      }
+    ],
+    "tristana": [
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Marksmen with built-in escapes",
+        "reason": "Ezreal E, Tristana W, and Kalista's hop reset all step out of Amumu's R radius after the Q lands. Curse goes wasted because the carry repositions before the team can follow up the stun.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Marksman con escape integrate nel kit",
+        "reason": "La E di Ezreal, la W di Tristana e gli hop reset di Kalista escono tutti dal raggio della R di Amumu dopo che la Q connette. Curse va sprecata perché il carry si riposiziona prima che il team possa fare follow-up sullo stun.",
+        "via": "counterpick"
+      }
+    ],
+    "tryndamere": [
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Champions whose ultimates defeat suppression or execution",
+        "reason": "Olaf's R cleanses her suppression on cast, neutralizing her main pickoff tool. Tryndamere's undying R survives the execute frame and lets him spin out of the slam.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Campioni con ultimate che annullano suppression o esecuzione",
+        "reason": "La R di Olaf rimuove la sua suppression al cast, neutralizzando il suo principale tool da pickoff. La R undying di Tryndamere sopravvive al frame di esecuzione e gli permette di girare fuori dal colpo a terra.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Mobile bruisers with parry, immunity, or dashes",
+        "reason": "Fiora W parries the Q stun and reflects it, Tryndamere R ignores the damage your W aura ticks during the unkillable window, Yone's Q3 dashes him out of Tantrum range. They survive the engage and flip the fight.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Bruiser mobili con parry, immortalità o dash",
+        "reason": "Fiora con W parra lo stun della Q e te lo riflette, Tryndamere con R ignora il danno mentre la tua W tickka durante la finestra unkillable, Yone con la terza Q dasha fuori dalla portata di Tantrum. Sopravvivono all'engage e ribaltano il fight.",
         "via": "counterpick"
       }
     ],
@@ -1423,6 +2083,70 @@
         "archetype": "Roamer globali / cross-map",
         "reason": "Lux pusha la wave e resta in lane; l'avversario usa l'ult per ribaltare le sidelane e i dragoni. Lux perde il macro game anche quando vince il matchup 1v1.",
         "via": "counterpick"
+      }
+    ],
+    "varus": [
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery without commitment",
+        "reason": "They poke from beyond Q's 1100 range. Amumu has to walk into their damage just to threaten engage, and a missed Q means a free 25-30 seconds for them to keep pushing the lane or objective.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Artiglieria long-range che non deve committare",
+        "reason": "Pokeano da oltre i 1100 range della Q. Amumu deve camminare nel loro danno solo per minacciare l'engage, e una Q sbagliata vuol dire 25-30 secondi liberi per loro per continuare a pushare la lane o l'objective.",
+        "via": "counterpick"
+      }
+    ],
+    "vayne": [
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Long-range pokers and kiters",
+        "reason": "Jayce E (knockback) and Gnar mega R interrupt her dash mid-cast. Kiters stay outside her threat range, forcing her to commit dashes from too far and get punished while abilities are down.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ambessa",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Poker e kiter a lungo raggio",
+        "reason": "E di Jayce (knockback) e mega R di Gnar interrompono il dash a metà cast. I kiter restano fuori dal suo threat range, costringendola a impegnare i dash da troppo lontano e poi punirla con le ability in cooldown.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile carries with no built-in escape",
+        "reason": "Q is a 1100-range skillshot that pulls Amumu to the first target hit. Carries with no dash or blink get yanked out of position the moment they step forward to last-hit a wave.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Carry immobili senza escape",
+        "reason": "Q è uno skillshot da 1100 range che trascina Amumu sul primo bersaglio colpito. I carry senza dash o blink (Jinx, Ashe) vengono strappati fuori posizione nel momento in cui si fanno avanti per last-hittare la wave.",
+        "via": "pick_into"
       }
     ],
     "veigar": [
@@ -1592,6 +2316,26 @@
       },
       {
         "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "AP teammates that snowball off your engage",
+        "reason": "Cursed Touch turns magic damage on a target into bonus true damage. An AP-heavy team converts one Q-R into instant kills because every spell that follows hits harder.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Compagni AP che snowballano sull'engage",
+        "reason": "La passive Cursed Touch trasforma il magic damage sul bersaglio in true damage bonus. Un team AP-heavy converte un Q-R in kill istantanee perché ogni spell che arriva dopo fa più danno.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -1696,6 +2440,26 @@
       },
       {
         "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery without commitment",
+        "reason": "They poke from beyond Q's 1100 range. Amumu has to walk into their damage just to threaten engage, and a missed Q means a free 25-30 seconds for them to keep pushing the lane or objective.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Artiglieria long-range che non deve committare",
+        "reason": "Pokeano da oltre i 1100 range della Q. Amumu deve camminare nel loro danno solo per minacciare l'engage, e una Q sbagliata vuol dire 25-30 secondi liberi per loro per continuare a pushare la lane o l'objective.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -1795,6 +2559,26 @@
         "archetype": "Champion con Wind Wall",
         "reason": "Il Wind Wall blocca la Q boomerang, ogni auto durante lo swing di E e ogni proiettile della R; un singolo Wind Wall ben piazzato ribalta il trade e gli permette di all-in senza prendere danno.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Grouped teamfight comps with AOE damage",
+        "reason": "Amumu's R catches everyone in a tight radius. Comps that want to fight grouped (Yasuo + Kennen AOE ults, Katarina jumping between targets, Miss Fortune Bullet Time) eat the stun together and feed their own AOE damage through the Curse passive.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Comp da teamfight raggruppata con danno AOE",
+        "reason": "La R di Amumu prende tutti in un raggio piccolo. Le comp che vogliono combattere raggruppate (Yasuo + Kennen con ult AOE, Katarina che salta tra i bersagli, Miss Fortune Bullet Time) si beccano lo stun insieme e amplificano i loro stessi spell tramite la passive Curse.",
+        "via": "pick_into"
       }
     ],
     "yone": [
@@ -1836,6 +2620,26 @@
         },
         "archetype": "Champion con Wind Wall",
         "reason": "Il Wind Wall blocca la Q boomerang, ogni auto durante lo swing di E e ogni proiettile della R; un singolo Wind Wall ben piazzato ribalta il trade e gli permette di all-in senza prendere danno.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Mobile bruisers with parry, immunity, or dashes",
+        "reason": "Fiora W parries the Q stun and reflects it, Tryndamere R ignores the damage your W aura ticks during the unkillable window, Yone's Q3 dashes him out of Tantrum range. They survive the engage and flip the fight.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "amumu",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Bruiser mobili con parry, immortalità o dash",
+        "reason": "Fiora con W parra lo stun della Q e te lo riflette, Tryndamere con R ignora il danno mentre la tua W tickka durante la finestra unkillable, Yone con la terza Q dasha fuori dalla portata di Tantrum. Sopravvivono all'engage e ribaltano il fight.",
         "via": "counterpick"
       }
     ],
