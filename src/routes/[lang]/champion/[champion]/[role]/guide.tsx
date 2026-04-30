@@ -20,6 +20,7 @@ import { BreadcrumbJsonLd } from '../../../../../components/JsonLd';
 import { JsonLdArticle } from '../../../../../components/seo/JsonLdArticle';
 import ChampionGuide from '../../../../../components/champion/ChampionGuide';
 import { useI18n } from '../../../../../i18n';
+import { getOgLocale, OG_SITE_NAME } from '../../../../../lib/seo/meta-resolver';
 import {
   getChampionCanonical,
   getChampionHreflang,
@@ -178,6 +179,9 @@ export default function ChampionRoleGuideRoute() {
                 <Meta property="og:description" content={description} />
                 <Meta property="og:type" content="article" />
                 <Meta property="og:url" content={canonical} />
+                <Meta property="og:locale" content={getOgLocale(params.lang)} />
+                <Meta property="og:site_name" content={OG_SITE_NAME} />
+                <Meta name="twitter:card" content="summary_large_image" />
                 <Link rel="canonical" href={canonical} />
                 {hreflang.map((h) => (
                   <Link rel="alternate" hreflang={h.lang} href={h.href} />
@@ -219,7 +223,24 @@ export default function ChampionRoleGuideRoute() {
                     },
                   ]}
                 />
-                <ChampionGuide guide={current} lang={current.language} />
+                <ChampionGuide
+                  guide={current}
+                  lang={current.language}
+                  experienceCallout={
+                    <>
+                      <h2 class="text-base md:text-lg font-headline font-extrabold tracking-tight text-primary-container mb-2">
+                        {tpl('champion.guide.experience_callout.title', {
+                          patch: current.patch,
+                        })}
+                      </h2>
+                      <p class="text-sm md:text-base">
+                        {tpl('champion.guide.experience_callout.body', {
+                          role: t(`wp30.tier_list.filter.role.${current.role}`),
+                        })}
+                      </p>
+                    </>
+                  }
+                />
               </>
             );
           }}

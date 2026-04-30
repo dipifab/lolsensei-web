@@ -22,24 +22,35 @@ export interface JsonLdArticleProps {
   url: string;
   /** "en" | "it" — frontmatter language. */
   inLanguage: 'en' | 'it';
+  /** Optional override for unique article image (1200px+ wide preferred). */
+  image?: string;
+  /** Optional keywords array (champion, role, archetype). */
+  keywords?: string[];
+  /** Optional article section (e.g., "Champion Guide", "Mid Lane"). */
+  articleSection?: string;
 }
 
 export function JsonLdArticle(props: JsonLdArticleProps): JSX.Element {
-  const data = () => ({
-    '@context': 'https://schema.org',
-    '@type': 'Article',
-    '@id': `${props.url}#article`,
-    headline: props.headline,
-    description: props.description,
-    datePublished: props.datePublished,
-    dateModified: props.dateModified,
-    inLanguage: props.inLanguage,
-    url: props.url,
-    mainEntityOfPage: { '@type': 'WebPage', '@id': props.url },
-    author: { '@id': ORG['@id'] },
-    publisher: { '@id': ORG['@id'] },
-    image: `${BASE_URL}/og/default.png`,
-  });
+  const data = () => {
+    const base: Record<string, unknown> = {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      '@id': `${props.url}#article`,
+      headline: props.headline,
+      description: props.description,
+      datePublished: props.datePublished,
+      dateModified: props.dateModified,
+      inLanguage: props.inLanguage,
+      url: props.url,
+      mainEntityOfPage: { '@type': 'WebPage', '@id': props.url },
+      author: { '@id': ORG['@id'] },
+      publisher: { '@id': ORG['@id'] },
+      image: props.image ?? `${BASE_URL}/og/default.png`,
+    };
+    if (props.keywords && props.keywords.length > 0) base.keywords = props.keywords.join(', ');
+    if (props.articleSection) base.articleSection = props.articleSection;
+    return base;
+  };
 
   return (
     <script

@@ -8,7 +8,7 @@ const LOCALE_TO_BCP47: Record<Locale, string> = {
   de: 'de',
   'pt-br': 'pt-BR',
   ko: 'ko',
-  'zh-Hans': 'zh-Hans',
+  'zh-hans': 'zh-Hans',
 };
 
 export function toBcp47(locale: Locale): string {

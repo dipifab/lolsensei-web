@@ -17,7 +17,7 @@ test.describe('WP10 — Landing i18n smoke', () => {
 
   test('root / redirects to /en/ or detected locale', async ({ page }) => {
     const response = await page.goto('/');
-    await page.waitForURL(/\/(en|it|es|fr|de|pt-br|ko|zh-Hans)\//, { timeout: 5000 });
+    await page.waitForURL(/\/(en|it|es|fr|de|pt-br|ko|zh-hans)\//, { timeout: 5000 });
     expect(response).toBeTruthy();
   });
 

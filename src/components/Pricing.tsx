@@ -7,6 +7,7 @@ import type { Locale } from '../types/locale';
 import type { PricingTier } from '../types/pricing';
 import { formatCurrency } from '../utils/intl';
 import Icon from './Icon';
+import { JsonLdProduct } from './seo/JsonLdProduct';
 
 export default function Pricing() {
   const { t, locale } = useI18n();
@@ -27,7 +28,14 @@ export default function Pricing() {
 
   return (
     <section id="pricing" class="py-32 px-8">
+      <JsonLdProduct tiers={tiers()} />
       <div class="max-w-7xl mx-auto">
+        {/* REQ-SEO-005 — closed-beta trust framing banner at top of pricing section. */}
+        <div class="max-w-3xl mx-auto mb-12 px-5 py-3 rounded-lg border border-primary-container/30 bg-primary-container/5 text-center">
+          <p class="text-sm md:text-base text-primary-container leading-relaxed">
+            {t('pricing.beta_notice')}
+          </p>
+        </div>
         {/* Hero header */}
         <div class="text-center mb-20">
           <span class="text-xs font-headline font-extrabold uppercase tracking-[0.2em] text-primary-container mb-4 block">
@@ -83,7 +91,13 @@ export default function Pricing() {
                     </span>
                   </Show>
                 </div>
-                <h3 class="text-xl font-bold tracking-tight mb-3">
+                <h3
+                  id={`perf-${feat.titleKey
+                    .replace(/^pricing\.performance\./, '')
+                    .replace(/\.title$/, '')
+                    .replace(/[A-Z]/g, (m) => `-${m.toLowerCase()}`)}`}
+                  class="text-xl font-bold tracking-tight mb-3"
+                >
                   {t(feat.titleKey)}
                 </h3>
                 <p class="text-on-surface-variant text-sm leading-relaxed">
@@ -128,8 +142,9 @@ function PricingTierCard(props: PricingTierCardProps) {
         )}
       </Show>
 
-      {/* Tier name */}
+      {/* Tier name — slug-based id per WP-SEO-AUDIT-2026-05 REQ-SEO-026 */}
       <h3
+        id={`pricing-tier-${props.tier.id}`}
         class={
           isPro()
             ? 'text-xl font-bold uppercase tracking-widest mb-1 text-primary'

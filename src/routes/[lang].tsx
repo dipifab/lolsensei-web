@@ -11,7 +11,7 @@ import NotFoundPage from '../pages/NotFoundPage';
  * File-based route layout for `/[lang]/*` (SolidStart WP18).
  *
  * Validation semantics:
- * - Accepts any casing via `canonicalLocale` (e.g. `zh-hans` -> `zh-Hans`).
+ * - Accepts any casing via `canonicalLocale` (e.g. `zh-hans` -> `zh-hans`).
  * - Renders 404 on unsupported locales so unknown top-level segments
  *   (e.g. `/nonexistent`) surface as real HTTP 404 rather than a
  *   client-side redirect loop against `/en/` (which would mask crawl

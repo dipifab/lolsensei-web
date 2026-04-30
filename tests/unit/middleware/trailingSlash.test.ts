@@ -26,8 +26,9 @@ describe('normalizeTrailingSlash — baseline parity with handleTrailingSlash', 
     expect(normalizeTrailingSlash(u('/en/'), 'GET')).toBeNull();
   });
 
-  it('returns null for canonical BCP-47 locale root "/zh-Hans/"', () => {
-    expect(normalizeTrailingSlash(u('/zh-Hans/'), 'GET')).toBeNull();
+  it('returns null for canonical lowercase locale root "/zh-hans/"', () => {
+    // REQ-SEO-023: `zh-hans` is now the canonical lowercase path segment.
+    expect(normalizeTrailingSlash(u('/zh-hans/'), 'GET')).toBeNull();
   });
 
   it('adds trailing slash on locale-only path "/en" -> "/en/"', () => {
@@ -54,9 +55,12 @@ describe('normalizeTrailingSlash — baseline parity with handleTrailingSlash', 
     });
   });
 
-  it('corrects BCP-47 casing on locale root "/zh-hans/" -> "/zh-Hans/"', () => {
-    expect(normalizeTrailingSlash(u('/zh-hans/'), 'GET')).toEqual({
-      location: '/zh-Hans/',
+  it('lowercases legacy "/zh-Hans/" path to canonical "/zh-hans/"', () => {
+    // REQ-SEO-023: in-app fallback redirect for the legacy mixed-case URL.
+    // Cloudflare normally absorbs this via a 301 rule, but the middleware
+    // must still emit the redirect when the request reaches the origin.
+    expect(normalizeTrailingSlash(u('/zh-Hans/'), 'GET')).toEqual({
+      location: '/zh-hans/',
       status: 301,
     });
   });
@@ -108,9 +112,9 @@ describe('normalizeTrailingSlash — baseline parity with handleTrailingSlash', 
     expect(normalizeTrailingSlash(u('/pt-br/'), 'GET')).toBeNull();
   });
 
-  it('adds trailing slash for "/zh-Hans" (no slash) -> "/zh-Hans/"', () => {
-    expect(normalizeTrailingSlash(u('/zh-Hans'), 'GET')).toEqual({
-      location: '/zh-Hans/',
+  it('adds trailing slash for "/zh-hans" (no slash) -> "/zh-hans/"', () => {
+    expect(normalizeTrailingSlash(u('/zh-hans'), 'GET')).toEqual({
+      location: '/zh-hans/',
       status: 301,
     });
   });

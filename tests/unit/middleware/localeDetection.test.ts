@@ -34,8 +34,8 @@ describe('detectLocale', () => {
     expect(detectLocale('pt-PT')).toBe('pt-br');
   });
 
-  it('maps "zh-CN" to "zh-Hans" via primary-subtag match', () => {
-    expect(detectLocale('zh-CN')).toBe('zh-Hans');
+  it('maps "zh-CN" to "zh-hans" via primary-subtag match', () => {
+    expect(detectLocale('zh-CN')).toBe('zh-hans');
   });
 
   it('skips unsupported "ja" and falls through to "en"', () => {
@@ -54,8 +54,8 @@ describe('detectLocale', () => {
     expect(detectLocale('ko-KR,en-US;q=0.5')).toBe('ko');
   });
 
-  it('preserves canonical casing for zh-Hans when Accept-Language uses lowercase zh-hans', () => {
-    expect(detectLocale('zh-hans')).toBe('zh-Hans');
+  it('matches lowercase canonical "zh-hans" against Accept-Language "zh-hans"', () => {
+    expect(detectLocale('zh-hans')).toBe('zh-hans');
   });
 
   it('ignores wildcard "*" candidates', () => {

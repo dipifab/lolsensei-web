@@ -44,9 +44,14 @@ function MatchupColumn(props: {
       : 'border-l-[#ffb4ab]/60';
   const titleColor =
     props.variant === 'pick_into' ? 'text-[#49e082]' : 'text-[#ffb4ab]';
+  // WP-SEO-AUDIT-2026-05 REQ-SEO-026 — slug stabile per deep-link
+  // a "Pick into" / "Counterpicks". L'id e' derivato dalla variant
+  // (locale-indipendente).
+  const headingId = `matchup-draft-${props.variant.replace('_', '-')}`;
   return (
     <section class="flex flex-col gap-3">
       <h3
+        id={headingId}
         class={`font-headline font-extrabold text-base uppercase tracking-wider ${titleColor}`}
       >
         {props.title}

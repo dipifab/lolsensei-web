@@ -31,7 +31,11 @@ export default function ChangelogEntry(props: ChangelogEntryProps) {
   return (
     <article class="glass-panel rounded-xl border border-outline-variant/10 p-6">
       <div class="flex items-baseline justify-between gap-4 mb-3">
-        <h3 class="text-lg font-headline font-bold text-on-surface uppercase tracking-wide">
+        {/* WP-SEO-AUDIT-2026-05 REQ-SEO-026 — slug stabile per deep-link al rilascio */}
+        <h3
+          id={`changelog-v${props.version.replace(/\./g, '-')}`}
+          class="text-lg font-headline font-bold text-on-surface uppercase tracking-wide"
+        >
           v{props.version}
         </h3>
         <span class="text-sm text-on-surface-variant">{formattedDate()}</span>

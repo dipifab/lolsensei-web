@@ -3,10 +3,26 @@ import { STEPS } from '../data/content';
 import { useI18n } from '../i18n';
 import Icon from './Icon';
 
+// WP-SEO-AUDIT-2026-05 REQ-SEO-026 — slug stabili (locale-indipendenti) per
+// permettere passage-level citation deep-link. I numeri (step-1/2/3) sono
+// allineati al copy `1. Connect`, `2. Analyze`, `3. Improve` ma non dipendono
+// dalle stringhe i18n cosi' restano stabili al variare delle traduzioni.
 const STEP_KEYS = [
-  { i18nTitle: 'howItWorks.step1.title', i18nDesc: 'howItWorks.step1.description' },
-  { i18nTitle: 'howItWorks.step2.title', i18nDesc: 'howItWorks.step2.description' },
-  { i18nTitle: 'howItWorks.step3.title', i18nDesc: 'howItWorks.step3.description' },
+  {
+    i18nTitle: 'howItWorks.step1.title',
+    i18nDesc: 'howItWorks.step1.description',
+    slug: 'how-it-works-step-1-connect',
+  },
+  {
+    i18nTitle: 'howItWorks.step2.title',
+    i18nDesc: 'howItWorks.step2.description',
+    slug: 'how-it-works-step-2-analyze',
+  },
+  {
+    i18nTitle: 'howItWorks.step3.title',
+    i18nDesc: 'howItWorks.step3.description',
+    slug: 'how-it-works-step-3-improve',
+  },
 ] as const;
 
 export default function HowItWorks() {
@@ -29,7 +45,10 @@ export default function HowItWorks() {
                 <div class="w-16 h-16 rounded-full glass-panel border border-primary-container flex items-center justify-center mb-6 z-10 group-hover:scale-110 transition-transform">
                   <Icon name={`${step.icon}_filled`} class="w-6 h-6 text-primary-container" />
                 </div>
-                <h3 class="text-xl font-bold mb-3 uppercase tracking-wide">
+                <h3
+                  id={STEP_KEYS[index()].slug}
+                  class="text-xl font-bold mb-3 uppercase tracking-wide"
+                >
                   {t(STEP_KEYS[index()].i18nTitle)}
                 </h3>
                 <p class="text-on-surface-variant text-sm leading-relaxed">

@@ -96,6 +96,7 @@ const ptBrLegal = {
   'consent.banner.reject': 'Reject non-essential',
   'consent.banner.customize': 'Customize',
   'consent.banner.close_aria': 'Close banner and reject non-essential cookies',
+  'cookies.expand_details': 'Cookie settings — show details',
 
   // Preference Center (Screen #2)
   'consent.preferences.title': 'Cookie preferences',

@@ -202,7 +202,7 @@ const fr = {
   'lang.en': 'English',
   'lang.it': 'Italiano',
   'lang.ko': '한국어',
-  'lang.zh-Hans': '中文',
+  'lang.zh-hans': '中文',
   'lang.pt-br': 'Português',
   'lang.es': 'Español',
   'lang.fr': 'Français',
@@ -1162,6 +1162,40 @@ const fr = {
   'coach.quota_exceeded.chat': 'You\'ve used all your chat messages this month. Resets on {reset_date}.',
   'coach.quota_exceeded.drill': 'You\'ve used all your drill regenerations this week.',
   'coach.quota_exceeded.upgrade_hint': 'Upgrade to Full for higher limits',
+  // ---------------------- WP-SEO-AUDIT-2026-05 — Phase 4 ----------------------
+  // REQ-SEO-005
+  'home.beta_notice': 'Beta fermee — aucun prelevement jusqu\'au lancement. Telechargement gratuit disponible ; les offres payantes ne sont facturees qu\'a la sortie publique.',
+  'pricing.beta_notice': 'Beta fermee — aucun prelevement jusqu\'au lancement. Telechargement gratuit disponible ; les offres payantes ne sont facturees qu\'a la sortie publique.',
+
+  // REQ-SEO-012 (rendu uniquement EN/IT, garde la parite des cles)
+  'champion.guide.experience_callout.title': 'Testee sur le patch {patch}',
+  'champion.guide.experience_callout.body': 'Le build privilegie les fenetres de power spike et la surete de matchup propres au role {role}. Methodologie revue a chaque cycle de patch. Aucune statistique inventee.',
+
+  // REQ-SEO-013
+  'nav.methodology': 'Methodologie',
+  'meta.methodology.title': 'Methodologie — LoL Sensei',
+  'meta.methodology.description': 'Comment LoL Sensei teste les patchs, recupere les donnees champion et met a jour les guides. Standards editoriaux et ce que nous refusons explicitement de promettre.',
+  'methodology.hero.label': 'Standards Editoriaux',
+  'methodology.hero.title': 'Comment Nous Construisons Nos Guides',
+  'methodology.hero.subtitle': 'Une description courte et honnete du processus derriere chaque guide de champion, signal de tier-list et lecture de meta que nous publions.',
+  'methodology.patches.title': 'Comment nous choisissons les patchs a tester',
+  'methodology.patches.body': 'Nous attendons au moins 48 heures apres le deploiement d\'un patch avant de commencer a ecrire. Cette fenetre laisse aux hotfix le temps de se stabiliser et nous permet de jouer sur tous les roles avec les champions impactes, au lieu de reagir au ressenti du premier jour. Les conclusions sont ensuite validees sur plusieurs roles avant la mise en ligne d\'un guide.',
+  'methodology.sources.title': 'Sources de donnees champion',
+  'methodology.sources.body': 'Les donnees statiques de champion — competences, stats de base, ratios, interactions d\'objets — proviennent de Riot Data Dragon, le bundle officiel d\'assets statiques. Pour la verification de la meta actuelle, nous croisons avec Riot match-v5, l\'endpoint public de matches, afin que nos notes refletent ce qui est reellement joue sur le patch concerne. Nous ne scrapons jamais d\'agregateurs tiers.',
+  'methodology.cadence.title': 'Frequence de mise a jour',
+  'methodology.cadence.body': 'Chaque guide est revu au minimum a chaque cycle de patch, soit environ toutes les deux semaines. Quand un changement qui bouscule la meta arrive plus tot — refonte systeme, reequilibrage majeur d\'un objet, buff ou nerf decisif — nous declenchons une mise a jour hors cycle au lieu d\'attendre le patch suivant.',
+  'methodology.standards.title': 'Standards editoriaux',
+  'methodology.standards.body': 'Nous nous concentrons sur l\'enseignement. Nous ne copions jamais d\'agregateurs de stats generiques et privilegions le raisonnement plutot que les etiquettes de tier. Un guide qui explique pourquoi un build path fonctionne dans un matchup sera toujours mieux note qu\'un guide qui se contente de lister les objets au plus fort win-rate du jour.',
+  'methodology.disclaimers.title': 'Ce que nous ne promettons pas',
+  'methodology.disclaimers.body': 'Nous ne promettons pas de garanties statistiques de win-rate et ne mettons pas en avant une montee de rang assuree. Nous ne nous appuyons pas sur des credentials de coaching personnels ou une autorite fondee sur le rang. Notre valeur est l\'explication ancree au patch ; si un guide ne sait pas defendre son raisonnement, il ne doit pas etre publie.',
+
+  // REQ-SEO-020
+  'about.why.title': 'Pourquoi Cela Existe',
+  'about.why.p1': 'La plupart des ressources d\'apprentissage League of Legends partent du principe que vous savez deja ce qu\'il faut chercher. Les tier list classent les champions sans expliquer les matchups. Les sites de build listent les objets sans dire pourquoi un chemin bat un autre dans un etat de lane donne. Le fossee entre ce qui est statistiquement populaire et ce qui est correct dans cette partie est exactement la ou les joueurs cessent de progresser — et exactement la ou nous voulions un coach.',
+  'about.why.p2': 'LoL Sensei existe pour combler ce fossee. Chaque fonctionnalite que nous expedions repond a une seule question : est-ce que cela aiderait un joueur reel a comprendre la prochaine decision qu\'il doit prendre sur la Faille ? Si la reponse est non, on coupe, peu importe la qualite des donnees derriere.',
+  'about.team.title': 'Notre Approche d\'Equipe',
+  'about.team.description': 'Nous travaillons comme une petite equipe produit, pas comme une marque centree sur une personne. Les decisions sur ce qu\'on expedie partent du probleme gameplay, puis de la contrainte technique, et jamais de qui a propose l\'idee. Cela garde le produit calme : les guides ne courent pas apres les modes, l\'overlay ne s\'alourdit pas, et les mises a jour sortent a un rythme qui suit la realite des patchs plutot qu\'un calendrier editorial.',
+
 } as const;
 
 export default fr;

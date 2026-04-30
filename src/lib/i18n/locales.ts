@@ -1,4 +1,4 @@
-export const SUPPORTED_LOCALES = ['en', 'it', 'es', 'fr', 'de', 'pt-br', 'ko', 'zh-Hans'] as const;
+export const SUPPORTED_LOCALES = ['en', 'it', 'es', 'fr', 'de', 'pt-br', 'ko', 'zh-hans'] as const;
 export type Locale = (typeof SUPPORTED_LOCALES)[number];
 
 export const BLOG_LOCALES = ['en', 'it'] as const;
@@ -6,6 +6,10 @@ export type BlogLocale = (typeof BLOG_LOCALES)[number];
 
 export const DEFAULT_LOCALE: Locale = 'en';
 
+// Mapping from internal locale code (URL path segment, all lowercase) to the
+// BCP-47 hreflang attribute value. The `zh-hans` URL path keeps `zh-Hans` as
+// hreflang because BCP-47 mandates Title-Case for script subtags (RFC 5646).
+// `pt-br` similarly emits `pt-BR`.
 export const HREFLANG_MAP: Record<Locale, string> = {
   'en': 'en',
   'it': 'it',
@@ -14,7 +18,7 @@ export const HREFLANG_MAP: Record<Locale, string> = {
   'de': 'de',
   'pt-br': 'pt-BR',
   'ko': 'ko',
-  'zh-Hans': 'zh-Hans',
+  'zh-hans': 'zh-Hans',
 };
 
 export function isSupportedLocale(v: string): v is Locale {
@@ -24,18 +28,16 @@ export function isSupportedLocale(v: string): v is Locale {
 /**
  * Normalize locale casing for URL path segment lookup.
  *
- * Path segment convention: lowercase for all locales EXCEPT `zh-Hans` which
- * preserves BCP-47 script-subtag capitalization. For hreflang attributes use
- * {@link HREFLANG_MAP} (e.g. `pt-br` path → `pt-BR` hreflang, `zh-Hans`
- * unchanged).
+ * Path segment convention: lowercase for ALL locales (including `zh-hans`,
+ * renamed from `zh-Hans` per WP-SEO-AUDIT REQ-SEO-023). For hreflang attribute
+ * values use {@link HREFLANG_MAP} (e.g. `pt-br` path → `pt-BR` hreflang,
+ * `zh-hans` path → `zh-Hans` hreflang).
  *
  * @example
- * canonicalLocale('zh-hans') // 'zh-Hans'
+ * canonicalLocale('zh-Hans') // 'zh-hans'
  * canonicalLocale('EN')      // 'en'
  * canonicalLocale('pt-BR')   // 'pt-br'
  */
 export function canonicalLocale(input: string): string {
-  const lower = input.toLowerCase();
-  if (lower === 'zh-hans') return 'zh-Hans';
-  return lower;
+  return input.toLowerCase();
 }

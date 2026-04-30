@@ -7,10 +7,10 @@ import { canonicalLocale } from '../i18n/locales';
  */
 export type RedirectIntent = { location: string; status: 301 | 308 };
 
-// Canonical locale set, in the lowercase form used for pattern matching.
-// `zh-Hans` canonicalizes back to its BCP-47 casing via `canonicalLocale`.
-// Kept local to the middleware to avoid mutating the `locales.ts` contract
-// (whose `isSupportedLocale` is case-sensitive against the mixed-case set).
+// Canonical locale set, used for pattern matching after `pathname.toLowerCase()`.
+// All locale path segments are lowercase (REQ-SEO-023 renamed `zh-Hans` to `zh-hans`).
+// Kept local to the middleware so we can match against the lowered pathname before
+// delegating to `canonicalLocale` for the final redirect target.
 const LOCALES_LOWER = new Set<string>([
   'en', 'it', 'es', 'fr', 'de', 'pt-br', 'ko', 'zh-hans',
 ]);

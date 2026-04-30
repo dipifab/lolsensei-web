@@ -105,7 +105,7 @@ test.describe('@wp30 seo-hreflang reciprocity', () => {
 
     // The seed path is `/<lang>/summoner/<region>/<handle>`. Construct the
     // EN/IT counterparts by swapping the locale prefix.
-    const m = seedPath.match(/^\/(en|it|es|fr|de|pt-br|ko|zh-Hans)\/summoner\/([^/]+)\/([^/?#]+)/);
+    const m = seedPath.match(/^\/(en|it|es|fr|de|pt-br|ko|zh-hans)\/summoner\/([^/]+)\/([^/?#]+)/);
     test.skip(!m, 'WP30_SEED_SUMMONER_PATH does not match summoner route shape.');
     if (!m) return;
 

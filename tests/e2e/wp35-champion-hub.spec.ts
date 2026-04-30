@@ -8,7 +8,7 @@
  *   - Search input typing "lux" narrows the displayed grid.
  *   - Role filter chip Mid restricts grid to mid-lane guides.
  *   - Card click navigates to the corresponding /champion/<slug>/guide.
- *   - Other locales (es/fr/de/pt-br/ko/zh-Hans) hit /champion → redirect home.
+ *   - Other locales (es/fr/de/pt-br/ko/zh-hans) hit /champion → redirect home.
  *
  * Pre-req: `npm run prebuild` populates the per-language datasets and at
  * least one mid-lane guide (Lux mid is the F4 baseline).

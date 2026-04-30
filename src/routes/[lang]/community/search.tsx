@@ -32,7 +32,7 @@ import {
 import type { SearchSort } from "../../../services/community-search-api";
 
 const SUPPORTED_LANGS = [
-  "en", "it", "de", "es", "fr", "pt-br", "ko", "zh-Hans",
+  "en", "it", "de", "es", "fr", "pt-br", "ko", "zh-hans",
 ] as const;
 
 const SORT_VALUES: readonly SearchSort[] = [

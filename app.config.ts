@@ -17,10 +17,10 @@ if (process.env.NODE_ENV === 'production') {
 
 const PUBLIC_PAGES_ENABLED = process.env.VITE_PUBLIC_PAGES_ENABLED === 'true';
 
-const SUPPORTED_LOCALES = ['en', 'it', 'es', 'fr', 'de', 'pt-br', 'ko', 'zh-Hans'] as const;
+const SUPPORTED_LOCALES = ['en', 'it', 'es', 'fr', 'de', 'pt-br', 'ko', 'zh-hans'] as const;
 const BLOG_LOCALES = ['en', 'it'] as const;
 const PUBLIC_ROUTES = ['/', '/pricing', '/faq', '/privacy', '/terms', '/contact'];
-const GATED_ROUTES = ['/features', '/community', '/about', '/blog'];
+const GATED_ROUTES = ['/features', '/community', '/about', '/blog', '/methodology'];
 
 function buildPrerenderRoutes(): string[] {
   const base: string[] = [];
@@ -65,5 +65,17 @@ export default defineConfig({
       },
       tailwindcss(),
     ],
+    build: {
+      // REQ-SEO-008: drop modulepreload for inactive locale chunks.
+      // SSR hydrates locale data inline; non-active locale dictionaries are
+      // loaded on-demand by I18nProvider when the user navigates to /<locale>/.
+      // Preloading every locale on every page (~6 inactive × 26 KB) burns LCP.
+      modulePreload: {
+        resolveDependencies: (_filename, deps, { hostType }) => {
+          if (hostType !== 'html') return deps;
+          return deps.filter((dep) => !/locales-[A-Za-z0-9-]+\.[a-z0-9]+\.js$/i.test(dep));
+        },
+      },
+    },
   },
 });

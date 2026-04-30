@@ -22,7 +22,7 @@ import fr from '../../i18n/fr';
 import de from '../../i18n/de';
 import ptBr from '../../i18n/pt-br';
 import ko from '../../i18n/ko';
-import zhHans from '../../i18n/zh-Hans';
+import zhHans from '../../i18n/zh-hans';
 import { canonicalLocale } from '../i18n/locales';
 
 type MessageMap = Record<string, string>;
@@ -35,7 +35,7 @@ const MESSAGES: Record<string, MessageMap> = {
   de: de as unknown as MessageMap,
   'pt-br': ptBr as unknown as MessageMap,
   ko: ko as unknown as MessageMap,
-  'zh-Hans': zhHans as unknown as MessageMap,
+  'zh-hans': zhHans as unknown as MessageMap,
 };
 
 export type PageMeta = {
@@ -68,3 +68,27 @@ export function getStaticMeta(pageKey: string, rawLocale: string): PageMeta {
       '',
   };
 }
+
+
+// REQ-SEO-024 — og:locale and og:site_name helpers used by SSR route head tags.
+// Map our internal locale codes to BCP-47 region-suffixed forms expected by
+// Open Graph crawlers (Facebook spec uses ll_CC).
+const OG_LOCALE_MAP: Record<string, string> = {
+  en: 'en_US',
+  it: 'it_IT',
+  es: 'es_ES',
+  fr: 'fr_FR',
+  de: 'de_DE',
+  'pt-br': 'pt_BR',
+  ko: 'ko_KR',
+  'zh-Hans': 'zh_CN',
+};
+
+/** Resolve `og:locale` value for any incoming locale path segment casing. */
+export function getOgLocale(rawLocale: string): string {
+  const locale = canonicalLocale(rawLocale);
+  return OG_LOCALE_MAP[locale] ?? OG_LOCALE_MAP.en;
+}
+
+/** Constant `og:site_name` — never localized (brand name). */
+export const OG_SITE_NAME = 'LoL Sensei';

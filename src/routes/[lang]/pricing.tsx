@@ -9,7 +9,7 @@ import { useI18n } from '../../i18n';
 import { HreflangCluster } from '../../components/seo/HreflangCluster';
 import { BASE_URL, getRouteSeo } from '../../lib/seo/routes';
 import { canonicalLocale } from '../../lib/i18n/locales';
-import { getStaticMeta } from '../../lib/seo/meta-resolver';
+import { getStaticMeta, getOgLocale, OG_SITE_NAME } from '../../lib/seo/meta-resolver';
 
 export default function PricingRoute() {
   const params = useParams<{ lang: string }>();
@@ -30,6 +30,11 @@ export default function PricingRoute() {
       <Meta property="og:description" content={meta().description} />
       <Meta property="og:image" content={ogImage()} />
       <Meta property="og:url" content={canonical()} />
+      <Meta name="robots" content="index,follow" />
+      <Meta property="og:type" content="website" />
+      <Meta property="og:locale" content={getOgLocale(params.lang)} />
+      <Meta property="og:site_name" content={OG_SITE_NAME} />
+      <Meta name="twitter:card" content="summary_large_image" />
       <HreflangCluster path="pricing" baseUrl={BASE_URL} />
       <Navbar />
       <BreadcrumbJsonLd

@@ -22,6 +22,10 @@ interface ChampionGuideProps {
   lang: 'en' | 'it';
   /** Se true, mostra banner che invita a leggere `/guide` (latest). */
   outdated?: boolean;
+  /** WP-SEO-AUDIT REQ-SEO-012 — qualitative experience callout rendered just
+   * after the header H1 and meta line, before the main body content. The
+   * route owns the i18n resolution so this stays a pure render slot. */
+  experienceCallout?: JSX.Element;
 }
 
 const LOCALE_MAP: Record<string, string> = {
@@ -101,6 +105,20 @@ export function ChampionGuide(props: ChampionGuideProps): JSX.Element {
           </div>
         </Show>
       </header>
+
+      {/* REQ-SEO-012 — qualitative experience callout slot. The route owns the
+          i18n keys so this component remains a pure renderer. Pure qualitative
+          copy: NO winrate, NO sample size, NO elo bracket. */}
+      <Show when={props.experienceCallout}>
+        {(slot) => (
+          <aside
+            class="mb-12 rounded-lg border border-primary-container/25 bg-primary-container/5 px-5 py-4 text-on-surface-variant/90 leading-relaxed"
+            data-testid="champion-guide-experience-callout"
+          >
+            {slot()}
+          </aside>
+        )}
+      </Show>
 
       <Show when={props.guide.quick_learn}>
         {(data) => (

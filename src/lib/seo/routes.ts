@@ -91,6 +91,14 @@ export const ROUTE_SEO: Record<string, RouteSeo> = {
     ogImage: '/og/default.png',
     jsonLdTypes: ['Organization', 'BreadcrumbList'],
   },
+  methodology: {
+    key: 'methodology',
+    canonicalPath: 'methodology',
+    titleKey: 'seo.methodology.title',
+    descKey: 'seo.methodology.description',
+    ogImage: '/og/default.png',
+    jsonLdTypes: ['BreadcrumbList'],
+  },
   blog: {
     key: 'blog',
     canonicalPath: 'blog',

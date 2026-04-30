@@ -204,7 +204,7 @@ const en = {
   'lang.en': 'English',
   'lang.it': 'Italiano',
   'lang.ko': '한국어',
-  'lang.zh-Hans': '中文',
+  'lang.zh-hans': '中文',
   'lang.pt-br': 'Português',
   'lang.es': 'Español',
   'lang.fr': 'Français',
@@ -1384,6 +1384,46 @@ const en = {
   // Common disclaimer (2)
   'wp34.common.disclaimer': 'Aggregated from public Match-V5 data. Qualitative classifications only — no exact win rates exposed. Not endorsed by Riot Games.',
   'wp34.common.empty_state': 'No data available yet.',
+  // ---------------------- WP-SEO-AUDIT-2026-05 — Phase 4 ----------------------
+  // REQ-SEO-005 — Beta notice (home + pricing). Same copy on both surfaces;
+  // duplicated key on purpose so each surface owns its render slot.
+  'home.beta_notice': 'Closed beta — no charge until launch. Free download available, paid tiers begin billing only on public release.',
+  'pricing.beta_notice': 'Closed beta — no charge until launch. Free download available, paid tiers begin billing only on public release.',
+
+  // REQ-SEO-012 — Per-guide qualitative experience callout. Patch-anchored;
+  // no fabricated stats. CHAMPION_LANGS = [en, it] only renders this, but
+  // keys live in all 8 locales for parity-check.
+  'champion.guide.experience_callout.title': 'Tested on patch {patch}',
+  'champion.guide.experience_callout.body': 'Build prioritises {role}-specific spike timing and matchup safety. Methodology refined each patch cycle. No fabricated stats.',
+
+  // REQ-SEO-013 — Methodology / Editorial Standards page (replaces author-bio
+  // E-E-A-T pattern; product-focused, no founder identity).
+  'nav.methodology': 'Methodology',
+  'meta.methodology.title': 'Methodology — LoL Sensei',
+  'meta.methodology.description': 'How LoL Sensei tests patches, sources champion data, and updates guides. Editorial standards and what we deliberately do not claim.',
+  'methodology.hero.label': 'Editorial Standards',
+  'methodology.hero.title': 'How We Build Our Guides',
+  'methodology.hero.subtitle': 'A short, honest description of the process behind every champion guide, tier-list signal, and meta call we publish.',
+  'methodology.patches.title': 'How we choose patches to test',
+  'methodology.patches.body': 'We wait at least 48 hours after a patch deploys before we start writing. That window lets hotfixes settle and gives us time to play matches across every role on the affected champions, instead of reacting to the first day of public sentiment. We then validate findings against multiple roles before any guide goes live.',
+  'methodology.sources.title': 'Champion data sources',
+  'methodology.sources.body': 'Static champion data — abilities, base stats, ratios, item interactions — comes from Riot Data Dragon, the official static asset bundle. For current-meta verification we cross-check against Riot match-v5, the public match endpoint, so our notes reflect what is actually being played at the patch we are writing for. We never scrape third-party aggregators.',
+  'methodology.cadence.title': 'Update cadence',
+  'methodology.cadence.body': 'Each guide is reviewed at minimum every patch cycle, roughly every two weeks. When a meta-shifting change lands earlier — a system rework, a major item rebalance, a champion-defining buff or nerf — we trigger an off-cycle refresh instead of waiting for the next patch.',
+  'methodology.standards.title': 'Editorial standards',
+  'methodology.standards.body': 'We focus on teaching. We never copy-paste from generic stat aggregators, and we prefer reasoning over tier labels. A guide that explains why a build path works in a matchup will always rank higher in our review than a guide that just lists the highest win-rate items of the day.',
+  'methodology.disclaimers.title': 'What we do not claim',
+  'methodology.disclaimers.body': 'We do not promise statistical win-rate guarantees, and we do not advertise a guaranteed climb. We do not present personal coaching credentials or rank-based authority claims. Our value is patch-anchored explanation; if a guide cannot defend its reasoning, it should not be published.',
+
+  // REQ-SEO-020 — About page expansion (~150 words across 2 new sections).
+  // "Why this exists" expands the founding rationale. "Our team approach"
+  // describes collective product methodology without naming individuals.
+  'about.why.title': 'Why This Exists',
+  'about.why.p1': 'Most League of Legends learning resources are built on the assumption that you already know what to look for. Tier lists rank champions without teaching matchups. Build websites list items without explaining why a path beats another in a given lane state. The gap between "what is statistically popular" and "what is correct for this game" is exactly where players stop improving — and exactly where we wanted a coach.',
+  'about.why.p2': 'LoL Sensei exists to close that gap. Every feature we ship answers a single question: would this help a real player understand the next decision they have to make on the Rift? If the answer is no, we cut it, no matter how clever the data behind it looks.',
+  'about.team.title': 'Our Team Approach',
+  'about.team.description': 'We work as a small product team rather than as a personality-led brand. Decisions on what to ship are driven by the gameplay problem first, the technical constraint second, and never by who proposed the idea. That keeps the product calm: guides do not chase trends, the overlay does not bloat, and updates land on a cadence that matches actual patch reality instead of a publishing calendar.',
+
 } as const;
 
 export default en;

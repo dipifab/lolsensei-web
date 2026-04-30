@@ -6,7 +6,7 @@ export const SUPPORTED_LOCALES = [
   'de',
   'pt-br',
   'ko',
-  'zh-Hans',
+  'zh-hans',
 ] as const;
 
 export type Locale = (typeof SUPPORTED_LOCALES)[number];
@@ -25,5 +25,5 @@ export const NATIVE_NAMES: Readonly<Record<Locale, string>> = Object.freeze({
   de: 'Deutsch',
   'pt-br': 'Português (Brasil)',
   ko: '한국어',
-  'zh-Hans': '简体中文',
+  'zh-hans': '简体中文',
 });

@@ -37,6 +37,11 @@ export default function Hero() {
               <> {titleSuffix()}</>
             </Show>
           </h1>
+          {/* REQ-SEO-005 — closed-beta trust framing pill (renders just below H1, above CTA). */}
+          <p class="inline-flex items-center gap-2 mb-6 px-3 py-1.5 rounded-full border border-primary-container/30 bg-primary-container/5 text-xs md:text-sm font-headline tracking-wide text-primary-container">
+            <span aria-hidden="true" class="inline-block w-1.5 h-1.5 rounded-full bg-primary-container" />
+            {t('home.beta_notice')}
+          </p>
           <p class="text-xl text-on-surface-variant mb-6 max-w-lg leading-relaxed">
             {t('hero.subtitle')}
           </p>

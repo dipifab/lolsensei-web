@@ -5,7 +5,7 @@
 //
 // WP35 (CR-045 DEC-7) — il namespace `wp35.*` (champion guides + esports) e'
 // MVP EN+IT only. Le route `/<lang>/champion/...` sono whitelisted ai due
-// locales: gli altri (es/fr/de/pt-br/ko/zh-Hans) non devono ricevere queste
+// locales: gli altri (es/fr/de/pt-br/ko/zh-hans) non devono ricevere queste
 // chiavi. Il check applica una `LOCALE_NAMESPACE_EXEMPTIONS` map per
 // escludere selettivamente prefissi di chiave dal parity check.
 import { readFileSync, existsSync } from 'node:fs';
@@ -16,7 +16,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const LOCALES_DIR = resolve(__dirname, '..', 'src', 'i18n');
 const LEGAL_DIR = resolve(LOCALES_DIR, 'legal');
 const BASE = 'en';
-const TARGETS = ['it', 'es', 'fr', 'de', 'pt-br', 'ko', 'zh-Hans'];
+const TARGETS = ['it', 'es', 'fr', 'de', 'pt-br', 'ko', 'zh-hans'];
 
 // Per-locale namespace exemptions: prefixes that are allowed to be missing
 // in the target locale. Used for feature-gated locales (e.g. WP35 EN+IT only).
@@ -26,7 +26,7 @@ const LOCALE_NAMESPACE_EXEMPTIONS = {
   de: ['wp35.', 'wp34.'],
   'pt-br': ['wp35.', 'wp34.'],
   ko: ['wp35.', 'wp34.'],
-  'zh-Hans': ['wp35.', 'wp34.'],
+  'zh-hans': ['wp35.', 'wp34.'],
 };
 
 function extractKeys(filePath) {

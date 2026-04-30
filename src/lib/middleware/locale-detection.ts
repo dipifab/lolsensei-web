@@ -9,7 +9,7 @@ interface ParsedCandidate {
 
 /**
  * Lowercased full-tag -> canonical supported locale.
- * SUPPORTED_LOCALES values are mostly already lowercase; zh-Hans is preserved
+ * SUPPORTED_LOCALES values are mostly already lowercase; zh-hans is preserved
  * in its canonical casing via canonicalLocale().
  */
 function buildFullTagIndex(): Map<string, Locale> {

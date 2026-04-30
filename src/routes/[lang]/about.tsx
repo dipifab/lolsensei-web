@@ -8,7 +8,8 @@ import { useI18n } from '../../i18n';
 import { HreflangCluster } from '../../components/seo/HreflangCluster';
 import { BASE_URL, getRouteSeo } from '../../lib/seo/routes';
 import { canonicalLocale } from '../../lib/i18n/locales';
-import { getStaticMeta } from '../../lib/seo/meta-resolver';
+import { getStaticMeta, getOgLocale, OG_SITE_NAME } from '../../lib/seo/meta-resolver';
+import { ORG } from '../../lib/jsonld-data';
 
 export default function AboutRoute() {
   const params = useParams<{ lang: string }>();
@@ -20,15 +21,36 @@ export default function AboutRoute() {
 
   const { t, locale: i18nLocale } = useI18n();
 
+  // REQ-SEO-020 — AboutPage schema (replaces the BreadcrumbList-only schema).
+  // `about` resolves to Organization @id so crawlers tie the page to the
+  // entity declared on the homepage. No author/founder identity per FP-01.
+  const aboutPageJsonLd = () => ({
+    '@context': 'https://schema.org',
+    '@type': 'AboutPage',
+    '@id': `${canonical()}#aboutpage`,
+    url: canonical(),
+    name: meta().title,
+    description: meta().description,
+    inLanguage: locale(),
+    isPartOf: { '@id': `${BASE_URL}/#website` },
+    about: { '@id': ORG['@id'] },
+    publisher: { '@id': ORG['@id'] },
+  });
+
   return (
     <>
       <Title>{meta().title}</Title>
       <Meta name="description" content={meta().description} />
+      <Meta name="robots" content="index,follow" />
       <Link rel="canonical" href={canonical()} />
       <Meta property="og:title" content={meta().title} />
       <Meta property="og:description" content={meta().description} />
       <Meta property="og:image" content={ogImage()} />
       <Meta property="og:url" content={canonical()} />
+      <Meta property="og:type" content="website" />
+      <Meta property="og:locale" content={getOgLocale(params.lang)} />
+      <Meta property="og:site_name" content={OG_SITE_NAME} />
+      <Meta name="twitter:card" content="summary_large_image" />
       <HreflangCluster path="about" baseUrl={BASE_URL} />
       <Navbar />
       <BreadcrumbJsonLd
@@ -37,6 +59,10 @@ export default function AboutRoute() {
           { name: t('breadcrumbs.home'), path: '/' },
           { name: t('nav.about'), path: '/about' },
         ]}
+      />
+      <script
+        type="application/ld+json"
+        innerHTML={JSON.stringify(aboutPageJsonLd())}
       />
       <main class="pt-20">
         {/* Hero Section */}
@@ -68,6 +94,32 @@ export default function AboutRoute() {
               <p>{t('about.story.p2')}</p>
               <p>{t('about.story.p3')}</p>
             </div>
+          </div>
+        </section>
+
+        {/* REQ-SEO-020 — Why this exists (expanded founding rationale). */}
+        <section class="py-24">
+          <div class="max-w-4xl mx-auto px-8">
+            <h2 class="text-3xl md:text-5xl font-headline font-extrabold tracking-tight mb-10">
+              {t('about.why.title')}
+            </h2>
+            <div class="space-y-6 text-on-surface-variant text-lg leading-relaxed">
+              <p>{t('about.why.p1')}</p>
+              <p>{t('about.why.p2')}</p>
+            </div>
+          </div>
+        </section>
+
+        {/* REQ-SEO-020 — Team approach (collective product methodology, no
+            individual identity per FP-01). */}
+        <section class="py-24 bg-surface-container-low">
+          <div class="max-w-4xl mx-auto px-8">
+            <h2 class="text-3xl md:text-5xl font-headline font-extrabold tracking-tight mb-10">
+              {t('about.team.title')}
+            </h2>
+            <p class="text-on-surface-variant text-lg leading-relaxed">
+              {t('about.team.description')}
+            </p>
           </div>
         </section>
 

@@ -12,7 +12,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/" />
   </url>
   <!-- home: it -->
@@ -26,7 +26,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/" />
   </url>
   <!-- home: es -->
@@ -40,7 +40,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/" />
   </url>
   <!-- home: fr -->
@@ -54,7 +54,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/" />
   </url>
   <!-- home: de -->
@@ -68,7 +68,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/" />
   </url>
   <!-- home: pt-br -->
@@ -82,7 +82,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/" />
   </url>
   <!-- home: ko -->
@@ -96,12 +96,12 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/" />
   </url>
-  <!-- home: zh-Hans -->
+  <!-- home: zh-hans -->
   <url>
-    <loc>https://www.lolsensei.com/zh-Hans/</loc>
+    <loc>https://www.lolsensei.com/zh-hans/</loc>
     <lastmod>2026-04-30</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/" />
@@ -110,7 +110,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/" />
   </url>
   <!-- pricing: en -->
@@ -124,7 +124,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/pricing" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/pricing" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/pricing" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/pricing" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/pricing" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/pricing" />
   </url>
   <!-- pricing: it -->
@@ -138,7 +138,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/pricing" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/pricing" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/pricing" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/pricing" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/pricing" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/pricing" />
   </url>
   <!-- pricing: es -->
@@ -152,7 +152,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/pricing" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/pricing" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/pricing" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/pricing" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/pricing" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/pricing" />
   </url>
   <!-- pricing: fr -->
@@ -166,7 +166,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/pricing" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/pricing" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/pricing" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/pricing" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/pricing" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/pricing" />
   </url>
   <!-- pricing: de -->
@@ -180,7 +180,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/pricing" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/pricing" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/pricing" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/pricing" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/pricing" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/pricing" />
   </url>
   <!-- pricing: pt-br -->
@@ -194,7 +194,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/pricing" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/pricing" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/pricing" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/pricing" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/pricing" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/pricing" />
   </url>
   <!-- pricing: ko -->
@@ -208,12 +208,12 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/pricing" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/pricing" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/pricing" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/pricing" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/pricing" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/pricing" />
   </url>
-  <!-- pricing: zh-Hans -->
+  <!-- pricing: zh-hans -->
   <url>
-    <loc>https://www.lolsensei.com/zh-Hans/pricing</loc>
+    <loc>https://www.lolsensei.com/zh-hans/pricing</loc>
     <lastmod>2026-04-30</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/pricing" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/pricing" />
@@ -222,7 +222,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/pricing" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/pricing" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/pricing" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/pricing" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/pricing" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/pricing" />
   </url>
   <!-- faq: en -->
@@ -236,7 +236,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/faq" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/faq" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/faq" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/faq" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/faq" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/faq" />
   </url>
   <!-- faq: it -->
@@ -250,7 +250,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/faq" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/faq" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/faq" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/faq" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/faq" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/faq" />
   </url>
   <!-- faq: es -->
@@ -264,7 +264,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/faq" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/faq" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/faq" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/faq" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/faq" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/faq" />
   </url>
   <!-- faq: fr -->
@@ -278,7 +278,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/faq" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/faq" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/faq" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/faq" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/faq" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/faq" />
   </url>
   <!-- faq: de -->
@@ -292,7 +292,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/faq" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/faq" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/faq" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/faq" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/faq" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/faq" />
   </url>
   <!-- faq: pt-br -->
@@ -306,7 +306,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/faq" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/faq" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/faq" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/faq" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/faq" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/faq" />
   </url>
   <!-- faq: ko -->
@@ -320,12 +320,12 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/faq" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/faq" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/faq" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/faq" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/faq" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/faq" />
   </url>
-  <!-- faq: zh-Hans -->
+  <!-- faq: zh-hans -->
   <url>
-    <loc>https://www.lolsensei.com/zh-Hans/faq</loc>
+    <loc>https://www.lolsensei.com/zh-hans/faq</loc>
     <lastmod>2026-04-30</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/faq" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/faq" />
@@ -334,7 +334,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/faq" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/faq" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/faq" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/faq" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/faq" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/faq" />
   </url>
   <!-- privacy: en -->
@@ -348,7 +348,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/privacy" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
   </url>
   <!-- privacy: it -->
@@ -362,7 +362,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/privacy" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
   </url>
   <!-- privacy: es -->
@@ -376,7 +376,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/privacy" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
   </url>
   <!-- privacy: fr -->
@@ -390,7 +390,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/privacy" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
   </url>
   <!-- privacy: de -->
@@ -404,7 +404,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/privacy" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
   </url>
   <!-- privacy: pt-br -->
@@ -418,7 +418,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/privacy" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
   </url>
   <!-- privacy: ko -->
@@ -432,12 +432,12 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/privacy" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
   </url>
-  <!-- privacy: zh-Hans -->
+  <!-- privacy: zh-hans -->
   <url>
-    <loc>https://www.lolsensei.com/zh-Hans/privacy</loc>
+    <loc>https://www.lolsensei.com/zh-hans/privacy</loc>
     <lastmod>2026-04-30</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/privacy" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/privacy" />
@@ -446,7 +446,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/privacy" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/privacy" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/privacy" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/privacy" />
   </url>
   <!-- terms: en -->
@@ -460,7 +460,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/terms" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
   </url>
   <!-- terms: it -->
@@ -474,7 +474,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/terms" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
   </url>
   <!-- terms: es -->
@@ -488,7 +488,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/terms" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
   </url>
   <!-- terms: fr -->
@@ -502,7 +502,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/terms" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
   </url>
   <!-- terms: de -->
@@ -516,7 +516,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/terms" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
   </url>
   <!-- terms: pt-br -->
@@ -530,7 +530,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/terms" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
   </url>
   <!-- terms: ko -->
@@ -544,12 +544,12 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/terms" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
   </url>
-  <!-- terms: zh-Hans -->
+  <!-- terms: zh-hans -->
   <url>
-    <loc>https://www.lolsensei.com/zh-Hans/terms</loc>
+    <loc>https://www.lolsensei.com/zh-hans/terms</loc>
     <lastmod>2026-04-30</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/terms" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/terms" />
@@ -558,7 +558,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/terms" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/terms" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/terms" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/terms" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/terms" />
   </url>
   <!-- contact: en -->
@@ -572,7 +572,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/contact" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/contact" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/contact" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/contact" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/contact" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/contact" />
   </url>
   <!-- contact: it -->
@@ -586,7 +586,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/contact" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/contact" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/contact" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/contact" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/contact" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/contact" />
   </url>
   <!-- contact: es -->
@@ -600,7 +600,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/contact" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/contact" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/contact" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/contact" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/contact" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/contact" />
   </url>
   <!-- contact: fr -->
@@ -614,7 +614,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/contact" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/contact" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/contact" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/contact" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/contact" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/contact" />
   </url>
   <!-- contact: de -->
@@ -628,7 +628,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/contact" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/contact" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/contact" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/contact" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/contact" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/contact" />
   </url>
   <!-- contact: pt-br -->
@@ -642,7 +642,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/contact" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/contact" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/contact" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/contact" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/contact" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/contact" />
   </url>
   <!-- contact: ko -->
@@ -656,12 +656,12 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/contact" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/contact" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/contact" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/contact" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/contact" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/contact" />
   </url>
-  <!-- contact: zh-Hans -->
+  <!-- contact: zh-hans -->
   <url>
-    <loc>https://www.lolsensei.com/zh-Hans/contact</loc>
+    <loc>https://www.lolsensei.com/zh-hans/contact</loc>
     <lastmod>2026-04-30</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/contact" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/contact" />
@@ -670,7 +670,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/contact" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/contact" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/contact" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/contact" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/contact" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/contact" />
   </url>
   <!-- features: en -->
@@ -684,7 +684,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/features" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/features" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/features" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/features" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/features" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/features" />
   </url>
   <!-- features: it -->
@@ -698,7 +698,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/features" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/features" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/features" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/features" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/features" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/features" />
   </url>
   <!-- features: es -->
@@ -712,7 +712,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/features" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/features" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/features" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/features" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/features" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/features" />
   </url>
   <!-- features: fr -->
@@ -726,7 +726,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/features" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/features" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/features" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/features" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/features" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/features" />
   </url>
   <!-- features: de -->
@@ -740,7 +740,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/features" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/features" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/features" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/features" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/features" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/features" />
   </url>
   <!-- features: pt-br -->
@@ -754,7 +754,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/features" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/features" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/features" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/features" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/features" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/features" />
   </url>
   <!-- features: ko -->
@@ -768,12 +768,12 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/features" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/features" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/features" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/features" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/features" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/features" />
   </url>
-  <!-- features: zh-Hans -->
+  <!-- features: zh-hans -->
   <url>
-    <loc>https://www.lolsensei.com/zh-Hans/features</loc>
+    <loc>https://www.lolsensei.com/zh-hans/features</loc>
     <lastmod>2026-04-30</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/features" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/features" />
@@ -782,7 +782,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/features" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/features" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/features" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/features" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/features" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/features" />
   </url>
   <!-- community: en -->
@@ -796,7 +796,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/community" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/community" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/community" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/community" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/community" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/community" />
   </url>
   <!-- community: it -->
@@ -810,7 +810,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/community" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/community" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/community" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/community" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/community" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/community" />
   </url>
   <!-- community: es -->
@@ -824,7 +824,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/community" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/community" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/community" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/community" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/community" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/community" />
   </url>
   <!-- community: fr -->
@@ -838,7 +838,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/community" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/community" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/community" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/community" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/community" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/community" />
   </url>
   <!-- community: de -->
@@ -852,7 +852,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/community" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/community" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/community" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/community" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/community" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/community" />
   </url>
   <!-- community: pt-br -->
@@ -866,7 +866,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/community" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/community" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/community" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/community" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/community" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/community" />
   </url>
   <!-- community: ko -->
@@ -880,12 +880,12 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/community" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/community" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/community" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/community" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/community" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/community" />
   </url>
-  <!-- community: zh-Hans -->
+  <!-- community: zh-hans -->
   <url>
-    <loc>https://www.lolsensei.com/zh-Hans/community</loc>
+    <loc>https://www.lolsensei.com/zh-hans/community</loc>
     <lastmod>2026-04-30</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/community" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/community" />
@@ -894,7 +894,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/community" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/community" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/community" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/community" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/community" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/community" />
   </url>
   <!-- about: en -->
@@ -908,7 +908,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/about" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/about" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/about" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/about" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/about" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/about" />
   </url>
   <!-- about: it -->
@@ -922,7 +922,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/about" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/about" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/about" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/about" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/about" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/about" />
   </url>
   <!-- about: es -->
@@ -936,7 +936,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/about" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/about" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/about" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/about" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/about" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/about" />
   </url>
   <!-- about: fr -->
@@ -950,7 +950,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/about" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/about" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/about" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/about" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/about" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/about" />
   </url>
   <!-- about: de -->
@@ -964,7 +964,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/about" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/about" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/about" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/about" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/about" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/about" />
   </url>
   <!-- about: pt-br -->
@@ -978,7 +978,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/about" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/about" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/about" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/about" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/about" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/about" />
   </url>
   <!-- about: ko -->
@@ -992,12 +992,12 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/about" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/about" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/about" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/about" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/about" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/about" />
   </url>
-  <!-- about: zh-Hans -->
+  <!-- about: zh-hans -->
   <url>
-    <loc>https://www.lolsensei.com/zh-Hans/about</loc>
+    <loc>https://www.lolsensei.com/zh-hans/about</loc>
     <lastmod>2026-04-30</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/about" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/about" />
@@ -1006,7 +1006,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/about" />
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/about" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/about" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-Hans/about" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/about" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/about" />
   </url>
   <!-- blog: en -->
@@ -1024,6 +1024,118 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/blog" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/blog" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/blog" />
+  </url>
+  <!-- methodology: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/methodology</loc>
+    <lastmod>2026-04-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/methodology" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/methodology" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/methodology" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/methodology" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/methodology" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/methodology" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/methodology" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/methodology" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/methodology" />
+  </url>
+  <!-- methodology: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/methodology</loc>
+    <lastmod>2026-04-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/methodology" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/methodology" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/methodology" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/methodology" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/methodology" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/methodology" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/methodology" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/methodology" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/methodology" />
+  </url>
+  <!-- methodology: es -->
+  <url>
+    <loc>https://www.lolsensei.com/es/methodology</loc>
+    <lastmod>2026-04-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/methodology" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/methodology" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/methodology" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/methodology" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/methodology" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/methodology" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/methodology" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/methodology" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/methodology" />
+  </url>
+  <!-- methodology: fr -->
+  <url>
+    <loc>https://www.lolsensei.com/fr/methodology</loc>
+    <lastmod>2026-04-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/methodology" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/methodology" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/methodology" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/methodology" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/methodology" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/methodology" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/methodology" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/methodology" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/methodology" />
+  </url>
+  <!-- methodology: de -->
+  <url>
+    <loc>https://www.lolsensei.com/de/methodology</loc>
+    <lastmod>2026-04-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/methodology" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/methodology" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/methodology" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/methodology" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/methodology" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/methodology" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/methodology" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/methodology" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/methodology" />
+  </url>
+  <!-- methodology: pt-br -->
+  <url>
+    <loc>https://www.lolsensei.com/pt-br/methodology</loc>
+    <lastmod>2026-04-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/methodology" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/methodology" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/methodology" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/methodology" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/methodology" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/methodology" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/methodology" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/methodology" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/methodology" />
+  </url>
+  <!-- methodology: ko -->
+  <url>
+    <loc>https://www.lolsensei.com/ko/methodology</loc>
+    <lastmod>2026-04-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/methodology" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/methodology" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/methodology" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/methodology" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/methodology" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/methodology" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/methodology" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/methodology" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/methodology" />
+  </url>
+  <!-- methodology: zh-hans -->
+  <url>
+    <loc>https://www.lolsensei.com/zh-hans/methodology</loc>
+    <lastmod>2026-04-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/methodology" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/methodology" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.lolsensei.com/es/methodology" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.lolsensei.com/fr/methodology" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lolsensei.com/de/methodology" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.lolsensei.com/pt-br/methodology" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.lolsensei.com/ko/methodology" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.lolsensei.com/zh-hans/methodology" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/methodology" />
   </url>
   <!-- blog/how-ai-coaching-helps-you-learn-league: en -->
   <url>
@@ -1125,8 +1237,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/tier-list</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/tier-list" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/tier-list" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/tier-list" />
@@ -1135,8 +1245,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/tier-list</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/tier-list" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/tier-list" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/tier-list" />
@@ -1145,8 +1253,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/tier-list?role=top</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/tier-list?role=top" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/tier-list?role=top" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/tier-list?role=top" />
@@ -1155,8 +1261,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/tier-list?role=top</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/tier-list?role=top" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/tier-list?role=top" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/tier-list?role=top" />
@@ -1165,8 +1269,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/tier-list?role=jungle</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/tier-list?role=jungle" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/tier-list?role=jungle" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/tier-list?role=jungle" />
@@ -1175,8 +1277,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/tier-list?role=jungle</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/tier-list?role=jungle" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/tier-list?role=jungle" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/tier-list?role=jungle" />
@@ -1185,8 +1285,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/tier-list?role=mid</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/tier-list?role=mid" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/tier-list?role=mid" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/tier-list?role=mid" />
@@ -1195,8 +1293,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/tier-list?role=mid</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/tier-list?role=mid" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/tier-list?role=mid" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/tier-list?role=mid" />
@@ -1205,8 +1301,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/tier-list?role=bot</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/tier-list?role=bot" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/tier-list?role=bot" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/tier-list?role=bot" />
@@ -1215,8 +1309,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/tier-list?role=bot</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/tier-list?role=bot" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/tier-list?role=bot" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/tier-list?role=bot" />
@@ -1225,8 +1317,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/tier-list?role=support</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/tier-list?role=support" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/tier-list?role=support" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/tier-list?role=support" />
@@ -1235,8 +1325,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/tier-list?role=support</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/tier-list?role=support" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/tier-list?role=support" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/tier-list?role=support" />
@@ -1245,8 +1333,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion" />
@@ -1255,8 +1341,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion" />
@@ -1265,8 +1349,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/aatrox/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/aatrox/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/aatrox/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/aatrox/top/guide" />
@@ -1275,8 +1357,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/aatrox/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/aatrox/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/aatrox/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/aatrox/top/guide" />
@@ -1285,8 +1365,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/ahri/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/ahri/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/ahri/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/ahri/mid/guide" />
@@ -1295,8 +1373,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/ahri/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/ahri/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/ahri/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/ahri/mid/guide" />
@@ -1305,8 +1381,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/akali/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/akali/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/akali/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/akali/mid/guide" />
@@ -1315,8 +1389,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/akali/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/akali/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/akali/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/akali/mid/guide" />
@@ -1325,8 +1397,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/akshan/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/akshan/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/akshan/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/akshan/mid/guide" />
@@ -1335,8 +1405,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/akshan/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/akshan/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/akshan/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/akshan/mid/guide" />
@@ -1345,8 +1413,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/alistar/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/alistar/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/alistar/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/alistar/support/guide" />
@@ -1355,8 +1421,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/alistar/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/alistar/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/alistar/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/alistar/support/guide" />
@@ -1365,8 +1429,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/ambessa/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/ambessa/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/ambessa/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/ambessa/top/guide" />
@@ -1375,8 +1437,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/ambessa/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/ambessa/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/ambessa/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/ambessa/top/guide" />
@@ -1385,8 +1445,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/amumu/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/amumu/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/amumu/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/amumu/jungle/guide" />
@@ -1395,8 +1453,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/amumu/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/amumu/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/amumu/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/amumu/jungle/guide" />
@@ -1405,8 +1461,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/anivia/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/anivia/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/anivia/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/anivia/mid/guide" />
@@ -1415,8 +1469,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/anivia/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/anivia/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/anivia/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/anivia/mid/guide" />
@@ -1425,8 +1477,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/annie/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/annie/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/annie/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/annie/mid/guide" />
@@ -1435,8 +1485,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/annie/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/annie/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/annie/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/annie/mid/guide" />
@@ -1445,8 +1493,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/aphelios/bot/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/aphelios/bot/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/aphelios/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/aphelios/bot/guide" />
@@ -1455,8 +1501,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/aphelios/bot/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/aphelios/bot/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/aphelios/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/aphelios/bot/guide" />
@@ -1465,8 +1509,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/ashe/bot/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/ashe/bot/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/ashe/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/ashe/bot/guide" />
@@ -1475,8 +1517,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/ashe/bot/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/ashe/bot/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/ashe/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/ashe/bot/guide" />
@@ -1485,8 +1525,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/aurelion-sol/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/aurelion-sol/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/aurelion-sol/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/aurelion-sol/mid/guide" />
@@ -1495,8 +1533,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/aurelion-sol/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/aurelion-sol/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/aurelion-sol/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/aurelion-sol/mid/guide" />
@@ -1505,8 +1541,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/aurora/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/aurora/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/aurora/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/aurora/mid/guide" />
@@ -1515,8 +1549,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/aurora/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/aurora/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/aurora/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/aurora/mid/guide" />
@@ -1525,8 +1557,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/azir/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/azir/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/azir/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/azir/mid/guide" />
@@ -1535,8 +1565,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/azir/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/azir/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/azir/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/azir/mid/guide" />
@@ -1545,8 +1573,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/bard/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/bard/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/bard/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/bard/support/guide" />
@@ -1555,8 +1581,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/bard/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/bard/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/bard/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/bard/support/guide" />
@@ -1565,8 +1589,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/belveth/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/belveth/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/belveth/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/belveth/jungle/guide" />
@@ -1575,8 +1597,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/belveth/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/belveth/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/belveth/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/belveth/jungle/guide" />
@@ -1585,8 +1605,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/blitzcrank/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/blitzcrank/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/blitzcrank/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/blitzcrank/support/guide" />
@@ -1595,8 +1613,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/blitzcrank/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/blitzcrank/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/blitzcrank/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/blitzcrank/support/guide" />
@@ -1605,8 +1621,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/braum/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/braum/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/braum/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/braum/support/guide" />
@@ -1615,8 +1629,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/braum/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/braum/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/braum/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/braum/support/guide" />
@@ -1625,8 +1637,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/caitlyn/bot/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/caitlyn/bot/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/caitlyn/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/caitlyn/bot/guide" />
@@ -1635,8 +1645,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/caitlyn/bot/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/caitlyn/bot/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/caitlyn/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/caitlyn/bot/guide" />
@@ -1645,8 +1653,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/darius/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/darius/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/darius/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/darius/top/guide" />
@@ -1655,8 +1661,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/darius/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/darius/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/darius/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/darius/top/guide" />
@@ -1665,8 +1669,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/diana/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/diana/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/diana/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/diana/jungle/guide" />
@@ -1675,8 +1677,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/diana/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/diana/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/diana/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/diana/jungle/guide" />
@@ -1685,8 +1685,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/draven/bot/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/draven/bot/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/draven/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/draven/bot/guide" />
@@ -1695,8 +1693,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/draven/bot/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/draven/bot/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/draven/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/draven/bot/guide" />
@@ -1705,8 +1701,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/ekko/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/ekko/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/ekko/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/ekko/jungle/guide" />
@@ -1715,8 +1709,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/ekko/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/ekko/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/ekko/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/ekko/jungle/guide" />
@@ -1725,8 +1717,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/ezreal/bot/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/ezreal/bot/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/ezreal/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/ezreal/bot/guide" />
@@ -1735,8 +1725,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/ezreal/bot/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/ezreal/bot/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/ezreal/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/ezreal/bot/guide" />
@@ -1745,8 +1733,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/fiora/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/fiora/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/fiora/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/fiora/top/guide" />
@@ -1755,8 +1741,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/fiora/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/fiora/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/fiora/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/fiora/top/guide" />
@@ -1765,8 +1749,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/fizz/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/fizz/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/fizz/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/fizz/mid/guide" />
@@ -1775,8 +1757,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/fizz/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/fizz/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/fizz/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/fizz/mid/guide" />
@@ -1785,8 +1765,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/garen/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/garen/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/garen/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/garen/top/guide" />
@@ -1795,8 +1773,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/garen/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/garen/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/garen/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/garen/top/guide" />
@@ -1805,8 +1781,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/graves/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/graves/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/graves/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/graves/jungle/guide" />
@@ -1815,8 +1789,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/graves/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/graves/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/graves/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/graves/jungle/guide" />
@@ -1825,8 +1797,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/hecarim/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/hecarim/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/hecarim/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/hecarim/jungle/guide" />
@@ -1835,8 +1805,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/hecarim/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/hecarim/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/hecarim/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/hecarim/jungle/guide" />
@@ -1845,8 +1813,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/irelia/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/irelia/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/irelia/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/irelia/top/guide" />
@@ -1855,8 +1821,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/irelia/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/irelia/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/irelia/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/irelia/top/guide" />
@@ -1865,8 +1829,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/janna/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/janna/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/janna/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/janna/support/guide" />
@@ -1875,8 +1837,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/janna/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/janna/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/janna/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/janna/support/guide" />
@@ -1885,8 +1845,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/jax/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/jax/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/jax/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/jax/top/guide" />
@@ -1895,8 +1853,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/jax/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/jax/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/jax/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/jax/top/guide" />
@@ -1905,8 +1861,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/jhin/bot/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/jhin/bot/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/jhin/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/jhin/bot/guide" />
@@ -1915,8 +1869,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/jhin/bot/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/jhin/bot/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/jhin/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/jhin/bot/guide" />
@@ -1925,8 +1877,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/jinx/bot/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/jinx/bot/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/jinx/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/jinx/bot/guide" />
@@ -1935,8 +1885,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/jinx/bot/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/jinx/bot/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/jinx/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/jinx/bot/guide" />
@@ -1945,8 +1893,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/karma/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/karma/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/karma/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/karma/support/guide" />
@@ -1955,8 +1901,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/karma/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/karma/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/karma/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/karma/support/guide" />
@@ -1965,8 +1909,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/kayn/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/kayn/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kayn/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kayn/jungle/guide" />
@@ -1975,8 +1917,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/kayn/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/kayn/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kayn/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kayn/jungle/guide" />
@@ -1985,8 +1925,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/kha-zix/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/kha-zix/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kha-zix/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kha-zix/jungle/guide" />
@@ -1995,8 +1933,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/kha-zix/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/kha-zix/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kha-zix/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kha-zix/jungle/guide" />
@@ -2005,8 +1941,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/lee-sin/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/lee-sin/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/lee-sin/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/lee-sin/jungle/guide" />
@@ -2015,8 +1949,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/lee-sin/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/lee-sin/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/lee-sin/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/lee-sin/jungle/guide" />
@@ -2025,8 +1957,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/leona/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/leona/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/leona/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/leona/support/guide" />
@@ -2035,8 +1965,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/leona/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/leona/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/leona/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/leona/support/guide" />
@@ -2045,8 +1973,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/lulu/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/lulu/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/lulu/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/lulu/support/guide" />
@@ -2055,8 +1981,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/lulu/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/lulu/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/lulu/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/lulu/support/guide" />
@@ -2065,8 +1989,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/lux/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/lux/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/lux/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/lux/mid/guide" />
@@ -2075,8 +1997,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/lux/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/lux/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/lux/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/lux/mid/guide" />
@@ -2085,8 +2005,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/malphite/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/malphite/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/malphite/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/malphite/top/guide" />
@@ -2095,8 +2013,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/malphite/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/malphite/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/malphite/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/malphite/top/guide" />
@@ -2105,8 +2021,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/miss-fortune/bot/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/miss-fortune/bot/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/miss-fortune/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/miss-fortune/bot/guide" />
@@ -2115,8 +2029,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/miss-fortune/bot/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/miss-fortune/bot/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/miss-fortune/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/miss-fortune/bot/guide" />
@@ -2125,8 +2037,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/morgana/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/morgana/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/morgana/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/morgana/support/guide" />
@@ -2135,8 +2045,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/morgana/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/morgana/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/morgana/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/morgana/support/guide" />
@@ -2145,8 +2053,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/nami/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/nami/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/nami/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/nami/support/guide" />
@@ -2155,8 +2061,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/nami/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/nami/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/nami/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/nami/support/guide" />
@@ -2165,8 +2069,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/nasus/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/nasus/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/nasus/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/nasus/top/guide" />
@@ -2175,8 +2077,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/nasus/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/nasus/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/nasus/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/nasus/top/guide" />
@@ -2185,8 +2085,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/neeko/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/neeko/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/neeko/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/neeko/mid/guide" />
@@ -2195,8 +2093,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/neeko/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/neeko/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/neeko/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/neeko/mid/guide" />
@@ -2205,8 +2101,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/neeko/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/neeko/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/neeko/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/neeko/support/guide" />
@@ -2215,8 +2109,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/neeko/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/neeko/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/neeko/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/neeko/support/guide" />
@@ -2225,8 +2117,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/neeko/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/neeko/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/neeko/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/neeko/top/guide" />
@@ -2235,8 +2125,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/neeko/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/neeko/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/neeko/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/neeko/top/guide" />
@@ -2245,8 +2133,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/orianna/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/orianna/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/orianna/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/orianna/mid/guide" />
@@ -2255,8 +2141,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/orianna/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/orianna/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/orianna/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/orianna/mid/guide" />
@@ -2265,8 +2149,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/pantheon/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/pantheon/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/pantheon/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/pantheon/support/guide" />
@@ -2275,8 +2157,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/pantheon/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/pantheon/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/pantheon/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/pantheon/support/guide" />
@@ -2285,8 +2165,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/renekton/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/renekton/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/renekton/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/renekton/top/guide" />
@@ -2295,8 +2173,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/renekton/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/renekton/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/renekton/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/renekton/top/guide" />
@@ -2305,8 +2181,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/sett/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/sett/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/sett/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/sett/top/guide" />
@@ -2315,8 +2189,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/sett/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/sett/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/sett/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/sett/top/guide" />
@@ -2325,8 +2197,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/soraka/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/soraka/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/soraka/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/soraka/support/guide" />
@@ -2335,8 +2205,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/soraka/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/soraka/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/soraka/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/soraka/support/guide" />
@@ -2345,8 +2213,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/syndra/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/syndra/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/syndra/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/syndra/mid/guide" />
@@ -2355,8 +2221,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/syndra/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/syndra/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/syndra/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/syndra/mid/guide" />
@@ -2365,8 +2229,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/thresh/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/thresh/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/thresh/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/thresh/support/guide" />
@@ -2375,8 +2237,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/thresh/support/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/thresh/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/thresh/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/thresh/support/guide" />
@@ -2385,8 +2245,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/tristana/bot/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/tristana/bot/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/tristana/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/tristana/bot/guide" />
@@ -2395,8 +2253,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/tristana/bot/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/tristana/bot/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/tristana/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/tristana/bot/guide" />
@@ -2405,8 +2261,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/udyr/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/udyr/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/udyr/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/udyr/jungle/guide" />
@@ -2415,8 +2269,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/udyr/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/udyr/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/udyr/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/udyr/jungle/guide" />
@@ -2425,8 +2277,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/udyr/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/udyr/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/udyr/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/udyr/top/guide" />
@@ -2435,8 +2285,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/udyr/top/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/udyr/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/udyr/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/udyr/top/guide" />
@@ -2445,8 +2293,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/vayne/bot/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/vayne/bot/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/vayne/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/vayne/bot/guide" />
@@ -2455,8 +2301,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/vayne/bot/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/vayne/bot/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/vayne/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/vayne/bot/guide" />
@@ -2465,8 +2309,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/vi/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/vi/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/vi/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/vi/jungle/guide" />
@@ -2475,8 +2317,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/vi/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/vi/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/vi/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/vi/jungle/guide" />
@@ -2485,8 +2325,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/viego/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/viego/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/viego/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/viego/jungle/guide" />
@@ -2495,8 +2333,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/viego/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/viego/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/viego/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/viego/jungle/guide" />
@@ -2505,8 +2341,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/warwick/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/warwick/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/warwick/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/warwick/jungle/guide" />
@@ -2515,8 +2349,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/warwick/jungle/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/warwick/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/warwick/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/warwick/jungle/guide" />
@@ -2525,8 +2357,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/yasuo/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/yasuo/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/yasuo/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/yasuo/mid/guide" />
@@ -2535,8 +2365,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/yasuo/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/yasuo/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/yasuo/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/yasuo/mid/guide" />
@@ -2545,8 +2373,6 @@
   <url>
     <loc>https://www.lolsensei.com/en/champion/zed/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/zed/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/zed/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/zed/mid/guide" />
@@ -2555,8 +2381,6 @@
   <url>
     <loc>https://www.lolsensei.com/it/champion/zed/mid/guide</loc>
     <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/zed/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/zed/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/zed/mid/guide" />

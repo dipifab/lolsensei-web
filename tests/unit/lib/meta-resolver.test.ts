@@ -36,9 +36,12 @@ describe('meta-resolver — getStaticMeta', () => {
     expect(out.description).toBe('');
   });
 
-  it('normalizes locale casing (zh-hans → zh-Hans) so both resolve to the same entry', () => {
-    const canonical = getStaticMeta('pricing', 'zh-Hans');
-    const lower = getStaticMeta('pricing', 'zh-hans');
-    expect(lower.title).toBe(canonical.title);
+  it('normalizes locale casing (zh-Hans → zh-hans) so both resolve to the same entry', () => {
+    // REQ-SEO-023: canonical URL path is now `zh-hans` (lowercase). The
+    // resolver still accepts the legacy `zh-Hans` casing via `canonicalLocale`
+    // so prerendered routes don't 404 on stale links.
+    const canonical = getStaticMeta('pricing', 'zh-hans');
+    const legacy = getStaticMeta('pricing', 'zh-Hans');
+    expect(legacy.title).toBe(canonical.title);
   });
 });

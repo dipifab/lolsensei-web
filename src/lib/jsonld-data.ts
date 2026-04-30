@@ -42,6 +42,14 @@ export interface WebSiteData {
   description: string;
 }
 
+export interface OfferRef {
+  '@type': 'Offer';
+  name: string;
+  price: string;
+  priceCurrency: string;
+  availability: 'https://schema.org/InStock' | 'https://schema.org/PreOrder';
+}
+
 export interface SoftwareApplicationData {
   '@context'?: 'https://schema.org';
   '@type': 'SoftwareApplication';
@@ -52,6 +60,11 @@ export interface SoftwareApplicationData {
   operatingSystem: string;
   screenshot: string[];
   description: string;
+  url: string;
+  downloadUrl: string;
+  image: string;
+  publisher: IdRef;
+  offers: OfferRef[];
 }
 
 export interface FAQQuestion {
@@ -134,6 +147,33 @@ export const SOFTWARE: SoftwareApplicationData = {
   operatingSystem: 'Windows 10, Windows 11',
   screenshot: [],
   description: 'Real-time AI coaching for League of Legends. Learn champion select, builds, and game strategy.',
+  url: BASE_URL,
+  downloadUrl: `${BASE_URL}/downloads/LoLSensei-Setup.exe`,
+  image: `${BASE_URL}/og-image.png`,
+  publisher: { '@id': ORG['@id'] },
+  offers: [
+    {
+      '@type': 'Offer',
+      name: 'Free',
+      price: '0',
+      priceCurrency: 'EUR',
+      availability: 'https://schema.org/InStock',
+    },
+    {
+      '@type': 'Offer',
+      name: 'Ad-Free',
+      price: '2.99',
+      priceCurrency: 'EUR',
+      availability: 'https://schema.org/InStock',
+    },
+    {
+      '@type': 'Offer',
+      name: 'Pro',
+      price: '7.99',
+      priceCurrency: 'EUR',
+      availability: 'https://schema.org/PreOrder',
+    },
+  ],
 };
 
 // ----- Builders -----

@@ -202,7 +202,7 @@ const ko = {
   'lang.en': 'English',
   'lang.it': 'Italiano',
   'lang.ko': '한국어',
-  'lang.zh-Hans': '中文',
+  'lang.zh-hans': '中文',
   'lang.pt-br': 'Português',
   'lang.es': 'Español',
   'lang.fr': 'Français',
@@ -1162,6 +1162,40 @@ const ko = {
   'coach.quota_exceeded.chat': 'You\'ve used all your chat messages this month. Resets on {reset_date}.',
   'coach.quota_exceeded.drill': 'You\'ve used all your drill regenerations this week.',
   'coach.quota_exceeded.upgrade_hint': 'Upgrade to Full for higher limits',
+  // ---------------------- WP-SEO-AUDIT-2026-05 — Phase 4 ----------------------
+  // REQ-SEO-005
+  'home.beta_notice': '비공개 베타 — 출시 전까지 결제가 발생하지 않습니다. 무료 다운로드를 지금 이용하실 수 있고, 유료 등급은 정식 출시 시점부터만 청구됩니다.',
+  'pricing.beta_notice': '비공개 베타 — 출시 전까지 결제가 발생하지 않습니다. 무료 다운로드를 지금 이용하실 수 있고, 유료 등급은 정식 출시 시점부터만 청구됩니다.',
+
+  // REQ-SEO-012 (실제 렌더링은 EN/IT 가이드에서만; 키 패리티용으로 보유) — TODO native review
+  'champion.guide.experience_callout.title': '패치 {patch}에서 검증',
+  'champion.guide.experience_callout.body': '이 빌드는 {role} 라인에 특화된 파워 스파이크 타이밍과 매치업 안전성에 초점을 맞춥니다. 방법론은 매 패치 사이클마다 보완됩니다. 조작된 통계는 사용하지 않습니다.',
+
+  // REQ-SEO-013 — TODO native review
+  'nav.methodology': '제작 방법론',
+  'meta.methodology.title': '제작 방법론 — LoL Sensei',
+  'meta.methodology.description': 'LoL Sensei가 패치를 어떻게 검증하고, 챔피언 데이터를 어디서 가져오며, 가이드를 어떤 주기로 갱신하는지. 편집 기준과 의도적으로 약속하지 않는 것들.',
+  'methodology.hero.label': '편집 기준',
+  'methodology.hero.title': '저희가 가이드를 만드는 방식',
+  'methodology.hero.subtitle': '저희가 게시하는 모든 챔피언 가이드, tier list 신호, 메타 진단의 뒤에 있는 과정에 대한 짧고 솔직한 설명입니다.',
+  'methodology.patches.title': '어떤 패치를 검증할지 고르는 방식',
+  'methodology.patches.body': '패치가 배포된 뒤 최소 48시간을 기다린 다음 작성을 시작합니다. 이 시간 동안 핫픽스가 안정되고, 첫날 여론에 휘둘리지 않고 영향받은 챔피언으로 모든 라인의 매치를 직접 플레이할 수 있습니다. 결과는 가이드가 게시되기 전에 여러 라인에서 다시 검증됩니다.',
+  'methodology.sources.title': '챔피언 데이터 소스',
+  'methodology.sources.body': '능력, 기본 스탯, 계수, 아이템 상호작용 같은 정적 챔피언 데이터는 Riot Data Dragon — 라이엇이 제공하는 공식 정적 에셋 번들에서 가져옵니다. 현재 메타 검증을 위해서는 라이엇의 공개 매치 엔드포인트인 Riot match-v5를 함께 확인해, 우리 가이드가 실제로 해당 패치에서 플레이되는 양상을 반영하도록 합니다. 제3자 집계 사이트는 절대 스크래핑하지 않습니다.',
+  'methodology.cadence.title': '업데이트 주기',
+  'methodology.cadence.body': '각 가이드는 최소 패치 한 사이클마다 — 대략 2주에 한 번 — 다시 검토됩니다. 메타를 흔드는 변경(시스템 리워크, 핵심 아이템 리밸런스, 챔피언을 정의하는 버프나 너프)이 더 일찍 들어오면 다음 패치를 기다리지 않고 사이클 외 갱신을 트리거합니다.',
+  'methodology.standards.title': '편집 기준',
+  'methodology.standards.body': '저희는 가르치는 데 집중합니다. 일반적인 stat 집계 사이트에서 그대로 가져오지 않으며, tier 라벨보다 근거를 우선합니다. 매치업에서 빌드 경로가 왜 통하는지 설명하는 가이드는, 그날의 win rate가 가장 높은 아이템들을 단순히 나열하는 가이드보다 항상 높은 평가를 받습니다.',
+  'methodology.disclaimers.title': '저희가 약속하지 않는 것',
+  'methodology.disclaimers.body': '통계적인 win rate 보장을 약속하지 않으며, "확정 승급" 같은 광고도 하지 않습니다. 개인 코칭 자격이나 랭크 기반의 권위도 내세우지 않습니다. 저희의 가치는 패치에 단단히 얽힌 설명입니다. 가이드가 자기 논리를 방어할 수 없다면, 게시되어서는 안 됩니다.',
+
+  // REQ-SEO-020 — TODO native review
+  'about.why.title': '왜 이걸 만들었는가',
+  'about.why.p1': '대부분의 League of Legends 학습 자료는 여러분이 무엇을 봐야 하는지 이미 알고 있다고 가정합니다. tier list는 매치업을 가르치지 않은 채로 챔피언만 정렬합니다. 빌드 사이트는 특정 라인 상황에서 왜 한 경로가 다른 경로를 이기는지 설명하지 않은 채 아이템만 나열합니다. 통계적으로 인기 있는 것과 이 게임에서 옳은 것 사이의 간극이 바로 플레이어들이 더 이상 성장하지 못하는 지점이며, 저희가 코치를 두고 싶었던 지점입니다.',
+  'about.why.p2': 'LoL Sensei는 그 간극을 메우려고 존재합니다. 우리가 출시하는 모든 기능은 단 한 가지 질문에 답합니다 — 이 기능이 실제 플레이어가 협곡에서 다음에 내려야 할 결정을 이해하는 데 도움이 되는가? 답이 "아니요"라면, 데이터가 아무리 정교해 보여도 잘라냅니다.',
+  'about.team.title': '저희 팀의 작업 방식',
+  'about.team.description': '저희는 한 사람을 앞세운 브랜드가 아니라 작은 제품 팀으로 일합니다. 무엇을 출시할지에 대한 결정은 게임플레이 문제를 가장 먼저, 기술적 제약을 그다음으로 보고, 누구의 아이디어인지는 결코 보지 않습니다. 그래서 제품이 차분하게 유지됩니다 — 가이드는 트렌드를 쫓지 않고, 오버레이는 비대해지지 않으며, 업데이트는 편집 일정이 아니라 실제 패치 흐름에 맞춰 나갑니다.',
+
 } as const;
 
 export default ko;

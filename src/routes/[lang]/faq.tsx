@@ -9,11 +9,9 @@ import { useI18n } from '../../i18n';
 import { FAQ_ITEMS, FAQ_CATEGORIES } from '../../data/faq';
 import type { FAQCategoryId } from '../../data/faq';
 import { HreflangCluster } from '../../components/seo/HreflangCluster';
-import { JsonLd } from '../../components/seo/JsonLd';
 import { BASE_URL, getRouteSeo } from '../../lib/seo/routes';
 import { canonicalLocale } from '../../lib/i18n/locales';
-import { getStaticMeta } from '../../lib/seo/meta-resolver';
-import { getStaticFaqEntries } from '../../lib/seo/faq-resolver';
+import { getStaticMeta, getOgLocale, OG_SITE_NAME } from '../../lib/seo/meta-resolver';
 
 export default function FAQRoute() {
   const params = useParams<{ lang: string }>();
@@ -22,17 +20,6 @@ export default function FAQRoute() {
   const canonical = () => `${BASE_URL}/${locale()}/faq`;
   const ogImage = () => (seo ? `${BASE_URL}${seo.ogImage}` : BASE_URL);
   const meta = () => getStaticMeta('faq', params.lang);
-  const faqData = () => ({
-    '@type': 'FAQPage',
-    mainEntity: getStaticFaqEntries(params.lang).map((e) => ({
-      '@type': 'Question',
-      name: e.question,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: e.answer,
-      },
-    })),
-  });
 
   const { t, locale: i18nLocale } = useI18n();
   const [openIndex, setOpenIndex] = createSignal<number | null>(0);
@@ -65,8 +52,12 @@ export default function FAQRoute() {
       <Meta property="og:description" content={meta().description} />
       <Meta property="og:image" content={ogImage()} />
       <Meta property="og:url" content={canonical()} />
+      <Meta name="robots" content="index,follow" />
+      <Meta property="og:type" content="website" />
+      <Meta property="og:locale" content={getOgLocale(params.lang)} />
+      <Meta property="og:site_name" content={OG_SITE_NAME} />
+      <Meta name="twitter:card" content="summary_large_image" />
       <HreflangCluster path="faq" baseUrl={BASE_URL} />
-      <JsonLd data={faqData()} />
       <Navbar />
       <BreadcrumbJsonLd
         lang={i18nLocale()}

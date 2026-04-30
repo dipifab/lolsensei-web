@@ -68,7 +68,7 @@ test.describe('@wp30 riot-disclaimer presence on WP30 pages', () => {
     test.skip(!seedPath, 'WP30_SEED_SUMMONER_PATH not set; NO mock allowed.');
     if (!seedPath) return;
     // Force EN locale by swapping the prefix.
-    const enPath = seedPath.replace(/^\/(en|it|es|fr|de|pt-br|ko|zh-Hans)\//, '/en/');
+    const enPath = seedPath.replace(/^\/(en|it|es|fr|de|pt-br|ko|zh-hans)\//, '/en/');
     const res = await request.get(enPath);
     if (res.status() !== 200) {
       test.skip(true, `Summoner EN returned ${res.status()}; cannot validate disclaimer.`);
@@ -81,7 +81,7 @@ test.describe('@wp30 riot-disclaimer presence on WP30 pages', () => {
     const seedPath = process.env.WP30_SEED_SUMMONER_PATH;
     test.skip(!seedPath, 'WP30_SEED_SUMMONER_PATH not set; NO mock allowed.');
     if (!seedPath) return;
-    const itPath = seedPath.replace(/^\/(en|it|es|fr|de|pt-br|ko|zh-Hans)\//, '/it/');
+    const itPath = seedPath.replace(/^\/(en|it|es|fr|de|pt-br|ko|zh-hans)\//, '/it/');
     const res = await request.get(itPath);
     if (res.status() !== 200) {
       test.skip(true, `Summoner IT returned ${res.status()}; cannot validate disclaimer.`);

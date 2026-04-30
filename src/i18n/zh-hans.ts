@@ -202,7 +202,7 @@ const zh = {
   'lang.en': 'English',
   'lang.it': 'Italiano',
   'lang.ko': '한국어',
-  'lang.zh-Hans': '中文',
+  'lang.zh-hans': '中文',
   'lang.pt-br': 'Português',
   'lang.es': 'Español',
   'lang.fr': 'Français',
@@ -480,7 +480,7 @@ const zh = {
   'a11y.notifications': 'Notifications',
 
   // WP24 TASK-4-024 — eager keys referenziate da Footer/PrivacyLinks
-  // (altre chiavi consent/privacy/cookies vivono in ./legal/zh-Hans.ts, lazy).
+  // (altre chiavi consent/privacy/cookies vivono in ./legal/zh-hans.ts, lazy).
   'consent.footer_link': 'Cookie preferences',
   'cookies.title': 'Cookie Policy',
   'privacy.page_title': 'Privacy Policy',
@@ -1162,6 +1162,40 @@ const zh = {
   'coach.quota_exceeded.chat': 'You\'ve used all your chat messages this month. Resets on {reset_date}.',
   'coach.quota_exceeded.drill': 'You\'ve used all your drill regenerations this week.',
   'coach.quota_exceeded.upgrade_hint': 'Upgrade to Full for higher limits',
+  // ---------------------- WP-SEO-AUDIT-2026-05 — Phase 4 ----------------------
+  // REQ-SEO-005
+  'home.beta_notice': '内测中——正式上线前不会产生任何费用。免费版可立即下载；付费档位仅在公开发售后才开始计费。',
+  'pricing.beta_notice': '内测中——正式上线前不会产生任何费用。免费版可立即下载；付费档位仅在公开发售后才开始计费。',
+
+  // REQ-SEO-012 (仅在 EN/IT 攻略页渲染；为了 key 对齐保留全部语言) — TODO native review
+  'champion.guide.experience_callout.title': '基于补丁 {patch} 测试',
+  'champion.guide.experience_callout.body': '该 build 优先考虑 {role} 位置专属的强势期节奏与对线安全性。每个补丁周期都会重新审视方法论。不使用任何编造的数据。',
+
+  // REQ-SEO-013 — TODO native review
+  'nav.methodology': '方法论',
+  'meta.methodology.title': '方法论 — LoL Sensei',
+  'meta.methodology.description': 'LoL Sensei 如何测试补丁、获取英雄数据、按怎样的节奏更新攻略。我们的编辑标准，以及我们刻意不去承诺的事情。',
+  'methodology.hero.label': '编辑标准',
+  'methodology.hero.title': '我们如何打造每一篇攻略',
+  'methodology.hero.subtitle': '关于我们发布的每一篇英雄攻略、tier list 信号、版本判断背后流程的简短而坦诚的说明。',
+  'methodology.patches.title': '我们如何选择要测试的补丁',
+  'methodology.patches.body': '补丁部署后我们至少等 48 小时再开始撰写。这段窗口让 hotfix 趋于稳定，也让我们可以用受影响的英雄在每个位置实际打几把对局，而不是被上线第一天的舆论牵着走。结论会在多个位置反复验证后，攻略才会上线。',
+  'methodology.sources.title': '英雄数据来源',
+  'methodology.sources.body': '英雄技能、基础属性、系数、装备交互等静态数据来自 Riot Data Dragon —— 拳头官方的静态资源包。为了验证当前版本的实际情况，我们会与 Riot match-v5（拳头官方的对局公开端点）的数据进行交叉核对，确保攻略反映的是当前补丁下真正在被使用的内容。我们从不抓取任何第三方聚合站点。',
+  'methodology.cadence.title': '更新节奏',
+  'methodology.cadence.body': '每篇攻略至少在每一个补丁周期内复查一次，约每两周一次。如果出现影响版本的更早改动 —— 系统级重做、装备大幅调整、决定性的英雄加强或削弱 —— 我们会触发一次脱离常规节奏的紧急更新，而不是等下一个补丁。',
+  'methodology.standards.title': '编辑标准',
+  'methodology.standards.body': '我们专注于教学。我们绝不从普通的数据聚合站直接照搬，并且更看重背后的推理而非 tier 标签。一篇能解释某条 build 路线在某个对线为什么有效的攻略，永远比单纯列出当天 win rate 最高的几件装备的攻略评价更高。',
+  'methodology.disclaimers.title': '我们不承诺什么',
+  'methodology.disclaimers.body': '我们不承诺任何统计意义上的 win rate 保证，也不宣传"包上分"。我们不会拿出个人的 coaching 资历或基于段位的权威性来背书。我们的价值是与补丁紧密锚定的解释；如果一篇攻略守不住自己的逻辑，那它就不该被发表。',
+
+  // REQ-SEO-020 — TODO native review
+  'about.why.title': '为什么会有这个项目',
+  'about.why.p1': '大多数 League of Legends 的学习资源都默认你已经知道该看什么。tier list 只列英雄强弱，却不教对线；build 网站只列装备，却不解释为什么某条出装路线在某种对线状态下能压过另一条。统计上"热门"的与这局里"正确"的之间的鸿沟，正是大多数玩家停止进步的位置 —— 也正是我们想要一位教练的位置。',
+  'about.why.p2': 'LoL Sensei 就是为了填上这个鸿沟而存在的。我们发布的每一个功能都只回答一个问题：它能否帮一个真实的玩家理解他在峡谷上即将做出的下一个决定？如果答案是否定的，那么不管它背后的数据看上去多么聪明，我们都会砍掉它。',
+  'about.team.title': '我们的团队工作方式',
+  'about.team.description': '我们是一个很小的产品团队，而不是围绕某一个人的品牌。决定要发布什么时，先看 gameplay 问题、再看技术约束，从不看是谁提出的想法。这让产品保持冷静 —— 攻略不追热点，overlay 不臃肿，更新节奏跟随真正的补丁现实，而不是一份编辑日历。',
+
 } as const;
 
 export default zh;

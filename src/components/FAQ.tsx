@@ -103,7 +103,7 @@ export default function FAQ() {
           <div class="absolute -top-24 -right-24 w-64 h-64 bg-primary/10 rounded-full blur-[80px]" />
           <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
             <div>
-              <h3 class="text-3xl font-extrabold font-headline mb-2">{t('faq.contact.title')}</h3>
+              <h3 id="faq-contact" class="text-3xl font-extrabold font-headline mb-2">{t('faq.contact.title')}</h3>
               <p class="text-on-surface-variant">{t('faq.contact.description')}</p>
             </div>
             <a

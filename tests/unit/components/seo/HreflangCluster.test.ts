@@ -13,12 +13,14 @@ describe('buildHreflangLinks', () => {
     });
   });
 
-  it('uses BCP-47 casing for hreflang (pt-BR, zh-Hans) while keeping path segment lowercase', () => {
+  it('uses BCP-47 hreflang values (pt-BR, zh-Hans) while keeping the URL path lowercase', () => {
     const links = buildHreflangLinks('features', BASE);
     const ptBr = links.find((l) => l.hreflang === 'pt-BR');
     const zhHans = links.find((l) => l.hreflang === 'zh-Hans');
+    // REQ-SEO-023: hreflang attribute value stays mixed-case `zh-Hans`
+    // (BCP-47 / RFC 5646), but the URL path segment is lowercase `zh-hans`.
     expect(ptBr?.href).toBe(`${BASE}/pt-br/features`);
-    expect(zhHans?.href).toBe(`${BASE}/zh-Hans/features`);
+    expect(zhHans?.href).toBe(`${BASE}/zh-hans/features`);
   });
 
   it('restricts to BLOG_LOCALES (en,it) when isBlogRoute=true — 3 entries total', () => {

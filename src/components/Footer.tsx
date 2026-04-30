@@ -10,8 +10,12 @@ export default function Footer() {
   // WP24 U2 (WCAG 1.4.3) — contrasto: text-on-surface/40 (~4.42:1) e' sotto
   // il minimo AA 4.5:1 per testo normale. Bump a /70 (~9:1) e focus ring
   // esplicito per 2.4.7 (F-10).
+  // WP-SEO-AUDIT-2026-05 REQ-SEO-025 — tap target ≥44x44px:
+  // `min-h-[44px] inline-flex items-center` garantisce hit-area conforme a
+  // WCAG 2.5.5. `min-w-11` e `px-2` evitano link a colonna stretta sotto i
+  // 44px di larghezza. Su mobile bump del `gap-y` per evitare overlap percepito.
   const linkClass =
-    'inline-flex items-center justify-center min-h-11 min-w-11 px-2 text-on-surface/70 hover:text-primary-container transition-colors text-sm font-body tracking-tight rounded focus-visible:ring-2 focus-visible:ring-primary-container focus-visible:outline-none';
+    'inline-flex items-center justify-center min-h-[44px] min-w-11 px-2 text-on-surface/70 hover:text-primary-container transition-colors text-sm font-body tracking-tight rounded focus-visible:ring-2 focus-visible:ring-primary-container focus-visible:outline-none';
 
   return (
     <footer class="w-full py-12 border-t border-surface-variant/10 bg-surface-container-lowest">
@@ -20,7 +24,10 @@ export default function Footer() {
           LoL Sensei
         </div>
 
-        <nav aria-label={t('a11y.footerNav')} class="flex flex-wrap justify-center gap-x-6 gap-y-2">
+        <nav
+          aria-label={t('a11y.footerNav')}
+          class="flex flex-wrap justify-center gap-x-6 gap-y-3 md:gap-y-2"
+        >
           <A href={localizedHref('/terms')} class={linkClass}>
             {t('footer.terms')}
           </A>

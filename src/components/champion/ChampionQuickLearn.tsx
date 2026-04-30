@@ -198,7 +198,7 @@ export function ChampionQuickLearn(
 
       {/* Abilities — stacked full-width per leggibilita' descrizioni */}
       <div class="mb-8">
-        <h3 class="text-[10px] text-on-surface-variant/70 font-bold tracking-widest uppercase mb-3">
+        <h3 id="champion-abilities" class="text-[10px] text-on-surface-variant/70 font-bold tracking-widest uppercase mb-3">
           {labels.abilities}
         </h3>
         <div class="flex flex-col gap-2">
@@ -246,7 +246,7 @@ export function ChampionQuickLearn(
 
       {/* Skill order */}
       <div class="mb-8 overflow-x-auto">
-        <h3 class="text-[10px] text-primary-container font-bold tracking-widest uppercase mb-3">
+        <h3 id="champion-skill-order" class="text-[10px] text-primary-container font-bold tracking-widest uppercase mb-3">
           {labels.skill_order}
         </h3>
         <div class="flex gap-2 min-w-max pb-2 items-end">
@@ -274,7 +274,7 @@ export function ChampionQuickLearn(
       {/* Combo + Core items */}
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
         <div>
-          <h3 class="text-[10px] text-on-surface-variant/70 font-bold tracking-widest uppercase mb-3">
+          <h3 id="champion-combo" class="text-[10px] text-on-surface-variant/70 font-bold tracking-widest uppercase mb-3">
             {labels.combo}
           </h3>
           <div class="flex flex-wrap items-center gap-2 bg-surface-container-low border border-outline-variant/20 rounded-lg p-4">
@@ -305,7 +305,7 @@ export function ChampionQuickLearn(
         </div>
 
         <div>
-          <h3 class="text-[10px] text-on-surface-variant/70 font-bold tracking-widest uppercase mb-3">
+          <h3 id="champion-core-items" class="text-[10px] text-on-surface-variant/70 font-bold tracking-widest uppercase mb-3">
             {labels.core_items}
           </h3>
           <div class="flex flex-wrap items-center gap-2 bg-surface-container-low border border-outline-variant/20 rounded-lg p-4">
@@ -348,7 +348,7 @@ export function ChampionQuickLearn(
       <Show when={props.data.situational_items}>
         {(items) => (
           <div class="mb-8">
-            <h3 class="text-[10px] text-on-surface-variant/70 font-bold tracking-widest uppercase mb-3">
+            <h3 id="champion-situational-items" class="text-[10px] text-on-surface-variant/70 font-bold tracking-widest uppercase mb-3">
               {labels.situational_items}
             </h3>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -395,7 +395,7 @@ export function ChampionQuickLearn(
       <Show when={props.data.runes}>
         {(runes) => (
           <div class="mb-8">
-            <h3 class="text-[10px] text-on-surface-variant/70 font-bold tracking-widest uppercase mb-3">
+            <h3 id="champion-runes" class="text-[10px] text-on-surface-variant/70 font-bold tracking-widest uppercase mb-3">
               {labels.runes_title}
             </h3>
             <div class="bg-surface-container-low border border-outline-variant/20 rounded-lg p-4 space-y-4">
@@ -580,7 +580,7 @@ export function ChampionQuickLearn(
             <span class="text-tertiary-container" aria-hidden="true">
               ▲
             </span>
-            <h3 class="text-[10px] text-primary-container font-bold tracking-widest uppercase">
+            <h3 id="champion-win-condition" class="text-[10px] text-primary-container font-bold tracking-widest uppercase">
               {labels.win_condition}
             </h3>
           </div>
@@ -593,7 +593,7 @@ export function ChampionQuickLearn(
             <span class="text-error" aria-hidden="true">
               ▼
             </span>
-            <h3 class="text-[10px] text-primary-container font-bold tracking-widest uppercase">
+            <h3 id="champion-weakness" class="text-[10px] text-primary-container font-bold tracking-widest uppercase">
               {labels.weakness}
             </h3>
           </div>

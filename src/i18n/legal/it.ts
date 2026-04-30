@@ -95,6 +95,7 @@ const itLegal = {
   'consent.banner.reject': 'Rifiuta non essenziali',
   'consent.banner.customize': 'Personalizza',
   'consent.banner.close_aria': 'Chiudi il banner e rifiuta i cookie non essenziali',
+  'cookies.expand_details': 'Impostazioni cookie — mostra dettagli',
 
   // Preference Center (Screen #2)
   'consent.preferences.title': 'Preferenze cookie',

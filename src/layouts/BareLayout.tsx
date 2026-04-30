@@ -17,7 +17,7 @@ const SKIP_TO_MAIN: Record<string, string> = {
   de: 'Zum Hauptinhalt springen',
   'pt-br': 'Ir para o conteúdo principal',
   ko: '본문으로 건너뛰기',
-  'zh-Hans': '跳转到主要内容',
+  'zh-hans': '跳转到主要内容',
 };
 
 function detectLocaleFromPath(pathname: string): string {

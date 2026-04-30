@@ -13,7 +13,7 @@ export default function FeaturesBento() {
             <div class="flex justify-between items-start mb-12">
               <div>
                 <span class="text-xs font-headline font-extrabold uppercase tracking-[0.2em] text-primary-container mb-2 block">{t('features.bento.label')}</span>
-                <h3 class="text-3xl font-extrabold tracking-tight">{t('features.bento.champSelect.title')}</h3>
+                <h3 id="features-champ-select" class="text-3xl font-extrabold tracking-tight">{t('features.bento.champSelect.title')}</h3>
               </div>
               <Icon name="smart_toy_filled" class="w-8 h-8 text-primary-container" />
             </div>
@@ -41,7 +41,7 @@ export default function FeaturesBento() {
           <div class="lg:col-span-5 bg-surface-container-high rounded-xl p-8 border border-outline-variant/10 flex flex-col justify-between">
             <div>
               <Icon name="strategy_filled" class="w-8 h-8 text-secondary mb-6" />
-              <h3 class="text-3xl font-extrabold tracking-tight mb-4">{t('features.bento.gameStart.title')}</h3>
+              <h3 id="features-game-start" class="text-3xl font-extrabold tracking-tight mb-4">{t('features.bento.gameStart.title')}</h3>
               <p class="text-on-surface-variant mb-8">{t('features.bento.gameStart.description')}</p>
             </div>
             <div class="bg-surface-container-lowest rounded-lg p-6 border border-outline-variant/10">
@@ -60,7 +60,7 @@ export default function FeaturesBento() {
           <div class="lg:col-span-12 bg-surface-container rounded-xl border border-primary-container/20 overflow-hidden">
             <div class="grid grid-cols-1 md:grid-cols-2">
               <div class="p-10 md:p-16 flex flex-col justify-center">
-                <h3 class="text-4xl font-extrabold tracking-tight mb-6">{t('features.bento.itemAdvisor.title')}</h3>
+                <h3 id="features-item-advisor" class="text-4xl font-extrabold tracking-tight mb-6">{t('features.bento.itemAdvisor.title')}</h3>
                 <p class="text-on-surface-variant text-lg mb-10 leading-relaxed">
                   {t('features.bento.itemAdvisor.description')}
                 </p>

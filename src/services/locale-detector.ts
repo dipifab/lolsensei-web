@@ -11,7 +11,7 @@ export function normalizeNavigatorLang(raw: string): Locale | null {
   const lower = raw.toLowerCase();
 
   if (lower === 'zh-cn' || lower === 'zh' || lower === 'zh-hans' || lower.startsWith('zh-hans')) {
-    return 'zh-Hans';
+    return 'zh-hans';
   }
   if (lower === 'pt-br' || lower.startsWith('pt-br')) {
     return 'pt-br';

@@ -103,6 +103,7 @@ export default function Navbar() {
         <A href={localizedHref('/')} class="flex items-center -my-4 shrink-0">
           <img
             src="/images/logo-120.webp"
+            loading="eager"
             alt="LoL Sensei"
             width="120"
             height="120"

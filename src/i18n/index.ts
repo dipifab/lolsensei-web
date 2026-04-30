@@ -32,7 +32,7 @@ const baseLoaders: Record<Locale, () => Promise<BaseTranslations>> = {
   en: () => Promise.resolve(en),
   it: () => import('./it').then((m) => m.default as unknown as BaseTranslations),
   ko: () => import('./ko').then((m) => m.default as unknown as BaseTranslations),
-  'zh-Hans': () => import('./zh-Hans').then((m) => m.default as unknown as BaseTranslations),
+  'zh-hans': () => import('./zh-hans').then((m) => m.default as unknown as BaseTranslations),
   'pt-br': () => import('./pt-br').then((m) => m.default as unknown as BaseTranslations),
   es: () => import('./es').then((m) => m.default as unknown as BaseTranslations),
   fr: () => import('./fr').then((m) => m.default as unknown as BaseTranslations),
@@ -43,8 +43,8 @@ const legalLoaders: Record<Locale, () => Promise<LegalTranslations>> = {
   en: () => import('./legal/en').then((m) => m.default as unknown as LegalTranslations),
   it: () => import('./legal/it').then((m) => m.default as unknown as LegalTranslations),
   ko: () => import('./legal/ko').then((m) => m.default as unknown as LegalTranslations),
-  'zh-Hans': () =>
-    import('./legal/zh-Hans').then((m) => m.default as unknown as LegalTranslations),
+  'zh-hans': () =>
+    import('./legal/zh-hans').then((m) => m.default as unknown as LegalTranslations),
   'pt-br': () => import('./legal/pt-br').then((m) => m.default as unknown as LegalTranslations),
   es: () => import('./legal/es').then((m) => m.default as unknown as LegalTranslations),
   fr: () => import('./legal/fr').then((m) => m.default as unknown as LegalTranslations),

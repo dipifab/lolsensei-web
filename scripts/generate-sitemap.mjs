@@ -2,6 +2,7 @@
 import { writeFileSync, readdirSync, existsSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { execSync } from 'node:child_process';
 import {
   SUPPORTED_LOCALES,
   BLOG_LOCALES,
@@ -41,6 +42,7 @@ const OPTIONAL_PAGES = [
   { path: '/community', key: 'community' },
   { path: '/about', key: 'about' },
   { path: '/blog', key: 'blog' },
+  { path: '/methodology', key: 'methodology' },
 ];
 
 // Blog post slugs (WP19 — EN+IT content only; other locales ship without per-post pages for now).
@@ -56,6 +58,21 @@ const BLOG_POSTS = [
 const PAGES = PUBLIC_PAGES_ENABLED ? [...CORE_PAGES, ...OPTIONAL_PAGES] : CORE_PAGES;
 
 const today = new Date().toISOString().slice(0, 10);
+
+// REQ-SEO-016: real per-file lastmod via git log; fallback today if untracked.
+function gitLastModified(filePath) {
+  try {
+    const out = execSync(`git log -1 --format=%cI -- "${filePath}"`, {
+      cwd: resolve(__dirname, '..'),
+      encoding: 'utf8',
+      stdio: ['ignore', 'pipe', 'ignore'],
+    }).trim();
+    if (out) return out.slice(0, 10);
+  } catch {
+    /* untracked or no git context */
+  }
+  return today;
+}
 
 function hreflangFor(loc) {
   return HREFLANG_MAP[loc] ?? loc;
@@ -125,23 +142,23 @@ function tierListUrl(locale, query) {
   return query ? `${base}?${query}` : base;
 }
 
-function buildTierListEntry(locale, query, priority) {
+function buildTierListEntry(locale, query) {
   const loc = tierListUrl(locale, query);
   const alternates = WP30_TIER_LIST_LOCALES.map(
     (l) => `    <xhtml:link rel="alternate" hreflang="${hreflangFor(l)}" href="${tierListUrl(l, query)}" />`,
   ).join('\n');
   const xDefault = `    <xhtml:link rel="alternate" hreflang="x-default" href="${tierListUrl(DEFAULT_LOCALE, query)}" />`;
   const tag = query ? `tier-list-${query}` : 'tier-list-root';
-  return `  <!-- ${tag}: ${locale} -->\n  <url>\n    <loc>${loc}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>${priority}</priority>\n${alternates}\n${xDefault}\n  </url>`;
+  return `  <!-- ${tag}: ${locale} -->\n  <url>\n    <loc>${loc}</loc>\n    <lastmod>${today}</lastmod>\n${alternates}\n${xDefault}\n  </url>`;
 }
 
 if (PUBLIC_PAGES_ENABLED) {
   for (const locale of WP30_TIER_LIST_LOCALES) {
-    entries.push(buildTierListEntry(locale, null, '0.8'));
+    entries.push(buildTierListEntry(locale, null));
   }
   for (const role of WP30_TIER_LIST_ROLES) {
     for (const locale of WP30_TIER_LIST_LOCALES) {
-      entries.push(buildTierListEntry(locale, `role=${role}`, '0.6'));
+      entries.push(buildTierListEntry(locale, `role=${role}`));
     }
   }
 }
@@ -167,7 +184,7 @@ function buildChampionHubEntry(locale) {
     (l) => `    <xhtml:link rel="alternate" hreflang="${hreflangFor(l)}" href="${championHubUrl(l)}" />`,
   ).join('\n');
   const xDefault = `    <xhtml:link rel="alternate" hreflang="x-default" href="${championHubUrl(DEFAULT_LOCALE)}" />`;
-  return `  <!-- champion-hub: ${locale} -->\n  <url>\n    <loc>${loc}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n${alternates}\n${xDefault}\n  </url>`;
+  return `  <!-- champion-hub: ${locale} -->\n  <url>\n    <loc>${loc}</loc>\n    <lastmod>${today}</lastmod>\n${alternates}\n${xDefault}\n  </url>`;
 }
 
 if (PUBLIC_PAGES_ENABLED) {
@@ -233,7 +250,10 @@ function buildChampionGuideEntry(locale, guide) {
   // x-default punta a EN se presente, altrimenti al primo locale disponibile
   const defaultLocale = guide.locales.has(DEFAULT_LOCALE) ? DEFAULT_LOCALE : presentLocales[0];
   const xDefault = `    <xhtml:link rel="alternate" hreflang="x-default" href="${championGuideUrl(defaultLocale, guide.slug, guide.role)}" />`;
-  return `  <!-- champion-guide/${guide.slug}/${guide.role}: ${locale} -->\n  <url>\n    <loc>${loc}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.7</priority>\n${alternates}\n${xDefault}\n  </url>`;
+  // REQ-SEO-016: lastmod from git log of source markdown (per locale).
+  const sourceMd = resolve(CONTENT_CHAMPIONS_ROOT, locale, `${guide.slug}-${guide.role}.md`);
+  const lastmod = gitLastModified(sourceMd);
+  return `  <!-- champion-guide/${guide.slug}/${guide.role}: ${locale} -->\n  <url>\n    <loc>${loc}</loc>\n    <lastmod>${lastmod}</lastmod>\n${alternates}\n${xDefault}\n  </url>`;
 }
 
 if (PUBLIC_PAGES_ENABLED) {

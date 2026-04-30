@@ -19,7 +19,7 @@ import { test, expect } from '@playwright/test';
  * senza esecuzione JS client-side.
  */
 
-const LOCALES = ['en', 'it', 'es', 'fr', 'de', 'pt-br', 'ko', 'zh-Hans'];
+const LOCALES = ['en', 'it', 'es', 'fr', 'de', 'pt-br', 'ko', 'zh-hans'];
 
 for (const lang of LOCALES) {
   test(`[${lang}] homepage served SSG with SEO head`, async ({ request }) => {
