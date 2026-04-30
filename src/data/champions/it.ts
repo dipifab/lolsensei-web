@@ -17036,7 +17036,7 @@ export const itChampions: ChampionGuide[] = [
           "Adaptive Force",
           "Health Scaling"
         ],
-        "primary_rationale": "Primaria Resolve: Aftershock scatta su ogni Q a segno per 2.5s di armor + MR bonus quando il team ti focusa. Font of Life cura gli alleati che colpiscono il bersaglio stunnato, Bone Plating attutisce i primi 3 colpi di un all-in, Revitalize potenzia W e Locket.",
+        "primary_rationale": "Primaria Resolve (albero da tank, default per chi apre il fight): Aftershock dà 2.5s di armor + MR su ogni Q a segno quando ti focusano. Font of Life cura gli alleati che colpiscono il bersaglio stunnato, Bone Plating tanka i primi 3 colpi, Revitalize potenzia W e Locket.",
         "secondary_rationale": "Secondaria Inspiration: Hextech Flashtraption è un mini-Flash di backup su CD lungo, prezioso per Q a sorpresa fuori dalla fog quando il Flash è vuoto. Cosmic Insight taglia i CD dei summoner e degli attivi item, così Flash e Locket of the Iron Solari ricaricano prima.",
         "secondary_alternative": "Se il team avversario ha 2+ squishy a basse resistenze e pochi engage da temere, swap Inspiration → Precision con Triumph (rimborso oro e HP sui takedown) e Coup de Grace (+8% danno sotto il 40% HP) per chiudere i pickoff più velocemente."
       }
@@ -17087,7 +17087,7 @@ export const itChampions: ChampionGuide[] = [
             "leona"
           ],
           "archetype": "Engage support che ti battono in melee",
-          "reason": "Rakan ti scatta addosso prima che la Q parta; Nautilus e Leona ti battono nel trade in mischia con CC chain a cooldown più basso, e ogni miss della tua Q lo paghi caro."
+          "reason": "Rakan ti scatta addosso prima che la Q parta; Nautilus e Leona vincono i trade in mischia perché hanno catene di CC con cooldown più basso, e ogni Q che sbagli te la fanno pagare."
         },
         {
           "examples": [
@@ -17096,7 +17096,7 @@ export const itChampions: ChampionGuide[] = [
             "senna"
           ],
           "archetype": "Support poke a lungo raggio con disengage",
-          "reason": "Ti pokano fuori dal range di hook prima che tu li raggiunga. Senza HP non puoi engageare, e la lane prio muore senza che tu abbia mai lanciato una Q."
+          "reason": "Ti pokano fuori dal range di hook prima che tu li raggiunga. Senza HP non puoi engageare e perdi la priority di lane (la libertà di lasciarla senza perdere risorse) senza aver mai lanciato una Q."
         }
       ]
     },

@@ -17036,7 +17036,7 @@ export const enChampions: ChampionGuide[] = [
           "Adaptive Force",
           "Health Scaling"
         ],
-        "primary_rationale": "Resolve primary: Aftershock fires on every Q hook for a 2.5s armor + MR burst when the enemy focuses you. Font of Life heals allies attacking your stunned target, Bone Plating tanks the first 3 hits of an all-in, Revitalize boosts W lantern shield and Locket active.",
+        "primary_rationale": "Resolve primary (the tank tree — default for engage supports who jump in first): Aftershock gives 2.5s armor + MR on every Q hook when focused. Font of Life heals allies hitting your stunned target, Bone Plating tanks the first 3 hits, Revitalize boosts W shield and Locket.",
         "secondary_rationale": "Inspiration secondary: Hextech Flashtraption is a backup short-range Flash on a long cooldown — perfect for surprise Q hooks out of fog when summoner Flash is down. Cosmic Insight cuts summoner and item-active cooldowns so Flash and Locket of the Iron Solari fire more often.",
         "secondary_alternative": "If the enemy team has multiple low-resistance squishies and few hard engages to fear, swap Inspiration → Precision with Triumph (gold and HP refund on takedown) and Coup de Grace (+8% damage to enemies under 40% HP) so your team finishes pickoffs faster."
       }
@@ -17087,7 +17087,7 @@ export const enChampions: ChampionGuide[] = [
             "leona"
           ],
           "archetype": "Engage supports that out-trade in melee",
-          "reason": "Rakan dashes onto you before your Q lands; Nautilus and Leona out-trade you at melee range with shorter-cooldown CC chains, punishing every miss you make."
+          "reason": "Rakan dashes onto you before your Q lands; Nautilus and Leona beat you in close-range trades — their CC chains have shorter cooldowns and punish every Q you miss."
         },
         {
           "examples": [
@@ -17096,7 +17096,7 @@ export const enChampions: ChampionGuide[] = [
             "senna"
           ],
           "archetype": "Long-range poke supports with disengage",
-          "reason": "They poke you out of hook range before you can reach them. Without HP you cannot engage; lane prio dies without ever throwing Q."
+          "reason": "They poke you out of hook range before you can reach them. With no HP you cannot engage; you lose lane priority (the freedom to leave lane safely) without ever throwing Q."
         }
       ]
     },
