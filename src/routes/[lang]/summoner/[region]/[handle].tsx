@@ -164,6 +164,50 @@ export default function SummonerRoute() {
   const params = useParams<{ lang: string; region: string; handle: string }>();
   const lang = () => canonicalLocale(params.lang);
 
+  const { t } = useI18n();
+  const baselineHandle = () => {
+    const n = normalizeHandle(params.handle);
+    if (n.kind === 'malformed') return null;
+    return { gameName: n.gameName, tagLine: n.tagLine, canonical: n.kind === 'needs_redirect' ? n.canonical : params.handle };
+  };
+  const baselineRegionLabel = () =>
+    REGION_DISPLAY[params.region as keyof typeof REGION_DISPLAY] ?? params.region.toUpperCase();
+  const baselineTitle = () => {
+    const h = baselineHandle();
+    if (!h) return t('wp30.summoner.meta.title')
+      .replace('{gameName}', params.handle)
+      .replace('{tagLine}', '')
+      .replace('{region}', baselineRegionLabel())
+      .replace(/#\s*\(/, '(');
+    return t('wp30.summoner.meta.title')
+      .replace('{gameName}', h.gameName)
+      .replace('{tagLine}', h.tagLine)
+      .replace('{region}', baselineRegionLabel());
+  };
+  const baselineDescription = () => {
+    const h = baselineHandle();
+    const gameName = h ? h.gameName : params.handle;
+    const tagLine = h ? h.tagLine : '';
+    return t('wp30.summoner.meta.description')
+      .replace('{gameName}', gameName)
+      .replace('{tagLine}', tagLine)
+      .replace('{region}', baselineRegionLabel());
+  };
+  const baselineCanonical = () => {
+    const h = baselineHandle();
+    const handlePath = h
+      ? `${encodeURIComponent(h.gameName)}-${encodeURIComponent(h.tagLine)}`
+      : encodeURIComponent(params.handle);
+    return `${BASE_URL}/${lang()}/summoner/${params.region}/${handlePath}`;
+  };
+  const baselineHreflangPath = () => {
+    const h = baselineHandle();
+    const handlePath = h
+      ? `${encodeURIComponent(h.gameName)}-${encodeURIComponent(h.tagLine)}`
+      : encodeURIComponent(params.handle);
+    return `summoner/${params.region}/${handlePath}`;
+  };
+
   const state = createAsync(() =>
     resolveState({
       region: params.region,
@@ -173,9 +217,21 @@ export default function SummonerRoute() {
   );
 
   return (
-    <Show when={state()} fallback={<EmptySSRScaffold />}>
-      {(s) => <RenderState state={s()} lang={lang()} region={params.region} handle={params.handle} />}
-    </Show>
+    <>
+      <Title>{baselineTitle()}</Title>
+      <Meta name="description" content={baselineDescription()} />
+      <Link rel="canonical" href={baselineCanonical()} />
+      <Meta property="og:title" content={baselineTitle()} />
+      <Meta property="og:description" content={baselineDescription()} />
+      <Meta property="og:url" content={baselineCanonical()} />
+      <Meta name="twitter:card" content="summary" />
+      <Meta name="twitter:title" content={baselineTitle()} />
+      <Meta name="twitter:description" content={baselineDescription()} />
+      <HreflangCluster path={baselineHreflangPath()} baseUrl={BASE_URL} />
+      <Show when={state()} fallback={<EmptySSRScaffold />}>
+        {(s) => <RenderState state={s()} lang={lang()} region={params.region} handle={params.handle} />}
+      </Show>
+    </>
   );
 }
 

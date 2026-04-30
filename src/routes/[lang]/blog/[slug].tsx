@@ -7,7 +7,6 @@ import Breadcrumbs from '../../../components/Breadcrumbs';
 import {
   BreadcrumbJsonLd,
   BlogPostingJsonLd,
-  HowToJsonLd,
 } from '../../../components/JsonLd';
 import Icon from '../../../components/Icon';
 import { useI18n } from '../../../i18n';
@@ -27,11 +26,6 @@ const localeMap: Record<string, string> = {
   fr: 'fr-FR',
   de: 'de-DE',
 };
-
-const HOWTO_SLUGS = new Set([
-  'how-to-climb-ranked-lol',
-  'how-to-stop-tilting-lol',
-]);
 
 export const route = {
   preload: ({ params }: { params: { lang: string; slug: string } }) => {
@@ -112,9 +106,6 @@ export default function BlogPostRoute() {
               ]}
             />
             <BlogPostingJsonLd post={currentPost()} locale={i18nLocale()} />
-            <Show when={HOWTO_SLUGS.has(currentPost().slug)}>
-              <HowToJsonLd post={currentPost()} locale={i18nLocale()} />
-            </Show>
             <Breadcrumbs
               items={[
                 { label: t('breadcrumbs.home'), href: localizedHref('/') },

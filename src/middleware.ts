@@ -164,6 +164,27 @@ export default createMiddleware({
           event.response.headers.set(CSP_HEADER_NAME, CSP_HEADER);
         }
 
+        // Security headers backstop on HTML responses. `public/_headers` applies
+        // these to static assets only (Pages-style headers do not flow through
+        // the Worker-rendered HTML pipeline under the cloudflare-module preset).
+        // Stamp them here so Worker-served HTML carries the same baseline.
+        if (!import.meta.env.DEV) {
+          event.response.headers.set(
+            'Strict-Transport-Security',
+            'max-age=31536000; includeSubDomains; preload',
+          );
+          event.response.headers.set('X-Content-Type-Options', 'nosniff');
+          event.response.headers.set('X-Frame-Options', 'DENY');
+          event.response.headers.set(
+            'Referrer-Policy',
+            'strict-origin-when-cross-origin',
+          );
+          event.response.headers.set(
+            'Permissions-Policy',
+            'camera=(), microphone=(), geolocation=(), interest-cohort=(), browsing-topics=(), payment=(self), fullscreen=(self)',
+          );
+        }
+
         // WP24 M4 (SEC#7) + R2-MAJ-03 — hardening cross-origin isolation.
         // COOP ``same-origin`` mitiga Spectre-style cross-origin leaks.
         // COEP ``credentialless`` (invece di ``require-corp``): le risorse

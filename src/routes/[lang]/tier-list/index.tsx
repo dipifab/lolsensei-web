@@ -130,6 +130,34 @@ export default function TierListRoute() {
   const role = () => normalizeRole(searchParams.role);
   const patch = () => normalizePatch(searchParams.patch);
 
+  const { t } = useI18n();
+  const baselineRoleLabel = () => t(`wp30.tier_list.filter.role.${role()}`);
+  const cleanTemplate = (raw: string) =>
+    raw
+      .replace(/—\s*Patch\s*(?=[—|])/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+  const baselineTitle = () => {
+    const raw = t('wp30.tier_list.meta.title')
+      .replace('{role}', baselineRoleLabel())
+      .replace('{patch}', patch() ?? '');
+    return patch() ? raw : cleanTemplate(raw);
+  };
+  const baselineDescription = () => {
+    const raw = t('wp30.tier_list.meta.description')
+      .replace('{role}', baselineRoleLabel())
+      .replace('{patch}', patch() ?? '');
+    return patch() ? raw : cleanTemplate(raw);
+  };
+  const baselineQs = () => {
+    const parts: string[] = [];
+    if (role() !== 'all') parts.push(`role=${role()}`);
+    if (patch()) parts.push(`patch=${patch()}`);
+    return parts.length === 0 ? '' : `?${parts.join('&')}`;
+  };
+  const baselineCanonical = () => `${BASE_URL}/${lang()}/tier-list${baselineQs()}`;
+  const baselineHreflangPath = () => `tier-list${baselineQs()}`;
+
   const result = createAsync(async () => {
     const kv = readKvBinding();
     return fetchTierList({
@@ -142,9 +170,21 @@ export default function TierListRoute() {
   });
 
   return (
-    <Show when={result()} fallback={<main aria-busy="true" />}>
-      {(r) => <RenderResult result={r()} role={role()} patch={patch()} lang={lang()} />}
-    </Show>
+    <>
+      <Title>{baselineTitle()}</Title>
+      <Meta name="description" content={baselineDescription()} />
+      <Link rel="canonical" href={baselineCanonical()} />
+      <Meta property="og:title" content={baselineTitle()} />
+      <Meta property="og:description" content={baselineDescription()} />
+      <Meta property="og:url" content={baselineCanonical()} />
+      <Meta name="twitter:card" content="summary" />
+      <Meta name="twitter:title" content={baselineTitle()} />
+      <Meta name="twitter:description" content={baselineDescription()} />
+      <HreflangCluster path={baselineHreflangPath()} baseUrl={BASE_URL} />
+      <Show when={result()} fallback={<main aria-busy="true" />}>
+        {(r) => <RenderResult result={r()} role={role()} patch={patch()} lang={lang()} />}
+      </Show>
+    </>
   );
 }
 

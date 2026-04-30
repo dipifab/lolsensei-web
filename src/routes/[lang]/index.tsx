@@ -11,8 +11,6 @@ import TrustBadges from '../../components/TrustBadges';
 import FAQ from '../../components/FAQ';
 import Changelog from '../../components/Changelog';
 import Footer from '../../components/Footer';
-import { FAQPageJsonLd } from '../../components/JsonLd';
-import { FAQ_ITEMS } from '../../data/faq';
 import { useI18n } from '../../i18n';
 import { HreflangCluster } from '../../components/seo/HreflangCluster';
 import { JsonLd } from '../../components/seo/JsonLd';
@@ -61,7 +59,6 @@ export default function HomeRoute() {
         <FAQ />
         <Changelog />
       </main>
-      <FAQPageJsonLd items={FAQ_ITEMS} t={t} />
       <Footer />
     </>
   );
