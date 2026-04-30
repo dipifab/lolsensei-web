@@ -5,7 +5,7 @@ language: "it"
 patch: "16.9"
 champion: "thresh"
 role: "support"
-last_updated: "2026-04-29"
+last_updated: "2026-04-30"
 description: "Guida Thresh support per League of Legends Patch 16.9: starter, build da tank-catcher, matchup chiave, power spike, errori comuni e una tip di chiusura."
 quick_learn:
   champion_dd_id: "Thresh"
@@ -78,7 +78,7 @@ quick_learn:
     primary_slots:
       - { dd_id: 8463, name: "Font of Life", icon_path: "perk-images/Styles/Resolve/FontOfLife/FontOfLife.png" }
       - { dd_id: 8473, name: "Bone Plating", icon_path: "perk-images/Styles/Resolve/BonePlating/BonePlating.png" }
-      - { dd_id: 8429, name: "Conditioning", icon_path: "perk-images/Styles/Resolve/Conditioning/Conditioning.png" }
+      - { dd_id: 8453, name: "Revitalize", icon_path: "perk-images/Styles/Resolve/Revitalize/Revitalize.png" }
     secondary_tree: "Inspiration"
     secondary_tree_dd_id: 8300
     secondary_slots:
@@ -88,6 +88,30 @@ quick_learn:
       - "Adaptive Force"
       - "Adaptive Force"
       - "Health Scaling"
+    primary_rationale: "Primaria Resolve (albero da tank, default per chi apre il fight): Aftershock dà 2.5s di armor + MR su ogni Q a segno quando ti focusano. Font of Life cura gli alleati che colpiscono il bersaglio stunnato, Bone Plating tanka i primi 3 colpi, Revitalize potenzia W e Locket."
+    secondary_rationale: "Secondaria Inspiration: Hextech Flashtraption è un mini-Flash di backup su CD lungo, prezioso per Q a sorpresa fuori dalla fog quando il Flash è vuoto. Cosmic Insight taglia i CD dei summoner e degli attivi item, così Flash e Locket of the Iron Solari ricaricano prima."
+    secondary_alternative: "Se il team avversario ha 2+ squishy a basse resistenze e pochi engage da temere, swap Inspiration → Precision con Triumph (rimborso oro e HP sui takedown) e Coup de Grace (+8% danno sotto il 40% HP) per chiudere i pickoff più velocemente."
+matchup_draft:
+  pick_into:
+    - examples: ["soraka", "sona", "yuumi"]
+      archetype: "Enchanter immobili senza engage"
+      reason: "Il loro kit è solo cure e scudi: inutile se si fanno hookare per primi. Una Q pulita a distanza di lanterna li stunna fuori posizione; il team converte prima che parta una sola cura."
+    - examples: ["senna", "caitlyn", "jhin"]
+      archetype: "ADC a lungo raggio senza dash"
+      reason: "Stanno a max range per fare poke e non hanno un dash di escape. Una Q di flank da un cespuglio laterale dopo il minuto 8 è un pickoff gratis — non si riposizionano una volta partito l'hook."
+    - examples: ["malphite", "alistar"]
+      archetype: "Tank engage telegrafati con Flash"
+      reason: "Quando entrano in Flash-R o W-Q il punto di atterraggio è prevedibile: pre-aima la Q sulla traiettoria e ci camminano dentro. La R dopo box anche il follow-up del team."
+  counterpicks:
+    - examples: ["lulu", "milio", "janna"]
+      archetype: "Enchanter di hard-peel con disengage"
+      reason: "Una loro abilità ti spegne l'engage: Lulu ti polimorfa a metà Q, Janna ti tira su con la sua Q prima che l'hook atterri, Milio rimuove il CC dal bersaglio hookato. Senza Q a segno Thresh non fa fight."
+    - examples: ["rakan", "nautilus", "leona"]
+      archetype: "Engage support che ti battono in melee"
+      reason: "Rakan ti scatta addosso prima che la Q parta; Nautilus e Leona vincono i trade in mischia perché hanno catene di CC con cooldown più basso, e ogni Q che sbagli te la fanno pagare."
+    - examples: ["karma", "lux", "senna"]
+      archetype: "Support poke a lungo raggio con disengage"
+      reason: "Ti pokano fuori dal range di hook prima che tu li raggiunga. Senza HP non puoi engageare e perdi la priority di lane (la libertà di lasciarla senza perdere risorse) senza aver mai lanciato una Q."
 ---
 
 ## Panoramica
@@ -117,7 +141,7 @@ Game plan: piazza ward (gli oggetti di vision) nel **river** (il corridoio al ce
 
 **Skill order:** Maxa **E** (Flay) per primo — lo slow, il knockback e il danno della passive sugli auto-attack sono il tuo strumento di trade in lane. Maxa **Q** per seconda: cooldown più basso significa più finestre di pickoff. Maxa **W** per ultima. Prendi un punto in **R** ai livelli 6, 11, 16.
 
-**Runes:** Primaria **Resolve** (albero difensivo, sopravvivenza) con **Aftershock** (Armor e Magic Resist gratis per qualche secondo quando applichi un CC, scatta su ogni Q andata a segno), **Font of Life** (il tuo CC marca il bersaglio; gli alleati che lo attaccano si curano un po'), **Bone Plating** contro lane di burst o **Conditioning** contro lane scaling, e **Revitalize** (potenzia scudi e cure). Secondaria **Inspiration** (utility) con **Hextech Flashtraption** (un secondo Flash a corto raggio su cooldown lungo, prezioso per gli hook a sorpresa) e **Cosmic Insight** (riduce i cooldown di summoner spell e attivabili degli item). Stat shards: Adaptive Force / Adaptive Force / Health.
+**Runes:** Primaria **Resolve** (albero difensivo, sopravvivenza) con **Aftershock** (Armor e Magic Resist gratis per qualche secondo quando applichi un CC, scatta su ogni Q andata a segno), **Font of Life** (il tuo CC marca il bersaglio; gli alleati che lo attaccano si curano un po'), **Bone Plating** (annulla il danno dei prossimi tre colpi ricevuti — default contro lane da all-in early; swap a **Conditioning** per scaling tardivo di Armor e Magic Resist nei matchup di poke), e **Revitalize** (potenzia lo scudo della W e l'attivo del Locket). Secondaria **Inspiration** (utility) con **Hextech Flashtraption** (un secondo Flash a corto raggio su cooldown lungo, prezioso per gli hook a sorpresa) e **Cosmic Insight** (riduce i cooldown di summoner spell e attivabili degli item). Stat shards: Adaptive Force / Adaptive Force / Health Scaling.
 
 ## Matchup chiave
 

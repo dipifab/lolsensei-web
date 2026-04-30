@@ -350,6 +350,26 @@
       },
       {
         "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Telegraphed Flash-engage tanks",
+        "reason": "When they Flash-R or W-Q in, the landing spot is predictable: pre-aim Q on the path and they walk into the stun. Your R then boxes their backup as they follow up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Tank engage telegrafati con Flash",
+        "reason": "Quando entrano in Flash-R o W-Q il punto di atterraggio è prevedibile: pre-aima la Q sulla traiettoria e ci camminano dentro. La R dopo box anche il follow-up del team.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "warwick",
           "role": "jungle",
           "lang": "en"
@@ -2044,6 +2064,26 @@
         },
         "archetype": "AD carry a lungo raggio con auto forti",
         "reason": "La chain Q-W di Soraka tiene un marksman immobile sempre full HP nelle guerre di poke, e Ardent Censer trasforma ogni heal in danno on-hit bonus. Out-tradano qualsiasi bot lane se non scendono mai sotto il 50% HP.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range ADCs with no dash",
+        "reason": "They sit at maximum range to poke and have no built-in escape. A flank Q from a side brush at minute 8+ is a free pickoff — they cannot reposition once the hook leaves your hand.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC a lungo raggio senza dash",
+        "reason": "Stanno a max range per fare poke e non hanno un dash di escape. Una Q di flank da un cespuglio laterale dopo il minuto 8 è un pickoff gratis — non si riposizionano una volta partito l'hook.",
         "via": "pick_into"
       },
       {
@@ -4556,6 +4596,26 @@
       },
       {
         "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hard-peel enchanters with disengage",
+        "reason": "Their cast removes your engage: Lulu polymorphs you mid-Q windup, Janna Q knocks you up before the hook lands, Milio cleanses CC off your hooked target. Without a landed Q, Thresh has no fight.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter di hard-peel con disengage",
+        "reason": "Una loro abilità ti spegne l'engage: Lulu ti polimorfa a metà Q, Janna ti tira su con la sua Q prima che l'hook atterri, Milio rimuove il CC dal bersaglio hookato. Senza Q a segno Thresh non fa fight.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "tristana",
           "role": "bot",
           "lang": "en"
@@ -5060,6 +5120,26 @@
         },
         "archetype": "AD carry a lungo raggio con auto forti",
         "reason": "La chain Q-W di Soraka tiene un marksman immobile sempre full HP nelle guerre di poke, e Ardent Censer trasforma ogni heal in danno on-hit bonus. Out-tradano qualsiasi bot lane se non scendono mai sotto il 50% HP.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range ADCs with no dash",
+        "reason": "They sit at maximum range to poke and have no built-in escape. A flank Q from a side brush at minute 8+ is a free pickoff — they cannot reposition once the hook leaves your hand.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC a lungo raggio senza dash",
+        "reason": "Stanno a max range per fare poke e non hanno un dash di escape. Una Q di flank da un cespuglio laterale dopo il minuto 8 è un pickoff gratis — non si riposizionano una volta partito l'hook.",
         "via": "pick_into"
       },
       {
@@ -5591,6 +5671,26 @@
         "archetype": "Enchanter support che heal-tradano in lane",
         "reason": "Il danno della Q di Draven impila troppo in fretta per le lane di poke-and-heal. Due asce catturate di fila sfondano un ciclo di cure di Soraka, e il suo snowball converte ogni kill in 200+ oro di vantaggio.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range poke supports with disengage",
+        "reason": "They poke you out of hook range before you can reach them. Without HP you cannot engage; lane prio dies without ever throwing Q.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support poke a lungo raggio con disengage",
+        "reason": "Ti pokano fuori dal range di hook prima che tu li raggiunga. Senza HP non puoi engageare, e la lane prio muore senza che tu abbia mai lanciato una Q.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -7338,6 +7438,26 @@
       },
       {
         "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Engage supports that out-trade in melee",
+        "reason": "Rakan dashes onto you before your Q lands; Nautilus and Leona out-trade you at melee range with shorter-cooldown CC chains, punishing every miss you make.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Engage support che ti battono in melee",
+        "reason": "Rakan ti scatta addosso prima che la Q parta; Nautilus e Leona ti battono nel trade in mischia con CC chain a cooldown più basso, e ogni miss della tua Q lo paghi caro.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "tristana",
           "role": "bot",
           "lang": "en"
@@ -7846,6 +7966,26 @@
       },
       {
         "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hard-peel enchanters with disengage",
+        "reason": "Their cast removes your engage: Lulu polymorphs you mid-Q windup, Janna Q knocks you up before the hook lands, Milio cleanses CC off your hooked target. Without a landed Q, Thresh has no fight.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter di hard-peel con disengage",
+        "reason": "Una loro abilità ti spegne l'engage: Lulu ti polimorfa a metà Q, Janna ti tira su con la sua Q prima che l'hook atterri, Milio rimuove il CC dal bersaglio hookato. Senza Q a segno Thresh non fa fight.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "vayne",
           "role": "bot",
           "lang": "en"
@@ -8025,6 +8165,26 @@
         "archetype": "Mage da poke stazionari senza minaccia di kill",
         "reason": "Soraka heala ogni spell di poke con W: il loro game plan si blocca perché il vantaggio HP non resta mai. Senza dash non possono fare all-in per spezzare il pattern di cura.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range poke supports with disengage",
+        "reason": "They poke you out of hook range before you can reach them. Without HP you cannot engage; lane prio dies without ever throwing Q.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support poke a lungo raggio con disengage",
+        "reason": "Ti pokano fuori dal range di hook prima che tu li raggiunga. Senza HP non puoi engageare, e la lane prio muore senza che tu abbia mai lanciato una Q.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -8266,6 +8426,26 @@
         },
         "archetype": "Tank lenti senza danno early forte",
         "reason": "Non riescono a punire i trade corti di Renekton. Lui accumula Fury sui minion, cammina verso di loro con empowered W pronta e gli porta via HP ogni volta che le loro abilità sono in cooldown.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Telegraphed Flash-engage tanks",
+        "reason": "When they Flash-R or W-Q in, the landing spot is predictable: pre-aim Q on the path and they walk into the stun. Your R then boxes their backup as they follow up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Tank engage telegrafati con Flash",
+        "reason": "Quando entrano in Flash-R o W-Q il punto di atterraggio è prevedibile: pre-aima la Q sulla traiettoria e ci camminano dentro. La R dopo box anche il follow-up del team.",
         "via": "pick_into"
       }
     ],
@@ -8734,6 +8914,26 @@
         },
         "archetype": "Bloccatori di hard CC e enchanter di disengage",
         "reason": "La Black Shield di Morgana mangia lo stun della W di netto: ti committi addosso a vuoto. La R di Milio rimuove la chain a distanza. Il polymorph di Lulu cancella il dash a metà cast. Il tuo unico engage viene risposto a costo zero.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hard-peel enchanters with disengage",
+        "reason": "Their cast removes your engage: Lulu polymorphs you mid-Q windup, Janna Q knocks you up before the hook lands, Milio cleanses CC off your hooked target. Without a landed Q, Thresh has no fight.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter di hard-peel con disengage",
+        "reason": "Una loro abilità ti spegne l'engage: Lulu ti polimorfa a metà Q, Janna ti tira su con la sua Q prima che l'hook atterri, Milio rimuove il CC dal bersaglio hookato. Senza Q a segno Thresh non fa fight.",
         "via": "counterpick"
       },
       {
@@ -9608,6 +9808,26 @@
         },
         "archetype": "Hook support a lungo raggio",
         "reason": "Soraka ha 535 HP al level 1 e nessun dash. Un singolo hook prima del level 6 cancella lei o l'AD carry — la Q non interrompe il channel dell'hook e la W non può salvare chi è già morto.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Engage supports that out-trade in melee",
+        "reason": "Rakan dashes onto you before your Q lands; Nautilus and Leona out-trade you at melee range with shorter-cooldown CC chains, punishing every miss you make.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Engage support che ti battono in melee",
+        "reason": "Rakan ti scatta addosso prima che la Q parta; Nautilus e Leona ti battono nel trade in mischia con CC chain a cooldown più basso, e ogni miss della tua Q lo paghi caro.",
         "via": "counterpick"
       },
       {
@@ -10669,6 +10889,26 @@
         "archetype": "Hard engage support con una sola catena di CC",
         "reason": "Black Shield blocca tutta la catena in un cast: il loro flash-engage atterra su un carry scudato che esce e ritrade, negando la kill su cui il loro bot lane e costruito.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Engage supports that out-trade in melee",
+        "reason": "Rakan dashes onto you before your Q lands; Nautilus and Leona out-trade you at melee range with shorter-cooldown CC chains, punishing every miss you make.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Engage support che ti battono in melee",
+        "reason": "Rakan ti scatta addosso prima che la Q parta; Nautilus e Leona ti battono nel trade in mischia con CC chain a cooldown più basso, e ogni miss della tua Q lo paghi caro.",
+        "via": "counterpick"
       }
     ],
     "rammus": [
@@ -11836,6 +12076,46 @@
       },
       {
         "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range poke supports with disengage",
+        "reason": "They poke you out of hook range before you can reach them. Without HP you cannot engage; lane prio dies without ever throwing Q.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range ADCs with no dash",
+        "reason": "They sit at maximum range to poke and have no built-in escape. A flank Q from a side brush at minute 8+ is a free pickoff — they cannot reposition once the hook leaves your hand.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support poke a lungo raggio con disengage",
+        "reason": "Ti pokano fuori dal range di hook prima che tu li raggiunga. Senza HP non puoi engageare, e la lane prio muore senza che tu abbia mai lanciato una Q.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC a lungo raggio senza dash",
+        "reason": "Stanno a max range per fare poke e non hanno un dash di escape. Una Q di flank da un cespuglio laterale dopo il minuto 8 è un pickoff gratis — non si riposizionano una volta partito l'hook.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "tristana",
           "role": "bot",
           "lang": "en"
@@ -12673,6 +12953,26 @@
         "archetype": "Enchanter squishy senza hard CC propria",
         "reason": "Non hanno strumenti per interrompere il dash della W. Appena W atterra sull'ADC e incateni il Q tap, il carry muore nello stun prima che l'enchanter possa shieldare o peelare. Yuumi non riesce nemmeno a saltare via in tempo.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile enchanter supports without engage",
+        "reason": "Their entire kit is healing or shielding — useless if they get hooked first. A clean Q at lantern range stuns them out of position; your team converts before any heal lands.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter immobili senza engage",
+        "reason": "Il loro kit è solo cure e scudi: inutile se si fanno hookare per primi. Una Q pulita a distanza di lanterna li stunna fuori posizione; il team converte prima che parta una sola cura.",
+        "via": "pick_into"
       }
     ],
     "soraka": [
@@ -12994,6 +13294,26 @@
         },
         "archetype": "Enchanter squishy senza hard CC propria",
         "reason": "Non hanno strumenti per interrompere il dash della W. Appena W atterra sull'ADC e incateni il Q tap, il carry muore nello stun prima che l'enchanter possa shieldare o peelare. Yuumi non riesce nemmeno a saltare via in tempo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile enchanter supports without engage",
+        "reason": "Their entire kit is healing or shielding — useless if they get hooked first. A clean Q at lantern range stuns them out of position; your team converts before any heal lands.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter immobili senza engage",
+        "reason": "Il loro kit è solo cure e scudi: inutile se si fanno hookare per primi. Una Q pulita a distanza di lanterna li stunna fuori posizione; il team converte prima che parta una sola cura.",
         "via": "pick_into"
       },
       {
@@ -17652,6 +17972,26 @@
         },
         "archetype": "Enchanter squishy senza hard CC propria",
         "reason": "Non hanno strumenti per interrompere il dash della W. Appena W atterra sull'ADC e incateni il Q tap, il carry muore nello stun prima che l'enchanter possa shieldare o peelare. Yuumi non riesce nemmeno a saltare via in tempo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile enchanter supports without engage",
+        "reason": "Their entire kit is healing or shielding — useless if they get hooked first. A clean Q at lantern range stuns them out of position; your team converts before any heal lands.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "thresh",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter immobili senza engage",
+        "reason": "Il loro kit è solo cure e scudi: inutile se si fanno hookare per primi. Una Q pulita a distanza di lanterna li stunna fuori posizione; il team converte prima che parta una sola cura.",
         "via": "pick_into"
       },
       {

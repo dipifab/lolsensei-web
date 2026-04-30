@@ -5,7 +5,7 @@ language: "en"
 patch: "16.9"
 champion: "thresh"
 role: "support"
-last_updated: "2026-04-29"
+last_updated: "2026-04-30"
 description: "Thresh support guide for League of Legends Patch 16.9: starter kit, tank-catcher build path, key matchups, power spikes, common mistakes, and a closing tip."
 quick_learn:
   champion_dd_id: "Thresh"
@@ -78,7 +78,7 @@ quick_learn:
     primary_slots:
       - { dd_id: 8463, name: "Font of Life", icon_path: "perk-images/Styles/Resolve/FontOfLife/FontOfLife.png" }
       - { dd_id: 8473, name: "Bone Plating", icon_path: "perk-images/Styles/Resolve/BonePlating/BonePlating.png" }
-      - { dd_id: 8429, name: "Conditioning", icon_path: "perk-images/Styles/Resolve/Conditioning/Conditioning.png" }
+      - { dd_id: 8453, name: "Revitalize", icon_path: "perk-images/Styles/Resolve/Revitalize/Revitalize.png" }
     secondary_tree: "Inspiration"
     secondary_tree_dd_id: 8300
     secondary_slots:
@@ -88,6 +88,30 @@ quick_learn:
       - "Adaptive Force"
       - "Adaptive Force"
       - "Health Scaling"
+    primary_rationale: "Resolve primary (the tank tree — default for engage supports who jump in first): Aftershock gives 2.5s armor + MR on every Q hook when focused. Font of Life heals allies hitting your stunned target, Bone Plating tanks the first 3 hits, Revitalize boosts W shield and Locket."
+    secondary_rationale: "Inspiration secondary: Hextech Flashtraption is a backup short-range Flash on a long cooldown — perfect for surprise Q hooks out of fog when summoner Flash is down. Cosmic Insight cuts summoner and item-active cooldowns so Flash and Locket of the Iron Solari fire more often."
+    secondary_alternative: "If the enemy team has multiple low-resistance squishies and few hard engages to fear, swap Inspiration → Precision with Triumph (gold and HP refund on takedown) and Coup de Grace (+8% damage to enemies under 40% HP) so your team finishes pickoffs faster."
+matchup_draft:
+  pick_into:
+    - examples: ["soraka", "sona", "yuumi"]
+      archetype: "Immobile enchanter supports without engage"
+      reason: "Their entire kit is healing or shielding — useless if they get hooked first. A clean Q at lantern range stuns them out of position; your team converts before any heal lands."
+    - examples: ["senna", "caitlyn", "jhin"]
+      archetype: "Long-range ADCs with no dash"
+      reason: "They sit at maximum range to poke and have no built-in escape. A flank Q from a side brush at minute 8+ is a free pickoff — they cannot reposition once the hook leaves your hand."
+    - examples: ["malphite", "alistar"]
+      archetype: "Telegraphed Flash-engage tanks"
+      reason: "When they Flash-R or W-Q in, the landing spot is predictable: pre-aim Q on the path and they walk into the stun. Your R then boxes their backup as they follow up."
+  counterpicks:
+    - examples: ["lulu", "milio", "janna"]
+      archetype: "Hard-peel enchanters with disengage"
+      reason: "Their cast removes your engage: Lulu polymorphs you mid-Q windup, Janna Q knocks you up before the hook lands, Milio cleanses CC off your hooked target. Without a landed Q, Thresh has no fight."
+    - examples: ["rakan", "nautilus", "leona"]
+      archetype: "Engage supports that out-trade in melee"
+      reason: "Rakan dashes onto you before your Q lands; Nautilus and Leona beat you in close-range trades — their CC chains have shorter cooldowns and punish every Q you miss."
+    - examples: ["karma", "lux", "senna"]
+      archetype: "Long-range poke supports with disengage"
+      reason: "They poke you out of hook range before you can reach them. With no HP you cannot engage; you lose lane priority (the freedom to leave lane safely) without ever throwing Q."
 ---
 
 ## Overview
@@ -117,7 +141,7 @@ Game plan: place wards in the **river** (the corridor between the two halves of 
 
 **Skill order:** Max **E** (Flay) first — slow, knockback, and the auto-attack passive damage are your primary lane trade tool. Max **Q** second — lower cooldown means more pickoff windows. Max **W** last. Take **R** at levels 6, 11, 16.
 
-**Runes:** Primary **Resolve** (the defensive tree — durability) with **Aftershock** (free armor and magic resist for a few seconds when you crowd-control someone, fires on every Q hook), **Font of Life** (your CC marks the target; allies who attack it heal a bit), **Bone Plating** vs hard-burst lanes or **Conditioning** vs slow-scaling lanes, and **Revitalize** (boosts your shields and heals). Secondary **Inspiration** (utility) with **Hextech Flashtraption** (a backup short-range Flash on a long cooldown — priceless for surprise hooks) and **Cosmic Insight** (lower cooldowns on summoner spells and item actives). Stat shards: Adaptive Force / Adaptive Force / Health.
+**Runes:** Primary **Resolve** (the defensive tree — durability) with **Aftershock** (free armor and magic resist for a few seconds when you crowd-control someone, fires on every Q hook), **Font of Life** (your CC marks the target; allies who attack it heal a bit), **Bone Plating** (negates damage from the next three hits — strong default vs early all-in lanes; swap to **Conditioning** for late-game armor and magic resist scaling on poke matchups), and **Revitalize** (boosts your W lantern shield and your Locket active). Secondary **Inspiration** (utility) with **Hextech Flashtraption** (a backup short-range Flash on a long cooldown — priceless for surprise hooks) and **Cosmic Insight** (lower cooldowns on summoner spells and item actives). Stat shards: Adaptive Force / Adaptive Force / Health Scaling.
 
 ## Key matchups
 
