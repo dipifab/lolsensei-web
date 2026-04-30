@@ -73,6 +73,26 @@ quick_learn:
   base_combo: ["Q", "E", "R", "E"]
   win_condition: "Land Q at max range to chill, follow with E for double damage, then drop R under their feet so anyone slowed eats another empowered E. Wall the rest of their team out so the kill is uninterrupted."
   weakness: "Slow, no dash, low base armor, mana hungry early. Miss Q and the trade dies; divers reach you before R is fully formed. Wind Wall and silences cripple the kit."
+  runes:
+    primary_tree: "Sorcery"
+    primary_tree_dd_id: 8200
+    keystone:
+      dd_id: 8229
+      name: "Arcane Comet"
+      icon_path: "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png"
+    primary_slots:
+      - { dd_id: 8226, name: "Manaflow Band", icon_path: "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png" }
+      - { dd_id: 8210, name: "Transcendence", icon_path: "perk-images/Styles/Sorcery/Transcendence/Transcendence.png" }
+      - { dd_id: 8237, name: "Scorch", icon_path: "perk-images/Styles/Sorcery/Scorch/Scorch.png" }
+    secondary_tree: "Inspiration"
+    secondary_tree_dd_id: 8300
+    secondary_slots:
+      - { dd_id: 8345, name: "Biscuit Delivery", icon_path: "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png" }
+      - { dd_id: 8347, name: "Cosmic Insight", icon_path: "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Adaptive Force"
+      - "Health Scaling"
 matchup_draft:
   pick_into:
     - examples: ["veigar", "viktor", "lux"]

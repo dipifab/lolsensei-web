@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29",
+  "generated_at": "2026-04-30",
   "guides": [
     {
       "slug": "aatrox-top",
@@ -466,6 +466,64 @@
       }
     },
     {
+      "slug": "blitzcrank-support",
+      "champion": "blitzcrank",
+      "role": "support",
+      "locales": {
+        "en": {
+          "title": "Blitzcrank Support Build & Guide — Patch 16.9",
+          "description": "Blitzcrank support guide for Patch 16.9: hook timings, ward setups, engage build path, key matchups, power spikes, and common mistakes for new players.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Tank / Engage",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Blitzcrank",
+          "champion_key": "53"
+        },
+        "it": {
+          "title": "Blitzcrank Support Build & Guida — Patch 16.9",
+          "description": "Guida Blitzcrank support per la Patch 16.9: timing del hook, ward in bot lane, build engage tank, matchup chiave, power spike e errori comuni per novizi.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Tank / Engage",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Blitzcrank",
+          "champion_key": "53"
+        }
+      }
+    },
+    {
+      "slug": "braum-support",
+      "champion": "braum",
+      "role": "support",
+      "locales": {
+        "en": {
+          "title": "Braum Support Build & Guide — Patch 16.9",
+          "description": "Braum support guide for League of Legends Patch 16.9: starter kit, tank-peel build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Tank / Warden",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Braum",
+          "champion_key": "201"
+        },
+        "it": {
+          "title": "Braum Support Build & Guide — Patch 16.9",
+          "description": "Guida Braum support per League of Legends Patch 16.9: starter, build path tank-peel, matchup di lane, power spike, errori comuni e una tecnica avanzata di chiusura.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Tank / Warden",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Braum",
+          "champion_key": "201"
+        }
+      }
+    },
+    {
       "slug": "caitlyn-bot",
       "champion": "caitlyn",
       "role": "bot",
@@ -491,6 +549,180 @@
           "damage_type": "physical",
           "champion_dd_id": "Caitlyn",
           "champion_key": "51"
+        }
+      }
+    },
+    {
+      "slug": "darius-top",
+      "champion": "darius",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Darius Top Build & Guide — Patch 16.9",
+          "description": "Darius top lane guide for League of Legends Patch 16.9: juggernaut build path, Hemorrhage stack pressure, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Juggernaut / Bruiser",
+          "difficulty": 2,
+          "damage_type": "physical",
+          "champion_dd_id": "Darius",
+          "champion_key": "122"
+        },
+        "it": {
+          "title": "Darius Top: Build e Guida — Patch 16.9",
+          "description": "Guida a Darius top per League of Legends Patch 16.9: build da juggernaut, pressione delle stack di Hemorrhage, matchup chiave, power spikes, errori comuni e tip finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Juggernaut / Bruiser",
+          "difficulty": 2,
+          "damage_type": "physical",
+          "champion_dd_id": "Darius",
+          "champion_key": "122"
+        }
+      }
+    },
+    {
+      "slug": "diana-jungle",
+      "champion": "diana",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Diana Jungle Build & Guide — Patch 16.9",
+          "description": "Diana jungle guide for League of Legends Patch 16.9: clear path, Scuttle and Drake timings, gank routes, AP burst build, key matchups, power spikes, and common mistakes.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Diver",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Diana",
+          "champion_key": "131"
+        },
+        "it": {
+          "title": "Diana Jungle Build & Guide — Patch 16.9",
+          "description": "Guida Diana jungle per League of Legends Patch 16.9: clear iniziale, timing Scuttle e Drake, gank, build AP burst, matchup chiave, power spike e errori comuni.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Diver",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Diana",
+          "champion_key": "131"
+        }
+      }
+    },
+    {
+      "slug": "draven-bot",
+      "champion": "draven",
+      "role": "bot",
+      "locales": {
+        "en": {
+          "title": "Draven Bot Build & Guide — Patch 16.9",
+          "description": "Draven bot lane guide for League of Legends Patch 16.9: axe-catching basics, snowball build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Marksman / Snowball",
+          "difficulty": 4,
+          "damage_type": "physical",
+          "champion_dd_id": "Draven",
+          "champion_key": "119"
+        },
+        "it": {
+          "title": "Draven Bot Build & Guida — Patch 16.9",
+          "description": "Guida Draven bot lane per League of Legends Patch 16.9: catch delle asce, build da snowball, matchup chiave, power spike, errori comuni e un consiglio tecnico finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Marksman / Snowball",
+          "difficulty": 4,
+          "damage_type": "physical",
+          "champion_dd_id": "Draven",
+          "champion_key": "119"
+        }
+      }
+    },
+    {
+      "slug": "ekko-jungle",
+      "champion": "ekko",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Ekko Jungle Build & Guide — Patch 16.9",
+          "description": "Ekko jungle guide for League of Legends Patch 16.9: clear path, AP assassin core build, gank patterns, power spikes, common mistakes, and one closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Assassin / AP Burst",
+          "difficulty": 4,
+          "damage_type": "magic",
+          "champion_dd_id": "Ekko",
+          "champion_key": "245"
+        },
+        "it": {
+          "title": "Ekko Jungle Build & Guide — Patch 16.9",
+          "description": "Guida Ekko jungle per League of Legends Patch 16.9: clear, build AP assassin, gank pattern, power spike, errori comuni e un ultimo consiglio avanzato.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Assassin / AP Burst",
+          "difficulty": 4,
+          "damage_type": "magic",
+          "champion_dd_id": "Ekko",
+          "champion_key": "245"
+        }
+      }
+    },
+    {
+      "slug": "ezreal-bot",
+      "champion": "ezreal",
+      "role": "bot",
+      "locales": {
+        "en": {
+          "title": "Ezreal Bot Build & Guide — Patch 16.9",
+          "description": "Ezreal bot lane guide for League of Legends Patch 16.9: starter kit, core AD build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Marksman / Skirmisher",
+          "difficulty": 3,
+          "damage_type": "mixed",
+          "champion_dd_id": "Ezreal",
+          "champion_key": "81"
+        },
+        "it": {
+          "title": "Ezreal Bot Build & Guida — Patch 16.9",
+          "description": "Guida Ezreal bot lane per League of Legends Patch 16.9: starter kit, build AD core, matchup chiave, power spike, errori comuni e una tip avanzata finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Marksman / Skirmisher",
+          "difficulty": 3,
+          "damage_type": "mixed",
+          "champion_dd_id": "Ezreal",
+          "champion_key": "81"
+        }
+      }
+    },
+    {
+      "slug": "fiora-top",
+      "champion": "fiora",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Fiora Top Build & Guide — Patch 16.9",
+          "description": "Fiora top lane guide for League of Legends Patch 16.9: duelist build path, vital management, parry timing, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Skirmisher / Duelist",
+          "difficulty": 3,
+          "damage_type": "mixed",
+          "champion_dd_id": "Fiora",
+          "champion_key": "114"
+        },
+        "it": {
+          "title": "Fiora Top: Build e Guida — Patch 16.9",
+          "description": "Guida a Fiora top per League of Legends Patch 16.9: build da duelist, gestione dei Vitals, timing del parry, matchup chiave, power spikes, errori comuni e tip finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Skirmisher / Duelist",
+          "difficulty": 3,
+          "damage_type": "mixed",
+          "champion_dd_id": "Fiora",
+          "champion_key": "114"
         }
       }
     },
@@ -582,6 +814,267 @@
       }
     },
     {
+      "slug": "hecarim-jungle",
+      "champion": "hecarim",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Hecarim Jungle Build & Guide — Patch 16.9",
+          "description": "Hecarim jungle guide for League of Legends Patch 16.9: clear path, gank patterns, core bruiser build, key matchups, power spikes, mistakes, and one closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Diver",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Hecarim",
+          "champion_key": "120"
+        },
+        "it": {
+          "title": "Hecarim Jungle Build & Guide — Patch 16.9",
+          "description": "Guida Hecarim jungle per League of Legends Patch 16.9: clear path, pattern di gank, build bruiser, matchup chiave, power spike, errori comuni e una tip avanzata.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Diver",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Hecarim",
+          "champion_key": "120"
+        }
+      }
+    },
+    {
+      "slug": "irelia-top",
+      "champion": "irelia",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Irelia Top Build & Guide — Patch 16.9",
+          "description": "Irelia top lane guide for League of Legends Patch 16.9: starter kit, Trinity Force core build, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Skirmisher",
+          "difficulty": 5,
+          "damage_type": "mixed",
+          "champion_dd_id": "Irelia",
+          "champion_key": "39"
+        },
+        "it": {
+          "title": "Irelia Top Build & Guida — Patch 16.9",
+          "description": "Guida Irelia top lane per League of Legends Patch 16.9: starter kit, build Trinity Force, matchup chiave, power spike, errori comuni e un consiglio finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Skirmisher",
+          "difficulty": 5,
+          "damage_type": "mixed",
+          "champion_dd_id": "Irelia",
+          "champion_key": "39"
+        }
+      }
+    },
+    {
+      "slug": "janna-support",
+      "champion": "janna",
+      "role": "support",
+      "locales": {
+        "en": {
+          "title": "Janna Support Build & Guide — Patch 16.9",
+          "description": "Janna support guide for League of Legends Patch 16.9: enchanter build path, peel-focused matchups, power spikes, common mistakes, and a final advanced disengage tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Enchanter / Disengage",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Janna",
+          "champion_key": "40"
+        },
+        "it": {
+          "title": "Janna Support Build & Guide — Patch 16.9",
+          "description": "Guida Janna support per League of Legends Patch 16.9: build enchanter, matchup di lane, power spike, errori comuni e una tecnica avanzata di chiusura.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Enchanter / Disengage",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Janna",
+          "champion_key": "40"
+        }
+      }
+    },
+    {
+      "slug": "jax-top",
+      "champion": "jax",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Jax Top Build & Guide — Patch 16.9",
+          "description": "Jax top lane guide for League of Legends Patch 16.9: scaling bruiser build, Counter Strike timing, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Duelist",
+          "difficulty": 3,
+          "damage_type": "mixed",
+          "champion_dd_id": "Jax",
+          "champion_key": "24"
+        },
+        "it": {
+          "title": "Jax Top Build & Guida — Patch 16.9",
+          "description": "Guida Jax top lane per League of Legends Patch 16.9: build bruiser scaling, timing di Counter Strike, matchup chiave, power spike, errori comuni e un consiglio tecnico.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Duelist",
+          "difficulty": 3,
+          "damage_type": "mixed",
+          "champion_dd_id": "Jax",
+          "champion_key": "24"
+        }
+      }
+    },
+    {
+      "slug": "jhin-bot",
+      "champion": "jhin",
+      "role": "bot",
+      "locales": {
+        "en": {
+          "title": "Jhin Bot Build & Guide — Patch 16.9",
+          "description": "Jhin bot lane guide for League of Legends Patch 16.9: starter kit, lethality-crit build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Marksman / ADC",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Jhin",
+          "champion_key": "202"
+        },
+        "it": {
+          "title": "Guida Jhin Bot — Patch 16.9",
+          "description": "Guida Jhin bot lane per League of Legends Patch 16.9: starter kit, build lethality-crit, matchup chiave, power spike, errori frequenti e una tecnica avanzata.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Marksman / ADC",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Jhin",
+          "champion_key": "202"
+        }
+      }
+    },
+    {
+      "slug": "jinx-bot",
+      "champion": "jinx",
+      "role": "bot",
+      "locales": {
+        "en": {
+          "title": "Jinx Bot Build & Guide — Patch 16.9",
+          "description": "Jinx bot lane guide for League of Legends Patch 16.9: starter kit, hypercarry crit build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Marksman / Hypercarry",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Jinx",
+          "champion_key": "222"
+        },
+        "it": {
+          "title": "Jinx Bot Build & Guida — Patch 16.9",
+          "description": "Guida Jinx bot lane per League of Legends Patch 16.9: starter kit, build hypercarry crit, matchup chiave, power spike, errori comuni e un consiglio tecnico finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Marksman / Hypercarry",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Jinx",
+          "champion_key": "222"
+        }
+      }
+    },
+    {
+      "slug": "karma-support",
+      "champion": "karma",
+      "role": "support",
+      "locales": {
+        "en": {
+          "title": "Karma Support Build & Guide — Patch 16.9",
+          "description": "Karma support guide for League of Legends Patch 16.9: enchanter build, runes, key matchups, power spikes, common mistakes, and a closing tip for novice players.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mage / Enchanter",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Karma",
+          "champion_key": "43"
+        },
+        "it": {
+          "title": "Karma Support Build & Guida — Patch 16.9",
+          "description": "Guida Karma support per League of Legends Patch 16.9: build enchanter, rune, matchup chiave, power spike, errori comuni e un consiglio finale per chi inizia.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mago / Enchanter",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Karma",
+          "champion_key": "43"
+        }
+      }
+    },
+    {
+      "slug": "kayn-jungle",
+      "champion": "kayn",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Kayn Jungle Build & Guide — Patch 16.9",
+          "description": "Kayn jungle build and guide for League of Legends Patch 16.9: Rhaast vs Shadow Assassin form choice, jungle clear, gank timing, matchups, and power spikes.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Assassin",
+          "difficulty": 4,
+          "damage_type": "physical",
+          "champion_dd_id": "Kayn",
+          "champion_key": "141"
+        },
+        "it": {
+          "title": "Guida Kayn Jungle Build — Patch 16.9",
+          "description": "Guida Kayn jungle per League of Legends Patch 16.9: scelta tra forma Rhaast e Shadow Assassin, jungle clear, gank timing, matchup chiave e power spike.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Assassin",
+          "difficulty": 4,
+          "damage_type": "physical",
+          "champion_dd_id": "Kayn",
+          "champion_key": "141"
+        }
+      }
+    },
+    {
+      "slug": "kha-zix-jungle",
+      "champion": "kha-zix",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Kha'Zix Jungle Build & Guide — Patch 16.9",
+          "description": "Kha'Zix jungle guide for League of Legends Patch 16.9: clear path, isolated-target jumps, evolution choices (Q/E/R), lethality build, key matchups, power spikes, and common mistakes.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Assassin / Solo-target",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Khazix",
+          "champion_key": "121"
+        },
+        "it": {
+          "title": "Kha'Zix Jungle Build & Guide — Patch 16.9",
+          "description": "Guida Kha'Zix jungle per League of Legends Patch 16.9: percorso di clear, jump su target isolati, scelte di evolution (Q/E/R), build lethality, matchup chiave, power spike ed errori comuni.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Assassin / Solo-target",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Khazix",
+          "champion_key": "121"
+        }
+      }
+    },
+    {
       "slug": "lee-sin-jungle",
       "champion": "lee-sin",
       "role": "jungle",
@@ -611,6 +1104,64 @@
       }
     },
     {
+      "slug": "leona-support",
+      "champion": "leona",
+      "role": "support",
+      "locales": {
+        "en": {
+          "title": "Leona Support Build & Guide — Patch 16.9",
+          "description": "Leona support guide for League of Legends Patch 16.9: starter kit, tank-engage build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Tank / Vanguard",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Leona",
+          "champion_key": "89"
+        },
+        "it": {
+          "title": "Leona Support — Build e Guida — Patch 16.9",
+          "description": "Guida a Leona support per League of Legends Patch 16.9: starter kit, build tank-engage, matchup chiave, power spike, errori comuni di engage e una tip finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Tank / Vanguard",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Leona",
+          "champion_key": "89"
+        }
+      }
+    },
+    {
+      "slug": "lulu-support",
+      "champion": "lulu",
+      "role": "support",
+      "locales": {
+        "en": {
+          "title": "Lulu Support Build & Guide — Patch 16.9",
+          "description": "Lulu support guide for League of Legends Patch 16.9: enchanter peel build, polymorph and shield use, key matchups, power spikes, and a knock-up R lifesaver tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Enchanter / Peeler",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Lulu",
+          "champion_key": "117"
+        },
+        "it": {
+          "title": "Lulu Support Build & Guide — Patch 16.9",
+          "description": "Guida Lulu support per League of Legends Patch 16.9: build enchanter peel, uso di polymorph e shield, matchup, power spike e una tecnica avanzata sulla R.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Enchanter / Peeler",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Lulu",
+          "champion_key": "117"
+        }
+      }
+    },
+    {
       "slug": "lux-mid",
       "champion": "lux",
       "role": "mid",
@@ -636,6 +1187,151 @@
           "damage_type": "magic",
           "champion_dd_id": "Lux",
           "champion_key": "99"
+        }
+      }
+    },
+    {
+      "slug": "malphite-top",
+      "champion": "malphite",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Malphite Top Build & Guide — Patch 16.9",
+          "description": "Malphite top lane guide for League of Legends Patch 16.9: tank build path, key matchups, R engage power spikes, common mistakes, and one closing advanced tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Tank / Vanguard",
+          "difficulty": 1,
+          "damage_type": "magic",
+          "champion_dd_id": "Malphite",
+          "champion_key": "54"
+        },
+        "it": {
+          "title": "Malphite Top Build & Guida — Patch 16.9",
+          "description": "Guida Malphite top lane per League of Legends Patch 16.9: build tank, matchup chiave, power spike sulla R, errori comuni e un consiglio tecnico finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Tank / Vanguard",
+          "difficulty": 1,
+          "damage_type": "magic",
+          "champion_dd_id": "Malphite",
+          "champion_key": "54"
+        }
+      }
+    },
+    {
+      "slug": "miss-fortune-bot",
+      "champion": "miss-fortune",
+      "role": "bot",
+      "locales": {
+        "en": {
+          "title": "Miss Fortune Bot Build & Guide — Patch 16.9",
+          "description": "Miss Fortune bot lane guide for League of Legends Patch 16.9: starter kit, lethality and crit build paths, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Marksman / Lane Bully",
+          "difficulty": 1,
+          "damage_type": "physical",
+          "champion_dd_id": "MissFortune",
+          "champion_key": "21"
+        },
+        "it": {
+          "title": "Miss Fortune Bot Build & Guida — Patch 16.9",
+          "description": "Guida Miss Fortune bot lane LoL Patch 16.9: starter kit, build lethality e crit, matchup chiave, power spike, errori comuni e un consiglio tecnico finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Marksman / Lane Bully",
+          "difficulty": 1,
+          "damage_type": "physical",
+          "champion_dd_id": "MissFortune",
+          "champion_key": "21"
+        }
+      }
+    },
+    {
+      "slug": "morgana-support",
+      "champion": "morgana",
+      "role": "support",
+      "locales": {
+        "en": {
+          "title": "Morgana Support Build & Guide — Patch 16.9",
+          "description": "Morgana support guide for League of Legends Patch 16.9: control mage build path, Q poke setup, E anti-CC matchups, power spikes, common mistakes, and one advanced tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mage / Antimage Support",
+          "difficulty": 1,
+          "damage_type": "magic",
+          "champion_dd_id": "Morgana",
+          "champion_key": "25"
+        },
+        "it": {
+          "title": "Morgana Support Build & Guide — Patch 16.9",
+          "description": "Guida Morgana support per League of Legends Patch 16.9: build da control mage, setup di Q poke, matchup chiave, power spike, errori comuni e tip avanzata.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mage / Antimage Support",
+          "difficulty": 1,
+          "damage_type": "magic",
+          "champion_dd_id": "Morgana",
+          "champion_key": "25"
+        }
+      }
+    },
+    {
+      "slug": "nami-support",
+      "champion": "nami",
+      "role": "support",
+      "locales": {
+        "en": {
+          "title": "Nami Support Build & Guide — Patch 16.9",
+          "description": "Nami support guide for League of Legends Patch 16.9: enchanter-poke build path, bot lane matchups, power spikes, common mistakes, and a final advanced bubble tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Enchanter / Poke",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Nami",
+          "champion_key": "267"
+        },
+        "it": {
+          "title": "Nami Support Build & Guida — Patch 16.9",
+          "description": "Guida Nami support per League of Legends Patch 16.9: build enchanter-poke, matchup di bot lane, power spike, errori comuni e un tip avanzato sul bubble.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Enchanter / Poke",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Nami",
+          "champion_key": "267"
+        }
+      }
+    },
+    {
+      "slug": "nasus-top",
+      "champion": "nasus",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Nasus Top Build & Guide — Patch 16.9",
+          "description": "Nasus top lane guide for League of Legends Patch 16.9: Q-stacking juggernaut build path, lane survival, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Juggernaut / Late-game Scaler",
+          "difficulty": 2,
+          "damage_type": "physical",
+          "champion_dd_id": "Nasus",
+          "champion_key": "75"
+        },
+        "it": {
+          "title": "Nasus Top Build & Guida — Patch 16.9",
+          "description": "Guida Nasus top per League of Legends Patch 16.9: build da juggernaut con stacking di Q, sopravvivenza in lane, matchup chiave, power spike, errori comuni e tip finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Juggernaut / Late-game Scaler",
+          "difficulty": 2,
+          "damage_type": "physical",
+          "champion_dd_id": "Nasus",
+          "champion_key": "75"
         }
       }
     },
@@ -727,6 +1423,180 @@
       }
     },
     {
+      "slug": "orianna-mid",
+      "champion": "orianna",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Orianna Mid Build & Guide — Patch 16.9",
+          "description": "Orianna mid lane guide for League of Legends Patch 16.9: Ball positioning, control mage build, key matchups, power spikes, common mistakes and one closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mage / Control",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Orianna",
+          "champion_key": "61"
+        },
+        "it": {
+          "title": "Orianna Mid Build & Guida — Patch 16.9",
+          "description": "Guida Orianna mid lane per League of Legends Patch 16.9: posizione della Ball, build control mage, matchup chiave, power spike, errori comuni e un tip finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mage / Control",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Orianna",
+          "champion_key": "61"
+        }
+      }
+    },
+    {
+      "slug": "pantheon-support",
+      "champion": "pantheon",
+      "role": "support",
+      "locales": {
+        "en": {
+          "title": "Pantheon Support Build & Guide — Patch 16.9",
+          "description": "Pantheon support guide for League of Legends Patch 16.9: starter kit, bruiser-engage build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Diver",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Pantheon",
+          "champion_key": "80"
+        },
+        "it": {
+          "title": "Pantheon Support — Build e Guida — Patch 16.9",
+          "description": "Guida a Pantheon support per League of Legends Patch 16.9: starter kit, build bruiser-engage, matchup chiave, power spike, errori comuni e una tip finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Diver",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Pantheon",
+          "champion_key": "80"
+        }
+      }
+    },
+    {
+      "slug": "renekton-top",
+      "champion": "renekton",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Renekton Top Build & Guide — Patch 16.9",
+          "description": "Renekton top lane guide for League of Legends Patch 16.9: Fury management, lane bully build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Lane Bully",
+          "difficulty": 2,
+          "damage_type": "physical",
+          "champion_dd_id": "Renekton",
+          "champion_key": "58"
+        },
+        "it": {
+          "title": "Renekton Top Build & Guida — Patch 16.9",
+          "description": "Guida Renekton top lane per League of Legends Patch 16.9: gestione Fury, build da lane bully, matchup chiave, power spike, errori comuni e un consiglio tecnico finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Lane Bully",
+          "difficulty": 2,
+          "damage_type": "physical",
+          "champion_dd_id": "Renekton",
+          "champion_key": "58"
+        }
+      }
+    },
+    {
+      "slug": "sett-top",
+      "champion": "sett",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Sett Top Build & Guide — Patch 16.9",
+          "description": "Sett top lane guide for League of Legends Patch 16.9: starter kit, bruiser build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Juggernaut",
+          "difficulty": 1,
+          "damage_type": "physical",
+          "champion_dd_id": "Sett",
+          "champion_key": "875"
+        },
+        "it": {
+          "title": "Sett Top Build & Guida — Patch 16.9",
+          "description": "Guida Sett top lane per League of Legends Patch 16.9: starter kit, build bruiser, matchup chiave, power spike, errori comuni e un consiglio tecnico finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Juggernaut",
+          "difficulty": 1,
+          "damage_type": "physical",
+          "champion_dd_id": "Sett",
+          "champion_key": "875"
+        }
+      }
+    },
+    {
+      "slug": "soraka-support",
+      "champion": "soraka",
+      "role": "support",
+      "locales": {
+        "en": {
+          "title": "Soraka Support Build & Guide — Patch 16.9",
+          "description": "Soraka support guide for League of Legends Patch 16.9: pure healer enchanter build path, bot lane matchups, power spikes, common mistakes, and a Q-W chain tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Enchanter / Healer",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Soraka",
+          "champion_key": "16"
+        },
+        "it": {
+          "title": "Soraka Support — Build & Guida Patch 16.9",
+          "description": "Guida Soraka support per League of Legends Patch 16.9: build da pure healer enchanter, matchup di bot lane, power spike, errori comuni e una tip avanzata sulla chain Q-W.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Enchanter / Healer",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Soraka",
+          "champion_key": "16"
+        }
+      }
+    },
+    {
+      "slug": "syndra-mid",
+      "champion": "syndra",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Syndra Mid Build & Guide — Patch 16.9",
+          "description": "Syndra mid lane guide for League of Legends Patch 16.9: AP burst build path, runes, skill order, key matchups, power spikes, common mistakes, advanced tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mage / Burst",
+          "difficulty": 4,
+          "damage_type": "magic",
+          "champion_dd_id": "Syndra",
+          "champion_key": "134"
+        },
+        "it": {
+          "title": "Syndra Mid Build & Guida — Patch 16.9",
+          "description": "Guida Syndra mid lane per League of Legends Patch 16.9: build mago burst AP, matchup chiave, power spike, errori comuni e un consiglio tecnico finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mage / Burst",
+          "difficulty": 4,
+          "damage_type": "magic",
+          "champion_dd_id": "Syndra",
+          "champion_key": "134"
+        }
+      }
+    },
+    {
       "slug": "thresh-support",
       "champion": "thresh",
       "role": "support",
@@ -752,6 +1622,35 @@
           "damage_type": "magic",
           "champion_dd_id": "Thresh",
           "champion_key": "412"
+        }
+      }
+    },
+    {
+      "slug": "tristana-bot",
+      "champion": "tristana",
+      "role": "bot",
+      "locales": {
+        "en": {
+          "title": "Tristana Bot Build & Guide — Patch 16.9",
+          "description": "Tristana bot lane guide for League of Legends Patch 16.9: starter kit, marksman build, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Marksman / Late-game ADC",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Tristana",
+          "champion_key": "18"
+        },
+        "it": {
+          "title": "Tristana Bot Build & Guida — Patch 16.9",
+          "description": "Guida Tristana bot lane per League of Legends Patch 16.9: starter kit, build da marksman, matchup chiave, power spike, errori comuni e un consiglio tecnico finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Marksman / ADC late-game",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Tristana",
+          "champion_key": "18"
         }
       }
     },
@@ -810,6 +1709,180 @@
           "damage_type": "physical",
           "champion_dd_id": "Udyr",
           "champion_key": "77"
+        }
+      }
+    },
+    {
+      "slug": "vayne-bot",
+      "champion": "vayne",
+      "role": "bot",
+      "locales": {
+        "en": {
+          "title": "Vayne Bot Build & Guide — Patch 16.9",
+          "description": "Vayne bot lane guide for League of Legends Patch 16.9: starter kit, hyperscaling on-hit build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Marksman / Hyperscaler",
+          "difficulty": 4,
+          "damage_type": "physical",
+          "champion_dd_id": "Vayne",
+          "champion_key": "67"
+        },
+        "it": {
+          "title": "Vayne Bot Build & Guide — Patch 16.9",
+          "description": "Guida Vayne bot lane League of Legends Patch 16.9: starter kit, build hyperscaler on-hit, matchup chiave, power spike, errori comuni e una tip finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Marksman / Hyperscaler",
+          "difficulty": 4,
+          "damage_type": "physical",
+          "champion_dd_id": "Vayne",
+          "champion_key": "67"
+        }
+      }
+    },
+    {
+      "slug": "vi-jungle",
+      "champion": "vi",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Vi Jungle Build & Guide — Patch 16.9",
+          "description": "Vi jungle guide for League of Legends Patch 16.9: clear path, gank patterns, core bruiser build, key matchups, power spikes, mistakes, and one closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Diver",
+          "difficulty": 2,
+          "damage_type": "physical",
+          "champion_dd_id": "Vi",
+          "champion_key": "254"
+        },
+        "it": {
+          "title": "Vi Jungle Build & Guide — Patch 16.9",
+          "description": "Guida Vi jungle per League of Legends Patch 16.9: clear path, pattern di gank, build bruiser, matchup chiave, power spike, errori comuni e una tip avanzata.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Diver",
+          "difficulty": 2,
+          "damage_type": "physical",
+          "champion_dd_id": "Vi",
+          "champion_key": "254"
+        }
+      }
+    },
+    {
+      "slug": "viego-jungle",
+      "champion": "viego",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Viego Jungle Build & Guide — Patch 16.9",
+          "description": "Viego jungle guide for League of Legends Patch 16.9: starter kit, AD bruiser core build, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Skirmisher",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Viego",
+          "champion_key": "234"
+        },
+        "it": {
+          "title": "Viego Jungle Build & Guida — Patch 16.9",
+          "description": "Guida Viego jungle per League of Legends Patch 16.9: starter kit, build core bruiser, matchup chiave, power spike, errori comuni e una tip avanzata finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Skirmisher",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Viego",
+          "champion_key": "234"
+        }
+      }
+    },
+    {
+      "slug": "warwick-jungle",
+      "champion": "warwick",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Warwick Jungle Build & Guide — Patch 16.9",
+          "description": "Warwick jungle guide for LoL Patch 16.9: sustain clear path, AD bruiser build, gank patterns with Q + E, key matchups, power spikes, common beginner mistakes.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Diver",
+          "difficulty": 2,
+          "damage_type": "mixed",
+          "champion_dd_id": "Warwick",
+          "champion_key": "19"
+        },
+        "it": {
+          "title": "Warwick Jungle Build & Guida — Patch 16.9",
+          "description": "Guida Warwick jungle per LoL Patch 16.9: clear con sustain passivo, build AD bruiser, pattern di gank con Q + E, matchup chiave, power spike, errori comuni novizi.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Diver",
+          "difficulty": 2,
+          "damage_type": "mixed",
+          "champion_dd_id": "Warwick",
+          "champion_key": "19"
+        }
+      }
+    },
+    {
+      "slug": "yasuo-mid",
+      "champion": "yasuo",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Yasuo Mid Build & Guide — Patch 16.9",
+          "description": "Yasuo mid lane guide for League of Legends Patch 16.9: starter kit, AD crit build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Skirmisher",
+          "difficulty": 5,
+          "damage_type": "physical",
+          "champion_dd_id": "Yasuo",
+          "champion_key": "157"
+        },
+        "it": {
+          "title": "Yasuo Mid Build & Guida — Patch 16.9",
+          "description": "Guida Yasuo mid lane per League of Legends Patch 16.9: starter kit, build AD crit, matchup chiave, power spike, errori comuni e un consiglio tecnico finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Fighter / Skirmisher",
+          "difficulty": 5,
+          "damage_type": "physical",
+          "champion_dd_id": "Yasuo",
+          "champion_key": "157"
+        }
+      }
+    },
+    {
+      "slug": "zed-mid",
+      "champion": "zed",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Zed Mid Build & Guide — Patch 16.9",
+          "description": "Zed mid lane guide for League of Legends Patch 16.9: AD assassin lethality build, runes, key matchups, power spikes, common mistakes, and an advanced tip.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Assassin / Burst",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Zed",
+          "champion_key": "238"
+        },
+        "it": {
+          "title": "Zed Mid Build & Guida — Patch 16.9",
+          "description": "Guida Zed mid lane per League of Legends Patch 16.9: build AD assassin lethality, rune, matchup chiave, power spike, errori comuni e un consiglio finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Assassin / Burst",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Zed",
+          "champion_key": "238"
         }
       }
     }

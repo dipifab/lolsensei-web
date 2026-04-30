@@ -73,6 +73,29 @@ quick_learn:
   base_combo: ["E", "Q", "AA", "R"]
   win_condition: "Snipa i target squishy con R dalla massima gittata negli obiettivi una volta online Luden's Echo e Shadowflame. Controlla lo spazio con E e resta dietro alla front line."
   weakness: "Nessun dash, mobilità base nulla. Hard counter di diver e assassini; se la front line salta, anche il tuo posizionamento crolla."
+  runes:
+    primary_tree: "Sorcery"
+    primary_tree_dd_id: 8200
+    keystone:
+      dd_id: 8229
+      name: "Arcane Comet"
+      icon_path: "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png"
+    primary_slots:
+      - { dd_id: 8226, name: "Manaflow Band", icon_path: "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png" }
+      - { dd_id: 8210, name: "Transcendence", icon_path: "perk-images/Styles/Sorcery/Transcendence/Transcendence.png" }
+      - { dd_id: 8237, name: "Scorch", icon_path: "perk-images/Styles/Sorcery/Scorch/Scorch.png" }
+    secondary_tree: "Inspiration"
+    secondary_tree_dd_id: 8300
+    secondary_slots:
+      - { dd_id: 8345, name: "Biscuit Delivery", icon_path: "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png" }
+      - { dd_id: 8347, name: "Cosmic Insight", icon_path: "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Adaptive Force"
+      - "Health Scaling"
+    primary_rationale: "Sorcery primaria: Arcane Comet sfrutta E in Q per garantire il proc e aggiungere burst a ogni scambio. Manaflow Band sostiene il mana per spammare E in lane, Transcendence porta il CDR oltre il 40%, Scorch chiude il poke a basso HP."
+    secondary_rationale: "Inspiration secondaria: Biscuit Delivery e Cosmic Insight per sustain in early game e Flash piu frequente nei teamfight."
+    secondary_alternative: "Se la squadra avversaria ha 2+ squishy a basse resistenze, swap Inspiration verso Precision con Presence of Mind (mana refund su kill) e Coup de Grace (+8% danno su nemici sotto 40% HP)."
 matchup_draft:
   pick_into:
     - examples: ["karthus", "veigar", "viktor", "anivia"]

@@ -74,6 +74,26 @@ quick_learn:
   base_combo: ["W", "E", "Q", "R"]
   win_condition: "Sopravvivi alla lane fino al 2° item, poi raggruppati col team e flanka (entra nel fight da un'angolazione laterale) col travestimento. Riftmaker trasforma il tuo danno AOE in cura sostenuta nei fight lunghi."
   weakness: "Pick di nicchia che perde lane contro bruiser pesanti (Darius, Garen, Sett). Niente dash, niente scudo: se non baiti un'abilità con il clone W, mangi i trade pieni."
+  runes:
+    primary_tree: "Sorcery"
+    primary_tree_dd_id: 8200
+    keystone:
+      dd_id: 8229
+      name: "Arcane Comet"
+      icon_path: "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png"
+    primary_slots:
+      - { dd_id: 8226, name: "Manaflow Band", icon_path: "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png" }
+      - { dd_id: 8210, name: "Transcendence", icon_path: "perk-images/Styles/Sorcery/Transcendence/Transcendence.png" }
+      - { dd_id: 8237, name: "Scorch", icon_path: "perk-images/Styles/Sorcery/Scorch/Scorch.png" }
+    secondary_tree: "Resolve"
+    secondary_tree_dd_id: 8400
+    secondary_slots:
+      - { dd_id: 8429, name: "Conditioning", icon_path: "perk-images/Styles/Resolve/Conditioning/Conditioning.png" }
+      - { dd_id: 8451, name: "Overgrowth", icon_path: "perk-images/Styles/Resolve/Overgrowth/Overgrowth.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Adaptive Force"
+      - "Health Scaling"
 ---
 
 ## Panoramica
@@ -105,7 +125,7 @@ Il piano in top si divide in tre fasi. Livelli 1-5 sono damage control: pulisci 
 
 **Skill order:** Massimizza **Q** per primo (waveclear e DPS), **E** per secondo (utility root), **W** per ultimo. Punto in **R** ai livelli 6, 11, 16.
 
-**Rune:** Albero primario **Sorcery** con **Phase Rush** (un burst di movement speed che procca dopo tre attacchi/abilità — perfetto per kitare i bruiser), **Manaflow Band**, **Transcendence**, **Scorch**. Secondario **Resolve** con **Conditioning** e **Overgrowth** per gli HP extra che fanno valere il sustain di Riftmaker.
+**Rune:** Albero primario **Sorcery** con **Arcane Comet** (un missile di danno magico ritardato che procca quando colpisci un nemico con un'abilità — poke extra ottimo su ogni Q in lane), **Manaflow Band**, **Transcendence**, **Scorch**. Secondario **Resolve** con **Conditioning** e **Overgrowth** per gli HP extra che fanno valere il sustain di Riftmaker.
 
 ## Matchup chiave
 

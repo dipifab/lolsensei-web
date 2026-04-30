@@ -73,6 +73,26 @@ quick_learn:
   base_combo: ["W", "Q", "AA", "E", "R"]
   win_condition: "Arrivare con Nashor's Tooth + Sorcerer's Shoes online (~ minuto 18-20), poi controllare gli objective fight con i basic attack estesi dai soldati e fare Shuffle (R + Flash) sui carry avversari."
   weakness: "Champion meccanicamente esigente e debole prima del livello 6. Senza E disponibile non hai escape; il chip damage a distanza e i Wind Wall (Yasuo, Yone) annullano sia i soldati della Q che la R."
+  runes:
+    primary_tree: "Sorcery"
+    primary_tree_dd_id: 8200
+    keystone:
+      dd_id: 8229
+      name: "Arcane Comet"
+      icon_path: "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png"
+    primary_slots:
+      - { dd_id: 8226, name: "Manaflow Band", icon_path: "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png" }
+      - { dd_id: 8210, name: "Transcendence", icon_path: "perk-images/Styles/Sorcery/Transcendence/Transcendence.png" }
+      - { dd_id: 8237, name: "Scorch", icon_path: "perk-images/Styles/Sorcery/Scorch/Scorch.png" }
+    secondary_tree: "Inspiration"
+    secondary_tree_dd_id: 8300
+    secondary_slots:
+      - { dd_id: 8345, name: "Biscuit Delivery", icon_path: "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png" }
+      - { dd_id: 8347, name: "Cosmic Insight", icon_path: "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Adaptive Force"
+      - "Health Scaling"
 matchup_draft:
   pick_into:
     - examples: ["veigar", "karthus", "anivia"]

@@ -77,6 +77,26 @@ quick_learn:
   base_combo: ["Q", "AA", "W", "AA", "E", "R"]
   win_condition: "Inchiodati a un singolo target coi Q dash e il true damage stackato della R finché non cade. Forza fight a livello 6 con R online, meglio dopo un Rift Herald o Baron per la true form lunga."
   weakness: "Hard CC (stun, knock-up, suppress) cancella i Q dash e la blocca sul posto. Senza R attiva o senza un target a cui inchiodarsi, ha poca minaccia a distanza e crolla contro tanto peel."
+  runes:
+    primary_tree: "Precision"
+    primary_tree_dd_id: 8000
+    keystone:
+      dd_id: 8005
+      name: "Press the Attack"
+      icon_path: "perk-images/Styles/Precision/PressTheAttack/PressTheAttack.png"
+    primary_slots:
+      - { dd_id: 9111, name: "Triumph", icon_path: "perk-images/Styles/Precision/Triumph.png" }
+      - { dd_id: 9104, name: "Legend: Alacrity", icon_path: "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png" }
+      - { dd_id: 8014, name: "Coup de Grace", icon_path: "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png" }
+    secondary_tree: "Resolve"
+    secondary_tree_dd_id: 8400
+    secondary_slots:
+      - { dd_id: 8444, name: "Second Wind", icon_path: "perk-images/Styles/Resolve/SecondWind/SecondWind.png" }
+      - { dd_id: 8453, name: "Revitalize", icon_path: "perk-images/Styles/Resolve/Revitalize/Revitalize.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Attack Speed"
+      - "Health Scaling"
 matchup_draft:
   pick_into:
     - examples: ["amumu", "zac", "sejuani", "skarner"]

@@ -73,6 +73,26 @@ quick_learn:
   base_combo: ["Q", "R", "W", "E"]
   win_condition: "Land Q from fog onto a key target, R to lock everyone in range, then sit on top of the back line with W ticking max-HP damage while Tantrum cools down on every hit you take."
   weakness: "Predictable engage tools on long cooldowns. If Q misses or R is removed by a Cleanse Summoner, Amumu has no follow-up — he gets kited until both come back, contributing nothing for 90+ seconds."
+  runes:
+    primary_tree: "Resolve"
+    primary_tree_dd_id: 8400
+    keystone:
+      dd_id: 8439
+      name: "Aftershock"
+      icon_path: "perk-images/Styles/Resolve/VeteranAftershock/VeteranAftershock.png"
+    primary_slots:
+      - { dd_id: 8463, name: "Font of Life", icon_path: "perk-images/Styles/Resolve/FontOfLife/FontOfLife.png" }
+      - { dd_id: 8429, name: "Conditioning", icon_path: "perk-images/Styles/Resolve/Conditioning/Conditioning.png" }
+      - { dd_id: 8453, name: "Revitalize", icon_path: "perk-images/Styles/Resolve/Revitalize/Revitalize.png" }
+    secondary_tree: "Sorcery"
+    secondary_tree_dd_id: 8200
+    secondary_slots:
+      - { dd_id: 8226, name: "Manaflow Band", icon_path: "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png" }
+      - { dd_id: 8210, name: "Transcendence", icon_path: "perk-images/Styles/Sorcery/Transcendence/Transcendence.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Adaptive Force"
+      - "Health Scaling"
 matchup_draft:
   pick_into:
     - examples: ["yasuo", "kennen", "katarina", "miss-fortune"]

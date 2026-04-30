@@ -73,6 +73,26 @@ quick_learn:
   base_combo: ["W", "Q", "AA"]
   win_condition: "Domina la lane con il range della Q e i setup di trap, snowballa Headshot procs con The Collector e Infinity Edge, poi chiudi i fight da dietro la front line, kitando con E e finendo i nemici low-HP con la R."
   weakness: "Nessuna escape vera quando E è in cooldown. Counter durissimi: diver e assassin (Samira, Yasuo, Zed flank). Se l'early lead non si converte in pick a midgame, gli hyperscaler tipo Jinx o Vayne ti superano."
+  runes:
+    primary_tree: "Precision"
+    primary_tree_dd_id: 8000
+    keystone:
+      dd_id: 8021
+      name: "Fleet Footwork"
+      icon_path: "perk-images/Styles/Precision/FleetFootwork/FleetFootwork.png"
+    primary_slots:
+      - { dd_id: 8009, name: "Presence of Mind", icon_path: "perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png" }
+      - { dd_id: 9104, name: "Legend: Alacrity", icon_path: "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png" }
+      - { dd_id: 8014, name: "Coup de Grace", icon_path: "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png" }
+    secondary_tree: "Sorcery"
+    secondary_tree_dd_id: 8200
+    secondary_slots:
+      - { dd_id: 8226, name: "Manaflow Band", icon_path: "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png" }
+      - { dd_id: 8236, name: "Gathering Storm", icon_path: "perk-images/Styles/Sorcery/GatheringStorm/GatheringStorm.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Attack Speed"
+      - "Health Scaling"
 ---
 
 ## Panoramica

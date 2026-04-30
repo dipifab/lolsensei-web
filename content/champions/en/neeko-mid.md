@@ -74,6 +74,26 @@ quick_learn:
   base_combo: ["W", "E", "Q", "R"]
   win_condition: "Land R inside a teamfight or off a flank disguised as an ally. Once Luden's Echo and Shadowflame are online, a hit R + Q double bloom one-shots most squishy back lines."
   weakness: "All damage is locked behind a long, telegraphed R that can be canceled by any hard CC. No dash, no shield, and the W active is the only mobility tool."
+  runes:
+    primary_tree: "Sorcery"
+    primary_tree_dd_id: 8200
+    keystone:
+      dd_id: 8229
+      name: "Arcane Comet"
+      icon_path: "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png"
+    primary_slots:
+      - { dd_id: 8226, name: "Manaflow Band", icon_path: "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png" }
+      - { dd_id: 8210, name: "Transcendence", icon_path: "perk-images/Styles/Sorcery/Transcendence/Transcendence.png" }
+      - { dd_id: 8237, name: "Scorch", icon_path: "perk-images/Styles/Sorcery/Scorch/Scorch.png" }
+    secondary_tree: "Domination"
+    secondary_tree_dd_id: 8100
+    secondary_slots:
+      - { dd_id: 8126, name: "Cheap Shot", icon_path: "perk-images/Styles/Domination/CheapShot/CheapShot.png" }
+      - { dd_id: 8106, name: "Ultimate Hunter", icon_path: "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Adaptive Force"
+      - "Health Scaling"
 ---
 
 ## Overview

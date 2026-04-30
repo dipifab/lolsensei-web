@@ -156,6 +156,24 @@ const ABILITY_KEYS = ['P', 'Q', 'W', 'E', 'R'];
 const SKILL_LEVEL_KEYS = ['Q', 'W', 'E', 'R'];
 const DAMAGE_TYPES = ['magic', 'physical', 'mixed', 'true'];
 
+// CR-058 (WP35.6) — Stat shards canonical enum (D-3).
+// Riot non espone gli shards in runesReforged.json — l'enum hardcoded e' la
+// scelta piu' robusta. Mirror manuale di `StatShardEnum` in
+// `src/lib/content/champion-schema.ts`. Single source of truth resta lo Zod
+// schema TS; questo array deve restare in sync (entrambi sono toccati dallo
+// stesso commit).
+const STAT_SHARDS_CANONICAL = [
+  'Adaptive Force',
+  'Attack Speed',
+  'Ability Haste',
+  'Movement Speed',
+  'Health Scaling',
+  'Health',
+  'Tenacity and Slow Resist',
+  'Magic Resist',
+  'Armor',
+];
+
 function lintQuickLearn(file, ql) {
   if (typeof ql !== 'object' || ql === null || Array.isArray(ql)) {
     fail(file, `quick_learn: must be an object`);
@@ -253,6 +271,152 @@ function lintQuickLearn(file, ql) {
   }
   if (typeof ql.weakness !== 'string' || ql.weakness.length < 20 || ql.weakness.length > 220) {
     fail(file, `quick_learn.weakness: string in [20, 220]`);
+  }
+  // CR-058 (WP35.6) — Runes block. Optional. Backward-compat con guide
+  // pre-CR-058: campo assente -> nessun check.
+  if (ql.runes !== undefined) {
+    lintRunes(file, ql.runes);
+  }
+}
+
+// CR-058 (WP35.6) — Mirror di `RunesSchema` Zod in
+// `src/lib/content/champion-schema.ts`. Hard-fail su:
+// - tipo non-object;
+// - missing keys richieste;
+// - primary_slots length != 3, secondary_slots length != 2;
+// - stat_shards length != 3 o valore non-canonical;
+// - dd_id (tree o slot) fuori [8000, 99999];
+// - tree name fuori [3, 20];
+// - RuneSlot: dd_id fuori range, name fuori [2, 40], icon_path fuori [5, 120].
+function lintRunes(file, runes) {
+  if (typeof runes !== 'object' || runes === null || Array.isArray(runes)) {
+    fail(file, `quick_learn.runes: must be an object`);
+    return;
+  }
+  // primary_tree
+  if (
+    typeof runes.primary_tree !== 'string' ||
+    runes.primary_tree.length < 3 ||
+    runes.primary_tree.length > 20
+  ) {
+    fail(file, `quick_learn.runes.primary_tree: string in [3, 20]`);
+  }
+  // primary_tree_dd_id
+  if (
+    !Number.isInteger(runes.primary_tree_dd_id) ||
+    runes.primary_tree_dd_id < 8000 ||
+    runes.primary_tree_dd_id > 99999
+  ) {
+    fail(file, `quick_learn.runes.primary_tree_dd_id: integer in [8000, 99999]`);
+  }
+  // keystone (1 RuneSlot)
+  if (runes.keystone === undefined) {
+    fail(file, `quick_learn.runes.keystone: required RuneSlot`);
+  } else {
+    lintRuneSlot(file, runes.keystone, `quick_learn.runes.keystone`);
+  }
+  // primary_slots length 3
+  if (!Array.isArray(runes.primary_slots) || runes.primary_slots.length !== 3) {
+    fail(
+      file,
+      `quick_learn.runes.primary_slots: array of length 3 (got ${
+        Array.isArray(runes.primary_slots) ? runes.primary_slots.length : typeof runes.primary_slots
+      })`,
+    );
+  } else {
+    for (let i = 0; i < runes.primary_slots.length; i++) {
+      lintRuneSlot(file, runes.primary_slots[i], `quick_learn.runes.primary_slots[${i}]`);
+    }
+  }
+  // secondary_tree
+  if (
+    typeof runes.secondary_tree !== 'string' ||
+    runes.secondary_tree.length < 3 ||
+    runes.secondary_tree.length > 20
+  ) {
+    fail(file, `quick_learn.runes.secondary_tree: string in [3, 20]`);
+  }
+  // secondary_tree_dd_id
+  if (
+    !Number.isInteger(runes.secondary_tree_dd_id) ||
+    runes.secondary_tree_dd_id < 8000 ||
+    runes.secondary_tree_dd_id > 99999
+  ) {
+    fail(file, `quick_learn.runes.secondary_tree_dd_id: integer in [8000, 99999]`);
+  }
+  // secondary_slots length 2
+  if (!Array.isArray(runes.secondary_slots) || runes.secondary_slots.length !== 2) {
+    fail(
+      file,
+      `quick_learn.runes.secondary_slots: array of length 2 (got ${
+        Array.isArray(runes.secondary_slots) ? runes.secondary_slots.length : typeof runes.secondary_slots
+      })`,
+    );
+  } else {
+    for (let i = 0; i < runes.secondary_slots.length; i++) {
+      lintRuneSlot(file, runes.secondary_slots[i], `quick_learn.runes.secondary_slots[${i}]`);
+    }
+  }
+  // stat_shards length 3, each in canonical enum
+  if (!Array.isArray(runes.stat_shards) || runes.stat_shards.length !== 3) {
+    fail(
+      file,
+      `quick_learn.runes.stat_shards: array of length 3 (got ${
+        Array.isArray(runes.stat_shards) ? runes.stat_shards.length : typeof runes.stat_shards
+      })`,
+    );
+  } else {
+    for (let i = 0; i < runes.stat_shards.length; i++) {
+      const s = runes.stat_shards[i];
+      if (typeof s !== 'string' || !STAT_SHARDS_CANONICAL.includes(s)) {
+        fail(
+          file,
+          `quick_learn.runes.stat_shards[${i}]: must be one of canonical enum (got ${JSON.stringify(s)}); allowed: ${STAT_SHARDS_CANONICAL.join(' | ')}`,
+        );
+      }
+    }
+  }
+  // CR-058 v2 — rationale contestuali opzionali, length [20, 280] hard-fail
+  // se presenti ma fuori range. Backward-compat: assenti = no-op.
+  for (const key of ['primary_rationale', 'secondary_rationale', 'secondary_alternative']) {
+    if (runes[key] !== undefined) {
+      const v = runes[key];
+      if (typeof v !== 'string' || v.length < 20 || v.length > 280) {
+        fail(file, `quick_learn.runes.${key}: string in [20, 280] (got length=${typeof v === 'string' ? v.length : typeof v})`);
+      }
+    }
+  }
+}
+
+// CR-058 (WP35.6) — Mirror di `RuneSlotSchema` Zod.
+function lintRuneSlot(file, slot, path) {
+  if (typeof slot !== 'object' || slot === null || Array.isArray(slot)) {
+    fail(file, `${path}: must be an object`);
+    return;
+  }
+  if (
+    !Number.isInteger(slot.dd_id) ||
+    slot.dd_id < 8000 ||
+    slot.dd_id > 99999
+  ) {
+    fail(file, `${path}.dd_id: integer in [8000, 99999]`);
+  }
+  if (typeof slot.name !== 'string' || slot.name.length < 2 || slot.name.length > 40) {
+    fail(file, `${path}.name: string in [2, 40]`);
+  }
+  if (
+    typeof slot.icon_path !== 'string' ||
+    slot.icon_path.length < 5 ||
+    slot.icon_path.length > 120
+  ) {
+    fail(file, `${path}.icon_path: string in [5, 120]`);
+  }
+  // CR-058 v2 — rationale opzionale per slot (per ora usato solo sul keystone).
+  if (slot.rationale !== undefined) {
+    const v = slot.rationale;
+    if (typeof v !== 'string' || v.length < 20 || v.length > 280) {
+      fail(file, `${path}.rationale: string in [20, 280] (got length=${typeof v === 'string' ? v.length : typeof v})`);
+    }
   }
 }
 

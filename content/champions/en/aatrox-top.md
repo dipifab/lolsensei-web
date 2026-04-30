@@ -76,6 +76,26 @@ quick_learn:
   base_combo: ["W", "AA", "Q1", "E", "Q2", "Q3"]
   win_condition: "Land Q edges to knock up, chain W to lock targets in place, use E to reset position. Convert Eclipse + Black Cleaver lead into side-lane 1v1 wins."
   weakness: "All damage rides on Q timing. Miss the edge and the trade is lost. Hard CC, long-range kiters, and true-damage duelists (Fiora, Camille) tear his sustain apart."
+  runes:
+    primary_tree: "Precision"
+    primary_tree_dd_id: 8000
+    keystone:
+      dd_id: 8010
+      name: "Conqueror"
+      icon_path: "perk-images/Styles/Precision/Conqueror/Conqueror.png"
+    primary_slots:
+      - { dd_id: 9111, name: "Triumph", icon_path: "perk-images/Styles/Precision/Triumph.png" }
+      - { dd_id: 9104, name: "Legend: Alacrity", icon_path: "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png" }
+      - { dd_id: 8299, name: "Last Stand", icon_path: "perk-images/Styles/Sorcery/LastStand/LastStand.png" }
+    secondary_tree: "Resolve"
+    secondary_tree_dd_id: 8400
+    secondary_slots:
+      - { dd_id: 8444, name: "Second Wind", icon_path: "perk-images/Styles/Resolve/SecondWind/SecondWind.png" }
+      - { dd_id: 8453, name: "Revitalize", icon_path: "perk-images/Styles/Resolve/Revitalize/Revitalize.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Attack Speed"
+      - "Health Scaling"
 matchup_draft:
   pick_into:
     - examples: ["nasus", "yorick"]
@@ -128,7 +148,7 @@ His game plan is short to describe and demanding to execute: in lane, walk up wi
 
 **Skill order:** Max **Q** first (it is your only damage), **E** second (the lifesteal scales per rank, so more dashes per fight), **W** last. Take **R** at levels 6, 11, 16.
 
-**Runes:** Runes are passive effects you choose before the game from a "tree" of options, each tree built around a different style. Aatrox uses **Precision** as the primary tree (the one built around sustained damage from basic attacks) with the keystone (the main rune of the tree) **Conqueror** — a passive that ramps up your damage as you keep fighting — plus **Triumph** (a small heal on takedowns), **Legend: Tenacity** (Tenacity = stat that shortens the duration of CC effects on you), and **Last Stand** (more damage when low HP). As secondary tree, take **Resolve** (the durability tree) with **Second Wind** + **Revitalize** for HP sustain in lane, or **Inspiration** with **Magical Footwear** (free boots at 12 minutes) and **Cosmic Insight** (extra ability haste) if you expect a quiet lane.
+**Runes:** Runes are passive effects you choose before the game from a "tree" of options, each tree built around a different style. Aatrox uses **Precision** as the primary tree (the one built around sustained damage from basic attacks) with the keystone (the main rune of the tree) **Conqueror** — a passive that ramps up your damage as you keep fighting — plus **Triumph** (a small heal on takedowns), **Legend: Alacrity** (Alacrity = stat that gives you bonus attack speed, helping Aatrox auto-attack faster between abilities), and **Last Stand** (more damage when low HP). As secondary tree, take **Resolve** (the durability tree) with **Second Wind** + **Revitalize** for HP sustain in lane, or **Inspiration** with **Magical Footwear** (free boots at 12 minutes) and **Cosmic Insight** (extra ability haste) if you expect a quiet lane.
 
 ## Key matchups
 

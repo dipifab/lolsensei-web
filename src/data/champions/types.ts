@@ -10,7 +10,23 @@ import type {
   ChampionRole,
   MatchupDraft,
   QuickLearn,
+  Runes,
+  RuneSlot,
+  StatShard,
 } from '../../lib/content/champion-schema';
+
+// CR-058 / WP35.6 — Re-export del contratto Runes per i consumer del data
+// layer (route loader, componenti). La fonte autoritativa dei tipi resta
+// `src/lib/content/champion-schema.ts` (Zod ground truth). `QuickLearn`
+// include gia' `runes?: Runes` via `z.infer`, quindi `ChampionGuide` qui
+// sotto eredita automaticamente il nuovo campo opzionale senza modifiche.
+//
+// CR-058 amendment v2 (2026-04-29): RunesSchema ora include 3 rationale
+// opzionali (`primary_rationale`, `secondary_rationale`,
+// `secondary_alternative`) e RuneSlotSchema un campo `rationale?` opzionale.
+// La propagazione resta automatica tramite z.infer — nessuna modifica richiesta
+// qui. Le guide v1 senza rationale restano valide (backward-compat).
+export type { Runes, RuneSlot, StatShard };
 
 export interface RelatedChampion {
   /** `${champion}-${role}` slug. */
@@ -34,7 +50,8 @@ export interface ChampionGuide {
   /** ISO date YYYY-MM-DD. */
   last_updated: string;
   description: string;
-  /** CR-053 Quick Learn block. Optional — guide remains valid without it. */
+  /** CR-053 Quick Learn block. Optional — guide remains valid without it.
+   *  Include CR-058 `runes?` sub-block automatically via Zod inference. */
   quick_learn?: QuickLearn;
   /** CR-057 Matchup Draft block. Optional. When present the body is
    *  splitted at compile time on `## Key matchups` (EN) / `## Matchup chiave`

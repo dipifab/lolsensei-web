@@ -73,6 +73,26 @@ quick_learn:
   base_combo: ["Q", "E", "R", "E"]
   win_condition: "Landa la Q a max range per applicare Chill, poi E per il danno doppio, poi piazza R sotto i loro piedi così chi è rallentato becca un'altra E empowered. Wall (W) il resto del team fuori così la kill non viene interrotta."
   weakness: "Lenta, no dash, base armor bassa, mana hungry early. Se sbagli la Q il trade è morto e i diver ti raggiungono prima che R sia fully formed. Wind Wall e silence rovinano tutto il kit."
+  runes:
+    primary_tree: "Sorcery"
+    primary_tree_dd_id: 8200
+    keystone:
+      dd_id: 8229
+      name: "Arcane Comet"
+      icon_path: "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png"
+    primary_slots:
+      - { dd_id: 8226, name: "Manaflow Band", icon_path: "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png" }
+      - { dd_id: 8210, name: "Transcendence", icon_path: "perk-images/Styles/Sorcery/Transcendence/Transcendence.png" }
+      - { dd_id: 8237, name: "Scorch", icon_path: "perk-images/Styles/Sorcery/Scorch/Scorch.png" }
+    secondary_tree: "Inspiration"
+    secondary_tree_dd_id: 8300
+    secondary_slots:
+      - { dd_id: 8345, name: "Biscuit Delivery", icon_path: "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png" }
+      - { dd_id: 8347, name: "Cosmic Insight", icon_path: "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Adaptive Force"
+      - "Health Scaling"
 matchup_draft:
   pick_into:
     - examples: ["veigar", "viktor", "lux"]

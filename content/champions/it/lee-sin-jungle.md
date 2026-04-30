@@ -76,6 +76,26 @@ quick_learn:
   base_combo: ["Q1", "AA", "E", "AA", "Q2", "R"]
   win_condition: "Vinci i primi 14 minuti con invade e gank. Una volta finito Eclipse, contesta ogni obiettivo e usa la R per togliere un nemico chiave dalla posizione. Late game cerca un flank, calcia una carry squishy nel team."
   weakness: "Crolla forte dopo il minuto 25 contro carry che scalano. Niente dash affidabile se Q1 manca o se W non ha bersagli. Le catene di CC duro chiudono il tuo engage all'istante."
+  runes:
+    primary_tree: "Precision"
+    primary_tree_dd_id: 8000
+    keystone:
+      dd_id: 8010
+      name: "Conqueror"
+      icon_path: "perk-images/Styles/Precision/Conqueror/Conqueror.png"
+    primary_slots:
+      - { dd_id: 9111, name: "Triumph", icon_path: "perk-images/Styles/Precision/Triumph.png" }
+      - { dd_id: 9104, name: "Legend: Alacrity", icon_path: "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png" }
+      - { dd_id: 8299, name: "Last Stand", icon_path: "perk-images/Styles/Sorcery/LastStand/LastStand.png" }
+    secondary_tree: "Domination"
+    secondary_tree_dd_id: 8100
+    secondary_slots:
+      - { dd_id: 8143, name: "Sudden Impact", icon_path: "perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png" }
+      - { dd_id: 8135, name: "Treasure Hunter", icon_path: "perk-images/Styles/Domination/TreasureHunter/TreasureHunter.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Attack Speed"
+      - "Health Scaling"
 ---
 
 ## Panoramica

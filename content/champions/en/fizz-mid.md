@@ -73,6 +73,26 @@ quick_learn:
   base_combo: ["R", "Q", "W", "AA", "E"]
   win_condition: "Find isolated squishy targets in side lanes after Lich Bane completion. Land R fish from max range, then Q + W + AA spellblade to delete. Roam with the wave on the enemy's side."
   weakness: "Squishy melee with one engage cycle. If E or R is on cooldown you have no escape and no second commit; focused CC ends the combo before R fish lands."
+  runes:
+    primary_tree: "Domination"
+    primary_tree_dd_id: 8100
+    keystone:
+      dd_id: 8112
+      name: "Electrocute"
+      icon_path: "perk-images/Styles/Domination/Electrocute/Electrocute.png"
+    primary_slots:
+      - { dd_id: 8126, name: "Cheap Shot", icon_path: "perk-images/Styles/Domination/CheapShot/CheapShot.png" }
+      - { dd_id: 8137, name: "Sixth Sense", icon_path: "perk-images/Styles/Domination/SixthSense/SixthSense.png" }
+      - { dd_id: 8106, name: "Ultimate Hunter", icon_path: "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png" }
+    secondary_tree: "Sorcery"
+    secondary_tree_dd_id: 8200
+    secondary_slots:
+      - { dd_id: 8226, name: "Manaflow Band", icon_path: "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png" }
+      - { dd_id: 8237, name: "Scorch", icon_path: "perk-images/Styles/Sorcery/Scorch/Scorch.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Adaptive Force"
+      - "Health Scaling"
 matchup_draft:
   pick_into:
     - examples: ["karthus", "veigar", "anivia", "twisted-fate"]
@@ -124,7 +144,7 @@ His game plan is to survive lane until his core two-item spike (Lich Bane + Sorc
 
 **Skill order:** Max **E** first (untargetability + AOE damage scaling — AOE means *area of effect*, so the spell hits everything inside a zone), **Q** second (cooldown reduction means more dashes per fight), **W** last. Take a point in **R** at levels 6, 11, 16.
 
-**Runes:** Primary **Domination** with **Electrocute**, **Cheap Shot**, **Eyeball Collection**, **Ultimate Hunter**. Secondary **Sorcery** with **Manaflow Band** and **Scorch**. Electrocute fits the Q-AA-W three-hit window perfectly: every all-in (full-commitment burst combo until kill or escape) procs it.
+**Runes:** Primary **Domination** with **Electrocute**, **Cheap Shot**, **Sixth Sense**, **Ultimate Hunter**. Secondary **Sorcery** with **Manaflow Band** and **Scorch**. Electrocute fits the Q-AA-W three-hit window perfectly: every all-in (full-commitment burst combo until kill or escape) procs it.
 
 ## Key matchups
 

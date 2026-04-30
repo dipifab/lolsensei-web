@@ -73,6 +73,26 @@ quick_learn:
   base_combo: ["W", "Q", "AA", "E", "R"]
   win_condition: "Sopravvivi alla lane phase con Doran's Shield + passive sustain, scala fino a Stridebreaker, poi flank in side lane e usa R per eseguire le carry kill-fed nemiche nei teamfight."
   weakness: "Niente dash o blink, niente CC duro a distanza. Vulnerabile a kite (Quinn, Vayne) e root long-range (Lissandra, pull di Mordekaiser). Cade in lane se overextendi senza stack di W."
+  runes:
+    primary_tree: "Precision"
+    primary_tree_dd_id: 8000
+    keystone:
+      dd_id: 8010
+      name: "Conqueror"
+      icon_path: "perk-images/Styles/Precision/Conqueror/Conqueror.png"
+    primary_slots:
+      - { dd_id: 9111, name: "Triumph", icon_path: "perk-images/Styles/Precision/Triumph.png" }
+      - { dd_id: 9104, name: "Legend: Alacrity", icon_path: "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png" }
+      - { dd_id: 8299, name: "Last Stand", icon_path: "perk-images/Styles/Sorcery/LastStand/LastStand.png" }
+    secondary_tree: "Resolve"
+    secondary_tree_dd_id: 8400
+    secondary_slots:
+      - { dd_id: 8444, name: "Second Wind", icon_path: "perk-images/Styles/Resolve/SecondWind/SecondWind.png" }
+      - { dd_id: 8242, name: "Unflinching", icon_path: "perk-images/Styles/Sorcery/Unflinching/Unflinching.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Attack Speed"
+      - "Health Scaling"
 ---
 
 ## Panoramica
@@ -103,7 +123,7 @@ In top vuole trade brevi durante l'active di **W** e wave piene dalla sua parte 
 
 **Skill order:** Massimizza **E** per primo (DPS e waveclear), **Q** per secondo (slow + utility), **W** per ultimo (la passiva scala anche senza punti). **R** ai livelli 6, 11, 16.
 
-**Rune:** Albero primario **Precision** con **Conqueror**, **Triumph**, **Legend: Tenacity**, **Last Stand**. Secondario **Resolve** con **Second Wind** + **Unflinching**, oppure **Inspiration** con **Magical Footwear** + **Cosmic Insight** per il timing degli stivali nelle mappe a rotation.
+**Rune:** Albero primario **Precision** con **Conqueror**, **Triumph**, **Legend: Alacrity**, **Last Stand**. Secondario **Resolve** con **Second Wind** + **Unflinching**, oppure **Inspiration** con **Magical Footwear** + **Cosmic Insight** per il timing degli stivali nelle mappe a rotation.
 
 ## Matchup chiave
 

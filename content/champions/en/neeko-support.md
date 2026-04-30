@@ -74,6 +74,26 @@ quick_learn:
   base_combo: ["W", "E", "R", "Q"]
   win_condition: "Roam to side lanes and flank around vision with W and disguise. Land a hidden R on two or more enemies and the team trades cleanly off the AOE knockup."
   weakness: "No targeted CC, no shield, no peel for your ADC. If you cannot engage, your value drops to lane poke; an enemy with reliable hard CC shuts down your R window completely."
+  runes:
+    primary_tree: "Sorcery"
+    primary_tree_dd_id: 8200
+    keystone:
+      dd_id: 8229
+      name: "Arcane Comet"
+      icon_path: "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png"
+    primary_slots:
+      - { dd_id: 8226, name: "Manaflow Band", icon_path: "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png" }
+      - { dd_id: 8210, name: "Transcendence", icon_path: "perk-images/Styles/Sorcery/Transcendence/Transcendence.png" }
+      - { dd_id: 8237, name: "Scorch", icon_path: "perk-images/Styles/Sorcery/Scorch/Scorch.png" }
+    secondary_tree: "Inspiration"
+    secondary_tree_dd_id: 8300
+    secondary_slots:
+      - { dd_id: 8304, name: "Magical Footwear", icon_path: "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" }
+      - { dd_id: 8347, name: "Cosmic Insight", icon_path: "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Adaptive Force"
+      - "Health Scaling"
 ---
 
 ## Overview

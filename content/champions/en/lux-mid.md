@@ -73,6 +73,29 @@ quick_learn:
   base_combo: ["E", "Q", "AA", "R"]
   win_condition: "Snipe squishy targets with R from max range during objective fights once Luden's Echo and Shadowflame are online. Control space with E and stay behind your front line."
   weakness: "No dash and no innate mobility. Hard countered by divers and assassins; if your front line breaks, your positioning collapses with it."
+  runes:
+    primary_tree: "Sorcery"
+    primary_tree_dd_id: 8200
+    keystone:
+      dd_id: 8229
+      name: "Arcane Comet"
+      icon_path: "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png"
+    primary_slots:
+      - { dd_id: 8226, name: "Manaflow Band", icon_path: "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png" }
+      - { dd_id: 8210, name: "Transcendence", icon_path: "perk-images/Styles/Sorcery/Transcendence/Transcendence.png" }
+      - { dd_id: 8237, name: "Scorch", icon_path: "perk-images/Styles/Sorcery/Scorch/Scorch.png" }
+    secondary_tree: "Inspiration"
+    secondary_tree_dd_id: 8300
+    secondary_slots:
+      - { dd_id: 8345, name: "Biscuit Delivery", icon_path: "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png" }
+      - { dd_id: 8347, name: "Cosmic Insight", icon_path: "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Adaptive Force"
+      - "Health Scaling"
+    primary_rationale: "Sorcery primary: Arcane Comet uses E into Q to guarantee the proc and add burst on every trade. Manaflow Band sustains mana for E spam in lane, Transcendence pushes CDR past 40%, Scorch closes poke at low HP."
+    secondary_rationale: "Inspiration secondary: Biscuit Delivery and Cosmic Insight for early-game sustain and more frequent Flash in teamfights."
+    secondary_alternative: "If the enemy team has 2+ low-resistance squishies, swap Inspiration to Precision with Presence of Mind (mana refund on takedown) and Coup de Grace (+8% damage to enemies under 40% HP)."
 matchup_draft:
   pick_into:
     - examples: ["karthus", "veigar", "viktor", "anivia"]

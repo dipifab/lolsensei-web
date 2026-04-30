@@ -87,6 +87,81 @@ export const ChampionClassSchema = z.string().min(3).max(40);
 export const DamageTypeSchema = z.enum(['magic', 'physical', 'mixed', 'true']);
 export const DifficultySchema = z.number().int().min(1).max(5);
 
+// Runes block (CR-058 / WP35.6). Modella una singola build runes strutturata:
+// 1 keystone + 3 primary slots + 2 secondary slots + 3 stat shards.
+// La prosa body resta a spiegare alternative o razionale (D-7).
+//
+// `dd_id` e' lo numeric ID Data Dragon Reforged Runes (range osservato in
+// runesReforged.json: keystones e perks ~8000-8500, alberi 8000-8500). Bound
+// [8000, 99999] difensivo: il vero range Riot e' piu' stretto ma vogliamo
+// solo escludere zero/negativi/item-id (item Data Dragon usa 1xxx-9xxx).
+//
+// `icon_path` e' il path relativo dentro `runesReforged.json` (es.
+// "perk-images/Styles/Sorcery/SummonAery/SummonAery.png"). Il componente
+// costruisce l'URL con root CDN non versionato `cdn/img/` (D-5).
+//
+// `stat_shards` e' enum di 9 valori canonical (D-3): Riot non espone gli
+// shards in runesReforged.json — l'enum hardcoded e' la scelta piu' robusta.
+//
+// CR-058 amendment v2 (2026-04-29): aggiunti rationale contestuali opzionali.
+// `RuneSlot.rationale` (per ora usato solo sul keystone, riservato per future
+// estensioni per slot) e i 3 rationale globali su `RunesSchema`
+// (`primary_rationale`, `secondary_rationale`, `secondary_alternative`).
+// Tutti opzionali: le guide v1 senza rationale restano valide (backward-compat).
+
+export const RuneSlotSchema = z.object({
+  /** Data Dragon Reforged Runes numeric ID (es. 8214 per Summon Aery). */
+  dd_id: z.number().int().min(8000).max(99999),
+  /** Display name della runa (es. "Summon Aery", "Manaflow Band"). */
+  name: z.string().min(2).max(40),
+  /** Path relativo immagine DD (es. "perk-images/Styles/Sorcery/SummonAery/SummonAery.png"). */
+  icon_path: z.string().min(5).max(120),
+  /** CR-058 v2 — rationale contestuale opzionale per la singola runa.
+   *  Ad oggi popolato solo sul keystone in alcuni casi avanzati; il
+   *  componente UI v2 NON lo renderizza (incorporato in `primary_rationale`
+   *  della guida). Riservato per estensioni future per-slot. */
+  rationale: z.string().min(20).max(280).optional(),
+});
+
+export const StatShardEnum = z.enum([
+  'Adaptive Force',
+  'Attack Speed',
+  'Ability Haste',
+  'Movement Speed',
+  'Health Scaling',
+  'Health',
+  'Tenacity and Slow Resist',
+  'Magic Resist',
+  'Armor',
+]);
+
+export const RunesSchema = z.object({
+  /** Albero primario display name (es. "Sorcery", "Precision"). */
+  primary_tree: z.string().min(3).max(20),
+  /** Albero primario DD ID (es. 8200 per Sorcery). */
+  primary_tree_dd_id: z.number().int().min(8000).max(99999),
+  /** Keystone (1 per build). */
+  keystone: RuneSlotSchema,
+  /** 3 perks dell'albero primario (slot 1, 2, 3). */
+  primary_slots: z.array(RuneSlotSchema).length(3),
+  /** Albero secondario display name. */
+  secondary_tree: z.string().min(3).max(20),
+  /** Albero secondario DD ID. */
+  secondary_tree_dd_id: z.number().int().min(8000).max(99999),
+  /** 2 perks dell'albero secondario. */
+  secondary_slots: z.array(RuneSlotSchema).length(2),
+  /** 3 stat shards canonical (Offense / Flex / Defense). */
+  stat_shards: z.array(StatShardEnum).length(3),
+  /** CR-058 v2 — perche' questa pagina di rune (keystone + albero primario)
+   *  in una frase compatta orientata al novizio. Opzionale. */
+  primary_rationale: z.string().min(20).max(280).optional(),
+  /** CR-058 v2 — perche' l'albero secondario scelto. Opzionale. */
+  secondary_rationale: z.string().min(20).max(280).optional(),
+  /** CR-058 v2 — quando swappare il secondario verso un'alternativa
+   *  (matchup-dipendente). Opzionale. */
+  secondary_alternative: z.string().min(20).max(280).optional(),
+});
+
 export const QuickLearnSchema = z.object({
   /** Data Dragon champion ID PascalCase (es. "Lux", "LeeSin"). */
   champion_dd_id: z.string().min(2).max(40),
@@ -101,6 +176,8 @@ export const QuickLearnSchema = z.object({
   base_combo: z.array(z.string().min(1).max(8)).min(2).max(8),
   win_condition: z.string().min(20).max(220),
   weakness: z.string().min(20).max(220),
+  /** CR-058 Runes block (opzionale per backward-compat). */
+  runes: RunesSchema.optional(),
 });
 
 // Matchup Draft block (CR-057). Fonte editoriale e strutturata per:
@@ -167,3 +244,6 @@ export type SituationalItem = z.infer<typeof SituationalItemSchema>;
 export type QuickLearn = z.infer<typeof QuickLearnSchema>;
 export type MatchupExample = z.infer<typeof MatchupExampleSchema>;
 export type MatchupDraft = z.infer<typeof MatchupDraftSchema>;
+export type RuneSlot = z.infer<typeof RuneSlotSchema>;
+export type StatShard = z.infer<typeof StatShardEnum>;
+export type Runes = z.infer<typeof RunesSchema>;

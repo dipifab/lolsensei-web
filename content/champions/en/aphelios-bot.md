@@ -77,6 +77,26 @@ quick_learn:
   base_combo: ["Q", "W", "R", "AA"]
   win_condition: "Reach two-item spike, then cycle Calibrum + Gravitum during fights to lock down a key target with the W swap, R, and Q-root combo while your team commits the engage."
   weakness: "No dash, no escape, and the wrong weapon at the wrong time wastes a fight. Falls behind hard if shut down levels 1-3 before he can stack ammo and items."
+  runes:
+    primary_tree: "Precision"
+    primary_tree_dd_id: 8000
+    keystone:
+      dd_id: 8008
+      name: "Lethal Tempo"
+      icon_path: "perk-images/Styles/Precision/LethalTempo/LethalTempoTemp.png"
+    primary_slots:
+      - { dd_id: 8009, name: "Presence of Mind", icon_path: "perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png" }
+      - { dd_id: 9103, name: "Legend: Bloodline", icon_path: "perk-images/Styles/Precision/LegendBloodline/LegendBloodline.png" }
+      - { dd_id: 8014, name: "Coup de Grace", icon_path: "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png" }
+    secondary_tree: "Resolve"
+    secondary_tree_dd_id: 8400
+    secondary_slots:
+      - { dd_id: 8444, name: "Second Wind", icon_path: "perk-images/Styles/Resolve/SecondWind/SecondWind.png" }
+      - { dd_id: 8451, name: "Overgrowth", icon_path: "perk-images/Styles/Resolve/Overgrowth/Overgrowth.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Attack Speed"
+      - "Health Scaling"
 matchup_draft:
   pick_into:
     - examples: ["samira", "kalista", "yasuo"]

@@ -68,6 +68,26 @@ quick_learn:
   base_combo: ["Q", "AA", "E", "R"]
   win_condition: "Land Death Sentence on a priority squishy (carry, mid) and chain into Flay knockback so your team converts the catch. With The Box dropped, the catch has nowhere to walk that doesn't cost HP."
   weakness: "A missed Q leaves you with no engage tool for around 10 seconds. Slow base movement and zero dashes mean you can't reposition once your hook is gone — flank routes punish you hard."
+  runes:
+    primary_tree: "Resolve"
+    primary_tree_dd_id: 8400
+    keystone:
+      dd_id: 8439
+      name: "Aftershock"
+      icon_path: "perk-images/Styles/Resolve/VeteranAftershock/VeteranAftershock.png"
+    primary_slots:
+      - { dd_id: 8463, name: "Font of Life", icon_path: "perk-images/Styles/Resolve/FontOfLife/FontOfLife.png" }
+      - { dd_id: 8473, name: "Bone Plating", icon_path: "perk-images/Styles/Resolve/BonePlating/BonePlating.png" }
+      - { dd_id: 8429, name: "Conditioning", icon_path: "perk-images/Styles/Resolve/Conditioning/Conditioning.png" }
+    secondary_tree: "Inspiration"
+    secondary_tree_dd_id: 8300
+    secondary_slots:
+      - { dd_id: 8306, name: "Hextech Flashtraption", icon_path: "perk-images/Styles/Inspiration/HextechFlashtraption/HextechFlashtraption.png" }
+      - { dd_id: 8347, name: "Cosmic Insight", icon_path: "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Adaptive Force"
+      - "Health Scaling"
 ---
 
 ## Overview

@@ -1210,6 +1210,17 @@ const en = {
   'wp35.champion_guide.quick_learn.situational_items': 'Situational Items',
   'wp35.champion_guide.quick_learn.win_condition': 'Win Condition',
   'wp35.champion_guide.quick_learn.weakness': 'Weakness',
+  // Quick Learn — Runes sub-block (CR-058 / WP35.6) — 6 keys
+  'wp35.champion_guide.quick_learn.runes.title': 'Runes',
+  'wp35.champion_guide.quick_learn.runes.primary': 'Primary',
+  'wp35.champion_guide.quick_learn.runes.secondary': 'Secondary',
+  'wp35.champion_guide.quick_learn.runes.keystone': 'Keystone',
+  'wp35.champion_guide.quick_learn.runes.shards': 'Stat shards',
+  'wp35.champion_guide.quick_learn.runes.shards_legend': 'Offense · Flex · Defense',
+  // Quick Learn — Runes rationale (CR-058 amendment v2 / 2026-04-29) — 3 keys
+  'wp35.champion_guide.quick_learn.runes.rationale.why_these_runes': 'Why these runes',
+  'wp35.champion_guide.quick_learn.runes.rationale.why_secondary': 'Why secondary',
+  'wp35.champion_guide.quick_learn.runes.rationale.when_to_switch': 'When to switch secondary',
   // Matchup Draft block (CR-057) — 4 keys
   'wp35.matchup_draft.heading': 'Pick into / Counterpicks',
   'wp35.matchup_draft.subtitle':

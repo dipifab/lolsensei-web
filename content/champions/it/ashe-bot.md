@@ -73,6 +73,26 @@ quick_learn:
   base_combo: ["W", "AA", "Q", "AA"]
   win_condition: "Spalma slow di Frost Shot in teamfight, fai kite dietro alla front line con auto potenziate dalla Q e finisci i target isolati con la R cross-map per controllare gli obiettivi."
   weakness: "Movement speed base più lenta di tutti i marksman. Niente dash né reposition tool — i diver e gli assassini che entrano in melee la cancellano se il support non riesce a fare peel."
+  runes:
+    primary_tree: "Precision"
+    primary_tree_dd_id: 8000
+    keystone:
+      dd_id: 8008
+      name: "Lethal Tempo"
+      icon_path: "perk-images/Styles/Precision/LethalTempo/LethalTempoTemp.png"
+    primary_slots:
+      - { dd_id: 9111, name: "Triumph", icon_path: "perk-images/Styles/Precision/Triumph.png" }
+      - { dd_id: 9104, name: "Legend: Alacrity", icon_path: "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png" }
+      - { dd_id: 8014, name: "Coup de Grace", icon_path: "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png" }
+    secondary_tree: "Inspiration"
+    secondary_tree_dd_id: 8300
+    secondary_slots:
+      - { dd_id: 8345, name: "Biscuit Delivery", icon_path: "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png" }
+      - { dd_id: 8347, name: "Cosmic Insight", icon_path: "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Attack Speed"
+      - "Health Scaling"
 matchup_draft:
   pick_into:
     - examples: ["vayne", "twitch", "kalista"]

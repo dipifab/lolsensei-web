@@ -73,6 +73,26 @@ quick_learn:
   base_combo: ["E", "Q", "W", "Q", "AA"]
   win_condition: "Punish positioning errors with W jump-in plus Q recast burst once Stormsurge and Shadowflame are online. Use W resets on takedowns to cycle through a teamfight."
   weakness: "Hard CC before W locks Aurora out of every escape. Long-range artillery mages out-poke her step-up window before she has a way to engage."
+  runes:
+    primary_tree: "Domination"
+    primary_tree_dd_id: 8100
+    keystone:
+      dd_id: 8112
+      name: "Electrocute"
+      icon_path: "perk-images/Styles/Domination/Electrocute/Electrocute.png"
+    primary_slots:
+      - { dd_id: 8126, name: "Cheap Shot", icon_path: "perk-images/Styles/Domination/CheapShot/CheapShot.png" }
+      - { dd_id: 8137, name: "Sixth Sense", icon_path: "perk-images/Styles/Domination/SixthSense/SixthSense.png" }
+      - { dd_id: 8106, name: "Ultimate Hunter", icon_path: "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png" }
+    secondary_tree: "Sorcery"
+    secondary_tree_dd_id: 8200
+    secondary_slots:
+      - { dd_id: 8226, name: "Manaflow Band", icon_path: "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png" }
+      - { dd_id: 8210, name: "Transcendence", icon_path: "perk-images/Styles/Sorcery/Transcendence/Transcendence.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Adaptive Force"
+      - "Health Scaling"
 matchup_draft:
   pick_into:
     - examples: ["karthus", "anivia", "cassiopeia"]
@@ -124,7 +144,7 @@ Her game plan is to win short **trades** (brief skirmishes where two champions e
 
 **Skill order:** Put the most points into **Q** first (it is her main damage and what triggers the recast burst), **E** second (it clears minion waves and the backward hop gives a free **disengage** — a way to break out of a fight), **W** last. Take a point in **R** at levels 6, 11, 16.
 
-**Runes:** Primary **Domination** with **Electrocute**, **Cheap Shot**, **Eyeball Collection**, **Ultimate Hunter**. Secondary **Sorcery** with **Manaflow Band** and **Transcendence**. Electrocute procs after three quick hits on the same target — exactly what Aurora does in every short trade with Q-auto-Q-recast — and Ultimate Hunter shortens the cooldown of **R** for a second teamfight engage.
+**Runes:** Primary **Domination** with **Electrocute**, **Cheap Shot**, **Sixth Sense**, **Ultimate Hunter**. Secondary **Sorcery** with **Manaflow Band** and **Transcendence**. Electrocute procs after three quick hits on the same target — exactly what Aurora does in every short trade with Q-auto-Q-recast — and Ultimate Hunter shortens the cooldown of **R** for a second teamfight engage.
 
 ## Key matchups
 

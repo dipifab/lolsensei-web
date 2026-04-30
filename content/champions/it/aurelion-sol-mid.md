@@ -76,6 +76,26 @@ quick_learn:
   base_combo: ["E", "Q", "W", "R"]
   win_condition: "Accumula Stardust nei fight estesi con Q lunghi e W di inseguimento. Quando Liandry's Torment e Rabadon's Deathcap sono online, il burn sostenuto cancella i champion squishy attraverso la loro Magic Resist."
   weakness: "La Q è una canalizzazione lunga: qualsiasi hard CC che la interrompe (Annie R, Lissandra R, stun di Twisted Fate) dimezza il tuo danno. Gli assassini mobili chiudono la distanza prima che la W sia pronta come escape."
+  runes:
+    primary_tree: "Sorcery"
+    primary_tree_dd_id: 8200
+    keystone:
+      dd_id: 8229
+      name: "Arcane Comet"
+      icon_path: "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png"
+    primary_slots:
+      - { dd_id: 8226, name: "Manaflow Band", icon_path: "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png" }
+      - { dd_id: 8210, name: "Transcendence", icon_path: "perk-images/Styles/Sorcery/Transcendence/Transcendence.png" }
+      - { dd_id: 8237, name: "Scorch", icon_path: "perk-images/Styles/Sorcery/Scorch/Scorch.png" }
+    secondary_tree: "Inspiration"
+    secondary_tree_dd_id: 8300
+    secondary_slots:
+      - { dd_id: 8345, name: "Biscuit Delivery", icon_path: "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png" }
+      - { dd_id: 8347, name: "Cosmic Insight", icon_path: "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Adaptive Force"
+      - "Health Scaling"
 matchup_draft:
   pick_into:
     - examples: ["veigar", "anivia", "karthus"]

@@ -73,6 +73,26 @@ quick_learn:
   base_combo: ["E1", "Q", "AA", "R1", "AA", "E2", "R2"]
   win_condition: "Aggancia bersagli squishy isolati con E1+E2 dash, poi concatena Q + auto-attack potenziato + combo R per l'execute. Roamma sulle side lane ogni volta che hai R pronta."
   weakness: "Waveclear debole e range corto pre-6: vulnerabile a poke a distanza e gank della jungle. Niente CC duro e nessuna fuga se W è in cooldown — possono lockarti e bruciarti prima che la combo parta."
+  runes:
+    primary_tree: "Domination"
+    primary_tree_dd_id: 8100
+    keystone:
+      dd_id: 8112
+      name: "Electrocute"
+      icon_path: "perk-images/Styles/Domination/Electrocute/Electrocute.png"
+    primary_slots:
+      - { dd_id: 8143, name: "Sudden Impact", icon_path: "perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png" }
+      - { dd_id: 8137, name: "Sixth Sense", icon_path: "perk-images/Styles/Domination/SixthSense/SixthSense.png" }
+      - { dd_id: 8106, name: "Ultimate Hunter", icon_path: "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png" }
+    secondary_tree: "Sorcery"
+    secondary_tree_dd_id: 8200
+    secondary_slots:
+      - { dd_id: 8210, name: "Transcendence", icon_path: "perk-images/Styles/Sorcery/Transcendence/Transcendence.png" }
+      - { dd_id: 8236, name: "Gathering Storm", icon_path: "perk-images/Styles/Sorcery/GatheringStorm/GatheringStorm.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Adaptive Force"
+      - "Health Scaling"
 ---
 
 ## Panoramica
@@ -103,7 +123,7 @@ Il piano partita è sopravvivere a una fase di lane debole (waveclear scarsa —
 
 **Skill order:** Maxa **Q** per prima (danno principale e refund di energia, cioè recupero di energia dopo l'uso), **E** per seconda (cooldown più basso sul dash), **W** per ultima. Metti un punto in **R** ai livelli 6, 11, 16.
 
-**Runes:** Le rune sono bonus passivi che scegli prima della partita: un albero primario (5 rune) e uno secondario (2 rune). Primaria **Domination** con **Electrocute** (burst extra quando colpisci con tre abilità in fila), **Sudden Impact** (più magic penetration dopo un dash), **Eyeball Collection** (o **Zombie Ward**) per stack di AP, e **Ultimate Hunter** (cooldown più basso sulla **R**). Secondaria **Sorcery** con **Transcendence** (ability haste — abilità che tornano disponibili più in fretta) e **Gathering Storm** (scaling AP late-game). Akali usa energia, non mana: niente **Manaflow Band**.
+**Runes:** Le rune sono bonus passivi che scegli prima della partita: un albero primario (5 rune) e uno secondario (2 rune). Primaria **Domination** con **Electrocute** (burst extra quando colpisci con tre abilità in fila), **Sudden Impact** (più magic penetration dopo un dash), **Sixth Sense** per pressione di vision, e **Ultimate Hunter** (cooldown più basso sulla **R**). Secondaria **Sorcery** con **Transcendence** (ability haste — abilità che tornano disponibili più in fretta) e **Gathering Storm** (scaling AP late-game). Akali usa energia, non mana: niente **Manaflow Band**.
 
 ## Matchup chiave
 

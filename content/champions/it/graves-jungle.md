@@ -76,6 +76,26 @@ quick_learn:
   base_combo: ["E", "Q", "AA", "R"]
   win_condition: "Snowball di lethality tramite invade e gank prima del minuto 14. Una volta su Eclipse contesta ogni obiettivo — il fucile fonde uno squishy in due colpi e la E ti restituisce la finestra di trade."
   weakness: "Mana-hungry early. La finestra di reload del fucile punisce il posizionamento avido, e fondi sotto catene di hard CC perché non hai safety oltre al buff di armatura della E."
+  runes:
+    primary_tree: "Domination"
+    primary_tree_dd_id: 8100
+    keystone:
+      dd_id: 9923
+      name: "Hail of Blades"
+      icon_path: "perk-images/Styles/Domination/HailOfBlades/HailOfBlades.png"
+    primary_slots:
+      - { dd_id: 8143, name: "Sudden Impact", icon_path: "perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png" }
+      - { dd_id: 8137, name: "Sixth Sense", icon_path: "perk-images/Styles/Domination/SixthSense/SixthSense.png" }
+      - { dd_id: 8135, name: "Treasure Hunter", icon_path: "perk-images/Styles/Domination/TreasureHunter/TreasureHunter.png" }
+    secondary_tree: "Precision"
+    secondary_tree_dd_id: 8000
+    secondary_slots:
+      - { dd_id: 9111, name: "Triumph", icon_path: "perk-images/Styles/Precision/Triumph.png" }
+      - { dd_id: 8014, name: "Coup de Grace", icon_path: "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Attack Speed"
+      - "Health Scaling"
 ---
 
 ## Panoramica
@@ -107,7 +127,7 @@ Il game plan è semplice: nei primi 8 minuti sei il duellante più forte sulla m
 
 **Skill order:** Massimizza **Q** per primo (clear e danno), **E** per secondo (più dash grazie al CD ridotto per rank), **W** per ultimo (lo slow scala bene già a rank 1). **R** ai livelli 6, 11, 16.
 
-**Rune:** Albero primario **Dominio** con **Hail of Blades**, **Sudden Impact**, **Eyeball Collection**, **Treasure Hunter**. Secondario **Precisione** con **Trionfo** + **Coup de Grace** per pressione di snowball, oppure **Risolutezza** con **Vento Secondario** + **Rivitalizzare** se ti aspetti di essere pokato nel jungle.
+**Rune:** Albero primario **Domination** con **Hail of Blades**, **Sudden Impact**, **Sixth Sense**, **Treasure Hunter**. Secondario **Precision** con **Triumph** + **Coup de Grace** per pressione di snowball, oppure **Resolve** con **Second Wind** + **Revitalize** se ti aspetti di essere pokato nel jungle.
 
 ## Matchup chiave
 

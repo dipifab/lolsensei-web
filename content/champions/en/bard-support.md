@@ -76,6 +76,26 @@ quick_learn:
   base_combo: ["AA", "Q", "AA", "R"]
   win_condition: "Roam constantly to collect chimes and wall-stun isolated enemies with Q. In teamfights, R the enemy front line so your team can delete the back line before the engage commits."
   weakness: "Squishy with no dash. If your Q misses or fails to wall-stun, you have no follow-up CC and your ADC dies in the 2v2. Punished by point-and-click lockdown supports and aggressive level-2 bullies."
+  runes:
+    primary_tree: "Inspiration"
+    primary_tree_dd_id: 8300
+    keystone:
+      dd_id: 8351
+      name: "Glacial Augment"
+      icon_path: "perk-images/Styles/Inspiration/GlacialAugment/GlacialAugment.png"
+    primary_slots:
+      - { dd_id: 8304, name: "Magical Footwear", icon_path: "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" }
+      - { dd_id: 8345, name: "Biscuit Delivery", icon_path: "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png" }
+      - { dd_id: 8347, name: "Cosmic Insight", icon_path: "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png" }
+    secondary_tree: "Resolve"
+    secondary_tree_dd_id: 8400
+    secondary_slots:
+      - { dd_id: 8473, name: "Bone Plating", icon_path: "perk-images/Styles/Resolve/BonePlating/BonePlating.png" }
+      - { dd_id: 8453, name: "Revitalize", icon_path: "perk-images/Styles/Resolve/Revitalize/Revitalize.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Adaptive Force"
+      - "Health Scaling"
 matchup_draft:
   pick_into:
     - examples: ["soraka", "sona", "yuumi", "karma"]

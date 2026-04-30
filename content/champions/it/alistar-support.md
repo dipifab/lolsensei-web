@@ -71,6 +71,26 @@ quick_learn:
   base_combo: ["W", "Q", "AA", "E"]
   win_condition: "Piazzare la combo W-Q (Headbutt indietro + Pulverize knock-up) su un carry squishy per aprire un fight che il team converte. Premi R prima di engagiare se hanno hard CC, così le catene di CC rimbalzano su di te."
   weakness: "Range di engage corto: devi essere addosso al bersaglio per piazzare la Q. Mana fragile nei primi livelli e zero poke a distanza; se la bot lane nemica gioca passiva, perdi la lane e devi roamare per restare rilevante."
+  runes:
+    primary_tree: "Resolve"
+    primary_tree_dd_id: 8400
+    keystone:
+      dd_id: 8439
+      name: "Aftershock"
+      icon_path: "perk-images/Styles/Resolve/VeteranAftershock/VeteranAftershock.png"
+    primary_slots:
+      - { dd_id: 8463, name: "Font of Life", icon_path: "perk-images/Styles/Resolve/FontOfLife/FontOfLife.png" }
+      - { dd_id: 8429, name: "Conditioning", icon_path: "perk-images/Styles/Resolve/Conditioning/Conditioning.png" }
+      - { dd_id: 8473, name: "Bone Plating", icon_path: "perk-images/Styles/Resolve/BonePlating/BonePlating.png" }
+    secondary_tree: "Inspiration"
+    secondary_tree_dd_id: 8300
+    secondary_slots:
+      - { dd_id: 8306, name: "Hextech Flashtraption", icon_path: "perk-images/Styles/Inspiration/HextechFlashtraption/HextechFlashtraption.png" }
+      - { dd_id: 8347, name: "Cosmic Insight", icon_path: "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Adaptive Force"
+      - "Health Scaling"
 matchup_draft:
   pick_into:
     - examples: ["soraka", "sona", "yuumi", "janna"]

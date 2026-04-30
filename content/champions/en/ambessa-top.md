@@ -77,6 +77,26 @@ quick_learn:
   base_combo: ["Q1", "AA", "E", "AA", "Q2", "AA", "R"]
   win_condition: "Win lanes 2-6 with passive-dash trades, then snowball through skirmishes around Voidgrubs and Drake. Use R to suppress an isolated carry in mid-game fights before the enemy frontline can peel."
   weakness: "Hard CC chains shut down her dash combos. Tank statlines blunt her % max HP damage. R commits her onto one target, so a peel comp can isolate her after the suppression ends."
+  runes:
+    primary_tree: "Precision"
+    primary_tree_dd_id: 8000
+    keystone:
+      dd_id: 8010
+      name: "Conqueror"
+      icon_path: "perk-images/Styles/Precision/Conqueror/Conqueror.png"
+    primary_slots:
+      - { dd_id: 9111, name: "Triumph", icon_path: "perk-images/Styles/Precision/Triumph.png" }
+      - { dd_id: 9104, name: "Legend: Alacrity", icon_path: "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png" }
+      - { dd_id: 8299, name: "Last Stand", icon_path: "perk-images/Styles/Sorcery/LastStand/LastStand.png" }
+    secondary_tree: "Resolve"
+    secondary_tree_dd_id: 8400
+    secondary_slots:
+      - { dd_id: 8444, name: "Second Wind", icon_path: "perk-images/Styles/Resolve/SecondWind/SecondWind.png" }
+      - { dd_id: 8242, name: "Unflinching", icon_path: "perk-images/Styles/Sorcery/Unflinching/Unflinching.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Attack Speed"
+      - "Health Scaling"
 matchup_draft:
   pick_into:
     - examples: ["darius", "garen", "sett", "illaoi"]
@@ -133,7 +153,7 @@ Her game plan is simple: bully the lane from level 2 with **Q + E** all-in trade
 **Runes:** Primary tree **Precision**:
 - **Conqueror** — keystone (the main, most powerful rune of the tree). Stacks bonus AD and healing the longer you stay in a fight against champions; perfect for her chain-trade kit.
 - **Triumph** — small heal and gold burst on takedown, triggered when you finish a fight low HP.
-- **Legend: Tenacity** — passive tenacity (shortens stun and slow durations) that builds as you get takedowns.
+- **Legend: Alacrity** — passive bonus attack speed that builds as you get takedowns.
 - **Last Stand** — extra damage when you drop below 60% HP.
 
 Secondary tree **Resolve**:

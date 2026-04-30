@@ -73,6 +73,26 @@ quick_learn:
   base_combo: ["W", "Q", "AA"]
   win_condition: "Bully bot lane with Q range and trap setups, snowball Headshot procs through The Collector and Infinity Edge, then close fights from behind your front line, kiting with E and finishing low-HP runners with R."
   weakness: "No real escape once E is on cooldown. Hard countered by divers and assassins (Samira, Yasuo, Zed flank), and falls behind hyperscalers like Jinx or Vayne if your early lead never converts into a midgame pick."
+  runes:
+    primary_tree: "Precision"
+    primary_tree_dd_id: 8000
+    keystone:
+      dd_id: 8021
+      name: "Fleet Footwork"
+      icon_path: "perk-images/Styles/Precision/FleetFootwork/FleetFootwork.png"
+    primary_slots:
+      - { dd_id: 8009, name: "Presence of Mind", icon_path: "perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png" }
+      - { dd_id: 9104, name: "Legend: Alacrity", icon_path: "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png" }
+      - { dd_id: 8014, name: "Coup de Grace", icon_path: "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png" }
+    secondary_tree: "Sorcery"
+    secondary_tree_dd_id: 8200
+    secondary_slots:
+      - { dd_id: 8226, name: "Manaflow Band", icon_path: "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png" }
+      - { dd_id: 8236, name: "Gathering Storm", icon_path: "perk-images/Styles/Sorcery/GatheringStorm/GatheringStorm.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Attack Speed"
+      - "Health Scaling"
 ---
 
 ## Overview

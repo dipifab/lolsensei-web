@@ -73,6 +73,26 @@ quick_learn:
   base_combo: ["E1", "Q", "AA", "R1", "AA", "E2", "R2"]
   win_condition: "Catch isolated squishy targets with E1+E2 dash, then chain Q + empowered auto-attack + R combo for execute. Roam side lanes whenever R is up."
   weakness: "Weak waveclear and short range pre-6: vulnerable to ranged poke and jungle ganks. No hard CC and no escape if W is down — you can be locked and bursted before your combo lands."
+  runes:
+    primary_tree: "Domination"
+    primary_tree_dd_id: 8100
+    keystone:
+      dd_id: 8112
+      name: "Electrocute"
+      icon_path: "perk-images/Styles/Domination/Electrocute/Electrocute.png"
+    primary_slots:
+      - { dd_id: 8143, name: "Sudden Impact", icon_path: "perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png" }
+      - { dd_id: 8137, name: "Sixth Sense", icon_path: "perk-images/Styles/Domination/SixthSense/SixthSense.png" }
+      - { dd_id: 8106, name: "Ultimate Hunter", icon_path: "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png" }
+    secondary_tree: "Sorcery"
+    secondary_tree_dd_id: 8200
+    secondary_slots:
+      - { dd_id: 8210, name: "Transcendence", icon_path: "perk-images/Styles/Sorcery/Transcendence/Transcendence.png" }
+      - { dd_id: 8236, name: "Gathering Storm", icon_path: "perk-images/Styles/Sorcery/GatheringStorm/GatheringStorm.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Adaptive Force"
+      - "Health Scaling"
 ---
 
 ## Overview
@@ -103,7 +123,7 @@ The game plan is to survive a weak laning phase (poor waveclear — meaning her 
 
 **Skill order:** Max **Q** first (main damage and energy refund), **E** second (lower cooldown on the dash), **W** last. Take a point in **R** at levels 6, 11, 16.
 
-**Runes:** Runes are passive bonuses you pick before the match starts; you choose one primary tree (5 runes) and one secondary tree (2 runes). Primary **Domination** with **Electrocute** (extra burst when you hit a target with three abilities in a row), **Sudden Impact** (more magic penetration after a dash), **Eyeball Collection** (or **Zombie Ward**) for stacks of AP, and **Ultimate Hunter** (lower **R** cooldown). Secondary **Sorcery** with **Transcendence** (ability haste — your abilities come back faster) and **Gathering Storm** (late-game AP scaling). Akali uses energy not mana, so don't pick **Manaflow Band**.
+**Runes:** Runes are passive bonuses you pick before the match starts; you choose one primary tree (5 runes) and one secondary tree (2 runes). Primary **Domination** with **Electrocute** (extra burst when you hit a target with three abilities in a row), **Sudden Impact** (more magic penetration after a dash), **Sixth Sense** for vision pressure, and **Ultimate Hunter** (lower **R** cooldown). Secondary **Sorcery** with **Transcendence** (ability haste — your abilities come back faster) and **Gathering Storm** (late-game AP scaling). Akali uses energy not mana, so don't pick **Manaflow Band**.
 
 ## Key matchups
 

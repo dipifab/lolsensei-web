@@ -80,6 +80,26 @@ quick_learn:
   base_combo: ["E", "AA", "Q", "AA", "W", "R"]
   win_condition: "Snowball con i gank a livello 3 e un clear della jungle pulito. Quando arriva Trinity Force (~minuto 14), cerca skirmish sugli obiettivi: la cura della W e lo stun di E ti tengono vivo nei 1v1."
   weakness: "Range corto, niente dash, niente disengage nel kit. Comp che fanno kite (Caitlyn, Vayne, Yasuo Wind Wall) ti tengono fuori, e quando la W è in cooldown non hai un secondo livello di sopravvivenza."
+  runes:
+    primary_tree: "Resolve"
+    primary_tree_dd_id: 8400
+    keystone:
+      dd_id: 8437
+      name: "Grasp of the Undying"
+      icon_path: "perk-images/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.png"
+    primary_slots:
+      - { dd_id: 8446, name: "Demolish", icon_path: "perk-images/Styles/Resolve/Demolish/Demolish.png" }
+      - { dd_id: 8429, name: "Conditioning", icon_path: "perk-images/Styles/Resolve/Conditioning/Conditioning.png" }
+      - { dd_id: 8451, name: "Overgrowth", icon_path: "perk-images/Styles/Resolve/Overgrowth/Overgrowth.png" }
+    secondary_tree: "Precision"
+    secondary_tree_dd_id: 8000
+    secondary_slots:
+      - { dd_id: 9111, name: "Triumph", icon_path: "perk-images/Styles/Precision/Triumph.png" }
+      - { dd_id: 9104, name: "Legend: Alacrity", icon_path: "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Attack Speed"
+      - "Health Scaling"
 ---
 
 ## Panoramica

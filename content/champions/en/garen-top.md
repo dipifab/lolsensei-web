@@ -73,6 +73,26 @@ quick_learn:
   base_combo: ["W", "Q", "AA", "E", "R"]
   win_condition: "Survive lane phase with Doran's Shield + passive sustain, scale to Stridebreaker, then flank in side lane and use R to execute kill-fed enemy carries in teamfights."
   weakness: "No dash or blink, no ranged hard CC. Vulnerable to kite (Quinn, Vayne) and long-range root (Lissandra, Mordekaiser pull). Falls behind in lane if you over-extend without W stacks."
+  runes:
+    primary_tree: "Precision"
+    primary_tree_dd_id: 8000
+    keystone:
+      dd_id: 8010
+      name: "Conqueror"
+      icon_path: "perk-images/Styles/Precision/Conqueror/Conqueror.png"
+    primary_slots:
+      - { dd_id: 9111, name: "Triumph", icon_path: "perk-images/Styles/Precision/Triumph.png" }
+      - { dd_id: 9104, name: "Legend: Alacrity", icon_path: "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png" }
+      - { dd_id: 8299, name: "Last Stand", icon_path: "perk-images/Styles/Sorcery/LastStand/LastStand.png" }
+    secondary_tree: "Resolve"
+    secondary_tree_dd_id: 8400
+    secondary_slots:
+      - { dd_id: 8444, name: "Second Wind", icon_path: "perk-images/Styles/Resolve/SecondWind/SecondWind.png" }
+      - { dd_id: 8242, name: "Unflinching", icon_path: "perk-images/Styles/Sorcery/Unflinching/Unflinching.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Attack Speed"
+      - "Health Scaling"
 ---
 
 ## Overview
@@ -103,7 +123,7 @@ In top lane he wants short trades during W's active and full waves on his side o
 
 **Skill order:** Max **E** first (DPS and waveclear), **Q** second (slow + utility), **W** last (passive value scales fine without points). Take **R** at 6, 11, 16.
 
-**Runes:** Primary **Precision** with **Conqueror**, **Triumph**, **Legend: Tenacity**, **Last Stand**. Secondary **Resolve** with **Second Wind** + **Unflinching**, or **Inspiration** with **Magical Footwear** + **Cosmic Insight** for boot timing on rotation maps.
+**Runes:** Primary **Precision** with **Conqueror**, **Triumph**, **Legend: Alacrity**, **Last Stand**. Secondary **Resolve** with **Second Wind** + **Unflinching**, or **Inspiration** with **Magical Footwear** + **Cosmic Insight** for boot timing on rotation maps.
 
 ## Key matchups
 

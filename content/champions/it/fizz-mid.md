@@ -73,6 +73,26 @@ quick_learn:
   base_combo: ["R", "Q", "W", "AA", "E"]
   win_condition: "Trova squishy isolati in side lane dopo Lich Bane completion. Lancia R fish da max range, poi Q + W + AA spellblade per cancellarli. Roama con la wave dalla parte avversaria."
   weakness: "Squishy melee con un solo ciclo di engage. Se E o R sono in cooldown non hai escape né secondo commit; il CC focalizzato chiude il combo prima che la R fish atterri."
+  runes:
+    primary_tree: "Domination"
+    primary_tree_dd_id: 8100
+    keystone:
+      dd_id: 8112
+      name: "Electrocute"
+      icon_path: "perk-images/Styles/Domination/Electrocute/Electrocute.png"
+    primary_slots:
+      - { dd_id: 8126, name: "Cheap Shot", icon_path: "perk-images/Styles/Domination/CheapShot/CheapShot.png" }
+      - { dd_id: 8137, name: "Sixth Sense", icon_path: "perk-images/Styles/Domination/SixthSense/SixthSense.png" }
+      - { dd_id: 8106, name: "Ultimate Hunter", icon_path: "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png" }
+    secondary_tree: "Sorcery"
+    secondary_tree_dd_id: 8200
+    secondary_slots:
+      - { dd_id: 8226, name: "Manaflow Band", icon_path: "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png" }
+      - { dd_id: 8237, name: "Scorch", icon_path: "perk-images/Styles/Sorcery/Scorch/Scorch.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Adaptive Force"
+      - "Health Scaling"
 matchup_draft:
   pick_into:
     - examples: ["karthus", "veigar", "anivia", "twisted-fate"]
@@ -124,7 +144,7 @@ Il piano partita è sopravvivere in lane fino al power spike a due item (Lich Ba
 
 **Skill order:** Massimizza **E** per prima (untargettabilità + scaling AOE — AOE significa *area of effect*, l'abilità colpisce tutto ciò che sta dentro una zona), **Q** per seconda (cooldown reduction = più dash per fight), **W** per ultima. Punto in **R** ai livelli 6, 11, 16.
 
-**Rune:** Albero primario **Domination** con **Electrocute**, **Cheap Shot**, **Eyeball Collection**, **Ultimate Hunter**. Secondario **Sorcery** con **Manaflow Band** e **Scorch**. Electrocute si incastra perfettamente con la finestra a tre colpi Q-AA-W: ogni all-in (commit totale al combo fino alla kill o all'escape) lo procca.
+**Rune:** Albero primario **Domination** con **Electrocute**, **Cheap Shot**, **Sixth Sense**, **Ultimate Hunter**. Secondario **Sorcery** con **Manaflow Band** e **Scorch**. Electrocute si incastra perfettamente con la finestra a tre colpi Q-AA-W: ogni all-in (commit totale al combo fino alla kill o all'escape) lo procca.
 
 ## Matchup chiave
 

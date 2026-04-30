@@ -85,6 +85,12 @@ function itemIconUrl(ddItemId: string, patch: string): string {
   return `${DD_BASE}/${ddVersion(patch)}/img/item/${ddItemId}.png`;
 }
 
+// Runes icons: Riot serves them from the un-versioned root CDN (D-5).
+// Pattern differs from item/spell/champion which use `cdn/<patch>/img/...`.
+function runeIconUrl(iconPath: string): string {
+  return `${DD_BASE}/img/${iconPath}`;
+}
+
 /** Fallback pattern: l'<img> assoluta copre la lettera/placeholder se carica;
  *  in 404 si auto-rimuove e il fallback resta visibile. */
 function imgWithFallback(props: {
@@ -120,6 +126,16 @@ export function ChampionQuickLearn(
     situational_items: t('wp35.champion_guide.quick_learn.situational_items'),
     win_condition: t('wp35.champion_guide.quick_learn.win_condition'),
     weakness: t('wp35.champion_guide.quick_learn.weakness'),
+    runes_title: t('wp35.champion_guide.quick_learn.runes.title'),
+    runes_primary: t('wp35.champion_guide.quick_learn.runes.primary'),
+    runes_secondary: t('wp35.champion_guide.quick_learn.runes.secondary'),
+    runes_keystone: t('wp35.champion_guide.quick_learn.runes.keystone'),
+    runes_shards: t('wp35.champion_guide.quick_learn.runes.shards'),
+    runes_shards_legend: t('wp35.champion_guide.quick_learn.runes.shards_legend'),
+    // CR-058 amendment v2 — rationale contestuale rune (rendering condizionale)
+    runes_why_these_runes: t('wp35.champion_guide.quick_learn.runes.rationale.why_these_runes'),
+    runes_why_secondary: t('wp35.champion_guide.quick_learn.runes.rationale.why_secondary'),
+    runes_when_to_switch: t('wp35.champion_guide.quick_learn.runes.rationale.when_to_switch'),
   };
 
   return (
@@ -367,6 +383,191 @@ export function ChampionQuickLearn(
                   </div>
                 )}
               </For>
+            </div>
+          </div>
+        )}
+      </Show>
+
+      {/* Runes block (CR-058 / WP35.6) — render condizionale: 1 keystone +
+          3 primary slots + 2 secondary slots + 3 stat shards. URL icone su
+          root CDN non versionato (D-5). I nomi runa restano EN per
+          CONTENT-RULES §2; le label di sezione sono i18n. */}
+      <Show when={props.data.runes}>
+        {(runes) => (
+          <div class="mb-8">
+            <h3 class="text-[10px] text-on-surface-variant/70 font-bold tracking-widest uppercase mb-3">
+              {labels.runes_title}
+            </h3>
+            <div class="bg-surface-container-low border border-outline-variant/20 rounded-lg p-4 space-y-4">
+              {/* Primary tree: keystone + 3 slots */}
+              <div>
+                <div class="text-[10px] text-primary-container/80 font-bold tracking-widest uppercase mb-2">
+                  {labels.runes_primary} · {runes().primary_tree}
+                </div>
+                <div class="flex flex-wrap items-start gap-3">
+                  {/* Keystone — riquadro grande evidenziato */}
+                  <div class="flex flex-col items-center gap-1 w-20">
+                    <div
+                      class="relative w-14 h-14 shrink-0 rounded-full border-2 border-primary-container/70 bg-surface-bright overflow-hidden shadow-[0_0_10px_rgba(240,191,92,0.25)]"
+                      title={runes().keystone.name}
+                      aria-label={runes().keystone.name}
+                    >
+                      <span
+                        class="absolute inset-0 flex items-center justify-center text-[10px] text-primary-container/70 font-bold"
+                        aria-hidden="true"
+                      >
+                        {runes().keystone.name.slice(0, 3).toUpperCase()}
+                      </span>
+                      {imgWithFallback({
+                        src: runeIconUrl(runes().keystone.icon_path),
+                        alt: runes().keystone.name,
+                        classes: '',
+                      })}
+                    </div>
+                    <div class="text-[10px] text-on-surface-variant/80 text-center leading-tight">
+                      <span class="block uppercase tracking-wider text-primary-container/60 text-[9px] font-bold">
+                        {labels.runes_keystone}
+                      </span>
+                      {runes().keystone.name}
+                    </div>
+                  </div>
+                  {/* Primary slots — 3 perks */}
+                  <For each={runes().primary_slots}>
+                    {(slot) => (
+                      <div class="flex flex-col items-center gap-1 w-20">
+                        <div
+                          class="relative w-10 h-10 shrink-0 rounded-full border border-outline-variant/50 bg-surface-bright overflow-hidden"
+                          title={slot.name}
+                          aria-label={slot.name}
+                        >
+                          <span
+                            class="absolute inset-0 flex items-center justify-center text-[10px] text-on-surface-variant/60 font-bold"
+                            aria-hidden="true"
+                          >
+                            {slot.name.slice(0, 3).toUpperCase()}
+                          </span>
+                          {imgWithFallback({
+                            src: runeIconUrl(slot.icon_path),
+                            alt: slot.name,
+                            classes: '',
+                          })}
+                        </div>
+                        <div class="text-[10px] text-on-surface-variant/80 text-center leading-tight">
+                          {slot.name}
+                        </div>
+                      </div>
+                    )}
+                  </For>
+                </div>
+              </div>
+
+              {/* Secondary tree: 2 slots */}
+              <div>
+                <div class="text-[10px] text-on-surface-variant/70 font-bold tracking-widest uppercase mb-2">
+                  {labels.runes_secondary} · {runes().secondary_tree}
+                </div>
+                <div class="flex flex-wrap items-start gap-3">
+                  <For each={runes().secondary_slots}>
+                    {(slot) => (
+                      <div class="flex flex-col items-center gap-1 w-20">
+                        <div
+                          class="relative w-10 h-10 shrink-0 rounded-full border border-outline-variant/50 bg-surface-bright overflow-hidden"
+                          title={slot.name}
+                          aria-label={slot.name}
+                        >
+                          <span
+                            class="absolute inset-0 flex items-center justify-center text-[10px] text-on-surface-variant/60 font-bold"
+                            aria-hidden="true"
+                          >
+                            {slot.name.slice(0, 3).toUpperCase()}
+                          </span>
+                          {imgWithFallback({
+                            src: runeIconUrl(slot.icon_path),
+                            alt: slot.name,
+                            classes: '',
+                          })}
+                        </div>
+                        <div class="text-[10px] text-on-surface-variant/80 text-center leading-tight">
+                          {slot.name}
+                        </div>
+                      </div>
+                    )}
+                  </For>
+                </div>
+              </div>
+
+              {/* Stat shards: 3 badge testuali + legenda */}
+              <div>
+                <div class="text-[10px] text-on-surface-variant/70 font-bold tracking-widest uppercase mb-2">
+                  {labels.runes_shards}
+                </div>
+                <div class="flex flex-wrap gap-2 mb-1">
+                  <For each={runes().stat_shards}>
+                    {(shard) => (
+                      <span class="px-3 py-1 rounded font-bold border text-xs bg-surface-bright text-on-surface border-outline-variant/30">
+                        {shard}
+                      </span>
+                    )}
+                  </For>
+                </div>
+                <div class="text-[10px] text-on-surface-variant/60 italic">
+                  {labels.runes_shards_legend}
+                </div>
+              </div>
+
+              {/* CR-058 amendment v2 — rationale contestuale (3 sezioni opzionali).
+                  Sezioni dirette (no accordion) per leggibilita' al primo colpo
+                  d'occhio del novizio: una riga eyebrow (label i18n) + paragrafo
+                  testuale. Ogni rationale e' trattato come testo puro: nessun
+                  parsing markdown (niente `**bold**`); item/ability names restano
+                  come scritti dall'autore. Il `keystone.rationale` non viene
+                  renderizzato qui — incorporato in `primary_rationale`. */}
+              <Show
+                when={
+                  runes().primary_rationale ||
+                  runes().secondary_rationale ||
+                  runes().secondary_alternative
+                }
+              >
+                <div class="border-t border-outline-variant/20 pt-4 space-y-3">
+                  <Show when={runes().primary_rationale}>
+                    {(text) => (
+                      <div>
+                        <div class="text-[10px] text-primary-container/80 font-bold tracking-widest uppercase mb-1">
+                          {labels.runes_why_these_runes}
+                        </div>
+                        <p class="text-xs md:text-sm text-on-surface-variant/85 leading-relaxed">
+                          {text()}
+                        </p>
+                      </div>
+                    )}
+                  </Show>
+                  <Show when={runes().secondary_rationale}>
+                    {(text) => (
+                      <div>
+                        <div class="text-[10px] text-on-surface-variant/70 font-bold tracking-widest uppercase mb-1">
+                          {labels.runes_why_secondary}
+                        </div>
+                        <p class="text-xs md:text-sm text-on-surface-variant/85 leading-relaxed">
+                          {text()}
+                        </p>
+                      </div>
+                    )}
+                  </Show>
+                  <Show when={runes().secondary_alternative}>
+                    {(text) => (
+                      <div>
+                        <div class="text-[10px] text-on-surface-variant/70 font-bold tracking-widest uppercase mb-1">
+                          {labels.runes_when_to_switch}
+                        </div>
+                        <p class="text-xs md:text-sm text-on-surface-variant/85 leading-relaxed">
+                          {text()}
+                        </p>
+                      </div>
+                    )}
+                  </Show>
+                </div>
+              </Show>
             </div>
           </div>
         )}

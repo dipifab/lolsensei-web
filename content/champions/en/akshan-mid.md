@@ -77,6 +77,26 @@ quick_learn:
   base_combo: ["Q", "AA", "E", "AA", "R"]
   win_condition: "Snowball lane with Press the Attack 3-hit trades and Q max-range pokes, then convert your lead with E roams from minute 6 onward and execute squishies with R during objective fights."
   weakness: "His E only hooks to terrain, so open lane positioning leaves him with no swing reset. Single-target point-and-click CC and Wind Wall hard cancel his R channel and Q poke."
+  runes:
+    primary_tree: "Precision"
+    primary_tree_dd_id: 8000
+    keystone:
+      dd_id: 8005
+      name: "Press the Attack"
+      icon_path: "perk-images/Styles/Precision/PressTheAttack/PressTheAttack.png"
+    primary_slots:
+      - { dd_id: 8009, name: "Presence of Mind", icon_path: "perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png" }
+      - { dd_id: 9104, name: "Legend: Alacrity", icon_path: "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png" }
+      - { dd_id: 8014, name: "Coup de Grace", icon_path: "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png" }
+    secondary_tree: "Sorcery"
+    secondary_tree_dd_id: 8200
+    secondary_slots:
+      - { dd_id: 8233, name: "Absolute Focus", icon_path: "perk-images/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.png" }
+      - { dd_id: 8236, name: "Gathering Storm", icon_path: "perk-images/Styles/Sorcery/GatheringStorm/GatheringStorm.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Attack Speed"
+      - "Health Scaling"
 matchup_draft:
   pick_into:
     - examples: ["karthus", "veigar", "xerath", "vel-koz"]

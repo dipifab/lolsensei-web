@@ -74,6 +74,26 @@ quick_learn:
   base_combo: ["W", "E", "Q", "R"]
   win_condition: "Survive lane to 2 items, then group with the team and flank around vision (cut into the fight from a side angle) using disguise. Riftmaker turns your AOE damage into sustained healing in extended fights."
   weakness: "Niche pick that loses lane to heavy bruisers (Darius, Garen, Sett). No dash, no shield: if you cannot bait one ability with the W clone, you eat full trades."
+  runes:
+    primary_tree: "Sorcery"
+    primary_tree_dd_id: 8200
+    keystone:
+      dd_id: 8229
+      name: "Arcane Comet"
+      icon_path: "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png"
+    primary_slots:
+      - { dd_id: 8226, name: "Manaflow Band", icon_path: "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png" }
+      - { dd_id: 8210, name: "Transcendence", icon_path: "perk-images/Styles/Sorcery/Transcendence/Transcendence.png" }
+      - { dd_id: 8237, name: "Scorch", icon_path: "perk-images/Styles/Sorcery/Scorch/Scorch.png" }
+    secondary_tree: "Resolve"
+    secondary_tree_dd_id: 8400
+    secondary_slots:
+      - { dd_id: 8429, name: "Conditioning", icon_path: "perk-images/Styles/Resolve/Conditioning/Conditioning.png" }
+      - { dd_id: 8451, name: "Overgrowth", icon_path: "perk-images/Styles/Resolve/Overgrowth/Overgrowth.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Adaptive Force"
+      - "Health Scaling"
 ---
 
 ## Overview
@@ -105,7 +125,7 @@ Your top lane plan splits into three phases. Levels 1-5 are damage control: clea
 
 **Skill order:** Max **Q** first (waveclear and damage), **E** second (root utility), **W** last. Take a point in **R** at levels 6, 11, 16.
 
-**Runes:** Primary **Sorcery** with **Phase Rush** (a movement-speed burst that procs on three attacks/abilities — perfect for kiting bruisers), **Manaflow Band**, **Transcendence**, **Scorch**. Secondary **Resolve** with **Conditioning** and **Overgrowth** for the extra HP that makes Riftmaker's sustain matter.
+**Runes:** Primary **Sorcery** with **Arcane Comet** (a delayed magic-damage missile that procs when you hit an enemy with an ability — great extra poke on every Q in lane), **Manaflow Band**, **Transcendence**, **Scorch**. Secondary **Resolve** with **Conditioning** and **Overgrowth** for the extra HP that makes Riftmaker's sustain matter.
 
 ## Key matchups
 

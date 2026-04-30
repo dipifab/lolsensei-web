@@ -73,6 +73,26 @@ quick_learn:
   base_combo: ["W", "AA", "Q", "AA"]
   win_condition: "Stack Frost Shot slows during teamfights, kite back behind your front line with empowered Q autos, and pick off lone targets with cross-map R for free objective control."
   weakness: "Slowest auto-attack base movement of all marksmen. No dash, no reposition tool — divers and assassins who get into melee range delete her if her support cannot peel."
+  runes:
+    primary_tree: "Precision"
+    primary_tree_dd_id: 8000
+    keystone:
+      dd_id: 8008
+      name: "Lethal Tempo"
+      icon_path: "perk-images/Styles/Precision/LethalTempo/LethalTempoTemp.png"
+    primary_slots:
+      - { dd_id: 9111, name: "Triumph", icon_path: "perk-images/Styles/Precision/Triumph.png" }
+      - { dd_id: 9104, name: "Legend: Alacrity", icon_path: "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png" }
+      - { dd_id: 8014, name: "Coup de Grace", icon_path: "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png" }
+    secondary_tree: "Inspiration"
+    secondary_tree_dd_id: 8300
+    secondary_slots:
+      - { dd_id: 8345, name: "Biscuit Delivery", icon_path: "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png" }
+      - { dd_id: 8347, name: "Cosmic Insight", icon_path: "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Attack Speed"
+      - "Health Scaling"
 matchup_draft:
   pick_into:
     - examples: ["vayne", "twitch", "kalista"]

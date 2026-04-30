@@ -80,6 +80,26 @@ quick_learn:
   base_combo: ["E", "AA", "Q", "AA", "W", "R"]
   win_condition: "Survive lane with W sustain, scale to Trinity Force around minute 14, then snowball (turn early gold leads into kills) by side-laning and forcing 1v1 duels — your W heal outlasts most top laners."
   weakness: "Short range, no dash, no built-in disengage. Hard kiting (Quinn, Vayne, Teemo) outpaces you, and once W is on cooldown there is no second layer of survivability."
+  runes:
+    primary_tree: "Resolve"
+    primary_tree_dd_id: 8400
+    keystone:
+      dd_id: 8437
+      name: "Grasp of the Undying"
+      icon_path: "perk-images/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.png"
+    primary_slots:
+      - { dd_id: 8446, name: "Demolish", icon_path: "perk-images/Styles/Resolve/Demolish/Demolish.png" }
+      - { dd_id: 8429, name: "Conditioning", icon_path: "perk-images/Styles/Resolve/Conditioning/Conditioning.png" }
+      - { dd_id: 8451, name: "Overgrowth", icon_path: "perk-images/Styles/Resolve/Overgrowth/Overgrowth.png" }
+    secondary_tree: "Precision"
+    secondary_tree_dd_id: 8000
+    secondary_slots:
+      - { dd_id: 9111, name: "Triumph", icon_path: "perk-images/Styles/Precision/Triumph.png" }
+      - { dd_id: 9104, name: "Legend: Alacrity", icon_path: "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Attack Speed"
+      - "Health Scaling"
 ---
 
 ## Overview

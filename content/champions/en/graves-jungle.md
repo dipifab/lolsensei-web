@@ -76,6 +76,26 @@ quick_learn:
   base_combo: ["E", "Q", "AA", "R"]
   win_condition: "Snowball lethality through invades and ganks before minute 14. Once Eclipse is up, contest every objective — your shotgun melts a squishy in two volleys and E refunds the trade window."
   weakness: "Mana-hungry early. Your shotgun reload window punishes greedy positioning, and you melt under hard CC chains because you have no built-in safety beyond E's armor buff."
+  runes:
+    primary_tree: "Domination"
+    primary_tree_dd_id: 8100
+    keystone:
+      dd_id: 9923
+      name: "Hail of Blades"
+      icon_path: "perk-images/Styles/Domination/HailOfBlades/HailOfBlades.png"
+    primary_slots:
+      - { dd_id: 8143, name: "Sudden Impact", icon_path: "perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png" }
+      - { dd_id: 8137, name: "Sixth Sense", icon_path: "perk-images/Styles/Domination/SixthSense/SixthSense.png" }
+      - { dd_id: 8135, name: "Treasure Hunter", icon_path: "perk-images/Styles/Domination/TreasureHunter/TreasureHunter.png" }
+    secondary_tree: "Precision"
+    secondary_tree_dd_id: 8000
+    secondary_slots:
+      - { dd_id: 9111, name: "Triumph", icon_path: "perk-images/Styles/Precision/Triumph.png" }
+      - { dd_id: 8014, name: "Coup de Grace", icon_path: "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Attack Speed"
+      - "Health Scaling"
 ---
 
 ## Overview
@@ -107,7 +127,7 @@ His game plan is simple: in the first 8 minutes you are the strongest dueller on
 
 **Skill order:** Max **Q** first (clear and damage), **E** second (more dashes via the lower CD per rank), **W** last (the slow scales fine on rank 1). **R** at 6, 11, 16.
 
-**Runes:** Primary **Domination** with **Hail of Blades**, **Sudden Impact**, **Eyeball Collection**, **Treasure Hunter**. Secondary **Precision** with **Triumph** + **Coup de Grace** for snowball pressure, or **Resolve** with **Second Wind** + **Revitalize** if you expect to be poked in your jungle.
+**Runes:** Primary **Domination** with **Hail of Blades**, **Sudden Impact**, **Sixth Sense**, **Treasure Hunter**. Secondary **Precision** with **Triumph** + **Coup de Grace** for snowball pressure, or **Resolve** with **Second Wind** + **Revitalize** if you expect to be poked in your jungle.
 
 ## Key matchups
 

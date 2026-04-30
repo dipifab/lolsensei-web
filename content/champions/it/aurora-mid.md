@@ -73,6 +73,26 @@ quick_learn:
   base_combo: ["E", "Q", "W", "Q", "AA"]
   win_condition: "Punisci gli errori di posizione con il W jump-in più Q recast burst quando hai Stormsurge e Shadowflame. Sfrutta i reset di W sulle takedown per cyclare i teamfight."
   weakness: "Hard CC prima di W chiude tutte le sue vie di fuga. I mage artillery a lungo raggio la pokano fuori dalla finestra di step-up prima che possa engageare."
+  runes:
+    primary_tree: "Domination"
+    primary_tree_dd_id: 8100
+    keystone:
+      dd_id: 8112
+      name: "Electrocute"
+      icon_path: "perk-images/Styles/Domination/Electrocute/Electrocute.png"
+    primary_slots:
+      - { dd_id: 8126, name: "Cheap Shot", icon_path: "perk-images/Styles/Domination/CheapShot/CheapShot.png" }
+      - { dd_id: 8137, name: "Sixth Sense", icon_path: "perk-images/Styles/Domination/SixthSense/SixthSense.png" }
+      - { dd_id: 8106, name: "Ultimate Hunter", icon_path: "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png" }
+    secondary_tree: "Sorcery"
+    secondary_tree_dd_id: 8200
+    secondary_slots:
+      - { dd_id: 8226, name: "Manaflow Band", icon_path: "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png" }
+      - { dd_id: 8210, name: "Transcendence", icon_path: "perk-images/Styles/Sorcery/Transcendence/Transcendence.png" }
+    stat_shards:
+      - "Adaptive Force"
+      - "Adaptive Force"
+      - "Health Scaling"
 matchup_draft:
   pick_into:
     - examples: ["karthus", "anivia", "cassiopeia"]
@@ -124,7 +144,7 @@ Il suo game plan è vincere i **trade** brevi (scambi rapidi di colpi tra due ch
 
 **Skill order:** Punta tutti i primi punti su **Q** (è il danno principale e ciò che innesca il burst della recast), poi su **E** (fa clear delle wave di minion e il backward hop è un **disengage** gratis — il disengage è il modo per uscire da un fight già in corso), **W** per ultima. Un punto in **R** ai livelli 6, 11, 16.
 
-**Runes:** Primaria **Domination** con **Electrocute**, **Cheap Shot**, **Eyeball Collection**, **Ultimate Hunter**. Secondaria **Sorcery** con **Manaflow Band** e **Transcendence**. Electrocute si attiva dopo tre colpi rapidi sullo stesso target — esattamente quello che fa Aurora in ogni trade breve con Q-auto-Q-recast — e Ultimate Hunter taglia il cooldown di **R** per un secondo engage in teamfight.
+**Runes:** Primaria **Domination** con **Electrocute**, **Cheap Shot**, **Sixth Sense**, **Ultimate Hunter**. Secondaria **Sorcery** con **Manaflow Band** e **Transcendence**. Electrocute si attiva dopo tre colpi rapidi sullo stesso target — esattamente quello che fa Aurora in ogni trade breve con Q-auto-Q-recast — e Ultimate Hunter taglia il cooldown di **R** per un secondo engage in teamfight.
 
 ## Matchup chiave
 
