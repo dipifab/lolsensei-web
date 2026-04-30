@@ -1,7 +1,6 @@
 import { Show, For } from 'solid-js';
 import { A, Navigate, useParams, createAsync } from '@solidjs/router';
 import { Title, Meta, Link } from '@solidjs/meta';
-import DOMPurify from 'dompurify';
 import Navbar from '../../../components/Navbar';
 import Footer from '../../../components/Footer';
 import Breadcrumbs from '../../../components/Breadcrumbs';
@@ -162,8 +161,7 @@ export default function BlogPostRoute() {
                 </div>
               </header>
 
-              {/* Post Body */}
-              {/* HTML sanitized because content is typed as raw HTML (see data/blog/types.ts). Safe even if source becomes external CMS. */}
+              {/* Post body. Content authored as static HTML in src/data/blog/*.ts — reviewed via PR, no external/user input. */}
               <article
                 class="prose prose-invert max-w-none
                 prose-headings:font-headline prose-headings:font-extrabold prose-headings:tracking-tight prose-headings:text-on-surface
@@ -172,7 +170,7 @@ export default function BlogPostRoute() {
                 prose-strong:text-primary-container prose-strong:font-bold
                 prose-a:text-primary prose-a:underline prose-a:hover:text-primary-container
                 prose-ul:text-on-surface-variant/90 prose-li:mb-2"
-                innerHTML={DOMPurify.sanitize(currentPost().content)}
+                innerHTML={currentPost().content}
               />
 
               {/* Back to Blog */}

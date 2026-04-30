@@ -3,8 +3,10 @@ export interface BlogPost {
   title: string;
   excerpt: string;
   /**
-   * HTML content. MUST be sanitized with DOMPurify before rendering via innerHTML.
-   * @security Rendering without sanitization is a stored XSS vulnerability.
+   * Static HTML content authored in src/data/blog/*.ts. Rendered via innerHTML.
+   * @security Source is internal-only and reviewed via PR; if you ever wire this
+   * to external/user input, re-introduce build-time sanitization (see
+   * scripts/compile-content.mjs rehype-sanitize pattern used for champion guides).
    */
   content: string;
   date: string; // ISO date
