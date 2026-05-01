@@ -492,6 +492,26 @@
       },
       {
         "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Slow tank junglers",
+        "reason": "Q armor shred (percentage based) carves through their resistances, and W's Attack Speed with sustain wins long fights. They cannot kite you and their CC is single-cast: once it is on cooldown you outheal the rest.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Tank jungler lenti",
+        "reason": "Lo shred percentuale dell'Armor della Q taglia le loro resistenze, e la W con Attack Speed più sustain vince i fight lunghi. Non ti fanno kite e il loro CC è single-cast: una volta in cooldown sopra-curi tutto il resto.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "diana",
           "role": "jungle",
           "lang": "en"
@@ -4421,6 +4441,28 @@
         "via": "counterpick"
       }
     ],
+    "gragas": [
+      {
+        "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Long-range pokers with displacements",
+        "reason": "Nidalee chunks Briar's clear with javelins from outside W range; Gragas R or E can knock Briar out of Frenzy mid-chase, resetting her ramp-up and stranding her without sustain.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Poker a lunga gittata con displacement",
+        "reason": "Nidalee picchia il clear di Briar con javelin da fuori range della W; la R o la E di Gragas la sbattono fuori dalla Frenzy a metà chase, resettando la rampa di danno e lasciandola senza sustain.",
+        "via": "counterpick"
+      }
+    ],
     "graves": [
       {
         "publisher": {
@@ -6216,6 +6258,26 @@
       },
       {
         "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile mid-lane mages",
+        "reason": "R kicks a global skillshot that marks the first champion hit. Backline mages without a dash get pulled into a fear + Frenzy chain they cannot disengage from before chunk damage lands.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili in mid lane",
+        "reason": "La R lancia uno skillshot globale che marca il primo champion colpito. Mage di backline senza dash vengono trascinati in una catena di fear + Frenzy da cui non riescono a uscire prima che il chunk di danno arrivi.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "ekko",
           "role": "jungle",
           "lang": "en"
@@ -6723,6 +6785,26 @@
         "archetype": "Single-engage 5-man wombo comps",
         "reason": "Crystallize spezza in due l'engage avversario: se il muro va tra l'iniziatore e il follow-up, il wombo cade su uno o due bersagli, non su cinque.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "AOE crowd control with multiple roots",
+        "reason": "They chain CC Briar mid-Frenzy, and her only escape is E to self-cancel W — but E is a long channel, so they re-CC her before the heal completes. R commits her into the worst possible position.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "CC AOE con root multipli",
+        "reason": "Concatenano CC su Briar in mezzo alla Frenzy, e l'unica fuga è la E per cancellare la propria W — ma la E è un channel lungo, quindi le rimettono CC prima che la cura completi. La R la spinge nella posizione peggiore possibile.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -8002,6 +8084,26 @@
       },
       {
         "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "AOE crowd control with multiple roots",
+        "reason": "They chain CC Briar mid-Frenzy, and her only escape is E to self-cancel W — but E is a long channel, so they re-CC her before the heal completes. R commits her into the worst possible position.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "CC AOE con root multipli",
+        "reason": "Concatenano CC su Briar in mezzo alla Frenzy, e l'unica fuga è la E per cancellare la propria W — ma la E è un channel lungo, quindi le rimettono CC prima che la cura completi. La R la spinge nella posizione peggiore possibile.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -8545,6 +8647,26 @@
         "archetype": "Mage artillery a lungo raggio",
         "reason": "La pokano oltre il range di Q a ogni wave. Aurora non ha shield innato, quindi ogni step in avanti per piazzare E o Q costa HP che la passiva da sola non riesce a recuperare.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile mid-lane mages",
+        "reason": "R kicks a global skillshot that marks the first champion hit. Backline mages without a dash get pulled into a fear + Frenzy chain they cannot disengage from before chunk damage lands.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili in mid lane",
+        "reason": "La R lancia uno skillshot globale che marca il primo champion colpito. Mage di backline senza dash vengono trascinati in una catena di fear + Frenzy da cui non riescono a uscire prima che il chunk di danno arrivi.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -9174,6 +9296,26 @@
       },
       {
         "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "AOE crowd control with multiple roots",
+        "reason": "They chain CC Briar mid-Frenzy, and her only escape is E to self-cancel W — but E is a long channel, so they re-CC her before the heal completes. R commits her into the worst possible position.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "CC AOE con root multipli",
+        "reason": "Concatenano CC su Briar in mezzo alla Frenzy, e l'unica fuga è la E per cancellare la propria W — ma la E è un channel lungo, quindi le rimettono CC prima che la cura completi. La R la spinge nella posizione peggiore possibile.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "ekko",
           "role": "jungle",
           "lang": "en"
@@ -9600,6 +9742,26 @@
         },
         "archetype": "Disengage e immunita CC",
         "reason": "Janna Q tornado ti sbatte fuori dal range della E; Lulu W ti slowna o ti polymorpha durante l'engage; Morgana Black Shield blocca direttamente l'hook.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "CC-immune or anti-heal pickers",
+        "reason": "Olaf R cleanses Briar's E knockback and stuns; Morgana E spell shield blocks Q stun and the R fear, breaking the engage window before Frenzy ramps up.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Champion CC-immune o anti-heal",
+        "reason": "L'R di Olaf rimuove (cleanse) il knockback e lo stun della E; la E di Morgana blocca con spell shield lo stun di Q e il fear della R, rompendo la finestra di engage prima che la Frenzy salga.",
         "via": "counterpick"
       },
       {
@@ -10414,6 +10576,26 @@
       },
       {
         "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Long-range pokers with displacements",
+        "reason": "Nidalee chunks Briar's clear with javelins from outside W range; Gragas R or E can knock Briar out of Frenzy mid-chase, resetting her ramp-up and stranding her without sustain.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Poker a lunga gittata con displacement",
+        "reason": "Nidalee picchia il clear di Briar con javelin da fuori range della W; la R o la E di Gragas la sbattono fuori dalla Frenzy a metà chase, resettando la rampa di danno e lasciandola senza sustain.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "diana",
           "role": "jungle",
           "lang": "en"
@@ -10574,6 +10756,26 @@
         },
         "archetype": "Campioni con ultimate che annullano suppression o esecuzione",
         "reason": "La R di Olaf rimuove la sua suppression al cast, neutralizzando il suo principale tool da pickoff. La R undying di Tryndamere sopravvive al frame di esecuzione e gli permette di girare fuori dal colpo a terra.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "CC-immune or anti-heal pickers",
+        "reason": "Olaf R cleanses Briar's E knockback and stuns; Morgana E spell shield blocks Q stun and the R fear, breaking the engage window before Frenzy ramps up.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Champion CC-immune o anti-heal",
+        "reason": "L'R di Olaf rimuove (cleanse) il knockback e lo stun della E; la E di Morgana blocca con spell shield lo stun di Q e il fear della R, rompendo la finestra di engage prima che la Frenzy salga.",
         "via": "counterpick"
       },
       {
@@ -11511,6 +11713,26 @@
         "archetype": "Tank anti-attack-speed",
         "reason": "La passiva spinata di Rammus e il suo W steroid puniscono i suoi attacchi continui: si fa danno da sola provando a DPSarlo mentre lui controlla gli obiettivi.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Slow tank junglers",
+        "reason": "Q armor shred (percentage based) carves through their resistances, and W's Attack Speed with sustain wins long fights. They cannot kite you and their CC is single-cast: once it is on cooldown you outheal the rest.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Tank jungler lenti",
+        "reason": "Lo shred percentuale dell'Armor della Q taglia le loro resistenze, e la W con Attack Speed più sustain vince i fight lunghi. Non ti fanno kite e il loro CC è single-cast: una volta in cooldown sopra-curi tutto il resto.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -12454,6 +12676,26 @@
       },
       {
         "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Slow tank junglers",
+        "reason": "Q armor shred (percentage based) carves through their resistances, and W's Attack Speed with sustain wins long fights. They cannot kite you and their CC is single-cast: once it is on cooldown you outheal the rest.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Tank jungler lenti",
+        "reason": "Lo shred percentuale dell'Armor della Q taglia le loro resistenze, e la W con Attack Speed più sustain vince i fight lunghi. Non ti fanno kite e il loro CC è single-cast: una volta in cooldown sopra-curi tutto il resto.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "diana",
           "role": "jungle",
           "lang": "en"
@@ -13142,6 +13384,26 @@
         },
         "archetype": "Skirmisher scaling senza CC iniziale",
         "reason": "Vince le skirmish iniziali in jungle (skirmish = scontro 1v1 o 2v2 fuori dal teamfight) prima del loro power spike, poi converte il vantaggio sugli obiettivi.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Sustain skirmishers without escape",
+        "reason": "Mirror-style 1v1 in the jungle. Briar's W chomp scales on missing HP, so the longer the fight drags the more the math tilts toward her. Q stun interrupts their channel ultimates.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Skirmisher sustain senza escape",
+        "reason": "1v1 stile mirror nella jungle. Il chomp di Briar scala su HP mancanti, quindi più il fight si trascina più la matematica gira a suo favore. Lo stun della Q interrompe le ulti canalizzate.",
         "via": "pick_into"
       },
       {
@@ -16230,6 +16492,26 @@
       },
       {
         "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile mid-lane mages",
+        "reason": "R kicks a global skillshot that marks the first champion hit. Backline mages without a dash get pulled into a fear + Frenzy chain they cannot disengage from before chunk damage lands.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili in mid lane",
+        "reason": "La R lancia uno skillshot globale che marca il primo champion colpito. Mage di backline senza dash vengono trascinati in una catena di fear + Frenzy da cui non riescono a uscire prima che il chunk di danno arrivi.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -16940,6 +17222,26 @@
       }
     ],
     "warwick": [
+      {
+        "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Sustain skirmishers without escape",
+        "reason": "Mirror-style 1v1 in the jungle. Briar's W chomp scales on missing HP, so the longer the fight drags the more the math tilts toward her. Q stun interrupts their channel ultimates.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "briar",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Skirmisher sustain senza escape",
+        "reason": "1v1 stile mirror nella jungle. Il chomp di Briar scala su HP mancanti, quindi più il fight si trascina più la matematica gira a suo favore. Lo stun della Q interrompe le ulti canalizzate.",
+        "via": "pick_into"
+      },
       {
         "publisher": {
           "champion": "diana",

@@ -611,6 +611,35 @@
       }
     },
     {
+      "slug": "briar-jungle",
+      "champion": "briar",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Briar Jungle Build & Guide — Patch 16.9",
+          "description": "Briar jungle guide for League of Legends Patch 16.9: clear path, core lifesteal build, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-01",
+          "champion_class": "Diver / Skirmisher",
+          "difficulty": 1,
+          "damage_type": "mixed",
+          "champion_dd_id": "Briar",
+          "champion_key": "233"
+        },
+        "it": {
+          "title": "Briar Jungle Build & Guida — Patch 16.9",
+          "description": "Guida Briar jungle per League of Legends Patch 16.9: clear path, build core lifesteal, matchup chiave, power spike, errori comuni e un consiglio tecnico finale.",
+          "patch": "16.9",
+          "last_updated": "2026-05-01",
+          "champion_class": "Diver / Skirmisher",
+          "difficulty": 1,
+          "damage_type": "mixed",
+          "champion_dd_id": "Briar",
+          "champion_key": "233"
+        }
+      }
+    },
+    {
       "slug": "caitlyn-bot",
       "champion": "caitlyn",
       "role": "bot",

@@ -1444,7 +1444,7 @@
   <!-- champion-guide/amumu/jungle: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/amumu/jungle/guide</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/amumu/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/amumu/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/amumu/jungle/guide" />
@@ -1452,7 +1452,7 @@
   <!-- champion-guide/amumu/jungle: it -->
   <url>
     <loc>https://www.lolsensei.com/it/champion/amumu/jungle/guide</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/amumu/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/amumu/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/amumu/jungle/guide" />
@@ -1588,7 +1588,7 @@
   <!-- champion-guide/belveth/jungle: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/belveth/jungle/guide</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/belveth/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/belveth/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/belveth/jungle/guide" />
@@ -1596,7 +1596,7 @@
   <!-- champion-guide/belveth/jungle: it -->
   <url>
     <loc>https://www.lolsensei.com/it/champion/belveth/jungle/guide</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/belveth/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/belveth/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/belveth/jungle/guide" />
@@ -1680,6 +1680,22 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/braum/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/braum/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/braum/support/guide" />
+  </url>
+  <!-- champion-guide/briar/jungle: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/briar/jungle/guide</loc>
+    <lastmod>2026-05-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/briar/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/briar/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/briar/jungle/guide" />
+  </url>
+  <!-- champion-guide/briar/jungle: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/briar/jungle/guide</loc>
+    <lastmod>2026-05-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/briar/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/briar/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/briar/jungle/guide" />
   </url>
   <!-- champion-guide/caitlyn/bot: en -->
   <url>
@@ -1828,7 +1844,7 @@
   <!-- champion-guide/graves/jungle: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/graves/jungle/guide</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/graves/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/graves/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/graves/jungle/guide" />
@@ -1836,7 +1852,7 @@
   <!-- champion-guide/graves/jungle: it -->
   <url>
     <loc>https://www.lolsensei.com/it/champion/graves/jungle/guide</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/graves/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/graves/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/graves/jungle/guide" />
@@ -1844,7 +1860,7 @@
   <!-- champion-guide/hecarim/jungle: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/hecarim/jungle/guide</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/hecarim/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/hecarim/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/hecarim/jungle/guide" />
@@ -1852,7 +1868,7 @@
   <!-- champion-guide/hecarim/jungle: it -->
   <url>
     <loc>https://www.lolsensei.com/it/champion/hecarim/jungle/guide</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/hecarim/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/hecarim/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/hecarim/jungle/guide" />
@@ -1988,7 +2004,7 @@
   <!-- champion-guide/lee-sin/jungle: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/lee-sin/jungle/guide</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/lee-sin/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/lee-sin/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/lee-sin/jungle/guide" />
@@ -1996,7 +2012,7 @@
   <!-- champion-guide/lee-sin/jungle: it -->
   <url>
     <loc>https://www.lolsensei.com/it/champion/lee-sin/jungle/guide</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/lee-sin/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/lee-sin/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/lee-sin/jungle/guide" />
@@ -2356,7 +2372,7 @@
   <!-- champion-guide/vi/jungle: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/vi/jungle/guide</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/vi/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/vi/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/vi/jungle/guide" />
@@ -2364,7 +2380,7 @@
   <!-- champion-guide/vi/jungle: it -->
   <url>
     <loc>https://www.lolsensei.com/it/champion/vi/jungle/guide</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/vi/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/vi/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/vi/jungle/guide" />
@@ -2372,7 +2388,7 @@
   <!-- champion-guide/viego/jungle: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/viego/jungle/guide</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/viego/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/viego/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/viego/jungle/guide" />
@@ -2380,7 +2396,7 @@
   <!-- champion-guide/viego/jungle: it -->
   <url>
     <loc>https://www.lolsensei.com/it/champion/viego/jungle/guide</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/viego/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/viego/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/viego/jungle/guide" />
@@ -2388,7 +2404,7 @@
   <!-- champion-guide/warwick/jungle: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/warwick/jungle/guide</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/warwick/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/warwick/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/warwick/jungle/guide" />
@@ -2396,7 +2412,7 @@
   <!-- champion-guide/warwick/jungle: it -->
   <url>
     <loc>https://www.lolsensei.com/it/champion/warwick/jungle/guide</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/warwick/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/warwick/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/warwick/jungle/guide" />
