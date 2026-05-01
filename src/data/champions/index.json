@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30",
+  "generated_at": "2026-05-01",
   "guides": [
     {
       "slug": "aatrox-top",
@@ -491,6 +491,93 @@
           "damage_type": "magic",
           "champion_dd_id": "Blitzcrank",
           "champion_key": "53"
+        }
+      }
+    },
+    {
+      "slug": "brand-jungle",
+      "champion": "brand",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Brand Jungle Build & Guide — Patch 16.9",
+          "description": "Brand jungle guide for League of Legends Patch 16.9: smite path, burn-mage clear, gank windows, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-01",
+          "champion_class": "AP Jungler / Skirmisher",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Brand",
+          "champion_key": "63"
+        },
+        "it": {
+          "title": "Brand Jungle Build & Guida — Patch 16.9",
+          "description": "Guida Brand jungle per League of Legends Patch 16.9: percorso smite, clear burn-mage, gank window, matchup chiave, power spike, errori comuni e un consiglio finale.",
+          "patch": "16.9",
+          "last_updated": "2026-05-01",
+          "champion_class": "AP Jungler / Skirmisher",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Brand",
+          "champion_key": "63"
+        }
+      }
+    },
+    {
+      "slug": "brand-mid",
+      "champion": "brand",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Brand Mid Build & Guide — Patch 16.9",
+          "description": "Brand mid lane guide for League of Legends Patch 16.9: starter kit, burn-mage build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-01",
+          "champion_class": "Mage / Burst-AOE",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Brand",
+          "champion_key": "63"
+        },
+        "it": {
+          "title": "Brand Mid Build & Guida — Patch 16.9",
+          "description": "Guida Brand mid lane per League of Legends Patch 16.9: starter kit, build burn-mage, matchup chiave, power spike, errori comuni e un consiglio tecnico finale.",
+          "patch": "16.9",
+          "last_updated": "2026-05-01",
+          "champion_class": "Mago / Burst-AOE",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Brand",
+          "champion_key": "63"
+        }
+      }
+    },
+    {
+      "slug": "brand-support",
+      "champion": "brand",
+      "role": "support",
+      "locales": {
+        "en": {
+          "title": "Brand Support Build & Guide — Patch 16.9",
+          "description": "Brand support guide for League of Legends Patch 16.9: aggressive lane pressure, poke build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-01",
+          "champion_class": "Mage / Poke Support",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Brand",
+          "champion_key": "63"
+        },
+        "it": {
+          "title": "Brand Support Build & Guida — Patch 16.9",
+          "description": "Guida Brand support per League of Legends Patch 16.9: pressione aggressiva in lane, build da poke, matchup chiave, power spike, errori comuni e un consiglio finale.",
+          "patch": "16.9",
+          "last_updated": "2026-05-01",
+          "champion_class": "Mago / Poke Support",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Brand",
+          "champion_key": "63"
         }
       }
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30",
+  "generated_at": "2026-05-01",
   "targets": {
     "aatrox": [
       {
@@ -148,6 +148,26 @@
       },
       {
         "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "They blink past your Q before you can land it for the stun. Without the stun your kit has no peel for yourself, so they delete you before R finishes its first bounce.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con multi gap-close",
+        "reason": "Saltano oltre la tua Q prima che tu riesca a piazzarla per lo stun. Senza stun il kit non ha peel per te stesso, quindi ti cancellano prima che la R completi il primo bounce.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -246,6 +266,26 @@
         },
         "archetype": "Bruiser che fanno self-peel",
         "reason": "Dopo un hook riuscito possono headbuttare via il proprio ADC o ingoiarlo: il pull non chiude la kill, e il cooldown lungo della Q diventa una finestra di punish.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Mobile engage supports",
+        "reason": "Rakan dashes through your skillshots and pulls your ADC out of position; Alistar headbutt-pulverize chains skip past the Q stun. Brand cannot react fast enough to either.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support engage mobili",
+        "reason": "Rakan dasha attraverso i tuoi skillshot e tira la tua ADC fuori posto; la catena headbutt-pulverize di Alistar salta oltre lo stun della Q. Brand non riesce a reagire abbastanza in fretta a nessuno dei due.",
         "via": "counterpick"
       },
       {
@@ -408,6 +448,46 @@
         },
         "archetype": "Tank jungler senza dash",
         "reason": "L'on-hit pattern di Bel'Veth con Terminus gli sfonda armor e magic resist; resta incollata con i Q dash attorno alla loro hitbox e loro non hanno modo di disengage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Group-engage tanks with no escape",
+        "reason": "When their R lands, the same pile of enemies stands inside your W. R bounces between every grouped champion and your engage answer to their engage is a teamwipe instead of a 5v5.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Tank da group-engage senza escape",
+        "reason": "Quando la loro R atterra, lo stesso ammasso di nemici sta dentro la tua W. La R rimbalza tra ogni campione raggruppato e la tua risposta al loro engage è un teamwipe invece di un 5v5.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Group-engage tanks",
+        "reason": "When their R catches your team, the same R catches their team next to your team — Brand's R bounces between every grouped champion and turns their engage into your win condition.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Tank da group-engage",
+        "reason": "Quando la loro R prende la tua squadra, la stessa R prende anche la loro squadra accanto alla tua — la R di Brand rimbalza tra ogni campione raggruppato e trasforma il loro engage nella tua condizione di vittoria.",
         "via": "pick_into"
       },
       {
@@ -590,6 +670,26 @@
         },
         "archetype": "Mage immobili senza dash",
         "reason": "Il range dei soldati di Azir batte il loro range di cast, e non hanno dash per schivare il poke soldier-Q né per interrompere la sequenza di auto-attack potenziati dalla W.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Stationary mages with no dash",
+        "reason": "Their farming patterns require standing in one spot to cast or stack: drop W on the wave, Q the recovery frame for the stun, and the full burn rotation lands before they can move out.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage stazionari senza dash",
+        "reason": "Il loro pattern di farm li costringe a stare fermi per castare o stackare: piazza W sulla wave, Q nel frame di recovery per lo stun, e l'intera rotation di blaze atterra prima che possano muoversi.",
         "via": "pick_into"
       },
       {
@@ -1324,6 +1424,26 @@
       },
       {
         "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "All-in supports who match Brand's burst",
+        "reason": "Pantheon Q and Blitzcrank hook both have similar effective ranges to Brand's Q. Whoever lands their setup first wins the trade, and both have built-in survival (Aegis block, hook burst-and-leave) Brand lacks.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support all-in che matchano il burst di Brand",
+        "reason": "La Q di Pantheon e l'hook di Blitzcrank hanno range effettivi simili alla Q di Brand. Chi atterra il setup per primo vince il trade, e entrambi hanno survival built-in (block dell'Aegis, hook-and-leave) che a Brand mancano.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "braum",
           "role": "support",
           "lang": "en"
@@ -1804,6 +1924,26 @@
         },
         "archetype": "ADC con posizione statica e senza dash",
         "reason": "Devono fermarsi a range per attaccare dietro la linea di minion: un hook tirato sull'arco del minion cannone arriva pulito perche non hanno escape istantaneo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range ADCs with no escape",
+        "reason": "These ADCs sit at max range to last-hit; one E onto their support spreads blaze to them, your Q lands the stun, and the AD carry behind you takes the kill before they can flash.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC a lunga gittata senza escape",
+        "reason": "Questi ADC stanno a max range per last-hit; una E sul loro support spande blaze a loro, la Q lock-a lo stun, e l'AD carry alle tue spalle prende la kill prima che possano flashare.",
         "via": "pick_into"
       },
       {
@@ -2924,6 +3064,26 @@
       },
       {
         "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early-game skirmishers with mobility",
+        "reason": "They invade Brand at level 3 before Liandry's is online. Brand has no escape: Lee Sin Q + W chains, Elise rappel, and Graves dash all skip past his Q skillshot, and his clear is too slow to refund the fight.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Skirmisher early-game con mobilità",
+        "reason": "Invadono Brand al livello 3 prima che Liandry's sia online. Brand non ha escape: la catena Q + W di Lee Sin, il rappel di Elise e il dash di Graves saltano oltre lo skillshot Q, e la sua clear è troppo lenta per rifondere il fight.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "diana",
           "role": "jungle",
           "lang": "en"
@@ -3026,6 +3186,26 @@
     "evelynn": [
       {
         "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Channel-dependent or stealth-reliant junglers",
+        "reason": "Brand interrupts Fiddlesticks fear/ult channel with the Q stun on ablaze and detects Eve's pre-channel position with W prefires; both rely on long setups Brand can break with one rotation.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler dipendenti da channel o stealth",
+        "reason": "Brand interrompe il fear/ult channel di Fiddlesticks con lo stun Q sul blaze e rivela la posizione pre-channel di Eve con i prefire di W; entrambi dipendono da setup lunghi che Brand spezza con una sola rotation.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "warwick",
           "role": "jungle",
           "lang": "en"
@@ -3084,6 +3264,26 @@
         },
         "archetype": "ADC con posizione statica e senza dash",
         "reason": "Devono fermarsi a range per attaccare dietro la linea di minion: un hook tirato sull'arco del minion cannone arriva pulito perche non hanno escape istantaneo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range ADCs with no escape",
+        "reason": "These ADCs sit at max range to last-hit; one E onto their support spreads blaze to them, your Q lands the stun, and the AD carry behind you takes the kill before they can flash.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC a lunga gittata senza escape",
+        "reason": "Questi ADC stanno a max range per last-hit; una E sul loro support spande blaze a loro, la Q lock-a lo stun, e l'AD carry alle tue spalle prende la kill prima che possano flashare.",
         "via": "pick_into"
       },
       {
@@ -3228,6 +3428,26 @@
       }
     ],
     "fiddlesticks": [
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Channel-dependent or stealth-reliant junglers",
+        "reason": "Brand interrupts Fiddlesticks fear/ult channel with the Q stun on ablaze and detects Eve's pre-channel position with W prefires; both rely on long setups Brand can break with one rotation.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler dipendenti da channel o stealth",
+        "reason": "Brand interrompe il fear/ult channel di Fiddlesticks con lo stun Q sul blaze e rivela la posizione pre-channel di Eve con i prefire di W; entrambi dipendono da setup lunghi che Brand spezza con una sola rotation.",
+        "via": "pick_into"
+      },
       {
         "publisher": {
           "champion": "kha-zix",
@@ -3610,6 +3830,26 @@
         },
         "archetype": "Assassini mobili con più gap-closer",
         "reason": "La burstano nella finestra di cooldown di W. Anche con Zhonya's, una catena di dash più ulti la elimina prima che possa stasiare o riallineare W.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "They blink past your Q before you can land it for the stun. Without the stun your kit has no peel for yourself, so they delete you before R finishes its first bounce.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con multi gap-close",
+        "reason": "Saltano oltre la tua Q prima che tu riesca a piazzarla per lo stun. Senza stun il kit non ha peel per te stesso, quindi ti cancellano prima che la R completi il primo bounce.",
         "via": "counterpick"
       },
       {
@@ -4184,6 +4424,26 @@
     "graves": [
       {
         "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early-game skirmishers with mobility",
+        "reason": "They invade Brand at level 3 before Liandry's is online. Brand has no escape: Lee Sin Q + W chains, Elise rappel, and Graves dash all skip past his Q skillshot, and his clear is too slow to refund the fight.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Skirmisher early-game con mobilità",
+        "reason": "Invadono Brand al livello 3 prima che Liandry's sia online. Brand non ha escape: la catena Q + W di Lee Sin, il rappel di Elise e il dash di Graves saltano oltre lo skillshot Q, e la sua clear è troppo lenta per rifondere il fight.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "diana",
           "role": "jungle",
           "lang": "en"
@@ -4286,6 +4546,26 @@
       }
     ],
     "hecarim": [
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Bruisers that need to commit forward",
+        "reason": "They push into your team to deal damage and have no way to disengage; Brand's E lights blaze, Q stuns the moment they reach you, and R locks the second target before they can pull out.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Bruiser che devono committare in avanti",
+        "reason": "Spingono dentro la tua squadra per fare danno e non hanno disengage; la E di Brand accende il blaze, la Q stunna nel momento in cui ti raggiungono e la R lock-a il secondo target prima che possano tirarsi indietro.",
+        "via": "pick_into"
+      },
       {
         "publisher": {
           "champion": "janna",
@@ -4552,6 +4832,26 @@
         },
         "archetype": "Enchanter squishy con HP base bassi",
         "reason": "Tirando l'enchanter fuori posizione cancelli la lane: il loro carry resta senza peel, e la combo Q-W-E-R su un bersaglio da 500 HP chiude il trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Squishy enchanters with low HP",
+        "reason": "Brand's W out-pokes their healing range and his E + Q rotation kills them before their carry can peel. Yuumi specifically loses her body to a single full rotation; Soraka cannot heal through ablaze ticks.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter squishy con HP bassi",
+        "reason": "La W di Brand supera il loro raggio di healing in poke e la rotation E + Q li uccide prima che la carry possa peelarli. Yuumi specificamente perde il corpo a una sola rotation completa; Soraka non riesce a curare attraverso i tick di blaze.",
         "via": "pick_into"
       },
       {
@@ -5654,6 +5954,26 @@
       },
       {
         "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Utility supports with no engage",
+        "reason": "Brand wins the laning phase by force — they cannot punish W spam because their kit relies on shielding the carry, not trading. After level 6 their CC is single-target while your R hits both of them at once.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support utility senza engage",
+        "reason": "Brand vince la fase di lane per forza — non possono punire lo spam di W perché il loro kit serve a scudare la carry, non a tradare. Dopo il livello 6 il loro CC è single-target mentre la tua R li prende entrambi insieme.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "draven",
           "role": "bot",
           "lang": "en"
@@ -5872,6 +6192,26 @@
         },
         "archetype": "Jungler ranged squishy",
         "reason": "I quattro Q dash chiudono ogni tentativo di kite (kite = ritirarti continuando ad attaccare): arriva in melee prima che loro completino una rotation a distanza.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Stationary mages with no dash",
+        "reason": "Their farming patterns require standing in one spot to cast or stack: drop W on the wave, Q the recovery frame for the stun, and the full burn rotation lands before they can move out.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage stazionari senza dash",
+        "reason": "Il loro pattern di farm li costringe a stare fermi per castare o stackare: piazza W sulla wave, Q nel frame di recovery per lo stun, e l'intera rotation di blaze atterra prima che possano muoversi.",
         "via": "pick_into"
       },
       {
@@ -6528,6 +6868,26 @@
     "kha-zix": [
       {
         "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassin junglers",
+        "reason": "They blink/dash past the Q projectile so Brand cannot land the stun, then burst him in melee where he has no peel for himself. Even Zhonya's only delays the inevitable in a 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler assassini mobili",
+        "reason": "Blink-ano oltre il proiettile della Q così Brand non riesce a piazzare lo stun, poi lo bursta-no in melee dove non ha peel per sé. Anche Zhonya's ritarda solo l'inevitabile in 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "diana",
           "role": "jungle",
           "lang": "en"
@@ -6627,6 +6987,26 @@
         "archetype": "Jungler ranged squishy",
         "reason": "I quattro Q dash chiudono ogni tentativo di kite (kite = ritirarti continuando ad attaccare): arriva in melee prima che loro completino una rotation a distanza.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassin junglers",
+        "reason": "They blink/dash past the Q projectile so Brand cannot land the stun, then burst him in melee where he has no peel for himself. Even Zhonya's only delays the inevitable in a 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler assassini mobili",
+        "reason": "Blink-ano oltre il proiettile della Q così Brand non riesce a piazzare lo stun, poi lo bursta-no in melee dove non ha peel per sé. Anche Zhonya's ritarda solo l'inevitabile in 1v1.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -6996,6 +7376,26 @@
       },
       {
         "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early-game skirmishers with mobility",
+        "reason": "They invade Brand at level 3 before Liandry's is online. Brand has no escape: Lee Sin Q + W chains, Elise rappel, and Graves dash all skip past his Q skillshot, and his clear is too slow to refund the fight.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Skirmisher early-game con mobilità",
+        "reason": "Invadono Brand al livello 3 prima che Liandry's sia online. Brand non ha escape: la catena Q + W di Lee Sin, il rappel di Elise e il dash di Graves saltano oltre lo skillshot Q, e la sua clear è troppo lenta per rifondere il fight.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "diana",
           "role": "jungle",
           "lang": "en"
@@ -7194,6 +7594,26 @@
         },
         "archetype": "Tank engage che vincono la gara di hook",
         "reason": "Se hookano o caricano per primi, la tua animazione di Q viene interrotta e il tuo compagno mangia la chain di CC: in lane hook-vs-hook perde chi telegrafa il cast.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hard-engage tank supports",
+        "reason": "They engage from outside Brand's W range with a flash-stun chain. He has no peel for himself or his carry — once Leona stuns, the kit has no answer except to die or burn Flash + Zhonya's together.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support tank da hard-engage",
+        "reason": "Engaggiano fuori dal range della W di Brand con una catena flash-stun. Brand non ha peel per sé né per la carry — appena Leona stunna, il kit non ha risposte se non morire o bruciare Flash + Zhonya's insieme.",
         "via": "counterpick"
       },
       {
@@ -7866,6 +8286,26 @@
       },
       {
         "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Utility supports with no engage",
+        "reason": "Brand wins the laning phase by force — they cannot punish W spam because their kit relies on shielding the carry, not trading. After level 6 their CC is single-target while your R hits both of them at once.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support utility senza engage",
+        "reason": "Brand vince la fase di lane per forza — non possono punire lo spam di W perché il loro kit serve a scudare la carry, non a tradare. Dopo il livello 6 il loro CC è single-target mentre la tua R li prende entrambi insieme.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kayn",
           "role": "jungle",
           "lang": "en"
@@ -8266,6 +8706,46 @@
         },
         "archetype": "Single-engage 5-man wombo comps",
         "reason": "Crystallize spezza in due l'engage avversario: se il muro va tra l'iniziatore e il follow-up, il wombo cade su uno o due bersagli, non su cinque.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Group-engage tanks with no escape",
+        "reason": "When their R lands, the same pile of enemies stands inside your W. R bounces between every grouped champion and your engage answer to their engage is a teamwipe instead of a 5v5.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Tank da group-engage senza escape",
+        "reason": "Quando la loro R atterra, lo stesso ammasso di nemici sta dentro la tua W. La R rimbalza tra ogni campione raggruppato e la tua risposta al loro engage è un teamwipe invece di un 5v5.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Group-engage tanks",
+        "reason": "When their R catches your team, the same R catches their team next to your team — Brand's R bounces between every grouped champion and turns their engage into your win condition.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Tank da group-engage",
+        "reason": "Quando la loro R prende la tua squadra, la stessa R prende anche la loro squadra accanto alla tua — la R di Brand rimbalza tra ogni campione raggruppato e trasforma il loro engage nella tua condizione di vittoria.",
         "via": "pick_into"
       },
       {
@@ -8753,6 +9233,26 @@
         "archetype": "Skirmisher scaling senza CC iniziale",
         "reason": "Vince le skirmish iniziali in jungle (skirmish = scontro 1v1 o 2v2 fuori dal teamfight) prima del loro power spike, poi converte il vantaggio sugli obiettivi.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassin junglers",
+        "reason": "They blink/dash past the Q projectile so Brand cannot land the stun, then burst him in melee where he has no peel for himself. Even Zhonya's only delays the inevitable in a 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler assassini mobili",
+        "reason": "Blink-ano oltre il proiettile della Q così Brand non riesce a piazzare lo stun, poi lo bursta-no in melee dove non ha peel per sé. Anche Zhonya's ritarda solo l'inevitabile in 1v1.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -9552,6 +10052,26 @@
       },
       {
         "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hard-engage tank supports",
+        "reason": "They engage from outside Brand's W range with a flash-stun chain. He has no peel for himself or his carry — once Leona stuns, the kit has no answer except to die or burn Flash + Zhonya's together.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support tank da hard-engage",
+        "reason": "Engaggiano fuori dal range della W di Brand con una catena flash-stun. Brand non ha peel per sé né per la carry — appena Leona stunna, il kit non ha risposte se non morire o bruciare Flash + Zhonya's insieme.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "braum",
           "role": "support",
           "lang": "en"
@@ -9956,6 +10476,26 @@
     "nocturne": [
       {
         "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Vision-deny ganker junglers",
+        "reason": "They bypass the wards Brand depends on (no innate vision counter, no flash-engage). Nocturne R cuts vision to your team; Shaco Q stealths through wards. Brand cannot pre-aim Q if he cannot see them coming.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler che negano vision al gank",
+        "reason": "Bypassano le ward su cui Brand si appoggia (no counter-vision innato, no flash-engage). La R di Nocturne taglia la vision della tua squadra; la Q di Shaco passa stealth oltre le ward. Brand non può pre-mirare la Q se non vede arrivare il nemico.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "ekko",
           "role": "jungle",
           "lang": "en"
@@ -10280,6 +10820,26 @@
         },
         "archetype": "Bully aggressivi al livello 2",
         "reason": "Lane di all-in al livello 2-3 puniscono le tue stat early deboli. Non hai sustain a parte la W che richiede 10 secondi per caricarsi prima di pagare.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "All-in supports who match Brand's burst",
+        "reason": "Pantheon Q and Blitzcrank hook both have similar effective ranges to Brand's Q. Whoever lands their setup first wins the trade, and both have built-in survival (Aegis block, hook burst-and-leave) Brand lacks.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support all-in che matchano il burst di Brand",
+        "reason": "La Q di Pantheon e l'hook di Blitzcrank hanno range effettivi simili alla Q di Brand. Chi atterra il setup per primo vince il trade, e entrambi hanno survival built-in (block dell'Aegis, hook-and-leave) che a Brand mancano.",
         "via": "counterpick"
       },
       {
@@ -10792,6 +11352,26 @@
     "rakan": [
       {
         "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Mobile engage supports",
+        "reason": "Rakan dashes through your skillshots and pulls your ADC out of position; Alistar headbutt-pulverize chains skip past the Q stun. Brand cannot react fast enough to either.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support engage mobili",
+        "reason": "Rakan dasha attraverso i tuoi skillshot e tira la tua ADC fuori posto; la catena headbutt-pulverize di Alistar salta oltre lo stun della Q. Brand non riesce a reagire abbastanza in fretta a nessuno dei due.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "draven",
           "role": "bot",
           "lang": "en"
@@ -11052,6 +11632,26 @@
         },
         "archetype": "Altri tank engage support con hard CC più lungo",
         "reason": "Il loro primo cast atterra prima che tu entri in range di Q: Q hook di Nautilus, E dash-stun di Leona, W charge di Rell — tutte battono la tua W. Tu mangi il loro engage, loro non mangiano il tuo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hard-engage tank supports",
+        "reason": "They engage from outside Brand's W range with a flash-stun chain. He has no peel for himself or his carry — once Leona stuns, the kit has no answer except to die or burn Flash + Zhonya's together.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support tank da hard-engage",
+        "reason": "Engaggiano fuori dal range della W di Brand con una catena flash-stun. Brand non ha peel per sé né per la carry — appena Leona stunna, il kit non ha risposte se non morire o bruciare Flash + Zhonya's insieme.",
         "via": "counterpick"
       },
       {
@@ -11530,6 +12130,26 @@
       },
       {
         "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Stationary mages with no dash",
+        "reason": "Their farming patterns require standing in one spot to cast or stack: drop W on the wave, Q the recovery frame for the stun, and the full burn rotation lands before they can move out.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage stazionari senza dash",
+        "reason": "Il loro pattern di farm li costringe a stare fermi per castare o stackare: piazza W sulla wave, Q nel frame di recovery per lo stun, e l'intera rotation di blaze atterra prima che possano muoversi.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "irelia",
           "role": "top",
           "lang": "en"
@@ -11794,6 +12414,46 @@
       },
       {
         "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Group-engage tanks with no escape",
+        "reason": "When their R lands, the same pile of enemies stands inside your W. R bounces between every grouped champion and your engage answer to their engage is a teamwipe instead of a 5v5.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Tank da group-engage senza escape",
+        "reason": "Quando la loro R atterra, lo stesso ammasso di nemici sta dentro la tua W. La R rimbalza tra ogni campione raggruppato e la tua risposta al loro engage è un teamwipe invece di un 5v5.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Group-engage tanks",
+        "reason": "When their R catches your team, the same R catches their team next to your team — Brand's R bounces between every grouped champion and turns their engage into your win condition.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Tank da group-engage",
+        "reason": "Quando la loro R prende la tua squadra, la stessa R prende anche la loro squadra accanto alla tua — la R di Brand rimbalza tra ogni campione raggruppato e trasforma il loro engage nella tua condizione di vittoria.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "diana",
           "role": "jungle",
           "lang": "en"
@@ -11932,6 +12592,26 @@
         },
         "archetype": "Carry da scaling immobili",
         "reason": "La R cross-map li elimina sugli spawn obiettivo o nelle finestre di reset alla fountain. Il loro kit non ha dash per scappare alla freccia che esce dalla fog of war.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Squishy backline contributors with weak escape",
+        "reason": "Pyroclasm prioritises ablaze targets; one E onto the front line spreads blaze, and the R hops through every grouped enemy until it kills the squishy at the back.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Carry da retroguardia squishy con escape debole",
+        "reason": "Pyroclasm dà priorità ai bersagli ablaze; una E sulla front line spande blaze, e la R salta tra ogni nemico raggruppato fino a uccidere lo squishy in retroguardia.",
         "via": "pick_into"
       },
       {
@@ -12362,6 +13042,26 @@
     "shaco": [
       {
         "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Vision-deny ganker junglers",
+        "reason": "They bypass the wards Brand depends on (no innate vision counter, no flash-engage). Nocturne R cuts vision to your team; Shaco Q stealths through wards. Brand cannot pre-aim Q if he cannot see them coming.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler che negano vision al gank",
+        "reason": "Bypassano le ward su cui Brand si appoggia (no counter-vision innato, no flash-engage). La R di Nocturne taglia la vision della tua squadra; la Q di Shaco passa stealth oltre le ward. Brand non può pre-mirare la Q se non vede arrivare il nemico.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "diana",
           "role": "jungle",
           "lang": "en"
@@ -12774,6 +13474,26 @@
       },
       {
         "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Bruisers that need to commit forward",
+        "reason": "They push into your team to deal damage and have no way to disengage; Brand's E lights blaze, Q stuns the moment they reach you, and R locks the second target before they can pull out.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Bruiser che devono committare in avanti",
+        "reason": "Spingono dentro la tua squadra per fare danno e non hanno disengage; la E di Brand accende il blaze, la Q stunna nel momento in cui ti raggiungono e la R lock-a il secondo target prima che possano tirarsi indietro.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kha-zix",
           "role": "jungle",
           "lang": "en"
@@ -13034,6 +13754,46 @@
         },
         "archetype": "Enchanter squishy con HP base bassi",
         "reason": "Tirando l'enchanter fuori posizione cancelli la lane: il loro carry resta senza peel, e la combo Q-W-E-R su un bersaglio da 500 HP chiude il trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Squishy backline contributors with weak escape",
+        "reason": "Pyroclasm prioritises ablaze targets; one E onto the front line spreads blaze, and the R hops through every grouped enemy until it kills the squishy at the back.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Carry da retroguardia squishy con escape debole",
+        "reason": "Pyroclasm dà priorità ai bersagli ablaze; una E sulla front line spande blaze, e la R salta tra ogni nemico raggruppato fino a uccidere lo squishy in retroguardia.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Squishy enchanters with low HP",
+        "reason": "Brand's W out-pokes their healing range and his E + Q rotation kills them before their carry can peel. Yuumi specifically loses her body to a single full rotation; Soraka cannot heal through ablaze ticks.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter squishy con HP bassi",
+        "reason": "La W di Brand supera il loro raggio di healing in poke e la rotation E + Q li uccide prima che la carry possa peelarli. Yuumi specificamente perde il corpo a una sola rotation completa; Soraka non riesce a curare attraverso i tick di blaze.",
         "via": "pick_into"
       },
       {
@@ -14786,6 +15546,26 @@
       },
       {
         "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range ADCs with no escape",
+        "reason": "These ADCs sit at max range to last-hit; one E onto their support spreads blaze to them, your Q lands the stun, and the AD carry behind you takes the kill before they can flash.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC a lunga gittata senza escape",
+        "reason": "Questi ADC stanno a max range per last-hit; una E sul loro support spande blaze a loro, la Q lock-a lo stun, e l'AD carry alle tue spalle prende la kill prima che possano flashare.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "braum",
           "role": "support",
           "lang": "en"
@@ -15430,6 +16210,26 @@
       },
       {
         "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Stationary mages with no dash",
+        "reason": "Their farming patterns require standing in one spot to cast or stack: drop W on the wave, Q the recovery frame for the stun, and the full burn rotation lands before they can move out.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage stazionari senza dash",
+        "reason": "Il loro pattern di farm li costringe a stare fermi per castare o stackare: piazza W sulla wave, Q nel frame di recovery per lo stun, e l'intera rotation di blaze atterra prima che possano muoversi.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -15689,6 +16489,26 @@
         "archetype": "Mage support stazionari",
         "reason": "Stanno fermi dietro per pokare. Un hook a max range sul frame di cast li prende prima che possano flashare, e regalano un 4v5 al tuo team.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Longer-range artillery mages",
+        "reason": "Their poke threshold is higher than your Q range. Brand has no mobility to close the gap, so every wave they keep him low until he is a free dive target for the enemy jungle.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Artillery mage a gittata superiore",
+        "reason": "La loro soglia di poke è oltre il range della tua Q. Brand non ha mobilità per chiudere la distanza, quindi ogni wave ti tengono basso fino a renderti un bersaglio gratuito per il jungler avversario.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -16060,6 +16880,26 @@
     "volibear": [
       {
         "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Bruisers that need to commit forward",
+        "reason": "They push into your team to deal damage and have no way to disengage; Brand's E lights blaze, Q stuns the moment they reach you, and R locks the second target before they can pull out.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Bruiser che devono committare in avanti",
+        "reason": "Spingono dentro la tua squadra per fare danno e non hanno disengage; la E di Brand accende il blaze, la Q stunna nel momento in cui ti raggiungono e la R lock-a il secondo target prima che possano tirarsi indietro.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "darius",
           "role": "top",
           "lang": "en"
@@ -16403,6 +17243,26 @@
         "archetype": "Mage support stazionari",
         "reason": "Stanno fermi dietro per pokare. Un hook a max range sul frame di cast li prende prima che possano flashare, e regalano un 4v5 al tuo team.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Longer-range artillery mages",
+        "reason": "Their poke threshold is higher than your Q range. Brand has no mobility to close the gap, so every wave they keep him low until he is a free dive target for the enemy jungle.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Artillery mage a gittata superiore",
+        "reason": "La loro soglia di poke è oltre il range della tua Q. Brand non ha mobilità per chiudere la distanza, quindi ogni wave ti tengono basso fino a renderti un bersaglio gratuito per il jungler avversario.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -17070,6 +17930,26 @@
       },
       {
         "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Windwall champions with sustained mobility",
+        "reason": "Wind Wall blocks Q and the projectile path of R; they then dash past your W zone. Burning a defensive item slot for Zhonya's only buys you survival, not lane prio.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Campioni con Wind Wall e mobilità sostenuta",
+        "reason": "Wind Wall blocca la Q e il proiettile della R; poi dashano oltre la zona della W. Bruciare uno slot per Zhonya's compra solo sopravvivenza, non priorità di lane.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "darius",
           "role": "top",
           "lang": "en"
@@ -17432,6 +18312,26 @@
       },
       {
         "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Windwall champions with sustained mobility",
+        "reason": "Wind Wall blocks Q and the projectile path of R; they then dash past your W zone. Burning a defensive item slot for Zhonya's only buys you survival, not lane prio.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Campioni con Wind Wall e mobilità sostenuta",
+        "reason": "Wind Wall blocca la Q e il proiettile della R; poi dashano oltre la zona della W. Bruciare uno slot per Zhonya's compra solo sopravvivenza, non priorità di lane.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "darius",
           "role": "top",
           "lang": "en"
@@ -17712,6 +18612,46 @@
         },
         "archetype": "Enchanter squishy con HP base bassi",
         "reason": "Tirando l'enchanter fuori posizione cancelli la lane: il loro carry resta senza peel, e la combo Q-W-E-R su un bersaglio da 500 HP chiude il trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Squishy backline contributors with weak escape",
+        "reason": "Pyroclasm prioritises ablaze targets; one E onto the front line spreads blaze, and the R hops through every grouped enemy until it kills the squishy at the back.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Carry da retroguardia squishy con escape debole",
+        "reason": "Pyroclasm dà priorità ai bersagli ablaze; una E sulla front line spande blaze, e la R salta tra ogni nemico raggruppato fino a uccidere lo squishy in retroguardia.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Squishy enchanters with low HP",
+        "reason": "Brand's W out-pokes their healing range and his E + Q rotation kills them before their carry can peel. Yuumi specifically loses her body to a single full rotation; Soraka cannot heal through ablaze ticks.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter squishy con HP bassi",
+        "reason": "La W di Brand supera il loro raggio di healing in poke e la rotation E + Q li uccide prima che la carry possa peelarli. Yuumi specificamente perde il corpo a una sola rotation completa; Soraka non riesce a curare attraverso i tick di blaze.",
         "via": "pick_into"
       },
       {
@@ -18240,6 +19180,26 @@
       },
       {
         "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "They blink past your Q before you can land it for the stun. Without the stun your kit has no peel for yourself, so they delete you before R finishes its first bounce.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con multi gap-close",
+        "reason": "Saltano oltre la tua Q prima che tu riesca a piazzarla per lo stun. Senza stun il kit non ha peel per te stesso, quindi ti cancellano prima che la R completi il primo bounce.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "jinx",
           "role": "bot",
           "lang": "en"
@@ -18482,6 +19442,26 @@
       },
       {
         "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Longer-range artillery mages",
+        "reason": "Their poke threshold is higher than your Q range. Brand has no mobility to close the gap, so every wave they keep him low until he is a free dive target for the enemy jungle.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Artillery mage a gittata superiore",
+        "reason": "La loro soglia di poke è oltre il range della tua Q. Brand non ha mobilità per chiudere la distanza, quindi ogni wave ti tengono basso fino a renderti un bersaglio gratuito per il jungler avversario.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "ezreal",
           "role": "bot",
           "lang": "en"
@@ -18662,6 +19642,26 @@
       }
     ],
     "zilean": [
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Utility supports with no engage",
+        "reason": "Brand wins the laning phase by force — they cannot punish W spam because their kit relies on shielding the carry, not trading. After level 6 their CC is single-target while your R hits both of them at once.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "brand",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support utility senza engage",
+        "reason": "Brand vince la fase di lane per forza — non possono punire lo spam di W perché il loro kit serve a scudare la carry, non a tradare. Dopo il livello 6 il loro CC è single-target mentre la tua R li prende entrambi insieme.",
+        "via": "pick_into"
+      },
       {
         "publisher": {
           "champion": "yasuo",

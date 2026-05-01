@@ -5253,6 +5253,944 @@ export const itChampions: ChampionGuide[] = [
     "champion_key": "53"
   },
   {
+    "slug": "brand-jungle",
+    "title": "Brand Jungle Build & Guida — Patch 16.9",
+    "language": "it",
+    "patch": "16.9",
+    "champion": "brand",
+    "role": "jungle",
+    "last_updated": "2026-05-01",
+    "description": "Guida Brand jungle per League of Legends Patch 16.9: percorso smite, clear burn-mage, gank window, matchup chiave, power spike, errori comuni e un consiglio finale.",
+    "quick_learn": {
+      "champion_dd_id": "Brand",
+      "difficulty": 3,
+      "damage_type": "magic",
+      "champion_class": "AP Jungler / Skirmisher",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Blaze",
+          "description": "Le spell di Brand danno fuoco al bersaglio (danno nel tempo per 4s, fino a 3 stack). A 3 stack il blaze detona come una piccola esplosione AOE che riapplica gli effetti delle spell.",
+          "dd_spell_id": "Brand_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Sear",
+          "description": "Skillshot lineare con danno magico. Se il bersaglio è già ablaze, lo stunna — il tuo lock di gank e setup di stun in skirmish.",
+          "dd_spell_id": "BrandQ"
+        },
+        {
+          "key": "W",
+          "name": "Pillar of Flame",
+          "description": "Area AOE ritardata dopo un breve tell. I bersagli ablaze subiscono +25% danno. Strumento principale di clear in jungla.",
+          "dd_spell_id": "BrandW"
+        },
+        {
+          "key": "E",
+          "name": "Conflagration",
+          "description": "Esplosione targettata che rimbalza sui nemici vicini. Se il primo bersaglio è ablaze, il raggio di propagazione raddoppia — i bounce tra camp accelerano la clear.",
+          "dd_spell_id": "BrandE"
+        },
+        {
+          "key": "R",
+          "name": "Pyroclasm",
+          "description": "Palla di fuoco a lunga gittata che rimbalza fino a 5 volte tra nemici, dando priorità ai target ablaze. Danno enorme nelle skirmish intorno alla pit del drake e ai grub.",
+          "dd_spell_id": "BrandR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "W"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "Q"
+        },
+        {
+          "level": 4,
+          "key": "W"
+        },
+        {
+          "level": 5,
+          "key": "W"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "W"
+        },
+        {
+          "level": 8,
+          "key": "W"
+        },
+        {
+          "level": 9,
+          "key": "E"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "Q"
+        },
+        {
+          "level": 15,
+          "key": "Q"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "Q"
+        },
+        {
+          "level": 18,
+          "key": "Q"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6653",
+          "name": "Liandry's Torment"
+        },
+        {
+          "dd_id": "3020",
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "dd_id": "3116",
+          "name": "Rylai's Crystal Scepter"
+        },
+        {
+          "dd_id": "3089",
+          "name": "Rabadon's Deathcap"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass",
+          "against": "contro diver early-game (Lee Sin, Xin Zhao, Hecarim, Diana) — la stasi copre la zero-mobility durante il loro gap-close"
+        },
+        {
+          "dd_id": "4629",
+          "name": "Cosmic Drive",
+          "against": "quando sei avanti e il team avversario non ha Resistenza Magica — la passiva di move-speed dopo ogni cast ti permette di kitare in skirmish"
+        },
+        {
+          "dd_id": "3135",
+          "name": "Void Staff",
+          "against": "swap appena un target prioritario compra il primo item di Resistenza Magica (Mercury's Treads contano)"
+        },
+        {
+          "dd_id": "3102",
+          "name": "Banshee's Veil",
+          "against": "contro CC magici single-target da engage (Ahri R, Lissandra R, Nautilus hook)"
+        }
+      ],
+      "base_combo": [
+        "E",
+        "W",
+        "Q",
+        "R"
+      ],
+      "win_condition": "Skirmish intorno alle pit obiettivo con R che rimbalza tra nemici raggruppati. Gank dopo aver pushato la wave con E (la propagazione setta uno stun Q gratuito). Power-spike window: minuto 8-18.",
+      "weakness": "Clear più lenta tra le opzioni AP pre-Liandry's, niente escape, niente sustain in jungla innato. Debole agli invade early dei jungler mobili e ai jungler che possono matchare l'AOE con CC duro.",
+      "runes": {
+        "primary_tree": "Sorcery",
+        "primary_tree_dd_id": 8200,
+        "keystone": {
+          "dd_id": 8229,
+          "name": "Arcane Comet",
+          "icon_path": "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 8226,
+            "name": "Manaflow Band",
+            "icon_path": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "dd_id": 8210,
+            "name": "Transcendence",
+            "icon_path": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png"
+          },
+          {
+            "dd_id": 8237,
+            "name": "Scorch",
+            "icon_path": "perk-images/Styles/Sorcery/Scorch/Scorch.png"
+          }
+        ],
+        "secondary_tree": "Resolve",
+        "secondary_tree_dd_id": 8400,
+        "secondary_slots": [
+          {
+            "dd_id": 8444,
+            "name": "Second Wind",
+            "icon_path": "perk-images/Styles/Resolve/SecondWind/SecondWind.png"
+          },
+          {
+            "dd_id": 8451,
+            "name": "Overgrowth",
+            "icon_path": "perk-images/Styles/Resolve/Overgrowth/Overgrowth.png"
+          }
+        ],
+        "stat_shards": [
+          "Adaptive Force",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Sorcery primaria: Arcane Comet si procca su ogni hit di W o E, aggiungendo burst sopra al blaze. Manaflow Band è obbligatorio — Brand jungle muore di fame mana early. Transcendence porta l'ability haste oltre il 40%, Scorch chiude camp e gank a basso HP.",
+        "secondary_rationale": "Resolve secondaria: Second Wind ti tiene sustainato tra camp senza potions (Brand non ha sustain innato come Fiddlesticks o Warwick). Overgrowth dà HP bonus scalanti coi mostri uccisi — counter alla tua fragilità senza difese.",
+        "secondary_alternative": "Contro comp che invadono pesantemente early (Lee Sin + Pyke roam, Elise + Galio), swap Resolve verso Inspiration con Biscuit Delivery (sustain mana sulle clear più deboli) e Cosmic Insight (più uptime di Smite intorno ai drake)."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "sejuani",
+            "amumu",
+            "malphite"
+          ],
+          "archetype": "Tank da group-engage senza escape",
+          "reason": "Quando la loro R atterra, lo stesso ammasso di nemici sta dentro la tua W. La R rimbalza tra ogni campione raggruppato e la tua risposta al loro engage è un teamwipe invece di un 5v5."
+        },
+        {
+          "examples": [
+            "hecarim",
+            "skarner",
+            "volibear"
+          ],
+          "archetype": "Bruiser che devono committare in avanti",
+          "reason": "Spingono dentro la tua squadra per fare danno e non hanno disengage; la E di Brand accende il blaze, la Q stunna nel momento in cui ti raggiungono e la R lock-a il secondo target prima che possano tirarsi indietro."
+        },
+        {
+          "examples": [
+            "fiddlesticks",
+            "evelynn"
+          ],
+          "archetype": "Jungler dipendenti da channel o stealth",
+          "reason": "Brand interrompe il fear/ult channel di Fiddlesticks con lo stun Q sul blaze e rivela la posizione pre-channel di Eve con i prefire di W; entrambi dipendono da setup lunghi che Brand spezza con una sola rotation."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "lee-sin",
+            "elise",
+            "graves"
+          ],
+          "archetype": "Skirmisher early-game con mobilità",
+          "reason": "Invadono Brand al livello 3 prima che Liandry's sia online. Brand non ha escape: la catena Q + W di Lee Sin, il rappel di Elise e il dash di Graves saltano oltre lo skillshot Q, e la sua clear è troppo lenta per rifondere il fight."
+        },
+        {
+          "examples": [
+            "kha-zix",
+            "master-yi",
+            "kindred"
+          ],
+          "archetype": "Jungler assassini mobili",
+          "reason": "Blink-ano oltre il proiettile della Q così Brand non riesce a piazzare lo stun, poi lo bursta-no in melee dove non ha peel per sé. Anche Zhonya's ritarda solo l'inevitabile in 1v1."
+        },
+        {
+          "examples": [
+            "nocturne",
+            "shaco"
+          ],
+          "archetype": "Jungler che negano vision al gank",
+          "reason": "Bypassano le ward su cui Brand si appoggia (no counter-vision innato, no flash-engage). La R di Nocturne taglia la vision della tua squadra; la Q di Shaco passa stealth oltre le ward. Brand non può pre-mirare la Q se non vede arrivare il nemico."
+        }
+      ]
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Brand jungle è un <strong>AP skirmisher</strong> costruito per i fight obiettivo e i gank post-6 più che per clear veloci o solo invade. Il kit è identico al Brand mid — accendi i bersagli, stunna gli ablaze con <strong>Q</strong>, fai rimbalzare <strong>R</strong> tra nemici raggruppati — ma il ruolo è diverso. Da jungler scambi la priorità in lane (il vantaggio che i laner ottengono pushando per primi la wave) per il controllo del river: ogni fight di drake, ogni spawn di grub (un \"grub\" è uno dei piccoli mostri neutrali della pit del void che dà oro e un bonus al team che lo uccide), ogni skirmish allo Scuttle (Scuttle = il granchio neutrale del river che dà vision e un piccolo buff) è un'occasione perché la <strong>R</strong> rimbalzi tra tre o quattro nemici raggruppati e trasformi un fight pari in un teamwipe.</p>\n<p>Il piano partita è rigido per gli standard della jungla. Clear i primi tre camp full-clear (red → krug oppure blue → gromp a seconda del side), gank una lane al livello 3 solo se ha una finestra pulita di <strong>W → Q stun</strong>, recall per i componenti di <strong>Liandry's Torment</strong>, e dal minuto 8 in poi camp-pa il prossimo obiettivo. Brand non ha escape, niente dueling power early, e la clear singolo-target più lenta tra i jungler AP — gli invade ti finiscono la partita se non wardi gli ingressi della tua jungla. Il payoff è lo spike post-6: <strong>Pyroclasm</strong> in un fight raggruppato sul river è una delle ultimate dal danno più alto del gioco, e il kit pone alla squadra avversaria una domanda a cui spesso non hanno disengage per rispondere.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1039.png\" alt=\"Hailblade\"> <strong>Hailblade</strong> (default per i jungler ranged — dà la pet di smite che potenzia la clear dei camp e oro extra) + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2031.png\" alt=\"Refillable Potion\"> <strong>Refillable Potion</strong>.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> <strong>Liandry's Torment</strong> — primo item completo. Il burn percentuale degli HP punisce le pool degli obiettivi (drake, baron, herald) e si somma a ogni tick di blaze.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — penetrazione magica fissa, lo spike più economico tra gli item core.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3116.png\" alt=\"Rylai&#x27;s Crystal Scepter\"> <strong>Rylai's Crystal Scepter</strong> — lo slow su ogni hit di spell chiude la più grande debolezza di Brand (no chase, no escape). Ti permette di camminare addosso a chi prova a kitare e di ganckare senza Flash.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — slot di scaling late. Comprala quarta a meno che tu non sia 4+ kill avanti, nel qual caso rushala terza per snowballare (\"snowball\" = vantaggio iniziale che cresce: kill → gold → item → più kill).</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — contro diver early-game (Lee Sin, Xin Zhao, Hecarim). La stasi è l'unica risposta che Brand ha quando una catena di dash supera la front line (i tank e i bruiser davanti che normalmente assorbono i colpi al posto tuo).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4629.png\" alt=\"Cosmic Drive\"> <strong>Cosmic Drive</strong> — quando sei avanti e l'avversario non ha ancora iniziato a costruire Resistenza Magica. La passiva di move-speed dopo ogni cast ti permette di kitare in skirmish (\"kite\" = muoverti all'indietro mentre attacchi, mantenendo distanza).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — appena un target prioritario compra il primo item di Resistenza Magica. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> (gli stivali di Resistenza Magica) contano come primo item MR.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — contro CC magici telegrafati da engage (Ahri R, Lissandra R, Nautilus hook).</li>\n</ul>\n<p><strong>Stivali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> di default. Swap a <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> se la squadra avversaria ha 3+ minacce di hard CC con danno magico.</p>\n<p><strong>Skill order:</strong> Massimizza <strong>W</strong> per primo (il danno base più alto e principale strumento di clear), <strong>E</strong> per secondo (boost di clear-speed tra camp e propagazione nei gank), <strong>Q</strong> per ultimo. Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Sorcery</strong> con <strong>Arcane Comet</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Scorch</strong>. Secondario <strong>Resolve</strong> con <strong>Second Wind</strong> e <strong>Overgrowth</strong> per sustain in jungla.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Lee Sin:</strong> Perdi ogni 1v1 prima del livello 6. La sua catena Q + W salta oltre lo skillshot Q. Evita le skirmish in solo pre-6, full-clear invece, e warda entrambi gli ingressi della tua jungla al minuto 1:30.</li>\n<li><strong>Hecarim:</strong> Matchup pari. Ti supera nel kite ma si raggruppa per i bounce della R nei teamfight. Conserva la Q per il momento in cui committa in avanti — se stunni un Hecarim in carica, il timer del suo engage è bruciato.</li>\n<li><strong>Karthus:</strong> Tu out-gank-i, lui scala più di te. Forza fight pre-16 intorno al drake. Una volta che Defile è online (la passiva a rango massimo che pulsa intorno a lui — la forma AOE con cui può uccidere da grey-screen) non puoi camminare nella sua squadra senza Banshee's Veil.</li>\n<li><strong>Sejuani:</strong> Te la mangi. La R rimbalza tra ogni campione che lei tira dentro un ammasso; engage sull'engage. Pre-6 ti batte nei 1v1 — non invaderla, raggruppati con mid per i fight grub.</li>\n<li><strong>Master Yi:</strong> Counter netto in 1v1. Forza il fight 5v5 nei river stretti (drake pit, baron pit) dove la sua W-cleanse non lo salva dalle catene di bounce della R. Compra Zhonya's Hourglass come second item se compra Wit's End.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 3 (W + E + Q):</strong> Prima power di gank. Con un punto in ognuna delle abilità il combo <strong>E → W → Q stun</strong> è online. Se il laner avversario si overestende senza Flash, hai un setup di kill.</li>\n<li><strong>Livello 6 (R sbloccata):</strong> Primo spike obiettivo. <strong>Pyroclasm</strong> in una skirmish allo Scuttle (fight del granchio del river) fa circa il 50% degli HP di uno squishy per bounce. Combatti ogni Scuttle quando la R è disponibile.</li>\n<li><strong>Liandry's Torment online (~ minuto 9-12):</strong> La clear si ribalta e il DPS (DPS = damage per second, qui contro le pool di HP di drake/baron/grub) sugli obiettivi raddoppia. Da questo punto sei tu a iniziare i fight di drake, non a reagire.</li>\n<li><strong>Rabadon's Deathcap online (~ minuto 24-30):</strong> La sequenza completa di bounce della R one-shotta gli squishy. Forza i fight obiettivo raggruppati — Baron, Soul Drake, Atakhan (\"Atakhan\" = una neutrale di pit late-game che spawna intorno al minuto 14; se non lo conosci, tratta lo spawn come un 5v5 forzato).</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Provare a clearare come un fast-clear jungler.</strong> Brand non ha sustain innato né attack speed. Non gareggiare con Lee Sin sullo Scuttle pre-6 — full-clear, raggiungi il livello 6, poi inizia a ganckare e skirmishare.</li>\n<li><strong>Q nuda per poke in jungla.</strong> <strong>Q</strong> senza ablaze è un proiettile lento che manca sui jungler che dashano. Setta sempre con <strong>W</strong> sul punto di atterraggio o <strong>E</strong> su un minion che propagherà il blaze.</li>\n<li><strong>Ultare un nemico isolato.</strong> I bounce di <strong>R</strong> sono sprecati su un solo target — i salti vanno avanti e indietro sullo stesso campione con damage falloff. Conserva <strong>R</strong> per fight raggruppati, non per inseguire un solo bersaglio in fuga.</li>\n<li><strong>Saltare la vision nella tua jungla.</strong> Piazza Stealth Ward su tri-bush e pixel brush al minuto 1:30. Brand non ha escape; un invade che non vedi arrivare è una kill regalata a un jungler mobile.</li>\n<li><strong>Smite-greedare obiettivi senza R.</strong> HP del drake e dei grub scalano; il danno del tuo smite no. Se contesti un drake senza R off cooldown e il jungler avversario sì, perdi la guerra di smite e il drake.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena il <strong>gank invisibile con W</strong>. Avvicinati a una lane dal lato river coperto dal fog of war (\"fog of war\" = l'area non rivelata fuori dalla vision della tua squadra). Casta <strong>W</strong> sullo spot in cui il laner avversario <em>farà il prossimo passo</em> (predici il path basandoti sulla wave) — Pillar of Flame ha un delay prima di atterrare, e il cast in sé non rompe lo stealth o la vision. Nel momento in cui la W atterra e applica blaze, lancia <strong>Q</strong> nella finestra di stun. Fatto bene, l'avversario non vede mai un campione sulla minimap: vede una W apparire sotto i suoi piedi, viene rootato, e muore prima che il compagno possa pingare. Questa sequenza è ciò che trasforma un \"Brand jungle decente\" in un Brand che porta la partita.</p>",
+    "content_html_pre": "<h2>Panoramica</h2>\n<p>Brand jungle è un <strong>AP skirmisher</strong> costruito per i fight obiettivo e i gank post-6 più che per clear veloci o solo invade. Il kit è identico al Brand mid — accendi i bersagli, stunna gli ablaze con <strong>Q</strong>, fai rimbalzare <strong>R</strong> tra nemici raggruppati — ma il ruolo è diverso. Da jungler scambi la priorità in lane (il vantaggio che i laner ottengono pushando per primi la wave) per il controllo del river: ogni fight di drake, ogni spawn di grub (un \"grub\" è uno dei piccoli mostri neutrali della pit del void che dà oro e un bonus al team che lo uccide), ogni skirmish allo Scuttle (Scuttle = il granchio neutrale del river che dà vision e un piccolo buff) è un'occasione perché la <strong>R</strong> rimbalzi tra tre o quattro nemici raggruppati e trasformi un fight pari in un teamwipe.</p>\n<p>Il piano partita è rigido per gli standard della jungla. Clear i primi tre camp full-clear (red → krug oppure blue → gromp a seconda del side), gank una lane al livello 3 solo se ha una finestra pulita di <strong>W → Q stun</strong>, recall per i componenti di <strong>Liandry's Torment</strong>, e dal minuto 8 in poi camp-pa il prossimo obiettivo. Brand non ha escape, niente dueling power early, e la clear singolo-target più lenta tra i jungler AP — gli invade ti finiscono la partita se non wardi gli ingressi della tua jungla. Il payoff è lo spike post-6: <strong>Pyroclasm</strong> in un fight raggruppato sul river è una delle ultimate dal danno più alto del gioco, e il kit pone alla squadra avversaria una domanda a cui spesso non hanno disengage per rispondere.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1039.png\" alt=\"Hailblade\"> <strong>Hailblade</strong> (default per i jungler ranged — dà la pet di smite che potenzia la clear dei camp e oro extra) + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2031.png\" alt=\"Refillable Potion\"> <strong>Refillable Potion</strong>.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> <strong>Liandry's Torment</strong> — primo item completo. Il burn percentuale degli HP punisce le pool degli obiettivi (drake, baron, herald) e si somma a ogni tick di blaze.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — penetrazione magica fissa, lo spike più economico tra gli item core.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3116.png\" alt=\"Rylai&#x27;s Crystal Scepter\"> <strong>Rylai's Crystal Scepter</strong> — lo slow su ogni hit di spell chiude la più grande debolezza di Brand (no chase, no escape). Ti permette di camminare addosso a chi prova a kitare e di ganckare senza Flash.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — slot di scaling late. Comprala quarta a meno che tu non sia 4+ kill avanti, nel qual caso rushala terza per snowballare (\"snowball\" = vantaggio iniziale che cresce: kill → gold → item → più kill).</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — contro diver early-game (Lee Sin, Xin Zhao, Hecarim). La stasi è l'unica risposta che Brand ha quando una catena di dash supera la front line (i tank e i bruiser davanti che normalmente assorbono i colpi al posto tuo).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4629.png\" alt=\"Cosmic Drive\"> <strong>Cosmic Drive</strong> — quando sei avanti e l'avversario non ha ancora iniziato a costruire Resistenza Magica. La passiva di move-speed dopo ogni cast ti permette di kitare in skirmish (\"kite\" = muoverti all'indietro mentre attacchi, mantenendo distanza).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — appena un target prioritario compra il primo item di Resistenza Magica. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> (gli stivali di Resistenza Magica) contano come primo item MR.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — contro CC magici telegrafati da engage (Ahri R, Lissandra R, Nautilus hook).</li>\n</ul>\n<p><strong>Stivali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> di default. Swap a <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> se la squadra avversaria ha 3+ minacce di hard CC con danno magico.</p>\n<p><strong>Skill order:</strong> Massimizza <strong>W</strong> per primo (il danno base più alto e principale strumento di clear), <strong>E</strong> per secondo (boost di clear-speed tra camp e propagazione nei gank), <strong>Q</strong> per ultimo. Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Sorcery</strong> con <strong>Arcane Comet</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Scorch</strong>. Secondario <strong>Resolve</strong> con <strong>Second Wind</strong> e <strong>Overgrowth</strong> per sustain in jungla.</p>",
+    "content_html_post": "<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Lee Sin:</strong> Perdi ogni 1v1 prima del livello 6. La sua catena Q + W salta oltre lo skillshot Q. Evita le skirmish in solo pre-6, full-clear invece, e warda entrambi gli ingressi della tua jungla al minuto 1:30.</li>\n<li><strong>Hecarim:</strong> Matchup pari. Ti supera nel kite ma si raggruppa per i bounce della R nei teamfight. Conserva la Q per il momento in cui committa in avanti — se stunni un Hecarim in carica, il timer del suo engage è bruciato.</li>\n<li><strong>Karthus:</strong> Tu out-gank-i, lui scala più di te. Forza fight pre-16 intorno al drake. Una volta che Defile è online (la passiva a rango massimo che pulsa intorno a lui — la forma AOE con cui può uccidere da grey-screen) non puoi camminare nella sua squadra senza Banshee's Veil.</li>\n<li><strong>Sejuani:</strong> Te la mangi. La R rimbalza tra ogni campione che lei tira dentro un ammasso; engage sull'engage. Pre-6 ti batte nei 1v1 — non invaderla, raggruppati con mid per i fight grub.</li>\n<li><strong>Master Yi:</strong> Counter netto in 1v1. Forza il fight 5v5 nei river stretti (drake pit, baron pit) dove la sua W-cleanse non lo salva dalle catene di bounce della R. Compra Zhonya's Hourglass come second item se compra Wit's End.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 3 (W + E + Q):</strong> Prima power di gank. Con un punto in ognuna delle abilità il combo <strong>E → W → Q stun</strong> è online. Se il laner avversario si overestende senza Flash, hai un setup di kill.</li>\n<li><strong>Livello 6 (R sbloccata):</strong> Primo spike obiettivo. <strong>Pyroclasm</strong> in una skirmish allo Scuttle (fight del granchio del river) fa circa il 50% degli HP di uno squishy per bounce. Combatti ogni Scuttle quando la R è disponibile.</li>\n<li><strong>Liandry's Torment online (~ minuto 9-12):</strong> La clear si ribalta e il DPS (DPS = damage per second, qui contro le pool di HP di drake/baron/grub) sugli obiettivi raddoppia. Da questo punto sei tu a iniziare i fight di drake, non a reagire.</li>\n<li><strong>Rabadon's Deathcap online (~ minuto 24-30):</strong> La sequenza completa di bounce della R one-shotta gli squishy. Forza i fight obiettivo raggruppati — Baron, Soul Drake, Atakhan (\"Atakhan\" = una neutrale di pit late-game che spawna intorno al minuto 14; se non lo conosci, tratta lo spawn come un 5v5 forzato).</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Provare a clearare come un fast-clear jungler.</strong> Brand non ha sustain innato né attack speed. Non gareggiare con Lee Sin sullo Scuttle pre-6 — full-clear, raggiungi il livello 6, poi inizia a ganckare e skirmishare.</li>\n<li><strong>Q nuda per poke in jungla.</strong> <strong>Q</strong> senza ablaze è un proiettile lento che manca sui jungler che dashano. Setta sempre con <strong>W</strong> sul punto di atterraggio o <strong>E</strong> su un minion che propagherà il blaze.</li>\n<li><strong>Ultare un nemico isolato.</strong> I bounce di <strong>R</strong> sono sprecati su un solo target — i salti vanno avanti e indietro sullo stesso campione con damage falloff. Conserva <strong>R</strong> per fight raggruppati, non per inseguire un solo bersaglio in fuga.</li>\n<li><strong>Saltare la vision nella tua jungla.</strong> Piazza Stealth Ward su tri-bush e pixel brush al minuto 1:30. Brand non ha escape; un invade che non vedi arrivare è una kill regalata a un jungler mobile.</li>\n<li><strong>Smite-greedare obiettivi senza R.</strong> HP del drake e dei grub scalano; il danno del tuo smite no. Se contesti un drake senza R off cooldown e il jungler avversario sì, perdi la guerra di smite e il drake.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena il <strong>gank invisibile con W</strong>. Avvicinati a una lane dal lato river coperto dal fog of war (\"fog of war\" = l'area non rivelata fuori dalla vision della tua squadra). Casta <strong>W</strong> sullo spot in cui il laner avversario <em>farà il prossimo passo</em> (predici il path basandoti sulla wave) — Pillar of Flame ha un delay prima di atterrare, e il cast in sé non rompe lo stealth o la vision. Nel momento in cui la W atterra e applica blaze, lancia <strong>Q</strong> nella finestra di stun. Fatto bene, l'avversario non vede mai un campione sulla minimap: vede una W apparire sotto i suoi piedi, viene rootato, e muore prima che il compagno possa pingare. Questa sequenza è ciò che trasforma un \"Brand jungle decente\" in un Brand che porta la partita.</p>",
+    "word_count": 1343,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "amumu-jungle",
+        "champion": "amumu",
+        "role": "jungle"
+      },
+      {
+        "slug": "diana-jungle",
+        "champion": "diana",
+        "role": "jungle"
+      },
+      {
+        "slug": "ekko-jungle",
+        "champion": "ekko",
+        "role": "jungle"
+      },
+      {
+        "slug": "graves-jungle",
+        "champion": "graves",
+        "role": "jungle"
+      },
+      {
+        "slug": "hecarim-jungle",
+        "champion": "hecarim",
+        "role": "jungle"
+      }
+    ],
+    "champion_key": "63"
+  },
+  {
+    "slug": "brand-mid",
+    "title": "Brand Mid Build & Guida — Patch 16.9",
+    "language": "it",
+    "patch": "16.9",
+    "champion": "brand",
+    "role": "mid",
+    "last_updated": "2026-05-01",
+    "description": "Guida Brand mid lane per League of Legends Patch 16.9: starter kit, build burn-mage, matchup chiave, power spike, errori comuni e un consiglio tecnico finale.",
+    "quick_learn": {
+      "champion_dd_id": "Brand",
+      "difficulty": 2,
+      "damage_type": "magic",
+      "champion_class": "Mago / Burst-AOE",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Blaze",
+          "description": "Le spell di Brand danno fuoco al bersaglio (danno nel tempo per 4s, fino a 3 stack). A 3 stack su un campione il blaze diventa instabile e detona come una piccola esplosione AOE che riapplica gli effetti delle spell.",
+          "dd_spell_id": "Brand_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Sear",
+          "description": "Skillshot lineare con danno magico. Se il bersaglio è già ablaze, lo stunna invece — è il principale strumento di setup.",
+          "dd_spell_id": "BrandQ"
+        },
+        {
+          "key": "W",
+          "name": "Pillar of Flame",
+          "description": "Area AOE ritardata dopo un breve tell. I bersagli ablaze subiscono +25% danno. Spell con il danno singolo più alto del kit.",
+          "dd_spell_id": "BrandW"
+        },
+        {
+          "key": "E",
+          "name": "Conflagration",
+          "description": "Esplosione targettata che rimbalza sui nemici vicini. Se il primo bersaglio è ablaze, il raggio di propagazione raddoppia — il modo più semplice di applicare blaze su una wave.",
+          "dd_spell_id": "BrandE"
+        },
+        {
+          "key": "R",
+          "name": "Pyroclasm",
+          "description": "Palla di fuoco a lunga gittata che rimbalza fino a 5 volte tra campioni e minion, dando priorità ai bersagli ablaze e rallentandoli a ogni colpo. Danno enorme nei teamfight quando i nemici sono raggruppati.",
+          "dd_spell_id": "BrandR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "W"
+        },
+        {
+          "level": 2,
+          "key": "Q"
+        },
+        {
+          "level": 3,
+          "key": "E"
+        },
+        {
+          "level": 4,
+          "key": "W"
+        },
+        {
+          "level": 5,
+          "key": "W"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "W"
+        },
+        {
+          "level": 8,
+          "key": "W"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "Q"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "Q"
+        },
+        {
+          "level": 13,
+          "key": "Q"
+        },
+        {
+          "level": 14,
+          "key": "E"
+        },
+        {
+          "level": 15,
+          "key": "E"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "E"
+        },
+        {
+          "level": 18,
+          "key": "E"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6653",
+          "name": "Liandry's Torment"
+        },
+        {
+          "dd_id": "3020",
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "dd_id": "4645",
+          "name": "Shadowflame"
+        },
+        {
+          "dd_id": "3089",
+          "name": "Rabadon's Deathcap"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass",
+          "against": "contro diver e assassini (Zed, Akali, Diana, Fizz) — la stasi copre il tuo tallone d'Achille (zero dash) durante il loro gap-close"
+        },
+        {
+          "dd_id": "3102",
+          "name": "Banshee's Veil",
+          "against": "contro CC magici single-target (Ahri charm, Lissandra R, Twisted Fate gold card)"
+        },
+        {
+          "dd_id": "3165",
+          "name": "Morellonomicon",
+          "against": "contro composizioni che impilano cure (Soraka, Vladimir, Dr. Mundo, Aatrox top)"
+        },
+        {
+          "dd_id": "3135",
+          "name": "Void Staff",
+          "against": "swap appena un target prioritario compra il primo item di Resistenza Magica"
+        }
+      ],
+      "base_combo": [
+        "W",
+        "Q",
+        "E",
+        "R"
+      ],
+      "win_condition": "Colpisci fight raggruppati con stack di blaze già attivi su più target così R rimbalza tra campioni invece che tra minion. Resta dietro alla front line e spara dalla massima gittata di W.",
+      "weakness": "Zero dash, nessuna escape. Se un diver supera la tua front line hai solo Flash più Zhonya's tra te e un one-shot — ed è per questo che gli item difensivi situazionali non sono opzionali.",
+      "runes": {
+        "primary_tree": "Sorcery",
+        "primary_tree_dd_id": 8200,
+        "keystone": {
+          "dd_id": 8229,
+          "name": "Arcane Comet",
+          "icon_path": "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 8226,
+            "name": "Manaflow Band",
+            "icon_path": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "dd_id": 8210,
+            "name": "Transcendence",
+            "icon_path": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png"
+          },
+          {
+            "dd_id": 8237,
+            "name": "Scorch",
+            "icon_path": "perk-images/Styles/Sorcery/Scorch/Scorch.png"
+          }
+        ],
+        "secondary_tree": "Inspiration",
+        "secondary_tree_dd_id": 8300,
+        "secondary_slots": [
+          {
+            "dd_id": 8345,
+            "name": "Biscuit Delivery",
+            "icon_path": "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png"
+          },
+          {
+            "dd_id": 8347,
+            "name": "Cosmic Insight",
+            "icon_path": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png"
+          }
+        ],
+        "stat_shards": [
+          "Adaptive Force",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Sorcery primaria: Arcane Comet si auto-procca su ogni hit di W o E, aggiungendo burst gratis a ogni scambio. Manaflow Band sostiene il mana per spammare W, Transcendence porta l'ability haste oltre il 40%, Scorch si somma ai tick di blaze sotto soglia HP.",
+        "secondary_rationale": "Inspiration secondaria: Biscuit Delivery risolve il problema mana di Brand nei primi 6 livelli e Cosmic Insight dà più uptime di Flash — Flash è l'unico modo che hai per schivare un dash, perché il kit non ha alcun dash.",
+        "secondary_alternative": "Se la squadra avversaria ha 2+ squishy a basse resistenze (es. Caitlyn + Senna + Ezreal), swap Inspiration verso Resolve con Second Wind (sustain attraverso il poke) e Revitalize (potenzia il poco lifesteal-via-blaze del kit), tenendoti vivo abbastanza a lungo per piazzare R."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "veigar",
+            "karthus",
+            "anivia",
+            "ryze"
+          ],
+          "archetype": "Mage stazionari senza dash",
+          "reason": "Il loro pattern di farm li costringe a stare fermi per castare o stackare: piazza W sulla wave, Q nel frame di recovery per lo stun, e l'intera rotation di blaze atterra prima che possano muoversi."
+        },
+        {
+          "examples": [
+            "malphite",
+            "amumu",
+            "sejuani"
+          ],
+          "archetype": "Tank da group-engage",
+          "reason": "Quando la loro R prende la tua squadra, la stessa R prende anche la loro squadra accanto alla tua — la R di Brand rimbalza tra ogni campione raggruppato e trasforma il loro engage nella tua condizione di vittoria."
+        },
+        {
+          "examples": [
+            "yuumi",
+            "soraka",
+            "senna"
+          ],
+          "archetype": "Carry da retroguardia squishy con escape debole",
+          "reason": "Pyroclasm dà priorità ai bersagli ablaze; una E sulla front line spande blaze, e la R salta tra ogni nemico raggruppato fino a uccidere lo squishy in retroguardia."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "zed",
+            "akali",
+            "fizz"
+          ],
+          "archetype": "Assassini mobili con multi gap-close",
+          "reason": "Saltano oltre la tua Q prima che tu riesca a piazzarla per lo stun. Senza stun il kit non ha peel per te stesso, quindi ti cancellano prima che la R completi il primo bounce."
+        },
+        {
+          "examples": [
+            "xerath",
+            "vel-koz",
+            "ziggs"
+          ],
+          "archetype": "Artillery mage a gittata superiore",
+          "reason": "La loro soglia di poke è oltre il range della tua Q. Brand non ha mobilità per chiudere la distanza, quindi ogni wave ti tengono basso fino a renderti un bersaglio gratuito per il jungler avversario."
+        },
+        {
+          "examples": [
+            "yasuo",
+            "yone"
+          ],
+          "archetype": "Campioni con Wind Wall e mobilità sostenuta",
+          "reason": "Wind Wall blocca la Q e il proiettile della R; poi dashano oltre la zona della W. Bruciare uno slot per Zhonya's compra solo sopravvivenza, non priorità di lane."
+        }
+      ]
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Brand è un <strong>AP burst mage</strong> costruito intorno a una sola meccanica — la passiva <strong>Blaze</strong>. Ogni spell che lancia dà fuoco al bersaglio per quattro secondi, fino a 3 stack. A 3 stack il blaze diventa instabile ed esplode come una piccola detonazione AOE, riapplicando gli effetti delle sue spell a chiunque sia preso nel raggio. Tradotto in gameplay: ogni abilità è un setup per la prossima, e una volta che un nemico è in fiamme la tua <strong>Q (Sear)</strong> smette di essere una spell di danno e diventa uno stun. Il kit pone due domande in continuazione — <em>il bersaglio è già ablaze?</em> e <em>i nemici sono abbastanza raggruppati perché la R rimbalzi?</em> — e tutto il piano partita parte da quelle due risposte.</p>\n<p>Il piano di gioco in mid è lineare: shovi la wave con <strong>W (Pillar of Flame)</strong>, cerchi finestre <strong>W → Q stun</strong> ogni volta che il laner avversario si avvicina a un minion attraverso cui puoi colpirlo, poi rotazioni con prio (la \"prio\" o \"lane priority\" è il vantaggio in lane che ti permette di lasciarla senza perdere CS o HP, di solito quando hai pushato la wave per primo) una volta che la wave si schianta sotto la torre nemica. Dal livello 6 in poi, <strong>R (Pyroclasm)</strong> è una delle ultimate dal danno più alto del gioco <em>se</em> i nemici sono raggruppati — hai un setup a media gittata per fight, niente dash per riprovare, nessuna escape se sbagli. Il posizionamento dietro la wave è obbligatorio: Brand non ha mobilità innata, niente shield, niente heal, e l'unica opzione difensiva è comprare Zhonya's Hourglass e pre-mirare Flash.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1056.png\" alt=\"Doran&#x27;s Ring\"> <strong>Doran's Ring</strong> + 2 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potions</strong>. Doran's Ring risolve la fame di mana per spammare W e dà lo scaling AP che a Brand interessa più del danno flat early.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> <strong>Liandry's Torment</strong> — l'item identitario di Brand. La passiva applica un burn percentuale degli HP sopra ai suoi stack di blaze, moltiplicando il danno contro tank e squadre con HP impilati. Mana, ability haste e AP combaciano con quello che vuole il kit.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — penetrazione magica fissa per cancellare i target squishy con i bounce della R.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — burst extra, più una passiva che ignora ulteriore Resistenza Magica sotto la soglia HP. Si allinea coi bounce della R che cacciano il bersaglio più basso di vita.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — moltiplicatore di scaling late-game (40% AP bonus). Comprala terza o quarta a seconda che il team avversario abbia già iniziato a impilare Resistenza Magica.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — contro diver e assassini (Zed, Akali, Diana, Fizz). La stasi è l'unica risposta che Brand ha quando una catena di dash supera la front line (i tank e i bruiser davanti che assorbono i colpi mentre tu spari da dietro).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — contro CC magici telegrafati (Ahri charm, Lissandra R, Twisted Fate gold card). Lo scudo blocca la spell di engage che altrimenti ti chiuderebbe per tutto il fight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — contro composizioni che impilano cure (Soraka mid, Vladimir, Dr. Mundo, Aatrox top). La passiva Grievous Wounds dimezza il loro healing, così il tuo burn si traduce davvero in target morti.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — appena un target prioritario compra il primo item di Resistenza Magica. Impedisce all'avversario di soft-counterare tutta la tua build con un componente da 800 gold.</li>\n</ul>\n<p><strong>Stivali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> di default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> sono accettabili se il team chiede più uptime di R sugli obiettivi.</p>\n<p><strong>Skill order:</strong> Massimizza <strong>W</strong> per primo (il danno base più alto e principale waveclear), <strong>Q</strong> per secondo (più danno e cooldown ridotto sullo stun), <strong>E</strong> per ultimo. Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Sorcery</strong> con <strong>Arcane Comet</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Scorch</strong>. Secondario <strong>Inspiration</strong> con <strong>Biscuit Delivery</strong> e <strong>Cosmic Insight</strong>.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Yasuo / Yone:</strong> Bloccano il proiettile della <strong>Q</strong> e l'inizio della <strong>R</strong> con Wind Wall. Tieni la <strong>Q</strong> finché non hanno bruciato il muro, conserva <strong>W</strong> per il frame di recovery, e non usare mai <strong>R</strong> come strumento di flank (un \"flank\" è entrare nel fight da un'angolazione laterale, dietro la backline avversaria) contro di loro — falla partire dopo che un alleato ha già engagiato, così i bounce sono già in movimento oltre il muro.</li>\n<li><strong>Zed / Akali:</strong> Minacce di dive con multipli gap-closer (un \"gap-closer\" è qualunque dash, blink o salto che chiude rapidamente la distanza). Compra Zhonya's Hourglass dopo Liandry's; non usare mai <strong>Flash</strong> in modo offensivo in lane contro di loro, e pre-piazza <strong>W</strong> sui tuoi piedi per stunnarli quando ti saltano addosso.</li>\n<li><strong>Veigar:</strong> Mage stazionario su cui hai pressione pre-6. Pushalo sotto torre con <strong>W</strong>, cerca la rotation <strong>E → Q stun</strong> quando si avvicina per last-hit, e recalla prima che raggiunga il livello 6 (la sua gabbia ribalta la lane).</li>\n<li><strong>Anivia:</strong> Pari pre-6, scala più di te post-6. Evita di stare appiccicato alla wave — il suo muro ti separa dai minion e ti costringe a un trade lungo da retroguardia. Roama in side lane appena la <strong>R</strong> è disponibile; lei non ha mobilità per seguirti.</li>\n<li><strong>Twisted Fate:</strong> Gara di rotazione. Se ti tira la carta gialla, <strong>Q</strong>lo prima che chiuda la distanza (stunnare un campione che sta castando interrompe la carta). Altrimenti tracciagli la <strong>R</strong> con ward su river e tri-bush; se ulta in side lane, ping bot/top e shova la wave invece di inseguirlo.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2 (W + Q):</strong> Primo spike. Con un punto in <strong>W</strong> più la <strong>Q</strong> di partenza hai il combo completo <strong>W → Q stun</strong>. Pillar of Flame applica uno stack di blaze; Q su un bersaglio ablaze stunna. Questa finestra è quando spingi per first blood.</li>\n<li><strong>Livello 6 (R sbloccata):</strong> Prima <strong>Pyroclasm</strong> disponibile. Cerca un teamfight allo Scuttle (granchio del river) o al primo drake — se due nemici sono nel raggio dei bounce, la tua R fa circa il 50% degli HP di uno squishy per bounce.</li>\n<li><strong>Liandry's Torment completo (~ minuto 12-14):</strong> Il controllo della wave si ribalta perché il burn percentuale punisce gli ammassi di wave. Da questo punto sei tu quello che pusha e roama, non quello che tiene sotto torre.</li>\n<li><strong>Rabadon's Deathcap online (~ minuto 24-28):</strong> La sequenza completa di bounce della R one-shotta gli squishy che non hanno comprato Resistenza Magica. Forza i fight obiettivo qui — Baron, Soul Drake, contest late-game.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Lanciare Q per poke nudo.</strong> <strong>Q</strong> senza ablaze è solo un proiettile lento. Setta sempre prima con <strong>W</strong> sul terreno o <strong>E</strong> su un minion che spanderà sul campione — la differenza è uno stun di 1 secondo invece di un miss triste.</li>\n<li><strong>Ultare un bersaglio isolato.</strong> <strong>R</strong> rimbalza tra target dando priorità a quelli ablaze. Se un solo nemico è in range, i bounce vanno avanti e indietro sullo stesso target con grande damage falloff per salto. Conserva <strong>R</strong> per fight raggruppati o per giustiziare due nemici ablaze affiancati.</li>\n<li><strong>Pushare senza vision.</strong> Brand non ha escape (no dash, no blink, no shield). Pushare oltre il river senza una ward nella loro jungla è il modo più rapido di farsi ganckare. Piazza una Stealth Ward o una Control Ward in tri-bush prima di ogni shove.</li>\n<li><strong>Auto-attaccare per \"danno extra\" della passiva.</strong> Le tue auto-attack non interagiscono con Blaze. Usa la finestra dell'auto per camminare sul prossimo spot di <strong>W</strong>, non per inseguire un colpo extra su un minion a basso HP.</li>\n<li><strong>Sbagliare il timing della detonazione instabile.</strong> Quando arrivi a 3 stack di blaze su un campione, hai due secondi prima della detonazione. Stunnarlo con <strong>Q</strong> <em>prima</em> della detonazione lo blocca dentro lo splash e riapplica blaze su tutti i nemici vicini. Sbagliare il timing è la differenza tra una kill singola e un wipe AOE.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena il <strong>double-blaze AOE wipe</strong>. Quando due nemici stanno fianco a fianco (tipico nei teamfight ammassati o su una wave impilata), fai in ordine: <strong>W</strong> sul terreno tra loro → entrambi prendono blaze stack 1. <strong>E</strong> sul nemico A → blaze stack 2 su A, si propaga a B per stack 2 su B. <strong>Q</strong> su A → blaze stack 3 su A, A è stunnato e la detonazione instabile colpisce anche B portandolo a stack 3. Ora <strong>R</strong> rimbalza tra due bersagli stunnati e a stack massimi e trasforma l'intera rotation in un trade 2-per-0. Questa sequenza è ciò che separa un \"Brand decente\" da un Brand che porta la partita.</p>",
+    "content_html_pre": "<h2>Panoramica</h2>\n<p>Brand è un <strong>AP burst mage</strong> costruito intorno a una sola meccanica — la passiva <strong>Blaze</strong>. Ogni spell che lancia dà fuoco al bersaglio per quattro secondi, fino a 3 stack. A 3 stack il blaze diventa instabile ed esplode come una piccola detonazione AOE, riapplicando gli effetti delle sue spell a chiunque sia preso nel raggio. Tradotto in gameplay: ogni abilità è un setup per la prossima, e una volta che un nemico è in fiamme la tua <strong>Q (Sear)</strong> smette di essere una spell di danno e diventa uno stun. Il kit pone due domande in continuazione — <em>il bersaglio è già ablaze?</em> e <em>i nemici sono abbastanza raggruppati perché la R rimbalzi?</em> — e tutto il piano partita parte da quelle due risposte.</p>\n<p>Il piano di gioco in mid è lineare: shovi la wave con <strong>W (Pillar of Flame)</strong>, cerchi finestre <strong>W → Q stun</strong> ogni volta che il laner avversario si avvicina a un minion attraverso cui puoi colpirlo, poi rotazioni con prio (la \"prio\" o \"lane priority\" è il vantaggio in lane che ti permette di lasciarla senza perdere CS o HP, di solito quando hai pushato la wave per primo) una volta che la wave si schianta sotto la torre nemica. Dal livello 6 in poi, <strong>R (Pyroclasm)</strong> è una delle ultimate dal danno più alto del gioco <em>se</em> i nemici sono raggruppati — hai un setup a media gittata per fight, niente dash per riprovare, nessuna escape se sbagli. Il posizionamento dietro la wave è obbligatorio: Brand non ha mobilità innata, niente shield, niente heal, e l'unica opzione difensiva è comprare Zhonya's Hourglass e pre-mirare Flash.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1056.png\" alt=\"Doran&#x27;s Ring\"> <strong>Doran's Ring</strong> + 2 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potions</strong>. Doran's Ring risolve la fame di mana per spammare W e dà lo scaling AP che a Brand interessa più del danno flat early.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> <strong>Liandry's Torment</strong> — l'item identitario di Brand. La passiva applica un burn percentuale degli HP sopra ai suoi stack di blaze, moltiplicando il danno contro tank e squadre con HP impilati. Mana, ability haste e AP combaciano con quello che vuole il kit.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — penetrazione magica fissa per cancellare i target squishy con i bounce della R.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — burst extra, più una passiva che ignora ulteriore Resistenza Magica sotto la soglia HP. Si allinea coi bounce della R che cacciano il bersaglio più basso di vita.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — moltiplicatore di scaling late-game (40% AP bonus). Comprala terza o quarta a seconda che il team avversario abbia già iniziato a impilare Resistenza Magica.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — contro diver e assassini (Zed, Akali, Diana, Fizz). La stasi è l'unica risposta che Brand ha quando una catena di dash supera la front line (i tank e i bruiser davanti che assorbono i colpi mentre tu spari da dietro).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — contro CC magici telegrafati (Ahri charm, Lissandra R, Twisted Fate gold card). Lo scudo blocca la spell di engage che altrimenti ti chiuderebbe per tutto il fight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — contro composizioni che impilano cure (Soraka mid, Vladimir, Dr. Mundo, Aatrox top). La passiva Grievous Wounds dimezza il loro healing, così il tuo burn si traduce davvero in target morti.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — appena un target prioritario compra il primo item di Resistenza Magica. Impedisce all'avversario di soft-counterare tutta la tua build con un componente da 800 gold.</li>\n</ul>\n<p><strong>Stivali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> di default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> sono accettabili se il team chiede più uptime di R sugli obiettivi.</p>\n<p><strong>Skill order:</strong> Massimizza <strong>W</strong> per primo (il danno base più alto e principale waveclear), <strong>Q</strong> per secondo (più danno e cooldown ridotto sullo stun), <strong>E</strong> per ultimo. Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Sorcery</strong> con <strong>Arcane Comet</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Scorch</strong>. Secondario <strong>Inspiration</strong> con <strong>Biscuit Delivery</strong> e <strong>Cosmic Insight</strong>.</p>",
+    "content_html_post": "<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Yasuo / Yone:</strong> Bloccano il proiettile della <strong>Q</strong> e l'inizio della <strong>R</strong> con Wind Wall. Tieni la <strong>Q</strong> finché non hanno bruciato il muro, conserva <strong>W</strong> per il frame di recovery, e non usare mai <strong>R</strong> come strumento di flank (un \"flank\" è entrare nel fight da un'angolazione laterale, dietro la backline avversaria) contro di loro — falla partire dopo che un alleato ha già engagiato, così i bounce sono già in movimento oltre il muro.</li>\n<li><strong>Zed / Akali:</strong> Minacce di dive con multipli gap-closer (un \"gap-closer\" è qualunque dash, blink o salto che chiude rapidamente la distanza). Compra Zhonya's Hourglass dopo Liandry's; non usare mai <strong>Flash</strong> in modo offensivo in lane contro di loro, e pre-piazza <strong>W</strong> sui tuoi piedi per stunnarli quando ti saltano addosso.</li>\n<li><strong>Veigar:</strong> Mage stazionario su cui hai pressione pre-6. Pushalo sotto torre con <strong>W</strong>, cerca la rotation <strong>E → Q stun</strong> quando si avvicina per last-hit, e recalla prima che raggiunga il livello 6 (la sua gabbia ribalta la lane).</li>\n<li><strong>Anivia:</strong> Pari pre-6, scala più di te post-6. Evita di stare appiccicato alla wave — il suo muro ti separa dai minion e ti costringe a un trade lungo da retroguardia. Roama in side lane appena la <strong>R</strong> è disponibile; lei non ha mobilità per seguirti.</li>\n<li><strong>Twisted Fate:</strong> Gara di rotazione. Se ti tira la carta gialla, <strong>Q</strong>lo prima che chiuda la distanza (stunnare un campione che sta castando interrompe la carta). Altrimenti tracciagli la <strong>R</strong> con ward su river e tri-bush; se ulta in side lane, ping bot/top e shova la wave invece di inseguirlo.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2 (W + Q):</strong> Primo spike. Con un punto in <strong>W</strong> più la <strong>Q</strong> di partenza hai il combo completo <strong>W → Q stun</strong>. Pillar of Flame applica uno stack di blaze; Q su un bersaglio ablaze stunna. Questa finestra è quando spingi per first blood.</li>\n<li><strong>Livello 6 (R sbloccata):</strong> Prima <strong>Pyroclasm</strong> disponibile. Cerca un teamfight allo Scuttle (granchio del river) o al primo drake — se due nemici sono nel raggio dei bounce, la tua R fa circa il 50% degli HP di uno squishy per bounce.</li>\n<li><strong>Liandry's Torment completo (~ minuto 12-14):</strong> Il controllo della wave si ribalta perché il burn percentuale punisce gli ammassi di wave. Da questo punto sei tu quello che pusha e roama, non quello che tiene sotto torre.</li>\n<li><strong>Rabadon's Deathcap online (~ minuto 24-28):</strong> La sequenza completa di bounce della R one-shotta gli squishy che non hanno comprato Resistenza Magica. Forza i fight obiettivo qui — Baron, Soul Drake, contest late-game.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Lanciare Q per poke nudo.</strong> <strong>Q</strong> senza ablaze è solo un proiettile lento. Setta sempre prima con <strong>W</strong> sul terreno o <strong>E</strong> su un minion che spanderà sul campione — la differenza è uno stun di 1 secondo invece di un miss triste.</li>\n<li><strong>Ultare un bersaglio isolato.</strong> <strong>R</strong> rimbalza tra target dando priorità a quelli ablaze. Se un solo nemico è in range, i bounce vanno avanti e indietro sullo stesso target con grande damage falloff per salto. Conserva <strong>R</strong> per fight raggruppati o per giustiziare due nemici ablaze affiancati.</li>\n<li><strong>Pushare senza vision.</strong> Brand non ha escape (no dash, no blink, no shield). Pushare oltre il river senza una ward nella loro jungla è il modo più rapido di farsi ganckare. Piazza una Stealth Ward o una Control Ward in tri-bush prima di ogni shove.</li>\n<li><strong>Auto-attaccare per \"danno extra\" della passiva.</strong> Le tue auto-attack non interagiscono con Blaze. Usa la finestra dell'auto per camminare sul prossimo spot di <strong>W</strong>, non per inseguire un colpo extra su un minion a basso HP.</li>\n<li><strong>Sbagliare il timing della detonazione instabile.</strong> Quando arrivi a 3 stack di blaze su un campione, hai due secondi prima della detonazione. Stunnarlo con <strong>Q</strong> <em>prima</em> della detonazione lo blocca dentro lo splash e riapplica blaze su tutti i nemici vicini. Sbagliare il timing è la differenza tra una kill singola e un wipe AOE.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena il <strong>double-blaze AOE wipe</strong>. Quando due nemici stanno fianco a fianco (tipico nei teamfight ammassati o su una wave impilata), fai in ordine: <strong>W</strong> sul terreno tra loro → entrambi prendono blaze stack 1. <strong>E</strong> sul nemico A → blaze stack 2 su A, si propaga a B per stack 2 su B. <strong>Q</strong> su A → blaze stack 3 su A, A è stunnato e la detonazione instabile colpisce anche B portandolo a stack 3. Ora <strong>R</strong> rimbalza tra due bersagli stunnati e a stack massimi e trasforma l'intera rotation in un trade 2-per-0. Questa sequenza è ciò che separa un \"Brand decente\" da un Brand che porta la partita.</p>",
+    "word_count": 1421,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "ahri-mid",
+        "champion": "ahri",
+        "role": "mid"
+      },
+      {
+        "slug": "akali-mid",
+        "champion": "akali",
+        "role": "mid"
+      },
+      {
+        "slug": "akshan-mid",
+        "champion": "akshan",
+        "role": "mid"
+      },
+      {
+        "slug": "annie-mid",
+        "champion": "annie",
+        "role": "mid"
+      },
+      {
+        "slug": "lux-mid",
+        "champion": "lux",
+        "role": "mid"
+      }
+    ],
+    "champion_key": "63"
+  },
+  {
+    "slug": "brand-support",
+    "title": "Brand Support Build & Guida — Patch 16.9",
+    "language": "it",
+    "patch": "16.9",
+    "champion": "brand",
+    "role": "support",
+    "last_updated": "2026-05-01",
+    "description": "Guida Brand support per League of Legends Patch 16.9: pressione aggressiva in lane, build da poke, matchup chiave, power spike, errori comuni e un consiglio finale.",
+    "quick_learn": {
+      "champion_dd_id": "Brand",
+      "difficulty": 2,
+      "damage_type": "magic",
+      "champion_class": "Mago / Poke Support",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Blaze",
+          "description": "Le spell di Brand danno fuoco al bersaglio (danno nel tempo per 4s, fino a 3 stack). A 3 stack il blaze detona come una piccola esplosione AOE che riapplica gli effetti delle spell.",
+          "dd_spell_id": "Brand_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Sear",
+          "description": "Skillshot lineare con danno magico. Se il bersaglio è già ablaze, lo stunna — il setup di kill per la tua AD carry.",
+          "dd_spell_id": "BrandQ"
+        },
+        {
+          "key": "W",
+          "name": "Pillar of Flame",
+          "description": "Area AOE ritardata dopo un breve tell. I bersagli ablaze subiscono +25% danno. Lo strumento di poke con il danno più alto del kit.",
+          "dd_spell_id": "BrandW"
+        },
+        {
+          "key": "E",
+          "name": "Conflagration",
+          "description": "Esplosione targettata che rimbalza sui nemici vicini. Se il primo bersaglio è ablaze, il raggio di propagazione raddoppia — applica blaze su due nemici in un solo cast.",
+          "dd_spell_id": "BrandE"
+        },
+        {
+          "key": "R",
+          "name": "Pyroclasm",
+          "description": "Palla di fuoco a lunga gittata che rimbalza fino a 5 volte tra nemici, dando priorità ai target ablaze. Vince i teamfight quando l'ADC e il support avversari stanno appiccicati.",
+          "dd_spell_id": "BrandR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "W"
+        },
+        {
+          "level": 2,
+          "key": "Q"
+        },
+        {
+          "level": 3,
+          "key": "E"
+        },
+        {
+          "level": 4,
+          "key": "W"
+        },
+        {
+          "level": 5,
+          "key": "W"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "W"
+        },
+        {
+          "level": 8,
+          "key": "W"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "Q"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "Q"
+        },
+        {
+          "level": 13,
+          "key": "Q"
+        },
+        {
+          "level": 14,
+          "key": "E"
+        },
+        {
+          "level": 15,
+          "key": "E"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "E"
+        },
+        {
+          "level": 18,
+          "key": "E"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "3877",
+          "name": "Bloodsong"
+        },
+        {
+          "dd_id": "6653",
+          "name": "Liandry's Torment"
+        },
+        {
+          "dd_id": "3158",
+          "name": "Ionian Boots of Lucidity"
+        },
+        {
+          "dd_id": "4645",
+          "name": "Shadowflame"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3222",
+          "name": "Mikael's Blessing",
+          "against": "contro hard CC sulla tua ADC (catena stun di Leona, Q di Morgana, hook di Pyke)"
+        },
+        {
+          "dd_id": "3190",
+          "name": "Locket of the Iron Solari",
+          "against": "contro composizioni con AOE engage pesante (Malphite, Yasuo, Wukong, Kennen)"
+        },
+        {
+          "dd_id": "3165",
+          "name": "Morellonomicon",
+          "against": "contro composizioni che impilano cure (Soraka, Yuumi peel, team con Aatrox o Vladimir)"
+        },
+        {
+          "dd_id": "3135",
+          "name": "Void Staff",
+          "against": "swap appena un target prioritario completa il primo item di Resistenza Magica"
+        }
+      ],
+      "base_combo": [
+        "W",
+        "Q",
+        "E",
+        "R"
+      ],
+      "win_condition": "Pressione 2v2 con il poke di W prima del livello 3, poi cerca setup E + Q stun per la tua ADC. Post-6 i bounce della R tra ADC e support avversari appiccicati trasformano la lane in uno snowball.",
+      "weakness": "Niente shield, niente heal, niente peel per l'ADC. Se il support avversario engagia per primo, Brand non può proteggere la sua carry — può solo uccidere chi engagia più in fretta di quanto loro uccidano la carry.",
+      "runes": {
+        "primary_tree": "Sorcery",
+        "primary_tree_dd_id": 8200,
+        "keystone": {
+          "dd_id": 8229,
+          "name": "Arcane Comet",
+          "icon_path": "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 8226,
+            "name": "Manaflow Band",
+            "icon_path": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "dd_id": 8210,
+            "name": "Transcendence",
+            "icon_path": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png"
+          },
+          {
+            "dd_id": 8237,
+            "name": "Scorch",
+            "icon_path": "perk-images/Styles/Sorcery/Scorch/Scorch.png"
+          }
+        ],
+        "secondary_tree": "Inspiration",
+        "secondary_tree_dd_id": 8300,
+        "secondary_slots": [
+          {
+            "dd_id": 8345,
+            "name": "Biscuit Delivery",
+            "icon_path": "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png"
+          },
+          {
+            "dd_id": 8347,
+            "name": "Cosmic Insight",
+            "icon_path": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png"
+          }
+        ],
+        "stat_shards": [
+          "Adaptive Force",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Sorcery primaria: Arcane Comet si auto-procca su ogni hit di W o E, aggiungendo poke gratis a ogni cooldown. Manaflow Band sostiene il mana per spammare W in 2v2, Transcendence porta l'ability haste oltre il 40%, Scorch chiude i nemici a basso HP sotto torre.",
+        "secondary_rationale": "Inspiration secondaria: Biscuit Delivery risolve la fame mana di Brand nei primi 6 livelli e Cosmic Insight dà più uptime di Flash — Flash è l'unico modo di schivare un engage, il kit non ha alcuna escape innata.",
+        "secondary_alternative": "Contro hooker pesanti (Blitzcrank, Thresh, Pyke) dove devi sopravvivere al primo hook per vincere la lane, swap Inspiration verso Resolve con Bone Plating (riduce il danno back-to-back dell'hook) e Revitalize (potenzia lo shield di Mikael's)."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "yuumi",
+            "soraka",
+            "janna"
+          ],
+          "archetype": "Enchanter squishy con HP bassi",
+          "reason": "La W di Brand supera il loro raggio di healing in poke e la rotation E + Q li uccide prima che la carry possa peelarli. Yuumi specificamente perde il corpo a una sola rotation completa; Soraka non riesce a curare attraverso i tick di blaze."
+        },
+        {
+          "examples": [
+            "zilean",
+            "karma",
+            "lulu"
+          ],
+          "archetype": "Support utility senza engage",
+          "reason": "Brand vince la fase di lane per forza — non possono punire lo spam di W perché il loro kit serve a scudare la carry, non a tradare. Dopo il livello 6 il loro CC è single-target mentre la tua R li prende entrambi insieme."
+        },
+        {
+          "examples": [
+            "caitlyn",
+            "ezreal",
+            "varus"
+          ],
+          "archetype": "ADC a lunga gittata senza escape",
+          "reason": "Questi ADC stanno a max range per last-hit; una E sul loro support spande blaze a loro, la Q lock-a lo stun, e l'AD carry alle tue spalle prende la kill prima che possano flashare."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "leona",
+            "nautilus",
+            "rell"
+          ],
+          "archetype": "Support tank da hard-engage",
+          "reason": "Engaggiano fuori dal range della W di Brand con una catena flash-stun. Brand non ha peel per sé né per la carry — appena Leona stunna, il kit non ha risposte se non morire o bruciare Flash + Zhonya's insieme."
+        },
+        {
+          "examples": [
+            "rakan",
+            "alistar"
+          ],
+          "archetype": "Support engage mobili",
+          "reason": "Rakan dasha attraverso i tuoi skillshot e tira la tua ADC fuori posto; la catena headbutt-pulverize di Alistar salta oltre lo stun della Q. Brand non riesce a reagire abbastanza in fretta a nessuno dei due."
+        },
+        {
+          "examples": [
+            "pantheon",
+            "blitzcrank"
+          ],
+          "archetype": "Support all-in che matchano il burst di Brand",
+          "reason": "La Q di Pantheon e l'hook di Blitzcrank hanno range effettivi simili alla Q di Brand. Chi atterra il setup per primo vince il trade, e entrambi hanno survival built-in (block dell'Aegis, hook-and-leave) che a Brand mancano."
+        }
+      ]
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Brand support è il caster support più aggressivo del gioco. Non porta in dote nessuna delle cose che un support tradizionale porta — niente shield, niente heal, niente peel per la carry (\"peel\" = abilità che proteggono un alleato spingendo o stunnando chi lo sta attaccando), niente engage che termini in una cooldown di sopravvivenza tank. Quello che porta è una <strong>threat di kill flat dal minuto 1</strong>. Ogni spell dà fuoco al nemico (passiva <strong>Blaze</strong>), e una volta che un nemico è in fiamme la tua <strong>Q (Sear)</strong> smette di essere una spell di danno e diventa uno stun. Il piano partita è: pokali con <strong>W (Pillar of Flame)</strong> finché due stack di blaze non si attaccano, <strong>E</strong> per propagare il blaze a entrambi i target, e <strong>Q</strong> per lo stun che permette alla tua ADC di camminare e finire la kill.</p>\n<p>Il prezzo è la fragilità. Brand non ha escape, niente sustain innato, e nessuno strumento per proteggere la sua AD carry. Se il support avversario engagia per primo — Leona stun, Nautilus hook, Rakan dash — la tua unica vera risposta è <em>uccidere chi engagia più in fretta di quanto loro uccidano la tua carry</em>, cosa che funziona solo quando sei avanti. Il pick è binario: o stomp-i la lane e snowball-i (uno snowball è un vantaggio iniziale che cresce: kill → gold → item → più kill), o muori early e nutri due nemici. Non c'è molto in mezzo, motivo per cui questa guida si appoggia molto sullo spike di livello 2 e sul bounce della <strong>R</strong> nei teamfight come i due momenti che devi eseguire bene.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3850.png\" alt=\"Spellthief&#x27;s Edge\"> <strong>Spellthief's Edge</strong> (lo starter da support AP che fa quest verso Bloodsong) + 2 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potions</strong>.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png\" alt=\"Bloodsong\"> <strong>Bloodsong</strong> — la quest reward del support da Spellthief's Edge. Obbligatorio: dà l'income di gold che ti permette di comprare item veri, più uno stack AP-su-takedown che snowballa il danno.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> <strong>Liandry's Torment</strong> — l'item identitario di danno di Brand. Burn percentuale degli HP che si somma ai tick di blaze, punendo tank e squadre con HP impilati.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> — stivali di ability haste, prioritizzati su Sorcerer's Shoes qui perché da support casti più abilità e farmi meno minion. Più uptime di R per teamfight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — burst extra più una passiva che ignora ulteriore Resistenza Magica sotto soglia HP. Si allinea coi bounce della R che cacciano il target a vita più bassa.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3222.png\" alt=\"Mikael&#x27;s Blessing\"> <strong>Mikael's Blessing</strong> — contro hard CC sulla tua ADC (catena stun di Leona, Q di Morgana, hook di Pyke). Cleansare il CC sulla carry è la cosa più simile al peel che Brand ha.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> <strong>Locket of the Iron Solari</strong> — contro composizioni con AOE engage pesante (R di Malphite, wombo di Yasuo — un \"wombo\" è quando più ultimate si concatenano per prendere tutta la tua squadra in una volta, R di Kennen). Lo shield attivo è un pulsante salvataggio nei teamfight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — contro composizioni che impilano cure (Soraka, Yuumi peel, team con Aatrox o Vladimir). La passiva Grievous Wounds dimezza il loro healing.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — appena un target prioritario completa il primo item di Resistenza Magica. Impedisce a un singolo componente da 800 gold di soft-counterare la build.</li>\n</ul>\n<p><strong>Stivali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> di default. Swap a <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> se la squadra avversaria ha 3+ minacce di hard CC con danno magico.</p>\n<p><strong>Skill order:</strong> Massimizza <strong>W</strong> per primo (il danno base più alto e principale poke 2v2), <strong>Q</strong> per secondo (più danno sullo stun), <strong>E</strong> per ultimo. Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Sorcery</strong> con <strong>Arcane Comet</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Scorch</strong>. Secondario <strong>Inspiration</strong> con <strong>Biscuit Delivery</strong> e <strong>Cosmic Insight</strong>.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Leona / Nautilus / Rell:</strong> Support tank da hard-engage. Stai fuori dal loro range di flash-engage finché non hai <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3222.png\" alt=\"Mikael&#x27;s Blessing\"> <strong>Mikael's Blessing</strong>. Pre-piazza <strong>W</strong> sui tuoi piedi quando si avvicinano, pronto a <strong>Q</strong> lo stun nel momento in cui engagiano.</li>\n<li><strong>Blitzcrank / Thresh / Pyke:</strong> Hookers. Stai sempre dietro a un minion — l'hook è uno skillshot single-target che la wave blocca. Punisci gli hook mancati con <strong>W → Q</strong> per poke gratis; non auto-attaccare mai fuori copertura quando hanno hook disponibile.</li>\n<li><strong>Yuumi:</strong> Lane gratis. Yuumi non ha corpo quando non è attaccata. Tempa <strong>W</strong> per atterrare nel momento in cui si stacca per last-hit o per proccare l'auto potenziato. Una Yuumi staccata presa dal <strong>W → Q</strong> è una kill prima che la sua carry possa scudarla.</li>\n<li><strong>Soraka:</strong> Out-pressionala stackando poke finché il suo mana finisce. Soraka cura la sua ADC al costo del 5% dei propri HP — ogni tick di blaze sull'ADC annulla 30 secondi del suo healing.</li>\n<li><strong>Lulu:</strong> Polymorph e shield rendono inaffidabili i burst 1v1. Poka da max range della <strong>W</strong>, non committare mai allo stun-into-all-in (un \"all-in\" è il commit totale alla kill — niente uscita, vai finché qualcuno muore) se la tua jungla non è in arrivo; se Lulu polymorph-a la tua ADC a metà trade, il trade è perso.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2 (W + Q):</strong> Primo spike. Con un punto in <strong>W</strong> più la <strong>Q</strong> di partenza il combo <strong>W → Q stun</strong> è online. Questa finestra è dove avviene il 90% delle kill di Brand support — pusha la wave per arrivare al livello 2 prima, poi atterra il combo sul support avversario.</li>\n<li><strong>Livello 6 (R sbloccata):</strong> Prima <strong>Pyroclasm</strong> disponibile. Se la bot lane avversaria sta appiccicata (quasi sempre — i support stanno dietro la loro ADC), una sola <strong>R</strong> fa circa il 50% degli HP di uno squishy per bounce.</li>\n<li><strong>Bloodsong + Liandry's Torment online (~ minuto 14-16):</strong> Il danno si ribalta. Da qui out-damaggi ogni enchanter support e minacci la kill su una ADC nutrita. Forza i fight raggruppati al drake.</li>\n<li><strong>R + Shadowflame online (~ minuto 22-26):</strong> Due nemici raggruppati mangiano l'intera sequenza di bounce e muoiono. Questo è quando Brand vince i teamfight da dietro — scegli angoli dove la carry e il support avversari sono entro distanza di bounce uno dall'altro.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Auto-attaccare la wave per i last-hit.</strong> Da support non prendi i last-hit — il gold dal farm dell'AD carry è quello che finanzia la lane. Stai dietro, poka l'avversario con <strong>W</strong>, e auto-attacca un minion solo se la carry è morta o sta recallando.</li>\n<li><strong>Lanciare Q per poke nudo.</strong> <strong>Q</strong> senza ablaze è un proiettile lento che manca sui nemici che si scansano. Setta con <strong>W</strong> sul terreno prima, o <strong>E</strong> su un minion che propagherà il blaze — poi Q per lo stun.</li>\n<li><strong>Stare davanti alla tua ADC.</strong> Brand non ha peel per sé né per nessun altro. Se stai davanti, l'engage colpisce te, muori, la tua ADC resta senza support. Stai alla stessa profondità o un passo dietro, con un minion tra te e l'hook.</li>\n<li><strong>Ultare un solo nemico.</strong> <strong>R</strong> rimbalza tra target dando priorità agli ablaze, ma con grande damage falloff per salto su un solo bersaglio. Conserva <strong>R</strong> per fight dove due o tre nemici sono entro distanza di bounce — non usarla mai come finisher su un solo target in fuga.</li>\n<li><strong>Pre-piazzare W dove il nemico è adesso.</strong> Pillar of Flame ha un delay prima di atterrare. Castala dove il nemico <em>sarà</em> in 0.6 secondi — tipicamente lo spot per cui deve passare per raggiungere il prossimo minion o per scappare dal tuo stun. Castarla sulla posizione attuale è un miss garantito contro qualsiasi avversario mezzo attento.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena il <strong>double-spread setup</strong>. Quando il support e l'ADC avversari stanno appiccicati (tipico quando spingono la wave o quando il support copre l'ADC), fai in ordine: <strong>W</strong> tra loro → entrambi prendono blaze stack 1. <strong>E</strong> sul support avversario → blaze stack 2 sul support, propaga sull'ADC per stack 2 sull'ADC. Ora entrambi i target sono a 2 stack — non ti serve atterrare la <strong>Q</strong> per settare lo stun, ti serve atterrarla come <em>finisher</em>. Q sul support: stack 3 atterra, il support è stunnato, la detonazione instabile colpisce anche l'ADC e lo porta a stack 3. <strong>R</strong> ora rimbalza tra due target stunnati a blaze massimo, entrambi muoiono, e tu non tradi nulla in cambio. Questa è la rotation che trasforma un \"Brand support decente\" in un Brand che vince la lane ogni partita.</p>",
+    "content_html_pre": "<h2>Panoramica</h2>\n<p>Brand support è il caster support più aggressivo del gioco. Non porta in dote nessuna delle cose che un support tradizionale porta — niente shield, niente heal, niente peel per la carry (\"peel\" = abilità che proteggono un alleato spingendo o stunnando chi lo sta attaccando), niente engage che termini in una cooldown di sopravvivenza tank. Quello che porta è una <strong>threat di kill flat dal minuto 1</strong>. Ogni spell dà fuoco al nemico (passiva <strong>Blaze</strong>), e una volta che un nemico è in fiamme la tua <strong>Q (Sear)</strong> smette di essere una spell di danno e diventa uno stun. Il piano partita è: pokali con <strong>W (Pillar of Flame)</strong> finché due stack di blaze non si attaccano, <strong>E</strong> per propagare il blaze a entrambi i target, e <strong>Q</strong> per lo stun che permette alla tua ADC di camminare e finire la kill.</p>\n<p>Il prezzo è la fragilità. Brand non ha escape, niente sustain innato, e nessuno strumento per proteggere la sua AD carry. Se il support avversario engagia per primo — Leona stun, Nautilus hook, Rakan dash — la tua unica vera risposta è <em>uccidere chi engagia più in fretta di quanto loro uccidano la tua carry</em>, cosa che funziona solo quando sei avanti. Il pick è binario: o stomp-i la lane e snowball-i (uno snowball è un vantaggio iniziale che cresce: kill → gold → item → più kill), o muori early e nutri due nemici. Non c'è molto in mezzo, motivo per cui questa guida si appoggia molto sullo spike di livello 2 e sul bounce della <strong>R</strong> nei teamfight come i due momenti che devi eseguire bene.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3850.png\" alt=\"Spellthief&#x27;s Edge\"> <strong>Spellthief's Edge</strong> (lo starter da support AP che fa quest verso Bloodsong) + 2 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potions</strong>.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png\" alt=\"Bloodsong\"> <strong>Bloodsong</strong> — la quest reward del support da Spellthief's Edge. Obbligatorio: dà l'income di gold che ti permette di comprare item veri, più uno stack AP-su-takedown che snowballa il danno.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> <strong>Liandry's Torment</strong> — l'item identitario di danno di Brand. Burn percentuale degli HP che si somma ai tick di blaze, punendo tank e squadre con HP impilati.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> — stivali di ability haste, prioritizzati su Sorcerer's Shoes qui perché da support casti più abilità e farmi meno minion. Più uptime di R per teamfight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — burst extra più una passiva che ignora ulteriore Resistenza Magica sotto soglia HP. Si allinea coi bounce della R che cacciano il target a vita più bassa.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3222.png\" alt=\"Mikael&#x27;s Blessing\"> <strong>Mikael's Blessing</strong> — contro hard CC sulla tua ADC (catena stun di Leona, Q di Morgana, hook di Pyke). Cleansare il CC sulla carry è la cosa più simile al peel che Brand ha.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> <strong>Locket of the Iron Solari</strong> — contro composizioni con AOE engage pesante (R di Malphite, wombo di Yasuo — un \"wombo\" è quando più ultimate si concatenano per prendere tutta la tua squadra in una volta, R di Kennen). Lo shield attivo è un pulsante salvataggio nei teamfight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — contro composizioni che impilano cure (Soraka, Yuumi peel, team con Aatrox o Vladimir). La passiva Grievous Wounds dimezza il loro healing.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — appena un target prioritario completa il primo item di Resistenza Magica. Impedisce a un singolo componente da 800 gold di soft-counterare la build.</li>\n</ul>\n<p><strong>Stivali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> di default. Swap a <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> se la squadra avversaria ha 3+ minacce di hard CC con danno magico.</p>\n<p><strong>Skill order:</strong> Massimizza <strong>W</strong> per primo (il danno base più alto e principale poke 2v2), <strong>Q</strong> per secondo (più danno sullo stun), <strong>E</strong> per ultimo. Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Sorcery</strong> con <strong>Arcane Comet</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Scorch</strong>. Secondario <strong>Inspiration</strong> con <strong>Biscuit Delivery</strong> e <strong>Cosmic Insight</strong>.</p>",
+    "content_html_post": "<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Leona / Nautilus / Rell:</strong> Support tank da hard-engage. Stai fuori dal loro range di flash-engage finché non hai <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3222.png\" alt=\"Mikael&#x27;s Blessing\"> <strong>Mikael's Blessing</strong>. Pre-piazza <strong>W</strong> sui tuoi piedi quando si avvicinano, pronto a <strong>Q</strong> lo stun nel momento in cui engagiano.</li>\n<li><strong>Blitzcrank / Thresh / Pyke:</strong> Hookers. Stai sempre dietro a un minion — l'hook è uno skillshot single-target che la wave blocca. Punisci gli hook mancati con <strong>W → Q</strong> per poke gratis; non auto-attaccare mai fuori copertura quando hanno hook disponibile.</li>\n<li><strong>Yuumi:</strong> Lane gratis. Yuumi non ha corpo quando non è attaccata. Tempa <strong>W</strong> per atterrare nel momento in cui si stacca per last-hit o per proccare l'auto potenziato. Una Yuumi staccata presa dal <strong>W → Q</strong> è una kill prima che la sua carry possa scudarla.</li>\n<li><strong>Soraka:</strong> Out-pressionala stackando poke finché il suo mana finisce. Soraka cura la sua ADC al costo del 5% dei propri HP — ogni tick di blaze sull'ADC annulla 30 secondi del suo healing.</li>\n<li><strong>Lulu:</strong> Polymorph e shield rendono inaffidabili i burst 1v1. Poka da max range della <strong>W</strong>, non committare mai allo stun-into-all-in (un \"all-in\" è il commit totale alla kill — niente uscita, vai finché qualcuno muore) se la tua jungla non è in arrivo; se Lulu polymorph-a la tua ADC a metà trade, il trade è perso.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2 (W + Q):</strong> Primo spike. Con un punto in <strong>W</strong> più la <strong>Q</strong> di partenza il combo <strong>W → Q stun</strong> è online. Questa finestra è dove avviene il 90% delle kill di Brand support — pusha la wave per arrivare al livello 2 prima, poi atterra il combo sul support avversario.</li>\n<li><strong>Livello 6 (R sbloccata):</strong> Prima <strong>Pyroclasm</strong> disponibile. Se la bot lane avversaria sta appiccicata (quasi sempre — i support stanno dietro la loro ADC), una sola <strong>R</strong> fa circa il 50% degli HP di uno squishy per bounce.</li>\n<li><strong>Bloodsong + Liandry's Torment online (~ minuto 14-16):</strong> Il danno si ribalta. Da qui out-damaggi ogni enchanter support e minacci la kill su una ADC nutrita. Forza i fight raggruppati al drake.</li>\n<li><strong>R + Shadowflame online (~ minuto 22-26):</strong> Due nemici raggruppati mangiano l'intera sequenza di bounce e muoiono. Questo è quando Brand vince i teamfight da dietro — scegli angoli dove la carry e il support avversari sono entro distanza di bounce uno dall'altro.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Auto-attaccare la wave per i last-hit.</strong> Da support non prendi i last-hit — il gold dal farm dell'AD carry è quello che finanzia la lane. Stai dietro, poka l'avversario con <strong>W</strong>, e auto-attacca un minion solo se la carry è morta o sta recallando.</li>\n<li><strong>Lanciare Q per poke nudo.</strong> <strong>Q</strong> senza ablaze è un proiettile lento che manca sui nemici che si scansano. Setta con <strong>W</strong> sul terreno prima, o <strong>E</strong> su un minion che propagherà il blaze — poi Q per lo stun.</li>\n<li><strong>Stare davanti alla tua ADC.</strong> Brand non ha peel per sé né per nessun altro. Se stai davanti, l'engage colpisce te, muori, la tua ADC resta senza support. Stai alla stessa profondità o un passo dietro, con un minion tra te e l'hook.</li>\n<li><strong>Ultare un solo nemico.</strong> <strong>R</strong> rimbalza tra target dando priorità agli ablaze, ma con grande damage falloff per salto su un solo bersaglio. Conserva <strong>R</strong> per fight dove due o tre nemici sono entro distanza di bounce — non usarla mai come finisher su un solo target in fuga.</li>\n<li><strong>Pre-piazzare W dove il nemico è adesso.</strong> Pillar of Flame ha un delay prima di atterrare. Castala dove il nemico <em>sarà</em> in 0.6 secondi — tipicamente lo spot per cui deve passare per raggiungere il prossimo minion o per scappare dal tuo stun. Castarla sulla posizione attuale è un miss garantito contro qualsiasi avversario mezzo attento.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena il <strong>double-spread setup</strong>. Quando il support e l'ADC avversari stanno appiccicati (tipico quando spingono la wave o quando il support copre l'ADC), fai in ordine: <strong>W</strong> tra loro → entrambi prendono blaze stack 1. <strong>E</strong> sul support avversario → blaze stack 2 sul support, propaga sull'ADC per stack 2 sull'ADC. Ora entrambi i target sono a 2 stack — non ti serve atterrare la <strong>Q</strong> per settare lo stun, ti serve atterrarla come <em>finisher</em>. Q sul support: stack 3 atterra, il support è stunnato, la detonazione instabile colpisce anche l'ADC e lo porta a stack 3. <strong>R</strong> ora rimbalza tra due target stunnati a blaze massimo, entrambi muoiono, e tu non tradi nulla in cambio. Questa è la rotation che trasforma un \"Brand support decente\" in un Brand che vince la lane ogni partita.</p>",
+    "word_count": 1396,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "blitzcrank-support",
+        "champion": "blitzcrank",
+        "role": "support"
+      },
+      {
+        "slug": "braum-support",
+        "champion": "braum",
+        "role": "support"
+      },
+      {
+        "slug": "janna-support",
+        "champion": "janna",
+        "role": "support"
+      },
+      {
+        "slug": "karma-support",
+        "champion": "karma",
+        "role": "support"
+      },
+      {
+        "slug": "leona-support",
+        "champion": "leona",
+        "role": "support"
+      }
+    ],
+    "champion_key": "63"
+  },
+  {
     "slug": "braum-support",
     "title": "Braum Support Build & Guide — Patch 16.9",
     "language": "it",
