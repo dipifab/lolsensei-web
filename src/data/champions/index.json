@@ -669,6 +669,64 @@
       }
     },
     {
+      "slug": "corki-bot",
+      "champion": "corki",
+      "role": "bot",
+      "locales": {
+        "en": {
+          "title": "Corki Bot Build & Guide — Patch 16.9",
+          "description": "Complete Corki bot lane guide for League of Legends Patch 16.9: hybrid ADC build, runes, key 2v2 matchups, power spikes, common mistakes, advanced tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Marksman / Hybrid",
+          "difficulty": 3,
+          "damage_type": "mixed",
+          "champion_dd_id": "Corki",
+          "champion_key": "42"
+        },
+        "it": {
+          "title": "Corki Bot: Build e Guida — Patch 16.9",
+          "description": "Guida completa di Corki bot lane per League of Legends Patch 16.9: build ADC ibrido, runes, matchup 2v2 chiave, power spike, errori comuni, advanced tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Marksman / Hybrid",
+          "difficulty": 3,
+          "damage_type": "mixed",
+          "champion_dd_id": "Corki",
+          "champion_key": "42"
+        }
+      }
+    },
+    {
+      "slug": "corki-mid",
+      "champion": "corki",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Corki Mid Build & Guide — Patch 16.9",
+          "description": "Corki mid lane guide for League of Legends Patch 16.9: hybrid marksman build, runes, key matchups, power spikes, common mistakes, and an advanced tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Marksman / Hybrid",
+          "difficulty": 3,
+          "damage_type": "mixed",
+          "champion_dd_id": "Corki",
+          "champion_key": "42"
+        },
+        "it": {
+          "title": "Corki Mid: Build e Guida — Patch 16.9",
+          "description": "Guida completa di Corki mid lane per League of Legends Patch 16.9: build marksman ibrido, runes, matchup chiave, power spike, errori comuni, advanced tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Marksman / Hybrid",
+          "difficulty": 3,
+          "damage_type": "mixed",
+          "champion_dd_id": "Corki",
+          "champion_key": "42"
+        }
+      }
+    },
+    {
       "slug": "darius-top",
       "champion": "darius",
       "role": "top",

@@ -1713,6 +1713,86 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/caitlyn/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/caitlyn/bot/guide" />
   </url>
+  <!-- champion-guide/camille/top: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/camille/top/guide</loc>
+    <lastmod>2026-05-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/camille/top/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/camille/top/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/camille/top/guide" />
+  </url>
+  <!-- champion-guide/camille/top: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/camille/top/guide</loc>
+    <lastmod>2026-05-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/camille/top/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/camille/top/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/camille/top/guide" />
+  </url>
+  <!-- champion-guide/cassiopeia/mid: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/cassiopeia/mid/guide</loc>
+    <lastmod>2026-05-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/cassiopeia/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/cassiopeia/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/cassiopeia/mid/guide" />
+  </url>
+  <!-- champion-guide/cassiopeia/mid: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/cassiopeia/mid/guide</loc>
+    <lastmod>2026-05-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/cassiopeia/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/cassiopeia/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/cassiopeia/mid/guide" />
+  </url>
+  <!-- champion-guide/chogath/top: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/chogath/top/guide</loc>
+    <lastmod>2026-05-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/chogath/top/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/chogath/top/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/chogath/top/guide" />
+  </url>
+  <!-- champion-guide/chogath/top: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/chogath/top/guide</loc>
+    <lastmod>2026-05-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/chogath/top/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/chogath/top/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/chogath/top/guide" />
+  </url>
+  <!-- champion-guide/corki/bot: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/corki/bot/guide</loc>
+    <lastmod>2026-05-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/corki/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/corki/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/corki/bot/guide" />
+  </url>
+  <!-- champion-guide/corki/bot: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/corki/bot/guide</loc>
+    <lastmod>2026-05-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/corki/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/corki/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/corki/bot/guide" />
+  </url>
+  <!-- champion-guide/corki/mid: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/corki/mid/guide</loc>
+    <lastmod>2026-05-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/corki/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/corki/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/corki/mid/guide" />
+  </url>
+  <!-- champion-guide/corki/mid: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/corki/mid/guide</loc>
+    <lastmod>2026-05-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/corki/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/corki/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/corki/mid/guide" />
+  </url>
   <!-- champion-guide/darius/top: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/darius/top/guide</loc>

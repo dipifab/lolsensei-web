@@ -168,6 +168,26 @@
       },
       {
         "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "Corki has only one dash (W) on a long cooldown. Multi-dash kits enter his cast range before W is back up and burst him through Trinity HP, especially before two items.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con più gap-close",
+        "reason": "Corki ha un solo dash (W) con cooldown lungo. Kit con più dash entrano nel suo cast range prima che la W ricarichi e lo bursto attraverso gli HP di Trinity, soprattutto prima dei due item.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -714,6 +734,26 @@
       },
       {
         "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "Corki's R reaches 1225 units and his W gives him the only mobility advantage in the lane. Targets without a dash or stealth eat repeated R poke and cannot punish the windows where W is on cooldown.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "L'R di Corki arriva a 1225 unità e la W gli dà l'unico vantaggio di mobilità della lane. Target senza dash o stealth mangiano R poke ripetuti e non possono punirlo nelle finestre in cui la W è in cooldown.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -872,6 +912,26 @@
         },
         "archetype": "Mage da all-in lento e prevedibile a corto raggio",
         "reason": "Azir mantiene le distanze nelle loro finestre di commit (il momento in cui camminano avanti per attaccare): ogni volta che si avvicinano i basic attack dei soldati li danneggiano, e la R Shuffle ribalta l'all-in se Flashano dentro.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Short-range burst mages",
+        "reason": "Their kill threat starts inside auto-attack range, exactly where Corki's true-damage passive plus Trinity Force outscales them. Pre-6 you out-poke with R, post-6 you side-step their stun with W.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage di burst a corto raggio",
+        "reason": "La loro kill threat parte dentro auto-attack range, esattamente dove la passive a true damage di Corki più Trinity Force li supera. Pre-6 li out-poki con R, post-6 schivi lo stun con W.",
         "via": "pick_into"
       },
       {
@@ -1057,6 +1117,26 @@
         "archetype": "ADC con self-peel grazie a slow built-in",
         "reason": "Lo slow sulle loro auto-attack tiene Braum a distanza. Non riesce ad arrivare in range W per body-blockare, quindi il suo kit di peel e' dimezzato e la frontline del suo team crolla prima.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "ADCs with no point-and-click escape",
+        "reason": "Sivir Spell Shield only blocks one ability — he eats Q and the next missile lands free. Ashe has no dash. Corki snowballs the matchup with W repositioning that they cannot answer.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "ADC senza escape point-and-click",
+        "reason": "Sivir Spell Shield blocca solo una ability — eat la Q e il missile dopo arriva gratis. Ashe non ha dash. Corki snowballa il matchup con repositioning della W che loro non possono rispondere.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -2532,6 +2612,26 @@
       },
       {
         "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "Corki's R reaches 1225 units and his W gives him the only mobility advantage in the lane. Targets without a dash or stealth eat repeated R poke and cannot punish the windows where W is on cooldown.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "L'R di Corki arriva a 1225 unità e la W gli dà l'unico vantaggio di mobilità della lane. Target senza dash o stealth mangiano R poke ripetuti e non possono punirlo nelle finestre in cui la W è in cooldown.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "hecarim",
           "role": "jungle",
           "lang": "en"
@@ -2899,6 +2999,26 @@
         "archetype": "ADC aggressivi che si fanno avanti per scambiare",
         "reason": "Il loro kit li costringe a entrare in range Q per tirare asce o dash-AA. Ogni passo in avanti e' uno stack gratis di Concussive Blows: o si tirano indietro e perdono la lane prio, o mangiano lo stun a 4 stack.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Lethality-burst early-game ADCs",
+        "reason": "They out-trade Corki in the first 6 levels and snowball off lane kills. Corki cannot duel them before Trinity, and any W used aggressively gets punished by their dash-reset patterns.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "ADC di lethality-burst early-game",
+        "reason": "Out-tradano Corki nei primi 6 livelli e snowballano sulle kill di lane. Corki non li può duellare prima di Trinity, e ogni W usata aggressiva viene punita dai loro pattern di dash-reset.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -3304,6 +3424,26 @@
         },
         "archetype": "ADC a lunga gittata senza escape",
         "reason": "Questi ADC stanno a max range per last-hit; una E sul loro support spande blaze a loro, la Q lock-a lo stun, e l'AD carry alle tue spalle prende la kill prima che possano flashare.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Static poke ADCs",
+        "reason": "Range is even, but Corki has a dash plus an instant Q area while Senna and Ezreal poke is single-projectile. He can W onto a minion that ate a Q and trade back without committing his cooldowns.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "ADC di poke statico",
+        "reason": "Range pari, ma Corki ha un dash più una Q ad area istantanea mentre il poke di Senna ed Ezreal è single-projectile. Può W su un minion che ha eaten una Q e ritradare senza committare i cooldown.",
         "via": "pick_into"
       },
       {
@@ -3870,6 +4010,26 @@
         },
         "archetype": "Assassini mobili con multi gap-close",
         "reason": "Saltano oltre la tua Q prima che tu riesca a piazzarla per lo stun. Senza stun il kit non ha peel per te stesso, quindi ti cancellano prima che la R completi il primo bounce.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Untargetable / blink-based escapes",
+        "reason": "Fizz E and Kassadin R let them dodge a committed combo and then re-engage on Corki when his W is down. He has no follow-up burst once they go untargetable.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Untargetable / blink-based",
+        "reason": "Fizz E e Kassadin R schivano la combo committata e poi re-engagano su Corki quando la sua W è giù. Lui non ha follow-up burst una volta che diventano untargetable.",
         "via": "counterpick"
       },
       {
@@ -5608,6 +5768,26 @@
       },
       {
         "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Short-range hypercarries without escape",
+        "reason": "Corki out-ranges them pre-Trinity with R poke at 1225 units and a W dash they cannot match. They have to stay in last-hit range, and Corki bleeds them down before their hyper-carry power spike.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Hypercarry a corto raggio senza fuga",
+        "reason": "Corki li out-ranga pre-Trinity con poke R a 1225 unità e una W che loro non hanno. Devono restare in last-hit range, e Corki li smonta prima del loro power spike da hyper-carry.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "draven",
           "role": "bot",
           "lang": "en"
@@ -6278,6 +6458,26 @@
       },
       {
         "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "Corki's R reaches 1225 units and his W gives him the only mobility advantage in the lane. Targets without a dash or stealth eat repeated R poke and cannot punish the windows where W is on cooldown.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "L'R di Corki arriva a 1225 unità e la W gli dà l'unico vantaggio di mobilità della lane. Target senza dash o stealth mangiano R poke ripetuti e non possono punirlo nelle finestre in cui la W è in cooldown.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "ekko",
           "role": "jungle",
           "lang": "en"
@@ -6477,6 +6677,26 @@
         "archetype": "Mage da late-game deboli negli scontri brevi early",
         "reason": "Azir farma sicuro con W dal livello 1 e regge il loro potenziale late-game senza regalare exp — al minuto 14 è online prima che loro raggiungano il proprio spike.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Untargetable / blink-based escapes",
+        "reason": "Fizz E and Kassadin R let them dodge a committed combo and then re-engage on Corki when his W is down. He has no follow-up burst once they go untargetable.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Untargetable / blink-based",
+        "reason": "Fizz E e Kassadin R schivano la combo committata e poi re-engagano su Corki quando la sua W è giù. Lui non ha follow-up burst una volta che diventano untargetable.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -7250,6 +7470,26 @@
         },
         "archetype": "Carry da scaling immobili",
         "reason": "La R cross-map li elimina sugli spawn obiettivo o nelle finestre di reset alla fountain. Il loro kit non ha dash per scappare alla freccia che esce dalla fog of war.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Short-range hypercarries without escape",
+        "reason": "Corki out-ranges them pre-Trinity with R poke at 1225 units and a W dash they cannot match. They have to stay in last-hit range, and Corki bleeds them down before their hyper-carry power spike.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Hypercarry a corto raggio senza fuga",
+        "reason": "Corki li out-ranga pre-Trinity con poke R a 1225 unità e una W che loro non hanno. Devono restare in last-hit range, e Corki li smonta prima del loro power spike da hyper-carry.",
         "via": "pick_into"
       },
       {
@@ -8223,6 +8463,26 @@
         "archetype": "ADC aggressivi che si fanno avanti per scambiare",
         "reason": "Il loro kit li costringe a entrare in range Q per tirare asce o dash-AA. Ogni passo in avanti e' uno stack gratis di Concussive Blows: o si tirano indietro e perdono la lane prio, o mangiano lo stun a 4 stack.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Multi-dash auto-trade lanes",
+        "reason": "Lucian's E and Tristana's W enter and exit Corki's auto range freely. Lucian also outscales true damage on his passive auto-Q chain in early levels, beating Corki straight up before items.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Lane multi-dash con auto-trade",
+        "reason": "La E di Lucian e la W di Tristana entrano ed escono dall'auto range di Corki a piacimento. Lucian inoltre out-scala il true damage della passive con la sua chain auto-Q nei primi livelli, battendolo dritto prima degli item.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -11409,6 +11669,28 @@
         "via": "counterpick"
       }
     ],
+    "qiyana": [
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "Corki has only one dash (W) on a long cooldown. Multi-dash kits enter his cast range before W is back up and burst him through Trinity HP, especially before two items.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con più gap-close",
+        "reason": "Corki ha un solo dash (W) con cooldown lungo. Kit con più dash entrano nel suo cast range prima che la W ricarichi e lo bursto attraverso gli HP di Trinity, soprattutto prima dei due item.",
+        "via": "counterpick"
+      }
+    ],
     "quinn": [
       {
         "publisher": {
@@ -12434,6 +12716,26 @@
       },
       {
         "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Lethality-burst early-game ADCs",
+        "reason": "They out-trade Corki in the first 6 levels and snowball off lane kills. Corki cannot duel them before Trinity, and any W used aggressively gets punished by their dash-reset patterns.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "ADC di lethality-burst early-game",
+        "reason": "Out-tradano Corki nei primi 6 livelli e snowballano sulle kill di lane. Corki non li può duellare prima di Trinity, e ogni W usata aggressiva viene punita dai loro pattern di dash-reset.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "ezreal",
           "role": "bot",
           "lang": "en"
@@ -12874,6 +13176,26 @@
         },
         "archetype": "ADC immobili senza dash",
         "reason": "La Q ha 1000 di range e applica uno stack di Concussive Blows a distanza. Contro un ADC senza fuga, una Q + un'auto del tuo ADC + la tua auto chiudono lo stun a 4 stack: non hanno modo di rompere la catena.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Static poke ADCs",
+        "reason": "Range is even, but Corki has a dash plus an instant Q area while Senna and Ezreal poke is single-projectile. He can W onto a minion that ate a Q and trade back without committing his cooldowns.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "ADC di poke statico",
+        "reason": "Range pari, ma Corki ha un dash più una Q ad area istantanea mentre il poke di Senna ed Ezreal è single-projectile. Può W su un minion che ha eaten una Q e ritradare senza committare i cooldown.",
         "via": "pick_into"
       },
       {
@@ -13612,6 +13934,26 @@
       }
     ],
     "sivir": [
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "ADCs with no point-and-click escape",
+        "reason": "Sivir Spell Shield only blocks one ability — he eats Q and the next missile lands free. Ashe has no dash. Corki snowballs the matchup with W repositioning that they cannot answer.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "ADC senza escape point-and-click",
+        "reason": "Sivir Spell Shield blocca solo una ability — eat la Q e il missile dopo arriva gratis. Ashe non ha dash. Corki snowballa il matchup con repositioning della W che loro non possono rispondere.",
+        "via": "pick_into"
+      },
       {
         "publisher": {
           "champion": "draven",
@@ -14486,6 +14828,26 @@
       },
       {
         "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Short-range burst mages",
+        "reason": "Their kill threat starts inside auto-attack range, exactly where Corki's true-damage passive plus Trinity Force outscales them. Pre-6 you out-poke with R, post-6 you side-step their stun with W.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage di burst a corto raggio",
+        "reason": "La loro kill threat parte dentro auto-attack range, esattamente dove la passive a true damage di Corki più Trinity Force li supera. Pre-6 li out-poki con R, post-6 schivi lo stun con W.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -14646,6 +15008,26 @@
         },
         "archetype": "Assassini early-game burst con dash multipli",
         "reason": "All-in pre-6 quando Azir non ha E pronta; anche dopo Zhonya's, i kit con dash multipli gli arrivano addosso prima che la sua R abbia tempo di partire.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "Corki has only one dash (W) on a long cooldown. Multi-dash kits enter his cast range before W is back up and burst him through Trinity HP, especially before two items.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con più gap-close",
+        "reason": "Corki ha un solo dash (W) con cooldown lungo. Kit con più dash entrano nel suo cast range prima che la W ricarichi e lo bursto attraverso gli HP di Trinity, soprattutto prima dei due item.",
         "via": "counterpick"
       },
       {
@@ -15256,6 +15638,26 @@
       },
       {
         "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Multi-dash auto-trade lanes",
+        "reason": "Lucian's E and Tristana's W enter and exit Corki's auto range freely. Lucian also outscales true damage on his passive auto-Q chain in early levels, beating Corki straight up before items.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Lane multi-dash con auto-trade",
+        "reason": "La E di Lucian e la W di Tristana entrano ed escono dall'auto range di Corki a piacimento. Lucian inoltre out-scala il true damage della passive con la sua chain auto-Q nei primi livelli, battendolo dritto prima degli item.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "jhin",
           "role": "bot",
           "lang": "en"
@@ -15640,6 +16042,26 @@
         },
         "archetype": "Marksman a corto raggio senza poke iniziale",
         "reason": "La W di Ashe ha 1200 di range e applica lo slow di Frost Shot; li poka da fuori del loro 500-550 di AA e ogni loro avvicinamento diventa un trade vinto da lei.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Short-range hypercarries without escape",
+        "reason": "Corki out-ranges them pre-Trinity with R poke at 1225 units and a W dash they cannot match. They have to stay in last-hit range, and Corki bleeds them down before their hyper-carry power spike.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Hypercarry a corto raggio senza fuga",
+        "reason": "Corki li out-ranga pre-Trinity con poke R a 1225 unità e una W che loro non hanno. Devono restare in last-hit range, e Corki li smonta prima del loro power spike da hyper-carry.",
         "via": "pick_into"
       },
       {
@@ -16512,6 +16934,26 @@
       },
       {
         "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "Corki's R reaches 1225 units and his W gives him the only mobility advantage in the lane. Targets without a dash or stealth eat repeated R poke and cannot punish the windows where W is on cooldown.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "L'R di Corki arriva a 1225 unità e la W gli dà l'unico vantaggio di mobilità della lane. Target senza dash o stealth mangiano R poke ripetuti e non possono punirlo nelle finestre in cui la W è in cooldown.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -16811,6 +17253,26 @@
         "archetype": "Mage support a lungo raggio che pokano oltre la Q",
         "reason": "Stanno a 1100+ di range e ti rosicchiano l'HP gratis. Braum non ha risposta oltre la sua Q, e la E aiuta solo se sei gia' vicino: vincono la lane per logoramento.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Artillery mages with channel windups",
+        "reason": "Corki matches their range with R while also having a dash to interrupt long channels (Xerath R, Vel'Koz R). They cannot all-in him, and trades favor the side with mobility.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Artillery mage con channel lunghi",
+        "reason": "Corki pareggia il loro range con la R e ha un dash per interrompere channel lunghi (Xerath R, Vel'Koz R). Non possono all-in lui, e i trade favoriscono il lato con mobilità.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -17588,6 +18050,26 @@
       },
       {
         "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Artillery mages with channel windups",
+        "reason": "Corki matches their range with R while also having a dash to interrupt long channels (Xerath R, Vel'Koz R). They cannot all-in him, and trades favor the side with mobility.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Artillery mage con channel lunghi",
+        "reason": "Corki pareggia il loro range con la R e ha un dash per interrompere channel lunghi (Xerath R, Vel'Koz R). Non possono all-in lui, e i trade favoriscono il lato con mobilità.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "ezreal",
           "role": "bot",
           "lang": "en"
@@ -18252,6 +18734,46 @@
       },
       {
         "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Wind Wall projectile blockers (off-meta bot)",
+        "reason": "Wind Wall eats Q and the entire R missile barrage. Even when these champions are off-meta in bot, the matchup is rough because two-thirds of Corki's damage in a trade vanishes.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Wind Wall projectile blocker (off-meta bot)",
+        "reason": "Wind Wall mangia la Q e l'intero R missile barrage. Anche se questi champion sono off-meta in bot, il matchup è duro perché due terzi del danno di Corki nel trade evapora.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Wind Wall projectile blockers",
+        "reason": "Wind Wall eats Q and the entire R missile barrage, removing two thirds of Corki's damage from the trade. Even when he wins HP, the trade cost in cooldowns is brutal.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Wind Wall projectile blocker",
+        "reason": "Wind Wall mangia la Q e l'intero R missile barrage, togliendo due terzi del danno di Corki dal trade. Anche quando lui vince HP, il costo in cooldown del trade è brutale.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "darius",
           "role": "top",
           "lang": "en"
@@ -18630,6 +19152,46 @@
         },
         "archetype": "Campioni con Wind Wall e mobilità sostenuta",
         "reason": "Wind Wall blocca la Q e il proiettile della R; poi dashano oltre la zona della W. Bruciare uno slot per Zhonya's compra solo sopravvivenza, non priorità di lane.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Wind Wall projectile blockers (off-meta bot)",
+        "reason": "Wind Wall eats Q and the entire R missile barrage. Even when these champions are off-meta in bot, the matchup is rough because two-thirds of Corki's damage in a trade vanishes.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Wind Wall projectile blocker (off-meta bot)",
+        "reason": "Wind Wall mangia la Q e l'intero R missile barrage. Anche se questi champion sono off-meta in bot, il matchup è duro perché due terzi del danno di Corki nel trade evapora.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Wind Wall projectile blockers",
+        "reason": "Wind Wall eats Q and the entire R missile barrage, removing two thirds of Corki's damage from the trade. Even when he wins HP, the trade cost in cooldowns is brutal.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Wind Wall projectile blocker",
+        "reason": "Wind Wall mangia la Q e l'intero R missile barrage, togliendo due terzi del danno di Corki dal trade. Anche quando lui vince HP, il costo in cooldown del trade è brutale.",
         "via": "counterpick"
       },
       {
@@ -19498,6 +20060,26 @@
         },
         "archetype": "Assassini mobili con multi gap-close",
         "reason": "Saltano oltre la tua Q prima che tu riesca a piazzarla per lo stun. Senza stun il kit non ha peel per te stesso, quindi ti cancellano prima che la R completi il primo bounce.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "Corki has only one dash (W) on a long cooldown. Multi-dash kits enter his cast range before W is back up and burst him through Trinity HP, especially before two items.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "corki",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con più gap-close",
+        "reason": "Corki ha un solo dash (W) con cooldown lungo. Kit con più dash entrano nel suo cast range prima che la W ricarichi e lo bursto attraverso gli HP di Trinity, soprattutto prima dei due item.",
         "via": "counterpick"
       },
       {

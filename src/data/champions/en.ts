@@ -7074,6 +7074,637 @@ export const enChampions: ChampionGuide[] = [
     "champion_key": "51"
   },
   {
+    "slug": "corki-bot",
+    "title": "Corki Bot Build & Guide — Patch 16.9",
+    "language": "en",
+    "patch": "16.9",
+    "champion": "corki",
+    "role": "bot",
+    "last_updated": "2026-05-02",
+    "description": "Complete Corki bot lane guide for League of Legends Patch 16.9: hybrid ADC build, runes, key 2v2 matchups, power spikes, common mistakes, advanced tip.",
+    "quick_learn": {
+      "champion_dd_id": "Corki",
+      "difficulty": 3,
+      "damage_type": "mixed",
+      "champion_class": "Marksman / Hybrid",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Hextech Munitions",
+          "description": "Basic attacks deal a portion of their damage as bonus true damage. Steady DPS source that ignores armor and magic resist — your reason for stacking attack speed and on-hit items.",
+          "dd_spell_id": "Corki_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Phosphorus Bomb",
+          "description": "Targeted area magic damage that briefly reveals enemies inside. Used for last-hits when zoned, brush checks, and to open every poke trade in lane.",
+          "dd_spell_id": "PhosphorusBomb"
+        },
+        {
+          "key": "W",
+          "name": "Valkyrie",
+          "description": "Short dash leaving a fire trail. Your only mobility tool — escape, gap-close, or skillshot dodge. Long cooldown, do not waste it for waveclear.",
+          "dd_spell_id": "CarpetBomb"
+        },
+        {
+          "key": "E",
+          "name": "Gatling Gun",
+          "description": "Channeled cone in front of Corki dealing damage and shredding armor and magic resist. Adds steady DPS in extended fights and softens tanks for follow-up R missiles.",
+          "dd_spell_id": "GGun"
+        },
+        {
+          "key": "R",
+          "name": "Missile Barrage",
+          "description": "Long-range missile that explodes on impact. Stocks up to 7 missiles; every 3rd is a Big One with extra burst. Your main poke and execute tool.",
+          "dd_spell_id": "MissileBarrage"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "W"
+        },
+        {
+          "level": 3,
+          "key": "E"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "3078",
+          "name": "Trinity Force"
+        },
+        {
+          "dd_id": "3004",
+          "name": "Manamune"
+        },
+        {
+          "dd_id": "3006",
+          "name": "Berserker's Greaves"
+        },
+        {
+          "dd_id": "3094",
+          "name": "Rapid Firecannon"
+        },
+        {
+          "dd_id": "3046",
+          "name": "Phantom Dancer"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3036",
+          "name": "Lord Dominik's Regards",
+          "against": "vs an enemy front line with 2+ tanks (Sion, Ornn, Maokai): adds heavy armor penetration so your sustained DPS still cuts through"
+        },
+        {
+          "dd_id": "3033",
+          "name": "Mortal Reminder",
+          "against": "vs healing-stacking comps (Soraka, Aatrox, Vladimir, Dr. Mundo): applies grievous wounds that cut their healing in half"
+        },
+        {
+          "dd_id": "3156",
+          "name": "Maw of Malmortius",
+          "against": "vs heavy AP burst threats (Brand support, Veigar, Syndra mid): the magic shield absorbs one full combo and lets you W out"
+        },
+        {
+          "dd_id": "3139",
+          "name": "Mercurial Scimitar",
+          "against": "vs single-target lockdown ultimates (Malzahar R, Skarner R, Mordekaiser R): active cleanses the suppression that would delete you"
+        }
+      ],
+      "base_combo": [
+        "Q",
+        "AA",
+        "R",
+        "AA",
+        "E"
+      ],
+      "win_condition": "Survive the 2v2 to two items with R poke and Q sustain damage, then carry late teamfights with stacked Manamune autos and R Big Ones from the back line.",
+      "weakness": "Squishy with one dash. Hard early-game lanes (Draven, Lucian + engage support) can shove you off CS before Trinity Force, and projectile-blocking abilities (Yasuo Wind Wall, Braum E) shut down poke.",
+      "runes": {
+        "primary_tree": "Precision",
+        "primary_tree_dd_id": 8000,
+        "keystone": {
+          "dd_id": 8021,
+          "name": "Fleet Footwork",
+          "icon_path": "perk-images/Styles/Precision/FleetFootwork/FleetFootwork.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 9111,
+            "name": "Triumph",
+            "icon_path": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "dd_id": 9104,
+            "name": "Legend: Alacrity",
+            "icon_path": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
+          },
+          {
+            "dd_id": 8014,
+            "name": "Coup de Grace",
+            "icon_path": "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png"
+          }
+        ],
+        "secondary_tree": "Inspiration",
+        "secondary_tree_dd_id": 8300,
+        "secondary_slots": [
+          {
+            "dd_id": 8304,
+            "name": "Magical Footwear",
+            "icon_path": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png"
+          },
+          {
+            "dd_id": 8347,
+            "name": "Cosmic Insight",
+            "icon_path": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png"
+          }
+        ],
+        "stat_shards": [
+          "Attack Speed",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Precision primary: Fleet Footwork procs on autos (which Corki spams thanks to the true-damage passive), giving heal plus a movement burst — the in-lane sustain you need for a long 2v2. Triumph and Coup de Grace finish kills, Legend: Alacrity stacks attack speed for sustained DPS.",
+        "secondary_rationale": "Inspiration secondary: Magical Footwear delays your boot purchase but gives stats elsewhere first; Cosmic Insight adds summoner spell cooldown reduction (more frequent Flash and Heal) which is the biggest survival lever in the bot 2v2.",
+        "secondary_alternative": "Into a heavy poke lane (Caitlyn + Lux, Ezreal + Karma) where you cannot afford Magical Footwear's delayed boots, swap Inspiration for Sorcery with Manaflow Band (mana sustain on R spam) and Gathering Storm (free late-game AP scaling on Q and Big One missiles)."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "jinx",
+            "twitch",
+            "kog-maw"
+          ],
+          "archetype": "Short-range hypercarries without escape",
+          "reason": "Corki out-ranges them pre-Trinity with R poke at 1225 units and a W dash they cannot match. They have to stay in last-hit range, and Corki bleeds them down before their hyper-carry power spike."
+        },
+        {
+          "examples": [
+            "senna",
+            "ezreal"
+          ],
+          "archetype": "Static poke ADCs",
+          "reason": "Range is even, but Corki has a dash plus an instant Q area while Senna and Ezreal poke is single-projectile. He can W onto a minion that ate a Q and trade back without committing his cooldowns."
+        },
+        {
+          "examples": [
+            "sivir",
+            "ashe"
+          ],
+          "archetype": "ADCs with no point-and-click escape",
+          "reason": "Sivir Spell Shield only blocks one ability — he eats Q and the next missile lands free. Ashe has no dash. Corki snowballs the matchup with W repositioning that they cannot answer."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "draven",
+            "samira"
+          ],
+          "archetype": "Lethality-burst early-game ADCs",
+          "reason": "They out-trade Corki in the first 6 levels and snowball off lane kills. Corki cannot duel them before Trinity, and any W used aggressively gets punished by their dash-reset patterns."
+        },
+        {
+          "examples": [
+            "lucian",
+            "tristana"
+          ],
+          "archetype": "Multi-dash auto-trade lanes",
+          "reason": "Lucian's E and Tristana's W enter and exit Corki's auto range freely. Lucian also outscales true damage on his passive auto-Q chain in early levels, beating Corki straight up before items."
+        },
+        {
+          "examples": [
+            "yasuo",
+            "yone"
+          ],
+          "archetype": "Wind Wall projectile blockers (off-meta bot)",
+          "reason": "Wind Wall eats Q and the entire R missile barrage. Even when these champions are off-meta in bot, the matchup is rough because two-thirds of Corki's damage in a trade vanishes."
+        }
+      ]
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Corki bot is a hybrid marksman who plays the lane like a mage-carry: he pokes with <strong>Missile Barrage (R)</strong> at 1225 units, last-hits and harasses with <strong>Phosphorus Bomb (Q)</strong>, and once <strong>Trinity Force</strong> plus <strong>Manamune</strong> are stacked he carries late teamfights with auto-attacks that deal a portion as true damage thanks to <strong>Hextech Munitions (P)</strong>. The role suits him because a support can buy him the early time he needs to scale and can peel divers (protect the carry from enemies trying to reach him) while he commits his single dash, <strong>Valkyrie (W)</strong>, only on real opportunities.</p>\n<p>Game plan in one line: trade R + Q from max range to chip the opposing 2v2 down, never burn W without a follow-up, and ramp into a late-game where Manamune-empowered autos plus R Big Ones one-shot squishy targets at the back line.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> Doran's Blade + Health Potion. The blade lifesteal pairs with auto-attack passive and survives the early Q + auto trades better than Doran's Ring for an ADC.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> <strong>Trinity Force</strong> — Sheen procs every Q and every R missile, plus AD, attack speed, ability haste, and movement speed. Single biggest power spike on the champion.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3004.png\" alt=\"Manamune\"> <strong>Manamune</strong> — stacks into Muramana through R spam in lane; once stacked you deal bonus damage on every auto-attack and ability that costs mana, doubling teamfight output.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> — flat attack speed compounds with Trinity and the on-hit true damage from passive. Default boot for a bot Corki.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3094.png\" alt=\"Rapid Firecannon\"> <strong>Rapid Firecannon</strong> — energized auto on engage gives extra range plus burst, and the crit chance fits the Trinity stat profile.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3046.png\" alt=\"Phantom Dancer\"> <strong>Phantom Dancer</strong> — attack speed plus crit for sustained DPS through <strong>Gatling Gun (E)</strong> and the on-hit true damage from passive.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3036.png\" alt=\"Lord Dominik&#x27;s Regards\"> <strong>Lord Dominik's Regards</strong> — vs a front line with 2+ tanks (Sion, Ornn, Maokai): heavy armor penetration so sustained DPS still cuts through.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3033.png\" alt=\"Mortal Reminder\"> <strong>Mortal Reminder</strong> — vs healing-stacking comps (Soraka, Aatrox, Vladimir): applies grievous wounds that cut their healing in half.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — vs heavy AP burst threats (Brand support, Syndra mid): the magic shield absorbs one full combo and lets you W out.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3139.png\" alt=\"Mercurial Scimitar\"> <strong>Mercurial Scimitar</strong> — vs single-target lockdown ultimates (Malzahar R, Skarner R, Mordekaiser R): the active cleanses the suppression that would otherwise delete you.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> is default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> if the enemy team has 3+ AD threats focusing you in fights.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (poke, waveclear, magic damage), <strong>E</strong> second (DPS plus armor and magic resist shred), <strong>W</strong> last (utility). Take a point in <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Precision</strong> with <strong>Fleet Footwork</strong>, <strong>Triumph</strong>, <strong>Legend: Alacrity</strong>, <strong>Coup de Grace</strong>. Secondary <strong>Inspiration</strong> with <strong>Magical Footwear</strong> and <strong>Cosmic Insight</strong>, or <strong>Sorcery</strong> with <strong>Manaflow Band</strong> and <strong>Gathering Storm</strong> into heavy poke lanes.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Caitlyn:</strong> Out-range threat. Stay behind minions to deny her trap setups, dodge her Q line by side-stepping at the cast indicator, and never approach a wall where Q ricochets gain bonus damage. Save W to escape her R execute when low.</li>\n<li><strong>Draven:</strong> Hardest early. He out-trades you levels 1-5 and snowballs off lane kills. Concede CS to stay alive, ping for jungle gank windows when his Spinning Axes drop, and never trade into a passing axe.</li>\n<li><strong>Lucian:</strong> He wants to pass-through with E onto you. Q him when he commits the dash so the slow plus your support's CC turns the trade against him. Never auto-trade at melee range; his passive double-shot bursts past your true-damage advantage.</li>\n<li><strong>Jhin + Lulu / Senna + Tahm:</strong> Long-range disengage lanes. You have to win the level 6 all-in or stall until <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> <strong>Trinity Force</strong>. Push the wave with Q + auto-attacks and look for a R + W gank setup with your jungler.</li>\n<li><strong>Samira:</strong> All-in oppressor at level 6. Buy <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3139.png\" alt=\"Mercurial Scimitar\"> <strong>Mercurial Scimitar</strong> if her R lands once on your team — the active cleanse breaks her chain. Pre-6 you can match her in trades; post-6 disengage with W until your own R Big Ones outdamage her ramp.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2:</strong> With Q + W or Q + E, you can punish a bad enemy positioning with a Q-AA-AA trade and follow up with W if the enemy support is committed forward.</li>\n<li><strong>Level 6:</strong> First <strong>Missile Barrage (R)</strong> unlocks the all-in. With R stocks plus Trinity Force soon arriving, a Q-AA-R-R-R combo plus support CC kills most ADCs at low HP.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> Trinity Force completion (~ minute 13-15):</strong> Sheen procs on every Q and every R missile turn poke into kill threat. This is the moment to all-in or to take a Drake fight if vision is clean.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3004.png\" alt=\"Manamune\"> Manamune stacked (~ minute 18-22):</strong> Muramana adds bonus damage on every mana-spending action; teamfight damage roughly doubles compared to pre-stack. Force objective fights here.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Spamming R off cooldown for waveclear.</strong> R missiles are a finite stock; if you empty them on minions, the next teamfight you have zero burst at the worst moment. Push waves with Q + auto-attacks; save 4+ missiles for objectives.</li>\n<li><strong>Using W aggressively without a follow-up.</strong> W is your only escape. Dashing in to finish a kill that needed one more auto-attack is how Corki dies — if you cannot kill them with your remaining mana plus current cooldowns, do not commit (do not engage fully).</li>\n<li><strong>Auto-trading at melee range without support follow-up.</strong> Corki's true-damage passive looks tempting up close, but his HP pool is squishy (low and fragile). Stay at R range when the enemy support has hard CC up.</li>\n<li><strong>Rushing <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3031.png\" alt=\"Infinity Edge\"> Infinity Edge as a 2nd item.</strong> Infinity Edge needs a high crit chance to function, and Corki's first three items (Trinity, Manamune, Berserker's) give very little crit. Stick to the Trinity → Manamune → Rapid Firecannon → Phantom Dancer order; only consider Infinity Edge as a 5th or 6th item.</li>\n<li><strong>Recalling without using R stocks.</strong> Stocks reset on death but persist on recall — fire the remaining missiles at a wave or tower before backing instead of letting them sit unused.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Practice the <strong>package combo</strong>: when <strong>Special Delivery</strong> activates (the auto-W upgrade Corki receives once he reaches the edge of a fountain or recall area), the dash range becomes massive and the trail damage spikes. Time recalls so the package is up before a Drake or Rift Herald fight — your engage range jumps from a normal W to a teamfight-changing flank from across river or a wall. Even a missed package W is a free reposition behind the enemy back line.</p>",
+    "content_html_pre": "<h2>Overview</h2>\n<p>Corki bot is a hybrid marksman who plays the lane like a mage-carry: he pokes with <strong>Missile Barrage (R)</strong> at 1225 units, last-hits and harasses with <strong>Phosphorus Bomb (Q)</strong>, and once <strong>Trinity Force</strong> plus <strong>Manamune</strong> are stacked he carries late teamfights with auto-attacks that deal a portion as true damage thanks to <strong>Hextech Munitions (P)</strong>. The role suits him because a support can buy him the early time he needs to scale and can peel divers (protect the carry from enemies trying to reach him) while he commits his single dash, <strong>Valkyrie (W)</strong>, only on real opportunities.</p>\n<p>Game plan in one line: trade R + Q from max range to chip the opposing 2v2 down, never burn W without a follow-up, and ramp into a late-game where Manamune-empowered autos plus R Big Ones one-shot squishy targets at the back line.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> Doran's Blade + Health Potion. The blade lifesteal pairs with auto-attack passive and survives the early Q + auto trades better than Doran's Ring for an ADC.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> <strong>Trinity Force</strong> — Sheen procs every Q and every R missile, plus AD, attack speed, ability haste, and movement speed. Single biggest power spike on the champion.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3004.png\" alt=\"Manamune\"> <strong>Manamune</strong> — stacks into Muramana through R spam in lane; once stacked you deal bonus damage on every auto-attack and ability that costs mana, doubling teamfight output.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> — flat attack speed compounds with Trinity and the on-hit true damage from passive. Default boot for a bot Corki.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3094.png\" alt=\"Rapid Firecannon\"> <strong>Rapid Firecannon</strong> — energized auto on engage gives extra range plus burst, and the crit chance fits the Trinity stat profile.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3046.png\" alt=\"Phantom Dancer\"> <strong>Phantom Dancer</strong> — attack speed plus crit for sustained DPS through <strong>Gatling Gun (E)</strong> and the on-hit true damage from passive.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3036.png\" alt=\"Lord Dominik&#x27;s Regards\"> <strong>Lord Dominik's Regards</strong> — vs a front line with 2+ tanks (Sion, Ornn, Maokai): heavy armor penetration so sustained DPS still cuts through.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3033.png\" alt=\"Mortal Reminder\"> <strong>Mortal Reminder</strong> — vs healing-stacking comps (Soraka, Aatrox, Vladimir): applies grievous wounds that cut their healing in half.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — vs heavy AP burst threats (Brand support, Syndra mid): the magic shield absorbs one full combo and lets you W out.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3139.png\" alt=\"Mercurial Scimitar\"> <strong>Mercurial Scimitar</strong> — vs single-target lockdown ultimates (Malzahar R, Skarner R, Mordekaiser R): the active cleanses the suppression that would otherwise delete you.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> is default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> if the enemy team has 3+ AD threats focusing you in fights.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (poke, waveclear, magic damage), <strong>E</strong> second (DPS plus armor and magic resist shred), <strong>W</strong> last (utility). Take a point in <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Precision</strong> with <strong>Fleet Footwork</strong>, <strong>Triumph</strong>, <strong>Legend: Alacrity</strong>, <strong>Coup de Grace</strong>. Secondary <strong>Inspiration</strong> with <strong>Magical Footwear</strong> and <strong>Cosmic Insight</strong>, or <strong>Sorcery</strong> with <strong>Manaflow Band</strong> and <strong>Gathering Storm</strong> into heavy poke lanes.</p>",
+    "content_html_post": "<h2>Key matchups</h2>\n<ul>\n<li><strong>Caitlyn:</strong> Out-range threat. Stay behind minions to deny her trap setups, dodge her Q line by side-stepping at the cast indicator, and never approach a wall where Q ricochets gain bonus damage. Save W to escape her R execute when low.</li>\n<li><strong>Draven:</strong> Hardest early. He out-trades you levels 1-5 and snowballs off lane kills. Concede CS to stay alive, ping for jungle gank windows when his Spinning Axes drop, and never trade into a passing axe.</li>\n<li><strong>Lucian:</strong> He wants to pass-through with E onto you. Q him when he commits the dash so the slow plus your support's CC turns the trade against him. Never auto-trade at melee range; his passive double-shot bursts past your true-damage advantage.</li>\n<li><strong>Jhin + Lulu / Senna + Tahm:</strong> Long-range disengage lanes. You have to win the level 6 all-in or stall until <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> <strong>Trinity Force</strong>. Push the wave with Q + auto-attacks and look for a R + W gank setup with your jungler.</li>\n<li><strong>Samira:</strong> All-in oppressor at level 6. Buy <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3139.png\" alt=\"Mercurial Scimitar\"> <strong>Mercurial Scimitar</strong> if her R lands once on your team — the active cleanse breaks her chain. Pre-6 you can match her in trades; post-6 disengage with W until your own R Big Ones outdamage her ramp.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2:</strong> With Q + W or Q + E, you can punish a bad enemy positioning with a Q-AA-AA trade and follow up with W if the enemy support is committed forward.</li>\n<li><strong>Level 6:</strong> First <strong>Missile Barrage (R)</strong> unlocks the all-in. With R stocks plus Trinity Force soon arriving, a Q-AA-R-R-R combo plus support CC kills most ADCs at low HP.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> Trinity Force completion (~ minute 13-15):</strong> Sheen procs on every Q and every R missile turn poke into kill threat. This is the moment to all-in or to take a Drake fight if vision is clean.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3004.png\" alt=\"Manamune\"> Manamune stacked (~ minute 18-22):</strong> Muramana adds bonus damage on every mana-spending action; teamfight damage roughly doubles compared to pre-stack. Force objective fights here.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Spamming R off cooldown for waveclear.</strong> R missiles are a finite stock; if you empty them on minions, the next teamfight you have zero burst at the worst moment. Push waves with Q + auto-attacks; save 4+ missiles for objectives.</li>\n<li><strong>Using W aggressively without a follow-up.</strong> W is your only escape. Dashing in to finish a kill that needed one more auto-attack is how Corki dies — if you cannot kill them with your remaining mana plus current cooldowns, do not commit (do not engage fully).</li>\n<li><strong>Auto-trading at melee range without support follow-up.</strong> Corki's true-damage passive looks tempting up close, but his HP pool is squishy (low and fragile). Stay at R range when the enemy support has hard CC up.</li>\n<li><strong>Rushing <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3031.png\" alt=\"Infinity Edge\"> Infinity Edge as a 2nd item.</strong> Infinity Edge needs a high crit chance to function, and Corki's first three items (Trinity, Manamune, Berserker's) give very little crit. Stick to the Trinity → Manamune → Rapid Firecannon → Phantom Dancer order; only consider Infinity Edge as a 5th or 6th item.</li>\n<li><strong>Recalling without using R stocks.</strong> Stocks reset on death but persist on recall — fire the remaining missiles at a wave or tower before backing instead of letting them sit unused.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Practice the <strong>package combo</strong>: when <strong>Special Delivery</strong> activates (the auto-W upgrade Corki receives once he reaches the edge of a fountain or recall area), the dash range becomes massive and the trail damage spikes. Time recalls so the package is up before a Drake or Rift Herald fight — your engage range jumps from a normal W to a teamfight-changing flank from across river or a wall. Even a missed package W is a free reposition behind the enemy back line.</p>",
+    "word_count": 1097,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "ashe-bot",
+        "champion": "ashe",
+        "role": "bot"
+      },
+      {
+        "slug": "caitlyn-bot",
+        "champion": "caitlyn",
+        "role": "bot"
+      },
+      {
+        "slug": "draven-bot",
+        "champion": "draven",
+        "role": "bot"
+      },
+      {
+        "slug": "ezreal-bot",
+        "champion": "ezreal",
+        "role": "bot"
+      },
+      {
+        "slug": "jhin-bot",
+        "champion": "jhin",
+        "role": "bot"
+      }
+    ],
+    "champion_key": "42"
+  },
+  {
+    "slug": "corki-mid",
+    "title": "Corki Mid Build & Guide — Patch 16.9",
+    "language": "en",
+    "patch": "16.9",
+    "champion": "corki",
+    "role": "mid",
+    "last_updated": "2026-05-02",
+    "description": "Corki mid lane guide for League of Legends Patch 16.9: hybrid marksman build, runes, key matchups, power spikes, common mistakes, and an advanced tip.",
+    "quick_learn": {
+      "champion_dd_id": "Corki",
+      "difficulty": 3,
+      "damage_type": "mixed",
+      "champion_class": "Marksman / Hybrid",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Hextech Munitions",
+          "description": "Basic attacks deal a portion of their damage as bonus true damage. Steady DPS source that ignores armor and magic resist — your reason for stacking attack speed and on-hit items.",
+          "dd_spell_id": "Corki_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Phosphorus Bomb",
+          "description": "Targeted area magic damage that briefly reveals enemies inside. Used for last-hits when zoned, brush checks, and the opening of every poke trade.",
+          "dd_spell_id": "PhosphorusBomb"
+        },
+        {
+          "key": "W",
+          "name": "Valkyrie",
+          "description": "Short dash leaving a fire trail. Your only mobility tool — escape, gap-close, or skillshot dodge. Long cooldown, do not waste it for waveclear.",
+          "dd_spell_id": "CarpetBomb"
+        },
+        {
+          "key": "E",
+          "name": "Gatling Gun",
+          "description": "Channeled cone in front of Corki dealing damage and shredding armor and magic resist. Adds steady DPS and softens targets for follow-up R missiles.",
+          "dd_spell_id": "GGun"
+        },
+        {
+          "key": "R",
+          "name": "Missile Barrage",
+          "description": "Long-range missile that explodes on impact. Stocks up to 7 missiles; every 3rd is a Big One with extra burst. Your main poke and execute tool.",
+          "dd_spell_id": "MissileBarrage"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "W"
+        },
+        {
+          "level": 3,
+          "key": "E"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "3078",
+          "name": "Trinity Force"
+        },
+        {
+          "dd_id": "3004",
+          "name": "Manamune"
+        },
+        {
+          "dd_id": "3020",
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "dd_id": "3094",
+          "name": "Rapid Firecannon"
+        },
+        {
+          "dd_id": "3046",
+          "name": "Phantom Dancer"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass",
+          "against": "vs assassins with multi-dash kits (Zed, Akali, Talon): the stasis stalls their burst combo so your team or W can save you"
+        },
+        {
+          "dd_id": "3036",
+          "name": "Lord Dominik's Regards",
+          "against": "vs an enemy front line with 2+ tanks (Sion, Ornn, Maokai): adds heavy armor penetration so your autos and R missiles still cut through"
+        },
+        {
+          "dd_id": "3156",
+          "name": "Maw of Malmortius",
+          "against": "vs heavy AP burst threats (LeBlanc, Veigar, Syndra): the magic shield absorbs one full combo and lets you W out"
+        },
+        {
+          "dd_id": "3111",
+          "name": "Mercury's Treads",
+          "against": "vs teams with 3+ hard CC (stuns, roots): swap shoes when chain CC matters more than magic penetration"
+        }
+      ],
+      "base_combo": [
+        "Q",
+        "AA",
+        "R",
+        "E",
+        "AA"
+      ],
+      "win_condition": "Scale safely behind minions to Trinity Force and Manamune, then chip squishies down with R poke from max range. Pick off targets stranded mid-rotation while your team holds objective windows.",
+      "weakness": "Squishy with no escape beyond W. Mobile assassins with multiple gap-closers run you over before two items, and projectile-blocking abilities (Yasuo Wind Wall, Braum E) shut down poke.",
+      "runes": {
+        "primary_tree": "Inspiration",
+        "primary_tree_dd_id": 8300,
+        "keystone": {
+          "dd_id": 8369,
+          "name": "First Strike",
+          "icon_path": "perk-images/Styles/Inspiration/FirstStrike/FirstStrike.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 8304,
+            "name": "Magical Footwear",
+            "icon_path": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png"
+          },
+          {
+            "dd_id": 8345,
+            "name": "Biscuit Delivery",
+            "icon_path": "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png"
+          },
+          {
+            "dd_id": 8347,
+            "name": "Cosmic Insight",
+            "icon_path": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png"
+          }
+        ],
+        "secondary_tree": "Sorcery",
+        "secondary_tree_dd_id": 8200,
+        "secondary_slots": [
+          {
+            "dd_id": 8226,
+            "name": "Manaflow Band",
+            "icon_path": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "dd_id": 8236,
+            "name": "Gathering Storm",
+            "icon_path": "perk-images/Styles/Sorcery/GatheringStorm/GatheringStorm.png"
+          }
+        ],
+        "stat_shards": [
+          "Adaptive Force",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Inspiration primary: First Strike rewards Corki for opening every trade with Q or R, turning that initial damage into bonus gold that funds the greedy Trinity + Manamune build. Magical Footwear, Biscuit Delivery and Cosmic Insight extend early sustain so you scale without dying.",
+        "secondary_rationale": "Sorcery secondary: Manaflow Band is mandatory because R missiles cost mana and you spam them in lane; Gathering Storm gives free AP scaling that pads the bonus magic damage on Q and the Big One missile in the late game.",
+        "secondary_alternative": "If you face a heavy poke lane (Xerath, Vel'Koz, Zoe) where you cannot afford to fall behind in HP, swap Sorcery for Resolve with Second Wind (passive HP regen under harass) and Overgrowth (max HP scaling) for safer scaling."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "veigar",
+            "anivia",
+            "karthus",
+            "cassiopeia"
+          ],
+          "archetype": "Immobile mages without dash",
+          "reason": "Corki's R reaches 1225 units and his W gives him the only mobility advantage in the lane. Targets without a dash or stealth eat repeated R poke and cannot punish the windows where W is on cooldown."
+        },
+        {
+          "examples": [
+            "xerath",
+            "vel-koz"
+          ],
+          "archetype": "Artillery mages with channel windups",
+          "reason": "Corki matches their range with R while also having a dash to interrupt long channels (Xerath R, Vel'Koz R). They cannot all-in him, and trades favor the side with mobility."
+        },
+        {
+          "examples": [
+            "annie",
+            "syndra"
+          ],
+          "archetype": "Short-range burst mages",
+          "reason": "Their kill threat starts inside auto-attack range, exactly where Corki's true-damage passive plus Trinity Force outscales them. Pre-6 you out-poke with R, post-6 you side-step their stun with W."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "zed",
+            "talon",
+            "akali",
+            "qiyana"
+          ],
+          "archetype": "Mobile assassins with multiple gap-closers",
+          "reason": "Corki has only one dash (W) on a long cooldown. Multi-dash kits enter his cast range before W is back up and burst him through Trinity HP, especially before two items."
+        },
+        {
+          "examples": [
+            "yasuo",
+            "yone"
+          ],
+          "archetype": "Wind Wall projectile blockers",
+          "reason": "Wind Wall eats Q and the entire R missile barrage, removing two thirds of Corki's damage from the trade. Even when he wins HP, the trade cost in cooldowns is brutal."
+        },
+        {
+          "examples": [
+            "fizz",
+            "kassadin"
+          ],
+          "archetype": "Untargetable / blink-based escapes",
+          "reason": "Fizz E and Kassadin R let them dodge a committed combo and then re-engage on Corki when his W is down. He has no follow-up burst once they go untargetable."
+        }
+      ]
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Corki is a hybrid marksman who plays mid lane like a long-range artillery carry: he scales on items, pokes with <strong>Missile Barrage (R)</strong> from outside enemy auto range, and finishes squishy targets with auto-attacks once <strong>Trinity Force</strong> is online. His <strong>Hextech Munitions (P)</strong> turns a portion of every basic attack into true damage, so attack speed and on-hit stats matter as much as raw AD or AP. He is in mid because the two-way river ganks favour his <strong>Valkyrie (W)</strong> dash and because R missiles can poke side lanes from the centre of the map.</p>\n<p>Game plan in one line: stack mana on Manamune, push waves with <strong>Phosphorus Bomb (Q)</strong> and R, and spend every cooldown window pressing the enemy laner's HP bar so your jungler can dive on a follow-up. Skill expression sits in R aim (lead the target, Big One missile timing) and W usage (you have a single dash; misuse it and any assassin walks you down).</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> Doran's Blade + Health Potion. The blade gives lifesteal that pairs with auto-attack passive; skip Doran's Ring unless you face a pure poke lane where mana sustain matters more than dueling.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> <strong>Trinity Force</strong> — Sheen procs every Q and every R missile, plus AD, attack speed, ability haste, and movement speed. Single biggest power spike on the champion.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3004.png\" alt=\"Manamune\"> <strong>Manamune</strong> — stacks into Muramana through R spam in lane; once stacked you deal bonus damage on every auto-attack and ability that costs mana, including each missile.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — flat magic penetration boosts Q and R damage, the part of your kit the opponent's MR actually mitigates.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3094.png\" alt=\"Rapid Firecannon\"> <strong>Rapid Firecannon</strong> — energized auto on engage gives extra range plus burst, and the crit chance fits the Trinity stat profile.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3046.png\" alt=\"Phantom Dancer\"> <strong>Phantom Dancer</strong> — attack speed for sustained DPS through <strong>Gatling Gun (E)</strong> and the on-hit true damage from passive.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — vs assassins with multi-dash kits (Zed, Akali, Talon): the stasis stalls their burst window so your team or W can save you.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3036.png\" alt=\"Lord Dominik&#x27;s Regards\"> <strong>Lord Dominik's Regards</strong> — vs a front line with 2+ tanks (Sion, Ornn, Maokai): heavy armor penetration so autos and R missiles still cut through.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — vs heavy AP burst (LeBlanc, Veigar, Syndra): the magic shield absorbs one full combo and lets you W out.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — swap from Sorcerer's when the enemy team has 3+ hard CC abilities (stuns, roots) and chain CC matters more than magic penetration.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> is default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> if the team comp is heavy CC.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (poke and waveclear), <strong>E</strong> second (DPS and resistance shred), <strong>W</strong> last (utility). Take a point in <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Inspiration</strong> with <strong>First Strike</strong>, <strong>Magical Footwear</strong>, <strong>Biscuit Delivery</strong>, <strong>Cosmic Insight</strong>. Secondary <strong>Sorcery</strong> with <strong>Manaflow Band</strong> and <strong>Gathering Storm</strong>, or <strong>Resolve</strong> with <strong>Second Wind</strong> and <strong>Overgrowth</strong> into heavy poke lanes.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Yasuo / Yone:</strong> They block your Q and R missiles with Wind Wall. Save Q until they push their abilities, hold R for after Wind Wall is on cooldown, and never trade into a melee range where they can E onto minions next to you.</li>\n<li><strong>Akali / Zed:</strong> Diving threats. Buy <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> after Trinity Force; never burn W in a trade if their dash chain is still up.</li>\n<li><strong>Veigar:</strong> Match the range with R, dodge his W (a slow expanding cage trap that locks you in place), and avoid auto-trades inside his E ring (a stun ring that triggers when you cross it). His Q stacks scale infinitely, so end the lane before minute 25.</li>\n<li><strong>Twisted Fate:</strong> Roam priority race. Push the wave with Q before he hits level 6, ping the enemy jungler when his R is up, and W away from a gold-card target instead of trying to face-tank the stun.</li>\n<li><strong>Galio:</strong> Punish him pre-6 by pushing the wave he cannot match with melee minion last-hits. Post-6 his R is a global engage tool — group with your team only when you have R missiles stocked to peel his arrival.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2:</strong> With Q + W or Q + E, you can punish a missed last-hit with a Q-AA-AA trade and either disengage with W or follow up if their Flash is down.</li>\n<li><strong>Level 6:</strong> First <strong>Missile Barrage (R)</strong> unlocks side-lane pressure. With R stocks plus W, you can roam to bot, drop two missiles plus a Big One on a 1v1 trade, and W back to wave.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> Trinity Force completion (~ minute 12-14):</strong> Sheen procs on every Q and every R missile turn poke into kill threat. This is the moment to all-in a low-HP enemy laner with Q-AA-R-AA.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3004.png\" alt=\"Manamune\"> Manamune stacked (~ minute 18-22):</strong> Muramana adds bonus damage on every mana-spending action; team fight damage roughly doubles compared to pre-stack. Force objective fights here.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Spamming R off cooldown for waveclear.</strong> R missiles are a finite stock; if you empty them on minions, the next teamfight you have zero burst at the worst moment. Push waves with Q + auto-attacks; save 4+ missiles for objectives.</li>\n<li><strong>Using W aggressively without a follow-up.</strong> W is your only escape. Dashing in to finish a kill that needed one more auto-attack is how Corki dies — if you cannot kill them with your remaining mana plus current cooldowns, do not commit (do not engage fully).</li>\n<li><strong>Auto-trading at melee range.</strong> Corki's true-damage passive looks tempting up close, but his HP pool is squishy (low and fragile, like an ADC). Stay at R range when the enemy laner has gap-closers up.</li>\n<li><strong>Buying <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> Sorcerer's Shoes into a CC-heavy team.</strong> Magic penetration is wasted if you spend the fight stunned. Default to Sorcerer's only when their CC count is low; otherwise swap to Mercury's Treads.</li>\n<li><strong>Roaming with empty R stocks.</strong> A roam without 2 missiles is a coin flip. Wait the 8-12 seconds for stocks before crossing river; that single delay is the difference between a kill and giving up your wave for nothing.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Practice the <strong>package combo</strong>: when <strong>Special Delivery</strong> activates (the auto-W upgrade Corki receives once he reaches the edge of a fountain or recall area), the dash range becomes massive and the trail damage spikes. Time recalls so the package is up before a key objective — your engage range jumps from a normal W to a teamfight-changing flank from across the river. Even a missed W with package up is a free reposition behind the enemy back line.</p>",
+    "content_html_pre": "<h2>Overview</h2>\n<p>Corki is a hybrid marksman who plays mid lane like a long-range artillery carry: he scales on items, pokes with <strong>Missile Barrage (R)</strong> from outside enemy auto range, and finishes squishy targets with auto-attacks once <strong>Trinity Force</strong> is online. His <strong>Hextech Munitions (P)</strong> turns a portion of every basic attack into true damage, so attack speed and on-hit stats matter as much as raw AD or AP. He is in mid because the two-way river ganks favour his <strong>Valkyrie (W)</strong> dash and because R missiles can poke side lanes from the centre of the map.</p>\n<p>Game plan in one line: stack mana on Manamune, push waves with <strong>Phosphorus Bomb (Q)</strong> and R, and spend every cooldown window pressing the enemy laner's HP bar so your jungler can dive on a follow-up. Skill expression sits in R aim (lead the target, Big One missile timing) and W usage (you have a single dash; misuse it and any assassin walks you down).</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> Doran's Blade + Health Potion. The blade gives lifesteal that pairs with auto-attack passive; skip Doran's Ring unless you face a pure poke lane where mana sustain matters more than dueling.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> <strong>Trinity Force</strong> — Sheen procs every Q and every R missile, plus AD, attack speed, ability haste, and movement speed. Single biggest power spike on the champion.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3004.png\" alt=\"Manamune\"> <strong>Manamune</strong> — stacks into Muramana through R spam in lane; once stacked you deal bonus damage on every auto-attack and ability that costs mana, including each missile.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — flat magic penetration boosts Q and R damage, the part of your kit the opponent's MR actually mitigates.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3094.png\" alt=\"Rapid Firecannon\"> <strong>Rapid Firecannon</strong> — energized auto on engage gives extra range plus burst, and the crit chance fits the Trinity stat profile.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3046.png\" alt=\"Phantom Dancer\"> <strong>Phantom Dancer</strong> — attack speed for sustained DPS through <strong>Gatling Gun (E)</strong> and the on-hit true damage from passive.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — vs assassins with multi-dash kits (Zed, Akali, Talon): the stasis stalls their burst window so your team or W can save you.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3036.png\" alt=\"Lord Dominik&#x27;s Regards\"> <strong>Lord Dominik's Regards</strong> — vs a front line with 2+ tanks (Sion, Ornn, Maokai): heavy armor penetration so autos and R missiles still cut through.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — vs heavy AP burst (LeBlanc, Veigar, Syndra): the magic shield absorbs one full combo and lets you W out.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — swap from Sorcerer's when the enemy team has 3+ hard CC abilities (stuns, roots) and chain CC matters more than magic penetration.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> is default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> if the team comp is heavy CC.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (poke and waveclear), <strong>E</strong> second (DPS and resistance shred), <strong>W</strong> last (utility). Take a point in <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Inspiration</strong> with <strong>First Strike</strong>, <strong>Magical Footwear</strong>, <strong>Biscuit Delivery</strong>, <strong>Cosmic Insight</strong>. Secondary <strong>Sorcery</strong> with <strong>Manaflow Band</strong> and <strong>Gathering Storm</strong>, or <strong>Resolve</strong> with <strong>Second Wind</strong> and <strong>Overgrowth</strong> into heavy poke lanes.</p>",
+    "content_html_post": "<h2>Key matchups</h2>\n<ul>\n<li><strong>Yasuo / Yone:</strong> They block your Q and R missiles with Wind Wall. Save Q until they push their abilities, hold R for after Wind Wall is on cooldown, and never trade into a melee range where they can E onto minions next to you.</li>\n<li><strong>Akali / Zed:</strong> Diving threats. Buy <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> after Trinity Force; never burn W in a trade if their dash chain is still up.</li>\n<li><strong>Veigar:</strong> Match the range with R, dodge his W (a slow expanding cage trap that locks you in place), and avoid auto-trades inside his E ring (a stun ring that triggers when you cross it). His Q stacks scale infinitely, so end the lane before minute 25.</li>\n<li><strong>Twisted Fate:</strong> Roam priority race. Push the wave with Q before he hits level 6, ping the enemy jungler when his R is up, and W away from a gold-card target instead of trying to face-tank the stun.</li>\n<li><strong>Galio:</strong> Punish him pre-6 by pushing the wave he cannot match with melee minion last-hits. Post-6 his R is a global engage tool — group with your team only when you have R missiles stocked to peel his arrival.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2:</strong> With Q + W or Q + E, you can punish a missed last-hit with a Q-AA-AA trade and either disengage with W or follow up if their Flash is down.</li>\n<li><strong>Level 6:</strong> First <strong>Missile Barrage (R)</strong> unlocks side-lane pressure. With R stocks plus W, you can roam to bot, drop two missiles plus a Big One on a 1v1 trade, and W back to wave.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> Trinity Force completion (~ minute 12-14):</strong> Sheen procs on every Q and every R missile turn poke into kill threat. This is the moment to all-in a low-HP enemy laner with Q-AA-R-AA.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3004.png\" alt=\"Manamune\"> Manamune stacked (~ minute 18-22):</strong> Muramana adds bonus damage on every mana-spending action; team fight damage roughly doubles compared to pre-stack. Force objective fights here.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Spamming R off cooldown for waveclear.</strong> R missiles are a finite stock; if you empty them on minions, the next teamfight you have zero burst at the worst moment. Push waves with Q + auto-attacks; save 4+ missiles for objectives.</li>\n<li><strong>Using W aggressively without a follow-up.</strong> W is your only escape. Dashing in to finish a kill that needed one more auto-attack is how Corki dies — if you cannot kill them with your remaining mana plus current cooldowns, do not commit (do not engage fully).</li>\n<li><strong>Auto-trading at melee range.</strong> Corki's true-damage passive looks tempting up close, but his HP pool is squishy (low and fragile, like an ADC). Stay at R range when the enemy laner has gap-closers up.</li>\n<li><strong>Buying <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> Sorcerer's Shoes into a CC-heavy team.</strong> Magic penetration is wasted if you spend the fight stunned. Default to Sorcerer's only when their CC count is low; otherwise swap to Mercury's Treads.</li>\n<li><strong>Roaming with empty R stocks.</strong> A roam without 2 missiles is a coin flip. Wait the 8-12 seconds for stocks before crossing river; that single delay is the difference between a kill and giving up your wave for nothing.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Practice the <strong>package combo</strong>: when <strong>Special Delivery</strong> activates (the auto-W upgrade Corki receives once he reaches the edge of a fountain or recall area), the dash range becomes massive and the trail damage spikes. Time recalls so the package is up before a key objective — your engage range jumps from a normal W to a teamfight-changing flank from across the river. Even a missed W with package up is a free reposition behind the enemy back line.</p>",
+    "word_count": 1091,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "ahri-mid",
+        "champion": "ahri",
+        "role": "mid"
+      },
+      {
+        "slug": "akali-mid",
+        "champion": "akali",
+        "role": "mid"
+      },
+      {
+        "slug": "akshan-mid",
+        "champion": "akshan",
+        "role": "mid"
+      },
+      {
+        "slug": "annie-mid",
+        "champion": "annie",
+        "role": "mid"
+      },
+      {
+        "slug": "lux-mid",
+        "champion": "lux",
+        "role": "mid"
+      }
+    ],
+    "champion_key": "42"
+  },
+  {
     "slug": "darius-top",
     "title": "Darius Top Build & Guide — Patch 16.9",
     "language": "en",

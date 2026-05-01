@@ -31,6 +31,7 @@ export const INLINE_SCRIPT_HASHES: readonly string[] = [
   'sha256-2PYwvrNsR1y60/M+PSV9Kul5lWffd3L02ZLzj5LSysM=',
   'sha256-2rL0plaFr89WLUkUtrKd0skxao3w0YVKLt/3z+nKdL0=',
   'sha256-2zQRdFeATgdTuK17CP1Kz+tH8EbSlPoa6+Cz2NnH1cg=',
+  'sha256-4/lWWSWAmUu631+V2O59Y2u9Xi+SDF5dt06K2udSUBg=',
   'sha256-4CYpKkCSZ6S7rqRCCB4UJpwfGWcH2EWT10XJhTXcILo=',
   'sha256-5JINm2ZFra3bBPs1CiVqlfC+JeWTW8IgaR17w136E+c=',
   'sha256-5P9mSS9kNf0IYml0Z/7ilNPY5pKebQ3HlZRLDc4Y40s=',
@@ -116,5 +117,4 @@ export const INLINE_SCRIPT_HASHES: readonly string[] = [
   'sha256-wsMgEJotStsLo1Qbp/iHoTJhD6VS8yV9hyw9Ex0IsL4=',
   'sha256-x6LattqRqCe+zIsqBWyojT4iGxKGnlj+/QKvNcWtLMM=',
   'sha256-x8N+G2fVNQ1IL2CpX1/iqP6nMTn09wlTGnPdK+oY31U=',
-  'sha256-xg1d1plKky90c5x9bpWPbA+mBR4RhvfSWXZl8RRzJBs=',
 ] as const;

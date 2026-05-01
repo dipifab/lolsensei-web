@@ -7074,6 +7074,637 @@ export const itChampions: ChampionGuide[] = [
     "champion_key": "51"
   },
   {
+    "slug": "corki-bot",
+    "title": "Corki Bot: Build e Guida — Patch 16.9",
+    "language": "it",
+    "patch": "16.9",
+    "champion": "corki",
+    "role": "bot",
+    "last_updated": "2026-05-02",
+    "description": "Guida completa di Corki bot lane per League of Legends Patch 16.9: build ADC ibrido, runes, matchup 2v2 chiave, power spike, errori comuni, advanced tip.",
+    "quick_learn": {
+      "champion_dd_id": "Corki",
+      "difficulty": 3,
+      "damage_type": "mixed",
+      "champion_class": "Marksman / Hybrid",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Hextech Munitions",
+          "description": "Una parte del danno degli auto-attack diventa true damage. DPS costante che ignora armor e magic resist — motivo per cui costruisci attack speed e on-hit.",
+          "dd_spell_id": "Corki_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Phosphorus Bomb",
+          "description": "Bomba a area che fa danno magico e rivela brevemente i nemici. Serve per last-hit quando sei zonato, per checkare i bush, e per aprire ogni trade in lane.",
+          "dd_spell_id": "PhosphorusBomb"
+        },
+        {
+          "key": "W",
+          "name": "Valkyrie",
+          "description": "Dash breve che lascia una scia di fuoco. È la tua unica mobilità: usalo per fuga, gap-close o per schivare uno skillshot. Non sprecarlo per waveclear.",
+          "dd_spell_id": "CarpetBomb"
+        },
+        {
+          "key": "E",
+          "name": "Gatling Gun",
+          "description": "Cono channellato davanti a Corki: fa danno e riduce armor e magic resist dei nemici colpiti. Aggiunge DPS sostenuto e ammorbidisce i tank per le R missile.",
+          "dd_spell_id": "GGun"
+        },
+        {
+          "key": "R",
+          "name": "Missile Barrage",
+          "description": "Missile a lunga gittata che esplode ad area. Accumuli fino a 7 cariche; ogni terza è una Big One con burst extra. Tuo poke principale ed execute.",
+          "dd_spell_id": "MissileBarrage"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "W"
+        },
+        {
+          "level": 3,
+          "key": "E"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "3078",
+          "name": "Trinity Force"
+        },
+        {
+          "dd_id": "3004",
+          "name": "Manamune"
+        },
+        {
+          "dd_id": "3006",
+          "name": "Berserker's Greaves"
+        },
+        {
+          "dd_id": "3094",
+          "name": "Rapid Firecannon"
+        },
+        {
+          "dd_id": "3046",
+          "name": "Phantom Dancer"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3036",
+          "name": "Lord Dominik's Regards",
+          "against": "contro front line con 2+ tank (Sion, Ornn, Maokai): aggiunge armor pen pesante per bucare con DPS sostenuto"
+        },
+        {
+          "dd_id": "3033",
+          "name": "Mortal Reminder",
+          "against": "contro comp che stackano healing (Soraka, Aatrox, Vladimir, Dr. Mundo): applica grievous wounds e dimezza il loro heal"
+        },
+        {
+          "dd_id": "3156",
+          "name": "Maw of Malmortius",
+          "against": "contro burst AP forti (Brand support, Veigar, Syndra mid): lo scudo magico assorbe una full combo e ti permette di W via"
+        },
+        {
+          "dd_id": "3139",
+          "name": "Mercurial Scimitar",
+          "against": "contro ulti single-target che ti lockano (Malzahar R, Skarner R, Mordekaiser R): l'active cleansa la suppression che altrimenti ti deletta"
+        }
+      ],
+      "base_combo": [
+        "Q",
+        "AA",
+        "R",
+        "AA",
+        "E"
+      ],
+      "win_condition": "Sopravvivi al 2v2 fino a due item con poke R e sustain di Q, poi carrya i teamfight late con auto Manamune-stacked e R Big Ones dalla back line.",
+      "weakness": "Squishy con un solo dash. Lane early aggressive (Draven, Lucian + engage support) lo shovano off CS prima di Trinity, e gli ability anti-projectile (Yasuo Wind Wall, Braum E) annullano il poke.",
+      "runes": {
+        "primary_tree": "Precision",
+        "primary_tree_dd_id": 8000,
+        "keystone": {
+          "dd_id": 8021,
+          "name": "Fleet Footwork",
+          "icon_path": "perk-images/Styles/Precision/FleetFootwork/FleetFootwork.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 9111,
+            "name": "Triumph",
+            "icon_path": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "dd_id": 9104,
+            "name": "Legend: Alacrity",
+            "icon_path": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
+          },
+          {
+            "dd_id": 8014,
+            "name": "Coup de Grace",
+            "icon_path": "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png"
+          }
+        ],
+        "secondary_tree": "Inspiration",
+        "secondary_tree_dd_id": 8300,
+        "secondary_slots": [
+          {
+            "dd_id": 8304,
+            "name": "Magical Footwear",
+            "icon_path": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png"
+          },
+          {
+            "dd_id": 8347,
+            "name": "Cosmic Insight",
+            "icon_path": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png"
+          }
+        ],
+        "stat_shards": [
+          "Attack Speed",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Precision primary: Fleet Footwork procca sugli auto (che Corki spamma grazie al true damage della passive) dando heal + burst di movimento — il sustain che serve a un 2v2 lungo. Triumph e Coup de Grace chiudono i kill, Legend: Alacrity dà attack speed per DPS sostenuto.",
+        "secondary_rationale": "Inspiration secondary: Magical Footwear ritarda l'acquisto di boots ma ti dà stat altrove prima; Cosmic Insight aggiunge cooldown reduction sui summoner (Flash e Heal più frequenti), che è la leva di sopravvivenza più grossa nel 2v2 bot.",
+        "secondary_alternative": "Contro lane di poke pesante (Caitlyn + Lux, Ezreal + Karma) dove non puoi permetterti il delay di Magical Footwear sui boots, swap Inspiration con Sorcery: Manaflow Band (mana sustain sullo spam di R) e Gathering Storm (AP scaling gratis nel late game su Q e Big One missile)."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "jinx",
+            "twitch",
+            "kog-maw"
+          ],
+          "archetype": "Hypercarry a corto raggio senza fuga",
+          "reason": "Corki li out-ranga pre-Trinity con poke R a 1225 unità e una W che loro non hanno. Devono restare in last-hit range, e Corki li smonta prima del loro power spike da hyper-carry."
+        },
+        {
+          "examples": [
+            "senna",
+            "ezreal"
+          ],
+          "archetype": "ADC di poke statico",
+          "reason": "Range pari, ma Corki ha un dash più una Q ad area istantanea mentre il poke di Senna ed Ezreal è single-projectile. Può W su un minion che ha eaten una Q e ritradare senza committare i cooldown."
+        },
+        {
+          "examples": [
+            "sivir",
+            "ashe"
+          ],
+          "archetype": "ADC senza escape point-and-click",
+          "reason": "Sivir Spell Shield blocca solo una ability — eat la Q e il missile dopo arriva gratis. Ashe non ha dash. Corki snowballa il matchup con repositioning della W che loro non possono rispondere."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "draven",
+            "samira"
+          ],
+          "archetype": "ADC di lethality-burst early-game",
+          "reason": "Out-tradano Corki nei primi 6 livelli e snowballano sulle kill di lane. Corki non li può duellare prima di Trinity, e ogni W usata aggressiva viene punita dai loro pattern di dash-reset."
+        },
+        {
+          "examples": [
+            "lucian",
+            "tristana"
+          ],
+          "archetype": "Lane multi-dash con auto-trade",
+          "reason": "La E di Lucian e la W di Tristana entrano ed escono dall'auto range di Corki a piacimento. Lucian inoltre out-scala il true damage della passive con la sua chain auto-Q nei primi livelli, battendolo dritto prima degli item."
+        },
+        {
+          "examples": [
+            "yasuo",
+            "yone"
+          ],
+          "archetype": "Wind Wall projectile blocker (off-meta bot)",
+          "reason": "Wind Wall mangia la Q e l'intero R missile barrage. Anche se questi champion sono off-meta in bot, il matchup è duro perché due terzi del danno di Corki nel trade evapora."
+        }
+      ]
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Corki bot è un marksman ibrido che gioca la lane come una mage-carry: poka con <strong>Missile Barrage (R)</strong> a 1225 unità, last-hitta e harassa con <strong>Phosphorus Bomb (Q)</strong>, e una volta stacked <strong>Trinity Force</strong> più <strong>Manamune</strong> carrya i teamfight late con auto-attack che fanno una parte come true damage grazie a <strong>Hextech Munitions (P)</strong>. Il ruolo gli si addice perché il support gli compra il tempo iniziale di cui ha bisogno per scalare e può peelare i diver mentre lui committa il suo unico dash, <strong>Valkyrie (W)</strong>, solo su occasioni reali.</p>\n<p>Game plan in una frase: tradare R + Q da max range per smontare l'opposing 2v2, mai bruciare la W senza follow-up, e arrivare a un late game dove auto Manamune-empowered più R Big One one-shottano gli squishy alla back line.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Starting items:</strong> Doran's Blade + Health Potion. Il lifesteal della blade si sposa con la passive di auto-attack e regge meglio i trade Q + auto early rispetto alla Doran's Ring per un ADC.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> <strong>Trinity Force</strong> — Sheen procca su ogni Q e ogni R missile, più AD, attack speed, ability haste e movement speed. Lo spike singolo più grande del champion.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3004.png\" alt=\"Manamune\"> <strong>Manamune</strong> — stacka in Muramana grazie allo spam di R in lane; una volta stacked aggiunge danno bonus su ogni auto e ogni ability che costa mana, raddoppiando l'output teamfight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> — attack speed flat che si combina con Trinity e con il true damage on-hit della passive. Boot di default per Corki bot.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3094.png\" alt=\"Rapid Firecannon\"> <strong>Rapid Firecannon</strong> — auto energized in engage che dà range extra più burst, e il crit chance si sposa col profilo statistico di Trinity.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3046.png\" alt=\"Phantom Dancer\"> <strong>Phantom Dancer</strong> — attack speed più crit per DPS sostenuto su <strong>Gatling Gun (E)</strong> e sul true damage on-hit della passive.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3036.png\" alt=\"Lord Dominik&#x27;s Regards\"> <strong>Lord Dominik's Regards</strong> — contro front line con 2+ tank (Sion, Ornn, Maokai): armor pen pesante per bucare con DPS sostenuto.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3033.png\" alt=\"Mortal Reminder\"> <strong>Mortal Reminder</strong> — contro comp che stackano healing (Soraka, Aatrox, Vladimir): applica grievous wounds e dimezza il loro heal.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — contro burst AP forti (Brand support, Syndra mid): lo scudo magico assorbe una full combo e ti permette di W via.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3139.png\" alt=\"Mercurial Scimitar\"> <strong>Mercurial Scimitar</strong> — contro ulti single-target che ti lockano (Malzahar R, Skarner R, Mordekaiser R): il cleanse attivo rompe la suppression che altrimenti ti deletta.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> è il default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> se l'enemy team ha 3+ threat AD che ti puntano in fight.</p>\n<p><strong>Skill order:</strong> Maxa <strong>Q</strong> per primo (poke, waveclear, danno magico), <strong>E</strong> per secondo (DPS più shred di armor e magic resist), <strong>W</strong> per ultimo (utility). Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Precision</strong> con <strong>Fleet Footwork</strong>, <strong>Triumph</strong>, <strong>Legend: Alacrity</strong>, <strong>Coup de Grace</strong>. Secondary <strong>Inspiration</strong> con <strong>Magical Footwear</strong> e <strong>Cosmic Insight</strong>, oppure <strong>Sorcery</strong> con <strong>Manaflow Band</strong> e <strong>Gathering Storm</strong> contro lane di poke pesante.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Caitlyn:</strong> Out-range threat. Stai dietro i minion per negare i suoi setup di trap, schiva la sua Q a linea side-steppando al cast indicator, e mai avvicinarti a un muro dove il ricochet della Q fa danno bonus. Tieni la W per scappare dalla sua R execute quando sei low.</li>\n<li><strong>Draven:</strong> L'early più duro. Out-trada nei livelli 1-5 e snowballa sulle kill di lane. Concedi CS per stare vivo, pinga le finestre di gank quando le sue Spinning Axes droppano, e mai tradare dentro un'ascia in volo.</li>\n<li><strong>Lucian:</strong> Vuole entrarti addosso con la E. Q lui quando committa il dash così lo slow più il CC del support trasforma il trade in tuo favore. Mai auto-tradare a melee range; il double-shot della passive bursta oltre il vantaggio del true damage.</li>\n<li><strong>Jhin + Lulu / Senna + Tahm:</strong> Lane di disengage a lungo raggio. Devi vincere l'all-in al livello 6 o stallare fino a <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> <strong>Trinity Force</strong>. Pusha la wave con Q + auto e cerca un setup di gank con R + W del jungler.</li>\n<li><strong>Samira:</strong> Oppressore di all-in al livello 6. Compra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3139.png\" alt=\"Mercurial Scimitar\"> <strong>Mercurial Scimitar</strong> se la sua R atterra una volta sola sul team — il cleanse attivo rompe la chain. Pre-6 puoi pareggiarla nei trade; post-6 disengagia con la W finché le tue R Big One non superano il suo ramp di danno.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2:</strong> Con Q + W o Q + E, puoi punire un posizionamento sbagliato del nemico con un trade Q-AA-AA e follow-up W se il support avversario è committato avanti.</li>\n<li><strong>Livello 6:</strong> La prima <strong>Missile Barrage (R)</strong> sblocca l'all-in. Con stock di R più Trinity Force in arrivo, una combo Q-AA-R-R-R più CC del support killa la maggior parte degli ADC a low HP.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> Trinity Force completata (~ minuto 13-15):</strong> Sheen procca su ogni Q e ogni R missile, trasformando il poke in kill threat. È il momento per all-in o per prendere il Drake fight se la vision è pulita.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3004.png\" alt=\"Manamune\"> Manamune stacked (~ minuto 18-22):</strong> Muramana aggiunge danno bonus su ogni azione che costa mana; il danno teamfight raddoppia rispetto al pre-stack. Forza i fight su obiettivo qui.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Spammare R in cooldown per fare waveclear.</strong> Le R sono uno stock finito; se le svuoti sui minion, nel prossimo teamfight hai zero burst nel momento peggiore. Pusha la wave con Q + auto, tieni 4+ missile per gli obiettivi.</li>\n<li><strong>Usare la W aggressiva senza follow-up.</strong> La W è la tua unica fuga. Dasharti dentro per chiudere una kill che richiedeva un altro auto è il modo classico in cui Corki muore — se non puoi killare con il mana e i cooldown rimasti, non committare (non impegnarti totalmente nello scambio).</li>\n<li><strong>Auto-tradare a melee range senza follow-up del support.</strong> Il true damage della passive a corto raggio sembra invitante, ma la pool HP di Corki è squishy (bassa e fragile). Stai a R range quando il support avversario ha hard CC up.</li>\n<li><strong>Rushare <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3031.png\" alt=\"Infinity Edge\"> Infinity Edge come 2° item.</strong> Infinity Edge ha bisogno di crit chance alta per funzionare, e i primi tre item di Corki (Trinity, Manamune, Berserker's) ne danno pochissimo. Tieni l'ordine Trinity → Manamune → Rapid Firecannon → Phantom Dancer; Infinity Edge solo come 5° o 6° item.</li>\n<li><strong>Fare recall con stock di R vuoti.</strong> Gli stock si resettano alla morte ma persistono al recall — sparale tutte su una wave o una torre prima di backare invece di lasciarle inutilizzate.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena la <strong>package combo</strong>: quando si attiva <strong>Special Delivery</strong> (l'upgrade automatico della W che Corki riceve dopo aver toccato il bordo della fontain o del recall point), il dash range diventa enorme e la trail damage spike. Tempa i recall così che il package sia up prima di un fight su Drake o Rift Herald — il tuo engage range salta da una W normale a un flank teamfight-changing dall'altra parte del fiume o di un muro. Anche un package W mancato è un free reposition dietro la back line nemica.</p>",
+    "content_html_pre": "<h2>Panoramica</h2>\n<p>Corki bot è un marksman ibrido che gioca la lane come una mage-carry: poka con <strong>Missile Barrage (R)</strong> a 1225 unità, last-hitta e harassa con <strong>Phosphorus Bomb (Q)</strong>, e una volta stacked <strong>Trinity Force</strong> più <strong>Manamune</strong> carrya i teamfight late con auto-attack che fanno una parte come true damage grazie a <strong>Hextech Munitions (P)</strong>. Il ruolo gli si addice perché il support gli compra il tempo iniziale di cui ha bisogno per scalare e può peelare i diver mentre lui committa il suo unico dash, <strong>Valkyrie (W)</strong>, solo su occasioni reali.</p>\n<p>Game plan in una frase: tradare R + Q da max range per smontare l'opposing 2v2, mai bruciare la W senza follow-up, e arrivare a un late game dove auto Manamune-empowered più R Big One one-shottano gli squishy alla back line.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Starting items:</strong> Doran's Blade + Health Potion. Il lifesteal della blade si sposa con la passive di auto-attack e regge meglio i trade Q + auto early rispetto alla Doran's Ring per un ADC.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> <strong>Trinity Force</strong> — Sheen procca su ogni Q e ogni R missile, più AD, attack speed, ability haste e movement speed. Lo spike singolo più grande del champion.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3004.png\" alt=\"Manamune\"> <strong>Manamune</strong> — stacka in Muramana grazie allo spam di R in lane; una volta stacked aggiunge danno bonus su ogni auto e ogni ability che costa mana, raddoppiando l'output teamfight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> — attack speed flat che si combina con Trinity e con il true damage on-hit della passive. Boot di default per Corki bot.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3094.png\" alt=\"Rapid Firecannon\"> <strong>Rapid Firecannon</strong> — auto energized in engage che dà range extra più burst, e il crit chance si sposa col profilo statistico di Trinity.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3046.png\" alt=\"Phantom Dancer\"> <strong>Phantom Dancer</strong> — attack speed più crit per DPS sostenuto su <strong>Gatling Gun (E)</strong> e sul true damage on-hit della passive.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3036.png\" alt=\"Lord Dominik&#x27;s Regards\"> <strong>Lord Dominik's Regards</strong> — contro front line con 2+ tank (Sion, Ornn, Maokai): armor pen pesante per bucare con DPS sostenuto.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3033.png\" alt=\"Mortal Reminder\"> <strong>Mortal Reminder</strong> — contro comp che stackano healing (Soraka, Aatrox, Vladimir): applica grievous wounds e dimezza il loro heal.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — contro burst AP forti (Brand support, Syndra mid): lo scudo magico assorbe una full combo e ti permette di W via.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3139.png\" alt=\"Mercurial Scimitar\"> <strong>Mercurial Scimitar</strong> — contro ulti single-target che ti lockano (Malzahar R, Skarner R, Mordekaiser R): il cleanse attivo rompe la suppression che altrimenti ti deletta.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> è il default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> se l'enemy team ha 3+ threat AD che ti puntano in fight.</p>\n<p><strong>Skill order:</strong> Maxa <strong>Q</strong> per primo (poke, waveclear, danno magico), <strong>E</strong> per secondo (DPS più shred di armor e magic resist), <strong>W</strong> per ultimo (utility). Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Precision</strong> con <strong>Fleet Footwork</strong>, <strong>Triumph</strong>, <strong>Legend: Alacrity</strong>, <strong>Coup de Grace</strong>. Secondary <strong>Inspiration</strong> con <strong>Magical Footwear</strong> e <strong>Cosmic Insight</strong>, oppure <strong>Sorcery</strong> con <strong>Manaflow Band</strong> e <strong>Gathering Storm</strong> contro lane di poke pesante.</p>",
+    "content_html_post": "<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Caitlyn:</strong> Out-range threat. Stai dietro i minion per negare i suoi setup di trap, schiva la sua Q a linea side-steppando al cast indicator, e mai avvicinarti a un muro dove il ricochet della Q fa danno bonus. Tieni la W per scappare dalla sua R execute quando sei low.</li>\n<li><strong>Draven:</strong> L'early più duro. Out-trada nei livelli 1-5 e snowballa sulle kill di lane. Concedi CS per stare vivo, pinga le finestre di gank quando le sue Spinning Axes droppano, e mai tradare dentro un'ascia in volo.</li>\n<li><strong>Lucian:</strong> Vuole entrarti addosso con la E. Q lui quando committa il dash così lo slow più il CC del support trasforma il trade in tuo favore. Mai auto-tradare a melee range; il double-shot della passive bursta oltre il vantaggio del true damage.</li>\n<li><strong>Jhin + Lulu / Senna + Tahm:</strong> Lane di disengage a lungo raggio. Devi vincere l'all-in al livello 6 o stallare fino a <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> <strong>Trinity Force</strong>. Pusha la wave con Q + auto e cerca un setup di gank con R + W del jungler.</li>\n<li><strong>Samira:</strong> Oppressore di all-in al livello 6. Compra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3139.png\" alt=\"Mercurial Scimitar\"> <strong>Mercurial Scimitar</strong> se la sua R atterra una volta sola sul team — il cleanse attivo rompe la chain. Pre-6 puoi pareggiarla nei trade; post-6 disengagia con la W finché le tue R Big One non superano il suo ramp di danno.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2:</strong> Con Q + W o Q + E, puoi punire un posizionamento sbagliato del nemico con un trade Q-AA-AA e follow-up W se il support avversario è committato avanti.</li>\n<li><strong>Livello 6:</strong> La prima <strong>Missile Barrage (R)</strong> sblocca l'all-in. Con stock di R più Trinity Force in arrivo, una combo Q-AA-R-R-R più CC del support killa la maggior parte degli ADC a low HP.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> Trinity Force completata (~ minuto 13-15):</strong> Sheen procca su ogni Q e ogni R missile, trasformando il poke in kill threat. È il momento per all-in o per prendere il Drake fight se la vision è pulita.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3004.png\" alt=\"Manamune\"> Manamune stacked (~ minuto 18-22):</strong> Muramana aggiunge danno bonus su ogni azione che costa mana; il danno teamfight raddoppia rispetto al pre-stack. Forza i fight su obiettivo qui.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Spammare R in cooldown per fare waveclear.</strong> Le R sono uno stock finito; se le svuoti sui minion, nel prossimo teamfight hai zero burst nel momento peggiore. Pusha la wave con Q + auto, tieni 4+ missile per gli obiettivi.</li>\n<li><strong>Usare la W aggressiva senza follow-up.</strong> La W è la tua unica fuga. Dasharti dentro per chiudere una kill che richiedeva un altro auto è il modo classico in cui Corki muore — se non puoi killare con il mana e i cooldown rimasti, non committare (non impegnarti totalmente nello scambio).</li>\n<li><strong>Auto-tradare a melee range senza follow-up del support.</strong> Il true damage della passive a corto raggio sembra invitante, ma la pool HP di Corki è squishy (bassa e fragile). Stai a R range quando il support avversario ha hard CC up.</li>\n<li><strong>Rushare <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3031.png\" alt=\"Infinity Edge\"> Infinity Edge come 2° item.</strong> Infinity Edge ha bisogno di crit chance alta per funzionare, e i primi tre item di Corki (Trinity, Manamune, Berserker's) ne danno pochissimo. Tieni l'ordine Trinity → Manamune → Rapid Firecannon → Phantom Dancer; Infinity Edge solo come 5° o 6° item.</li>\n<li><strong>Fare recall con stock di R vuoti.</strong> Gli stock si resettano alla morte ma persistono al recall — sparale tutte su una wave o una torre prima di backare invece di lasciarle inutilizzate.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena la <strong>package combo</strong>: quando si attiva <strong>Special Delivery</strong> (l'upgrade automatico della W che Corki riceve dopo aver toccato il bordo della fontain o del recall point), il dash range diventa enorme e la trail damage spike. Tempa i recall così che il package sia up prima di un fight su Drake o Rift Herald — il tuo engage range salta da una W normale a un flank teamfight-changing dall'altra parte del fiume o di un muro. Anche un package W mancato è un free reposition dietro la back line nemica.</p>",
+    "word_count": 1159,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "ashe-bot",
+        "champion": "ashe",
+        "role": "bot"
+      },
+      {
+        "slug": "caitlyn-bot",
+        "champion": "caitlyn",
+        "role": "bot"
+      },
+      {
+        "slug": "draven-bot",
+        "champion": "draven",
+        "role": "bot"
+      },
+      {
+        "slug": "ezreal-bot",
+        "champion": "ezreal",
+        "role": "bot"
+      },
+      {
+        "slug": "jhin-bot",
+        "champion": "jhin",
+        "role": "bot"
+      }
+    ],
+    "champion_key": "42"
+  },
+  {
+    "slug": "corki-mid",
+    "title": "Corki Mid: Build e Guida — Patch 16.9",
+    "language": "it",
+    "patch": "16.9",
+    "champion": "corki",
+    "role": "mid",
+    "last_updated": "2026-05-02",
+    "description": "Guida completa di Corki mid lane per League of Legends Patch 16.9: build marksman ibrido, runes, matchup chiave, power spike, errori comuni, advanced tip.",
+    "quick_learn": {
+      "champion_dd_id": "Corki",
+      "difficulty": 3,
+      "damage_type": "mixed",
+      "champion_class": "Marksman / Hybrid",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Hextech Munitions",
+          "description": "Una parte del danno degli auto-attack diventa true damage. DPS costante che ignora armor e magic resist — motivo per cui costruisci attack speed e on-hit.",
+          "dd_spell_id": "Corki_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Phosphorus Bomb",
+          "description": "Bomba a area che fa danno magico e rivela brevemente i nemici. Serve per last-hit quando sei zonato, per checkare i bush, e per aprire ogni trade.",
+          "dd_spell_id": "PhosphorusBomb"
+        },
+        {
+          "key": "W",
+          "name": "Valkyrie",
+          "description": "Dash breve che lascia una scia di fuoco. È la tua unica mobilità: usalo per fuga, gap-close o per schivare uno skillshot. Non sprecarlo per waveclear.",
+          "dd_spell_id": "CarpetBomb"
+        },
+        {
+          "key": "E",
+          "name": "Gatling Gun",
+          "description": "Cono channellato davanti a Corki: fa danno e riduce armor e magic resist dei nemici colpiti. Aggiunge DPS e ammorbidisce i target per le R missile.",
+          "dd_spell_id": "GGun"
+        },
+        {
+          "key": "R",
+          "name": "Missile Barrage",
+          "description": "Missile a lunga gittata che esplode ad area. Accumuli fino a 7 cariche; ogni terza è una Big One con burst extra. Tuo poke principale ed execute.",
+          "dd_spell_id": "MissileBarrage"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "W"
+        },
+        {
+          "level": 3,
+          "key": "E"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "3078",
+          "name": "Trinity Force"
+        },
+        {
+          "dd_id": "3004",
+          "name": "Manamune"
+        },
+        {
+          "dd_id": "3020",
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "dd_id": "3094",
+          "name": "Rapid Firecannon"
+        },
+        {
+          "dd_id": "3046",
+          "name": "Phantom Dancer"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass",
+          "against": "contro assassini con più dash (Zed, Akali, Talon): la stasi blocca il loro burst e ti dà tempo per la W o il peel del team"
+        },
+        {
+          "dd_id": "3036",
+          "name": "Lord Dominik's Regards",
+          "against": "contro front line con 2+ tank (Sion, Ornn, Maokai): aggiunge armor pen pesante per bucare la frontline con auto e R missile"
+        },
+        {
+          "dd_id": "3156",
+          "name": "Maw of Malmortius",
+          "against": "contro burst AP forti (LeBlanc, Veigar, Syndra): lo scudo magico assorbe una full combo e ti permette di W via"
+        },
+        {
+          "dd_id": "3111",
+          "name": "Mercury's Treads",
+          "against": "contro team con 3+ hard CC (stun, root): swap shoes quando la chain CC pesa più della magic penetration"
+        }
+      ],
+      "base_combo": [
+        "Q",
+        "AA",
+        "R",
+        "E",
+        "AA"
+      ],
+      "win_condition": "Scala dietro i minion fino a Trinity Force e Manamune, poi macina HP agli squishy con poke R da max range. Pickup target isolati durante le rotation mentre il team tiene gli obiettivi.",
+      "weakness": "Squishy con un solo dash. Assassini mobili con più gap-close lo investono prima di due item, e gli ability anti-projectile (Yasuo Wind Wall, Braum E) annullano il poke.",
+      "runes": {
+        "primary_tree": "Inspiration",
+        "primary_tree_dd_id": 8300,
+        "keystone": {
+          "dd_id": 8369,
+          "name": "First Strike",
+          "icon_path": "perk-images/Styles/Inspiration/FirstStrike/FirstStrike.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 8304,
+            "name": "Magical Footwear",
+            "icon_path": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png"
+          },
+          {
+            "dd_id": 8345,
+            "name": "Biscuit Delivery",
+            "icon_path": "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png"
+          },
+          {
+            "dd_id": 8347,
+            "name": "Cosmic Insight",
+            "icon_path": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png"
+          }
+        ],
+        "secondary_tree": "Sorcery",
+        "secondary_tree_dd_id": 8200,
+        "secondary_slots": [
+          {
+            "dd_id": 8226,
+            "name": "Manaflow Band",
+            "icon_path": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "dd_id": 8236,
+            "name": "Gathering Storm",
+            "icon_path": "perk-images/Styles/Sorcery/GatheringStorm/GatheringStorm.png"
+          }
+        ],
+        "stat_shards": [
+          "Adaptive Force",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Inspiration primary: First Strike premia Corki che apre ogni trade con Q o R, convertendo il danno iniziale in oro extra che alimenta la build greedy Trinity + Manamune. Magical Footwear, Biscuit e Cosmic Insight estendono il sustain early per scalare safe.",
+        "secondary_rationale": "Sorcery secondary: Manaflow Band è obbligatoria perché le R missile costano mana e tu le spammi in lane; Gathering Storm regala AP scaling gratis che pompa la parte magic damage di Q e della Big One missile nel late game.",
+        "secondary_alternative": "Contro lane di poke pesante (Xerath, Vel'Koz, Zoe) dove non puoi permetterti di rimanere indietro di HP, swap Sorcery con Resolve: Second Wind (regen passiva sotto harass) e Overgrowth (max HP scaling) per scalare più safe."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "veigar",
+            "anivia",
+            "karthus",
+            "cassiopeia"
+          ],
+          "archetype": "Mage immobili senza dash",
+          "reason": "L'R di Corki arriva a 1225 unità e la W gli dà l'unico vantaggio di mobilità della lane. Target senza dash o stealth mangiano R poke ripetuti e non possono punirlo nelle finestre in cui la W è in cooldown."
+        },
+        {
+          "examples": [
+            "xerath",
+            "vel-koz"
+          ],
+          "archetype": "Artillery mage con channel lunghi",
+          "reason": "Corki pareggia il loro range con la R e ha un dash per interrompere channel lunghi (Xerath R, Vel'Koz R). Non possono all-in lui, e i trade favoriscono il lato con mobilità."
+        },
+        {
+          "examples": [
+            "annie",
+            "syndra"
+          ],
+          "archetype": "Mage di burst a corto raggio",
+          "reason": "La loro kill threat parte dentro auto-attack range, esattamente dove la passive a true damage di Corki più Trinity Force li supera. Pre-6 li out-poki con R, post-6 schivi lo stun con W."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "zed",
+            "talon",
+            "akali",
+            "qiyana"
+          ],
+          "archetype": "Assassini mobili con più gap-close",
+          "reason": "Corki ha un solo dash (W) con cooldown lungo. Kit con più dash entrano nel suo cast range prima che la W ricarichi e lo bursto attraverso gli HP di Trinity, soprattutto prima dei due item."
+        },
+        {
+          "examples": [
+            "yasuo",
+            "yone"
+          ],
+          "archetype": "Wind Wall projectile blocker",
+          "reason": "Wind Wall mangia la Q e l'intero R missile barrage, togliendo due terzi del danno di Corki dal trade. Anche quando lui vince HP, il costo in cooldown del trade è brutale."
+        },
+        {
+          "examples": [
+            "fizz",
+            "kassadin"
+          ],
+          "archetype": "Untargetable / blink-based",
+          "reason": "Fizz E e Kassadin R schivano la combo committata e poi re-engagano su Corki quando la sua W è giù. Lui non ha follow-up burst una volta che diventano untargetable."
+        }
+      ]
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Corki è un marksman ibrido che gioca mid lane come una artillery carry a lungo raggio: scala sugli item, poka con <strong>Missile Barrage (R)</strong> fuori dall'auto range nemico e finisce gli squishy con auto-attack appena <strong>Trinity Force</strong> è online. La sua <strong>Hextech Munitions (P)</strong> trasforma una parte di ogni auto-attack in true damage, quindi attack speed e on-hit contano quanto AD o AP. È in mid perché il fiume offre due-way gank a cui risponde con la <strong>Valkyrie (W)</strong>, e perché le R missile possono pokare le side lane dal centro mappa.</p>\n<p>Game plan in una frase: stacka mana su Manamune, pusha le wave con <strong>Phosphorus Bomb (Q)</strong> e R, e in ogni cooldown window pressi l'HP del laner avversario perché il tuo jungler arrivi in dive (azione di tuffo sotto torre per chiudere). La skill expression è nell'aim della R (anticipa il movimento, timing del Big One missile) e nell'uso della W: hai un solo dash, sbagliarlo significa che qualunque assassin ti walka down.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Starting items:</strong> Doran's Blade + Health Potion. La blade dà lifesteal che si sposa con la passive di auto-attack; salta Doran's Ring a meno che tu non sia contro una pure poke lane in cui il mana sustain pesa più del 1v1.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> <strong>Trinity Force</strong> — Sheen procca su ogni Q e ogni R missile, più AD, attack speed, ability haste e movement speed. Lo spike singolo più grande del champion.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3004.png\" alt=\"Manamune\"> <strong>Manamune</strong> — stacka in Muramana grazie allo spam di R in lane; una volta stacked aggiunge danno bonus su ogni auto e ogni ability che costa mana, missile incluse.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — magic penetration flat che pompa Q e R, la parte del kit che la MR avversaria mitiga davvero.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3094.png\" alt=\"Rapid Firecannon\"> <strong>Rapid Firecannon</strong> — auto energized in engage che dà range extra più burst, e il crit chance si sposa col profilo statistico di Trinity.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3046.png\" alt=\"Phantom Dancer\"> <strong>Phantom Dancer</strong> — attack speed per DPS sostenuto su <strong>Gatling Gun (E)</strong> e sul true damage on-hit della passive.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — contro assassini con più dash (Zed, Akali, Talon): la stasi blocca il loro burst e ti dà tempo per la W o il peel del team.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3036.png\" alt=\"Lord Dominik&#x27;s Regards\"> <strong>Lord Dominik's Regards</strong> — contro front line con 2+ tank (Sion, Ornn, Maokai): armor pen pesante per bucare con auto e R missile.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — contro burst AP forte (LeBlanc, Veigar, Syndra): lo scudo magico assorbe una full combo e ti lascia W via.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — swap dalle Sorcerer's quando l'enemy team ha 3+ hard CC (stun, root) e la chain CC pesa più della magic penetration.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> è il default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> se la team comp avversaria è CC-pesante.</p>\n<p><strong>Skill order:</strong> Maxa <strong>Q</strong> per primo (poke e waveclear), <strong>E</strong> per secondo (DPS più shred di armor e magic resist), <strong>W</strong> per ultimo (utility). Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Inspiration</strong> con <strong>First Strike</strong>, <strong>Magical Footwear</strong>, <strong>Biscuit Delivery</strong>, <strong>Cosmic Insight</strong>. Secondary <strong>Sorcery</strong> con <strong>Manaflow Band</strong> e <strong>Gathering Storm</strong>, oppure <strong>Resolve</strong> con <strong>Second Wind</strong> e <strong>Overgrowth</strong> contro lane di poke pesante.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Yasuo / Yone:</strong> Bloccano Q e R missile con Wind Wall. Tieni la Q finché non spendono le ability, tieni la R per dopo che il Wind Wall è in cooldown, e non tradare a melee range dove possono saltare con la E sui minion accanto a te.</li>\n<li><strong>Akali / Zed:</strong> Diving threat. Compra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> dopo Trinity Force; non bruciare la W in trade se la loro chain di dash è ancora up.</li>\n<li><strong>Veigar:</strong> Pareggia il range con la R, schiva la sua W (una gabbia che si espande lentamente e ti incastra) ed evita auto-trade dentro il cerchio della E (un anello stun che scatta quando lo attraversi). I suoi stack di Q scalano all'infinito: chiudi la lane prima del minuto 25.</li>\n<li><strong>Twisted Fate:</strong> Roam priority race. Pusha la wave con la Q prima che arrivi a livello 6, pinga il jungler avversario quando la sua R è up, e W via dal target di gold card invece di mangiarti lo stun in faccia.</li>\n<li><strong>Galio:</strong> Punisci pre-6 spingendo la wave che lui non riesce a contestare a melee. Post-6 la sua R è un global engage tool — raggruppati col team solo quando hai R missile in stock per peelare il suo arrivo.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2:</strong> Con Q + W o Q + E, puoi punire un last-hit mancato con un trade Q-AA-AA e disengagiare con W oppure follow-up se il loro Flash è giù.</li>\n<li><strong>Livello 6:</strong> La prima <strong>Missile Barrage (R)</strong> sblocca side-lane pressure. Con stock di R più W, puoi roamare bot, droppare due missile più una Big One su un trade 1v1 e tornare in wave con la W.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> Trinity Force completata (~ minuto 12-14):</strong> Sheen procca su ogni Q e ogni R missile, trasformando il poke in kill threat. È il momento per all-in il laner low-HP con Q-AA-R-AA.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3004.png\" alt=\"Manamune\"> Manamune stacked (~ minuto 18-22):</strong> Muramana aggiunge danno bonus su ogni azione che costa mana; il danno teamfight raddoppia rispetto al pre-stack. Forza i fight su obiettivo qui.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Spammare R in cooldown per fare waveclear.</strong> Le R sono uno stock finito; se le svuoti sui minion, nel prossimo teamfight hai zero burst nel momento peggiore. Pusha la wave con Q + auto, tieni 4+ missile per gli obiettivi.</li>\n<li><strong>Usare la W aggressiva senza follow-up.</strong> La W è la tua unica fuga. Dasharti dentro per chiudere una kill che richiedeva un altro auto è il modo classico in cui Corki muore — se non puoi killare con il mana e i cooldown rimasti, non committare (non impegnarti totalmente nello scambio).</li>\n<li><strong>Auto-tradare a melee range.</strong> Il true damage della passive a corto raggio sembra invitante, ma la pool HP di Corki è squishy (bassa e fragile come quella di un ADC). Stai a R range quando il laner ha gap-close up.</li>\n<li><strong>Comprare <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> Sorcerer's Shoes contro un team CC-pesante.</strong> La magic penetration è sprecata se passi il fight stunnato. Sorcerer's solo quando il loro CC è basso; altrimenti swap Mercury's Treads.</li>\n<li><strong>Roamare con stock di R vuoti.</strong> Un roam senza 2 missile è un coin flip. Aspetta gli 8-12 secondi per gli stock prima di crossare river; quel singolo delay è la differenza tra una kill e regalare la wave per nulla.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena la <strong>package combo</strong>: quando si attiva <strong>Special Delivery</strong> (l'upgrade automatico della W che Corki riceve dopo aver toccato il bordo della fontain o del recall point), il dash range diventa enorme e la trail damage spike. Tempa i recall così che il package sia up prima di un obiettivo chiave — il tuo engage range salta da una W normale a un flank teamfight-changing dall'altra parte del fiume. Anche una W mancata col package up è un free reposition dietro la back line nemica.</p>",
+    "content_html_pre": "<h2>Panoramica</h2>\n<p>Corki è un marksman ibrido che gioca mid lane come una artillery carry a lungo raggio: scala sugli item, poka con <strong>Missile Barrage (R)</strong> fuori dall'auto range nemico e finisce gli squishy con auto-attack appena <strong>Trinity Force</strong> è online. La sua <strong>Hextech Munitions (P)</strong> trasforma una parte di ogni auto-attack in true damage, quindi attack speed e on-hit contano quanto AD o AP. È in mid perché il fiume offre due-way gank a cui risponde con la <strong>Valkyrie (W)</strong>, e perché le R missile possono pokare le side lane dal centro mappa.</p>\n<p>Game plan in una frase: stacka mana su Manamune, pusha le wave con <strong>Phosphorus Bomb (Q)</strong> e R, e in ogni cooldown window pressi l'HP del laner avversario perché il tuo jungler arrivi in dive (azione di tuffo sotto torre per chiudere). La skill expression è nell'aim della R (anticipa il movimento, timing del Big One missile) e nell'uso della W: hai un solo dash, sbagliarlo significa che qualunque assassin ti walka down.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Starting items:</strong> Doran's Blade + Health Potion. La blade dà lifesteal che si sposa con la passive di auto-attack; salta Doran's Ring a meno che tu non sia contro una pure poke lane in cui il mana sustain pesa più del 1v1.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> <strong>Trinity Force</strong> — Sheen procca su ogni Q e ogni R missile, più AD, attack speed, ability haste e movement speed. Lo spike singolo più grande del champion.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3004.png\" alt=\"Manamune\"> <strong>Manamune</strong> — stacka in Muramana grazie allo spam di R in lane; una volta stacked aggiunge danno bonus su ogni auto e ogni ability che costa mana, missile incluse.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — magic penetration flat che pompa Q e R, la parte del kit che la MR avversaria mitiga davvero.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3094.png\" alt=\"Rapid Firecannon\"> <strong>Rapid Firecannon</strong> — auto energized in engage che dà range extra più burst, e il crit chance si sposa col profilo statistico di Trinity.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3046.png\" alt=\"Phantom Dancer\"> <strong>Phantom Dancer</strong> — attack speed per DPS sostenuto su <strong>Gatling Gun (E)</strong> e sul true damage on-hit della passive.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — contro assassini con più dash (Zed, Akali, Talon): la stasi blocca il loro burst e ti dà tempo per la W o il peel del team.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3036.png\" alt=\"Lord Dominik&#x27;s Regards\"> <strong>Lord Dominik's Regards</strong> — contro front line con 2+ tank (Sion, Ornn, Maokai): armor pen pesante per bucare con auto e R missile.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — contro burst AP forte (LeBlanc, Veigar, Syndra): lo scudo magico assorbe una full combo e ti lascia W via.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — swap dalle Sorcerer's quando l'enemy team ha 3+ hard CC (stun, root) e la chain CC pesa più della magic penetration.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> è il default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> se la team comp avversaria è CC-pesante.</p>\n<p><strong>Skill order:</strong> Maxa <strong>Q</strong> per primo (poke e waveclear), <strong>E</strong> per secondo (DPS più shred di armor e magic resist), <strong>W</strong> per ultimo (utility). Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Inspiration</strong> con <strong>First Strike</strong>, <strong>Magical Footwear</strong>, <strong>Biscuit Delivery</strong>, <strong>Cosmic Insight</strong>. Secondary <strong>Sorcery</strong> con <strong>Manaflow Band</strong> e <strong>Gathering Storm</strong>, oppure <strong>Resolve</strong> con <strong>Second Wind</strong> e <strong>Overgrowth</strong> contro lane di poke pesante.</p>",
+    "content_html_post": "<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Yasuo / Yone:</strong> Bloccano Q e R missile con Wind Wall. Tieni la Q finché non spendono le ability, tieni la R per dopo che il Wind Wall è in cooldown, e non tradare a melee range dove possono saltare con la E sui minion accanto a te.</li>\n<li><strong>Akali / Zed:</strong> Diving threat. Compra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> dopo Trinity Force; non bruciare la W in trade se la loro chain di dash è ancora up.</li>\n<li><strong>Veigar:</strong> Pareggia il range con la R, schiva la sua W (una gabbia che si espande lentamente e ti incastra) ed evita auto-trade dentro il cerchio della E (un anello stun che scatta quando lo attraversi). I suoi stack di Q scalano all'infinito: chiudi la lane prima del minuto 25.</li>\n<li><strong>Twisted Fate:</strong> Roam priority race. Pusha la wave con la Q prima che arrivi a livello 6, pinga il jungler avversario quando la sua R è up, e W via dal target di gold card invece di mangiarti lo stun in faccia.</li>\n<li><strong>Galio:</strong> Punisci pre-6 spingendo la wave che lui non riesce a contestare a melee. Post-6 la sua R è un global engage tool — raggruppati col team solo quando hai R missile in stock per peelare il suo arrivo.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2:</strong> Con Q + W o Q + E, puoi punire un last-hit mancato con un trade Q-AA-AA e disengagiare con W oppure follow-up se il loro Flash è giù.</li>\n<li><strong>Livello 6:</strong> La prima <strong>Missile Barrage (R)</strong> sblocca side-lane pressure. Con stock di R più W, puoi roamare bot, droppare due missile più una Big One su un trade 1v1 e tornare in wave con la W.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> Trinity Force completata (~ minuto 12-14):</strong> Sheen procca su ogni Q e ogni R missile, trasformando il poke in kill threat. È il momento per all-in il laner low-HP con Q-AA-R-AA.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3004.png\" alt=\"Manamune\"> Manamune stacked (~ minuto 18-22):</strong> Muramana aggiunge danno bonus su ogni azione che costa mana; il danno teamfight raddoppia rispetto al pre-stack. Forza i fight su obiettivo qui.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Spammare R in cooldown per fare waveclear.</strong> Le R sono uno stock finito; se le svuoti sui minion, nel prossimo teamfight hai zero burst nel momento peggiore. Pusha la wave con Q + auto, tieni 4+ missile per gli obiettivi.</li>\n<li><strong>Usare la W aggressiva senza follow-up.</strong> La W è la tua unica fuga. Dasharti dentro per chiudere una kill che richiedeva un altro auto è il modo classico in cui Corki muore — se non puoi killare con il mana e i cooldown rimasti, non committare (non impegnarti totalmente nello scambio).</li>\n<li><strong>Auto-tradare a melee range.</strong> Il true damage della passive a corto raggio sembra invitante, ma la pool HP di Corki è squishy (bassa e fragile come quella di un ADC). Stai a R range quando il laner ha gap-close up.</li>\n<li><strong>Comprare <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> Sorcerer's Shoes contro un team CC-pesante.</strong> La magic penetration è sprecata se passi il fight stunnato. Sorcerer's solo quando il loro CC è basso; altrimenti swap Mercury's Treads.</li>\n<li><strong>Roamare con stock di R vuoti.</strong> Un roam senza 2 missile è un coin flip. Aspetta gli 8-12 secondi per gli stock prima di crossare river; quel singolo delay è la differenza tra una kill e regalare la wave per nulla.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena la <strong>package combo</strong>: quando si attiva <strong>Special Delivery</strong> (l'upgrade automatico della W che Corki riceve dopo aver toccato il bordo della fontain o del recall point), il dash range diventa enorme e la trail damage spike. Tempa i recall così che il package sia up prima di un obiettivo chiave — il tuo engage range salta da una W normale a un flank teamfight-changing dall'altra parte del fiume. Anche una W mancata col package up è un free reposition dietro la back line nemica.</p>",
+    "word_count": 1152,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "ahri-mid",
+        "champion": "ahri",
+        "role": "mid"
+      },
+      {
+        "slug": "akali-mid",
+        "champion": "akali",
+        "role": "mid"
+      },
+      {
+        "slug": "akshan-mid",
+        "champion": "akshan",
+        "role": "mid"
+      },
+      {
+        "slug": "annie-mid",
+        "champion": "annie",
+        "role": "mid"
+      },
+      {
+        "slug": "lux-mid",
+        "champion": "lux",
+        "role": "mid"
+      }
+    ],
+    "champion_key": "42"
+  },
+  {
     "slug": "darius-top",
     "title": "Darius Top: Build e Guida — Patch 16.9",
     "language": "it",
