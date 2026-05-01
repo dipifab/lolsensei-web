@@ -53,6 +53,7 @@ quick_learn:
     - { level: 17, key: "E" }
     - { level: 18, key: "E" }
   core_items:
+    - { dd_id: "1102", name: "Gustwalker Hatchling" }
     - { dd_id: "3078", name: "Trinity Force" }
     - { dd_id: "3047", name: "Plated Steelcaps" }
     - { dd_id: "6333", name: "Death's Dance" }

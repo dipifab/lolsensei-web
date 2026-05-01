@@ -53,6 +53,7 @@ quick_learn:
     - { level: 17, key: "W" }
     - { level: 18, key: "W" }
   core_items:
+    - { dd_id: "1102", name: "Gustwalker Hatchling" }
     - { dd_id: "6672", name: "Kraken Slayer" }
     - { dd_id: "3047", name: "Plated Steelcaps" }
     - { dd_id: "6333", name: "Death's Dance" }

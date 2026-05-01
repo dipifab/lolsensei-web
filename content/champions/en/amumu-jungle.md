@@ -53,6 +53,7 @@ quick_learn:
     - { level: 17, key: "W" }
     - { level: 18, key: "W" }
   core_items:
+    - { dd_id: "1103", name: "Mosstomper Seedling" }
     - { dd_id: "6653", name: "Liandry's Torment" }
     - { dd_id: "3111", name: "Mercury's Treads" }
     - { dd_id: "4633", name: "Riftmaker" }

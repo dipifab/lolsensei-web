@@ -1952,6 +1952,10 @@ export const itChampions: ChampionGuide[] = [
       ],
       "core_items": [
         {
+          "dd_id": "1103",
+          "name": "Mosstomper Seedling"
+        },
+        {
           "dd_id": "6653",
           "name": "Liandry's Torment"
         },
@@ -4732,6 +4736,10 @@ export const itChampions: ChampionGuide[] = [
         }
       ],
       "core_items": [
+        {
+          "dd_id": "1102",
+          "name": "Gustwalker Hatchling"
+        },
         {
           "dd_id": "6672",
           "name": "Kraken Slayer"
@@ -9338,6 +9346,10 @@ export const itChampions: ChampionGuide[] = [
       ],
       "core_items": [
         {
+          "dd_id": "1102",
+          "name": "Gustwalker Hatchling"
+        },
+        {
           "dd_id": "6692",
           "name": "Eclipse"
         },
@@ -9591,6 +9603,10 @@ export const itChampions: ChampionGuide[] = [
         }
       ],
       "core_items": [
+        {
+          "dd_id": "1102",
+          "name": "Gustwalker Hatchling"
+        },
         {
           "dd_id": "6631",
           "name": "Stridebreaker"
@@ -12461,6 +12477,10 @@ export const itChampions: ChampionGuide[] = [
         }
       ],
       "core_items": [
+        {
+          "dd_id": "1102",
+          "name": "Gustwalker Hatchling"
+        },
         {
           "dd_id": "6692",
           "name": "Eclipse"
@@ -19364,6 +19384,10 @@ export const itChampions: ChampionGuide[] = [
       ],
       "core_items": [
         {
+          "dd_id": "1102",
+          "name": "Gustwalker Hatchling"
+        },
+        {
           "dd_id": "6631",
           "name": "Stridebreaker"
         },
@@ -19690,6 +19714,10 @@ export const itChampions: ChampionGuide[] = [
       ],
       "core_items": [
         {
+          "dd_id": "1102",
+          "name": "Gustwalker Hatchling"
+        },
+        {
           "dd_id": "6672",
           "name": "Kraken Slayer"
         },
@@ -20010,6 +20038,10 @@ export const itChampions: ChampionGuide[] = [
         }
       ],
       "core_items": [
+        {
+          "dd_id": "1102",
+          "name": "Gustwalker Hatchling"
+        },
         {
           "dd_id": "3078",
           "name": "Trinity Force"
