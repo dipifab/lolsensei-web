@@ -53,6 +53,7 @@ quick_learn:
     - { level: 17, key: "Q" }
     - { level: 18, key: "Q" }
   core_items:
+    - { dd_id: "1101", name: "Scorchclaw Pup" }
     - { dd_id: "6653", name: "Liandry's Torment" }
     - { dd_id: "3020", name: "Sorcerer's Shoes" }
     - { dd_id: "3116", name: "Rylai's Crystal Scepter" }
@@ -131,10 +132,11 @@ His game plan is rigid by jungle standards. Clear the first three camps full-cle
 
 **Core items (in order):**
 
-1. ![Liandry's Torment](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png) **Liandry's Torment** — first complete item. The percent-HP burn punishes objective HP pools (drake, baron, herald) and stacks on top of every blaze tick.
-2. ![Sorcerer's Shoes](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png) **Sorcerer's Shoes** — flat magic penetration, the cheapest power spike between core items.
-3. ![Rylai's Crystal Scepter](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3116.png) **Rylai's Crystal Scepter** — the slow on every spell hit closes Brand's biggest weakness (no chase, no escape). Lets you walk down kited enemies and gank without Flash.
-4. ![Rabadon's Deathcap](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png) **Rabadon's Deathcap** — late-game scaling slot. Buy this fourth unless you are 4+ kills ahead, in which case rush it third for snowball ("snowball" = early lead that grows: kill → gold → item → more kills).
+1. ![Scorchclaw Pup](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1101.png) **Scorchclaw Pup** — quest upgrade from Hailblade (auto-evolves around minute 3-4 once you complete enough jungle XP). Default companion for AP burst junglers: extra magic damage proc on the next basic attack after a spell cast, lining up perfectly with Brand's blaze.
+2. ![Liandry's Torment](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png) **Liandry's Torment** — first complete item. The percent-HP burn punishes objective HP pools (drake, baron, herald) and stacks on top of every blaze tick.
+3. ![Sorcerer's Shoes](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png) **Sorcerer's Shoes** — flat magic penetration, the cheapest power spike between core items.
+4. ![Rylai's Crystal Scepter](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3116.png) **Rylai's Crystal Scepter** — the slow on every spell hit closes Brand's biggest weakness (no chase, no escape). Lets you walk down kited enemies and gank without Flash.
+5. ![Rabadon's Deathcap](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png) **Rabadon's Deathcap** — late-game scaling slot. Buy this fifth unless you are 4+ kills ahead, in which case rush it earlier for snowball ("snowball" = early lead that grows: kill → gold → item → more kills).
 
 **Situational items:**
 

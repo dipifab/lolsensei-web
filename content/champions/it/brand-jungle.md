@@ -53,6 +53,7 @@ quick_learn:
     - { level: 17, key: "Q" }
     - { level: 18, key: "Q" }
   core_items:
+    - { dd_id: "1101", name: "Scorchclaw Pup" }
     - { dd_id: "6653", name: "Liandry's Torment" }
     - { dd_id: "3020", name: "Sorcerer's Shoes" }
     - { dd_id: "3116", name: "Rylai's Crystal Scepter" }
@@ -131,10 +132,11 @@ Il piano partita è rigido per gli standard della jungla. Clear i primi tre camp
 
 **Item core (nell'ordine):**
 
-1. ![Liandry's Torment](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png) **Liandry's Torment** — primo item completo. Il burn percentuale degli HP punisce le pool degli obiettivi (drake, baron, herald) e si somma a ogni tick di blaze.
-2. ![Sorcerer's Shoes](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png) **Sorcerer's Shoes** — penetrazione magica fissa, lo spike più economico tra gli item core.
-3. ![Rylai's Crystal Scepter](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3116.png) **Rylai's Crystal Scepter** — lo slow su ogni hit di spell chiude la più grande debolezza di Brand (no chase, no escape). Ti permette di camminare addosso a chi prova a kitare e di ganckare senza Flash.
-4. ![Rabadon's Deathcap](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png) **Rabadon's Deathcap** — slot di scaling late. Comprala quarta a meno che tu non sia 4+ kill avanti, nel qual caso rushala terza per snowballare ("snowball" = vantaggio iniziale che cresce: kill → gold → item → più kill).
+1. ![Scorchclaw Pup](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1101.png) **Scorchclaw Pup** — upgrade della quest di Hailblade (si auto-evolve intorno al minuto 3-4 una volta accumulata abbastanza XP in jungla). Companion default per i jungler AP burst: aggiunge un proc di danno magico sull'auto-attack successivo a un cast, in linea perfetta con il blaze di Brand.
+2. ![Liandry's Torment](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png) **Liandry's Torment** — primo item completo. Il burn percentuale degli HP punisce le pool degli obiettivi (drake, baron, herald) e si somma a ogni tick di blaze.
+3. ![Sorcerer's Shoes](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png) **Sorcerer's Shoes** — penetrazione magica fissa, lo spike più economico tra gli item core.
+4. ![Rylai's Crystal Scepter](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3116.png) **Rylai's Crystal Scepter** — lo slow su ogni hit di spell chiude la più grande debolezza di Brand (no chase, no escape). Ti permette di camminare addosso a chi prova a kitare e di ganckare senza Flash.
+5. ![Rabadon's Deathcap](https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png) **Rabadon's Deathcap** — slot di scaling late. Comprala quinta a meno che tu non sia 4+ kill avanti, nel qual caso rushala prima per snowballare ("snowball" = vantaggio iniziale che cresce: kill → gold → item → più kill).
 
 **Item situazionali:**
 
