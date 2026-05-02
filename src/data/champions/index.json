@@ -685,7 +685,7 @@
           "champion_key": "164"
         },
         "it": {
-          "title": "Guida Camille Top — Build e Counter Patch 16.9",
+          "title": "Camille Top Build & Guida — Patch 16.9",
           "description": "Guida Camille top per League of Legends Patch 16.9: starter, build fighter, matchup chiave, power spike, errori comuni e una tip avanzata di chiusura.",
           "patch": "16.9",
           "last_updated": "2026-05-01",
@@ -1004,7 +1004,7 @@
           "champion_key": "60"
         },
         "it": {
-          "title": "Guida Elise Jungle — Build e Strategia per la Patch 16.9",
+          "title": "Elise Jungle Build & Guida — Patch 16.9",
           "description": "Guida Elise jungle per League of Legends Patch 16.9: percorso di gank in Spider Form, setup di Cocoon, item core, matchup chiave, power spike e un consiglio finale.",
           "patch": "16.9",
           "last_updated": "2026-05-02",
@@ -1033,7 +1033,7 @@
           "champion_key": "60"
         },
         "it": {
-          "title": "Guida Elise Support — Build e Strategia per la Patch 16.9",
+          "title": "Elise Support Build & Guida — Patch 16.9",
           "description": "Guida Elise support per League of Legends Patch 16.9: angoli di engage con Cocoon, build path via Bloodsong, matchup chiave, power spike e un consiglio finale.",
           "patch": "16.9",
           "last_updated": "2026-05-02",
@@ -1510,6 +1510,64 @@
       }
     },
     {
+      "slug": "heimerdinger-mid",
+      "champion": "heimerdinger",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Heimerdinger Mid Build & Guide — Patch 16.9",
+          "description": "Heimerdinger mid guide for Patch 16.9: best build path, rune page, turret placement, matchups, power spikes, and pro tips to dominate with the Revered Inventor.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Mage / Artillery",
+          "difficulty": 4,
+          "damage_type": "magic",
+          "champion_dd_id": "Heimerdinger",
+          "champion_key": "74"
+        },
+        "it": {
+          "title": "Heimerdinger Mid Build & Guida — Patch 16.9",
+          "description": "Guida Heimerdinger mid per Patch 16.9: build ottimale, pagina rune, posizionamento torrette, matchup chiave, power spike e consigli avanzati per dominare in lane.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Mage / Artillery",
+          "difficulty": 4,
+          "damage_type": "magic",
+          "champion_dd_id": "Heimerdinger",
+          "champion_key": "74"
+        }
+      }
+    },
+    {
+      "slug": "heimerdinger-top",
+      "champion": "heimerdinger",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Heimerdinger Top Build & Guide — Patch 16.9",
+          "description": "Heimerdinger top lane guide for Patch 16.9: turret-wall bully build, UPGRADE combos, power spikes against melee juggernauts, and splitpush win conditions.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Mage / Artillery",
+          "difficulty": 4,
+          "damage_type": "magic",
+          "champion_dd_id": "Heimerdinger",
+          "champion_key": "74"
+        },
+        "it": {
+          "title": "Heimerdinger Top Build & Guida — Patch 16.9",
+          "description": "Guida Heimerdinger top lane per la Patch 16.9 di LoL: build turret-wall, combo UPGRADE, spike di potenza contro juggernaut melee e win condition in splitpush.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Mage / Artillery",
+          "difficulty": 4,
+          "damage_type": "magic",
+          "champion_dd_id": "Heimerdinger",
+          "champion_key": "74"
+        }
+      }
+    },
+    {
       "slug": "irelia-top",
       "champion": "irelia",
       "role": "top",
@@ -1613,7 +1671,7 @@
           "champion_key": "202"
         },
         "it": {
-          "title": "Guida Jhin Bot — Patch 16.9",
+          "title": "Jhin Bot Build & Guida — Patch 16.9",
           "description": "Guida Jhin bot lane per League of Legends Patch 16.9: starter kit, build lethality-crit, matchup chiave, power spike, errori frequenti e una tecnica avanzata.",
           "patch": "16.9",
           "last_updated": "2026-04-29",
@@ -1700,7 +1758,7 @@
           "champion_key": "141"
         },
         "it": {
-          "title": "Guida Kayn Jungle Build — Patch 16.9",
+          "title": "Kayn Jungle Build & Guida — Patch 16.9",
           "description": "Guida Kayn jungle per League of Legends Patch 16.9: scelta tra forma Rhaast e Shadow Assassin, jungle clear, gank timing, matchup chiave e power spike.",
           "patch": "16.9",
           "last_updated": "2026-04-29",
@@ -2338,7 +2396,7 @@
           "champion_key": "77"
         },
         "it": {
-          "title": "Guida a Udyr Jungle — Build e matchup, Patch 16.9",
+          "title": "Udyr Jungle Build & Guida — Patch 16.9",
           "description": "Guida a Udyr jungle per League of Legends patch 16.9: starter kit, build da bruiser, matchup chiave, power spike, errori frequenti e una nota di chiusura.",
           "patch": "16.9",
           "last_updated": "2026-04-29",

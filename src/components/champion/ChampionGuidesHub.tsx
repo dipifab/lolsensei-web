@@ -41,6 +41,7 @@ import GuideFilters, {
   type FilterDamage,
   hasAnyFilter,
 } from './GuideFilters';
+import { HubCounterCTA } from '../counter/HubCounterCTA';
 
 interface ChampionGuidesHubProps {
   lang: 'en' | 'it';
@@ -248,6 +249,12 @@ export function ChampionGuidesHub(
           <p class="text-base text-on-surface-variant/85 leading-relaxed">
             {t('wp35.hub.subtitle')}
           </p>
+          {/* WP-COUNTER-PICKER (CR-063 / WPCP-042): cross-link sopra-the-fold
+              verso la counter-pick search. EN+IT only (lang prop e' gia
+              ristretto a HubLang). */}
+          <div class="mt-4">
+            <HubCounterCTA lang={props.lang} />
+          </div>
         </div>
         <div
           class="text-[11px] font-bold uppercase tracking-wider text-on-surface-variant/70 px-3 py-2 rounded-md border border-outline/40 bg-surface-container/40 self-start md:self-end shrink-0"

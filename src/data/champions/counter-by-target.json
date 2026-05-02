@@ -288,6 +288,26 @@
       },
       {
         "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins who gap-close before turrets respond",
+        "reason": "Turrets have a slow attack cycle. A triple-dash assassin enters the turret nest and kills Heimerdinger before the first beam fires; the cooldown is too short to save him.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili che gap-close prima che le torrette rispondano",
+        "reason": "Le torrette hanno un ciclo di attacco lento. Un assassino con triplo dash entra nel nest e uccide Heimerdinger prima che parta il primo beam; il cooldown è troppo corto per salvarlo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -974,6 +994,26 @@
       },
       {
         "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile burst mages without dash",
+        "reason": "They cannot walk into a 3-turret nest without taking sustained DPS. Their burst requires closing range, which the E stun and turret beam punish before they can burst back.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "Non possono avanzare nel nest delle tre torrette senza subire DPS continuo. Il loro burst richiede avvicinarsi, e lo stun di E più i beam delle torrette puniscono l'approccio prima che possano rispondere.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -1152,6 +1192,26 @@
         },
         "archetype": "Mage close-range con engage telegrafato",
         "reason": "Il loro burst richiede di camminare avanti con un tell lento (lo stun-buffer di Annie, il setup E di Syndra). Fizz E nella cast window lo rende untargettabile e il combo va a vuoto.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Close-range mages or tanks that must walk into turret coverage",
+        "reason": "Their engage is melee-range or short-range. Three deployed turrets make the walk-in lethal — a fully charged beam hits them before the engage animation completes.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage corpo a corpo o tank che devono entrare nel raggio delle torrette",
+        "reason": "Il loro engage avviene a corto raggio o richiede di camminare dentro la zona. Tre torrette piazzate rendono l'avanzata letale: il beam carico colpisce prima che l'animazione di engage sia completata.",
         "via": "pick_into"
       },
       {
@@ -1672,31 +1732,11 @@
         "publisher": {
           "champion": "vi",
           "role": "jungle",
-          "lang": "en"
-        },
-        "archetype": "Immobile or short-dash ADCs",
-        "reason": "Q charge plus R closes the gap before they can kite away. Their only escape is Flash, which has a much longer cooldown than your 90s engage at rank 1 R.",
-        "via": "pick_into"
-      },
-      {
-        "publisher": {
-          "champion": "vi",
-          "role": "jungle",
           "lang": "it"
         },
         "archetype": "Champion con root o sleep lunghi che ti bloccano a metà dash",
         "reason": "Se mangi un root o uno sleep prima di castare R, resti senza engage e senza fuga. Trasformano la tua unica finestra di commit in una kill regalata.",
         "via": "counterpick"
-      },
-      {
-        "publisher": {
-          "champion": "vi",
-          "role": "jungle",
-          "lang": "it"
-        },
-        "archetype": "ADC immobili o con dash corti",
-        "reason": "Q caricato più R chiudono il gap prima che possano kitare via. La loro unica fuga è il Flash, che ha cooldown molto più alto della tua R da 90 secondi a rank 1.",
-        "via": "pick_into"
       },
       {
         "publisher": {
@@ -2970,6 +3010,26 @@
       },
       {
         "publisher": {
+          "champion": "heimerdinger",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Mobile divers with multiple dashes that collapse turret nest",
+        "reason": "They dash through the turret zone, reset on minions, and reach Heimerdinger before he repositions. Zhonya's Hourglass is mandatory — use the stasis to waste their dash windows and force them to disengage.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Diver mobili con più dash che abbattono il turret nest",
+        "reason": "Possono fare dash attraverso la zona delle torrette, resettare sui minion e raggiungere Heimerdinger prima che possa riposizionarsi. Zhonya's Hourglass è obbligatorio — usa la stasi per sprecare le loro finestre di dash e costringerli a disimpegnarsi.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "irelia",
           "role": "top",
           "lang": "en"
@@ -3214,6 +3274,26 @@
       },
       {
         "publisher": {
+          "champion": "heimerdinger",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile or slow juggernauts that must walk through turret coverage",
+        "reason": "They have no dash or blink to dodge the turret nest setup. Each step into range triggers turret beams plus W rockets, burning their HP before they can land a meaningful trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Juggernaut immobili o lenti che devono attraversare la copertura delle torrette",
+        "reason": "Non hanno dash o blink per aggirare il turret nest. Ogni passo dentro range attiva i raggi delle torrette più i razzi W, consumando i loro HP prima che possano fare un trade significativo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "jax",
           "role": "top",
           "lang": "en"
@@ -3438,6 +3518,26 @@
       },
       {
         "publisher": {
+          "champion": "heimerdinger",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Melee juggernauts with short-range engage who cannot safely close gap",
+        "reason": "Their engage requires closing to melee range against three turrets firing simultaneously. E stun in the approach zone then W barrage stops the commit before it reaches Heimerdinger.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Juggernaut melee incapaci di chiudere la distanza",
+        "reason": "Il loro engage richiede di arrivare a portata melee contro tre torrette che sparano contemporaneamente. Lo stordimento di E nella zona di approccio seguito da W ferma il commit prima che raggiunga Heimerdinger.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "irelia",
           "role": "top",
           "lang": "en"
@@ -3580,6 +3680,26 @@
       }
     ],
     "dr-mundo": [
+      {
+        "publisher": {
+          "champion": "fiora",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "HP-stacking tanks that cannot stop her Vitals",
+        "reason": "Vitals deal a percentage of the target's max HP as true damage (damage that ignores armor and MR). The more HP they build, the more her R chunks them in extended fights.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiora",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Tank HP-stacker che non riescono a fermare i Vitals",
+        "reason": "I Vitals fanno una percentuale dell'HP massimo del bersaglio in true damage (danno che ignora armor e MR). Più HP buildano, più la R di Fiora li devasta nei fight prolungati.",
+        "via": "pick_into"
+      },
       {
         "publisher": {
           "champion": "jinx",
@@ -4634,6 +4754,26 @@
       },
       {
         "publisher": {
+          "champion": "heimerdinger",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Mobile divers with multiple dashes that collapse turret nest",
+        "reason": "They dash through the turret zone, reset on minions, and reach Heimerdinger before he repositions. Zhonya's Hourglass is mandatory — use the stasis to waste their dash windows and force them to disengage.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Diver mobili con più dash che abbattono il turret nest",
+        "reason": "Possono fare dash attraverso la zona delle torrette, resettare sui minion e raggiungere Heimerdinger prima che possa riposizionarsi. Zhonya's Hourglass è obbligatorio — usa la stasi per sprecare le loro finestre di dash e costringerli a disimpegnarsi.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "irelia",
           "role": "top",
           "lang": "en"
@@ -4686,31 +4826,11 @@
         "publisher": {
           "champion": "malphite",
           "role": "top",
-          "lang": "en"
-        },
-        "archetype": "Snowball bruisers without ranged poke",
-        "reason": "They need to commit to a melee all-in (full trade until kill) to win lane; Aftershock plus Granite Shield turns their burst window into a tank stat boost while you scale to your R spike.",
-        "via": "pick_into"
-      },
-      {
-        "publisher": {
-          "champion": "malphite",
-          "role": "top",
           "lang": "it"
         },
         "archetype": "Duellanti con true damage HP-percentuale",
         "reason": "Il loro kit ignora Armor e Magic Resist — i vital di Fiora fanno danno true, il pillar di Trundle più la W ti smontano le stat tank. Stackare difese non risolve il duello.",
         "via": "counterpick"
-      },
-      {
-        "publisher": {
-          "champion": "malphite",
-          "role": "top",
-          "lang": "it"
-        },
-        "archetype": "Bruiser snowball senza poke ranged",
-        "reason": "Devono committare a un all-in melee (scambio totale fino alla kill) per vincere lane; Aftershock più Granite Shield trasformano la loro burst window in un boost di stat tank mentre tu scali alla R spike.",
-        "via": "pick_into"
       },
       {
         "publisher": {
@@ -5178,6 +5298,26 @@
       },
       {
         "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Close-range mages or tanks that must walk into turret coverage",
+        "reason": "Their engage is melee-range or short-range. Three deployed turrets make the walk-in lethal — a fully charged beam hits them before the engage animation completes.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage corpo a corpo o tank che devono entrare nel raggio delle torrette",
+        "reason": "Il loro engage avviene a corto raggio o richiede di camminare dentro la zona. Tre torrette piazzate rendono l'avanzata letale: il beam carico colpisce prima che l'animazione di engage sia completata.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -5438,6 +5578,26 @@
         },
         "archetype": "Bruiser melee lenti senza poke ranged",
         "reason": "Q applica true damage in percentuale dell'HP massimo, ignora l'armor. Un 1v1 lungo dentro la W mist scioglie i fighter melee tanky che non possono kitare o disengage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Melee juggernauts with short-range engage who cannot safely close gap",
+        "reason": "Their engage requires closing to melee range against three turrets firing simultaneously. E stun in the approach zone then W barrage stops the commit before it reaches Heimerdinger.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Juggernaut melee incapaci di chiudere la distanza",
+        "reason": "Il loro engage richiede di arrivare a portata melee contro tre torrette che sparano contemporaneamente. Lo stordimento di E nella zona di approccio seguito da W ferma il commit prima che raggiunga Heimerdinger.",
         "via": "pick_into"
       },
       {
@@ -6078,6 +6238,26 @@
       },
       {
         "publisher": {
+          "champion": "heimerdinger",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Mobile divers with multiple dashes that collapse turret nest",
+        "reason": "They dash through the turret zone, reset on minions, and reach Heimerdinger before he repositions. Zhonya's Hourglass is mandatory — use the stasis to waste their dash windows and force them to disengage.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Diver mobili con più dash che abbattono il turret nest",
+        "reason": "Possono fare dash attraverso la zona delle torrette, resettare sui minion e raggiungere Heimerdinger prima che possa riposizionarsi. Zhonya's Hourglass è obbligatorio — usa la stasi per sprecare le loro finestre di dash e costringerli a disimpegnarsi.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "jax",
           "role": "top",
           "lang": "en"
@@ -6232,31 +6412,11 @@
         "publisher": {
           "champion": "blitzcrank",
           "role": "support",
-          "lang": "en"
-        },
-        "archetype": "Squishy enchanters with low base health",
-        "reason": "Pulling the enchanter out of position deletes the lane: their carry has no peel and a Q-W-E-R combo on a 500 HP target ends the trade.",
-        "via": "pick_into"
-      },
-      {
-        "publisher": {
-          "champion": "blitzcrank",
-          "role": "support",
           "lang": "it"
         },
         "archetype": "Disengage e immunita CC",
         "reason": "Janna Q tornado ti sbatte fuori dal range della E; Lulu W ti slowna o ti polymorpha durante l'engage; Morgana Black Shield blocca direttamente l'hook.",
         "via": "counterpick"
-      },
-      {
-        "publisher": {
-          "champion": "blitzcrank",
-          "role": "support",
-          "lang": "it"
-        },
-        "archetype": "Enchanter squishy con HP base bassi",
-        "reason": "Tirando l'enchanter fuori posizione cancelli la lane: il loro carry resta senza peel, e la combo Q-W-E-R su un bersaglio da 500 HP chiude il trade.",
-        "via": "pick_into"
       },
       {
         "publisher": {
@@ -6292,31 +6452,11 @@
         "publisher": {
           "champion": "fiddlesticks",
           "role": "support",
-          "lang": "en"
-        },
-        "archetype": "Squishy enchanter supports without hard CC",
-        "reason": "Their kit is built around healing and shielding — a Crowstorm from tri-brush blows past their cooldowns and one-shots both them and the ADC before either heal or shield can be used twice.",
-        "via": "pick_into"
-      },
-      {
-        "publisher": {
-          "champion": "fiddlesticks",
-          "role": "support",
           "lang": "it"
         },
         "archetype": "Enchanter da disengage / peel",
         "reason": "Janna R o Lulu W ti sbattono fuori dal carry l'istante in cui atterri. L'AOE di Crowstorm continua a tickare ma senza follow-up CC, il fight si resetta e mangi focus damage per niente.",
         "via": "counterpick"
-      },
-      {
-        "publisher": {
-          "champion": "fiddlesticks",
-          "role": "support",
-          "lang": "it"
-        },
-        "archetype": "Enchanter squishy senza CC duro",
-        "reason": "Il loro kit ruota su healing e shielding — un Crowstorm dal tri-cespuglio supera i loro cooldown e one-shotta sia loro che l'ADC prima che heal o shield possano essere usati due volte.",
-        "via": "pick_into"
       },
       {
         "publisher": {
@@ -6642,6 +6782,26 @@
         },
         "archetype": "Poker e kiter a lungo raggio",
         "reason": "E di Jayce (knockback) e mega R di Gnar interrompono il dash a metà cast. I kiter restano fuori dal suo threat range, costringendola a impegnare i dash da troppo lontano e poi punirla con le ability in cooldown.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Long-range top laners who poke from outside 970 range",
+        "reason": "They zone Heimerdinger off the minion wave from a range where E and W cannot reliably reach, forcing him to take free poke every time he tries to place a turret or last-hit.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top laner a lungo raggio che fanno poke da fuori range 970",
+        "reason": "Zonano Heimerdinger dalla wave da una distanza in cui E e W non riescono a colpire in modo affidabile, costringendolo a subire poke gratis ogni volta che tenta di piazzare una torretta o fare last-hit.",
         "via": "counterpick"
       },
       {
@@ -8381,6 +8541,26 @@
         "archetype": "Assassini con un'unica burst window",
         "reason": "Il loro intero damage profile e' una combo. Il passive di Mundo mangia il loro primo hard CC, la R heala una percentuale degli HP mancanti istantaneamente, e la W refunda parte del danno subito durante il burst — bruciano i cooldown e Mundo se ne va quasi full HP.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins who gap-close before turrets respond",
+        "reason": "Turrets have a slow attack cycle. A triple-dash assassin enters the turret nest and kills Heimerdinger before the first beam fires; the cooldown is too short to save him.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili che gap-close prima che le torrette rispondano",
+        "reason": "Le torrette hanno un ciclo di attacco lento. Un assassino con triplo dash entra nel nest e uccide Heimerdinger prima che parta il primo beam; il cooldown è troppo corto per salvarlo.",
+        "via": "counterpick"
       }
     ],
     "kayle": [
@@ -11526,16 +11706,6 @@
         "publisher": {
           "champion": "gwen",
           "role": "top",
-          "lang": "en"
-        },
-        "archetype": "Resistance-stacking tanks",
-        "reason": "Q true damage and on-hit AP from E ignore both armor and magic resist. Tanks stack defenses she fully bypasses.",
-        "via": "pick_into"
-      },
-      {
-        "publisher": {
-          "champion": "gwen",
-          "role": "top",
           "lang": "it"
         },
         "archetype": "Engage point-and-click con stun",
@@ -11544,12 +11714,42 @@
       },
       {
         "publisher": {
-          "champion": "gwen",
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Close-range mages or tanks that must walk into turret coverage",
+        "reason": "Their engage is melee-range or short-range. Three deployed turrets make the walk-in lethal — a fully charged beam hits them before the engage animation completes.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage corpo a corpo o tank che devono entrare nel raggio delle torrette",
+        "reason": "Il loro engage avviene a corto raggio o richiede di camminare dentro la zona. Tre torrette piazzate rendono l'avanzata letale: il beam carico colpisce prima che l'animazione di engage sia completata.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile or slow juggernauts that must walk through turret coverage",
+        "reason": "They have no dash or blink to dodge the turret nest setup. Each step into range triggers turret beams plus W rockets, burning their HP before they can land a meaningful trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
           "role": "top",
           "lang": "it"
         },
-        "archetype": "Tank che scalano sulle resistenze",
-        "reason": "Q true damage e on-hit AP da E ignorano sia armor sia magic resist. I tank stackano difese che lei bypassa completamente.",
+        "archetype": "Juggernaut immobili o lenti che devono attraversare la copertura delle torrette",
+        "reason": "Non hanno dash o blink per aggirare il turret nest. Ogni passo dentro range attiva i raggi delle torrette più i razzi W, consumando i loro HP prima che possano fare un trade significativo.",
         "via": "pick_into"
       },
       {
@@ -11586,31 +11786,11 @@
         "publisher": {
           "champion": "jax",
           "role": "top",
-          "lang": "en"
-        },
-        "archetype": "Slow melee tanks without dashes",
-        "reason": "Counter Strike stuns them on top of you and they have no way to disengage; Jax stacks Relentless Assault freely while they soak the hits, winning every extended trade past level 6.",
-        "via": "pick_into"
-      },
-      {
-        "publisher": {
-          "champion": "jax",
-          "role": "top",
           "lang": "it"
         },
         "archetype": "Hard counter mage contro bruiser melee (quando in lead)",
         "reason": "Malphite contro Jax si ribalta sui suoi item: pre-Frostfire perde, post-secondo item l'armor stack e la R lock-on chiudono la finestra di all-in di Jax.",
         "via": "counterpick"
-      },
-      {
-        "publisher": {
-          "champion": "jax",
-          "role": "top",
-          "lang": "it"
-        },
-        "archetype": "Tank melee lenti senza dash",
-        "reason": "Counter Strike li stuna in faccia e non hanno modo di disengage; Jax stacka Relentless Assault liberamente mentre incassano, vincendo ogni trade esteso dopo il livello 6.",
-        "via": "pick_into"
       },
       {
         "publisher": {
@@ -12586,6 +12766,26 @@
       },
       {
         "publisher": {
+          "champion": "heimerdinger",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Melee juggernauts with short-range engage who cannot safely close gap",
+        "reason": "Their engage requires closing to melee range against three turrets firing simultaneously. E stun in the approach zone then W barrage stops the commit before it reaches Heimerdinger.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Juggernaut melee incapaci di chiudere la distanza",
+        "reason": "Il loro engage richiede di arrivare a portata melee contro tre torrette che sparano contemporaneamente. Lo stordimento di E nella zona di approccio seguito da W ferma il commit prima che raggiunga Heimerdinger.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "nasus",
           "role": "top",
           "lang": "en"
@@ -12867,28 +13067,6 @@
         "via": "pick_into"
       }
     ],
-    "mundo": [
-      {
-        "publisher": {
-          "champion": "fiora",
-          "role": "top",
-          "lang": "en"
-        },
-        "archetype": "HP-stacking tanks that cannot stop her Vitals",
-        "reason": "Vitals deal a percentage of the target's max HP as true damage (damage that ignores armor and MR). The more HP they build, the more her R chunks them in extended fights.",
-        "via": "pick_into"
-      },
-      {
-        "publisher": {
-          "champion": "fiora",
-          "role": "top",
-          "lang": "it"
-        },
-        "archetype": "Tank HP-stacker che non riescono a fermare i Vitals",
-        "reason": "I Vitals fanno una percentuale dell'HP massimo del bersaglio in true damage (danno che ignora armor e MR). Più HP buildano, più la R di Fiora li devasta nei fight prolungati.",
-        "via": "pick_into"
-      }
-    ],
     "nami": [
       {
         "publisher": {
@@ -13050,6 +13228,26 @@
         },
         "archetype": "Juggernaut da scaling senza early kill threat",
         "reason": "Pushi la wave con Mini Q+W e gli neghi farm sotto torre; non possono punire perché non hanno gap-close che batte il tuo boomerang range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile or slow juggernauts that must walk through turret coverage",
+        "reason": "They have no dash or blink to dodge the turret nest setup. Each step into range triggers turret beams plus W rockets, burning their HP before they can land a meaningful trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Juggernaut immobili o lenti che devono attraversare la copertura delle torrette",
+        "reason": "Non hanno dash o blink per aggirare il turret nest. Ogni passo dentro range attiva i raggi delle torrette più i razzi W, consumando i loro HP prima che possano fare un trade significativo.",
         "via": "pick_into"
       },
       {
@@ -14956,6 +15154,26 @@
       },
       {
         "publisher": {
+          "champion": "heimerdinger",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Long-range top laners who poke from outside 970 range",
+        "reason": "They zone Heimerdinger off the minion wave from a range where E and W cannot reliably reach, forcing him to take free poke every time he tries to place a turret or last-hit.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top laner a lungo raggio che fanno poke da fuori range 970",
+        "reason": "Zonano Heimerdinger dalla wave da una distanza in cui E e W non riescono a colpire in modo affidabile, costringendolo a subire poke gratis ogni volta che tenta di piazzare una torretta o fare last-hit.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "nasus",
           "role": "top",
           "lang": "en"
@@ -15232,31 +15450,11 @@
         "publisher": {
           "champion": "diana",
           "role": "jungle",
-          "lang": "en"
-        },
-        "archetype": "Slow-clearing low-mobility junglers",
-        "reason": "Diana clears faster with passive resets and reaches Scuttle Crab first. Counter-jungle the back camps after each Drake spawn — they cannot rotate in time.",
-        "via": "pick_into"
-      },
-      {
-        "publisher": {
-          "champion": "diana",
-          "role": "jungle",
           "lang": "it"
         },
         "archetype": "Tank junglers with built-in disengage or knock-up",
         "reason": "La R di Diana funziona solo a melee range: queste tool di counter-engage la sbalzano fuori dalla pull window prima che Moonfall finisca il channel, sprecando l'unico CC.",
         "via": "counterpick"
-      },
-      {
-        "publisher": {
-          "champion": "diana",
-          "role": "jungle",
-          "lang": "it"
-        },
-        "archetype": "Slow-clearing low-mobility junglers",
-        "reason": "Diana clearа più veloce con i passive reset e arriva prima allo Scuttle Crab. Counter-jungla i camp di backup dopo ogni Drake: non rotanо in tempo.",
-        "via": "pick_into"
       },
       {
         "publisher": {
@@ -16156,6 +16354,26 @@
       },
       {
         "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Global roamers who skip the turret nest entirely",
+        "reason": "Heimerdinger cannot roam — uprooting turrets is a three-Q re-invest. The opponent takes free kills on side lanes while Heimerdinger sits in mid optimizing a nest that never gets fought.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Roamer globali che ignorano il nest",
+        "reason": "Heimerdinger non può fare roam — spostare le torrette richiede tre investimenti di Q. L'avversario prende kill gratis nelle side lane mentre Heimerdinger ottimizza un nest che non viene mai combattuto.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "irelia",
           "role": "top",
           "lang": "en"
@@ -16472,31 +16690,11 @@
         "publisher": {
           "champion": "belveth",
           "role": "jungle",
-          "lang": "en"
-        },
-        "archetype": "Tank junglers without a dash",
-        "reason": "Bel'Veth's on-hit pattern with Terminus shreds their armor and magic resist; she sticks to them with Q dashes around their hitbox while they have no way to disengage from her.",
-        "via": "pick_into"
-      },
-      {
-        "publisher": {
-          "champion": "belveth",
-          "role": "jungle",
           "lang": "it"
         },
         "archetype": "Jungler con hard CC point-and-click",
         "reason": "Il Q dash di Bel'Veth non schiva abilità targetate. Una Sejuani R o una Vi R la inchioda e l'on-hit pattern si ferma istante dopo istante.",
         "via": "counterpick"
-      },
-      {
-        "publisher": {
-          "champion": "belveth",
-          "role": "jungle",
-          "lang": "it"
-        },
-        "archetype": "Tank jungler senza dash",
-        "reason": "L'on-hit pattern di Bel'Veth con Terminus gli sfonda armor e magic resist; resta incollata con i Q dash attorno alla loro hitbox e loro non hanno modo di disengage.",
-        "via": "pick_into"
       },
       {
         "publisher": {
@@ -16946,29 +17144,9 @@
           "role": "support",
           "lang": "en"
         },
-        "archetype": "Long-range poke supports with disengage",
-        "reason": "They poke you out of hook range before you can reach them. With no HP you cannot engage; you lose lane priority (the freedom to leave lane safely) without ever throwing Q.",
-        "via": "counterpick"
-      },
-      {
-        "publisher": {
-          "champion": "thresh",
-          "role": "support",
-          "lang": "en"
-        },
         "archetype": "Long-range ADCs with no dash",
         "reason": "They sit at maximum range to poke and have no built-in escape. A flank Q from a side brush at minute 8+ is a free pickoff — they cannot reposition once the hook leaves your hand.",
         "via": "pick_into"
-      },
-      {
-        "publisher": {
-          "champion": "thresh",
-          "role": "support",
-          "lang": "it"
-        },
-        "archetype": "Support poke a lungo raggio con disengage",
-        "reason": "Ti pokano fuori dal range di hook prima che tu li raggiunga. Senza HP non puoi engageare e perdi la priority di lane (la libertà di lasciarla senza perdere risorse) senza aver mai lanciato una Q.",
-        "via": "counterpick"
       },
       {
         "publisher": {
@@ -17944,29 +18122,9 @@
           "role": "jungle",
           "lang": "en"
         },
-        "archetype": "Junglers with point-and-click hard CC",
-        "reason": "Bel'Veth's Q dash does not dodge targeted abilities. Once she eats a Sejuani R or Vi R, she is locked in place and her on-hit pattern stops cold.",
-        "via": "counterpick"
-      },
-      {
-        "publisher": {
-          "champion": "belveth",
-          "role": "jungle",
-          "lang": "en"
-        },
         "archetype": "Tank junglers without a dash",
         "reason": "Bel'Veth's on-hit pattern with Terminus shreds their armor and magic resist; she sticks to them with Q dashes around their hitbox while they have no way to disengage from her.",
         "via": "pick_into"
-      },
-      {
-        "publisher": {
-          "champion": "belveth",
-          "role": "jungle",
-          "lang": "it"
-        },
-        "archetype": "Jungler con hard CC point-and-click",
-        "reason": "Il Q dash di Bel'Veth non schiva abilità targetate. Una Sejuani R o una Vi R la inchioda e l'on-hit pattern si ferma istante dopo istante.",
-        "via": "counterpick"
       },
       {
         "publisher": {
@@ -18926,6 +19084,26 @@
         },
         "archetype": "Burst mage a media gittata senza sustain",
         "reason": "Lo scudo magico W taglia il grosso del loro combo damage; quando il burst e in cooldown non possono duellare un frame AP-tank.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile burst mages without dash",
+        "reason": "They cannot walk into a 3-turret nest without taking sustained DPS. Their burst requires closing range, which the E stun and turret beam punish before they can burst back.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "Non possono avanzare nel nest delle tre torrette senza subire DPS continuo. Il loro burst richiede avvicinarsi, e lo stun di E più i beam delle torrette puniscono l'approccio prima che possano rispondere.",
         "via": "pick_into"
       },
       {
@@ -20426,6 +20604,26 @@
       },
       {
         "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Global roamers who skip the turret nest entirely",
+        "reason": "Heimerdinger cannot roam — uprooting turrets is a three-Q re-invest. The opponent takes free kills on side lanes while Heimerdinger sits in mid optimizing a nest that never gets fought.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Roamer globali che ignorano il nest",
+        "reason": "Heimerdinger non può fare roam — spostare le torrette richiede tre investimenti di Q. L'avversario prende kill gratis nelle side lane mentre Heimerdinger ottimizza un nest che non viene mai combattuto.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -21286,31 +21484,11 @@
         "publisher": {
           "champion": "malphite",
           "role": "top",
-          "lang": "en"
-        },
-        "archetype": "Immobile or short-range marksmen on enemy team",
-        "reason": "Even though you draft top, R is a long-range hard engage that deletes ADCs (the main ranged damage dealer of a team) without dashes. A clean R into their backline ends the teamfight before it starts.",
-        "via": "pick_into"
-      },
-      {
-        "publisher": {
-          "champion": "malphite",
-          "role": "top",
           "lang": "it"
         },
         "archetype": "Top laner ranged con strumenti di kite",
         "reason": "Ti pokano fuori dal range dell'auto-attack e disengage la R con la loro mobilità (Vayne tumble, Kennen lightning rush, Gnar form swap). Perdi la lane phase prima che la R sia online a livello 6.",
         "via": "counterpick"
-      },
-      {
-        "publisher": {
-          "champion": "malphite",
-          "role": "top",
-          "lang": "it"
-        },
-        "archetype": "Marksman immobili o a corto raggio nel team avversario",
-        "reason": "Anche se draftti top, la R è un engage hard a lunga gittata che cancella gli ADC (il damage dealer ranged principale di una squadra) senza dash. Una R pulita sulla loro backline chiude il teamfight prima che cominci.",
-        "via": "pick_into"
       },
       {
         "publisher": {
@@ -21696,6 +21874,26 @@
       },
       {
         "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile burst mages without dash",
+        "reason": "They cannot walk into a 3-turret nest without taking sustained DPS. Their burst requires closing range, which the E stun and turret beam punish before they can burst back.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "Non possono avanzare nel nest delle tre torrette senza subire DPS continuo. Il loro burst richiede avvicinarsi, e lo stun di E più i beam delle torrette puniscono l'approccio prima che possano rispondere.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -22034,6 +22232,26 @@
         },
         "archetype": "Mage support di artillery a lunga gittata",
         "reason": "Pokano fuori dal range della Q di Galio e dalla distanza del dash E, quindi non li può punire in lane; missing health pre-6 stallano il suo impatto in side lane con la R.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages who poke from outside turret range",
+        "reason": "Turrets only cover a radius around Heimerdinger. Artillery mages sit at 1000+ range, safely outside the nest, and chip him to zero without ever entering his zone.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage artillery a lungo raggio che fanno poke fuori dal raggio delle torrette",
+        "reason": "Le torrette coprono solo un raggio attorno a Heimerdinger. I mage artillery restano a 1000+ range, fuori dal nest, e lo consumano a zero senza mai entrare nella sua zona di controllo.",
         "via": "counterpick"
       },
       {
@@ -23194,6 +23412,26 @@
       },
       {
         "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages who poke from outside turret range",
+        "reason": "Turrets only cover a radius around Heimerdinger. Artillery mages sit at 1000+ range, safely outside the nest, and chip him to zero without ever entering his zone.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage artillery a lungo raggio che fanno poke fuori dal raggio delle torrette",
+        "reason": "Le torrette coprono solo un raggio attorno a Heimerdinger. I mage artillery restano a 1000+ range, fuori dal nest, e lo consumano a zero senza mai entrare nella sua zona di controllo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "janna",
           "role": "support",
           "lang": "en"
@@ -23306,31 +23544,11 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
-          "lang": "en"
-        },
-        "archetype": "Backline scalers with weak escape",
-        "reason": "Cross-map R turns positioning mistakes into kills. They contribute from far away but cannot dodge a max-range snipe on objective spawns.",
-        "via": "pick_into"
-      },
-      {
-        "publisher": {
-          "champion": "lux",
-          "role": "mid",
           "lang": "it"
         },
         "archetype": "Artillery mage a gittata superiore",
         "reason": "Pokano Lux oltre il range della Q. Lei non ha modo di chiudere la distanza, quindi ogni scambio in lane le costa HP senza opzione di all-in di ritorno.",
         "via": "counterpick"
-      },
-      {
-        "publisher": {
-          "champion": "lux",
-          "role": "mid",
-          "lang": "it"
-        },
-        "archetype": "Carry da retroguardia con escape debole",
-        "reason": "La R cross-map trasforma errori di posizionamento in kill. Contribuiscono da lontano ma non possono schivare uno snipe a max range sugli obiettivi.",
-        "via": "pick_into"
       },
       {
         "publisher": {
@@ -23426,31 +23644,11 @@
         "publisher": {
           "champion": "syndra",
           "role": "mid",
-          "lang": "en"
-        },
-        "archetype": "Backline scalers with weak escape",
-        "reason": "They want to poke from the back. Syndra walks her sphere into E range, stuns from 1100+ units after the knockback, and one-shots before they can answer.",
-        "via": "pick_into"
-      },
-      {
-        "publisher": {
-          "champion": "syndra",
-          "role": "mid",
           "lang": "it"
         },
         "archetype": "Artillery mage a gittata superiore",
         "reason": "Pokano oltre il range della Q (800). Syndra non ha modo di chiudere la distanza, quindi ogni scambio in lane le costa HP senza opzione di all-in di ritorno.",
         "via": "counterpick"
-      },
-      {
-        "publisher": {
-          "champion": "syndra",
-          "role": "mid",
-          "lang": "it"
-        },
-        "archetype": "Carry da retroguardia con escape debole",
-        "reason": "Vogliono pokare da lontano. Syndra cammina la sfera dentro la propria E, stuna da 1100+ unità con il knockback e li one-shotta prima che possano rispondere.",
-        "via": "pick_into"
       },
       {
         "publisher": {
@@ -25190,29 +25388,9 @@
           "role": "jungle",
           "lang": "en"
         },
-        "archetype": "Junglers with point-and-click hard CC",
-        "reason": "Bel'Veth's Q dash does not dodge targeted abilities. Once she eats a Sejuani R or Vi R, she is locked in place and her on-hit pattern stops cold.",
-        "via": "counterpick"
-      },
-      {
-        "publisher": {
-          "champion": "belveth",
-          "role": "jungle",
-          "lang": "en"
-        },
         "archetype": "Tank junglers without a dash",
         "reason": "Bel'Veth's on-hit pattern with Terminus shreds their armor and magic resist; she sticks to them with Q dashes around their hitbox while they have no way to disengage from her.",
         "via": "pick_into"
-      },
-      {
-        "publisher": {
-          "champion": "belveth",
-          "role": "jungle",
-          "lang": "it"
-        },
-        "archetype": "Jungler con hard CC point-and-click",
-        "reason": "Il Q dash di Bel'Veth non schiva abilità targetate. Una Sejuani R o una Vi R la inchioda e l'on-hit pattern si ferma istante dopo istante.",
-        "via": "counterpick"
       },
       {
         "publisher": {
@@ -25504,6 +25682,26 @@
         },
         "archetype": "Assassini a corto raggio con multipli dash",
         "reason": "Lo shroud di Akali rompe il targeting di W, e le catene di dash di Zed/Fizz chiudono il trade prima che la W esca dal charge — il miglior CC di Galio sta su un tell lento che loro out-pace.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins who gap-close before turrets respond",
+        "reason": "Turrets have a slow attack cycle. A triple-dash assassin enters the turret nest and kills Heimerdinger before the first beam fires; the cooldown is too short to save him.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili che gap-close prima che le torrette rispondano",
+        "reason": "Le torrette hanno un ciclo di attacco lento. Un assassino con triplo dash entra nel nest e uccide Heimerdinger prima che parta il primo beam; il cooldown è troppo corto per salvarlo.",
         "via": "counterpick"
       },
       {
@@ -25847,6 +26045,26 @@
         "archetype": "Artillery a lunga gittata senza mobilità",
         "reason": "La R fish arriva a 1300 unità: punisce il posizionamento a max range. Una volta che Fizz committa con Q + E loro non hanno un dash per riazzerare la distanza e devono assorbire l'intera burst window.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages who poke from outside turret range",
+        "reason": "Turrets only cover a radius around Heimerdinger. Artillery mages sit at 1000+ range, safely outside the nest, and chip him to zero without ever entering his zone.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "heimerdinger",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage artillery a lungo raggio che fanno poke fuori dal raggio delle torrette",
+        "reason": "Le torrette coprono solo un raggio attorno a Heimerdinger. I mage artillery restano a 1000+ range, fuori dal nest, e lo consumano a zero senza mai entrare nella sua zona di controllo.",
+        "via": "counterpick"
       },
       {
         "publisher": {

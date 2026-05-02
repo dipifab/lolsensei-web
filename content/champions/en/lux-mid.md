@@ -101,7 +101,7 @@ matchup_draft:
     - examples: ["karthus", "veigar", "viktor", "anivia"]
       archetype: "Immobile mages without dash"
       reason: "Lux's Q is a long-range root: targets with no dash or stealth get bound on a clean line and eat the full E + R combo before they can answer."
-    - examples: ["senna", "xerath", "ziggs"]
+    - examples: ["senna", "ziggs"]
       archetype: "Backline scalers with weak escape"
       reason: "Cross-map R turns positioning mistakes into kills. They contribute from far away but cannot dodge a max-range snipe on objective spawns."
     - examples: ["annie", "sylas"]

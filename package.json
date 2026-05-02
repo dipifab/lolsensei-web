@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "node scripts/check-env-production.mjs && node scripts/content-lint.mjs && bash scripts/check-competitors.sh && node scripts/compile-content.mjs && node scripts/generate-sitemap.mjs",
+    "prebuild": "node scripts/check-env-production.mjs && node scripts/content-lint.mjs && bash scripts/check-competitors.sh && node scripts/compile-content.mjs && node scripts/build-counter-index.mjs && node scripts/generate-sitemap.mjs",
     "build:favicons": "node scripts/generate-favicons.mjs",
     "build": "cross-env NODE_ENV=production vinxi build && node scripts/compute-csp-hashes.mjs && cross-env NODE_ENV=production vinxi build",
     "build:prod": "npm run build",
@@ -29,7 +29,10 @@
     "baseline:lighthouse": "node scripts/measure-baseline.mjs",
     "test:e2e": "playwright test",
     "test:unit": "vitest run",
-    "test:unit:watch": "vitest"
+    "test:unit:watch": "vitest",
+    "build:counter-index": "node scripts/build-counter-index.mjs",
+    "check:counter-index-size": "node scripts/check-counter-index-size.mjs",
+    "check:counter-bundle-size": "node scripts/check-counter-bundle-size.mjs"
   },
   "dependencies": {
     "@fontsource/noto-sans-kr": "^5.2.9",

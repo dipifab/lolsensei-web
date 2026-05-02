@@ -19,6 +19,7 @@ import Breadcrumbs from '../../../../../components/Breadcrumbs';
 import { BreadcrumbJsonLd } from '../../../../../components/JsonLd';
 import { JsonLdArticle } from '../../../../../components/seo/JsonLdArticle';
 import ChampionGuide from '../../../../../components/champion/ChampionGuide';
+import { GuideCounterLink } from '../../../../../components/counter/GuideCounterLink';
 import { useI18n } from '../../../../../i18n';
 import { getOgLocale, OG_SITE_NAME } from '../../../../../lib/seo/meta-resolver';
 import {
@@ -223,6 +224,17 @@ export default function ChampionRoleGuideRoute() {
                     },
                   ]}
                 />
+                {/* WP-COUNTER-PICKER (CR-063 / WPCP-043): cross-link sopra-
+                    the-fold verso la pagina counter del soggetto guida.
+                    Naviga a /[lang]/counter/<champion-slug> (no role suffix:
+                    entry-point agnostico, vedi routing.md §4). */}
+                <div class="px-6 md:px-8 mt-4 mb-2" data-testid="guide-counter-link-wrapper">
+                  <GuideCounterLink
+                    lang={current.language}
+                    championSlug={current.champion}
+                    name={capitalize(current.champion)}
+                  />
+                </div>
                 <ChampionGuide
                   guide={current}
                   lang={current.language}

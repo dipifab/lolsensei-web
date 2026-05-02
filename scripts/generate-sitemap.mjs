@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { writeFileSync, readdirSync, existsSync } from 'node:fs';
+import { writeFileSync, readdirSync, readFileSync, existsSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { execSync } from 'node:child_process';
@@ -264,6 +264,84 @@ if (PUBLIC_PAGES_ENABLED) {
     }
   }
 }
+
+// ---------------------------------------------------------------------------
+// WP-COUNTER-PICKER (CR-063) — Counter-pick search + detail entries.
+//
+// Auto-discovery: legge `public/counter-index/<lang>.json` (prodotto da
+// scripts/build-counter-index.mjs nello step prebuild precedente). Emette:
+//   - 1 root URL `/<lang>/counter/` per locale (lingua con asset presente);
+//   - 1 URL `/<lang>/counter/<slug>` per ogni champion con `has_guide=true`
+//     (i champion senza guida non hanno pagina detail con contenuto, vedi
+//     REQ-NF-CP-008 AC-008.2 e EP5 nel execution-plan).
+//
+// Skip graceful se gli asset non esistono ancora (es. prima run o prebuild
+// invocato senza counter-index): nessun crash, solo warning.
+// ---------------------------------------------------------------------------
+
+const COUNTER_LOCALES = ['en', 'it'];
+const COUNTER_INDEX_DIR = resolve(__dirname, '..', 'public', 'counter-index');
+
+function counterRootUrl(locale) {
+  return `${BASE}/${locale}/counter/`;
+}
+
+function counterDetailUrl(locale, slug) {
+  return `${BASE}/${locale}/counter/${slug}`;
+}
+
+function buildCounterRootEntry(locale) {
+  const loc = counterRootUrl(locale);
+  const alternates = COUNTER_LOCALES.map(
+    (l) => `    <xhtml:link rel="alternate" hreflang="${hreflangFor(l)}" href="${counterRootUrl(l)}" />`,
+  ).join('\n');
+  const xDefault = `    <xhtml:link rel="alternate" hreflang="x-default" href="${counterRootUrl(DEFAULT_LOCALE)}" />`;
+  return `  <!-- counter-root: ${locale} -->\n  <url>\n    <loc>${loc}</loc>\n    <lastmod>${today}</lastmod>\n${alternates}\n${xDefault}\n  </url>`;
+}
+
+function buildCounterDetailEntry(locale, slug) {
+  const loc = counterDetailUrl(locale, slug);
+  const alternates = COUNTER_LOCALES.map(
+    (l) => `    <xhtml:link rel="alternate" hreflang="${hreflangFor(l)}" href="${counterDetailUrl(l, slug)}" />`,
+  ).join('\n');
+  const xDefault = `    <xhtml:link rel="alternate" hreflang="x-default" href="${counterDetailUrl(DEFAULT_LOCALE, slug)}" />`;
+  return `  <!-- counter-detail/${slug}: ${locale} -->\n  <url>\n    <loc>${loc}</loc>\n    <lastmod>${today}</lastmod>\n${alternates}\n${xDefault}\n  </url>`;
+}
+
+if (PUBLIC_PAGES_ENABLED) {
+  for (const locale of COUNTER_LOCALES) {
+    const indexPath = resolve(COUNTER_INDEX_DIR, `${locale}.json`);
+    if (!existsSync(indexPath)) {
+      console.warn(`[sitemap] counter-index missing for ${locale} (${indexPath}); skipping counter URLs for this locale`);
+      continue;
+    }
+    let parsed;
+    try {
+      parsed = JSON.parse(readFileSync(indexPath, 'utf8'));
+    } catch (e) {
+      console.warn(`[sitemap] failed to parse counter-index for ${locale}: ${e.message}; skipping counter URLs`);
+      continue;
+    }
+    entries.push(buildCounterRootEntry(locale));
+    // Schema v2 (CR-063 Phase 2 fix OI2): champions e' Record<slug, ChampionMeta>.
+    // Per backward-compat con eventuali asset v1 stale, accetta anche array.
+    const championsField = parsed.champions ?? {};
+    if (Array.isArray(championsField)) {
+      for (const champion of championsField) {
+        if (champion?.has_guide) {
+          entries.push(buildCounterDetailEntry(locale, champion.slug));
+        }
+      }
+    } else {
+      for (const [slug, meta] of Object.entries(championsField)) {
+        if (meta?.has_guide) {
+          entries.push(buildCounterDetailEntry(locale, slug));
+        }
+      }
+    }
+  }
+}
+
 
 const xml =
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n        xmlns:xhtml="http://www.w3.org/1999/xhtml">\n` +

@@ -100,7 +100,7 @@ matchup_draft:
     - examples: ["caitlyn", "jinx", "ezreal"]
       archetype: "Static-positioning ADCs without dashes"
       reason: "Their auto-attack range forces them to stand on a predictable line behind minions; a hook around the cannon minion arc lands cleanly because they have no instant escape."
-    - examples: ["soraka", "janna", "yuumi"]
+    - examples: ["soraka", "yuumi"]
       archetype: "Squishy enchanters with low base health"
       reason: "Pulling the enchanter out of position deletes the lane: their carry has no peel and a Q-W-E-R combo on a 500 HP target ends the trade."
     - examples: ["xerath", "vel-koz", "zyra"]

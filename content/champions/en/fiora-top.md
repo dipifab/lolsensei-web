@@ -102,7 +102,7 @@ matchup_draft:
     - examples: ["sett", "darius", "garen"]
       archetype: "Slow juggernauts that rely on a single big ability"
       reason: "Fiora's W parries the one telegraphed wind-up that defines them (Darius E pull, Sett W slam, Garen Q silence). With the wind-up wasted, she walks around and free-hits Vitals all trade."
-    - examples: ["mundo", "sion", "shen"]
+    - examples: ["dr-mundo", "sion", "shen"]
       archetype: "HP-stacking tanks that cannot stop her Vitals"
       reason: "Vitals deal a percentage of the target's max HP as true damage (damage that ignores armor and MR). The more HP they build, the more her R chunks them in extended fights."
     - examples: ["nasus", "kayle"]

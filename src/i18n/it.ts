@@ -1480,6 +1480,58 @@ const it = {
   'console.users.refresh_riot_id.error.account_not_found': 'Account Riot non trovato per questo puuid',
   'console.users.refresh_riot_id.error.rate_limit': 'Limite raggiunto. Attendi prima di riprovare.',
 
+  // WP-COUNTER-PICKER (CR-063) — counter-pick search + detail.
+  // EN+IT only by design (ADR-034). Non-EN/IT locales receive a 308
+  // redirect to /en/counter/* via middleware.ts, but the keys are
+  // replicated to the other 6 locale files so npm run check:i18n
+  // (parity check, no counter. exemption) stays green.
+  // Counter — search page
+  'counter.search.page_title': 'Counter-pick search — LoL Sensei',
+  'counter.search.h1': 'Cerca counter-pick',
+  'counter.search.tagline': 'Scrivi un campione per vedere chi lo countera.',
+  'counter.search.input_placeholder': 'Nome campione',
+  'counter.search.input_aria': 'Cerca campione da counterare',
+  'counter.search.placeholder_hint': 'Scrivi almeno 2 caratteri',
+  'counter.search.no_results': 'Nessun campione trovato, prova un altro nome',
+  'counter.search.loading': 'Caricamento elenco campioni…',
+  'counter.search.error_load': 'Impossibile caricare i dati. Ricarica per riprovare.',
+  // Counter — role filter
+  'counter.role.any': 'Qualsiasi ruolo',
+  'counter.role.top': 'Top',
+  'counter.role.jungle': 'Jungle',
+  'counter.role.mid': 'Mid',
+  'counter.role.bot': 'Bot',
+  'counter.role.support': 'Support',
+  'counter.role.aria_label': 'Filtra per ruolo',
+  // Counter — detail page
+  'counter.detail.page_title_template': 'Counter di {name} — LoL Sensei',
+  'counter.detail.meta_description_template': 'Scopri chi countera {name} e quali campioni {name} batte — sulla base delle guide pubblicate.',
+  'counter.detail.column.strong': 'Counter di {name}',
+  'counter.detail.column.weak': 'Counterato da {name}',
+  'counter.detail.column.empty_strong': 'Nessuna guida pubblicata indica un counter forte contro {name}.',
+  'counter.detail.column.empty_weak': 'Nessuna guida pubblicata indica un counter debole contro {name}.',
+  'counter.detail.no_data': 'Guida non ancora pubblicata — nessun dato matchup disponibile per {name}.',
+  'counter.detail.no_data_cta': 'Vedi le guide pubblicate',
+  'counter.detail.cross_link_subject': 'Vedi la guida di {name}',
+  'counter.detail.role_badge_aria': 'Ruolo di {name}: {role}',
+  'counter.detail.not_found_title': 'Counter non trovato',
+  'counter.detail.not_found_body': 'Non abbiamo trovato nessun campione corrispondente a questo URL.',
+  'counter.detail.not_found_cta': 'Torna alla ricerca counter',
+  'counter.detail.loading': 'Caricamento dati matchup…',
+  // Counter — CTA cross-link from hub + guide
+  'counter.cta.hub_label': 'Cerca counter-pick',
+  'counter.cta.hub_subtitle': 'Trova chi countera ogni campione in champ-select',
+  'counter.cta.guide_label': 'Vedi i counter di {name}',
+  'counter.cta.guide_label_short': 'Counter',
+  // Counter — a11y
+  'counter.a11y.portrait_alt': 'Ritratto di {name}',
+  'counter.a11y.suggestion_role': 'Suggerimento campione',
+  'counter.a11y.cell_link_aria': '{publisher} {role} {via} {enemy}',
+  'counter.a11y.cell_via_pick_into': 'e forte contro',
+  'counter.a11y.cell_via_counterpick': 'e counterato da',
+  'counter.a11y.column_strong_label': 'Campioni forti contro {name}',
+  'counter.a11y.column_weak_label': 'Campioni deboli contro {name}',
+
 } as const;
 
 export default it;

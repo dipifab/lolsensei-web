@@ -1489,6 +1489,58 @@ const en = {
   'console.users.refresh_riot_id.error.account_not_found': 'Riot account not found for this puuid',
   'console.users.refresh_riot_id.error.rate_limit': 'Rate limit. Please wait before retrying.',
 
+  // WP-COUNTER-PICKER (CR-063) — counter-pick search + detail.
+  // EN+IT only by design (ADR-034). Non-EN/IT locales receive a 308
+  // redirect to /en/counter/* via middleware.ts, but the keys are
+  // replicated to the other 6 locale files so npm run check:i18n
+  // (parity check, no counter. exemption) stays green.
+  // Counter — search page
+  'counter.search.page_title': 'Counter-pick search — LoL Sensei',
+  'counter.search.h1': 'Counter-pick search',
+  'counter.search.tagline': 'Type a champion name to see who counters them.',
+  'counter.search.input_placeholder': 'Champion name',
+  'counter.search.input_aria': 'Search champion to counter',
+  'counter.search.placeholder_hint': 'Type at least 2 characters',
+  'counter.search.no_results': 'No champion found, try another name',
+  'counter.search.loading': 'Loading champion index…',
+  'counter.search.error_load': 'Could not load champion data. Reload to retry.',
+  // Counter — role filter
+  'counter.role.any': 'Any role',
+  'counter.role.top': 'Top',
+  'counter.role.jungle': 'Jungle',
+  'counter.role.mid': 'Mid',
+  'counter.role.bot': 'Bot',
+  'counter.role.support': 'Support',
+  'counter.role.aria_label': 'Filter by role',
+  // Counter — detail page
+  'counter.detail.page_title_template': 'Counter {name} — LoL Sensei',
+  'counter.detail.meta_description_template': 'Discover who counters {name} and which champions {name} beats — based on our published guides.',
+  'counter.detail.column.strong': 'Counters {name}',
+  'counter.detail.column.weak': 'Countered by {name}',
+  'counter.detail.column.empty_strong': 'No published guide currently lists a strong matchup against {name}.',
+  'counter.detail.column.empty_weak': 'No published guide currently lists a weak matchup against {name}.',
+  'counter.detail.no_data': 'Guide not yet published — no matchup data available for {name}.',
+  'counter.detail.no_data_cta': 'Browse our published guides',
+  'counter.detail.cross_link_subject': "See {name}'s guide",
+  'counter.detail.role_badge_aria': '{name} role: {role}',
+  'counter.detail.not_found_title': 'Counter not found',
+  'counter.detail.not_found_body': 'We could not find a champion matching that URL.',
+  'counter.detail.not_found_cta': 'Back to counter search',
+  'counter.detail.loading': 'Loading matchup data…',
+  // Counter — CTA cross-link from hub + guide
+  'counter.cta.hub_label': 'Counter-pick search',
+  'counter.cta.hub_subtitle': 'Find who counters any champion in champ-select',
+  'counter.cta.guide_label': "See {name}'s counters",
+  'counter.cta.guide_label_short': 'Counters',
+  // Counter — a11y
+  'counter.a11y.portrait_alt': '{name} portrait',
+  'counter.a11y.suggestion_role': 'Champion suggestion',
+  'counter.a11y.cell_link_aria': '{publisher} {role} {via} {enemy}',
+  'counter.a11y.cell_via_pick_into': 'is strong into',
+  'counter.a11y.cell_via_counterpick': 'is countered by',
+  'counter.a11y.column_strong_label': 'Champions strong against {name}',
+  'counter.a11y.column_weak_label': 'Champions weak against {name}',
+
 } as const;
 
 export default en;

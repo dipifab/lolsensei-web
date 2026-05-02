@@ -148,6 +148,29 @@ export default createMiddleware({
         });
       }
     },
+    // 5. WP-COUNTER-PICKER (CR-063 / WPCP-034) — counter feature is EN+IT
+    //    only by design (ADR-034). Other locales receive a 308 Permanent
+    //    Redirect to the EN equivalent so deep links from non-EN/IT users
+    //    (or stale crawler caches) land on the canonical English page.
+    //    308 (not 301) preserves the request method and is the modern
+    //    equivalent for permanent redirects of arbitrary methods. Status
+    //    is cached at the edge by Cloudflare (Cache-Control max-age=3600).
+    (event) => {
+      const url = new URL(event.request.url);
+      const m = url.pathname.match(/^\/([^/]+)\/counter(\/.*)?$/);
+      if (!m) return;
+      const lang = m[1].toLowerCase();
+      if (lang === 'en' || lang === 'it') return;
+      const rest = m[2] ?? '/';
+      const target = `/en/counter${rest}${url.search}`;
+      return new Response(null, {
+        status: 308,
+        headers: {
+          Location: target,
+          'Cache-Control': 'public, max-age=3600',
+        },
+      });
+    },
   ],
   onBeforeResponse: [
     (event) => {

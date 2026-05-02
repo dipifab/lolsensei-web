@@ -95,7 +95,7 @@ quick_learn:
       - "Health Scaling"
 matchup_draft:
   pick_into:
-    - examples: ["malphite", "ornn", "sion", "cho-gath"]
+    - examples: ["ornn", "sion", "cho-gath"]
       archetype: "Slow melee tanks without dashes"
       reason: "Counter Strike stuns them on top of you and they have no way to disengage; Jax stacks Relentless Assault freely while they soak the hits, winning every extended trade past level 6."
     - examples: ["nasus", "garen", "darius"]

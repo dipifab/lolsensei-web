@@ -4850,7 +4850,6 @@ export const itChampions: ChampionGuide[] = [
           "examples": [
             "amumu",
             "zac",
-            "sejuani",
             "skarner"
           ],
           "archetype": "Tank jungler senza dash",
@@ -4878,9 +4877,7 @@ export const itChampions: ChampionGuide[] = [
         {
           "examples": [
             "sejuani",
-            "vi",
-            "zac",
-            "skarner"
+            "vi"
           ],
           "archetype": "Jungler con hard CC point-and-click",
           "reason": "Il Q dash di Bel'Veth non schiva abilità targetate. Una Sejuani R o una Vi R la inchioda e l'on-hit pattern si ferma istante dopo istante."
@@ -5178,7 +5175,6 @@ export const itChampions: ChampionGuide[] = [
         {
           "examples": [
             "soraka",
-            "janna",
             "yuumi"
           ],
           "archetype": "Enchanter squishy con HP base bassi",
@@ -7075,7 +7071,7 @@ export const itChampions: ChampionGuide[] = [
   },
   {
     "slug": "camille-top",
-    "title": "Guida Camille Top — Build e Counter Patch 16.9",
+    "title": "Camille Top Build & Guida — Patch 16.9",
     "language": "it",
     "patch": "16.9",
     "champion": "camille",
@@ -9245,7 +9241,6 @@ export const itChampions: ChampionGuide[] = [
         {
           "examples": [
             "amumu",
-            "rammus",
             "warwick"
           ],
           "archetype": "Slow-clearing low-mobility junglers",
@@ -10596,7 +10591,7 @@ export const itChampions: ChampionGuide[] = [
   },
   {
     "slug": "elise-jungle",
-    "title": "Guida Elise Jungle — Build e Strategia per la Patch 16.9",
+    "title": "Elise Jungle Build & Guida — Patch 16.9",
     "language": "it",
     "patch": "16.9",
     "champion": "elise",
@@ -10920,7 +10915,7 @@ export const itChampions: ChampionGuide[] = [
   },
   {
     "slug": "elise-support",
-    "title": "Guida Elise Support — Build e Strategia per la Patch 16.9",
+    "title": "Elise Support Build & Guida — Patch 16.9",
     "language": "it",
     "patch": "16.9",
     "champion": "elise",
@@ -12406,8 +12401,7 @@ export const itChampions: ChampionGuide[] = [
         {
           "examples": [
             "soraka",
-            "yuumi",
-            "janna"
+            "yuumi"
           ],
           "archetype": "Enchanter squishy senza CC duro",
           "reason": "Il loro kit ruota su healing e shielding — un Crowstorm dal tri-cespuglio supera i loro cooldown e one-shotta sia loro che l'ADC prima che heal o shield possano essere usati due volte."
@@ -12732,7 +12726,7 @@ export const itChampions: ChampionGuide[] = [
         },
         {
           "examples": [
-            "mundo",
+            "dr-mundo",
             "sion",
             "shen"
           ],
@@ -15771,7 +15765,6 @@ export const itChampions: ChampionGuide[] = [
         },
         {
           "examples": [
-            "malphite",
             "shen",
             "ornn",
             "cho-gath"
@@ -16182,6 +16175,612 @@ export const itChampions: ChampionGuide[] = [
       }
     ],
     "champion_key": "120"
+  },
+  {
+    "slug": "heimerdinger-mid",
+    "title": "Heimerdinger Mid Build & Guida — Patch 16.9",
+    "language": "it",
+    "patch": "16.9",
+    "champion": "heimerdinger",
+    "role": "mid",
+    "last_updated": "2026-05-02",
+    "description": "Guida Heimerdinger mid per Patch 16.9: build ottimale, pagina rune, posizionamento torrette, matchup chiave, power spike e consigli avanzati per dominare in lane.",
+    "quick_learn": {
+      "champion_dd_id": "Heimerdinger",
+      "difficulty": 4,
+      "damage_type": "magic",
+      "champion_class": "Mage / Artillery",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Hextech Affinity",
+          "description": "Gain bonus Move Speed while near allied towers or your own deployed turrets.",
+          "dd_spell_id": "Heimerdinger_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "H-28 G Evolution Turret",
+          "description": "Deploy a turret (max 3 active). Turrets build charge; at max charge fire a beam. Charges reset on Q cast. Range 350.",
+          "dd_spell_id": "HeimerdingerQ"
+        },
+        {
+          "key": "W",
+          "name": "Hextech Micro-Rockets",
+          "description": "Long-range rocket barrage (1325 range) converging on cursor. Extra hits deal reduced damage. Each rocket hitting a champion grants nearby turrets 20% charge.",
+          "dd_spell_id": "HeimerdingerW"
+        },
+        {
+          "key": "E",
+          "name": "CH-2 Electron Storm Grenade",
+          "description": "Lob a grenade (970 range): slows enemies in the area, stuns enemies in the center. Fully charges nearby turrets on hit.",
+          "dd_spell_id": "HeimerdingerE"
+        },
+        {
+          "key": "R",
+          "name": "UPGRADE!!!",
+          "description": "Empowers next non-ultimate ability. R+Q: 8s mega-turret with AOE splash and slow. R+W: 4 rocket waves. R+E: larger stun zone with knockup in center.",
+          "dd_spell_id": "HeimerdingerR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "W"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "W"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "W"
+        },
+        {
+          "level": 13,
+          "key": "W"
+        },
+        {
+          "level": 14,
+          "key": "E"
+        },
+        {
+          "level": 15,
+          "key": "E"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "E"
+        },
+        {
+          "level": 18,
+          "key": "E"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6655",
+          "name": "Luden's Echo"
+        },
+        {
+          "dd_id": "3020",
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "dd_id": "4645",
+          "name": "Shadowflame"
+        },
+        {
+          "dd_id": "3118",
+          "name": "Malignance"
+        },
+        {
+          "dd_id": "3089",
+          "name": "Rabadon's Deathcap"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass",
+          "against": "contro assassini e diver (Zed, Akali, Diana) — la stasi dà tempo alle torrette di rispondere"
+        },
+        {
+          "dd_id": "3165",
+          "name": "Morellonomicon",
+          "against": "contro composizioni con molta healing (Vladimir, Soraka mid, Sylas)"
+        },
+        {
+          "dd_id": "3135",
+          "name": "Void Staff",
+          "against": "quando un target prioritario compra un item di Magic Resist"
+        }
+      ],
+      "base_combo": [
+        "Q",
+        "Q",
+        "Q",
+        "E",
+        "W",
+        "R+Q"
+      ],
+      "win_condition": "Costruisci il nest di torrette, stunn con E, fai DPS con W. Al livello 6 forza l'avversario fuori con R+Q mega-turret — una zona di controllo inamovibile.",
+      "weakness": "Nessuna mobilità e raggio di piazzamento torrette cortissimo (350). Gli assassini mobile gap-close prima che le torrette sparino; le torrette muoiono istantaneamente all'AOE waveclear.",
+      "runes": {
+        "primary_tree": "Sorcery",
+        "primary_tree_dd_id": 8200,
+        "keystone": {
+          "dd_id": 8229,
+          "name": "Arcane Comet",
+          "icon_path": "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 8226,
+            "name": "Manaflow Band",
+            "icon_path": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "dd_id": 8210,
+            "name": "Transcendence",
+            "icon_path": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png"
+          },
+          {
+            "dd_id": 8236,
+            "name": "Gathering Storm",
+            "icon_path": "perk-images/Styles/Sorcery/GatheringStorm/GatheringStorm.png"
+          }
+        ],
+        "secondary_tree": "Inspiration",
+        "secondary_tree_dd_id": 8300,
+        "secondary_slots": [
+          {
+            "dd_id": 8345,
+            "name": "Biscuit Delivery",
+            "icon_path": "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png"
+          },
+          {
+            "dd_id": 8347,
+            "name": "Cosmic Insight",
+            "icon_path": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png"
+          }
+        ],
+        "stat_shards": [
+          "Adaptive Force",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Arcane Comet procca su E (slow blocca il bersaglio) e su W, aggiungendo burst al DPS delle torrette. Manaflow Band evita l'esaurimento mana quando si riposizionano le torrette distrutte. Transcendence accorcia E e W. Gathering Storm scala l'AP nel late game.",
+        "secondary_rationale": "Biscuit Delivery sostiene i livelli iniziali ad alto consumo di mana e Cosmic Insight riduce tutti i cooldown globalmente, incluso UPGRADE!!! — rotazioni R+Q più frequenti definiscono il mid game.",
+        "secondary_alternative": "Contro lane ad alto poke (Xerath, Vel'Koz) valuta di sostituire Inspiration con Resolve prendendo Second Wind (rigenera HP dopo aver subito danni) e Bone Plating (riduce il burst da combo multi-hit) per restare in lane più a lungo."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "syndra",
+            "veigar",
+            "anivia"
+          ],
+          "archetype": "Mage immobili senza dash",
+          "reason": "Non possono avanzare nel nest delle tre torrette senza subire DPS continuo. Il loro burst richiede avvicinarsi, e lo stun di E più i beam delle torrette puniscono l'approccio prima che possano rispondere."
+        },
+        {
+          "examples": [
+            "annie",
+            "malphite",
+            "galio"
+          ],
+          "archetype": "Mage corpo a corpo o tank che devono entrare nel raggio delle torrette",
+          "reason": "Il loro engage avviene a corto raggio o richiede di camminare dentro la zona. Tre torrette piazzate rendono l'avanzata letale: il beam carico colpisce prima che l'animazione di engage sia completata."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "xerath",
+            "vel-koz",
+            "ziggs"
+          ],
+          "archetype": "Mage artillery a lungo raggio che fanno poke fuori dal raggio delle torrette",
+          "reason": "Le torrette coprono solo un raggio attorno a Heimerdinger. I mage artillery restano a 1000+ range, fuori dal nest, e lo consumano a zero senza mai entrare nella sua zona di controllo."
+        },
+        {
+          "examples": [
+            "zed",
+            "akali",
+            "katarina"
+          ],
+          "archetype": "Assassini mobili che gap-close prima che le torrette rispondano",
+          "reason": "Le torrette hanno un ciclo di attacco lento. Un assassino con triplo dash entra nel nest e uccide Heimerdinger prima che parta il primo beam; il cooldown è troppo corto per salvarlo."
+        },
+        {
+          "examples": [
+            "twisted-fate",
+            "ryze"
+          ],
+          "archetype": "Roamer globali che ignorano il nest",
+          "reason": "Heimerdinger non può fare roam — spostare le torrette richiede tre investimenti di Q. L'avversario prende kill gratis nelle side lane mentre Heimerdinger ottimizza un nest che non viene mai combattuto."
+        }
+      ]
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Heimerdinger è un mage da zone control che vince in lane rendendo il terreno inabitabile per l'avversario. Le sue <strong>H-28 G Evolution Turret (Q)</strong> — fino a tre attive contemporaneamente — creano un campo danno persistente che punisce chiunque si avvicini al suo raggio. Quando sono a piena carica, le torrette sparano un beam potenziato; la <strong>CH-2 Electron Storm Grenade (E)</strong> stunn o rallenta i nemici in quella zona, e i <strong>Hextech Micro-Rockets (W)</strong> martellano i bersagli fino a 1325 di range. Il risultato è un campione la cui forza è interamente legata al posizionamento: quando il nest di torrette è attivo, è quasi impossibile scambiare con lui; quando non lo è, è uno dei campioni più esposti del gioco.</p>\n<p>L'<strong>UPGRADE!!! (R)</strong> cambia completamente questa equazione. Premere <strong>R+Q</strong> piazza una mega-torretta potenziata — infligge danno AOE con splash (in un'area intorno al bersaglio principale), applica un rallentamento e dura 8 secondi indipendentemente da ulteriori cast di <strong>Q</strong>. Il game plan in mid è costruire e mantenere il nest fino al livello 6, poi usare <strong>R+Q</strong> per forzare l'avversario lontano dalla sua torre tier-1 e snowball (tradotto: costruire un vantaggio precoce che si moltiplica progressivamente) nel mid game.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1056.png\" alt=\"Doran&#x27;s Ring\"> Doran's Ring + 2 Health Potion. Il mana è critico: ogni torretta costa 20 mana e ne rimpiazzerai continuamente.</p>\n<p><strong>Core items (in ordine di acquisto):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png\" alt=\"Luden&#x27;s Echo\"> <strong>Luden's Echo</strong> — spike di burst (burst: danno elevato concentrato in 1-2 secondi) sul primo item, regen mana per il rimpiazzo torrette e magic penetration (la capacità di ignorare parte della resistenza magica del nemico) che rende il poke (poke: danno a distanza per logorare i HP del nemico senza committarsi in uno scontro totale) di W rilevante.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — penetrazione magica flat per punire i target fragili che si avvicinano al range delle torrette.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — amplifica il burst quando il nemico è sotto una soglia di HP, perfetto per il follow-up R+E in <strong>W</strong> dopo lo stun.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3118.png\" alt=\"Malignance\"> <strong>Malignance</strong> — riduce il cooldown di <strong>UPGRADE!!!</strong> e potenzia l'AP mentre l'ultimate è attivo; rotazioni più frequenti della mega-torretta definiscono il mid game.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — moltiplicatore AP nel late game; ogni beam e ogni razzo diventano una minaccia seria.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — contro assassini e diver (Zed, Akali, Diana). La stasi (uno stato di breve invincibilità congelata) lascia alle torrette tre secondi per sparare mentre tu sei intoccabile.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — contro composizioni con molta healing (Vladimir, Sylas). Applica Grievous Wounds (un debuff che riduce la healing del 40%) tramite i colpi delle torrette.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — appena un target prioritario (il nemico più pericoloso da eliminare, di solito il carry avversario con più oro) costruisce un item di Magic Resist; sostituisce Rabadon's se l'intera squadra nemica stacca MR.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> Sorcerer's Shoes è la scelta standard. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> Ionian Boots of Lucidity è accettabile quando hai bisogno di più CDR (riduzione del cooldown — il parametro che accorcia il tempo di attesa tra un'abilità e l'altra) per ruotare <strong>UPGRADE!!!</strong> più rapidamente.</p>\n<p><strong>Skill order:</strong> Massimai <strong>Q</strong> per primo (fonte principale di danno e potenza torrette), <strong>W</strong> secondo (poke e carica torrette), <strong>E</strong> per ultimo. Prendi <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Primario <strong>Sorcery</strong> con <strong>Arcane Comet</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Gathering Storm</strong>. Secondario <strong>Inspiration</strong> con <strong>Biscuit Delivery</strong> e <strong>Cosmic Insight</strong>.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Syndra:</strong> Lancia sfere a distanza ma deve castare da una posizione fissa. Piazza tre torrette sotto la tua torre tier-1, mantieni il wave slow-pushed (lascia accumulare i minion al centro della lane in modo che l'onda successiva arrivi più numerosa) e usa <strong>E</strong> per interrompere la raccolta delle sfere. Al livello 6 vinci l'all-in (impegnarti completamente nello scontro puntando a uccidere l'avversario) con <strong>R+Q</strong> sul terreno conteso.</li>\n<li><strong>Zed:</strong> Il matchup più difficile del pool. Farà dash attraverso le torrette prima che sparino. Rispetta il suo potere al livello 3 e al livello 6; compra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> Zhonya's Hourglass come secondo item. Quando usa <strong>Death Mark (R)</strong>, attiva la stasi immediatamente — le torrette avranno tre secondi per sparare.</li>\n<li><strong>Orianna:</strong> Matchup equilibrato di poke. Può spostare le tue torrette con <strong>Command: Shockwave (R)</strong> durante i teamfight. In lane, posiziona le torrette sul lato della wave da cui lei deve avvicinarsi. Evita di stare raggruppato vicino al tuo nest quando lei ha la palla nelle vicinanze.</li>\n<li><strong>Twisted Fate:</strong> Ignorerà il tuo nest e farà roam. Shova la wave sotto la sua torre prima che parta, metti ward sul fiume e cerca un <strong>R+E</strong> (knockup) in <strong>W</strong> se teletrasporta nella tua lane. Non puoi fermare il suo macro game (la strategia di largo respiro sulla mappa), ma puoi punire la sua torre base.</li>\n<li><strong>Viktor:</strong> Mage immobile che ha bisogno di stare fermo per fare danno. Un nest di tre torrette attira il suo <strong>Death Ray (E)</strong> mentre fai poke con <strong>W</strong> dietro al cluster. Post-6, la mega-torretta <strong>R+Q</strong> lo allontana dalla wave o brucia il suo Flash.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 1:</strong> Piazza due torrette nella wave di minion prima che arrivi il primo cannone. Gli avversari che si avvicinano per colpire in corpo a corpo subiscono un DPS (Damage Per Second — il danno continuo inflitto ogni secondo dalle torrette) sorprendente e si ritirano — hai il first push (vantaggio sulla wave) senza spendere nemmeno mana per fare poke.</li>\n<li><strong>Livello 6:</strong> <strong>UPGRADE!!!</strong> disponibile. La mega-torretta <strong>R+Q</strong> dura 8 secondi e non può essere colpita da CC (stun, rallentamento o qualsiasi crowd control); trasforma l'intera zona di Heimerdinger in una trappola mortale. Forza immediatamente uno scontro o un trade (trade: scambio breve di colpi o abilità in lane, senza committarsi all'all-in totale) sulla torre.</li>\n<li><strong>Luden's Echo completato (intorno al minuto 11-13):</strong> Il poke di <strong>W</strong> ora infligge burst rilevante su target fragili. Abbina <strong>E + W</strong> per confermare kill attraverso il nest di torrette.</li>\n<li><strong>Malignance online (intorno al minuto 18-20):</strong> Il cooldown di <strong>UPGRADE!!!</strong> scende vicino ai 60 secondi con CDR elevato. Puoi piazzare una mega-torretta ad ogni combattimento sugli obiettivi — quasi ad ogni spawn (spawn = comparsa in mappa di Baron Nashor o Drago, di solito ogni 5-6 minuti).</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Piazzare le torrette in linea retta.</strong> Mettile a triangolo o nel percorso che il nemico deve seguire per avvicinarsi. Una linea di tre torrette spara solo quando il nemico avanza in linea retta — un triangolo spara da più angolazioni ed è molto più difficile da evitare.</li>\n<li><strong>Usare R+Q in campo aperto.</strong> La mega-torretta è uno strumento di zone control, non uno strumento di kill singola. Piazzala in un chokepoint (un passaggio stretto come il baron pit, il dragon pit o il cespuglio vicino alla torre tier-2) in modo che il nemico sia costretto a camminare nel suo raggio di danno.</li>\n<li><strong>Ricastare Q mentre le torrette sono ancora cariche.</strong> Una nuova <strong>Q</strong> piazza una torretta a carica zero e resetta la carica di TUTTE le torrette presenti. Aspetta che la torretta più vecchia abbia sparato il suo beam prima di rimpiazzarla — altrimenti sprechi un colpo carico.</li>\n<li><strong>Dimenticarsi del bonus di velocità del Passivo.</strong> <strong>Hextech Affinity</strong> ti dà bonus move speed vicino alle tue torrette. Usa il nest come pad per il kite (muoversi all'indietro continuando a infliggere danni): torna verso le torrette per sfuggire ai gank, non allontanarti da esse.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Impara la combo <strong>R+E</strong> knockup in <strong>W</strong> follow-up. Quando hai UPGRADE!!! disponibile, premi <strong>R</strong> e poi lancia subito <strong>E</strong>: atterrerà come una zona più ampia e i nemici nel centro verranno lanciati in aria (knockup: sollevati brevemente impedendogli di agire) invece di essere semplicemente stunnati. Il knockup interrompe i channel (come l'ultimate di Katarina o il recall di Zed), e la zona più ampia cattura i target in fuga che avrebbero schivato lo stun normale di <strong>E</strong>. Mentre sono in aria, spara il pieno barrage di <strong>W</strong> — tutti e cinque i razzi convergono sul target in CC prima che atterri, infliggendo danno quasi massimo prima che qualsiasi azione difensiva sia possibile.</p>",
+    "content_html_pre": "<h2>Panoramica</h2>\n<p>Heimerdinger è un mage da zone control che vince in lane rendendo il terreno inabitabile per l'avversario. Le sue <strong>H-28 G Evolution Turret (Q)</strong> — fino a tre attive contemporaneamente — creano un campo danno persistente che punisce chiunque si avvicini al suo raggio. Quando sono a piena carica, le torrette sparano un beam potenziato; la <strong>CH-2 Electron Storm Grenade (E)</strong> stunn o rallenta i nemici in quella zona, e i <strong>Hextech Micro-Rockets (W)</strong> martellano i bersagli fino a 1325 di range. Il risultato è un campione la cui forza è interamente legata al posizionamento: quando il nest di torrette è attivo, è quasi impossibile scambiare con lui; quando non lo è, è uno dei campioni più esposti del gioco.</p>\n<p>L'<strong>UPGRADE!!! (R)</strong> cambia completamente questa equazione. Premere <strong>R+Q</strong> piazza una mega-torretta potenziata — infligge danno AOE con splash (in un'area intorno al bersaglio principale), applica un rallentamento e dura 8 secondi indipendentemente da ulteriori cast di <strong>Q</strong>. Il game plan in mid è costruire e mantenere il nest fino al livello 6, poi usare <strong>R+Q</strong> per forzare l'avversario lontano dalla sua torre tier-1 e snowball (tradotto: costruire un vantaggio precoce che si moltiplica progressivamente) nel mid game.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1056.png\" alt=\"Doran&#x27;s Ring\"> Doran's Ring + 2 Health Potion. Il mana è critico: ogni torretta costa 20 mana e ne rimpiazzerai continuamente.</p>\n<p><strong>Core items (in ordine di acquisto):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png\" alt=\"Luden&#x27;s Echo\"> <strong>Luden's Echo</strong> — spike di burst (burst: danno elevato concentrato in 1-2 secondi) sul primo item, regen mana per il rimpiazzo torrette e magic penetration (la capacità di ignorare parte della resistenza magica del nemico) che rende il poke (poke: danno a distanza per logorare i HP del nemico senza committarsi in uno scontro totale) di W rilevante.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — penetrazione magica flat per punire i target fragili che si avvicinano al range delle torrette.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — amplifica il burst quando il nemico è sotto una soglia di HP, perfetto per il follow-up R+E in <strong>W</strong> dopo lo stun.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3118.png\" alt=\"Malignance\"> <strong>Malignance</strong> — riduce il cooldown di <strong>UPGRADE!!!</strong> e potenzia l'AP mentre l'ultimate è attivo; rotazioni più frequenti della mega-torretta definiscono il mid game.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — moltiplicatore AP nel late game; ogni beam e ogni razzo diventano una minaccia seria.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — contro assassini e diver (Zed, Akali, Diana). La stasi (uno stato di breve invincibilità congelata) lascia alle torrette tre secondi per sparare mentre tu sei intoccabile.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — contro composizioni con molta healing (Vladimir, Sylas). Applica Grievous Wounds (un debuff che riduce la healing del 40%) tramite i colpi delle torrette.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — appena un target prioritario (il nemico più pericoloso da eliminare, di solito il carry avversario con più oro) costruisce un item di Magic Resist; sostituisce Rabadon's se l'intera squadra nemica stacca MR.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> Sorcerer's Shoes è la scelta standard. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> Ionian Boots of Lucidity è accettabile quando hai bisogno di più CDR (riduzione del cooldown — il parametro che accorcia il tempo di attesa tra un'abilità e l'altra) per ruotare <strong>UPGRADE!!!</strong> più rapidamente.</p>\n<p><strong>Skill order:</strong> Massimai <strong>Q</strong> per primo (fonte principale di danno e potenza torrette), <strong>W</strong> secondo (poke e carica torrette), <strong>E</strong> per ultimo. Prendi <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Primario <strong>Sorcery</strong> con <strong>Arcane Comet</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Gathering Storm</strong>. Secondario <strong>Inspiration</strong> con <strong>Biscuit Delivery</strong> e <strong>Cosmic Insight</strong>.</p>",
+    "content_html_post": "<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Syndra:</strong> Lancia sfere a distanza ma deve castare da una posizione fissa. Piazza tre torrette sotto la tua torre tier-1, mantieni il wave slow-pushed (lascia accumulare i minion al centro della lane in modo che l'onda successiva arrivi più numerosa) e usa <strong>E</strong> per interrompere la raccolta delle sfere. Al livello 6 vinci l'all-in (impegnarti completamente nello scontro puntando a uccidere l'avversario) con <strong>R+Q</strong> sul terreno conteso.</li>\n<li><strong>Zed:</strong> Il matchup più difficile del pool. Farà dash attraverso le torrette prima che sparino. Rispetta il suo potere al livello 3 e al livello 6; compra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> Zhonya's Hourglass come secondo item. Quando usa <strong>Death Mark (R)</strong>, attiva la stasi immediatamente — le torrette avranno tre secondi per sparare.</li>\n<li><strong>Orianna:</strong> Matchup equilibrato di poke. Può spostare le tue torrette con <strong>Command: Shockwave (R)</strong> durante i teamfight. In lane, posiziona le torrette sul lato della wave da cui lei deve avvicinarsi. Evita di stare raggruppato vicino al tuo nest quando lei ha la palla nelle vicinanze.</li>\n<li><strong>Twisted Fate:</strong> Ignorerà il tuo nest e farà roam. Shova la wave sotto la sua torre prima che parta, metti ward sul fiume e cerca un <strong>R+E</strong> (knockup) in <strong>W</strong> se teletrasporta nella tua lane. Non puoi fermare il suo macro game (la strategia di largo respiro sulla mappa), ma puoi punire la sua torre base.</li>\n<li><strong>Viktor:</strong> Mage immobile che ha bisogno di stare fermo per fare danno. Un nest di tre torrette attira il suo <strong>Death Ray (E)</strong> mentre fai poke con <strong>W</strong> dietro al cluster. Post-6, la mega-torretta <strong>R+Q</strong> lo allontana dalla wave o brucia il suo Flash.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 1:</strong> Piazza due torrette nella wave di minion prima che arrivi il primo cannone. Gli avversari che si avvicinano per colpire in corpo a corpo subiscono un DPS (Damage Per Second — il danno continuo inflitto ogni secondo dalle torrette) sorprendente e si ritirano — hai il first push (vantaggio sulla wave) senza spendere nemmeno mana per fare poke.</li>\n<li><strong>Livello 6:</strong> <strong>UPGRADE!!!</strong> disponibile. La mega-torretta <strong>R+Q</strong> dura 8 secondi e non può essere colpita da CC (stun, rallentamento o qualsiasi crowd control); trasforma l'intera zona di Heimerdinger in una trappola mortale. Forza immediatamente uno scontro o un trade (trade: scambio breve di colpi o abilità in lane, senza committarsi all'all-in totale) sulla torre.</li>\n<li><strong>Luden's Echo completato (intorno al minuto 11-13):</strong> Il poke di <strong>W</strong> ora infligge burst rilevante su target fragili. Abbina <strong>E + W</strong> per confermare kill attraverso il nest di torrette.</li>\n<li><strong>Malignance online (intorno al minuto 18-20):</strong> Il cooldown di <strong>UPGRADE!!!</strong> scende vicino ai 60 secondi con CDR elevato. Puoi piazzare una mega-torretta ad ogni combattimento sugli obiettivi — quasi ad ogni spawn (spawn = comparsa in mappa di Baron Nashor o Drago, di solito ogni 5-6 minuti).</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Piazzare le torrette in linea retta.</strong> Mettile a triangolo o nel percorso che il nemico deve seguire per avvicinarsi. Una linea di tre torrette spara solo quando il nemico avanza in linea retta — un triangolo spara da più angolazioni ed è molto più difficile da evitare.</li>\n<li><strong>Usare R+Q in campo aperto.</strong> La mega-torretta è uno strumento di zone control, non uno strumento di kill singola. Piazzala in un chokepoint (un passaggio stretto come il baron pit, il dragon pit o il cespuglio vicino alla torre tier-2) in modo che il nemico sia costretto a camminare nel suo raggio di danno.</li>\n<li><strong>Ricastare Q mentre le torrette sono ancora cariche.</strong> Una nuova <strong>Q</strong> piazza una torretta a carica zero e resetta la carica di TUTTE le torrette presenti. Aspetta che la torretta più vecchia abbia sparato il suo beam prima di rimpiazzarla — altrimenti sprechi un colpo carico.</li>\n<li><strong>Dimenticarsi del bonus di velocità del Passivo.</strong> <strong>Hextech Affinity</strong> ti dà bonus move speed vicino alle tue torrette. Usa il nest come pad per il kite (muoversi all'indietro continuando a infliggere danni): torna verso le torrette per sfuggire ai gank, non allontanarti da esse.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Impara la combo <strong>R+E</strong> knockup in <strong>W</strong> follow-up. Quando hai UPGRADE!!! disponibile, premi <strong>R</strong> e poi lancia subito <strong>E</strong>: atterrerà come una zona più ampia e i nemici nel centro verranno lanciati in aria (knockup: sollevati brevemente impedendogli di agire) invece di essere semplicemente stunnati. Il knockup interrompe i channel (come l'ultimate di Katarina o il recall di Zed), e la zona più ampia cattura i target in fuga che avrebbero schivato lo stun normale di <strong>E</strong>. Mentre sono in aria, spara il pieno barrage di <strong>W</strong> — tutti e cinque i razzi convergono sul target in CC prima che atterri, infliggendo danno quasi massimo prima che qualsiasi azione difensiva sia possibile.</p>",
+    "word_count": 1324,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "ahri-mid",
+        "champion": "ahri",
+        "role": "mid"
+      },
+      {
+        "slug": "akali-mid",
+        "champion": "akali",
+        "role": "mid"
+      },
+      {
+        "slug": "akshan-mid",
+        "champion": "akshan",
+        "role": "mid"
+      },
+      {
+        "slug": "annie-mid",
+        "champion": "annie",
+        "role": "mid"
+      },
+      {
+        "slug": "lux-mid",
+        "champion": "lux",
+        "role": "mid"
+      }
+    ],
+    "champion_key": "74"
+  },
+  {
+    "slug": "heimerdinger-top",
+    "title": "Heimerdinger Top Build & Guida — Patch 16.9",
+    "language": "it",
+    "patch": "16.9",
+    "champion": "heimerdinger",
+    "role": "top",
+    "last_updated": "2026-05-02",
+    "description": "Guida Heimerdinger top lane per la Patch 16.9 di LoL: build turret-wall, combo UPGRADE, spike di potenza contro juggernaut melee e win condition in splitpush.",
+    "quick_learn": {
+      "champion_dd_id": "Heimerdinger",
+      "difficulty": 4,
+      "damage_type": "magic",
+      "champion_class": "Mage / Artillery",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Hextech Affinity",
+          "description": "Guadagna velocità di movimento mentre si è vicini a torri alleate o alle torrette deployate da Heimerdinger. Ricompensa il combattimento dentro al turret nest.",
+          "dd_spell_id": "Heimerdinger_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "H-28 G Evolution Turret",
+          "description": "Piazza una torretta (massimo 3 attive). Le torrette accumulano carica e sparano un raggio più potente al massimo della carica. Le cariche si azzerano a ogni cast di Q. Range 350, cooldown 1s, 20 mana.",
+          "dd_spell_id": "HeimerdingerQ"
+        },
+        {
+          "key": "W",
+          "name": "Hextech Micro-Rockets",
+          "description": "Barrage di razzi a lungo raggio (1325 range) che convergono sul cursore. I colpi extra infliggono danno ridotto. Ogni razzo che colpisce un campione dona il 20% di carica alle torrette vicine.",
+          "dd_spell_id": "HeimerdingerW"
+        },
+        {
+          "key": "E",
+          "name": "CH-2 Electron Storm Grenade",
+          "description": "Lancia una granata (range 970) che rallenta i nemici nella zona d'impatto e stordisce quelli al centro. Colpire una torretta la carica al massimo. Cooldown 11s fisso, 85 mana.",
+          "dd_spell_id": "HeimerdingerE"
+        },
+        {
+          "key": "R",
+          "name": "UPGRADE!!!",
+          "description": "Potenzia la prossima abilità non-ultimate. R+Q: mega-torretta (8s, immune a CC, splash AOE + slow). R+W: 4 ondate di razzi. R+E: zona di stordimento più ampia + knockup al centro. Cooldown 100-70s.",
+          "dd_spell_id": "HeimerdingerR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "W"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "W"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "W"
+        },
+        {
+          "level": 13,
+          "key": "W"
+        },
+        {
+          "level": 14,
+          "key": "E"
+        },
+        {
+          "level": 15,
+          "key": "E"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "E"
+        },
+        {
+          "level": 18,
+          "key": "E"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6655",
+          "name": "Luden's Echo"
+        },
+        {
+          "dd_id": "3020",
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "dd_id": "4629",
+          "name": "Cosmic Drive"
+        },
+        {
+          "dd_id": "4645",
+          "name": "Shadowflame"
+        },
+        {
+          "dd_id": "3089",
+          "name": "Rabadon's Deathcap"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass",
+          "against": "contro diver e bruiser che superano la copertura del turret nest (Irelia, Camille, Fiora)"
+        },
+        {
+          "dd_id": "3165",
+          "name": "Morellonomicon",
+          "against": "contro top con forte sustain (passiva di Darius, Nasus, Dr. Mundo) — blocca la rigenerazione HP"
+        },
+        {
+          "dd_id": "3118",
+          "name": "Malignance",
+          "against": "contro composizioni più tanky dove conta l'uptime della mega-torretta R+Q — riduce il cooldown dell'ultimate"
+        },
+        {
+          "dd_id": "3135",
+          "name": "Void Staff",
+          "against": "quando un nemico costruisce Magic Resist (Mercury's, Force of Nature, Spirit Visage)"
+        }
+      ],
+      "base_combo": [
+        "Q",
+        "Q",
+        "Q",
+        "E",
+        "W",
+        "R+Q"
+      ],
+      "win_condition": "Affama i top melee con un muro di tre torrette in corsia, poi usa UPGRADE+Q mega-torretta per ancorare i fight su baron e dragon. Accetta il 1v1 solo dentro al turret nest.",
+      "weakness": "Bruiser e diver mobili con più dash abbattono il turret nest prima che faccia danno. Nessuna escape oltre a Flash e al bonus velocità della passiva.",
+      "runes": {
+        "primary_tree": "Sorcery",
+        "primary_tree_dd_id": 8200,
+        "keystone": {
+          "dd_id": 8229,
+          "name": "Arcane Comet",
+          "icon_path": "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 8226,
+            "name": "Manaflow Band",
+            "icon_path": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "dd_id": 8210,
+            "name": "Transcendence",
+            "icon_path": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png"
+          },
+          {
+            "dd_id": 8237,
+            "name": "Scorch",
+            "icon_path": "perk-images/Styles/Sorcery/Scorch/Scorch.png"
+          }
+        ],
+        "secondary_tree": "Inspiration",
+        "secondary_tree_dd_id": 8300,
+        "secondary_slots": [
+          {
+            "dd_id": 8345,
+            "name": "Biscuit Delivery",
+            "icon_path": "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png"
+          },
+          {
+            "dd_id": 8347,
+            "name": "Cosmic Insight",
+            "icon_path": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png"
+          }
+        ],
+        "stat_shards": [
+          "Adaptive Force",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Arcane Comet procca su E (slow blocca il bersaglio) e W multi-hit. Scorch su Gathering Storm: Heimer top vince in corsia, e Scorch aggiunge danno reale ai livelli 1-6 vs juggernaut. Transcendence accorcia E e W per uptime continuo delle torrette.",
+        "secondary_rationale": "Biscuit Delivery copre i costi mana dei posizionamenti ripetuti di Q nelle prime ondate e fornisce sustain HP contro il harassment di autoattacchi. Cosmic Insight riduce il cooldown di Flash e di UPGRADE, moltiplicando le finestre disponibili per la mega-torretta.",
+        "secondary_alternative": "Contro un top AD pesante (Darius, Renekton, Garen) sostituisci Inspiration con Resolve come secondario: Conditioning (armor e MR dopo il minuto 12) e Overgrowth (HP scaling). Il compromesso: meno sustain iniziale, più resistenza agli all-in."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "nasus",
+            "malphite",
+            "cho-gath"
+          ],
+          "archetype": "Juggernaut immobili o lenti che devono attraversare la copertura delle torrette",
+          "reason": "Non hanno dash o blink per aggirare il turret nest. Ogni passo dentro range attiva i raggi delle torrette più i razzi W, consumando i loro HP prima che possano fare un trade significativo."
+        },
+        {
+          "examples": [
+            "mordekaiser",
+            "darius",
+            "garen"
+          ],
+          "archetype": "Juggernaut melee incapaci di chiudere la distanza",
+          "reason": "Il loro engage richiede di arrivare a portata melee contro tre torrette che sparano contemporaneamente. Lo stordimento di E nella zona di approccio seguito da W ferma il commit prima che raggiunga Heimerdinger."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "irelia",
+            "camille",
+            "fiora"
+          ],
+          "archetype": "Diver mobili con più dash che abbattono il turret nest",
+          "reason": "Possono fare dash attraverso la zona delle torrette, resettare sui minion e raggiungere Heimerdinger prima che possa riposizionarsi. Zhonya's Hourglass è obbligatorio — usa la stasi per sprecare le loro finestre di dash e costringerli a disimpegnarsi."
+        },
+        {
+          "examples": [
+            "jayce",
+            "quinn"
+          ],
+          "archetype": "Top laner a lungo raggio che fanno poke da fuori range 970",
+          "reason": "Zonano Heimerdinger dalla wave da una distanza in cui E e W non riescono a colpire in modo affidabile, costringendolo a subire poke gratis ogni volta che tenta di piazzare una torretta o fare last-hit."
+        }
+      ]
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Heimerdinger top è un lane bully che trasforma i matchup contro campioni melee in una guerra d'attrito prolungata. La sua identità in top lane è diversa dal mid: qui l'obiettivo non è roamare ma creare un <strong>turret nest</strong> invalicabile — una zona coperta da tutte e tre le H-28 G Evolution Turret che costringe qualsiasi campione melee a scegliere tra subire danno magico costante o cedere il controllo della wave (wave control: decidere se la linea di minion spinge verso di te o verso il nemico). La passiva <strong>Hextech Affinity</strong> (bonus velocità di movimento vicino a strutture alleate e alle proprie torrette) premia chi combatte dentro quel nest piuttosto che kitar via da esso. Il termine kite indica il movimento all'indietro mentre si infligge danno, mantenendo la distanza da un nemico che insegue.</p>\n<p>Il game plan è piazzare le torrette davanti alla torre avversaria, fare poke con <strong>W</strong> (Hextech Micro-Rockets) e <strong>E</strong> (CH-2 Electron Storm Grenade) per tenere l'avversario sotto la soglia dell'all-in (all-in: combattimento totale senza possibilità di disimpegnarsi), e poi deployare la mega-torretta UPGRADE+Q al livello 6 per bloccare la corsia completamente. La win condition macro è lo splitpush (spingere una side lane da solo per obbligare gli avversari a rispondere, liberando obiettivi per il team): un turret nest in una side lane è abbastanza minaccioso da costringere l'avversario a mandare due campioni per smantellarlo, regalando al resto del team il tempo per prendere obiettivi.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1056.png\" alt=\"Doran&#x27;s Ring\"> Doran's Ring + 2 Health Potion. Il mana aiuta a sostenere i posizionamenti ripetuti di Q nelle prime ondate, dove ogni torretta costa 20 mana e va rimpiazzata immediatamente dopo la distruzione.</p>\n<p><strong>Core items (in ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png\" alt=\"Luden&#x27;s Echo\"> <strong>Luden's Echo</strong> — spike di burst e sustain mana. La passiva si attiva sugli attacchi delle torrette contro i campioni e potenzia i trade di poke con W (tradare: scambiare brevi colpi in corsia senza impegnarsi in uno scontro totale).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — magic penetration flat per tagliare attraverso le rune di armatura iniziali.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4629.png\" alt=\"Cosmic Drive\"> <strong>Cosmic Drive</strong> — AP più un bonus di velocità di movimento che si attiva infliggendo danno con le spell. Permette di kitar lungo la corsia per riposizionare le torrette senza perdere la gittata di W.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — burst extra, particolarmente efficace per chiudere avversari sotto il 40% HP con un raggio di torretta carico o una volata di W.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — moltiplicatore AP nella fase tardiva. Con quattro item attivi, i raggi delle torrette e i razzi W scalano a un danno che giustifica lo split anche contro due difensori.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — obbligatorio contro diver mobili (diver: campioni che usano dash per entrare in mischia e uccidere target vulnerabili a corto raggio — es. Irelia, Camille, Fiora). La stasi spreca la loro finestra di dash e lascia la mega-torretta operativa mentre sei invulnerabile.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — contro top con forte sustain (passiva di Darius, Nasus, Dr. Mundo). Grievous Wounds (un debuff che dimezza la healing ricevuta) applicato dai colpi delle torrette e di W blocca il loop di rigenerazione HP.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3118.png\" alt=\"Malignance\"> <strong>Malignance</strong> — contro composizioni più tanky dove la mega-torretta UPGRADE+Q è il tuo strumento principale nei teamfight. Riduce il cooldown di R moltiplicando le finestre disponibili per la mega-torretta tra un obiettivo e l'altro.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — sostituisci un item quando un target prioritario (il campione nemico più pericoloso da abbattere, di solito il carry avversario) costruisce Magic Resist (Mercury's Treads, Force of Nature, Spirit Visage).</li>\n</ul>\n<p><strong>Stivali:</strong> Sorcerer's Shoes è il default. Passa a <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> Ionian Boots of Lucidity se sei in vantaggio e vuoi più frequenza di cast di UPGRADE.</p>\n<p><strong>Skill order:</strong> Maxima Q per prima per il danno delle torrette e la velocità di ricarica. Maxima W per seconda per scalare il barrage di razzi. Maxima E per ultima — è principalmente utility (stordimento + carica torrette) non una fonte primaria di danno. Prendi R ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Primario <strong>Sorcery</strong> con <strong>Arcane Comet</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Scorch</strong>. Secondario <strong>Inspiration</strong> con <strong>Biscuit Delivery</strong> e <strong>Cosmic Insight</strong>. Contro un top AD pesante, sostituisci Inspiration con <strong>Resolve</strong> usando <strong>Conditioning</strong> e <strong>Overgrowth</strong>.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Nasus:</strong> Juggernaut orientato al farming senza dash. Piazza tutte e tre le torrette in linea diagonale tra lui e la wave al livello 1. Non può fare trade senza attraversare i raggi. Usa E per stordirlo ogni volta che tenta il last-hit sotto pressione, poi W per consolidare. Rispetta il suo W potenziato al livello 6 (riduce la tua attack speed, ma le torrette deployate non subiscono questo debuff — non si applica alle strutture).</li>\n<li><strong>Darius:</strong> Pericoloso al livello 3 quando la sua E (Apprehend, il pull) diventa disponibile. Non stare vicino alle torrette senza minion che bloccano l'angolo del pull. Kita all'indietro mentre si avvicina, centra lo stordimento di E per interrompere il pull, poi W immediatamente. La sua passiva Hemorrhage (bleed) si azzera quando rompi il contatto con il movimento — kitar è più efficace che stare fermi a tradare.</li>\n<li><strong>Irelia:</strong> Matchup difficile. Resetta il dash (E di Ionian Fervor) sui minion e può raggiungerti anche attraverso tre torrette se pianifica il percorso. Tieni Zhonya's Hourglass come terzo item. Al livello 6, usa E per stordirla durante l'approccio e subito dopo cast di UPGRADE+Q per deployare la mega-torretta: il slow AOE (area of effect — danno che colpisce una zona invece di un singolo bersaglio) della mega-torretta la blocca nel raggio dei raggi completi.</li>\n<li><strong>Garen:</strong> Matchup diretto. Non ha poke a distanza e non ha dash; la sua unica escape è Perseverance (rigenerazione HP passiva). Nega la sua finestra di regen sfasando costantemente il poke tra i raggi delle torrette e i razzi W. Quando va per un last-hit, lancia E per lo stordimento centrale e segui con W per il ciclo di burst completo. Il suo Judgment (E, spin) fa danno in cerchio: non stargli vicino quando lo attiva, mantieni la distanza a range di W.</li>\n<li><strong>Jayce:</strong> La sua forma ranged (Shock Blast) raggiunge 1050 di range contro il tuo 1325 di W, ma in pratica si trasformerà in forma melee per gli autoattacchi potenziati. Quando commita in forma melee, quella è la tua finestra: zona a tre torrette più stordimento E seguito da W. Se rimane in forma ranged per tutta la lane, tieni le torrette più vicine alla tua torre e concentrati sul pareggiare la sua push — non inseguirlo in campo aperto.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 1:</strong> Le tre torrette sono operative al livello 3, ma anche una sola torretta al livello 1 consuma HP all'avversario al primo approccio alla wave. Piazza Q vicino al confine di range dell'esperienza così il nemico deve entrare nel range della torretta per fare last-hit.</li>\n<li><strong>Livello 6 (UPGRADE+Q):</strong> La mega-torretta è 8 secondi di danno AOE immune a CC che nessun campione melee può ignorare. Piazzala al centro della corsia per creare una zona che l'avversario non può attraversare senza subire un ciclo completo di raggi + slow. È il tuo strumento di splitpush più forte.</li>\n<li><strong>Completamento Cosmic Drive (intorno al minuto 14-16):</strong> Con tre item (Luden's + Stivali + Cosmic Drive), il danno delle torrette comincia a essere significativo anche contro i tank. La velocità di movimento di Cosmic Drive permette di kitar e rimpiazzare le torrette abbattute senza perdere il posizionamento nel fight.</li>\n<li><strong>Rabadon's Deathcap attivo (intorno al minuto 24-28):</strong> Le torrette di Heimerdinger nel late game infliggono un danno paragonabile agli attacchi concentrati di un carry. Forza un fight su baron o dragon con una mega-torretta pre-piazzata all'ingresso della buca per il massimo valore.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Non mantenere tre torrette attive.</strong> Se una torretta viene distrutta o scade, rimpiazzala immediatamente. Un setup a due torrette fa il 33% di danno in meno e lascia spazi aperti. Tieni Q su un tasto rapido e rimpiazza automaticamente entro range 350 da uno slot vuoto.</li>\n<li><strong>Usare UPGRADE+E invece di UPGRADE+Q contro juggernaut melee.</strong> Il knockup di R+E è spettacolare, ma la mega-torretta R+Q infligge molto più danno totale in 8 secondi contro bersagli lenti. Riserva R+E per pulire ondate di jungle o punire mage (campioni ad alto danno magico con basse resistenze fisiche), non come strumento primario contro top melee.</li>\n<li><strong>Stare fermi durante l'all-in avversario.</strong> Le torrette forniscono copertura ma non invulnerabilità. Se l'avversario commita con HP pieno e un gap-close attivo, arretra mentre le torrette infliggono danno — non aspettare i proc (il momento in cui lo stun si attiva su un nemico colpito) di stordimento immobile.</li>\n<li><strong>Saltare Zhonya's Hourglass contro matchup con molti dash.</strong> Contro Irelia, Camille o Fiora, Zhonya's è core, non situazionale. Compila come terzo item, prima di Shadowflame.</li>\n<li><strong>Allungarsi per piazzare torrette nella jungle avversaria senza escape.</strong> Stabilisci prima il nest in sicurezza, poi estendi la copertura verso gli obiettivi una volta online Cosmic Drive.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Quando usi UPGRADE+Q, piazza la mega-torretta non sopra l'avversario ma un passo dietro la sua posizione, lungo il percorso di ritirata. Mentre arretra, cammina verso il range dei raggi invece di uscirne. Combinato con lo stordimento di E nell'approccio, questo forza due o tre cicli di raggi completi prima che possa lasciare la zona — quasi l'intera durata degli 8 secondi della mega-torretta.</p>",
+    "content_html_pre": "<h2>Panoramica</h2>\n<p>Heimerdinger top è un lane bully che trasforma i matchup contro campioni melee in una guerra d'attrito prolungata. La sua identità in top lane è diversa dal mid: qui l'obiettivo non è roamare ma creare un <strong>turret nest</strong> invalicabile — una zona coperta da tutte e tre le H-28 G Evolution Turret che costringe qualsiasi campione melee a scegliere tra subire danno magico costante o cedere il controllo della wave (wave control: decidere se la linea di minion spinge verso di te o verso il nemico). La passiva <strong>Hextech Affinity</strong> (bonus velocità di movimento vicino a strutture alleate e alle proprie torrette) premia chi combatte dentro quel nest piuttosto che kitar via da esso. Il termine kite indica il movimento all'indietro mentre si infligge danno, mantenendo la distanza da un nemico che insegue.</p>\n<p>Il game plan è piazzare le torrette davanti alla torre avversaria, fare poke con <strong>W</strong> (Hextech Micro-Rockets) e <strong>E</strong> (CH-2 Electron Storm Grenade) per tenere l'avversario sotto la soglia dell'all-in (all-in: combattimento totale senza possibilità di disimpegnarsi), e poi deployare la mega-torretta UPGRADE+Q al livello 6 per bloccare la corsia completamente. La win condition macro è lo splitpush (spingere una side lane da solo per obbligare gli avversari a rispondere, liberando obiettivi per il team): un turret nest in una side lane è abbastanza minaccioso da costringere l'avversario a mandare due campioni per smantellarlo, regalando al resto del team il tempo per prendere obiettivi.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1056.png\" alt=\"Doran&#x27;s Ring\"> Doran's Ring + 2 Health Potion. Il mana aiuta a sostenere i posizionamenti ripetuti di Q nelle prime ondate, dove ogni torretta costa 20 mana e va rimpiazzata immediatamente dopo la distruzione.</p>\n<p><strong>Core items (in ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png\" alt=\"Luden&#x27;s Echo\"> <strong>Luden's Echo</strong> — spike di burst e sustain mana. La passiva si attiva sugli attacchi delle torrette contro i campioni e potenzia i trade di poke con W (tradare: scambiare brevi colpi in corsia senza impegnarsi in uno scontro totale).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — magic penetration flat per tagliare attraverso le rune di armatura iniziali.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4629.png\" alt=\"Cosmic Drive\"> <strong>Cosmic Drive</strong> — AP più un bonus di velocità di movimento che si attiva infliggendo danno con le spell. Permette di kitar lungo la corsia per riposizionare le torrette senza perdere la gittata di W.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — burst extra, particolarmente efficace per chiudere avversari sotto il 40% HP con un raggio di torretta carico o una volata di W.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — moltiplicatore AP nella fase tardiva. Con quattro item attivi, i raggi delle torrette e i razzi W scalano a un danno che giustifica lo split anche contro due difensori.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — obbligatorio contro diver mobili (diver: campioni che usano dash per entrare in mischia e uccidere target vulnerabili a corto raggio — es. Irelia, Camille, Fiora). La stasi spreca la loro finestra di dash e lascia la mega-torretta operativa mentre sei invulnerabile.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — contro top con forte sustain (passiva di Darius, Nasus, Dr. Mundo). Grievous Wounds (un debuff che dimezza la healing ricevuta) applicato dai colpi delle torrette e di W blocca il loop di rigenerazione HP.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3118.png\" alt=\"Malignance\"> <strong>Malignance</strong> — contro composizioni più tanky dove la mega-torretta UPGRADE+Q è il tuo strumento principale nei teamfight. Riduce il cooldown di R moltiplicando le finestre disponibili per la mega-torretta tra un obiettivo e l'altro.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — sostituisci un item quando un target prioritario (il campione nemico più pericoloso da abbattere, di solito il carry avversario) costruisce Magic Resist (Mercury's Treads, Force of Nature, Spirit Visage).</li>\n</ul>\n<p><strong>Stivali:</strong> Sorcerer's Shoes è il default. Passa a <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> Ionian Boots of Lucidity se sei in vantaggio e vuoi più frequenza di cast di UPGRADE.</p>\n<p><strong>Skill order:</strong> Maxima Q per prima per il danno delle torrette e la velocità di ricarica. Maxima W per seconda per scalare il barrage di razzi. Maxima E per ultima — è principalmente utility (stordimento + carica torrette) non una fonte primaria di danno. Prendi R ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Primario <strong>Sorcery</strong> con <strong>Arcane Comet</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Scorch</strong>. Secondario <strong>Inspiration</strong> con <strong>Biscuit Delivery</strong> e <strong>Cosmic Insight</strong>. Contro un top AD pesante, sostituisci Inspiration con <strong>Resolve</strong> usando <strong>Conditioning</strong> e <strong>Overgrowth</strong>.</p>",
+    "content_html_post": "<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Nasus:</strong> Juggernaut orientato al farming senza dash. Piazza tutte e tre le torrette in linea diagonale tra lui e la wave al livello 1. Non può fare trade senza attraversare i raggi. Usa E per stordirlo ogni volta che tenta il last-hit sotto pressione, poi W per consolidare. Rispetta il suo W potenziato al livello 6 (riduce la tua attack speed, ma le torrette deployate non subiscono questo debuff — non si applica alle strutture).</li>\n<li><strong>Darius:</strong> Pericoloso al livello 3 quando la sua E (Apprehend, il pull) diventa disponibile. Non stare vicino alle torrette senza minion che bloccano l'angolo del pull. Kita all'indietro mentre si avvicina, centra lo stordimento di E per interrompere il pull, poi W immediatamente. La sua passiva Hemorrhage (bleed) si azzera quando rompi il contatto con il movimento — kitar è più efficace che stare fermi a tradare.</li>\n<li><strong>Irelia:</strong> Matchup difficile. Resetta il dash (E di Ionian Fervor) sui minion e può raggiungerti anche attraverso tre torrette se pianifica il percorso. Tieni Zhonya's Hourglass come terzo item. Al livello 6, usa E per stordirla durante l'approccio e subito dopo cast di UPGRADE+Q per deployare la mega-torretta: il slow AOE (area of effect — danno che colpisce una zona invece di un singolo bersaglio) della mega-torretta la blocca nel raggio dei raggi completi.</li>\n<li><strong>Garen:</strong> Matchup diretto. Non ha poke a distanza e non ha dash; la sua unica escape è Perseverance (rigenerazione HP passiva). Nega la sua finestra di regen sfasando costantemente il poke tra i raggi delle torrette e i razzi W. Quando va per un last-hit, lancia E per lo stordimento centrale e segui con W per il ciclo di burst completo. Il suo Judgment (E, spin) fa danno in cerchio: non stargli vicino quando lo attiva, mantieni la distanza a range di W.</li>\n<li><strong>Jayce:</strong> La sua forma ranged (Shock Blast) raggiunge 1050 di range contro il tuo 1325 di W, ma in pratica si trasformerà in forma melee per gli autoattacchi potenziati. Quando commita in forma melee, quella è la tua finestra: zona a tre torrette più stordimento E seguito da W. Se rimane in forma ranged per tutta la lane, tieni le torrette più vicine alla tua torre e concentrati sul pareggiare la sua push — non inseguirlo in campo aperto.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 1:</strong> Le tre torrette sono operative al livello 3, ma anche una sola torretta al livello 1 consuma HP all'avversario al primo approccio alla wave. Piazza Q vicino al confine di range dell'esperienza così il nemico deve entrare nel range della torretta per fare last-hit.</li>\n<li><strong>Livello 6 (UPGRADE+Q):</strong> La mega-torretta è 8 secondi di danno AOE immune a CC che nessun campione melee può ignorare. Piazzala al centro della corsia per creare una zona che l'avversario non può attraversare senza subire un ciclo completo di raggi + slow. È il tuo strumento di splitpush più forte.</li>\n<li><strong>Completamento Cosmic Drive (intorno al minuto 14-16):</strong> Con tre item (Luden's + Stivali + Cosmic Drive), il danno delle torrette comincia a essere significativo anche contro i tank. La velocità di movimento di Cosmic Drive permette di kitar e rimpiazzare le torrette abbattute senza perdere il posizionamento nel fight.</li>\n<li><strong>Rabadon's Deathcap attivo (intorno al minuto 24-28):</strong> Le torrette di Heimerdinger nel late game infliggono un danno paragonabile agli attacchi concentrati di un carry. Forza un fight su baron o dragon con una mega-torretta pre-piazzata all'ingresso della buca per il massimo valore.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Non mantenere tre torrette attive.</strong> Se una torretta viene distrutta o scade, rimpiazzala immediatamente. Un setup a due torrette fa il 33% di danno in meno e lascia spazi aperti. Tieni Q su un tasto rapido e rimpiazza automaticamente entro range 350 da uno slot vuoto.</li>\n<li><strong>Usare UPGRADE+E invece di UPGRADE+Q contro juggernaut melee.</strong> Il knockup di R+E è spettacolare, ma la mega-torretta R+Q infligge molto più danno totale in 8 secondi contro bersagli lenti. Riserva R+E per pulire ondate di jungle o punire mage (campioni ad alto danno magico con basse resistenze fisiche), non come strumento primario contro top melee.</li>\n<li><strong>Stare fermi durante l'all-in avversario.</strong> Le torrette forniscono copertura ma non invulnerabilità. Se l'avversario commita con HP pieno e un gap-close attivo, arretra mentre le torrette infliggono danno — non aspettare i proc (il momento in cui lo stun si attiva su un nemico colpito) di stordimento immobile.</li>\n<li><strong>Saltare Zhonya's Hourglass contro matchup con molti dash.</strong> Contro Irelia, Camille o Fiora, Zhonya's è core, non situazionale. Compila come terzo item, prima di Shadowflame.</li>\n<li><strong>Allungarsi per piazzare torrette nella jungle avversaria senza escape.</strong> Stabilisci prima il nest in sicurezza, poi estendi la copertura verso gli obiettivi una volta online Cosmic Drive.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Quando usi UPGRADE+Q, piazza la mega-torretta non sopra l'avversario ma un passo dietro la sua posizione, lungo il percorso di ritirata. Mentre arretra, cammina verso il range dei raggi invece di uscirne. Combinato con lo stordimento di E nell'approccio, questo forza due o tre cicli di raggi completi prima che possa lasciare la zona — quasi l'intera durata degli 8 secondi della mega-torretta.</p>",
+    "word_count": 1525,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "aatrox-top",
+        "champion": "aatrox",
+        "role": "top"
+      },
+      {
+        "slug": "darius-top",
+        "champion": "darius",
+        "role": "top"
+      },
+      {
+        "slug": "fiora-top",
+        "champion": "fiora",
+        "role": "top"
+      },
+      {
+        "slug": "garen-top",
+        "champion": "garen",
+        "role": "top"
+      },
+      {
+        "slug": "irelia-top",
+        "champion": "irelia",
+        "role": "top"
+      }
+    ],
+    "champion_key": "74"
   },
   {
     "slug": "irelia-top",
@@ -17033,7 +17632,6 @@ export const itChampions: ChampionGuide[] = [
       "pick_into": [
         {
           "examples": [
-            "malphite",
             "ornn",
             "sion",
             "cho-gath"
@@ -17128,7 +17726,7 @@ export const itChampions: ChampionGuide[] = [
   },
   {
     "slug": "jhin-bot",
-    "title": "Guida Jhin Bot — Patch 16.9",
+    "title": "Jhin Bot Build & Guida — Patch 16.9",
     "language": "it",
     "patch": "16.9",
     "champion": "jhin",
@@ -18080,7 +18678,7 @@ export const itChampions: ChampionGuide[] = [
   },
   {
     "slug": "kayn-jungle",
-    "title": "Guida Kayn Jungle Build — Patch 16.9",
+    "title": "Kayn Jungle Build & Guida — Patch 16.9",
     "language": "it",
     "patch": "16.9",
     "champion": "kayn",
@@ -19851,7 +20449,6 @@ export const itChampions: ChampionGuide[] = [
         {
           "examples": [
             "senna",
-            "xerath",
             "ziggs"
           ],
           "archetype": "Carry da retroguardia con escape debole",
@@ -20171,8 +20768,7 @@ export const itChampions: ChampionGuide[] = [
         {
           "examples": [
             "jinx",
-            "kog-maw",
-            "vayne"
+            "kog-maw"
           ],
           "archetype": "Marksman immobili o a corto raggio nel team avversario",
           "reason": "Anche se draftti top, la R è un engage hard a lunga gittata che cancella gli ADC (il damage dealer ranged principale di una squadra) senza dash. Una R pulita sulla loro backline chiude il teamfight prima che cominci."
@@ -20180,8 +20776,7 @@ export const itChampions: ChampionGuide[] = [
         {
           "examples": [
             "riven",
-            "camille",
-            "fiora"
+            "camille"
           ],
           "archetype": "Bruiser snowball senza poke ranged",
           "reason": "Devono committare a un all-in melee (scambio totale fino alla kill) per vincere lane; Aftershock più Granite Shield trasformano la loro burst window in un boost di stat tank mentre tu scali alla R spike."
@@ -24083,7 +24678,6 @@ export const itChampions: ChampionGuide[] = [
         {
           "examples": [
             "senna",
-            "xerath",
             "ziggs"
           ],
           "archetype": "Carry da retroguardia con escape debole",
@@ -24425,8 +25019,7 @@ export const itChampions: ChampionGuide[] = [
         {
           "examples": [
             "karma",
-            "lux",
-            "senna"
+            "lux"
           ],
           "archetype": "Support poke a lungo raggio con disengage",
           "reason": "Ti pokano fuori dal range di hook prima che tu li raggiunga. Senza HP non puoi engageare e perdi la priority di lane (la libertà di lasciarla senza perdere risorse) senza aver mai lanciato una Q."
@@ -24793,7 +25386,7 @@ export const itChampions: ChampionGuide[] = [
   },
   {
     "slug": "udyr-jungle",
-    "title": "Guida a Udyr Jungle — Build e matchup, Patch 16.9",
+    "title": "Udyr Jungle Build & Guida — Patch 16.9",
     "language": "it",
     "patch": "16.9",
     "champion": "udyr",
@@ -25880,8 +26473,7 @@ export const itChampions: ChampionGuide[] = [
         {
           "examples": [
             "jhin",
-            "caitlyn",
-            "ashe"
+            "caitlyn"
           ],
           "archetype": "ADC immobili o con dash corti",
           "reason": "Q caricato più R chiudono il gap prima che possano kitare via. La loro unica fuga è il Flash, che ha cooldown molto più alto della tua R da 90 secondi a rank 1."

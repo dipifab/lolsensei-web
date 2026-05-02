@@ -100,7 +100,7 @@ quick_learn:
       - "Health Scaling"
 matchup_draft:
   pick_into:
-    - examples: ["amumu", "zac", "sejuani", "skarner"]
+    - examples: ["amumu", "zac", "skarner"]
       archetype: "Tank jungler senza dash"
       reason: "L'on-hit pattern di Bel'Veth con Terminus gli sfonda armor e magic resist; resta incollata con i Q dash attorno alla loro hitbox e loro non hanno modo di disengage."
     - examples: ["karthus", "kindred", "nidalee"]
@@ -110,7 +110,7 @@ matchup_draft:
       archetype: "Skirmisher scaling senza CC iniziale"
       reason: "Vince le skirmish iniziali in jungle (skirmish = scontro 1v1 o 2v2 fuori dal teamfight) prima del loro power spike, poi converte il vantaggio sugli obiettivi."
   counterpicks:
-    - examples: ["sejuani", "vi", "zac", "skarner"]
+    - examples: ["sejuani", "vi"]
       archetype: "Jungler con hard CC point-and-click"
       reason: "Il Q dash di Bel'Veth non schiva abilità targetate. Una Sejuani R o una Vi R la inchioda e l'on-hit pattern si ferma istante dopo istante."
     - examples: ["rammus"]

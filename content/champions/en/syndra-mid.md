@@ -98,7 +98,7 @@ matchup_draft:
     - examples: ["karthus", "veigar", "anivia"]
       archetype: "Immobile mages without dash"
       reason: "Without a dash they cannot dodge an E-stun setup. Once you knock a sphere into them they eat the full Q-W-R combo and Syndra's R executes whatever HP is left."
-    - examples: ["senna", "xerath", "ziggs"]
+    - examples: ["senna", "ziggs"]
       archetype: "Backline scalers with weak escape"
       reason: "They want to poke from the back. Syndra walks her sphere into E range, stuns from 1100+ units after the knockback, and one-shots before they can answer."
     - examples: ["malzahar", "annie"]

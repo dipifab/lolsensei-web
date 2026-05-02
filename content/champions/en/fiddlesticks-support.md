@@ -99,7 +99,7 @@ quick_learn:
     secondary_alternative: "Versus heavy poke lanes (Lux, Karma, Xerath support) swap Sorcery for Inspiration with Biscuit Delivery (5 free biscuits in early lane to stay topped up) and Cosmic Insight (faster Flash and Crowstorm cooldowns)."
 matchup_draft:
   pick_into:
-    - examples: ["soraka", "yuumi", "janna"]
+    - examples: ["soraka", "yuumi"]
       archetype: "Squishy enchanter supports without hard CC"
       reason: "Their kit is built around healing and shielding — a Crowstorm from tri-brush blows past their cooldowns and one-shots both them and the ADC before either heal or shield can be used twice."
     - examples: ["caitlyn", "kog-maw", "ashe"]

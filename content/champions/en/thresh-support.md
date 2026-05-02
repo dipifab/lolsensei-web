@@ -109,7 +109,7 @@ matchup_draft:
     - examples: ["rakan", "nautilus", "leona"]
       archetype: "Engage supports that out-trade in melee"
       reason: "Rakan dashes onto you before your Q lands; Nautilus and Leona beat you in close-range trades — their CC chains have shorter cooldowns and punish every Q you miss."
-    - examples: ["karma", "lux", "senna"]
+    - examples: ["karma", "lux"]
       archetype: "Long-range poke supports with disengage"
       reason: "They poke you out of hook range before you can reach them. With no HP you cannot engage; you lose lane priority (the freedom to leave lane safely) without ever throwing Q."
 ---

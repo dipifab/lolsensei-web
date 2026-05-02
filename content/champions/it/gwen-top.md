@@ -101,7 +101,7 @@ matchup_draft:
     - examples: ["sett", "garen", "darius", "tryndamere"]
       archetype: "Bruiser melee lenti senza poke ranged"
       reason: "Q applica true damage in percentuale dell'HP massimo, ignora l'armor. Un 1v1 lungo dentro la W mist scioglie i fighter melee tanky che non possono kitare o disengage."
-    - examples: ["malphite", "shen", "ornn", "cho-gath"]
+    - examples: ["shen", "ornn", "cho-gath"]
       archetype: "Tank che scalano sulle resistenze"
       reason: "Q true damage e on-hit AP da E ignorano sia armor sia magic resist. I tank stackano difese che lei bypassa completamente."
     - examples: ["irelia", "jax"]

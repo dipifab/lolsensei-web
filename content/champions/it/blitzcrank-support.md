@@ -100,7 +100,7 @@ matchup_draft:
     - examples: ["caitlyn", "jinx", "ezreal"]
       archetype: "ADC con posizione statica e senza dash"
       reason: "Devono fermarsi a range per attaccare dietro la linea di minion: un hook tirato sull'arco del minion cannone arriva pulito perche non hanno escape istantaneo."
-    - examples: ["soraka", "janna", "yuumi"]
+    - examples: ["soraka", "yuumi"]
       archetype: "Enchanter squishy con HP base bassi"
       reason: "Tirando l'enchanter fuori posizione cancelli la lane: il loro carry resta senza peel, e la combo Q-W-E-R su un bersaglio da 500 HP chiude il trade."
     - examples: ["xerath", "vel-koz", "zyra"]

@@ -2177,6 +2177,38 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/hecarim/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/hecarim/jungle/guide" />
   </url>
+  <!-- champion-guide/heimerdinger/mid: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/heimerdinger/mid/guide</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/heimerdinger/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/heimerdinger/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/heimerdinger/mid/guide" />
+  </url>
+  <!-- champion-guide/heimerdinger/mid: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/heimerdinger/mid/guide</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/heimerdinger/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/heimerdinger/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/heimerdinger/mid/guide" />
+  </url>
+  <!-- champion-guide/heimerdinger/top: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/heimerdinger/top/guide</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/heimerdinger/top/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/heimerdinger/top/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/heimerdinger/top/guide" />
+  </url>
+  <!-- champion-guide/heimerdinger/top: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/heimerdinger/top/guide</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/heimerdinger/top/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/heimerdinger/top/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/heimerdinger/top/guide" />
+  </url>
   <!-- champion-guide/irelia/top: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/irelia/top/guide</loc>
@@ -2236,7 +2268,7 @@
   <!-- champion-guide/jhin/bot: it -->
   <url>
     <loc>https://www.lolsensei.com/it/champion/jhin/bot/guide</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/jhin/bot/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/jhin/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/jhin/bot/guide" />
@@ -2284,7 +2316,7 @@
   <!-- champion-guide/kayn/jungle: it -->
   <url>
     <loc>https://www.lolsensei.com/it/champion/kayn/jungle/guide</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/kayn/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kayn/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kayn/jungle/guide" />
@@ -2636,7 +2668,7 @@
   <!-- champion-guide/udyr/jungle: it -->
   <url>
     <loc>https://www.lolsensei.com/it/champion/udyr/jungle/guide</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/udyr/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/udyr/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/udyr/jungle/guide" />
@@ -2752,5 +2784,1141 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/zed/mid/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/zed/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/zed/mid/guide" />
+  </url>
+  <!-- counter-root: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/" />
+  </url>
+  <!-- counter-detail/aatrox: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/aatrox</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/aatrox" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/aatrox" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/aatrox" />
+  </url>
+  <!-- counter-detail/ahri: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/ahri</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/ahri" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/ahri" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/ahri" />
+  </url>
+  <!-- counter-detail/akshan: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/akshan</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/akshan" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/akshan" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/akshan" />
+  </url>
+  <!-- counter-detail/alistar: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/alistar</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/alistar" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/alistar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/alistar" />
+  </url>
+  <!-- counter-detail/ambessa: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/ambessa</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/ambessa" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/ambessa" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/ambessa" />
+  </url>
+  <!-- counter-detail/amumu: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/amumu</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/amumu" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/amumu" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/amumu" />
+  </url>
+  <!-- counter-detail/anivia: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/anivia</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/anivia" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/anivia" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/anivia" />
+  </url>
+  <!-- counter-detail/annie: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/annie</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/annie" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/annie" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/annie" />
+  </url>
+  <!-- counter-detail/aphelios: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/aphelios</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/aphelios" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/aphelios" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/aphelios" />
+  </url>
+  <!-- counter-detail/ashe: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/ashe</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/ashe" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/ashe" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/ashe" />
+  </url>
+  <!-- counter-detail/aurelion-sol: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/aurelion-sol</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/aurelion-sol" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/aurelion-sol" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/aurelion-sol" />
+  </url>
+  <!-- counter-detail/aurora: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/aurora</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/aurora" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/aurora" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/aurora" />
+  </url>
+  <!-- counter-detail/azir: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/azir</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/azir" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/azir" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/azir" />
+  </url>
+  <!-- counter-detail/bard: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/bard</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/bard" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/bard" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/bard" />
+  </url>
+  <!-- counter-detail/bel-veth: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/bel-veth</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/bel-veth" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/bel-veth" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/bel-veth" />
+  </url>
+  <!-- counter-detail/blitzcrank: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/blitzcrank</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/blitzcrank" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/blitzcrank" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/blitzcrank" />
+  </url>
+  <!-- counter-detail/brand: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/brand</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/brand" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/brand" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/brand" />
+  </url>
+  <!-- counter-detail/braum: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/braum</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/braum" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/braum" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/braum" />
+  </url>
+  <!-- counter-detail/briar: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/briar</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/briar" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/briar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/briar" />
+  </url>
+  <!-- counter-detail/camille: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/camille</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/camille" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/camille" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/camille" />
+  </url>
+  <!-- counter-detail/cassiopeia: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/cassiopeia</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/cassiopeia" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/cassiopeia" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/cassiopeia" />
+  </url>
+  <!-- counter-detail/cho-gath: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/cho-gath</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/cho-gath" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/cho-gath" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/cho-gath" />
+  </url>
+  <!-- counter-detail/corki: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/corki</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/corki" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/corki" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/corki" />
+  </url>
+  <!-- counter-detail/darius: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/darius</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/darius" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/darius" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/darius" />
+  </url>
+  <!-- counter-detail/diana: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/diana</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/diana" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/diana" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/diana" />
+  </url>
+  <!-- counter-detail/dr-mundo: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/dr-mundo</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/dr-mundo" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/dr-mundo" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/dr-mundo" />
+  </url>
+  <!-- counter-detail/draven: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/draven</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/draven" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/draven" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/draven" />
+  </url>
+  <!-- counter-detail/ekko: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/ekko</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/ekko" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/ekko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/ekko" />
+  </url>
+  <!-- counter-detail/elise: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/elise</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/elise" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/elise" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/elise" />
+  </url>
+  <!-- counter-detail/evelynn: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/evelynn</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/evelynn" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/evelynn" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/evelynn" />
+  </url>
+  <!-- counter-detail/ezreal: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/ezreal</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/ezreal" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/ezreal" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/ezreal" />
+  </url>
+  <!-- counter-detail/fiddlesticks: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/fiddlesticks</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/fiddlesticks" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/fiddlesticks" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/fiddlesticks" />
+  </url>
+  <!-- counter-detail/fiora: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/fiora</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/fiora" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/fiora" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/fiora" />
+  </url>
+  <!-- counter-detail/fizz: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/fizz</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/fizz" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/fizz" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/fizz" />
+  </url>
+  <!-- counter-detail/galio: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/galio</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/galio" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/galio" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/galio" />
+  </url>
+  <!-- counter-detail/gnar: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/gnar</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/gnar" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/gnar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/gnar" />
+  </url>
+  <!-- counter-detail/gragas: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/gragas</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/gragas" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/gragas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/gragas" />
+  </url>
+  <!-- counter-detail/gwen: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/gwen</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/gwen" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/gwen" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/gwen" />
+  </url>
+  <!-- counter-detail/hecarim: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/hecarim</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/hecarim" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/hecarim" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/hecarim" />
+  </url>
+  <!-- counter-detail/heimerdinger: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/heimerdinger</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/heimerdinger" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/heimerdinger" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/heimerdinger" />
+  </url>
+  <!-- counter-detail/irelia: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/irelia</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/irelia" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/irelia" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/irelia" />
+  </url>
+  <!-- counter-detail/janna: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/janna</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/janna" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/janna" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/janna" />
+  </url>
+  <!-- counter-detail/jax: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/jax</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/jax" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/jax" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/jax" />
+  </url>
+  <!-- counter-detail/jhin: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/jhin</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/jhin" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/jhin" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/jhin" />
+  </url>
+  <!-- counter-detail/jinx: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/jinx</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/jinx" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/jinx" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/jinx" />
+  </url>
+  <!-- counter-detail/karma: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/karma</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/karma" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/karma" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/karma" />
+  </url>
+  <!-- counter-detail/kayn: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/kayn</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/kayn" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kayn" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kayn" />
+  </url>
+  <!-- counter-detail/kha-zix: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/kha-zix</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/kha-zix" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kha-zix" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kha-zix" />
+  </url>
+  <!-- counter-detail/leona: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/leona</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/leona" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/leona" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/leona" />
+  </url>
+  <!-- counter-detail/lulu: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/lulu</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/lulu" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/lulu" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/lulu" />
+  </url>
+  <!-- counter-detail/lux: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/lux</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/lux" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/lux" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/lux" />
+  </url>
+  <!-- counter-detail/malphite: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/malphite</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/malphite" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/malphite" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/malphite" />
+  </url>
+  <!-- counter-detail/miss-fortune: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/miss-fortune</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/miss-fortune" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/miss-fortune" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/miss-fortune" />
+  </url>
+  <!-- counter-detail/morgana: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/morgana</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/morgana" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/morgana" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/morgana" />
+  </url>
+  <!-- counter-detail/nami: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/nami</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/nami" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/nami" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/nami" />
+  </url>
+  <!-- counter-detail/nasus: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/nasus</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/nasus" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/nasus" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/nasus" />
+  </url>
+  <!-- counter-detail/orianna: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/orianna</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/orianna" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/orianna" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/orianna" />
+  </url>
+  <!-- counter-detail/pantheon: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/pantheon</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/pantheon" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/pantheon" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/pantheon" />
+  </url>
+  <!-- counter-detail/renekton: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/renekton</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/renekton" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/renekton" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/renekton" />
+  </url>
+  <!-- counter-detail/sett: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/sett</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/sett" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/sett" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/sett" />
+  </url>
+  <!-- counter-detail/soraka: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/soraka</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/soraka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/soraka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/soraka" />
+  </url>
+  <!-- counter-detail/syndra: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/syndra</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/syndra" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/syndra" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/syndra" />
+  </url>
+  <!-- counter-detail/thresh: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/thresh</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/thresh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/thresh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/thresh" />
+  </url>
+  <!-- counter-detail/tristana: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/tristana</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/tristana" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/tristana" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/tristana" />
+  </url>
+  <!-- counter-detail/vayne: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/vayne</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/vayne" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/vayne" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/vayne" />
+  </url>
+  <!-- counter-detail/vi: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/vi</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/vi" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/vi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/vi" />
+  </url>
+  <!-- counter-detail/viego: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/viego</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/viego" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/viego" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/viego" />
+  </url>
+  <!-- counter-detail/warwick: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/warwick</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/warwick" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/warwick" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/warwick" />
+  </url>
+  <!-- counter-detail/yasuo: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/yasuo</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/yasuo" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/yasuo" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/yasuo" />
+  </url>
+  <!-- counter-detail/zed: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/zed</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/zed" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/zed" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/zed" />
+  </url>
+  <!-- counter-root: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/" />
+  </url>
+  <!-- counter-detail/aatrox: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/aatrox</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/aatrox" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/aatrox" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/aatrox" />
+  </url>
+  <!-- counter-detail/ahri: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/ahri</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/ahri" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/ahri" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/ahri" />
+  </url>
+  <!-- counter-detail/akshan: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/akshan</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/akshan" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/akshan" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/akshan" />
+  </url>
+  <!-- counter-detail/alistar: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/alistar</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/alistar" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/alistar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/alistar" />
+  </url>
+  <!-- counter-detail/ambessa: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/ambessa</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/ambessa" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/ambessa" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/ambessa" />
+  </url>
+  <!-- counter-detail/amumu: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/amumu</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/amumu" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/amumu" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/amumu" />
+  </url>
+  <!-- counter-detail/anivia: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/anivia</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/anivia" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/anivia" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/anivia" />
+  </url>
+  <!-- counter-detail/annie: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/annie</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/annie" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/annie" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/annie" />
+  </url>
+  <!-- counter-detail/aphelios: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/aphelios</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/aphelios" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/aphelios" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/aphelios" />
+  </url>
+  <!-- counter-detail/ashe: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/ashe</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/ashe" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/ashe" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/ashe" />
+  </url>
+  <!-- counter-detail/aurelion-sol: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/aurelion-sol</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/aurelion-sol" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/aurelion-sol" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/aurelion-sol" />
+  </url>
+  <!-- counter-detail/aurora: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/aurora</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/aurora" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/aurora" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/aurora" />
+  </url>
+  <!-- counter-detail/azir: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/azir</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/azir" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/azir" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/azir" />
+  </url>
+  <!-- counter-detail/bard: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/bard</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/bard" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/bard" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/bard" />
+  </url>
+  <!-- counter-detail/bel-veth: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/bel-veth</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/bel-veth" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/bel-veth" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/bel-veth" />
+  </url>
+  <!-- counter-detail/blitzcrank: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/blitzcrank</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/blitzcrank" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/blitzcrank" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/blitzcrank" />
+  </url>
+  <!-- counter-detail/brand: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/brand</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/brand" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/brand" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/brand" />
+  </url>
+  <!-- counter-detail/braum: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/braum</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/braum" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/braum" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/braum" />
+  </url>
+  <!-- counter-detail/briar: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/briar</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/briar" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/briar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/briar" />
+  </url>
+  <!-- counter-detail/camille: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/camille</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/camille" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/camille" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/camille" />
+  </url>
+  <!-- counter-detail/cassiopeia: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/cassiopeia</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/cassiopeia" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/cassiopeia" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/cassiopeia" />
+  </url>
+  <!-- counter-detail/cho-gath: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/cho-gath</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/cho-gath" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/cho-gath" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/cho-gath" />
+  </url>
+  <!-- counter-detail/corki: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/corki</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/corki" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/corki" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/corki" />
+  </url>
+  <!-- counter-detail/darius: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/darius</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/darius" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/darius" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/darius" />
+  </url>
+  <!-- counter-detail/diana: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/diana</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/diana" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/diana" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/diana" />
+  </url>
+  <!-- counter-detail/dr-mundo: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/dr-mundo</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/dr-mundo" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/dr-mundo" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/dr-mundo" />
+  </url>
+  <!-- counter-detail/draven: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/draven</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/draven" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/draven" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/draven" />
+  </url>
+  <!-- counter-detail/ekko: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/ekko</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/ekko" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/ekko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/ekko" />
+  </url>
+  <!-- counter-detail/elise: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/elise</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/elise" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/elise" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/elise" />
+  </url>
+  <!-- counter-detail/evelynn: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/evelynn</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/evelynn" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/evelynn" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/evelynn" />
+  </url>
+  <!-- counter-detail/ezreal: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/ezreal</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/ezreal" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/ezreal" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/ezreal" />
+  </url>
+  <!-- counter-detail/fiddlesticks: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/fiddlesticks</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/fiddlesticks" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/fiddlesticks" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/fiddlesticks" />
+  </url>
+  <!-- counter-detail/fiora: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/fiora</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/fiora" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/fiora" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/fiora" />
+  </url>
+  <!-- counter-detail/fizz: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/fizz</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/fizz" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/fizz" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/fizz" />
+  </url>
+  <!-- counter-detail/galio: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/galio</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/galio" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/galio" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/galio" />
+  </url>
+  <!-- counter-detail/gnar: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/gnar</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/gnar" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/gnar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/gnar" />
+  </url>
+  <!-- counter-detail/gragas: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/gragas</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/gragas" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/gragas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/gragas" />
+  </url>
+  <!-- counter-detail/gwen: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/gwen</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/gwen" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/gwen" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/gwen" />
+  </url>
+  <!-- counter-detail/hecarim: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/hecarim</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/hecarim" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/hecarim" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/hecarim" />
+  </url>
+  <!-- counter-detail/heimerdinger: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/heimerdinger</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/heimerdinger" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/heimerdinger" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/heimerdinger" />
+  </url>
+  <!-- counter-detail/irelia: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/irelia</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/irelia" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/irelia" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/irelia" />
+  </url>
+  <!-- counter-detail/janna: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/janna</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/janna" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/janna" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/janna" />
+  </url>
+  <!-- counter-detail/jax: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/jax</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/jax" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/jax" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/jax" />
+  </url>
+  <!-- counter-detail/jhin: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/jhin</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/jhin" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/jhin" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/jhin" />
+  </url>
+  <!-- counter-detail/jinx: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/jinx</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/jinx" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/jinx" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/jinx" />
+  </url>
+  <!-- counter-detail/karma: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/karma</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/karma" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/karma" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/karma" />
+  </url>
+  <!-- counter-detail/kayn: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/kayn</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/kayn" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kayn" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kayn" />
+  </url>
+  <!-- counter-detail/kha-zix: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/kha-zix</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/kha-zix" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kha-zix" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kha-zix" />
+  </url>
+  <!-- counter-detail/leona: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/leona</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/leona" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/leona" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/leona" />
+  </url>
+  <!-- counter-detail/lulu: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/lulu</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/lulu" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/lulu" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/lulu" />
+  </url>
+  <!-- counter-detail/lux: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/lux</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/lux" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/lux" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/lux" />
+  </url>
+  <!-- counter-detail/malphite: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/malphite</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/malphite" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/malphite" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/malphite" />
+  </url>
+  <!-- counter-detail/miss-fortune: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/miss-fortune</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/miss-fortune" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/miss-fortune" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/miss-fortune" />
+  </url>
+  <!-- counter-detail/morgana: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/morgana</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/morgana" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/morgana" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/morgana" />
+  </url>
+  <!-- counter-detail/nami: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/nami</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/nami" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/nami" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/nami" />
+  </url>
+  <!-- counter-detail/nasus: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/nasus</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/nasus" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/nasus" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/nasus" />
+  </url>
+  <!-- counter-detail/orianna: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/orianna</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/orianna" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/orianna" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/orianna" />
+  </url>
+  <!-- counter-detail/pantheon: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/pantheon</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/pantheon" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/pantheon" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/pantheon" />
+  </url>
+  <!-- counter-detail/renekton: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/renekton</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/renekton" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/renekton" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/renekton" />
+  </url>
+  <!-- counter-detail/sett: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/sett</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/sett" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/sett" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/sett" />
+  </url>
+  <!-- counter-detail/soraka: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/soraka</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/soraka" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/soraka" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/soraka" />
+  </url>
+  <!-- counter-detail/syndra: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/syndra</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/syndra" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/syndra" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/syndra" />
+  </url>
+  <!-- counter-detail/thresh: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/thresh</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/thresh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/thresh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/thresh" />
+  </url>
+  <!-- counter-detail/tristana: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/tristana</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/tristana" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/tristana" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/tristana" />
+  </url>
+  <!-- counter-detail/vayne: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/vayne</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/vayne" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/vayne" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/vayne" />
+  </url>
+  <!-- counter-detail/vi: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/vi</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/vi" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/vi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/vi" />
+  </url>
+  <!-- counter-detail/viego: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/viego</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/viego" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/viego" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/viego" />
+  </url>
+  <!-- counter-detail/warwick: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/warwick</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/warwick" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/warwick" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/warwick" />
+  </url>
+  <!-- counter-detail/yasuo: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/yasuo</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/yasuo" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/yasuo" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/yasuo" />
+  </url>
+  <!-- counter-detail/zed: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/zed</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/zed" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/zed" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/zed" />
   </url>
 </urlset>

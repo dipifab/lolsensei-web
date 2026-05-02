@@ -106,7 +106,7 @@ matchup_draft:
     - examples: ["yuumi", "soraka", "seraphine"]
       archetype: "Enchanter squishy senza self-peel"
       reason: "R è point-and-click e unstoppable: nulla di quello che fanno ferma Vi dal raggiungere il loro carry. Una volta morto il support, l'ADC resta senza shield e crolla."
-    - examples: ["jhin", "caitlyn", "ashe"]
+    - examples: ["jhin", "caitlyn"]
       archetype: "ADC immobili o con dash corti"
       reason: "Q caricato più R chiudono il gap prima che possano kitare via. La loro unica fuga è il Flash, che ha cooldown molto più alto della tua R da 90 secondi a rank 1."
     - examples: ["azir", "anivia", "veigar"]

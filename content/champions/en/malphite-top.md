@@ -102,10 +102,10 @@ matchup_draft:
     - examples: ["yasuo", "yone", "tryndamere", "irelia"]
       archetype: "Auto-attack reliant carries"
       reason: "Ground Slam cuts their Attack Speed by a large amount and Granite Shield eats their first burst window. Their damage profile flatlines while you scale into a frontline that ignores their kit."
-    - examples: ["jinx", "kog-maw", "vayne"]
+    - examples: ["jinx", "kog-maw"]
       archetype: "Immobile or short-range marksmen on enemy team"
       reason: "Even though you draft top, R is a long-range hard engage that deletes ADCs (the main ranged damage dealer of a team) without dashes. A clean R into their backline ends the teamfight before it starts."
-    - examples: ["riven", "camille", "fiora"]
+    - examples: ["riven", "camille"]
       archetype: "Snowball bruisers without ranged poke"
       reason: "They need to commit to a melee all-in (full trade until kill) to win lane; Aftershock plus Granite Shield turns their burst window into a tank stat boost while you scale to your R spike."
   counterpicks:

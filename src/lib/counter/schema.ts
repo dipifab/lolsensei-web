@@ -1,4 +1,4 @@
-// WP-COUNTER-PICKER (CR-063) — Zod runtime validation per CounterIndex.
+// WP-COUNTER-PICKER (CR-063) — Zod runtime validation per CounterIndex (schema v2).
 //
 // Lo schema rispecchia 1:1 i tipi TS di `./types.ts` ed e' usato:
 //   1. nel builder GC34 (validazione output prima di scrivere il JSON);
@@ -9,7 +9,7 @@
 
 import { z } from 'zod';
 import type {
-  Champion,
+  ChampionMeta,
   CounterIndex,
   EnemyEntry,
   MatchupCell,
@@ -17,7 +17,6 @@ import type {
 
 const RoleSchema = z.enum(['top', 'jungle', 'mid', 'bot', 'support']);
 const LangSchema = z.enum(['en', 'it']);
-const ViaSchema = z.enum(['pick_into', 'counterpick']);
 
 // ISO date YYYY-MM-DD (no timezone). Allineato a IsoDateSchema di
 // champion-schema.ts (no import diretto per non legare counter a wp35).
@@ -31,36 +30,31 @@ const SlugSchema = z
   .regex(/^[a-z0-9-]+$/, 'slug must be lowercase kebab-case');
 
 export const MatchupCellSchema: z.ZodType<MatchupCell> = z.object({
-  champion_slug: SlugSchema,
+  c: SlugSchema,
   role: RoleSchema,
-  display_name: z.string().min(1),
-  champion_dd_id: z.string().nullable(),
-  champion_key: z.string().nullable(),
-  rationale_excerpt: z.string().min(1).max(140),
-  source_anchor: z.string().min(1),
-  via: ViaSchema,
-  recurrence_count: z.number().int().nonnegative(),
+  r: z.number().int().nonnegative(),
+  n: z.number().int().nonnegative(),
 });
 
 export const EnemyEntrySchema: z.ZodType<EnemyEntry> = z.object({
-  enemy_slug: SlugSchema,
   is_strong_against: z.array(MatchupCellSchema),
   is_weak_against: z.array(MatchupCellSchema),
 });
 
-export const ChampionSchema: z.ZodType<Champion> = z.object({
-  slug: SlugSchema,
+export const ChampionMetaSchema: z.ZodType<ChampionMeta> = z.object({
   display_name: z.string().min(1),
-  champion_dd_id: z.string().nullable(),
-  champion_key: z.string().nullable(),
+  dd_id: z.string().nullable(),
+  key: z.string().nullable(),
   cited_in_roles: z.array(RoleSchema),
   has_guide: z.boolean(),
+  gp: z.string().regex(/^[a-z0-9-]+$/).optional(),
 });
 
 export const CounterIndexSchema: z.ZodType<CounterIndex> = z.object({
-  schema_version: z.literal(1),
+  schema_version: z.literal(2),
   lang: LangSchema,
   generated_at: IsoDateSchema,
-  champions: z.array(ChampionSchema),
+  rationales: z.array(z.string().min(1).max(140)),
+  champions: z.record(SlugSchema, ChampionMetaSchema),
   by_enemy: z.record(SlugSchema, EnemyEntrySchema),
 });

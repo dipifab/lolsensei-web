@@ -98,7 +98,7 @@ matchup_draft:
     - examples: ["karthus", "veigar", "anivia"]
       archetype: "Mage immobili senza dash"
       reason: "Senza dash non possono schivare il setup di stun con E. Una volta che la sfera viene knockata addosso, si mangiano tutto il combo Q-W-R e la R esegue ciò che resta."
-    - examples: ["senna", "xerath", "ziggs"]
+    - examples: ["senna", "ziggs"]
       archetype: "Carry da retroguardia con escape debole"
       reason: "Vogliono pokare da lontano. Syndra cammina la sfera dentro la propria E, stuna da 1100+ unità con il knockback e li one-shotta prima che possano rispondere."
     - examples: ["malzahar", "annie"]

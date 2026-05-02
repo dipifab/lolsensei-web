@@ -95,7 +95,7 @@ quick_learn:
       - "Health Scaling"
 matchup_draft:
   pick_into:
-    - examples: ["malphite", "ornn", "sion", "cho-gath"]
+    - examples: ["ornn", "sion", "cho-gath"]
       archetype: "Tank melee lenti senza dash"
       reason: "Counter Strike li stuna in faccia e non hanno modo di disengage; Jax stacka Relentless Assault liberamente mentre incassano, vincendo ogni trade esteso dopo il livello 6."
     - examples: ["nasus", "garen", "darius"]

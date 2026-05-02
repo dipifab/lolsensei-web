@@ -101,7 +101,7 @@ matchup_draft:
     - examples: ["karthus", "veigar", "viktor", "anivia"]
       archetype: "Mage immobili senza dash"
       reason: "La Q di Lux è un root a lunga gittata: chi non ha dash né stealth viene bindato su una linea pulita e mangia tutto il combo E + R prima di poter rispondere."
-    - examples: ["senna", "xerath", "ziggs"]
+    - examples: ["senna", "ziggs"]
       archetype: "Carry da retroguardia con escape debole"
       reason: "La R cross-map trasforma errori di posizionamento in kill. Contribuiscono da lontano ma non possono schivare uno snipe a max range sugli obiettivi."
     - examples: ["annie", "sylas"]

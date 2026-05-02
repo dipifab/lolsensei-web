@@ -109,7 +109,7 @@ matchup_draft:
     - examples: ["rakan", "nautilus", "leona"]
       archetype: "Engage support che ti battono in melee"
       reason: "Rakan ti scatta addosso prima che la Q parta; Nautilus e Leona vincono i trade in mischia perché hanno catene di CC con cooldown più basso, e ogni Q che sbagli te la fanno pagare."
-    - examples: ["karma", "lux", "senna"]
+    - examples: ["karma", "lux"]
       archetype: "Support poke a lungo raggio con disengage"
       reason: "Ti pokano fuori dal range di hook prima che tu li raggiunga. Senza HP non puoi engageare e perdi la priority di lane (la libertà di lasciarla senza perdere risorse) senza aver mai lanciato una Q."
 ---

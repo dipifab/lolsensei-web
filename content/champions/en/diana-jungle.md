@@ -105,7 +105,7 @@ matchup_draft:
     - examples: ["nidalee", "elise", "shaco"]
       archetype: "Early-game gank-focused junglers"
       reason: "Their power dips hard at level 6 while Diana's R unlocks mid-game pressure. Match their first-clear tempo and trade objectives until Luden's Echo flips the game."
-    - examples: ["amumu", "rammus", "warwick"]
+    - examples: ["amumu", "warwick"]
       archetype: "Slow-clearing low-mobility junglers"
       reason: "Diana clears faster with passive resets and reaches Scuttle Crab first. Counter-jungle the back camps after each Drake spawn — they cannot rotate in time."
   counterpicks:

@@ -102,10 +102,10 @@ matchup_draft:
     - examples: ["yasuo", "yone", "tryndamere", "irelia"]
       archetype: "Carry basati su auto-attack"
       reason: "Ground Slam taglia di molto la loro Attack Speed e Granite Shield si mangia il primo burst. Il loro damage profile si appiattisce mentre tu scali in una frontline che ignora il loro kit."
-    - examples: ["jinx", "kog-maw", "vayne"]
+    - examples: ["jinx", "kog-maw"]
       archetype: "Marksman immobili o a corto raggio nel team avversario"
       reason: "Anche se draftti top, la R è un engage hard a lunga gittata che cancella gli ADC (il damage dealer ranged principale di una squadra) senza dash. Una R pulita sulla loro backline chiude il teamfight prima che cominci."
-    - examples: ["riven", "camille", "fiora"]
+    - examples: ["riven", "camille"]
       archetype: "Bruiser snowball senza poke ranged"
       reason: "Devono committare a un all-in melee (scambio totale fino alla kill) per vincere lane; Aftershock più Granite Shield trasformano la loro burst window in un boost di stat tank mentre tu scali alla R spike."
   counterpicks:

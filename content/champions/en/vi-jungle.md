@@ -106,7 +106,7 @@ matchup_draft:
     - examples: ["yuumi", "soraka", "seraphine"]
       archetype: "Squishy enchanters with no self-peel"
       reason: "R is point-and-click and unstoppable: nothing they can do stops Vi from reaching their carry. Once the support is dead the ADC has no shields and folds."
-    - examples: ["jhin", "caitlyn", "ashe"]
+    - examples: ["jhin", "caitlyn"]
       archetype: "Immobile or short-dash ADCs"
       reason: "Q charge plus R closes the gap before they can kite away. Their only escape is Flash, which has a much longer cooldown than your 90s engage at rank 1 R."
     - examples: ["azir", "anivia", "veigar"]
