@@ -1,5 +1,5 @@
 ---
-title: "Guida Camille Top — Build e Counter Patch 16.9"
+title: "Camille Top Build & Guida — Patch 16.9"
 slug: "camille-top"
 language: "it"
 patch: "16.9"

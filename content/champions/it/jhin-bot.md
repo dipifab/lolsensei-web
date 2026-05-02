@@ -1,5 +1,5 @@
 ---
-title: "Guida Jhin Bot — Patch 16.9"
+title: "Jhin Bot Build & Guida — Patch 16.9"
 slug: "jhin-bot"
 language: "it"
 patch: "16.9"

@@ -1,5 +1,5 @@
 ---
-title: "Guida Elise Support — Build e Strategia per la Patch 16.9"
+title: "Elise Support Build & Guida — Patch 16.9"
 slug: "elise-support"
 language: "it"
 patch: "16.9"

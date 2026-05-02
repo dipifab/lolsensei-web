@@ -1,5 +1,5 @@
 ---
-title: "Guida Elise Jungle — Build e Strategia per la Patch 16.9"
+title: "Elise Jungle Build & Guida — Patch 16.9"
 slug: "elise-jungle"
 language: "it"
 patch: "16.9"

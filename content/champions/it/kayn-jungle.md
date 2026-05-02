@@ -1,5 +1,5 @@
 ---
-title: "Guida Kayn Jungle Build — Patch 16.9"
+title: "Kayn Jungle Build & Guida — Patch 16.9"
 slug: "kayn-jungle"
 language: "it"
 patch: "16.9"
