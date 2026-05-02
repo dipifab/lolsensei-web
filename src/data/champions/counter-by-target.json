@@ -692,6 +692,46 @@
       },
       {
         "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Long-channel ult junglers",
+        "reason": "Explosive Cask interrupts Karthus R, Amumu R, and Warwick R. One R knockback in mid-fight cancels their teamfight payload entirely, and Gragas only needs to land the cask center near the channel target.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler con ult a channel lungo",
+        "reason": "Explosive Cask interrompe la R di Karthus, di Amumu e di Warwick. Una knockback in mid-fight cancella interamente il loro payload da teamfight e a Gragas basta piazzare il centro del barile vicino al target che sta channellando.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Tank junglers without high single-target damage",
+        "reason": "Q applies percent-max-HP true damage that ignores armor; tanks have huge HP pools she shreds in 3-4 Q hits during a sustained 1v1 inside W mist.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Tank jungler senza grosso danno single-target",
+        "reason": "Q applica true damage in percentuale dell'HP massimo, ignora l'armor. I tank hanno HP pool enormi che lei sfalda in 3-4 colpi di Q in un 1v1 lungo dentro la W mist.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "hecarim",
           "role": "jungle",
           "lang": "en"
@@ -2910,6 +2950,26 @@
       },
       {
         "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "True-damage bruisers with execute pressure",
+        "reason": "Fiora vital procs deal true damage that ignores Gragas's resistances; Camille's R isolates him for a percent-HP true-damage execute. Gragas's tank stats don't translate into 1v1 survival against either.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser con true damage e pressione execute",
+        "reason": "I vital di Fiora fanno true damage che ignora le resistenze di Gragas; la R di Camille lo isola per un execute true-damage percentuale. Le stat tanky di Gragas non si traducono in survival in 1v1 contro nessuno dei due.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "irelia",
           "role": "top",
           "lang": "en"
@@ -3134,6 +3194,26 @@
     "cho-gath": [
       {
         "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Resistance-stacking tanks",
+        "reason": "Q true damage and on-hit AP from E ignore both armor and magic resist. Tanks stack defenses she fully bypasses.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Tank che scalano sulle resistenze",
+        "reason": "Q true damage e on-hit AP da E ignorano sia armor sia magic resist. I tank stackano difese che lei bypassa completamente.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "jax",
           "role": "top",
           "lang": "en"
@@ -3314,6 +3394,46 @@
         },
         "archetype": "Juggernaut melee senza poke ranged",
         "reason": "Mini Gnar Q ha 1100 di range e rallenta. Non possono toccarti finché non gli cammini addosso, quindi accumuli Rage in sicurezza e ti committi solo con Mega su per disengage con R su muro.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Melee bruisers without dash",
+        "reason": "They have to walk up to last-hit; Gragas Q-W-AA poke chips them out of all-in range, and his W damage reduction makes their pre-6 commit weaker than Gragas's counter-trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee senza dash",
+        "reason": "Devono camminare avanti per last-hittare; il poke Q-W-AA di Gragas li chippa fuori dalla finestra di all-in, e il damage reduction della W indebolisce il loro commit pre-6 rispetto al counter-trade di Gragas.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Slow melee bruisers without ranged poke",
+        "reason": "Q applies percent-max-HP true damage that ignores armor. Sustained 1v1 inside W mist shreds tanky melee fighters who cannot kite or disengage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee lenti senza poke ranged",
+        "reason": "Q applica true damage in percentuale dell'HP massimo, ignora l'armor. Un 1v1 lungo dentro la W mist scioglie i fighter melee tanky che non possono kitare o disengage.",
         "via": "pick_into"
       },
       {
@@ -3866,6 +3986,46 @@
       },
       {
         "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Long-range poke junglers",
+        "reason": "Nidalee spears and Elise spider-form chip Gragas from outside Body Slam range. He has no way to close the gap without committing E — once spent, both junglers walk away from the trade.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler da poke a lunga gittata",
+        "reason": "Le javelin di Nidalee e la spider-form di Elise erodono Gragas da fuori il range di Body Slam. Gragas non ha modo di chiudere il gap senza committare E — una volta speso, entrambi escono dallo scambio camminando.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early invader junglers",
+        "reason": "Gwen has no burst at level 1-3 and a slow first clear. Invader junglers walk into her camps and kill her before passive stacks come online.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler invader early game",
+        "reason": "Gwen non ha burst ai livelli 1-3 e ha un primo clear lento. Gli invader le entrano nei camp e la killano prima che la passive entri in stack.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "hecarim",
           "role": "jungle",
           "lang": "en"
@@ -4232,6 +4392,26 @@
       },
       {
         "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Stealth-reliant gankers",
+        "reason": "W's damage reduction soaks their burst opening (Fiddlesticks fear plus drain, Shaco backstab) while Body Slam stuns them out of channel. Their engage relies on uncontested cast time — Gragas takes that away.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Ganker basati su stealth",
+        "reason": "Il damage reduction della W assorbe il loro burst di apertura (fear+drain di Fiddlesticks, backstab di Shaco) mentre Body Slam li stunna in pieno cast. Il loro engage richiede cast time non contestato — Gragas glielo toglie.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kha-zix",
           "role": "jungle",
           "lang": "en"
@@ -4390,6 +4570,46 @@
         },
         "archetype": "Anti-tank con true damage %HP o hard CC dive",
         "reason": "I vital di Fiora shreddano l'HP pool di Mega Gnar più veloce di quanto lui possa rispondere; la E hookshot di Camille pinna Mini Gnar al muro per un all-in da cui non ha dash per scappare.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "True-damage bruisers with execute pressure",
+        "reason": "Fiora vital procs deal true damage that ignores Gragas's resistances; Camille's R isolates him for a percent-HP true-damage execute. Gragas's tank stats don't translate into 1v1 survival against either.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser con true damage e pressione execute",
+        "reason": "I vital di Fiora fanno true damage che ignora le resistenze di Gragas; la R di Camille lo isola per un execute true-damage percentuale. Le stat tanky di Gragas non si traducono in survival in 1v1 contro nessuno dei due.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "True-damage / early-game outscalers",
+        "reason": "Fiora's Vitals also deal true damage and her Q dashes ignore W mist range. Riven outdamages Gwen at level 1-3 before passive can stack online.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Outscaler con true damage o early forte",
+        "reason": "I Vital di Fiora fanno true damage e i suoi dash di Q ignorano il range della W mist. Riven outdamaga Gwen ai livelli 1-3 prima che la passive entri in stack.",
         "via": "counterpick"
       },
       {
@@ -5182,6 +5402,46 @@
       },
       {
         "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Melee bruisers without dash",
+        "reason": "They have to walk up to last-hit; Gragas Q-W-AA poke chips them out of all-in range, and his W damage reduction makes their pre-6 commit weaker than Gragas's counter-trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee senza dash",
+        "reason": "Devono camminare avanti per last-hittare; il poke Q-W-AA di Gragas li chippa fuori dalla finestra di all-in, e il damage reduction della W indebolisce il loro commit pre-6 rispetto al counter-trade di Gragas.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Slow melee bruisers without ranged poke",
+        "reason": "Q applies percent-max-HP true damage that ignores armor. Sustained 1v1 inside W mist shreds tanky melee fighters who cannot kite or disengage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee lenti senza poke ranged",
+        "reason": "Q applica true damage in percentuale dell'HP massimo, ignora l'armor. Un 1v1 lungo dentro la W mist scioglie i fighter melee tanky che non possono kitare o disengage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "irelia",
           "role": "top",
           "lang": "en"
@@ -5528,6 +5788,46 @@
       },
       {
         "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Squishy carry junglers without hard CC",
+        "reason": "Body Slam's stun stops their kiting pattern: Master Yi can't Alpha-Strike out, Kindred can't dance the auto-attack reset, Graves can't reposition. R then knocks them off your team's carry on a follow-up engage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Carry jungle squishy senza hard CC",
+        "reason": "Lo stun di Body Slam spezza il loro pattern di kite: Master Yi non può uscire con Alpha Strike, Kindred non può ballare il reset delle auto, Graves non può ri-posizionarsi. R poi li butta via dal carry del tuo team su un engage di follow-up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Ranged kite junglers",
+        "reason": "Kindred and Graves auto-attack from outside W mist's protection range. Gwen has to commit E to enter their range, and they kite her dash with their own movement tools.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler ranged che kitano",
+        "reason": "Kindred e Graves auto-attaccano da fuori il range di protezione della W mist. Gwen deve committare E per entrare nel loro range, e loro kitano il dash con i propri tool di movimento.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "kayn",
           "role": "jungle",
           "lang": "en"
@@ -5755,6 +6055,26 @@
         "archetype": "Skirmisher con mobility on-demand",
         "reason": "I loro dash ignorano il suo gioco di posizionamento. La E di Jax stunna durante la finestra di parry, i reset di Q di Irelia la riposizionano ogni secondo, la R di Camille la blocca in un 1v1.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Item-reliant scaling fighters",
+        "reason": "Their power-spike windows arrive at item 2-3 around minute 25. Gwen reaches Riftmaker first and snowballs the side lane before they hit their core.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Fighter che dipendono dagli item",
+        "reason": "Le loro power spike arrivano al secondo-terzo item intorno al minuto 25. Gwen completa Riftmaker prima e snowballa la side lane prima che loro raggiungano il core.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -6221,6 +6541,26 @@
         "archetype": "Skirmisher con mobility on-demand",
         "reason": "I loro dash ignorano il suo gioco di posizionamento. La E di Jax stunna durante la finestra di parry, i reset di Q di Irelia la riposizionano ogni secondo, la R di Camille la blocca in un 1v1.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Item-reliant scaling fighters",
+        "reason": "Their power-spike windows arrive at item 2-3 around minute 25. Gwen reaches Riftmaker first and snowballs the side lane before they hit their core.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Fighter che dipendono dagli item",
+        "reason": "Le loro power spike arrivano al secondo-terzo item intorno al minuto 25. Gwen completa Riftmaker prima e snowballa la side lane prima che loro raggiungano il core.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -7720,6 +8060,26 @@
       },
       {
         "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Long-channel ult junglers",
+        "reason": "Explosive Cask interrupts Karthus R, Amumu R, and Warwick R. One R knockback in mid-fight cancels their teamfight payload entirely, and Gragas only needs to land the cask center near the channel target.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler con ult a channel lungo",
+        "reason": "Explosive Cask interrompe la R di Karthus, di Amumu e di Warwick. Una knockback in mid-fight cancella interamente il loro payload da teamfight e a Gragas basta piazzare il centro del barile vicino al target che sta channellando.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kha-zix",
           "role": "jungle",
           "lang": "en"
@@ -8188,6 +8548,46 @@
       },
       {
         "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Anti-tank true damage bruisers",
+        "reason": "Kayn (Rhaast) deals percent-max-HP true damage that ignores Gragas's resistances and W's damage reduction. A late-game Gragas built tank loses a 1v1 in the river even with full resistances.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Bruiser anti-tank con true damage",
+        "reason": "Kayn (Rhaast) infligge true damage percentuale sui max HP che ignora le resistenze di Gragas e il damage reduction della W. Un Gragas tank in late game perde un 1v1 nel river anche con resistenze piene.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "High-mobility outscalers",
+        "reason": "Both have mobility tools (Kayn wall-walk, Viego dash on hit) that ignore W mist range; they outscale Gwen's tempo in late-game skirmishes.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Outscaler con tanta mobilità",
+        "reason": "Entrambi hanno tool di mobilità (Kayn cammina nei muri, Viego ha il dash on-hit) che ignorano il range della W mist; outscalano il tempo di Gwen negli skirmish late.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lulu",
           "role": "support",
           "lang": "en"
@@ -8367,6 +8767,26 @@
         "archetype": "Top ranged che pokano Mini Gnar da più lontano",
         "reason": "Mini Gnar non ha sustain ranged e il suo unico trade safe è Q da max range. Loro autoattaccano da dentro quel range e lo spingono sotto torre senza alcuna finestra di risposta.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Squishy AP top laners",
+        "reason": "Drunken Rage's flat damage reduction soaks Kennen's stun-burst combo and Vladimir's Q poke. Gragas can E-AA-Q in retaliation while their resources are committed to the trade window.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top laner AP squishy",
+        "reason": "Il damage reduction flat di Drunken Rage assorbe il combo stun-burst di Kennen e il poke Q di Vladimir. Gragas può rispondere con E-AA-Q mentre le loro risorse sono spese nello scambio.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -8592,6 +9012,26 @@
       },
       {
         "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Burst-window assassins",
+        "reason": "Their burst combo arrives in 1.5 seconds, but W mist drops them out of target range mid-leap. Once they whiff their burst window, Gwen wins the extended trade easily.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Assassini con burst window",
+        "reason": "Il loro burst arriva in 1.5 secondi, ma la W mist li fa uscire dal target range a metà salto. Una volta whiffato il burst window, Gwen vince facilmente il trade prolungato.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "hecarim",
           "role": "jungle",
           "lang": "en"
@@ -8731,6 +9171,46 @@
         "archetype": "Junglers ranged squishy senza CC point-and-click",
         "reason": "Il setup W + E di Ekko chiude il gap prima che finiscano una rotazione di kite; il reset con R rende l'all-in sicuro anche se la loro squadra ruota in aiuto.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Squishy carry junglers without hard CC",
+        "reason": "Body Slam's stun stops their kiting pattern: Master Yi can't Alpha-Strike out, Kindred can't dance the auto-attack reset, Graves can't reposition. R then knocks them off your team's carry on a follow-up engage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Carry jungle squishy senza hard CC",
+        "reason": "Lo stun di Body Slam spezza il loro pattern di kite: Master Yi non può uscire con Alpha Strike, Kindred non può ballare il reset delle auto, Graves non può ri-posizionarsi. R poi li butta via dal carry del tuo team su un engage di follow-up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Ranged kite junglers",
+        "reason": "Kindred and Graves auto-attack from outside W mist's protection range. Gwen has to commit E to enter their range, and they kite her dash with their own movement tools.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler ranged che kitano",
+        "reason": "Kindred e Graves auto-attaccano da fuori il range di protezione della W mist. Gwen deve committare E per entrare nel loro range, e loro kitano il dash con i propri tool di movimento.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -9236,6 +9716,46 @@
         },
         "archetype": "Invader early-game con pressione di tracking",
         "reason": "Minacciano la tua jungle a livello 2-3 e ti costringono a giocare difensivo. Fiddle non ha escape pre-6: se invaso non può scappare, e il clear è lento senza setup di vision via effigie.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Mobile skirmishers with multiple gap-closers",
+        "reason": "They cover ground faster than Gragas's single Body Slam dash and start a fight before you can W into E. Viego possessing your team's frontliner mid-fight also turns your engage into a 1v2.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Skirmisher mobili con multi gap-close",
+        "reason": "Coprono terreno più velocemente del singolo Body Slam di Gragas e iniziano il fight prima che tu possa fare W in E. Inoltre Viego che possiede un tuo frontliner trasforma il tuo engage in un 1v2.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early invader junglers",
+        "reason": "Gwen has no burst at level 1-3 and a slow first clear. Invader junglers walk into her camps and kill her before passive stacks come online.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler invader early game",
+        "reason": "Gwen non ha burst ai livelli 1-3 e ha un primo clear lento. Gli invader le entrano nei camp e la killano prima che la passive entri in stack.",
         "via": "counterpick"
       },
       {
@@ -10974,6 +11494,66 @@
       },
       {
         "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Hard-engage tank top laners",
+        "reason": "Their CC chains for longer than Aftershock's window. They can match Gragas's engage with their own and out-scale him into late game with built-in resistance steroids.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top tank da hard-engage",
+        "reason": "La loro CC concatena per più tempo della finestra di Aftershock. Pareggiano l'engage di Gragas col loro e lo superano in scaling fino al late grazie agli steroidi di resistenze integrati nel kit.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Point-and-click stun engagers",
+        "reason": "Their CC chains lock Gwen out of W activation. Once stunned mid-dash, she eats the full enemy combo before mist can drop.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Resistance-stacking tanks",
+        "reason": "Q true damage and on-hit AP from E ignore both armor and magic resist. Tanks stack defenses she fully bypasses.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Engage point-and-click con stun",
+        "reason": "Le loro catene di CC bloccano Gwen prima che possa attivare W. Stunnata a metà dash, mangia tutta la combo nemica prima che la mist scenda.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Tank che scalano sulle resistenze",
+        "reason": "Q true damage e on-hit AP da E ignorano sia armor sia magic resist. I tank stackano difese che lei bypassa completamente.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "irelia",
           "role": "top",
           "lang": "en"
@@ -11617,6 +12197,46 @@
         "archetype": "Jungler farmer senza tool di flank",
         "reason": "Scalano linearmente con il farm ma non possono punire la tua invade tra livello 1 e 3. A livello 6, il tuo Crowstorm dalla fog batte i loro engage face-tank perché non hanno escape pre-cast.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Squishy carry junglers without hard CC",
+        "reason": "Body Slam's stun stops their kiting pattern: Master Yi can't Alpha-Strike out, Kindred can't dance the auto-attack reset, Graves can't reposition. R then knocks them off your team's carry on a follow-up engage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Carry jungle squishy senza hard CC",
+        "reason": "Lo stun di Body Slam spezza il loro pattern di kite: Master Yi non può uscire con Alpha Strike, Kindred non può ballare il reset delle auto, Graves non può ri-posizionarsi. R poi li butta via dal carry del tuo team su un engage di follow-up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Squishy assassins without disengage",
+        "reason": "W mist denies their target lock during an all-in. They commit, eat the Q true damage cone in mist, and have no second escape because they spent their dash.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Assassini squishy senza disengage",
+        "reason": "La W mist nega il loro target lock durante un all-in. Si committano, mangiano il cono di Q true damage in mist, e non hanno un secondo escape perché hanno già speso il dash.",
+        "via": "pick_into"
       }
     ],
     "milio": [
@@ -11942,6 +12562,26 @@
         },
         "archetype": "Bruiser melee senza poke ranged",
         "reason": "La Q di Mundo e' uno slow da 975 di range che costa HP, non mana, quindi puo' chippare ogni wave da fuori auto-attack range nemico. Devono camminare addosso a lui per fare danno, e l'aura W + healing di Spirit Visage vincono ogni trade esteso.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Channel-reliant skill-shot mages",
+        "reason": "Body Slam interrupts Mordekaiser's Q wind-up and Ryze's combo channel, then Gragas walks out with W damage reduction. Both lose lane priority once their cast cycle is broken.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Mage da skill-shot e channel",
+        "reason": "Body Slam interrompe il wind-up della Q di Mordekaiser e il combo channel di Ryze, poi Gragas esce con il damage reduction della W. Entrambi perdono priorità di lane appena il loro cast cycle si rompe.",
         "via": "pick_into"
       },
       {
@@ -13058,6 +13698,46 @@
       },
       {
         "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Long-range poke junglers",
+        "reason": "Nidalee spears and Elise spider-form chip Gragas from outside Body Slam range. He has no way to close the gap without committing E — once spent, both junglers walk away from the trade.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler da poke a lunga gittata",
+        "reason": "Le javelin di Nidalee e la spider-form di Elise erodono Gragas da fuori il range di Body Slam. Gragas non ha modo di chiudere il gap senza committare E — una volta speso, entrambi escono dallo scambio camminando.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early invader junglers",
+        "reason": "Gwen has no burst at level 1-3 and a slow first clear. Invader junglers walk into her camps and kill her before passive stacks come online.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler invader early game",
+        "reason": "Gwen non ha burst ai livelli 1-3 e ha un primo clear lento. Gli invader le entrano nei camp e la killano prima che la passive entri in stack.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "viego",
           "role": "jungle",
           "lang": "en"
@@ -13386,6 +14066,46 @@
       },
       {
         "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Hard-engage tank top laners",
+        "reason": "Their CC chains for longer than Aftershock's window. They can match Gragas's engage with their own and out-scale him into late game with built-in resistance steroids.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top tank da hard-engage",
+        "reason": "La loro CC concatena per più tempo della finestra di Aftershock. Pareggiano l'engage di Gragas col loro e lo superano in scaling fino al late grazie agli steroidi di resistenze integrati nel kit.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Resistance-stacking tanks",
+        "reason": "Q true damage and on-hit AP from E ignore both armor and magic resist. Tanks stack defenses she fully bypasses.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Tank che scalano sulle resistenze",
+        "reason": "Q true damage e on-hit AP da E ignorano sia armor sia magic resist. I tank stackano difese che lei bypassa completamente.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "irelia",
           "role": "top",
           "lang": "en"
@@ -13584,6 +14304,26 @@
         },
         "archetype": "Bullies di lane early-game",
         "reason": "Out-tradano Fizz ai livelli 1-3 prima che arrivi al power spike di livello 6. Lo stun di Pantheon W e la Q scudata pokano ogni passo avanti; la Q di Talon ha la stessa range con costo mana inferiore.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Point-and-click stun engagers",
+        "reason": "Their CC chains lock Gwen out of W activation. Once stunned mid-dash, she eats the full enemy combo before mist can drop.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Engage point-and-click con stun",
+        "reason": "Le loro catene di CC bloccano Gwen prima che possa attivare W. Stunnata a metà dash, mangia tutta la combo nemica prima che la mist scenda.",
         "via": "counterpick"
       },
       {
@@ -14172,6 +14912,46 @@
         },
         "archetype": "Top ranged che pokano Mini Gnar da più lontano",
         "reason": "Mini Gnar non ha sustain ranged e il suo unico trade safe è Q da max range. Loro autoattaccano da dentro quel range e lo spingono sotto torre senza alcuna finestra di risposta.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged top laners",
+        "reason": "They auto-attack Gragas from outside Q range and walk away from his E commit. Without a way to close the gap repeatedly, Gragas gets chipped to half HP before level 3 and forced to back.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top laner ranged",
+        "reason": "Auto-attaccano Gragas da fuori il range della Q e camminano via dal commit della E. Senza modo di chiudere il gap ripetutamente, Gragas viene chippato a metà HP prima del livello 3 e costretto a basare.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged tops that kite from auto range",
+        "reason": "Gwen needs melee range to apply on-hit AP and Q true damage. Ranged kiters auto-cancel her engage and prevent any clean trade.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged che kitano dalla distanza auto",
+        "reason": "Gwen serve range melee per applicare on-hit AP e il true damage di Q. I kiter ranged interrompono l'engage e non concedono mai un trade pulito.",
         "via": "counterpick"
       },
       {
@@ -15070,6 +15850,26 @@
       },
       {
         "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Burst-window assassins",
+        "reason": "Their burst combo arrives in 1.5 seconds, but W mist drops them out of target range mid-leap. Once they whiff their burst window, Gwen wins the extended trade easily.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Assassini con burst window",
+        "reason": "Il loro burst arriva in 1.5 secondi, ma la W mist li fa uscire dal target range a metà salto. Una volta whiffato il burst window, Gwen vince facilmente il trade prolungato.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lulu",
           "role": "support",
           "lang": "en"
@@ -15129,6 +15929,26 @@
         "archetype": "Diver melee mobili (ti saltano addosso veloci)",
         "reason": "Q li knockuppa a metà dash spezzando la combo. W silenzia subito dopo, bloccando il secondo dash. R li esegue quando si ritirano low — non possono all-inarti (committarsi nel fight) senza Flash e una read pulita.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "True-damage / early-game outscalers",
+        "reason": "Fiora's Vitals also deal true damage and her Q dashes ignore W mist range. Riven outdamages Gwen at level 1-3 before passive can stack online.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Outscaler con true damage o early forte",
+        "reason": "I Vital di Fiora fanno true damage e i suoi dash di Q ignorano il range della W mist. Riven outdamaga Gwen ai livelli 1-3 prima che la passive entri in stack.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -15313,6 +16133,26 @@
         "archetype": "Roamer global / cross-map",
         "reason": "Cassiopeia e' incollata alla mid lane (no roam veloce). L'avversario usa la R per ribaltare side lane e dragon; lei vince l'1v1 ma perde la macro (gli scambi di obiettivo che succedono altrove sulla mappa).",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Channel-reliant skill-shot mages",
+        "reason": "Body Slam interrupts Mordekaiser's Q wind-up and Ryze's combo channel, then Gragas walks out with W damage reduction. Both lose lane priority once their cast cycle is broken.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Mage da skill-shot e channel",
+        "reason": "Body Slam interrompe il wind-up della Q di Mordekaiser e il combo channel di Ryze, poi Gragas esce con il damage reduction della W. Entrambi perdono priorità di lane appena il loro cast cycle si rompe.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -15757,6 +16597,26 @@
         "archetype": "Engage tanky con counter-engage hard CC",
         "reason": "Il loro CC AOE prende Elise durante la discesa di Rappel o dopo che fa commit al dive. Una volta a 2 item, il tuo magic burst smette di scioglierli e tu non hai disengage in Spider form.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Tank junglers without high single-target damage",
+        "reason": "Q applies percent-max-HP true damage that ignores armor; tanks have huge HP pools she shreds in 3-4 Q hits during a sustained 1v1 inside W mist.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Tank jungler senza grosso danno single-target",
+        "reason": "Q applica true damage in percentuale dell'HP massimo, ignora l'armor. I tank hanno HP pool enormi che lei sfalda in 3-4 colpi di Q in un 1v1 lungo dentro la W mist.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -16426,6 +17286,46 @@
       },
       {
         "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Melee bruisers without dash",
+        "reason": "They have to walk up to last-hit; Gragas Q-W-AA poke chips them out of all-in range, and his W damage reduction makes their pre-6 commit weaker than Gragas's counter-trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee senza dash",
+        "reason": "Devono camminare avanti per last-hittare; il poke Q-W-AA di Gragas li chippa fuori dalla finestra di all-in, e il damage reduction della W indebolisce il loro commit pre-6 rispetto al counter-trade di Gragas.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Slow melee bruisers without ranged poke",
+        "reason": "Q applies percent-max-HP true damage that ignores armor. Sustained 1v1 inside W mist shreds tanky melee fighters who cannot kite or disengage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee lenti senza poke ranged",
+        "reason": "Q applica true damage in percentuale dell'HP massimo, ignora l'armor. Un 1v1 lungo dentro la W mist scioglie i fighter melee tanky che non possono kitare o disengage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kayn",
           "role": "jungle",
           "lang": "en"
@@ -16528,6 +17428,46 @@
       },
       {
         "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Stealth-reliant gankers",
+        "reason": "W's damage reduction soaks their burst opening (Fiddlesticks fear plus drain, Shaco backstab) while Body Slam stuns them out of channel. Their engage relies on uncontested cast time — Gragas takes that away.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Ganker basati su stealth",
+        "reason": "Il damage reduction della W assorbe il loro burst di apertura (fear+drain di Fiddlesticks, backstab di Shaco) mentre Body Slam li stunna in pieno cast. Il loro engage richiede cast time non contestato — Gragas glielo toglie.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Squishy assassins without disengage",
+        "reason": "W mist denies their target lock during an all-in. They commit, eat the Q true damage cone in mist, and have no second escape because they spent their dash.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Assassini squishy senza disengage",
+        "reason": "La W mist nega il loro target lock durante un all-in. Si committano, mangiano il cono di Q true damage in mist, e non hanno un secondo escape perché hanno già speso il dash.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "warwick",
           "role": "jungle",
           "lang": "en"
@@ -16566,6 +17506,26 @@
         },
         "archetype": "Tank HP-stacker che non riescono a fermare i Vitals",
         "reason": "I Vitals fanno una percentuale dell'HP massimo del bersaglio in true damage (danno che ignora armor e MR). Più HP buildano, più la R di Fiora li devasta nei fight prolungati.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Resistance-stacking tanks",
+        "reason": "Q true damage and on-hit AP from E ignore both armor and magic resist. Tanks stack defenses she fully bypasses.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Tank che scalano sulle resistenze",
+        "reason": "Q true damage e on-hit AP da E ignorano sia armor sia magic resist. I tank stackano difese che lei bypassa completamente.",
         "via": "pick_into"
       }
     ],
@@ -17036,6 +17996,26 @@
         },
         "archetype": "Bruiser che devono committare in avanti",
         "reason": "Spingono dentro la tua squadra per fare danno e non hanno disengage; la E di Brand accende il blaze, la Q stunna nel momento in cui ti raggiungono e la R lock-a il secondo target prima che possano tirarsi indietro.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Tank junglers without high single-target damage",
+        "reason": "Q applies percent-max-HP true damage that ignores armor; tanks have huge HP pools she shreds in 3-4 Q hits during a sustained 1v1 inside W mist.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Tank jungler senza grosso danno single-target",
+        "reason": "Q applica true damage in percentuale dell'HP massimo, ignora l'armor. I tank hanno HP pool enormi che lei sfalda in 3-4 colpi di Q in un 1v1 lungo dentro la W mist.",
         "via": "pick_into"
       },
       {
@@ -18396,6 +19376,46 @@
       },
       {
         "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged top laners",
+        "reason": "They auto-attack Gragas from outside Q range and walk away from his E commit. Without a way to close the gap repeatedly, Gragas gets chipped to half HP before level 3 and forced to back.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top laner ranged",
+        "reason": "Auto-attaccano Gragas da fuori il range della Q e camminano via dal commit della E. Senza modo di chiudere il gap ripetutamente, Gragas viene chippato a metà HP prima del livello 3 e costretto a basare.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged tops that kite from auto range",
+        "reason": "Gwen needs melee range to apply on-hit AP and Q true damage. Ranged kiters auto-cancel her engage and prevent any clean trade.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged che kitano dalla distanza auto",
+        "reason": "Gwen serve range melee per applicare on-hit AP e il true damage di Q. I kiter ranged interrompono l'engage e non concedono mai un trade pulito.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "jax",
           "role": "top",
           "lang": "en"
@@ -19140,6 +20160,26 @@
         },
         "archetype": "Melee auto-attack che hanno bisogno di stickare",
         "reason": "Lo slow di Q + Plated Steelcaps gli paralizza l'attack uptime. La R di Tryndamere lo heala attraverso una rotation, ma un Mundo con R + Thornmail sopravvive alla finestra di immortalita' e lo chunka col danno riflesso.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Slow melee bruisers without ranged poke",
+        "reason": "Q applies percent-max-HP true damage that ignores armor. Sustained 1v1 inside W mist shreds tanky melee fighters who cannot kite or disengage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee lenti senza poke ranged",
+        "reason": "Q applica true damage in percentuale dell'HP massimo, ignora l'armor. Un 1v1 lungo dentro la W mist scioglie i fighter melee tanky che non possono kitare o disengage.",
         "via": "pick_into"
       },
       {
@@ -20090,6 +21130,46 @@
         },
         "archetype": "Top ranged che pokano Mini Gnar da più lontano",
         "reason": "Mini Gnar non ha sustain ranged e il suo unico trade safe è Q da max range. Loro autoattaccano da dentro quel range e lo spingono sotto torre senza alcuna finestra di risposta.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged top laners",
+        "reason": "They auto-attack Gragas from outside Q range and walk away from his E commit. Without a way to close the gap repeatedly, Gragas gets chipped to half HP before level 3 and forced to back.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top laner ranged",
+        "reason": "Auto-attaccano Gragas da fuori il range della Q e camminano via dal commit della E. Senza modo di chiudere il gap ripetutamente, Gragas viene chippato a metà HP prima del livello 3 e costretto a basare.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged tops that kite from auto range",
+        "reason": "Gwen needs melee range to apply on-hit AP and Q true damage. Ranged kiters auto-cancel her engage and prevent any clean trade.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged che kitano dalla distanza auto",
+        "reason": "Gwen serve range melee per applicare on-hit AP e il true damage di Q. I kiter ranged interrompono l'engage e non concedono mai un trade pulito.",
         "via": "counterpick"
       },
       {
@@ -21160,6 +22240,26 @@
       },
       {
         "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Mobile skirmishers with multiple gap-closers",
+        "reason": "They cover ground faster than Gragas's single Body Slam dash and start a fight before you can W into E. Viego possessing your team's frontliner mid-fight also turns your engage into a 1v2.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Skirmisher mobili con multi gap-close",
+        "reason": "Coprono terreno più velocemente del singolo Body Slam di Gragas e iniziano il fight prima che tu possa fare W in E. Inoltre Viego che possiede un tuo frontliner trasforma il tuo engage in un 1v2.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "kha-zix",
           "role": "jungle",
           "lang": "en"
@@ -21176,6 +22276,48 @@
         },
         "archetype": "Bruiser jungler front-loaded con CC point-and-click",
         "reason": "Il loro CC interrompe l'animazione del jump e ti blocca. Pre-6 ti vincono il duello in jungle: un invade a livello 3 è una kill gratis per loro.",
+        "via": "counterpick"
+      }
+    ],
+    "viego": [
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Mobile skirmishers with multiple gap-closers",
+        "reason": "They cover ground faster than Gragas's single Body Slam dash and start a fight before you can W into E. Viego possessing your team's frontliner mid-fight also turns your engage into a 1v2.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Skirmisher mobili con multi gap-close",
+        "reason": "Coprono terreno più velocemente del singolo Body Slam di Gragas e iniziano il fight prima che tu possa fare W in E. Inoltre Viego che possiede un tuo frontliner trasforma il tuo engage in un 1v2.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "High-mobility outscalers",
+        "reason": "Both have mobility tools (Kayn wall-walk, Viego dash on hit) that ignore W mist range; they outscale Gwen's tempo in late-game skirmishes.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Outscaler con tanta mobilità",
+        "reason": "Entrambi hanno tool di mobilità (Kayn cammina nei muri, Viego ha il dash on-hit) che ignorano il range della W mist; outscalano il tempo di Gwen negli skirmish late.",
         "via": "counterpick"
       }
     ],
@@ -21381,6 +22523,26 @@
         "archetype": "Mage melee senza hard CC (stun/root)",
         "reason": "Non hanno lockdown istantaneo per interrompere la Q. Tu li outrangi sul poke da distanza sicura, e il silence di W spegne i loro kit ability-reliant durante l'all-in.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Squishy AP top laners",
+        "reason": "Drunken Rage's flat damage reduction soaks Kennen's stun-burst combo and Vladimir's Q poke. Gragas can E-AA-Q in retaliation while their resources are committed to the trade window.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top laner AP squishy",
+        "reason": "Il damage reduction flat di Drunken Rage assorbe il combo stun-burst di Kennen e il poke Q di Vladimir. Gragas può rispondere con E-AA-Q mentre le loro risorse sono spese nello scambio.",
+        "via": "pick_into"
       }
     ],
     "volibear": [
@@ -21524,6 +22686,26 @@
         },
         "archetype": "Jungler farmer senza tool di flank",
         "reason": "Scalano linearmente con il farm ma non possono punire la tua invade tra livello 1 e 3. A livello 6, il tuo Crowstorm dalla fog batte i loro engage face-tank perché non hanno escape pre-cast.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Long-channel ult junglers",
+        "reason": "Explosive Cask interrupts Karthus R, Amumu R, and Warwick R. One R knockback in mid-fight cancels their teamfight payload entirely, and Gragas only needs to land the cask center near the channel target.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gragas",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler con ult a channel lungo",
+        "reason": "Explosive Cask interrompe la R di Karthus, di Amumu e di Warwick. Una knockback in mid-fight cancella interamente il loro payload da teamfight e a Gragas basta piazzare il centro del barile vicino al target che sta channellando.",
         "via": "pick_into"
       },
       {
@@ -24060,6 +25242,26 @@
         },
         "archetype": "Tank engage senza dash",
         "reason": "La mobility di Ekko (E + R rewind) schiva il loro engage telegrafato, e il burst AP picchia forte sui tank con poca MR. Li kite dietro angoli e brucia i loro carry dalla fog.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Tank junglers without high single-target damage",
+        "reason": "Q applies percent-max-HP true damage that ignores armor; tanks have huge HP pools she shreds in 3-4 Q hits during a sustained 1v1 inside W mist.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gwen",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Tank jungler senza grosso danno single-target",
+        "reason": "Q applica true damage in percentuale dell'HP massimo, ignora l'armor. I tank hanno HP pool enormi che lei sfalda in 3-4 colpi di Q in un 1v1 lungo dentro la W mist.",
         "via": "pick_into"
       },
       {

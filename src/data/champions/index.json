@@ -1336,6 +1336,64 @@
       }
     },
     {
+      "slug": "gragas-jungle",
+      "champion": "gragas",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Gragas Jungle Build & Guide — Patch 16.9",
+          "description": "Gragas jungle guide for League of Legends Patch 16.9: clear path, gank routes, AP bruiser build, key matchups, power spikes, common mistakes, and one closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "AP Bruiser / Engage",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Gragas",
+          "champion_key": "79"
+        },
+        "it": {
+          "title": "Gragas Jungle Build & Guida — Patch 16.9",
+          "description": "Guida Gragas jungle per League of Legends Patch 16.9: clear path, rotte di gank, build AP bruiser, matchup chiave, power spike, errori comuni e un consiglio finale.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "AP Bruiser / Engage",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Gragas",
+          "champion_key": "79"
+        }
+      }
+    },
+    {
+      "slug": "gragas-top",
+      "champion": "gragas",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Gragas Top Build & Guide — Patch 16.9",
+          "description": "Gragas top lane guide for League of Legends Patch 16.9: starter kit, AP bruiser build, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "AP Bruiser / Skirmisher",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Gragas",
+          "champion_key": "79"
+        },
+        "it": {
+          "title": "Gragas Top Build & Guida — Patch 16.9",
+          "description": "Guida Gragas top lane per League of Legends Patch 16.9: starter kit, build AP bruiser, matchup chiave, power spike, errori comuni e un consiglio finale.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "AP Bruiser / Skirmisher",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Gragas",
+          "champion_key": "79"
+        }
+      }
+    },
+    {
       "slug": "graves-jungle",
       "champion": "graves",
       "role": "jungle",
@@ -1361,6 +1419,64 @@
           "damage_type": "physical",
           "champion_dd_id": "Graves",
           "champion_key": "104"
+        }
+      }
+    },
+    {
+      "slug": "gwen-jungle",
+      "champion": "gwen",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Gwen Jungle Build & Guide — Patch 16.9",
+          "description": "Gwen jungle guide for League of Legends Patch 16.9: clear path, Scuttle and Drake timings, gank routes, AP bruiser build, key matchups, power spikes, and common mistakes.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "AP Bruiser / Skirmisher",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Gwen",
+          "champion_key": "887"
+        },
+        "it": {
+          "title": "Gwen Jungle: build e guida — Patch 16.9",
+          "description": "Guida a Gwen jungle per League of Legends Patch 16.9: clear path, timing Scuttle e Drake, gank routes, build AP bruiser, matchup, power spike ed errori comuni.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "AP Bruiser / Skirmisher",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Gwen",
+          "champion_key": "887"
+        }
+      }
+    },
+    {
+      "slug": "gwen-top",
+      "champion": "gwen",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Gwen Top Build & Guide — Patch 16.9",
+          "description": "Gwen top lane guide for League of Legends Patch 16.9: starter kit, AP bruiser core build, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "AP Bruiser / Skirmisher",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Gwen",
+          "champion_key": "887"
+        },
+        "it": {
+          "title": "Gwen Top: build e guida — Patch 16.9",
+          "description": "Guida completa a Gwen top per League of Legends Patch 16.9: starter, build core AP bruiser, matchup chiave, power spike, errori comuni e suggerimento avanzato.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "AP Bruiser / Skirmisher",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Gwen",
+          "champion_key": "887"
         }
       }
     },
