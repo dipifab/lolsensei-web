@@ -100,6 +100,50 @@ export function resolveEnemyDisplayName(
   return index.champions[slug]?.display_name ?? slug;
 }
 
+const ROLE_DISPLAY_ORDER: readonly Role[] = [
+  'top',
+  'jungle',
+  'mid',
+  'bot',
+  'support',
+];
+
+/**
+ * Insieme dei ruoli enemy per cui esiste almeno una cella nelle liste
+ * `is_strong_against` o `is_weak_against`. Usato dalla detail page per
+ * decidere quali tab mostrare: tab di un ruolo senza dati creerebbero
+ * una vista vuota fuorviante.
+ *
+ * Output ordinato secondo `top > jungle > mid > bot > support` (ordine
+ * stabile e naturale per il giocatore, indipendente dall'ordine di
+ * inserimento nelle liste).
+ */
+export function rolesWithMatchups(entry: EnemyEntry): Role[] {
+  const set = new Set<Role>();
+  for (const c of entry.is_strong_against) set.add(c.role);
+  for (const c of entry.is_weak_against) set.add(c.role);
+  return ROLE_DISPLAY_ORDER.filter((r) => set.has(r));
+}
+
+/**
+ * Filtra entry.is_strong_against e entry.is_weak_against tenendo solo le
+ * celle il cui `role` (= ruolo dell'enemy nella guida sorgente) corrisponde
+ * a `role`. Se `role === null` ritorna l'entry invariata (vista "Tutti").
+ *
+ * L'ordine relativo delle celle e' preservato: il chiamante e' responsabile
+ * di passare un'entry gia ordinata via `selectEnemyEntry`.
+ */
+export function filterEntryByRole(
+  entry: EnemyEntry,
+  role: Role | null,
+): EnemyEntry {
+  if (role === null) return entry;
+  return {
+    is_strong_against: entry.is_strong_against.filter((c) => c.role === role),
+    is_weak_against: entry.is_weak_against.filter((c) => c.role === role),
+  };
+}
+
 export interface HreflangAlternate {
   hreflang: 'en' | 'it' | 'x-default';
   href: string;

@@ -18,7 +18,13 @@
 //   - dev-repository/wp-counter-picker/design/routing.md §1, §9, §10
 //   - dev-repository/wp-counter-picker/design/accessibility-perf.md §1.3, §2
 
-import { Show, Suspense, createMemo, createResource } from 'solid-js';
+import {
+  Show,
+  Suspense,
+  createMemo,
+  createResource,
+  createSignal,
+} from 'solid-js';
 import { getRequestEvent, isServer } from 'solid-js/web';
 import { Navigate, useNavigate, useParams } from '@solidjs/router';
 import { Title, Meta, Link } from '@solidjs/meta';
@@ -34,12 +40,15 @@ import {
   buildHreflangAlternates,
   buildSubjectGuideHref,
   classifyEnemy,
+  filterEntryByRole,
   resolveEnemyDisplayName,
+  rolesWithMatchups,
   selectEnemyEntry,
 } from '../../../lib/counter/detail';
 import type { CounterIndex, Lang, Role } from '../../../lib/counter/types';
 import { EnemyHeader } from '../../../components/counter/EnemyHeader';
 import { CounterColumn } from '../../../components/counter/CounterColumn';
+import { RoleTabs } from '../../../components/counter/RoleTabs';
 
 const COUNTER_LANGS = ['en', 'it'] as const;
 type CounterLang = (typeof COUNTER_LANGS)[number];
@@ -254,12 +263,47 @@ function DetailBody(props: DetailBodyProps) {
   const meta = (): CounterIndex['champions'][string] | undefined =>
     props.index.champions[props.enemySlug];
   const subjectHasGuide = (): boolean => meta()?.has_guide === true;
+
+  // Tab ruolo client-side: lo stato e' inizializzato dal ruolo eventualmente
+  // presente in URL (`/{lang}/counter/{slug}-{role}`), altrimenti `null`
+  // (= tab "Tutti", default per arrivo via search).
+  const [selectedRole, setSelectedRole] = createSignal<Role | null>(
+    props.enemyRole,
+  );
+
+  const availableRoles = createMemo<Role[]>(() =>
+    props.entry ? rolesWithMatchups(props.entry) : [],
+  );
+
+  const filteredEntry = createMemo(() =>
+    props.entry ? filterEntryByRole(props.entry, selectedRole()) : null,
+  );
+
   // REV-001 (chiusura 2026-05-02): l'href usa ora il pattern slash post-CR-056
   // (`/[lang]/champion/<champion>/<role>/guide`) per evitare la soft-404 sulla
   // forma legacy hyphen. Stesso pattern di `resolveSourceAnchor` (helper unico
   // riusato sotto in `buildSubjectGuideHref` per testabilita').
+  // Usa `selectedRole()` (non `props.enemyRole`): cosi' il CTA cambia
+  // quando l'utente switcha tab.
   const subjectGuideHref = (): string =>
-    buildSubjectGuideHref(props.lang, props.enemySlug, props.enemyRole, meta());
+    buildSubjectGuideHref(props.lang, props.enemySlug, selectedRole(), meta());
+
+  // Aggiorna URL via `history.replaceState` (no nuova entry in history,
+  // no scroll-to-top): la pagina diventa condivisibile/bookmarkabile sulla
+  // vista filtrata corrente. SSR rispetta gia il ruolo presente in URL.
+  const handleRoleSelect = (role: Role | null): void => {
+    setSelectedRole(role);
+    if (typeof window === 'undefined') return;
+    const path = role
+      ? `/${props.lang}/counter/${props.enemySlug}-${role}`
+      : `/${props.lang}/counter/${props.enemySlug}`;
+    try {
+      window.history.replaceState(window.history.state, '', path);
+    } catch {
+      // Ignora errori di replaceState in ambienti edge (es. cross-origin):
+      // il filtro client funziona comunque, solo l'URL non si aggiorna.
+    }
+  };
 
   return (
     <main class="min-h-[60vh] px-3 py-4 md:px-6 md:py-8 max-w-5xl mx-auto">
@@ -267,7 +311,7 @@ function DetailBody(props: DetailBodyProps) {
         lang={props.lang}
         slug={props.enemySlug}
         meta={meta()}
-        role={props.enemyRole}
+        role={selectedRole()}
       />
 
       <Show when={subjectHasGuide()}>
@@ -286,12 +330,23 @@ function DetailBody(props: DetailBodyProps) {
         </a>
       </Show>
 
+      <Show when={availableRoles().length >= 2}>
+        <div class="mt-2 mb-4">
+          <RoleTabs
+            lang={props.lang}
+            roles={availableRoles()}
+            active={selectedRole()}
+            onSelect={handleRoleSelect}
+          />
+        </div>
+      </Show>
+
       <div class="grid grid-cols-2 gap-2 md:gap-6 mt-4" data-testid="detail-grid">
         <CounterColumn
           lang={props.lang}
           variant="strong"
           enemyDisplayName={props.enemyDisplayName}
-          cells={props.entry?.is_strong_against ?? []}
+          cells={filteredEntry()?.is_strong_against ?? []}
           champions={props.index.champions}
           rationales={props.index.rationales}
           headingId="counter-column-strong-heading"
@@ -300,7 +355,7 @@ function DetailBody(props: DetailBodyProps) {
           lang={props.lang}
           variant="weak"
           enemyDisplayName={props.enemyDisplayName}
-          cells={props.entry?.is_weak_against ?? []}
+          cells={filteredEntry()?.is_weak_against ?? []}
           champions={props.index.champions}
           rationales={props.index.rationales}
           headingId="counter-column-weak-heading"

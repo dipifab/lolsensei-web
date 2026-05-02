@@ -21,7 +21,9 @@ import {
   buildHreflangAlternates,
   buildSubjectGuideHref,
   classifyEnemy,
+  filterEntryByRole,
   resolveEnemyDisplayName,
+  rolesWithMatchups,
   selectEnemyEntry,
 } from '../../src/lib/counter/detail';
 import type { ChampionMeta, CounterIndex } from '../../src/lib/counter/types';
@@ -269,5 +271,68 @@ describe('buildSubjectGuideHref — CR-056 slash-form URL (REV-001)', () => {
     );
     // enemyRole='top' deve vincere su cited_in_roles[0]='mid'.
     expect(href).toBe('/en/champion/yasuo/top/guide');
+  });
+});
+
+describe('rolesWithMatchups — derive available role tabs from entry', () => {
+  it('returns union of roles across is_strong_against and is_weak_against', () => {
+    const entry = selectEnemyEntry('yasuo', makeIndex());
+    expect(entry).not.toBeNull();
+    // yasuo entry: top (aatrox+malphite+aatrox-weak), mid (zed)
+    expect(rolesWithMatchups(entry!)).toEqual(['top', 'mid']);
+  });
+
+  it('orders roles by canonical top>jungle>mid>bot>support, dedupes', () => {
+    const entry = {
+      is_strong_against: [
+        { c: 'a', role: 'support' as const, r: 0, n: 1 },
+        { c: 'b', role: 'top' as const, r: 1, n: 1 },
+      ],
+      is_weak_against: [
+        { c: 'c', role: 'mid' as const, r: 2, n: 1 },
+        { c: 'd', role: 'top' as const, r: 3, n: 1 },
+      ],
+    };
+    expect(rolesWithMatchups(entry)).toEqual(['top', 'mid', 'support']);
+  });
+
+  it('returns empty array when entry has no cells in either list', () => {
+    expect(
+      rolesWithMatchups({ is_strong_against: [], is_weak_against: [] }),
+    ).toEqual([]);
+  });
+});
+
+describe('filterEntryByRole — narrow entry cells to a single enemy role', () => {
+  it('returns entry unchanged when role is null (= "All" tab)', () => {
+    const entry = selectEnemyEntry('yasuo', makeIndex())!;
+    const out = filterEntryByRole(entry, null);
+    expect(out.is_strong_against).toEqual(entry.is_strong_against);
+    expect(out.is_weak_against).toEqual(entry.is_weak_against);
+  });
+
+  it('keeps only cells matching the given role in both lists', () => {
+    const entry = selectEnemyEntry('yasuo', makeIndex())!;
+    const out = filterEntryByRole(entry, 'mid');
+    expect(out.is_strong_against.map((c) => c.c)).toEqual(['zed']);
+    expect(out.is_weak_against).toEqual([]);
+  });
+
+  it('preserves order of cells from input lists', () => {
+    const entry = selectEnemyEntry('yasuo', makeIndex())!;
+    const out = filterEntryByRole(entry, 'top');
+    // Strong list pre-filtered (input ordering preserved).
+    expect(out.is_strong_against.map((c) => c.c)).toEqual([
+      'malphite', // n=3 first by selectEnemyEntry sort
+      'aatrox', // n=1 alpha after malphite
+    ]);
+    expect(out.is_weak_against.map((c) => c.c)).toEqual(['aatrox']);
+  });
+
+  it('returns empty lists when role has no cells', () => {
+    const entry = selectEnemyEntry('yasuo', makeIndex())!;
+    const out = filterEntryByRole(entry, 'support');
+    expect(out.is_strong_against).toEqual([]);
+    expect(out.is_weak_against).toEqual([]);
   });
 });
