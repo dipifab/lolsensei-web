@@ -669,6 +669,93 @@
       }
     },
     {
+      "slug": "camille-top",
+      "champion": "camille",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Camille Top Build & Guide — Patch 16.9",
+          "description": "Camille top lane guide for League of Legends Patch 16.9: starter kit, core fighter build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-01",
+          "champion_class": "Fighter / Diver",
+          "difficulty": 3,
+          "damage_type": "mixed",
+          "champion_dd_id": "Camille",
+          "champion_key": "164"
+        },
+        "it": {
+          "title": "Guida Camille Top — Build e Counter Patch 16.9",
+          "description": "Guida Camille top per League of Legends Patch 16.9: starter, build fighter, matchup chiave, power spike, errori comuni e una tip avanzata di chiusura.",
+          "patch": "16.9",
+          "last_updated": "2026-05-01",
+          "champion_class": "Fighter / Diver",
+          "difficulty": 3,
+          "damage_type": "mixed",
+          "champion_dd_id": "Camille",
+          "champion_key": "164"
+        }
+      }
+    },
+    {
+      "slug": "cassiopeia-mid",
+      "champion": "cassiopeia",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Cassiopeia Mid Build & Guide — Patch 16.9",
+          "description": "Cassiopeia mid lane guide for League of Legends Patch 16.9: starter kit, core mage build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-01",
+          "champion_class": "Mage / Battlemage",
+          "difficulty": 5,
+          "damage_type": "magic",
+          "champion_dd_id": "Cassiopeia",
+          "champion_key": "69"
+        },
+        "it": {
+          "title": "Cassiopeia Mid: Build e Guida — Patch 16.9",
+          "description": "Guida Cassiopeia mid lane per League of Legends Patch 16.9: kit di partenza, build mage, matchup chiave, power spike, errori comuni e una tip di chiusura.",
+          "patch": "16.9",
+          "last_updated": "2026-05-01",
+          "champion_class": "Mage / Battlemage",
+          "difficulty": 5,
+          "damage_type": "magic",
+          "champion_dd_id": "Cassiopeia",
+          "champion_key": "69"
+        }
+      }
+    },
+    {
+      "slug": "chogath-top",
+      "champion": "chogath",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Cho'Gath Top Build & Guide — Patch 16.9",
+          "description": "Cho'Gath top lane guide for League of Legends Patch 16.9: HP-stacking tank-mage build, Grasp runes, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Tank / Battlemage",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Chogath",
+          "champion_key": "31"
+        },
+        "it": {
+          "title": "Cho'Gath Top Build & Guida — Patch 16.9",
+          "description": "Guida Cho'Gath top lane per League of Legends Patch 16.9: build tank-mage che stacka HP, rune Grasp, matchup chiave, power spike, errori comuni e un consiglio finale.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Tank / Battlemage",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Chogath",
+          "champion_key": "31"
+        }
+      }
+    },
+    {
       "slug": "corki-bot",
       "champion": "corki",
       "role": "bot",
@@ -785,6 +872,64 @@
       }
     },
     {
+      "slug": "dr-mundo-jungle",
+      "champion": "dr-mundo",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Dr. Mundo Jungle Build & Guide — Patch 16.9",
+          "description": "Dr. Mundo jungle guide for LoL Patch 16.9: Mosstomper pet jungle path, HP-stacking tank build, gank timing, key matchups, power spikes, and common mistakes.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Tank / Bruiser Jungler",
+          "difficulty": 2,
+          "damage_type": "mixed",
+          "champion_dd_id": "DrMundo",
+          "champion_key": "36"
+        },
+        "it": {
+          "title": "Dr. Mundo Jungle: Build e Guida — Patch 16.9",
+          "description": "Guida Dr. Mundo jungle per LoL Patch 16.9: percorso jungle col pet Mosstomper, build tank HP-stacking, timing dei gank, matchup chiave, power spike ed errori comuni.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Tank / Bruiser Jungler",
+          "difficulty": 2,
+          "damage_type": "mixed",
+          "champion_dd_id": "DrMundo",
+          "champion_key": "36"
+        }
+      }
+    },
+    {
+      "slug": "dr-mundo-top",
+      "champion": "dr-mundo",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Dr. Mundo Top Build & Guide — Patch 16.9",
+          "description": "Dr. Mundo top lane guide for League of Legends Patch 16.9: Heartsteel HP-stacking juggernaut build, lane survival, key matchups, power spikes, and common mistakes.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Tank / Juggernaut",
+          "difficulty": 2,
+          "damage_type": "mixed",
+          "champion_dd_id": "DrMundo",
+          "champion_key": "36"
+        },
+        "it": {
+          "title": "Dr. Mundo Top: Build e Guida — Patch 16.9",
+          "description": "Guida Dr. Mundo top per League of Legends Patch 16.9: build juggernaut HP-stacking con Heartsteel, sopravvivenza in lane, matchup chiave, power spike ed errori comuni.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Tank / Juggernaut",
+          "difficulty": 2,
+          "damage_type": "mixed",
+          "champion_dd_id": "DrMundo",
+          "champion_key": "36"
+        }
+      }
+    },
+    {
       "slug": "draven-bot",
       "champion": "draven",
       "role": "bot",
@@ -839,6 +984,64 @@
           "damage_type": "magic",
           "champion_dd_id": "Ekko",
           "champion_key": "245"
+        }
+      }
+    },
+    {
+      "slug": "elise-jungle",
+      "champion": "elise",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Elise Jungle Build & Guide — Patch 16.9",
+          "description": "Elise jungle guide for League of Legends Patch 16.9: Spider Form gank path, Cocoon setups, item priorities, key matchups, power spikes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Burst Mage / Diver",
+          "difficulty": 5,
+          "damage_type": "magic",
+          "champion_dd_id": "Elise",
+          "champion_key": "60"
+        },
+        "it": {
+          "title": "Guida Elise Jungle — Build e Strategia per la Patch 16.9",
+          "description": "Guida Elise jungle per League of Legends Patch 16.9: percorso di gank in Spider Form, setup di Cocoon, item core, matchup chiave, power spike e un consiglio finale.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Burst Mage / Diver",
+          "difficulty": 5,
+          "damage_type": "magic",
+          "champion_dd_id": "Elise",
+          "champion_key": "60"
+        }
+      }
+    },
+    {
+      "slug": "elise-support",
+      "champion": "elise",
+      "role": "support",
+      "locales": {
+        "en": {
+          "title": "Elise Support Build & Guide — Patch 16.9",
+          "description": "Elise support guide for League of Legends Patch 16.9: Cocoon engage angles, build path through Bloodsong, key matchups, power spikes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Burst Mage / Engage",
+          "difficulty": 5,
+          "damage_type": "magic",
+          "champion_dd_id": "Elise",
+          "champion_key": "60"
+        },
+        "it": {
+          "title": "Guida Elise Support — Build e Strategia per la Patch 16.9",
+          "description": "Guida Elise support per League of Legends Patch 16.9: angoli di engage con Cocoon, build path via Bloodsong, matchup chiave, power spike e un consiglio finale.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Burst Mage / Engage",
+          "difficulty": 5,
+          "damage_type": "magic",
+          "champion_dd_id": "Elise",
+          "champion_key": "60"
         }
       }
     },

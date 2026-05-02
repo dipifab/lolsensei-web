@@ -4,6 +4,26 @@
     "aatrox": [
       {
         "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Short-range bruisers without ranged poke",
+        "reason": "Mundo Q is a 975-range slow that costs HP, not mana, so he can chip them every wave from outside their auto-attack range. They have to walk into him to deal damage, and his W aura plus Spirit Visage healing wins every extended trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee senza poke ranged",
+        "reason": "La Q di Mundo e' uno slow da 975 di range che costa HP, non mana, quindi puo' chippare ogni wave da fuori auto-attack range nemico. Devono camminare addosso a lui per fare danno, e l'aura W + healing di Spirit Visage vincono ogni trade esteso.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "sett",
           "role": "top",
           "lang": "en"
@@ -165,6 +185,26 @@
         "archetype": "Assassini mobili con multi gap-close",
         "reason": "Saltano oltre la tua Q prima che tu riesca a piazzarla per lo stun. Senza stun il kit non ha peel per te stesso, quindi ti cancellano prima che la R completi il primo bounce.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Dash-reliant mid laners",
+        "reason": "Miasma grounds them inside the cloud: the moment they step in, every dash, blink, or movement ability is locked out. Their kits collapse against a champion who deletes their main escape tool.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mid laner basati su dash",
+        "reason": "Miasma li blocca dentro la nuvola (ground): nel momento in cui ci entrano, dash, blink e ability di movimento sono disattivate. Il kit collassa contro un campione che cancella la mobilita'.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -734,6 +774,26 @@
       },
       {
         "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages with no escape",
+        "reason": "Cassiopeia out-trades anyone who has to stand still to cast: E (0.75s cooldown) deals more damage on poisoned targets than their full rotations, and they can't dodge the W zone you drop on top of them.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza escape",
+        "reason": "Cassiopeia vince gli scambi prolungati contro chi deve restare fermo per castare: la E (cooldown 0.75s) fa piu' danno sui target avvelenati delle loro rotation complete, e non possono schivare la W sopra di loro.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "corki",
           "role": "mid",
           "lang": "en"
@@ -1160,6 +1220,26 @@
       },
       {
         "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile ranged carries with no dash",
+        "reason": "E cocoon from a bush catches them flat-footed. Once stunned, a level 3 W (slow) plus Q (anti-HP) plus the ADC's burst kills before Flash can answer.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Carry ranged immobili senza dash",
+        "reason": "Cocoon lanciato da un bush li prende piatti. Una volta stunnati, al livello 3 W (slow) + Q (anti-HP) + il burst dell'ADC chiude la kill prima che Flash possa rispondere.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "janna",
           "role": "support",
           "lang": "en"
@@ -1580,6 +1660,26 @@
         },
         "archetype": "Support da hard-engage con CC",
         "reason": "Draven non ha dash né immunità. Una catena di CC al livello 2 lo elimina mentre le sue asce rimbalzano inutili nella lane. Pre-6 non può letteralmente reagire.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hook supports who outrange cocoon",
+        "reason": "Blitzcrank's hook range (~1100) outdistances E cast range (1075). They engage on you first, removing your engage tool and leaving you melee in Spider form with no escape.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support hook che hanno piu range di cocoon",
+        "reason": "L'hook di Blitzcrank (~1100) ha piu range del cast della E (1075). Fanno engage per primi su di te, rimuovendo il tuo tool di engage e lasciandoti melee in Spider form senza escape.",
         "via": "counterpick"
       },
       {
@@ -2088,6 +2188,26 @@
       },
       {
         "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile ranged carries with no dash",
+        "reason": "E cocoon from a bush catches them flat-footed. Once stunned, a level 3 W (slow) plus Q (anti-HP) plus the ADC's burst kills before Flash can answer.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Carry ranged immobili senza dash",
+        "reason": "Cocoon lanciato da un bush li prende piatti. Una volta stunnati, al livello 3 W (slow) + Q (anti-HP) + il burst dell'ADC chiude la kill prima che Flash possa rispondere.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "ezreal",
           "role": "bot",
           "lang": "en"
@@ -2430,6 +2550,26 @@
       },
       {
         "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Mobile melee divers (jump on you fast)",
+        "reason": "Q knocks them up mid-dash, breaking their combo. W silences right after, blocking the second dash. R then executes them once they retreat low — they cannot all-in (full-commitment fight) without Flash and a clean read.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Diver melee mobili (ti saltano addosso veloci)",
+        "reason": "Q li knockuppa a metà dash spezzando la combo. W silenzia subito dopo, bloccando il secondo dash. R li esegue quando si ritirano low — non possono all-inarti (committarsi nel fight) senza Flash e una read pulita.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "darius",
           "role": "top",
           "lang": "en"
@@ -2733,6 +2873,28 @@
         "via": "pick_into"
       }
     ],
+    "chogath": [
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Late-scaling tanks",
+        "reason": "Q2 true damage and Sundered Sky burst chunk huge HP pools. R prevents them from running back to their team for peel during a side-lane fight.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Tank scaling tardivi",
+        "reason": "Il true damage di Q2 e il burst di Sundered Sky chunkano enormi pool HP. La R impedisce di tornare verso il loro team per il peel durante uno scontro in side lane.",
+        "via": "pick_into"
+      }
+    ],
     "darius": [
       {
         "publisher": {
@@ -2752,6 +2914,46 @@
         },
         "archetype": "Bruiser melee immobili senza dash",
         "reason": "I suoi passive dash dopo ogni ability cast le permettono di entrare e uscire dai windup telegrafati (presa di Darius, silenzio di Garen, E di Illaoi). La suppression della R bypassa la loro tankiness per la kill.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile melee bruisers",
+        "reason": "E + R lock them in melee range with no answer. Q resets and W slow let Camille kite (move backward while attacking) inside the R ring while their stacks or kit timers expire.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee immobili",
+        "reason": "E + R li chiudono in melee senza risposta. I Q reset e lo slow della W permettono a Camille di kitare (muoversi indietro mentre attacca) dentro la R aspettando che i loro stack o cooldown svaniscano.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Slow-windup melee bruisers (HP+damage fighters)",
+        "reason": "Q knockup interrupts their commit animations (Darius pull, Garen E spin, Sett W cast). Carnivore plus Riftmaker's omnivamp (lifesteal-like sustain on every cast) out-trades them; at Feast threshold, R deletes them at 30% HP.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee a windup lento (HP+danno corpo a corpo)",
+        "reason": "Il knock-up di Q interrompe le animazioni di commit (pull di Darius, E spin di Garen, cast W di Sett). Carnivore più l'omnivamp di Riftmaker (cura simile al lifesteal su ogni cast) batte i loro trade; a soglia Feast, R li elimina al 30% HP.",
         "via": "pick_into"
       },
       {
@@ -3019,6 +3221,46 @@
         "archetype": "ADC di lethality-burst early-game",
         "reason": "Out-tradano Corki nei primi 6 livelli e snowballano sulle kill di lane. Corki non li può duellare prima di Trinity, e ogni W usata aggressiva viene punita dai loro pattern di dash-reset.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Aggressive ADCs that overextend for kills",
+        "reason": "Their forward positioning hands you cocoon angles. A level 3 gank on a pushed lane (a wave shoved past river) usually nets a kill once W slow plus E stun chain into your support's crowd control.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "ADC aggressivi che si overextenono per le kill",
+        "reason": "Il loro positioning forward ti regala angoli di cocoon. Un gank al livello 3 su una lane spinta (wave spinta oltre il river) di solito chiude la kill quando W slow + E stun si concatenano col CC del tuo support.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Aggressive carries that step forward for kills",
+        "reason": "Their kill pressure forces them past wave equilibrium (the safe lane line). Cocoon punishes the step forward, Aftershock turns their all-in (full commit trade) around.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Carry aggressivi che si espongono per le kill",
+        "reason": "La loro pressione di kill li forza oltre l'equilibrio della wave (la safe lane line). Cocoon punisce lo step in avanti, Aftershock gira l'all-in (trade di commit totale) a tuo favore.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -3342,6 +3584,26 @@
         },
         "archetype": "Jungler dipendenti da channel o stealth",
         "reason": "Brand interrompe il fear/ult channel di Fiddlesticks con lo stun Q sul blaze e rivela la posizione pre-channel di Eve con i prefire di W; entrambi dipendono da setup lunghi che Brand spezza con una sola rotation.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Burst assassin junglers",
+        "reason": "Their entire damage profile is one combo on a squishy. Mundo's passive eats the opener CC, R heals back a percent of missing HP, and his W refunds part of the burst. They blow cooldowns and Mundo walks away near full while marking their carry for follow-up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler assassini burst",
+        "reason": "Il loro intero damage profile e' una combo su uno squishy. Il passive di Mundo mangia il CC opener, R heala una percentuale degli HP mancanti, e W refunda parte del burst. Bruciano i cooldown e Mundo se ne va quasi full marcando il loro carry per il follow-up.",
         "via": "pick_into"
       },
       {
@@ -3672,6 +3934,26 @@
       },
       {
         "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Mobile melee duelists with continuous damage",
+        "reason": "Fiora parries (blocks) W silence, Jax E dodges Q knockup, Tryndamere ignores R as long as he ults first. Their continuous damage out-trades Cho's slow Q windup; you reach Feast scaling too late to matter.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Duellanti melee mobili con danno continuo",
+        "reason": "Fiora parry (blocca) la W silence, Jax E schiva la Q knock-up, Tryndamere ignora la R finché ulta prima. Il loro danno continuo out-trada il windup lento della Q; arrivi a scalare Feast troppo tardi per contare.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "darius",
           "role": "top",
           "lang": "en"
@@ -3688,6 +3970,46 @@
         },
         "archetype": "Duellanti a true damage con parry o scudo",
         "reason": "La W di Fiora fa parry sul knock-up del kit e i suoi Vitals (marker piccoli che lei colpisce con auto a true damage — danno che ignora armor e MR) ignorano la build HP; la R di Camille isola Darius dal team e lo batte nei fight prolungati.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "True-damage skirmishers",
+        "reason": "Fiora's Vitals, Vayne's W, and Kayle's late-game R all deal true damage (damage that ignores armor and magic resist — there is no defensive stat that reduces it). HP stacking does nothing against true damage; the entire build collapses.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Skirmisher a true damage",
+        "reason": "I Vital di Fiora, la W di Vayne e la R late-game di Kayle fanno true damage (danno che ignora armor e magic resist — non c'e' statistica difensiva che lo riduca). Stackare HP non serve a niente contro il true damage; l'intera build collassa.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "True-damage duelists",
+        "reason": "Fiora's Vitals deal true damage (damage that ignores armor and magic resist — there is no defensive stat that reduces it). HP stacking does nothing against true damage; she shreds him in a single duel even at full build.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Duellanti true-damage",
+        "reason": "I Vital di Fiora fanno true damage (danno che ignora armor e magic resist — non c'e' statistica difensiva che lo riduca). Stackare HP non serve a niente contro il true damage; lo shredda in un singolo duello anche full build.",
         "via": "counterpick"
       },
       {
@@ -4176,6 +4498,26 @@
       },
       {
         "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Global / cross-map roamers",
+        "reason": "Cassiopeia is anchored to mid lane (no fast roam). Opponents use ult to tip side lanes and dragons; she wins her 1v1 but loses the macro game (objective trades happening on the map).",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Roamer global / cross-map",
+        "reason": "Cassiopeia e' incollata alla mid lane (no roam veloce). L'avversario usa la R per ribaltare side lane e dragon; lei vince l'1v1 ma perde la macro (gli scambi di obiettivo che succedono altrove sulla mappa).",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "ekko",
           "role": "jungle",
           "lang": "en"
@@ -4320,6 +4662,46 @@
       },
       {
         "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile melee bruisers",
+        "reason": "E + R lock them in melee range with no answer. Q resets and W slow let Camille kite (move backward while attacking) inside the R ring while their stacks or kit timers expire.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee immobili",
+        "reason": "E + R li chiudono in melee senza risposta. I Q reset e lo slow della W permettono a Camille di kitare (muoversi indietro mentre attacca) dentro la R aspettando che i loro stack o cooldown svaniscano.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Slow-windup melee bruisers (HP+damage fighters)",
+        "reason": "Q knockup interrupts their commit animations (Darius pull, Garen E spin, Sett W cast). Carnivore plus Riftmaker's omnivamp (lifesteal-like sustain on every cast) out-trades them; at Feast threshold, R deletes them at 30% HP.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee a windup lento (HP+danno corpo a corpo)",
+        "reason": "Il knock-up di Q interrompe le animazioni di commit (pull di Darius, E spin di Garen, cast W di Sett). Carnivore più l'omnivamp di Riftmaker (cura simile al lifesteal su ogni cast) batte i loro trade; a soglia Feast, R li elimina al 30% HP.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "darius",
           "role": "top",
           "lang": "en"
@@ -4337,6 +4719,26 @@
         "archetype": "Bruiser melee a corto raggio senza un disengage forte",
         "reason": "Darius vince i trade prolungati perché ogni auto e Q applica una stack di bleed: quando l'avversario vorrebbe disimpegnarsi, la finestra di enrage a 5 stack ha già ribaltato lo scambio a suo favore.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "CC-immune divers (cleanse passives or ult immunity)",
+        "reason": "Olaf R and Garen Q break stun chains and ignore your only setup. Once cocoon stops landing, Elise's all-in (full commitment trade) collapses and she gets dueled down without an escape.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Diver immuni al CC (passive cleanse o ult immunity)",
+        "reason": "La R di Olaf e la Q di Garen rompono le catene di stun e ignorano il tuo unico setup. Quando il cocoon smette di atterrare, l'all-in di Elise (commit totale nel trade) crolla e finisce duellata a morte senza escape.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -4458,6 +4860,46 @@
         },
         "archetype": "Poker e kiter a lungo raggio",
         "reason": "E di Jayce (knockback) e mega R di Gnar interrompono il dash a metà cast. I kiter restano fuori dal suo threat range, costringendola a impegnare i dash da troppo lontano e poi punirla con le ability in cooldown.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged tops with kite tools",
+        "reason": "They poke (chip damage at distance) without committing while Camille has no ranged answer. E needs a wall they can simply walk away from.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged con tool di kite",
+        "reason": "Pokano (danno chirurgico a distanza) senza committare mentre Camille non ha risposta a range. La E cerca un muro che loro possono semplicemente abbandonare camminando.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Late-game scalers (weak early, monsters by minute 30)",
+        "reason": "Gnar's mini form attacks Q from outside its range, Kayle ramps to true-damage autos that delete you in teamfights. Both win the long game even if Cho stacks Feast — they out-damage your HP pool by minute 30.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Late-game scaler (deboli all'inizio, mostri al 30°)",
+        "reason": "Gnar in mini form attacca la Q da fuori range, Kayle ramp-a a auto in true damage che ti cancellano nei teamfight. Entrambi vincono il long game anche se Cho stacka Feast — out-damagiano la tua HP pool entro il minuto 30.",
         "via": "counterpick"
       },
       {
@@ -4834,6 +5276,46 @@
       }
     ],
     "irelia": [
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Dash-reliant mid laners",
+        "reason": "Miasma grounds them inside the cloud: the moment they step in, every dash, blink, or movement ability is locked out. Their kits collapse against a champion who deletes their main escape tool.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mid laner basati su dash",
+        "reason": "Miasma li blocca dentro la nuvola (ground): nel momento in cui ci entrano, dash, blink e ability di movimento sono disattivate. Il kit collassa contro un campione che cancella la mobilita'.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Mobile melee divers (jump on you fast)",
+        "reason": "Q knocks them up mid-dash, breaking their combo. W silences right after, blocking the second dash. R then executes them once they retreat low — they cannot all-in (full-commitment fight) without Flash and a clean read.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Diver melee mobili (ti saltano addosso veloci)",
+        "reason": "Q li knockuppa a metà dash spezzando la combo. W silenzia subito dopo, bloccando il secondo dash. R li esegue quando si ritirano low — non possono all-inarti (committarsi nel fight) senza Flash e una read pulita.",
+        "via": "pick_into"
+      },
       {
         "publisher": {
           "champion": "fiora",
@@ -5220,6 +5702,26 @@
       }
     ],
     "jax": [
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Mobile melee duelists with continuous damage",
+        "reason": "Fiora parries (blocks) W silence, Jax E dodges Q knockup, Tryndamere ignores R as long as he ults first. Their continuous damage out-trades Cho's slow Q windup; you reach Feast scaling too late to matter.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Duellanti melee mobili con danno continuo",
+        "reason": "Fiora parry (blocca) la W silence, Jax E schiva la Q knock-up, Tryndamere ignora la R finché ulta prima. Il loro danno continuo out-trada il windup lento della Q; arrivi a scalare Feast troppo tardi per contare.",
+        "via": "counterpick"
+      },
       {
         "publisher": {
           "champion": "fiora",
@@ -5974,6 +6476,26 @@
       },
       {
         "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Aggressive ADCs that overextend for kills",
+        "reason": "Their forward positioning hands you cocoon angles. A level 3 gank on a pushed lane (a wave shoved past river) usually nets a kill once W slow plus E stun chain into your support's crowd control.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "ADC aggressivi che si overextenono per le kill",
+        "reason": "Il loro positioning forward ti regala angoli di cocoon. Un gank al livello 3 su una lane spinta (wave spinta oltre il river) di solito chiude la kill quando W slow + E stun si concatenano col CC del tuo support.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "ezreal",
           "role": "bot",
           "lang": "en"
@@ -6212,6 +6734,26 @@
         },
         "archetype": "Enchanter support che heal-tradano in lane",
         "reason": "Il danno della Q di Draven impila troppo in fretta per le lane di poke-and-heal. Due asce catturate di fila sfondano un ciclo di cure di Soraka, e il suo snowball converte ogni kill in 200+ oro di vantaggio.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Squishy enchanter supports without tenacity",
+        "reason": "Long cocoon stun ignores their utility kit. They have no Flash-like escape, and Liandry's Torment burn (damage spread over a few seconds) punishes their shields and heals.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter support squishy senza tenacity",
+        "reason": "Lo stun lungo del cocoon ignora il loro kit di utility. Non hanno escape tipo Flash, e il burn di Liandry's Torment (danno spalmato in pochi secondi) punisce shield e heal.",
         "via": "pick_into"
       },
       {
@@ -6458,6 +7000,26 @@
       },
       {
         "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages with no escape",
+        "reason": "Cassiopeia out-trades anyone who has to stand still to cast: E (0.75s cooldown) deals more damage on poisoned targets than their full rotations, and they can't dodge the W zone you drop on top of them.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza escape",
+        "reason": "Cassiopeia vince gli scambi prolungati contro chi deve restare fermo per castare: la E (cooldown 0.75s) fa piu' danno sui target avvelenati delle loro rotation complete, e non possono schivare la W sopra di loro.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "corki",
           "role": "mid",
           "lang": "en"
@@ -6478,6 +7040,26 @@
       },
       {
         "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "AP poke and kite junglers without hard engage",
+        "reason": "Force of Nature plus Spirit Visage stacks Magic Resist that grows as they poke. Mundo's R Move Speed plus Q's percent-current-HP slow eventually closes the gap and a single E hit collapses their HP because they have no defensive items.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler AP da poke e kite senza hard engage",
+        "reason": "Force of Nature + Spirit Visage stackano Magic Resist che cresce mentre pokano. La Move Speed di R + lo slow percent-current-HP di Q alla fine chiudono il gap e una sola E collassa i loro HP perche' non hanno item difensivi.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "ekko",
           "role": "jungle",
           "lang": "en"
@@ -6494,6 +7076,26 @@
         },
         "archetype": "Junglers ranged squishy senza CC point-and-click",
         "reason": "Il setup W + E di Ekko chiude il gap prima che finiscano una rotazione di kite; il reset con R rende l'all-in sicuro anche se la loro squadra ruota in aiuto.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Squishy laners without dash or stealth",
+        "reason": "E cocoon at levels 3-4 lands on flat targets without escape. Rappel (Spider E) confirms the dive even when they use Flash, since you are untargetable mid-cast.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Laner squishy senza dash o stealth",
+        "reason": "E cocoon ai livelli 3-4 atterra sui bersagli piatti senza escape. Rappel (Spider E) chiude il dive anche se usano Flash, perche sei intargetabile mid-cast.",
         "via": "pick_into"
       },
       {
@@ -6799,6 +7401,26 @@
         "archetype": "Burst melee con tell visivo",
         "reason": "Annie precarica Pyromania durante il waveclear: nel momento in cui fanno il commit alla gap-close, lo stun di Flash + R interrompe il loro combo prima che il danno parta.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Assassins relying on a single burst window",
+        "reason": "Their entire damage profile is one combo. Mundo's passive eats their first hard CC, his R heals back a percent of missing HP instantly, and his W refunds part of the damage they deal during the burst — they spend cooldowns and Mundo walks away near full.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Assassini con un'unica burst window",
+        "reason": "Il loro intero damage profile e' una combo. Il passive di Mundo mangia il loro primo hard CC, la R heala una percentuale degli HP mancanti istantaneamente, e la W refunda parte del danno subito durante il burst — bruciano i cooldown e Mundo se ne va quasi full HP.",
+        "via": "pick_into"
       }
     ],
     "kayle": [
@@ -6844,6 +7466,26 @@
       },
       {
         "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Late-game scalers (weak early, monsters by minute 30)",
+        "reason": "Gnar's mini form attacks Q from outside its range, Kayle ramps to true-damage autos that delete you in teamfights. Both win the long game even if Cho stacks Feast — they out-damage your HP pool by minute 30.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Late-game scaler (deboli all'inizio, mostri al 30°)",
+        "reason": "Gnar in mini form attacca la Q da fuori range, Kayle ramp-a a auto in true damage che ti cancellano nei teamfight. Entrambi vincono il long game anche se Cho stacka Feast — out-damagiano la tua HP pool entro il minuto 30.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "darius",
           "role": "top",
           "lang": "en"
@@ -6861,6 +7503,26 @@
         "archetype": "Melee scaling late con lane early debole",
         "reason": "I primi 6 livelli sono passivi — Darius può fare E + W per spingerli fuori dalla wave più volte, uccidendoli prima che arrivino agli item che li rendono pericolosi.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "True-damage skirmishers",
+        "reason": "Fiora's Vitals, Vayne's W, and Kayle's late-game R all deal true damage (damage that ignores armor and magic resist — there is no defensive stat that reduces it). HP stacking does nothing against true damage; the entire build collapses.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Skirmisher a true damage",
+        "reason": "I Vital di Fiora, la W di Vayne e la R late-game di Kayle fanno true damage (danno che ignora armor e magic resist — non c'e' statistica difensiva che lo riduca). Stackare HP non serve a niente contro il true damage; l'intera build collassa.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -6904,6 +7566,26 @@
       }
     ],
     "kayn": [
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Junglers with a weak pre-level 6 form",
+        "reason": "Master Yi cannot duel before level 6, Kayn is form-locked until his quest finishes, Shyvana lacks reliable crowd control. Elise gets free Scuttle Crab and counter-jungles them into a gold deficit.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler con una pre-level 6 form debole",
+        "reason": "Master Yi non duella prima del 6, Kayn e form-locked finche non finisce la quest, Shyvana non ha CC affidabile. Elise prende Scuttle Crab gratis e li counter-jungla mettendoli in deficit di gold.",
+        "via": "pick_into"
+      },
       {
         "publisher": {
           "champion": "lulu",
@@ -7024,6 +7706,26 @@
         },
         "archetype": "CC AOE con root multipli",
         "reason": "Concatenano CC su Briar in mezzo alla Frenzy, e l'unica fuga è la E per cancellare la propria W — ma la E è un channel lungo, quindi le rimettono CC prima che la cura completi. La R la spinge nella posizione peggiore possibile.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged tops with poke and disengage (escape tools)",
+        "reason": "They stand beyond Q's 950 range, walk back when you step up, and chip you to half HP before level 6. You have no dash to close and no sustain beyond Carnivore, so you lose lane priority (control of the wave) every cycle.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged con poke e disengage (strumenti per scappare)",
+        "reason": "Stanno oltre i 950 di Q, indietreggiano quando ti avvicini, e ti chunkano a metà HP prima del 6. Niente dash per chiudere, niente sustain oltre Carnivore, quindi perdi prio in lane (controllo della wave) ogni ciclo.",
         "via": "counterpick"
       },
       {
@@ -7206,6 +7908,26 @@
         },
         "archetype": "Squishy carry junglers without hard CC",
         "reason": "Diana vince i duelli prolungati nella loro jungle: Pale Cascade scherma una rotazione di danno, poi Lunar Rush si resetta sul Q mark per un re-engage che non possono kitare.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Burst assassin junglers",
+        "reason": "Their entire damage profile is one combo on a squishy. Mundo's passive eats the opener CC, R heals back a percent of missing HP, and his W refunds part of the burst. They blow cooldowns and Mundo walks away near full while marking their carry for follow-up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler assassini burst",
+        "reason": "Il loro intero damage profile e' una combo su uno squishy. Il passive di Mundo mangia il CC opener, R heala una percentuale degli HP mancanti, e W refunda parte del burst. Bruciano i cooldown e Mundo se ne va quasi full marcando il loro carry per il follow-up.",
         "via": "pick_into"
       },
       {
@@ -7758,6 +8480,26 @@
       },
       {
         "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Strong early-game duelists with gap-closers",
+        "reason": "They beat Elise in a one-on-one fight at level 3 if she runs out of cocoon mana or mistimes Rappel. Avoid invading their river: their dashes eat your only escape.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Duellanti early-game forti con gap-closer",
+        "reason": "Battono Elise nell'1v1 al livello 3 se finisce il mana di cocoon o sbaglia il timing di Rappel. Evita di invadere il loro river: i loro dash mangiano la tua unica escape.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "hecarim",
           "role": "jungle",
           "lang": "en"
@@ -7956,6 +8698,26 @@
         },
         "archetype": "Support da hard-engage con CC",
         "reason": "Draven non ha dash né immunità. Una catena di CC al livello 2 lo elimina mentre le sue asce rimbalzano inutili nella lane. Pre-6 non può letteralmente reagire.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Tanky engage supports with point-and-click CC",
+        "reason": "Their engage is targeted (no skillshot to dodge). They will stick onto your ADC longer than you can hold them, and your magic damage does not kill them through their armor.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support engage tanky con CC point-and-click",
+        "reason": "Il loro engage e a bersaglio (niente skillshot da schivare). Restano attaccati al tuo ADC piu a lungo di quanto tu li possa tenere, e il tuo magic damage non li uccide attraverso l'armor.",
         "via": "counterpick"
       },
       {
@@ -8222,6 +8984,26 @@
     "lillia": [
       {
         "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "AP poke and kite junglers without hard engage",
+        "reason": "Force of Nature plus Spirit Visage stacks Magic Resist that grows as they poke. Mundo's R Move Speed plus Q's percent-current-HP slow eventually closes the gap and a single E hit collapses their HP because they have no defensive items.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler AP da poke e kite senza hard engage",
+        "reason": "Force of Nature + Spirit Visage stackano Magic Resist che cresce mentre pokano. La Move Speed di R + lo slow percent-current-HP di Q alla fine chiudono il gap e una sola E collassa i loro HP perche' non hanno item difensivi.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "hecarim",
           "role": "jungle",
           "lang": "en"
@@ -8340,6 +9122,26 @@
         },
         "archetype": "CC AOE con root multipli",
         "reason": "Concatenano CC su Briar in mezzo alla Frenzy, e l'unica fuga è la E per cancellare la propria W — ma la E è un channel lungo, quindi le rimettono CC prima che la cura completi. La R la spinge nella posizione peggiore possibile.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Burst mages with chain-lock CC",
+        "reason": "They lock Cassiopeia in place before her W grounds them, then full combo her down. Lissandra R is point-and-click — Banshee's Veil helps but doesn't save you from a 6-second stun chain with jungle follow-up.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage burst con CC chain-lock",
+        "reason": "Bloccano Cassiopeia con il CC prima che la W li metta in ground, poi le scaricano la full combo. La R di Lissandra e' point-and-click — Banshee's Veil aiuta ma non salva da una catena di stun da 6 secondi col jungler dietro.",
         "via": "counterpick"
       },
       {
@@ -8668,6 +9470,26 @@
       },
       {
         "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Squishy enchanter supports without tenacity",
+        "reason": "Long cocoon stun ignores their utility kit. They have no Flash-like escape, and Liandry's Torment burn (damage spread over a few seconds) punishes their shields and heals.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter support squishy senza tenacity",
+        "reason": "Lo stun lungo del cocoon ignora il loro kit di utility. Non hanno escape tipo Flash, e il burn di Liandry's Torment (danno spalmato in pochi secondi) punisce shield e heal.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kayn",
           "role": "jungle",
           "lang": "en"
@@ -8930,6 +9752,46 @@
       },
       {
         "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "They poke past Cassiopeia's 850 Q range. With no dash she can't close distance, so every wave bleeds her HP. Her power curve needs lane farm she can't safely take.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage artillery a lungo raggio",
+        "reason": "Pokano (chip damage) oltre il range Q di 850 di Cassiopeia. Senza dash non puo' chiudere la distanza, quindi ogni wave la sanguina. La sua curva di power richiede farm in lane che non puo' prendere in sicurezza.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Squishy laners without dash or stealth",
+        "reason": "E cocoon at levels 3-4 lands on flat targets without escape. Rappel (Spider E) confirms the dive even when they use Flash, since you are untargetable mid-cast.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Laner squishy senza dash o stealth",
+        "reason": "E cocoon ai livelli 3-4 atterra sui bersagli piatti senza escape. Rappel (Spider E) chiude il dive anche se usano Flash, perche sei intargetabile mid-cast.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -9129,6 +9991,26 @@
         "archetype": "Tank da group-engage",
         "reason": "Quando la loro R prende la tua squadra, la stessa R prende anche la loro squadra accanto alla tua — la R di Brand rimbalza tra ogni campione raggruppato e trasforma il loro engage nella tua condizione di vittoria.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Hard-CC frontline tanks",
+        "reason": "Their crowd control interrupts E mid-flight, the W charge, and the R lock-on dash. Camille loses every all-in (full commit fight to the kill) where the stun lands first.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Tank frontline con hard CC",
+        "reason": "Il loro crowd control interrompe la E in volo, il caricamento della W e il dash di lock-on della R. Camille perde ogni all-in (commit totale fino alla kill) in cui lo stun atterra prima.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -9576,6 +10458,26 @@
       },
       {
         "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Hard-CC frontline tanks",
+        "reason": "Their crowd control interrupts E mid-flight, the W charge, and the R lock-on dash. Camille loses every all-in (full commit fight to the kill) where the stun lands first.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Tank frontline con hard CC",
+        "reason": "Il loro crowd control interrompe la E in volo, il caricamento della W e il dash di lock-on della R. Camille perde ogni all-in (commit totale fino alla kill) in cui lo stun atterra prima.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "ekko",
           "role": "jungle",
           "lang": "en"
@@ -9592,6 +10494,26 @@
         },
         "archetype": "Junglers/laners con MR alta early",
         "reason": "I campioni che stackano MR presto (Galio, certe build di Maokai) smussano il mid-game spike di Ekko: quando il combo Lich Bane scheggia invece di one-shottare, lo snowball plan si ferma.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Tanky engagers with hard CC counter-engage",
+        "reason": "Their AOE crowd control catches Elise during Rappel descent or after she commits to a dive. Once they hit two items, your magic burst stops melting them and you cannot disengage out of Spider form.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Engage tanky con counter-engage hard CC",
+        "reason": "Il loro CC AOE prende Elise durante la discesa di Rappel o dopo che fa commit al dive. Una volta a 2 item, il tuo magic burst smette di scioglierli e tu non hai disengage in Spider form.",
         "via": "counterpick"
       },
       {
@@ -9674,6 +10596,26 @@
         },
         "archetype": "Skirmisher scaling con early debole",
         "reason": "I gank pre-6 al livello 3 con W + E + Q li prendono mentre farmano camp; una sola kill costruisce il gold lead per assassinare i carry entro il minuto 14.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Junglers with a weak pre-level 6 form",
+        "reason": "Master Yi cannot duel before level 6, Kayn is form-locked until his quest finishes, Shyvana lacks reliable crowd control. Elise gets free Scuttle Crab and counter-jungles them into a gold deficit.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler con una pre-level 6 form debole",
+        "reason": "Master Yi non duella prima del 6, Kayn e form-locked finche non finisce la quest, Shyvana non ha CC affidabile. Elise prende Scuttle Crab gratis e li counter-jungla mettendoli in deficit di gold.",
         "via": "pick_into"
       }
     ],
@@ -9944,6 +10886,26 @@
       },
       {
         "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Short-range bruisers without ranged poke",
+        "reason": "Mundo Q is a 975-range slow that costs HP, not mana, so he can chip them every wave from outside their auto-attack range. They have to walk into him to deal damage, and his W aura plus Spirit Visage healing wins every extended trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee senza poke ranged",
+        "reason": "La Q di Mundo e' uno slow da 975 di range che costa HP, non mana, quindi puo' chippare ogni wave da fuori auto-attack range nemico. Devono camminare addosso a lui per fare danno, e l'aura W + healing di Spirit Visage vincono ogni trade esteso.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "nasus",
           "role": "top",
           "lang": "en"
@@ -10042,6 +11004,26 @@
         },
         "archetype": "Support da lockdown / pick",
         "reason": "Un solo hook di Thresh o Q di Morgana blocca Draven a metà axe-catch. Senza catch, i reset di Q saltano, la velocità di W decade, e diventa un ADC fermo senza escape.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Spell shields that block cocoon",
+        "reason": "A single Spell Shield charge eats your stun completely. Without cocoon you have no setup, and your team's follow-up engage stalls until the cooldown returns.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Spell shield che blocca cocoon",
+        "reason": "Una sola carica di spell shield mangia tutto il tuo stun. Senza cocoon non hai setup, e il follow-up del team si blocca finche non torna il cooldown.",
         "via": "counterpick"
       },
       {
@@ -10268,6 +11250,26 @@
         },
         "archetype": "Scaler late-game che hanno bisogno di livelli o stack",
         "reason": "La sua dominance early livello 2-6 li domina prima del loro power spike (stack della Q di Nasus, livelli 11 e 16 di Kayle). Forza le kill presto per negargli il lategame che gli serve.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile melee bruisers",
+        "reason": "E + R lock them in melee range with no answer. Q resets and W slow let Camille kite (move backward while attacking) inside the R ring while their stacks or kit timers expire.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee immobili",
+        "reason": "E + R li chiudono in melee senza risposta. I Q reset e lo slow della W permettono a Camille di kitare (muoversi indietro mentre attacca) dentro la R aspettando che i loro stack o cooldown svaniscano.",
         "via": "pick_into"
       },
       {
@@ -10530,6 +11532,26 @@
         },
         "archetype": "Support da hard-engage con CC",
         "reason": "Draven non ha dash né immunità. Una catena di CC al livello 2 lo elimina mentre le sue asce rimbalzano inutili nella lane. Pre-6 non può letteralmente reagire.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Tanky engage supports with point-and-click CC",
+        "reason": "Their engage is targeted (no skillshot to dodge). They will stick onto your ADC longer than you can hold them, and your magic damage does not kill them through their armor.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support engage tanky con CC point-and-click",
+        "reason": "Il loro engage e a bersaglio (niente skillshot da schivare). Restano attaccati al tuo ADC piu a lungo di quanto tu li possa tenere, e il tuo magic damage non li uccide attraverso l'armor.",
         "via": "counterpick"
       },
       {
@@ -10876,6 +11898,26 @@
       },
       {
         "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Long-range sustained poke comps",
+        "reason": "They sit beyond Q's 975 range and chip Mundo's HP every wave. Mundo has no dash and one Move Speed burst on R; he walks into their damage just to threaten engage and bleeds 30% HP per rotation without ever closing.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Comp di poke sostenuto a lungo raggio",
+        "reason": "Stanno oltre la 975 di Q e chippano gli HP di Mundo ogni wave. Mundo non ha dash e una sola burst di Move Speed su R; cammina dentro il loro danno solo per minacciare engage e perde 30% HP per rotation senza mai chiudere.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "ekko",
           "role": "jungle",
           "lang": "en"
@@ -11056,6 +12098,46 @@
         },
         "archetype": "Sustained-damage bruisers with cleanse or unstoppable",
         "reason": "Camminano dentro Moonfall (R di Olaf cleansa la CC, R di Udyr bypassa la pull) e fanno più DPS di Diana una volta scaduto lo scudo: lei non ha una seconda escape.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Anti-tank junglers",
+        "reason": "Trundle R steals Armor, MR and Move Speed for 8 seconds; Olaf's E applies Grievous Wounds and his ult makes him CC-immune so the passive does nothing. Both are designed specifically to neutralize tank stats.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler anti-tank",
+        "reason": "La R di Trundle ruba Armor, MR e Move Speed per 8 secondi; la E di Olaf applica Grievous Wounds e la sua ulti lo rende CC-immune quindi il passive non scatta. Entrambi sono progettati apposta per neutralizzare le statistiche tank.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "CC-immune divers (cleanse passives or ult immunity)",
+        "reason": "Olaf R and Garen Q break stun chains and ignore your only setup. Once cocoon stops landing, Elise's all-in (full commitment trade) collapses and she gets dueled down without an escape.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Diver immuni al CC (passive cleanse o ult immunity)",
+        "reason": "La R di Olaf e la Q di Garen rompono le catene di stun e ignorano il tuo unico setup. Quando il cocoon smette di atterrare, l'all-in di Elise (commit totale nel trade) crolla e finisce duellata a morte senza escape.",
         "via": "counterpick"
       },
       {
@@ -11306,6 +12388,26 @@
       },
       {
         "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Strong early melee all-ins",
+        "reason": "They burst (front-load damage in 1-2 seconds) faster than Camille can set up E + W and outscale her trade pattern before level 3.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Melee con all-in early forte",
+        "reason": "Burstano (concentrano danno in 1-2 secondi) più veloce di quanto Camille setupi E + W e battono il suo trade pattern prima del livello 3.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -11388,6 +12490,26 @@
       },
       {
         "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Hard-CC frontline tanks",
+        "reason": "Their crowd control interrupts E mid-flight, the W charge, and the R lock-on dash. Camille loses every all-in (full commit fight to the kill) where the stun lands first.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Tank frontline con hard CC",
+        "reason": "Il loro crowd control interrompe la E in volo, il caricamento della W e il dash di lock-on della R. Camille perde ogni all-in (commit totale fino alla kill) in cui lo stun atterra prima.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "fiora",
           "role": "top",
           "lang": "en"
@@ -11466,6 +12588,26 @@
         },
         "archetype": "Hooker a lunga gittata",
         "reason": "L'hook (range 1100-1150) ti raggiunge prima che la tua linea di Q sia pulita. Senza dash, dopo un hook la lane gioca 1v2 per 30 secondi.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hook supports who outrange cocoon",
+        "reason": "Blitzcrank's hook range (~1100) outdistances E cast range (1075). They engage on you first, removing your engage tool and leaving you melee in Spider form with no escape.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support hook che hanno piu range di cocoon",
+        "reason": "L'hook di Blitzcrank (~1100) ha piu range del cast della E (1075). Fanno engage per primi su di te, rimuovendo il tuo tool di engage e lasciandoti melee in Spider form senza escape.",
         "via": "counterpick"
       },
       {
@@ -11734,6 +12876,46 @@
       },
       {
         "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged tops with kite tools",
+        "reason": "They poke (chip damage at distance) without committing while Camille has no ranged answer. E needs a wall they can simply walk away from.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged con tool di kite",
+        "reason": "Pokano (danno chirurgico a distanza) senza committare mentre Camille non ha risposta a range. La E cerca un muro che loro possono semplicemente abbandonare camminando.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged tops with poke and disengage (escape tools)",
+        "reason": "They stand beyond Q's 950 range, walk back when you step up, and chip you to half HP before level 6. You have no dash to close and no sustain beyond Carnivore, so you lose lane priority (control of the wave) every cycle.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged con poke e disengage (strumenti per scappare)",
+        "reason": "Stanno oltre i 950 di Q, indietreggiano quando ti avvicini, e ti chunkano a metà HP prima del 6. Niente dash per chiudere, niente sustain oltre Carnivore, quindi perdi prio in lane (controllo della wave) ogni ciclo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "darius",
           "role": "top",
           "lang": "en"
@@ -11750,6 +12932,26 @@
         },
         "archetype": "Top ranged o kiter",
         "reason": "Stanno fuori dal range della E e gli rosicchiano l'HP gratis. Senza un gap-closer oltre la E (hook a corto raggio) o la R (salto one-shot), non riesce a piazzare stack e perde la prio in lane.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged tops with percent-HP or blind",
+        "reason": "Vayne's W (true damage on every third auto, ignoring all defensive stats) and Teemo's Q (a blind that cancels his auto-attacks) bypass the entire HP stack. Quinn's range plus passive blind keeps Mundo permanently outside Q range.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged con percent-HP o blind",
+        "reason": "La W di Vayne (true damage ogni terzo auto, ignora ogni statistica difensiva) e la Q di Teemo (un blind che annulla i suoi auto-attack) bypassano l'intera pila di HP. Quinn col suo range piu' il blind passive tiene Mundo sempre fuori dalla 975 di Q.",
         "via": "counterpick"
       },
       {
@@ -12058,6 +13260,26 @@
       },
       {
         "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Tanky engagers with hard CC counter-engage",
+        "reason": "Their AOE crowd control catches Elise during Rappel descent or after she commits to a dive. Once they hit two items, your magic burst stops melting them and you cannot disengage out of Spider form.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Engage tanky con counter-engage hard CC",
+        "reason": "Il loro CC AOE prende Elise durante la discesa di Rappel o dopo che fa commit al dive. Una volta a 2 item, il tuo magic burst smette di scioglierli e tu non hai disengage in Spider form.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "hecarim",
           "role": "jungle",
           "lang": "en"
@@ -12156,6 +13378,26 @@
         },
         "archetype": "Support tank da hard-engage",
         "reason": "Engaggiano fuori dal range della W di Brand con una catena flash-stun. Brand non ha peel per sé né per la carry — appena Leona stunna, il kit non ha risposte se non morire o bruciare Flash + Zhonya's insieme.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Tanky engage supports with point-and-click CC",
+        "reason": "Their engage is targeted (no skillshot to dodge). They will stick onto your ADC longer than you can hold them, and your magic damage does not kill them through their armor.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support engage tanky con CC point-and-click",
+        "reason": "Il loro engage e a bersaglio (niente skillshot da schivare). Restano attaccati al tuo ADC piu a lungo di quanto tu li possa tenere, e il tuo magic damage non li uccide attraverso l'armor.",
         "via": "counterpick"
       },
       {
@@ -12446,6 +13688,46 @@
     "renekton": [
       {
         "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Strong early melee all-ins",
+        "reason": "They burst (front-load damage in 1-2 seconds) faster than Camille can set up E + W and outscale her trade pattern before level 3.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Melee con all-in early forte",
+        "reason": "Burstano (concentrano danno in 1-2 secondi) più veloce di quanto Camille setupi E + W e battono il suo trade pattern prima del livello 3.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Melee bruisers that need to stick on you",
+        "reason": "Without a long dash, they have to walk 700 units through W and Q poison to touch you. Twin Fang sustains you back to full HP every trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee che devono starti addosso",
+        "reason": "Senza un dash lungo devono camminare 700 unita' attraverso W e Q poison per toccarti. Twin Fang ti riporta full HP a ogni trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "irelia",
           "role": "top",
           "lang": "en"
@@ -12508,6 +13790,26 @@
     "rengar": [
       {
         "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Burst assassin junglers",
+        "reason": "Their entire damage profile is one combo on a squishy. Mundo's passive eats the opener CC, R heals back a percent of missing HP, and his W refunds part of the burst. They blow cooldowns and Mundo walks away near full while marking their carry for follow-up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler assassini burst",
+        "reason": "Il loro intero damage profile e' una combo su uno squishy. Il passive di Mundo mangia il CC opener, R heala una percentuale degli HP mancanti, e W refunda parte del burst. Bruciano i cooldown e Mundo se ne va quasi full marcando il loro carry per il follow-up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lulu",
           "role": "support",
           "lang": "en"
@@ -12528,6 +13830,46 @@
       }
     ],
     "riven": [
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Strong early melee all-ins",
+        "reason": "They burst (front-load damage in 1-2 seconds) faster than Camille can set up E + W and outscale her trade pattern before level 3.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Melee con all-in early forte",
+        "reason": "Burstano (concentrano danno in 1-2 secondi) più veloce di quanto Camille setupi E + W e battono il suo trade pattern prima del livello 3.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Mobile melee divers (jump on you fast)",
+        "reason": "Q knocks them up mid-dash, breaking their combo. W silences right after, blocking the second dash. R then executes them once they retreat low — they cannot all-in (full-commitment fight) without Flash and a clean read.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Diver melee mobili (ti saltano addosso veloci)",
+        "reason": "Q li knockuppa a metà dash spezzando la combo. W silenzia subito dopo, bloccando il secondo dash. R li esegue quando si ritirano low — non possono all-inarti (committarsi nel fight) senza Flash e una read pulita.",
+        "via": "pick_into"
+      },
       {
         "publisher": {
           "champion": "malphite",
@@ -12570,6 +13912,46 @@
       }
     ],
     "rumble": [
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Squishy mages played top",
+        "reason": "Once R lands they cannot pool, dash, or run out of the arena. Q2 true damage chunks them past their shield and heal sustain.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Mage squishy giocati top",
+        "reason": "Una volta dentro la R non possono pool, dashare o uscire dall'arena. Il true damage di Q2 li spella oltre lo shield e l'heal sustain.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Melee mages without hard CC (stuns/roots)",
+        "reason": "They have no instant lockdown to interrupt your Q windup. You out-range their poke from safe distance, and W silence shuts down their ability-reliant kits during all-in.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Mage melee senza hard CC (stun/root)",
+        "reason": "Non hanno lockdown istantaneo per interrompere la Q. Tu li outrangi sul poke da distanza sicura, e il silence di W spegne i loro kit ability-reliant durante l'all-in.",
+        "via": "pick_into"
+      },
       {
         "publisher": {
           "champion": "jax",
@@ -12654,6 +14036,26 @@
       },
       {
         "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Global / cross-map roamers",
+        "reason": "Cassiopeia is anchored to mid lane (no fast roam). Opponents use ult to tip side lanes and dragons; she wins her 1v1 but loses the macro game (objective trades happening on the map).",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Roamer global / cross-map",
+        "reason": "Cassiopeia e' incollata alla mid lane (no roam veloce). L'avversario usa la R per ribaltare side lane e dragon; lei vince l'1v1 ma perde la macro (gli scambi di obiettivo che succedono altrove sulla mappa).",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "irelia",
           "role": "top",
           "lang": "en"
@@ -12733,6 +14135,46 @@
         "archetype": "ADC di lethality-burst early-game",
         "reason": "Out-tradano Corki nei primi 6 livelli e snowballano sulle kill di lane. Corki non li può duellare prima di Trinity, e ogni W usata aggressiva viene punita dai loro pattern di dash-reset.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Aggressive ADCs that overextend for kills",
+        "reason": "Their forward positioning hands you cocoon angles. A level 3 gank on a pushed lane (a wave shoved past river) usually nets a kill once W slow plus E stun chain into your support's crowd control.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "ADC aggressivi che si overextenono per le kill",
+        "reason": "Il loro positioning forward ti regala angoli di cocoon. Un gank al livello 3 su una lane spinta (wave spinta oltre il river) di solito chiude la kill quando W slow + E stun si concatenano col CC del tuo support.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Aggressive carries that step forward for kills",
+        "reason": "Their kill pressure forces them past wave equilibrium (the safe lane line). Cocoon punishes the step forward, Aftershock turns their all-in (full commit trade) around.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Carry aggressivi che si espongono per le kill",
+        "reason": "La loro pressione di kill li forza oltre l'equilibrio della wave (la safe lane line). Cocoon punisce lo step in avanti, Aftershock gira l'all-in (trade di commit totale) a tuo favore.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -13018,6 +14460,26 @@
       },
       {
         "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Tanky engagers with hard CC counter-engage",
+        "reason": "Their AOE crowd control catches Elise during Rappel descent or after she commits to a dive. Once they hit two items, your magic burst stops melting them and you cannot disengage out of Spider form.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Engage tanky con counter-engage hard CC",
+        "reason": "Il loro CC AOE prende Elise durante la discesa di Rappel o dopo che fa commit al dive. Una volta a 2 item, il tuo magic burst smette di scioglierli e tu non hai disengage in Spider form.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "hecarim",
           "role": "jungle",
           "lang": "en"
@@ -13196,6 +14658,26 @@
         },
         "archetype": "ADC di poke statico",
         "reason": "Range pari, ma Corki ha un dash più una Q ad area istantanea mentre il poke di Senna ed Ezreal è single-projectile. Può W su un minion che ha eaten una Q e ritradare senza committare i cooldown.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile ranged carries with no dash",
+        "reason": "E cocoon from a bush catches them flat-footed. Once stunned, a level 3 W (slow) plus Q (anti-HP) plus the ADC's burst kills before Flash can answer.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Carry ranged immobili senza dash",
+        "reason": "Cocoon lanciato da un bush li prende piatti. Una volta stunnati, al livello 3 W (slow) + Q (anti-HP) + il burst dell'ADC chiude la kill prima che Flash possa rispondere.",
         "via": "pick_into"
       },
       {
@@ -13504,6 +14986,46 @@
       },
       {
         "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Melee bruisers that need to stick on you",
+        "reason": "Without a long dash, they have to walk 700 units through W and Q poison to touch you. Twin Fang sustains you back to full HP every trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee che devono starti addosso",
+        "reason": "Senza un dash lungo devono camminare 700 unita' attraverso W e Q poison per toccarti. Twin Fang ti riporta full HP a ogni trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Slow-windup melee bruisers (HP+damage fighters)",
+        "reason": "Q knockup interrupts their commit animations (Darius pull, Garen E spin, Sett W cast). Carnivore plus Riftmaker's omnivamp (lifesteal-like sustain on every cast) out-trades them; at Feast threshold, R deletes them at 30% HP.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee a windup lento (HP+danno corpo a corpo)",
+        "reason": "Il knock-up di Q interrompe le animazioni di commit (pull di Darius, E spin di Garen, cast W di Sett). Carnivore più l'omnivamp di Riftmaker (cura simile al lifesteal su ogni cast) batte i loro trade; a soglia Feast, R li elimina al 30% HP.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "darius",
           "role": "top",
           "lang": "en"
@@ -13520,6 +15042,26 @@
         },
         "archetype": "Bruiser melee a corto raggio senza un disengage forte",
         "reason": "Darius vince i trade prolungati perché ogni auto e Q applica una stack di bleed: quando l'avversario vorrebbe disimpegnarsi, la finestra di enrage a 5 stack ha già ribaltato lo scambio a suo favore.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Short-range bruisers without ranged poke",
+        "reason": "Mundo Q is a 975-range slow that costs HP, not mana, so he can chip them every wave from outside their auto-attack range. They have to walk into him to deal damage, and his W aura plus Spirit Visage healing wins every extended trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee senza poke ranged",
+        "reason": "La Q di Mundo e' uno slow da 975 di range che costa HP, non mana, quindi puo' chippare ogni wave da fuori auto-attack range nemico. Devono camminare addosso a lui per fare danno, e l'aura W + healing di Spirit Visage vincono ogni trade esteso.",
         "via": "pick_into"
       },
       {
@@ -13750,6 +15292,26 @@
       },
       {
         "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Junglers with a weak pre-level 6 form",
+        "reason": "Master Yi cannot duel before level 6, Kayn is form-locked until his quest finishes, Shyvana lacks reliable crowd control. Elise gets free Scuttle Crab and counter-jungles them into a gold deficit.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler con una pre-level 6 form debole",
+        "reason": "Master Yi non duella prima del 6, Kayn e form-locked finche non finisce la quest, Shyvana non ha CC affidabile. Elise prende Scuttle Crab gratis e li counter-jungla mettendoli in deficit di gold.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kha-zix",
           "role": "jungle",
           "lang": "en"
@@ -13812,6 +15374,26 @@
       }
     ],
     "sion": [
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Late-scaling tanks",
+        "reason": "Q2 true damage and Sundered Sky burst chunk huge HP pools. R prevents them from running back to their team for peel during a side-lane fight.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Tank scaling tardivi",
+        "reason": "Il true damage di Q2 e il burst di Sundered Sky chunkano enormi pool HP. La R impedisce di tornare verso il loro team per il peel durante uno scontro in side lane.",
+        "via": "pick_into"
+      },
       {
         "publisher": {
           "champion": "fiora",
@@ -13973,6 +15555,26 @@
         "archetype": "Marksman immobili senza dash",
         "reason": "La E di Draven sposta e rallenta, la W gli dà burst di Move Speed: questi ADC non possono fare disengage quando lui si fa avanti. Perdono ogni all-in pre-6.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Spell shields that block cocoon",
+        "reason": "A single Spell Shield charge eats your stun completely. Without cocoon you have no setup, and your team's follow-up engage stalls until the cooldown returns.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Spell shield che blocca cocoon",
+        "reason": "Una sola carica di spell shield mangia tutto il tuo stun. Senza cocoon non hai setup, e il follow-up del team si blocca finche non torna il cooldown.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -14442,6 +16044,26 @@
       },
       {
         "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Squishy enchanter supports without tenacity",
+        "reason": "Long cocoon stun ignores their utility kit. They have no Flash-like escape, and Liandry's Torment burn (damage spread over a few seconds) punishes their shields and heals.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter support squishy senza tenacity",
+        "reason": "Lo stun lungo del cocoon ignora il loro kit di utility. Non hanno escape tipo Flash, e il burn di Liandry's Torment (danno spalmato in pochi secondi) punisce shield e heal.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "hecarim",
           "role": "jungle",
           "lang": "en"
@@ -14724,6 +16346,26 @@
     "swain": [
       {
         "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Melee mages without hard CC (stuns/roots)",
+        "reason": "They have no instant lockdown to interrupt your Q windup. You out-range their poke from safe distance, and W silence shuts down their ability-reliant kits during all-in.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Mage melee senza hard CC (stun/root)",
+        "reason": "Non hanno lockdown istantaneo per interrompere la Q. Tu li outrangi sul poke da distanza sicura, e il silence di W spegne i loro kit ability-reliant durante l'all-in.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "yasuo",
           "role": "mid",
           "lang": "en"
@@ -14825,6 +16467,26 @@
         "archetype": "Mage da all-in lento e prevedibile a corto raggio",
         "reason": "Azir mantiene le distanze nelle loro finestre di commit (il momento in cui camminano avanti per attaccare): ogni volta che si avvicinano i basic attack dei soldati li danneggiano, e la R Shuffle ribalta l'all-in se Flashano dentro.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Burst mages with chain-lock CC",
+        "reason": "They lock Cassiopeia in place before her W grounds them, then full combo her down. Lissandra R is point-and-click — Banshee's Veil helps but doesn't save you from a 6-second stun chain with jungle follow-up.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage burst con CC chain-lock",
+        "reason": "Bloccano Cassiopeia con il CC prima che la W li metta in ground, poi le scaricano la full combo. La R di Lissandra e' point-and-click — Banshee's Veil aiuta ma non salva da una catena di stun da 6 secondi col jungler dietro.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -15032,6 +16694,26 @@
       },
       {
         "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Assassins relying on a single burst window",
+        "reason": "Their entire damage profile is one combo. Mundo's passive eats their first hard CC, his R heals back a percent of missing HP instantly, and his W refunds part of the damage they deal during the burst — they spend cooldowns and Mundo walks away near full.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Assassini con un'unica burst window",
+        "reason": "Il loro intero damage profile e' una combo. Il passive di Mundo mangia il loro primo hard CC, la R heala una percentuale degli HP mancanti istantaneamente, e la W refunda parte del danno subito durante il burst — bruciano i cooldown e Mundo se ne va quasi full HP.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -15154,6 +16836,46 @@
       },
       {
         "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged tops with kite tools",
+        "reason": "They poke (chip damage at distance) without committing while Camille has no ranged answer. E needs a wall they can simply walk away from.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged con tool di kite",
+        "reason": "Pokano (danno chirurgico a distanza) senza committare mentre Camille non ha risposta a range. La E cerca un muro che loro possono semplicemente abbandonare camminando.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged tops with poke and disengage (escape tools)",
+        "reason": "They stand beyond Q's 950 range, walk back when you step up, and chip you to half HP before level 6. You have no dash to close and no sustain beyond Carnivore, so you lose lane priority (control of the wave) every cycle.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged con poke e disengage (strumenti per scappare)",
+        "reason": "Stanno oltre i 950 di Q, indietreggiano quando ti avvicini, e ti chunkano a metà HP prima del 6. Niente dash per chiudere, niente sustain oltre Carnivore, quindi perdi prio in lane (controllo della wave) ogni ciclo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "darius",
           "role": "top",
           "lang": "en"
@@ -15170,6 +16892,26 @@
         },
         "archetype": "Top ranged o kiter",
         "reason": "Stanno fuori dal range della E e gli rosicchiano l'HP gratis. Senza un gap-closer oltre la E (hook a corto raggio) o la R (salto one-shot), non riesce a piazzare stack e perde la prio in lane.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged tops with percent-HP or blind",
+        "reason": "Vayne's W (true damage on every third auto, ignoring all defensive stats) and Teemo's Q (a blind that cancels his auto-attacks) bypass the entire HP stack. Quinn's range plus passive blind keeps Mundo permanently outside Q range.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged con percent-HP o blind",
+        "reason": "La W di Vayne (true damage ogni terzo auto, ignora ogni statistica difensiva) e la Q di Teemo (un blind che annulla i suoi auto-attack) bypassano l'intera pila di HP. Quinn col suo range piu' il blind passive tiene Mundo sempre fuori dalla 975 di Q.",
         "via": "counterpick"
       },
       {
@@ -15372,6 +17114,26 @@
         },
         "archetype": "Support da lockdown / pick",
         "reason": "Un solo hook di Thresh o Q di Morgana blocca Draven a metà axe-catch. Senza catch, i reset di Q saltano, la velocità di W decade, e diventa un ADC fermo senza escape.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hook supports who outrange cocoon",
+        "reason": "Blitzcrank's hook range (~1100) outdistances E cast range (1075). They engage on you first, removing your engage tool and leaving you melee in Spider form with no escape.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support hook che hanno piu range di cocoon",
+        "reason": "L'hook di Blitzcrank (~1100) ha piu range del cast della E (1075). Fanno engage per primi su di te, rimuovendo il tuo tool di engage e lasciandoti melee in Spider form senza escape.",
         "via": "counterpick"
       },
       {
@@ -15700,6 +17462,46 @@
     "trundle": [
       {
         "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Anti-tank junglers",
+        "reason": "Trundle R steals Armor, MR and Move Speed for 8 seconds; Olaf's E applies Grievous Wounds and his ult makes him CC-immune so the passive does nothing. Both are designed specifically to neutralize tank stats.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler anti-tank",
+        "reason": "La R di Trundle ruba Armor, MR e Move Speed per 8 secondi; la E di Olaf applica Grievous Wounds e la sua ulti lo rende CC-immune quindi il passive non scatta. Entrambi sono progettati apposta per neutralizzare le statistiche tank.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Anti-tank champions that steal stats",
+        "reason": "Trundle's R steals Mundo's Armor, MR and Move Speed for 8 seconds. Mundo's E true-damage from his bonus AD goes mute and his only escape (R speed boost) is also stolen. The whole tank profile gets neutralized.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Champion anti-tank che rubano stat",
+        "reason": "La R di Trundle ruba Armor, MR e Move Speed di Mundo per 8 secondi. Il true damage del passive di E (basato sul bonus AD da HP) si svuota e l'unica escape (lo speed boost di R) gli viene rubata anche lei. Tutto il profilo tank si annulla.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "hecarim",
           "role": "jungle",
           "lang": "en"
@@ -15779,6 +17581,66 @@
         "archetype": "Bruiser mobili con parry, immortalità o dash",
         "reason": "Fiora con W parra lo stun della Q e te lo riflette, Tryndamere con R ignora il danno mentre la tua W tickka durante la finestra unkillable, Yone con la terza Q dasha fuori dalla portata di Tantrum. Sopravvivono all'engage e ribaltano il fight.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Mobile melee duelists with continuous damage",
+        "reason": "Fiora parries (blocks) W silence, Jax E dodges Q knockup, Tryndamere ignores R as long as he ults first. Their continuous damage out-trades Cho's slow Q windup; you reach Feast scaling too late to matter.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Duellanti melee mobili con danno continuo",
+        "reason": "Fiora parry (blocca) la W silence, Jax E schiva la Q knock-up, Tryndamere ignora la R finché ulta prima. Il loro danno continuo out-trada il windup lento della Q; arrivi a scalare Feast troppo tardi per contare.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Auto-attack melee carries the enemy team relies on",
+        "reason": "Q's slow plus Plated Steelcaps cripples their attack uptime. Tryndamere R buys one rotation, but a Mundo with Thornmail + R outlasts the immortality window and chunks them with the reflected damage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Carry melee auto-attack su cui il team nemico fa affidamento",
+        "reason": "Lo slow di Q + Plated Steelcaps gli paralizza l'attack uptime. La R di Tryndamere compra una rotation, ma un Mundo con Thornmail + R sopravvive alla finestra di immortalita' e lo chunka col danno riflesso.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Auto-attack melee that need to stick",
+        "reason": "Q's slow plus Plated Steelcaps cripples their attack uptime. Tryndamere R heals them through one rotation, but a Mundo with R up plus Thornmail outlasts the immunity window and chunks them with the reflected damage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Melee auto-attack che hanno bisogno di stickare",
+        "reason": "Lo slow di Q + Plated Steelcaps gli paralizza l'attack uptime. La R di Tryndamere lo heala attraverso una rotation, ma un Mundo con R + Thornmail sopravvive alla finestra di immortalita' e lo chunka col danno riflesso.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -15961,6 +17823,46 @@
         "archetype": "Roamer globali / cross-map",
         "reason": "Annie non ha range di roam — pulisce le wave e resta in mid. La loro ult ribalta side lane e dragoni, quindi Annie perde il macro game anche quando vince il matchup 1v1.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Global / cross-map roamers",
+        "reason": "Cassiopeia is anchored to mid lane (no fast roam). Opponents use ult to tip side lanes and dragons; she wins her 1v1 but loses the macro game (objective trades happening on the map).",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Roamer global / cross-map",
+        "reason": "Cassiopeia e' incollata alla mid lane (no roam veloce). L'avversario usa la R per ribaltare side lane e dragon; lei vince l'1v1 ma perde la macro (gli scambi di obiettivo che succedono altrove sulla mappa).",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Squishy laners without dash or stealth",
+        "reason": "E cocoon at levels 3-4 lands on flat targets without escape. Rappel (Spider E) confirms the dive even when they use Flash, since you are untargetable mid-cast.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Laner squishy senza dash o stealth",
+        "reason": "E cocoon ai livelli 3-4 atterra sui bersagli piatti senza escape. Rappel (Spider E) chiude il dive anche se usano Flash, perche sei intargetabile mid-cast.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -16270,6 +18172,26 @@
       },
       {
         "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Long-range sustained poke comps",
+        "reason": "They sit beyond Q's 975 range and chip Mundo's HP every wave. Mundo has no dash and one Move Speed burst on R; he walks into their damage just to threaten engage and bleeds 30% HP per rotation without ever closing.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Comp di poke sostenuto a lungo raggio",
+        "reason": "Stanno oltre la 975 di Q e chippano gli HP di Mundo ogni wave. Mundo non ha dash e una sola burst di Move Speed su R; cammina dentro il loro danno solo per minacciare engage e perde 30% HP per rotation senza mai chiudere.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "draven",
           "role": "bot",
           "lang": "en"
@@ -16512,6 +18434,46 @@
       },
       {
         "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged tops with kite tools",
+        "reason": "They poke (chip damage at distance) without committing while Camille has no ranged answer. E needs a wall they can simply walk away from.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged con tool di kite",
+        "reason": "Pokano (danno chirurgico a distanza) senza committare mentre Camille non ha risposta a range. La E cerca un muro che loro possono semplicemente abbandonare camminando.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged tops with poke and disengage (escape tools)",
+        "reason": "They stand beyond Q's 950 range, walk back when you step up, and chip you to half HP before level 6. You have no dash to close and no sustain beyond Carnivore, so you lose lane priority (control of the wave) every cycle.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged con poke e disengage (strumenti per scappare)",
+        "reason": "Stanno oltre i 950 di Q, indietreggiano quando ti avvicini, e ti chunkano a metà HP prima del 6. Niente dash per chiudere, niente sustain oltre Carnivore, quindi perdi prio in lane (controllo della wave) ogni ciclo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "darius",
           "role": "top",
           "lang": "en"
@@ -16528,6 +18490,46 @@
         },
         "archetype": "Top ranged o kiter",
         "reason": "Stanno fuori dal range della E e gli rosicchiano l'HP gratis. Senza un gap-closer oltre la E (hook a corto raggio) o la R (salto one-shot), non riesce a piazzare stack e perde la prio in lane.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "True-damage skirmishers",
+        "reason": "Fiora's Vitals, Vayne's W, and Kayle's late-game R all deal true damage (damage that ignores armor and magic resist — there is no defensive stat that reduces it). HP stacking does nothing against true damage; the entire build collapses.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Skirmisher a true damage",
+        "reason": "I Vital di Fiora, la W di Vayne e la R late-game di Kayle fanno true damage (danno che ignora armor e magic resist — non c'e' statistica difensiva che lo riduca). Stackare HP non serve a niente contro il true damage; l'intera build collassa.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged tops with percent-HP or blind",
+        "reason": "Vayne's W (true damage on every third auto, ignoring all defensive stats) and Teemo's Q (a blind that cancels his auto-attacks) bypass the entire HP stack. Quinn's range plus passive blind keeps Mundo permanently outside Q range.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged con percent-HP o blind",
+        "reason": "La W di Vayne (true damage ogni terzo auto, ignora ogni statistica difensiva) e la Q di Teemo (un blind che annulla i suoi auto-attack) bypassano l'intera pila di HP. Quinn col suo range piu' il blind passive tiene Mundo sempre fuori dalla 975 di Q.",
         "via": "counterpick"
       },
       {
@@ -16934,6 +18936,26 @@
       },
       {
         "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages with no escape",
+        "reason": "Cassiopeia out-trades anyone who has to stand still to cast: E (0.75s cooldown) deals more damage on poisoned targets than their full rotations, and they can't dodge the W zone you drop on top of them.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza escape",
+        "reason": "Cassiopeia vince gli scambi prolungati contro chi deve restare fermo per castare: la E (cooldown 0.75s) fa piu' danno sui target avvelenati delle loro rotation complete, e non possono schivare la W sopra di loro.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "corki",
           "role": "mid",
           "lang": "en"
@@ -16950,6 +18972,26 @@
         },
         "archetype": "Mage immobili senza dash",
         "reason": "L'R di Corki arriva a 1225 unità e la W gli dà l'unico vantaggio di mobilità della lane. Target senza dash o stealth mangiano R poke ripetuti e non possono punirlo nelle finestre in cui la W è in cooldown.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Squishy laners without dash or stealth",
+        "reason": "E cocoon at levels 3-4 lands on flat targets without escape. Rappel (Spider E) confirms the dive even when they use Flash, since you are untargetable mid-cast.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Laner squishy senza dash o stealth",
+        "reason": "E cocoon ai livelli 3-4 atterra sui bersagli piatti senza escape. Rappel (Spider E) chiude il dive anche se usano Flash, perche sei intargetabile mid-cast.",
         "via": "pick_into"
       },
       {
@@ -17256,6 +19298,26 @@
       },
       {
         "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "They poke past Cassiopeia's 850 Q range. With no dash she can't close distance, so every wave bleeds her HP. Her power curve needs lane farm she can't safely take.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage artillery a lungo raggio",
+        "reason": "Pokano (chip damage) oltre il range Q di 850 di Cassiopeia. Senza dash non puo' chiudere la distanza, quindi ogni wave la sanguina. La sua curva di power richiede farm in lane che non puo' prendere in sicurezza.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "corki",
           "role": "mid",
           "lang": "en"
@@ -17458,6 +19520,26 @@
       },
       {
         "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Strong early-game duelists with gap-closers",
+        "reason": "They beat Elise in a one-on-one fight at level 3 if she runs out of cocoon mana or mistimes Rappel. Avoid invading their river: their dashes eat your only escape.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Duellanti early-game forti con gap-closer",
+        "reason": "Battono Elise nell'1v1 al livello 3 se finisce il mana di cocoon o sbaglia il timing di Rappel. Evita di invadere il loro river: i loro dash mangiano la tua unica escape.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "kha-zix",
           "role": "jungle",
           "lang": "en"
@@ -17619,6 +19701,46 @@
         "archetype": "Mage da danno sostenuto senza burst",
         "reason": "Il burst di Ahri da combo R completa li elimina in meno di un secondo, prima che il loro danno sostenuto o le cure facciano in tempo a stackare in uno scambio significativo.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Squishy mages played top",
+        "reason": "Once R lands they cannot pool, dash, or run out of the arena. Q2 true damage chunks them past their shield and heal sustain.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "camille",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Mage squishy giocati top",
+        "reason": "Una volta dentro la R non possono pool, dashare o uscire dall'arena. Il true damage di Q2 li spella oltre lo shield e l'heal sustain.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Melee mages without hard CC (stuns/roots)",
+        "reason": "They have no instant lockdown to interrupt your Q windup. You out-range their poke from safe distance, and W silence shuts down their ability-reliant kits during all-in.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Mage melee senza hard CC (stun/root)",
+        "reason": "Non hanno lockdown istantaneo per interrompere la Q. Tu li outrangi sul poke da distanza sicura, e il silence di W spegne i loro kit ability-reliant durante l'all-in.",
+        "via": "pick_into"
       }
     ],
     "volibear": [
@@ -17640,6 +19762,26 @@
         },
         "archetype": "Bruiser che devono committare in avanti",
         "reason": "Spingono dentro la tua squadra per fare danno e non hanno disengage; la E di Brand accende il blaze, la Q stunna nel momento in cui ti raggiungono e la R lock-a il secondo target prima che possano tirarsi indietro.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Slow-windup melee bruisers (HP+damage fighters)",
+        "reason": "Q knockup interrupts their commit animations (Darius pull, Garen E spin, Sett W cast). Carnivore plus Riftmaker's omnivamp (lifesteal-like sustain on every cast) out-trades them; at Feast threshold, R deletes them at 30% HP.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "chogath",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee a windup lento (HP+danno corpo a corpo)",
+        "reason": "Il knock-up di Q interrompe le animazioni di commit (pull di Darius, E spin di Garen, cast W di Sett). Carnivore più l'omnivamp di Riftmaker (cura simile al lifesteal su ogni cast) batte i loro trade; a soglia Feast, R li elimina al 30% HP.",
         "via": "pick_into"
       },
       {
@@ -18050,6 +20192,26 @@
       },
       {
         "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "They poke past Cassiopeia's 850 Q range. With no dash she can't close distance, so every wave bleeds her HP. Her power curve needs lane farm she can't safely take.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage artillery a lungo raggio",
+        "reason": "Pokano (chip damage) oltre il range Q di 850 di Cassiopeia. Senza dash non puo' chiudere la distanza, quindi ogni wave la sanguina. La sua curva di power richiede farm in lane che non puo' prendere in sicurezza.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "corki",
           "role": "mid",
           "lang": "en"
@@ -18067,6 +20229,26 @@
         "archetype": "Artillery mage con channel lunghi",
         "reason": "Corki pareggia il loro range con la R e ha un dash per interrompere channel lunghi (Xerath R, Vel'Koz R). Non possono all-in lui, e i trade favoriscono il lato con mobilità.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Long-range sustained poke comps",
+        "reason": "They sit beyond Q's 975 range and chip Mundo's HP every wave. Mundo has no dash and one Move Speed burst on R; he walks into their damage just to threaten engage and bleeds 30% HP per rotation without ever closing.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Comp di poke sostenuto a lungo raggio",
+        "reason": "Stanno oltre la 975 di Q e chippano gli HP di Mundo ogni wave. Mundo non ha dash e una sola burst di Move Speed su R; cammina dentro il loro danno solo per minacciare engage e perde 30% HP per rotation senza mai chiudere.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -18472,6 +20654,26 @@
       },
       {
         "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Strong early-game duelists with gap-closers",
+        "reason": "They beat Elise in a one-on-one fight at level 3 if she runs out of cocoon mana or mistimes Rappel. Avoid invading their river: their dashes eat your only escape.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "elise",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Duellanti early-game forti con gap-closer",
+        "reason": "Battono Elise nell'1v1 al livello 3 se finisce il mana di cocoon o sbaglia il timing di Rappel. Evita di invadere il loro river: i loro dash mangiano la tua unica escape.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "kayn",
           "role": "jungle",
           "lang": "en"
@@ -18734,6 +20936,26 @@
       },
       {
         "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Dash-reliant mid laners",
+        "reason": "Miasma grounds them inside the cloud: the moment they step in, every dash, blink, or movement ability is locked out. Their kits collapse against a champion who deletes their main escape tool.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mid laner basati su dash",
+        "reason": "Miasma li blocca dentro la nuvola (ground): nel momento in cui ci entrano, dash, blink e ability di movimento sono disattivate. Il kit collassa contro un campione che cancella la mobilita'.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "corki",
           "role": "bot",
           "lang": "en"
@@ -18790,6 +21012,46 @@
         },
         "archetype": "Carry melee che combattono dentro il range della Q",
         "reason": "Devono entrare a range Q per fare danno. Il Wind Wall blocca i proiettili ma non il colpo melee, quindi una Q sul bordo applica comunque la stack di bleed e fa partire lo snowball.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Auto-attack melee carries the enemy team relies on",
+        "reason": "Q's slow plus Plated Steelcaps cripples their attack uptime. Tryndamere R buys one rotation, but a Mundo with Thornmail + R outlasts the immortality window and chunks them with the reflected damage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Carry melee auto-attack su cui il team nemico fa affidamento",
+        "reason": "Lo slow di Q + Plated Steelcaps gli paralizza l'attack uptime. La R di Tryndamere compra una rotation, ma un Mundo con Thornmail + R sopravvive alla finestra di immortalita' e lo chunka col danno riflesso.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Auto-attack melee that need to stick",
+        "reason": "Q's slow plus Plated Steelcaps cripples their attack uptime. Tryndamere R heals them through one rotation, but a Mundo with R up plus Thornmail outlasts the immunity window and chunks them with the reflected damage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Melee auto-attack che hanno bisogno di stickare",
+        "reason": "Lo slow di Q + Plated Steelcaps gli paralizza l'attack uptime. La R di Tryndamere lo heala attraverso una rotation, ma un Mundo con R + Thornmail sopravvive alla finestra di immortalita' e lo chunka col danno riflesso.",
         "via": "pick_into"
       },
       {
@@ -19156,6 +21418,26 @@
       },
       {
         "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Dash-reliant mid laners",
+        "reason": "Miasma grounds them inside the cloud: the moment they step in, every dash, blink, or movement ability is locked out. Their kits collapse against a champion who deletes their main escape tool.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mid laner basati su dash",
+        "reason": "Miasma li blocca dentro la nuvola (ground): nel momento in cui ci entrano, dash, blink e ability di movimento sono disattivate. Il kit collassa contro un campione che cancella la mobilita'.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "corki",
           "role": "bot",
           "lang": "en"
@@ -19212,6 +21494,46 @@
         },
         "archetype": "Carry melee che combattono dentro il range della Q",
         "reason": "Devono entrare a range Q per fare danno. Il Wind Wall blocca i proiettili ma non il colpo melee, quindi una Q sul bordo applica comunque la stack di bleed e fa partire lo snowball.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Auto-attack melee carries the enemy team relies on",
+        "reason": "Q's slow plus Plated Steelcaps cripples their attack uptime. Tryndamere R buys one rotation, but a Mundo with Thornmail + R outlasts the immortality window and chunks them with the reflected damage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Carry melee auto-attack su cui il team nemico fa affidamento",
+        "reason": "Lo slow di Q + Plated Steelcaps gli paralizza l'attack uptime. La R di Tryndamere compra una rotation, ma un Mundo con Thornmail + R sopravvive alla finestra di immortalita' e lo chunka col danno riflesso.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Auto-attack melee that need to stick",
+        "reason": "Q's slow plus Plated Steelcaps cripples their attack uptime. Tryndamere R heals them through one rotation, but a Mundo with R up plus Thornmail outlasts the immunity window and chunks them with the reflected damage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Melee auto-attack che hanno bisogno di stickare",
+        "reason": "Lo slow di Q + Plated Steelcaps gli paralizza l'attack uptime. La R di Tryndamere lo heala attraverso una rotation, ma un Mundo con R + Thornmail sopravvive alla finestra di immortalita' e lo chunka col danno riflesso.",
         "via": "pick_into"
       },
       {
@@ -20064,6 +22386,26 @@
       },
       {
         "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Dash-reliant mid laners",
+        "reason": "Miasma grounds them inside the cloud: the moment they step in, every dash, blink, or movement ability is locked out. Their kits collapse against a champion who deletes their main escape tool.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mid laner basati su dash",
+        "reason": "Miasma li blocca dentro la nuvola (ground): nel momento in cui ci entrano, dash, blink e ability di movimento sono disattivate. Il kit collassa contro un campione che cancella la mobilita'.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "corki",
           "role": "mid",
           "lang": "en"
@@ -20081,6 +22423,26 @@
         "archetype": "Assassini mobili con più gap-close",
         "reason": "Corki ha un solo dash (W) con cooldown lungo. Kit con più dash entrano nel suo cast range prima che la W ricarichi e lo bursto attraverso gli HP di Trinity, soprattutto prima dei due item.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Assassins relying on a single burst window",
+        "reason": "Their entire damage profile is one combo. Mundo's passive eats their first hard CC, his R heals back a percent of missing HP instantly, and his W refunds part of the damage they deal during the burst — they spend cooldowns and Mundo walks away near full.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "dr-mundo",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Assassini con un'unica burst window",
+        "reason": "Il loro intero damage profile e' una combo. Il passive di Mundo mangia il loro primo hard CC, la R heala una percentuale degli HP mancanti istantaneamente, e la W refunda parte del danno subito durante il burst — bruciano i cooldown e Mundo se ne va quasi full HP.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -20342,6 +22704,26 @@
         },
         "archetype": "Artillery mage a gittata superiore",
         "reason": "La loro soglia di poke è oltre il range della tua Q. Brand non ha mobilità per chiudere la distanza, quindi ogni wave ti tengono basso fino a renderti un bersaglio gratuito per il jungler avversario.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "They poke past Cassiopeia's 850 Q range. With no dash she can't close distance, so every wave bleeds her HP. Her power curve needs lane farm she can't safely take.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "cassiopeia",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage artillery a lungo raggio",
+        "reason": "Pokano (chip damage) oltre il range Q di 850 di Cassiopeia. Senza dash non puo' chiudere la distanza, quindi ogni wave la sanguina. La sua curva di power richiede farm in lane che non puo' prendere in sicurezza.",
         "via": "counterpick"
       },
       {
