@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01",
+  "generated_at": "2026-05-02",
   "guides": [
     {
       "slug": "aatrox-top",
@@ -1046,6 +1046,35 @@
       }
     },
     {
+      "slug": "evelynn-jungle",
+      "champion": "evelynn",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Evelynn Jungle Build & Guide — Patch 16.9",
+          "description": "Evelynn jungle guide for League of Legends Patch 16.9: Demon Shade Camouflage gank path, Lich Bane core build, key matchups, power spikes, and common mistakes.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Assassin / Stealth Jungler",
+          "difficulty": 5,
+          "damage_type": "magic",
+          "champion_dd_id": "Evelynn",
+          "champion_key": "28"
+        },
+        "it": {
+          "title": "Evelynn Jungle: Build & Guida — Patch 16.9",
+          "description": "Guida a Evelynn jungle per League of Legends Patch 16.9: percorso di gank con Demon Shade, build core con Lich Bane, matchup chiave, power spike ed errori comuni.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Assassin / Stealth Jungler",
+          "difficulty": 5,
+          "damage_type": "magic",
+          "champion_dd_id": "Evelynn",
+          "champion_key": "28"
+        }
+      }
+    },
+    {
       "slug": "ezreal-bot",
       "champion": "ezreal",
       "role": "bot",
@@ -1071,6 +1100,64 @@
           "damage_type": "mixed",
           "champion_dd_id": "Ezreal",
           "champion_key": "81"
+        }
+      }
+    },
+    {
+      "slug": "fiddlesticks-jungle",
+      "champion": "fiddlesticks",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Fiddlesticks Jungle Build & Guide — Patch 16.9",
+          "description": "Fiddlesticks jungle guide for League of Legends Patch 16.9: AP build, Crowstorm engages, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Mage / Specialist",
+          "difficulty": 4,
+          "damage_type": "magic",
+          "champion_dd_id": "Fiddlesticks",
+          "champion_key": "9"
+        },
+        "it": {
+          "title": "Fiddlesticks Jungle Build & Guida — Patch 16.9",
+          "description": "Guida Fiddlesticks jungle per League of Legends Patch 16.9: build AP, engage con Crowstorm, matchup chiave, power spike, errori comuni e un consiglio finale.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Mage / Specialist",
+          "difficulty": 4,
+          "damage_type": "magic",
+          "champion_dd_id": "Fiddlesticks",
+          "champion_key": "9"
+        }
+      }
+    },
+    {
+      "slug": "fiddlesticks-support",
+      "champion": "fiddlesticks",
+      "role": "support",
+      "locales": {
+        "en": {
+          "title": "Fiddlesticks Support Build & Guide — Patch 16.9",
+          "description": "Fiddlesticks support guide for League of Legends Patch 16.9: AP engage build, lane harass, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Mage / Engage Support",
+          "difficulty": 4,
+          "damage_type": "magic",
+          "champion_dd_id": "Fiddlesticks",
+          "champion_key": "9"
+        },
+        "it": {
+          "title": "Fiddlesticks Support Build & Guida — Patch 16.9",
+          "description": "Guida Fiddlesticks support per League of Legends Patch 16.9: build AP da engage, harass in lane, matchup chiave, power spike, errori comuni e un consiglio finale.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Mage / Engage Support",
+          "difficulty": 4,
+          "damage_type": "magic",
+          "champion_dd_id": "Fiddlesticks",
+          "champion_key": "9"
         }
       }
     },

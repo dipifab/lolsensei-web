@@ -11236,6 +11236,320 @@ export const itChampions: ChampionGuide[] = [
     "champion_key": "60"
   },
   {
+    "slug": "evelynn-jungle",
+    "title": "Evelynn Jungle: Build & Guida — Patch 16.9",
+    "language": "it",
+    "patch": "16.9",
+    "champion": "evelynn",
+    "role": "jungle",
+    "last_updated": "2026-05-02",
+    "description": "Guida a Evelynn jungle per League of Legends Patch 16.9: percorso di gank con Demon Shade, build core con Lich Bane, matchup chiave, power spike ed errori comuni.",
+    "quick_learn": {
+      "champion_dd_id": "Evelynn",
+      "difficulty": 5,
+      "damage_type": "magic",
+      "champion_class": "Assassin / Stealth Jungler",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Demon Shade",
+          "description": "Fuori dal combattimento Evelynn entra in Demon Shade. Si cura a basso HP e ottiene Camouflage dal livello 6 — invisibile ai ward e ai nemici oltre un piccolo raggio.",
+          "dd_spell_id": "Evelynn_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Hate Spike",
+          "description": "Il Lasher di Evelynn colpisce il nemico più vicino, poi spara fino a tre raffiche di spike sui bersagli intorno. Principale clear in jungla e DPS in combo.",
+          "dd_spell_id": "EvelynnQ"
+        },
+        {
+          "key": "W",
+          "name": "Allure",
+          "description": "Maledice un nemico. Dopo un breve delay, il prossimo attacco o spell di Evelynn lo charma e gli shredda magic resist. Castala da Demon Shade per il setup più pulito.",
+          "dd_spell_id": "EvelynnW"
+        },
+        {
+          "key": "E",
+          "name": "Whiplash",
+          "description": "Dash sul bersaglio infliggendo danno magico e dando un breve move speed. Da Demon Shade diventa un balzo lungo con danno bonus e reset dell'autoattack.",
+          "dd_spell_id": "EvelynnE"
+        },
+        {
+          "key": "R",
+          "name": "Last Caress",
+          "description": "Breve finestra untargetable, poi un cono di danno magico massiccio davanti a lei prima del blink all'indietro. Danno bonus sotto il 30% HP — il tuo execute.",
+          "dd_spell_id": "EvelynnR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "W"
+        },
+        {
+          "level": 3,
+          "key": "E"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "W"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "E"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "1101",
+          "name": "Scorchclaw Pup"
+        },
+        {
+          "dd_id": "3100",
+          "name": "Lich Bane"
+        },
+        {
+          "dd_id": "3020",
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "dd_id": "4645",
+          "name": "Shadowflame"
+        },
+        {
+          "dd_id": "3089",
+          "name": "Rabadon's Deathcap"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3135",
+          "name": "Void Staff",
+          "against": "appena 2+ nemici comprano un item di Resistenza Magica — sostituisce uno slot di danno per penetrazione magica percentuale"
+        },
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass",
+          "against": "contro lockdown single-target che punisce l'animazione della R (Veigar cage, Lissandra R, Malzahar R)"
+        },
+        {
+          "dd_id": "3165",
+          "name": "Morellonomicon",
+          "against": "contro composizioni che impilano cure (Soraka, Vladimir, Dr. Mundo, Aatrox) — applica Grievous Wounds, dimezza le cure"
+        }
+      ],
+      "base_combo": [
+        "W",
+        "AA",
+        "E",
+        "Q",
+        "R"
+      ],
+      "win_condition": "Pickoff su nemici isolati post-6 con W charm in R execute. Usa Demon Shade Camouflage per invadere e gankare senza warning di vision. Snowballa il gold lead di jungla e targetta gli squishy negli skirmish.",
+      "weakness": "Pre-6 zero pressione di gank — niente Camouflage, niente charm range. Hard counterata da Control Ward e lane prio. Se i nemici si raggruppano con peel, non raggiungi la carry.",
+      "runes": {
+        "primary_tree": "Domination",
+        "primary_tree_dd_id": 8100,
+        "keystone": {
+          "dd_id": 8128,
+          "name": "Dark Harvest",
+          "icon_path": "perk-images/Styles/Domination/DarkHarvest/DarkHarvest.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 8143,
+            "name": "Sudden Impact",
+            "icon_path": "perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png"
+          },
+          {
+            "dd_id": 8137,
+            "name": "Sixth Sense",
+            "icon_path": "perk-images/Styles/Domination/SixthSense/SixthSense.png"
+          },
+          {
+            "dd_id": 8106,
+            "name": "Ultimate Hunter",
+            "icon_path": "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png"
+          }
+        ],
+        "secondary_tree": "Sorcery",
+        "secondary_tree_dd_id": 8200,
+        "secondary_slots": [
+          {
+            "dd_id": 8226,
+            "name": "Manaflow Band",
+            "icon_path": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "dd_id": 8236,
+            "name": "Gathering Storm",
+            "icon_path": "perk-images/Styles/Sorcery/GatheringStorm/GatheringStorm.png"
+          }
+        ],
+        "stat_shards": [
+          "Adaptive Force",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Domination primario: Dark Harvest accumula stack su pickoff isolati — game plan di Evelynn. Sudden Impact procca dopo R untargetable e W charm per più burst. Sixth Sense rivela ward avversari, mantenendo utile la Camouflage. Ultimate Hunter taglia CD della R.",
+        "secondary_rationale": "Sorcery secondario rispetto a Inspiration o Resolve: Evelynn ha bisogno di scaling AP puro per one-shottare la carry, non di utility. Manaflow Band tiene il mana per spam di Q in clear, Gathering Storm aggiunge AP gratis ogni 10 minuti per il W+R one-shot del late game.",
+        "secondary_alternative": "Se enemy team ha 4+ squishy e poco peel, swap Sorcery → Precision con Presence of Mind (refund mana su takedown) e Coup de Grace (+8% danno sotto il 40% HP) per execute più consistenti."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "jinx",
+            "twitch",
+            "kog-maw"
+          ],
+          "archetype": "Hyper-carry immobili",
+          "reason": "Carry senza dash o blink: una W charm + R li uccide istantaneamente in teamfight, e non hanno strumenti per uscire dal cono della tua R untargetable prima che esploda."
+        },
+        {
+          "examples": [
+            "soraka",
+            "yuumi",
+            "seraphine"
+          ],
+          "archetype": "Healer di backline senza escape",
+          "reason": "Una volta arrivata in fondo all'enemy team con la Camouflage di Demon Shade, queste enchanter muoiono in un W+R prima di castare il proprio kit difensivo."
+        },
+        {
+          "examples": [
+            "master-yi",
+            "karthus",
+            "amumu"
+          ],
+          "archetype": "Junglers da farm e scaling",
+          "reason": "Jungler che vogliono farmare e scalare: Evelynn invade, ruba camp e gankka con Camouflage post-6, costringendoli a difendersi invece di scalare."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "lee-sin",
+            "kha-zix",
+            "rengar"
+          ],
+          "archetype": "Duellanti early-game con lethality",
+          "reason": "La Q di Lee Sin e il leap di Rengar coprono distanza prima del livello 6 — quando Evelynn non ha Camouflage né R, perde le invade pre-6 e i duel 1v1 senza scampo."
+        },
+        {
+          "examples": [
+            "lulu",
+            "tahm-kench",
+            "morgana"
+          ],
+          "archetype": "Enchanter che peelano la carry",
+          "reason": "Lulu R rende invulnerabile la carry, Tahm Kench la mangia, Morgana E le dà Spell Shield: ognuna annulla la combo W+R nel momento esatto in cui dovrebbe killare."
+        },
+        {
+          "examples": [
+            "nautilus",
+            "leona",
+            "thresh"
+          ],
+          "archetype": "Support con vision e CC chain",
+          "reason": "Comprano Control Ward al primo back, ti vedono in Demon Shade in lane, e la chain di CC (Naut Q, Leona E+R) ti blocca prima che la W charm parta."
+        }
+      ]
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Evelynn è l'unica campionessa in League con uno stealth incorporato che scala col livello: dal livello 6 la passiva <strong>Demon Shade (P)</strong> le dà Camouflage fuori dal combattimento, cioè i nemici non la vedono se non sono dentro un piccolo raggio attorno a lei — neanche i Control Ward (i ward rosa che gli avversari piazzano per rivelare lo stealth) la rilevano a piena distanza. Tutta la sua identità sta qui. È un'assassina a danno magico senza vero waveclear o duel power prima del 6, ma nel momento in cui sblocca <strong>Last Caress (R)</strong> diventa il jungler da pickoff (champion costruito per eliminare un nemico isolato alla volta, fuori dai teamfight pieni) più affidabile del gioco: cammini invisibile in fondo all'enemy team — la backline, dove stanno le carry squishy (campioni ad alto danno e poche difese, tipo gli ADC) — charmi la carry con <strong>Allure (W)</strong>, e la elimini in una combo prima che qualunque peel (abilità degli alleati che proteggono la carry, tipo lo shield di Janna o l'ult di Lulu) possa reagire.</p>\n<p>Il piano partita è brutale: farma fino al 6 senza morire, cerca un gank su una lane a basso HP senza ward vicini, e da lì in avanti caccia un bersaglio isolato ogni volta che la <strong>R</strong> è disponibile. Lo skill expression sta nel leggere il pathing (dove puoi camminare in Camouflage senza far suonare un ward?) e nel timing del commit (non impegnarti a fondo con la <strong>R</strong> se la carry ha Cleanse o un peeler tipo Lulu vicino). Se fai snowball sui primi due pick (trasformi un vantaggio iniziale in più kill, più gold, più item), il team avversario si raggruppa, tu scali (guadagni potenza con item e livelli) in range di one-shot con <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> e chiudi la partita dall'invisibilità.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1035.png\" alt=\"Emberknife\"> <strong>Emberknife</strong> + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2031.png\" alt=\"Refillable Potion\"> <strong>Refillable Potion</strong>. Starter standard da jungler melee — nessuna eccezione per Evelynn.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1101.png\" alt=\"Scorchclaw Pup\"> <strong>Scorchclaw Pup</strong> — quest upgrade da Emberknife (auto-evolve intorno al minuto 3-4 quando il pet di jungla ha mangiato abbastanza mostri). Companion per AP (Ability Power, la statistica che scala il danno magico) burst: aggiunge un effetto di danno magico che si attiva (un \"proc\") sull'autoattack subito dopo uno spell, allineandosi perfettamente con <strong>Lich Bane</strong> più tardi.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3100.png\" alt=\"Lich Bane\"> <strong>Lich Bane</strong> — lo spike-firma di Evelynn. Ogni volta che lanci uno spell, il prossimo basic attack aggiunge un grosso colpo bonus di danno magico, e il charm di <strong>W</strong> + il reset dell'autoattack di <strong>E</strong> (effetto che ti permette di sparare un attacco fresco subito, ignorando il normale ritardo di attack speed) ti permettono di concatenare due proc di <strong>Lich Bane</strong> in meno di un secondo.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — magic penetration fissa (sottrae una quantità fissa di magic resist al bersaglio, facendo male di più con i tuoi spell). Standard per qualunque AP burster che bersaglia squishy.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — AP e magic penetration extra; la passiva sotto soglia HP (passiva che si attiva quando il nemico è sotto una soglia bassa, intorno al 35%) si allinea esattamente con il cono dell'execute della <strong>R</strong>.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — moltiplicatore late-game su tutto l'AP. Il quarto o quinto slot è dove Evelynn entra in range \"one-shot della carry da HP pieno\".</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — appena 2 o più nemici comprano un item di magic resist.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — contro lockdown single-target (Veigar cage, Lissandra R, Malzahar R). La stasi copre i recovery frame dopo la <strong>R</strong>.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — contro composizioni che impilano cure (Soraka, Vladimir, Dr. Mundo, Aatrox). Applica Grievous Wounds, dimezzando le cure ricevute.</li>\n</ul>\n<p><strong>Stivali:</strong> Sorcerer's Shoes di default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> accettabili solo se l'enemy team ha pochissima magic resist e il tuo team chiede più uptime di <strong>R</strong> (cast più frequenti) come finisher di fight.</p>\n<p><strong>Skill order:</strong> Massimizza <strong>Q</strong> per primo (clear di jungla e DPS principale), <strong>E</strong> per secondo (mobility e damage scaling sul reset), <strong>W</strong> per ultimo (il cooldown conta più del rank). Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Domination</strong> con <strong>Dark Harvest</strong>, <strong>Sudden Impact</strong>, <strong>Sixth Sense</strong>, <strong>Ultimate Hunter</strong>. Secondario <strong>Sorcery</strong> con <strong>Manaflow Band</strong> e <strong>Gathering Storm</strong>. Stat shards: Adaptive Force, Adaptive Force, Health Scaling. Cambia il secondario in <strong>Precision</strong> (Presence of Mind + Coup de Grace) quando l'enemy team è quasi tutto squishy e vuoi consistenza sull'execute.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Lee Sin / Rengar (jungle avversario):</strong> Minacce di invade pre-6. Non contestare lo scuttle al livello 3 — tracciali con vision e fai full clear in sicurezza. Una volta toccato il 6 il matchup si ribalta: cammini nella loro jungla in Camouflage e fai gank sulle lane non wardate.</li>\n<li><strong>Lulu (support avversario):</strong> Il peel più duro del gioco per un'assassina. Brucia la sua <strong>R</strong> con un fake commit (inizia il W charm ma tirati indietro se usa l'ult), poi torna sul bersaglio quando l'ulti di Lulu è in cooldown.</li>\n<li><strong>Tahm Kench (support avversario):</strong> La <strong>W</strong> mangia la carry nell'istante in cui la tua <strong>R</strong> atterra. Aspetta che usi <strong>W</strong> su qualcos'altro (un'onda di minion, un tank in engage), poi impegnati a fondo. Se è full mana e guarda l'ADC, cerca un altro target.</li>\n<li><strong>Karthus (jungle avversario):</strong> Gara di scaling. Lui ti supera nel farm, tu lo superi nei pickoff. Se Karthus arriva al livello 16 con full item perdi: forza gank ogni minuto in cui la sua <strong>R</strong> è giù per negare lo scaling e chiudi la partita entro il minuto 30.</li>\n<li><strong>Pyke (support avversario):</strong> Hard counter al tuo \"execute a basso HP\". Anche la sua <strong>R</strong> executa a HP basso, e i suoi roam mettono i tuoi pathing sotto pressione di vision. Compra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> prima del solito per schivare la sua finestra di execute dopo che ti sei impegnata.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 6 (primo unlock della R):</strong> La tua vera partita inizia qui. Demon Shade ottiene Camouflage, la <strong>R</strong> si sblocca, e qualunque lane senza ward di vision (i piccoli occhi invisibili che gli alleati piazzano per vedere la fog of war) è una kill gratis. Direzionati verso la lane con i nemici a HP più basso.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3100.png\" alt=\"Lich Bane\"> Lich Bane completo (~ minuto 12-14):</strong> Salto da \"2 spell per killare\" a \"1 combo W+AA+E+Q+R su uno squishy\". Caccia pick appena finisce.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> Shadowflame (~ minuto 18-20):</strong> La passiva sotto soglia HP si allinea col cono di execute della <strong>R</strong>. Dopo questo item, qualunque squishy sotto il 60% HP è morto in una combo.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> Rabadon's Deathcap online (~ minuto 26-30):</strong> Range completo di one-shot sui carry di backline da 100% HP. Forza un 5v5 attorno a Baron appena Deathcap finisce — il tuo team inizia il fight 5v4 nell'istante in cui la combo atterra.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Fare gank pre-6 perché il team lo segnala via ping.</strong> Non hai charm range, non hai Camouflage, e niente che sorprenda il nemico. Pre-6 farmi e cerchi counter-jungle sui nemici che superi di livello. Di' ai laner: \"gank al 6\".</li>\n<li><strong>Lanciare W fuori da Demon Shade.</strong> Quando sei visibile (in combat o a basso HP), il nemico vede l'animazione di <strong>W</strong> e può flashare in anticipo il charm. Imposta sempre il gank entrando da Camouflage, poi <strong>W</strong> a 1100+ di range.</li>\n<li><strong>Usare R per il danno invece che come execute.</strong> La <strong>R</strong> infligge danno bonus sotto il 30% HP. Bruciarla su un target full HP spreca lo spike — apri con la combo <strong>W+E+Q</strong>, poi <strong>R</strong> nell'istante in cui scendono sotto la soglia di execute.</li>\n<li><strong>Tunnel vision sulla kill.</strong> La <strong>R</strong> ti porta indietro (warp) per una distanza lunga dopo il cast. Se sei in mezzo all'enemy team quando la premi, il warp ti porta in mezzo al niente. Posizionati così che il warp ti tiri verso il tuo team o verso fog of war (la zona di jungla non wardata), non più dentro i nemici.</li>\n<li><strong>Rifiutare di tornare alla base a HP pieno.</strong> Demon Shade fuori combat ti cura lentamente anche da full mana. Se hai 1300+ gold per un componente di danno come <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3145.png\" alt=\"Hextech Alternator\"> <strong>Hextech Alternator</strong> o di mana come <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3802.png\" alt=\"Lost Chapter\"> <strong>Lost Chapter</strong>, fai back. HP pieno e 0 gold = tempo sprecato.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>La combo doppio-proc di <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3100.png\" alt=\"Lich Bane\"> <strong>Lich Bane</strong>: dopo il <strong>W</strong> charm, annulla l'animazione dell'autoattack lanciando subito <strong>E</strong> (Whiplash da Demon Shade ha reset dell'autoattack incorporato). L'ordine è <strong>W → AA → E → AA → Q → R</strong>. I due autoattack consumano due proc di <strong>Lich Bane</strong> perché <strong>E</strong> conta come spell cast. Su uno squishy senza magic resist, questa combo infligge circa 1.5x il danno della classica apertura <strong>W → R</strong> dei rank bassi, e ti permette di eliminare una carry da 1800 HP da HP pieno a 3 item invece di 4.</p>",
+    "content_html_pre": "<h2>Panoramica</h2>\n<p>Evelynn è l'unica campionessa in League con uno stealth incorporato che scala col livello: dal livello 6 la passiva <strong>Demon Shade (P)</strong> le dà Camouflage fuori dal combattimento, cioè i nemici non la vedono se non sono dentro un piccolo raggio attorno a lei — neanche i Control Ward (i ward rosa che gli avversari piazzano per rivelare lo stealth) la rilevano a piena distanza. Tutta la sua identità sta qui. È un'assassina a danno magico senza vero waveclear o duel power prima del 6, ma nel momento in cui sblocca <strong>Last Caress (R)</strong> diventa il jungler da pickoff (champion costruito per eliminare un nemico isolato alla volta, fuori dai teamfight pieni) più affidabile del gioco: cammini invisibile in fondo all'enemy team — la backline, dove stanno le carry squishy (campioni ad alto danno e poche difese, tipo gli ADC) — charmi la carry con <strong>Allure (W)</strong>, e la elimini in una combo prima che qualunque peel (abilità degli alleati che proteggono la carry, tipo lo shield di Janna o l'ult di Lulu) possa reagire.</p>\n<p>Il piano partita è brutale: farma fino al 6 senza morire, cerca un gank su una lane a basso HP senza ward vicini, e da lì in avanti caccia un bersaglio isolato ogni volta che la <strong>R</strong> è disponibile. Lo skill expression sta nel leggere il pathing (dove puoi camminare in Camouflage senza far suonare un ward?) e nel timing del commit (non impegnarti a fondo con la <strong>R</strong> se la carry ha Cleanse o un peeler tipo Lulu vicino). Se fai snowball sui primi due pick (trasformi un vantaggio iniziale in più kill, più gold, più item), il team avversario si raggruppa, tu scali (guadagni potenza con item e livelli) in range di one-shot con <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> e chiudi la partita dall'invisibilità.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1035.png\" alt=\"Emberknife\"> <strong>Emberknife</strong> + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2031.png\" alt=\"Refillable Potion\"> <strong>Refillable Potion</strong>. Starter standard da jungler melee — nessuna eccezione per Evelynn.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1101.png\" alt=\"Scorchclaw Pup\"> <strong>Scorchclaw Pup</strong> — quest upgrade da Emberknife (auto-evolve intorno al minuto 3-4 quando il pet di jungla ha mangiato abbastanza mostri). Companion per AP (Ability Power, la statistica che scala il danno magico) burst: aggiunge un effetto di danno magico che si attiva (un \"proc\") sull'autoattack subito dopo uno spell, allineandosi perfettamente con <strong>Lich Bane</strong> più tardi.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3100.png\" alt=\"Lich Bane\"> <strong>Lich Bane</strong> — lo spike-firma di Evelynn. Ogni volta che lanci uno spell, il prossimo basic attack aggiunge un grosso colpo bonus di danno magico, e il charm di <strong>W</strong> + il reset dell'autoattack di <strong>E</strong> (effetto che ti permette di sparare un attacco fresco subito, ignorando il normale ritardo di attack speed) ti permettono di concatenare due proc di <strong>Lich Bane</strong> in meno di un secondo.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — magic penetration fissa (sottrae una quantità fissa di magic resist al bersaglio, facendo male di più con i tuoi spell). Standard per qualunque AP burster che bersaglia squishy.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — AP e magic penetration extra; la passiva sotto soglia HP (passiva che si attiva quando il nemico è sotto una soglia bassa, intorno al 35%) si allinea esattamente con il cono dell'execute della <strong>R</strong>.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — moltiplicatore late-game su tutto l'AP. Il quarto o quinto slot è dove Evelynn entra in range \"one-shot della carry da HP pieno\".</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — appena 2 o più nemici comprano un item di magic resist.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — contro lockdown single-target (Veigar cage, Lissandra R, Malzahar R). La stasi copre i recovery frame dopo la <strong>R</strong>.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — contro composizioni che impilano cure (Soraka, Vladimir, Dr. Mundo, Aatrox). Applica Grievous Wounds, dimezzando le cure ricevute.</li>\n</ul>\n<p><strong>Stivali:</strong> Sorcerer's Shoes di default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> accettabili solo se l'enemy team ha pochissima magic resist e il tuo team chiede più uptime di <strong>R</strong> (cast più frequenti) come finisher di fight.</p>\n<p><strong>Skill order:</strong> Massimizza <strong>Q</strong> per primo (clear di jungla e DPS principale), <strong>E</strong> per secondo (mobility e damage scaling sul reset), <strong>W</strong> per ultimo (il cooldown conta più del rank). Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Domination</strong> con <strong>Dark Harvest</strong>, <strong>Sudden Impact</strong>, <strong>Sixth Sense</strong>, <strong>Ultimate Hunter</strong>. Secondario <strong>Sorcery</strong> con <strong>Manaflow Band</strong> e <strong>Gathering Storm</strong>. Stat shards: Adaptive Force, Adaptive Force, Health Scaling. Cambia il secondario in <strong>Precision</strong> (Presence of Mind + Coup de Grace) quando l'enemy team è quasi tutto squishy e vuoi consistenza sull'execute.</p>",
+    "content_html_post": "<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Lee Sin / Rengar (jungle avversario):</strong> Minacce di invade pre-6. Non contestare lo scuttle al livello 3 — tracciali con vision e fai full clear in sicurezza. Una volta toccato il 6 il matchup si ribalta: cammini nella loro jungla in Camouflage e fai gank sulle lane non wardate.</li>\n<li><strong>Lulu (support avversario):</strong> Il peel più duro del gioco per un'assassina. Brucia la sua <strong>R</strong> con un fake commit (inizia il W charm ma tirati indietro se usa l'ult), poi torna sul bersaglio quando l'ulti di Lulu è in cooldown.</li>\n<li><strong>Tahm Kench (support avversario):</strong> La <strong>W</strong> mangia la carry nell'istante in cui la tua <strong>R</strong> atterra. Aspetta che usi <strong>W</strong> su qualcos'altro (un'onda di minion, un tank in engage), poi impegnati a fondo. Se è full mana e guarda l'ADC, cerca un altro target.</li>\n<li><strong>Karthus (jungle avversario):</strong> Gara di scaling. Lui ti supera nel farm, tu lo superi nei pickoff. Se Karthus arriva al livello 16 con full item perdi: forza gank ogni minuto in cui la sua <strong>R</strong> è giù per negare lo scaling e chiudi la partita entro il minuto 30.</li>\n<li><strong>Pyke (support avversario):</strong> Hard counter al tuo \"execute a basso HP\". Anche la sua <strong>R</strong> executa a HP basso, e i suoi roam mettono i tuoi pathing sotto pressione di vision. Compra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> prima del solito per schivare la sua finestra di execute dopo che ti sei impegnata.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 6 (primo unlock della R):</strong> La tua vera partita inizia qui. Demon Shade ottiene Camouflage, la <strong>R</strong> si sblocca, e qualunque lane senza ward di vision (i piccoli occhi invisibili che gli alleati piazzano per vedere la fog of war) è una kill gratis. Direzionati verso la lane con i nemici a HP più basso.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3100.png\" alt=\"Lich Bane\"> Lich Bane completo (~ minuto 12-14):</strong> Salto da \"2 spell per killare\" a \"1 combo W+AA+E+Q+R su uno squishy\". Caccia pick appena finisce.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> Shadowflame (~ minuto 18-20):</strong> La passiva sotto soglia HP si allinea col cono di execute della <strong>R</strong>. Dopo questo item, qualunque squishy sotto il 60% HP è morto in una combo.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> Rabadon's Deathcap online (~ minuto 26-30):</strong> Range completo di one-shot sui carry di backline da 100% HP. Forza un 5v5 attorno a Baron appena Deathcap finisce — il tuo team inizia il fight 5v4 nell'istante in cui la combo atterra.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Fare gank pre-6 perché il team lo segnala via ping.</strong> Non hai charm range, non hai Camouflage, e niente che sorprenda il nemico. Pre-6 farmi e cerchi counter-jungle sui nemici che superi di livello. Di' ai laner: \"gank al 6\".</li>\n<li><strong>Lanciare W fuori da Demon Shade.</strong> Quando sei visibile (in combat o a basso HP), il nemico vede l'animazione di <strong>W</strong> e può flashare in anticipo il charm. Imposta sempre il gank entrando da Camouflage, poi <strong>W</strong> a 1100+ di range.</li>\n<li><strong>Usare R per il danno invece che come execute.</strong> La <strong>R</strong> infligge danno bonus sotto il 30% HP. Bruciarla su un target full HP spreca lo spike — apri con la combo <strong>W+E+Q</strong>, poi <strong>R</strong> nell'istante in cui scendono sotto la soglia di execute.</li>\n<li><strong>Tunnel vision sulla kill.</strong> La <strong>R</strong> ti porta indietro (warp) per una distanza lunga dopo il cast. Se sei in mezzo all'enemy team quando la premi, il warp ti porta in mezzo al niente. Posizionati così che il warp ti tiri verso il tuo team o verso fog of war (la zona di jungla non wardata), non più dentro i nemici.</li>\n<li><strong>Rifiutare di tornare alla base a HP pieno.</strong> Demon Shade fuori combat ti cura lentamente anche da full mana. Se hai 1300+ gold per un componente di danno come <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3145.png\" alt=\"Hextech Alternator\"> <strong>Hextech Alternator</strong> o di mana come <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3802.png\" alt=\"Lost Chapter\"> <strong>Lost Chapter</strong>, fai back. HP pieno e 0 gold = tempo sprecato.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>La combo doppio-proc di <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3100.png\" alt=\"Lich Bane\"> <strong>Lich Bane</strong>: dopo il <strong>W</strong> charm, annulla l'animazione dell'autoattack lanciando subito <strong>E</strong> (Whiplash da Demon Shade ha reset dell'autoattack incorporato). L'ordine è <strong>W → AA → E → AA → Q → R</strong>. I due autoattack consumano due proc di <strong>Lich Bane</strong> perché <strong>E</strong> conta come spell cast. Su uno squishy senza magic resist, questa combo infligge circa 1.5x il danno della classica apertura <strong>W → R</strong> dei rank bassi, e ti permette di eliminare una carry da 1800 HP da HP pieno a 3 item invece di 4.</p>",
+    "word_count": 1449,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "amumu-jungle",
+        "champion": "amumu",
+        "role": "jungle"
+      },
+      {
+        "slug": "diana-jungle",
+        "champion": "diana",
+        "role": "jungle"
+      },
+      {
+        "slug": "ekko-jungle",
+        "champion": "ekko",
+        "role": "jungle"
+      },
+      {
+        "slug": "graves-jungle",
+        "champion": "graves",
+        "role": "jungle"
+      },
+      {
+        "slug": "hecarim-jungle",
+        "champion": "hecarim",
+        "role": "jungle"
+      }
+    ],
+    "champion_key": "28"
+  },
+  {
     "slug": "ezreal-bot",
     "title": "Ezreal Bot Build & Guida — Patch 16.9",
     "language": "it",
@@ -11548,6 +11862,638 @@ export const itChampions: ChampionGuide[] = [
       }
     ],
     "champion_key": "81"
+  },
+  {
+    "slug": "fiddlesticks-jungle",
+    "title": "Fiddlesticks Jungle Build & Guida — Patch 16.9",
+    "language": "it",
+    "patch": "16.9",
+    "champion": "fiddlesticks",
+    "role": "jungle",
+    "last_updated": "2026-05-02",
+    "description": "Guida Fiddlesticks jungle per League of Legends Patch 16.9: build AP, engage con Crowstorm, matchup chiave, power spike, errori comuni e un consiglio finale.",
+    "quick_learn": {
+      "champion_dd_id": "Fiddlesticks",
+      "difficulty": 4,
+      "damage_type": "magic",
+      "champion_class": "Mage / Specialist",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "A Harmless Scarecrow",
+          "description": "Lo slot trinket diventa cariche di effigie. Piazza falsi spaventapasseri di Fiddle per vision; chi li vede prende un breve fear e l'effigie esplode.",
+          "dd_spell_id": "Fiddlesticks_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Terrify",
+          "description": "Targetta un singolo nemico. Anche danneggiarlo con una spell mentre sei unseen lo Terrifica. Lo fa scappare lontano da te per 1-2.5s.",
+          "dd_spell_id": "FiddleSticksQ"
+        },
+        {
+          "key": "W",
+          "name": "Bountiful Harvest",
+          "description": "Channel che droga HP dai nemici vicini (ti cura). A fine canalizzazione infligge danno bonus ad esecuzione. Strumento principale di clear e sustain in jungle.",
+          "dd_spell_id": "FiddleSticksW"
+        },
+        {
+          "key": "E",
+          "name": "Reap",
+          "description": "Falce a boomerang in un cono ampio: rallenta tutti i nemici colpiti e silenza chi è nella linea centrale. Va e torna, colpisce due volte.",
+          "dd_spell_id": "FiddleSticksE"
+        },
+        {
+          "key": "R",
+          "name": "Crowstorm",
+          "description": "Channel di 1.5s, poi blink al punto target con danno AOE per secondo intorno a Fiddle per 5s. Va lanciato da fog of war o dietro a muri.",
+          "dd_spell_id": "FiddleSticksR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "W"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "Q"
+        },
+        {
+          "level": 4,
+          "key": "W"
+        },
+        {
+          "level": 5,
+          "key": "W"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "W"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "W"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "Q"
+        },
+        {
+          "level": 15,
+          "key": "Q"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "Q"
+        },
+        {
+          "level": 18,
+          "key": "Q"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "1101",
+          "name": "Scorchclaw Pup"
+        },
+        {
+          "dd_id": "6653",
+          "name": "Liandry's Torment"
+        },
+        {
+          "dd_id": "3020",
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass"
+        },
+        {
+          "dd_id": "3089",
+          "name": "Rabadon's Deathcap"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3102",
+          "name": "Banshee's Veil",
+          "against": "contro CC magici single-target che interrompono il channel di R (Lissandra R, Veigar E, Twisted Fate stun)"
+        },
+        {
+          "dd_id": "3135",
+          "name": "Void Staff",
+          "against": "swap quando 2+ nemici comprano un item di Resistenza Magica (soglia ~200+ MR)"
+        },
+        {
+          "dd_id": "3165",
+          "name": "Morellonomicon",
+          "against": "contro composizioni che impilano cure (Aatrox, Soraka, Vladimir, Dr. Mundo) — applica Grievous Wounds"
+        },
+        {
+          "dd_id": "4629",
+          "name": "Cosmic Drive",
+          "against": "quando ti serve Movement Speed extra per inseguire o entrare nel range di Crowstorm dalla fog"
+        }
+      ],
+      "base_combo": [
+        "R",
+        "Q",
+        "E",
+        "W"
+      ],
+      "win_condition": "Lancia Crowstorm dalla fog of war su 2+ nemici raggruppati su un obiettivo. Bountiful Harvest finisce i sopravvissuti mentre il silenzio di Reap blocca il counter-engage.",
+      "weakness": "Il channel di 1.5s di R è interrompibile da CC duro single-target, dash, e Cleanse/QSS. Senza sorpresa dalla fog, l'engage si telegrafa e il team ti kita fuori.",
+      "runes": {
+        "primary_tree": "Domination",
+        "primary_tree_dd_id": 8100,
+        "keystone": {
+          "dd_id": 8128,
+          "name": "Dark Harvest",
+          "icon_path": "perk-images/Styles/Domination/DarkHarvest/DarkHarvest.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 8143,
+            "name": "Sudden Impact",
+            "icon_path": "perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png"
+          },
+          {
+            "dd_id": 8135,
+            "name": "Treasure Hunter",
+            "icon_path": "perk-images/Styles/Domination/TreasureHunter/TreasureHunter.png"
+          },
+          {
+            "dd_id": 8106,
+            "name": "Ultimate Hunter",
+            "icon_path": "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png"
+          }
+        ],
+        "secondary_tree": "Sorcery",
+        "secondary_tree_dd_id": 8200,
+        "secondary_slots": [
+          {
+            "dd_id": 8226,
+            "name": "Manaflow Band",
+            "icon_path": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "dd_id": 8236,
+            "name": "Gathering Storm",
+            "icon_path": "perk-images/Styles/Sorcery/GatheringStorm/GatheringStorm.png"
+          }
+        ],
+        "stat_shards": [
+          "Adaptive Force",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Dark Harvest stacka in fretta nei teamfight raggruppati tramite l'AOE di Crowstorm. Sudden Impact procca sul blink di R per magic penetration extra. Treasure Hunter accelera Liandry's. Ultimate Hunter taglia il cooldown di Crowstorm per concatenare due ult tra obiettivi.",
+        "secondary_rationale": "Sorcery secondaria: Manaflow Band sistema i problemi di mana early game durante lo spam di W; Gathering Storm scala in un power spike late che si sposa con Rabadon's Deathcap.",
+        "secondary_alternative": "Contro engage di CC duro single-target (Lissandra, Malzahar, Veigar) swap Sorcery con Resolve: Bone Plating (riduzione danno per 5s dopo il primo colpo) e Revitalize (+5% all'healing di Bountiful Harvest)."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "udyr",
+            "warwick",
+            "master-yi"
+          ],
+          "archetype": "Jungler farmer senza tool di flank",
+          "reason": "Scalano linearmente con il farm ma non possono punire la tua invade tra livello 1 e 3. A livello 6, il tuo Crowstorm dalla fog batte i loro engage face-tank perché non hanno escape pre-cast."
+        },
+        {
+          "examples": [
+            "karthus",
+            "ziggs",
+            "xerath"
+          ],
+          "archetype": "Squadre artillery immobili che si raggruppano",
+          "reason": "I mage di retroguardia senza escape vengono one-shottati da un Crowstorm di flank perché non possono dashare fuori dall'AOE prima che il channel ticki."
+        },
+        {
+          "examples": [
+            "azir",
+            "orianna",
+            "viktor"
+          ],
+          "archetype": "Control mage senza dash",
+          "reason": "La R blinka oltre il loro zone control prima che possano piazzare il setup CC. Se appari dalla fog, non hanno tool per uscire."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "lee-sin",
+            "elise",
+            "kha-zix"
+          ],
+          "archetype": "Invader early-game con pressione di tracking",
+          "reason": "Minacciano la tua jungle a livello 2-3 e ti costringono a giocare difensivo. Fiddle non ha escape pre-6: se invaso non può scappare, e il clear è lento senza setup di vision via effigie."
+        },
+        {
+          "examples": [
+            "yasuo",
+            "samira"
+          ],
+          "archetype": "Carry con Wind Wall / blocco di proiettili",
+          "reason": "Wind Wall blocca la Q (singolo proiettile) e gran parte di Reap. Annullano il cast di engage nel momento peggiore, lasciandoti a canalizzare Crowstorm senza follow-up."
+        },
+        {
+          "examples": [
+            "lissandra",
+            "malzahar",
+            "veigar"
+          ],
+          "archetype": "Mage con CC duro point-and-click",
+          "reason": "Interrompono il channel di 1.5s di Crowstorm senza skill — Lissandra R, Malzahar R, Veigar E trasformano il tuo engage in ult sprecato e morte istantanea."
+        }
+      ]
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Fiddlesticks è un jungler da imboscata il cui kit è costruito attorno a una sola mossa: blinkare in un fight dalla fog of war con <strong>Crowstorm (R)</strong> e bruciare in AOE la squadra avversaria mentre è ancora raggruppata. Fuori da quella finestra è un mago lento e immobile, con duello debole e ulti a channel lungo, quindi la differenza tra una partita vinta e una persa sta quasi tutta nel <em>setup di vision</em> e nel <em>timing dell'engage</em> (quando e dove premi R).</p>\n<p>Il piano di gioco: pulisci la jungle in fretta con <strong>Bountiful Harvest (W)</strong>, piazza effigie su river e attorno alla jungle nemica per avere vision (e brevi fear su chi le vede), poi cerca una posizione di flank nascosta vicino al prossimo obiettivo (Drake o Baron). Quando 2+ nemici sono ammassati sull'obiettivo, blinka con <strong>R</strong>, droppa <strong>E</strong> per slow + silence, poi <strong>W</strong> e <strong>Q</strong> per finire chi scappa. Senza il fattore sorpresa il kit rende poco — Fiddle è binario: ace di setup o ult sprecato.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1035.png\" alt=\"Emberknife\"> <strong>Emberknife</strong> (lo starter da melee jungler che dà uno scatto di danno a Smite sui mostri e avvia la quest del pet) + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2031.png\" alt=\"Refillable Potion\"> <strong>Refillable Potion</strong>.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1101.png\" alt=\"Scorchclaw Pup\"> <strong>Scorchclaw Pup</strong> — quest upgrade da Emberknife (auto-evolve attorno al minuto 3-4 una volta accumulata abbastanza XP dai camp di jungle). Companion per AP (Ability Power, la stat che scala il danno magico) burst: aggiunge un effetto di danno magico che si attiva (un \"proc\") sull'auto-attack subito dopo una spell, in linea con il burn di Liandry's.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> <strong>Liandry's Torment</strong> — primo item completo. Il burn percentuale sugli HP nemici (danno proporzionale all'HP massimo del bersaglio) si stacca con ogni tick di Crowstorm AOE sui tank, trasformando l'ult in uno strumento da teamwipe.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — penetrazione magica fissa. Economici, immediati, default per qualsiasi AP prima del mid-game.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — entra in stasi appena finiscono i tick di AOE di Crowstorm, ti salva dal focus che mangi subito dopo l'engage. Mandatorio se hanno un diver o un assassino.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — moltiplicatore late-game (+35% AP bonus). Lo slot AP più alto, fa one-shottare gli squishy a Crowstorm.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — contro CC magici single-target che interrompono il channel di R (Lissandra R, Veigar E, Twisted Fate stun). Lo scudo blocca un'abilità prima che possano fermare l'ult.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — quando 2+ nemici comprano un item di Resistenza Magica.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — contro composizioni che impilano cure (Aatrox, Soraka, Vladimir, Dr. Mundo). Applica Grievous Wounds (taglia il 40% delle cure).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4629.png\" alt=\"Cosmic Drive\"> <strong>Cosmic Drive</strong> — quando ti serve Movement Speed extra per chase o per entrare nel range di R dalla fog.</li>\n</ul>\n<p><strong>Stivali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> di default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> se 2+ nemici hanno CC duro e Banshee's da sola non basta.</p>\n<p><strong>Skill order:</strong> Massimizza <strong>W</strong> per primo (clear e sustain in jungle), <strong>E</strong> per secondo (slow + silence in fight), <strong>Q</strong> per ultimo. Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Domination</strong> con <strong>Dark Harvest</strong>, <strong>Sudden Impact</strong>, <strong>Treasure Hunter</strong>, <strong>Ultimate Hunter</strong>. Secondario <strong>Sorcery</strong> con <strong>Manaflow Band</strong> e <strong>Gathering Storm</strong>. Contro engage CC duro single-target (Lissandra, Malzahar, Veigar) swap Sorcery con <strong>Resolve</strong>: <strong>Bone Plating</strong> e <strong>Revitalize</strong>.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Lee Sin / Elise:</strong> Jungler da invade early. Non contestare il tuo buff side a livello 1; vai cross-map e starta dal buff opposto con leash (i tuoi laner aiutano a iniziare il camp colpendolo per qualche secondo, così prendi meno danno), poi rota sulla Scuttle Crab di river. Droppa un'effigie su river per spottare il gank, e warda gli ingressi della tua jungle entro il minuto 3.</li>\n<li><strong>Karthus:</strong> Gara di scaling vs scaling. Lui ti supera in clear e in late. Devi forzare un gank a livello 6 o invadere la sua jungle con vision; se gli lasci toccare l'11, la sua R globale supera i tuoi single-objective.</li>\n<li><strong>Yasuo bot o mid:</strong> Wind Wall blocca il proiettile della <strong>Q</strong> e la linea centrale di silenzio della <strong>E</strong>. Lancia Crowstorm da un angolo laterale così non può coprire il team con il muro; flanka da una brush di lane non ovvia.</li>\n<li><strong>Zac:</strong> Tank engage speculare con E gap-close. Il silenzio della tua <strong>E</strong> spegne il timing di detonazione della sua W se la centri durante il channel; in un teamfight a coin-flip, vince chi piazza prima la <strong>R</strong> + silence.</li>\n<li><strong>Master Yi:</strong> È CC-immune attraverso il silenzio della <strong>E</strong> con la <strong>Q</strong> dash e la R Highlander. Tieni la <strong>Q</strong> per fearlo fuori dalla finestra di Highlander; senza il fear, il suo cleanup late game ti trasforma l'engage in un 1-per-3.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 6 (prima Crowstorm):</strong> Prima finestra di gank. Imposta vision nella fog di river 30s prima, poi entra. Un R + E pulito su 2 nemici sotto torre è una doppia kill garantita.</li>\n<li><strong>Livello 9 (W maxata):</strong> Il clear di jungle tocca la velocità massima e il sustain in fight schizza. Forza un Drake fight qui.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> Liandry's Torment + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> Sorcerer's Shoes (~ minuto 16-18):</strong> L'AOE di Crowstorm taglia attraverso i tank. Forza fight su Baron/Drake e cerca flank cross-map.</li>\n<li><strong>Livello 16 + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> Rabadon's Deathcap (~ minuto 28):</strong> Crowstorm one-shotta qualunque squishy che non abbia comprato un item di Resistenza Magica. Raggruppati con il team e forza il prossimo obiettivo grosso.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Usare R senza setup di fog of war.</strong> Un Fiddle visibile con la barra del channel attiva è un dodge gratis per la squadra avversaria. Lancia sempre da brush, dietro un muro, o da dentro un camp di jungle non wardato. Se vedono la barra, camminano via per 1.5s e tu spendi 80 mana e il tuo unico tool di engage.</li>\n<li><strong>Engage in solitaria con il team lontano.</strong> Crowstorm è un tool di engage di squadra, non un pick da assassino. Se il team è a 2+ schermate, l'ult tocca 1 nemico e tu muori nel follow-up. Controlla la posizione dei compagni prima di premere R.</li>\n<li><strong>Ignorare il piazzamento delle effigie.</strong> Le effigie danno vision e brevi fear. Cariche di trinket non usate sono vision gratis che il nemico <em>non</em> sta pagando per spegnere. Droppane una su river prima di ogni obiettivo.</li>\n<li><strong>Usare Q per last-hittare i camp di jungle.</strong> La Q è il tuo unico setup single-target per i fear in fight. Tienila per i fight — W ed E puliscono i camp benissimo.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Il channel di 1.5s di <strong>Crowstorm</strong> è interrompibile da qualunque cosa ti sposti o ti stunni, ma se premi <strong>R</strong> nello stesso istante in cui un nemico entra in una brush dove sei piazzato, la breve interruzione di vision non gli dà tempo di reagire prima che il blink atterri. Allena il timing in custom: nasconditi nella brush, aspetta che un nemico cammini adiacente, premi R da dentro il suo personal space. Il blink ti tiene incollato a lui per tutta la durata dell'AOE, e il panico per un Fiddle face-of-fog gli costa più Flash di qualsiasi altro engage del gioco.</p>",
+    "content_html_pre": "<h2>Panoramica</h2>\n<p>Fiddlesticks è un jungler da imboscata il cui kit è costruito attorno a una sola mossa: blinkare in un fight dalla fog of war con <strong>Crowstorm (R)</strong> e bruciare in AOE la squadra avversaria mentre è ancora raggruppata. Fuori da quella finestra è un mago lento e immobile, con duello debole e ulti a channel lungo, quindi la differenza tra una partita vinta e una persa sta quasi tutta nel <em>setup di vision</em> e nel <em>timing dell'engage</em> (quando e dove premi R).</p>\n<p>Il piano di gioco: pulisci la jungle in fretta con <strong>Bountiful Harvest (W)</strong>, piazza effigie su river e attorno alla jungle nemica per avere vision (e brevi fear su chi le vede), poi cerca una posizione di flank nascosta vicino al prossimo obiettivo (Drake o Baron). Quando 2+ nemici sono ammassati sull'obiettivo, blinka con <strong>R</strong>, droppa <strong>E</strong> per slow + silence, poi <strong>W</strong> e <strong>Q</strong> per finire chi scappa. Senza il fattore sorpresa il kit rende poco — Fiddle è binario: ace di setup o ult sprecato.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1035.png\" alt=\"Emberknife\"> <strong>Emberknife</strong> (lo starter da melee jungler che dà uno scatto di danno a Smite sui mostri e avvia la quest del pet) + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2031.png\" alt=\"Refillable Potion\"> <strong>Refillable Potion</strong>.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1101.png\" alt=\"Scorchclaw Pup\"> <strong>Scorchclaw Pup</strong> — quest upgrade da Emberknife (auto-evolve attorno al minuto 3-4 una volta accumulata abbastanza XP dai camp di jungle). Companion per AP (Ability Power, la stat che scala il danno magico) burst: aggiunge un effetto di danno magico che si attiva (un \"proc\") sull'auto-attack subito dopo una spell, in linea con il burn di Liandry's.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> <strong>Liandry's Torment</strong> — primo item completo. Il burn percentuale sugli HP nemici (danno proporzionale all'HP massimo del bersaglio) si stacca con ogni tick di Crowstorm AOE sui tank, trasformando l'ult in uno strumento da teamwipe.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — penetrazione magica fissa. Economici, immediati, default per qualsiasi AP prima del mid-game.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — entra in stasi appena finiscono i tick di AOE di Crowstorm, ti salva dal focus che mangi subito dopo l'engage. Mandatorio se hanno un diver o un assassino.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — moltiplicatore late-game (+35% AP bonus). Lo slot AP più alto, fa one-shottare gli squishy a Crowstorm.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — contro CC magici single-target che interrompono il channel di R (Lissandra R, Veigar E, Twisted Fate stun). Lo scudo blocca un'abilità prima che possano fermare l'ult.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — quando 2+ nemici comprano un item di Resistenza Magica.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — contro composizioni che impilano cure (Aatrox, Soraka, Vladimir, Dr. Mundo). Applica Grievous Wounds (taglia il 40% delle cure).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4629.png\" alt=\"Cosmic Drive\"> <strong>Cosmic Drive</strong> — quando ti serve Movement Speed extra per chase o per entrare nel range di R dalla fog.</li>\n</ul>\n<p><strong>Stivali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> di default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> se 2+ nemici hanno CC duro e Banshee's da sola non basta.</p>\n<p><strong>Skill order:</strong> Massimizza <strong>W</strong> per primo (clear e sustain in jungle), <strong>E</strong> per secondo (slow + silence in fight), <strong>Q</strong> per ultimo. Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Domination</strong> con <strong>Dark Harvest</strong>, <strong>Sudden Impact</strong>, <strong>Treasure Hunter</strong>, <strong>Ultimate Hunter</strong>. Secondario <strong>Sorcery</strong> con <strong>Manaflow Band</strong> e <strong>Gathering Storm</strong>. Contro engage CC duro single-target (Lissandra, Malzahar, Veigar) swap Sorcery con <strong>Resolve</strong>: <strong>Bone Plating</strong> e <strong>Revitalize</strong>.</p>",
+    "content_html_post": "<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Lee Sin / Elise:</strong> Jungler da invade early. Non contestare il tuo buff side a livello 1; vai cross-map e starta dal buff opposto con leash (i tuoi laner aiutano a iniziare il camp colpendolo per qualche secondo, così prendi meno danno), poi rota sulla Scuttle Crab di river. Droppa un'effigie su river per spottare il gank, e warda gli ingressi della tua jungle entro il minuto 3.</li>\n<li><strong>Karthus:</strong> Gara di scaling vs scaling. Lui ti supera in clear e in late. Devi forzare un gank a livello 6 o invadere la sua jungle con vision; se gli lasci toccare l'11, la sua R globale supera i tuoi single-objective.</li>\n<li><strong>Yasuo bot o mid:</strong> Wind Wall blocca il proiettile della <strong>Q</strong> e la linea centrale di silenzio della <strong>E</strong>. Lancia Crowstorm da un angolo laterale così non può coprire il team con il muro; flanka da una brush di lane non ovvia.</li>\n<li><strong>Zac:</strong> Tank engage speculare con E gap-close. Il silenzio della tua <strong>E</strong> spegne il timing di detonazione della sua W se la centri durante il channel; in un teamfight a coin-flip, vince chi piazza prima la <strong>R</strong> + silence.</li>\n<li><strong>Master Yi:</strong> È CC-immune attraverso il silenzio della <strong>E</strong> con la <strong>Q</strong> dash e la R Highlander. Tieni la <strong>Q</strong> per fearlo fuori dalla finestra di Highlander; senza il fear, il suo cleanup late game ti trasforma l'engage in un 1-per-3.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 6 (prima Crowstorm):</strong> Prima finestra di gank. Imposta vision nella fog di river 30s prima, poi entra. Un R + E pulito su 2 nemici sotto torre è una doppia kill garantita.</li>\n<li><strong>Livello 9 (W maxata):</strong> Il clear di jungle tocca la velocità massima e il sustain in fight schizza. Forza un Drake fight qui.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> Liandry's Torment + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> Sorcerer's Shoes (~ minuto 16-18):</strong> L'AOE di Crowstorm taglia attraverso i tank. Forza fight su Baron/Drake e cerca flank cross-map.</li>\n<li><strong>Livello 16 + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> Rabadon's Deathcap (~ minuto 28):</strong> Crowstorm one-shotta qualunque squishy che non abbia comprato un item di Resistenza Magica. Raggruppati con il team e forza il prossimo obiettivo grosso.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Usare R senza setup di fog of war.</strong> Un Fiddle visibile con la barra del channel attiva è un dodge gratis per la squadra avversaria. Lancia sempre da brush, dietro un muro, o da dentro un camp di jungle non wardato. Se vedono la barra, camminano via per 1.5s e tu spendi 80 mana e il tuo unico tool di engage.</li>\n<li><strong>Engage in solitaria con il team lontano.</strong> Crowstorm è un tool di engage di squadra, non un pick da assassino. Se il team è a 2+ schermate, l'ult tocca 1 nemico e tu muori nel follow-up. Controlla la posizione dei compagni prima di premere R.</li>\n<li><strong>Ignorare il piazzamento delle effigie.</strong> Le effigie danno vision e brevi fear. Cariche di trinket non usate sono vision gratis che il nemico <em>non</em> sta pagando per spegnere. Droppane una su river prima di ogni obiettivo.</li>\n<li><strong>Usare Q per last-hittare i camp di jungle.</strong> La Q è il tuo unico setup single-target per i fear in fight. Tienila per i fight — W ed E puliscono i camp benissimo.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Il channel di 1.5s di <strong>Crowstorm</strong> è interrompibile da qualunque cosa ti sposti o ti stunni, ma se premi <strong>R</strong> nello stesso istante in cui un nemico entra in una brush dove sei piazzato, la breve interruzione di vision non gli dà tempo di reagire prima che il blink atterri. Allena il timing in custom: nasconditi nella brush, aspetta che un nemico cammini adiacente, premi R da dentro il suo personal space. Il blink ti tiene incollato a lui per tutta la durata dell'AOE, e il panico per un Fiddle face-of-fog gli costa più Flash di qualsiasi altro engage del gioco.</p>",
+    "word_count": 1168,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "amumu-jungle",
+        "champion": "amumu",
+        "role": "jungle"
+      },
+      {
+        "slug": "diana-jungle",
+        "champion": "diana",
+        "role": "jungle"
+      },
+      {
+        "slug": "ekko-jungle",
+        "champion": "ekko",
+        "role": "jungle"
+      },
+      {
+        "slug": "graves-jungle",
+        "champion": "graves",
+        "role": "jungle"
+      },
+      {
+        "slug": "hecarim-jungle",
+        "champion": "hecarim",
+        "role": "jungle"
+      }
+    ],
+    "champion_key": "9"
+  },
+  {
+    "slug": "fiddlesticks-support",
+    "title": "Fiddlesticks Support Build & Guida — Patch 16.9",
+    "language": "it",
+    "patch": "16.9",
+    "champion": "fiddlesticks",
+    "role": "support",
+    "last_updated": "2026-05-02",
+    "description": "Guida Fiddlesticks support per League of Legends Patch 16.9: build AP da engage, harass in lane, matchup chiave, power spike, errori comuni e un consiglio finale.",
+    "quick_learn": {
+      "champion_dd_id": "Fiddlesticks",
+      "difficulty": 4,
+      "damage_type": "magic",
+      "champion_class": "Mage / Engage Support",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "A Harmless Scarecrow",
+          "description": "Lo slot trinket diventa cariche di effigie. Piazza falsi spaventapasseri di Fiddle per vision; chi li vede prende un breve fear e l'effigie esplode.",
+          "dd_spell_id": "Fiddlesticks_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Terrify",
+          "description": "Targetta un singolo nemico. Anche danneggiarlo con una spell mentre sei unseen lo Terrifica. Lo fa scappare lontano da te per 1-2.5s.",
+          "dd_spell_id": "FiddleSticksQ"
+        },
+        {
+          "key": "W",
+          "name": "Bountiful Harvest",
+          "description": "Channel che droga HP dai nemici vicini (ti cura). A fine canalizzazione infligge danno bonus ad esecuzione. Sustain in lane dopo il primo back.",
+          "dd_spell_id": "FiddleSticksW"
+        },
+        {
+          "key": "E",
+          "name": "Reap",
+          "description": "Falce a boomerang in un cono ampio: rallenta tutti i nemici colpiti e silenza chi è nella linea centrale. Tool principale di harass in lane — colpisce due volte.",
+          "dd_spell_id": "FiddleSticksE"
+        },
+        {
+          "key": "R",
+          "name": "Crowstorm",
+          "description": "Channel di 1.5s, poi blink al punto target con danno AOE per secondo intorno a Fiddle per 5s. Lanciala da una brush di lane sull'ADC nemico.",
+          "dd_spell_id": "FiddleSticksR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "E"
+        },
+        {
+          "level": 2,
+          "key": "W"
+        },
+        {
+          "level": 3,
+          "key": "Q"
+        },
+        {
+          "level": 4,
+          "key": "E"
+        },
+        {
+          "level": 5,
+          "key": "E"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "E"
+        },
+        {
+          "level": 8,
+          "key": "W"
+        },
+        {
+          "level": 9,
+          "key": "E"
+        },
+        {
+          "level": 10,
+          "key": "W"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "W"
+        },
+        {
+          "level": 13,
+          "key": "W"
+        },
+        {
+          "level": 14,
+          "key": "Q"
+        },
+        {
+          "level": 15,
+          "key": "Q"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "Q"
+        },
+        {
+          "level": 18,
+          "key": "Q"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "3877",
+          "name": "Bloodsong"
+        },
+        {
+          "dd_id": "3020",
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "dd_id": "3504",
+          "name": "Imperial Mandate"
+        },
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass"
+        },
+        {
+          "dd_id": "3089",
+          "name": "Rabadon's Deathcap"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3190",
+          "name": "Locket of the Iron Solari",
+          "against": "contro composizioni AOE-burst pesanti quando il team chiede uno scudo attivo (Yasuo + Malphite, Wukong, Diana)"
+        },
+        {
+          "dd_id": "3102",
+          "name": "Banshee's Veil",
+          "against": "contro CC magici single-target che interrompono il channel di R (Lissandra R, Veigar E, Twisted Fate stun)"
+        },
+        {
+          "dd_id": "3165",
+          "name": "Morellonomicon",
+          "against": "contro composizioni che impilano cure (Soraka, Vladimir, Aatrox) — applica Grievous Wounds"
+        },
+        {
+          "dd_id": "3135",
+          "name": "Void Staff",
+          "against": "swap quando 2+ nemici comprano un item di Resistenza Magica"
+        }
+      ],
+      "base_combo": [
+        "R",
+        "E",
+        "Q",
+        "W"
+      ],
+      "win_condition": "Imposta vision profonda sul bot, nasconditi nel tri-cespuglio a livello 6, poi Crowstorm sull'ADC nemico per una kill garantita che fa snowballare il tuo carry.",
+      "weakness": "La peggior lane phase tra i support da engage pre-6: nessuno scudo, nessun CC point-and-click. Se invaso o pokato fuori, non hai tool di comeback finché l'ult non è online.",
+      "runes": {
+        "primary_tree": "Resolve",
+        "primary_tree_dd_id": 8400,
+        "keystone": {
+          "dd_id": 8439,
+          "name": "Aftershock",
+          "icon_path": "perk-images/Styles/Resolve/VeteranAftershock/VeteranAftershock.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 8463,
+            "name": "Font of Life",
+            "icon_path": "perk-images/Styles/Resolve/FontOfLife/FontOfLife.png"
+          },
+          {
+            "dd_id": 8473,
+            "name": "Bone Plating",
+            "icon_path": "perk-images/Styles/Resolve/BonePlating/BonePlating.png"
+          },
+          {
+            "dd_id": 8453,
+            "name": "Revitalize",
+            "icon_path": "perk-images/Styles/Resolve/Revitalize/Revitalize.png"
+          }
+        ],
+        "secondary_tree": "Sorcery",
+        "secondary_tree_dd_id": 8200,
+        "secondary_slots": [
+          {
+            "dd_id": 8226,
+            "name": "Manaflow Band",
+            "icon_path": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "dd_id": 8210,
+            "name": "Transcendence",
+            "icon_path": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png"
+          }
+        ],
+        "stat_shards": [
+          "Ability Haste",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Aftershock procca sulla Q Terrify (CC immobilizzante) per uno spike di 2.5s di armatura e MR che salva Fiddle dal focus dopo Crowstorm. Font of Life cura i carry dopo ogni fear, Bone Plating mangia il burst di all-in early, Revitalize potenzia il sustain di Bountiful Harvest.",
+        "secondary_rationale": "Sorcery secondaria: Manaflow Band sistema i problemi di mana durante lo spam di E in lane; Transcendence porta l'ability haste oltre 30 una volta completate le Sorcerer's Shoes per cicli di Crowstorm più corti.",
+        "secondary_alternative": "Contro lane di poke pesante (Lux, Karma, Xerath support) swap Sorcery con Inspiration: Biscuit Delivery (5 biscotti gratis nell'early per restare full HP/mana) e Cosmic Insight (Flash e Crowstorm con cooldown ridotti)."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "soraka",
+            "yuumi",
+            "janna"
+          ],
+          "archetype": "Enchanter squishy senza CC duro",
+          "reason": "Il loro kit ruota su healing e shielding — un Crowstorm dal tri-cespuglio supera i loro cooldown e one-shotta sia loro che l'ADC prima che heal o shield possano essere usati due volte."
+        },
+        {
+          "examples": [
+            "caitlyn",
+            "kog-maw",
+            "ashe"
+          ],
+          "archetype": "ADC immobili senza dash",
+          "reason": "Questi ADC non possono scappare a un flank dalla brush; una volta che R + E centrano, non hanno tool di mobilità per resettare la distanza e il tuo bot converte la kill in torre."
+        },
+        {
+          "examples": [
+            "sona",
+            "seraphine"
+          ],
+          "archetype": "Support mage da retroguardia senza escape",
+          "reason": "Stanno indietro per buffare gli alleati — ma le tue effigie danno vision profonda che trova la loro posizione, e il channel di R da dentro il loro hex le one-shotta prima che possano muoversi."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "morgana",
+            "milio"
+          ],
+          "archetype": "Enchanter con Black Shield / spell-shield",
+          "reason": "Black Shield assorbe Terrify (Q fear) e il primo tick AOE di Crowstorm sul carry, neutralizzando il cast di engage e dando 5s di finestra per il disengage."
+        },
+        {
+          "examples": [
+            "janna",
+            "lulu"
+          ],
+          "archetype": "Enchanter da disengage / peel",
+          "reason": "Janna R o Lulu W ti sbattono fuori dal carry l'istante in cui atterri. L'AOE di Crowstorm continua a tickare ma senza follow-up CC, il fight si resetta e mangi focus damage per niente."
+        },
+        {
+          "examples": [
+            "lux",
+            "karma",
+            "xerath"
+          ],
+          "archetype": "Support artillery a lunga gittata",
+          "reason": "Ti pokano fuori lane prima del 6 oltre il range della tua E. Fiddle non ha scudo né modo di chiudere il gap, quindi la barra HP cala alla metà prima che la prima R sia online."
+        }
+      ]
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Fiddlesticks support è un pick da hide-and-engage: un AP (Ability Power, lo scaling del danno magico) support la cui intera lane phase è il setup di un solo momento — premere <strong>Crowstorm (R)</strong> da dentro una brush di lane a livello 6 sull'ADC nemico (il marksman, il carry da auto-attack ranged del bot lane), con il tuo bot lane a fare follow-up sul blink. Fiddle non ha scudo, né CC point-and-click, né escape, quindi il prezzo per quel power spike a livello 6 è la peggior lane phase tra i support da engage tra i livelli 1 e 5.</p>\n<p>Il piano di gioco: piazza effigie sul tri-cespuglio bot e sul river per minacciare giocate da agguato, usa <strong>Reap (E)</strong> per slow + silence in harass quando un nemico passa per last-hittare, ed evita di farti pokare fuori dai matchup a lunga gittata. Una volta che <strong>R</strong> è up, cerca qualunque momento in cui l'ADC nemico è shovato oltre la torre o il support sta roamando — poi blinka. A metà partita il tuo lavoro è trovare flank per i Drake fight dalla fog di river o da ingressi di jungle non wardati. Sei in pratica un Fiddle jungler che passa la lane phase accanto a un ADC.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3850.png\" alt=\"Spellthief&#x27;s Edge\"> <strong>Spellthief's Edge</strong> (lo starter AP da support che si quest-evolve in Bloodsong) + 2 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potions</strong>.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png\" alt=\"Bloodsong\"> <strong>Bloodsong</strong> — il reward da quest di Spellthief's Edge. Obbligatorio: ti dà l'income di oro che ti permette di comprare item veri, più uno stack di AP-on-takedown che fa snowballare il tuo danno. Chiudi la quest entro il minuto 12-14.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — penetrazione magica fissa (taglia attraverso la resistenza magica nemica). Economici e la scelta giusta sopra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3117.png\" alt=\"Mobility Boots\"> <strong>Mobility Boots</strong> una volta che R è online.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3504.png\" alt=\"Imperial Mandate\"> <strong>Imperial Mandate</strong> — il tuo item principale. Lo slow di <strong>E</strong> e <strong>R</strong> marchia i target; quando un alleato colpisce il bersaglio marchiato la marca esplode per danno bonus (e condivide l'oro con l'ADC). Sinergia pura con il kit pieno di slow di Fiddle.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — entra in stasi l'istante in cui Crowstorm finisce di tickare. Mandatorio se hanno un diver o un assassino; senza, muori subito dopo ogni engage.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — solo se la partita si allunga e ti rimane oro dopo gli item da support. Il +35% AP bonus fa one-shottare gli squishy a Crowstorm.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> <strong>Locket of the Iron Solari</strong> — contro AOE burst pesante (Yasuo + Malphite, Wukong, Diana). Lo scudo attivo salva il team durante la loro wombo.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — contro CC magici single-target che interrompono R (Lissandra R, Veigar E, Twisted Fate stun).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — contro composizioni che impilano cure (Soraka, Vladimir, Aatrox).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — quando 2+ nemici comprano un item di Resistenza Magica.</li>\n</ul>\n<p><strong>Stivali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> di default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> se 2+ nemici hanno CC duro.</p>\n<p><strong>Skill order:</strong> Massimizza <strong>E</strong> per primo (slow + silence è il tuo unico harass in lane), <strong>W</strong> per secondo (sustain dopo il primo back), <strong>Q</strong> per ultimo. Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Resolve</strong> con <strong>Aftershock</strong>, <strong>Font of Life</strong>, <strong>Bone Plating</strong>, <strong>Revitalize</strong>. Secondario <strong>Sorcery</strong> con <strong>Manaflow Band</strong> e <strong>Transcendence</strong>. Contro lane di poke pesante (Lux, Karma, Xerath support) swap Sorcery con <strong>Inspiration</strong>: <strong>Biscuit Delivery</strong> e <strong>Cosmic Insight</strong>.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Lux support:</strong> Q binding a lunga gittata più poke con E. Nasconditi dietro la wave così la sua <strong>Q</strong> non ha linea pulita, e non face-checkare mai il tri-cespuglio senza prima controllare con un'effigie. Sopravvivi al 6, poi Crowstorm su di lei se si over-estende.</li>\n<li><strong>Morgana:</strong> Black Shield neutralizza il fear della tua <strong>Q</strong> e il primo tick AOE di R sull'ADC. Engage sempre sull'ADC invece che su Morgana, e forzala a pre-shieldare con un finto passo dentro la brush prima di committare.</li>\n<li><strong>Leona:</strong> Matchup di engage speculare, ma Leona ha CC point-and-click e Aftershock che batte il tuo pre-6. Trade solo quando ha usato la <strong>E</strong>, e non engagiare mai per primo contro Leona — ti stunna fuori dal channel di R.</li>\n<li><strong>Janna:</strong> Hard counter al tuo engage. La <strong>R</strong> di Janna sull'atterraggio ti sbatte fuori dal carry, vanificando tutto l'ult. Tieni Crowstorm per quando ha bruciato la sua R in un altro fight, o quando sta roamando.</li>\n<li><strong>Coppie ADC Caitlyn / Senna:</strong> La tua lane dei sogni. Mancano di mobilità — una volta toccato il 6, Crowstorm dal tri-cespuglio le finisce ogni volta. Dì all'ADC di setuppare la wave per crashare al minuto 5 in modo da raggiungere il 6 insieme.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2 (con E + W):</strong> Prima finestra di trade. Centra <strong>E</strong> attraverso la wave per chunkare l'ADC nemico; se shovano verso di te, <strong>W</strong> sotto torre per sustain.</li>\n<li><strong>Livello 6 (prima Crowstorm):</strong> Il tuo unico vero spike di lane. Imposta uno Stealth Ward (il trinket ward bianco gratuito con cui ogni champion parte) in tri-cespuglio (il triangolo di cespugli tra river bot e la lane bot) 30s prima, posizionati dentro, poi blinka sull'ADC nemico. Un R + E + follow-up dell'ADC pulito è una kill garantita.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3504.png\" alt=\"Imperial Mandate\"> Imperial Mandate online (~ minuto 14-16):</strong> Il proc di danno sullo slow spikea. Cerca flank cross-map per i Drake fight — l'oro che condividi con l'ADC dai proc di Mandate accelera tutto il bot side.</li>\n<li><strong>Livello 11 + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> Zhonya's Hourglass (~ minuto 22):</strong> Il secondo punto in R abbassa il cooldown e la stasi ti copre post-engage. Forza i teamfight su Drake o Baron con setup dalla fog.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Engagiare senza follow-up dell'ADC.</strong> Un Crowstorm in solitaria taggа i nemici ma non killa nessuno se l'ADC sta back-recallando. Controlla mappa e mana ADC prima di premere R; se non ha ult e non ha mana, tieni l'engage per una finestra migliore.</li>\n<li><strong>Stare davanti alla wave a livello 1-3.</strong> Non hai scudo né escape pre-6. Sta dietro all'ADC e alla linea di minion; lascia last-hittare lui, tu nasconditi nella brush aspettando un fear da effigie nel tri-cespuglio per setuppare il trade.</li>\n<li><strong>Sprecare effigie nelle brush di lane.</strong> Le effigie valgono di più quando danno vision che il nemico <em>non</em> sta pagando per spegnere. Piazzale in tri-cespuglio o pixel-brush per setup di engage, non nelle brush ovvie del bot lane che vengono pulite dal primo sweep del support nemico.</li>\n<li><strong>Engagiare contro un Black Shield non bruciato (Morgana).</strong> Una Morgana con Black Shield up trasforma il tuo spike a livello 6 in ult sprecato. Engage sempre sull'ADC, non su Morgana, e forzala a pre-shieldare fingendo un walk-in nella brush 2 secondi prima di committare.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Il channel di 1.5s di <strong>Crowstorm</strong> è interrompibile da qualunque cosa ti sposti o ti stunni, ma il channel in sé non rompe la stealth della brush — significa che puoi premere <strong>R</strong> mentre sei ancora dentro il tri-cespuglio, e il nemico vedrà la barra del channel solo per una frazione di secondo prima che il blink atterri. Allena questo nelle normal: aspetta che l'ADC nemico si over-estenda per un CS, premi R da dentro il tri-cespuglio, blinka in faccia. L'audio cue (la risata iconica di Fiddle) è l'unico avviso che ricevono, e quando reagiscono l'AOE sta già tickando.</p>",
+    "content_html_pre": "<h2>Panoramica</h2>\n<p>Fiddlesticks support è un pick da hide-and-engage: un AP (Ability Power, lo scaling del danno magico) support la cui intera lane phase è il setup di un solo momento — premere <strong>Crowstorm (R)</strong> da dentro una brush di lane a livello 6 sull'ADC nemico (il marksman, il carry da auto-attack ranged del bot lane), con il tuo bot lane a fare follow-up sul blink. Fiddle non ha scudo, né CC point-and-click, né escape, quindi il prezzo per quel power spike a livello 6 è la peggior lane phase tra i support da engage tra i livelli 1 e 5.</p>\n<p>Il piano di gioco: piazza effigie sul tri-cespuglio bot e sul river per minacciare giocate da agguato, usa <strong>Reap (E)</strong> per slow + silence in harass quando un nemico passa per last-hittare, ed evita di farti pokare fuori dai matchup a lunga gittata. Una volta che <strong>R</strong> è up, cerca qualunque momento in cui l'ADC nemico è shovato oltre la torre o il support sta roamando — poi blinka. A metà partita il tuo lavoro è trovare flank per i Drake fight dalla fog di river o da ingressi di jungle non wardati. Sei in pratica un Fiddle jungler che passa la lane phase accanto a un ADC.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3850.png\" alt=\"Spellthief&#x27;s Edge\"> <strong>Spellthief's Edge</strong> (lo starter AP da support che si quest-evolve in Bloodsong) + 2 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potions</strong>.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png\" alt=\"Bloodsong\"> <strong>Bloodsong</strong> — il reward da quest di Spellthief's Edge. Obbligatorio: ti dà l'income di oro che ti permette di comprare item veri, più uno stack di AP-on-takedown che fa snowballare il tuo danno. Chiudi la quest entro il minuto 12-14.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — penetrazione magica fissa (taglia attraverso la resistenza magica nemica). Economici e la scelta giusta sopra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3117.png\" alt=\"Mobility Boots\"> <strong>Mobility Boots</strong> una volta che R è online.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3504.png\" alt=\"Imperial Mandate\"> <strong>Imperial Mandate</strong> — il tuo item principale. Lo slow di <strong>E</strong> e <strong>R</strong> marchia i target; quando un alleato colpisce il bersaglio marchiato la marca esplode per danno bonus (e condivide l'oro con l'ADC). Sinergia pura con il kit pieno di slow di Fiddle.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — entra in stasi l'istante in cui Crowstorm finisce di tickare. Mandatorio se hanno un diver o un assassino; senza, muori subito dopo ogni engage.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — solo se la partita si allunga e ti rimane oro dopo gli item da support. Il +35% AP bonus fa one-shottare gli squishy a Crowstorm.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> <strong>Locket of the Iron Solari</strong> — contro AOE burst pesante (Yasuo + Malphite, Wukong, Diana). Lo scudo attivo salva il team durante la loro wombo.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — contro CC magici single-target che interrompono R (Lissandra R, Veigar E, Twisted Fate stun).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — contro composizioni che impilano cure (Soraka, Vladimir, Aatrox).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — quando 2+ nemici comprano un item di Resistenza Magica.</li>\n</ul>\n<p><strong>Stivali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> di default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> se 2+ nemici hanno CC duro.</p>\n<p><strong>Skill order:</strong> Massimizza <strong>E</strong> per primo (slow + silence è il tuo unico harass in lane), <strong>W</strong> per secondo (sustain dopo il primo back), <strong>Q</strong> per ultimo. Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Resolve</strong> con <strong>Aftershock</strong>, <strong>Font of Life</strong>, <strong>Bone Plating</strong>, <strong>Revitalize</strong>. Secondario <strong>Sorcery</strong> con <strong>Manaflow Band</strong> e <strong>Transcendence</strong>. Contro lane di poke pesante (Lux, Karma, Xerath support) swap Sorcery con <strong>Inspiration</strong>: <strong>Biscuit Delivery</strong> e <strong>Cosmic Insight</strong>.</p>",
+    "content_html_post": "<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Lux support:</strong> Q binding a lunga gittata più poke con E. Nasconditi dietro la wave così la sua <strong>Q</strong> non ha linea pulita, e non face-checkare mai il tri-cespuglio senza prima controllare con un'effigie. Sopravvivi al 6, poi Crowstorm su di lei se si over-estende.</li>\n<li><strong>Morgana:</strong> Black Shield neutralizza il fear della tua <strong>Q</strong> e il primo tick AOE di R sull'ADC. Engage sempre sull'ADC invece che su Morgana, e forzala a pre-shieldare con un finto passo dentro la brush prima di committare.</li>\n<li><strong>Leona:</strong> Matchup di engage speculare, ma Leona ha CC point-and-click e Aftershock che batte il tuo pre-6. Trade solo quando ha usato la <strong>E</strong>, e non engagiare mai per primo contro Leona — ti stunna fuori dal channel di R.</li>\n<li><strong>Janna:</strong> Hard counter al tuo engage. La <strong>R</strong> di Janna sull'atterraggio ti sbatte fuori dal carry, vanificando tutto l'ult. Tieni Crowstorm per quando ha bruciato la sua R in un altro fight, o quando sta roamando.</li>\n<li><strong>Coppie ADC Caitlyn / Senna:</strong> La tua lane dei sogni. Mancano di mobilità — una volta toccato il 6, Crowstorm dal tri-cespuglio le finisce ogni volta. Dì all'ADC di setuppare la wave per crashare al minuto 5 in modo da raggiungere il 6 insieme.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2 (con E + W):</strong> Prima finestra di trade. Centra <strong>E</strong> attraverso la wave per chunkare l'ADC nemico; se shovano verso di te, <strong>W</strong> sotto torre per sustain.</li>\n<li><strong>Livello 6 (prima Crowstorm):</strong> Il tuo unico vero spike di lane. Imposta uno Stealth Ward (il trinket ward bianco gratuito con cui ogni champion parte) in tri-cespuglio (il triangolo di cespugli tra river bot e la lane bot) 30s prima, posizionati dentro, poi blinka sull'ADC nemico. Un R + E + follow-up dell'ADC pulito è una kill garantita.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3504.png\" alt=\"Imperial Mandate\"> Imperial Mandate online (~ minuto 14-16):</strong> Il proc di danno sullo slow spikea. Cerca flank cross-map per i Drake fight — l'oro che condividi con l'ADC dai proc di Mandate accelera tutto il bot side.</li>\n<li><strong>Livello 11 + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> Zhonya's Hourglass (~ minuto 22):</strong> Il secondo punto in R abbassa il cooldown e la stasi ti copre post-engage. Forza i teamfight su Drake o Baron con setup dalla fog.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Engagiare senza follow-up dell'ADC.</strong> Un Crowstorm in solitaria taggа i nemici ma non killa nessuno se l'ADC sta back-recallando. Controlla mappa e mana ADC prima di premere R; se non ha ult e non ha mana, tieni l'engage per una finestra migliore.</li>\n<li><strong>Stare davanti alla wave a livello 1-3.</strong> Non hai scudo né escape pre-6. Sta dietro all'ADC e alla linea di minion; lascia last-hittare lui, tu nasconditi nella brush aspettando un fear da effigie nel tri-cespuglio per setuppare il trade.</li>\n<li><strong>Sprecare effigie nelle brush di lane.</strong> Le effigie valgono di più quando danno vision che il nemico <em>non</em> sta pagando per spegnere. Piazzale in tri-cespuglio o pixel-brush per setup di engage, non nelle brush ovvie del bot lane che vengono pulite dal primo sweep del support nemico.</li>\n<li><strong>Engagiare contro un Black Shield non bruciato (Morgana).</strong> Una Morgana con Black Shield up trasforma il tuo spike a livello 6 in ult sprecato. Engage sempre sull'ADC, non su Morgana, e forzala a pre-shieldare fingendo un walk-in nella brush 2 secondi prima di committare.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Il channel di 1.5s di <strong>Crowstorm</strong> è interrompibile da qualunque cosa ti sposti o ti stunni, ma il channel in sé non rompe la stealth della brush — significa che puoi premere <strong>R</strong> mentre sei ancora dentro il tri-cespuglio, e il nemico vedrà la barra del channel solo per una frazione di secondo prima che il blink atterri. Allena questo nelle normal: aspetta che l'ADC nemico si over-estenda per un CS, premi R da dentro il tri-cespuglio, blinka in faccia. L'audio cue (la risata iconica di Fiddle) è l'unico avviso che ricevono, e quando reagiscono l'AOE sta già tickando.</p>",
+    "word_count": 1197,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "blitzcrank-support",
+        "champion": "blitzcrank",
+        "role": "support"
+      },
+      {
+        "slug": "braum-support",
+        "champion": "braum",
+        "role": "support"
+      },
+      {
+        "slug": "janna-support",
+        "champion": "janna",
+        "role": "support"
+      },
+      {
+        "slug": "karma-support",
+        "champion": "karma",
+        "role": "support"
+      },
+      {
+        "slug": "leona-support",
+        "champion": "leona",
+        "role": "support"
+      }
+    ],
+    "champion_key": "9"
   },
   {
     "slug": "fiora-top",

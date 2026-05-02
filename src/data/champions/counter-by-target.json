@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01",
+  "generated_at": "2026-05-02",
   "targets": {
     "aatrox": [
       {
@@ -608,6 +608,26 @@
         },
         "archetype": "Tank engage senza dash",
         "reason": "La mobility di Ekko (E + R rewind) schiva il loro engage telegrafato, e il burst AP picchia forte sui tank con poca MR. Li kite dietro angoli e brucia i loro carry dalla fog.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Slow farming junglers",
+        "reason": "Junglers that want to farm and scale: Evelynn invades, steals camps, and ganks with Camouflage post-6, forcing them to defend instead of scaling.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Junglers da farm e scaling",
+        "reason": "Jungler che vogliono farmare e scalare: Evelynn invade, ruba camp e gankka con Camouflage post-6, costringendoli a difendersi invece di scalare.",
         "via": "pick_into"
       },
       {
@@ -1240,6 +1260,26 @@
       },
       {
         "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile ADCs without dash",
+        "reason": "These ADCs cannot escape a brush flank; once R + E lands they have no mobility tool to reset distance and your bot lane converts the kill into a tower.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC immobili senza dash",
+        "reason": "Questi ADC non possono scappare a un flank dalla brush; una volta che R + E centrano, non hanno tool di mobilità per resettare la distanza e il tuo bot converte la kill in torre.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "janna",
           "role": "support",
           "lang": "en"
@@ -1520,6 +1560,26 @@
       }
     ],
     "azir": [
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Control mages without dashes",
+        "reason": "Your R blinks past their zone control before they can land their setup CC. If you appear from fog, they have no exit tool.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Control mage senza dash",
+        "reason": "La R blinka oltre il loro zone control prima che possano piazzare il setup CC. Se appari dalla fog, non hanno tool per uscire.",
+        "via": "pick_into"
+      },
       {
         "publisher": {
           "champion": "irelia",
@@ -2225,6 +2285,26 @@
         "archetype": "Artiglieria a lungo raggio (poke lane)",
         "reason": "Il loro range Q o di trap supera i 1150 di Ezreal. Lui non può rispondere senza entrare nella loro zona di minaccia, quindi la lane gli scava HP senza dargli modo di fare all-in di ritorno.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile ADCs without dash",
+        "reason": "These ADCs cannot escape a brush flank; once R + E lands they have no mobility tool to reset distance and your bot lane converts the kill into a tower.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC immobili senza dash",
+        "reason": "Questi ADC non possono scappare a un flank dalla brush; una volta che R + E centrano, non hanno tool di mobilità per resettare la distanza e il tuo bot converte la kill in torre.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -3502,6 +3582,26 @@
         },
         "archetype": "Junglers da invade early forte",
         "reason": "Il primo clear di Ekko è sotto media e il duel al livello 3 è debole. Camminano nella sua jungle, lo uccidono prima che W ed E siano maxati, e snowballano con la bounty.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early-game invaders with tracking pressure",
+        "reason": "They threaten your level 2-3 jungle and force you to play defensive. Fiddle has no escape pre-6: if invaded he cannot run, and his clear is slow without effigy vision setup.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Invader early-game con pressione di tracking",
+        "reason": "Minacciano la tua jungle a livello 2-3 e ti costringono a giocare difensivo. Fiddle non ha escape pre-6: se invaso non può scappare, e il clear è lento senza setup di vision via effigie.",
         "via": "counterpick"
       },
       {
@@ -5540,6 +5640,46 @@
       },
       {
         "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Disengage / peel enchanters",
+        "reason": "Janna R or Lulu W push you off the carry the instant you land. Your Crowstorm AOE keeps ticking but with no follow-up CC, the fight resets and you eat focus damage for nothing.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Squishy enchanter supports without hard CC",
+        "reason": "Their kit is built around healing and shielding — a Crowstorm from tri-brush blows past their cooldowns and one-shots both them and the ADC before either heal or shield can be used twice.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter da disengage / peel",
+        "reason": "Janna R o Lulu W ti sbattono fuori dal carry l'istante in cui atterri. L'AOE di Crowstorm continua a tickare ma senza follow-up CC, il fight si resetta e mangi focus damage per niente.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter squishy senza CC duro",
+        "reason": "Il loro kit ruota su healing e shielding — un Crowstorm dal tri-cespuglio supera i loro cooldown e one-shotta sia loro che l'ADC prima che heal o shield possano essere usati due volte.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "leona",
           "role": "support",
           "lang": "en"
@@ -6310,6 +6450,26 @@
       },
       {
         "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile hyper-carries",
+        "reason": "Carries with no dash or blink die instantly to W charm into R: they have no tool to leave the cone of your untargetable warp before it lands.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Hyper-carry immobili",
+        "reason": "Carry senza dash o blink: una W charm + R li uccide istantaneamente in teamfight, e non hanno strumenti per uscire dal cono della tua R untargetable prima che esploda.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kayn",
           "role": "jungle",
           "lang": "en"
@@ -6758,6 +6918,26 @@
       },
       {
         "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery supports",
+        "reason": "They poke you out of lane before level 6 from beyond your E range. Fiddle has no shield and no way to close the gap, so your HP bar drops to half before your first R is online.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support artillery a lunga gittata",
+        "reason": "Ti pokano fuori lane prima del 6 oltre il range della tua E. Fiddle non ha scudo né modo di chiudere il gap, quindi la barra HP cala alla metà prima che la prima R sia online.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "thresh",
           "role": "support",
           "lang": "en"
@@ -7096,6 +7276,46 @@
         },
         "archetype": "Laner squishy senza dash o stealth",
         "reason": "E cocoon ai livelli 3-4 atterra sui bersagli piatti senza escape. Rappel (Spider E) chiude il dive anche se usano Flash, perche sei intargetabile mid-cast.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Slow farming junglers",
+        "reason": "Junglers that want to farm and scale: Evelynn invades, steals camps, and ganks with Camouflage post-6, forcing them to defend instead of scaling.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Junglers da farm e scaling",
+        "reason": "Jungler che vogliono farmare e scalare: Evelynn invade, ruba camp e gankka con Camouflage post-6, costringendoli a difendersi invece di scalare.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile artillery teams that group up",
+        "reason": "Backline mages with no escape get one-shot by a flank Crowstorm because they cannot dash out of the AOE before the channel ticks.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Squadre artillery immobili che si raggruppano",
+        "reason": "I mage di retroguardia senza escape vengono one-shottati da un Crowstorm di flank perché non possono dashare fuori dall'AOE prima che il channel ticki.",
         "via": "pick_into"
       },
       {
@@ -7932,6 +8152,46 @@
       },
       {
         "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early-game lethality duelists",
+        "reason": "Lee Sin's Q and Rengar's leap close gaps before level 6 — when Evelynn has no Camouflage and no R, she loses pre-6 invades and 1v1 trades outright.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Duellanti early-game con lethality",
+        "reason": "La Q di Lee Sin e il leap di Rengar coprono distanza prima del livello 6 — quando Evelynn non ha Camouflage né R, perde le invade pre-6 e i duel 1v1 senza scampo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early-game invaders with tracking pressure",
+        "reason": "They threaten your level 2-3 jungle and force you to play defensive. Fiddle has no escape pre-6: if invaded he cannot run, and his clear is slow without effigy vision setup.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Invader early-game con pressione di tracking",
+        "reason": "Minacciano la tua jungle a livello 2-3 e ti costringono a giocare difensivo. Fiddle non ha escape pre-6: se invaso non può scappare, e il clear è lento senza setup di vision via effigie.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "hecarim",
           "role": "jungle",
           "lang": "en"
@@ -8236,6 +8496,26 @@
       },
       {
         "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile hyper-carries",
+        "reason": "Carries with no dash or blink die instantly to W charm into R: they have no tool to leave the cone of your untargetable warp before it lands.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Hyper-carry immobili",
+        "reason": "Carry senza dash o blink: una W charm + R li uccide istantaneamente in teamfight, e non hanno strumenti per uscire dal cono della tua R untargetable prima che esploda.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "ezreal",
           "role": "bot",
           "lang": "en"
@@ -8252,6 +8532,26 @@
         },
         "archetype": "Marksman immobili senza dash",
         "reason": "Ezreal può sidesteppare una Q lenta (Sivir Boomerang, Varus Q) mentre piazza la sua. Loro non possono punire il suo waveclear lento perché non riescono a chiudere la distanza quando lui fa step up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile ADCs without dash",
+        "reason": "These ADCs cannot escape a brush flank; once R + E lands they have no mobility tool to reset distance and your bot lane converts the kill into a tower.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC immobili senza dash",
+        "reason": "Questi ADC non possono scappare a un flank dalla brush; una volta che R + E centrano, non hanno tool di mobilità per resettare la distanza e il tuo bot converte la kill in torre.",
         "via": "pick_into"
       },
       {
@@ -8500,6 +8800,46 @@
       },
       {
         "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early-game lethality duelists",
+        "reason": "Lee Sin's Q and Rengar's leap close gaps before level 6 — when Evelynn has no Camouflage and no R, she loses pre-6 invades and 1v1 trades outright.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Duellanti early-game con lethality",
+        "reason": "La Q di Lee Sin e il leap di Rengar coprono distanza prima del livello 6 — quando Evelynn non ha Camouflage né R, perde le invade pre-6 e i duel 1v1 senza scampo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early-game invaders with tracking pressure",
+        "reason": "They threaten your level 2-3 jungle and force you to play defensive. Fiddle has no escape pre-6: if invaded he cannot run, and his clear is slow without effigy vision setup.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Invader early-game con pressione di tracking",
+        "reason": "Minacciano la tua jungle a livello 2-3 e ti costringono a giocare difensivo. Fiddle non ha escape pre-6: se invaso non può scappare, e il clear è lento senza setup di vision via effigie.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "hecarim",
           "role": "jungle",
           "lang": "en"
@@ -8718,6 +9058,26 @@
         },
         "archetype": "Support engage tanky con CC point-and-click",
         "reason": "Il loro engage e a bersaglio (niente skillshot da schivare). Restano attaccati al tuo ADC piu a lungo di quanto tu li possa tenere, e il tuo magic damage non li uccide attraverso l'armor.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Vision-heavy supports with engage CC",
+        "reason": "They buy a Control Ward on first back, see you in Demon Shade in lane, and chain CC (Nautilus Q, Leona E+R) lands before your W charm comes off.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Support con vision e CC chain",
+        "reason": "Comprano Control Ward al primo back, ti vedono in Demon Shade in lane, e la chain di CC (Naut Q, Leona E+R) ti blocca prima che la W charm parta.",
         "via": "counterpick"
       },
       {
@@ -9146,6 +9506,26 @@
       },
       {
         "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Point-and-click hard CC mages",
+        "reason": "They interrupt your 1.5s Crowstorm channel without skill — Lissandra R, Malzahar R, Veigar E cage all turn your engage into wasted ult and instant death.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Mage con CC duro point-and-click",
+        "reason": "Interrompono il channel di 1.5s di Crowstorm senza skill — Lissandra R, Malzahar R, Veigar E trasformano il tuo engage in ult sprecato e morte istantanea.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -9490,6 +9870,46 @@
       },
       {
         "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Enchanters that peel the carry",
+        "reason": "Lulu R makes the carry invulnerable, Tahm Kench eats them, Morgana E gives Spell Shield: each one cancels the W+R combo at the exact moment it should kill.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Enchanter che peelano la carry",
+        "reason": "Lulu R rende invulnerabile la carry, Tahm Kench la mangia, Morgana E le dà Spell Shield: ognuna annulla la combo W+R nel momento esatto in cui dovrebbe killare.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Disengage / peel enchanters",
+        "reason": "Janna R or Lulu W push you off the carry the instant you land. Your Crowstorm AOE keeps ticking but with no follow-up CC, the fight resets and you eat focus damage for nothing.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter da disengage / peel",
+        "reason": "Janna R o Lulu W ti sbattono fuori dal carry l'istante in cui atterri. L'AOE di Crowstorm continua a tickare ma senza follow-up CC, il fight si resetta e mangi focus damage per niente.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "kayn",
           "role": "jungle",
           "lang": "en"
@@ -9789,6 +10209,26 @@
         "archetype": "Laner squishy senza dash o stealth",
         "reason": "E cocoon ai livelli 3-4 atterra sui bersagli piatti senza escape. Rappel (Spider E) chiude il dive anche se usano Flash, perche sei intargetabile mid-cast.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery supports",
+        "reason": "They poke you out of lane before level 6 from beyond your E range. Fiddle has no shield and no way to close the gap, so your HP bar drops to half before your first R is online.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support artillery a lunga gittata",
+        "reason": "Ti pokano fuori lane prima del 6 oltre il range della tua E. Fiddle non ha scudo né modo di chiudere il gap, quindi la barra HP cala alla metà prima che la prima R sia online.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -10256,6 +10696,26 @@
       },
       {
         "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Point-and-click hard CC mages",
+        "reason": "They interrupt your 1.5s Crowstorm channel without skill — Lissandra R, Malzahar R, Veigar E cage all turn your engage into wasted ult and instant death.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Mage con CC duro point-and-click",
+        "reason": "Interrompono il channel di 1.5s di Crowstorm senza skill — Lissandra R, Malzahar R, Veigar E trasformano il tuo engage in ult sprecato e morte istantanea.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -10617,6 +11077,46 @@
         "archetype": "Jungler con una pre-level 6 form debole",
         "reason": "Master Yi non duella prima del 6, Kayn e form-locked finche non finisce la quest, Shyvana non ha CC affidabile. Elise prende Scuttle Crab gratis e li counter-jungla mettendoli in deficit di gold.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Slow farming junglers",
+        "reason": "Junglers that want to farm and scale: Evelynn invades, steals camps, and ganks with Camouflage post-6, forcing them to defend instead of scaling.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Junglers da farm e scaling",
+        "reason": "Jungler che vogliono farmare e scalare: Evelynn invade, ruba camp e gankka con Camouflage post-6, costringendoli a difendersi invece di scalare.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Farming junglers without flank tools",
+        "reason": "They scale linearly with farm but cannot punish your level 1-3 invade. Once you hit 6, your Crowstorm from fog beats their face-tank engages because they have no pre-cast escape.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler farmer senza tool di flank",
+        "reason": "Scalano linearmente con il farm ma non possono punire la tua invade tra livello 1 e 3. A livello 6, il tuo Crowstorm dalla fog batte i loro engage face-tank perché non hanno escape pre-cast.",
+        "via": "pick_into"
       }
     ],
     "milio": [
@@ -10638,6 +11138,26 @@
         },
         "archetype": "Enchanter di disengage con peel attivo",
         "reason": "Il polymorph di Lulu ti annulla la W in pieno dash, la R di Milio rimuove il knock-up a distanza, la E di Renata strappa via il carry dalla combo. Il tuo unico engage viene risposto a costo zero.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Black Shield / spell-shield enchanters",
+        "reason": "Black Shield absorbs Terrify (Q fear) and Crowstorm's first AOE tick of magic damage on the carry, neutralizing your engage cast and giving them a 5s window to disengage.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter con Black Shield / spell-shield",
+        "reason": "Black Shield assorbe Terrify (Q fear) e il primo tick AOE di Crowstorm sul carry, neutralizzando il cast di engage e dando 5s di finestra per il disengage.",
         "via": "counterpick"
       },
       {
@@ -11024,6 +11544,46 @@
         },
         "archetype": "Spell shield che blocca cocoon",
         "reason": "Una sola carica di spell shield mangia tutto il tuo stun. Senza cocoon non hai setup, e il follow-up del team si blocca finche non torna il cooldown.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Enchanters that peel the carry",
+        "reason": "Lulu R makes the carry invulnerable, Tahm Kench eats them, Morgana E gives Spell Shield: each one cancels the W+R combo at the exact moment it should kill.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Enchanter che peelano la carry",
+        "reason": "Lulu R rende invulnerabile la carry, Tahm Kench la mangia, Morgana E le dà Spell Shield: ognuna annulla la combo W+R nel momento esatto in cui dovrebbe killare.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Black Shield / spell-shield enchanters",
+        "reason": "Black Shield absorbs Terrify (Q fear) and Crowstorm's first AOE tick of magic damage on the carry, neutralizing your engage cast and giving them a 5s window to disengage.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter con Black Shield / spell-shield",
+        "reason": "Black Shield assorbe Terrify (Q fear) e il primo tick AOE di Crowstorm sul carry, neutralizzando il cast di engage e dando 5s di finestra per il disengage.",
         "via": "counterpick"
       },
       {
@@ -11552,6 +12112,26 @@
         },
         "archetype": "Support engage tanky con CC point-and-click",
         "reason": "Il loro engage e a bersaglio (niente skillshot da schivare). Restano attaccati al tuo ADC piu a lungo di quanto tu li possa tenere, e il tuo magic damage non li uccide attraverso l'armor.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Vision-heavy supports with engage CC",
+        "reason": "They buy a Control Ward on first back, see you in Demon Shade in lane, and chain CC (Nautilus Q, Leona E+R) lands before your W charm comes off.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Support con vision e CC chain",
+        "reason": "Comprano Control Ward al primo back, ti vedono in Demon Shade in lane, e la chain di CC (Naut Q, Leona E+R) ti blocca prima che la W charm parta.",
         "via": "counterpick"
       },
       {
@@ -12162,6 +12742,26 @@
       }
     ],
     "orianna": [
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Control mages without dashes",
+        "reason": "Your R blinks past their zone control before they can land their setup CC. If you appear from fog, they have no exit tool.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Control mage senza dash",
+        "reason": "La R blinka oltre il loro zone control prima che possano piazzare il setup CC. Se appari dalla fog, non hanno tool per uscire.",
+        "via": "pick_into"
+      },
       {
         "publisher": {
           "champion": "zed",
@@ -13810,6 +14410,26 @@
       },
       {
         "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early-game lethality duelists",
+        "reason": "Lee Sin's Q and Rengar's leap close gaps before level 6 — when Evelynn has no Camouflage and no R, she loses pre-6 invades and 1v1 trades outright.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Duellanti early-game con lethality",
+        "reason": "La Q di Lee Sin e il leap di Rengar coprono distanza prima del livello 6 — quando Evelynn non ha Camouflage né R, perde le invade pre-6 e i duel 1v1 senza scampo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lulu",
           "role": "support",
           "lang": "en"
@@ -14195,6 +14815,26 @@
         "archetype": "Marksman a corto raggio iper-aggressivi",
         "reason": "La Q di Ezreal supera il loro raggio di auto-attack (1150 contro ~525-550). Li poke fuori dalla wave da distanza sicura; loro devono fare all-in (scambio totale fino alla kill) per vincere e la tua E è un panic button contro il dive.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Wind Wall / projectile-block carries",
+        "reason": "Wind Wall blocks your Q (single projectile) and most of your Reap. They negate your engage cast at the worst moment, leaving you channeling Crowstorm with no follow-up.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Carry con Wind Wall / blocco di proiettili",
+        "reason": "Wind Wall blocca la Q (singolo proiettile) e gran parte di Reap. Annullano il cast di engage nel momento peggiore, lasciandoti a canalizzare Crowstorm senza follow-up.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -14880,6 +15520,46 @@
         },
         "archetype": "Scaler bot lane senza mobilità",
         "reason": "Gravitum (il cannone) li rallenta ad ogni auto, poi la Q blocca tutti i bersagli rallentati insieme. Con la R al livello 6 in follow-up, un target immobile si mangia tutto il burst prima di completare un channel.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Backline healers with no escape",
+        "reason": "Once you reach their back line via Demon Shade Camouflage, these enchanters die to one W+R before they can cast their defensive kit.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Healer di backline senza escape",
+        "reason": "Una volta arrivata in fondo all'enemy team con la Camouflage di Demon Shade, queste enchanter muoiono in un W+R prima di castare il proprio kit difensivo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Backline mage supports with no escape",
+        "reason": "They stand far back to enchant — but your effigies grant deep vision that finds their position, and your R channel from inside their hex one-shots them before they can move.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support mage da retroguardia senza escape",
+        "reason": "Stanno indietro per buffare gli alleati — ma le tue effigie danno vision profonda che trova la loro posizione, e il channel di R da dentro il loro hex le one-shotta prima che possano muoversi.",
         "via": "pick_into"
       },
       {
@@ -15822,6 +16502,26 @@
       },
       {
         "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Backline mage supports with no escape",
+        "reason": "They stand far back to enchant — but your effigies grant deep vision that finds their position, and your R channel from inside their hex one-shots them before they can move.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support mage da retroguardia senza escape",
+        "reason": "Stanno indietro per buffare gli alleati — ma le tue effigie danno vision profonda che trova la loro posizione, e il channel di R da dentro il loro hex le one-shotta prima che possano muoversi.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "karma",
           "role": "support",
           "lang": "en"
@@ -16060,6 +16760,46 @@
         },
         "archetype": "Enchanter support squishy senza tenacity",
         "reason": "Lo stun lungo del cocoon ignora il loro kit di utility. Non hanno escape tipo Flash, e il burn di Liandry's Torment (danno spalmato in pochi secondi) punisce shield e heal.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Backline healers with no escape",
+        "reason": "Once you reach their back line via Demon Shade Camouflage, these enchanters die to one W+R before they can cast their defensive kit.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Healer di backline senza escape",
+        "reason": "Una volta arrivata in fondo all'enemy team con la Camouflage di Demon Shade, queste enchanter muoiono in un W+R prima di castare il proprio kit difensivo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Squishy enchanter supports without hard CC",
+        "reason": "Their kit is built around healing and shielding — a Crowstorm from tri-brush blows past their cooldowns and one-shots both them and the ADC before either heal or shield can be used twice.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter squishy senza CC duro",
+        "reason": "Il loro kit ruota su healing e shielding — un Crowstorm dal tri-cespuglio supera i loro cooldown e one-shotta sia loro che l'ADC prima che heal o shield possano essere usati due volte.",
         "via": "pick_into"
       },
       {
@@ -16568,6 +17308,26 @@
         },
         "archetype": "Bruiser che fanno self-peel",
         "reason": "Dopo un hook riuscito possono headbuttare via il proprio ADC o ingoiarlo: il pull non chiude la kill, e il cooldown lungo della Q diventa una finestra di punish.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Enchanters that peel the carry",
+        "reason": "Lulu R makes the carry invulnerable, Tahm Kench eats them, Morgana E gives Spell Shield: each one cancels the W+R combo at the exact moment it should kill.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Enchanter che peelano la carry",
+        "reason": "Lulu R rende invulnerabile la carry, Tahm Kench la mangia, Morgana E le dà Spell Shield: ognuna annulla la combo W+R nel momento esatto in cui dovrebbe killare.",
         "via": "counterpick"
       },
       {
@@ -17134,6 +17894,26 @@
         },
         "archetype": "Support hook che hanno piu range di cocoon",
         "reason": "L'hook di Blitzcrank (~1100) ha piu range del cast della E (1075). Fanno engage per primi su di te, rimuovendo il tuo tool di engage e lasciandoti melee in Spider form senza escape.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Vision-heavy supports with engage CC",
+        "reason": "They buy a Control Ward on first back, see you in Demon Shade in lane, and chain CC (Nautilus Q, Leona E+R) lands before your W charm comes off.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Support con vision e CC chain",
+        "reason": "Comprano Control Ward al primo back, ti vedono in Demon Shade in lane, e la chain di CC (Naut Q, Leona E+R) ti blocca prima che la W charm parta.",
         "via": "counterpick"
       },
       {
@@ -17988,6 +18768,26 @@
       },
       {
         "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile hyper-carries",
+        "reason": "Carries with no dash or blink die instantly to W charm into R: they have no tool to leave the cone of your untargetable warp before it lands.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Hyper-carry immobili",
+        "reason": "Carry senza dash o blink: una W charm + R li uccide istantaneamente in teamfight, e non hanno strumenti per uscire dal cono della tua R untargetable prima che esploda.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lulu",
           "role": "support",
           "lang": "en"
@@ -18047,6 +18847,26 @@
         "archetype": "Sustained-damage bruisers with cleanse or unstoppable",
         "reason": "Camminano dentro Moonfall (R di Olaf cleansa la CC, R di Udyr bypassa la pull) e fanno più DPS di Diana una volta scaduto lo scudo: lei non ha una seconda escape.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Farming junglers without flank tools",
+        "reason": "They scale linearly with farm but cannot punish your level 1-3 invade. Once you hit 6, your Crowstorm from fog beats their face-tank engages because they have no pre-cast escape.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler farmer senza tool di flank",
+        "reason": "Scalano linearmente con il farm ma non possono punire la tua invade tra livello 1 e 3. A livello 6, il tuo Crowstorm dalla fog batte i loro engage face-tank perché non hanno escape pre-cast.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -18996,6 +19816,26 @@
       },
       {
         "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Point-and-click hard CC mages",
+        "reason": "They interrupt your 1.5s Crowstorm channel without skill — Lissandra R, Malzahar R, Veigar E cage all turn your engage into wasted ult and instant death.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Mage con CC duro point-and-click",
+        "reason": "Interrompono il channel di 1.5s di Crowstorm senza skill — Lissandra R, Malzahar R, Veigar E trasformano il tuo engage in ult sprecato e morte istantanea.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "fizz",
           "role": "mid",
           "lang": "en"
@@ -19622,6 +20462,26 @@
       },
       {
         "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Control mages without dashes",
+        "reason": "Your R blinks past their zone control before they can land their setup CC. If you appear from fog, they have no exit tool.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Control mage senza dash",
+        "reason": "La R blinka oltre il loro zone control prima che possano piazzare il setup CC. Se appari dalla fog, non hanno tool per uscire.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -19864,6 +20724,26 @@
         },
         "archetype": "Slow-clearing low-mobility junglers",
         "reason": "Diana clearа più veloce con i passive reset e arriva prima allo Scuttle Crab. Counter-jungla i camp di backup dopo ogni Drake: non rotanо in tempo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Farming junglers without flank tools",
+        "reason": "They scale linearly with farm but cannot punish your level 1-3 invade. Once you hit 6, your Crowstorm from fog beats their face-tank engages because they have no pre-cast escape.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler farmer senza tool di flank",
+        "reason": "Scalano linearmente con il farm ma non possono punire la tua invade tra livello 1 e 3. A livello 6, il tuo Crowstorm dalla fog batte i loro engage face-tank perché non hanno escape pre-cast.",
         "via": "pick_into"
       },
       {
@@ -20268,6 +21148,46 @@
         },
         "archetype": "Artiglieria a lungo raggio (poke lane)",
         "reason": "Il loro range Q o di trap supera i 1150 di Ezreal. Lui non può rispondere senza entrare nella loro zona di minaccia, quindi la lane gli scava HP senza dargli modo di fare all-in di ritorno.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile artillery teams that group up",
+        "reason": "Backline mages with no escape get one-shot by a flank Crowstorm because they cannot dash out of the AOE before the channel ticks.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Squadre artillery immobili che si raggruppano",
+        "reason": "I mage di retroguardia senza escape vengono one-shottati da un Crowstorm di flank perché non possono dashare fuori dall'AOE prima che il channel ticki.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery supports",
+        "reason": "They poke you out of lane before level 6 from beyond your E range. Fiddle has no shield and no way to close the gap, so your HP bar drops to half before your first R is online.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support artillery a lunga gittata",
+        "reason": "Ti pokano fuori lane prima del 6 oltre il range della tua E. Fiddle non ha scudo né modo di chiudere il gap, quindi la barra HP cala alla metà prima che la prima R sia online.",
         "via": "counterpick"
       },
       {
@@ -21053,6 +21973,26 @@
         "archetype": "Melee auto-attack che hanno bisogno di stickare",
         "reason": "Lo slow di Q + Plated Steelcaps gli paralizza l'attack uptime. La R di Tryndamere lo heala attraverso una rotation, ma un Mundo con R + Thornmail sopravvive alla finestra di immortalita' e lo chunka col danno riflesso.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Wind Wall / projectile-block carries",
+        "reason": "Wind Wall blocks your Q (single projectile) and most of your Reap. They negate your engage cast at the worst moment, leaving you channeling Crowstorm with no follow-up.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Carry con Wind Wall / blocco di proiettili",
+        "reason": "Wind Wall blocca la Q (singolo proiettile) e gran parte di Reap. Annullano il cast di engage nel momento peggiore, lasciandoti a canalizzare Crowstorm senza follow-up.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -21878,6 +22818,46 @@
         },
         "archetype": "Enchanter support che heal-tradano in lane",
         "reason": "Il danno della Q di Draven impila troppo in fretta per le lane di poke-and-heal. Due asce catturate di fila sfondano un ciclo di cure di Soraka, e il suo snowball converte ogni kill in 200+ oro di vantaggio.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Backline healers with no escape",
+        "reason": "Once you reach their back line via Demon Shade Camouflage, these enchanters die to one W+R before they can cast their defensive kit.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "evelynn",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Healer di backline senza escape",
+        "reason": "Una volta arrivata in fondo all'enemy team con la Camouflage di Demon Shade, queste enchanter muoiono in un W+R prima di castare il proprio kit difensivo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Squishy enchanter supports without hard CC",
+        "reason": "Their kit is built around healing and shielding — a Crowstorm from tri-brush blows past their cooldowns and one-shots both them and the ADC before either heal or shield can be used twice.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter squishy senza CC duro",
+        "reason": "Il loro kit ruota su healing e shielding — un Crowstorm dal tri-cespuglio supera i loro cooldown e one-shotta sia loro che l'ADC prima che heal o shield possano essere usati due volte.",
         "via": "pick_into"
       },
       {
@@ -22745,6 +23725,26 @@
         "archetype": "Artiglieria a lungo raggio (poke lane)",
         "reason": "Il loro range Q o di trap supera i 1150 di Ezreal. Lui non può rispondere senza entrare nella loro zona di minaccia, quindi la lane gli scava HP senza dargli modo di fare all-in di ritorno.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile artillery teams that group up",
+        "reason": "Backline mages with no escape get one-shot by a flank Crowstorm because they cannot dash out of the AOE before the channel ticks.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "fiddlesticks",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Squadre artillery immobili che si raggruppano",
+        "reason": "I mage di retroguardia senza escape vengono one-shottati da un Crowstorm di flank perché non possono dashare fuori dall'AOE prima che il channel ticki.",
+        "via": "pick_into"
       },
       {
         "publisher": {
