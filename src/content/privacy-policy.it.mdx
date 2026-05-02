@@ -1,13 +1,13 @@
 ---
 title: Informativa Privacy
-version: 1.0.0
-effective_date: 2026-04-22
+version: 1.1.0
+effective_date: 2026-05-02
 locale: it
 ---
 
 # Informativa sulla Privacy
 
-**Versione:** 1.0.0 &nbsp;·&nbsp; **Data di efficacia:** 22 aprile 2026
+**Versione:** 1.1.0 &nbsp;·&nbsp; **Data di efficacia:** 2 maggio 2026
 
 LoL Sensei ("noi") è gestito da Fabrizio Di Pietro. Questa informativa spiega quali dati personali raccogliamo tramite il sito **lolsensei.com** e l'applicazione desktop LoL Sensei, per quali finalità li trattiamo e quali diritti hai ai sensi del Regolamento generale UE sulla protezione dei dati (GDPR).
 
@@ -21,6 +21,7 @@ Contatto: **privacy@lolsensei.com**.
 | Cronologia consensi | Timestamp, categoria (tecnici/analitici/marketing), versione policy, hash IP, user-agent | Banner cookie + preference center | Obbligo di legge (Art. 6(1)(c)) |
 | Abbonamento | Stripe customer ID, piano, stato, periodo | Checkout Stripe | Contratto (Art. 6(1)(b)) |
 | Utilizzo coaching AI | Contatori aggregati per modello, nessun contenuto prompt | Telemetria app desktop | Interesse legittimo (Art. 6(1)(f)) |
+| Snapshot account Riot | Riot ID (gameName#tagLine), identificativo partita Riot per ogni sessione AI | Riot Games Account-V1 + League Client (LCU) | Interesse legittimo (Art. 6(1)(f)) |
 | Cookie tecnici | Sessione, CSRF, stato consenso, identificativo anonimo | Browser | Obbligo di legge (Art. 6(1)(c)) |
 | Cookie analitici | Cloudflare Web Analytics (cookieless) | Browser, solo se acconsenti | Consenso (Art. 6(1)(a)) |
 
@@ -36,6 +37,16 @@ Non raccogliamo mai: indirizzi IP in chiaro, dati di gioco in tempo reale, numer
 
 **Non** vendiamo i tuoi dati, **non** li condividiamo con reti pubblicitarie, **non** costruiamo profili comportamentali.
 
+### 2.1 Info account Riot mostrate all'admin per supporto
+
+Quando colleghi il tuo account Riot, conserviamo lato server una copia del tuo **Riot ID** (`gameName#tagLine`) e associamo a ogni sessione di coaching AI l'**identificativo della partita Riot** a cui si riferisce. Questo serve agli admin della piattaforma (un ristretto allowlist di staff) per (a) identificarti durante una richiesta di assistenza quando il solo nome visualizzato non basta, e (b) rivedere i costi AI per partita ai fini di analisi forense e controllo qualità. La base giuridica è il nostro **interesse legittimo** (Art. 6(1)(f)): il Riot ID è già pubblico verso tutti gli altri giocatori in lobby/leaderboard, e l'identificativo partita è un codice opaco già esposto dai siti pubblici di stat tracking — conservarli lato nostro non crea alcuna nuova esposizione pubblica della tua identità.
+
+Cosa significa in pratica:
+
+- Non esponiamo mai il tuo Riot ID ad altri utenti tramite questa funzionalità; è visibile solo agli admin della piattaforma e a te.
+- Il tuo Riot ID viene **azzerato** (impostato a NULL) nello stesso istante in cui elimini l'account, dentro la medesima transazione di cancellazione. L'identificativo partita viene mantenuto (di per sé non è dato personale — etichetta solo una partita) per preservare l'analisi costi anche su account già cancellati.
+- Una copia di questi campi è inclusa nell'export dei tuoi dati (vedi Sezione 5, Accesso e portabilità).
+
 ## 3. Destinatari dei dati
 
 | Responsabile | Finalità | Sede | Garanzia |
@@ -46,6 +57,8 @@ Non raccogliamo mai: indirizzi IP in chiaro, dati di gioco in tempo reale, numer
 | Railway Corp. | Hosting applicazione | USA | SCC, DPA Art. 28 |
 | Neon Inc. | Hosting database | USA / regione UE | SCC, DPA Art. 28 (vedi `records-of-processing`) |
 
+Riot Games **non** è un responsabile del trattamento per LoL Sensei: è la fonte upstream da cui leggiamo il tuo Riot ID e i metadati di partita quando ce lo chiedi tu. Non inviamo i tuoi dati LoL Sensei a Riot.
+
 I Transfer Impact Assessment (TIA) per ciascun responsabile extra-UE sono disponibili su richiesta.
 
 ## 4. Conservazione
@@ -54,6 +67,8 @@ I Transfer Impact Assessment (TIA) per ciascun responsabile extra-UE sono dispon
 |---|---|
 | Account attivo | Finché non elimini l'account |
 | Account eliminato | Email e Google ID sono hashati in modo irreversibile; la riga anonimizzata resta per prevenzione frodi |
+| Snapshot Riot ID | Vita dell'account; azzerato (impostato a NULL) all'eliminazione, nella stessa transazione |
+| Identificativo partita Riot per sessione AI | Vita della sessione AI — di per sé non è dato personale (già pubblico) |
 | Cronologia consensi | 10 anni (analogia Art. 2220 c.c. per evidenza e-commerce) |
 | Fatture Stripe | 10 anni (obbligo fiscale) |
 | Analytics | Cloudflare cookieless: 6 mesi aggregati, nessuna traccia individuale |
@@ -62,7 +77,7 @@ I Transfer Impact Assessment (TIA) per ciascun responsabile extra-UE sono dispon
 
 Puoi esercitare in qualsiasi momento i seguenti diritti:
 
-- **Accesso e portabilità** — scarica una copia JSON del tuo account, abbonamenti e cronologia consensi da **Impostazioni → Privacy e Dati → Esporta i miei dati**.
+- **Accesso e portabilità** — scarica una copia JSON del tuo account, abbonamenti, cronologia consensi, snapshot Riot account e elenco delle sessioni AI (con identificativi partita) da **Impostazioni → Privacy e Dati → Esporta i miei dati**.
 - **Cancellazione** — elimina l'account da **Impostazioni → Privacy e Dati → Elimina il mio account**. La cronologia consensi e i log di audit aggregati sono conservati come richiesto dalla legge.
 - **Rettifica** — aggiorna i dati del profilo tramite il tuo account Google o contattandoci.
 - **Revoca del consenso** — in qualsiasi momento tramite **Preferenze cookie** nel footer. La revoca non incide sulla liceità dei trattamenti precedenti.
@@ -82,6 +97,7 @@ LoL Sensei non è destinato a minori di 16 anni. Durante l'onboarding devi confe
 - Cifratura del database a riposo.
 - Content-Security-Policy stretta; analisi statica delle dipendenze in build.
 - Runbook di incident response con notifica violazione entro 72 ore (Art. 33).
+- L'accesso admin al tuo Riot ID e ai log AI per partita è soggetto a rate limit e registrato in un audit log append-only.
 
 ## 8. Modifiche a questa informativa
 
@@ -91,4 +107,5 @@ Utilizziamo il versionamento semantico. Un bump MAJOR (es. 1.x.x → 2.x.x) rapp
 
 ### Cronologia versioni
 
+- **1.1.0** — 2026-05-02 — Aggiunto snapshot account Riot per supporto admin e audit AI per partita (Sezione 2.1, 4, 5). Modifica additiva, nessun nuovo consenso richiesto.
 - **1.0.0** — 2026-04-22 — Rilascio iniziale WP24: banner consenso cookie, endpoint DSR (export + cancellazione), age gate, elenco processori aggiornato.

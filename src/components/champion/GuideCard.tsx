@@ -9,10 +9,16 @@
 //
 // States: idle (default) | coming-soon (no portrait, lock icon, desaturated).
 // The hover state is CSS-only (group-hover:* utilities) — no JS state.
+//
+// WPCP-001 (CR-063): la portrait logic (CDragon URL + DDragon fallback +
+// skeleton + watchdog) e' stata estratta in `<ChampionPortrait>` per
+// permettere il riuso nel counter picker. Il refactor e' zero-functional-
+// change: stesso markup risultante, stessi attributi, stessa UX.
 
-import { Show, For, createSignal } from 'solid-js';
+import { Show, For } from 'solid-js';
 import type { JSX } from 'solid-js';
 import { useI18n } from '../../i18n';
+import { ChampionPortrait } from './ChampionPortrait';
 
 export type GuideCardLocaleData = {
   title: string;
@@ -54,45 +60,6 @@ const LOCALE_MAP: Record<string, string> = {
   it: 'it-IT',
 };
 
-const CDRAGON_BASE = 'https://cdn.communitydragon.org/latest/champion';
-const DDRAGON_SPLASH_BASE = 'https://ddragon.leagueoflegends.com/cdn/img/champion/splash';
-
-/**
- * Fallback: if `champion_dd_id` is null (pre-CR-053 guide), heuristically
- * convert the kebab-case slug to PascalCase (e.g. "lee-sin" -> "LeeSin",
- * "kha-zix" -> "KhaZix"). Covers ~99% of cases; the remaining mismatch
- * results in a broken URL and the `onError` removes the `<img>`,
- * leaving the placeholder visible.
- */
-function fallbackDdId(slug: string): string {
-  return slug
-    .split('-')
-    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
-    .join('');
-}
-
-function portraitUrl(ddId: string, championKey: string | null): string {
-  // Prefer the numeric champion key when available: CDragon's `latest` alias
-  // resolves reliably by numeric id (e.g. /166/...) but has been observed
-  // broken on some slugs (aatrox/ahri/akshan on 2026-04-29). The slug path
-  // is kept as a fallback for guides predating the keys sync.
-  if (championKey && /^\d+$/.test(championKey)) {
-    return `${CDRAGON_BASE}/${championKey}/splash-art/centered`;
-  }
-  return `${CDRAGON_BASE}/${ddId.toLowerCase()}/splash-art/centered`;
-}
-
-/**
- * DDragon splash fallback used when CDragon `latest` returns 502 for some
- * specific slugs (observed 2026-04-29 on aatrox/ahri/akshan: `latest` alias
- * is broken for these three slugs but works on others). The DDragon splash
- * is 1215x717 (≈16:9) but framing is not centered per-character, so we
- * accept slight offset rather than a blank tile.
- */
-function ddragonSplashUrl(ddId: string): string {
-  return `${DDRAGON_SPLASH_BASE}/${ddId}_0.jpg`;
-}
-
 function relativeTime(iso: string, lang: 'en' | 'it'): string {
   // SSR-safe relative time without Intl.RelativeTimeFormat surprises:
   // we render absolute date but with short locale month name.
@@ -133,16 +100,8 @@ export function GuideCard(props: GuideCardProps): JSX.Element {
     return out;
   };
 
-  const ddId = (): string =>
-    props.locale.champion_dd_id ?? fallbackDdId(props.champion);
   const guideHref = (): string =>
     `/${props.lang}/champion/${props.champion}/${props.role}/guide`;
-
-  // Tracks whether the splash <img> has fully decoded — used to dismiss the
-  // skeleton placeholder. Stays false until either CDragon or the DDragon
-  // fallback loads successfully (so a totally failed pair keeps the skeleton
-  // visible, which still beats a broken-image icon).
-  const [splashLoaded, setSplashLoaded] = createSignal(false);
 
   return (
     <Show
@@ -188,55 +147,15 @@ export function GuideCard(props: GuideCardProps): JSX.Element {
         data-champion={props.champion}
         data-role={props.role}
       >
-        <div class="aspect-[16/9] relative bg-surface-container-low overflow-hidden">
-          {/* Skeleton: subtle pulsing gradient shown until the splash decodes.
-              Avoids the "empty tile for 4s" UX when CDragon is slow/stalled.
-              Stays visible if both CDragon and DDragon fail. */}
-          <Show when={!splashLoaded()}>
-            <div
-              class="absolute inset-0 animate-pulse bg-gradient-to-br from-surface-container-low via-surface-container to-surface-container-low"
-              aria-hidden="true"
-            />
-          </Show>
-          <img
-            ref={(el) => {
-              // Watchdog timer: when CDragon stalls the connection (TCP open
-              // but body never delivered, observed 2026-04-29) the browser
-              // never fires `error` and the image stays "loading" forever.
-              // After STALL_TIMEOUT we force-switch to the DDragon fallback
-              // so the user sees something instead of the skeleton forever.
-              // 2s chosen because CDragon normal loads in <500ms; if it
-              // hasn't responded in 2s on a healthy connection it's stalled.
-              const STALL_TIMEOUT = 2000;
-              const timer = setTimeout(() => {
-                if (
-                  el.dataset.fallback !== 'ddragon' &&
-                  (!el.complete || el.naturalWidth === 0)
-                ) {
-                  el.dataset.fallback = 'ddragon';
-                  el.src = ddragonSplashUrl(ddId());
-                }
-              }, STALL_TIMEOUT);
-              const cancel = () => clearTimeout(timer);
-              el.addEventListener('load', cancel, { once: true });
-              el.addEventListener('error', cancel, { once: true });
-            }}
-            src={portraitUrl(ddId(), props.locale.champion_key ?? null)}
+        <div class="relative">
+          <ChampionPortrait
+            slug={props.champion}
+            championDdId={props.locale.champion_dd_id}
+            championKey={props.locale.champion_key}
+            variant="splash"
             alt={tpl('wp35.hub.card.portrait_alt', {
               champion: props.champion,
             })}
-            loading="lazy"
-            class="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-105"
-            onLoad={() => setSplashLoaded(true)}
-            onError={(e) => {
-              const img = e.currentTarget;
-              if (img.dataset.fallback === 'ddragon') {
-                img.remove();
-              } else {
-                img.dataset.fallback = 'ddragon';
-                img.src = ddragonSplashUrl(ddId());
-              }
-            }}
           />
           {/* Gradient scrim so the role pill + difficulty pips remain legible. */}
           <div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-surface-container/40 pointer-events-none" />

@@ -20,13 +20,18 @@ const TARGETS = ['it', 'es', 'fr', 'de', 'pt-br', 'ko', 'zh-hans'];
 
 // Per-locale namespace exemptions: prefixes that are allowed to be missing
 // in the target locale. Used for feature-gated locales (e.g. WP35 EN+IT only).
+//
+// `console.` covers WP-AI-LOGS-VIEWER (CR-061): admin console pages are
+// EN+IT only by design — they target a small internal audience and do not
+// need to be translated for the public locales. IT has full parity vs EN,
+// the 6 below are exempted from the `console.*` namespace.
 const LOCALE_NAMESPACE_EXEMPTIONS = {
-  es: ['wp35.', 'wp34.'],
-  fr: ['wp35.', 'wp34.'],
-  de: ['wp35.', 'wp34.'],
-  'pt-br': ['wp35.', 'wp34.'],
-  ko: ['wp35.', 'wp34.'],
-  'zh-hans': ['wp35.', 'wp34.'],
+  es: ['wp35.', 'wp34.', 'console.'],
+  fr: ['wp35.', 'wp34.', 'console.'],
+  de: ['wp35.', 'wp34.', 'console.'],
+  'pt-br': ['wp35.', 'wp34.', 'console.'],
+  ko: ['wp35.', 'wp34.', 'console.'],
+  'zh-hans': ['wp35.', 'wp34.', 'console.'],
 };
 
 function extractKeys(filePath) {

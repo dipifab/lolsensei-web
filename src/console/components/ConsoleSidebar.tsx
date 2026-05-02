@@ -26,6 +26,7 @@ const NAV_ITEMS: readonly NavItem[] = [
   { label: 'Admin Users', href: '/console/admin-users', icon: 'person' },
   { label: 'Allowlist', href: '/console/allowlist', icon: 'verified_user' },
   { label: 'Game Data', href: '/console/game-data', icon: 'dataset' },
+  { label: 'AI Logs', href: '/console/ai-logs', icon: 'psychology' },
   {
     label: 'Runtime Config',
     href: '/console/config',

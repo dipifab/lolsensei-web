@@ -12,6 +12,7 @@ import Tabs, { type TabItem } from '../components/shared/Tabs';
 import ConfirmModal from '../components/shared/ConfirmModal';
 import Pagination from '../components/shared/Pagination';
 import OverrideStatusBanner from '../components/users/OverrideStatusBanner';
+import RefreshRiotIdButton from '../components/RefreshRiotIdButton';
 import RetentionWarningBanner from '../components/users/RetentionWarningBanner';
 import TimelineSidebar from '../components/users/TimelineSidebar';
 import LimitForm from '../components/users/LimitForm';
@@ -258,6 +259,11 @@ export default function UserDetailPage() {
                       variant={statusToVariant(p().subscription_status, p().is_suspended)}
                       dot
                       pulse={p().subscription_status === 'active' && !p().is_suspended}
+                    />
+                    <RefreshRiotIdButton
+                      userId={p().id}
+                      riotPuuid={p().riot_puuid ?? null}
+                      onSuccess={() => refetchProfile()}
                     />
                   </div>
                 </div>

@@ -15,6 +15,7 @@ const AIProvidersPage = lazy(() => import('./pages/AIProvidersPage'));
 const ConsoleAdminListPage = lazy(() => import('./pages/ConsoleAdminListPage'));
 const AllowlistPage = lazy(() => import('./pages/AllowlistPage'));
 const GameDataPage = lazy(() => import('./pages/GameDataPage'));
+const ConsoleAILogsPage = lazy(() => import('./pages/ConsoleAILogsPage'));
 
 // Factory che restituisce le child routes per il nested router di App.
 // Le stringhe path vivono in questo modulo lazy (chunk `_lazy_console_*`),
@@ -32,6 +33,7 @@ export function consoleChildRoutes(): JSX.Element {
       <Route path="/admin-users" component={ConsoleAdminListPage} />
       <Route path="/allowlist" component={AllowlistPage} />
       <Route path="/game-data" component={GameDataPage} />
+      <Route path="/ai-logs" component={ConsoleAILogsPage} />
     </>
   );
 }
