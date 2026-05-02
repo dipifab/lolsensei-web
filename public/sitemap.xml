@@ -2017,6 +2017,38 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/fizz/mid/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/fizz/mid/guide" />
   </url>
+  <!-- champion-guide/galio/mid: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/galio/mid/guide</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/galio/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/galio/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/galio/mid/guide" />
+  </url>
+  <!-- champion-guide/galio/mid: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/galio/mid/guide</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/galio/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/galio/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/galio/mid/guide" />
+  </url>
+  <!-- champion-guide/galio/support: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/galio/support/guide</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/galio/support/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/galio/support/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/galio/support/guide" />
+  </url>
+  <!-- champion-guide/galio/support: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/galio/support/guide</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/galio/support/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/galio/support/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/galio/support/guide" />
+  </url>
   <!-- champion-guide/garen/top: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/garen/top/guide</loc>
@@ -2032,6 +2064,22 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/garen/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/garen/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/garen/top/guide" />
+  </url>
+  <!-- champion-guide/gnar/top: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/gnar/top/guide</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/gnar/top/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/gnar/top/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/gnar/top/guide" />
+  </url>
+  <!-- champion-guide/gnar/top: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/gnar/top/guide</loc>
+    <lastmod>2026-05-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/gnar/top/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/gnar/top/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/gnar/top/guide" />
   </url>
   <!-- champion-guide/graves/jungle: en -->
   <url>

@@ -24,6 +24,26 @@
       },
       {
         "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Short-range bruisers with finite all-in windows",
+        "reason": "Their power budget is in early-game trade windows. Mini Gnar dodges the all-in by E-hopping off minions, then flips the script when Mega comes online with R stun + Wallop chain.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser short-range con finestre di all-in finite",
+        "reason": "Il loro budget di power è in trade window early. Mini Gnar evita l'all-in con E-hop sui minion, poi ribalta tutto quando arriva Mega online con R stun + chain Wallop.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "sett",
           "role": "top",
           "lang": "en"
@@ -62,6 +82,26 @@
         },
         "archetype": "Mage con un singolo tell di escape",
         "reason": "Akshan fa baitare lo stun di Annie, la Q di Lux o la R di Ahri, poi swinga con E sul recovery frame per un trade da 3-hit e la passiva scudata gratis.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mid-range burst mages without sustain",
+        "reason": "His magic-damage shield on W cuts the bulk of their combo damage; once their burst is on cooldown they cannot duel a tank-AP frame.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Burst mage a media gittata senza sustain",
+        "reason": "Lo scudo magico W taglia il grosso del loro combo damage; quando il burst e in cooldown non possono duellare un frame AP-tank.",
         "via": "pick_into"
       },
       {
@@ -224,6 +264,26 @@
         },
         "archetype": "Assassini mobili con più gap-close",
         "reason": "Corki ha un solo dash (W) con cooldown lungo. Kit con più dash entrano nel suo cast range prima che la W ricarichi e lo bursto attraverso gli HP di Trinity, soprattutto prima dei due item.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Short-range assassins with multiple dashes",
+        "reason": "Akali's shroud breaks his W targeting, and Zed/Fizz dash chains finish the trade before W comes off charge — Galio's best CC is on a slow tell they out-pace.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini a corto raggio con multipli dash",
+        "reason": "Lo shroud di Akali rompe il targeting di W, e le catene di dash di Zed/Fizz chiudono il trade prima che la W esca dal charge — il miglior CC di Galio sta su un tell lento che loro out-pace.",
         "via": "counterpick"
       },
       {
@@ -627,7 +687,7 @@
           "lang": "it"
         },
         "archetype": "Junglers da farm e scaling",
-        "reason": "Jungler che vogliono farmare e scalare: Evelynn invade, ruba camp e gankka con Camouflage post-6, costringendoli a difendersi invece di scalare.",
+        "reason": "Jungler che vogliono farmare e scalare: Evelynn invade, ruba camp e fa gank con Camouflage post-6, costringendoli a difendersi invece di scalare.",
         "via": "pick_into"
       },
       {
@@ -850,6 +910,26 @@
         },
         "archetype": "Mage immobili senza dash",
         "reason": "La Q di Fizz li dasha d'istinto e la E gli regala 0.75s di untargettabilità per schivare la spell chiave. Senza un dash di escape non possono rispondere all'all-in una volta che la R fish si attacca.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile artillery mages",
+        "reason": "Galio E knockup closes the distance their range advantage relies on, and W absorbs the burst from their long-cooldown spells like Lux R or Veigar R.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage di artiglieria immobili",
+        "reason": "Il knockup E di Galio chiude la distanza su cui si reggono, e la W assorbe il burst delle loro spell a lungo cooldown tipo Lux R o Veigar R.",
         "via": "pick_into"
       },
       {
@@ -1276,6 +1356,46 @@
         },
         "archetype": "ADC immobili senza dash",
         "reason": "Questi ADC non possono scappare a un flank dalla brush; una volta che R + E centrano, non hanno tool di mobilità per resettare la distanza e il tuo bot converte la kill in torre.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile bot-lane carries reachable by R",
+        "reason": "Hero's Entrance lands on top of an ally; ADCs without a dash cannot escape the knockup and your bot can collapse for the kill.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Carry bot immobili raggiungibili con R",
+        "reason": "Hero's Entrance atterra sopra un alleato; ADC senza dash non escono dal knockup e il tuo bot collassa per la kill.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile ADCs with no dash",
+        "reason": "Hero's Entrance lands on top of your ally with a knockup; carries without a dash cannot escape, so any 2v2 turns into a kill once R is up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC immobili senza dash",
+        "reason": "Hero's Entrance atterra sopra il tuo alleato con knockup; carry senza dash non escono, quindi ogni 2v2 si trasforma in una kill quando R è up.",
         "via": "pick_into"
       },
       {
@@ -1744,6 +1864,26 @@
       },
       {
         "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hook supports",
+        "reason": "A hook landing on Galio mid-W cancels the entire engage; he is a big target with no built-in dodge tool, and a hook into a chain CC removes both R and E from the fight.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Hook support",
+        "reason": "Un hook che atterra su Galio mid-W cancella l'intero engage; è un target grosso senza un dodge tool intrinseco, e un hook dentro chain-CC rimuove sia R che E dal fight.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "janna",
           "role": "support",
           "lang": "en"
@@ -1963,6 +2103,26 @@
         "archetype": "Mage support a lungo raggio che pokano oltre la Q",
         "reason": "Stanno a 1100+ di range e ti rosicchiano l'HP gratis. Braum non ha risposta oltre la sua Q, e la E aiuta solo se sei gia' vicino: vincono la lane per logoramento.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Squishy mage supports without escape",
+        "reason": "Mage supports stand still to land skillshots; Galio's E reaches them through minions and his W tanks the burst that would normally chase off a melee engager.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Mage support squishy senza escape",
+        "reason": "I mage support stanno fermi per piazzare gli skillshot; la E di Galio li raggiunge attraverso i minion e la W tanka il burst che normalmente scaccerebbe un melee engager.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -2304,6 +2464,46 @@
         },
         "archetype": "ADC immobili senza dash",
         "reason": "Questi ADC non possono scappare a un flank dalla brush; una volta che R + E centrano, non hanno tool di mobilità per resettare la distanza e il tuo bot converte la kill in torre.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile bot-lane carries reachable by R",
+        "reason": "Hero's Entrance lands on top of an ally; ADCs without a dash cannot escape the knockup and your bot can collapse for the kill.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Carry bot immobili raggiungibili con R",
+        "reason": "Hero's Entrance atterra sopra un alleato; ADC senza dash non escono dal knockup e il tuo bot collassa per la kill.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile ADCs with no dash",
+        "reason": "Hero's Entrance lands on top of your ally with a knockup; carries without a dash cannot escape, so any 2v2 turns into a kill once R is up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC immobili senza dash",
+        "reason": "Hero's Entrance atterra sopra il tuo alleato con knockup; carry senza dash non escono, quindi ogni 2v2 si trasforma in una kill quando R è up.",
         "via": "pick_into"
       },
       {
@@ -2690,6 +2890,26 @@
       },
       {
         "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Anti-tank fighters with %HP true damage or hard CC dive",
+        "reason": "Fiora's vitals shred Mega Gnar's HP pool faster than he can fight back; Camille's E hookshot pins Mini Gnar to a wall for the all-in he has no dash to escape.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Anti-tank con true damage %HP o hard CC dive",
+        "reason": "I vital di Fiora shreddano l'HP pool di Mega Gnar più veloce di quanto lui possa rispondere; la E hookshot di Camille pinna Mini Gnar al muro per un all-in da cui non ha dash per scappare.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "irelia",
           "role": "top",
           "lang": "en"
@@ -2849,6 +3069,26 @@
         "archetype": "Mage immobili senza dash",
         "reason": "L'R di Corki arriva a 1225 unità e la W gli dà l'unico vantaggio di mobilità della lane. Target senza dash o stealth mangiano R poke ripetuti e non possono punirlo nelle finestre in cui la W è in cooldown.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "DOT magic damage and point-and-click lockdown",
+        "reason": "W shield absorbs burst, not constant tick damage; Malzahar's R suppression locks Galio mid-W charge, cancelling the entire engage tool.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "DOT magico e lockdown point-and-click",
+        "reason": "Lo scudo W assorbe burst non DOT (danno spalmato nei secondi successivi invece che istantaneo); la R di Malzahar suppressa Galio in carica W, cancellando l'intero tool di engage.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -3054,6 +3294,26 @@
         },
         "archetype": "Juggernaut lenti che dipendono da una grossa abilità",
         "reason": "La W di Fiora para l'unica wind-up telegrafata che li definisce (la pull E di Darius, la slam W di Sett, la Q silence di Garen). Con la wind-up sprecata, lei gira e free-hitta i Vitals tutto il trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Melee juggernauts without ranged poke",
+        "reason": "Mini Gnar Q has 1100 range and slows. They cannot touch you until you walk into them, so you stack Rage safely and only commit when Mega is up to disengage with R wall stun.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Juggernaut melee senza poke ranged",
+        "reason": "Mini Gnar Q ha 1100 di range e rallenta. Non possono toccarti finché non gli cammini addosso, quindi accumuli Rage in sicurezza e ti committi solo con Mega su per disengage con R su muro.",
         "via": "pick_into"
       },
       {
@@ -4114,6 +4374,26 @@
       },
       {
         "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Anti-tank fighters with %HP true damage or hard CC dive",
+        "reason": "Fiora's vitals shred Mega Gnar's HP pool faster than he can fight back; Camille's E hookshot pins Mini Gnar to a wall for the all-in he has no dash to escape.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Anti-tank con true damage %HP o hard CC dive",
+        "reason": "I vital di Fiora shreddano l'HP pool di Mega Gnar più veloce di quanto lui possa rispondere; la E hookshot di Camille pinna Mini Gnar al muro per un all-in da cui non ha dash per scappare.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "hecarim",
           "role": "jungle",
           "lang": "en"
@@ -4452,6 +4732,26 @@
         },
         "archetype": "Untargetable / blink-based",
         "reason": "Fizz E e Kassadin R schivano la combo committata e poi re-engagano su Corki quando la sua W è giù. Lui non ha follow-up burst una volta che diventano untargetable.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Short-range assassins with multiple dashes",
+        "reason": "Akali's shroud breaks his W targeting, and Zed/Fizz dash chains finish the trade before W comes off charge — Galio's best CC is on a slow tell they out-pace.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini a corto raggio con multipli dash",
+        "reason": "Lo shroud di Akali rompe il targeting di W, e le catene di dash di Zed/Fizz chiudono il trade prima che la W esca dal charge — il miglior CC di Galio sta su un tell lento che loro out-pace.",
         "via": "counterpick"
       },
       {
@@ -4858,6 +5158,26 @@
         },
         "archetype": "Juggernaut lenti che dipendono da una grossa abilità",
         "reason": "La W di Fiora para l'unica wind-up telegrafata che li definisce (la pull E di Darius, la slam W di Sett, la Q silence di Garen). Con la wind-up sprecata, lei gira e free-hitta i Vitals tutto il trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Melee juggernauts without ranged poke",
+        "reason": "Mini Gnar Q has 1100 range and slows. They cannot touch you until you walk into them, so you stack Rage safely and only commit when Mega is up to disengage with R wall stun.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Juggernaut melee senza poke ranged",
+        "reason": "Mini Gnar Q ha 1100 di range e rallenta. Non possono toccarti finché non gli cammini addosso, quindi accumuli Rage in sicurezza e ti committi solo con Mega su per disengage con R su muro.",
         "via": "pick_into"
       },
       {
@@ -5680,6 +6000,26 @@
       },
       {
         "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Disengage enchanters",
+        "reason": "Their AOE knock-aside or shield-and-cleanse spells negate the R landing window and the W taunt — by the time Galio drops in, the carry is already disengaged out of range.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter da disengage",
+        "reason": "I loro AOE knock-aside o le spell shield-and-cleanse negano la finestra di landing della R e il taunt W — quando Galio atterra, il carry è gia disengaged fuori range.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "leona",
           "role": "support",
           "lang": "en"
@@ -6085,6 +6425,46 @@
         "archetype": "Marksman con burst pre-6 frontloaded",
         "reason": "Il loro pattern di trade ai livelli 1-3 (auto reset di Jhin, Double Up di MF) supera Ezreal in danno prima che lui carichi la passive. Ti costringono a backare presto e a perdere tempo su Manaflow Band.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile bot-lane carries reachable by R",
+        "reason": "Hero's Entrance lands on top of an ally; ADCs without a dash cannot escape the knockup and your bot can collapse for the kill.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Carry bot immobili raggiungibili con R",
+        "reason": "Hero's Entrance atterra sopra un alleato; ADC senza dash non escono dal knockup e il tuo bot collassa per la kill.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile ADCs with no dash",
+        "reason": "Hero's Entrance lands on top of your ally with a knockup; carries without a dash cannot escape, so any 2v2 turns into a kill once R is up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC immobili senza dash",
+        "reason": "Hero's Entrance atterra sopra il tuo alleato con knockup; carry senza dash non escono, quindi ogni 2v2 si trasforma in una kill quando R è up.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -7295,7 +7675,7 @@
           "lang": "it"
         },
         "archetype": "Junglers da farm e scaling",
-        "reason": "Jungler che vogliono farmare e scalare: Evelynn invade, ruba camp e gankka con Camouflage post-6, costringendoli a difendersi invece di scalare.",
+        "reason": "Jungler che vogliono farmare e scalare: Evelynn invade, ruba camp e fa gank con Camouflage post-6, costringendoli a difendersi invece di scalare.",
         "via": "pick_into"
       },
       {
@@ -7966,6 +8346,26 @@
         },
         "archetype": "Top ranged con CC integrato",
         "reason": "Pokano da fuori range Q e hanno stun ranged: il throw di Gnar in mega-form, la W di Kennen. Tengono Darius con HP basso senza mai entrare nella sua finestra di trade.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged top laners that out-poke Mini Gnar",
+        "reason": "Mini Gnar has no ranged sustain and his only safe trade is Q from max range. They auto-attack from inside that range and shove him under tower without any return window.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged che pokano Mini Gnar da più lontano",
+        "reason": "Mini Gnar non ha sustain ranged e il suo unico trade safe è Q da max range. Loro autoattaccano da dentro quel range e lo spingono sotto torre senza alcuna finestra di risposta.",
         "via": "counterpick"
       },
       {
@@ -9102,6 +9502,26 @@
       },
       {
         "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hookless tank engage supports",
+        "reason": "Galio's E knockup interrupts their engage windup (Leona Q stun-walk, Rakan W charge); his W shield then absorbs the magic damage from their post-engage follow-up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Tank engage support hookless",
+        "reason": "Il knockup E di Galio interrompe il loro windup di engage (Q stun-walk di Leona, carica W di Rakan); lo scudo W poi assorbe il danno magico del loro follow-up post-engage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "janna",
           "role": "support",
           "lang": "en"
@@ -9910,6 +10330,26 @@
       },
       {
         "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Disengage enchanters",
+        "reason": "Their AOE knock-aside or shield-and-cleanse spells negate the R landing window and the W taunt — by the time Galio drops in, the carry is already disengaged out of range.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter da disengage",
+        "reason": "I loro AOE knock-aside o le spell shield-and-cleanse negano la finestra di landing della R e il taunt W — quando Galio atterra, il carry è gia disengaged fuori range.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "kayn",
           "role": "jungle",
           "lang": "en"
@@ -10252,6 +10692,26 @@
       },
       {
         "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile artillery mages",
+        "reason": "Galio E knockup closes the distance their range advantage relies on, and W absorbs the burst from their long-cooldown spells like Lux R or Veigar R.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage di artiglieria immobili",
+        "reason": "Il knockup E di Galio chiude la distanza su cui si reggono, e la W assorbe il burst delle loro spell a lungo cooldown tipo Lux R o Veigar R.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "leona",
           "role": "support",
           "lang": "en"
@@ -10494,6 +10954,26 @@
       },
       {
         "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Tank engagers that cancel your R angle",
+        "reason": "They flash-engage your back line before you can transform and choose your wall. Once their initiation lands, your R becomes peel (pushing enemies off your carries) instead of the game-winning pickoff (single-kill on an isolated target) it should be.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Tank engager che cancellano l'angolo della tua R",
+        "reason": "Flash-engagano la tua back line prima che tu possa trasformarti e scegliere il muro. Una volta che la loro initiation atterra, la tua R diventa peel (spingere via i nemici dai tuoi carry) invece del pickoff (kill singola su un nemico isolato) game-winning.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "irelia",
           "role": "top",
           "lang": "en"
@@ -10732,6 +11212,26 @@
         },
         "archetype": "Mage con CC point-and-click",
         "reason": "La R di Lissandra è stasi point-and-click (niente skillshot da schivare con E), la R di Malzahar suppressa attraverso il recast di E. Entrambe puliscono la wave, quindi Fizz non può zonarle in lane.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "DOT magic damage and point-and-click lockdown",
+        "reason": "W shield absorbs burst, not constant tick damage; Malzahar's R suppression locks Galio mid-W charge, cancelling the entire engage tool.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "DOT magico e lockdown point-and-click",
+        "reason": "Lo scudo W assorbe burst non DOT (danno spalmato nei secondi successivi invece che istantaneo); la R di Malzahar suppressa Galio in carica W, cancellando l'intero tool di engage.",
         "via": "counterpick"
       },
       {
@@ -11095,7 +11595,7 @@
           "lang": "it"
         },
         "archetype": "Junglers da farm e scaling",
-        "reason": "Jungler che vogliono farmare e scalare: Evelynn invade, ruba camp e gankka con Camouflage post-6, costringendoli a difendersi invece di scalare.",
+        "reason": "Jungler che vogliono farmare e scalare: Evelynn invade, ruba camp e fa gank con Camouflage post-6, costringendoli a difendersi invece di scalare.",
         "via": "pick_into"
       },
       {
@@ -11158,6 +11658,26 @@
         },
         "archetype": "Enchanter con Black Shield / spell-shield",
         "reason": "Black Shield assorbe Terrify (Q fear) e il primo tick AOE di Crowstorm sul carry, neutralizzando il cast di engage e dando 5s di finestra per il disengage.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Disengage enchanters",
+        "reason": "Their AOE knock-aside or shield-and-cleanse spells negate the R landing window and the W taunt — by the time Galio drops in, the carry is already disengaged out of range.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter da disengage",
+        "reason": "I loro AOE knock-aside o le spell shield-and-cleanse negano la finestra di landing della R e il taunt W — quando Galio atterra, il carry è gia disengaged fuori range.",
         "via": "counterpick"
       },
       {
@@ -11870,6 +12390,26 @@
         },
         "archetype": "Melee scaling late con lane early debole",
         "reason": "Li bullizza fuori dalla wave dal livello 2 con i reset di Q, uccidendoli o spingendoli sotto tower più volte prima che arrivino agli item che li rendono pericolosi.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Scaling juggernauts with no early kill threat",
+        "reason": "You shove the wave with Mini Q+W and deny their farm under tower; they cannot punish because they have no gap-close that beats your boomerang range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Juggernaut da scaling senza early kill threat",
+        "reason": "Pushi la wave con Mini Q+W e gli neghi farm sotto torre; non possono punire perché non hanno gap-close che batte il tuo boomerang range.",
         "via": "pick_into"
       },
       {
@@ -12826,6 +13366,26 @@
       },
       {
         "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Tank engagers that cancel your R angle",
+        "reason": "They flash-engage your back line before you can transform and choose your wall. Once their initiation lands, your R becomes peel (pushing enemies off your carries) instead of the game-winning pickoff (single-kill on an isolated target) it should be.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Tank engager che cancellano l'angolo della tua R",
+        "reason": "Flash-engagano la tua back line prima che tu possa trasformarti e scegliere il muro. Una volta che la loro initiation atterra, la tua R diventa peel (spingere via i nemici dai tuoi carry) invece del pickoff (kill singola su un nemico isolato) game-winning.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "irelia",
           "role": "top",
           "lang": "en"
@@ -13212,6 +13772,26 @@
       },
       {
         "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hook supports",
+        "reason": "A hook landing on Galio mid-W cancels the entire engage; he is a big target with no built-in dodge tool, and a hook into a chain CC removes both R and E from the fight.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Hook support",
+        "reason": "Un hook che atterra su Galio mid-W cancella l'intero engage; è un target grosso senza un dodge tool intrinseco, e un hook dentro chain-CC rimuove sia R che E dal fight.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "janna",
           "role": "support",
           "lang": "en"
@@ -13576,6 +14156,26 @@
       },
       {
         "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged top laners that out-poke Mini Gnar",
+        "reason": "Mini Gnar has no ranged sustain and his only safe trade is Q from max range. They auto-attack from inside that range and shove him under tower without any return window.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged che pokano Mini Gnar da più lontano",
+        "reason": "Mini Gnar non ha sustain ranged e il suo unico trade safe è Q da max range. Loro autoattaccano da dentro quel range e lo spingono sotto torre senza alcuna finestra di risposta.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "nasus",
           "role": "top",
           "lang": "en"
@@ -13675,6 +14275,26 @@
         "archetype": "Support da lockdown / pick",
         "reason": "Un solo hook di Thresh o Q di Morgana blocca Draven a metà axe-catch. Senza catch, i reset di Q saltano, la velocità di W decade, e diventa un ADC fermo senza escape.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hookless tank engage supports",
+        "reason": "Galio's E knockup interrupts their engage windup (Leona Q stun-walk, Rakan W charge); his W shield then absorbs the magic damage from their post-engage follow-up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Tank engage support hookless",
+        "reason": "Il knockup E di Galio interrompe il loro windup di engage (Q stun-walk di Leona, carica W di Rakan); lo scudo W poi assorbe il danno magico del loro follow-up post-engage.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -14324,6 +14944,26 @@
         },
         "archetype": "Bruiser melee che devono starti addosso",
         "reason": "Senza un dash lungo devono camminare 700 unita' attraverso W e Q poison per toccarti. Twin Fang ti riporta full HP a ogni trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Short-range bruisers with finite all-in windows",
+        "reason": "Their power budget is in early-game trade windows. Mini Gnar dodges the all-in by E-hopping off minions, then flips the script when Mega comes online with R stun + Wallop chain.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser short-range con finestre di all-in finite",
+        "reason": "Il loro budget di power è in trade window early. Mini Gnar evita l'all-in con E-hop sui minion, poi ribalta tutto quando arriva Mega online con R stun + chain Wallop.",
         "via": "pick_into"
       },
       {
@@ -15762,6 +16402,26 @@
         },
         "archetype": "Juggernaut lenti che dipendono da una grossa abilità",
         "reason": "La W di Fiora para l'unica wind-up telegrafata che li definisce (la pull E di Darius, la slam W di Sett, la Q silence di Garen). Con la wind-up sprecata, lei gira e free-hitta i Vitals tutto il trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Melee juggernauts without ranged poke",
+        "reason": "Mini Gnar Q has 1100 range and slows. They cannot touch you until you walk into them, so you stack Rage safely and only commit when Mega is up to disengage with R wall stun.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Juggernaut melee senza poke ranged",
+        "reason": "Mini Gnar Q ha 1100 di range e rallenta. Non possono toccarti finché non gli cammini addosso, quindi accumuli Rage in sicurezza e ti committi solo con Mega su per disengage con R su muro.",
         "via": "pick_into"
       },
       {
@@ -17270,6 +17930,26 @@
       },
       {
         "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mid-range burst mages without sustain",
+        "reason": "His magic-damage shield on W cuts the bulk of their combo damage; once their burst is on cooldown they cannot duel a tank-AP frame.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Burst mage a media gittata senza sustain",
+        "reason": "Lo scudo magico W taglia il grosso del loro combo damage; quando il burst e in cooldown non possono duellare un frame AP-tank.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "zed",
           "role": "mid",
           "lang": "en"
@@ -17696,6 +18376,26 @@
       },
       {
         "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged top laners that out-poke Mini Gnar",
+        "reason": "Mini Gnar has no ranged sustain and his only safe trade is Q from max range. They auto-attack from inside that range and shove him under tower without any return window.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged che pokano Mini Gnar da più lontano",
+        "reason": "Mini Gnar non ha sustain ranged e il suo unico trade safe è Q da max range. Loro autoattaccano da dentro quel range e lo spingono sotto torre senza alcuna finestra di risposta.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "jax",
           "role": "top",
           "lang": "en"
@@ -17934,6 +18634,26 @@
         },
         "archetype": "Tank support da hard engage",
         "reason": "Il loro engage point-and-click (Leona E, Naut Q, Thresh Q hook) bypassa il punto di forza di Ezreal, cioè il poke a distanza. Una volta locked, la sua E spesso non basta a uscire dal follow-up.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hook supports",
+        "reason": "A hook landing on Galio mid-W cancels the entire engage; he is a big target with no built-in dodge tool, and a hook into a chain CC removes both R and E from the fight.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Hook support",
+        "reason": "Un hook che atterra su Galio mid-W cancella l'intero engage; è un target grosso senza un dodge tool intrinseco, e un hook dentro chain-CC rimuove sia R che E dal fight.",
         "via": "counterpick"
       },
       {
@@ -19354,6 +20074,26 @@
       },
       {
         "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged top laners that out-poke Mini Gnar",
+        "reason": "Mini Gnar has no ranged sustain and his only safe trade is Q from max range. They auto-attack from inside that range and shove him under tower without any return window.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged che pokano Mini Gnar da più lontano",
+        "reason": "Mini Gnar non ha sustain ranged e il suo unico trade safe è Q da max range. Loro autoattaccano da dentro quel range e lo spingono sotto torre senza alcuna finestra di risposta.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "hecarim",
           "role": "jungle",
           "lang": "en"
@@ -19856,6 +20596,26 @@
       },
       {
         "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile artillery mages",
+        "reason": "Galio E knockup closes the distance their range advantage relies on, and W absorbs the burst from their long-cooldown spells like Lux R or Veigar R.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage di artiglieria immobili",
+        "reason": "Il knockup E di Galio chiude la distanza su cui si reggono, e la W assorbe il burst delle loro spell a lungo cooldown tipo Lux R o Veigar R.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -20175,6 +20935,26 @@
         "archetype": "Artillery mage con channel lunghi",
         "reason": "Corki pareggia il loro range con la R e ha un dash per interrompere channel lunghi (Xerath R, Vel'Koz R). Non possono all-in lui, e i trade favoriscono il lato con mobilità.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mage supports",
+        "reason": "They poke from outside Galio's Q range and his E dash distance, so he cannot punish them in lane; missing health pre-6 stalls his side-lane R impact.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Mage support di artillery a lunga gittata",
+        "reason": "Pokano fuori dal range della Q di Galio e dalla distanza del dash E, quindi non li può punire in lane; missing health pre-6 stallano il suo impatto in side lane con la R.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -21212,6 +21992,26 @@
       },
       {
         "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mage supports",
+        "reason": "They poke from outside Galio's Q range and his E dash distance, so he cannot punish them in lane; missing health pre-6 stalls his side-lane R impact.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Mage support di artillery a lunga gittata",
+        "reason": "Pokano fuori dal range della Q di Galio e dalla distanza del dash E, quindi non li può punire in lane; missing health pre-6 stallano il suo impatto in side lane con la R.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "janna",
           "role": "support",
           "lang": "en"
@@ -21996,6 +22796,26 @@
       },
       {
         "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Wind Wall users",
+        "reason": "Yasuo's Wind Wall blocks Galio's Q windblasts entirely, removing his only ranged pressure tool during lane.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "User di Wind Wall",
+        "reason": "Il Wind Wall di Yasuo blocca completamente le raffiche Q di Galio, rimuovendo il suo unico tool di pressione a distanza in lane.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "jax",
           "role": "top",
           "lang": "en"
@@ -22478,6 +23298,26 @@
       },
       {
         "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Wind Wall users",
+        "reason": "Yasuo's Wind Wall blocks Galio's Q windblasts entirely, removing his only ranged pressure tool during lane.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "User di Wind Wall",
+        "reason": "Il Wind Wall di Yasuo blocca completamente le raffiche Q di Galio, rimuovendo il suo unico tool di pressione a distanza in lane.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "malphite",
           "role": "top",
           "lang": "en"
@@ -22676,6 +23516,26 @@
         },
         "archetype": "Fighter melee immobili senza tool di engage",
         "reason": "Aatrox vince i trade prima del livello 6 con i Q sul bordo; la W li tiene fermi abbastanza a lungo che non possono accumulare cariche delle loro passive in sicurezza né scappare al suo all-in.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Scaling juggernauts with no early kill threat",
+        "reason": "You shove the wave with Mini Q+W and deny their farm under tower; they cannot punish because they have no gap-close that beats your boomerang range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gnar",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Juggernaut da scaling senza early kill threat",
+        "reason": "Pushi la wave con Mini Q+W e gli neghi farm sotto torre; non possono punire perché non hanno gap-close che batte il tuo boomerang range.",
         "via": "pick_into"
       }
     ],
@@ -23426,6 +24286,26 @@
       },
       {
         "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Short-range assassins with multiple dashes",
+        "reason": "Akali's shroud breaks his W targeting, and Zed/Fizz dash chains finish the trade before W comes off charge — Galio's best CC is on a slow tell they out-pace.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini a corto raggio con multipli dash",
+        "reason": "Lo shroud di Akali rompe il targeting di W, e le catene di dash di Zed/Fizz chiudono il trade prima che la W esca dal charge — il miglior CC di Galio sta su un tell lento che loro out-pace.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "jinx",
           "role": "bot",
           "lang": "en"
@@ -23988,6 +24868,26 @@
         },
         "archetype": "Mage support stazionari",
         "reason": "Stanno fermi dietro per pokare. Un hook a max range sul frame di cast li prende prima che possano flashare, e regalano un 4v5 al tuo team.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Squishy mage supports without escape",
+        "reason": "Mage supports stand still to land skillshots; Galio's E reaches them through minions and his W tanks the burst that would normally chase off a melee engager.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "galio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Mage support squishy senza escape",
+        "reason": "I mage support stanno fermi per piazzare gli skillshot; la E di Galio li raggiunge attraverso i minion e la W tanka il burst che normalmente scaccerebbe un melee engager.",
         "via": "pick_into"
       },
       {

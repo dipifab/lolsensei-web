@@ -1220,6 +1220,64 @@
       }
     },
     {
+      "slug": "galio-mid",
+      "champion": "galio",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Galio Mid Build & Guide — Patch 16.9",
+          "description": "Galio mid lane guide for League of Legends Patch 16.9: starter kit, AP tank build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Battlemage / Engage Tank",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Galio",
+          "champion_key": "3"
+        },
+        "it": {
+          "title": "Galio Mid Build & Guida — Patch 16.9",
+          "description": "Guida Galio mid lane per League of Legends Patch 16.9: starter kit, build AP-tank, matchup chiave, power spike, errori comuni e un consiglio tecnico finale.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Battlemage / Engage Tank",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Galio",
+          "champion_key": "3"
+        }
+      }
+    },
+    {
+      "slug": "galio-support",
+      "champion": "galio",
+      "role": "support",
+      "locales": {
+        "en": {
+          "title": "Galio Support Build & Guide — Patch 16.9",
+          "description": "Galio support guide for League of Legends Patch 16.9: starter kit, engage-tank build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Vanguard / Engage Support",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Galio",
+          "champion_key": "3"
+        },
+        "it": {
+          "title": "Galio Support Build & Guida — Patch 16.9",
+          "description": "Guida Galio support per League of Legends Patch 16.9: starter kit, build engage-tank, matchup chiave, power spike, errori comuni e un consiglio tecnico finale.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Vanguard / Engage Support",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Galio",
+          "champion_key": "3"
+        }
+      }
+    },
+    {
       "slug": "garen-top",
       "champion": "garen",
       "role": "top",
@@ -1245,6 +1303,35 @@
           "damage_type": "physical",
           "champion_dd_id": "Garen",
           "champion_key": "86"
+        }
+      }
+    },
+    {
+      "slug": "gnar-top",
+      "champion": "gnar",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Gnar Top Build & Guide — Patch 16.9",
+          "description": "Gnar top lane guide for League of Legends Patch 16.9: Mini/Mega rage management, core bruiser build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Fighter / Shapeshifter",
+          "difficulty": 4,
+          "damage_type": "physical",
+          "champion_dd_id": "Gnar",
+          "champion_key": "150"
+        },
+        "it": {
+          "title": "Gnar Top Build & Guide — Patch 16.9",
+          "description": "Guida Gnar top per League of Legends Patch 16.9: gestione Rage Mini/Mega, build bruiser ottimale, matchup chiave, power spike, errori comuni e una tip finale.",
+          "patch": "16.9",
+          "last_updated": "2026-05-02",
+          "champion_class": "Fighter / Shapeshifter",
+          "difficulty": 4,
+          "damage_type": "physical",
+          "champion_dd_id": "Gnar",
+          "champion_key": "150"
         }
       }
     },
