@@ -2148,6 +2148,35 @@
       }
     },
     {
+      "slug": "mordekaiser-top",
+      "champion": "mordekaiser",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Mordekaiser Top Build & Guide — Patch 16.9",
+          "description": "Mordekaiser top lane guide for League of Legends Patch 16.9: AP bruiser build path, key matchups, power spikes, common mistakes, and an advanced R combo tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-04",
+          "champion_class": "Battlemage / Juggernaut",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Mordekaiser",
+          "champion_key": "82"
+        },
+        "it": {
+          "title": "Mordekaiser Top Build & Guida — Patch 16.9",
+          "description": "Guida Mordekaiser top per League of Legends Patch 16.9: build da AP bruiser, matchup chiave, power spike, errori comuni e una tecnica avanzata sulla R.",
+          "patch": "16.9",
+          "last_updated": "2026-05-04",
+          "champion_class": "Battlemage / Juggernaut",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Mordekaiser",
+          "champion_key": "82"
+        }
+      }
+    },
+    {
       "slug": "morgana-support",
       "champion": "morgana",
       "role": "support",

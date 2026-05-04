@@ -3838,6 +3838,26 @@
       },
       {
         "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Melee bruisers without ranged poke",
+        "reason": "Mordekaiser thrives in extended trades — his W shield stores the damage they pump into him and his passive aura ticks during the whole fight. They have no way to disengage once locked in by his E pull.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee senza poke a distanza",
+        "reason": "Mordekaiser brilla nei trade prolungati: lo scudo di W accumula il danno che gli pompano addosso e la passive ticka per tutto il fight. Una volta inchiodati dall'E pull, non hanno disengage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "nasus",
           "role": "top",
           "lang": "en"
@@ -5154,6 +5174,26 @@
       },
       {
         "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Duelists with parry or dodge tools",
+        "reason": "Fiora's W parries the R activation and refunds the cooldown; Jax's E dodges the Q empowered hit, neutralizing the kit they need most for the 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Duellanti con parry o dodge",
+        "reason": "La W di Fiora para l'animazione di attivazione della R rimborsando il cooldown; la E di Jax schiva il colpo empowered di Q, neutralizzando proprio gli strumenti che gli servono per l'1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "nasus",
           "role": "top",
           "lang": "en"
@@ -6142,6 +6182,26 @@
       },
       {
         "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Melee bruisers without ranged poke",
+        "reason": "Mordekaiser thrives in extended trades — his W shield stores the damage they pump into him and his passive aura ticks during the whole fight. They have no way to disengage once locked in by his E pull.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee senza poke a distanza",
+        "reason": "Mordekaiser brilla nei trade prolungati: lo scudo di W accumula il danno che gli pompano addosso e la passive ticka per tutto il fight. Una volta inchiodati dall'E pull, non hanno disengage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "nasus",
           "role": "top",
           "lang": "en"
@@ -6360,6 +6420,26 @@
         },
         "archetype": "Top laner ranged con strumenti di kite",
         "reason": "Ti pokano fuori dal range dell'auto-attack e disengage la R con la loro mobilità (Vayne tumble, Kennen lightning rush, Gnar form swap). Perdi la lane phase prima che la R sia online a livello 6.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged top laners with kite tools",
+        "reason": "Mordekaiser has no dash and no ranged poke; ranged tops auto-attack and disengage from outside his E range, denying every all-in attempt and slowly bleeding his HP.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top range con tool di kite",
+        "reason": "Mordekaiser non ha dash né poke a distanza; i top range fanno auto-attack e disimpegnano fuori dalla portata di E, negando ogni tentativo di all-in e logorando l'HP.",
         "via": "counterpick"
       },
       {
@@ -7300,6 +7380,26 @@
         },
         "archetype": "Duelist con counter point-and-click o true damage",
         "reason": "Fiora pare la E o la R, l'E hookshot di Camille stunna attraverso il tuo dash, la E di Jax stunna e supera la tua passiva basata su AS in scambi prolungati.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Duelists with parry or dodge tools",
+        "reason": "Fiora's W parries the R activation and refunds the cooldown; Jax's E dodges the Q empowered hit, neutralizing the kit they need most for the 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Duellanti con parry o dodge",
+        "reason": "La W di Fiora para l'animazione di attivazione della R rimborsando il cooldown; la E di Jax schiva il colpo empowered di Q, neutralizzando proprio gli strumenti che gli servono per l'1v1.",
         "via": "counterpick"
       },
       {
@@ -9302,6 +9402,26 @@
         },
         "archetype": "Late-game scaler immobili",
         "reason": "Kled punisce la loro early debole con all-in (scambi totali fino alla kill) ai livelli 2-6. Il bear trap aggancia un Nasus fuori dalle stack di Q prima che raggiunga uno spike, e nessuno dei tre ha dash per scappare dalla pull.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Squishy carries with limited escape",
+        "reason": "His R drags one target to a 1v1 pocket dimension for 7 seconds; carries with no real escape (Vladimir's pool is on cooldown after one use, Kayle has no dash) get deleted while their team holds the fight outside.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Carry squishy senza vere fughe",
+        "reason": "La R lo trascina in 1v1 per 7 secondi: champion senza vera fuga (la pool di Vladimir va in cooldown dopo un uso, Kayle non ha dash) vengono cancellati mentre il loro team tiene il fight fuori.",
         "via": "pick_into"
       },
       {
@@ -15062,6 +15182,26 @@
       },
       {
         "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "CC-immunity ultimates",
+        "reason": "Olaf's R Ragnarok grants immunity to disables and removes them on cast: he is unaffected by E's pull and his sustain in the death realm makes the R 1v1 a coin flip even when Morde lands the cast.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Ult con immunità ai CC",
+        "reason": "La R Ragnarok di Olaf concede immunità ai disable e li rimuove al cast: ignora il pull di E e il suo sustain dentro la death realm rende l'1v1 una coin flip anche quando Morde landa la R.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "warwick",
           "role": "jungle",
           "lang": "en"
@@ -15445,6 +15585,26 @@
         "archetype": "Engage point-and-click con stun",
         "reason": "Le loro catene di CC bloccano Gwen prima che possa attivare W. Stunnata a metà dash, mangia tutta la combo nemica prima che la mist scenda.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Lane bullies without R counter-tools",
+        "reason": "They beat Morde levels 1-5 but their kit has no answer to R post-6: a clean R off the wave isolates them from their team and Mordekaiser wins the 1v1 with stolen stats.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Lane bully senza counter alla R",
+        "reason": "Battono Morde dai livelli 1-5 ma il loro kit non ha risposta alla R post-6: una R pulita fuori dalla wave li isola dalla squadra e Mordekaiser vince l'1v1 con le stat rubate.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -16152,6 +16312,26 @@
         },
         "archetype": "Top ranged ad auto-attack",
         "reason": "Kitano Kled (si muovono indietro mentre attaccano) fuori dagli 800 della Q. Non riesce a procare la W su un target in movimento, e gli HP di Skaarl si squagliano dal poke prima che lui arrivi a livello 6.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged top laners with kite tools",
+        "reason": "Mordekaiser has no dash and no ranged poke; ranged tops auto-attack and disengage from outside his E range, denying every all-in attempt and slowly bleeding his HP.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top range con tool di kite",
+        "reason": "Mordekaiser non ha dash né poke a distanza; i top range fanno auto-attack e disimpegnano fuori dalla portata di E, negando ogni tentativo di all-in e logorando l'HP.",
         "via": "counterpick"
       },
       {
@@ -17004,6 +17184,26 @@
         },
         "archetype": "Diver dipendenti da combo con un solo commit window",
         "reason": "Lo stun di Q e il 40%+ di damage reduction di W mangiano il loro all-in: una volta spesi dash e burst, K'Sante ribalta lo scambio con R e li chiude in forma All Out.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Lane bullies without R counter-tools",
+        "reason": "They beat Morde levels 1-5 but their kit has no answer to R post-6: a clean R off the wave isolates them from their team and Mordekaiser wins the 1v1 with stolen stats.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Lane bully senza counter alla R",
+        "reason": "Battono Morde dai livelli 1-5 ma il loro kit non ha risposta alla R post-6: una R pulita fuori dalla wave li isola dalla squadra e Mordekaiser vince l'1v1 con le stat rubate.",
         "via": "pick_into"
       },
       {
@@ -18722,6 +18922,26 @@
         },
         "archetype": "Lane bully melee senza dash",
         "reason": "La Q ha 800 di range, fuori dal pull di Darius e dalla W di Sett. La 4-attack window della W più il recast di E permettono a Kled di vincere la rissa e uscirne prima che le loro abilità tornino.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Melee bruisers without ranged poke",
+        "reason": "Mordekaiser thrives in extended trades — his W shield stores the damage they pump into him and his passive aura ticks during the whole fight. They have no way to disengage once locked in by his E pull.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee senza poke a distanza",
+        "reason": "Mordekaiser brilla nei trade prolungati: lo scudo di W accumula il danno che gli pompano addosso e la passive ticka per tutto il fight. Una volta inchiodati dall'E pull, non hanno disengage.",
         "via": "pick_into"
       },
       {
@@ -20916,6 +21136,26 @@
       },
       {
         "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged top laners with kite tools",
+        "reason": "Mordekaiser has no dash and no ranged poke; ranged tops auto-attack and disengage from outside his E range, denying every all-in attempt and slowly bleeding his HP.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top range con tool di kite",
+        "reason": "Mordekaiser non ha dash né poke a distanza; i top range fanno auto-attack e disimpegnano fuori dalla portata di E, negando ogni tentativo di all-in e logorando l'HP.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "nasus",
           "role": "top",
           "lang": "en"
@@ -22956,6 +23196,26 @@
       },
       {
         "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged top laners with kite tools",
+        "reason": "Mordekaiser has no dash and no ranged poke; ranged tops auto-attack and disengage from outside his E range, denying every all-in attempt and slowly bleeding his HP.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top range con tool di kite",
+        "reason": "Mordekaiser non ha dash né poke a distanza; i top range fanno auto-attack e disimpegnano fuori dalla portata di E, negando ogni tentativo di all-in e logorando l'HP.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "nasus",
           "role": "top",
           "lang": "en"
@@ -24285,6 +24545,26 @@
         "archetype": "Top ranged con sustain o range eguale",
         "reason": "La Q di Vladimir (Transfusion) cura il poke; la W di Kennen (Electrical Surge) supera il range della Cannon Q. Entrambi forzano una lane a poke che Jayce perde senza l'opzione di all-in che avrebbe contro un melee bruiser.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Squishy carries with limited escape",
+        "reason": "His R drags one target to a 1v1 pocket dimension for 7 seconds; carries with no real escape (Vladimir's pool is on cooldown after one use, Kayle has no dash) get deleted while their team holds the fight outside.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mordekaiser",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Carry squishy senza vere fughe",
+        "reason": "La R lo trascina in 1v1 per 7 secondi: champion senza vera fuga (la pool di Vladimir va in cooldown dopo un uso, Kayle non ha dash) vengono cancellati mentre il loro team tiene il fight fuori.",
+        "via": "pick_into"
       }
     ],
     "volibear": [

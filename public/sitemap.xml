@@ -2529,6 +2529,22 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/miss-fortune/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/miss-fortune/bot/guide" />
   </url>
+  <!-- champion-guide/mordekaiser/top: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/mordekaiser/top/guide</loc>
+    <lastmod>2026-05-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/mordekaiser/top/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/mordekaiser/top/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/mordekaiser/top/guide" />
+  </url>
+  <!-- champion-guide/mordekaiser/top: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/mordekaiser/top/guide</loc>
+    <lastmod>2026-05-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/mordekaiser/top/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/mordekaiser/top/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/mordekaiser/top/guide" />
+  </url>
   <!-- champion-guide/morgana/support: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/morgana/support/guide</loc>
@@ -3353,6 +3369,14 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/miss-fortune" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/miss-fortune" />
   </url>
+  <!-- counter-detail/mordekaiser: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/mordekaiser</loc>
+    <lastmod>2026-05-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/mordekaiser" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/mordekaiser" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/mordekaiser" />
+  </url>
   <!-- counter-detail/morgana: en -->
   <url>
     <loc>https://www.lolsensei.com/en/counter/morgana</loc>
@@ -3960,6 +3984,14 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/miss-fortune" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/miss-fortune" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/miss-fortune" />
+  </url>
+  <!-- counter-detail/mordekaiser: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/mordekaiser</loc>
+    <lastmod>2026-05-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/mordekaiser" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/mordekaiser" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/mordekaiser" />
   </url>
   <!-- counter-detail/morgana: it -->
   <url>
