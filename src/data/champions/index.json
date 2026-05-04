@@ -1945,6 +1945,35 @@
       }
     },
     {
+      "slug": "kled-top",
+      "champion": "kled",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Kled Top Build & Guide — Patch 16.9",
+          "description": "Kled top lane guide for Patch 16.9: Conqueror runes, Trinity Force build path, key matchups, power spikes, and common mistakes for the Yordle skirmisher.",
+          "patch": "16.9",
+          "last_updated": "2026-05-04",
+          "champion_class": "Fighter / Skirmisher",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Kled",
+          "champion_key": "240"
+        },
+        "it": {
+          "title": "Kled Top Build & Guida — Patch 16.9",
+          "description": "Guida Kled top lane per League of Legends Patch 16.9: rune Conqueror, build path Trinity Force, matchup chiave, power spike ed errori comuni per lo skirmisher Yordle.",
+          "patch": "16.9",
+          "last_updated": "2026-05-04",
+          "champion_class": "Fighter / Skirmisher",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Kled",
+          "champion_key": "240"
+        }
+      }
+    },
+    {
       "slug": "lee-sin-jungle",
       "champion": "lee-sin",
       "role": "jungle",

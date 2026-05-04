@@ -2417,6 +2417,22 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kha-zix/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kha-zix/jungle/guide" />
   </url>
+  <!-- champion-guide/kled/top: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/kled/top/guide</loc>
+    <lastmod>2026-05-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/kled/top/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kled/top/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kled/top/guide" />
+  </url>
+  <!-- champion-guide/kled/top: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/kled/top/guide</loc>
+    <lastmod>2026-05-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/kled/top/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kled/top/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kled/top/guide" />
+  </url>
   <!-- champion-guide/lee-sin/jungle: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/lee-sin/jungle/guide</loc>
@@ -3289,6 +3305,14 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kha-zix" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kha-zix" />
   </url>
+  <!-- counter-detail/kled: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/kled</loc>
+    <lastmod>2026-05-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/kled" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kled" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kled" />
+  </url>
   <!-- counter-detail/leona: en -->
   <url>
     <loc>https://www.lolsensei.com/en/counter/leona</loc>
@@ -3888,6 +3912,14 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/kha-zix" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kha-zix" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kha-zix" />
+  </url>
+  <!-- counter-detail/kled: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/kled</loc>
+    <lastmod>2026-05-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/kled" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kled" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kled" />
   </url>
   <!-- counter-detail/leona: it -->
   <url>

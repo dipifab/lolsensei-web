@@ -328,6 +328,26 @@
       },
       {
         "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Squishy early-game laners",
+        "reason": "Kled bullies them off CS at level 2 with E plus auto-attacks. They lose tempo on first item and never catch up if Kled snowballs (turns an early lead into a bigger lead) the bully phase into roams.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Lane squishy in early game",
+        "reason": "Kled li bullya fuori dai CS già a livello 2 con E + auto. Perdono tempo sul primo item e non recuperano se Kled snowballa (trasforma il vantaggio early in un vantaggio crescente) la fase di lane in roam.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -3798,6 +3818,26 @@
       },
       {
         "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile melee lane bullies",
+        "reason": "Q has 800 range, outside Darius's E pull and Sett's W. W's 4-hit attack speed window plus E recast lets Kled win the brawl and walk out before their abilities come back up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Lane bully melee senza dash",
+        "reason": "La Q ha 800 di range, fuori dal pull di Darius e dalla W di Sett. La 4-attack window della W più il recast di E permettono a Kled di vincere la rissa e uscirne prima che le loro abilità tornino.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "nasus",
           "role": "top",
           "lang": "en"
@@ -3919,6 +3959,26 @@
         "archetype": "Tank HP-stacker e composizioni di front line",
         "reason": "La Q razzo fa danno fisico AOE che scala con attack speed e l'armor pen di Lord Dominik's contro target high-HP trasforma le grosse front line nel target ideale invece che in un muro.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Heal-stacking sustain tops",
+        "reason": "They outsustain Kled's W cooldown and recall later. Once they have one HP item, Kled's max-HP scaling damage from W and R no longer threatens them in a 1v1 brawl.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top sustain heal-stacking",
+        "reason": "Outsustainano il cooldown della W di Kled e recallano dopo. Una volta che hanno un item HP, il danno scaling % HP max della W e della R non li minaccia più nell'1v1.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -5054,6 +5114,26 @@
       },
       {
         "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Anti-burst self-peel duelists",
+        "reason": "Fiora's W parries Q yank or E recast knock. Tryndamere's R survives Kled's burst window — Skaarl falls off, Kled dismounts, Tryndamere wins the dismounted 1v1 with no escape for Kled.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Duelist auto-peel anti-burst",
+        "reason": "La W di Fiora parry il yank della Q o il knock del recast E. La R di Tryndamere sopravvive al burst di Kled — Skaarl cade, Kled smonta, Tryndamere vince l'1v1 da smontato senza che Kled abbia escape.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "malphite",
           "role": "top",
           "lang": "en"
@@ -5640,6 +5720,26 @@
     "gangplank": [
       {
         "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Squishy early-game laners",
+        "reason": "Kled bullies them off CS at level 2 with E plus auto-attacks. They lose tempo on first item and never catch up if Kled snowballs (turns an early lead into a bigger lead) the bully phase into roams.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Lane squishy in early game",
+        "reason": "Kled li bullya fuori dai CS già a livello 2 con E + auto. Perdono tempo sul primo item e non recuperano se Kled snowballa (trasforma il vantaggio early in un vantaggio crescente) la fase di lane in roam.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "sett",
           "role": "top",
           "lang": "en"
@@ -6018,6 +6118,26 @@
         },
         "archetype": "Bruiser melee tanky e juggernaut frontline",
         "reason": "Il danno % HP della Q di Rhaast e il knock-up della W stracciano i target con HP alti che altri assassini fanno fatica a uccidere, e riempi gli orb rossi naturalmente fightando contro di loro.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile melee lane bullies",
+        "reason": "Q has 800 range, outside Darius's E pull and Sett's W. W's 4-hit attack speed window plus E recast lets Kled win the brawl and walk out before their abilities come back up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Lane bully melee senza dash",
+        "reason": "La Q ha 800 di range, fuori dal pull di Darius e dalla W di Sett. La 4-attack window della W più il recast di E permettono a Kled di vincere la rissa e uscirne prima che le loro abilità tornino.",
         "via": "pick_into"
       },
       {
@@ -9162,6 +9282,26 @@
         },
         "archetype": "Melee scaling late con lane early debole",
         "reason": "Li bullizza fuori dalla wave dal livello 2 con i reset di Q, uccidendoli o spingendoli sotto tower più volte prima che arrivino agli item che li rendono pericolosi.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile late-game scalers",
+        "reason": "Kled punishes their weak early game with level 2-6 all-ins (full commitment fights). Bear trap hooks Nasus off his Q stacks before he reaches a power spike, and they have no dash to escape the pull.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Late-game scaler immobili",
+        "reason": "Kled punisce la loro early debole con all-in (scambi totali fino alla kill) ai livelli 2-6. Il bear trap aggancia un Nasus fuori dalle stack di Q prima che raggiunga uno spike, e nessuno dei tre ha dash per scappare dalla pull.",
         "via": "pick_into"
       },
       {
@@ -14014,6 +14154,26 @@
       },
       {
         "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile late-game scalers",
+        "reason": "Kled punishes their weak early game with level 2-6 all-ins (full commitment fights). Bear trap hooks Nasus off his Q stacks before he reaches a power spike, and they have no dash to escape the pull.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Late-game scaler immobili",
+        "reason": "Kled punisce la loro early debole con all-in (scambi totali fino alla kill) ai livelli 2-6. Il bear trap aggancia un Nasus fuori dalle stack di Q prima che raggiunga uno spike, e nessuno dei tre ha dash per scappare dalla pull.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "renekton",
           "role": "top",
           "lang": "en"
@@ -15972,6 +16132,26 @@
         },
         "archetype": "Top laner ranged che lo kitano",
         "reason": "La W di K'Sante ha solo 600 di range ed E ne ha 525. Avversari ranged lo pokano fuori lane con auto-attack da fuori la portata di W, poi si allontanano quando prova a caricare — lasciandolo solo con un'ulti a cooldown lungo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged auto-attack tops",
+        "reason": "They kite Kled (move away while autoing) outside his Q's 800 range. He cannot land W procs on a moving target, and Skaarl's HP melts from poke before he reaches level 6.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged ad auto-attack",
+        "reason": "Kitano Kled (si muovono indietro mentre attaccano) fuori dagli 800 della Q. Non riesce a procare la W su un target in movimento, e gli HP di Skaarl si squagliano dal poke prima che lui arrivi a livello 6.",
         "via": "counterpick"
       },
       {
@@ -18526,6 +18706,26 @@
       },
       {
         "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile melee lane bullies",
+        "reason": "Q has 800 range, outside Darius's E pull and Sett's W. W's 4-hit attack speed window plus E recast lets Kled win the brawl and walk out before their abilities come back up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Lane bully melee senza dash",
+        "reason": "La Q ha 800 di range, fuori dal pull di Darius e dalla W di Sett. La 4-attack window della W più il recast di E permettono a Kled di vincere la rissa e uscirne prima che le loro abilità tornino.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "nasus",
           "role": "top",
           "lang": "en"
@@ -20676,6 +20876,26 @@
       },
       {
         "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged auto-attack tops",
+        "reason": "They kite Kled (move away while autoing) outside his Q's 800 range. He cannot land W procs on a moving target, and Skaarl's HP melts from poke before he reaches level 6.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged ad auto-attack",
+        "reason": "Kitano Kled (si muovono indietro mentre attaccano) fuori dagli 800 della Q. Non riesce a procare la W su un target in movimento, e gli HP di Skaarl si squagliano dal poke prima che lui arrivi a livello 6.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "malphite",
           "role": "top",
           "lang": "en"
@@ -21481,6 +21701,26 @@
         "archetype": "Scaler lenti senza tool di harass in lane",
         "reason": "Il loro kill threat richiede item. La Cannon Q rimuove minuti di farm prima del power spike, e la Hammer E knockback nega la finestra di all-in quando finalmente provano a committare.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Anti-burst self-peel duelists",
+        "reason": "Fiora's W parries Q yank or E recast knock. Tryndamere's R survives Kled's burst window — Skaarl falls off, Kled dismounts, Tryndamere wins the dismounted 1v1 with no escape for Kled.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Duelist auto-peel anti-burst",
+        "reason": "La W di Fiora parry il yank della Q o il knock del recast E. La R di Tryndamere sopravvive al burst di Kled — Skaarl cade, Kled smonta, Tryndamere vince l'1v1 da smontato senza che Kled abbia escape.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -22636,6 +22876,26 @@
       },
       {
         "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged auto-attack tops",
+        "reason": "They kite Kled (move away while autoing) outside his Q's 800 range. He cannot land W procs on a moving target, and Skaarl's HP melts from poke before he reaches level 6.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged ad auto-attack",
+        "reason": "Kitano Kled (si muovono indietro mentre attaccano) fuori dagli 800 della Q. Non riesce a procare la W su un target in movimento, e gli HP di Skaarl si squagliano dal poke prima che lui arrivi a livello 6.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lulu",
           "role": "support",
           "lang": "en"
@@ -23094,6 +23354,26 @@
         },
         "archetype": "Mid-laner mage immobili senza dash",
         "reason": "Non possono rispondere al range di Cannon Q pre-6. Veigar deve piazzare la E (Event Horizon) per setuppare la Q, ma il gate di Jayce amplifica la tua Q prima della sua combo. Al 50% HP, swap a Hammer e li uccidi in un colpo attraverso il cast delle loro abilità.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile late-game scalers",
+        "reason": "Kled punishes their weak early game with level 2-6 all-ins (full commitment fights). Bear trap hooks Nasus off his Q stacks before he reaches a power spike, and they have no dash to escape the pull.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Late-game scaler immobili",
+        "reason": "Kled punisce la loro early debole con all-in (scambi totali fino alla kill) ai livelli 2-6. Il bear trap aggancia un Nasus fuori dalle stack di Q prima che raggiunga uno spike, e nessuno dei tre ha dash per scappare dalla pull.",
         "via": "pick_into"
       },
       {
@@ -24087,6 +24367,26 @@
         "archetype": "Bruiser melee che evocano pet o buff per fightare",
         "reason": "Si committano in avanti per usare le loro abilità (i ghoul di Yorick, l'AA potenziato di Volibear): una volta committati sono dentro il raggio della W e lo sciame di Tentacoli li punisce per restarci.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Heal-stacking sustain tops",
+        "reason": "They outsustain Kled's W cooldown and recall later. Once they have one HP item, Kled's max-HP scaling damage from W and R no longer threatens them in a 1v1 brawl.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kled",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top sustain heal-stacking",
+        "reason": "Outsustainano il cooldown della W di Kled e recallano dopo. Una volta che hanno un item HP, il danno scaling % HP max della W e della R non li minaccia più nell'1v1.",
+        "via": "counterpick"
       },
       {
         "publisher": {
