@@ -3170,6 +3170,26 @@
       },
       {
         "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Combo-reliant divers with one commit window",
+        "reason": "Q stun and W's 40%+ damage reduction eat their all-in: once they've spent their dashes and burst, K'Sante reverses with R and finishes them in All Out form.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Diver dipendenti da combo con un solo commit window",
+        "reason": "Lo stun di Q e il 40%+ di damage reduction di W mangiano il loro all-in: una volta spesi dash e burst, K'Sante ribalta lo scambio con R e li chiude in forma All Out.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "malphite",
           "role": "top",
           "lang": "en"
@@ -3734,6 +3754,26 @@
         },
         "archetype": "Scaler melee a corto raggio senza AA cancel",
         "reason": "Il loro danno è legato alle auto-attack o ad abilità a corto raggio — Counter Strike schiva le auto e lo stun AOE in uscita neutralizza il loro windup.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile melee bruisers without a dash",
+        "reason": "K'Sante's W stuns them mid-attempt and his R wall slam punishes their lack of escape; Q's 2-stack stun interrupts their key wind-ups (Darius pull, Garen E spin) before the spell finishes.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee immobili senza dash",
+        "reason": "La W di K'Sante li stuna a metà tentativo e la R con wall slam punisce la loro mancanza di escape; lo stun a 2 stack di Q interrompe i loro wind-up chiave (pull di Darius, E spin di Garen) prima che la spell finisca.",
         "via": "pick_into"
       },
       {
@@ -4994,6 +5034,26 @@
       },
       {
         "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Tank-shred specialists",
+        "reason": "Fiora's Vital Strikes deal true damage that ignores his shields and resists; Olaf's R cleanses W stun and makes him unstoppable in trades; Trundle's R steals K'Sante's bonus resists exactly when he's most vulnerable in All Out form.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Specialisti anti-tank",
+        "reason": "I Vital Strike di Fiora infliggono true damage che ignora scudi e resistenze; la R di Olaf cleansa lo stun di W e lo rende unstoppable nei trade; la R di Trundle ruba le bonus resistenze a K'Sante esattamente quando è più vulnerabile in forma All Out.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "malphite",
           "role": "top",
           "lang": "en"
@@ -5922,6 +5982,26 @@
       },
       {
         "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile melee bruisers without a dash",
+        "reason": "K'Sante's W stuns them mid-attempt and his R wall slam punishes their lack of escape; Q's 2-stack stun interrupts their key wind-ups (Darius pull, Garen E spin) before the spell finishes.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee immobili senza dash",
+        "reason": "La W di K'Sante li stuna a metà tentativo e la R con wall slam punisce la loro mancanza di escape; lo stun a 2 stack di Q interrompe i loro wind-up chiave (pull di Darius, E spin di Garen) prima che la spell finisca.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kayn",
           "role": "jungle",
           "lang": "en"
@@ -6120,6 +6200,26 @@
         },
         "archetype": "Top ranged con strumenti di kite",
         "reason": "Pokano fuori dai 700 di range di Leap Strike e indietreggiano quando Counter Strike è pronto. Jax non ha sustain pre-6 quindi la lane si sanguina senza mai arrivare in range di all-in.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged top laners that kite him",
+        "reason": "K'Sante's W has only 600 range and E only 525. Ranged opponents poke him out of lane with auto-attacks from outside W range, then walk away when he tries to charge — leaving him with nothing but a long-cooldown ultimate.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top laner ranged che lo kitano",
+        "reason": "La W di K'Sante ha solo 600 di range ed E ne ha 525. Avversari ranged lo pokano fuori lane con auto-attack da fuori la portata di W, poi si allontanano quando prova a caricare — lasciandolo solo con un'ulti a cooldown lungo.",
         "via": "counterpick"
       },
       {
@@ -7162,6 +7262,26 @@
         },
         "archetype": "Campioni che cambiano forma tra distanza e mischia",
         "reason": "Ti pokano da forma ranged, poi passano in forma melee solo quando i Tentacoli non sono attivi. Tu bruci la W cercando di ingaggiare e loro cancellano lo scambio tornando ranged.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged top laners that kite him",
+        "reason": "K'Sante's W has only 600 range and E only 525. Ranged opponents poke him out of lane with auto-attacks from outside W range, then walk away when he tries to charge — leaving him with nothing but a long-cooldown ultimate.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top laner ranged che lo kitano",
+        "reason": "La W di K'Sante ha solo 600 di range ed E ne ha 525. Avversari ranged lo pokano fuori lane con auto-attack da fuori la portata di W, poi si allontanano quando prova a caricare — lasciandolo solo con un'ulti a cooldown lungo.",
         "via": "counterpick"
       },
       {
@@ -13308,6 +13428,26 @@
       },
       {
         "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile melee bruisers without a dash",
+        "reason": "K'Sante's W stuns them mid-attempt and his R wall slam punishes their lack of escape; Q's 2-stack stun interrupts their key wind-ups (Darius pull, Garen E spin) before the spell finishes.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee immobili senza dash",
+        "reason": "La W di K'Sante li stuna a metà tentativo e la R con wall slam punisce la loro mancanza di escape; lo stun a 2 stack di Q interrompe i loro wind-up chiave (pull di Darius, E spin di Garen) prima che la spell finisca.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "nasus",
           "role": "top",
           "lang": "en"
@@ -14742,6 +14882,26 @@
       },
       {
         "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Tank-shred specialists",
+        "reason": "Fiora's Vital Strikes deal true damage that ignores his shields and resists; Olaf's R cleanses W stun and makes him unstoppable in trades; Trundle's R steals K'Sante's bonus resists exactly when he's most vulnerable in All Out form.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Specialisti anti-tank",
+        "reason": "I Vital Strike di Fiora infliggono true damage che ignora scudi e resistenze; la R di Olaf cleansa lo stun di W e lo rende unstoppable nei trade; la R di Trundle ruba le bonus resistenze a K'Sante esattamente quando è più vulnerabile in forma All Out.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "warwick",
           "role": "jungle",
           "lang": "en"
@@ -15796,6 +15956,26 @@
       },
       {
         "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged top laners that kite him",
+        "reason": "K'Sante's W has only 600 range and E only 525. Ranged opponents poke him out of lane with auto-attacks from outside W range, then walk away when he tries to charge — leaving him with nothing but a long-cooldown ultimate.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top laner ranged che lo kitano",
+        "reason": "La W di K'Sante ha solo 600 di range ed E ne ha 525. Avversari ranged lo pokano fuori lane con auto-attack da fuori la portata di W, poi si allontanano quando prova a caricare — lasciandolo solo con un'ulti a cooldown lungo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "nasus",
           "role": "top",
           "lang": "en"
@@ -16628,6 +16808,26 @@
       },
       {
         "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Combo-reliant divers with one commit window",
+        "reason": "Q stun and W's 40%+ damage reduction eat their all-in: once they've spent their dashes and burst, K'Sante reverses with R and finishes them in All Out form.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Diver dipendenti da combo con un solo commit window",
+        "reason": "Lo stun di Q e il 40%+ di damage reduction di W mangiano il loro all-in: una volta spesi dash e burst, K'Sante ribalta lo scambio con R e li chiude in forma All Out.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "sett",
           "role": "top",
           "lang": "en"
@@ -16829,6 +17029,26 @@
         "archetype": "Skirmisher con multi-dash",
         "reason": "Entrano nel raggio dei Tentacoli, fanno burst, poi escono con la dash prima che Conqueror raggiunga il cap. Quando le dash tornano disponibili, i tuoi Tentacoli sono in cooldown — sono loro a dettare il ritmo dello scambio, non tu.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Combo-reliant divers with one commit window",
+        "reason": "Q stun and W's 40%+ damage reduction eat their all-in: once they've spent their dashes and burst, K'Sante reverses with R and finishes them in All Out form.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Diver dipendenti da combo con un solo commit window",
+        "reason": "Lo stun di Q e il 40%+ di damage reduction di W mangiano il loro all-in: una volta spesi dash e burst, K'Sante ribalta lo scambio con R e li chiude in forma All Out.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -18242,6 +18462,26 @@
         },
         "archetype": "Bruiser melee immobili senza risposta a distanza",
         "reason": "Non hanno modo di rispondere al raggio della Cannon Q. Pokeli fuori dalla wave per i primi 6 livelli: Nasus perde stack di Q, Garen non arriva mai a Q, Sett non riempie mai la barra di W (Haymaker).",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile melee bruisers without a dash",
+        "reason": "K'Sante's W stuns them mid-attempt and his R wall slam punishes their lack of escape; Q's 2-stack stun interrupts their key wind-ups (Darius pull, Garen E spin) before the spell finishes.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee immobili senza dash",
+        "reason": "La W di K'Sante li stuna a metà tentativo e la R con wall slam punisce la loro mancanza di escape; lo stun a 2 stack di Q interrompe i loro wind-up chiave (pull di Darius, E spin di Garen) prima che la spell finisca.",
         "via": "pick_into"
       },
       {
@@ -20416,6 +20656,26 @@
       },
       {
         "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged top laners that kite him",
+        "reason": "K'Sante's W has only 600 range and E only 525. Ranged opponents poke him out of lane with auto-attacks from outside W range, then walk away when he tries to charge — leaving him with nothing but a long-cooldown ultimate.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top laner ranged che lo kitano",
+        "reason": "La W di K'Sante ha solo 600 di range ed E ne ha 525. Avversari ranged lo pokano fuori lane con auto-attack da fuori la portata di W, poi si allontanano quando prova a caricare — lasciandolo solo con un'ulti a cooldown lungo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "malphite",
           "role": "top",
           "lang": "en"
@@ -21018,6 +21278,26 @@
         },
         "archetype": "Bruiser duellanti che puniscono il dive in solitaria",
         "reason": "Se Hecarim engaga da solo (senza follow-up della squadra), questi 1v1 lo battono con passive anti-AD o true damage, trasformando il suo commit in una kill regalata.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Tank-shred specialists",
+        "reason": "Fiora's Vital Strikes deal true damage that ignores his shields and resists; Olaf's R cleanses W stun and makes him unstoppable in trades; Trundle's R steals K'Sante's bonus resists exactly when he's most vulnerable in All Out form.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Specialisti anti-tank",
+        "reason": "I Vital Strike di Fiora infliggono true damage che ignora scudi e resistenze; la R di Olaf cleansa lo stun di W e lo rende unstoppable nei trade; la R di Trundle ruba le bonus resistenze a K'Sante esattamente quando è più vulnerabile in forma All Out.",
         "via": "counterpick"
       },
       {
@@ -22312,6 +22592,26 @@
         },
         "archetype": "Top ranged con strumenti di kite",
         "reason": "Pokano fuori dai 700 di range di Leap Strike e indietreggiano quando Counter Strike è pronto. Jax non ha sustain pre-6 quindi la lane si sanguina senza mai arrivare in range di all-in.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged top laners that kite him",
+        "reason": "K'Sante's W has only 600 range and E only 525. Ranged opponents poke him out of lane with auto-attacks from outside W range, then walk away when he tries to charge — leaving him with nothing but a long-cooldown ultimate.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "k-sante",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top laner ranged che lo kitano",
+        "reason": "La W di K'Sante ha solo 600 di range ed E ne ha 525. Avversari ranged lo pokano fuori lane con auto-attack da fuori la portata di W, poi si allontanano quando prova a caricare — lasciandolo solo con un'ulti a cooldown lungo.",
         "via": "counterpick"
       },
       {

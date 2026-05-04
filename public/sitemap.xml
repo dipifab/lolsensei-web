@@ -2353,6 +2353,22 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/jinx/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/jinx/bot/guide" />
   </url>
+  <!-- champion-guide/k-sante/top: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/k-sante/top/guide</loc>
+    <lastmod>2026-05-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/k-sante/top/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/k-sante/top/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/k-sante/top/guide" />
+  </url>
+  <!-- champion-guide/k-sante/top: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/k-sante/top/guide</loc>
+    <lastmod>2026-05-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/k-sante/top/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/k-sante/top/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/k-sante/top/guide" />
+  </url>
   <!-- champion-guide/karma/support: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/karma/support/guide</loc>
@@ -3241,6 +3257,14 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/jinx" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/jinx" />
   </url>
+  <!-- counter-detail/k-sante: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/k-sante</loc>
+    <lastmod>2026-05-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/k-sante" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/k-sante" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/k-sante" />
+  </url>
   <!-- counter-detail/karma: en -->
   <url>
     <loc>https://www.lolsensei.com/en/counter/karma</loc>
@@ -3832,6 +3856,14 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/jinx" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/jinx" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/jinx" />
+  </url>
+  <!-- counter-detail/k-sante: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/k-sante</loc>
+    <lastmod>2026-05-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/k-sante" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/k-sante" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/k-sante" />
   </url>
   <!-- counter-detail/karma: it -->
   <url>
