@@ -13750,6 +13750,321 @@ export const itChampions: ChampionGuide[] = [
     "champion_key": "3"
   },
   {
+    "slug": "gangplank-top",
+    "title": "Gangplank Top Build & Guida — Patch 16.9",
+    "language": "it",
+    "patch": "16.9",
+    "champion": "gangplank",
+    "role": "top",
+    "last_updated": "2026-05-03",
+    "description": "Guida Gangplank top lane per Patch 16.9: starter kit, build crit con Trinity Force, matchup chiave, power spike, errori comuni e un consiglio avanzato sui barili concatenati.",
+    "quick_learn": {
+      "champion_dd_id": "Gangplank",
+      "difficulty": 5,
+      "damage_type": "mixed",
+      "champion_class": "Bruiser / Late-game crit caster",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Trial by Fire",
+          "description": "Auto-attack potenziata periodica che brucia il bersaglio infliggendo true damage nei secondi seguenti. Costringe a una finestra in melee — traccia il timer per anticipare l'all-in di GP.",
+          "dd_spell_id": "Gangplank_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Parrrley",
+          "description": "Colpo a distanza a 625 di gittata che applica danno fisico, on-hit (crit, Sheen di Trinity Force) e regala oro sull'uccisione. Principale fonte di poke e detonatore di barile.",
+          "dd_spell_id": "GangplankQWrapper"
+        },
+        {
+          "key": "W",
+          "name": "Remove Scurvy",
+          "description": "Cleanse di tutti i CC e cura in base agli HP mancanti. Cooldown lungo, costo mana alto — riservala al CC che decide il trade, non a uno slow minore.",
+          "dd_spell_id": "GangplankW"
+        },
+        {
+          "key": "E",
+          "name": "Powder Keg",
+          "description": "Piazza un barile; colpiscilo per detonarlo, infliggendo danno fisico AOE e slow. Due barili adiacenti si concatenano — un combo con 3 barili in catena è il picco di win-condition.",
+          "dd_spell_id": "GangplankE"
+        },
+        {
+          "key": "R",
+          "name": "Cannon Barrage",
+          "description": "Ult globale: bersaglia un punto qualsiasi della mappa per palle di cannone che rallentano e infliggono danno magico. Migliorabile in shop col plunder (oro bonus che la Q dà uccidendo unità).",
+          "dd_spell_id": "GangplankR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "3078",
+          "name": "Trinity Force"
+        },
+        {
+          "dd_id": "3006",
+          "name": "Berserker's Greaves"
+        },
+        {
+          "dd_id": "3508",
+          "name": "Essence Reaver"
+        },
+        {
+          "dd_id": "3031",
+          "name": "Infinity Edge"
+        },
+        {
+          "dd_id": "3072",
+          "name": "Bloodthirster"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3033",
+          "name": "Mortal Reminder",
+          "against": "contro composizioni che impilano cure (Aatrox, Soraka, Vladimir, Dr. Mundo) — le grievous wounds tagliano la cura nemica e il danno resta"
+        },
+        {
+          "dd_id": "3036",
+          "name": "Lord Dominik's Regards",
+          "against": "contro tank che impilano HP (Cho'Gath, Sion, Ornn) — la armor pen scala col vantaggio HP del bersaglio su di te"
+        },
+        {
+          "dd_id": "3156",
+          "name": "Maw of Malmortius",
+          "against": "contro burst AP pesante (Kennen R, Vladimir, Rumble) — lo scudo magico parte sotto soglia HP e ti salva dal colpo finale"
+        },
+        {
+          "dd_id": "3053",
+          "name": "Sterak's Gage",
+          "against": "contro composizioni di all-in burst (Camille E + R, Wukong R, Malphite R) — lo scudo HP scatta sul colpo da one-shot"
+        }
+      ],
+      "base_combo": [
+        "E",
+        "E",
+        "Q",
+        "AA",
+        "Q"
+      ],
+      "win_condition": "Sopravvivi alla lane fino a Trinity Force, poi concatena 3 barili nei teamfight. Un Q crit su un cluster di 3 barili sul carry avversario chiude il fight prima che inizi.",
+      "weakness": "Niente dash, mobilità base nulla. Hard counter di champion con strumenti che bloccano gli auto-attack (parry di Fiora, E di Jax) e di engage hard-CC point-and-click che non riesci a cleansare in tempo.",
+      "runes": {
+        "primary_tree": "Resolve",
+        "primary_tree_dd_id": 8400,
+        "keystone": {
+          "dd_id": 8437,
+          "name": "Grasp of the Undying",
+          "icon_path": "perk-images/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 8444,
+            "name": "Demolish",
+            "icon_path": "perk-images/Styles/Resolve/Demolish/Demolish.png"
+          },
+          {
+            "dd_id": 8429,
+            "name": "Conditioning",
+            "icon_path": "perk-images/Styles/Resolve/Conditioning/Conditioning.png"
+          },
+          {
+            "dd_id": 8451,
+            "name": "Overgrowth",
+            "icon_path": "perk-images/Styles/Resolve/Overgrowth/Overgrowth.png"
+          }
+        ],
+        "secondary_tree": "Precision",
+        "secondary_tree_dd_id": 8000,
+        "secondary_slots": [
+          {
+            "dd_id": 9111,
+            "name": "Triumph",
+            "icon_path": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "dd_id": 9104,
+            "name": "Legend: Alacrity",
+            "icon_path": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
+          }
+        ],
+        "stat_shards": [
+          "Attack Speed",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Resolve primaria: Grasp dà sustain nei trade Trial by Fire e impila HP permanenti — il pattern che Gangplank cerca mentre scala. Demolish punisce le torri sui roam avversari, Conditioning regge il frame late-game, Overgrowth gonfia il pool HP di Trinity Force.",
+        "secondary_rationale": "Precision secondaria: Triumph rimborsa HP e oro sulle takedown quando flanchi un teamfight con R — Gangplank dive spesso la backline, e l'heal salva il follow-up. Legend: Alacrity rampa attack speed per detonare i barili più velocemente e per la cadenza degli on-hit della Q.",
+        "secondary_alternative": "Contro matchup ranged poke (Teemo, Quinn, Vayne top) swap Precision verso Inspiration con Biscuit Delivery (HP e mana sustain di cui non hai altre fonti) e Cosmic Insight (CDR su summoner spell, Flash e Teleport più frequenti)."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "sion",
+            "nasus",
+            "cho-gath"
+          ],
+          "archetype": "Scaler late-game immobili",
+          "reason": "La Q di Gangplank arriva a 625 unità, ben oltre la loro range di farm in auto-attack. Non hanno dash per chiudere la distanza e punire un barile concatenato; tu scali più veloce di loro una volta online Trinity Force."
+        },
+        {
+          "examples": [
+            "darius",
+            "garen",
+            "sett"
+          ],
+          "archetype": "Bruiser melee senza disengage",
+          "reason": "Resta fuori dalla loro threat radius con la gittata della Q e rallentali con le zone di Powder Keg. Quando finalmente chiudono, non hanno strumenti di follow-up per tenerti in melee — resetti il trade e te ne vai."
+        },
+        {
+          "examples": [
+            "urgot",
+            "kled"
+          ],
+          "archetype": "Fighter con finestra early forte che poi cala",
+          "reason": "Farma a gittata di Q ai livelli 1-3, conserva W per il loro ult al livello 6, poi outscala dopo Trinity Force. Non hanno risposta late-game al combo da teamfight con barile concatenato."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "fiora",
+            "jax"
+          ],
+          "archetype": "Fighter mobili che bloccano gli auto-attack",
+          "reason": "La W parry di Fiora stunna Gangplank e riflette il CC; la E di Jax schiva ogni auto e Q per due secondi. Entrambi resettano il pattern di trade che Gangplank serve per scalare in late game."
+        },
+        {
+          "examples": [
+            "renekton",
+            "olaf"
+          ],
+          "archetype": "Bully early-window da all-in",
+          "reason": "Stun di Renekton al livello 2 + ult al livello 6 cancellano il piano di scaling di Gangplank prima di Trinity Force. La R di Olaf gli concede CC immunity, quindi il W cleanse non lo ferma mentre lo investe con asce in true damage."
+        },
+        {
+          "examples": [
+            "malphite",
+            "kennen"
+          ],
+          "archetype": "Engage hard-CC point-and-click",
+          "reason": "La R di Malphite è point-and-click senza skillshot da schivare. Lo stun di Kennen W e la R AOE concatenano CC oltre la finestra di cleanse della W di Gangplank — una volta partita la catena, la W non fa in tempo."
+        }
+      ]
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Gangplank è un top laner che scala in late game pagando una tassa pesante in early game in cambio di uno dei più alti tetti di danno crit del ruolo. Il suo kit sembra carico ma si riduce a due idee. <strong>Parrrley (Q)</strong> è una auto-attack a distanza con range 625 che applica gli effetti on-hit (chance di crit, proc di Sheen da Trinity Force, burn in true damage) e li trasferisce a chi è lontano. <strong>Powder Keg (E)</strong> è un barile piazzato a terra che lui colpisce per farlo esplodere; due barili adiacenti si concatenano, e tre barili creano un'altra catena a cascata. Il pattern signature è impilare 3 barili concatenati e far scoppiare la catena con la Q su un team avversario raggruppato per un burst istantaneo — danno alto concentrato in un secondo.</p>\n<p>Il piano partita richiede pazienza. Farma in sicurezza a gittata di Q nella finestra bullizzata dei livelli 1-6, completa Trinity Force intorno al minuto 14-16, e inizia a fare pressione sulle side lane con <strong>Cannon Barrage (R)</strong> per ribaltare i dragoni o rubare torri da un'altra parte della mappa. Nei teamfight, piazza i barili dietro la front line (i tank e bruiser davanti al team) e cammina avanti dentro la catena solo quando puoi farla detonare sulla backline avversaria (il carry seduto dietro al loro team che spara da lontano). Se sopravvivi alla lane e arrivi a 3 item, ogni fight in cui colpisci una Q crit su barile concatenato è chiuso.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1055.png\" alt=\"Doran&#x27;s Blade\"> <strong>Doran's Blade</strong> + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potion</strong> contro bruiser melee — vuoi la lifesteal (danno da auto-attack che ti cura) per i trade (scambi brevi in cui spendi un paio di abilità e te ne vai). <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1054.png\" alt=\"Doran&#x27;s Shield\"> <strong>Doran's Shield</strong> + Health Potion contro matchup ranged (Teemo, Quinn, Gnar) — la rigenerazione ti permette di farmare sotto poke (danno a distanza che logora HP senza commitment).</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> <strong>Trinity Force</strong> — Sheen (un bonus passivo che potenzia il prossimo auto-attack dopo aver lanciato un'abilità) procca su ogni Q per un boost di danno enorme. Attack speed, ability haste (la stat che riduce il cooldown delle abilità), HP — tutta la stat-line è il picco di win-condition di Gangplank.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> — attack speed per detonare i barili più velocemente e per la cadenza degli on-hit della Q.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3508.png\" alt=\"Essence Reaver\"> <strong>Essence Reaver</strong> — primo item crit; rimborsa mana ad ogni Q. Risolve il problema mana di Gangplank e avvia lo scaling crit.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3031.png\" alt=\"Infinity Edge\"> <strong>Infinity Edge</strong> — il picco di danno crit. Q crit e detonazioni dei barili ora one-shottano i target squishy (campioni con poche difese, come ADC e mage burst).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3072.png\" alt=\"Bloodthirster\"> <strong>Bloodthirster</strong> — lifesteal per la sustain nei teamfight prolungati, più uno scudo HP di overflow se resti pieno di vita.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3033.png\" alt=\"Mortal Reminder\"> <strong>Mortal Reminder</strong> — contro composizioni che impilano cure (Aatrox, Soraka, Vladimir, Dr. Mundo); la passiva grievous wounds taglia le cure nemiche, così il tuo danno resta invece di essere recuperato.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3036.png\" alt=\"Lord Dominik&#x27;s Regards\"> <strong>Lord Dominik's Regards</strong> — contro tank che impilano HP (Cho'Gath, Sion, Ornn). L'armor pen scala col vantaggio HP del bersaglio.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — contro burst AP pesante (Kennen R, Vladimir, Rumble); lo scudo magico parte quando vai sotto soglia HP e ti salva dal colpo che chiude la kill.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3053.png\" alt=\"Sterak&#x27;s Gage\"> <strong>Sterak's Gage</strong> — contro composizioni di all-in burst (Camille E + R, Wukong R, engage di Malphite con R); lo scudo HP procca sull'istante in cui prendi un colpo da one-shot, comprandoti il secondo che ti serve per cleansare con W e resettare.</li>\n</ul>\n<p><strong>Stivali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> di default. Swap a <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> contro team AD-heavy (3+ minacce di danno fisico), oppure <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> contro composizioni AP con CC pesante dove la W sarà spesso in cooldown.</p>\n<p><strong>Skill order:</strong> Massimizza <strong>Q</strong> per primo (lo scaling per rank di Parrrley è la fonte di danno principale), <strong>E</strong> per secondo (cooldown barile più basso = più catene), <strong>W</strong> per ultimo. Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Resolve</strong> con <strong>Grasp of the Undying</strong>, <strong>Demolish</strong>, <strong>Conditioning</strong>, <strong>Overgrowth</strong>. Secondario <strong>Precision</strong> con <strong>Triumph</strong> e <strong>Legend: Alacrity</strong>, oppure <strong>Inspiration</strong> con <strong>Biscuit Delivery</strong> e <strong>Cosmic Insight</strong> contro matchup ranged poke.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Darius:</strong> Hard bully early — Q che cura, W che rallenta, R che esegue. Può stoncarti dai livelli 1-6. Farma a gittata di Q, non contestare minion in melee, e tieni <strong>W</strong> per il pull della sua E. Una volta online <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> <strong>Trinity Force</strong> lo outscali in 1v1; fino ad allora la lane è una corsa alla sopravvivenza.</li>\n<li><strong>Sion:</strong> Lane di farm gratis. Lui impila cadaveri e HP, tu impili barili e crit. Pushalo sotto torre con i barili E, negagli i minion cannone per la sua passiva. Evita la Q caricata point-and-click e lo outscali ogni game.</li>\n<li><strong>Fiora:</strong> Peggior matchup di lane. La sua <strong>W</strong> è una parry — una finestra breve in cui assorbe il prossimo auto-attack o abilità che la colpisce, ti stunna e riflette ogni crowd control. Anche un barile slow può ritorcersi contro. Mai lanciare <strong>Q</strong> sul suo vital point (il punto colorato sul corpo che deve colpire per la passiva) — risponde con il riposte (contro-colpo) appena il proiettile arriva. Farma sotto torre, chiama il jungler, e accetta un deficit di CS; non puoi fare 1v1 finché non hai 3 item e lei è indietro.</li>\n<li><strong>Camille:</strong> Matchup da dive al livello 6 (il dive è quando un nemico entra sotto la tua torre, si prende qualche colpo dei cannoni, e prova a ucciderti lo stesso). Ti chiude dentro la gabbia della sua R. La sua <strong>E</strong> stun ignora lo slow del barile e la <strong>R</strong> ti isola. Compra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3053.png\" alt=\"Sterak&#x27;s Gage\"> <strong>Sterak's Gage</strong> prima del solito (4° item) e tieni Flash per la gabbia della sua R, non per i trade di poke.</li>\n<li><strong>Malphite:</strong> Hard counterpick — la sua R point-and-click non ha tell da skillshot e la tua <strong>W</strong> non può cleansarla se atterra mentre stai casting un'altra cosa. Tieni in mente <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> come build-path d'emergenza e non prendere mai teamfight senza vision sull'angolo da cui può engagiare.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 6:</strong> La prima <strong>Cannon Barrage</strong> sblocca pressione globale. Puoi ribaltare un fight per il dragone con la R dalla base, finire un nemico in fuga in mid lane con la zona di slow, o zonare la bot lane fuori da un obiettivo — tutto senza lasciare la tua wave.</li>\n<li><strong>Livello 9 (Q maxata):</strong> Parrrley raggiunge il pieno scaling per rank. Il costo mana scende a 30 e il danno salta; puoi pokare ogni matchup che non ha parry o dodge e scambiare Q per Q a tuo favore.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> Trinity Force completo (~ minuto 14-16):</strong> Il picco più grosso. Sheen procca ogni 1.5 secondi sulla Q, l'attack speed dimezza il tempo di detonazione del barile, e finalmente il pool HP ti permette di sopravvivere a un tentativo di one-shot. È il momento in cui la lane si ribalta da difensiva a aggressiva — puoi forzare trade che prima dovevi evitare.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3031.png\" alt=\"Infinity Edge\"> Infinity Edge online (~ minuto 26-30):</strong> Q crit su un cluster di 3 barili concatenati cancella ogni squishy in un secondo. Forza i fight obiettivo qui e stai sul bordo della frontline del tuo team, in modo che la catena di barili colpisca i carry avversari.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Sprecare W come cleanse di panico al primo CC.</strong> Tieni <strong>Remove Scurvy</strong> per l'abilità che decide il trade — la E di Camille, lo stun della W di Renekton, lo stun della W di Sett. Bruciarla su un polymorph di Lulu o uno slow minore ti lascia indifeso contro la vera minaccia.</li>\n<li><strong>Impilare barili prima del Q rank 3.</strong> Sotto rank 3 il cooldown del barile è troppo lungo per il timing della catena, quindi il secondo barile spesso scade prima che il terzo sia pronto. Farma con barili singoli fino al livello 5, poi inizia ad allenare le catene.</li>\n<li><strong>Usare R in modo egoista senza coordinare col team.</strong> Cannon Barrage è uno strumento globale di engage — un'abilità che inizia un teamfight da un'altra parte della mappa; se la sprechi su un inseguimento da poke 1v1 il tuo team perde il fight 4v5 a casa. Pinga sempre l'intento, sincronizzala con la smite del jungler, e controlla la minimap prima di lanciare.</li>\n<li><strong>Comprare item difensivi prima dello scaling crit.</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3053.png\" alt=\"Sterak&#x27;s Gage\"> <strong>Sterak's Gage</strong> sembra sicuro, ma se lo costruisci prima di <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3508.png\" alt=\"Essence Reaver\"> <strong>Essence Reaver</strong> e <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3031.png\" alt=\"Infinity Edge\"> <strong>Infinity Edge</strong> rinunci al picco di danno che giustifica la pick di Gangplank. Affidati al W cleanse e al pool HP di Trinity per attraversare il mid-game.</li>\n<li><strong>Dimenticarsi di upgradare R con il plunder.</strong> Ogni Q che uccide un'unità (minion, mostro o nemico) ti dà oro; spendilo in shop per migliorare Cannon Barrage (più danno, durata maggiore, zona di cura). Una R non upgradata al minuto 30 è una perdita di danno di circa il 30% sulla stessa ult.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena il <strong>barrel-jump combo</strong>: piazza il barile A, subito dopo piazza il barile B alla distanza massima di catena (appena dentro al raggio di link), poi auto-attacca il barile A. La detonazione concatenata innesca il barile B; mentre B è a metà catena, piazza il barile C adiacente a B. Con l'attack speed di <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> <strong>Trinity Force</strong> e la Q al rank 5, puoi sostenere un pattern di catene continue ogni 3-4 secondi, creando una zona AOE rotolante intorno alla quale il team avversario è costretto a girare. È la differenza tra un Gangplank che cancella la backline e un Gangplank che pokka inefficacemente da bordo fight.</p>",
+    "content_html_pre": "<h2>Panoramica</h2>\n<p>Gangplank è un top laner che scala in late game pagando una tassa pesante in early game in cambio di uno dei più alti tetti di danno crit del ruolo. Il suo kit sembra carico ma si riduce a due idee. <strong>Parrrley (Q)</strong> è una auto-attack a distanza con range 625 che applica gli effetti on-hit (chance di crit, proc di Sheen da Trinity Force, burn in true damage) e li trasferisce a chi è lontano. <strong>Powder Keg (E)</strong> è un barile piazzato a terra che lui colpisce per farlo esplodere; due barili adiacenti si concatenano, e tre barili creano un'altra catena a cascata. Il pattern signature è impilare 3 barili concatenati e far scoppiare la catena con la Q su un team avversario raggruppato per un burst istantaneo — danno alto concentrato in un secondo.</p>\n<p>Il piano partita richiede pazienza. Farma in sicurezza a gittata di Q nella finestra bullizzata dei livelli 1-6, completa Trinity Force intorno al minuto 14-16, e inizia a fare pressione sulle side lane con <strong>Cannon Barrage (R)</strong> per ribaltare i dragoni o rubare torri da un'altra parte della mappa. Nei teamfight, piazza i barili dietro la front line (i tank e bruiser davanti al team) e cammina avanti dentro la catena solo quando puoi farla detonare sulla backline avversaria (il carry seduto dietro al loro team che spara da lontano). Se sopravvivi alla lane e arrivi a 3 item, ogni fight in cui colpisci una Q crit su barile concatenato è chiuso.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1055.png\" alt=\"Doran&#x27;s Blade\"> <strong>Doran's Blade</strong> + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potion</strong> contro bruiser melee — vuoi la lifesteal (danno da auto-attack che ti cura) per i trade (scambi brevi in cui spendi un paio di abilità e te ne vai). <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1054.png\" alt=\"Doran&#x27;s Shield\"> <strong>Doran's Shield</strong> + Health Potion contro matchup ranged (Teemo, Quinn, Gnar) — la rigenerazione ti permette di farmare sotto poke (danno a distanza che logora HP senza commitment).</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> <strong>Trinity Force</strong> — Sheen (un bonus passivo che potenzia il prossimo auto-attack dopo aver lanciato un'abilità) procca su ogni Q per un boost di danno enorme. Attack speed, ability haste (la stat che riduce il cooldown delle abilità), HP — tutta la stat-line è il picco di win-condition di Gangplank.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> — attack speed per detonare i barili più velocemente e per la cadenza degli on-hit della Q.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3508.png\" alt=\"Essence Reaver\"> <strong>Essence Reaver</strong> — primo item crit; rimborsa mana ad ogni Q. Risolve il problema mana di Gangplank e avvia lo scaling crit.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3031.png\" alt=\"Infinity Edge\"> <strong>Infinity Edge</strong> — il picco di danno crit. Q crit e detonazioni dei barili ora one-shottano i target squishy (campioni con poche difese, come ADC e mage burst).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3072.png\" alt=\"Bloodthirster\"> <strong>Bloodthirster</strong> — lifesteal per la sustain nei teamfight prolungati, più uno scudo HP di overflow se resti pieno di vita.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3033.png\" alt=\"Mortal Reminder\"> <strong>Mortal Reminder</strong> — contro composizioni che impilano cure (Aatrox, Soraka, Vladimir, Dr. Mundo); la passiva grievous wounds taglia le cure nemiche, così il tuo danno resta invece di essere recuperato.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3036.png\" alt=\"Lord Dominik&#x27;s Regards\"> <strong>Lord Dominik's Regards</strong> — contro tank che impilano HP (Cho'Gath, Sion, Ornn). L'armor pen scala col vantaggio HP del bersaglio.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — contro burst AP pesante (Kennen R, Vladimir, Rumble); lo scudo magico parte quando vai sotto soglia HP e ti salva dal colpo che chiude la kill.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3053.png\" alt=\"Sterak&#x27;s Gage\"> <strong>Sterak's Gage</strong> — contro composizioni di all-in burst (Camille E + R, Wukong R, engage di Malphite con R); lo scudo HP procca sull'istante in cui prendi un colpo da one-shot, comprandoti il secondo che ti serve per cleansare con W e resettare.</li>\n</ul>\n<p><strong>Stivali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> di default. Swap a <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> contro team AD-heavy (3+ minacce di danno fisico), oppure <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> contro composizioni AP con CC pesante dove la W sarà spesso in cooldown.</p>\n<p><strong>Skill order:</strong> Massimizza <strong>Q</strong> per primo (lo scaling per rank di Parrrley è la fonte di danno principale), <strong>E</strong> per secondo (cooldown barile più basso = più catene), <strong>W</strong> per ultimo. Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Resolve</strong> con <strong>Grasp of the Undying</strong>, <strong>Demolish</strong>, <strong>Conditioning</strong>, <strong>Overgrowth</strong>. Secondario <strong>Precision</strong> con <strong>Triumph</strong> e <strong>Legend: Alacrity</strong>, oppure <strong>Inspiration</strong> con <strong>Biscuit Delivery</strong> e <strong>Cosmic Insight</strong> contro matchup ranged poke.</p>",
+    "content_html_post": "<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Darius:</strong> Hard bully early — Q che cura, W che rallenta, R che esegue. Può stoncarti dai livelli 1-6. Farma a gittata di Q, non contestare minion in melee, e tieni <strong>W</strong> per il pull della sua E. Una volta online <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> <strong>Trinity Force</strong> lo outscali in 1v1; fino ad allora la lane è una corsa alla sopravvivenza.</li>\n<li><strong>Sion:</strong> Lane di farm gratis. Lui impila cadaveri e HP, tu impili barili e crit. Pushalo sotto torre con i barili E, negagli i minion cannone per la sua passiva. Evita la Q caricata point-and-click e lo outscali ogni game.</li>\n<li><strong>Fiora:</strong> Peggior matchup di lane. La sua <strong>W</strong> è una parry — una finestra breve in cui assorbe il prossimo auto-attack o abilità che la colpisce, ti stunna e riflette ogni crowd control. Anche un barile slow può ritorcersi contro. Mai lanciare <strong>Q</strong> sul suo vital point (il punto colorato sul corpo che deve colpire per la passiva) — risponde con il riposte (contro-colpo) appena il proiettile arriva. Farma sotto torre, chiama il jungler, e accetta un deficit di CS; non puoi fare 1v1 finché non hai 3 item e lei è indietro.</li>\n<li><strong>Camille:</strong> Matchup da dive al livello 6 (il dive è quando un nemico entra sotto la tua torre, si prende qualche colpo dei cannoni, e prova a ucciderti lo stesso). Ti chiude dentro la gabbia della sua R. La sua <strong>E</strong> stun ignora lo slow del barile e la <strong>R</strong> ti isola. Compra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3053.png\" alt=\"Sterak&#x27;s Gage\"> <strong>Sterak's Gage</strong> prima del solito (4° item) e tieni Flash per la gabbia della sua R, non per i trade di poke.</li>\n<li><strong>Malphite:</strong> Hard counterpick — la sua R point-and-click non ha tell da skillshot e la tua <strong>W</strong> non può cleansarla se atterra mentre stai casting un'altra cosa. Tieni in mente <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> come build-path d'emergenza e non prendere mai teamfight senza vision sull'angolo da cui può engagiare.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 6:</strong> La prima <strong>Cannon Barrage</strong> sblocca pressione globale. Puoi ribaltare un fight per il dragone con la R dalla base, finire un nemico in fuga in mid lane con la zona di slow, o zonare la bot lane fuori da un obiettivo — tutto senza lasciare la tua wave.</li>\n<li><strong>Livello 9 (Q maxata):</strong> Parrrley raggiunge il pieno scaling per rank. Il costo mana scende a 30 e il danno salta; puoi pokare ogni matchup che non ha parry o dodge e scambiare Q per Q a tuo favore.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> Trinity Force completo (~ minuto 14-16):</strong> Il picco più grosso. Sheen procca ogni 1.5 secondi sulla Q, l'attack speed dimezza il tempo di detonazione del barile, e finalmente il pool HP ti permette di sopravvivere a un tentativo di one-shot. È il momento in cui la lane si ribalta da difensiva a aggressiva — puoi forzare trade che prima dovevi evitare.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3031.png\" alt=\"Infinity Edge\"> Infinity Edge online (~ minuto 26-30):</strong> Q crit su un cluster di 3 barili concatenati cancella ogni squishy in un secondo. Forza i fight obiettivo qui e stai sul bordo della frontline del tuo team, in modo che la catena di barili colpisca i carry avversari.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Sprecare W come cleanse di panico al primo CC.</strong> Tieni <strong>Remove Scurvy</strong> per l'abilità che decide il trade — la E di Camille, lo stun della W di Renekton, lo stun della W di Sett. Bruciarla su un polymorph di Lulu o uno slow minore ti lascia indifeso contro la vera minaccia.</li>\n<li><strong>Impilare barili prima del Q rank 3.</strong> Sotto rank 3 il cooldown del barile è troppo lungo per il timing della catena, quindi il secondo barile spesso scade prima che il terzo sia pronto. Farma con barili singoli fino al livello 5, poi inizia ad allenare le catene.</li>\n<li><strong>Usare R in modo egoista senza coordinare col team.</strong> Cannon Barrage è uno strumento globale di engage — un'abilità che inizia un teamfight da un'altra parte della mappa; se la sprechi su un inseguimento da poke 1v1 il tuo team perde il fight 4v5 a casa. Pinga sempre l'intento, sincronizzala con la smite del jungler, e controlla la minimap prima di lanciare.</li>\n<li><strong>Comprare item difensivi prima dello scaling crit.</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3053.png\" alt=\"Sterak&#x27;s Gage\"> <strong>Sterak's Gage</strong> sembra sicuro, ma se lo costruisci prima di <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3508.png\" alt=\"Essence Reaver\"> <strong>Essence Reaver</strong> e <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3031.png\" alt=\"Infinity Edge\"> <strong>Infinity Edge</strong> rinunci al picco di danno che giustifica la pick di Gangplank. Affidati al W cleanse e al pool HP di Trinity per attraversare il mid-game.</li>\n<li><strong>Dimenticarsi di upgradare R con il plunder.</strong> Ogni Q che uccide un'unità (minion, mostro o nemico) ti dà oro; spendilo in shop per migliorare Cannon Barrage (più danno, durata maggiore, zona di cura). Una R non upgradata al minuto 30 è una perdita di danno di circa il 30% sulla stessa ult.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena il <strong>barrel-jump combo</strong>: piazza il barile A, subito dopo piazza il barile B alla distanza massima di catena (appena dentro al raggio di link), poi auto-attacca il barile A. La detonazione concatenata innesca il barile B; mentre B è a metà catena, piazza il barile C adiacente a B. Con l'attack speed di <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> <strong>Trinity Force</strong> e la Q al rank 5, puoi sostenere un pattern di catene continue ogni 3-4 secondi, creando una zona AOE rotolante intorno alla quale il team avversario è costretto a girare. È la differenza tra un Gangplank che cancella la backline e un Gangplank che pokka inefficacemente da bordo fight.</p>",
+    "word_count": 1579,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "aatrox-top",
+        "champion": "aatrox",
+        "role": "top"
+      },
+      {
+        "slug": "darius-top",
+        "champion": "darius",
+        "role": "top"
+      },
+      {
+        "slug": "fiora-top",
+        "champion": "fiora",
+        "role": "top"
+      },
+      {
+        "slug": "garen-top",
+        "champion": "garen",
+        "role": "top"
+      },
+      {
+        "slug": "irelia-top",
+        "champion": "irelia",
+        "role": "top"
+      }
+    ],
+    "champion_key": "41"
+  },
+  {
     "slug": "garen-top",
     "title": "Garen Top Build & Guida — Patch 16.9",
     "language": "it",
@@ -16783,6 +17098,329 @@ export const itChampions: ChampionGuide[] = [
     "champion_key": "74"
   },
   {
+    "slug": "illaoi-top",
+    "title": "Illaoi Top Build & Guida — Patch 16.9",
+    "language": "it",
+    "patch": "16.9",
+    "champion": "illaoi",
+    "role": "top",
+    "last_updated": "2026-05-04",
+    "description": "Guida Illaoi top per League of Legends Patch 16.9: build da juggernaut con Tentacoli, pressione di Test of Spirit, matchup chiave, power spike, errori comuni e una tecnica avanzata.",
+    "quick_learn": {
+      "champion_dd_id": "Illaoi",
+      "difficulty": 2,
+      "damage_type": "physical",
+      "champion_class": "Juggernaut / Bruiser",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Prophet of an Elder God",
+          "description": "I Tentacoli spawnano sui muri e sul terreno impassible vicino. Colpiscono i nemici toccati da W, i Vessel creati dalla E, e gli spiriti estratti dalla E. Curano Illaoi quando colpiscono campioni e Vessel.",
+          "dd_spell_id": "Illaoi_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Tentacle Smash",
+          "description": "Smash di un Tentacolo in linea che fa danno fisico. Passiva: amplifica il danno di ogni slam dei Tentacoli — Q è anche il main waveclear e il pulsante per attivare i Tentacoli.",
+          "dd_spell_id": "IllaoiQ"
+        },
+        {
+          "key": "W",
+          "name": "Harsh Lesson",
+          "description": "Auto-attacco potenziato: salta sul bersaglio, fa danno fisico in % HP max, e ordina ai Tentacoli vicini di slammare. Il leap è la sua unica forma di mobility.",
+          "dd_spell_id": "IllaoiW"
+        },
+        {
+          "key": "E",
+          "name": "Test of Spirit",
+          "description": "Skillshot lineare a lungo raggio che strappa lo spirito del nemico. Il danno allo spirito fa eco sul bersaglio reale. Se lo spirito muore o il target esce dal raggio, diventa Vessel e i Tentacoli lo cacciano.",
+          "dd_spell_id": "IllaoiE"
+        },
+        {
+          "key": "R",
+          "name": "Leap of Faith",
+          "description": "Smash AOE attorno a Illaoi: danno + spawn di un Tentacolo per ogni campione nemico colpito. Per 8 secondi i Tentacoli sono untargetable e slammano del 50% più veloce, e il CD della W cala a ~1.5s.",
+          "dd_spell_id": "IllaoiR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "3078",
+          "name": "Trinity Force"
+        },
+        {
+          "dd_id": "3047",
+          "name": "Plated Steelcaps"
+        },
+        {
+          "dd_id": "3053",
+          "name": "Sterak's Gage"
+        },
+        {
+          "dd_id": "6333",
+          "name": "Death's Dance"
+        },
+        {
+          "dd_id": "3065",
+          "name": "Spirit Visage"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3111",
+          "name": "Mercury's Treads",
+          "against": "swap dai Plated Steelcaps con 2+ minacce AP o CC concatenato (stun, root, knockback) tipo Lissandra, Malphite ult, pull di Sett"
+        },
+        {
+          "dd_id": "6631",
+          "name": "Stridebreaker",
+          "against": "contro kiter che escono dal raggio della W (Quinn, Vayne, Gnar) — la dash attiva + slow li tiene dentro il raggio dei Tentacoli"
+        },
+        {
+          "dd_id": "3071",
+          "name": "Black Cleaver",
+          "against": "contro frontline ad alto armor (Malphite, Rammus, Shen) — ogni Q smash e ogni proc di W consuma stack di armor per tutta la squadra"
+        },
+        {
+          "dd_id": "3156",
+          "name": "Maw of Malmortius",
+          "against": "contro comp AP-heavy con burst (Vladimir, LeBlanc) — lo scudo magico parte quando sei basso HP e i Tentacoli devono ancora slammare"
+        },
+        {
+          "dd_id": "3181",
+          "name": "Hullbreaker",
+          "against": "quando il team è behind 4v5 e devi splitpushare — extra resistenze contro minion e torri per assediare una side lane da sola"
+        }
+      ],
+      "base_combo": [
+        "E",
+        "Q",
+        "W",
+        "AA",
+        "R"
+      ],
+      "win_condition": "Estrai lo spirito con E, tieni il bersaglio dentro il raggio del numero massimo possibile di Tentacoli. Ogni smash di Q e ogni W tickano sia sullo spirito che sul target — i fight prolungati sono la sua zona di vittoria.",
+      "weakness": "Niente dash, niente fuga oltre Flash. I top ranged la pokano fuori dal raggio della W, e gli skirmisher con multi-dash baitano i Tentacoli, escono dal raggio e rientrano quando gli stack di Conqueror sono già scaduti.",
+      "runes": {
+        "primary_tree": "Precision",
+        "primary_tree_dd_id": 8000,
+        "keystone": {
+          "dd_id": 8010,
+          "name": "Conqueror",
+          "icon_path": "perk-images/Styles/Precision/Conqueror/Conqueror.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 9111,
+            "name": "Triumph",
+            "icon_path": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "dd_id": 9104,
+            "name": "Legend: Alacrity",
+            "icon_path": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
+          },
+          {
+            "dd_id": 8299,
+            "name": "Last Stand",
+            "icon_path": "perk-images/Styles/Sorcery/LastStand/LastStand.png"
+          }
+        ],
+        "secondary_tree": "Resolve",
+        "secondary_tree_dd_id": 8400,
+        "secondary_slots": [
+          {
+            "dd_id": 8473,
+            "name": "Bone Plating",
+            "icon_path": "perk-images/Styles/Resolve/BonePlating/BonePlating.png"
+          },
+          {
+            "dd_id": 8451,
+            "name": "Overgrowth",
+            "icon_path": "perk-images/Styles/Resolve/Overgrowth/Overgrowth.png"
+          }
+        ],
+        "stat_shards": [
+          "Adaptive Force",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Precision con Conqueror: ogni Q, W e slam dei Tentacoli stacka la keystone, e la win zone di Illaoi sono fight da 5+ secondi. Triumph cura sui takedown, Legend: Alacrity dà Attack Speed per ridurre il CD della W, Last Stand premia la fascia di basso HP dove la R atterra meglio.",
+        "secondary_rationale": "Resolve secondary: Bone Plating taglia i primi 3 colpi di un all-in (uno scambio totale fino alla kill), che ai livelli 2-3 è la finestra in cui Illaoi perde HP senza poter ricambiare; Overgrowth scala HP dai minion fino a ~3.5% bonus health al minuto 25.",
+        "secondary_alternative": "Se il top è ranged poke duro (Teemo, Quinn, Jayce, Kennen), swap Resolve in Inspiration con Triple Tonic e Magical Footwear (Boots gratis al minuto 12) — perdi comunque la priorità in lane, Inspiration recupera oro e HP passivamente."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "sett",
+            "garen",
+            "darius",
+            "mordekaiser"
+          ],
+          "archetype": "Juggernaut melee senza dash",
+          "reason": "Il loro intero profilo di danno sta dentro il raggio della W. Una volta che ci salti sopra, ogni Tentacolo vicino slamma — e non hanno dash per uscire dal raggio prima che Conqueror raggiunga il cap e il danno vada a valanga."
+        },
+        {
+          "examples": [
+            "nasus",
+            "sion"
+          ],
+          "archetype": "Tank scaler con laning debole",
+          "reason": "I primi 6 livelli li passano a farmare passivamente. La E li scaccia dalla wave per chip gratuito e li trasforma in Vessel: i Tentacoli li cacciano fino alla wave e l'eco dello spirito raddoppia ogni Q smash che landi."
+        },
+        {
+          "examples": [
+            "yorick",
+            "volibear"
+          ],
+          "archetype": "Bruiser melee che evocano pet o buff per fightare",
+          "reason": "Si committano in avanti per usare le loro abilità (i ghoul di Yorick, l'AA potenziato di Volibear): una volta committati sono dentro il raggio della W e lo sciame di Tentacoli li punisce per restarci."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "teemo",
+            "vayne",
+            "quinn",
+            "kennen"
+          ],
+          "archetype": "Top ranged che pokano o kitano",
+          "reason": "Stanno fuori dal raggio della W (400 unità) e ti smontano l'HP con gli auto-attack. Ogni passo che fai per chiudere la distanza gli regala un'AA gratis — e tu non hai dash per recuperare la distanza."
+        },
+        {
+          "examples": [
+            "riven",
+            "irelia",
+            "camille"
+          ],
+          "archetype": "Skirmisher con multi-dash",
+          "reason": "Entrano nel raggio dei Tentacoli, fanno burst, poi escono con la dash prima che Conqueror raggiunga il cap. Quando le dash tornano disponibili, i tuoi Tentacoli sono in cooldown — sono loro a dettare il ritmo dello scambio, non tu."
+        },
+        {
+          "examples": [
+            "jayce",
+            "gnar"
+          ],
+          "archetype": "Campioni che cambiano forma tra distanza e mischia",
+          "reason": "Ti pokano da forma ranged, poi passano in forma melee solo quando i Tentacoli non sono attivi. Tu bruci la W cercando di ingaggiare e loro cancellano lo scambio tornando ranged."
+        }
+      ]
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Illaoi è una <strong>juggernaut</strong> (un campione melee lento e immobile che fa tantissimo danno e tanka i colpi in uno scambio diretto) costruita attorno alla sua passiva <strong>Prophet of an Elder God</strong>. Il suo kit (l'insieme delle sue 5 abilità) spawna <strong>Tentacoli</strong> su tutti i muri e il terreno non calpestabile vicino — braccia gigantesche, <strong>untargetable</strong> (i nemici non possono colpirle), attaccate ai bordi della mappa che slammano a comando. I Tentacoli fanno la maggior parte del suo danno; il suo lavoro è costringere il nemico a stare dentro il loro raggio abbastanza a lungo da morire. Le abilità che danno ai Tentacoli un bersaglio sono due: <strong>W (Harsh Lesson)</strong> è un leap corto che ordina a ogni Tentacolo vicino di slammare sul target, e <strong>E (Test of Spirit)</strong> strappa lo spirito del nemico fuori dal corpo così i Tentacoli lo possono pestare (con il danno che fa eco sul campione reale).</p>\n<p>Il game plan è brutalmente semplice. <strong>Landi la E per marcare il bersaglio, cammini in avanti, e usi la W per saltare nel campo di Tentacoli più denso del tuo lato della mappa.</strong> Se il nemico esce dal raggio, lo spirito muore e il campione diventa <strong>Vessel</strong> — uno status di debuff in cui i Tentacoli lo inseguono per tutta la lane. Da livello 6, <strong>R (Leap of Faith)</strong> spawna un Tentacolo extra per ogni campione nemico colpito e rende i Tentacoli esistenti untargetable per 8 secondi — è l'unica finestra in cui ha davvero il burst per cancellare un target, quindi tieni la R per un all-in (uno scambio totale fino alla kill, senza spazio per disimpegnarsi) o un teamfight, mai per il waveclear.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1054.png\" alt=\"Doran&#x27;s Shield\"> <strong>Doran's Shield</strong> + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potion</strong>. La passiva di rigenerazione HP attutisce il poke nemico (danno a distanza a basso costo che ti chippa l'HP senza che il nemico si committi a un fight) finché la pressione dei Tentacoli al livello 3 non è online.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> <strong>Trinity Force</strong> — primo spike di item (il momento in cui la tua forza fa il salto più grande). La passiva Spellblade (un'auto-attack potenziata gratuita ogni pochi secondi dopo un cast) si allinea perfettamente con la W: ogni AA del leap fa scattare (proc) Spellblade. Aggiunge AD (Attack Damage, la stat dietro il danno fisico), HP, ability haste (la stat che riduce i cooldown delle abilità) e Attack Speed — tutte le stat che servono al kit.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> — boots di default contro squadre che ti fanno male soprattutto con gli auto-attack. Riducono il danno degli auto negli scambi prolungati (back-and-forth di colpi in lane).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3053.png\" alt=\"Sterak&#x27;s Gage\"> <strong>Sterak's Gage</strong> — HP più uno <strong>scudo salvavita</strong>: quando l'HP scende sotto ~30%, parte automaticamente uno scudo. Quella finestra è esattamente quando i tuoi Tentacoli stanno ancora slammando, quindi i secondi extra di sopravvivenza diventano la kill.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6333.png\" alt=\"Death&#x27;s Dance\"> <strong>Death's Dance</strong> — converte il <strong>burst</strong> AD ricevuto (danno alto concentrato in 1-2 secondi, tipo un combo da assassino) in un <strong>bleed</strong> lento (danno spalmato nei secondi successivi invece che istantaneo). Sui takedown il bleed residuo viene ripulito — un reset gratis ogni volta che la R catena una kill.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3065.png\" alt=\"Spirit Visage\"> <strong>Spirit Visage</strong> — MR (Magic Resistance) più una passiva che amplifica le cure ricevute: potenzia il sustain dei Tentacoli dalla passiva, il bleed-clean di Death's Dance, e il trade in % HP max della W. È il singolo più grande moltiplicatore di sopravvivenza nella build.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — swap dai <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> quando l'enemy team ha 2+ minacce AP (Ability Power, la stat dietro il danno magico) o <strong>CC</strong> concatenato (crowd control: stun, root, knockback — tutto ciò che ti blocca e ti impedisce di agire). La tenacity (la stat che riduce la durata del CC su di te) è critica perché non hai dash per uscire.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6631.png\" alt=\"Stridebreaker\"> <strong>Stridebreaker</strong> — contro kiter che si allontanano dalla W da 400 unità (Quinn, Vayne top, Gnar). L'attiva è una dash corta più uno slow AOE — esattamente il secondo gap-closer che il kit non ha. Sostituisce <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> <strong>Trinity Force</strong> come primo item, non stackare entrambi.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3071.png\" alt=\"Black Cleaver\"> <strong>Black Cleaver</strong> — contro frontline ad alto armor (Malphite, Rammus, Shen). Ogni Q smash e ogni proc di W consuma stack di armor sul target per tutta la squadra.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — contro comp AP-heavy con <strong>burst</strong> (Vladimir, LeBlanc, Veigar). Lo scudo magico parte automaticamente quando sei basso HP — esattamente i secondi in cui i Tentacoli devono ancora slammare.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3181.png\" alt=\"Hullbreaker\"> <strong>Hullbreaker</strong> — quando il team è behind 4v5 e il tuo job è <strong>splitpushare</strong> (spingere una side lane da sola per costringere l'avversario a rispondere). Resistenze extra contro minion e torri permettono a Illaoi di assediare una side lane da sola.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> sono il default. Switcha a <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> quando l'enemy team ha tre o più fonti di CC o tanto danno magico.</p>\n<p><strong>Skill order:</strong> Alza al massimo (max) <strong>Q</strong> per prima (waveclear, amplifica il danno dei Tentacoli, cooldown più basso). Alza al massimo <strong>E</strong> per seconda (il cooldown cala di 4 secondi al rank max, che vuol dire più pressione di Vessel al minuto). <strong>W</strong> la alzi al massimo per ultima — il suo danno è già grande perché scala con l'HP max del bersaglio, quindi i rank extra aggiungono meno di quelli su Q o E. Metti punti in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primaria <strong>Precision</strong> con la keystone (la runa principale dell'albero) <strong>Conqueror</strong> — una passiva che accumula AD bonus mentre continui a colpire campioni, cappata dopo 5 secondi di combat sostenuto. Abbinata a <strong>Triumph</strong> (piccola cura e gold burst sul takedown), <strong>Legend: Alacrity</strong> (stack di Attack Speed sui takedown), e <strong>Last Stand</strong> (danno extra sotto il 60% HP). Secondaria <strong>Resolve</strong> con <strong>Bone Plating</strong> (riduzione danno sui prossimi 3 colpi dopo aver subito danno) e <strong>Overgrowth</strong> (HP che scalano con i minion che muoiono vicini, perfetta per un top laner che farma 8+ minion per wave). Stat shard: <strong>Adaptive Force</strong> + <strong>Adaptive Force</strong> + <strong>Health Scaling</strong>.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Sett:</strong> Lane favorevole. Il combo Q-W-E è telegrafato (l'animazione di carica è abbastanza visibile da farti reagire). Tieni la E per estrarre lo spirito nel momento esatto in cui Sett lancia la W — una volta vuotata la barra dello scudo non ha disengage, e lo sciame di Tentacoli gli stacca un grosso pezzo di HP prima che la sua R sia up.</li>\n<li><strong>Darius:</strong> Skill matchup (vince il giocatore migliore, indipendentemente dal pick). Ti vince lo scambio prolungato a 5 stack se i Tentacoli sono giù — fai finta di reagire al pull della E (bait), poi salti con la W indietro in un campo di Tentacoli. Mai scambiare in mezzo alla lane, solo sul tuo lato dove i Tentacoli coprono il muro.</li>\n<li><strong>Fiora:</strong> Matchup melee duro. La sua <strong>W</strong> è una parry (uno scudo breve che blocca e contrattacca la prossima abilità) — se parra la tua E, lo spirito non spawna e perdi 14 secondi di cooldown. Esca la parry con un animation cancel (inizi il cast E, poi cammini di lato) prima del cast vero.</li>\n<li><strong>Teemo / Quinn:</strong> Matchup ranged molto duro. Stanno fuori dal raggio della W, ti blindano gli auto-attack (li cancellano per qualche secondo), e ti tolgono pezzi di HP gratis (poke). <strong>Freezza</strong> la wave vicino alla tua torre (smetti di pushare e tieni la wave dal tuo lato della lane) per negargli farm (l'oro e XP dai minion), e chiama il jungler — Illaoi non vince il 1v1 senza aiuto.</li>\n<li><strong>Camille:</strong> Matchup melee duro. La sua E hookshot la dasha dentro e fuori dal raggio della W liberamente, e la R la chiude in un'arena 1v1 con te isolata dai Tentacoli. Tieni la E per il momento subito dopo la sua dash in: se estrai lo spirito mentre è committata, la R non la salva. Compra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> presto — la maggior parte del suo danno è true damage on-hit (true damage = danno che ignora armor e MR; on-hit = applicato a ogni auto-attack), ma ogni punto di armor aiuta comunque.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 3:</strong> Con Q + E + W sbloccate, Illaoi ha il combo completo della lane per la prima volta. E per marcare, cammini nel tuo campo di Tentacoli, W per saltare e ordinare gli slam. Da qui in poi la lane è tua, a meno che il nemico sia ranged.</li>\n<li><strong>Livello 6:</strong> La prima <strong>R</strong> si sblocca. Anche con un solo Tentacolo già piazzato sul muro, la R ne spawna un secondo e li congela come untargetable per 8 secondi. Un 1v1 con la R up è una kill contro qualsiasi bruiser non mobile.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> Trinity Force completion (~ minuto 13-15):</strong> Danno e <strong>stickiness</strong> (la capacità di restare incollata al bersaglio che cerca di scappare) salgono di più. Forza i 1v1 in side lane e cerca di <strong>roamare</strong> (lasciare la tua lane per aiutare mid o bot) per i pick (kill isolate su nemici fuori posizione).</li>\n<li><strong>Due item + R online (~ minuto 18-22):</strong> Picco di teamfight. Cammini attraverso la frontline (la prima linea di tank/bruiser della tua squadra), R su 3+ nemici per spawnare 3+ Tentacoli sul posto, e lasci che lo sciame di Tentacoli faccia a pezzi la backline (i carry squishy — i campioni a basse difese e alto danno che stanno dietro i loro tank durante un fight) mentre Conqueror raggiunge il cap nei primi 5 secondi.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Fightare in mezzo alla lane.</strong> I Tentacoli spawnano solo sui muri e sul terreno non calpestabile. Se usi la W su un bersaglio in mezzo al river (il fiume al centro della mappa) o in una lane aperta, nessun Tentacolo slamma e la W è solo un salto da 400 unità che non fa nulla extra. Scegli sempre il fight vicino a un muro — il bush del tuo lato della lane, il tri-bush (il cespuglio triplo all'incrocio tra lane e river), l'ingresso della tua jungle.</li>\n<li><strong>Tirare la E su una linea di minion bassi HP.</strong> La E è la tua abilità più importante e ha 12-16 secondi di cooldown. Se la lanci e lo skillshot pesca un minion o sbaglia il campione, sei senza setup per 14 secondi — e il nemico lo sa. Aspetta una linea di vista pulita sul campione prima di premere E.</li>\n<li><strong>Premere R per il waveclear.</strong> La R fa danno AOE, ma il vero valore sono gli 8 secondi di Tentacoli untargetable più il Tentacolo bonus per ogni campione colpito. Usarla su una wave spreca un cooldown da 70-120 secondi e ti lascia con zero teamfight tools quando l'enemy jungler arriva.</li>\n<li><strong>Camminare in un fight senza controllare le posizioni dei Tentacoli.</strong> Se i Tentacoli più vicini stanno scadendo (il bagliore arancione svanisce poco prima che dispariscano), aspetta 4 secondi per uno spawn nuovo prima di committare W. Una Harsh Lesson senza Tentacoli da slammare è un leap sprecato.</li>\n<li><strong>Stackare item da pure tank.</strong> Illaoi scala con AD — ogni slam dei Tentacoli è una percentuale del suo AD. Andare su due item da puro tank (Sunfire Aegis + Warmog's, solo HP e armor) azzera il danno; smetti di uccidere i carry e diventi un minion lento. Tieni il core AD-bruiser.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena l'<strong>E animation cancel</strong>. Test of Spirit ha una cast animation lunga (~0.5s) durante cui Illaoi è bloccata sul posto — abbastanza tempo perché un nemico attento schivi lo skillshot lineare. Il fix è iniziare il cast, camminare 1-2 passi in avanti per baitare il dodge in una direzione, poi castare nella direzione <em>opposta</em> all'ultimo frame. Lo stesso trick funziona al contrario: hover col cursore sul nemico, fingi il cast, e ricasta sulla traiettoria di dodge prevista dello spirito. In game l'uso più impattante è l'all-in al livello 3: E-fake, W sullo spirito quando inizia a schivare, poi E vera sul suo dash di reazione. Allenalo nel practice tool su un target dummy finché il ritmo diventa automatico.</p>",
+    "content_html_pre": "<h2>Panoramica</h2>\n<p>Illaoi è una <strong>juggernaut</strong> (un campione melee lento e immobile che fa tantissimo danno e tanka i colpi in uno scambio diretto) costruita attorno alla sua passiva <strong>Prophet of an Elder God</strong>. Il suo kit (l'insieme delle sue 5 abilità) spawna <strong>Tentacoli</strong> su tutti i muri e il terreno non calpestabile vicino — braccia gigantesche, <strong>untargetable</strong> (i nemici non possono colpirle), attaccate ai bordi della mappa che slammano a comando. I Tentacoli fanno la maggior parte del suo danno; il suo lavoro è costringere il nemico a stare dentro il loro raggio abbastanza a lungo da morire. Le abilità che danno ai Tentacoli un bersaglio sono due: <strong>W (Harsh Lesson)</strong> è un leap corto che ordina a ogni Tentacolo vicino di slammare sul target, e <strong>E (Test of Spirit)</strong> strappa lo spirito del nemico fuori dal corpo così i Tentacoli lo possono pestare (con il danno che fa eco sul campione reale).</p>\n<p>Il game plan è brutalmente semplice. <strong>Landi la E per marcare il bersaglio, cammini in avanti, e usi la W per saltare nel campo di Tentacoli più denso del tuo lato della mappa.</strong> Se il nemico esce dal raggio, lo spirito muore e il campione diventa <strong>Vessel</strong> — uno status di debuff in cui i Tentacoli lo inseguono per tutta la lane. Da livello 6, <strong>R (Leap of Faith)</strong> spawna un Tentacolo extra per ogni campione nemico colpito e rende i Tentacoli esistenti untargetable per 8 secondi — è l'unica finestra in cui ha davvero il burst per cancellare un target, quindi tieni la R per un all-in (uno scambio totale fino alla kill, senza spazio per disimpegnarsi) o un teamfight, mai per il waveclear.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1054.png\" alt=\"Doran&#x27;s Shield\"> <strong>Doran's Shield</strong> + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potion</strong>. La passiva di rigenerazione HP attutisce il poke nemico (danno a distanza a basso costo che ti chippa l'HP senza che il nemico si committi a un fight) finché la pressione dei Tentacoli al livello 3 non è online.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> <strong>Trinity Force</strong> — primo spike di item (il momento in cui la tua forza fa il salto più grande). La passiva Spellblade (un'auto-attack potenziata gratuita ogni pochi secondi dopo un cast) si allinea perfettamente con la W: ogni AA del leap fa scattare (proc) Spellblade. Aggiunge AD (Attack Damage, la stat dietro il danno fisico), HP, ability haste (la stat che riduce i cooldown delle abilità) e Attack Speed — tutte le stat che servono al kit.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> — boots di default contro squadre che ti fanno male soprattutto con gli auto-attack. Riducono il danno degli auto negli scambi prolungati (back-and-forth di colpi in lane).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3053.png\" alt=\"Sterak&#x27;s Gage\"> <strong>Sterak's Gage</strong> — HP più uno <strong>scudo salvavita</strong>: quando l'HP scende sotto ~30%, parte automaticamente uno scudo. Quella finestra è esattamente quando i tuoi Tentacoli stanno ancora slammando, quindi i secondi extra di sopravvivenza diventano la kill.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6333.png\" alt=\"Death&#x27;s Dance\"> <strong>Death's Dance</strong> — converte il <strong>burst</strong> AD ricevuto (danno alto concentrato in 1-2 secondi, tipo un combo da assassino) in un <strong>bleed</strong> lento (danno spalmato nei secondi successivi invece che istantaneo). Sui takedown il bleed residuo viene ripulito — un reset gratis ogni volta che la R catena una kill.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3065.png\" alt=\"Spirit Visage\"> <strong>Spirit Visage</strong> — MR (Magic Resistance) più una passiva che amplifica le cure ricevute: potenzia il sustain dei Tentacoli dalla passiva, il bleed-clean di Death's Dance, e il trade in % HP max della W. È il singolo più grande moltiplicatore di sopravvivenza nella build.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — swap dai <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> quando l'enemy team ha 2+ minacce AP (Ability Power, la stat dietro il danno magico) o <strong>CC</strong> concatenato (crowd control: stun, root, knockback — tutto ciò che ti blocca e ti impedisce di agire). La tenacity (la stat che riduce la durata del CC su di te) è critica perché non hai dash per uscire.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6631.png\" alt=\"Stridebreaker\"> <strong>Stridebreaker</strong> — contro kiter che si allontanano dalla W da 400 unità (Quinn, Vayne top, Gnar). L'attiva è una dash corta più uno slow AOE — esattamente il secondo gap-closer che il kit non ha. Sostituisce <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> <strong>Trinity Force</strong> come primo item, non stackare entrambi.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3071.png\" alt=\"Black Cleaver\"> <strong>Black Cleaver</strong> — contro frontline ad alto armor (Malphite, Rammus, Shen). Ogni Q smash e ogni proc di W consuma stack di armor sul target per tutta la squadra.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — contro comp AP-heavy con <strong>burst</strong> (Vladimir, LeBlanc, Veigar). Lo scudo magico parte automaticamente quando sei basso HP — esattamente i secondi in cui i Tentacoli devono ancora slammare.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3181.png\" alt=\"Hullbreaker\"> <strong>Hullbreaker</strong> — quando il team è behind 4v5 e il tuo job è <strong>splitpushare</strong> (spingere una side lane da sola per costringere l'avversario a rispondere). Resistenze extra contro minion e torri permettono a Illaoi di assediare una side lane da sola.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> sono il default. Switcha a <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> quando l'enemy team ha tre o più fonti di CC o tanto danno magico.</p>\n<p><strong>Skill order:</strong> Alza al massimo (max) <strong>Q</strong> per prima (waveclear, amplifica il danno dei Tentacoli, cooldown più basso). Alza al massimo <strong>E</strong> per seconda (il cooldown cala di 4 secondi al rank max, che vuol dire più pressione di Vessel al minuto). <strong>W</strong> la alzi al massimo per ultima — il suo danno è già grande perché scala con l'HP max del bersaglio, quindi i rank extra aggiungono meno di quelli su Q o E. Metti punti in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primaria <strong>Precision</strong> con la keystone (la runa principale dell'albero) <strong>Conqueror</strong> — una passiva che accumula AD bonus mentre continui a colpire campioni, cappata dopo 5 secondi di combat sostenuto. Abbinata a <strong>Triumph</strong> (piccola cura e gold burst sul takedown), <strong>Legend: Alacrity</strong> (stack di Attack Speed sui takedown), e <strong>Last Stand</strong> (danno extra sotto il 60% HP). Secondaria <strong>Resolve</strong> con <strong>Bone Plating</strong> (riduzione danno sui prossimi 3 colpi dopo aver subito danno) e <strong>Overgrowth</strong> (HP che scalano con i minion che muoiono vicini, perfetta per un top laner che farma 8+ minion per wave). Stat shard: <strong>Adaptive Force</strong> + <strong>Adaptive Force</strong> + <strong>Health Scaling</strong>.</p>",
+    "content_html_post": "<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Sett:</strong> Lane favorevole. Il combo Q-W-E è telegrafato (l'animazione di carica è abbastanza visibile da farti reagire). Tieni la E per estrarre lo spirito nel momento esatto in cui Sett lancia la W — una volta vuotata la barra dello scudo non ha disengage, e lo sciame di Tentacoli gli stacca un grosso pezzo di HP prima che la sua R sia up.</li>\n<li><strong>Darius:</strong> Skill matchup (vince il giocatore migliore, indipendentemente dal pick). Ti vince lo scambio prolungato a 5 stack se i Tentacoli sono giù — fai finta di reagire al pull della E (bait), poi salti con la W indietro in un campo di Tentacoli. Mai scambiare in mezzo alla lane, solo sul tuo lato dove i Tentacoli coprono il muro.</li>\n<li><strong>Fiora:</strong> Matchup melee duro. La sua <strong>W</strong> è una parry (uno scudo breve che blocca e contrattacca la prossima abilità) — se parra la tua E, lo spirito non spawna e perdi 14 secondi di cooldown. Esca la parry con un animation cancel (inizi il cast E, poi cammini di lato) prima del cast vero.</li>\n<li><strong>Teemo / Quinn:</strong> Matchup ranged molto duro. Stanno fuori dal raggio della W, ti blindano gli auto-attack (li cancellano per qualche secondo), e ti tolgono pezzi di HP gratis (poke). <strong>Freezza</strong> la wave vicino alla tua torre (smetti di pushare e tieni la wave dal tuo lato della lane) per negargli farm (l'oro e XP dai minion), e chiama il jungler — Illaoi non vince il 1v1 senza aiuto.</li>\n<li><strong>Camille:</strong> Matchup melee duro. La sua E hookshot la dasha dentro e fuori dal raggio della W liberamente, e la R la chiude in un'arena 1v1 con te isolata dai Tentacoli. Tieni la E per il momento subito dopo la sua dash in: se estrai lo spirito mentre è committata, la R non la salva. Compra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> presto — la maggior parte del suo danno è true damage on-hit (true damage = danno che ignora armor e MR; on-hit = applicato a ogni auto-attack), ma ogni punto di armor aiuta comunque.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 3:</strong> Con Q + E + W sbloccate, Illaoi ha il combo completo della lane per la prima volta. E per marcare, cammini nel tuo campo di Tentacoli, W per saltare e ordinare gli slam. Da qui in poi la lane è tua, a meno che il nemico sia ranged.</li>\n<li><strong>Livello 6:</strong> La prima <strong>R</strong> si sblocca. Anche con un solo Tentacolo già piazzato sul muro, la R ne spawna un secondo e li congela come untargetable per 8 secondi. Un 1v1 con la R up è una kill contro qualsiasi bruiser non mobile.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3078.png\" alt=\"Trinity Force\"> Trinity Force completion (~ minuto 13-15):</strong> Danno e <strong>stickiness</strong> (la capacità di restare incollata al bersaglio che cerca di scappare) salgono di più. Forza i 1v1 in side lane e cerca di <strong>roamare</strong> (lasciare la tua lane per aiutare mid o bot) per i pick (kill isolate su nemici fuori posizione).</li>\n<li><strong>Due item + R online (~ minuto 18-22):</strong> Picco di teamfight. Cammini attraverso la frontline (la prima linea di tank/bruiser della tua squadra), R su 3+ nemici per spawnare 3+ Tentacoli sul posto, e lasci che lo sciame di Tentacoli faccia a pezzi la backline (i carry squishy — i campioni a basse difese e alto danno che stanno dietro i loro tank durante un fight) mentre Conqueror raggiunge il cap nei primi 5 secondi.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Fightare in mezzo alla lane.</strong> I Tentacoli spawnano solo sui muri e sul terreno non calpestabile. Se usi la W su un bersaglio in mezzo al river (il fiume al centro della mappa) o in una lane aperta, nessun Tentacolo slamma e la W è solo un salto da 400 unità che non fa nulla extra. Scegli sempre il fight vicino a un muro — il bush del tuo lato della lane, il tri-bush (il cespuglio triplo all'incrocio tra lane e river), l'ingresso della tua jungle.</li>\n<li><strong>Tirare la E su una linea di minion bassi HP.</strong> La E è la tua abilità più importante e ha 12-16 secondi di cooldown. Se la lanci e lo skillshot pesca un minion o sbaglia il campione, sei senza setup per 14 secondi — e il nemico lo sa. Aspetta una linea di vista pulita sul campione prima di premere E.</li>\n<li><strong>Premere R per il waveclear.</strong> La R fa danno AOE, ma il vero valore sono gli 8 secondi di Tentacoli untargetable più il Tentacolo bonus per ogni campione colpito. Usarla su una wave spreca un cooldown da 70-120 secondi e ti lascia con zero teamfight tools quando l'enemy jungler arriva.</li>\n<li><strong>Camminare in un fight senza controllare le posizioni dei Tentacoli.</strong> Se i Tentacoli più vicini stanno scadendo (il bagliore arancione svanisce poco prima che dispariscano), aspetta 4 secondi per uno spawn nuovo prima di committare W. Una Harsh Lesson senza Tentacoli da slammare è un leap sprecato.</li>\n<li><strong>Stackare item da pure tank.</strong> Illaoi scala con AD — ogni slam dei Tentacoli è una percentuale del suo AD. Andare su due item da puro tank (Sunfire Aegis + Warmog's, solo HP e armor) azzera il danno; smetti di uccidere i carry e diventi un minion lento. Tieni il core AD-bruiser.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena l'<strong>E animation cancel</strong>. Test of Spirit ha una cast animation lunga (~0.5s) durante cui Illaoi è bloccata sul posto — abbastanza tempo perché un nemico attento schivi lo skillshot lineare. Il fix è iniziare il cast, camminare 1-2 passi in avanti per baitare il dodge in una direzione, poi castare nella direzione <em>opposta</em> all'ultimo frame. Lo stesso trick funziona al contrario: hover col cursore sul nemico, fingi il cast, e ricasta sulla traiettoria di dodge prevista dello spirito. In game l'uso più impattante è l'all-in al livello 3: E-fake, W sullo spirito quando inizia a schivare, poi E vera sul suo dash di reazione. Allenalo nel practice tool su un target dummy finché il ritmo diventa automatico.</p>",
+    "word_count": 1982,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "aatrox-top",
+        "champion": "aatrox",
+        "role": "top"
+      },
+      {
+        "slug": "darius-top",
+        "champion": "darius",
+        "role": "top"
+      },
+      {
+        "slug": "fiora-top",
+        "champion": "fiora",
+        "role": "top"
+      },
+      {
+        "slug": "garen-top",
+        "champion": "garen",
+        "role": "top"
+      },
+      {
+        "slug": "irelia-top",
+        "champion": "irelia",
+        "role": "top"
+      }
+    ],
+    "champion_key": "420"
+  },
+  {
     "slug": "irelia-top",
     "title": "Irelia Top Build & Guida — Patch 16.9",
     "language": "it",
@@ -17723,6 +18361,612 @@ export const itChampions: ChampionGuide[] = [
       }
     ],
     "champion_key": "24"
+  },
+  {
+    "slug": "jayce-mid",
+    "title": "Jayce Mid Build & Guida — Patch 16.9",
+    "language": "it",
+    "patch": "16.9",
+    "champion": "jayce",
+    "role": "mid",
+    "last_updated": "2026-05-04",
+    "description": "Guida Jayce mid per League of Legends Patch 16.9: rush di Manamune, combo di weapon-swap, matchup chiave, power spike, errori frequenti e consiglio avanzato.",
+    "quick_learn": {
+      "champion_dd_id": "Jayce",
+      "difficulty": 4,
+      "damage_type": "mixed",
+      "champion_class": "Lane Bully / Skirmisher",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Hextech Capacitor",
+          "description": "Ad ogni weapon swap (R) Jayce ottiene un breve burst di Movement Speed e per qualche istante ignora la collisione con le unità.",
+          "dd_spell_id": "Jayce_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "To the Skies! / Shock Blast",
+          "description": "Hammer: salta sul bersaglio infliggendo danno fisico e rallentando i nemici intorno. Cannon: spara una skillshot AOE a lungo raggio — il principale strumento di poke in mid.",
+          "dd_spell_id": "JayceToTheSkies"
+        },
+        {
+          "key": "W",
+          "name": "Lightning Field / Hyper Charge",
+          "description": "Hammer: passiva mana su auto, attiva un'aura che danneggia i nemici vicini. Cannon: massimizza l'Attack Speed per i prossimi 3 attacchi — finestra di burst con autoattack negli all-in.",
+          "dd_spell_id": "JayceStaticField"
+        },
+        {
+          "key": "E",
+          "name": "Thundering Blow / Acceleration Gate",
+          "description": "Hammer: knockback corto raggio che infligge danno magico in % di max HP. Cannon: piazza un gate che velocizza gli alleati e amplifica una Q (Shock Blast) sparata attraverso — il setup standard in mid.",
+          "dd_spell_id": "JayceThunderingBlow"
+        },
+        {
+          "key": "R",
+          "name": "Mercury Cannon / Mercury Hammer",
+          "description": "Stance swap (cooldown 6s). Alterna tra Hammer (engage, sustain, knockback) e Cannon (poke, AOE waveclear). Il primo attacco dopo il passaggio a Cannon riduce Armor e Magic Resist del bersaglio.",
+          "dd_spell_id": "JayceStanceHtG"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "3004",
+          "name": "Manamune"
+        },
+        {
+          "dd_id": "3047",
+          "name": "Plated Steelcaps"
+        },
+        {
+          "dd_id": "6697",
+          "name": "Hubris"
+        },
+        {
+          "dd_id": "6694",
+          "name": "Serylda's Grudge"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3156",
+          "name": "Maw of Malmortius",
+          "against": "contro mid-laner AP (Annie, Veigar, Syndra): lo scudo magico blocca la combo burst e aggiunge AD"
+        },
+        {
+          "dd_id": "3814",
+          "name": "Edge of Night",
+          "against": "contro CC duro single-target (Ahri charm, Lissandra R, Sylas E): lo spellshield blocca l'abilità di lockdown"
+        },
+        {
+          "dd_id": "6698",
+          "name": "Profane Hydra",
+          "against": "contro composizioni 5v5 raggruppate con frontline stackato: l'attiva AOE colpisce la backline attraverso il fronte"
+        },
+        {
+          "dd_id": "3111",
+          "name": "Mercury's Treads",
+          "against": "swap dai Plated Steelcaps se il team enemy ha 3+ minacce AP/CC; la tenacity riduce la durata di stun e slow"
+        }
+      ],
+      "base_combo": [
+        "E",
+        "Q",
+        "R",
+        "Q",
+        "AA",
+        "E"
+      ],
+      "win_condition": "Carica Tear (Manamune) col poke Cannon Q, raggiungi lo spike Muramana al minuto 14, poi elimina a distanza i mid squishy con E-gate Q. Ruota nelle side lane appena la R è rank 2 per convertire il vantaggio.",
+      "weakness": "Mana hungry pre-Manamune: una Q mancata butta gran parte dello scambio. Gli assassini mobili chiudono la distanza della Cannon Q dentro la cast window. Cala nel late vs Magic Resist stackata sui team AP-heavy.",
+      "runes": {
+        "primary_tree": "Precision",
+        "primary_tree_dd_id": 8000,
+        "keystone": {
+          "dd_id": 8005,
+          "name": "Press the Attack",
+          "icon_path": "perk-images/Styles/Precision/PressTheAttack/PressTheAttack.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 9111,
+            "name": "Triumph",
+            "icon_path": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "dd_id": 9104,
+            "name": "Legend: Alacrity",
+            "icon_path": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
+          },
+          {
+            "dd_id": 8014,
+            "name": "Coup de Grace",
+            "icon_path": "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png"
+          }
+        ],
+        "secondary_tree": "Sorcery",
+        "secondary_tree_dd_id": 8200,
+        "secondary_slots": [
+          {
+            "dd_id": 8226,
+            "name": "Manaflow Band",
+            "icon_path": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "dd_id": 8210,
+            "name": "Transcendence",
+            "icon_path": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png"
+          }
+        ],
+        "stat_shards": [
+          "Adaptive Force",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Press the Attack attivata dal pattern Cannon Q + AA + Hammer Q-AA-E aggiunge +8% di danno e trasforma il poke in kill threat già al minuto 6. Triumph restituisce HP nei takedown, Legend: Alacrity centra l'AS cap nella W (Hyper Charge), Coup de Grace +8% sotto il 40% HP.",
+        "secondary_rationale": "Manaflow Band accumula stack rapidamente sul poke Cannon Q per +50 mana permanenti per stack. Transcendence al livello 5 aggiunge Ability Haste, che si compone con Manamune e accorcia la finestra di weapon swap della R.",
+        "secondary_alternative": "Contro team comp di assassini (Zed mid + Kha'Zix jungle), swap Sorcery → Resolve con Bone Plating (riduzione di danno sui primi 3 colpi) e Second Wind (rigen HP sotto il 50%). Sacrifica scaling early per sopravvivere al burst pre-Edge of Night."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "veigar",
+            "anivia",
+            "annie"
+          ],
+          "archetype": "Mid-laner mage immobili senza dash",
+          "reason": "Non possono rispondere al range di Cannon Q pre-6. Veigar deve piazzare la E (Event Horizon) per setuppare la Q, ma il gate di Jayce amplifica la tua Q prima della sua combo. Al 50% HP, swap a Hammer e li uccidi in un colpo attraverso il cast delle loro abilità."
+        },
+        {
+          "examples": [
+            "akali",
+            "yone"
+          ],
+          "archetype": "Skirmisher melee senza tool di poke ranged",
+          "reason": "Cannon Q supera il range della E di Akali (Shuriken Flip) e la Q di Yone; entrambi devono committare in finestra melee per fare danno. La Hammer E knockback nega le loro chain di dash, e lo shred di Cannon-stance apre l'armor per follow-up gank."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "zed",
+            "fizz"
+          ],
+          "archetype": "Assassini mobili con multipli gap-closer",
+          "reason": "Zed W (Living Shadow) e Fizz E (Playful/Trickster) chiudono il range della Cannon Q dentro la cast window. Una volta in range Hammer con la R up, ti bruciano prima che chiuda la combo Hammer Q-W-E. Edge of Night aiuta ma non salva se il gap-close arriva prima."
+        },
+        {
+          "examples": [
+            "xerath",
+            "vel-koz"
+          ],
+          "archetype": "Mage artiglieria a lungo raggio",
+          "reason": "Hanno range superiore a Cannon Q. La Q di Xerath (Arcanopulse) e la Q di Vel'Koz (Plasma Fission) colpiscono a distanze che Jayce non può eguagliare senza camminare nella loro full combo. Ogni wave fight ti drena HP senza darti la finestra per fare all-in di rimando."
+        },
+        {
+          "examples": [
+            "twisted-fate",
+            "galio"
+          ],
+          "archetype": "Roamer globali / cross-map",
+          "reason": "Jayce ruota lentamente sulla mappa senza sinergia di stance. La R di Twisted Fate (Destiny) ribalta una side lane in 8 secondi; la R di Galio (Hero's Entrance) atterra dove Jayce non può seguire. Il 1v1 in mid potrebbe essere pari, ma la macro brucia obiettivi altrove."
+        }
+      ]
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Jayce mid è il classico <strong>lane bully</strong> (campione che vince la corsia in modo prepotente con poke costante): un ibrido ranged-melee che vince early con una skillshot AOE (area-of-effect, danno su zona) a lungo raggio in <strong>Cannon stance</strong> e finisce i bersagli con la combo leap-Q + knockback-E in <strong>Hammer stance</strong>. La R ha cooldown 6 secondi, e il primo attacco dopo il passaggio a Cannon riduce Armor e Magic Resist del bersaglio — il trigger d'ingresso di ogni all-in (scambio totale fino alla kill).</p>\n<p>Il game plan in mid si divide in tre fasi. Pre-6 accumuli stack di poke Cannon Q sulla wave (il proiettile fora i minion); l'obiettivo è far calare il nemico dal 100% al 50% HP senza sprecare mana. Al livello 6 l'all-in Cannon-to-Hammer diventa kill threat: droppa <strong>E</strong> (Acceleration Gate) verso il bersaglio, spara <strong>Q</strong> (Shock Blast) attraverso il gate per il danno amplificato, swap a Hammer con <strong>R</strong>, salta con <strong>Q</strong>, droppa <strong>W</strong> per l'aura, knockback con <strong>E</strong> verso la tua torre. Post-Manamune (~minuto 14) la Cannon Q uccide in un colpo le wave dei mid squishy (campioni con poche difese, es. Annie, Veigar) e inizi a fare roam nelle side lane per tradurre il vantaggio early in tempo globale.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1055.png\" alt=\"Doran&#x27;s Blade\"> <strong>Doran's Blade</strong> + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potion</strong>. Salta start greedy come <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3070.png\" alt=\"Tear of the Goddess\"> <strong>Tear of the Goddess</strong> (precursore di Manamune): ti servono AD e lifesteal di Doran's Blade per sopravvivere ai primi tre minuti contro un mid-laner che eguaglia il tuo range.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3004.png\" alt=\"Manamune\"> <strong>Manamune</strong> — primo item da rushare. Stacka durante il poke Cannon Q sulla wave. L'Awakening in <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3042.png\" alt=\"Muramana\"> <strong>Muramana</strong> allo stack massimo aggiunge bonus damage ad ogni Q, AA e tick di W aura — il maggiore spike AD nella build di Jayce.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> — boots contro lane AD (Yasuo, Zed, Akshan). Switch a <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> contro AP/CC stackato.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6697.png\" alt=\"Hubris\"> <strong>Hubris</strong> — lethality (statistica che ignora una parte fissa dell'armatura nemica) più una passiva (Eminence) che accumula stack ad ogni takedown (kill o assist). Combinata con Muramana, lo scaling AD diventa brutale ad ogni roam.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6694.png\" alt=\"Serylda&#x27;s Grudge\"> <strong>Serylda's Grudge</strong> — lethality e slow on damage. Lo slow sulla Cannon Q trasforma i nemici in Flash in target da catch con Hammer Q.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — contro mid-laner AP (Annie, Veigar, Syndra). Lo scudo magico blocca la combo burst e aggiunge AD.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> — contro CC duro single-target (Ahri charm, Lissandra R, Sylas E). Lo spellshield si carica fuori combat e blocca la prima abilità di lockdown (CC duro che ti immobilizza).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6698.png\" alt=\"Profane Hydra\"> <strong>Profane Hydra</strong> — contro composizioni 5v5 raggruppate con frontline stackato. L'attiva AOE colpisce la backline attraverso il fronte e si rimborsa sui takedown.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — swap dai Plated Steelcaps se il team enemy ha 3+ minacce AP o CC.</li>\n</ul>\n<p><strong>Boots:</strong> Plated Steelcaps di default. Mercury's Treads contro magic damage pesante o chain CC.</p>\n<p><strong>Skill order:</strong> Maxa <strong>Q</strong> per prima (danno principale in entrambi gli stance), <strong>E</strong> per seconda (knockback per execute, gate per amplificare il poke), <strong>W</strong> per ultima. Metti un punto in <strong>R</strong> ai livelli 6, 11, 16. Nota: prendi <strong>E</strong> al livello 2 (non W) per kill pressure con la combo Acceleration Gate + Cannon Q.</p>\n<p><strong>Runes:</strong> Primario <strong>Precision</strong> con <strong>Press the Attack</strong>, <strong>Triumph</strong>, <strong>Legend: Alacrity</strong>, <strong>Coup de Grace</strong>. Secondario <strong>Sorcery</strong> con <strong>Manaflow Band</strong> e <strong>Transcendence</strong>. Contro team comp di assassini, swap secondario a <strong>Resolve</strong> con <strong>Bone Plating</strong> + <strong>Second Wind</strong>.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Yasuo / Yone:</strong> Bloccano la tua Cannon Q con il loro Wind Wall (W). Posizionati così che la Q arrivi da un angolo di flank (di lato) che li forza a guardare via dalla loro wave; non possono fermare con il muro quello che non vedono in tempo. Salva la Q per quando il muro è in cooldown, poi chain E-gate-Q.</li>\n<li><strong>Zed:</strong> Tieni <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> carico in qualsiasi momento dopo il minuto 12; blocca la sua R (Death Mark). Pre-6 lo pokei. Post-6 la lane si ribalta: non superare la wave quando ha la R up.</li>\n<li><strong>Ahri:</strong> Matchup pari, deciso dal timing della Q. La E (Charm) è telegrafata (visibile in anticipo) da lontano — schivala con un sidestep dietro un minion prima di sparare la Cannon Q. Quando manca la charm, la lane è tua per 9 secondi.</li>\n<li><strong>Annie / Veigar:</strong> Matchup di poke gratis pre-6. Non hanno mobility; la combo Cannon Q + E ti fa drenare HP off-creep. Tieni d'occhio il cooldown di stun (passiva Annie, E Veigar) prima di all-in: il loro stun annulla l'animazione di knockback della Hammer Q.</li>\n<li><strong>Twisted Fate:</strong> Lo pokei pre-6 ma perdi la macro game (gioco strategico di mappa). Quando la R va up, segnala mid mia (missing in action: campione sparito dalla mappa) e back presto; la lane prio (priority, vantaggio di lane che ti permette di lasciarla senza perdere risorse) che hai vale meno della sua gold card cross-map.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2 (Q + E):</strong> Cannon Q + Acceleration Gate + AA è uno scambio del 30% HP sulla maggior parte dei squishy. Il piazzamento del gate funge anche da via di fuga — droppalo dietro di te verso la torre se il nemico committa.</li>\n<li><strong>Livello 6 (prima R):</strong> Entrambi gli stance unlockano al massimo. L'all-in Cannon-to-Hammer diventa kill threat al 45% HP invece che chunk trade.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3004.png\" alt=\"Manamune\"> Manamune completion + stacking (~ minuto 12-14):</strong> Quando si trasforma (Awaken) in Muramana, ogni Q colpisce ~15% più forte e il danno autoattack spike. È il momento di massimo spike per Jayce mid e dovrebbe puntare a roam (girare per la mappa per aiutare gli alleati) nelle side lane.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6697.png\" alt=\"Hubris\"> Hubris + stack di takedown (kill o assist, ~ minuto 19-22):</strong> Gli stack di Eminence (la passiva di Hubris che dà AD bonus per ogni kill/assist) si compongono con Muramana per numeri AD assurdi. Forza un fight a questo punto o spingi per un inhibitor.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Buttare Cannon Q senza Acceleration Gate.</strong> La Q nuda costa mana ed è facile da schivare. Droppa prima la <strong>E</strong> (Acceleration Gate) verso il nemico; il gate amplifica la Q che lo attraversa (range più lungo, più danno, AOE più larga) e il leggero delay forza il nemico a committare a una direzione di movimento prima di sparare.</li>\n<li><strong>Caricare Manamune troppo lentamente.</strong> La Cannon Q deve colpire un campione o uccidere una wave per contare per gli stack di Manamune; le Q mancate non danno stack. Pianifica il poke sulla wave così che ogni Q colpisca almeno tre minion per accelerare la trasformazione della Tear.</li>\n<li><strong>Bruciare lo shred (riduzione di Armor/MR) R-Cannon sui minion.</strong> Quando swap da Hammer a Cannon (R), la prima AA riduce Armor e Magic Resist del bersaglio per qualche secondo. Colpire un melee minion con quell'auto butta il trigger; salvalo per un campione ogni volta.</li>\n<li><strong>Roam senza consapevolezza del cooldown R.</strong> La R ha cooldown 6 secondi e fa anche da unica mobility (passiva Move Speed sul swap). Muoviti con la R fuori cooldown così da poter disimpegnare da un counter-roam; arrivare a un fight senza R è committare senza uscita.</li>\n<li><strong>Dimenticare il sustain mana di Hammer W.</strong> In assedi lunghi a Cannon poke, swap a Hammer per 2-3 auto per ricaricare mana via passiva W (Mana on hit). Saltarlo svuota il pool e forza un back precoce.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena il <strong>timing-flip gate-Q</strong> contro bersagli in movimento. La maggior parte dei Jayce droppa l'Acceleration Gate dove il nemico sta in quel momento, poi spara la Q attraverso. I pro invece droppano il gate dove il nemico <em>sarà</em> tra 0.5 secondi (cast time del gate più animazione Q) — di solito verso la wave, dato che il nemico deve camminare a last-hittare. La Q amplificata atterra sulla posizione predetta, non su quella passata. Allenalo nel Practice Tool mettendo un target dummy in modalità Move e impara la lead distance finché diventa muscle memory.</p>",
+    "content_html_pre": "<h2>Panoramica</h2>\n<p>Jayce mid è il classico <strong>lane bully</strong> (campione che vince la corsia in modo prepotente con poke costante): un ibrido ranged-melee che vince early con una skillshot AOE (area-of-effect, danno su zona) a lungo raggio in <strong>Cannon stance</strong> e finisce i bersagli con la combo leap-Q + knockback-E in <strong>Hammer stance</strong>. La R ha cooldown 6 secondi, e il primo attacco dopo il passaggio a Cannon riduce Armor e Magic Resist del bersaglio — il trigger d'ingresso di ogni all-in (scambio totale fino alla kill).</p>\n<p>Il game plan in mid si divide in tre fasi. Pre-6 accumuli stack di poke Cannon Q sulla wave (il proiettile fora i minion); l'obiettivo è far calare il nemico dal 100% al 50% HP senza sprecare mana. Al livello 6 l'all-in Cannon-to-Hammer diventa kill threat: droppa <strong>E</strong> (Acceleration Gate) verso il bersaglio, spara <strong>Q</strong> (Shock Blast) attraverso il gate per il danno amplificato, swap a Hammer con <strong>R</strong>, salta con <strong>Q</strong>, droppa <strong>W</strong> per l'aura, knockback con <strong>E</strong> verso la tua torre. Post-Manamune (~minuto 14) la Cannon Q uccide in un colpo le wave dei mid squishy (campioni con poche difese, es. Annie, Veigar) e inizi a fare roam nelle side lane per tradurre il vantaggio early in tempo globale.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1055.png\" alt=\"Doran&#x27;s Blade\"> <strong>Doran's Blade</strong> + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potion</strong>. Salta start greedy come <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3070.png\" alt=\"Tear of the Goddess\"> <strong>Tear of the Goddess</strong> (precursore di Manamune): ti servono AD e lifesteal di Doran's Blade per sopravvivere ai primi tre minuti contro un mid-laner che eguaglia il tuo range.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3004.png\" alt=\"Manamune\"> <strong>Manamune</strong> — primo item da rushare. Stacka durante il poke Cannon Q sulla wave. L'Awakening in <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3042.png\" alt=\"Muramana\"> <strong>Muramana</strong> allo stack massimo aggiunge bonus damage ad ogni Q, AA e tick di W aura — il maggiore spike AD nella build di Jayce.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> — boots contro lane AD (Yasuo, Zed, Akshan). Switch a <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> contro AP/CC stackato.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6697.png\" alt=\"Hubris\"> <strong>Hubris</strong> — lethality (statistica che ignora una parte fissa dell'armatura nemica) più una passiva (Eminence) che accumula stack ad ogni takedown (kill o assist). Combinata con Muramana, lo scaling AD diventa brutale ad ogni roam.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6694.png\" alt=\"Serylda&#x27;s Grudge\"> <strong>Serylda's Grudge</strong> — lethality e slow on damage. Lo slow sulla Cannon Q trasforma i nemici in Flash in target da catch con Hammer Q.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — contro mid-laner AP (Annie, Veigar, Syndra). Lo scudo magico blocca la combo burst e aggiunge AD.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> — contro CC duro single-target (Ahri charm, Lissandra R, Sylas E). Lo spellshield si carica fuori combat e blocca la prima abilità di lockdown (CC duro che ti immobilizza).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6698.png\" alt=\"Profane Hydra\"> <strong>Profane Hydra</strong> — contro composizioni 5v5 raggruppate con frontline stackato. L'attiva AOE colpisce la backline attraverso il fronte e si rimborsa sui takedown.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — swap dai Plated Steelcaps se il team enemy ha 3+ minacce AP o CC.</li>\n</ul>\n<p><strong>Boots:</strong> Plated Steelcaps di default. Mercury's Treads contro magic damage pesante o chain CC.</p>\n<p><strong>Skill order:</strong> Maxa <strong>Q</strong> per prima (danno principale in entrambi gli stance), <strong>E</strong> per seconda (knockback per execute, gate per amplificare il poke), <strong>W</strong> per ultima. Metti un punto in <strong>R</strong> ai livelli 6, 11, 16. Nota: prendi <strong>E</strong> al livello 2 (non W) per kill pressure con la combo Acceleration Gate + Cannon Q.</p>\n<p><strong>Runes:</strong> Primario <strong>Precision</strong> con <strong>Press the Attack</strong>, <strong>Triumph</strong>, <strong>Legend: Alacrity</strong>, <strong>Coup de Grace</strong>. Secondario <strong>Sorcery</strong> con <strong>Manaflow Band</strong> e <strong>Transcendence</strong>. Contro team comp di assassini, swap secondario a <strong>Resolve</strong> con <strong>Bone Plating</strong> + <strong>Second Wind</strong>.</p>",
+    "content_html_post": "<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Yasuo / Yone:</strong> Bloccano la tua Cannon Q con il loro Wind Wall (W). Posizionati così che la Q arrivi da un angolo di flank (di lato) che li forza a guardare via dalla loro wave; non possono fermare con il muro quello che non vedono in tempo. Salva la Q per quando il muro è in cooldown, poi chain E-gate-Q.</li>\n<li><strong>Zed:</strong> Tieni <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> carico in qualsiasi momento dopo il minuto 12; blocca la sua R (Death Mark). Pre-6 lo pokei. Post-6 la lane si ribalta: non superare la wave quando ha la R up.</li>\n<li><strong>Ahri:</strong> Matchup pari, deciso dal timing della Q. La E (Charm) è telegrafata (visibile in anticipo) da lontano — schivala con un sidestep dietro un minion prima di sparare la Cannon Q. Quando manca la charm, la lane è tua per 9 secondi.</li>\n<li><strong>Annie / Veigar:</strong> Matchup di poke gratis pre-6. Non hanno mobility; la combo Cannon Q + E ti fa drenare HP off-creep. Tieni d'occhio il cooldown di stun (passiva Annie, E Veigar) prima di all-in: il loro stun annulla l'animazione di knockback della Hammer Q.</li>\n<li><strong>Twisted Fate:</strong> Lo pokei pre-6 ma perdi la macro game (gioco strategico di mappa). Quando la R va up, segnala mid mia (missing in action: campione sparito dalla mappa) e back presto; la lane prio (priority, vantaggio di lane che ti permette di lasciarla senza perdere risorse) che hai vale meno della sua gold card cross-map.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2 (Q + E):</strong> Cannon Q + Acceleration Gate + AA è uno scambio del 30% HP sulla maggior parte dei squishy. Il piazzamento del gate funge anche da via di fuga — droppalo dietro di te verso la torre se il nemico committa.</li>\n<li><strong>Livello 6 (prima R):</strong> Entrambi gli stance unlockano al massimo. L'all-in Cannon-to-Hammer diventa kill threat al 45% HP invece che chunk trade.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3004.png\" alt=\"Manamune\"> Manamune completion + stacking (~ minuto 12-14):</strong> Quando si trasforma (Awaken) in Muramana, ogni Q colpisce ~15% più forte e il danno autoattack spike. È il momento di massimo spike per Jayce mid e dovrebbe puntare a roam (girare per la mappa per aiutare gli alleati) nelle side lane.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6697.png\" alt=\"Hubris\"> Hubris + stack di takedown (kill o assist, ~ minuto 19-22):</strong> Gli stack di Eminence (la passiva di Hubris che dà AD bonus per ogni kill/assist) si compongono con Muramana per numeri AD assurdi. Forza un fight a questo punto o spingi per un inhibitor.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Buttare Cannon Q senza Acceleration Gate.</strong> La Q nuda costa mana ed è facile da schivare. Droppa prima la <strong>E</strong> (Acceleration Gate) verso il nemico; il gate amplifica la Q che lo attraversa (range più lungo, più danno, AOE più larga) e il leggero delay forza il nemico a committare a una direzione di movimento prima di sparare.</li>\n<li><strong>Caricare Manamune troppo lentamente.</strong> La Cannon Q deve colpire un campione o uccidere una wave per contare per gli stack di Manamune; le Q mancate non danno stack. Pianifica il poke sulla wave così che ogni Q colpisca almeno tre minion per accelerare la trasformazione della Tear.</li>\n<li><strong>Bruciare lo shred (riduzione di Armor/MR) R-Cannon sui minion.</strong> Quando swap da Hammer a Cannon (R), la prima AA riduce Armor e Magic Resist del bersaglio per qualche secondo. Colpire un melee minion con quell'auto butta il trigger; salvalo per un campione ogni volta.</li>\n<li><strong>Roam senza consapevolezza del cooldown R.</strong> La R ha cooldown 6 secondi e fa anche da unica mobility (passiva Move Speed sul swap). Muoviti con la R fuori cooldown così da poter disimpegnare da un counter-roam; arrivare a un fight senza R è committare senza uscita.</li>\n<li><strong>Dimenticare il sustain mana di Hammer W.</strong> In assedi lunghi a Cannon poke, swap a Hammer per 2-3 auto per ricaricare mana via passiva W (Mana on hit). Saltarlo svuota il pool e forza un back precoce.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena il <strong>timing-flip gate-Q</strong> contro bersagli in movimento. La maggior parte dei Jayce droppa l'Acceleration Gate dove il nemico sta in quel momento, poi spara la Q attraverso. I pro invece droppano il gate dove il nemico <em>sarà</em> tra 0.5 secondi (cast time del gate più animazione Q) — di solito verso la wave, dato che il nemico deve camminare a last-hittare. La Q amplificata atterra sulla posizione predetta, non su quella passata. Allenalo nel Practice Tool mettendo un target dummy in modalità Move e impara la lead distance finché diventa muscle memory.</p>",
+    "word_count": 1318,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "ahri-mid",
+        "champion": "ahri",
+        "role": "mid"
+      },
+      {
+        "slug": "akali-mid",
+        "champion": "akali",
+        "role": "mid"
+      },
+      {
+        "slug": "akshan-mid",
+        "champion": "akshan",
+        "role": "mid"
+      },
+      {
+        "slug": "annie-mid",
+        "champion": "annie",
+        "role": "mid"
+      },
+      {
+        "slug": "lux-mid",
+        "champion": "lux",
+        "role": "mid"
+      }
+    ],
+    "champion_key": "126"
+  },
+  {
+    "slug": "jayce-top",
+    "title": "Jayce Top Build & Guida — Patch 16.9",
+    "language": "it",
+    "patch": "16.9",
+    "champion": "jayce",
+    "role": "top",
+    "last_updated": "2026-05-04",
+    "description": "Guida Jayce top per League of Legends Patch 16.9: meccaniche di weapon-swap, build lethality, matchup chiave, power spike, errori frequenti e consiglio avanzato.",
+    "quick_learn": {
+      "champion_dd_id": "Jayce",
+      "difficulty": 4,
+      "damage_type": "mixed",
+      "champion_class": "Fighter / Skirmisher",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Hextech Capacitor",
+          "description": "Ad ogni weapon swap (R) Jayce ottiene un breve burst di Movement Speed e per qualche istante ignora la collisione con le unità.",
+          "dd_spell_id": "Jayce_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "To the Skies! / Shock Blast",
+          "description": "Hammer: salta sul bersaglio infliggendo danno fisico e rallentando i nemici intorno. Cannon: spara una skillshot AOE a lungo raggio — il principale strumento di poke.",
+          "dd_spell_id": "JayceToTheSkies"
+        },
+        {
+          "key": "W",
+          "name": "Lightning Field / Hyper Charge",
+          "description": "Hammer: passiva che restituisce mana sulle auto, attiva un'aura che danneggia i nemici vicini. Cannon: massimizza l'Attack Speed per i prossimi 3 attacchi — finestra di burst con autoattack.",
+          "dd_spell_id": "JayceStaticField"
+        },
+        {
+          "key": "E",
+          "name": "Thundering Blow / Acceleration Gate",
+          "description": "Hammer: knockback corto raggio che infligge danno magico in % di max HP — strumento di execute e di disengage. Cannon: piazza un gate che velocizza gli alleati e amplifica una Q (Shock Blast) sparata attraverso.",
+          "dd_spell_id": "JayceThunderingBlow"
+        },
+        {
+          "key": "R",
+          "name": "Mercury Cannon / Mercury Hammer",
+          "description": "Stance swap (cooldown 6s). Alterna tra Hammer (engage, sustain, knockback) e Cannon (poke, AOE waveclear). Il primo attacco dopo il passaggio a Cannon riduce Armor e Magic Resist del bersaglio.",
+          "dd_spell_id": "JayceStanceHtG"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "W"
+        },
+        {
+          "level": 3,
+          "key": "E"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6692",
+          "name": "Eclipse"
+        },
+        {
+          "dd_id": "3047",
+          "name": "Plated Steelcaps"
+        },
+        {
+          "dd_id": "6697",
+          "name": "Hubris"
+        },
+        {
+          "dd_id": "6694",
+          "name": "Serylda's Grudge"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3156",
+          "name": "Maw of Malmortius",
+          "against": "contro forti minacce AP (Vladimir, Rumble, Kennen): lo scudo magico salva quando arriva il burst e aggiunge AD"
+        },
+        {
+          "dd_id": "3814",
+          "name": "Edge of Night",
+          "against": "contro CC duro single-target da engage (Camille E, Sett W, Malphite R): lo spellshield blocca l'abilità di lockdown"
+        },
+        {
+          "dd_id": "3026",
+          "name": "Guardian Angel",
+          "against": "quando sei avanti e ti focusano: la rinascita ti permette di committare di più nelle skirmish"
+        },
+        {
+          "dd_id": "3111",
+          "name": "Mercury's Treads",
+          "against": "swap dai Plated Steelcaps se il team enemy ha 3+ minacce AP/CC; la tenacity riduce la durata di stun e slow"
+        }
+      ],
+      "base_combo": [
+        "Q",
+        "AA",
+        "R",
+        "Q",
+        "AA",
+        "E"
+      ],
+      "win_condition": "Usa Cannon Q per far calare HP prima del livello 6, poi all-in con Hammer Q salto, W aura, E knockback quando il nemico è sotto il 50%. Trasforma il vantaggio di lane in pressione di splitpush sulle side.",
+      "weakness": "Mana hungry: una Q mancata in poke butta lo scambio. Gap-closer duri (Camille E, Malphite R) chiudono la distanza prima che tu possa swap. Cala nel late vs build con MR pesante.",
+      "runes": {
+        "primary_tree": "Precision",
+        "primary_tree_dd_id": 8000,
+        "keystone": {
+          "dd_id": 8005,
+          "name": "Press the Attack",
+          "icon_path": "perk-images/Styles/Precision/PressTheAttack/PressTheAttack.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 9111,
+            "name": "Triumph",
+            "icon_path": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "dd_id": 9104,
+            "name": "Legend: Alacrity",
+            "icon_path": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
+          },
+          {
+            "dd_id": 8014,
+            "name": "Coup de Grace",
+            "icon_path": "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png"
+          }
+        ],
+        "secondary_tree": "Sorcery",
+        "secondary_tree_dd_id": 8200,
+        "secondary_slots": [
+          {
+            "dd_id": 8226,
+            "name": "Manaflow Band",
+            "icon_path": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "dd_id": 8210,
+            "name": "Transcendence",
+            "icon_path": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png"
+          }
+        ],
+        "stat_shards": [
+          "Adaptive Force",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Press the Attack viene attivata dal pattern di trade Cannon Q + AA + Hammer Q-AA-E con +8% di danno per skirmish. Triumph ricarica HP nelle multi-kill, Legend: Alacrity porta l'AS al cap dentro la W (Hyper Charge), Coup de Grace chiude kill sotto il 40% HP.",
+        "secondary_rationale": "Sorcery come secondary: Manaflow Band evita di rimanere a secco di mana sullo spam di Cannon Q nelle lane lunghe. Transcendence aggiunge Ability Haste, così la finestra di weapon swap torna prima — ogni Q in più in lane è HP in meno per l'avversario.",
+        "secondary_alternative": "Contro top ranged a forte poke (Vladimir, Kennen, Quinn), swap Sorcery → Resolve con Bone Plating (riduzione di chunk sui primi 3 colpi ricevuti) e Second Wind (rigen passivo di HP sotto il 50%) per sopravvivere alla fase di lane."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "nasus",
+            "garen",
+            "sett"
+          ],
+          "archetype": "Bruiser melee immobili senza risposta a distanza",
+          "reason": "Non hanno modo di rispondere al raggio della Cannon Q. Pokeli fuori dalla wave per i primi 6 livelli: Nasus perde stack di Q, Garen non arriva mai a Q, Sett non riempie mai la barra di W (Haymaker)."
+        },
+        {
+          "examples": [
+            "yorick",
+            "tryndamere"
+          ],
+          "archetype": "Scaler lenti senza tool di harass in lane",
+          "reason": "Il loro kill threat richiede item. La Cannon Q rimuove minuti di farm prima del power spike, e la Hammer E knockback nega la finestra di all-in quando finalmente provano a committare."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "malphite",
+            "maokai"
+          ],
+          "archetype": "Tank con MR da item e ult di engage",
+          "reason": "Itemizzano contro il poke Cannon (Bramble Vest, Negatron Cloak) e la loro ult (Malphite R, Maokai R) flash-engagia oltre la Hammer E. Jayce cala se la lane va lunga senza una kill."
+        },
+        {
+          "examples": [
+            "vladimir",
+            "kennen"
+          ],
+          "archetype": "Top ranged con sustain o range eguale",
+          "reason": "La Q di Vladimir (Transfusion) cura il poke; la W di Kennen (Electrical Surge) supera il range della Cannon Q. Entrambi forzano una lane a poke che Jayce perde senza l'opzione di all-in che avrebbe contro un melee bruiser."
+        },
+        {
+          "examples": [
+            "camille",
+            "renekton"
+          ],
+          "archetype": "Bruiser con CC duro e gap-close veloce",
+          "reason": "Camille E (Hookshot) e Renekton W (Ruthless Predator) chiudono la distanza dentro la cast window della Cannon Q e bloccano Jayce con CC duro prima del swap a Hammer E. Non ha dash per tenerli a distanza."
+        }
+      ]
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Jayce è uno skirmisher ibrido ranged-melee che vive o muore sul weapon swap (R). In <strong>Cannon stance</strong> è uno specialista di poke a lungo raggio con una skillshot AOE Q e un movement-speed gate (E) che amplifica la Q quando viene sparata attraverso. In <strong>Hammer stance</strong> diventa un melee bruiser con leap-Q, aura W e un knockback (E) che fa danno magico in % HP massimi. La R ha cooldown 6 secondi, e il primo attacco dopo il passaggio a Cannon riduce Armor e Magic Resist del bersaglio — il trigger d'ingresso di ogni all-in.</p>\n<p>In top lane Jayce vuole una lane lunga. Erodi HP con <strong>Cannon Q + E gate</strong> (poke a distanza), torna a distanza di sicurezza, ripeti. Quando il nemico è sotto metà HP, swap a Hammer, salta con <strong>Q</strong>, droppa <strong>W</strong> per il danno aura e la passiva mana-on-hit, chiudi con <strong>E</strong> knockback se sopravvive. Trasforma ogni vantaggio di lane in pressione di splitpush — spingere una side lane da solo per costringere l'avversario a coprirla. Il range di Cannon Q in side è uno degli split più sicuri del gioco, e Eclipse + Hubris ti danno il burst (danno alto in 1-2 secondi) per vincere skirmish 1v1 contro la maggior parte dei top-laner.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1055.png\" alt=\"Doran&#x27;s Blade\"> <strong>Doran's Blade</strong> + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potion</strong> nei matchup poke-friendly. Switch a <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1054.png\" alt=\"Doran&#x27;s Shield\"> <strong>Doran's Shield</strong> contro un top ranged (Vladimir, Quinn, Kennen) per sopravvivere ai primi scambi di Cannon Q.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6692.png\" alt=\"Eclipse\"> <strong>Eclipse</strong> — primo spike. Lo scudo procca da due abilità in 1.5s, condizione che Jayce centra naturalmente con Cannon Q + Hammer Q sul swap. Aggiunge AD, omnivamp (life-leech su tutto il danno) e Ability Haste.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> — boots di default contro un top AD (la maggior parte del meta).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6697.png\" alt=\"Hubris\"> <strong>Hubris</strong> — lethality (statistica che ignora una parte fissa dell'armatura nemica) più una passiva (Eminence) che accumula stack ad ogni takedown (kill o assist) e fa crescere il danno da una kill alle successive. Ideale come secondo item quando sei avanti.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6694.png\" alt=\"Serylda&#x27;s Grudge\"> <strong>Serylda's Grudge</strong> — lethality e slow on damage. Lo slow sulla Cannon Q trasforma i nemici in fuga in target da catch con Hammer Q.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — contro minacce AP (Vladimir, Rumble, Kennen). Lo scudo magico salva quando il burst arriva e aggiunge AD.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> — contro CC duro single-target da engage (Camille E, Sett W, Malphite R). Lo spellshield si carica fuori combattimento e blocca la prima abilità di lockdown (CC duro che ti immobilizza).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3026.png\" alt=\"Guardian Angel\"> <strong>Guardian Angel</strong> — quando sei avanti e ti focusano. La rinascita ti permette di committare di più nelle skirmish; se scambi una vita per due, rinasci per prenderne una terza.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — swap dai Plated Steelcaps se il team enemy ha 3+ minacce AP o CC; la tenacity passiva riduce la durata di stun e slow.</li>\n</ul>\n<p><strong>Boots:</strong> Plated Steelcaps di default. Mercury's Treads contro magic damage pesante o chain CC.</p>\n<p><strong>Skill order:</strong> Maxa <strong>Q</strong> per prima (è la fonte di danno principale in entrambi gli stance), <strong>E</strong> per seconda (knockback per execute, gate per amplificare il poke), <strong>W</strong> per ultima. Metti un punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primario <strong>Precision</strong> con <strong>Press the Attack</strong>, <strong>Triumph</strong>, <strong>Legend: Alacrity</strong>, <strong>Coup de Grace</strong>. Secondario <strong>Sorcery</strong> con <strong>Manaflow Band</strong> e <strong>Transcendence</strong>. Contro top ranged a forte poke, swap a <strong>Resolve</strong> con <strong>Bone Plating</strong> + <strong>Second Wind</strong>.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Darius:</strong> Pre-6 mantienilo a distanza (kite) con Cannon Q e non entrare mai nel ring esterno della sua Q (Decimate). La Hammer E knockback cancella il reset della W (Crippling Strike) se hai il timing giusto; una volta respinto col knockback sotto torre, perde ogni kill threat.</li>\n<li><strong>Camille:</strong> Vince post-6 quando ha la E (Hookshot) up. Tracka il cooldown della E: quando è giù, freeza la wave (la tieni ferma davanti alla tua torre senza spingerla in avanti) e logorala con Cannon Q. Quando è up, tieni <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> carico.</li>\n<li><strong>Malphite:</strong> La lane è winnable finché non completa <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> + un singolo item armor, dopo di che la Cannon Q lo solletica. Vinci la lane nei primi 12 minuti o accetta uno scaling loss; valuta di rushare item da teamfight per le skirmish in side.</li>\n<li><strong>Fiora:</strong> Bait la sua W (Riposte) facendo finta di partire con Hammer Q — inizia l'animazione del salto, poi fermati. Quando la W è in cooldown, all-in con tutta la combo Hammer. Se la Q va in W, perdi un'abilità con cooldown 16s per niente.</li>\n<li><strong>Vladimir:</strong> Il matchup più duro nel pool standard. La Q lo cura attraverso il poke Cannon e la W (Sanguine Pool) schiva la Hammer E knockback. Chiedi gank presto al jungler prima che abbia 2 item, poi evita i teamfight e fai splitpush (spingi una side lane da solo per costringere l'avversario a rispondere) invece di raggrupparti.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2 (Q + W o Q + E):</strong> Cannon Q + AA + swap a Hammer Q è uno scambio del 35-40% HP sulla maggior parte dei squishy. Se il nemico si avvicina per last-hittare un melee minion, butta la combo e back off; il Move Speed passivo sul swap ti porta fuori prima che possa rispondere.</li>\n<li><strong>Livello 6 (primo rank di R):</strong> Entrambi gli stance unlockano al massimo. L'all-in Cannon-to-Hammer adesso è kill threat al 40% HP invece che chunk trade.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6692.png\" alt=\"Eclipse\"> Eclipse completion (~ minuto 11-13):</strong> Primo grosso spike. Scudo + omnivamp ti permettono di committare in trade più lunghi; non devi più disimpegnarti dopo un singolo ciclo Cannon-Hammer.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6697.png\" alt=\"Hubris\"> Hubris online (~ minuto 19-22):</strong> Gli stack di Eminence (la passiva di AD bonus sui takedown) iniziano a fare snowball (vantaggio crescente: kill → AD bonus → più kill). Forza una skirmish in side per accumulare stack di Eminence, poi ruota sugli obiettivi a danno pieno.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Buttare Cannon Q senza setup.</strong> La Q nuda costa mana ed è facile da schivare. Droppa prima la <strong>E</strong> (Acceleration Gate) verso il nemico; il gate amplifica la Q che lo attraversa (range più lungo, più danno) e il leggero delay forza il nemico a committare a una direzione di movimento prima di sparare.</li>\n<li><strong>Swappare a Hammer troppo presto.</strong> Se swappi prima che il nemico sia sotto ~50% HP, stai committando a un fight melee senza il burst per chiudere. Resta Cannon finché il chip damage non raggiunge la soglia, poi swap e all-in.</li>\n<li><strong>Dimenticare lo shred R-Cannon sul primo attacco.</strong> Quando swap a Cannon (R), la prima AA riduce Armor e Magic Resist. Bruciarla su un minion butta danno gratis; salvala sempre per un campione.</li>\n<li><strong>Splitpushare senza R disponibile.</strong> La R ha cooldown 6 secondi ma è il tuo unico tool di escape — il Move Speed sul swap. Splitpushare in un gank 4v1 con la R giù significa morire. Tratta la R come un dash con cooldown lungo quando valuti il rischio.</li>\n<li><strong>Ignorare i mana cost in trade lunghi.</strong> La Hammer W ha una passiva che restituisce mana sulle auto; se resti Cannon in un trade lungo, il pool si svuota. Swap a Hammer per 2-3 auto a metà trade per recuperare, poi swap di nuovo per chiudere in Cannon.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Padroneggia il <strong>R-cancel</strong> alla fine di Hyper Charge (Cannon W). Quando premi Cannon W ottieni Attack Speed massima per 3 attacchi — ma se swappi a Hammer (R) subito dopo che la terza auto è andata a segno, salti l'animazione di recupero e parti con il salto Hammer Q un quarto di secondo prima. È la differenza tra catturare un bersaglio in Flash e vederlo scappare con 5 HP. Allenalo nel Practice Tool su un target dummy finché il timing diventa muscle memory, prima di portarlo in ranked.</p>",
+    "content_html_pre": "<h2>Panoramica</h2>\n<p>Jayce è uno skirmisher ibrido ranged-melee che vive o muore sul weapon swap (R). In <strong>Cannon stance</strong> è uno specialista di poke a lungo raggio con una skillshot AOE Q e un movement-speed gate (E) che amplifica la Q quando viene sparata attraverso. In <strong>Hammer stance</strong> diventa un melee bruiser con leap-Q, aura W e un knockback (E) che fa danno magico in % HP massimi. La R ha cooldown 6 secondi, e il primo attacco dopo il passaggio a Cannon riduce Armor e Magic Resist del bersaglio — il trigger d'ingresso di ogni all-in.</p>\n<p>In top lane Jayce vuole una lane lunga. Erodi HP con <strong>Cannon Q + E gate</strong> (poke a distanza), torna a distanza di sicurezza, ripeti. Quando il nemico è sotto metà HP, swap a Hammer, salta con <strong>Q</strong>, droppa <strong>W</strong> per il danno aura e la passiva mana-on-hit, chiudi con <strong>E</strong> knockback se sopravvive. Trasforma ogni vantaggio di lane in pressione di splitpush — spingere una side lane da solo per costringere l'avversario a coprirla. Il range di Cannon Q in side è uno degli split più sicuri del gioco, e Eclipse + Hubris ti danno il burst (danno alto in 1-2 secondi) per vincere skirmish 1v1 contro la maggior parte dei top-laner.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1055.png\" alt=\"Doran&#x27;s Blade\"> <strong>Doran's Blade</strong> + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potion</strong> nei matchup poke-friendly. Switch a <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1054.png\" alt=\"Doran&#x27;s Shield\"> <strong>Doran's Shield</strong> contro un top ranged (Vladimir, Quinn, Kennen) per sopravvivere ai primi scambi di Cannon Q.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6692.png\" alt=\"Eclipse\"> <strong>Eclipse</strong> — primo spike. Lo scudo procca da due abilità in 1.5s, condizione che Jayce centra naturalmente con Cannon Q + Hammer Q sul swap. Aggiunge AD, omnivamp (life-leech su tutto il danno) e Ability Haste.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> — boots di default contro un top AD (la maggior parte del meta).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6697.png\" alt=\"Hubris\"> <strong>Hubris</strong> — lethality (statistica che ignora una parte fissa dell'armatura nemica) più una passiva (Eminence) che accumula stack ad ogni takedown (kill o assist) e fa crescere il danno da una kill alle successive. Ideale come secondo item quando sei avanti.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6694.png\" alt=\"Serylda&#x27;s Grudge\"> <strong>Serylda's Grudge</strong> — lethality e slow on damage. Lo slow sulla Cannon Q trasforma i nemici in fuga in target da catch con Hammer Q.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — contro minacce AP (Vladimir, Rumble, Kennen). Lo scudo magico salva quando il burst arriva e aggiunge AD.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> — contro CC duro single-target da engage (Camille E, Sett W, Malphite R). Lo spellshield si carica fuori combattimento e blocca la prima abilità di lockdown (CC duro che ti immobilizza).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3026.png\" alt=\"Guardian Angel\"> <strong>Guardian Angel</strong> — quando sei avanti e ti focusano. La rinascita ti permette di committare di più nelle skirmish; se scambi una vita per due, rinasci per prenderne una terza.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — swap dai Plated Steelcaps se il team enemy ha 3+ minacce AP o CC; la tenacity passiva riduce la durata di stun e slow.</li>\n</ul>\n<p><strong>Boots:</strong> Plated Steelcaps di default. Mercury's Treads contro magic damage pesante o chain CC.</p>\n<p><strong>Skill order:</strong> Maxa <strong>Q</strong> per prima (è la fonte di danno principale in entrambi gli stance), <strong>E</strong> per seconda (knockback per execute, gate per amplificare il poke), <strong>W</strong> per ultima. Metti un punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primario <strong>Precision</strong> con <strong>Press the Attack</strong>, <strong>Triumph</strong>, <strong>Legend: Alacrity</strong>, <strong>Coup de Grace</strong>. Secondario <strong>Sorcery</strong> con <strong>Manaflow Band</strong> e <strong>Transcendence</strong>. Contro top ranged a forte poke, swap a <strong>Resolve</strong> con <strong>Bone Plating</strong> + <strong>Second Wind</strong>.</p>",
+    "content_html_post": "<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Darius:</strong> Pre-6 mantienilo a distanza (kite) con Cannon Q e non entrare mai nel ring esterno della sua Q (Decimate). La Hammer E knockback cancella il reset della W (Crippling Strike) se hai il timing giusto; una volta respinto col knockback sotto torre, perde ogni kill threat.</li>\n<li><strong>Camille:</strong> Vince post-6 quando ha la E (Hookshot) up. Tracka il cooldown della E: quando è giù, freeza la wave (la tieni ferma davanti alla tua torre senza spingerla in avanti) e logorala con Cannon Q. Quando è up, tieni <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> carico.</li>\n<li><strong>Malphite:</strong> La lane è winnable finché non completa <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> + un singolo item armor, dopo di che la Cannon Q lo solletica. Vinci la lane nei primi 12 minuti o accetta uno scaling loss; valuta di rushare item da teamfight per le skirmish in side.</li>\n<li><strong>Fiora:</strong> Bait la sua W (Riposte) facendo finta di partire con Hammer Q — inizia l'animazione del salto, poi fermati. Quando la W è in cooldown, all-in con tutta la combo Hammer. Se la Q va in W, perdi un'abilità con cooldown 16s per niente.</li>\n<li><strong>Vladimir:</strong> Il matchup più duro nel pool standard. La Q lo cura attraverso il poke Cannon e la W (Sanguine Pool) schiva la Hammer E knockback. Chiedi gank presto al jungler prima che abbia 2 item, poi evita i teamfight e fai splitpush (spingi una side lane da solo per costringere l'avversario a rispondere) invece di raggrupparti.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2 (Q + W o Q + E):</strong> Cannon Q + AA + swap a Hammer Q è uno scambio del 35-40% HP sulla maggior parte dei squishy. Se il nemico si avvicina per last-hittare un melee minion, butta la combo e back off; il Move Speed passivo sul swap ti porta fuori prima che possa rispondere.</li>\n<li><strong>Livello 6 (primo rank di R):</strong> Entrambi gli stance unlockano al massimo. L'all-in Cannon-to-Hammer adesso è kill threat al 40% HP invece che chunk trade.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6692.png\" alt=\"Eclipse\"> Eclipse completion (~ minuto 11-13):</strong> Primo grosso spike. Scudo + omnivamp ti permettono di committare in trade più lunghi; non devi più disimpegnarti dopo un singolo ciclo Cannon-Hammer.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6697.png\" alt=\"Hubris\"> Hubris online (~ minuto 19-22):</strong> Gli stack di Eminence (la passiva di AD bonus sui takedown) iniziano a fare snowball (vantaggio crescente: kill → AD bonus → più kill). Forza una skirmish in side per accumulare stack di Eminence, poi ruota sugli obiettivi a danno pieno.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Buttare Cannon Q senza setup.</strong> La Q nuda costa mana ed è facile da schivare. Droppa prima la <strong>E</strong> (Acceleration Gate) verso il nemico; il gate amplifica la Q che lo attraversa (range più lungo, più danno) e il leggero delay forza il nemico a committare a una direzione di movimento prima di sparare.</li>\n<li><strong>Swappare a Hammer troppo presto.</strong> Se swappi prima che il nemico sia sotto ~50% HP, stai committando a un fight melee senza il burst per chiudere. Resta Cannon finché il chip damage non raggiunge la soglia, poi swap e all-in.</li>\n<li><strong>Dimenticare lo shred R-Cannon sul primo attacco.</strong> Quando swap a Cannon (R), la prima AA riduce Armor e Magic Resist. Bruciarla su un minion butta danno gratis; salvala sempre per un campione.</li>\n<li><strong>Splitpushare senza R disponibile.</strong> La R ha cooldown 6 secondi ma è il tuo unico tool di escape — il Move Speed sul swap. Splitpushare in un gank 4v1 con la R giù significa morire. Tratta la R come un dash con cooldown lungo quando valuti il rischio.</li>\n<li><strong>Ignorare i mana cost in trade lunghi.</strong> La Hammer W ha una passiva che restituisce mana sulle auto; se resti Cannon in un trade lungo, il pool si svuota. Swap a Hammer per 2-3 auto a metà trade per recuperare, poi swap di nuovo per chiudere in Cannon.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Padroneggia il <strong>R-cancel</strong> alla fine di Hyper Charge (Cannon W). Quando premi Cannon W ottieni Attack Speed massima per 3 attacchi — ma se swappi a Hammer (R) subito dopo che la terza auto è andata a segno, salti l'animazione di recupero e parti con il salto Hammer Q un quarto di secondo prima. È la differenza tra catturare un bersaglio in Flash e vederlo scappare con 5 HP. Allenalo nel Practice Tool su un target dummy finché il timing diventa muscle memory, prima di portarlo in ranked.</p>",
+    "word_count": 1289,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "aatrox-top",
+        "champion": "aatrox",
+        "role": "top"
+      },
+      {
+        "slug": "darius-top",
+        "champion": "darius",
+        "role": "top"
+      },
+      {
+        "slug": "fiora-top",
+        "champion": "fiora",
+        "role": "top"
+      },
+      {
+        "slug": "garen-top",
+        "champion": "garen",
+        "role": "top"
+      },
+      {
+        "slug": "irelia-top",
+        "champion": "irelia",
+        "role": "top"
+      }
+    ],
+    "champion_key": "126"
   },
   {
     "slug": "jhin-bot",

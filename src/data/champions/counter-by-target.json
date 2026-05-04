@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02",
+  "generated_at": "2026-05-04",
   "targets": {
     "aatrox": [
       {
@@ -305,6 +305,26 @@
         "archetype": "Assassini mobili che gap-close prima che le torrette rispondano",
         "reason": "Le torrette hanno un ciclo di attacco lento. Un assassino con triplo dash entra nel nest e uccide Heimerdinger prima che parta il primo beam; il cooldown è troppo corto per salvarlo.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Melee skirmishers with no ranged poke tools",
+        "reason": "Cannon Q outranges Akali's E (Shuriken Flip) and Yone's Q wave; both need to commit to a melee window to deal damage. Hammer E knockback denies their dash chains, and the Cannon-stance shred opens armor for follow-up gank kills.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Skirmisher melee senza tool di poke ranged",
+        "reason": "Cannon Q supera il range della E di Akali (Shuriken Flip) e la Q di Yone; entrambi devono committare in finestra melee per fare danno. La Hammer E knockback nega le loro chain di dash, e lo shred di Cannon-stance apre l'armor per follow-up gank.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -1014,6 +1034,26 @@
       },
       {
         "publisher": {
+          "champion": "jayce",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mid-lane mages without dash",
+        "reason": "They cannot interact with Cannon Q range pre-6. Veigar needs E (Event Horizon) to set up Q poke, but Jayce's E gate amplifies your Q before he completes his combo. Once they reach 50% HP, swap to Hammer and one-shot through the cast time of their abilities.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mid-laner mage immobili senza dash",
+        "reason": "Non possono rispondere al range di Cannon Q pre-6. Veigar deve piazzare la E (Event Horizon) per setuppare la Q, ma il gate di Jayce amplifica la tua Q prima della sua combo. Al 50% HP, swap a Hammer e li uccidi in un colpo attraverso il cast delle loro abilità.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -1212,6 +1252,26 @@
         },
         "archetype": "Mage corpo a corpo o tank che devono entrare nel raggio delle torrette",
         "reason": "Il loro engage avviene a corto raggio o richiede di camminare dentro la zona. Tre torrette piazzate rendono l'avanzata letale: il beam carico colpisce prima che l'animazione di engage sia completata.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mid-lane mages without dash",
+        "reason": "They cannot interact with Cannon Q range pre-6. Veigar needs E (Event Horizon) to set up Q poke, but Jayce's E gate amplifies your Q before he completes his combo. Once they reach 50% HP, swap to Hammer and one-shot through the cast time of their abilities.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mid-laner mage immobili senza dash",
+        "reason": "Non possono rispondere al range di Cannon Q pre-6. Veigar deve piazzare la E (Event Horizon) per setuppare la Q, ma il gate di Jayce amplifica la tua Q prima della sua combo. Al 50% HP, swap a Hammer e li uccidi in un colpo attraverso il cast delle loro abilità.",
         "via": "pick_into"
       },
       {
@@ -3030,6 +3090,26 @@
       },
       {
         "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Multi-dash skirmishers",
+        "reason": "They enter Tentacle range, burst you, then dash out before Conqueror reaches its full stack cap. By the time their dashes come back, your Tentacles are on cooldown — they pick the trade (back-and-forth exchange of damage) tempo, not you.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Skirmisher con multi-dash",
+        "reason": "Entrano nel raggio dei Tentacoli, fanno burst, poi escono con la dash prima che Conqueror raggiunga il cap. Quando le dash tornano disponibili, i tuoi Tentacoli sono in cooldown — sono loro a dettare il ritmo dello scambio, non tu.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "irelia",
           "role": "top",
           "lang": "en"
@@ -3066,6 +3146,26 @@
         },
         "archetype": "Duellanti con true damage e cleanse / catene di dash",
         "reason": "Il Riposte di Fiora para lo stun di Counter Strike; l'E hookshot di Camille le permette di committare e disengage sul suo timer. Vincono entrambi l'1v1 post-6 a parità di item.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Hard-CC bruisers with fast gap-close",
+        "reason": "Camille E (Hookshot) and Renekton W (Ruthless Predator) close the range inside the cannon-Q cast window and lock Jayce down before he can swap to Hammer E knockback. He has no dash to peel them off.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser con CC duro e gap-close veloce",
+        "reason": "Camille E (Hookshot) e Renekton W (Ruthless Predator) chiudono la distanza dentro la cast window della Cannon Q e bloccano Jayce con CC duro prima del swap a Hammer E. Non ha dash per tenerli a distanza.",
         "via": "counterpick"
       },
       {
@@ -3252,6 +3352,26 @@
       }
     ],
     "cho-gath": [
+      {
+        "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile late-game scalers",
+        "reason": "Gangplank's Q reaches 625 units, far outside their auto-attack farm range. They have no dash to close the distance and punish a chained barrel; you scale faster than they do once Trinity Force is online.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Scaler late-game immobili",
+        "reason": "La Q di Gangplank arriva a 625 unità, ben oltre la loro range di farm in auto-attack. Non hanno dash per chiudere la distanza e punire un barile concatenato; tu scali più veloce di loro una volta online Trinity Force.",
+        "via": "pick_into"
+      },
       {
         "publisher": {
           "champion": "gwen",
@@ -3458,6 +3578,26 @@
       },
       {
         "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Melee bruisers without disengage",
+        "reason": "Stay outside their threat radius using Q range and slow them with Powder Keg zones. Once they finally close, they have no follow-up tool to keep you in melee — you reset the trade and walk away.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee senza disengage",
+        "reason": "Resta fuori dalla loro threat radius con la gittata della Q e rallentali con le zone di Powder Keg. Quando finalmente chiudono, non hanno strumenti di follow-up per tenerti in melee — resetti il trade e te ne vai.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "gnar",
           "role": "top",
           "lang": "en"
@@ -3534,6 +3674,26 @@
         },
         "archetype": "Juggernaut melee incapaci di chiudere la distanza",
         "reason": "Il loro engage richiede di arrivare a portata melee contro tre torrette che sparano contemporaneamente. Lo stordimento di E nella zona di approccio seguito da W ferma il commit prima che raggiunga Heimerdinger.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Short-range melee juggernauts without a dash",
+        "reason": "Their entire damage profile sits inside W range. Once you W onto them, every nearby Tentacle slams — and they have no dash to leave the radius before Conqueror reaches its full stack cap and the damage snowballs.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Juggernaut melee senza dash",
+        "reason": "Il loro intero profilo di danno sta dentro il raggio della W. Una volta che ci salti sopra, ogni Tentacolo vicino slamma — e non hanno dash per uscire dal raggio prima che Conqueror raggiunga il cap e il danno vada a valanga.",
         "via": "pick_into"
       },
       {
@@ -4674,6 +4834,26 @@
       },
       {
         "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Mobility fighters that block basic attacks",
+        "reason": "Fiora's W parry stuns Gangplank and reflects crowd control; Jax's E dodges every auto-attack and Q for two seconds. Both reset the trade pattern Gangplank needs to scale into late game.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Fighter mobili che bloccano gli auto-attack",
+        "reason": "La W parry di Fiora stunna Gangplank e riflette il CC; la E di Jax schiva ogni auto e Q per due secondi. Entrambi resettano il pattern di trade che Gangplank serve per scalare in late game.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "gnar",
           "role": "top",
           "lang": "en"
@@ -5096,6 +5276,26 @@
       },
       {
         "publisher": {
+          "champion": "jayce",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "Zed W (Living Shadow) and Fizz E (Playful/Trickster) close the Cannon-Q range inside the cast window. Once inside Hammer range with R up, they burst Jayce before he finishes a Hammer Q-W-E combo. Edge of Night helps but cannot save you if the gap-close lands first.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con multipli gap-closer",
+        "reason": "Zed W (Living Shadow) e Fizz E (Playful/Trickster) chiudono il range della Cannon Q dentro la cast window. Una volta in range Hammer con la R up, ti bruciano prima che chiuda la combo Hammer Q-W-E. Edge of Night aiuta ma non salva se il gap-close arriva prima.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -5318,6 +5518,26 @@
       },
       {
         "publisher": {
+          "champion": "jayce",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Global / cross-map roamers",
+        "reason": "Jayce roams slowly without stance synergy. Twisted Fate R (Destiny) flips a side lane in 8 seconds; Galio R (Hero's Entrance) lands where Jayce cannot follow. The mid 1v1 might be even, but the macro game bleeds objectives elsewhere.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Roamer globali / cross-map",
+        "reason": "Jayce ruota lentamente sulla mappa senza sinergia di stance. La R di Twisted Fate (Destiny) ribalta una side lane in 8 secondi; la R di Galio (Hero's Entrance) atterra dove Jayce non può seguire. Il 1v1 in mid potrebbe essere pari, ma la macro brucia obiettivi altrove.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -5522,6 +5742,26 @@
       },
       {
         "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Melee bruisers without disengage",
+        "reason": "Stay outside their threat radius using Q range and slow them with Powder Keg zones. Once they finally close, they have no follow-up tool to keep you in melee — you reset the trade and walk away.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee senza disengage",
+        "reason": "Resta fuori dalla loro threat radius con la gittata della Q e rallentali con le zone di Powder Keg. Quando finalmente chiudono, non hanno strumenti di follow-up per tenerti in melee — resetti il trade e te ne vai.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "gnar",
           "role": "top",
           "lang": "en"
@@ -5602,6 +5842,26 @@
       },
       {
         "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Short-range melee juggernauts without a dash",
+        "reason": "Their entire damage profile sits inside W range. Once you W onto them, every nearby Tentacle slams — and they have no dash to leave the radius before Conqueror reaches its full stack cap and the damage snowballs.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Juggernaut melee senza dash",
+        "reason": "Il loro intero profilo di danno sta dentro il raggio della W. Una volta che ci salti sopra, ogni Tentacolo vicino slamma — e non hanno dash per uscire dal raggio prima che Conqueror raggiunga il cap e il danno vada a valanga.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "irelia",
           "role": "top",
           "lang": "en"
@@ -5638,6 +5898,26 @@
         },
         "archetype": "Scaler melee a corto raggio senza AA cancel",
         "reason": "Il loro danno è legato alle auto-attack o ad abilità a corto raggio — Counter Strike schiva le auto e lo stun AOE in uscita neutralizza il loro windup.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile melee bruisers without ranged answer",
+        "reason": "They have no way to interact with Cannon Q range. Poke them off the wave for the first 6 levels and they cannot scale; Nasus loses Q stacks, Garen never gets to Q, Sett never builds his W (Haymaker) bar.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee immobili senza risposta a distanza",
+        "reason": "Non hanno modo di rispondere al raggio della Cannon Q. Pokeli fuori dalla wave per i primi 6 livelli: Nasus perde stack di Q, Garen non arriva mai a Q, Sett non riempie mai la barra di W (Haymaker).",
         "via": "pick_into"
       },
       {
@@ -5780,6 +6060,26 @@
         },
         "archetype": "Top ranged che kitano fuori dal range della Q",
         "reason": "Fiora non ha risposta al poke ranged prima del livello 6. Stanno a range di auto-attack, la accecano o dashano via, e lei non riesce ad arrivare a un Vital per curarsi.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged-melee form-shifters",
+        "reason": "They poke from ranged form, then swap to melee form only when Tentacles are not active. You burn W trying to engage and they cancel the trade by re-shifting back to range.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Campioni che cambiano forma tra distanza e mischia",
+        "reason": "Ti pokano da forma ranged, poi passano in forma melee solo quando i Tentacoli non sono attivi. Tu bruci la W cercando di ingaggiare e loro cancellano lo scambio tornando ranged.",
         "via": "counterpick"
       },
       {
@@ -6258,6 +6558,26 @@
       },
       {
         "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Multi-dash skirmishers",
+        "reason": "They enter Tentacle range, burst you, then dash out before Conqueror reaches its full stack cap. By the time their dashes come back, your Tentacles are on cooldown — they pick the trade (back-and-forth exchange of damage) tempo, not you.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Skirmisher con multi-dash",
+        "reason": "Entrano nel raggio dei Tentacoli, fanno burst, poi escono con la dash prima che Conqueror raggiunga il cap. Quando le dash tornano disponibili, i tuoi Tentacoli sono in cooldown — sono loro a dettare il ritmo dello scambio, non tu.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "jax",
           "role": "top",
           "lang": "en"
@@ -6684,6 +7004,26 @@
       },
       {
         "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Mobility fighters that block basic attacks",
+        "reason": "Fiora's W parry stuns Gangplank and reflects crowd control; Jax's E dodges every auto-attack and Q for two seconds. Both reset the trade pattern Gangplank needs to scale into late game.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Fighter mobili che bloccano gli auto-attack",
+        "reason": "La W parry di Fiora stunna Gangplank e riflette il CC; la E di Jax schiva ogni auto e Q per due secondi. Entrambi resettano il pattern di trade che Gangplank serve per scalare in late game.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "gwen",
           "role": "top",
           "lang": "en"
@@ -6802,6 +7142,26 @@
         },
         "archetype": "Top laner a lungo raggio che fanno poke da fuori range 970",
         "reason": "Zonano Heimerdinger dalla wave da una distanza in cui E e W non riescono a colpire in modo affidabile, costringendolo a subire poke gratis ogni volta che tenta di piazzare una torretta o fare last-hit.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged-melee form-shifters",
+        "reason": "They poke from ranged form, then swap to melee form only when Tentacles are not active. You burn W trying to engage and they cancel the trade by re-shifting back to range.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Campioni che cambiano forma tra distanza e mischia",
+        "reason": "Ti pokano da forma ranged, poi passano in forma melee solo quando i Tentacoli non sono attivi. Tu bruci la W cercando di ingaggiare e loro cancellano lo scambio tornando ranged.",
         "via": "counterpick"
       },
       {
@@ -8930,6 +9290,26 @@
       },
       {
         "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Hard-CC point-and-click engage",
+        "reason": "Malphite's R is a point-and-click knockup with no skillshot to dodge. Kennen's W stun and R AOE chain CC beyond Gangplank's W cleanse window — once the CC chain starts, W cannot cleanse it in time.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Engage hard-CC point-and-click",
+        "reason": "La R di Malphite è point-and-click senza skillshot da schivare. Lo stun di Kennen W e la R AOE concatenano CC oltre la finestra di cleanse della W di Gangplank — una volta partita la catena, la W non fa in tempo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "gnar",
           "role": "top",
           "lang": "en"
@@ -8970,6 +9350,26 @@
       },
       {
         "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged top laners who poke or kite",
+        "reason": "They sit outside W's 400 leap range and shred your HP with autos. Every step you take to close the distance gives them another free shot — and you have no dash to gap-close.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged che pokano o kitano",
+        "reason": "Stanno fuori dal raggio della W (400 unità) e ti smontano l'HP con gli auto-attack. Ogni passo che fai per chiudere la distanza gli regala un'AA gratis — e tu non hai dash per recuperare la distanza.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "irelia",
           "role": "top",
           "lang": "en"
@@ -9006,6 +9406,26 @@
         },
         "archetype": "Top ranged con strumenti di kite",
         "reason": "Pokano fuori dai 700 di range di Leap Strike e indietreggiano quando Counter Strike è pronto. Jax non ha sustain pre-6 quindi la lane si sanguina senza mai arrivare in range di all-in.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged top scalers with sustain or matched range",
+        "reason": "Vladimir's Q (Transfusion) heals through poke; Kennen W (Electrical Surge) out-ranges Cannon Q. Both turn the lane into a poke trade that Jayce loses without the all-in option a melee bruiser would give him.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged con sustain o range eguale",
+        "reason": "La Q di Vladimir (Transfusion) cura il poke; la W di Kennen (Electrical Surge) supera il range della Cannon Q. Entrambi forzano una lane a poke che Jayce perde senza l'opzione di all-in che avrebbe contro un melee bruiser.",
         "via": "counterpick"
       },
       {
@@ -9451,6 +9871,28 @@
         "archetype": "Jungler ranged che out-tradano in jungle",
         "reason": "Ti pokano mentre clearri e kitano (si muovono indietro mentre attaccano) il tuo gap close. Warwick non ha tool ranged — la Q ha range 365, praticamente melee.",
         "via": "counterpick"
+      }
+    ],
+    "kled": [
+      {
+        "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Early-window all-in fighters that fall off",
+        "reason": "Farm at Q range through levels 1-3, save W for their level 6 ult, then outscale them post-Trinity Force. They have no late-game answer to a chained-barrel teamfight combo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Fighter con finestra early forte che poi cala",
+        "reason": "Farma a gittata di Q ai livelli 1-3, conserva W per il loro ult al livello 6, poi outscala dopo Trinity Force. Non hanno risposta late-game al combo da teamfight con barile concatenato.",
+        "via": "pick_into"
       }
     ],
     "kog-maw": [
@@ -11654,6 +12096,26 @@
       },
       {
         "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Hard-CC point-and-click engage",
+        "reason": "Malphite's R is a point-and-click knockup with no skillshot to dodge. Kennen's W stun and R AOE chain CC beyond Gangplank's W cleanse window — once the CC chain starts, W cannot cleanse it in time.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Engage hard-CC point-and-click",
+        "reason": "La R di Malphite è point-and-click senza skillshot da schivare. Lo stun di Kennen W e la R AOE concatenano CC oltre la finestra di cleanse della W di Gangplank — una volta partita la catena, la W non fa in tempo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "gnar",
           "role": "top",
           "lang": "en"
@@ -11790,6 +12252,26 @@
         },
         "archetype": "Hard counter mage contro bruiser melee (quando in lead)",
         "reason": "Malphite contro Jax si ribalta sui suoi item: pre-Frostfire perde, post-secondo item l'armor stack e la R lock-on chiudono la finestra di all-in di Jax.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Tanks with item-based MR and engage ult",
+        "reason": "They itemize through Cannon poke (Bramble Vest, Negatron Cloak) and their ult (Malphite R, Maokai R) lets them flash-engage past Hammer E knockback. Jayce damage falls off if the lane goes long without a kill.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Tank con MR da item e ult di engage",
+        "reason": "Itemizzano contro il poke Cannon (Bramble Vest, Negatron Cloak) e la loro ult (Malphite R, Maokai R) flash-engagia oltre la Hammer E. Jayce cala se la lane va lunga senza una kill.",
         "via": "counterpick"
       },
       {
@@ -12234,6 +12716,26 @@
         },
         "archetype": "Engage tanky con counter-engage hard CC",
         "reason": "Il loro CC AOE prende Elise durante la discesa di Rappel o dopo che fa commit al dive. Una volta a 2 item, il tuo magic burst smette di scioglierli e tu non hai disengage in Spider form.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Tanks with item-based MR and engage ult",
+        "reason": "They itemize through Cannon poke (Bramble Vest, Negatron Cloak) and their ult (Malphite R, Maokai R) lets them flash-engage past Hammer E knockback. Jayce damage falls off if the lane goes long without a kill.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Tank con MR da item e ult di engage",
+        "reason": "Itemizzano contro il poke Cannon (Bramble Vest, Negatron Cloak) e la loro ult (Malphite R, Maokai R) flash-engagia oltre la Hammer E. Jayce cala se la lane va lunga senza una kill.",
         "via": "counterpick"
       },
       {
@@ -12786,6 +13288,26 @@
       },
       {
         "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Short-range melee juggernauts without a dash",
+        "reason": "Their entire damage profile sits inside W range. Once you W onto them, every nearby Tentacle slams — and they have no dash to leave the radius before Conqueror reaches its full stack cap and the damage snowballs.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Juggernaut melee senza dash",
+        "reason": "Il loro intero profilo di danno sta dentro il raggio della W. Una volta che ci salti sopra, ogni Tentacolo vicino slamma — e non hanno dash per uscire dal raggio prima che Conqueror raggiunga il cap e il danno vada a valanga.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "nasus",
           "role": "top",
           "lang": "en"
@@ -13212,6 +13734,26 @@
       },
       {
         "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile late-game scalers",
+        "reason": "Gangplank's Q reaches 625 units, far outside their auto-attack farm range. They have no dash to close the distance and punish a chained barrel; you scale faster than they do once Trinity Force is online.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Scaler late-game immobili",
+        "reason": "La Q di Gangplank arriva a 625 unità, ben oltre la loro range di farm in auto-attack. Non hanno dash per chiudere la distanza e punire un barile concatenato; tu scali più veloce di loro una volta online Trinity Force.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "gnar",
           "role": "top",
           "lang": "en"
@@ -13252,6 +13794,26 @@
       },
       {
         "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Tank scalers with weak laning",
+        "reason": "Their first 6 levels are passive farming. E them off the wave for free chip and stack Vessels: Tentacles hunt them down to the wave, and the spirit echo doubles every Q smash you land.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Tank scaler con laning debole",
+        "reason": "I primi 6 livelli li passano a farmare passivamente. La E li scaccia dalla wave per chip gratuito e li trasforma in Vessel: i Tentacoli li cacciano fino alla wave e l'eco dello spirito raddoppia ogni Q smash che landi.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "irelia",
           "role": "top",
           "lang": "en"
@@ -13288,6 +13850,26 @@
         },
         "archetype": "Scaler melee a corto raggio senza AA cancel",
         "reason": "Il loro danno è legato alle auto-attack o ad abilità a corto raggio — Counter Strike schiva le auto e lo stun AOE in uscita neutralizza il loro windup.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile melee bruisers without ranged answer",
+        "reason": "They have no way to interact with Cannon Q range. Poke them off the wave for the first 6 levels and they cannot scale; Nasus loses Q stacks, Garen never gets to Q, Sett never builds his W (Haymaker) bar.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee immobili senza risposta a distanza",
+        "reason": "Non hanno modo di rispondere al raggio della Cannon Q. Pokeli fuori dalla wave per i primi 6 livelli: Nasus perde stack di Q, Garen non arriva mai a Q, Sett non riempie mai la barra di W (Haymaker).",
         "via": "pick_into"
       },
       {
@@ -14136,6 +14718,26 @@
         },
         "archetype": "Diver immuni al CC (passive cleanse o ult immunity)",
         "reason": "La R di Olaf e la Q di Garen rompono le catene di stun e ignorano il tuo unico setup. Quando il cocoon smette di atterrare, l'all-in di Elise (commit totale nel trade) crolla e finisce duellata a morte senza escape.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Early-window all-in bullies",
+        "reason": "Renekton level 2 stun plus level 6 ult cancel Gangplank's scaling plan before Trinity Force. Olaf's R grants CC immunity, so W cleanse cannot stop him from running Gangplank down with true-damage axes.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bully early-window da all-in",
+        "reason": "Stun di Renekton al livello 2 + ult al livello 6 cancellano il piano di scaling di Gangplank prima di Trinity Force. La R di Olaf gli concede CC immunity, quindi il W cleanse non lo ferma mentre lo investe con asce in true damage.",
         "via": "counterpick"
       },
       {
@@ -15174,6 +15776,26 @@
       },
       {
         "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged top laners who poke or kite",
+        "reason": "They sit outside W's 400 leap range and shred your HP with autos. Every step you take to close the distance gives them another free shot — and you have no dash to gap-close.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged che pokano o kitano",
+        "reason": "Stanno fuori dal raggio della W (400 unità) e ti smontano l'HP con gli auto-attack. Ogni passo che fai per chiudere la distanza gli regala un'AA gratis — e tu non hai dash per recuperare la distanza.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "nasus",
           "role": "top",
           "lang": "en"
@@ -15926,6 +16548,26 @@
       },
       {
         "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Early-window all-in bullies",
+        "reason": "Renekton level 2 stun plus level 6 ult cancel Gangplank's scaling plan before Trinity Force. Olaf's R grants CC immunity, so W cleanse cannot stop him from running Gangplank down with true-damage axes.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bully early-window da all-in",
+        "reason": "Stun di Renekton al livello 2 + ult al livello 6 cancellano il piano di scaling di Gangplank prima di Trinity Force. La R di Olaf gli concede CC immunity, quindi il W cleanse non lo ferma mentre lo investe con asce in true damage.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "gnar",
           "role": "top",
           "lang": "en"
@@ -15962,6 +16604,26 @@
         },
         "archetype": "Lane bully con strumenti anti-skirmisher",
         "reason": "Il suppress di Malzahar (silence point-and-click + lockdown) cancella i tuoi Q reset; la W empowered di Renekton stunna attraverso la tua W in carica e chiude il trade prima che tu scali.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Hard-CC bruisers with fast gap-close",
+        "reason": "Camille E (Hookshot) and Renekton W (Ruthless Predator) close the range inside the cannon-Q cast window and lock Jayce down before he can swap to Hammer E knockback. He has no dash to peel them off.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser con CC duro e gap-close veloce",
+        "reason": "Camille E (Hookshot) e Renekton W (Ruthless Predator) chiudono la distanza dentro la cast window della Cannon Q e bloccano Jayce con CC duro prima del swap a Hammer E. Non ha dash per tenerli a distanza.",
         "via": "counterpick"
       },
       {
@@ -16146,6 +16808,26 @@
         },
         "archetype": "Outscaler con true damage o early forte",
         "reason": "I Vital di Fiora fanno true damage e i suoi dash di Q ignorano il range della W mist. Riven outdamaga Gwen ai livelli 1-3 prima che la passive entri in stack.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Multi-dash skirmishers",
+        "reason": "They enter Tentacle range, burst you, then dash out before Conqueror reaches its full stack cap. By the time their dashes come back, your Tentacles are on cooldown — they pick the trade (back-and-forth exchange of damage) tempo, not you.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Skirmisher con multi-dash",
+        "reason": "Entrano nel raggio dei Tentacoli, fanno burst, poi escono con la dash prima che Conqueror raggiunga il cap. Quando le dash tornano disponibili, i tuoi Tentacoli sono in cooldown — sono loro a dettare il ritmo dello scambio, non tu.",
         "via": "counterpick"
       },
       {
@@ -17444,6 +18126,26 @@
       },
       {
         "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Melee bruisers without disengage",
+        "reason": "Stay outside their threat radius using Q range and slow them with Powder Keg zones. Once they finally close, they have no follow-up tool to keep you in melee — you reset the trade and walk away.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee senza disengage",
+        "reason": "Resta fuori dalla loro threat radius con la gittata della Q e rallentali con le zone di Powder Keg. Quando finalmente chiudono, non hanno strumenti di follow-up per tenerti in melee — resetti il trade e te ne vai.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "gnar",
           "role": "top",
           "lang": "en"
@@ -17500,6 +18202,46 @@
         },
         "archetype": "Bruiser melee lenti senza poke ranged",
         "reason": "Q applica true damage in percentuale dell'HP massimo, ignora l'armor. Un 1v1 lungo dentro la W mist scioglie i fighter melee tanky che non possono kitare o disengage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Short-range melee juggernauts without a dash",
+        "reason": "Their entire damage profile sits inside W range. Once you W onto them, every nearby Tentacle slams — and they have no dash to leave the radius before Conqueror reaches its full stack cap and the damage snowballs.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Juggernaut melee senza dash",
+        "reason": "Il loro intero profilo di danno sta dentro il raggio della W. Una volta che ci salti sopra, ogni Tentacolo vicino slamma — e non hanno dash per uscire dal raggio prima che Conqueror raggiunga il cap e il danno vada a valanga.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile melee bruisers without ranged answer",
+        "reason": "They have no way to interact with Cannon Q range. Poke them off the wave for the first 6 levels and they cannot scale; Nasus loses Q stacks, Garen never gets to Q, Sett never builds his W (Haymaker) bar.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee immobili senza risposta a distanza",
+        "reason": "Non hanno modo di rispondere al raggio della Cannon Q. Pokeli fuori dalla wave per i primi 6 livelli: Nasus perde stack di Q, Garen non arriva mai a Q, Sett non riempie mai la barra di W (Haymaker).",
         "via": "pick_into"
       },
       {
@@ -17890,6 +18632,46 @@
         },
         "archetype": "Tank HP-stacker che non riescono a fermare i Vitals",
         "reason": "I Vitals fanno una percentuale dell'HP massimo del bersaglio in true damage (danno che ignora armor e MR). Più HP buildano, più la R di Fiora li devasta nei fight prolungati.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Immobile late-game scalers",
+        "reason": "Gangplank's Q reaches 625 units, far outside their auto-attack farm range. They have no dash to close the distance and punish a chained barrel; you scale faster than they do once Trinity Force is online.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Scaler late-game immobili",
+        "reason": "La Q di Gangplank arriva a 625 unità, ben oltre la loro range di farm in auto-attack. Non hanno dash per chiudere la distanza e punire un barile concatenato; tu scali più veloce di loro una volta online Trinity Force.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Tank scalers with weak laning",
+        "reason": "Their first 6 levels are passive farming. E them off the wave for free chip and stack Vessels: Tentacles hunt them down to the wave, and the spirit echo doubles every Q smash you land.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Tank scaler con laning debole",
+        "reason": "I primi 6 livelli li passano a farmare passivamente. La E li scaccia dalla wave per chip gratuito e li trasforma in Vessel: i Tentacoli li cacciano fino alla wave e l'eco dello spirito raddoppia ogni Q smash che landi.",
         "via": "pick_into"
       },
       {
@@ -19594,6 +20376,26 @@
       },
       {
         "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged top laners who poke or kite",
+        "reason": "They sit outside W's 400 leap range and shred your HP with autos. Every step you take to close the distance gives them another free shot — and you have no dash to gap-close.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged che pokano o kitano",
+        "reason": "Stanno fuori dal raggio della W (400 unità) e ti smontano l'HP con gli auto-attack. Ogni passo che fai per chiudere la distanza gli regala un'AA gratis — e tu non hai dash per recuperare la distanza.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "jax",
           "role": "top",
           "lang": "en"
@@ -20382,6 +21184,26 @@
       },
       {
         "publisher": {
+          "champion": "jayce",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Slow scalers without lane harass tools",
+        "reason": "Their kill threat needs items. Cannon Q removes minutes of farm before they hit a power spike, and Hammer E knockback denies the all-in window when they finally try to commit.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Scaler lenti senza tool di harass in lane",
+        "reason": "Il loro kill threat richiede item. La Cannon Q rimuove minuti di farm prima del power spike, e la Hammer E knockback nega la finestra di all-in quando finalmente provano a committare.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "malphite",
           "role": "top",
           "lang": "en"
@@ -20620,6 +21442,26 @@
         },
         "archetype": "Roamer globali che ignorano il nest",
         "reason": "Heimerdinger non può fare roam — spostare le torrette richiede tre investimenti di Q. L'avversario prende kill gratis nelle side lane mentre Heimerdinger ottimizza un nest che non viene mai combattuto.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Global / cross-map roamers",
+        "reason": "Jayce roams slowly without stance synergy. Twisted Fate R (Destiny) flips a side lane in 8 seconds; Galio R (Hero's Entrance) lands where Jayce cannot follow. The mid 1v1 might be even, but the macro game bleeds objectives elsewhere.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Roamer globali / cross-map",
+        "reason": "Jayce ruota lentamente sulla mappa senza sinergia di stance. La R di Twisted Fate (Destiny) ribalta una side lane in 8 secondi; la R di Galio (Hero's Entrance) atterra dove Jayce non può seguire. Il 1v1 in mid potrebbe essere pari, ma la macro brucia obiettivi altrove.",
         "via": "counterpick"
       },
       {
@@ -20865,6 +21707,28 @@
         "archetype": "Altri duellanti early-clear con cleanse o unstoppable",
         "reason": "La R di Olaf rimuove il tuo suppress a metà salto. La R di Nocturne oscura la visione e rende fallimentare la tua invade. Udyr regge il sustain e ti out-DPSa nel 1v1 fermo.",
         "via": "counterpick"
+      }
+    ],
+    "urgot": [
+      {
+        "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Early-window all-in fighters that fall off",
+        "reason": "Farm at Q range through levels 1-3, save W for their level 6 ult, then outscale them post-Trinity Force. They have no late-game answer to a chained-barrel teamfight combo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "gangplank",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Fighter con finestra early forte che poi cala",
+        "reason": "Farma a gittata di Q ai livelli 1-3, conserva W per il loro ult al livello 6, poi outscala dopo Trinity Force. Non hanno risposta late-game al combo da teamfight con barile concatenato.",
+        "via": "pick_into"
       }
     ],
     "varus": [
@@ -21392,6 +22256,26 @@
       },
       {
         "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged top laners who poke or kite",
+        "reason": "They sit outside W's 400 leap range and shred your HP with autos. Every step you take to close the distance gives them another free shot — and you have no dash to gap-close.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged che pokano o kitano",
+        "reason": "Stanno fuori dal raggio della W (400 unità) e ti smontano l'HP con gli auto-attack. Ogni passo che fai per chiudere la distanza gli regala un'AA gratis — e tu non hai dash per recuperare la distanza.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "irelia",
           "role": "top",
           "lang": "en"
@@ -21894,6 +22778,26 @@
       },
       {
         "publisher": {
+          "champion": "jayce",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mid-lane mages without dash",
+        "reason": "They cannot interact with Cannon Q range pre-6. Veigar needs E (Event Horizon) to set up Q poke, but Jayce's E gate amplifies your Q before he completes his combo. Once they reach 50% HP, swap to Hammer and one-shot through the cast time of their abilities.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mid-laner mage immobili senza dash",
+        "reason": "Non possono rispondere al range di Cannon Q pre-6. Veigar deve piazzare la E (Event Horizon) per setuppare la Q, ma il gate di Jayce amplifica la tua Q prima della sua combo. Al 50% HP, swap a Hammer e li uccidi in un colpo attraverso il cast delle loro abilità.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -22272,6 +23176,26 @@
         },
         "archetype": "Mage support a lungo range",
         "reason": "Pokano fuori dagli 800 unit di range della E shield: lei può shieldare il colpo ma non può rispondere — l'attrito di HP vince la lane sui tempi lunghi.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "They out-range Cannon Q. Xerath Q (Arcanopulse) and Vel'Koz Q (Plasma Fission) hit at ranges Jayce cannot match without walking into their full combo. Every wave-fight bleeds Jayce's HP without giving him a window to all-in back.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage artiglieria a lungo raggio",
+        "reason": "Hanno range superiore a Cannon Q. La Q di Xerath (Arcanopulse) e la Q di Vel'Koz (Plasma Fission) colpiscono a distanze che Jayce non può eguagliare senza camminare nella loro full combo. Ogni wave fight ti drena HP senza darti la finestra per fare all-in di rimando.",
         "via": "counterpick"
       },
       {
@@ -22761,6 +23685,26 @@
         "archetype": "Top laner AP squishy",
         "reason": "Il damage reduction flat di Drunken Rage assorbe il combo stun-burst di Kennen e il poke Q di Vladimir. Gragas può rispondere con E-AA-Q mentre le loro risorse sono spese nello scambio.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged top scalers with sustain or matched range",
+        "reason": "Vladimir's Q (Transfusion) heals through poke; Kennen W (Electrical Surge) out-ranges Cannon Q. Both turn the lane into a poke trade that Jayce loses without the all-in option a melee bruiser would give him.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top ranged con sustain o range eguale",
+        "reason": "La Q di Vladimir (Transfusion) cura il poke; la W di Kennen (Electrical Surge) supera il range della Cannon Q. Entrambi forzano una lane a poke che Jayce perde senza l'opzione di all-in che avrebbe contro un melee bruiser.",
+        "via": "counterpick"
       }
     ],
     "volibear": [
@@ -22822,6 +23766,26 @@
         },
         "archetype": "Bruiser melee a corto raggio senza un disengage forte",
         "reason": "Darius vince i trade prolungati perché ogni auto e Q applica una stack di bleed: quando l'avversario vorrebbe disimpegnarsi, la finestra di enrage a 5 stack ha già ribaltato lo scambio a suo favore.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Melee bruisers that summon pets or buffs to fight",
+        "reason": "They commit forward to use their kit (Yorick's ghouls, Volibear's empowered AA): once committed, they are inside W range and the Tentacle swarm punishes them for staying.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee che evocano pet o buff per fightare",
+        "reason": "Si committano in avanti per usare le loro abilità (i ghoul di Yorick, l'AA potenziato di Volibear): una volta committati sono dentro il raggio della W e lo sciame di Tentacoli li punisce per restarci.",
         "via": "pick_into"
       },
       {
@@ -23448,6 +24412,26 @@
         },
         "archetype": "Mage support a lungo range",
         "reason": "Pokano fuori dagli 800 unit di range della E shield: lei può shieldare il colpo ma non può rispondere — l'attrito di HP vince la lane sui tempi lunghi.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "They out-range Cannon Q. Xerath Q (Arcanopulse) and Vel'Koz Q (Plasma Fission) hit at ranges Jayce cannot match without walking into their full combo. Every wave-fight bleeds Jayce's HP without giving him a window to all-in back.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage artiglieria a lungo raggio",
+        "reason": "Hanno range superiore a Cannon Q. La Q di Xerath (Arcanopulse) e la Q di Vel'Koz (Plasma Fission) colpiscono a distanze che Jayce non può eguagliare senza camminare nella loro full combo. Ogni wave fight ti drena HP senza darti la finestra per fare all-in di rimando.",
         "via": "counterpick"
       },
       {
@@ -24698,6 +25682,26 @@
       },
       {
         "publisher": {
+          "champion": "jayce",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Melee skirmishers with no ranged poke tools",
+        "reason": "Cannon Q outranges Akali's E (Shuriken Flip) and Yone's Q wave; both need to commit to a melee window to deal damage. Hammer E knockback denies their dash chains, and the Cannon-stance shred opens armor for follow-up gank kills.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Skirmisher melee senza tool di poke ranged",
+        "reason": "Cannon Q supera il range della E di Akali (Shuriken Flip) e la Q di Yone; entrambi devono committare in finestra melee per fare danno. La Hammer E knockback nega le loro chain di dash, e lo shred di Cannon-stance apre l'armor per follow-up gank.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "malphite",
           "role": "top",
           "lang": "en"
@@ -24916,6 +25920,46 @@
         },
         "archetype": "Juggernaut da scaling senza early kill threat",
         "reason": "Pushi la wave con Mini Q+W e gli neghi farm sotto torre; non possono punire perché non hanno gap-close che batte il tuo boomerang range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Melee bruisers that summon pets or buffs to fight",
+        "reason": "They commit forward to use their kit (Yorick's ghouls, Volibear's empowered AA): once committed, they are inside W range and the Tentacle swarm punishes them for staying.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "illaoi",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee che evocano pet o buff per fightare",
+        "reason": "Si committano in avanti per usare le loro abilità (i ghoul di Yorick, l'AA potenziato di Volibear): una volta committati sono dentro il raggio della W e lo sciame di Tentacoli li punisce per restarci.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Slow scalers without lane harass tools",
+        "reason": "Their kill threat needs items. Cannon Q removes minutes of farm before they hit a power spike, and Hammer E knockback denies the all-in window when they finally try to commit.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Scaler lenti senza tool di harass in lane",
+        "reason": "Il loro kill threat richiede item. La Cannon Q rimuove minuti di farm prima del power spike, e la Hammer E knockback nega la finestra di all-in quando finalmente provano a committare.",
         "via": "pick_into"
       }
     ],
@@ -25702,6 +26746,26 @@
         },
         "archetype": "Assassini mobili che gap-close prima che le torrette rispondano",
         "reason": "Le torrette hanno un ciclo di attacco lento. Un assassino con triplo dash entra nel nest e uccide Heimerdinger prima che parta il primo beam; il cooldown è troppo corto per salvarlo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "Zed W (Living Shadow) and Fizz E (Playful/Trickster) close the Cannon-Q range inside the cast window. Once inside Hammer range with R up, they burst Jayce before he finishes a Hammer Q-W-E combo. Edge of Night helps but cannot save you if the gap-close lands first.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jayce",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con multipli gap-closer",
+        "reason": "Zed W (Living Shadow) e Fizz E (Playful/Trickster) chiudono il range della Cannon Q dentro la cast window. Una volta in range Hammer con la R up, ti bruciano prima che chiuda la combo Hammer Q-W-E. Edge of Night aiuta ma non salva se il gap-close arriva prima.",
         "via": "counterpick"
       },
       {

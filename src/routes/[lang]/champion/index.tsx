@@ -19,17 +19,9 @@ import ChampionGuidesHub from '../../../components/champion/ChampionGuidesHub';
 import { BASE_URL } from '../../../lib/seo/routes';
 import { useI18n } from '../../../i18n';
 import { getHubIndex, pickLocale } from '../../../lib/champion/discovery';
-import top50Data from '../../../../content/_meta/top-50-champions.json';
 
 const HUB_LANGS = ['en', 'it'] as const;
 type HubLang = (typeof HUB_LANGS)[number];
-
-interface Top50Entry {
-  slug: string;
-  primary_role: string;
-}
-const TOP50_COUNT: number = (top50Data as { champions: Top50Entry[] }).champions
-  .length;
 
 function isHubLang(v: string): v is HubLang {
   return (HUB_LANGS as readonly string[]).includes(v);
@@ -129,7 +121,7 @@ function HubPage(props: { lang: HubLang }) {
         ]}
       />
       <main>
-        <ChampionGuidesHub lang={props.lang} topTargetCount={TOP50_COUNT} />
+        <ChampionGuidesHub lang={props.lang} />
       </main>
       <Footer />
     </>

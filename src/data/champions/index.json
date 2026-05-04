@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02",
+  "generated_at": "2026-05-04",
   "guides": [
     {
       "slug": "aatrox-top",
@@ -1278,6 +1278,35 @@
       }
     },
     {
+      "slug": "gangplank-top",
+      "champion": "gangplank",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Gangplank Top Build & Guide — Patch 16.9",
+          "description": "Gangplank top lane guide for League of Legends Patch 16.9: starter kit, crit Trinity Force build, key matchups, power spikes, mistakes, and an advanced barrel-chain tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-03",
+          "champion_class": "Bruiser / Late-game crit caster",
+          "difficulty": 5,
+          "damage_type": "mixed",
+          "champion_dd_id": "Gangplank",
+          "champion_key": "41"
+        },
+        "it": {
+          "title": "Gangplank Top Build & Guida — Patch 16.9",
+          "description": "Guida Gangplank top lane per Patch 16.9: starter kit, build crit con Trinity Force, matchup chiave, power spike, errori comuni e un consiglio avanzato sui barili concatenati.",
+          "patch": "16.9",
+          "last_updated": "2026-05-03",
+          "champion_class": "Bruiser / Late-game crit caster",
+          "difficulty": 5,
+          "damage_type": "mixed",
+          "champion_dd_id": "Gangplank",
+          "champion_key": "41"
+        }
+      }
+    },
+    {
       "slug": "garen-top",
       "champion": "garen",
       "role": "top",
@@ -1568,6 +1597,35 @@
       }
     },
     {
+      "slug": "illaoi-top",
+      "champion": "illaoi",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Illaoi Top Build & Guide — Patch 16.9",
+          "description": "Illaoi top lane guide for League of Legends Patch 16.9: juggernaut tentacle build, Test of Spirit pressure, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-04",
+          "champion_class": "Juggernaut / Bruiser",
+          "difficulty": 2,
+          "damage_type": "physical",
+          "champion_dd_id": "Illaoi",
+          "champion_key": "420"
+        },
+        "it": {
+          "title": "Illaoi Top Build & Guida — Patch 16.9",
+          "description": "Guida Illaoi top per League of Legends Patch 16.9: build da juggernaut con Tentacoli, pressione di Test of Spirit, matchup chiave, power spike, errori comuni e una tecnica avanzata.",
+          "patch": "16.9",
+          "last_updated": "2026-05-04",
+          "champion_class": "Juggernaut / Bruiser",
+          "difficulty": 2,
+          "damage_type": "physical",
+          "champion_dd_id": "Illaoi",
+          "champion_key": "420"
+        }
+      }
+    },
+    {
       "slug": "irelia-top",
       "champion": "irelia",
       "role": "top",
@@ -1651,6 +1709,64 @@
           "damage_type": "mixed",
           "champion_dd_id": "Jax",
           "champion_key": "24"
+        }
+      }
+    },
+    {
+      "slug": "jayce-mid",
+      "champion": "jayce",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Jayce Mid Build & Guide — Patch 16.9",
+          "description": "Jayce mid lane guide for League of Legends Patch 16.9: Manamune rush path, weapon-swap combos, key matchups, power spikes, common mistakes, and an advanced tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-04",
+          "champion_class": "Lane Bully / Skirmisher",
+          "difficulty": 4,
+          "damage_type": "mixed",
+          "champion_dd_id": "Jayce",
+          "champion_key": "126"
+        },
+        "it": {
+          "title": "Jayce Mid Build & Guida — Patch 16.9",
+          "description": "Guida Jayce mid per League of Legends Patch 16.9: rush di Manamune, combo di weapon-swap, matchup chiave, power spike, errori frequenti e consiglio avanzato.",
+          "patch": "16.9",
+          "last_updated": "2026-05-04",
+          "champion_class": "Lane Bully / Skirmisher",
+          "difficulty": 4,
+          "damage_type": "mixed",
+          "champion_dd_id": "Jayce",
+          "champion_key": "126"
+        }
+      }
+    },
+    {
+      "slug": "jayce-top",
+      "champion": "jayce",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Jayce Top Build & Guide — Patch 16.9",
+          "description": "Jayce top lane guide for League of Legends Patch 16.9: weapon-swap mechanics, lethality build path, key matchups, power spikes, common mistakes, and advanced tips.",
+          "patch": "16.9",
+          "last_updated": "2026-05-04",
+          "champion_class": "Fighter / Skirmisher",
+          "difficulty": 4,
+          "damage_type": "mixed",
+          "champion_dd_id": "Jayce",
+          "champion_key": "126"
+        },
+        "it": {
+          "title": "Jayce Top Build & Guida — Patch 16.9",
+          "description": "Guida Jayce top per League of Legends Patch 16.9: meccaniche di weapon-swap, build lethality, matchup chiave, power spike, errori frequenti e consiglio avanzato.",
+          "patch": "16.9",
+          "last_updated": "2026-05-04",
+          "champion_class": "Fighter / Skirmisher",
+          "difficulty": 4,
+          "damage_type": "mixed",
+          "champion_dd_id": "Jayce",
+          "champion_key": "126"
         }
       }
     },
