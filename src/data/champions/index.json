@@ -2699,6 +2699,93 @@
       }
     },
     {
+      "slug": "master-yi-jungle",
+      "champion": "master-yi",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Master Yi Jungle Build & Guide — Patch 16.9",
+          "description": "Master Yi jungle guide for League of Legends Patch 16.9: clear path, core on-hit build, key matchups, power spikes, common mistakes, and an advanced reset tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Fighter / Skirmisher",
+          "difficulty": 2,
+          "damage_type": "physical",
+          "champion_dd_id": "MasterYi",
+          "champion_key": "11"
+        },
+        "it": {
+          "title": "Master Yi Jungle Build & Guida — Patch 16.9",
+          "description": "Guida Master Yi jungle per League of Legends Patch 16.9: clear path, build core on-hit, matchup chiave, power spike, errori comuni e un consiglio avanzato sui reset.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Fighter / Skirmisher",
+          "difficulty": 2,
+          "damage_type": "physical",
+          "champion_dd_id": "MasterYi",
+          "champion_key": "11"
+        }
+      }
+    },
+    {
+      "slug": "mel-mid",
+      "champion": "mel",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Mel Mid Build & Guide — Patch 16.9",
+          "description": "Mel mid lane guide for League of Legends Patch 16.9: starter kit, core mage build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Mage / Artillery",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Mel",
+          "champion_key": "800"
+        },
+        "it": {
+          "title": "Mel Mid Build & Guida — Patch 16.9",
+          "description": "Guida Mel mid lane per League of Legends Patch 16.9: starter kit, build mago core, matchup chiave, power spike, errori comuni e un consiglio tecnico finale.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Mago / Artillery",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Mel",
+          "champion_key": "800"
+        }
+      }
+    },
+    {
+      "slug": "milio-support",
+      "champion": "milio",
+      "role": "support",
+      "locales": {
+        "en": {
+          "title": "Milio Support Build & Guide — Patch 16.9",
+          "description": "Milio support guide for League of Legends Patch 16.9: enchanter build path, peel and range buff matchups, power spikes, common mistakes, and an advanced positioning tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Enchanter / Range Buff",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Milio",
+          "champion_key": "902"
+        },
+        "it": {
+          "title": "Milio Support Build & Guida — Patch 16.9",
+          "description": "Guida Milio support League of Legends Patch 16.9: build enchanter, matchup di peel e range buff, power spike, errori comuni e un consiglio avanzato sul posizionamento.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Enchanter / Range Buff",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Milio",
+          "champion_key": "902"
+        }
+      }
+    },
+    {
       "slug": "miss-fortune-bot",
       "champion": "miss-fortune",
       "role": "bot",
@@ -2786,6 +2873,35 @@
       }
     },
     {
+      "slug": "naafiri-mid",
+      "champion": "naafiri",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Naafiri Mid Build & Guide — Patch 16.9",
+          "description": "Naafiri mid lane guide for League of Legends Patch 16.9: AD assassin starter kit, Darkin Hounds build path, key matchups, power spikes, and common mistakes.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Assassin / Diver",
+          "difficulty": 1,
+          "damage_type": "physical",
+          "champion_dd_id": "Naafiri",
+          "champion_key": "950"
+        },
+        "it": {
+          "title": "Naafiri Mid Build & Guida — Patch 16.9",
+          "description": "Guida Naafiri mid lane per League of Legends Patch 16.9: starter kit AD assassin, build con Darkin Hounds, matchup chiave, power spike, errori comuni e suggerimenti.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Assassin / Diver",
+          "difficulty": 1,
+          "damage_type": "physical",
+          "champion_dd_id": "Naafiri",
+          "champion_key": "950"
+        }
+      }
+    },
+    {
       "slug": "nami-support",
       "champion": "nami",
       "role": "support",
@@ -2840,6 +2956,35 @@
           "damage_type": "physical",
           "champion_dd_id": "Nasus",
           "champion_key": "75"
+        }
+      }
+    },
+    {
+      "slug": "nautilus-support",
+      "champion": "nautilus",
+      "role": "support",
+      "locales": {
+        "en": {
+          "title": "Nautilus Support Build & Guide — Patch 16.9",
+          "description": "Nautilus support guide for League of Legends Patch 16.9: tank engage build, key lane matchups, item-by-item power spikes, common mistakes, and a closing technique tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Tank / Vanguard",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Nautilus",
+          "champion_key": "111"
+        },
+        "it": {
+          "title": "Nautilus Support Build & Guida — Patch 16.9",
+          "description": "Guida Nautilus support per League of Legends Patch 16.9: build tank engage, matchup chiave in lane, power spike per item, errori comuni e una tecnica avanzata finale.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Tank / Vanguard",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Nautilus",
+          "champion_key": "111"
         }
       }
     },

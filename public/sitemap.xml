@@ -2833,6 +2833,54 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/maokai/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/maokai/support/guide" />
   </url>
+  <!-- champion-guide/master-yi/jungle: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/master-yi/jungle/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/master-yi/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/master-yi/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/master-yi/jungle/guide" />
+  </url>
+  <!-- champion-guide/master-yi/jungle: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/master-yi/jungle/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/master-yi/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/master-yi/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/master-yi/jungle/guide" />
+  </url>
+  <!-- champion-guide/mel/mid: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/mel/mid/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/mel/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/mel/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/mel/mid/guide" />
+  </url>
+  <!-- champion-guide/mel/mid: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/mel/mid/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/mel/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/mel/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/mel/mid/guide" />
+  </url>
+  <!-- champion-guide/milio/support: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/milio/support/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/milio/support/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/milio/support/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/milio/support/guide" />
+  </url>
+  <!-- champion-guide/milio/support: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/milio/support/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/milio/support/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/milio/support/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/milio/support/guide" />
+  </url>
   <!-- champion-guide/miss-fortune/bot: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/miss-fortune/bot/guide</loc>
@@ -2881,6 +2929,22 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/morgana/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/morgana/support/guide" />
   </url>
+  <!-- champion-guide/naafiri/mid: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/naafiri/mid/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/naafiri/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/naafiri/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/naafiri/mid/guide" />
+  </url>
+  <!-- champion-guide/naafiri/mid: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/naafiri/mid/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/naafiri/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/naafiri/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/naafiri/mid/guide" />
+  </url>
   <!-- champion-guide/nami/support: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/nami/support/guide</loc>
@@ -2912,6 +2976,22 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/nasus/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/nasus/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/nasus/top/guide" />
+  </url>
+  <!-- champion-guide/nautilus/support: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/nautilus/support/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/nautilus/support/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/nautilus/support/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/nautilus/support/guide" />
+  </url>
+  <!-- champion-guide/nautilus/support: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/nautilus/support/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/nautilus/support/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/nautilus/support/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/nautilus/support/guide" />
   </url>
   <!-- champion-guide/neeko/mid: en -->
   <url>
@@ -3825,6 +3905,30 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/maokai" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/maokai" />
   </url>
+  <!-- counter-detail/master-yi: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/master-yi</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/master-yi" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/master-yi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/master-yi" />
+  </url>
+  <!-- counter-detail/mel: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/mel</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/mel" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/mel" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/mel" />
+  </url>
+  <!-- counter-detail/milio: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/milio</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/milio" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/milio" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/milio" />
+  </url>
   <!-- counter-detail/miss-fortune: en -->
   <url>
     <loc>https://www.lolsensei.com/en/counter/miss-fortune</loc>
@@ -3849,6 +3953,14 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/morgana" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/morgana" />
   </url>
+  <!-- counter-detail/naafiri: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/naafiri</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/naafiri" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/naafiri" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/naafiri" />
+  </url>
   <!-- counter-detail/nami: en -->
   <url>
     <loc>https://www.lolsensei.com/en/counter/nami</loc>
@@ -3864,6 +3976,14 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/nasus" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/nasus" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/nasus" />
+  </url>
+  <!-- counter-detail/nautilus: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/nautilus</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/nautilus" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/nautilus" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/nautilus" />
   </url>
   <!-- counter-detail/orianna: en -->
   <url>
@@ -4585,6 +4705,30 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/maokai" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/maokai" />
   </url>
+  <!-- counter-detail/master-yi: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/master-yi</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/master-yi" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/master-yi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/master-yi" />
+  </url>
+  <!-- counter-detail/mel: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/mel</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/mel" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/mel" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/mel" />
+  </url>
+  <!-- counter-detail/milio: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/milio</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/milio" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/milio" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/milio" />
+  </url>
   <!-- counter-detail/miss-fortune: it -->
   <url>
     <loc>https://www.lolsensei.com/it/counter/miss-fortune</loc>
@@ -4609,6 +4753,14 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/morgana" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/morgana" />
   </url>
+  <!-- counter-detail/naafiri: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/naafiri</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/naafiri" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/naafiri" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/naafiri" />
+  </url>
   <!-- counter-detail/nami: it -->
   <url>
     <loc>https://www.lolsensei.com/it/counter/nami</loc>
@@ -4624,6 +4776,14 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/nasus" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/nasus" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/nasus" />
+  </url>
+  <!-- counter-detail/nautilus: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/nautilus</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/nautilus" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/nautilus" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/nautilus" />
   </url>
   <!-- counter-detail/orianna: it -->
   <url>

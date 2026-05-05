@@ -24940,7 +24940,7 @@ export const itChampions: ChampionGuide[] = [
         {
           "examples": [
             "maokai",
-            "sion"
+            "nasus"
           ],
           "archetype": "Tank lenti senza dash",
           "reason": "Non riescono a chiudere la distanza su un Kindred che kite. Auto-attacchi da fuori range del loro CC mentre Wolf's Frenzy li chippa passivamente."
@@ -27421,8 +27421,7 @@ export const itChampions: ChampionGuide[] = [
         {
           "examples": [
             "vayne",
-            "twitch",
-            "kog-maw"
+            "twitch"
           ],
           "archetype": "ADC hyper-carry da late game",
           "reason": "Se sopravvivono oltre il minuto 25 con due item, la curva di danno di Lucian si appiattisce mentre la loro spara: lo superano in damage in ogni fight prolungato."
@@ -28985,14 +28984,6 @@ export const itChampions: ChampionGuide[] = [
         },
         {
           "examples": [
-            "soraka",
-            "yuumi"
-          ],
-          "archetype": "Enchanter di backline che restano addosso all'ADC",
-          "reason": "Sapling Toss rivela brush e cespugli intorno all'ADC; quando piazzi la W sul carry, l'enchanter non ha nulla per peelare. Yuumi viene espulsa dall'ospite quando viene rooted, aprendo un pickoff gratis."
-        },
-        {
-          "examples": [
             "sett",
             "rell",
             "nautilus"
@@ -29075,6 +29066,956 @@ export const itChampions: ChampionGuide[] = [
       }
     ],
     "champion_key": "57"
+  },
+  {
+    "slug": "master-yi-jungle",
+    "title": "Master Yi Jungle Build & Guida — Patch 16.9",
+    "language": "it",
+    "patch": "16.9",
+    "champion": "master-yi",
+    "role": "jungle",
+    "last_updated": "2026-05-05",
+    "description": "Guida Master Yi jungle per League of Legends Patch 16.9: clear path, build core on-hit, matchup chiave, power spike, errori comuni e un consiglio avanzato sui reset.",
+    "quick_learn": {
+      "champion_dd_id": "MasterYi",
+      "difficulty": 2,
+      "damage_type": "physical",
+      "champion_class": "Fighter / Skirmisher",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Double Strike",
+          "description": "Ogni pochi auto-attack consecutivi, Master Yi colpisce due volte. Il secondo colpo applica gli effetti on-hit, quindi scala forte con item come Wit's End e Blade of The Ruined King.",
+          "dd_spell_id": "MasterYi_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Alpha Strike",
+          "description": "Dash su un bersaglio diventando intoccabile, rimbalza fino a quattro nemici. Le auto-attack riducono il cooldown — auto-attacca tra una Q e l'altra per spammarla.",
+          "dd_spell_id": "AlphaStrike"
+        },
+        {
+          "key": "W",
+          "name": "Meditate",
+          "description": "Canalizzazione che cura e riduce il danno subito. Usala fra i camp per ricaricarti, o in fight per baitare skillshot a cast lungo — si rompe sui CC duri.",
+          "dd_spell_id": "Meditate"
+        },
+        {
+          "key": "E",
+          "name": "Wuju Style",
+          "description": "Toggle che aggiunge true damage bonus alle auto-attack per qualche secondo. Il true damage ignora l'armatura: è il tuo strumento principale contro i tank.",
+          "dd_spell_id": "WujuStyle"
+        },
+        {
+          "key": "R",
+          "name": "Highlander",
+          "description": "Grosso buff di velocità di movimento e attack speed più immunità agli slow. Le takedown su champion estendono la durata e resettano i cooldown delle abilità — la tua finestra di snowball.",
+          "dd_spell_id": "Highlander"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "1102",
+          "name": "Gustwalker Hatchling"
+        },
+        {
+          "dd_id": "3153",
+          "name": "Blade of The Ruined King"
+        },
+        {
+          "dd_id": "3006",
+          "name": "Berserker's Greaves"
+        },
+        {
+          "dd_id": "3091",
+          "name": "Wit's End"
+        },
+        {
+          "dd_id": "3094",
+          "name": "Rapid Firecannon"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3139",
+          "name": "Mercurial Scimitar",
+          "against": "contro CC duro single-target (Malzahar R, Skarner R, Warwick R) — l'attivo cancella il lock e salva la finestra di Highlander"
+        },
+        {
+          "dd_id": "3156",
+          "name": "Maw of Malmortius",
+          "against": "contro burst AP pesante (Syndra, Veigar, Annie) — magic resist + scudo lifeline ti danno il secondo per reagire"
+        },
+        {
+          "dd_id": "3026",
+          "name": "Guardian Angel",
+          "against": "quando sei la win condition del team e fai dive in backline: il revive ti fa pulire il fight dopo il primo all-in"
+        },
+        {
+          "dd_id": "3033",
+          "name": "Mortal Reminder",
+          "against": "contro composizioni che impilano cure (Soraka, Vladimir, Aatrox, Yuumi) — Grievous Wounds taglia le heal di circa la metà"
+        }
+      ],
+      "base_combo": [
+        "E",
+        "Q",
+        "AA",
+        "R"
+      ],
+      "win_condition": "Snowball passando dal level 6: gank due volte prima del minuto 8, completa Blade of The Ruined King, poi diva i target squishy negli skirmish — Highlander resetta la Q a ogni kill, così concateni esecuzioni.",
+      "weakness": "Zero mobilità prima del livello 6 e nessun CC nel kit. Le catene di hard CC (stun, root, suppress) lo spengono completamente; jungler con clear forte in early lo possono invadere e prendergli i camp.",
+      "runes": {
+        "primary_tree": "Precision",
+        "primary_tree_dd_id": 8000,
+        "keystone": {
+          "dd_id": 8008,
+          "name": "Lethal Tempo",
+          "icon_path": "perk-images/Styles/Precision/LethalTempo/LethalTempoTemp.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 9111,
+            "name": "Triumph",
+            "icon_path": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "dd_id": 9104,
+            "name": "Legend: Alacrity",
+            "icon_path": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
+          },
+          {
+            "dd_id": 8014,
+            "name": "Coup de Grace",
+            "icon_path": "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png"
+          }
+        ],
+        "secondary_tree": "Resolve",
+        "secondary_tree_dd_id": 8400,
+        "secondary_slots": [
+          {
+            "dd_id": 8473,
+            "name": "Bone Plating",
+            "icon_path": "perk-images/Styles/Resolve/BonePlating/BonePlating.png"
+          },
+          {
+            "dd_id": 8453,
+            "name": "Revitalize",
+            "icon_path": "perk-images/Styles/Resolve/Revitalize/Revitalize.png"
+          }
+        ],
+        "stat_shards": [
+          "Attack Speed",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Precision: Lethal Tempo rompe il cap di attack speed, così Double Strike procca più spesso. Triumph ridà HP a ogni takedown per concatenare dive, Legend: Alacrity impila attack speed, Coup de Grace aggiunge l'8% di danno sotto il 40% HP — il range esatto dei reset di Highlander.",
+        "secondary_rationale": "Resolve secondaria: Bone Plating tanka i primi 3 colpi durante un gank avversario su di te, Revitalize amplifica la cura di Meditate (W) così il channel fra i camp ti dà più sustain.",
+        "secondary_alternative": "Contro composizioni di poke pesante (Caitlyn, Varus, Ezreal in skirmish mid) swap Resolve verso Inspiration con Magical Footwear (stivali gratis al minuto 12) e Cosmic Insight (-5% cooldown summoner per Smite e Flash più frequenti)."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "soraka",
+            "yuumi"
+          ],
+          "archetype": "Enchanter healing-stack senza hard CC",
+          "reason": "Il true damage di Wuju Style buca il front line del loro team, e nessuno dei due può fermare un dive di livello 6: Soraka ha un silence corto, Yuumi mitiga solo con scudi."
+        },
+        {
+          "examples": [
+            "karthus",
+            "veigar",
+            "ziggs"
+          ],
+          "archetype": "Mage immobili senza dash né self-peel",
+          "reason": "Alpha Strike copre 600 unità diventando untargetable. Una volta committato Highlander non hanno escape, e Coup de Grace li chiude sotto il 40% HP."
+        },
+        {
+          "examples": [
+            "senna",
+            "kog-maw"
+          ],
+          "archetype": "ADC squishy senza dash",
+          "reason": "Entrambi vivono di posizionamento e non hanno un pulsante di self-peel. Una volta in backline con R attiva, l'unica risposta è una catena CC del support."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "malzahar",
+            "skarner"
+          ],
+          "archetype": "Champion con suppress single-target",
+          "reason": "La loro R ti tiene fermo per tutta la durata: ignora l'immunità agli slow di Highlander (suppress è un tipo separato) e il tuo team deve peelare per te, annullando la pressione di dive."
+        },
+        {
+          "examples": [
+            "lee-sin",
+            "elise"
+          ],
+          "archetype": "Jungler con clear forte ed early invade",
+          "reason": "Arrivano al livello 3 a HP pieno prima di te e ti battono nei duelli dentro la tua jungle. Master Yi non ha escape pre-6, quindi un invade riuscito al minuto 3-4 ti costa due camp."
+        },
+        {
+          "examples": [
+            "rammus",
+            "jax"
+          ],
+          "archetype": "Duellanti on-hit / armor-stack con riflesso o dodge",
+          "reason": "La W di Rammus rimanda indietro una fetta del danno delle tue auto-attack, la E di Jax dodgea ogni basic per 2 secondi: entrambe le facce della tua DPS vengono cancellate in 1v1."
+        }
+      ]
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Master Yi è uno skirmisher AD da jungle il cui piano partita è \"auto-attaccare finché la squadra avversaria non muore\". La passiva <strong>Double Strike</strong>, il dash di <strong>Alpha Strike (Q)</strong> e il toggle true damage di <strong>Wuju Style (E)</strong> si impilano in uno dei profili di DPS single-target più alti del gioco una volta online gli item. Il prezzo è duro: zero CC nel kit, niente escape vero prima del livello 6, e qualsiasi catena di stun lo esclude dal fight.</p>\n<p>Il game plan è quasi automatico: clear di tre camp, cerca un gank al livello 3 con il pet Smite attivo, raggiungi il livello 6 per <strong>Highlander (R)</strong>, poi snowball — ovvero trasforma il vantaggio iniziale in un vantaggio crescente, kill dopo kill, perché ogni takedown su champion gli refresha la <strong>R</strong> e resetta i cooldown delle abilità. Se vai indietro, non recuperi: Master Yi ha stat mid-game deboli a meno che tu non sia avanti di item rispetto al curve.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1039.png\" alt=\"Hailblade\"> <strong>Hailblade</strong> + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2031.png\" alt=\"Refillable Potion\"> <strong>Refillable Potion</strong>. Hailblade è lo starter jungle ranged-Smite che si auto-evolve nel pet companion una volta completata la quest.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1102.png\" alt=\"Gustwalker Hatchling\"> <strong>Gustwalker Hatchling</strong> — quest upgrade di Hailblade, si auto-evolve intorno al minuto 3-4 dopo aver pulito abbastanza camp. È il pet AD-skirmisher per mobilità e engage: lo sprint fuori combat ti aiuta a inseguire i gank attraverso la mappa e ad arrivare in skirmish prima che finiscano.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3153.png\" alt=\"Blade of The Ruined King\"> <strong>Blade of The Ruined King</strong> — primo item completo. Il danno on-hit basato sull'HP attuale shredda i tank (il tuo matchup peggiore) e l'attivo con slow ti dà lo strumento di kite (muoversi all'indietro mentre attacchi) che il kit non ti offre.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> — stivali con attack speed fissa. Prendili appena finisci Blade of The Ruined King; la velocità di movimento è meno critica perché <strong>R</strong> ti dà già un grosso buff di speed.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3091.png\" alt=\"Wit&#x27;s End\"> <strong>Wit's End</strong> — danno magico on-hit + magic resistance. Triggerа il danno magico bonus di Double Strike due volte per ciclo e la magic resist chiude il buco più grande di Master Yi (è già squishy, quindi il burst AP lo punisce).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3094.png\" alt=\"Rapid Firecannon\"> <strong>Rapid Firecannon</strong> — attack speed + crit + range extra sulla prima auto empowered. Ti permette di iniziare un fight da fuori il loro range di CC, poi entrare con Alpha Strike.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3139.png\" alt=\"Mercurial Scimitar\"> <strong>Mercurial Scimitar</strong> — contro CC duro single-target come la R di Malzahar, la R di Skarner, o un suppress di Warwick. L'attivo cancella il lock, così una singola CC non sprecа la finestra di <strong>R</strong>.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — contro burst AP pesante (Syndra, Veigar, Annie). Aggiunge magic resistance più uno scudo lifeline che si attiva quando arrivi basso di HP; ti dà il secondo per reagire che il kit normalmente non ha.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3026.png\" alt=\"Guardian Angel\"> <strong>Guardian Angel</strong> — quando sei il damage dealer principale del team e fai dive profondi nella backline. Il revive ti fa chiudere il fight dopo il primo all-in (commit totale) invece di morire a metà clean-up.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3033.png\" alt=\"Mortal Reminder\"> <strong>Mortal Reminder</strong> — contro composizioni che impilano cure (Soraka, Vladimir, Aatrox, Yuumi). Applica Grievous Wounds, che taglia le cure ricevute di circa la metà a ogni auto-attack.</li>\n</ul>\n<p><strong>Stivali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> di default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3139.png\" alt=\"Mercurial Scimitar\"> <strong>Mercurial Scimitar</strong> sostituisce uno slot solo quando una specifica minaccia di CC decide il game (vedi le note situazionali).</p>\n<p><strong>Skill order:</strong> Massimizza <strong>Q</strong> per primo (cooldown più basso e più danno su Alpha Strike), <strong>E</strong> per secondo (il true damage scala con il rank), <strong>W</strong> per ultimo. Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Precision</strong> con <strong>Lethal Tempo</strong>, <strong>Triumph</strong>, <strong>Legend: Alacrity</strong>, <strong>Coup de Grace</strong>. Secondario <strong>Resolve</strong> con <strong>Bone Plating</strong> e <strong>Revitalize</strong>, oppure <strong>Inspiration</strong> con <strong>Magical Footwear</strong> e <strong>Cosmic Insight</strong> contro composizioni di poke pesante.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Malzahar / Skarner:</strong> La loro R ti suppressa per tutta la durata e ignora l'immunità agli slow di Highlander. Compra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3139.png\" alt=\"Mercurial Scimitar\"> <strong>Mercurial Scimitar</strong> come secondo item, e non ingaggiare un fight se hanno l'ult disponibile a meno che il tuo front line non ti peeli (protegga) prima.</li>\n<li><strong>Lee Sin (jungler avversario):</strong> Pulisce più veloce di te e arriva al livello 3 a HP pieno. Tracci la sua prima entrata via vision sul red/blue buff; se ti invade, lascia il camp e fai full-clear sull'altro lato invece di duellarlo 1v1 pre-6.</li>\n<li><strong>Rammus (jungler o top avversario):</strong> La sua <strong>W</strong> Defensive Ball Curl rimanda indietro una fetta del danno delle tue auto-attack. Cambia target nei fight — non focalizzarti mai su Rammus, picchia il carry.</li>\n<li><strong>Caitlyn / ADC avversario con poke:</strong> Pokano la tua jungle dai bush della lane e tu non scambi indietro. Pathra dall'altro lato della mappa dopo il primo clear e chiedi al team di sweep di vision prima di committare un gank in quella lane.</li>\n<li><strong>Yuumi (support avversario):</strong> Hard counter del dive: si attacca, diventa untargetable, e la sua R ti rallenta. Brucia il carry su cui è attaccata il più velocemente possibile — Yuumi protegge un alleato alla volta, quindi se uccidi quello, lei non ha nulla da fare.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 3:</strong> Prima finestra di gank. Pathra dal monstro Smite, poi scuttle (il granchio del river che dà vision), poi una lane con un setup champion (Leona, Nautilus, Lux). Senza R hai bisogno di una CC alleata per landare.</li>\n<li><strong>Livello 6:</strong> <strong>Highlander</strong> sblocca. Le takedown refreshano la durata e resettano i cooldown delle abilità base, quindi concatenare 2-3 kill in un fight è il tetto realistico. È la tua finestra di snowball più grande — il gap fra te e i carry avversari è massimo intorno al minuto 8-10.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3153.png\" alt=\"Blade of The Ruined King\"> Blade of The Ruined King completo (~ minuto 10-12):</strong> Primo item full. Il damage spike ti porta al livello \"instakill su uno squishy con R\". Forza uno skirmish sullo scuttle o sui voidgrubs appena finisci.</li>\n<li><strong>3 item + Berserker's Greaves online (~ minuto 22-26):</strong> Blade + Wit's End + Rapid Firecannon impilano il tuo profilo true DPS. Una volta arrivato qui, in 1v1 batti ogni champion non-tank del gioco.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Spammare Alpha Strike a cooldown.</strong> La Q va in cooldown se la lanci senza auto-attack in coda. Auto-attacca fra un cast e l'altro (le auto riducono il cooldown della <strong>Q</strong>) e avrai una seconda <strong>Q</strong> nello stesso fight.</li>\n<li><strong>Usare R prima di avere una kill davanti.</strong> Il valore di Highlander è il reset su takedown, non le stat grezze. Premila quando una kill è realistica — non all'inizio dell'engage dove il nemico può ancora kitarti.</li>\n<li><strong>Tunneling sul tank front-line.</strong> Anche con il true damage di Wuju Style, killare un tank prende 5-6 secondi durante i quali il loro carry cancella il tuo team. Salta il tank, dasha oltre con la Q, killa il carry, poi reset Highlander e torna a pulire.</li>\n<li><strong>Meditare in mezzo al fight senza setup.</strong> Il channel si rompe sul CC duro. Usa <strong>W</strong> fuori dai fight per sustain fra i camp o per baitare skillshot a cast lungo (Lux Q, Veigar E) — mai come \"panic button\" quando sei già in melee con il team avversario.</li>\n<li><strong>Invadere un jungler più forte in early.</strong> Lee Sin, Elise, Graves arrivano al livello 3 prima di te con più HP. Se li vedi last-clear su un gank, non face-checkare; full-clear il tuo lato sicuro e gioca per il livello 6.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Usa <strong>Alpha Strike</strong> come strumento difensivo, non solo come dash offensivo. Il frame di untargetability all'inizio del cast schiva proiettili come l'Ace in the Hole di Caitlyn, l'Enchanted Crystal Arrow di Ashe, o un Final Spark di Lux a metà cast. Allenati a tempare la <strong>Q</strong> nel momento in cui vedi l'animazione di cast: se Q in reazione all'abilità avversaria, schivi il danno e dasha contemporaneamente verso un angolo migliore per la prossima rotazione di auto-attack.</p>",
+    "content_html_pre": "<h2>Panoramica</h2>\n<p>Master Yi è uno skirmisher AD da jungle il cui piano partita è \"auto-attaccare finché la squadra avversaria non muore\". La passiva <strong>Double Strike</strong>, il dash di <strong>Alpha Strike (Q)</strong> e il toggle true damage di <strong>Wuju Style (E)</strong> si impilano in uno dei profili di DPS single-target più alti del gioco una volta online gli item. Il prezzo è duro: zero CC nel kit, niente escape vero prima del livello 6, e qualsiasi catena di stun lo esclude dal fight.</p>\n<p>Il game plan è quasi automatico: clear di tre camp, cerca un gank al livello 3 con il pet Smite attivo, raggiungi il livello 6 per <strong>Highlander (R)</strong>, poi snowball — ovvero trasforma il vantaggio iniziale in un vantaggio crescente, kill dopo kill, perché ogni takedown su champion gli refresha la <strong>R</strong> e resetta i cooldown delle abilità. Se vai indietro, non recuperi: Master Yi ha stat mid-game deboli a meno che tu non sia avanti di item rispetto al curve.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1039.png\" alt=\"Hailblade\"> <strong>Hailblade</strong> + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2031.png\" alt=\"Refillable Potion\"> <strong>Refillable Potion</strong>. Hailblade è lo starter jungle ranged-Smite che si auto-evolve nel pet companion una volta completata la quest.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1102.png\" alt=\"Gustwalker Hatchling\"> <strong>Gustwalker Hatchling</strong> — quest upgrade di Hailblade, si auto-evolve intorno al minuto 3-4 dopo aver pulito abbastanza camp. È il pet AD-skirmisher per mobilità e engage: lo sprint fuori combat ti aiuta a inseguire i gank attraverso la mappa e ad arrivare in skirmish prima che finiscano.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3153.png\" alt=\"Blade of The Ruined King\"> <strong>Blade of The Ruined King</strong> — primo item completo. Il danno on-hit basato sull'HP attuale shredda i tank (il tuo matchup peggiore) e l'attivo con slow ti dà lo strumento di kite (muoversi all'indietro mentre attacchi) che il kit non ti offre.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> — stivali con attack speed fissa. Prendili appena finisci Blade of The Ruined King; la velocità di movimento è meno critica perché <strong>R</strong> ti dà già un grosso buff di speed.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3091.png\" alt=\"Wit&#x27;s End\"> <strong>Wit's End</strong> — danno magico on-hit + magic resistance. Triggerа il danno magico bonus di Double Strike due volte per ciclo e la magic resist chiude il buco più grande di Master Yi (è già squishy, quindi il burst AP lo punisce).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3094.png\" alt=\"Rapid Firecannon\"> <strong>Rapid Firecannon</strong> — attack speed + crit + range extra sulla prima auto empowered. Ti permette di iniziare un fight da fuori il loro range di CC, poi entrare con Alpha Strike.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3139.png\" alt=\"Mercurial Scimitar\"> <strong>Mercurial Scimitar</strong> — contro CC duro single-target come la R di Malzahar, la R di Skarner, o un suppress di Warwick. L'attivo cancella il lock, così una singola CC non sprecа la finestra di <strong>R</strong>.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — contro burst AP pesante (Syndra, Veigar, Annie). Aggiunge magic resistance più uno scudo lifeline che si attiva quando arrivi basso di HP; ti dà il secondo per reagire che il kit normalmente non ha.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3026.png\" alt=\"Guardian Angel\"> <strong>Guardian Angel</strong> — quando sei il damage dealer principale del team e fai dive profondi nella backline. Il revive ti fa chiudere il fight dopo il primo all-in (commit totale) invece di morire a metà clean-up.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3033.png\" alt=\"Mortal Reminder\"> <strong>Mortal Reminder</strong> — contro composizioni che impilano cure (Soraka, Vladimir, Aatrox, Yuumi). Applica Grievous Wounds, che taglia le cure ricevute di circa la metà a ogni auto-attack.</li>\n</ul>\n<p><strong>Stivali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> di default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3139.png\" alt=\"Mercurial Scimitar\"> <strong>Mercurial Scimitar</strong> sostituisce uno slot solo quando una specifica minaccia di CC decide il game (vedi le note situazionali).</p>\n<p><strong>Skill order:</strong> Massimizza <strong>Q</strong> per primo (cooldown più basso e più danno su Alpha Strike), <strong>E</strong> per secondo (il true damage scala con il rank), <strong>W</strong> per ultimo. Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Precision</strong> con <strong>Lethal Tempo</strong>, <strong>Triumph</strong>, <strong>Legend: Alacrity</strong>, <strong>Coup de Grace</strong>. Secondario <strong>Resolve</strong> con <strong>Bone Plating</strong> e <strong>Revitalize</strong>, oppure <strong>Inspiration</strong> con <strong>Magical Footwear</strong> e <strong>Cosmic Insight</strong> contro composizioni di poke pesante.</p>",
+    "content_html_post": "<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Malzahar / Skarner:</strong> La loro R ti suppressa per tutta la durata e ignora l'immunità agli slow di Highlander. Compra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3139.png\" alt=\"Mercurial Scimitar\"> <strong>Mercurial Scimitar</strong> come secondo item, e non ingaggiare un fight se hanno l'ult disponibile a meno che il tuo front line non ti peeli (protegga) prima.</li>\n<li><strong>Lee Sin (jungler avversario):</strong> Pulisce più veloce di te e arriva al livello 3 a HP pieno. Tracci la sua prima entrata via vision sul red/blue buff; se ti invade, lascia il camp e fai full-clear sull'altro lato invece di duellarlo 1v1 pre-6.</li>\n<li><strong>Rammus (jungler o top avversario):</strong> La sua <strong>W</strong> Defensive Ball Curl rimanda indietro una fetta del danno delle tue auto-attack. Cambia target nei fight — non focalizzarti mai su Rammus, picchia il carry.</li>\n<li><strong>Caitlyn / ADC avversario con poke:</strong> Pokano la tua jungle dai bush della lane e tu non scambi indietro. Pathra dall'altro lato della mappa dopo il primo clear e chiedi al team di sweep di vision prima di committare un gank in quella lane.</li>\n<li><strong>Yuumi (support avversario):</strong> Hard counter del dive: si attacca, diventa untargetable, e la sua R ti rallenta. Brucia il carry su cui è attaccata il più velocemente possibile — Yuumi protegge un alleato alla volta, quindi se uccidi quello, lei non ha nulla da fare.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 3:</strong> Prima finestra di gank. Pathra dal monstro Smite, poi scuttle (il granchio del river che dà vision), poi una lane con un setup champion (Leona, Nautilus, Lux). Senza R hai bisogno di una CC alleata per landare.</li>\n<li><strong>Livello 6:</strong> <strong>Highlander</strong> sblocca. Le takedown refreshano la durata e resettano i cooldown delle abilità base, quindi concatenare 2-3 kill in un fight è il tetto realistico. È la tua finestra di snowball più grande — il gap fra te e i carry avversari è massimo intorno al minuto 8-10.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3153.png\" alt=\"Blade of The Ruined King\"> Blade of The Ruined King completo (~ minuto 10-12):</strong> Primo item full. Il damage spike ti porta al livello \"instakill su uno squishy con R\". Forza uno skirmish sullo scuttle o sui voidgrubs appena finisci.</li>\n<li><strong>3 item + Berserker's Greaves online (~ minuto 22-26):</strong> Blade + Wit's End + Rapid Firecannon impilano il tuo profilo true DPS. Una volta arrivato qui, in 1v1 batti ogni champion non-tank del gioco.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Spammare Alpha Strike a cooldown.</strong> La Q va in cooldown se la lanci senza auto-attack in coda. Auto-attacca fra un cast e l'altro (le auto riducono il cooldown della <strong>Q</strong>) e avrai una seconda <strong>Q</strong> nello stesso fight.</li>\n<li><strong>Usare R prima di avere una kill davanti.</strong> Il valore di Highlander è il reset su takedown, non le stat grezze. Premila quando una kill è realistica — non all'inizio dell'engage dove il nemico può ancora kitarti.</li>\n<li><strong>Tunneling sul tank front-line.</strong> Anche con il true damage di Wuju Style, killare un tank prende 5-6 secondi durante i quali il loro carry cancella il tuo team. Salta il tank, dasha oltre con la Q, killa il carry, poi reset Highlander e torna a pulire.</li>\n<li><strong>Meditare in mezzo al fight senza setup.</strong> Il channel si rompe sul CC duro. Usa <strong>W</strong> fuori dai fight per sustain fra i camp o per baitare skillshot a cast lungo (Lux Q, Veigar E) — mai come \"panic button\" quando sei già in melee con il team avversario.</li>\n<li><strong>Invadere un jungler più forte in early.</strong> Lee Sin, Elise, Graves arrivano al livello 3 prima di te con più HP. Se li vedi last-clear su un gank, non face-checkare; full-clear il tuo lato sicuro e gioca per il livello 6.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Usa <strong>Alpha Strike</strong> come strumento difensivo, non solo come dash offensivo. Il frame di untargetability all'inizio del cast schiva proiettili come l'Ace in the Hole di Caitlyn, l'Enchanted Crystal Arrow di Ashe, o un Final Spark di Lux a metà cast. Allenati a tempare la <strong>Q</strong> nel momento in cui vedi l'animazione di cast: se Q in reazione all'abilità avversaria, schivi il danno e dasha contemporaneamente verso un angolo migliore per la prossima rotazione di auto-attack.</p>",
+    "word_count": 1296,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "amumu-jungle",
+        "champion": "amumu",
+        "role": "jungle"
+      },
+      {
+        "slug": "diana-jungle",
+        "champion": "diana",
+        "role": "jungle"
+      },
+      {
+        "slug": "ekko-jungle",
+        "champion": "ekko",
+        "role": "jungle"
+      },
+      {
+        "slug": "graves-jungle",
+        "champion": "graves",
+        "role": "jungle"
+      },
+      {
+        "slug": "hecarim-jungle",
+        "champion": "hecarim",
+        "role": "jungle"
+      }
+    ],
+    "champion_key": "11"
+  },
+  {
+    "slug": "mel-mid",
+    "title": "Mel Mid Build & Guida — Patch 16.9",
+    "language": "it",
+    "patch": "16.9",
+    "champion": "mel",
+    "role": "mid",
+    "last_updated": "2026-05-05",
+    "description": "Guida Mel mid lane per League of Legends Patch 16.9: starter kit, build mago core, matchup chiave, power spike, errori comuni e un consiglio tecnico finale.",
+    "quick_learn": {
+      "champion_dd_id": "Mel",
+      "difficulty": 2,
+      "damage_type": "magic",
+      "champion_class": "Mago / Artillery",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Searing Brilliance",
+          "description": "Ogni cast aggiunge 3 proiettili bonus (max 9) alla prossima auto-attack. Il danno applica Overwhelm a stack infiniti; abbastanza damage da Overwhelm esegue il bersaglio.",
+          "dd_spell_id": "Mel_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Radiant Volley",
+          "description": "Barrage targettata di esplosioni su una zona a terra. Strumento principale di waveclear e generatore di stack Overwhelm. Lunga gittata (950).",
+          "dd_spell_id": "MelQ"
+        },
+        {
+          "key": "W",
+          "name": "Rebuttal",
+          "description": "Barriera personale che riflette i proiettili nemici, blocca il danno e dà movement speed in decay. Il danno riflesso scala col colpo originale.",
+          "dd_spell_id": "MelW"
+        },
+        {
+          "key": "E",
+          "name": "Solar Snare",
+          "description": "Skillshot lineare: l'orbo immobilizza al centro e crea un'area che rallenta e infligge damage over time. Setup per il follow-up di Q.",
+          "dd_spell_id": "MelE"
+        },
+        {
+          "key": "R",
+          "name": "Golden Eclipse",
+          "description": "Esecuzione globale su tutti i nemici con stack di Overwhelm. Più stack = più danno. Castabile solo se un campione ha Overwhelm.",
+          "dd_spell_id": "MelR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6655",
+          "name": "Luden's Companion"
+        },
+        {
+          "dd_id": "3020",
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "dd_id": "4645",
+          "name": "Shadowflame"
+        },
+        {
+          "dd_id": "3089",
+          "name": "Rabadon's Deathcap"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass",
+          "against": "contro diver e assassini (Zed, Diana, Talon, Akali) — la stasi lascia scadere gli stack Overwhelm prima che ti finiscano"
+        },
+        {
+          "dd_id": "3102",
+          "name": "Banshee's Veil",
+          "against": "contro CC magici single-target (Ahri charm, Lissandra R, Twisted Fate stun) — lo spell shield ti dà tempo per la W"
+        },
+        {
+          "dd_id": "3165",
+          "name": "Morellonomicon",
+          "against": "contro composizioni che impilano cure (Soraka mid, Vladimir, Dr. Mundo top) — il Grievous Wounds tappa il loro sustain"
+        },
+        {
+          "dd_id": "3135",
+          "name": "Void Staff",
+          "against": "swap appena un target prioritario completa un item di Resistenza Magica"
+        },
+        {
+          "dd_id": "4628",
+          "name": "Horizon Focus",
+          "against": "contro mage immobili e tank che mangiano tutto il combo E + Q — aggiunge un damage amp sui colpi a lunga gittata o sotto root"
+        }
+      ],
+      "base_combo": [
+        "E",
+        "Q",
+        "AA",
+        "R"
+      ],
+      "win_condition": "Accumula stack Overwhelm con Q + E in lane e nei trade, poi chiudi con la R globale quando un nemico è basso. Raggruppati sugli obiettivi così la Q nutre stack su tutta la squadra avversaria.",
+      "weakness": "Nessun dash, mobilità base nulla, R inutile senza stack Overwhelm già piazzati. Hard counter di gap-closer mobili e di nemici che riescono a disengage prima che tu accumuli.",
+      "runes": {
+        "primary_tree": "Sorcery",
+        "primary_tree_dd_id": 8200,
+        "keystone": {
+          "dd_id": 8214,
+          "name": "Summon Aery",
+          "icon_path": "perk-images/Styles/Sorcery/SummonAery/SummonAery.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 8226,
+            "name": "Manaflow Band",
+            "icon_path": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "dd_id": 8210,
+            "name": "Transcendence",
+            "icon_path": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png"
+          },
+          {
+            "dd_id": 8237,
+            "name": "Scorch",
+            "icon_path": "perk-images/Styles/Sorcery/Scorch/Scorch.png"
+          }
+        ],
+        "secondary_tree": "Inspiration",
+        "secondary_tree_dd_id": 8300,
+        "secondary_slots": [
+          {
+            "dd_id": 8345,
+            "name": "Biscuit Delivery",
+            "icon_path": "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png"
+          },
+          {
+            "dd_id": 8347,
+            "name": "Cosmic Insight",
+            "icon_path": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png"
+          }
+        ],
+        "stat_shards": [
+          "Adaptive Force",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Sorcery primaria: Summon Aery procca su ogni tick di Q e su ogni auto-attack potenziata da Searing Brilliance, quindi gli stack Overwhelm crescono in fretta. Manaflow Band sostiene lo spam di Q, Transcendence porta l'Ability Haste oltre il 40%, Scorch chiude il poke a basso HP.",
+        "secondary_rationale": "Inspiration secondaria: Biscuit Delivery copre il sustain debole (niente cura, niente dash) e Cosmic Insight riduce il cooldown di Flash e degli item attivi così Zhonya's Hourglass e Rebuttal si allineano alle finestre di R.",
+        "secondary_alternative": "Se l'enemy team ha 2+ squishy a basse resistenze, swap Inspiration → Precision con Presence of Mind (mana refund su takedown) e Coup de Grace (+8% danno sotto 40% HP). Coup de Grace si combina bene con la matematica di esecuzione della R."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "karthus",
+            "veigar",
+            "anivia"
+          ],
+          "archetype": "Mage immobili senza dash",
+          "reason": "Non possono schivare il root della E, quindi tutto il follow-up di Q va a segno. Una volta marchiati con Overwhelm, la R globale li raccoglie appena recallano bassi o passano sotto un gank del jungler."
+        },
+        {
+          "examples": [
+            "senna",
+            "ziggs",
+            "xerath"
+          ],
+          "archetype": "Carry da retroguardia senza disengage",
+          "reason": "Le lane lunghe lasciano accumulare passivamente Overwhelm mentre loro farmano. Anche quando ti pokano oltre la tua gittata, la R chiude la kill da base o sidelane appena la loro HP scende."
+        },
+        {
+          "examples": [
+            "annie",
+            "twisted-fate"
+          ],
+          "archetype": "Mage da all-in telegrafato",
+          "reason": "Il loro engage richiede un'animazione lenta o l'estrazione di una carta — Rebuttal (W) riflette la parte projectile del burst, e quasi sempre li uccide se hai già Overwhelm stackato."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "zed",
+            "fizz",
+            "kassadin"
+          ],
+          "archetype": "Assassini mobili con multi gap-close",
+          "reason": "Ti saltano addosso prima che tu possa centrare la E, e la W blocca solo i projectile — quasi tutto il loro burst è melee o self-targeted, quindi il reflect non fa quasi nulla. Senza dash non hai escape dopo che il burst entra."
+        },
+        {
+          "examples": [
+            "yasuo",
+            "yone"
+          ],
+          "archetype": "Wind Wall che blocca i projectile",
+          "reason": "Wind Wall si mangia tutta la barrage di Q e la parte projectile dei tuoi auto-attack sotto Searing Brilliance. Ti annullano il damage profile in una finestra di 3 secondi, abbastanza per fare all-in."
+        },
+        {
+          "examples": [
+            "irelia",
+            "akali"
+          ],
+          "archetype": "Skirmisher con cleanse stile QSS",
+          "reason": "Il dash di R2 di Akali e i reset di Q di Irelia ignorano la tempistica del root della E. O atterri E pre-6 senza la R per chiudere, o mangi il loro all-in completo una volta che hanno l'ulti su."
+        }
+      ]
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Mel è un mago artillery a lunga gittata con un'identità unica: <strong>execute basata su stack</strong>. La passiva <strong>Searing Brilliance</strong> trasforma ogni cast in 3 proiettili bonus sulla prossima auto-attack (fino a 9 accumulati) e applica marchi Overwhelm a stack infiniti sui nemici colpiti. La sua ulti <strong>Golden Eclipse (R)</strong> è globale: snipa tutti i bersagli marchiati ovunque siano sulla mappa. Il prezzo è una mobilità brutale: niente dash, niente blink, solo <strong>Rebuttal (W)</strong> come riflesso projectile da 1.5 secondi.</p>\n<p>Il piano partita in mid è spingere le wave con <strong>Radiant Volley (Q)</strong>, atterrare <strong>Solar Snare (E)</strong> sull'avversario quando hai Q pronta per il follow-up, e accumulare stack Overwhelm su tutta la squadra avversaria durante le skirmish. Dopo il livello 6 la win condition è la lettura della mappa: quando una carry nemica recalla bassa o combatte in side lane, <strong>R</strong> la chiude da fondo mappa. Lo skill expression sta nel piazzamento della <strong>E</strong> (anticipare le posizioni di last-hit) e nella tempistica della <strong>R</strong> (leggere la minimappa, non premerla a cooldown).</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1056.png\" alt=\"Doran&#x27;s Ring\"> <strong>Doran's Ring</strong> + 2 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potions</strong>. Il costo della Q al rank 1 è alto, AP e mana regen di Doran's Ring non sono opzionali.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png\" alt=\"Luden&#x27;s Companion\"> <strong>Luden's Companion</strong> — primo back. L'Ability Haste più il proc di burst si combinano con le auto a proiettili bonus; Mana Charge sostiene lo spam di Q nelle lane lunghe.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — penetrazione magica fissa: i tick di Q e gli stack Overwhelm mordono i target squishy che vuoi cancellare con R.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — burst del second item. La passiva sotto soglia HP (passiva di un item che si attiva quando il nemico è sotto soglia HP, ad esempio sotto il 40%) combacia con il finisher di R nelle skirmish.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — moltiplicatore late-game. Lo slot AP più alto — il danno di Overwhelm e il danno per stack della R scalano in modo aggressivo con l'AP totale.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — contro diver e assassini (Zed, Diana, Talon, Akali). I 2.5 secondi di stasi lasciano passare la finestra di burst e fanno arrivare il jungler.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — contro CC magici single-target (Ahri charm, Lissandra R, Twisted Fate stun). Lo spell shield ti dà la finestra per piazzare Rebuttal.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — contro composizioni che impilano cure (Soraka mid, Vladimir, Dr. Mundo top), dove i tick di Q servono il Grievous Wounds per droppare davvero la barra HP.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — appena un target prioritario completa un item di Resistenza Magica.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4628.png\" alt=\"Horizon Focus\"> <strong>Horizon Focus</strong> — contro lineup immobili (due o più nemici senza dash). Il damage amp procca su ogni root della E e su ogni hit a lunga gittata di Q.</li>\n</ul>\n<p><strong>Stivali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> di default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> accettabili quando il team chiede più uptime di <strong>R</strong> (ogni 80 secondi al rank 3 significa un ciclo extra per teamfight).</p>\n<p><strong>Skill order:</strong> Massimizza <strong>Q</strong> per primo (waveclear e motore di stack Overwhelm), <strong>E</strong> per secondo (root e zoning), <strong>W</strong> per ultimo. Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Sorcery</strong> con <strong>Summon Aery</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Scorch</strong>. Secondario <strong>Inspiration</strong> con <strong>Biscuit Delivery</strong> e <strong>Cosmic Insight</strong>, oppure <strong>Precision</strong> con <strong>Presence of Mind</strong> e <strong>Coup de Grace</strong> se la squadra avversaria ha più squishy a basse resistenze.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Yasuo / Yone:</strong> Wind Wall mangia la barrage di Q e le auto a proiettili bonus. Tieni Q finché non hanno bruciato le abilità, e usa Q solo per pulire wave a distanza di sicurezza. Tradi con E nelle auto-attack (la parte melee bypassa Wind Wall).</li>\n<li><strong>Diana / Akali:</strong> Minacce di dive. Compra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> dopo <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png\" alt=\"Luden&#x27;s Companion\"> <strong>Luden's Companion</strong>; mai usare Flash in modo offensivo in lane contro di loro — non hai dash e morire una volta fa snowball alla lane (li fa crescere a valanga: kill, gold, item, altre kill).</li>\n<li><strong>Orianna:</strong> Matchup pari, deciso nei teamfight. La gittata di Q coincide; non lasciarti tirare in scambi auto-attack perché scala meglio con lo stesso set di item. Stacka Overwhelm Q-ando vicino a lei sulla wave, non tradando direttamente.</li>\n<li><strong>Twisted Fate:</strong> Gara di prio nelle rotazioni (priority = vantaggio in lane che ti permette di lasciarla senza perdere risorse). Se ti tira la carta gialla, E prima che chiuda; altrimenti tracciagli la R con ward su river e tri-bush — la tua R globale risponde ai suoi roam dalla tua torre.</li>\n<li><strong>Galio:</strong> Evita di stare appiccicato a un alleato pre-6 (la sua W punisce target raggruppati). Puniscilo quando è in melee sui minion con E + Q; non ha gittata di waveclear per superarti in push, quindi prepari roam ogni volta che si avvicina per un CS.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2:</strong> Con Q + E disponibili, hai il primo all-in trade. Atterra E per il root, butta Q sopra — i tick di esplosione caricano Overwhelm in fretta. Forza uno swing di HP del 30%+.</li>\n<li><strong>Livello 6:</strong> Prima <strong>Golden Eclipse</strong> sblocca pressione globale. Se scoppia un fight in side lane e un nemico ha già stack Overwhelm (da skirmish precedenti o dal poke di Q), la R lo chiude da base.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png\" alt=\"Luden&#x27;s Companion\"> Luden's Companion completo (~ minuto 12-14):</strong> Il controllo della wave si ribalta. Pushi e roami con R disponibile; la passiva Mana Charge rimuove il tetto di mana che ti limitava lo spam di Q pre-back.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> Rabadon's Deathcap online (~ minuto 24-28):</strong> R one-shotta gli squishy che non hanno comprato un item di MR. Forza i fight obiettivo qui — anche una skirmish breve lascia abbastanza stack Overwhelm per un'esecuzione di squadra.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Premere R a cooldown.</strong> R parte solo sui nemici con stack Overwhelm. Castarla su un target da 1 stack spreca un cooldown di 120/100/80 secondi per quasi nulla. Aspetta almeno 5 stack accumulati (di norma dopo Q + E + 2-3 auto).</li>\n<li><strong>Ignorare la W contro burst melee.</strong> Rebuttal riflette <strong>solo proiettili</strong>. Contro le W di Zed e gli shuriken di Akali è oro, contro la E di Diana o la Q di Master Yi non fa nulla di utile — usa la W per chiudere il gap col movement speed.</li>\n<li><strong>Lanciare E senza Q pronta.</strong> E è un root con cooldown lungo e arming time; senza Q a seguire, il root è sprecato perché gli stack Overwhelm vengono dal danno, non dal CC da solo.</li>\n<li><strong>Auto-posizionarsi a max gittata di Q nei teamfight.</strong> Massima distanza (950) ti mette fuori dal peel del team (peel = alleati che ti proteggono dai diver). Stai nella seconda posizione più arretrata in modo che un flank non ti elimini.</li>\n<li><strong>Q sulla wave durante una skirmish.</strong> La Q è il tuo motore di stack. Spenderla sui minion durante un 3v3 in mid-river abbatte il tuo output del ~50%. Spingi la wave prima, poi commit.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Cronometra le auto-attack di <strong>Searing Brilliance</strong>. Castare Q + E + W in fila accumula il counter di proiettili bonus a 9, ma solo la <strong>prossima</strong> auto li consuma. Se intersechi l'auto <strong>tra</strong> Q ed E (Q → AA → E → Q), spari due auto potenziate nello stesso combo invece di una — più o meno raddoppi il rate di stack Overwhelm nella finestra di trade. Nei teamfight significa usare un'abilità, fare subito una auto, poi riprendere la rotazione: è la differenza tra una R che fa il 60% degli HP e una che chiude la kill.</p>",
+    "content_html_pre": "<h2>Panoramica</h2>\n<p>Mel è un mago artillery a lunga gittata con un'identità unica: <strong>execute basata su stack</strong>. La passiva <strong>Searing Brilliance</strong> trasforma ogni cast in 3 proiettili bonus sulla prossima auto-attack (fino a 9 accumulati) e applica marchi Overwhelm a stack infiniti sui nemici colpiti. La sua ulti <strong>Golden Eclipse (R)</strong> è globale: snipa tutti i bersagli marchiati ovunque siano sulla mappa. Il prezzo è una mobilità brutale: niente dash, niente blink, solo <strong>Rebuttal (W)</strong> come riflesso projectile da 1.5 secondi.</p>\n<p>Il piano partita in mid è spingere le wave con <strong>Radiant Volley (Q)</strong>, atterrare <strong>Solar Snare (E)</strong> sull'avversario quando hai Q pronta per il follow-up, e accumulare stack Overwhelm su tutta la squadra avversaria durante le skirmish. Dopo il livello 6 la win condition è la lettura della mappa: quando una carry nemica recalla bassa o combatte in side lane, <strong>R</strong> la chiude da fondo mappa. Lo skill expression sta nel piazzamento della <strong>E</strong> (anticipare le posizioni di last-hit) e nella tempistica della <strong>R</strong> (leggere la minimappa, non premerla a cooldown).</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1056.png\" alt=\"Doran&#x27;s Ring\"> <strong>Doran's Ring</strong> + 2 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potions</strong>. Il costo della Q al rank 1 è alto, AP e mana regen di Doran's Ring non sono opzionali.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png\" alt=\"Luden&#x27;s Companion\"> <strong>Luden's Companion</strong> — primo back. L'Ability Haste più il proc di burst si combinano con le auto a proiettili bonus; Mana Charge sostiene lo spam di Q nelle lane lunghe.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — penetrazione magica fissa: i tick di Q e gli stack Overwhelm mordono i target squishy che vuoi cancellare con R.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — burst del second item. La passiva sotto soglia HP (passiva di un item che si attiva quando il nemico è sotto soglia HP, ad esempio sotto il 40%) combacia con il finisher di R nelle skirmish.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — moltiplicatore late-game. Lo slot AP più alto — il danno di Overwhelm e il danno per stack della R scalano in modo aggressivo con l'AP totale.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — contro diver e assassini (Zed, Diana, Talon, Akali). I 2.5 secondi di stasi lasciano passare la finestra di burst e fanno arrivare il jungler.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — contro CC magici single-target (Ahri charm, Lissandra R, Twisted Fate stun). Lo spell shield ti dà la finestra per piazzare Rebuttal.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — contro composizioni che impilano cure (Soraka mid, Vladimir, Dr. Mundo top), dove i tick di Q servono il Grievous Wounds per droppare davvero la barra HP.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — appena un target prioritario completa un item di Resistenza Magica.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4628.png\" alt=\"Horizon Focus\"> <strong>Horizon Focus</strong> — contro lineup immobili (due o più nemici senza dash). Il damage amp procca su ogni root della E e su ogni hit a lunga gittata di Q.</li>\n</ul>\n<p><strong>Stivali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> di default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> accettabili quando il team chiede più uptime di <strong>R</strong> (ogni 80 secondi al rank 3 significa un ciclo extra per teamfight).</p>\n<p><strong>Skill order:</strong> Massimizza <strong>Q</strong> per primo (waveclear e motore di stack Overwhelm), <strong>E</strong> per secondo (root e zoning), <strong>W</strong> per ultimo. Punto in <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Sorcery</strong> con <strong>Summon Aery</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Scorch</strong>. Secondario <strong>Inspiration</strong> con <strong>Biscuit Delivery</strong> e <strong>Cosmic Insight</strong>, oppure <strong>Precision</strong> con <strong>Presence of Mind</strong> e <strong>Coup de Grace</strong> se la squadra avversaria ha più squishy a basse resistenze.</p>",
+    "content_html_post": "<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Yasuo / Yone:</strong> Wind Wall mangia la barrage di Q e le auto a proiettili bonus. Tieni Q finché non hanno bruciato le abilità, e usa Q solo per pulire wave a distanza di sicurezza. Tradi con E nelle auto-attack (la parte melee bypassa Wind Wall).</li>\n<li><strong>Diana / Akali:</strong> Minacce di dive. Compra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> dopo <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png\" alt=\"Luden&#x27;s Companion\"> <strong>Luden's Companion</strong>; mai usare Flash in modo offensivo in lane contro di loro — non hai dash e morire una volta fa snowball alla lane (li fa crescere a valanga: kill, gold, item, altre kill).</li>\n<li><strong>Orianna:</strong> Matchup pari, deciso nei teamfight. La gittata di Q coincide; non lasciarti tirare in scambi auto-attack perché scala meglio con lo stesso set di item. Stacka Overwhelm Q-ando vicino a lei sulla wave, non tradando direttamente.</li>\n<li><strong>Twisted Fate:</strong> Gara di prio nelle rotazioni (priority = vantaggio in lane che ti permette di lasciarla senza perdere risorse). Se ti tira la carta gialla, E prima che chiuda; altrimenti tracciagli la R con ward su river e tri-bush — la tua R globale risponde ai suoi roam dalla tua torre.</li>\n<li><strong>Galio:</strong> Evita di stare appiccicato a un alleato pre-6 (la sua W punisce target raggruppati). Puniscilo quando è in melee sui minion con E + Q; non ha gittata di waveclear per superarti in push, quindi prepari roam ogni volta che si avvicina per un CS.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2:</strong> Con Q + E disponibili, hai il primo all-in trade. Atterra E per il root, butta Q sopra — i tick di esplosione caricano Overwhelm in fretta. Forza uno swing di HP del 30%+.</li>\n<li><strong>Livello 6:</strong> Prima <strong>Golden Eclipse</strong> sblocca pressione globale. Se scoppia un fight in side lane e un nemico ha già stack Overwhelm (da skirmish precedenti o dal poke di Q), la R lo chiude da base.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png\" alt=\"Luden&#x27;s Companion\"> Luden's Companion completo (~ minuto 12-14):</strong> Il controllo della wave si ribalta. Pushi e roami con R disponibile; la passiva Mana Charge rimuove il tetto di mana che ti limitava lo spam di Q pre-back.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> Rabadon's Deathcap online (~ minuto 24-28):</strong> R one-shotta gli squishy che non hanno comprato un item di MR. Forza i fight obiettivo qui — anche una skirmish breve lascia abbastanza stack Overwhelm per un'esecuzione di squadra.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Premere R a cooldown.</strong> R parte solo sui nemici con stack Overwhelm. Castarla su un target da 1 stack spreca un cooldown di 120/100/80 secondi per quasi nulla. Aspetta almeno 5 stack accumulati (di norma dopo Q + E + 2-3 auto).</li>\n<li><strong>Ignorare la W contro burst melee.</strong> Rebuttal riflette <strong>solo proiettili</strong>. Contro le W di Zed e gli shuriken di Akali è oro, contro la E di Diana o la Q di Master Yi non fa nulla di utile — usa la W per chiudere il gap col movement speed.</li>\n<li><strong>Lanciare E senza Q pronta.</strong> E è un root con cooldown lungo e arming time; senza Q a seguire, il root è sprecato perché gli stack Overwhelm vengono dal danno, non dal CC da solo.</li>\n<li><strong>Auto-posizionarsi a max gittata di Q nei teamfight.</strong> Massima distanza (950) ti mette fuori dal peel del team (peel = alleati che ti proteggono dai diver). Stai nella seconda posizione più arretrata in modo che un flank non ti elimini.</li>\n<li><strong>Q sulla wave durante una skirmish.</strong> La Q è il tuo motore di stack. Spenderla sui minion durante un 3v3 in mid-river abbatte il tuo output del ~50%. Spingi la wave prima, poi commit.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Cronometra le auto-attack di <strong>Searing Brilliance</strong>. Castare Q + E + W in fila accumula il counter di proiettili bonus a 9, ma solo la <strong>prossima</strong> auto li consuma. Se intersechi l'auto <strong>tra</strong> Q ed E (Q → AA → E → Q), spari due auto potenziate nello stesso combo invece di una — più o meno raddoppi il rate di stack Overwhelm nella finestra di trade. Nei teamfight significa usare un'abilità, fare subito una auto, poi riprendere la rotazione: è la differenza tra una R che fa il 60% degli HP e una che chiude la kill.</p>",
+    "word_count": 1235,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "ahri-mid",
+        "champion": "ahri",
+        "role": "mid"
+      },
+      {
+        "slug": "akali-mid",
+        "champion": "akali",
+        "role": "mid"
+      },
+      {
+        "slug": "akshan-mid",
+        "champion": "akshan",
+        "role": "mid"
+      },
+      {
+        "slug": "annie-mid",
+        "champion": "annie",
+        "role": "mid"
+      },
+      {
+        "slug": "lux-mid",
+        "champion": "lux",
+        "role": "mid"
+      }
+    ],
+    "champion_key": "800"
+  },
+  {
+    "slug": "milio-support",
+    "title": "Milio Support Build & Guida — Patch 16.9",
+    "language": "it",
+    "patch": "16.9",
+    "champion": "milio",
+    "role": "support",
+    "last_updated": "2026-05-05",
+    "description": "Guida Milio support League of Legends Patch 16.9: build enchanter, matchup di peel e range buff, power spike, errori comuni e un consiglio avanzato sul posizionamento.",
+    "quick_learn": {
+      "champion_dd_id": "Milio",
+      "difficulty": 2,
+      "damage_type": "magic",
+      "champion_class": "Enchanter / Range Buff",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Fired Up!",
+          "description": "Le abilità di Milio marchiano gli alleati colpiti. Il loro prossimo attacco o spell infligge danno magico bonus e brucia il bersaglio nel tempo.",
+          "dd_spell_id": "Milio_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Ultra Mega Fire Kick",
+          "description": "Skillshot lineare a lunga gittata che respinge il primo nemico ed esplode dietro di lui rallentando l'area. Centrare un campione rimborsa parte del costo mana.",
+          "dd_spell_id": "MilioQ"
+        },
+        {
+          "key": "W",
+          "name": "Cozy Campfire",
+          "description": "Posiziona un focolare che segue un alleato. Gli alleati vicini guadagnano Attack Range bonus, cura nel tempo e proc periodici di Fired Up. Rilancia per cambiare portatore.",
+          "dd_spell_id": "MilioW"
+        },
+        {
+          "key": "E",
+          "name": "Warm Hugs",
+          "description": "Scudo targettato + Move Speed bonus su un alleato. 2 cariche, gli effetti si stackano sullo stesso alleato. Strumento principale di peel e protezione anti-engage.",
+          "dd_spell_id": "MilioE"
+        },
+        {
+          "key": "R",
+          "name": "Breath of Life",
+          "description": "Channel AOE attorno a Milio che pulisce il CC immobilizzante dagli alleati, li cura e dà Tenacità. Il miglior disengage del gioco in un singolo bottone.",
+          "dd_spell_id": "MilioR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "E"
+        },
+        {
+          "level": 2,
+          "key": "W"
+        },
+        {
+          "level": 3,
+          "key": "Q"
+        },
+        {
+          "level": 4,
+          "key": "E"
+        },
+        {
+          "level": 5,
+          "key": "E"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "E"
+        },
+        {
+          "level": 8,
+          "key": "Q"
+        },
+        {
+          "level": 9,
+          "key": "E"
+        },
+        {
+          "level": 10,
+          "key": "Q"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "Q"
+        },
+        {
+          "level": 13,
+          "key": "Q"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "3865",
+          "name": "World Atlas"
+        },
+        {
+          "dd_id": "3158",
+          "name": "Ionian Boots of Lucidity"
+        },
+        {
+          "dd_id": "6617",
+          "name": "Moonstone Renewer"
+        },
+        {
+          "dd_id": "3504",
+          "name": "Ardent Censer"
+        },
+        {
+          "dd_id": "3222",
+          "name": "Mikael's Blessing"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3107",
+          "name": "Redemption",
+          "against": "fight lunghi sugli obiettivi (Drake, Baron) — heal AOE ritardato che puoi droppare da metà mappa"
+        },
+        {
+          "dd_id": "6616",
+          "name": "Staff of Flowing Water",
+          "against": "contro AP carry che scalano con Ability Haste (Hwei, AP Ezreal) — buffa l'alleato che scudi con AP extra"
+        },
+        {
+          "dd_id": "3190",
+          "name": "Locket of the Iron Solari",
+          "against": "contro burst AOE pesante (Yone R, Kennen R, Orianna R) — active dà uno scudo istantaneo a tutto il team"
+        },
+        {
+          "dd_id": "3165",
+          "name": "Morellonomicon",
+          "against": "contro composizioni che impilano cure (Soraka, Vladimir, Dr. Mundo) — la tua Q applica Grievous Wounds e ti dà anche un piccolo boost di AP"
+        }
+      ],
+      "base_combo": [
+        "W",
+        "E",
+        "Q",
+        "AA",
+        "R"
+      ],
+      "win_condition": "Stacka Attack Range e scudi su un AD carry da basic attack. Tieni R per il momento in cui il nemico committa hard CC, poi guarda il team passare attraverso il loro engage senza prendere danno.",
+      "weakness": "Damage solo basso e Q lenta in windup. Se il nemico ti centra hard CC prima che R sia online non puoi fare peel a nessuno — incluso te stesso.",
+      "runes": {
+        "primary_tree": "Sorcery",
+        "primary_tree_dd_id": 8200,
+        "keystone": {
+          "dd_id": 8214,
+          "name": "Summon Aery",
+          "icon_path": "perk-images/Styles/Sorcery/SummonAery/SummonAery.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 8226,
+            "name": "Manaflow Band",
+            "icon_path": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "dd_id": 8210,
+            "name": "Transcendence",
+            "icon_path": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png"
+          },
+          {
+            "dd_id": 8237,
+            "name": "Scorch",
+            "icon_path": "perk-images/Styles/Sorcery/Scorch/Scorch.png"
+          }
+        ],
+        "secondary_tree": "Resolve",
+        "secondary_tree_dd_id": 8400,
+        "secondary_slots": [
+          {
+            "dd_id": 8463,
+            "name": "Font of Life",
+            "icon_path": "perk-images/Styles/Resolve/FontOfLife/FontOfLife.png"
+          },
+          {
+            "dd_id": 8453,
+            "name": "Revitalize",
+            "icon_path": "perk-images/Styles/Resolve/Revitalize/Revitalize.png"
+          }
+        ],
+        "stat_shards": [
+          "Ability Haste",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Sorcery primaria: Aery viaggia su ogni scudo E e ogni heal di W per poke gratis e scudo extra. Manaflow Band tiene il mana per spammare E e W, Transcendence porta l'Ability Haste oltre il 40%, Scorch trasforma ogni Q in chip damage a basso HP.",
+        "secondary_rationale": "Resolve secondaria: Font of Life si triggera dallo slow di Q e dagli auto del tuo AD carry per cura di team costante, Revitalize amplifica del 10% ogni scudo e ogni heal che lanci — pura matematica enchanter.",
+        "secondary_alternative": "Contro hook support (Blitzcrank, Thresh, Pyke), swap Resolve verso Inspiration con Biscuit Delivery (sustain early game) e Cosmic Insight (Flash a cooldown ridotto — l'unica escape contro hook prima che R sia online a livello 6)."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "jhin",
+            "caitlyn",
+            "ashe",
+            "senna"
+          ],
+          "archetype": "AD carry immobili da basic attack",
+          "reason": "L'Attack Range bonus di Cozy Campfire trasforma un marksman fermo in artiglieria: out-rangea ogni lane avversaria senza bisogno di esporsi avanzando."
+        },
+        {
+          "examples": [
+            "leona",
+            "rakan",
+            "nautilus",
+            "rell"
+          ],
+          "archetype": "Support hard engage",
+          "reason": "La R pulisce il loro CC nel momento in cui colpisce e dopo dà Tenacità — la back line resta viva anche se il primo pick va a segno."
+        },
+        {
+          "examples": [
+            "zac",
+            "hecarim",
+            "warwick",
+            "amumu"
+          ],
+          "archetype": "Jungler diver da all-in",
+          "reason": "Il loro gank è un singolo salto committed con hard CC; la R pulisce il lock-down sull'AD carry e il Move Speed di Warm Hugs porta il carry fuori dal melee range."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "blitzcrank",
+            "thresh",
+            "pyke"
+          ],
+          "archetype": "Support con hook a lunga gittata",
+          "reason": "Milio non ha gap-closer e nessun CC istantaneo: un hook a segno prima del livello 6 cancella l'AD carry prima che R sia online. La Q è troppo lenta per interrompere il cast."
+        },
+        {
+          "examples": [
+            "xerath",
+            "brand",
+            "vel-koz"
+          ],
+          "archetype": "Mage support a lunga gittata",
+          "reason": "Pokano oltre i 650 di range di Warm Hugs: Milio scuda ogni colpo ma non può rispondere, e l'attrizione di HP nel tempo vince la lane prima del suo team-fight spike."
+        },
+        {
+          "examples": [
+            "pantheon",
+            "alistar"
+          ],
+          "archetype": "Support all-in livello 1-2",
+          "reason": "Il kit di Milio a livello 1 è solo Warm Hugs e una Q a 10s — perde ogni trade breve prima che W sia online. Il combo Pantheon Q + W e Alistar Q + W cancellano il carry prima della R."
+        }
+      ]
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Milio è un enchanter support la cui intera identità sta in un verbo: <strong>buff</strong> — rendere l'AD carry di bot lane (il marksman che scala con item e basic attack) più grande, più sicuro e più cattivo. <strong>Fired Up!</strong> marchia ogni alleato toccato da una spell così che il loro prossimo colpo bruci il bersaglio. <strong>Ultra Mega Fire Kick (Q)</strong> è un knockback a lunga gittata usato per peel su un diver (un campione che salta sulla back line) lontano dal carry. <strong>Cozy Campfire (W)</strong> è un focolare che segue un alleato e gli dà Attack Range extra, cura e proc di danno periodico — l'abilità signature che permette a una Caitlyn o a uno Jhin di sparare da una distanza che nessun altro può eguagliare. <strong>Warm Hugs (E)</strong> è uno scudo a 2 cariche con Move Speed bonus, e <strong>Breath of Life (R)</strong> è il disengage più pulito del gioco (un'abilità che spezza il tentativo di engage avversario — quando saltano dentro con hard CC, tu pulisci il CC e cammini fuori).</p>\n<p>Il piano partita è calmo e meccanico: non lasciare mai morire l'AD carry, e trasformare ogni basic attack in un colpo a gittata maggiore e più dannoso. Stai tra le minacce e il tuo carry, lancia W sul carry a ogni fight perché possa sparare da fuori dal range avversario, scuda a cooldown, e tieni R come pulsante d'emergenza per quando il team nemico committa tutto sulla tua back line. Su Milio non engage quasi mai — il suo lavoro è vincere i fight rifiutando di perderli.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> (lo starter support che ha una quest interna per più gold income e più cariche di ward) più 2 Health Potions. Evita gli starter da damage: Milio non snowballa dalle kill in lane (snowball = trasformare un vantaggio iniziale in un divario crescente nel tempo), scala dall'utility da teamfight.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> — completa in Bounty of Worlds, poi in un legendary support più tardi. Stacka gold e cariche di ward in automatico.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> — Ability Haste per spammare scudi <strong>E</strong> e abbreviare il cooldown di <strong>W</strong>; stivali di default per gli enchanter.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6617.png\" alt=\"Moonstone Renewer\"> <strong>Moonstone Renewer</strong> — passiva heal-on-shield che sale in fight prolungati. Combinata con lo spam di <strong>E</strong> l'AD carry quasi non subisce danno netto.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3504.png\" alt=\"Ardent Censer\"> <strong>Ardent Censer</strong> — l'alleato che scudi guadagna danno on-hit bonus e Attack Speed. Item top di gamma accanto a un AD carry da basic attack come Caitlyn o Jhin.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3222.png\" alt=\"Mikael&#x27;s Blessing\"> <strong>Mikael's Blessing</strong> — pulisce hard CC su un alleato in aggiunta alla <strong>R</strong>. Obbligatorio se la squadra avversaria ha uno stun single-target o un hook sul carry.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3107.png\" alt=\"Redemption\"> <strong>Redemption</strong> — quando i fight si allungano (Drake, Baron, teamfight prolungati). Heal AOE ritardato (cura ad area che atterra qualche secondo dopo il cast) lanciabile da metà mappa.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6616.png\" alt=\"Staff of Flowing Water\"> <strong>Staff of Flowing Water</strong> — contro AP carry che scalano con Ability Haste (Hwei, AP Ezreal). Buffa l'alleato che scudi con Ability Power extra oltre al Move Speed.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> <strong>Locket of the Iron Solari</strong> — contro burst AOE pesante (un grosso pezzo di danno su tutta la squadra in 1-2 secondi, come Yone R o Kennen R). L'active dà uno scudo istantaneo a tutto il team.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — contro composizioni che impilano cure (Soraka, Vladimir, Dr. Mundo). La tua <strong>Q</strong> applica Grievous Wounds (un debuff che dimezza le cure nemiche) e in più hai un piccolo boost di Ability Power.</li>\n</ul>\n<p><strong>Stivali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> di default. Boots of Swiftness sono accettabili contro composizioni con molti slow da cui devi camminare via.</p>\n<p><strong>Skill order:</strong> Massimizza <strong>E</strong> per primo (il valore di scudo scala forte per livello — strumento di peel principale), <strong>Q</strong> per secondo (più danno e slow più lungo), <strong>W</strong> per ultimo (il bonus di Attack Range è già grande a rank 1, l'upgrade migliora soprattutto la cura). Punto in <strong>R</strong> ai livelli 6, 11, 16. Apri <strong>E</strong> a livello 1 per scudare il primo all-in (all-in = scambio totale fino alla kill, senza uscita), poi <strong>W</strong> a 2 per dare Attack Range all'AD carry.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Sorcery</strong> con <strong>Summon Aery</strong> (attacca un piccolo proiettile di danno e di scudo a ogni tua spell), <strong>Manaflow Band</strong> (sustain di mana per scudare e usare W ogni wave), <strong>Transcendence</strong> (Ability Haste oltre il cap del 40%), <strong>Scorch</strong> (chip damage extra dalla <strong>Q</strong> a basso HP). Secondario <strong>Resolve</strong> con <strong>Font of Life</strong> (rallenti un nemico con <strong>Q</strong> → tutti gli alleati che lo colpiscono si curano) e <strong>Revitalize</strong> (10% bonus su ogni scudo e cura che lanci). Stat shards: Ability Haste, Adaptive Force, Health Scaling.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Leona / Rakan:</strong> Support hard engage. Tieni <strong>R</strong> per il momento in cui committano sull'AD carry, mai bruciarla in un trade di poke. Sta dietro la wave così non possono Flash-engage da fog of war (il cespuglio non wardato sul lato del river).</li>\n<li><strong>Blitzcrank / Thresh / Pyke:</strong> Support con hook. Sta dietro ai minion ogni volta che attraversi il river. L'hook a segno una volta uccide l'AD carry — non puoi <strong>R</strong> fuori da uno stun di 1.75 secondi. Compra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3222.png\" alt=\"Mikael&#x27;s Blessing\"> <strong>Mikael's Blessing</strong> prima del solito.</li>\n<li><strong>Xerath / Brand:</strong> Mage support fuori dal range del tuo scudo <strong>E</strong>. Sta attaccato alla wave, niente scambi auto-attack, e fai hard-side la lane al tuo jungler (lo metti a campare il tuo lato del river). <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> <strong>Locket of the Iron Solari</strong> anticipata aiuta ad assorbire il chip poke (piccolo danno ripetuto che logora HP senza un commit completo).</li>\n<li><strong>Lulu:</strong> Mirror enchanter su un asse diverso. Lei ha peel più forte single-target (la R rende un alleato più grosso e untargettabile), tu hai sustain più forte e più range di team. Out-scalala stackando scudi su un carry ranged tipo Caitlyn invece di provare a rispondere col danno.</li>\n<li><strong>Pyke (in roam):</strong> Tracciagli il movimento con vision al tri-cespuglio e all'imbocco del river; se lascia bot lane, ping mid subito. La <strong>R</strong> di Milio ferma la sua execute solo se committa in melee e l'AD carry è dentro al raggio di cura.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2:</strong> Con <strong>E</strong> a 1 e <strong>W</strong> a 2 puoi shield-engage uno scambio breve (un trade rapido di danno in lane, non un all-in). Il bonus di Attack Range da W di solito vince questo trade per te perché il loro support non può rispondere col danno da 200 unità più indietro.</li>\n<li><strong>Livello 6:</strong> Prima <strong>Breath of Life</strong> sbloccata. Ogni tentativo di 2v2 da parte avversaria è ora vincibile — engagiano con hard CC, tu channeli R, il CC viene pulito a metà fight e tu continui a sparare.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6617.png\" alt=\"Moonstone Renewer\"> <strong>Moonstone Renewer + Ardent Censer (~ minuto 16-20):</strong> Questo è il team-fight spike (il momento in cui un campione guadagna un improvviso aumento di potere) in cui smetti di essere un support da lane e diventi un moltiplicatore di team. Gli HP effettivi del tuo AD carry circa raddoppiano quando spammi scudi attraverso un fight, e il bonus on-hit di Ardent alza il loro DPS sensibilmente.</li>\n<li><strong>Tre legendary online (~ minuto 25):</strong> Aggiungendo <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3222.png\" alt=\"Mikael&#x27;s Blessing\"> <strong>Mikael's Blessing</strong> hai due cleanse (R + Mikael's) per le due abilità di CC che possono cancellare il carry. Da qui in poi, ogni fight obiettivo è 5v4 se il nemico committa hard CC sulla tua back line.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Lanciare W su te stesso.</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6617.png\" alt=\"Cozy Campfire\"> <strong>W</strong> ti targetta anche, ma il bonus di Attack Range su Milio è sprecato perché le sue auto sono deboli. Default: droppa il focolare sull'AD carry; auto-W solo se il carry è morto e ti serve la cura per scappare.</li>\n<li><strong>Bruciare R per una kill.</strong> La <strong>R</strong> di Milio è il miglior disengage e cleanse del team. Ogni volta che la usi per una kill che l'AD carry avrebbe finito comunque, il team resta senza pulsante d'emergenza per i prossimi 100+ secondi.</li>\n<li><strong>Q a carica piena senza setup.</strong> La <strong>Q</strong> ha un windup lento e viaggia in linea retta — se il nemico è solo fermo su una wave la schiva di lato. Lancia Q solo quando il nemico è committed (in mezzo a un dash, in channeling, o bloccato in un rimbalzo di minion) così non può uscire dalla linea.</li>\n<li><strong>Stare troppo indietro nei fight.</strong> La tua <strong>E</strong> ha un range corto da 650 unità. Se ti affacci da dietro al team non puoi scudare nessuno. Sta dentro al range di scudo dell'AD carry, in seconda linea — più vicino di quanto l'istinto suggerisca.</li>\n<li><strong>Dimenticare di rilanciare W.</strong> <strong>W</strong> può essere ri-targettata su un altro alleato durante i suoi 5 secondi di durata. In un teamfight dovrebbe saltare dal carry di bot a chi è attualmente focusato (peel — proteggere un alleato dal campione che lo sta attaccando). Il recast è l'abitudine più tecnica del kit di Milio.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena il <strong>W swap a metà fight</strong>. Droppa <strong>Cozy Campfire</strong> sull'AD carry pre-fight per il bonus di Attack Range. Nell'istante in cui l'assassino o diver avversario salta sul mid laner invece, rilancia <strong>W</strong> per spostare il focolare sul mid (il carry aveva già il vantaggio di range a inizio fight). Il nuovo focolare ricomincia il ciclo cura-Fired Up su chi è ora sotto pressione. Questo singolo recast trasforma Milio da enchanter mono-target a piattaforma di damage e sustain a doppio target — la differenza tra perdere un alleato nel fight e tenerne due vivi abbastanza a lungo perché torni online la <strong>R</strong>.</p>",
+    "content_html_pre": "<h2>Panoramica</h2>\n<p>Milio è un enchanter support la cui intera identità sta in un verbo: <strong>buff</strong> — rendere l'AD carry di bot lane (il marksman che scala con item e basic attack) più grande, più sicuro e più cattivo. <strong>Fired Up!</strong> marchia ogni alleato toccato da una spell così che il loro prossimo colpo bruci il bersaglio. <strong>Ultra Mega Fire Kick (Q)</strong> è un knockback a lunga gittata usato per peel su un diver (un campione che salta sulla back line) lontano dal carry. <strong>Cozy Campfire (W)</strong> è un focolare che segue un alleato e gli dà Attack Range extra, cura e proc di danno periodico — l'abilità signature che permette a una Caitlyn o a uno Jhin di sparare da una distanza che nessun altro può eguagliare. <strong>Warm Hugs (E)</strong> è uno scudo a 2 cariche con Move Speed bonus, e <strong>Breath of Life (R)</strong> è il disengage più pulito del gioco (un'abilità che spezza il tentativo di engage avversario — quando saltano dentro con hard CC, tu pulisci il CC e cammini fuori).</p>\n<p>Il piano partita è calmo e meccanico: non lasciare mai morire l'AD carry, e trasformare ogni basic attack in un colpo a gittata maggiore e più dannoso. Stai tra le minacce e il tuo carry, lancia W sul carry a ogni fight perché possa sparare da fuori dal range avversario, scuda a cooldown, e tieni R come pulsante d'emergenza per quando il team nemico committa tutto sulla tua back line. Su Milio non engage quasi mai — il suo lavoro è vincere i fight rifiutando di perderli.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> (lo starter support che ha una quest interna per più gold income e più cariche di ward) più 2 Health Potions. Evita gli starter da damage: Milio non snowballa dalle kill in lane (snowball = trasformare un vantaggio iniziale in un divario crescente nel tempo), scala dall'utility da teamfight.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> — completa in Bounty of Worlds, poi in un legendary support più tardi. Stacka gold e cariche di ward in automatico.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> — Ability Haste per spammare scudi <strong>E</strong> e abbreviare il cooldown di <strong>W</strong>; stivali di default per gli enchanter.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6617.png\" alt=\"Moonstone Renewer\"> <strong>Moonstone Renewer</strong> — passiva heal-on-shield che sale in fight prolungati. Combinata con lo spam di <strong>E</strong> l'AD carry quasi non subisce danno netto.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3504.png\" alt=\"Ardent Censer\"> <strong>Ardent Censer</strong> — l'alleato che scudi guadagna danno on-hit bonus e Attack Speed. Item top di gamma accanto a un AD carry da basic attack come Caitlyn o Jhin.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3222.png\" alt=\"Mikael&#x27;s Blessing\"> <strong>Mikael's Blessing</strong> — pulisce hard CC su un alleato in aggiunta alla <strong>R</strong>. Obbligatorio se la squadra avversaria ha uno stun single-target o un hook sul carry.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3107.png\" alt=\"Redemption\"> <strong>Redemption</strong> — quando i fight si allungano (Drake, Baron, teamfight prolungati). Heal AOE ritardato (cura ad area che atterra qualche secondo dopo il cast) lanciabile da metà mappa.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6616.png\" alt=\"Staff of Flowing Water\"> <strong>Staff of Flowing Water</strong> — contro AP carry che scalano con Ability Haste (Hwei, AP Ezreal). Buffa l'alleato che scudi con Ability Power extra oltre al Move Speed.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> <strong>Locket of the Iron Solari</strong> — contro burst AOE pesante (un grosso pezzo di danno su tutta la squadra in 1-2 secondi, come Yone R o Kennen R). L'active dà uno scudo istantaneo a tutto il team.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — contro composizioni che impilano cure (Soraka, Vladimir, Dr. Mundo). La tua <strong>Q</strong> applica Grievous Wounds (un debuff che dimezza le cure nemiche) e in più hai un piccolo boost di Ability Power.</li>\n</ul>\n<p><strong>Stivali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> di default. Boots of Swiftness sono accettabili contro composizioni con molti slow da cui devi camminare via.</p>\n<p><strong>Skill order:</strong> Massimizza <strong>E</strong> per primo (il valore di scudo scala forte per livello — strumento di peel principale), <strong>Q</strong> per secondo (più danno e slow più lungo), <strong>W</strong> per ultimo (il bonus di Attack Range è già grande a rank 1, l'upgrade migliora soprattutto la cura). Punto in <strong>R</strong> ai livelli 6, 11, 16. Apri <strong>E</strong> a livello 1 per scudare il primo all-in (all-in = scambio totale fino alla kill, senza uscita), poi <strong>W</strong> a 2 per dare Attack Range all'AD carry.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Sorcery</strong> con <strong>Summon Aery</strong> (attacca un piccolo proiettile di danno e di scudo a ogni tua spell), <strong>Manaflow Band</strong> (sustain di mana per scudare e usare W ogni wave), <strong>Transcendence</strong> (Ability Haste oltre il cap del 40%), <strong>Scorch</strong> (chip damage extra dalla <strong>Q</strong> a basso HP). Secondario <strong>Resolve</strong> con <strong>Font of Life</strong> (rallenti un nemico con <strong>Q</strong> → tutti gli alleati che lo colpiscono si curano) e <strong>Revitalize</strong> (10% bonus su ogni scudo e cura che lanci). Stat shards: Ability Haste, Adaptive Force, Health Scaling.</p>",
+    "content_html_post": "<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Leona / Rakan:</strong> Support hard engage. Tieni <strong>R</strong> per il momento in cui committano sull'AD carry, mai bruciarla in un trade di poke. Sta dietro la wave così non possono Flash-engage da fog of war (il cespuglio non wardato sul lato del river).</li>\n<li><strong>Blitzcrank / Thresh / Pyke:</strong> Support con hook. Sta dietro ai minion ogni volta che attraversi il river. L'hook a segno una volta uccide l'AD carry — non puoi <strong>R</strong> fuori da uno stun di 1.75 secondi. Compra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3222.png\" alt=\"Mikael&#x27;s Blessing\"> <strong>Mikael's Blessing</strong> prima del solito.</li>\n<li><strong>Xerath / Brand:</strong> Mage support fuori dal range del tuo scudo <strong>E</strong>. Sta attaccato alla wave, niente scambi auto-attack, e fai hard-side la lane al tuo jungler (lo metti a campare il tuo lato del river). <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> <strong>Locket of the Iron Solari</strong> anticipata aiuta ad assorbire il chip poke (piccolo danno ripetuto che logora HP senza un commit completo).</li>\n<li><strong>Lulu:</strong> Mirror enchanter su un asse diverso. Lei ha peel più forte single-target (la R rende un alleato più grosso e untargettabile), tu hai sustain più forte e più range di team. Out-scalala stackando scudi su un carry ranged tipo Caitlyn invece di provare a rispondere col danno.</li>\n<li><strong>Pyke (in roam):</strong> Tracciagli il movimento con vision al tri-cespuglio e all'imbocco del river; se lascia bot lane, ping mid subito. La <strong>R</strong> di Milio ferma la sua execute solo se committa in melee e l'AD carry è dentro al raggio di cura.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2:</strong> Con <strong>E</strong> a 1 e <strong>W</strong> a 2 puoi shield-engage uno scambio breve (un trade rapido di danno in lane, non un all-in). Il bonus di Attack Range da W di solito vince questo trade per te perché il loro support non può rispondere col danno da 200 unità più indietro.</li>\n<li><strong>Livello 6:</strong> Prima <strong>Breath of Life</strong> sbloccata. Ogni tentativo di 2v2 da parte avversaria è ora vincibile — engagiano con hard CC, tu channeli R, il CC viene pulito a metà fight e tu continui a sparare.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6617.png\" alt=\"Moonstone Renewer\"> <strong>Moonstone Renewer + Ardent Censer (~ minuto 16-20):</strong> Questo è il team-fight spike (il momento in cui un campione guadagna un improvviso aumento di potere) in cui smetti di essere un support da lane e diventi un moltiplicatore di team. Gli HP effettivi del tuo AD carry circa raddoppiano quando spammi scudi attraverso un fight, e il bonus on-hit di Ardent alza il loro DPS sensibilmente.</li>\n<li><strong>Tre legendary online (~ minuto 25):</strong> Aggiungendo <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3222.png\" alt=\"Mikael&#x27;s Blessing\"> <strong>Mikael's Blessing</strong> hai due cleanse (R + Mikael's) per le due abilità di CC che possono cancellare il carry. Da qui in poi, ogni fight obiettivo è 5v4 se il nemico committa hard CC sulla tua back line.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Lanciare W su te stesso.</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6617.png\" alt=\"Cozy Campfire\"> <strong>W</strong> ti targetta anche, ma il bonus di Attack Range su Milio è sprecato perché le sue auto sono deboli. Default: droppa il focolare sull'AD carry; auto-W solo se il carry è morto e ti serve la cura per scappare.</li>\n<li><strong>Bruciare R per una kill.</strong> La <strong>R</strong> di Milio è il miglior disengage e cleanse del team. Ogni volta che la usi per una kill che l'AD carry avrebbe finito comunque, il team resta senza pulsante d'emergenza per i prossimi 100+ secondi.</li>\n<li><strong>Q a carica piena senza setup.</strong> La <strong>Q</strong> ha un windup lento e viaggia in linea retta — se il nemico è solo fermo su una wave la schiva di lato. Lancia Q solo quando il nemico è committed (in mezzo a un dash, in channeling, o bloccato in un rimbalzo di minion) così non può uscire dalla linea.</li>\n<li><strong>Stare troppo indietro nei fight.</strong> La tua <strong>E</strong> ha un range corto da 650 unità. Se ti affacci da dietro al team non puoi scudare nessuno. Sta dentro al range di scudo dell'AD carry, in seconda linea — più vicino di quanto l'istinto suggerisca.</li>\n<li><strong>Dimenticare di rilanciare W.</strong> <strong>W</strong> può essere ri-targettata su un altro alleato durante i suoi 5 secondi di durata. In un teamfight dovrebbe saltare dal carry di bot a chi è attualmente focusato (peel — proteggere un alleato dal campione che lo sta attaccando). Il recast è l'abitudine più tecnica del kit di Milio.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena il <strong>W swap a metà fight</strong>. Droppa <strong>Cozy Campfire</strong> sull'AD carry pre-fight per il bonus di Attack Range. Nell'istante in cui l'assassino o diver avversario salta sul mid laner invece, rilancia <strong>W</strong> per spostare il focolare sul mid (il carry aveva già il vantaggio di range a inizio fight). Il nuovo focolare ricomincia il ciclo cura-Fired Up su chi è ora sotto pressione. Questo singolo recast trasforma Milio da enchanter mono-target a piattaforma di damage e sustain a doppio target — la differenza tra perdere un alleato nel fight e tenerne due vivi abbastanza a lungo perché torni online la <strong>R</strong>.</p>",
+    "word_count": 1566,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "blitzcrank-support",
+        "champion": "blitzcrank",
+        "role": "support"
+      },
+      {
+        "slug": "braum-support",
+        "champion": "braum",
+        "role": "support"
+      },
+      {
+        "slug": "janna-support",
+        "champion": "janna",
+        "role": "support"
+      },
+      {
+        "slug": "karma-support",
+        "champion": "karma",
+        "role": "support"
+      },
+      {
+        "slug": "leona-support",
+        "champion": "leona",
+        "role": "support"
+      }
+    ],
+    "champion_key": "902"
   },
   {
     "slug": "miss-fortune-bot",
@@ -30025,6 +30966,322 @@ export const itChampions: ChampionGuide[] = [
     "champion_key": "25"
   },
   {
+    "slug": "naafiri-mid",
+    "title": "Naafiri Mid Build & Guida — Patch 16.9",
+    "language": "it",
+    "patch": "16.9",
+    "champion": "naafiri",
+    "role": "mid",
+    "last_updated": "2026-05-05",
+    "description": "Guida Naafiri mid lane per League of Legends Patch 16.9: starter kit AD assassin, build con Darkin Hounds, matchup chiave, power spike, errori comuni e suggerimenti.",
+    "quick_learn": {
+      "champion_dd_id": "Naafiri",
+      "difficulty": 1,
+      "damage_type": "physical",
+      "champion_class": "Assassin / Diver",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "We Are More",
+          "description": "Naafiri evoca i Darkin Hounds (mute di lupi compagni) che auto-attaccano lo stesso bersaglio che lei colpisce. Il branco scala con i livelli ed è la fonte principale del suo danno.",
+          "dd_spell_id": "Naafiri_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Darkin Daggers",
+          "description": "Lancia fino a due daggers. Ognuno applica bleed (danno spalmato nei secondi successivi). Se il bersaglio è già in bleed, il secondo dagger detona il sanguinamento per burst extra.",
+          "dd_spell_id": "NaafiriQ"
+        },
+        {
+          "key": "W",
+          "name": "The Call of the Pack",
+          "description": "Brevissima untargetability che spawna packmates extra e dà a Naafiri AD e Move Speed bonus. Tool da pre-fight: lancia subito prima di entrare.",
+          "dd_spell_id": "NaafiriR"
+        },
+        {
+          "key": "E",
+          "name": "Eviscerate",
+          "description": "Dash corto con AOE all'atterraggio. Richiama tutti i packmates al fianco di Naafiri a HP pieni — è il tuo bottone di reset e reposition durante un fight.",
+          "dd_spell_id": "NaafiriE"
+        },
+        {
+          "key": "R",
+          "name": "Hounds' Pursuit",
+          "description": "Dash a lunga gittata target su un campione. Score un takedown nella finestra e ottieni un recast gratuito più uno scudo. Resetta sulle kill come un'ulti da caccia.",
+          "dd_spell_id": "NaafiriW"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6692",
+          "name": "Eclipse"
+        },
+        {
+          "dd_id": "3158",
+          "name": "Ionian Boots of Lucidity"
+        },
+        {
+          "dd_id": "3814",
+          "name": "Edge of Night"
+        },
+        {
+          "dd_id": "6694",
+          "name": "Serylda's Grudge"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "6698",
+          "name": "Profane Hydra",
+          "against": "swap del secondo item quando sei avanti e vuoi più waveclear più una active che resetta l'auto-attack su un target a basso HP"
+        },
+        {
+          "dd_id": "6697",
+          "name": "Hubris",
+          "against": "rimpiazzo snowball di Edge of Night quando il nemico non ha CC magico single-target pericoloso e accumuli takedown costanti"
+        },
+        {
+          "dd_id": "3156",
+          "name": "Maw of Malmortius",
+          "against": "contro AP burst pesante (Syndra, Veigar, LeBlanc): lo scudo magico procca quando R-i in mezzo a loro, salvando l'all-in"
+        },
+        {
+          "dd_id": "3036",
+          "name": "Lord Dominik's Regards",
+          "against": "contro almeno una frontline tanky (Cho'Gath, Sion, Malphite top) sopra i 3000 HP — danno bonus che scala col loro HP"
+        },
+        {
+          "dd_id": "3026",
+          "name": "Guardian Angel",
+          "against": "contro comp da hard focus (Malphite R + Yasuo wombo) quando sei avanti e il team ha bisogno che tu committi due volte"
+        }
+      ],
+      "base_combo": [
+        "Q",
+        "R",
+        "AA",
+        "Q",
+        "E"
+      ],
+      "win_condition": "Pickoffa target squishy isolati (un nemico fuori posizione, lontano dal team) concatenando R su di loro e refreshandola al takedown per inseguire il secondo bersaglio.",
+      "weakness": "Niente hard CC affidabile e dash a corto raggio. Se il nemico ha dash, displacement o un support con peel pesante, rimbalzi sulla front line e i hound muoiono prima di arrivare alla back line.",
+      "runes": {
+        "primary_tree": "Domination",
+        "primary_tree_dd_id": 8100,
+        "keystone": {
+          "dd_id": 8112,
+          "name": "Electrocute",
+          "icon_path": "perk-images/Styles/Domination/Electrocute/Electrocute.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 8139,
+            "name": "Taste of Blood",
+            "icon_path": "perk-images/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.png"
+          },
+          {
+            "dd_id": 8137,
+            "name": "Sixth Sense",
+            "icon_path": "perk-images/Styles/Domination/SixthSense/SixthSense.png"
+          },
+          {
+            "dd_id": 8106,
+            "name": "Ultimate Hunter",
+            "icon_path": "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png"
+          }
+        ],
+        "secondary_tree": "Precision",
+        "secondary_tree_dd_id": 8000,
+        "secondary_slots": [
+          {
+            "dd_id": 9111,
+            "name": "Triumph",
+            "icon_path": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "dd_id": 8014,
+            "name": "Coup de Grace",
+            "icon_path": "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png"
+          }
+        ],
+        "stat_shards": [
+          "Adaptive Force",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Domination primaria: Electrocute procca naturalmente con Q (due daggers) più una basic attack, calzando il burst a 3 hit di Naafiri. Taste of Blood dà sustain in lane, Sixth Sense rivela ward in roam, Ultimate Hunter taglia la R per più tentativi di reset.",
+        "secondary_rationale": "Precision secondaria: Triumph rifonda HP sui takedown (enorme con i reset di R quando concateni kill), Coup de Grace boosta il danno di finitura sotto soglia HP — esattamente il ruolo di una assassin che chiude le kill.",
+        "secondary_alternative": "Contro mid da poke pesante o healing-stack (Cassiopeia, Vladimir), swap Precision verso Resolve con Second Wind (regen contro poke) e Bone Plating (mitiga le prime 3 spell), accettando di perdere il sustain dei takedown per la sopravvivenza in lane."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "azir",
+            "viktor",
+            "orianna",
+            "anivia"
+          ],
+          "archetype": "Mage di controllo immobili senza dash",
+          "reason": "Non hanno escape veloce contro un dash R a lunga gittata. Una volta atterrata la R chiudi con Q + auto prima che camminino in safe, e i tuoi hound assorbono qualunque skillshot di ritorno."
+        },
+        {
+          "examples": [
+            "malzahar",
+            "veigar"
+          ],
+          "archetype": "Mage da cast e channel statici",
+          "reason": "Stanno fermi per fare danno. R chiude da fuori la loro effective range e la untargetability di W mangia la prima hard CC, così arrivi sopra di loro a HP pieno."
+        },
+        {
+          "examples": [
+            "lux",
+            "xerath"
+          ],
+          "archetype": "Artillery a lunga gittata senza mobility",
+          "reason": "Vincono il poke early ma si sciolgono nel momento in cui un dash gli arriva addosso. Stacca HP o Edge of Night, mangia una Q o uno stun, poi R chiude la distanza e il branco fa il resto."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "yasuo",
+            "yone"
+          ],
+          "archetype": "Mid-laner con Wind Wall",
+          "reason": "Wind Wall blocca entrambi i daggers di Q, cancellando il damage principale in lane e il setup del bleed. Senza bleed il branco impiega molto più a chunkare, e la mobility E + scudo di Yasuo vince l'all-in."
+        },
+        {
+          "examples": [
+            "zed",
+            "fizz"
+          ],
+          "archetype": "Assassini mobili con multi gap-close",
+          "reason": "Duellano nel tuo stesso range e hanno escape integrate (Zed shadows, Fizz E) che dodgano il lock-on della R o il follow-up Q. Itemizzano come te, quindi scalate uguale senza che tu abbia un edge."
+        },
+        {
+          "examples": [
+            "malphite",
+            "lissandra"
+          ],
+          "archetype": "Self-peel con CC point-and-click",
+          "reason": "La R di Lissandra (self-stasi, bolla di intoccabilità) cancella il takedown reset della tua R. Malphite con la W armor + R knock-up ti separa dai hound e blocca l'inseguimento prima che il bleed atterri."
+        }
+      ]
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Naafiri è un'AD assassin che combatte con un branco di Darkin Hounds (piccoli lupi compagni che auto-attaccano lo stesso bersaglio che colpisci tu). A differenza della maggior parte degli assassin, non si affida a una singola finestra di burst — il suo danno è la somma del suo AD più quanto contribuisce ogni hound. Il mid lane le si addice perché le distanze brevi permettono alla R (il suo dash target su campioni) di raggiungere le side lane e il river offre roam facili una volta che la ulti è disponibile.</p>\n<p>Il piano partita è accumulare un piccolo lead di CS in lane, poi iniziare la caccia da livello 6: lancia W per una breve untargetability che spawna hound extra, R-dash su un target isolato (un nemico fuori posizione, lontano dal team), Q per il bleed, e E per uscire se il fight gira male. Score un takedown nella finestra di R e ottieni una seconda R gratis — è l'identità totale del campione. Lo skill expression sta in due cose: quando committare la R (non puoi cancellare il dash, la scelta del target è tutto) e come tenere vivi gli hound tra i fight, perché hound morti significa zero damage.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> Doran's Shield + 2 Health Potions. Doran's Shield è preferito a Doran's Blade perché la maggior parte dei matchup hanno poke a distanza (skillshot, harass auto-attack) e la regen ti permette di restare in lane fino al livello 6.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6692.png\" alt=\"Eclipse\"> <strong>Eclipse</strong> — spike di burst del primo item. La passiva a due hit calza alla perfezione il combo Q-poi-AA e ti dà un piccolo scudo + Move Speed a ogni proc.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> — boot da Ability Haste, così il cooldown di R cala e ottieni più reset di takedown per fight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> — spell shield che blocca la prima hard CC contro di te. Essenziale contro qualsiasi mid con stun o root, perché la R è un dash committal che non puoi annullare.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6694.png\" alt=\"Serylda&#x27;s Grudge\"> <strong>Serylda's Grudge</strong> — penetrazione di armatura più slow su target già danneggiati. Risolve il problema \"se ne è andato camminando\" quando la R è in cooldown.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6698.png\" alt=\"Profane Hydra\"> <strong>Profane Hydra</strong> — rimpiazza Edge of Night quando sei avanti e il nemico non ha CC magico single-target pericoloso. Aggiunge danno AOE (i tuoi hound amano l'AOE) e una active che resetta l'auto su un target a basso HP.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6697.png\" alt=\"Hubris\"> <strong>Hubris</strong> — rimpiazzo da snowball quando accumuli takedown costanti. AD per kill snowballa il vantaggio (un piccolo lead che cresce in fretta: kill → gold → item → più kill).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — contro AP burst pesante (Syndra, Veigar, LeBlanc): lo scudo magico procca quando R-i in mezzo a loro, salvando l'all-in.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3036.png\" alt=\"Lord Dominik&#x27;s Regards\"> <strong>Lord Dominik's Regards</strong> — contro almeno una frontline tanky (Cho'Gath, Sion, Malphite top) sopra i 3000 HP. Danno bonus che scala col loro HP pool.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3026.png\" alt=\"Guardian Angel\"> <strong>Guardian Angel</strong> — contro comp da hard focus (Malphite R + Yasuo wombo combo) quando sei avanti e il team ha bisogno che tu committi due volte.</li>\n</ul>\n<p><strong>Stivali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> di default. Swap a Plated Steelcaps se la squadra avversaria ha 3+ minacce auto-attack, o Mercury's Treads se il mid avversario è un mage da CC (Ahri, Annie, Lissandra).</p>\n<p><strong>Skill order:</strong> Massimizza <strong>Q</strong> per primo (damage principale e bleed), <strong>E</strong> per secondo (dash + AOE), <strong>W</strong> per ultimo. Punto in <strong>R</strong> ai livelli 6, 11, 16. Maxare Q per primo ti permette di tradare in lane col combo bleed-poi-detona anche prima del primo item.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Domination</strong> con <strong>Electrocute</strong>, <strong>Taste of Blood</strong>, <strong>Sixth Sense</strong>, <strong>Ultimate Hunter</strong>. Secondario <strong>Precision</strong> con <strong>Triumph</strong> e <strong>Coup de Grace</strong> per sustain dai takedown e damage di esecuzione.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Yasuo / Yone:</strong> Hard counter in lane. Tieni <strong>Q</strong> finché non hanno bruciato la <strong>E</strong>; tirare daggers contro Wind Wall è l'errore peggiore che puoi fare. Punta a roamare al livello 6 invece di forzare il 1v1.</li>\n<li><strong>Annie:</strong> 1v1 pari ma punitivo se piazza lo stun. Compra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> come secondo item per assorbire lo stun, e non <strong>R</strong>-arla mai a melee range pre-6.</li>\n<li><strong>Lux:</strong> Vinci l'all-in oltre il livello 6. La <strong>R</strong> supera la gittata della sua <strong>Q</strong>, e l'untargetability di <strong>W</strong> annulla la binding. Compra potion early per soakare il poke finché non puoi dasharle addosso.</li>\n<li><strong>Ahri:</strong> Lane da coin-flip. Tracciale il cooldown della <strong>Charm</strong> (~12s) e committa <strong>R</strong> solo quando è giù. La <strong>W</strong> può negare il proiettile di Charm se la temporizzi sul suo cast frame.</li>\n<li><strong>Galio:</strong> Skill matchup. Punisce quando ti aggrappi agli alleati, quindi splitpusha le wave laterali e fai cross-map con <strong>R</strong> quando la sua ulti è in cooldown. Compra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6694.png\" alt=\"Serylda&#x27;s Grudge\"> <strong>Serylda's Grudge</strong> prima del solito per slowarlo fuori dal range della sua <strong>W</strong> taunt.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2:</strong> Con <strong>Q</strong> + <strong>E</strong> hai un dash corto e un combo da bleed. Un trade in cui colpisci entrambi i daggers Q chunka 30-40% dell'HP di un mage avversario.</li>\n<li><strong>Livello 6:</strong> Prima <strong>Hounds' Pursuit</strong> sblocca i roam. Qualsiasi fight su mid-river senza ward è una kill garantita sul target più squishy in vista.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6692.png\" alt=\"Eclipse\"> Eclipse completo (~ minuto 11-13):</strong> La soglia di one-shot scende sotto al 50% HP. Cerca pickoff (eliminare un nemico isolato dal team) su river o vicino agli obiettivi.</li>\n<li><strong>3 item + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6694.png\" alt=\"Serylda&#x27;s Grudge\"> Serylda's Grudge (~ minuto 22-26):</strong> Le catene di reset R diventano affidabili. Con 30+ Ability Haste dagli Ionian Boots, ogni takedown ti dà una <strong>R</strong> fresca: in un teamfight pulito puoi colpire due squishy di fila.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Tirare Q in Wind Wall o su minion fermi.</strong> Q è una coppia di proiettili lunga e lenta. Aspetta che il nemico passi sopra una linea di minion, poi mira attraverso; gli hound saltano sul primo campione che i daggers colpiscono, quindi una Q sprecata significa anche zero damage del branco.</li>\n<li><strong>R-are il tank.</strong> Hounds' Pursuit è un dash committal senza escape. Tuffarti sulla front line significa arrivare circondata, gli hound muoiono di AOE e R è in cooldown quando il carry è finalmente esposto. <strong>R</strong>-a sempre il target prioritario più squishy disponibile, anche se devi aspettare 2-3 secondi.</li>\n<li><strong>Ignorare gli hound.</strong> Scalano col tuo AD e con gli item. Se continuano a morire tra i fight, combatti come un campione 1v1 e perdi. Usa <strong>E</strong> per richiamarli e curarli a HP pieni prima di ogni engage.</li>\n<li><strong>Usare W in difesa.</strong> W è un buff pre-fight, non un panic button. Lanciarla dopo aver mangiato il 60% di burst spreca la finestra di AD/MS bonus perché il fight è già perso.</li>\n<li><strong>Over-committare i roam pre-6.</strong> Senza <strong>R</strong> hai solo un breve dash E per fuggire. Un roam fallito al livello 3 in bot lane regala CS gratuiti al mid avversario e può farti perdere la lane.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Pre-cast <strong>W</strong> (The Call of the Pack) <strong>subito prima</strong> del dash <strong>R</strong>, non dopo. Il frame di untargetability assorbe qualunque hard CC il nemico ti tira durante il volo (Annie stun, Lux Q root, Lissandra Q), così atterri a HP pieni e il bonus AD/MS è ancora attivo per la kill. Il pattern da rookie è W-dopo-R per la velocità sull'inseguimento, ma il pattern da pro è W-dentro-R perché la safety che ti dà sull'entrata vale più della velocità di chase dopo.</p>",
+    "content_html_pre": "<h2>Panoramica</h2>\n<p>Naafiri è un'AD assassin che combatte con un branco di Darkin Hounds (piccoli lupi compagni che auto-attaccano lo stesso bersaglio che colpisci tu). A differenza della maggior parte degli assassin, non si affida a una singola finestra di burst — il suo danno è la somma del suo AD più quanto contribuisce ogni hound. Il mid lane le si addice perché le distanze brevi permettono alla R (il suo dash target su campioni) di raggiungere le side lane e il river offre roam facili una volta che la ulti è disponibile.</p>\n<p>Il piano partita è accumulare un piccolo lead di CS in lane, poi iniziare la caccia da livello 6: lancia W per una breve untargetability che spawna hound extra, R-dash su un target isolato (un nemico fuori posizione, lontano dal team), Q per il bleed, e E per uscire se il fight gira male. Score un takedown nella finestra di R e ottieni una seconda R gratis — è l'identità totale del campione. Lo skill expression sta in due cose: quando committare la R (non puoi cancellare il dash, la scelta del target è tutto) e come tenere vivi gli hound tra i fight, perché hound morti significa zero damage.</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> Doran's Shield + 2 Health Potions. Doran's Shield è preferito a Doran's Blade perché la maggior parte dei matchup hanno poke a distanza (skillshot, harass auto-attack) e la regen ti permette di restare in lane fino al livello 6.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6692.png\" alt=\"Eclipse\"> <strong>Eclipse</strong> — spike di burst del primo item. La passiva a due hit calza alla perfezione il combo Q-poi-AA e ti dà un piccolo scudo + Move Speed a ogni proc.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> — boot da Ability Haste, così il cooldown di R cala e ottieni più reset di takedown per fight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> — spell shield che blocca la prima hard CC contro di te. Essenziale contro qualsiasi mid con stun o root, perché la R è un dash committal che non puoi annullare.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6694.png\" alt=\"Serylda&#x27;s Grudge\"> <strong>Serylda's Grudge</strong> — penetrazione di armatura più slow su target già danneggiati. Risolve il problema \"se ne è andato camminando\" quando la R è in cooldown.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6698.png\" alt=\"Profane Hydra\"> <strong>Profane Hydra</strong> — rimpiazza Edge of Night quando sei avanti e il nemico non ha CC magico single-target pericoloso. Aggiunge danno AOE (i tuoi hound amano l'AOE) e una active che resetta l'auto su un target a basso HP.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6697.png\" alt=\"Hubris\"> <strong>Hubris</strong> — rimpiazzo da snowball quando accumuli takedown costanti. AD per kill snowballa il vantaggio (un piccolo lead che cresce in fretta: kill → gold → item → più kill).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — contro AP burst pesante (Syndra, Veigar, LeBlanc): lo scudo magico procca quando R-i in mezzo a loro, salvando l'all-in.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3036.png\" alt=\"Lord Dominik&#x27;s Regards\"> <strong>Lord Dominik's Regards</strong> — contro almeno una frontline tanky (Cho'Gath, Sion, Malphite top) sopra i 3000 HP. Danno bonus che scala col loro HP pool.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3026.png\" alt=\"Guardian Angel\"> <strong>Guardian Angel</strong> — contro comp da hard focus (Malphite R + Yasuo wombo combo) quando sei avanti e il team ha bisogno che tu committi due volte.</li>\n</ul>\n<p><strong>Stivali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> di default. Swap a Plated Steelcaps se la squadra avversaria ha 3+ minacce auto-attack, o Mercury's Treads se il mid avversario è un mage da CC (Ahri, Annie, Lissandra).</p>\n<p><strong>Skill order:</strong> Massimizza <strong>Q</strong> per primo (damage principale e bleed), <strong>E</strong> per secondo (dash + AOE), <strong>W</strong> per ultimo. Punto in <strong>R</strong> ai livelli 6, 11, 16. Maxare Q per primo ti permette di tradare in lane col combo bleed-poi-detona anche prima del primo item.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Domination</strong> con <strong>Electrocute</strong>, <strong>Taste of Blood</strong>, <strong>Sixth Sense</strong>, <strong>Ultimate Hunter</strong>. Secondario <strong>Precision</strong> con <strong>Triumph</strong> e <strong>Coup de Grace</strong> per sustain dai takedown e damage di esecuzione.</p>",
+    "content_html_post": "<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Yasuo / Yone:</strong> Hard counter in lane. Tieni <strong>Q</strong> finché non hanno bruciato la <strong>E</strong>; tirare daggers contro Wind Wall è l'errore peggiore che puoi fare. Punta a roamare al livello 6 invece di forzare il 1v1.</li>\n<li><strong>Annie:</strong> 1v1 pari ma punitivo se piazza lo stun. Compra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> come secondo item per assorbire lo stun, e non <strong>R</strong>-arla mai a melee range pre-6.</li>\n<li><strong>Lux:</strong> Vinci l'all-in oltre il livello 6. La <strong>R</strong> supera la gittata della sua <strong>Q</strong>, e l'untargetability di <strong>W</strong> annulla la binding. Compra potion early per soakare il poke finché non puoi dasharle addosso.</li>\n<li><strong>Ahri:</strong> Lane da coin-flip. Tracciale il cooldown della <strong>Charm</strong> (~12s) e committa <strong>R</strong> solo quando è giù. La <strong>W</strong> può negare il proiettile di Charm se la temporizzi sul suo cast frame.</li>\n<li><strong>Galio:</strong> Skill matchup. Punisce quando ti aggrappi agli alleati, quindi splitpusha le wave laterali e fai cross-map con <strong>R</strong> quando la sua ulti è in cooldown. Compra <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6694.png\" alt=\"Serylda&#x27;s Grudge\"> <strong>Serylda's Grudge</strong> prima del solito per slowarlo fuori dal range della sua <strong>W</strong> taunt.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2:</strong> Con <strong>Q</strong> + <strong>E</strong> hai un dash corto e un combo da bleed. Un trade in cui colpisci entrambi i daggers Q chunka 30-40% dell'HP di un mage avversario.</li>\n<li><strong>Livello 6:</strong> Prima <strong>Hounds' Pursuit</strong> sblocca i roam. Qualsiasi fight su mid-river senza ward è una kill garantita sul target più squishy in vista.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6692.png\" alt=\"Eclipse\"> Eclipse completo (~ minuto 11-13):</strong> La soglia di one-shot scende sotto al 50% HP. Cerca pickoff (eliminare un nemico isolato dal team) su river o vicino agli obiettivi.</li>\n<li><strong>3 item + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6694.png\" alt=\"Serylda&#x27;s Grudge\"> Serylda's Grudge (~ minuto 22-26):</strong> Le catene di reset R diventano affidabili. Con 30+ Ability Haste dagli Ionian Boots, ogni takedown ti dà una <strong>R</strong> fresca: in un teamfight pulito puoi colpire due squishy di fila.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Tirare Q in Wind Wall o su minion fermi.</strong> Q è una coppia di proiettili lunga e lenta. Aspetta che il nemico passi sopra una linea di minion, poi mira attraverso; gli hound saltano sul primo campione che i daggers colpiscono, quindi una Q sprecata significa anche zero damage del branco.</li>\n<li><strong>R-are il tank.</strong> Hounds' Pursuit è un dash committal senza escape. Tuffarti sulla front line significa arrivare circondata, gli hound muoiono di AOE e R è in cooldown quando il carry è finalmente esposto. <strong>R</strong>-a sempre il target prioritario più squishy disponibile, anche se devi aspettare 2-3 secondi.</li>\n<li><strong>Ignorare gli hound.</strong> Scalano col tuo AD e con gli item. Se continuano a morire tra i fight, combatti come un campione 1v1 e perdi. Usa <strong>E</strong> per richiamarli e curarli a HP pieni prima di ogni engage.</li>\n<li><strong>Usare W in difesa.</strong> W è un buff pre-fight, non un panic button. Lanciarla dopo aver mangiato il 60% di burst spreca la finestra di AD/MS bonus perché il fight è già perso.</li>\n<li><strong>Over-committare i roam pre-6.</strong> Senza <strong>R</strong> hai solo un breve dash E per fuggire. Un roam fallito al livello 3 in bot lane regala CS gratuiti al mid avversario e può farti perdere la lane.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Pre-cast <strong>W</strong> (The Call of the Pack) <strong>subito prima</strong> del dash <strong>R</strong>, non dopo. Il frame di untargetability assorbe qualunque hard CC il nemico ti tira durante il volo (Annie stun, Lux Q root, Lissandra Q), così atterri a HP pieni e il bonus AD/MS è ancora attivo per la kill. Il pattern da rookie è W-dopo-R per la velocità sull'inseguimento, ma il pattern da pro è W-dentro-R perché la safety che ti dà sull'entrata vale più della velocità di chase dopo.</p>",
+    "word_count": 1218,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "ahri-mid",
+        "champion": "ahri",
+        "role": "mid"
+      },
+      {
+        "slug": "akali-mid",
+        "champion": "akali",
+        "role": "mid"
+      },
+      {
+        "slug": "akshan-mid",
+        "champion": "akshan",
+        "role": "mid"
+      },
+      {
+        "slug": "annie-mid",
+        "champion": "annie",
+        "role": "mid"
+      },
+      {
+        "slug": "lux-mid",
+        "champion": "lux",
+        "role": "mid"
+      }
+    ],
+    "champion_key": "950"
+  },
+  {
     "slug": "nami-support",
     "title": "Nami Support Build & Guida — Patch 16.9",
     "language": "it",
@@ -30655,6 +31912,338 @@ export const itChampions: ChampionGuide[] = [
       }
     ],
     "champion_key": "75"
+  },
+  {
+    "slug": "nautilus-support",
+    "title": "Nautilus Support Build & Guida — Patch 16.9",
+    "language": "it",
+    "patch": "16.9",
+    "champion": "nautilus",
+    "role": "support",
+    "last_updated": "2026-05-05",
+    "description": "Guida Nautilus support per League of Legends Patch 16.9: build tank engage, matchup chiave in lane, power spike per item, errori comuni e una tecnica avanzata finale.",
+    "quick_learn": {
+      "champion_dd_id": "Nautilus",
+      "difficulty": 3,
+      "damage_type": "magic",
+      "champion_class": "Tank / Vanguard",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Staggering Blow",
+          "description": "La prima auto-attack su un bersaglio infligge danno fisico bonus e lo immobilizza brevemente. Cooldown per-target — concatenala tra nemici diversi nei fight.",
+          "dd_spell_id": "Nautilus_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Dredge Line",
+          "description": "Hook lineare. Su nemico colpito: ti tira con lui, lo stunna e infligge danno. Su terreno: ti trascina contro la parete (riposizionamento tipo Flash).",
+          "dd_spell_id": "NautilusAnchorDrag"
+        },
+        {
+          "key": "W",
+          "name": "Titan's Wrath",
+          "description": "Scudo personale che scala con bonus HP. Mentre attivo, le auto-attack infliggono danno magico AOE in 2s — la tua unica vera waveclear e finestra di trade.",
+          "dd_spell_id": "NautilusPiercingGaze"
+        },
+        {
+          "key": "E",
+          "name": "Riptide",
+          "description": "Tre onde concentriche intorno a te che danneggiano e rallentano. Lo slow si accumula su nemici colpiti da più onde — strumento di chase e peel.",
+          "dd_spell_id": "NautilusSplashZone"
+        },
+        {
+          "key": "R",
+          "name": "Depth Charge",
+          "description": "Onda d'urto a target singolo che insegue un campione nemico, knock-up su tutti nel tragitto e stun sul bersaglio principale all'impatto.",
+          "dd_spell_id": "NautilusGrandLine"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "E"
+        },
+        {
+          "level": 5,
+          "key": "E"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "E"
+        },
+        {
+          "level": 8,
+          "key": "Q"
+        },
+        {
+          "level": 9,
+          "key": "E"
+        },
+        {
+          "level": 10,
+          "key": "Q"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "Q"
+        },
+        {
+          "level": 13,
+          "key": "Q"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "3865",
+          "name": "World Atlas"
+        },
+        {
+          "dd_id": "3111",
+          "name": "Mercury's Treads"
+        },
+        {
+          "dd_id": "3190",
+          "name": "Locket of the Iron Solari"
+        },
+        {
+          "dd_id": "3109",
+          "name": "Knight's Vow"
+        },
+        {
+          "dd_id": "3877",
+          "name": "Bloodsong"
+        },
+        {
+          "dd_id": "3050",
+          "name": "Zeke's Convergence"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3047",
+          "name": "Plated Steelcaps",
+          "against": "swap dai Mercury's contro lane di auto-attack pesante (Caitlyn, Draven, Tristana, Master Yi) — riduzione fissa su ogni basic attack"
+        },
+        {
+          "dd_id": "8020",
+          "name": "Abyssal Mask",
+          "against": "contro composizioni AP-heavy che si raggruppano — l'aura aumenta il danno magico ricevuto dai nemici vicini, rende più letale il tuo mago"
+        },
+        {
+          "dd_id": "2504",
+          "name": "Kaenic Rookern",
+          "against": "contro mage burst (Veigar, Syndra, Annie) — grosso scudo magico che si rigenera fuori combat e mangia il primo combo di abilità"
+        },
+        {
+          "dd_id": "3075",
+          "name": "Thornmail",
+          "against": "contro composizioni che impilano cure (Soraka, Vladimir, Aatrox) — applica Grievous Wounds (cure dimezzate) sugli attaccanti"
+        },
+        {
+          "dd_id": "3083",
+          "name": "Warmog's Armor",
+          "against": "contro composizioni di poke (Xerath, Varus, Jayce) — la rigenerazione fuori combattimento ti permette di curarti tra le ondate di poke"
+        },
+        {
+          "dd_id": "3143",
+          "name": "Randuin's Omen",
+          "against": "contro ADC crit-stacking (Caitlyn, Yasuo, Tryndamere) — riduce del 25% il danno dei critici e ha un attivo AOE di slow"
+        }
+      ],
+      "base_combo": [
+        "Q",
+        "AA",
+        "E",
+        "AA",
+        "W",
+        "R"
+      ],
+      "win_condition": "Atterra Q per agganciare un target di backline, segui con scudo W, R-stun sulla minaccia prioritaria nel teamfight, droppa E per lo slow e fai peel sul carry finché non chiude la kill.",
+      "weakness": "Cooldown lunghi early (Q a 14s al rank 1) e zero poke a distanza. Manchi la Q e per ~12s non hai nulla in lane — chi punisce gli hook mancati (Lulu, Janna, Caitlyn) ti sanguina i trade.",
+      "runes": {
+        "primary_tree": "Resolve",
+        "primary_tree_dd_id": 8400,
+        "keystone": {
+          "dd_id": 8439,
+          "name": "Aftershock",
+          "icon_path": "perk-images/Styles/Resolve/VeteranAftershock/VeteranAftershock.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 8463,
+            "name": "Font of Life",
+            "icon_path": "perk-images/Styles/Resolve/FontOfLife/FontOfLife.png"
+          },
+          {
+            "dd_id": 8473,
+            "name": "Bone Plating",
+            "icon_path": "perk-images/Styles/Resolve/BonePlating/BonePlating.png"
+          },
+          {
+            "dd_id": 8242,
+            "name": "Unflinching",
+            "icon_path": "perk-images/Styles/Sorcery/Unflinching/Unflinching.png"
+          }
+        ],
+        "secondary_tree": "Inspiration",
+        "secondary_tree_dd_id": 8300,
+        "secondary_slots": [
+          {
+            "dd_id": 8304,
+            "name": "Magical Footwear",
+            "icon_path": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png"
+          },
+          {
+            "dd_id": 8347,
+            "name": "Cosmic Insight",
+            "icon_path": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png"
+          }
+        ],
+        "stat_shards": [
+          "Ability Haste",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Resolve primaria: Aftershock procca su Q e R, dandoti un burst di resistenze quando committi l'engage. Font of Life cura il team sui nemici rallentati, Bone Plating mangia i primi 3 trade post-hook, Unflinching dà più uptime sotto chain CC.",
+        "secondary_rationale": "Inspiration secondaria: Magical Footwear ti regala 300 oro che usi per rushare prima Locket of the Iron Solari, Cosmic Insight taglia i CD degli active item e dei summoner spell — pesa su Locket e Flash.",
+        "secondary_alternative": "Contro composizioni di poke pesante (Xerath con Varus, o Karma con Caitlyn), swappa Inspiration per Sorcery con Manaflow Band (più mana per spammare E e clearare minion) e Nimbus Cloak (movement-speed gratis dopo il Flash per chiudere la distanza)."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "soraka",
+            "lulu",
+            "yuumi",
+            "janna"
+          ],
+          "archetype": "Enchanter senza CC duro",
+          "reason": "Non hanno stun o root point-and-click per interrompere la tua Q, quindi un singolo hook nell'all-in del tuo AD li uccide prima che gli scudi superino il tuo danno."
+        },
+        {
+          "examples": [
+            "jhin",
+            "sivir",
+            "ezreal"
+          ],
+          "archetype": "ADC immobili o a bassa mobilità",
+          "reason": "Questi ADC non hanno un dash affidabile per schivare la tua Q ai livelli 2-3, quindi una volta presa la priorità in lane li agganci e forzi un Flash o una kill."
+        },
+        {
+          "examples": [
+            "senna",
+            "ashe"
+          ],
+          "archetype": "Carry stazionari a distanza",
+          "reason": "Il loro DPS auto-attack è massimo da fermi — esattamente quando la tua Q è più facile da centrare. Poi la R li blocca abbastanza a lungo da farli finire dal team."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "morgana",
+            "milio"
+          ],
+          "archetype": "Support con spell-shield",
+          "reason": "Lo scudo pre-cast blocca la tua Q in toto, eliminando il tuo unico engage per 5+ secondi. Senza Q, il kit collassa a un bruiser in melee senza gap-close."
+        },
+        {
+          "examples": [
+            "caitlyn",
+            "draven"
+          ],
+          "archetype": "Lane bully con range auto-attack",
+          "reason": "Ti smontano i bonus HP prima del livello 3 — il tuo scudo W dura solo 6s e ha 12s di CD, quindi pokano gratis nei downtime e tu cedi la lane."
+        },
+        {
+          "examples": [
+            "braum",
+            "alistar",
+            "leona"
+          ],
+          "archetype": "Tank engager con CC point-and-click",
+          "reason": "Engagano su di te mentre la tua Q è in cooldown. Senza Q per fare peel a ritroso o per terrain-pull fuori, mangi tutto il combo — chi pickа per primo dirige il pattern di trade."
+        }
+      ]
+    },
+    "content_html": "<h2>Panoramica</h2>\n<p>Nautilus è un tank engage support il cui intero gioco ruota attorno a una sola abilità: <strong>Dredge Line (Q)</strong>. Atterrala su un nemico e lo stunni, lo trascini dentro al tuo team e attivi anche la <strong>Staggering Blow (P)</strong> per mezzo secondo extra di lockdown. Mancala e hai 14 secondi di cooldown senza nulla — niente poke a distanza, niente waveclear utile, e un tank in melee piazzato proprio dove il support avversario voleva trovarti. Questa natura binaria lo rende brutale contro chi cammina in linea retta e imbarazzante contro chi ha spell-shield o dash veloci.</p>\n<p>Il piano partita è trovare un hook, spendere <strong>Depth Charge (R)</strong> sul target prioritario nel teamfight (insegue un singolo nemico ma fa knock-up a chiunque sia sul tragitto), poi peelare il carry dietro di lui con gli slow di <strong>Riptide (E)</strong>. <strong>Titan's Wrath (W)</strong> dà uno scudo temporaneo e danno magico AOE sulle auto-attack per 6 secondi — è l'unica vera finestra in cui Nautilus infligge danno reale. Fuori da W è una macchina di CC: ogni decisione che prendi è \"dove voglio piazzare il prossimo stun\".</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> (lo starter da support che si auto-evolve grazie alla quest support) + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3340.png\" alt=\"Stealth Ward\"> <strong>Stealth Ward</strong> trinket.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> — lo starter da support. Genera l'oro che alimenta la tua early lane e si auto-aggiorna due volte (fase intermedia in stile Runesteel, poi <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png\" alt=\"Bloodsong\"> <strong>Bloodsong</strong> quando la quest è completa).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — stivali con magic resist e tenacity (riduce la durata di stun e root applicati su di te). Default nella maggior parte dei matchup perché support e mid laner avversari fanno tipicamente danno magico con CC.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> <strong>Locket of the Iron Solari</strong> — primo item completo. Active scudo per tutto il team durante un engage di teamfight; combacia perfettamente con il timing del tuo flash-engage su <strong>R</strong>.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3109.png\" alt=\"Knight&#x27;s Vow\"> <strong>Knight's Vow</strong> — secondo item completo. Bond con il tuo carry più forte: ridirezioni una fetta del danno che lui prende su di te, e guadagni movement speed correndo verso di lui. Strumento di peel puro.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png\" alt=\"Bloodsong\"> <strong>Bloodsong</strong> — upgrade endgame del support starter (non lo compri direttamente: il tuo World Atlas si evolve in Bloodsong quando la quest è completa). Ha una passiva tipo Spellblade: dopo aver castato un'abilità, la tua prossima auto-attack fa danno bonus e amplifica il target.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3050.png\" alt=\"Zeke&#x27;s Convergence\"> <strong>Zeke's Convergence</strong> — terzo item completo. Dopo l'ult, ti collega all'alleato bonded e aggiunge slow più danno bonus sui suoi attacchi. Disegnato apposta per tank engage abbinati a un damage carry.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> — swap dai Mercury's contro lane di auto-attack pesante (Caitlyn, Draven, Master Yi). Riduzione fissa su ogni basic attack che ricevi.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/8020.png\" alt=\"Abyssal Mask\"> <strong>Abyssal Mask</strong> — contro composizioni AP-heavy che si raggruppano. L'aura fa prendere più danno magico ai nemici vicini; ottimo se il tuo team ha un mid mago.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2504.png\" alt=\"Kaenic Rookern\"> <strong>Kaenic Rookern</strong> — contro mage burst (Veigar, Syndra, Annie). Grosso scudo magico che si rigenera fuori combattimento — mangia il primo combo di abilità che ti viene lanciato in fight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3075.png\" alt=\"Thornmail\"> <strong>Thornmail</strong> — contro composizioni che impilano cure (Soraka, Vladimir, Aatrox). Applica Grievous Wounds (dimezza le cure nemiche) quando subisci una basic attack.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3083.png\" alt=\"Warmog&#x27;s Armor\"> <strong>Warmog's Armor</strong> — contro composizioni di poke (Xerath, Varus, Jayce). La rigenerazione HP fuori combattimento ti permette di tankare il chip damage tra le wave e restare sulla mappa.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3143.png\" alt=\"Randuin&#x27;s Omen\"> <strong>Randuin's Omen</strong> — contro ADC crit-stacking (Caitlyn, Yasuo, Tryndamere). Riduce del 25% il danno dei colpi critici e ha un attivo AOE che rallenta tutti i nemici intorno a te quando engagi.</li>\n</ul>\n<p><strong>Stivali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> è il default — la maggior parte dei support e mid laner avversari fa danno magico e applica CC. Passa a <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> solo quando 3 dei 5 nemici fanno danno fisico.</p>\n<p><strong>Skill order:</strong> Q al livello 1 (ti serve l'engage online), E al 2 per pressione di trade pre-6 (slow per chase), W al 3 per lo scudo. Poi massimizza <strong>E</strong> per primo (CD più basso = più poke su wave e più uptime di slow), <strong>Q</strong> per secondo (CD più corto sull'engage), <strong>W</strong> per ultimo. <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Resolve</strong> con <strong>Aftershock</strong>, <strong>Font of Life</strong>, <strong>Bone Plating</strong>, <strong>Unflinching</strong>. Secondario <strong>Inspiration</strong> con <strong>Magical Footwear</strong> e <strong>Cosmic Insight</strong>, oppure <strong>Sorcery</strong> con <strong>Manaflow Band</strong> e <strong>Nimbus Cloak</strong> contro lane di poke pesante.</p>\n<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Soraka:</strong> Lane facile. Non ha CC per interrompere la tua Q e il suo trade pattern è silence + auto-attack — la tua Q la stunna prima che riesca a castarla. Hook al livello 2 per first blood.</li>\n<li><strong>Morgana:</strong> Hard counter. Il suo Black Shield blocca la tua Q in toto. Bait lo scudo camminando avanti come per engagare, aspetta che lo casti (12s di CD early), poi hookala nella finestra dopo che è scaduto. Se si scuda sempre, hookа l'ADC al posto suo.</li>\n<li><strong>Caitlyn:</strong> Lane bully. Out-rangea la tua Q (range 1150, lei tira basic da 650 ma trappole e headshot ti zonano). Nasconditi dietro la wave e cerca un flank hook dal cespuglio laterale.</li>\n<li><strong>Leona:</strong> Mirror engage. Chi atterra il proprio CC per primo vince il trade. La sua <strong>E</strong> dash è su 10s di CD — fagliela bruciare, poi hookala nel recovery. Wardа i cespugli di lane perché engageа solo da melee.</li>\n<li><strong>Lulu:</strong> Matchup pari o leggermente favorevole. Non ha spell shield; la sua <strong>W</strong> può poliformarti per cancellare un engage in corso, ma non blocca una Q già in volo. Apri sempre con Q prima che lei pre-casti W.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2 (con Q + E):</strong> Prima finestra di kill. Se ti permettono di pushare la wave 1, arrivi al 2 prima. Hookа l'ADC nemico, segui con E per lo slow, il tuo AD chiude la kill.</li>\n<li><strong>Livello 6:</strong> <strong>Depth Charge (R)</strong> si sblocca. Ora l'engage è in due tempi: hook con Q, poi catena R se flashano. Cerca un roam su mid dopo un all-in andato a buon fine — la tua R è una delle ult di pickoff più forti del gioco.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> Locket of the Iron Solari completato (~ minuto 14-16):</strong> Il tuo engage è abbinato a uno scudo team-wide attivo. Forza un fight su Drake o Voidgrubs qui — il tuo team è significativamente più tanky di quello avversario nei 3 secondi di scudo.</li>\n<li><strong>Knight's Vow + Bloodsong spike (~ minuto 22-26):</strong> Con <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3109.png\" alt=\"Knight&#x27;s Vow\"> <strong>Knight's Vow</strong> bondato sul tuo carry e la quest support evoluta in <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png\" alt=\"Bloodsong\"> <strong>Bloodsong</strong>, tanki un combo nemico completo e regali la win condition al carry bonded. Forza Baron e Drake in questa finestra prima che l'ADC avversario ti scali sopra.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Lanciare Q dentro la wave di minion.</strong> L'hook si ferma sul primo nemico colpito, quindi un caster minion lo mangia al posto dell'ADC nemico. Cammina di lato alla wave o usa un cespuglio per pulire la linea di vista prima di hookare.</li>\n<li><strong>R-engagare un tank invece del target prioritario.</strong> Depth Charge insegue il bersaglio — se ulti il Sion avversario, la R fa quasi nulla perché Sion ha 4000 HP e una passiva che lo resuscita. Ult sempre il target damage più alto a HP più basso (l'ADC o il mago mid), anche se è dall'altra parte della mappa.</li>\n<li><strong>Tenere W per la kill invece di usarla per waveclear.</strong> Lo scudo è su 12s di CD — la finestra più lunga del kit tra una cast e l'altra. Se non la usi pre-trade, perdi i 6 secondi di danno AOE sulle auto. Apri ogni engage con W, non chiudilo con W.</li>\n<li><strong>Q-pull sul team nemico.</strong> Hookare il terreno ti tira al terreno (riposizionamento tipo Flash) — ma hookare un nemico ti tira sul nemico. Se Q-i un nemico nella loro backline, atterri dentro al loro team da solo e muori in 1 secondo. Hookа solo quando hai follow-up.</li>\n<li><strong>Camminare fuori vision dopo aver mancato la Q.</strong> Senza Q non hai escape. Dopo un hook mancato, ritirati sulla wave o in zona wardata per i 14 secondi che servono alla Q per tornare; non stare in fog of war sperando in un re-engage.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena la <strong>Q-flash combo</strong> per engage a sorpresa. Casta Q in una direzione e durante la breve animazione casta Flash — l'hook continua dalla nuova posizione, allungando di molto il range effettivo e bypassando i blocchi dei minion. Esercitati nel Practice Tool finché il timing non diventa memoria muscolare: ti permette di engagare da fuori la vision range nemica ed è la singola meccanica che separa un Nautilus \"buono\" da uno smurf-tier.</p>",
+    "content_html_pre": "<h2>Panoramica</h2>\n<p>Nautilus è un tank engage support il cui intero gioco ruota attorno a una sola abilità: <strong>Dredge Line (Q)</strong>. Atterrala su un nemico e lo stunni, lo trascini dentro al tuo team e attivi anche la <strong>Staggering Blow (P)</strong> per mezzo secondo extra di lockdown. Mancala e hai 14 secondi di cooldown senza nulla — niente poke a distanza, niente waveclear utile, e un tank in melee piazzato proprio dove il support avversario voleva trovarti. Questa natura binaria lo rende brutale contro chi cammina in linea retta e imbarazzante contro chi ha spell-shield o dash veloci.</p>\n<p>Il piano partita è trovare un hook, spendere <strong>Depth Charge (R)</strong> sul target prioritario nel teamfight (insegue un singolo nemico ma fa knock-up a chiunque sia sul tragitto), poi peelare il carry dietro di lui con gli slow di <strong>Riptide (E)</strong>. <strong>Titan's Wrath (W)</strong> dà uno scudo temporaneo e danno magico AOE sulle auto-attack per 6 secondi — è l'unica vera finestra in cui Nautilus infligge danno reale. Fuori da W è una macchina di CC: ogni decisione che prendi è \"dove voglio piazzare il prossimo stun\".</p>\n<h2>Build Consigliata</h2>\n<p><strong>Item iniziali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> (lo starter da support che si auto-evolve grazie alla quest support) + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3340.png\" alt=\"Stealth Ward\"> <strong>Stealth Ward</strong> trinket.</p>\n<p><strong>Item core (nell'ordine):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> — lo starter da support. Genera l'oro che alimenta la tua early lane e si auto-aggiorna due volte (fase intermedia in stile Runesteel, poi <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png\" alt=\"Bloodsong\"> <strong>Bloodsong</strong> quando la quest è completa).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — stivali con magic resist e tenacity (riduce la durata di stun e root applicati su di te). Default nella maggior parte dei matchup perché support e mid laner avversari fanno tipicamente danno magico con CC.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> <strong>Locket of the Iron Solari</strong> — primo item completo. Active scudo per tutto il team durante un engage di teamfight; combacia perfettamente con il timing del tuo flash-engage su <strong>R</strong>.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3109.png\" alt=\"Knight&#x27;s Vow\"> <strong>Knight's Vow</strong> — secondo item completo. Bond con il tuo carry più forte: ridirezioni una fetta del danno che lui prende su di te, e guadagni movement speed correndo verso di lui. Strumento di peel puro.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png\" alt=\"Bloodsong\"> <strong>Bloodsong</strong> — upgrade endgame del support starter (non lo compri direttamente: il tuo World Atlas si evolve in Bloodsong quando la quest è completa). Ha una passiva tipo Spellblade: dopo aver castato un'abilità, la tua prossima auto-attack fa danno bonus e amplifica il target.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3050.png\" alt=\"Zeke&#x27;s Convergence\"> <strong>Zeke's Convergence</strong> — terzo item completo. Dopo l'ult, ti collega all'alleato bonded e aggiunge slow più danno bonus sui suoi attacchi. Disegnato apposta per tank engage abbinati a un damage carry.</li>\n</ol>\n<p><strong>Item situazionali:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> — swap dai Mercury's contro lane di auto-attack pesante (Caitlyn, Draven, Master Yi). Riduzione fissa su ogni basic attack che ricevi.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/8020.png\" alt=\"Abyssal Mask\"> <strong>Abyssal Mask</strong> — contro composizioni AP-heavy che si raggruppano. L'aura fa prendere più danno magico ai nemici vicini; ottimo se il tuo team ha un mid mago.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2504.png\" alt=\"Kaenic Rookern\"> <strong>Kaenic Rookern</strong> — contro mage burst (Veigar, Syndra, Annie). Grosso scudo magico che si rigenera fuori combattimento — mangia il primo combo di abilità che ti viene lanciato in fight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3075.png\" alt=\"Thornmail\"> <strong>Thornmail</strong> — contro composizioni che impilano cure (Soraka, Vladimir, Aatrox). Applica Grievous Wounds (dimezza le cure nemiche) quando subisci una basic attack.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3083.png\" alt=\"Warmog&#x27;s Armor\"> <strong>Warmog's Armor</strong> — contro composizioni di poke (Xerath, Varus, Jayce). La rigenerazione HP fuori combattimento ti permette di tankare il chip damage tra le wave e restare sulla mappa.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3143.png\" alt=\"Randuin&#x27;s Omen\"> <strong>Randuin's Omen</strong> — contro ADC crit-stacking (Caitlyn, Yasuo, Tryndamere). Riduce del 25% il danno dei colpi critici e ha un attivo AOE che rallenta tutti i nemici intorno a te quando engagi.</li>\n</ul>\n<p><strong>Stivali:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> è il default — la maggior parte dei support e mid laner avversari fa danno magico e applica CC. Passa a <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> solo quando 3 dei 5 nemici fanno danno fisico.</p>\n<p><strong>Skill order:</strong> Q al livello 1 (ti serve l'engage online), E al 2 per pressione di trade pre-6 (slow per chase), W al 3 per lo scudo. Poi massimizza <strong>E</strong> per primo (CD più basso = più poke su wave e più uptime di slow), <strong>Q</strong> per secondo (CD più corto sull'engage), <strong>W</strong> per ultimo. <strong>R</strong> ai livelli 6, 11, 16.</p>\n<p><strong>Rune:</strong> Albero primario <strong>Resolve</strong> con <strong>Aftershock</strong>, <strong>Font of Life</strong>, <strong>Bone Plating</strong>, <strong>Unflinching</strong>. Secondario <strong>Inspiration</strong> con <strong>Magical Footwear</strong> e <strong>Cosmic Insight</strong>, oppure <strong>Sorcery</strong> con <strong>Manaflow Band</strong> e <strong>Nimbus Cloak</strong> contro lane di poke pesante.</p>",
+    "content_html_post": "<h2>Matchup chiave</h2>\n<ul>\n<li><strong>Soraka:</strong> Lane facile. Non ha CC per interrompere la tua Q e il suo trade pattern è silence + auto-attack — la tua Q la stunna prima che riesca a castarla. Hook al livello 2 per first blood.</li>\n<li><strong>Morgana:</strong> Hard counter. Il suo Black Shield blocca la tua Q in toto. Bait lo scudo camminando avanti come per engagare, aspetta che lo casti (12s di CD early), poi hookala nella finestra dopo che è scaduto. Se si scuda sempre, hookа l'ADC al posto suo.</li>\n<li><strong>Caitlyn:</strong> Lane bully. Out-rangea la tua Q (range 1150, lei tira basic da 650 ma trappole e headshot ti zonano). Nasconditi dietro la wave e cerca un flank hook dal cespuglio laterale.</li>\n<li><strong>Leona:</strong> Mirror engage. Chi atterra il proprio CC per primo vince il trade. La sua <strong>E</strong> dash è su 10s di CD — fagliela bruciare, poi hookala nel recovery. Wardа i cespugli di lane perché engageа solo da melee.</li>\n<li><strong>Lulu:</strong> Matchup pari o leggermente favorevole. Non ha spell shield; la sua <strong>W</strong> può poliformarti per cancellare un engage in corso, ma non blocca una Q già in volo. Apri sempre con Q prima che lei pre-casti W.</li>\n</ul>\n<h2>Power spike &#x26; condizioni di vittoria</h2>\n<ul>\n<li><strong>Livello 2 (con Q + E):</strong> Prima finestra di kill. Se ti permettono di pushare la wave 1, arrivi al 2 prima. Hookа l'ADC nemico, segui con E per lo slow, il tuo AD chiude la kill.</li>\n<li><strong>Livello 6:</strong> <strong>Depth Charge (R)</strong> si sblocca. Ora l'engage è in due tempi: hook con Q, poi catena R se flashano. Cerca un roam su mid dopo un all-in andato a buon fine — la tua R è una delle ult di pickoff più forti del gioco.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> Locket of the Iron Solari completato (~ minuto 14-16):</strong> Il tuo engage è abbinato a uno scudo team-wide attivo. Forza un fight su Drake o Voidgrubs qui — il tuo team è significativamente più tanky di quello avversario nei 3 secondi di scudo.</li>\n<li><strong>Knight's Vow + Bloodsong spike (~ minuto 22-26):</strong> Con <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3109.png\" alt=\"Knight&#x27;s Vow\"> <strong>Knight's Vow</strong> bondato sul tuo carry e la quest support evoluta in <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3877.png\" alt=\"Bloodsong\"> <strong>Bloodsong</strong>, tanki un combo nemico completo e regali la win condition al carry bonded. Forza Baron e Drake in questa finestra prima che l'ADC avversario ti scali sopra.</li>\n</ul>\n<h2>Errori comuni</h2>\n<ul>\n<li><strong>Lanciare Q dentro la wave di minion.</strong> L'hook si ferma sul primo nemico colpito, quindi un caster minion lo mangia al posto dell'ADC nemico. Cammina di lato alla wave o usa un cespuglio per pulire la linea di vista prima di hookare.</li>\n<li><strong>R-engagare un tank invece del target prioritario.</strong> Depth Charge insegue il bersaglio — se ulti il Sion avversario, la R fa quasi nulla perché Sion ha 4000 HP e una passiva che lo resuscita. Ult sempre il target damage più alto a HP più basso (l'ADC o il mago mid), anche se è dall'altra parte della mappa.</li>\n<li><strong>Tenere W per la kill invece di usarla per waveclear.</strong> Lo scudo è su 12s di CD — la finestra più lunga del kit tra una cast e l'altra. Se non la usi pre-trade, perdi i 6 secondi di danno AOE sulle auto. Apri ogni engage con W, non chiudilo con W.</li>\n<li><strong>Q-pull sul team nemico.</strong> Hookare il terreno ti tira al terreno (riposizionamento tipo Flash) — ma hookare un nemico ti tira sul nemico. Se Q-i un nemico nella loro backline, atterri dentro al loro team da solo e muori in 1 secondo. Hookа solo quando hai follow-up.</li>\n<li><strong>Camminare fuori vision dopo aver mancato la Q.</strong> Senza Q non hai escape. Dopo un hook mancato, ritirati sulla wave o in zona wardata per i 14 secondi che servono alla Q per tornare; non stare in fog of war sperando in un re-engage.</li>\n</ul>\n<h2>Suggerimento avanzato</h2>\n<p>Allena la <strong>Q-flash combo</strong> per engage a sorpresa. Casta Q in una direzione e durante la breve animazione casta Flash — l'hook continua dalla nuova posizione, allungando di molto il range effettivo e bypassando i blocchi dei minion. Esercitati nel Practice Tool finché il timing non diventa memoria muscolare: ti permette di engagare da fuori la vision range nemica ed è la singola meccanica che separa un Nautilus \"buono\" da uno smurf-tier.</p>",
+    "word_count": 1417,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "blitzcrank-support",
+        "champion": "blitzcrank",
+        "role": "support"
+      },
+      {
+        "slug": "braum-support",
+        "champion": "braum",
+        "role": "support"
+      },
+      {
+        "slug": "janna-support",
+        "champion": "janna",
+        "role": "support"
+      },
+      {
+        "slug": "karma-support",
+        "champion": "karma",
+        "role": "support"
+      },
+      {
+        "slug": "leona-support",
+        "champion": "leona",
+        "role": "support"
+      }
+    ],
+    "champion_key": "111"
   },
   {
     "slug": "neeko-mid",

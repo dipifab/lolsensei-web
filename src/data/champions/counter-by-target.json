@@ -408,6 +408,26 @@
       },
       {
         "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Skirmishers with QSS-style cleanse",
+        "reason": "Akali's R2 dash and Irelia's Q resets jump cooldowns ignore your E root timing. You either land E pre-6 with no R follow-up, or eat their full all-in once they have ultimate up.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Skirmisher con cleanse stile QSS",
+        "reason": "Il dash di R2 di Akali e i reset di Q di Irelia ignorano la tempistica del root della E. O atterri E pre-6 senza la R per chiudere, o mangi il loro all-in completo una volta che hanno l'ulti su.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "orianna",
           "role": "mid",
           "lang": "en"
@@ -630,6 +650,26 @@
       },
       {
         "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Level 1-2 all-in supports",
+        "reason": "Milio's level 1 kit is just Warm Hugs and a 10-second Q — he loses every short trade before W is online to add range and sustain. Pantheon Q + W and Alistar Q + W combo can drop the carry before R.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support all-in livello 1-2",
+        "reason": "Il kit di Milio a livello 1 è solo Warm Hugs e una Q a 10s — perde ogni trade breve prima che W sia online. Il combo Pantheon Q + W e Alistar Q + W cancellano il carry prima della R.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "miss-fortune",
           "role": "bot",
           "lang": "en"
@@ -646,6 +686,26 @@
         },
         "archetype": "Tank support da hard-engage con CC point-and-click",
         "reason": "I loro stun e knock-up arrivano prima che il channel della R finisca. Senza Flash disponibile, Miss Fortune non può ri-posizionarsi a metà channel e perde tutto il valore dell'ult.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Engage tanks with point-and-click CC",
+        "reason": "They engage on you while your Q is on cooldown. Without Q to peel back or terrain-pull out, you eat their full combo — they pick first means you lose the trade pattern.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Tank engager con CC point-and-click",
+        "reason": "Engagano su di te mentre la tua Q è in cooldown. Senza Q per fare peel a ritroso o per terrain-pull fuori, mangi tutto il combo — chi pickа per primo dirige il pattern di trade.",
         "via": "counterpick"
       },
       {
@@ -1012,6 +1072,26 @@
       },
       {
         "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "All-in diver junglers",
+        "reason": "Their gank is a single committed jump or charge with hard CC; R cleanses the lock-down on your AD carry and Warm Hugs's Move Speed lets the carry walk straight out of melee range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Jungler diver da all-in",
+        "reason": "Il loro gank è un singolo salto committed con hard CC; la R pulisce il lock-down sull'AD carry e il Move Speed di Warm Hugs porta il carry fuori dal melee range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "orianna",
           "role": "mid",
           "lang": "en"
@@ -1374,6 +1454,46 @@
       },
       {
         "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "They cannot dodge your E root, so the full Q follow-up lands. Once Overwhelm is on them, your global R picks them off the moment they recall low or step into your jungler's gank.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "Non possono schivare il root della E, quindi tutto il follow-up di Q va a segno. Una volta marchiati con Overwhelm, la R globale li raccoglie appena recallano bassi o passano sotto un gank del jungler.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile control mages without dash",
+        "reason": "They have no fast escape against a long-range R dash. Once R lands you can finish with Q + auto-attacks before they walk to safety, and your hounds soak any retaliation skillshot.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage di controllo immobili senza dash",
+        "reason": "Non hanno escape veloce contro un dash R a lunga gittata. Una volta atterrata la R chiudi con Q + auto prima che camminino in safe, e i tuoi hound assorbono qualunque skillshot di ritorno.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "orianna",
           "role": "mid",
           "lang": "en"
@@ -1713,6 +1833,26 @@
         "archetype": "CC point-and-click affidabile",
         "reason": "Il loro stun cancella il channel della R prima che la suppression finisca — senza R che entra non hai pressione di kill e il kit è debole.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Telegraphed all-in mages",
+        "reason": "Their engage requires a long animation or a card draw — Rebuttal (W) reflects the projectile portion of their burst, which often kills them outright if you have Overwhelm stacked.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage da all-in telegrafato",
+        "reason": "Il loro engage richiede un'animazione lenta o l'estrazione di una carta — Rebuttal (W) riflette la parte projectile del burst, e quasi sempre li uccide se hai già Overwhelm stackato.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -2220,6 +2360,26 @@
       },
       {
         "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile basic-attack AD carries",
+        "reason": "Cozy Campfire's bonus Attack Range turns a stationary marksman into an artillery platform: they out-range every enemy lane without needing to step forward into harm's range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "AD carry immobili da basic attack",
+        "reason": "L'Attack Range bonus di Cozy Campfire trasforma un marksman fermo in artiglieria: out-rangea ogni lane avversaria senza bisogno di esporsi avanzando.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "miss-fortune",
           "role": "bot",
           "lang": "en"
@@ -2276,6 +2436,26 @@
         },
         "archetype": "AD carry a lungo range con auto-attack forti",
         "reason": "E più Surging Tides più Ardent Censer trasformano un marksman fermo in una macchina da poke: ogni auto empowered fa danno bonus e slowa, permettendo di restare in lane più del nemico.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Stationary ranged carries",
+        "reason": "Their auto-attack DPS is highest while standing still — exactly when your Q is easiest to land. R then locks them out of repositioning long enough for your team to finish them.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Carry stazionari a distanza",
+        "reason": "Il loro DPS auto-attack è massimo da fermi — esattamente quando la tua Q è più facile da centrare. Poi la R li blocca abbastanza a lungo da farli finire dal team.",
         "via": "pick_into"
       },
       {
@@ -2480,6 +2660,26 @@
         },
         "archetype": "Mage di area-denial a lungo raggio",
         "reason": "Pre-6 ti bullizzano, ma post-11 il magic shield della Q + la mobilita' della R neutralizzano i loro tool di kiting. Quando la partita va lunga, la loro AOE e' sprecata su un target che non riescono a fissare.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile control mages without dash",
+        "reason": "They have no fast escape against a long-range R dash. Once R lands you can finish with Q + auto-attacks before they walk to safety, and your hounds soak any retaliation skillshot.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage di controllo immobili senza dash",
+        "reason": "Non hanno escape veloce contro un dash R a lunga gittata. Una volta atterrata la R chiudi con Q + auto prima che camminino in safe, e i tuoi hound assorbono qualunque skillshot di ritorno.",
         "via": "pick_into"
       },
       {
@@ -2806,6 +3006,26 @@
       },
       {
         "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range hook supports",
+        "reason": "Milio has no gap-closer and no instant CC: a hook landed before level 6 deletes the AD carry before R is online. Q is too slow to interrupt the cast.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support con hook a lunga gittata",
+        "reason": "Milio non ha gap-closer e nessun CC istantaneo: un hook a segno prima del livello 6 cancella l'AD carry prima che R sia online. La Q è troppo lenta per interrompere il cast.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "morgana",
           "role": "support",
           "lang": "en"
@@ -3108,6 +3328,26 @@
       },
       {
         "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range mage supports",
+        "reason": "They poke past the 650 range of Warm Hugs: Milio can shield each hit but cannot trade back, and slow HP attrition wears down the lane before his team-fight spike.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Mage support a lunga gittata",
+        "reason": "Pokano oltre i 650 di range di Warm Hugs: Milio scuda ogni colpo ma non può rispondere, e l'attrizione di HP nel tempo vince la lane prima del suo team-fight spike.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "morgana",
           "role": "support",
           "lang": "en"
@@ -3145,6 +3385,28 @@
         "archetype": "Mage support stazionari senza escape",
         "reason": "Devono stare fermi per castare i loro skillshot lunghi: è esattamente il momento in cui la W atterra pulita. La Aegis Assault blocca anche il loro poke tra un engage e l'altro, negando completamente il loro lane plan.",
         "via": "pick_into"
+      }
+    ],
+    "braum": [
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Engage tanks with point-and-click CC",
+        "reason": "They engage on you while your Q is on cooldown. Without Q to peel back or terrain-pull out, you eat their full combo — they pick first means you lose the trade pattern.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Tank engager con CC point-and-click",
+        "reason": "Engagano su di te mentre la tua Q è in cooldown. Senza Q per fare peel a ritroso o per terrain-pull fuori, mangi tutto il combo — chi pickа per primo dirige il pattern di trade.",
+        "via": "counterpick"
       }
     ],
     "caitlyn": [
@@ -3650,6 +3912,26 @@
       },
       {
         "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile basic-attack AD carries",
+        "reason": "Cozy Campfire's bonus Attack Range turns a stationary marksman into an artillery platform: they out-range every enemy lane without needing to step forward into harm's range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "AD carry immobili da basic attack",
+        "reason": "L'Attack Range bonus di Cozy Campfire trasforma un marksman fermo in artiglieria: out-rangea ogni lane avversaria senza bisogno di esporsi avanzando.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "miss-fortune",
           "role": "bot",
           "lang": "en"
@@ -3707,6 +3989,26 @@
         "archetype": "AD carry a lungo range con auto-attack forti",
         "reason": "E più Surging Tides più Ardent Censer trasformano un marksman fermo in una macchina da poke: ogni auto empowered fa danno bonus e slowa, permettendo di restare in lane più del nemico.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Lane bullies with auto-attack range",
+        "reason": "They harass your bonus HP down before level 3 — your shield W only lasts 6s and has a 12s cooldown, so they trade for free during downtime and you give up the lane.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Lane bully con range auto-attack",
+        "reason": "Ti smontano i bonus HP prima del livello 3 — il tuo scudo W dura solo 6s e ha 12s di CD, quindi pokano gratis nei downtime e tu cedi la lane.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -5386,6 +5688,26 @@
       },
       {
         "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Lane bullies with auto-attack range",
+        "reason": "They harass your bonus HP down before level 3 — your shield W only lasts 6s and has a 12s cooldown, so they trade for free during downtime and you give up the lane.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Lane bully con range auto-attack",
+        "reason": "Ti smontano i bonus HP prima del livello 3 — il tuo scudo W dura solo 6s e ha 12s di CD, quindi pokano gratis nei downtime e tu cedi la lane.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "soraka",
           "role": "support",
           "lang": "en"
@@ -5688,6 +6010,26 @@
       },
       {
         "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Strong early-clear invade junglers",
+        "reason": "They reach level 3 with full HP before you do and out-duel you in your own jungle. Master Yi has no escape pre-6, so a successful invade at minute 3-4 sets you back two camps.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler con clear forte ed early invade",
+        "reason": "Arrivano al livello 3 a HP pieno prima di te e ti battono nei duelli dentro la tua jungle. Master Yi non ha escape pre-6, quindi un invade riuscito al minuto 3-4 ti costa due camp.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "viego",
           "role": "jungle",
           "lang": "en"
@@ -5968,6 +6310,26 @@
         },
         "archetype": "Marksman immobili da poke e harass",
         "reason": "Miss Fortune vince i trade lunghi perché Love Tap premia il cambio target. Contro marksman senza dash scambia alla pari a lunga gittata e prende vantaggio una volta che Strut active aggiunge attack speed.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile or low-mobility ADCs",
+        "reason": "These ADCs lack a reliable dash to dodge your Q hook at level 2-3, so once you clear the wave priority you can walk up, hook one of them, and force a flash or a kill.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC immobili o a bassa mobilità",
+        "reason": "Questi ADC non hanno un dash affidabile per schivare la tua Q ai livelli 2-3, quindi una volta presa la priorità in lane li agganci e forzi un Flash o una kill.",
         "via": "pick_into"
       },
       {
@@ -6894,6 +7256,46 @@
         },
         "archetype": "Mid laner amici del cleanse",
         "reason": "Entrambi rushano Quicksilver Sash o lo costruiscono situazionalmente — QSS è l'unico item che rimuove la suppression, neutralizzando interamente la tua R.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "They jump on you before you can land E, and W only blocks projectile damage — most of their burst is melee or self-targeted, so the reflect does almost nothing. No dash means no escape after the burst lands.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con multi gap-close",
+        "reason": "Ti saltano addosso prima che tu possa centrare la E, e la W blocca solo i projectile — quasi tutto il loro burst è melee o self-targeted, quindi il reflect non fa quasi nulla. Senza dash non hai escape dopo che il burst entra.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "They duel you in your own range and have built-in escapes (Zed shadows, Fizz E) that dodge your R lock-on or its follow-up Q. They also itemize the same way you do, so you scale linearly with no edge.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con multi gap-close",
+        "reason": "Duellano nel tuo stesso range e hanno escape integrate (Zed shadows, Fizz E) che dodgano il lock-on della R o il follow-up Q. Itemizzano come te, quindi scalate uguale senza che tu abbia un edge.",
         "via": "counterpick"
       },
       {
@@ -8271,6 +8673,26 @@
         "archetype": "Diver junglers vistosi",
         "reason": "La loro gank è un solo salto telegrafato — la Q li knock-uppa a mezz'aria e la R li rispedisce indietro da dove sono partiti, sprecando il cooldown.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "All-in diver junglers",
+        "reason": "Their gank is a single committed jump or charge with hard CC; R cleanses the lock-down on your AD carry and Warm Hugs's Move Speed lets the carry walk straight out of melee range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Jungler diver da all-in",
+        "reason": "Il loro gank è un singolo salto committed con hard CC; la R pulisce il lock-down sull'AD carry e il Move Speed di Warm Hugs porta il carry fuori dal melee range.",
+        "via": "pick_into"
       }
     ],
     "heimerdinger": [
@@ -8477,6 +8899,26 @@
         "archetype": "Carry basati su auto-attack",
         "reason": "Ground Slam taglia di molto la loro Attack Speed e Granite Shield si mangia il primo burst. Il loro damage profile si appiattisce mentre tu scali in una frontline che ignora il loro kit.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Skirmishers with QSS-style cleanse",
+        "reason": "Akali's R2 dash and Irelia's Q resets jump cooldowns ignore your E root timing. You either land E pre-6 with no R follow-up, or eat their full all-in once they have ultimate up.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Skirmisher con cleanse stile QSS",
+        "reason": "Il dash di R2 di Akali e i reset di Q di Irelia ignorano la tempistica del root della E. O atterri E pre-6 senza la R per chiudere, o mangi il loro all-in completo una volta che hanno l'ulti su.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -8719,6 +9161,26 @@
         "archetype": "Support di disengage e cleanse",
         "reason": "La R di Janna cancella il tuo engage in pieno cast, la R di Milio rimuove il root della W a distanza, la combo W-Q di Alistar strappa il carry dal tuo follow-up AOE. Il tuo unico hard engage viene risposto a costo zero.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Enchanters with no hard CC",
+        "reason": "They have no point-and-click stun or root to interrupt your Q, so a single landed hook into your AD's all-in kills them before their shields outpace your damage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter senza CC duro",
+        "reason": "Non hanno stun o root point-and-click per interrompere la tua Q, quindi un singolo hook nell'all-in del tuo AD li uccide prima che gli scudi superino il tuo danno.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -8982,6 +9444,26 @@
         },
         "archetype": "Duelist con counter point-and-click o true damage",
         "reason": "Fiora pare la E o la R, l'E hookshot di Camille stunna attraverso il tuo dash, la E di Jax stunna e supera la tua passiva basata su AS in scambi prolungati.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "On-hit / armor-stacking duelists with reflect or dodge",
+        "reason": "Rammus's W reflects a chunk of your auto-attack damage back at you and Jax's E dodges every basic for 2 seconds — both sides of your DPS get cancelled in a 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Duellanti on-hit / armor-stack con riflesso o dodge",
+        "reason": "La W di Rammus rimanda indietro una fetta del danno delle tue auto-attack, la E di Jax dodgea ogni basic per 2 secondi: entrambe le facce della tua DPS vengono cancellate in 1v1.",
         "via": "counterpick"
       },
       {
@@ -9430,6 +9912,26 @@
       },
       {
         "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile basic-attack AD carries",
+        "reason": "Cozy Campfire's bonus Attack Range turns a stationary marksman into an artillery platform: they out-range every enemy lane without needing to step forward into harm's range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "AD carry immobili da basic attack",
+        "reason": "L'Attack Range bonus di Cozy Campfire trasforma un marksman fermo in artiglieria: out-rangea ogni lane avversaria senza bisogno di esporsi avanzando.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "morgana",
           "role": "support",
           "lang": "en"
@@ -9466,6 +9968,26 @@
         },
         "archetype": "AD carry a lungo range con auto-attack forti",
         "reason": "E più Surging Tides più Ardent Censer trasformano un marksman fermo in una macchina da poke: ogni auto empowered fa danno bonus e slowa, permettendo di restare in lane più del nemico.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile or low-mobility ADCs",
+        "reason": "These ADCs lack a reliable dash to dodge your Q hook at level 2-3, so once you clear the wave priority you can walk up, hook one of them, and force a flash or a kill.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC immobili o a bassa mobilità",
+        "reason": "Questi ADC non hanno un dash affidabile per schivare la tua Q ai livelli 2-3, quindi una volta presa la priorità in lane li agganci e forzi un Flash o una kill.",
         "via": "pick_into"
       },
       {
@@ -10842,6 +11364,46 @@
       },
       {
         "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash or self-peel",
+        "reason": "Alpha Strike crosses 600 units and goes untargetable mid-dash. They have no escape once you commit Highlander, and Coup de Grace cleans them up under 40% HP.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash né self-peel",
+        "reason": "Alpha Strike copre 600 unità diventando untargetable. Una volta committato Highlander non hanno escape, e Coup de Grace li chiude sotto il 40% HP.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "They cannot dodge your E root, so the full Q follow-up lands. Once Overwhelm is on them, your global R picks them off the moment they recall low or step into your jungler's gank.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "Non possono schivare il root della E, quindi tutto il follow-up di Q va a segno. Una volta marchiati con Overwhelm, la R globale li raccoglie appena recallano bassi o passano sotto un gank del jungler.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "orianna",
           "role": "mid",
           "lang": "en"
@@ -11080,6 +11642,26 @@
         },
         "archetype": "Mid laner amici del cleanse",
         "reason": "Entrambi rushano Quicksilver Sash o lo costruiscono situazionalmente — QSS è l'unico item che rimuove la suppression, neutralizzando interamente la tua R.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "They jump on you before you can land E, and W only blocks projectile damage — most of their burst is melee or self-targeted, so the reflect does almost nothing. No dash means no escape after the burst lands.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con multi gap-close",
+        "reason": "Ti saltano addosso prima che tu possa centrare la E, e la W blocca solo i projectile — quasi tutto il loro burst è melee o self-targeted, quindi il reflect non fa quasi nulla. Senza dash non hai escape dopo che il burst entra.",
         "via": "counterpick"
       },
       {
@@ -12664,29 +13246,9 @@
           "role": "bot",
           "lang": "en"
         },
-        "archetype": "Late-game hyper-carry ADCs",
-        "reason": "If they survive past minute 25 with two items, Lucian's damage curve flattens while theirs spikes hard — they outdamage him in every extended fight.",
-        "via": "counterpick"
-      },
-      {
-        "publisher": {
-          "champion": "lucian",
-          "role": "bot",
-          "lang": "en"
-        },
         "archetype": "Immobile scaling ADCs without early dominance",
         "reason": "Lucian's Q poke + E dash lets him win every level 2-6 trade; immobile scalers can't fight back before items and concede plates and CS.",
         "via": "pick_into"
-      },
-      {
-        "publisher": {
-          "champion": "lucian",
-          "role": "bot",
-          "lang": "it"
-        },
-        "archetype": "ADC hyper-carry da late game",
-        "reason": "Se sopravvivono oltre il minuto 25 con due item, la curva di danno di Lucian si appiattisce mentre la loro spara: lo superano in damage in ogni fight prolungato.",
-        "via": "counterpick"
       },
       {
         "publisher": {
@@ -12776,6 +13338,26 @@
         },
         "archetype": "ADC immobili senza dash",
         "reason": "Twisted Advance è root point-and-click: gli ADC senza dash, blink o stealth mangiano la combo W in auto ogni volta che entri in range di W. L'unica counter-play è il summoner spell, e una volta che il Flash è giù muoiono in una combo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Squishy ADCs without dash",
+        "reason": "Both rely on positioning and lack a self-peel button. Once you reach the back line with R active, they have no answer beyond hoping their support lands a CC chain.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "ADC squishy senza dash",
+        "reason": "Entrambi vivono di posizionamento e non hanno un pulsante di self-peel. Una volta in backline con R attiva, l'unica risposta è una catena CC del support.",
         "via": "pick_into"
       },
       {
@@ -13204,6 +13786,26 @@
       },
       {
         "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Strong early-clear invade junglers",
+        "reason": "They reach level 3 with full HP before you do and out-duel you in your own jungle. Master Yi has no escape pre-6, so a successful invade at minute 3-4 sets you back two camps.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler con clear forte ed early invade",
+        "reason": "Arrivano al livello 3 a HP pieno prima di te e ti battono nei duelli dentro la tua jungle. Master Yi non ha escape pre-6, quindi un invade riuscito al minuto 3-4 ti costa due camp.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "viego",
           "role": "jungle",
           "lang": "en"
@@ -13606,6 +14208,26 @@
       },
       {
         "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hard engage supports",
+        "reason": "R cleanses their CC the moment it lands and grants Tenacity afterward — you keep your back line alive even if their initial pick goes through.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support hard engage",
+        "reason": "La R pulisce il loro CC nel momento in cui colpisce e dopo dà Tenacità — la back line resta viva anche se il primo pick va a segno.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "miss-fortune",
           "role": "bot",
           "lang": "en"
@@ -13662,6 +14284,26 @@
         },
         "archetype": "Tank support da hard-engage",
         "reason": "Ti saltano addosso prima che tu finisca di castare la Q (il bubble ha 0.5s di delay). Una volta stunata: niente R, niente peel, niente fuga — muori nella catena CC.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Engage tanks with point-and-click CC",
+        "reason": "They engage on you while your Q is on cooldown. Without Q to peel back or terrain-pull out, you eat their full combo — they pick first means you lose the trade pattern.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Tank engager con CC point-and-click",
+        "reason": "Engagano su di te mentre la tua Q è in cooldown. Senza Q per fare peel a ritroso o per terrain-pull fuori, mangi tutto il combo — chi pickа per primo dirige il pattern di trade.",
         "via": "counterpick"
       },
       {
@@ -14026,6 +14668,26 @@
         },
         "archetype": "CC point-and-click affidabile",
         "reason": "Il loro stun cancella il channel della R prima che la suppression finisca — senza R che entra non hai pressione di kill e il kit è debole.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Self-peel point-and-click CC",
+        "reason": "Lissandra R self-stasis (untargetable bubble) cancels your R takedown reset. Malphite W armor + R knock-up removes you from your hounds and stops the chase before the bleed lands.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Self-peel con CC point-and-click",
+        "reason": "La R di Lissandra (self-stasi, bolla di intoccabilità) cancella il takedown reset della tua R. Malphite con la W armor + R knock-up ti separa dai hound e blocca l'inseguimento prima che il bleed atterri.",
         "via": "counterpick"
       },
       {
@@ -14594,6 +15256,26 @@
       },
       {
         "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Enchanters with no hard CC",
+        "reason": "They have no point-and-click stun or root to interrupt your Q, so a single landed hook into your AD's all-in kills them before their shields outpace your damage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter senza CC duro",
+        "reason": "Non hanno stun o root point-and-click per interrompere la tua Q, quindi un singolo hook nell'all-in del tuo AD li uccide prima che gli scudi superino il tuo danno.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "pantheon",
           "role": "support",
           "lang": "en"
@@ -14992,6 +15674,26 @@
         },
         "archetype": "Immobile mages with single-cooldown CC",
         "reason": "Una volta che il loro root o stun e' in cooldown non hanno risposta al tuo engage E flash + W root + R lockdown; gli sopravvivi al secondo trade su ogni wave.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery with no mobility",
+        "reason": "Their poke wins early but they melt the moment a dash gets on them. Stack health items or Edge of Night, soak one Q or stun, then R closes the gap and your pack does the rest.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Artillery a lunga gittata senza mobility",
+        "reason": "Vincono il poke early ma si sciolgono nel momento in cui un dash gli arriva addosso. Stacca HP o Edge of Night, mangia una Q o uno stun, poi R chiude la distanza e il branco fa il resto.",
         "via": "pick_into"
       },
       {
@@ -15458,6 +16160,26 @@
       },
       {
         "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Self-peel point-and-click CC",
+        "reason": "Lissandra R self-stasis (untargetable bubble) cancels your R takedown reset. Malphite W armor + R knock-up removes you from your hounds and stops the chase before the bleed lands.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Self-peel con CC point-and-click",
+        "reason": "La R di Lissandra (self-stasi, bolla di intoccabilità) cancella il takedown reset della tua R. Malphite con la W armor + R knock-up ti separa dai hound e blocca l'inseguimento prima che il bleed atterri.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "orianna",
           "role": "mid",
           "lang": "en"
@@ -15680,6 +16402,26 @@
       },
       {
         "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Single-target hard-suppress champions",
+        "reason": "Their R locks you in place for the full duration: it ignores Highlander's slow immunity (suppression is a separate type) and your team has to peel for you, which nullifies your own dive.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Champion con suppress single-target",
+        "reason": "La loro R ti tiene fermo per tutta la durata: ignora l'immunità agli slow di Highlander (suppress è un tipo separato) e il tuo team deve peelare per te, annullando la pressione di dive.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "morgana",
           "role": "support",
           "lang": "en"
@@ -15696,6 +16438,26 @@
         },
         "archetype": "Champion con suppression a canale lungo o lock single-target",
         "reason": "Black Shield impedisce al canale di applicarsi. Castalo pre-emptive appena entrano in range e l'ultimate va in cooldown a vuoto.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Stationary cast-and-channel mages",
+        "reason": "Both stand still to deal damage. R closes from outside their effective range, and W's brief untargetability eats the first hard-CC ability so you arrive on top of them with full HP.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage da cast e channel statici",
+        "reason": "Stanno fermi per fare danno. R chiude da fuori la loro effective range e la untargetability di W mangia la prima hard CC, così arrivi sopra di loro a HP pieno.",
         "via": "pick_into"
       },
       {
@@ -16346,6 +17108,26 @@
       },
       {
         "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Spell-shield supports",
+        "reason": "Their pre-cast shield blocks your Q entirely, removing your only engage tool for 5+ seconds. Without Q, your kit collapses to a melee bruiser with no gap-close.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support con spell-shield",
+        "reason": "Lo scudo pre-cast blocca la tua Q in toto, eliminando il tuo unico engage per 5+ secondi. Senza Q, il kit collassa a un bruiser in melee senza gap-close.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "pantheon",
           "role": "support",
           "lang": "en"
@@ -16872,6 +17654,26 @@
       },
       {
         "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Spell-shield supports",
+        "reason": "Their pre-cast shield blocks your Q entirely, removing your only engage tool for 5+ seconds. Without Q, your kit collapses to a melee bruiser with no gap-close.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support con spell-shield",
+        "reason": "Lo scudo pre-cast blocca la tua Q in toto, eliminando il tuo unico engage per 5+ secondi. Senza Q, il kit collassa a un bruiser in melee senza gap-close.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "pantheon",
           "role": "support",
           "lang": "en"
@@ -17292,6 +18094,26 @@
         },
         "archetype": "Stat-check tops without early kill threat",
         "reason": "Senza burst e senza catene di hard-CC non punisco il tuo pre-6 debole, e dal livello 11 con auto ranged li out-DPS da distanza sicura.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Slow-moving tanks without dash",
+        "reason": "They cannot close on a kiting Kindred. You auto-attack from outside their CC range while Wolf's Frenzy chips them passively.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Tank lenti senza dash",
+        "reason": "Non riescono a chiudere la distanza su un Kindred che kite. Auto-attacchi da fuori range del loro CC mentre Wolf's Frenzy li chippa passivamente.",
         "via": "pick_into"
       },
       {
@@ -17734,6 +18556,26 @@
         },
         "archetype": "Tank engage che batti col range della R",
         "reason": "Il loro engage richiede di essere addosso a te, ma Nature's Grasp li rooting da uno schermo di distanza. Non riescono mai ad aprire il fight alle loro condizioni.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hard engage supports",
+        "reason": "R cleanses their CC the moment it lands and grants Tenacity afterward — you keep your back line alive even if their initial pick goes through.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support hard engage",
+        "reason": "La R pulisce il loro CC nel momento in cui colpisce e dopo dà Tenacità — la back line resta viva anche se il primo pick va a segno.",
         "via": "pick_into"
       },
       {
@@ -18486,6 +19328,26 @@
       },
       {
         "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile control mages without dash",
+        "reason": "They have no fast escape against a long-range R dash. Once R lands you can finish with Q + auto-attacks before they walk to safety, and your hounds soak any retaliation skillshot.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage di controllo immobili senza dash",
+        "reason": "Non hanno escape veloce contro un dash R a lunga gittata. Una volta atterrata la R chiudi con Q + auto prima che camminino in safe, e i tuoi hound assorbono qualunque skillshot di ritorno.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "zed",
           "role": "mid",
           "lang": "en"
@@ -18890,6 +19752,26 @@
       },
       {
         "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Level 1-2 all-in supports",
+        "reason": "Milio's level 1 kit is just Warm Hugs and a 10-second Q — he loses every short trade before W is online to add range and sustain. Pantheon Q + W and Alistar Q + W combo can drop the carry before R.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support all-in livello 1-2",
+        "reason": "Il kit di Milio a livello 1 è solo Warm Hugs e una Q a 10s — perde ogni trade breve prima che W sia online. Il combo Pantheon Q + W e Alistar Q + W cancellano il carry prima della R.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "mordekaiser",
           "role": "top",
           "lang": "en"
@@ -19270,6 +20152,26 @@
         },
         "archetype": "Support hook con CC a lungo range",
         "reason": "Lulu non ha escape e niente hard CC al level 1 — un hook landato prima del 6 cancella l'AD carry prima che la R sia online per spingere via l'engager.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range hook supports",
+        "reason": "Milio has no gap-closer and no instant CC: a hook landed before level 6 deletes the AD carry before R is online. Q is too slow to interrupt the cast.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support con hook a lunga gittata",
+        "reason": "Milio non ha gap-closer e nessun CC istantaneo: un hook a segno prima del livello 6 cancella l'AD carry prima che R sia online. La Q è troppo lenta per interrompere il cast.",
         "via": "counterpick"
       },
       {
@@ -19920,6 +20822,26 @@
       },
       {
         "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hard engage supports",
+        "reason": "R cleanses their CC the moment it lands and grants Tenacity afterward — you keep your back line alive even if their initial pick goes through.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support hard engage",
+        "reason": "La R pulisce il loro CC nel momento in cui colpisce e dopo dà Tenacità — la back line resta viva anche se il primo pick va a segno.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "morgana",
           "role": "support",
           "lang": "en"
@@ -20099,6 +21021,26 @@
         "archetype": "Jungler con clear lento e poca mobilità",
         "reason": "Kha'Zix invade più veloce con E e arriva al Scuttle Crab in tempo. Counter-jungla i camp dietro dopo ogni Drake — ruotano troppo lenti per punirti.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "On-hit / armor-stacking duelists with reflect or dodge",
+        "reason": "Rammus's W reflects a chunk of your auto-attack damage back at you and Jax's E dodges every basic for 2 seconds — both sides of your DPS get cancelled in a 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Duellanti on-hit / armor-stack con riflesso o dodge",
+        "reason": "La W di Rammus rimanda indietro una fetta del danno delle tue auto-attack, la E di Jax dodgea ogni basic per 2 secondi: entrambe le facce della tua DPS vengono cancellate in 1v1.",
+        "via": "counterpick"
       }
     ],
     "rell": [
@@ -20300,6 +21242,26 @@
         },
         "archetype": "Tank engage che batti col range della R",
         "reason": "Il loro engage richiede di essere addosso a te, ma Nature's Grasp li rooting da uno schermo di distanza. Non riescono mai ad aprire il fight alle loro condizioni.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hard engage supports",
+        "reason": "R cleanses their CC the moment it lands and grants Tenacity afterward — you keep your back line alive even if their initial pick goes through.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support hard engage",
+        "reason": "La R pulisce il loro CC nel momento in cui colpisce e dopo dà Tenacità — la back line resta viva anche se il primo pick va a segno.",
         "via": "pick_into"
       },
       {
@@ -22164,6 +23126,86 @@
       },
       {
         "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Squishy ADCs without dash",
+        "reason": "Both rely on positioning and lack a self-peel button. Once you reach the back line with R active, they have no answer beyond hoping their support lands a CC chain.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "ADC squishy senza dash",
+        "reason": "Entrambi vivono di posizionamento e non hanno un pulsante di self-peel. Una volta in backline con R attiva, l'unica risposta è una catena CC del support.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Backline scalers without disengage",
+        "reason": "Long lanes mean you stack Overwhelm passively while they farm. Even when they out-poke you, R closes the kill from base or sidelane the second their HP dips.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Carry da retroguardia senza disengage",
+        "reason": "Le lane lunghe lasciano accumulare passivamente Overwhelm mentre loro farmano. Anche quando ti pokano oltre la tua gittata, la R chiude la kill da base o sidelane appena la loro HP scende.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile basic-attack AD carries",
+        "reason": "Cozy Campfire's bonus Attack Range turns a stationary marksman into an artillery platform: they out-range every enemy lane without needing to step forward into harm's range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "AD carry immobili da basic attack",
+        "reason": "L'Attack Range bonus di Cozy Campfire trasforma un marksman fermo in artiglieria: out-rangea ogni lane avversaria senza bisogno di esporsi avanzando.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Stationary ranged carries",
+        "reason": "Their auto-attack DPS is highest while standing still — exactly when your Q is easiest to land. R then locks them out of repositioning long enough for your team to finish them.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Carry stazionari a distanza",
+        "reason": "Il loro DPS auto-attack è massimo da fermi — esattamente quando la tua Q è più facile da centrare. Poi la R li blocca abbastanza a lungo da farli finire dal team.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "orianna",
           "role": "mid",
           "lang": "en"
@@ -23350,31 +24392,11 @@
         "publisher": {
           "champion": "kindred",
           "role": "jungle",
-          "lang": "en"
-        },
-        "archetype": "Slow-moving tanks without dash",
-        "reason": "They cannot close on a kiting Kindred. You auto-attack from outside their CC range while Wolf's Frenzy chips them passively.",
-        "via": "pick_into"
-      },
-      {
-        "publisher": {
-          "champion": "kindred",
-          "role": "jungle",
           "lang": "it"
         },
         "archetype": "Juggernaut tank con mitigazione o immunità on-hit",
         "reason": "Lo shield W di Sion e la passive heal di Mundo annullano il tuo DPS auto-attack — il tuo unico danno è on-hit, quindi tutto ciò che rompe quel loop ti neutralizza.",
         "via": "counterpick"
-      },
-      {
-        "publisher": {
-          "champion": "kindred",
-          "role": "jungle",
-          "lang": "it"
-        },
-        "archetype": "Tank lenti senza dash",
-        "reason": "Non riescono a chiudere la distanza su un Kindred che kite. Auto-attacchi da fuori range del loro CC mentre Wolf's Frenzy li chippa passivamente.",
-        "via": "pick_into"
       },
       {
         "publisher": {
@@ -23600,6 +24622,26 @@
       },
       {
         "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile or low-mobility ADCs",
+        "reason": "These ADCs lack a reliable dash to dodge your Q hook at level 2-3, so once you clear the wave priority you can walk up, hook one of them, and force a flash or a kill.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC immobili o a bassa mobilità",
+        "reason": "Questi ADC non hanno un dash affidabile per schivare la tua Q ai livelli 2-3, quindi una volta presa la priorità in lane li agganci e forzi un Flash o una kill.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "tristana",
           "role": "bot",
           "lang": "en"
@@ -23698,6 +24740,26 @@
         },
         "archetype": "Campioni con suppression o lockdown unstoppable",
         "reason": "La suppression non viene rimossa dai Mercury's Treads; appena ti taggano non puoi più R out e la finestra di invisibilità è sprecata.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Single-target hard-suppress champions",
+        "reason": "Their R locks you in place for the full duration: it ignores Highlander's slow immunity (suppression is a separate type) and your team has to peel for you, which nullifies your own dive.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Champion con suppress single-target",
+        "reason": "La loro R ti tiene fermo per tutta la durata: ignora l'immunità agli slow di Highlander (suppress è un tipo separato) e il tuo team deve peelare per te, annullando la pressione di dive.",
         "via": "counterpick"
       },
       {
@@ -24378,16 +25440,6 @@
         "publisher": {
           "champion": "maokai",
           "role": "support",
-          "lang": "en"
-        },
-        "archetype": "Backline enchanters that hug the ADC",
-        "reason": "Sapling Toss reveals brush and bushes around the ADC; once you W onto the carry, the enchanter has nothing to peel with. Yuumi pops out of her host while rooted, opening a free pickoff.",
-        "via": "pick_into"
-      },
-      {
-        "publisher": {
-          "champion": "maokai",
-          "role": "support",
           "lang": "it"
         },
         "archetype": "Enchanter di pure sustain che battono l'harass",
@@ -24396,12 +25448,22 @@
       },
       {
         "publisher": {
-          "champion": "maokai",
-          "role": "support",
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Healing-stacking enchanters with no hard CC",
+        "reason": "Wuju Style true damage cuts through their team's frontline, and they cannot stop a level-6 dive: Soraka's silence is short, Yuumi only mitigates with shields.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
           "lang": "it"
         },
-        "archetype": "Enchanter di backline che restano addosso all'ADC",
-        "reason": "Sapling Toss rivela brush e cespugli intorno all'ADC; quando piazzi la W sul carry, l'enchanter non ha nulla per peelare. Yuumi viene espulsa dall'ospite quando viene rooted, aprendo un pickoff gratis.",
+        "archetype": "Enchanter healing-stack senza hard CC",
+        "reason": "Il true damage di Wuju Style buca il front line del loro team, e nessuno dei due può fermare un dive di livello 6: Soraka ha un silence corto, Yuumi mitiga solo con scudi.",
         "via": "pick_into"
       },
       {
@@ -24462,6 +25524,26 @@
         },
         "archetype": "Enchanter di puro sustain senza hard CC",
         "reason": "La loro lane è solo heal. Una sola Q landata bypassa l'heal e snowballa il trade. Il poke di Nami batte anche la loro rigenerazione lenta.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Enchanters with no hard CC",
+        "reason": "They have no point-and-click stun or root to interrupt your Q, so a single landed hook into your AD's all-in kills them before their shields outpace your damage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter senza CC duro",
+        "reason": "Non hanno stun o root point-and-click per interrompere la tua Q, quindi un singolo hook nell'all-in del tuo AD li uccide prima che gli scudi superino il tuo danno.",
         "via": "pick_into"
       },
       {
@@ -25962,6 +27044,26 @@
       },
       {
         "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range hook supports",
+        "reason": "Milio has no gap-closer and no instant CC: a hook landed before level 6 deletes the AD carry before R is online. Q is too slow to interrupt the cast.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support con hook a lunga gittata",
+        "reason": "Milio non ha gap-closer e nessun CC istantaneo: un hook a segno prima del livello 6 cancella l'AD carry prima che R sia online. La Q è troppo lenta per interrompere il cast.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "morgana",
           "role": "support",
           "lang": "en"
@@ -26887,6 +27989,26 @@
         "archetype": "Roamer globali / cross-map",
         "reason": "Lux pusha la wave e resta in lane; l'avversario usa l'ult per ribaltare le sidelane e i dragoni. Lux perde il macro game anche quando vince il matchup 1v1.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Telegraphed all-in mages",
+        "reason": "Their engage requires a long animation or a card draw — Rebuttal (W) reflects the projectile portion of their burst, which often kills them outright if you have Overwhelm stacked.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage da all-in telegrafato",
+        "reason": "Il loro engage richiede un'animazione lenta o l'estrazione di una carta — Rebuttal (W) riflette la parte projectile del burst, e quasi sempre li uccide se hai già Overwhelm stackato.",
+        "via": "pick_into"
       }
     ],
     "twitch": [
@@ -28722,6 +29844,66 @@
       },
       {
         "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash or self-peel",
+        "reason": "Alpha Strike crosses 600 units and goes untargetable mid-dash. They have no escape once you commit Highlander, and Coup de Grace cleans them up under 40% HP.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash né self-peel",
+        "reason": "Alpha Strike copre 600 unità diventando untargetable. Una volta committato Highlander non hanno escape, e Coup de Grace li chiude sotto il 40% HP.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "They cannot dodge your E root, so the full Q follow-up lands. Once Overwhelm is on them, your global R picks them off the moment they recall low or step into your jungler's gank.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "Non possono schivare il root della E, quindi tutto il follow-up di Q va a segno. Una volta marchiati con Overwhelm, la R globale li raccoglie appena recallano bassi o passano sotto un gank del jungler.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Stationary cast-and-channel mages",
+        "reason": "Both stand still to deal damage. R closes from outside their effective range, and W's brief untargetability eats the first hard-CC ability so you arrive on top of them with full HP.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage da cast e channel statici",
+        "reason": "Stanno fermi per fare danno. R chiude da fuori la loro effective range e la untargetability di W mangia la prima hard CC, così arrivi sopra di loro a HP pieno.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "orianna",
           "role": "mid",
           "lang": "en"
@@ -29364,6 +30546,26 @@
       },
       {
         "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range mage supports",
+        "reason": "They poke past the 650 range of Warm Hugs: Milio can shield each hit but cannot trade back, and slow HP attrition wears down the lane before his team-fight spike.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Mage support a lunga gittata",
+        "reason": "Pokano oltre i 650 di range di Warm Hugs: Milio scuda ogni colpo ma non può rispondere, e l'attrizione di HP nel tempo vince la lane prima del suo team-fight spike.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "morgana",
           "role": "support",
           "lang": "en"
@@ -29706,6 +30908,26 @@
         },
         "archetype": "Mage immobili senza dash",
         "reason": "La Q di Lux è un root a lunga gittata: chi non ha dash né stealth viene bindato su una linea pulita e mangia tutto il combo E + R prima di poter rispondere.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile control mages without dash",
+        "reason": "They have no fast escape against a long-range R dash. Once R lands you can finish with Q + auto-attacks before they walk to safety, and your hounds soak any retaliation skillshot.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage di controllo immobili senza dash",
+        "reason": "Non hanno escape veloce contro un dash R a lunga gittata. Una volta atterrata la R chiudi con Q + auto prima che camminino in safe, e i tuoi hound assorbono qualunque skillshot di ritorno.",
         "via": "pick_into"
       },
       {
@@ -30213,6 +31435,26 @@
         "archetype": "Jungler con dueling forte e tool da counter-gank",
         "reason": "Battono Kayn 1v1 nella sua fase early debole e possono invaderlo prima della form. Se ti campano la jungle, non puoi rispondere fino al livello 6.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "All-in diver junglers",
+        "reason": "Their gank is a single committed jump or charge with hard CC; R cleanses the lock-down on your AD carry and Warm Hugs's Move Speed lets the carry walk straight out of melee range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Jungler diver da all-in",
+        "reason": "Il loro gank è un singolo salto committed con hard CC; la R pulisce il lock-down sull'AD carry e il Move Speed di Warm Hugs porta il carry fuori dal melee range.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -31000,6 +32242,46 @@
       },
       {
         "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Backline scalers without disengage",
+        "reason": "Long lanes mean you stack Overwhelm passively while they farm. Even when they out-poke you, R closes the kill from base or sidelane the second their HP dips.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Carry da retroguardia senza disengage",
+        "reason": "Le lane lunghe lasciano accumulare passivamente Overwhelm mentre loro farmano. Anche quando ti pokano oltre la tua gittata, la R chiude la kill da base o sidelane appena la loro HP scende.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range mage supports",
+        "reason": "They poke past the 650 range of Warm Hugs: Milio can shield each hit but cannot trade back, and slow HP attrition wears down the lane before his team-fight spike.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Mage support a lunga gittata",
+        "reason": "Pokano oltre i 650 di range di Warm Hugs: Milio scuda ogni colpo ma non può rispondere, e l'attrizione di HP nel tempo vince la lane prima del suo team-fight spike.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "morgana",
           "role": "support",
           "lang": "en"
@@ -31017,6 +32299,26 @@
         "archetype": "Mage support a lungo raggio che pokano oltre il range della Q",
         "reason": "Il loro poke e piu veloce del tuo. Black Shield blocca solo un'abilita per cooldown, l'harass costante svuota l'HP del bot lane fuori dal range di ogni all-in.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery with no mobility",
+        "reason": "Their poke wins early but they melt the moment a dash gets on them. Stack health items or Edge of Night, soak one Q or stun, then R closes the gap and your pack does the rest.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Artillery a lunga gittata senza mobility",
+        "reason": "Vincono il poke early ma si sciolgono nel momento in cui un dash gli arriva addosso. Stacca HP o Edge of Night, mangia una Q o uno stun, poi R chiude la distanza e il branco fa il resto.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -31864,6 +33166,46 @@
       },
       {
         "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Wind Wall projectile blockers",
+        "reason": "Wind Wall eats your entire Q barrage and the projectile portion of your basic attacks under Searing Brilliance. They strip your damage profile in a 3-second window long enough to all-in.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Wind Wall che blocca i projectile",
+        "reason": "Wind Wall si mangia tutta la barrage di Q e la parte projectile dei tuoi auto-attack sotto Searing Brilliance. Ti annullano il damage profile in una finestra di 3 secondi, abbastanza per fare all-in.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Wind Wall mid-laners",
+        "reason": "Wind Wall blocks both Q daggers, deleting your main lane damage and bleed setup. Without bleed your pack takes much longer to chunk them, and Yasuo's E mobility plus shield wins the all-in trade.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mid-laner con Wind Wall",
+        "reason": "Wind Wall blocca entrambi i daggers di Q, cancellando il damage principale in lane e il setup del bleed. Senza bleed il branco impiega molto più a chunkare, e la mobility E + scudo di Yasuo vince l'all-in.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "nasus",
           "role": "top",
           "lang": "en"
@@ -32403,6 +33745,46 @@
         "archetype": "Assassini mobili che vivono di dash",
         "reason": "La R è una suppression single-target che ignora tenacity e dura 2.5s — i loro dash non la rompono. Una volta premuta R su di loro, muoiono prima di poter fare danno.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Wind Wall projectile blockers",
+        "reason": "Wind Wall eats your entire Q barrage and the projectile portion of your basic attacks under Searing Brilliance. They strip your damage profile in a 3-second window long enough to all-in.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Wind Wall che blocca i projectile",
+        "reason": "Wind Wall si mangia tutta la barrage di Q e la parte projectile dei tuoi auto-attack sotto Searing Brilliance. Ti annullano il damage profile in una finestra di 3 secondi, abbastanza per fare all-in.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Wind Wall mid-laners",
+        "reason": "Wind Wall blocks both Q daggers, deleting your main lane damage and bleed setup. Without bleed your pack takes much longer to chunk them, and Yasuo's E mobility plus shield wins the all-in trade.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mid-laner con Wind Wall",
+        "reason": "Wind Wall blocca entrambi i daggers di Q, cancellando il damage principale in lane e il setup del bleed. Senza bleed il branco impiega molto più a chunkare, e la mobility E + scudo di Yasuo vince l'all-in.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -33082,16 +34464,6 @@
         "publisher": {
           "champion": "maokai",
           "role": "support",
-          "lang": "en"
-        },
-        "archetype": "Backline enchanters that hug the ADC",
-        "reason": "Sapling Toss reveals brush and bushes around the ADC; once you W onto the carry, the enchanter has nothing to peel with. Yuumi pops out of her host while rooted, opening a free pickoff.",
-        "via": "pick_into"
-      },
-      {
-        "publisher": {
-          "champion": "maokai",
-          "role": "support",
           "lang": "it"
         },
         "archetype": "Enchanter di pure sustain che battono l'harass",
@@ -33100,12 +34472,22 @@
       },
       {
         "publisher": {
-          "champion": "maokai",
-          "role": "support",
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Healing-stacking enchanters with no hard CC",
+        "reason": "Wuju Style true damage cuts through their team's frontline, and they cannot stop a level-6 dive: Soraka's silence is short, Yuumi only mitigates with shields.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
           "lang": "it"
         },
-        "archetype": "Enchanter di backline che restano addosso all'ADC",
-        "reason": "Sapling Toss rivela brush e cespugli intorno all'ADC; quando piazzi la W sul carry, l'enchanter non ha nulla per peelare. Yuumi viene espulsa dall'ospite quando viene rooted, aprendo un pickoff gratis.",
+        "archetype": "Enchanter healing-stack senza hard CC",
+        "reason": "Il true damage di Wuju Style buca il front line del loro team, e nessuno dei due può fermare un dive di livello 6: Soraka ha un silence corto, Yuumi mitiga solo con scudi.",
         "via": "pick_into"
       },
       {
@@ -33166,6 +34548,26 @@
         },
         "archetype": "Enchanter di puro sustain senza hard CC",
         "reason": "La loro lane è solo heal. Una sola Q landata bypassa l'heal e snowballa il trade. Il poke di Nami batte anche la loro rigenerazione lenta.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Enchanters with no hard CC",
+        "reason": "They have no point-and-click stun or root to interrupt your Q, so a single landed hook into your AD's all-in kills them before their shields outpace your damage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "nautilus",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter senza CC duro",
+        "reason": "Non hanno stun o root point-and-click per interrompere la tua Q, quindi un singolo hook nell'all-in del tuo AD li uccide prima che gli scudi superino il tuo danno.",
         "via": "pick_into"
       },
       {
@@ -33369,6 +34771,26 @@
         "archetype": "Jungler engage AOE con CC a piu' lungo raggio",
         "reason": "Engagiano da fuori il range del tuo E-Q e ti incatenano in CC prima che tu raggiunga la backline; i muri non ti salvano se ti stunnano a meta' salto.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "All-in diver junglers",
+        "reason": "Their gank is a single committed jump or charge with hard CC; R cleanses the lock-down on your AD carry and Warm Hugs's Move Speed lets the carry walk straight out of melee range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "milio",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Jungler diver da all-in",
+        "reason": "Il loro gank è un singolo salto committed con hard CC; la R pulisce il lock-down sull'AD carry e il Move Speed di Warm Hugs porta il carry fuori dal melee range.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -33814,6 +35236,26 @@
       },
       {
         "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "They jump on you before you can land E, and W only blocks projectile damage — most of their burst is melee or self-targeted, so the reflect does almost nothing. No dash means no escape after the burst lands.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con multi gap-close",
+        "reason": "Ti saltano addosso prima che tu possa centrare la E, e la W blocca solo i projectile — quasi tutto il loro burst è melee o self-targeted, quindi il reflect non fa quasi nulla. Senza dash non hai escape dopo che il burst entra.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "miss-fortune",
           "role": "bot",
           "lang": "en"
@@ -33830,6 +35272,26 @@
         },
         "archetype": "Assassini mobili che flankano sulla back line",
         "reason": "Miss Fortune non ha escape e a Flash giù è il target più facile della back line. La burstano in 1-2 secondi prima che il peel del team possa intervenire.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "They duel you in your own range and have built-in escapes (Zed shadows, Fizz E) that dodge your R lock-on or its follow-up Q. They also itemize the same way you do, so you scale linearly with no edge.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "naafiri",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili con multi gap-close",
+        "reason": "Duellano nel tuo stesso range e hanno escape integrate (Zed shadows, Fizz E) che dodgano il lock-on della R o il follow-up Q. Itemizzano come te, quindi scalate uguale senza che tu abbia un edge.",
         "via": "counterpick"
       },
       {
@@ -34193,6 +35655,46 @@
         "archetype": "Artillery mage a lunga gittata",
         "reason": "Pokano da fuori la tua Q da 900 di range. Non hai dash per chiudere la distanza, quindi ogni wave ti costa HP senza opzione di ritorno.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash or self-peel",
+        "reason": "Alpha Strike crosses 600 units and goes untargetable mid-dash. They have no escape once you commit Highlander, and Coup de Grace cleans them up under 40% HP.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "master-yi",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash né self-peel",
+        "reason": "Alpha Strike copre 600 unità diventando untargetable. Una volta committato Highlander non hanno escape, e Coup de Grace li chiude sotto il 40% HP.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Backline scalers without disengage",
+        "reason": "Long lanes mean you stack Overwhelm passively while they farm. Even when they out-poke you, R closes the kill from base or sidelane the second their HP dips.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "mel",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Carry da retroguardia senza disengage",
+        "reason": "Le lane lunghe lasciano accumulare passivamente Overwhelm mentre loro farmano. Anche quando ti pokano oltre la tua gittata, la R chiude la kill da base o sidelane appena la loro HP scende.",
+        "via": "pick_into"
       },
       {
         "publisher": {
