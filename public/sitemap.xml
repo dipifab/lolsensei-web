@@ -2609,6 +2609,22 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kha-zix/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kha-zix/jungle/guide" />
   </url>
+  <!-- champion-guide/kindred/jungle: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/kindred/jungle/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/kindred/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kindred/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kindred/jungle/guide" />
+  </url>
+  <!-- champion-guide/kindred/jungle: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/kindred/jungle/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/kindred/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kindred/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kindred/jungle/guide" />
+  </url>
   <!-- champion-guide/kled/top: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/kled/top/guide</loc>
@@ -2624,6 +2640,38 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/kled/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kled/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kled/top/guide" />
+  </url>
+  <!-- champion-guide/kog-maw/bot: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/kog-maw/bot/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/kog-maw/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kog-maw/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kog-maw/bot/guide" />
+  </url>
+  <!-- champion-guide/kog-maw/bot: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/kog-maw/bot/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/kog-maw/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kog-maw/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kog-maw/bot/guide" />
+  </url>
+  <!-- champion-guide/leblanc/mid: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/leblanc/mid/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/leblanc/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/leblanc/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/leblanc/mid/guide" />
+  </url>
+  <!-- champion-guide/leblanc/mid: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/leblanc/mid/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/leblanc/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/leblanc/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/leblanc/mid/guide" />
   </url>
   <!-- champion-guide/lee-sin/jungle: en -->
   <url>
@@ -2656,6 +2704,54 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/leona/support/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/leona/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/leona/support/guide" />
+  </url>
+  <!-- champion-guide/lillia/jungle: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/lillia/jungle/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/lillia/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/lillia/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/lillia/jungle/guide" />
+  </url>
+  <!-- champion-guide/lillia/jungle: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/lillia/jungle/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/lillia/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/lillia/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/lillia/jungle/guide" />
+  </url>
+  <!-- champion-guide/lissandra/mid: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/lissandra/mid/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/lissandra/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/lissandra/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/lissandra/mid/guide" />
+  </url>
+  <!-- champion-guide/lissandra/mid: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/lissandra/mid/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/lissandra/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/lissandra/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/lissandra/mid/guide" />
+  </url>
+  <!-- champion-guide/lucian/bot: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/lucian/bot/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/lucian/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/lucian/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/lucian/bot/guide" />
+  </url>
+  <!-- champion-guide/lucian/bot: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/lucian/bot/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/lucian/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/lucian/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/lucian/bot/guide" />
   </url>
   <!-- champion-guide/lulu/support: en -->
   <url>
@@ -2704,6 +2800,38 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/malphite/top/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/malphite/top/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/malphite/top/guide" />
+  </url>
+  <!-- champion-guide/malzahar/mid: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/malzahar/mid/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/malzahar/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/malzahar/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/malzahar/mid/guide" />
+  </url>
+  <!-- champion-guide/malzahar/mid: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/malzahar/mid/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/malzahar/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/malzahar/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/malzahar/mid/guide" />
+  </url>
+  <!-- champion-guide/maokai/support: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/maokai/support/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/maokai/support/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/maokai/support/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/maokai/support/guide" />
+  </url>
+  <!-- champion-guide/maokai/support: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/maokai/support/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/maokai/support/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/maokai/support/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/maokai/support/guide" />
   </url>
   <!-- champion-guide/miss-fortune/bot: en -->
   <url>
@@ -3593,6 +3721,14 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kha-zix" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kha-zix" />
   </url>
+  <!-- counter-detail/kindred: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/kindred</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/kindred" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kindred" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kindred" />
+  </url>
   <!-- counter-detail/kled: en -->
   <url>
     <loc>https://www.lolsensei.com/en/counter/kled</loc>
@@ -3601,6 +3737,22 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kled" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kled" />
   </url>
+  <!-- counter-detail/kog-maw: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/kog-maw</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/kog-maw" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kog-maw" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kog-maw" />
+  </url>
+  <!-- counter-detail/leblanc: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/leblanc</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/leblanc" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/leblanc" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/leblanc" />
+  </url>
   <!-- counter-detail/leona: en -->
   <url>
     <loc>https://www.lolsensei.com/en/counter/leona</loc>
@@ -3608,6 +3760,30 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/leona" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/leona" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/leona" />
+  </url>
+  <!-- counter-detail/lillia: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/lillia</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/lillia" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/lillia" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/lillia" />
+  </url>
+  <!-- counter-detail/lissandra: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/lissandra</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/lissandra" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/lissandra" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/lissandra" />
+  </url>
+  <!-- counter-detail/lucian: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/lucian</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/lucian" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/lucian" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/lucian" />
   </url>
   <!-- counter-detail/lulu: en -->
   <url>
@@ -3632,6 +3808,22 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/malphite" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/malphite" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/malphite" />
+  </url>
+  <!-- counter-detail/malzahar: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/malzahar</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/malzahar" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/malzahar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/malzahar" />
+  </url>
+  <!-- counter-detail/maokai: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/maokai</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/maokai" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/maokai" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/maokai" />
   </url>
   <!-- counter-detail/miss-fortune: en -->
   <url>
@@ -4289,6 +4481,14 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kha-zix" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kha-zix" />
   </url>
+  <!-- counter-detail/kindred: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/kindred</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/kindred" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kindred" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kindred" />
+  </url>
   <!-- counter-detail/kled: it -->
   <url>
     <loc>https://www.lolsensei.com/it/counter/kled</loc>
@@ -4297,6 +4497,22 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kled" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kled" />
   </url>
+  <!-- counter-detail/kog-maw: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/kog-maw</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/kog-maw" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kog-maw" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kog-maw" />
+  </url>
+  <!-- counter-detail/leblanc: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/leblanc</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/leblanc" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/leblanc" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/leblanc" />
+  </url>
   <!-- counter-detail/leona: it -->
   <url>
     <loc>https://www.lolsensei.com/it/counter/leona</loc>
@@ -4304,6 +4520,30 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/leona" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/leona" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/leona" />
+  </url>
+  <!-- counter-detail/lillia: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/lillia</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/lillia" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/lillia" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/lillia" />
+  </url>
+  <!-- counter-detail/lissandra: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/lissandra</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/lissandra" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/lissandra" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/lissandra" />
+  </url>
+  <!-- counter-detail/lucian: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/lucian</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/lucian" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/lucian" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/lucian" />
   </url>
   <!-- counter-detail/lulu: it -->
   <url>
@@ -4328,6 +4568,22 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/malphite" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/malphite" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/malphite" />
+  </url>
+  <!-- counter-detail/malzahar: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/malzahar</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/malzahar" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/malzahar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/malzahar" />
+  </url>
+  <!-- counter-detail/maokai: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/maokai</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/maokai" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/maokai" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/maokai" />
   </url>
   <!-- counter-detail/miss-fortune: it -->
   <url>

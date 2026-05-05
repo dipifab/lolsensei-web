@@ -2293,6 +2293,35 @@
       }
     },
     {
+      "slug": "kindred-jungle",
+      "champion": "kindred",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Kindred Jungle Build & Guide — Patch 16.9",
+          "description": "Kindred jungle guide for League of Legends Patch 16.9: mark hunting, on-hit build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Marksman / Skirmisher Jungler",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Kindred",
+          "champion_key": "203"
+        },
+        "it": {
+          "title": "Kindred Jungle Build & Guida — Patch 16.9",
+          "description": "Guida Kindred jungle per League of Legends Patch 16.9: caccia ai Mark, build on-hit, matchup chiave, power spike, errori comuni e advanced tip finale.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Marksman / Skirmisher Jungler",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Kindred",
+          "champion_key": "203"
+        }
+      }
+    },
+    {
       "slug": "kled-top",
       "champion": "kled",
       "role": "top",
@@ -2318,6 +2347,64 @@
           "damage_type": "physical",
           "champion_dd_id": "Kled",
           "champion_key": "240"
+        }
+      }
+    },
+    {
+      "slug": "kog-maw-bot",
+      "champion": "kog-maw",
+      "role": "bot",
+      "locales": {
+        "en": {
+          "title": "Kog'Maw Bot Build & Guide — Patch 16.9",
+          "description": "Kog'Maw bot lane guide for League of Legends Patch 16.9: on-hit hyper-carry build, key matchups, power spikes, common mistakes, and a positioning tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Marksman / Hyper-carry on-hit",
+          "difficulty": 3,
+          "damage_type": "mixed",
+          "champion_dd_id": "KogMaw",
+          "champion_key": "96"
+        },
+        "it": {
+          "title": "Kog'Maw Bot Build & Guida — Patch 16.9",
+          "description": "Guida Kog'Maw bot lane League of Legends Patch 16.9: build hyper-carry on-hit, matchup chiave, power spike, errori comuni e una tip di posizionamento.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Marksman / Hyper-carry on-hit",
+          "difficulty": 3,
+          "damage_type": "mixed",
+          "champion_dd_id": "KogMaw",
+          "champion_key": "96"
+        }
+      }
+    },
+    {
+      "slug": "leblanc-mid",
+      "champion": "leblanc",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "LeBlanc Mid Build & Guide — Patch 16.9",
+          "description": "LeBlanc mid lane guide for League of Legends Patch 16.9: AP burst assassin build, Sigil double-tap combos, key matchups, level 6 spike, mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "AP Assassin / Burst Mage",
+          "difficulty": 4,
+          "damage_type": "magic",
+          "champion_dd_id": "Leblanc",
+          "champion_key": "7"
+        },
+        "it": {
+          "title": "LeBlanc Mid Build & Guida — Patch 16.9",
+          "description": "Guida LeBlanc mid per League of Legends Patch 16.9: build da AP burst assassin, combo Sigil double-tap, matchup chiave, power spike al 6, errori comuni e tip finale.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "AP Assassin / Burst Mage",
+          "difficulty": 4,
+          "damage_type": "magic",
+          "champion_dd_id": "Leblanc",
+          "champion_key": "7"
         }
       }
     },
@@ -2376,6 +2463,93 @@
           "damage_type": "magic",
           "champion_dd_id": "Leona",
           "champion_key": "89"
+        }
+      }
+    },
+    {
+      "slug": "lillia-jungle",
+      "champion": "lillia",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Lillia Jungle Build & Guide — Patch 16.9",
+          "description": "Lillia jungle guide for League of Legends Patch 16.9: starter kit, AP burst build path, key jungle matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "AP Skirmisher / Roaming Caster",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Lillia",
+          "champion_key": "876"
+        },
+        "it": {
+          "title": "Lillia Jungle Build & Guida — Patch 16.9",
+          "description": "Guida Lillia jungle per League of Legends Patch 16.9: starter kit, build AP burst, matchup chiave in jungla, power spike, errori comuni e una tip avanzata finale.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "AP Skirmisher / Roaming Caster",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Lillia",
+          "champion_key": "876"
+        }
+      }
+    },
+    {
+      "slug": "lissandra-mid",
+      "champion": "lissandra",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Lissandra Mid Build & Guide — Patch 16.9",
+          "description": "Lissandra mid lane guide for League of Legends Patch 16.9: control mage build path, anti-assassin self-R, key matchups, power spikes, and common mistakes.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Control Mage / Anti-Assassin",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Lissandra",
+          "champion_key": "127"
+        },
+        "it": {
+          "title": "Lissandra Mid Build & Guida — Patch 16.9",
+          "description": "Guida Lissandra mid per League of Legends Patch 16.9: build control mage, R su se stessa anti-assassino, matchup chiave, power spike ed errori comuni.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Control Mage / Anti-Assassin",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Lissandra",
+          "champion_key": "127"
+        }
+      }
+    },
+    {
+      "slug": "lucian-bot",
+      "champion": "lucian",
+      "role": "bot",
+      "locales": {
+        "en": {
+          "title": "Lucian Bot Build & Guide — Patch 16.9",
+          "description": "Lucian bot lane guide for League of Legends Patch 16.9: starter kit, lane-bully build, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Marksman / Lane Bully ADC",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Lucian",
+          "champion_key": "236"
+        },
+        "it": {
+          "title": "Lucian Bot Build & Guida — Patch 16.9",
+          "description": "Guida Lucian bot lane per League of Legends Patch 16.9: starter kit, build da lane bully, matchup chiave, power spike, errori comuni e una tip avanzata.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Marksman / Lane Bully ADC",
+          "difficulty": 3,
+          "damage_type": "physical",
+          "champion_dd_id": "Lucian",
+          "champion_key": "236"
         }
       }
     },
@@ -2463,6 +2637,64 @@
           "damage_type": "magic",
           "champion_dd_id": "Malphite",
           "champion_key": "54"
+        }
+      }
+    },
+    {
+      "slug": "malzahar-mid",
+      "champion": "malzahar",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Malzahar Mid Build & Guide — Patch 16.9",
+          "description": "Malzahar mid lane guide for League of Legends Patch 16.9: starter kit, control mage build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Control Mage / Voidling Caster",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Malzahar",
+          "champion_key": "90"
+        },
+        "it": {
+          "title": "Malzahar Mid Build & Guida — Patch 16.9",
+          "description": "Guida Malzahar mid lane per League of Legends Patch 16.9: starter kit, build da control mage, matchup chiave, power spike, errori comuni e un consiglio tecnico finale.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Control Mage / Voidling Caster",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Malzahar",
+          "champion_key": "90"
+        }
+      }
+    },
+    {
+      "slug": "maokai-support",
+      "champion": "maokai",
+      "role": "support",
+      "locales": {
+        "en": {
+          "title": "Maokai Support Build & Guide — Patch 16.9",
+          "description": "Maokai support guide for League of Legends Patch 16.9: starter kit, AP-tank engage build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Tank / Engage Support",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Maokai",
+          "champion_key": "57"
+        },
+        "it": {
+          "title": "Maokai Support Build & Guida — Patch 16.9",
+          "description": "Guida a Maokai support per League of Legends Patch 16.9: starter kit, build AP-tank engage, matchup chiave, power spike, errori comuni e una tip finale.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Tank / Engage Support",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Maokai",
+          "champion_key": "57"
         }
       }
     },

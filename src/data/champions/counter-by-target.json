@@ -388,6 +388,26 @@
       },
       {
         "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins relying on dashes",
+        "reason": "R is a single-target suppression that ignores tenacity and lasts 2.5s — their dashes do not break it. Once you press R on them, they die before they can output damage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili che vivono di dash",
+        "reason": "La R è una suppression single-target che ignora tenacity e dura 2.5s — i loro dash non la rompono. Una volta premuta R su di loro, muoiono prima di poter fare danno.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "orianna",
           "role": "mid",
           "lang": "en"
@@ -587,6 +607,26 @@
         "archetype": "Engage support con un solo dash",
         "reason": "Tutto il loro engage è un singolo salto telegrafato — Lulu polymorpha a mezz'aria e l'AD carry esce libero.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Disengage and cleanse supports",
+        "reason": "Janna R cancels your engage mid-cast, Milio R cleanses your W root at range, Alistar W-Q peels the carry out of your AOE follow-up. Your single hard engage gets answered for free.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support di disengage e cleanse",
+        "reason": "La R di Janna cancella il tuo engage in pieno cast, la R di Milio rimuove il root della W a distanza, la combo W-Q di Alistar strappa il carry dal tuo follow-up AOE. Il tuo unico hard engage viene risposto a costo zero.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -928,6 +968,46 @@
         },
         "archetype": "Jungler farm-heavy lenti senza invade level 3",
         "reason": "Full-clearano alla stessa velocita di Karthus, ma Karthus ha la R globale che trasforma il loro gank in uno scambio 2-for-1: anche se uccidono il tuo laner, R fa cleanup del loro cross-map prima che riescano a recall.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Stationary frontline engagers",
+        "reason": "After their R lands, your team has 2-3 seconds of free fire — exactly enough for one full W cycle on the locked-down frontline before they recover.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Frontline da engage stazionario",
+        "reason": "Dopo la loro R, la tua squadra ha 2-3 secondi di fuoco libero — esattamente il tempo per un ciclo W completo sul frontline lockato prima che recuperi.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Farm-heavy junglers without early invade",
+        "reason": "They want to clear in peace until level 6. Lillia matches their farm speed and out-skirmishes them at scuttle thanks to her Q stacks of Move Speed and DOT pressure.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler farm-heavy senza invade early",
+        "reason": "Vogliono clearare in pace fino al level 6. Lillia regge la loro velocità di farm e li batte allo scuttle grazie agli stack di Move Speed di Q e alla pressione DOT della passive.",
         "via": "pick_into"
       },
       {
@@ -1274,6 +1354,26 @@
       },
       {
         "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dashes",
+        "reason": "Q silence shuts down their cast windows entirely; once silenced they cannot answer your E DOT and they die in the R channel.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "Il silence della Q chiude completamente le loro cast window; una volta silenziati non possono rispondere al DOT della E e muoiono nel channel della R.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "orianna",
           "role": "mid",
           "lang": "en"
@@ -1536,6 +1636,46 @@
       },
       {
         "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without a reliable dash",
+        "reason": "Without a movement ability they cannot escape your W-Q-AA detonation, and Veigar's cage is a circle you simply walk around with W.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash affidabile",
+        "reason": "Senza un'abilità di movimento non scappano dalla detonazione W-Q-AA, e la cage di Veigar è un cerchio che con W aggiri.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages with single-cooldown CC",
+        "reason": "Once their root or stun is on cooldown they have no answer to your E flash + W root + R lockdown engage; you out-kit them on the second exchange every wave.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Immobile mages with single-cooldown CC",
+        "reason": "Una volta che il loro root o stun e' in cooldown non hanno risposta al tuo engage E flash + W root + R lockdown; gli sopravvivi al secondo trade su ogni wave.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -1553,6 +1693,26 @@
         "archetype": "Mage da all-in telegrafato",
         "reason": "Il loro engage richiede corto raggio e un tell lento: Lux scuda il burst con W, Q nel frame di recovery, e passeggia via per resettare il trade.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Reliable point-and-click CC",
+        "reason": "Their stun cancels your R channel before it finishes the suppression — without R landing, you have no kill pressure and your kit is weak.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "CC point-and-click affidabile",
+        "reason": "Il loro stun cancella il channel della R prima che la suppression finisca — senza R che entra non hai pressione di kill e il kit è debole.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -1674,6 +1834,66 @@
         },
         "archetype": "ADC late-game immobili senza dash",
         "reason": "La loro unica safety e' il posizionamento. Kalista hopa ad ogni auto-attack, quindi tradea in melee senza mai stare ferma: non hanno risposta tranne Flash, e tu stacki Rend piu' veloce di quanto loro resettino il trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Squishy backline marksmen with no built-in escape",
+        "reason": "Cross-map gank with E lands a slow long enough for you to chain 4 autos and trigger Mounting Dread's missing-HP hit — they have no dash to break the chain.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Marksman backline squishy senza escape integrato",
+        "reason": "Gank cross-map: la E slowsa abbastanza da permetterti la catena di 4 auto e far scattare il colpo HP-mancante di Mounting Dread, e loro non hanno dash che spezzi la catena.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lucian",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Immobile scaling ADCs without early dominance",
+        "reason": "Lucian's Q poke + E dash lets him win every level 2-6 trade; immobile scalers can't fight back before items and concede plates and CS.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lucian",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "ADC immobili da scaling senza early dominance",
+        "reason": "Q poke + E dash di Lucian vincono ogni trade level 2-6; gli scaler immobili non riescono a rispondere prima degli item e cedono plate e CS.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile ADCs without a dash",
+        "reason": "Twisted Advance is point-and-click root: ADCs with no dash, blink, or stealth eat the full W into auto chain every time you reach W range. Their only counterplay is summoner spells, and once Flash is down they die in one combo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC immobili senza dash",
+        "reason": "Twisted Advance è root point-and-click: gli ADC senza dash, blink o stealth mangiano la combo W in auto ogni volta che entri in range di W. L'unica counter-play è il summoner spell, e una volta che il Flash è giù muoiono in una combo.",
         "via": "pick_into"
       }
     ],
@@ -2506,6 +2726,26 @@
       },
       {
         "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Hook supports with single-target lockdown",
+        "reason": "Kog'Maw has no dash, no blink, no flash on E. One hook in lane equals one death because his only escape is Flash, which is a 5-minute summoner spell.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Support da hook con lockdown single-target",
+        "reason": "Kog'Maw non ha dash, blink o flash sulla E. Un hook in lane = una morte: l'unica escape è Flash, che è un summoner da 5 minuti di cooldown.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "leona",
           "role": "support",
           "lang": "en"
@@ -2523,6 +2763,26 @@
         "archetype": "Hook support che ti tirano fuori posizione",
         "reason": "Il loro hook atterra prima della tua E (Q di Thresh ~1100 vs E 875). Mangi il pull, vieni focalizzato da solo nel loro team, e il tuo ADC resta esposto senza tool di engage.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lucian",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Hook supports without dash-counterplay",
+        "reason": "Relentless Pursuit dodges hooks reactively. With E up, Lucian walks the lane bush against a hooker and forces the support to mispredict the dash direction.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lucian",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Support da hook senza dash-counterplay",
+        "reason": "Relentless Pursuit dodga gli hook in reattiva. Con E disponibile, Lucian cammina nel bush della lane contro un hooker e costringe il support a sbagliare la previsione del dash.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -2824,6 +3084,26 @@
         },
         "archetype": "Mage support a lungo range",
         "reason": "Pokano fuori dai 650 di range della E shield: Lulu può curare il colpo ma non rispondere, l'attrito di HP (lenta erosione di HP su tante wave) vince la lane.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range mage supports with shields or stuns",
+        "reason": "They poke you from 900-plus range and force you to all-in past your safe distance. Without dash mobility you eat free chip damage every wave, arriving at level 6 with half HP and no engage tempo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Mage support a lungo raggio con shield o stun",
+        "reason": "Ti pokano da 900-plus di range e ti costringono ad all-inare oltre la distanza sicura. Senza dash mobility, mangi chip damage gratis ogni wave e arrivi al 6 a metà HP, senza tempo per engagiare.",
         "via": "counterpick"
       },
       {
@@ -3290,6 +3570,26 @@
       },
       {
         "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Long-range bot poke laners",
+        "reason": "Their auto-attack range exceeds Kog'Maw's 500 base range without W, so they harass for free in lane and force him into a mana-starved early game.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Bot lane da poke a lungo raggio",
+        "reason": "Il loro range auto-attack supera i 500 base di Kog'Maw senza W: ti picchiano gratis in lane e ti costringono a una early game povera di mana.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "leona",
           "role": "support",
           "lang": "en"
@@ -3306,6 +3606,46 @@
         },
         "archetype": "ADC immobili senza dash",
         "reason": "La E ha 875 di range e dasha sull'ultimo campione colpito: gli ADC senza blink mangiano la chain E in Q ogni volta che si avvicinano per last-hittare. Una volta che parti non possono fuggire.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lucian",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Long-range poke ADCs",
+        "reason": "Both outrange Lucian's Q significantly: Caitlyn shoves and zones with Q, Jhin punishes with W root from off-screen. Lucian can't close the gap to land trades.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lucian",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "ADC da poke a lungo raggio",
+        "reason": "Entrambi outrange la Q di Lucian in modo significativo: Caitlyn shovva e zona con Q, Jhin punisce con il root della W da off-screen. Lucian non riesce a chiudere il gap per le trade.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range immobile carries with no Heal",
+        "reason": "Maokai's R cheese (Flash + R from fog) ignores their range advantage. They live by spacing, so a hard root from outside their vision skips the lane phase entirely and hands the kill to your jungler.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Carry a lungo raggio immobili senza Heal",
+        "reason": "La R cheese di Maokai (Flash + R dalla fog) ignora il loro vantaggio di range. Vivono di spacing, quindi un root da fuori vision salta del tutto la lane phase e regala il kill al jungler.",
         "via": "pick_into"
       },
       {
@@ -3792,6 +4132,26 @@
       },
       {
         "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Champions with dashes or Wind Wall that bypass W slow",
+        "reason": "Her single-target burst W needs the target stuck on the center spot. Repeated dashes and Camille E hookshot leave her swinging at empty ground.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Champion con dash o Wind Wall che bypassano lo slow di W",
+        "reason": "Il burst single-target della W vuole il target inchiodato sul centro. Dash ripetuti e l'E hookshot di Camille la lasciano a colpire il vuoto.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "malphite",
           "role": "top",
           "lang": "en"
@@ -3954,6 +4314,26 @@
       },
       {
         "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Late-game mids that out-scale you",
+        "reason": "Survive your level 6-9 spike and they overtake you on raw damage and mobility; Kassadin's R after 11 dodges your full W-Q-R window, Cassiopeia's grounded zone shuts down W return.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mid late-scaler che ti superano",
+        "reason": "Sopravvissuti al tuo spike 6-9 ti sorpassano su danno e mobilità puri; l'R di Kassadin dopo l'11 schiva la tua finestra W-Q-R, la zona grounded di Cassiopeia disabilita il W di ritorno.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "yasuo",
           "role": "mid",
           "lang": "en"
@@ -4072,6 +4452,46 @@
         },
         "archetype": "Tank HP-stacker e composizioni di front line",
         "reason": "La Q razzo fa danno fisico AOE che scala con attack speed e l'armor pen di Lord Dominik's contro target high-HP trasforma le grosse front line nel target ideale invece che in un muro.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "HP-stacking tanks and bruisers",
+        "reason": "Bio-Arcane Barrage deals % max HP magic damage on every auto, so the more health they pile up the faster you delete them. Tanks with no dash cannot punish you during your W window.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Tank e bruiser che impilano HP",
+        "reason": "Bio-Arcane Barrage fa danno magico in % di max HP su ogni auto: più vita accumulano, più velocemente li cancelli. Tank senza dash non hanno modo di punirti durante la finestra W.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Tank top laners vulnerable to percent-HP DOT",
+        "reason": "Liandry's Torment plus her passive max-HP burn shred big HP pools fast. Her R sleep turns their slow-cast threats (Sion R, Mundo Q) into free positioning for your team.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Top tank vulnerabili al DOT in % HP",
+        "reason": "Liandry's Torment più la passive in % HP shreddano in fretta i pool di vita grossi. La R sleep trasforma le loro minacce a cast lento (Sion R, Mundo Q) in posizionamento gratis per la tua squadra.",
         "via": "pick_into"
       },
       {
@@ -4644,6 +5064,26 @@
       },
       {
         "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Juggernaut tanks with on-hit mitigation or immunity",
+        "reason": "Sion's W shield and Mundo's passive heal blunt your auto-attack DPS — your only damage source is on-hit autos, so anything that breaks that loop neutralizes your kit.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Juggernaut tank con mitigazione o immunità on-hit",
+        "reason": "Lo shield W di Sion e la passive heal di Mundo annullano il tuo DPS auto-attack — il tuo unico danno è on-hit, quindi tutto ciò che rompe quel loop ti neutralizza.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "kled",
           "role": "top",
           "lang": "en"
@@ -4661,6 +5101,26 @@
         "archetype": "Top sustain heal-stacking",
         "reason": "Outsustainano il cooldown della W di Kled e recallano dopo. Una volta che hanno un item HP, il danno scaling % HP max della W e della R non li minaccia più nell'1v1.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Tank top laners vulnerable to percent-HP DOT",
+        "reason": "Liandry's Torment plus her passive max-HP burn shred big HP pools fast. Her R sleep turns their slow-cast threats (Sion R, Mundo Q) into free positioning for your team.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Top tank vulnerabili al DOT in % HP",
+        "reason": "Liandry's Torment più la passive in % HP shreddano in fretta i pool di vita grossi. La R sleep trasforma le loro minacce a cast lento (Sion R, Mundo Q) in posizionamento gratis per la tua squadra.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -5188,6 +5648,46 @@
       },
       {
         "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early-game invade junglers with hard CC and lockdown",
+        "reason": "They walk into your level-2 camps with a kick, knock-up, or stun and kill you before you stack a single Mark. You have no dash that breaks lock-on and your R is not up yet.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Junglers da invade early con hard CC e lockdown",
+        "reason": "Entrano nei tuoi camp al level 2 con kick, knock-up o stun e ti uccidono prima che tu stacchi un solo Mark. Non hai dash che spezzi i lock-on e la R non è ancora disponibile.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Aggressive level 2-3 invaders",
+        "reason": "Lillia's level 1-3 are the weakest part of her game; she has no hard CC and only Q for damage. A successful invade kills her before her clear-plus-mobility power spike comes online.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Invade aggressivi a level 2-3",
+        "reason": "I primi 3 livelli sono il punto debole di Lillia: niente hard CC e solo Q come danno. Un'invade riuscita la chiude prima del power spike di clear più mobility.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "viego",
           "role": "jungle",
           "lang": "en"
@@ -5412,6 +5912,46 @@
       },
       {
         "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Long-range bot poke laners",
+        "reason": "Their auto-attack range exceeds Kog'Maw's 500 base range without W, so they harass for free in lane and force him into a mana-starved early game.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Bot lane da poke a lungo raggio",
+        "reason": "Il loro range auto-attack supera i 500 base di Kog'Maw senza W: ti picchiano gratis in lane e ti costringono a una early game povera di mana.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Mobile ADCs with multiple dashes",
+        "reason": "Lucian E, Tristana W, and Ezreal E all bypass the Q knock-back angle and reposition out of your sapling slow. They walk through your zone control and trade back during your cooldown windows.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC mobili con dash multipli",
+        "reason": "La E di Lucian, la W di Tristana e la E di Ezreal aggirano l'angolo di knock-back della Q e si riposizionano fuori dal slow del sapling. Camminano attraverso il tuo zoning e tradano durante le tue finestre di cooldown.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "miss-fortune",
           "role": "bot",
           "lang": "en"
@@ -5610,6 +6150,26 @@
         },
         "archetype": "Jungler con clear lento e poca mobilità",
         "reason": "Kha'Zix invade più veloce con E e arriva al Scuttle Crab in tempo. Counter-jungla i camp dietro dopo ogni Drake — ruotano troppo lenti per punirti.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Farm-heavy junglers without early invade",
+        "reason": "They want to clear in peace until level 6. Lillia matches their farm speed and out-skirmishes them at scuttle thanks to her Q stacks of Move Speed and DOT pressure.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler farm-heavy senza invade early",
+        "reason": "Vogliono clearare in pace fino al level 6. Lillia regge la loro velocità di farm e li batte allo scuttle grazie agli stack di Move Speed di Q e alla pressione DOT della passive.",
         "via": "pick_into"
       }
     ],
@@ -6318,6 +6878,26 @@
       },
       {
         "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Cleanse-friendly mid laners",
+        "reason": "Both rush Quicksilver Sash or build it situationally — QSS is the only item that removes suppression, neutralizing your R entirely.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mid laner amici del cleanse",
+        "reason": "Entrambi rushano Quicksilver Sash o lo costruiscono situazionalmente — QSS è l'unico item che rimuove la suppression, neutralizzando interamente la tua R.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "orianna",
           "role": "mid",
           "lang": "en"
@@ -6556,6 +7136,26 @@
         },
         "archetype": "Tank con Magic Resist e passive di cleanse",
         "reason": "La passive death di Sion e lo shield magic damage della W di Galio neutralizzano le tue burst window. I 3 stack di Mark stunnano comunque, ma la W detonate fa metà danno appena stackano MR.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mid laners with reliable lockdown",
+        "reason": "Lissandra Q-W or Galio W taunt land you in place during your jump; LeBlanc has no Cleanse-like tool and her HP melts the moment she stops moving.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mid laner con lockdown affidabile",
+        "reason": "Q-W di Lissandra o W taunt di Galio ti inchiodano sul posto durante il salto; LeBlanc non ha un Cleanse e i suoi HP fondono appena smette di muoversi.",
         "via": "counterpick"
       },
       {
@@ -7016,31 +7616,11 @@
         "publisher": {
           "champion": "kayle",
           "role": "top",
-          "lang": "en"
-        },
-        "archetype": "Stat-check tops with no early kill threat",
-        "reason": "Without burst or hard-CC chains they cannot punish your weak pre-6 phase, and once you hit level 11 ranged auto-attacks you out-DPS them from a safe distance.",
-        "via": "pick_into"
-      },
-      {
-        "publisher": {
-          "champion": "kayle",
-          "role": "top",
           "lang": "it"
         },
         "archetype": "Champions that bypass invulnerability",
         "reason": "La R di Olaf gli da CC immunity e true damage su R + axe, la R di Garen infligge true damage scalando sugli HP mancanti — entrambi ti chiudono attraverso Zhonya's Hourglass e perfino attraverso il front-end della tua R.",
         "via": "counterpick"
-      },
-      {
-        "publisher": {
-          "champion": "kayle",
-          "role": "top",
-          "lang": "it"
-        },
-        "archetype": "Stat-check tops without early kill threat",
-        "reason": "Senza burst e senza catene di hard-CC non punisco il tuo pre-6 debole, e dal livello 11 con auto ranged li out-DPS da distanza sicura.",
-        "via": "pick_into"
       },
       {
         "publisher": {
@@ -7590,6 +8170,26 @@
       },
       {
         "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Ranged AD junglers that out-DPS scuttle",
+        "reason": "They beat her at scuttle with auto-attack range while she has to walk into Q hitbox. Losing scuttle twice in a row collapses her river vision and roam timing.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler AD ranged che battono lo scuttle",
+        "reason": "Le battono allo scuttle con il range degli auto, mentre lei deve entrare nell'hitbox della Q. Perdere scuttle due volte di fila collassa la vision di river e i tempi di roam.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "warwick",
           "role": "jungle",
           "lang": "en"
@@ -8099,6 +8699,26 @@
         "archetype": "Enchanter squishy senza hard CC propria",
         "reason": "Non hanno strumenti per interrompere il dash della E. Appena la E atterra sull'ADC nemico, muore nello stun della Q prima che l'enchanter possa shieldare o peelare. Yuumi non riesce nemmeno a saltare via in tempo.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Disengage and cleanse supports",
+        "reason": "Janna R cancels your engage mid-cast, Milio R cleanses your W root at range, Alistar W-Q peels the carry out of your AOE follow-up. Your single hard engage gets answered for free.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support di disengage e cleanse",
+        "reason": "La R di Janna cancella il tuo engage in pieno cast, la R di Milio rimuove il root della W a distanza, la combo W-Q di Alistar strappa il carry dal tuo follow-up AOE. Il tuo unico hard engage viene risposto a costo zero.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -8750,6 +9370,26 @@
       },
       {
         "publisher": {
+          "champion": "lucian",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Long-range poke ADCs",
+        "reason": "Both outrange Lucian's Q significantly: Caitlyn shoves and zones with Q, Jhin punishes with W root from off-screen. Lucian can't close the gap to land trades.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lucian",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "ADC da poke a lungo raggio",
+        "reason": "Entrambi outrange la Q di Lucian in modo significativo: Caitlyn shovva e zona con Q, Jhin punisce con il root della W da off-screen. Lucian non riesce a chiudere il gap per le trade.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lulu",
           "role": "support",
           "lang": "en"
@@ -8766,6 +9406,26 @@
         },
         "archetype": "AD carry immobili con autoattacchi forti",
         "reason": "Ardent Censer più W ally-cast danno bonus Attack Speed e Move Speed senza riposizionare; shield e R coprono la mancanza di escape del marksman.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range immobile carries with no Heal",
+        "reason": "Maokai's R cheese (Flash + R from fog) ignores their range advantage. They live by spacing, so a hard root from outside their vision skips the lane phase entirely and hands the kill to your jungler.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Carry a lungo raggio immobili senza Heal",
+        "reason": "La R cheese di Maokai (Flash + R dalla fog) ignora il loro vantaggio di range. Vivono di spacing, quindi un root da fuori vision salta del tutto la lane phase e regala il kill al jungler.",
         "via": "pick_into"
       },
       {
@@ -9108,6 +9768,26 @@
         },
         "archetype": "Marksman immobili o a corto raggio nel team avversario",
         "reason": "Anche se draftti top, la R è un engage hard a lunga gittata che cancella gli ADC (il damage dealer ranged principale di una squadra) senza dash. Una R pulita sulla loro backline chiude il teamfight prima che cominci.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Hyperscaling squishy ADCs",
+        "reason": "Late-game team fights are won by Flash + R on the carry. They have no built-in escape from suppression and cleanse-summoner is rare on ADCs in mid lane meta.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "ADC squishy hyperscaler",
+        "reason": "I teamfight late game si vincono col Flash + R sulla carry. Non hanno escape interno alla suppression e il summoner Cleanse è raro sugli ADC nel meta mid lane.",
         "via": "pick_into"
       }
     ],
@@ -9537,6 +10217,46 @@
         "archetype": "Support artillery a lunga gittata",
         "reason": "Ti pokano fuori lane prima del 6 oltre il range della tua E. Fiddle non ha scudo né modo di chiudere il gap, quindi la barra HP cala alla metà prima che la prima R sia online.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Enchanter mids with no hard escape",
+        "reason": "Their shields delay but do not stop the second Q detonation; W in over the shield, Q again with R, and the kill confirms before sustain catches up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Enchanter mid senza escape duro",
+        "reason": "I loro shield ritardano ma non fermano la seconda detonazione di Q; W in sopra lo shield, Q di nuovo con R, kill confermata prima del sustain.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lucian",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Squishy enchanters with low base resistances",
+        "reason": "Lucian's Q-AA-AA double-shot windups delete enchanter HP bars in a single trade window; they have no early peel that survives an E-flash all-in.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lucian",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Enchanter squishy con resistenze base basse",
+        "reason": "I windup Q-AA-AA double-shot di Lucian svuotano la barra HP degli enchanter in una sola trade window; non hanno peel early che sopravvive a un E-flash all-in.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -10042,6 +10762,46 @@
       },
       {
         "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Late-game scaling junglers and carries with weak early presence",
+        "reason": "They want to farm to 3 items before doing anything; you want to mark-hunt their jungle and bully their early camps. Each completed Mark widens the lead before they spike.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Junglers e carry late-scaler con early debole",
+        "reason": "Vogliono farmare fino a 3 item prima di muoversi; tu puoi mark-huntare nella loro jungle e bullizzare i camp early. Ogni Mark completato allarga il gap prima che spikino.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Farm-heavy junglers without early invade",
+        "reason": "They want to clear in peace until level 6. Lillia matches their farm speed and out-skirmishes them at scuttle thanks to her Q stacks of Move Speed and DOT pressure.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler farm-heavy senza invade early",
+        "reason": "Vogliono clearare in pace fino al level 6. Lillia regge la loro velocità di farm e li batte allo scuttle grazie agli stack di Move Speed di Q e alla pressione DOT della passive.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -10058,6 +10818,26 @@
         },
         "archetype": "Mage immobili senza dash",
         "reason": "La Q di Lux è un root a lunga gittata: chi non ha dash né stealth viene bindato su una linea pulita e mangia tutto il combo E + R prima di poter rispondere.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dashes",
+        "reason": "Q silence shuts down their cast windows entirely; once silenced they cannot answer your E DOT and they die in the R channel.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "Il silence della Q chiude completamente le loro cast window; una volta silenziati non possono rispondere al DOT della E e muoiono nel channel della R.",
         "via": "pick_into"
       },
       {
@@ -10241,6 +11021,66 @@
         "archetype": "Late-game scaler con presenza early debole",
         "reason": "Hanno bisogno di 25+ minuti per arrivare online; Karthus vince gia gli skirmish a livello 6 e usa R per negare le loro Baron solo. Out-tempo: forza drake e chiudi prima che hittino il loro power spike.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Late-game mids that out-scale you",
+        "reason": "Survive your level 6-9 spike and they overtake you on raw damage and mobility; Kassadin's R after 11 dodges your full W-Q-R window, Cassiopeia's grounded zone shuts down W return.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mid late-scaler che ti superano",
+        "reason": "Sopravvissuti al tuo spike 6-9 ti sorpassano su danno e mobilità puri; l'R di Kassadin dopo l'11 schiva la tua finestra W-Q-R, la zona grounded di Cassiopeia disabilita il W di ritorno.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Hyper-scaling late-game mages",
+        "reason": "Kassadin's R blink chain out-mobilities your E past level 11, and Ryze's Flash + R + W combo hits you before W root or self-R Stasis can come up. Survive lane and ask for jungler help by minute 14.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Hyper-scaling late-game mages",
+        "reason": "Il blink chain della R di Kassadin out-mobilita la tua E dopo l'11, e Flash + R + W di Ryze ti colpiscono prima che W root o self-R Stasis siano up. Sopravvivi in lane e chiedi aiuto al jungler per il minuto 14.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Cleanse-friendly mid laners",
+        "reason": "Both rush Quicksilver Sash or build it situationally — QSS is the only item that removes suppression, neutralizing your R entirely.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mid laner amici del cleanse",
+        "reason": "Entrambi rushano Quicksilver Sash o lo costruiscono situazionalmente — QSS è l'unico item che rimuove la suppression, neutralizzando interamente la tua R.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -10524,6 +11364,26 @@
         },
         "archetype": "Late-game scaler con presenza early debole",
         "reason": "Hanno bisogno di 25+ minuti per arrivare online; Karthus vince gia gli skirmish a livello 6 e usa R per negare le loro Baron solo. Out-tempo: forza drake e chiudi prima che hittino il loro power spike.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Late-game scaling junglers and carries with weak early presence",
+        "reason": "They want to farm to 3 items before doing anything; you want to mark-hunt their jungle and bully their early camps. Each completed Mark widens the lead before they spike.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Junglers e carry late-scaler con early debole",
+        "reason": "Vogliono farmare fino a 3 item prima di muoversi; tu puoi mark-huntare nella loro jungle e bullizzare i camp early. Ogni Mark completato allarga il gap prima che spikino.",
         "via": "pick_into"
       },
       {
@@ -11254,6 +12114,26 @@
       },
       {
         "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Roaming assassins",
+        "reason": "These champions reach the back line through dashes, jumps, or stealth resets. Once they pass your front line during a W window, no defensive item except Guardian Angel will save you in time.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Assassin da roam",
+        "reason": "Questi campioni raggiungono la back line tramite dash, salti o reset in stealth. Una volta passata la tua front line durante una finestra W, nessun item difensivo a parte Guardian Angel ti salva in tempo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lulu",
           "role": "support",
           "lang": "en"
@@ -11433,6 +12313,26 @@
         "archetype": "Carry jungler squishy senza hard CC",
         "reason": "Camminano da soli per power-farmare; E + Q isolata di Kha'Zix li cancella prima che possano rispondere. Senza CC non c'è modo di fermare il dash-in.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Ranged AD junglers that out-DPS scuttle",
+        "reason": "They beat her at scuttle with auto-attack range while she has to walk into Q hitbox. Losing scuttle twice in a row collapses her river vision and roam timing.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler AD ranged che battono lo scuttle",
+        "reason": "Le battono allo scuttle con il range degli auto, mentre lei deve entrare nell'hitbox della Q. Perdere scuttle due volte di fila collassa la vision di river e i tempi di roam.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -11720,6 +12620,86 @@
       },
       {
         "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Squishy backline marksmen with no built-in escape",
+        "reason": "Cross-map gank with E lands a slow long enough for you to chain 4 autos and trigger Mounting Dread's missing-HP hit — they have no dash to break the chain.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Marksman backline squishy senza escape integrato",
+        "reason": "Gank cross-map: la E slowsa abbastanza da permetterti la catena di 4 auto e far scattare il colpo HP-mancante di Mounting Dread, e loro non hanno dash che spezzi la catena.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile backline carries",
+        "reason": "Cross-screen E sets up gank lockdown, then R sleep gives a guaranteed pickoff window before they can position behind their front line.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Carry backline immobili",
+        "reason": "La E cross-screen prepara il lockdown del gank, poi la R sleep apre una finestra di pickoff garantita prima che riescano a posizionarsi dietro la propria front line.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lucian",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Late-game hyper-carry ADCs",
+        "reason": "If they survive past minute 25 with two items, Lucian's damage curve flattens while theirs spikes hard — they outdamage him in every extended fight.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lucian",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Immobile scaling ADCs without early dominance",
+        "reason": "Lucian's Q poke + E dash lets him win every level 2-6 trade; immobile scalers can't fight back before items and concede plates and CS.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lucian",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "ADC hyper-carry da late game",
+        "reason": "Se sopravvivono oltre il minuto 25 con due item, la curva di danno di Lucian si appiattisce mentre la loro spara: lo superano in damage in ogni fight prolungato.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lucian",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "ADC immobili da scaling senza early dominance",
+        "reason": "Q poke + E dash di Lucian vincono ogni trade level 2-6; gli scaler immobili non riescono a rispondere prima degli item e cedono plate e CS.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lulu",
           "role": "support",
           "lang": "en"
@@ -11756,6 +12736,46 @@
         },
         "archetype": "Marksman immobili o a corto raggio nel team avversario",
         "reason": "Anche se draftti top, la R è un engage hard a lunga gittata che cancella gli ADC (il damage dealer ranged principale di una squadra) senza dash. Una R pulita sulla loro backline chiude il teamfight prima che cominci.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Hyperscaling squishy ADCs",
+        "reason": "Late-game team fights are won by Flash + R on the carry. They have no built-in escape from suppression and cleanse-summoner is rare on ADCs in mid lane meta.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "ADC squishy hyperscaler",
+        "reason": "I teamfight late game si vincono col Flash + R sulla carry. Non hanno escape interno alla suppression e il summoner Cleanse è raro sugli ADC nel meta mid lane.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile ADCs without a dash",
+        "reason": "Twisted Advance is point-and-click root: ADCs with no dash, blink, or stealth eat the full W into auto chain every time you reach W range. Their only counterplay is summoner spells, and once Flash is down they die in one combo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC immobili senza dash",
+        "reason": "Twisted Advance è root point-and-click: gli ADC senza dash, blink o stealth mangiano la combo W in auto ogni volta che entri in range di W. L'unica counter-play è il summoner spell, e una volta che il Flash è giù muoiono in una combo.",
         "via": "pick_into"
       },
       {
@@ -12144,6 +13164,46 @@
       },
       {
         "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early-game invade junglers with hard CC and lockdown",
+        "reason": "They walk into your level-2 camps with a kick, knock-up, or stun and kill you before you stack a single Mark. You have no dash that breaks lock-on and your R is not up yet.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Junglers da invade early con hard CC e lockdown",
+        "reason": "Entrano nei tuoi camp al level 2 con kick, knock-up o stun e ti uccidono prima che tu stacchi un solo Mark. Non hai dash che spezzi i lock-on e la R non è ancora disponibile.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Aggressive level 2-3 invaders",
+        "reason": "Lillia's level 1-3 are the weakest part of her game; she has no hard CC and only Q for damage. A successful invade kills her before her clear-plus-mobility power spike comes online.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Invade aggressivi a level 2-3",
+        "reason": "I primi 3 livelli sono il punto debole di Lillia: niente hard CC e solo Q come danno. Un'invade riuscita la chiude prima del power spike di clear più mobility.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "viego",
           "role": "jungle",
           "lang": "en"
@@ -12503,6 +13563,26 @@
         "archetype": "Tank di hard-engage con CC point-and-click",
         "reason": "I loro stun colpiscono prima che la W tetheri, quindi Karma mangia l'engage senza root e muore prima che la E possa salvare l'ADC.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Tank engage initiators",
+        "reason": "Your R locks the tank in place mid-charge, neutralizing the engage and turning their Flash + ult into 1.5s of standing still while your back line burns them with Liandry's ticks.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Tank engage initiators",
+        "reason": "La R blocca il tank a meta' carica, neutralizzando l'engage e trasformando Flash + ulti in 1.5s di immobilita' mentre la tua back line lo brucia con i tick di Liandry's.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -12910,6 +13990,46 @@
       },
       {
         "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mid laners with reliable lockdown",
+        "reason": "Lissandra Q-W or Galio W taunt land you in place during your jump; LeBlanc has no Cleanse-like tool and her HP melts the moment she stops moving.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mid laner con lockdown affidabile",
+        "reason": "Q-W di Lissandra o W taunt di Galio ti inchiodano sul posto durante il salto; LeBlanc non ha un Cleanse e i suoi HP fondono appena smette di muoversi.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Reliable point-and-click CC",
+        "reason": "Their stun cancels your R channel before it finishes the suppression — without R landing, you have no kill pressure and your kit is weak.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "CC point-and-click affidabile",
+        "reason": "Il loro stun cancella il channel della R prima che la suppression finisca — senza R che entra non hai pressione di kill e il kit è debole.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "yasuo",
           "role": "mid",
           "lang": "en"
@@ -13108,6 +14228,26 @@
         },
         "archetype": "Lane-bully marksman con forte all-in livelli 1-3",
         "reason": "Il loro early damage supera il tuo hop spacing (la distanza di sicurezza che tieni saltando con ogni auto) prima che tu abbia AS per stackare Press the Attack. Una Q sbagliata al lvl 2 e prendono una kill prima che il support risponda.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Mobile ADCs with multiple dashes",
+        "reason": "Lucian E, Tristana W, and Ezreal E all bypass the Q knock-back angle and reposition out of your sapling slow. They walk through your zone control and trade back during your cooldown windows.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC mobili con dash multipli",
+        "reason": "La E di Lucian, la W di Tristana e la E di Ezreal aggirano l'angolo di knock-back della Q e si riposizionano fuori dal slow del sapling. Camminano attraverso il tuo zoning e tradano durante le tue finestre di cooldown.",
         "via": "counterpick"
       },
       {
@@ -13796,6 +14936,26 @@
       },
       {
         "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Squishy artillery mages with high cooldowns",
+        "reason": "If you survive the first Q poke, you all-in once their long-cooldown setup spell is down — Lux Q and Syndra E are 12-13 second windows you can punish.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage artillery squishy con cooldown alti",
+        "reason": "Se sopravvivi al primo poke di Q, all-ini quando la loro spell di setup è giù — Lux Q e Syndra E sono finestre da 12-13 secondi che puoi punire.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "leona",
           "role": "support",
           "lang": "en"
@@ -13813,6 +14973,26 @@
         "archetype": "Poker a lungo raggio con sustain o root",
         "reason": "Ti mangiano l'HP gratis a 800-plus di range mentre tu non hai risposta. La Q di Lux ti binda durante l'engage, la bolla di Nami ti interrompe il dash; mangi poke senza mai entrare in range.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages with single-cooldown CC",
+        "reason": "Once their root or stun is on cooldown they have no answer to your E flash + W root + R lockdown engage; you out-kit them on the second exchange every wave.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Immobile mages with single-cooldown CC",
+        "reason": "Una volta che il loro root o stun e' in cooldown non hanno risposta al tuo engage E flash + W root + R lockdown; gli sopravvivi al secondo trade su ogni wave.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -14235,6 +15415,46 @@
         "archetype": "Tank con CC duro point-and-click",
         "reason": "Il taunt Q di Rammus o la R di Malphite catturano Kayn fuori da E e gli tolgono la combo. Anche l'untargetable della R di Shadow Assassin non salva se sei stunato prima.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Stationary frontline engagers",
+        "reason": "After their R lands, your team has 2-3 seconds of free fire — exactly enough for one full W cycle on the locked-down frontline before they recover.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Frontline da engage stazionario",
+        "reason": "Dopo la loro R, la tua squadra ha 2-3 secondi di fuoco libero — esattamente il tempo per un ciclo W completo sul frontline lockato prima che recuperi.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Tank engage initiators",
+        "reason": "Your R locks the tank in place mid-charge, neutralizing the engage and turning their Flash + ult into 1.5s of standing still while your back line burns them with Liandry's ticks.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Tank engage initiators",
+        "reason": "La R blocca il tank a meta' carica, neutralizzando l'engage e trasformando Flash + ulti in 1.5s di immobilita' mentre la tua back line lo brucia con i tick di Liandry's.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -14699,6 +15919,26 @@
         "archetype": "Tank con CC duro point-and-click",
         "reason": "Il taunt Q di Rammus o la R di Malphite catturano Kayn fuori da E e gli tolgono la combo. Anche l'untargetable della R di Shadow Assassin non salva se sei stunato prima.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Slow-moving tanks without dash",
+        "reason": "They cannot close on a kiting Kindred. You auto-attack from outside their CC range while Wolf's Frenzy chips them passively.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Tank lenti senza dash",
+        "reason": "Non riescono a chiudere la distanza su un Kindred che kite. Auto-attacchi da fuori range del loro CC mentre Wolf's Frenzy li chippa passivamente.",
+        "via": "pick_into"
       }
     ],
     "master-yi": [
@@ -14881,6 +16121,26 @@
         "archetype": "Jungler scaling auto-attack-based",
         "reason": "Il sistema di grove di Ivern salta del tutto il fight con i camp; mentre questi macinano auto sui mostri, Ivern e' gia' a scudare le lane e a settare root con l'ADC al livello 5.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Late-game scaling junglers and carries with weak early presence",
+        "reason": "They want to farm to 3 items before doing anything; you want to mark-hunt their jungle and bully their early camps. Each completed Mark widens the lead before they spike.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Junglers e carry late-scaler con early debole",
+        "reason": "Vogliono farmare fino a 3 item prima di muoversi; tu puoi mark-huntare nella loro jungle e bullizzare i camp early. Ogni Mark completato allarga il gap prima che spikino.",
+        "via": "pick_into"
       }
     ],
     "milio": [
@@ -15022,6 +16282,26 @@
         },
         "archetype": "Enchanter sustain che out-healano il poke",
         "reason": "L'unico danno in lane di Lulu è la Q, skillshot lento da allineare — questi enchanter out-healano il trade e la battono sullo scaling teamfight.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Disengage and cleanse supports",
+        "reason": "Janna R cancels your engage mid-cast, Milio R cleanses your W root at range, Alistar W-Q peels the carry out of your AOE follow-up. Your single hard engage gets answered for free.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support di disengage e cleanse",
+        "reason": "La R di Janna cancella il tuo engage in pieno cast, la R di Milio rimuove il root della W a distanza, la combo W-Q di Alistar strappa il carry dal tuo follow-up AOE. Il tuo unico hard engage viene risposto a costo zero.",
         "via": "counterpick"
       },
       {
@@ -15568,6 +16848,26 @@
         },
         "archetype": "Bloccatori di hard CC e enchanter di disengage",
         "reason": "La Black Shield di Morgana blocca il root della E: ti flashi addosso a vuoto. La R di Milio rimuove la chain di stun a distanza. Il polymorph di Lulu cancella il dash a metà cast. Il tuo unico engage viene risposto a costo zero.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "CC-immune kits",
+        "reason": "Olaf's R makes him immune to your W root and R stun — the entire lockdown plan dies. Morgana's E (Black Shield) blocks the magic CC of your R on her carry. Build around them with Liandry's burn instead of relying on lockdown.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "CC-immune kits",
+        "reason": "La R di Olaf lo rende immune a W root e R stun: tutto il piano lockdown muore. La E di Morgana (Black Shield) blocca il CC magico della tua R sul loro carry. Pianifica con la burn di Liandry's invece di puntare al lockdown.",
         "via": "counterpick"
       },
       {
@@ -16418,6 +17718,26 @@
       },
       {
         "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Engage tanks you out-range with R",
+        "reason": "Their engage requires being on top of you, but Nature's Grasp roots them from screens away. They never get to start their fight on their terms.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Tank engage che batti col range della R",
+        "reason": "Il loro engage richiede di essere addosso a te, ma Nature's Grasp li rooting da uno schermo di distanza. Non riescono mai ad aprire il fight alle loro condizioni.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "miss-fortune",
           "role": "bot",
           "lang": "en"
@@ -17061,6 +18381,26 @@
         "archetype": "Juggernaut a corto raggio",
         "reason": "Li kiti col dash di E e con la passive on-hit di W. La loro stickiness dipende dal restarti incollato, e il tuo range più il refresh del dash li tengono fuori dal range delle loro auto.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "CC-immune kits",
+        "reason": "Olaf's R makes him immune to your W root and R stun — the entire lockdown plan dies. Morgana's E (Black Shield) blocks the magic CC of your R on her carry. Build around them with Liandry's burn instead of relying on lockdown.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "CC-immune kits",
+        "reason": "La R di Olaf lo rende immune a W root e R stun: tutto il piano lockdown muore. La E di Morgana (Black Shield) blocca il CC magico della tua R sul loro carry. Pianifica con la burn di Liandry's invece di puntare al lockdown.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -17870,6 +19210,26 @@
         },
         "archetype": "Hook support a lungo range",
         "reason": "Karma non ha dash per schivare uno skillshot lineare pulito; un gancio su di lei a livello 2-3 chiude la lane perché non ha strumenti di fuga.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Hook supports with single-target lockdown",
+        "reason": "Kog'Maw has no dash, no blink, no flash on E. One hook in lane equals one death because his only escape is Flash, which is a 5-minute summoner spell.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Support da hook con lockdown single-target",
+        "reason": "Kog'Maw non ha dash, blink o flash sulla E. Un hook in lane = una morte: l'unica escape è Flash, che è un summoner da 5 minuti di cooldown.",
         "via": "counterpick"
       },
       {
@@ -18924,6 +20284,26 @@
       },
       {
         "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Engage tanks you out-range with R",
+        "reason": "Their engage requires being on top of you, but Nature's Grasp roots them from screens away. They never get to start their fight on their terms.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Tank engage che batti col range della R",
+        "reason": "Il loro engage richiede di essere addosso a te, ma Nature's Grasp li rooting da uno schermo di distanza. Non riescono mai ad aprire il fight alle loro condizioni.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "miss-fortune",
           "role": "bot",
           "lang": "en"
@@ -19472,6 +20852,26 @@
       },
       {
         "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Roaming assassins",
+        "reason": "These champions reach the back line through dashes, jumps, or stealth resets. Once they pass your front line during a W window, no defensive item except Guardian Angel will save you in time.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Assassin da roam",
+        "reason": "Questi campioni raggiungono la back line tramite dash, salti o reset in stealth. Una volta passata la tua front line durante una finestra W, nessun item difensivo a parte Guardian Angel ti salva in tempo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lulu",
           "role": "support",
           "lang": "en"
@@ -19855,6 +21255,26 @@
         "archetype": "Mage di media gittata flexati top",
         "reason": "Squishy a corto raggio (HP bassi, difese basse) senza dash vengono one-shottati una volta uscita Trinity Force con stack pieni di passiva.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Hyper-scaling late-game mages",
+        "reason": "Kassadin's R blink chain out-mobilities your E past level 11, and Ryze's Flash + R + W combo hits you before W root or self-R Stasis can come up. Survive lane and ask for jungler help by minute 14.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Hyper-scaling late-game mages",
+        "reason": "Il blink chain della R di Kassadin out-mobilita la tua E dopo l'11, e Flash + R + W di Ryze ti colpiscono prima che W root o self-R Stasis siano up. Sopravvivi in lane e chiedi aiuto al jungler per il minuto 14.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -20339,6 +21759,26 @@
         "archetype": "Jungler farm-heavy lenti senza invade level 3",
         "reason": "Full-clearano alla stessa velocita di Karthus, ma Karthus ha la R globale che trasforma il loro gank in uno scambio 2-for-1: anche se uccidono il tuo laner, R fa cleanup del loro cross-map prima che riescano a recall.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Tank engage initiators",
+        "reason": "Your R locks the tank in place mid-charge, neutralizing the engage and turning their Flash + ult into 1.5s of standing still while your back line burns them with Liandry's ticks.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Tank engage initiators",
+        "reason": "La R blocca il tank a meta' carica, neutralizzando l'engage e trasformando Flash + ulti in 1.5s di immobilita' mentre la tua back line lo brucia con i tick di Liandry's.",
+        "via": "pick_into"
       }
     ],
     "senna": [
@@ -20604,6 +22044,46 @@
       },
       {
         "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Squishy backline marksmen with no built-in escape",
+        "reason": "Cross-map gank with E lands a slow long enough for you to chain 4 autos and trigger Mounting Dread's missing-HP hit — they have no dash to break the chain.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Marksman backline squishy senza escape integrato",
+        "reason": "Gank cross-map: la E slowsa abbastanza da permetterti la catena di 4 auto e far scattare il colpo HP-mancante di Mounting Dread, e loro non hanno dash che spezzi la catena.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Immobile backline scalers",
+        "reason": "Living Artillery (R) hits ground targets at extreme range. Backliners that need to stand still to fire their main spell get chipped from off-screen and have no escape tool to punish you back.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Backline scaler immobili",
+        "reason": "Living Artillery (R) colpisce target a terra a range estremo. I backliner che devono restare fermi per la loro main spell vengono erosi da fuori schermo e non hanno tool di escape per ripicchiare.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "leona",
           "role": "support",
           "lang": "en"
@@ -20620,6 +22100,46 @@
         },
         "archetype": "ADC immobili senza dash",
         "reason": "La E ha 875 di range e dasha sull'ultimo campione colpito: gli ADC senza blink mangiano la chain E in Q ogni volta che si avvicinano per last-hittare. Una volta che parti non possono fuggire.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile backline carries",
+        "reason": "Cross-screen E sets up gank lockdown, then R sleep gives a guaranteed pickoff window before they can position behind their front line.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Carry backline immobili",
+        "reason": "La E cross-screen prepara il lockdown del gank, poi la R sleep apre una finestra di pickoff garantita prima che riescano a posizionarsi dietro la propria front line.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lucian",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Squishy enchanters with low base resistances",
+        "reason": "Lucian's Q-AA-AA double-shot windups delete enchanter HP bars in a single trade window; they have no early peel that survives an E-flash all-in.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lucian",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Enchanter squishy con resistenze base basse",
+        "reason": "I windup Q-AA-AA double-shot di Lucian svuotano la barra HP degli enchanter in una sola trade window; non hanno peel early che sopravvive a un E-flash all-in.",
         "via": "pick_into"
       },
       {
@@ -20822,6 +22342,26 @@
         },
         "archetype": "Enchanter squishy senza peel su se stessi",
         "reason": "E + R ti fa raggiungere e fearare il loro carry da fuori schermo; appena cade il support, l'ADC nemico resta senza shield e crolla in pochi secondi.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Enchanter mids with no hard escape",
+        "reason": "Their shields delay but do not stop the second Q detonation; W in over the shield, Q again with R, and the kill confirms before sustain catches up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Enchanter mid senza escape duro",
+        "reason": "I loro shield ritardano ma non fermano la seconda detonazione di Q; W in sopra lo shield, Q di nuovo con R, kill confermata prima del sustain.",
         "via": "pick_into"
       },
       {
@@ -21244,6 +22784,26 @@
         },
         "archetype": "Lane bully melee senza dash",
         "reason": "La Q ha 800 di range, fuori dal pull di Darius e dalla W di Sett. La 4-attack window della W più il recast di E permettono a Kled di vincere la rissa e uscirne prima che le loro abilità tornino.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Engage tanks you out-range with R",
+        "reason": "Their engage requires being on top of you, but Nature's Grasp roots them from screens away. They never get to start their fight on their terms.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Tank engage che batti col range della R",
+        "reason": "Il loro engage richiede di essere addosso a te, ma Nature's Grasp li rooting da uno schermo di distanza. Non riescono mai ad aprire il fight alle loro condizioni.",
         "via": "pick_into"
       },
       {
@@ -21775,6 +23335,86 @@
         "archetype": "Tank con Magic Resist e passive di cleanse",
         "reason": "La passive death di Sion e lo shield magic damage della W di Galio neutralizzano le tue burst window. I 3 stack di Mark stunnano comunque, ma la W detonate fa metà danno appena stackano MR.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Juggernaut tanks with on-hit mitigation or immunity",
+        "reason": "Sion's W shield and Mundo's passive heal blunt your auto-attack DPS — your only damage source is on-hit autos, so anything that breaks that loop neutralizes your kit.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Slow-moving tanks without dash",
+        "reason": "They cannot close on a kiting Kindred. You auto-attack from outside their CC range while Wolf's Frenzy chips them passively.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Juggernaut tank con mitigazione o immunità on-hit",
+        "reason": "Lo shield W di Sion e la passive heal di Mundo annullano il tuo DPS auto-attack — il tuo unico danno è on-hit, quindi tutto ciò che rompe quel loop ti neutralizza.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Tank lenti senza dash",
+        "reason": "Non riescono a chiudere la distanza su un Kindred che kite. Auto-attacchi da fuori range del loro CC mentre Wolf's Frenzy li chippa passivamente.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "HP-stacking tanks and bruisers",
+        "reason": "Bio-Arcane Barrage deals % max HP magic damage on every auto, so the more health they pile up the faster you delete them. Tanks with no dash cannot punish you during your W window.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Tank e bruiser che impilano HP",
+        "reason": "Bio-Arcane Barrage fa danno magico in % di max HP su ogni auto: più vita accumulano, più velocemente li cancelli. Tank senza dash non hanno modo di punirti durante la finestra W.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Tank top laners vulnerable to percent-HP DOT",
+        "reason": "Liandry's Torment plus her passive max-HP burn shred big HP pools fast. Her R sleep turns their slow-cast threats (Sion R, Mundo Q) into free positioning for your team.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Top tank vulnerabili al DOT in % HP",
+        "reason": "Liandry's Torment più la passive in % HP shreddano in fretta i pool di vita grossi. La R sleep trasforma le loro minacce a cast lento (Sion R, Mundo Q) in posizionamento gratis per la tua squadra.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -22726,6 +24366,46 @@
       },
       {
         "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Pure sustain enchanters that out-heal your harass",
+        "reason": "Maokai trades fine but cannot one-shot. A Soraka who keeps her ADC topped off makes your Q-E lane harass meaningless; without a kill threat at level 6, you fall behind on roams and tempo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Backline enchanters that hug the ADC",
+        "reason": "Sapling Toss reveals brush and bushes around the ADC; once you W onto the carry, the enchanter has nothing to peel with. Yuumi pops out of her host while rooted, opening a free pickoff.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter di pure sustain che battono l'harass",
+        "reason": "Maokai trada bene ma non one-shotta. Una Soraka che tiene il suo ADC pieno rende l'harass Q-E in lane irrilevante; senza una kill threat al 6, perdi tempo sui roam e tempo sul vantaggio.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter di backline che restano addosso all'ADC",
+        "reason": "Sapling Toss rivela brush e cespugli intorno all'ADC; quando piazzi la W sul carry, l'enchanter non ha nulla per peelare. Yuumi viene espulsa dall'ospite quando viene rooted, aprendo un pickoff gratis.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "miss-fortune",
           "role": "bot",
           "lang": "en"
@@ -23132,6 +24812,26 @@
       },
       {
         "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Squishy artillery mages with high cooldowns",
+        "reason": "If you survive the first Q poke, you all-in once their long-cooldown setup spell is down — Lux Q and Syndra E are 12-13 second windows you can punish.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage artillery squishy con cooldown alti",
+        "reason": "Se sopravvivi al primo poke di Q, all-ini quando la loro spell di setup è giù — Lux Q e Syndra E sono finestre da 12-13 secondi che puoi punire.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "zed",
           "role": "mid",
           "lang": "en"
@@ -23251,6 +24951,26 @@
         "archetype": "Bruiser tanky con peel integrato per il carry",
         "reason": "La loro W o grab strappa via il carry dalla finestra di isolation prima che la Q atterri. Ti serve un 1v1 pulito e loro tolgono quell'opzione.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "HP-stacking tanks and bruisers",
+        "reason": "Bio-Arcane Barrage deals % max HP magic damage on every auto, so the more health they pile up the faster you delete them. Tanks with no dash cannot punish you during your W window.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Tank e bruiser che impilano HP",
+        "reason": "Bio-Arcane Barrage fa danno magico in % di max HP su ogni auto: più vita accumulano, più velocemente li cancelli. Tank senza dash non hanno modo di punirti durante la finestra W.",
+        "via": "pick_into"
       }
     ],
     "taliyah": [
@@ -23415,6 +25135,46 @@
         "archetype": "Assassin AD early-game",
         "reason": "Hanno il powerspike a 2 item intorno al minuto 14 mentre Kassadin e' ancora al primo item. I roam in side lane puniscono lo scaling lento di Kassadin: la partita finisce prima che arrivi il tuo late game.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Burst assassins that delete you before R covers",
+        "reason": "You are squishy with no hard CC; they kill you in the 0.5s window before Lamb's Respite cast goes off. R does not block the damage, only the death — they wait it out and re-engage.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Burst assassins che ti deletano prima che la R copra",
+        "reason": "Sei squishy senza hard CC; ti killano nella finestra di 0.5s prima che parta il cast di Lamb's Respite. La R non blocca il danno, solo la morte — aspettano che finisca e re-engagano.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins that die to your CC chain",
+        "reason": "Self-R Stasis (untargetable + invulnerable for 2.5s) eats their burst window completely; W root on their gap-close converts the trade into a kill for your team.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mobile assassins that die to your CC chain",
+        "reason": "La self-R Stasis (intargettabile + invulnerabile per 2.5s) mangia la loro finestra di burst; la W che root il loro gap-close trasforma il trade in una kill per il tuo team.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -24122,6 +25882,26 @@
       },
       {
         "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Hook supports with single-target lockdown",
+        "reason": "Kog'Maw has no dash, no blink, no flash on E. One hook in lane equals one death because his only escape is Flash, which is a 5-minute summoner spell.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Support da hook con lockdown single-target",
+        "reason": "Kog'Maw non ha dash, blink o flash sulla E. Un hook in lane = una morte: l'unica escape è Flash, che è un summoner da 5 minuti di cooldown.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "leona",
           "role": "support",
           "lang": "en"
@@ -24139,6 +25919,26 @@
         "archetype": "Hook support che ti tirano fuori posizione",
         "reason": "Il loro hook atterra prima della tua E (Q di Thresh ~1100 vs E 875). Mangi il pull, vieni focalizzato da solo nel loro team, e il tuo ADC resta esposto senza tool di engage.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lucian",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Hook supports without dash-counterplay",
+        "reason": "Relentless Pursuit dodges hooks reactively. With E up, Lucian walks the lane bush against a hooker and forces the support to mispredict the dash direction.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lucian",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Support da hook senza dash-counterplay",
+        "reason": "Relentless Pursuit dodga gli hook in reattiva. Con E disponibile, Lucian cammina nel bush della lane contro un hooker e costringe il support a sbagliare la previsione del dash.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -24380,6 +26180,46 @@
         },
         "archetype": "Hypercarry mobili con self-peel",
         "reason": "Tristana W esce dal tuo dive, Vayne tumble cancella il timer dello stack di Press the Attack. Entrambe scalano in item che battono il tuo core on-hit in 1v1 dopo il minuto 25.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Hyperscaling squishy ADCs",
+        "reason": "Late-game team fights are won by Flash + R on the carry. They have no built-in escape from suppression and cleanse-summoner is rare on ADCs in mid lane meta.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "ADC squishy hyperscaler",
+        "reason": "I teamfight late game si vincono col Flash + R sulla carry. Non hanno escape interno alla suppression e il summoner Cleanse è raro sugli ADC nel meta mid lane.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Mobile ADCs with multiple dashes",
+        "reason": "Lucian E, Tristana W, and Ezreal E all bypass the Q knock-back angle and reposition out of your sapling slow. They walk through your zone control and trade back during your cooldown windows.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC mobili con dash multipli",
+        "reason": "La E di Lucian, la W di Tristana e la E di Ezreal aggirano l'angolo di knock-back della Q e si riposizionano fuori dal slow del sapling. Camminano attraverso il tuo zoning e tradano durante le tue finestre di cooldown.",
         "via": "counterpick"
       },
       {
@@ -25010,6 +26850,26 @@
       },
       {
         "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without a reliable dash",
+        "reason": "Without a movement ability they cannot escape your W-Q-AA detonation, and Veigar's cage is a circle you simply walk around with W.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash affidabile",
+        "reason": "Senza un'abilità di movimento non scappano dalla detonazione W-Q-AA, e la cage di Veigar è un cerchio che con W aggiri.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -25152,6 +27012,26 @@
       },
       {
         "publisher": {
+          "champion": "lucian",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Late-game hyper-carry ADCs",
+        "reason": "If they survive past minute 25 with two items, Lucian's damage curve flattens while theirs spikes hard — they outdamage him in every extended fight.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lucian",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "ADC hyper-carry da late game",
+        "reason": "Se sopravvivono oltre il minuto 25 con due item, la curva di danno di Lucian si appiattisce mentre la loro spara: lo superano in damage in ogni fight prolungato.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lulu",
           "role": "support",
           "lang": "en"
@@ -25168,6 +27048,26 @@
         },
         "archetype": "AD carry immobili con autoattacchi forti",
         "reason": "Ardent Censer più W ally-cast danno bonus Attack Speed e Move Speed senza riposizionare; shield e R coprono la mancanza di escape del marksman.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile ADCs without a dash",
+        "reason": "Twisted Advance is point-and-click root: ADCs with no dash, blink, or stealth eat the full W into auto chain every time you reach W range. Their only counterplay is summoner spells, and once Flash is down they die in one combo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC immobili senza dash",
+        "reason": "Twisted Advance è root point-and-click: gli ADC senza dash, blink o stealth mangiano la combo W in auto ogni volta che entri in range di W. L'unica counter-play è il summoner spell, e una volta che il Flash è giù muoiono in una combo.",
         "via": "pick_into"
       },
       {
@@ -25514,6 +27414,46 @@
         },
         "archetype": "Marksman a posizionamento statico dipendenti dal support per il lockdown",
         "reason": "Se il loro support engagga per primo, la tua R per riposizionarti e Wit's End on-hit battono la loro curva di AS. Non possono kitare un campione che chiude 350 unita' per ogni auto.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Immobile backline scalers",
+        "reason": "Living Artillery (R) hits ground targets at extreme range. Backliners that need to stand still to fire their main spell get chipped from off-screen and have no escape tool to punish you back.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Backline scaler immobili",
+        "reason": "Living Artillery (R) colpisce target a terra a range estremo. I backliner che devono restare fermi per la loro main spell vengono erosi da fuori schermo e non hanno tool di escape per ripicchiare.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range immobile carries with no Heal",
+        "reason": "Maokai's R cheese (Flash + R from fog) ignores their range advantage. They live by spacing, so a hard root from outside their vision skips the lane phase entirely and hands the kill to your jungler.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Carry a lungo raggio immobili senza Heal",
+        "reason": "La R cheese di Maokai (Flash + R dalla fog) ignora il loro vantaggio di range. Vivono di spacing, quindi un root da fuori vision salta del tutto la lane phase e regala il kill al jungler.",
         "via": "pick_into"
       },
       {
@@ -26036,6 +27976,26 @@
         },
         "archetype": "Top ranged ad auto-attack",
         "reason": "Kitano Kled (si muovono indietro mentre attaccano) fuori dagli 800 della Q. Non riesce a procare la W su un target in movimento, e gli HP di Skaarl si squagliano dal poke prima che lui arrivi a livello 6.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lucian",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Late-game hyper-carry ADCs",
+        "reason": "If they survive past minute 25 with two items, Lucian's damage curve flattens while theirs spikes hard — they outdamage him in every extended fight.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lucian",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "ADC hyper-carry da late game",
+        "reason": "Se sopravvivono oltre il minuto 25 con due item, la curva di danno di Lucian si appiattisce mentre la loro spara: lo superano in damage in ogni fight prolungato.",
         "via": "counterpick"
       },
       {
@@ -26662,6 +28622,66 @@
       },
       {
         "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Immobile backline scalers",
+        "reason": "Living Artillery (R) hits ground targets at extreme range. Backliners that need to stand still to fire their main spell get chipped from off-screen and have no escape tool to punish you back.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Backline scaler immobili",
+        "reason": "Living Artillery (R) colpisce target a terra a range estremo. I backliner che devono restare fermi per la loro main spell vengono erosi da fuori schermo e non hanno tool di escape per ripicchiare.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without a reliable dash",
+        "reason": "Without a movement ability they cannot escape your W-Q-AA detonation, and Veigar's cage is a circle you simply walk around with W.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash affidabile",
+        "reason": "Senza un'abilità di movimento non scappano dalla detonazione W-Q-AA, e la cage di Veigar è un cerchio che con W aggiri.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages with single-cooldown CC",
+        "reason": "Once their root or stun is on cooldown they have no answer to your E flash + W root + R lockdown engage; you out-kit them on the second exchange every wave.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Immobile mages with single-cooldown CC",
+        "reason": "Una volta che il loro root o stun e' in cooldown non hanno risposta al tuo engage E flash + W root + R lockdown; gli sopravvivi al secondo trade su ogni wave.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -26678,6 +28698,26 @@
         },
         "archetype": "Mage immobili senza dash",
         "reason": "La Q di Lux è un root a lunga gittata: chi non ha dash né stealth viene bindato su una linea pulita e mangia tutto il combo E + R prima di poter rispondere.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dashes",
+        "reason": "Q silence shuts down their cast windows entirely; once silenced they cannot answer your E DOT and they die in the R channel.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "Il silence della Q chiude completamente le loro cast window; una volta silenziati non possono rispondere al DOT della E e muoiono nel channel della R.",
         "via": "pick_into"
       },
       {
@@ -27184,6 +29224,26 @@
       },
       {
         "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "Their abilities reach 1100-1500 units, well beyond your Q range of 700; they shove you out of XP range and you cannot all-in past their CC setups.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage artillery a lungo raggio",
+        "reason": "Le loro abilità arrivano a 1100-1500 unità, ben oltre il tuo Q a 700; ti shovano fuori dal range XP e non puoi all-inare oltre i loro setup di CC.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "leona",
           "role": "support",
           "lang": "en"
@@ -27201,6 +29261,26 @@
         "archetype": "Mage support stazionari senza escape",
         "reason": "Il loro poke costa loro il posizionamento: un Flash più E li gancia, e la W mangia il loro counter-burst. Devono stare fermi per castare gli skillshot lunghi: è esattamente il momento in cui la E atterra pulita.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "Their abilities out-range your Q (725) and W (450). They poke you down for free and you have no way to close the gap without committing E, which is a 12-24 second cooldown.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "Le loro abilita' superano il range della tua Q (725) e della W (450). Ti pokano gratis e tu non hai modo di chiudere la distanza senza committare la E, che ha 12-24s di cooldown.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -27240,6 +29320,46 @@
         },
         "archetype": "Artillery mage a gittata superiore",
         "reason": "Pokano Lux oltre il range della Q. Lei non ha modo di chiudere la distanza, quindi ogni scambio in lane le costa HP senza opzione di all-in di ritorno.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "They poke from outside your 900-range Q. You have no dash to close the gap, so every wave bleeds your HP without a return option.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Artillery mage a lunga gittata",
+        "reason": "Pokano da fuori la tua Q da 900 di range. Non hai dash per chiudere la distanza, quindi ogni wave ti costa HP senza opzione di ritorno.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range mage supports with shields or stuns",
+        "reason": "They poke you from 900-plus range and force you to all-in past your safe distance. Without dash mobility you eat free chip damage every wave, arriving at level 6 with half HP and no engage tempo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Mage support a lungo raggio con shield o stun",
+        "reason": "Ti pokano da 900-plus di range e ti costringono ad all-inare oltre la distanza sicura. Senza dash mobility, mangi chip damage gratis ogni wave e arrivi al 6 a metà HP, senza tempo per engagiare.",
         "via": "counterpick"
       },
       {
@@ -28740,6 +30860,26 @@
       },
       {
         "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "Their abilities reach 1100-1500 units, well beyond your Q range of 700; they shove you out of XP range and you cannot all-in past their CC setups.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage artillery a lungo raggio",
+        "reason": "Le loro abilità arrivano a 1100-1500 unità, ben oltre il tuo Q a 700; ti shovano fuori dal range XP e non puoi all-inare oltre i loro setup di CC.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "leona",
           "role": "support",
           "lang": "en"
@@ -28757,6 +30897,26 @@
         "archetype": "Mage support stazionari senza escape",
         "reason": "Il loro poke costa loro il posizionamento: un Flash più E li gancia, e la W mangia il loro counter-burst. Devono stare fermi per castare gli skillshot lunghi: è esattamente il momento in cui la E atterra pulita.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "Their abilities out-range your Q (725) and W (450). They poke you down for free and you have no way to close the gap without committing E, which is a 12-24 second cooldown.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "Le loro abilita' superano il range della tua Q (725) e della W (450). Ti pokano gratis e tu non hai modo di chiudere la distanza senza committare la E, che ha 12-24s di cooldown.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -28796,6 +30956,46 @@
         },
         "archetype": "Artillery mage a gittata superiore",
         "reason": "Pokano Lux oltre il range della Q. Lei non ha modo di chiudere la distanza, quindi ogni scambio in lane le costa HP senza opzione di all-in di ritorno.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "They poke from outside your 900-range Q. You have no dash to close the gap, so every wave bleeds your HP without a return option.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Artillery mage a lunga gittata",
+        "reason": "Pokano da fuori la tua Q da 900 di range. Non hai dash per chiudere la distanza, quindi ogni wave ti costa HP senza opzione di ritorno.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Long-range mage supports with shields or stuns",
+        "reason": "They poke you from 900-plus range and force you to all-in past your safe distance. Without dash mobility you eat free chip damage every wave, arriving at level 6 with half HP and no engage tempo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Mage support a lungo raggio con shield o stun",
+        "reason": "Ti pokano da 900-plus di range e ti costringono ad all-inare oltre la distanza sicura. Senza dash mobility, mangi chip damage gratis ogni wave e arrivi al 6 a metà HP, senza tempo per engagiare.",
         "via": "counterpick"
       },
       {
@@ -29078,6 +31278,46 @@
         },
         "archetype": "Bruiser jungler front-loaded con CC point-and-click",
         "reason": "Il loro CC interrompe l'animazione del jump e ti blocca. Pre-6 ti vincono il duello in jungle: un invade a livello 3 è una kill gratis per loro.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early-game invade junglers with hard CC and lockdown",
+        "reason": "They walk into your level-2 camps with a kick, knock-up, or stun and kill you before you stack a single Mark. You have no dash that breaks lock-on and your R is not up yet.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Junglers da invade early con hard CC e lockdown",
+        "reason": "Entrano nei tuoi camp al level 2 con kick, knock-up o stun e ti uccidono prima che tu stacchi un solo Mark. Non hai dash che spezzi i lock-on e la R non è ancora disponibile.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Aggressive level 2-3 invaders",
+        "reason": "Lillia's level 1-3 are the weakest part of her game; she has no hard CC and only Q for damage. A successful invade kills her before her clear-plus-mobility power spike comes online.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Invade aggressivi a level 2-3",
+        "reason": "I primi 3 livelli sono il punto debole di Lillia: niente hard CC e solo Q come danno. Un'invade riuscita la chiude prima del power spike di clear più mobility.",
         "via": "counterpick"
       },
       {
@@ -29544,6 +31784,46 @@
       },
       {
         "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Champions with dashes or Wind Wall that bypass W slow",
+        "reason": "Her single-target burst W needs the target stuck on the center spot. Repeated dashes and Camille E hookshot leave her swinging at empty ground.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lillia",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Champion con dash o Wind Wall che bypassano lo slow di W",
+        "reason": "Il burst single-target della W vuole il target inchiodato sul centro. Dash ripetuti e l'E hookshot di Camille la lasciano a colpire il vuoto.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins that die to your CC chain",
+        "reason": "Self-R Stasis (untargetable + invulnerable for 2.5s) eats their burst window completely; W root on their gap-close converts the trade into a kill for your team.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mobile assassins that die to your CC chain",
+        "reason": "La self-R Stasis (intargettabile + invulnerabile per 2.5s) mangia la loro finestra di burst; la W che root il loro gap-close trasforma il trade in una kill per il tuo team.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "malphite",
           "role": "top",
           "lang": "en"
@@ -29560,6 +31840,26 @@
         },
         "archetype": "Carry basati su auto-attack",
         "reason": "Ground Slam taglia di molto la loro Attack Speed e Granite Shield si mangia il primo burst. Il loro damage profile si appiattisce mentre tu scali in una frontline che ignora il loro kit.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins relying on dashes",
+        "reason": "R is a single-target suppression that ignores tenacity and lasts 2.5s — their dashes do not break it. Once you press R on them, they die before they can output damage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili che vivono di dash",
+        "reason": "La R è una suppression single-target che ignora tenacity e dura 2.5s — i loro dash non la rompono. Una volta premuta R su di loro, muoiono prima di poter fare danno.",
         "via": "pick_into"
       },
       {
@@ -30082,6 +32382,26 @@
         },
         "archetype": "Carry basati su auto-attack",
         "reason": "Ground Slam taglia di molto la loro Attack Speed e Granite Shield si mangia il primo burst. Il loro damage profile si appiattisce mentre tu scali in una frontline che ignora il loro kit.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins relying on dashes",
+        "reason": "R is a single-target suppression that ignores tenacity and lasts 2.5s — their dashes do not break it. Once you press R on them, they die before they can output damage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili che vivono di dash",
+        "reason": "La R è una suppression single-target che ignora tenacity e dura 2.5s — i loro dash non la rompono. Una volta premuta R su di loro, muoiono prima di poter fare danno.",
         "via": "pick_into"
       },
       {
@@ -30750,6 +33070,46 @@
       },
       {
         "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Pure sustain enchanters that out-heal your harass",
+        "reason": "Maokai trades fine but cannot one-shot. A Soraka who keeps her ADC topped off makes your Q-E lane harass meaningless; without a kill threat at level 6, you fall behind on roams and tempo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Backline enchanters that hug the ADC",
+        "reason": "Sapling Toss reveals brush and bushes around the ADC; once you W onto the carry, the enchanter has nothing to peel with. Yuumi pops out of her host while rooted, opening a free pickoff.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter di pure sustain che battono l'harass",
+        "reason": "Maokai trada bene ma non one-shotta. Una Soraka che tiene il suo ADC pieno rende l'harass Q-E in lane irrilevante; senza una kill threat al 6, perdi tempo sui roam e tempo sul vantaggio.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "maokai",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter di backline che restano addosso all'ADC",
+        "reason": "Sapling Toss rivela brush e cespugli intorno all'ADC; quando piazzi la W sul carry, l'enchanter non ha nulla per peelare. Yuumi viene espulsa dall'ospite quando viene rooted, aprendo un pickoff gratis.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "miss-fortune",
           "role": "bot",
           "lang": "en"
@@ -31334,6 +33694,66 @@
       },
       {
         "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Burst assassins that delete you before R covers",
+        "reason": "You are squishy with no hard CC; they kill you in the 0.5s window before Lamb's Respite cast goes off. R does not block the damage, only the death — they wait it out and re-engage.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kindred",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Burst assassins che ti deletano prima che la R copra",
+        "reason": "Sei squishy senza hard CC; ti killano nella finestra di 0.5s prima che parta il cast di Lamb's Respite. La R non blocca il danno, solo la morte — aspettano che finisca e re-engagano.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Roaming assassins",
+        "reason": "These champions reach the back line through dashes, jumps, or stealth resets. Once they pass your front line during a W window, no defensive item except Guardian Angel will save you in time.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kog-maw",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Assassin da roam",
+        "reason": "Questi campioni raggiungono la back line tramite dash, salti o reset in stealth. Una volta passata la tua front line durante una finestra W, nessun item difensivo a parte Guardian Angel ti salva in tempo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins that die to your CC chain",
+        "reason": "Self-R Stasis (untargetable + invulnerable for 2.5s) eats their burst window completely; W root on their gap-close converts the trade into a kill for your team.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lissandra",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mobile assassins that die to your CC chain",
+        "reason": "La self-R Stasis (intargettabile + invulnerabile per 2.5s) mangia la loro finestra di burst; la W che root il loro gap-close trasforma il trade in una kill per il tuo team.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lulu",
           "role": "support",
           "lang": "en"
@@ -31371,6 +33791,26 @@
         "archetype": "Assassini mobili con multi gap-close",
         "reason": "Entrano dentro il cast window della R di Lux prima che lei finisca il channel; Zhonya's Hourglass aiuta ma non basta se la catena di dash colpisce prima che la stasi parta.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins relying on dashes",
+        "reason": "R is a single-target suppression that ignores tenacity and lasts 2.5s — their dashes do not break it. Once you press R on them, they die before they can output damage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili che vivono di dash",
+        "reason": "La R è una suppression single-target che ignora tenacity e dura 2.5s — i loro dash non la rompono. Una volta premuta R su di loro, muoiono prima di poter fare danno.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -31696,6 +34136,26 @@
       },
       {
         "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "Their abilities reach 1100-1500 units, well beyond your Q range of 700; they shove you out of XP range and you cannot all-in past their CC setups.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "leblanc",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage artillery a lungo raggio",
+        "reason": "Le loro abilità arrivano a 1100-1500 unità, ben oltre il tuo Q a 700; ti shovano fuori dal range XP e non puoi all-inare oltre i loro setup di CC.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -31713,6 +34173,26 @@
         "archetype": "Carry da retroguardia con escape debole",
         "reason": "La R cross-map trasforma errori di posizionamento in kill. Contribuiscono da lontano ma non possono schivare uno snipe a max range sugli obiettivi.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "They poke from outside your 900-range Q. You have no dash to close the gap, so every wave bleeds your HP without a return option.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "malzahar",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Artillery mage a lunga gittata",
+        "reason": "Pokano da fuori la tua Q da 900 di range. Non hai dash per chiudere la distanza, quindi ogni wave ti costa HP senza opzione di ritorno.",
+        "via": "counterpick"
       },
       {
         "publisher": {
