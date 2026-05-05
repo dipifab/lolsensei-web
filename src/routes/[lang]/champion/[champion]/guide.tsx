@@ -21,7 +21,7 @@ import Navbar from '../../../../components/Navbar';
 import Footer from '../../../../components/Footer';
 import { useI18n } from '../../../../i18n';
 import { type ContentLang } from '../../../../lib/content/champion-canonical';
-import { loadChampions } from '../../../../data/champions';
+import { getHubIndex } from '../../../../lib/champion/discovery';
 import top50Data from '../../../../../content/_meta/top-50-champions.json';
 
 const PRODUCTION_BASE = 'https://www.lolsensei.com';
@@ -62,22 +62,21 @@ async function resolveTargetRole(
     return { role: fromTop50 };
   }
 
-  // 2) Dataset lookup: primo role alfabetico nella lingua richiesta.
-  const list = await loadChampions(lang);
-  const inLang = list
-    .filter((g) => g.champion === champion && g.is_latest)
-    .map((g) => g.role)
+  // 2) Hub index lookup (zero KV calls): primo role alfabetico nella lingua
+  //    richiesta, fallback EN se la lingua mancante.
+  const idx = getHubIndex();
+  const inLang = idx
+    .filter((e) => e.champion === champion && e.locales[lang] !== undefined)
+    .map((e) => e.role)
     .sort();
   if (inLang.length > 0) {
     return { role: inLang[0] as ValidRole };
   }
 
-  // 3) Fallback su EN se la lingua richiesta non ha guide.
   if (lang !== 'en') {
-    const enList = await loadChampions('en');
-    const inEn = enList
-      .filter((g) => g.champion === champion && g.is_latest)
-      .map((g) => g.role)
+    const inEn = idx
+      .filter((e) => e.champion === champion && e.locales.en !== undefined)
+      .map((e) => e.role)
       .sort();
     if (inEn.length > 0) {
       return { role: inEn[0] as ValidRole };

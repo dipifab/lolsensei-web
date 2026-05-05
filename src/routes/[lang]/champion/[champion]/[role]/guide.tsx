@@ -27,18 +27,20 @@ import {
   getChampionHreflang,
   type ContentLang,
 } from '../../../../../lib/content/champion-canonical';
-import {
-  getLatestChampionGuide,
-  loadChampions,
-} from '../../../../../data/champions';
+import { isSupportedLocale } from '../../../../../lib/i18n/locales';
+import { getLatestChampionGuide } from '../../../../../data/champions';
+import { getAvailableLangsFor } from '../../../../../lib/champion/discovery';
 import type { ChampionGuide as ChampionGuideType } from '../../../../../data/champions/types';
 
-const CHAMPION_LANGS: readonly ContentLang[] = ['en', 'it'];
+// WP35.1 — esteso da EN+IT a tutte le 8 lingue del sito. La route accetta
+// qualunque locale supportato; se la guida non esiste in quella lingua,
+// `loadGuideData` ritorna `guide: null` e la UI mostra il fallback con
+// suggerimento alle lingue disponibili.
 const VALID_ROLES = ['top', 'jungle', 'mid', 'bot', 'support'] as const;
 type ValidRole = (typeof VALID_ROLES)[number];
 
 function isContentLang(v: string): v is ContentLang {
-  return (CHAMPION_LANGS as readonly string[]).includes(v);
+  return isSupportedLocale(v);
 }
 
 function isValidRole(v: string): v is ValidRole {
@@ -59,19 +61,8 @@ async function loadGuideData(
   champion: string,
   role: ValidRole,
 ): Promise<GuideRouteData> {
-  const [enList, itList] = await Promise.all([
-    loadChampions('en'),
-    loadChampions('it'),
-  ]);
-  const enHas = enList.some(
-    (g) => g.champion === champion && g.role === role && g.is_latest,
-  );
-  const itHas = itList.some(
-    (g) => g.champion === champion && g.role === role && g.is_latest,
-  );
-  const availableLangs: ContentLang[] = [];
-  if (enHas) availableLangs.push('en');
-  if (itHas) availableLangs.push('it');
+  // Hreflang: calcolato dai metadata bundled in index.json (zero KV calls).
+  const availableLangs = getAvailableLangsFor(champion, role) as ContentLang[];
 
   const guide = await getLatestChampionGuide(lang, champion, role);
   return {
@@ -285,11 +276,15 @@ function NotFoundFallback(props: {
   };
   const otherLang = (): ContentLang | null => {
     if (!props.data) return null;
-    if (props.lang === 'it' && props.data.availableLangs.includes('en')) {
+    // Suggerisci EN se disponibile e diverso da quella corrente, altrimenti
+    // la prima lingua disponibile. Per il pilot WP35.1 (Lux multilingua) e'
+    // utile poter cadere su es/fr/de/pt-br/ko/zh-hans se la lingua corrente
+    // manca ma altre coprono la guida.
+    if (props.lang !== 'en' && props.data.availableLangs.includes('en')) {
       return 'en';
     }
-    if (props.lang === 'en' && props.data.availableLangs.includes('it')) {
-      return 'it';
+    for (const l of props.data.availableLangs) {
+      if (l !== props.lang) return l;
     }
     return null;
   };

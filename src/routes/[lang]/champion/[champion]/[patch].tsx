@@ -27,7 +27,11 @@ import {
   type ContentLang,
 } from '../../../../lib/content/champion-canonical';
 import { isValidPatchSlug } from '../../../../lib/content/patch-version';
-import { getChampionGuideAtPatch, loadChampions } from '../../../../data/champions';
+import { getChampionGuideAtPatch } from '../../../../data/champions';
+import {
+  getAvailableLangsFor,
+  hasGuideFor,
+} from '../../../../lib/champion/discovery';
 import top50Data from '../../../../../content/_meta/top-50-champions.json';
 import type { ChampionGuide as ChampionGuideType } from '../../../../data/champions/types';
 
@@ -76,26 +80,13 @@ async function loadPatchData(
       availableLangs: [],
     };
   }
-  const [enList, itList, guide] = await Promise.all([
-    loadChampions('en'),
-    loadChampions('it'),
-    getChampionGuideAtPatch(lang, champion, role, patch),
-  ]);
-  const enHasLatest = enList.some(
-    (g) => g.champion === champion && g.role === role && g.is_latest,
-  );
-  const itHasLatest = itList.some(
-    (g) => g.champion === champion && g.role === role && g.is_latest,
-  );
-  const availableLangs: ContentLang[] = [];
-  if (enHasLatest) availableLangs.push('en');
-  if (itHasLatest) availableLangs.push('it');
+  const guide = await getChampionGuideAtPatch(lang, champion, role, patch);
 
+  // Hreflang: derivato dai metadata bundled (zero KV calls).
+  const availableLangs = getAvailableLangsFor(champion, role) as readonly ContentLang[];
   // Verifica esistenza guide /guide per lo stesso (lang, champion).
-  const sameLangList = lang === 'en' ? enList : itList;
-  const guideRouteAvailable = sameLangList.some(
-    (g) => g.champion === champion && g.role === role && g.is_latest,
-  );
+  const guideRouteAvailable =
+    hasGuideFor(champion, role) && availableLangs.includes(lang);
 
   return {
     lang,

@@ -27,6 +27,14 @@ binding = "LOLAI_PUBLIC_CACHE"
 id = "ca7b2f2b3c244514ac5f09cdeff19d57"
 preview_id = "b10575187e7343d88091bb3dd9bffce5"
 
+# Champion guides storage. Spostate fuori dal Worker bundle per stare sotto
+# il limite 3 MiB del piano Workers Free. Popolato via `npm run kv:upload`
+# dagli artifacts del prebuild. Creato 2026-05-05.
+[[kv_namespaces]]
+binding = "CHAMPION_GUIDES"
+id = "1dd721f7d002439fafb9b0e81e6178b1"
+preview_id = "f1d4f4a8719546d0ab0152c5a28ab9cc"
+
 # [env.beta] rimosso (WP18 post-T32): vinxi cloudflare-module preset genera
 # .output/server/wrangler.json (redirected config) copiando gli env sections,
 # ma wrangler 4.84 rifiuta redirected configs con environments. Il worker
