@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04",
+  "generated_at": "2026-05-05",
   "targets": {
     "aatrox": [
       {
@@ -308,6 +308,26 @@
       },
       {
         "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "Their dashes and blinks beat Hwei's cast times. By the time he opens E and picks the right subspell, the assassin is already inside his hitbox window with full burst ready.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "I loro dash/blink battono i cast time di Hwei. Mentre apre la E e sceglie la sub-spell giusta, l'assassino e' gia' dentro la sua hitbox col burst pronto.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "jayce",
           "role": "mid",
           "lang": "en"
@@ -466,6 +486,46 @@
         },
         "archetype": "Support engage mobili",
         "reason": "Rakan dasha attraverso i tuoi skillshot e tira la tua ADC fuori posto; la catena headbutt-pulverize di Alistar salta oltre lo stun della Q. Brand non riesce a reagire abbastanza in fretta a nessuno dei due.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Dash-and-knockup tanks",
+        "reason": "Their dash plus AOE knockup interrupts your spell sequence mid-cast. Hwei needs three button presses to lock a target — a single Alistar W-Q deletes that window.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Tank con dash e knockup",
+        "reason": "Il loro dash più il knockup AOE interrompe la sequenza di Hwei a metà cast. Hwei ha bisogno di tre tasti per bloccare un bersaglio: un singolo W-Q di Alistar cancella quella finestra.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "All-in tank engagers",
+        "reason": "They flash forward and chain CC the ADC before Ivern can land Q. He has no peel against multi-CC engage; one E shield breaks instantly under a 2-target stun chain.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Tank engager all-in",
+        "reason": "Flashano avanti e incatenano CC sull'ADC prima che Ivern possa atterrare la Q. Non ha peel contro engage multi-CC; un singolo E shield rompe in un istante sotto una stun chain a 2 bersagli.",
         "via": "counterpick"
       },
       {
@@ -812,6 +872,46 @@
       },
       {
         "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "AOE hard-engage tanks",
+        "reason": "Their R-Flash chains catch a tightly-positioned team in one cone; one E shield cannot cover multiple targets at once, and Daisy's third-auto knockup arrives too late to save the back line.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Tank con AOE hard-engage",
+        "reason": "I loro R-Flash prendono in un cono solo tutta la squadra accampata; un singolo E shield non puo' coprire piu' bersagli, e il knockup del terzo auto di Daisy arriva troppo tardi per salvare la backline.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "AOE engage junglers with longer-range CC",
+        "reason": "They engage from outside Jarvan's E-Q range and chain-CC him before he can reach the back line; the wall does not save him from being stunned mid-leap.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler engage AOE con CC a piu' lungo raggio",
+        "reason": "Engagiano da fuori il range del tuo E-Q e ti incatenano in CC prima che tu raggiunga la backline; i muri non ti salvano se ti stunnano a meta' salto.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "orianna",
           "role": "mid",
           "lang": "en"
@@ -1054,6 +1154,46 @@
       },
       {
         "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "Hwei's EW eye locks on and fires a homing root against targets with no movement ability, then chains into a guaranteed QW for huge damage. Without a dash they cannot leave the cast window.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "L'occhio EW si lock-on e spara una root homing su bersagli senza mobilita', poi concatena un QW garantito. Senza dash non escono dalla finestra di cast.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Stationary mid-lane scalers",
+        "reason": "E-Q gap-close from out of vision plus the R wall denies them the spacing their kit needs; they have no dash to leave the arena before your team converts.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Mid-lane scaler stazionari",
+        "reason": "Il gap-close E-Q da fuori vision piu' i muri della R li privano dello spazio che il loro kit richiede; non hanno dash per uscire dall'arena prima che il tuo team converta.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "jayce",
           "role": "mid",
           "lang": "en"
@@ -1272,6 +1412,26 @@
         },
         "archetype": "Mage corpo a corpo o tank che devono entrare nel raggio delle torrette",
         "reason": "Il loro engage avviene a corto raggio o richiede di camminare dentro la zona. Tre torrette piazzate rendono l'avanzata letale: il beam carico colpisce prima che l'animazione di engage sia completata.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Telegraphed all-in mages",
+        "reason": "Their engage requires close range and a slow tell. Hwei can pre-cast EW from fog, root them on the engage, and walk away to reset the trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Telegraphed all-in mages",
+        "reason": "Il loro engage richiede corto raggio e ha un tell lento. Hwei pre-casta EW dalla fog, root sull'engage, e si stacca per resettare il trade.",
         "via": "pick_into"
       },
       {
@@ -1580,6 +1740,26 @@
       },
       {
         "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile ADCs with no dash",
+        "reason": "Your EW root and EE drag connect cleanly because they have no gap-closer to interrupt your channel. Once primed, the passive signature plus R secures the kill.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC immobili senza dash",
+        "reason": "EW root e EE drag connettono puliti perché non hanno gap-closer per interrompere il channel. Una volta primati, la firma della passive più la R chiudono la kill.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "janna",
           "role": "support",
           "lang": "en"
@@ -1636,6 +1816,26 @@
         },
         "archetype": "Marksman immobili da late-scaling",
         "reason": "Jinx scala e teamfight meglio dei marksman statici: la Q razzo più Runaan's Hurricane sbriciola una back line ammucchiata che non ha dash per riposizionarsi una volta partito il fight.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Immobile marksmen with no dash",
+        "reason": "Once Kai'Sa hits R range with 5 Plasma stacks, immobile ADCs cannot escape the dash + Q burst. They have to survive the first all-in (full commitment trade aiming at a kill) without any reposition tool.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "ADC immobili senza dash",
+        "reason": "Una volta che Kai'Sa ha 5 stack di Plasma in range R, gli ADC immobili non possono uscire dal dash + Q burst. Devono sopravvivere all'all-in (scambio totale fino alla kill, senza spazio per disimpegnarsi) senza alcun reposition tool.",
         "via": "pick_into"
       },
       {
@@ -1839,6 +2039,28 @@
         "via": "pick_into"
       }
     ],
+    "aurelion-sol": [
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Stationary mid-lane scalers",
+        "reason": "E-Q gap-close from out of vision plus the R wall denies them the spacing their kit needs; they have no dash to leave the arena before your team converts.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Mid-lane scaler stazionari",
+        "reason": "Il gap-close E-Q da fuori vision piu' i muri della R li privano dello spazio che il loro kit richiede; non hanno dash per uscire dall'arena prima che il tuo team converta.",
+        "via": "pick_into"
+      }
+    ],
     "azir": [
       {
         "publisher": {
@@ -1878,6 +2100,26 @@
         },
         "archetype": "Mage di media gittata flexati top",
         "reason": "Squishy a corto raggio (HP bassi, difese basse) senza dash vengono one-shottati una volta uscita Trinity Force con stack pieni di passiva.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Stationary mid-lane scalers",
+        "reason": "E-Q gap-close from out of vision plus the R wall denies them the spacing their kit needs; they have no dash to leave the arena before your team converts.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Mid-lane scaler stazionari",
+        "reason": "Il gap-close E-Q da fuori vision piu' i muri della R li privano dello spazio che il loro kit richiede; non hanno dash per uscire dall'arena prima che il tuo team converta.",
         "via": "pick_into"
       },
       {
@@ -2041,6 +2283,26 @@
         "archetype": "Hook support",
         "reason": "Un hook che atterra su Galio mid-W cancella l'intero engage; è un target grosso senza un dodge tool intrinseco, e un hook dentro chain-CC rimuove sia R che E dal fight.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hook supports that step up to throw skillshots",
+        "reason": "They have to walk forward into Q range to land their hook — Ivern's Q + ADC dash punishes the windup with a guaranteed root before the hook even leaves the cast animation.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Hook support che si spingono avanti per gli skillshot",
+        "reason": "Devono camminare in avanti dentro il range della Q per atterrare il loro hook — la Q + dash dell'ADC punisce il windup con un root garantito prima che l'hook esca dall'animazione di cast.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -2282,6 +2544,46 @@
         },
         "archetype": "Mage support squishy senza escape",
         "reason": "I mage support stanno fermi per piazzare gli skillshot; la E di Galio li raggiunge attraverso i minion e la W tanka il burst che normalmente scaccerebbe un melee engager.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Skillshot mage supports without escape",
+        "reason": "You match their poke range with QQ and QW, but you also have hard CC they lack. In a long lane trade you win because you can convert a single landed E into a kill, while they can only chip.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Mage support skillshot-based senza escape",
+        "reason": "Matchi il loro poke range con QQ e QW, ma tu hai hard CC che a loro mancano. In una lane lunga vinci perché converti una E landata in kill, mentre loro possono solo erodere HP.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile mage poke supports",
+        "reason": "They have no dash. Q from brush + ADC follow-up wipes them; W active brush gives Ivern a free vision-and-damage zone they cannot match without burning summoner spells.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Mage support immobili da poke",
+        "reason": "Non hanno dash. Q dal brush + follow-up dell'ADC li cancella; la W attiva crea una zona vision-piu'-danno gratis che non riescono a contestare senza bruciare summoner spell.",
         "via": "pick_into"
       },
       {
@@ -2688,6 +2990,26 @@
       },
       {
         "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile ADCs with no dash",
+        "reason": "Your EW root and EE drag connect cleanly because they have no gap-closer to interrupt your channel. Once primed, the passive signature plus R secures the kill.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC immobili senza dash",
+        "reason": "EW root e EE drag connettono puliti perché non hanno gap-closer per interrompere il channel. Una volta primati, la firma della passive più la R chiudono la kill.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "janna",
           "role": "support",
           "lang": "en"
@@ -2708,6 +3030,26 @@
       },
       {
         "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile bot lanes that need peel",
+        "reason": "Cataclysm walls trap a positioning-dependent carry inside an arena their support cannot reach into; the enemy team usually cannot answer the lockdown in time.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Bot lane immobili che hanno bisogno di peel",
+        "reason": "I muri di Cataclysm chiudono un carry posizionale dentro un'arena dove il suo support non puo' arrivare a difenderlo; il team nemico di solito non riesce a rispondere in tempo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "jhin",
           "role": "bot",
           "lang": "en"
@@ -2724,6 +3066,26 @@
         },
         "archetype": "Marksman immobili a lungo raggio",
         "reason": "Condividono con Jhin la mancanza di dash ma hanno finestre di burst più corte. Una volta che Jhin entra nel ritmo del 4° colpo con il follow-up del support, vince i trade diretti dal level 6 in poi.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Immobile marksmen with no dash",
+        "reason": "Once Kai'Sa hits R range with 5 Plasma stacks, immobile ADCs cannot escape the dash + Q burst. They have to survive the first all-in (full commitment trade aiming at a kill) without any reposition tool.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "ADC immobili senza dash",
+        "reason": "Una volta che Kai'Sa ha 5 stack di Plasma in range R, gli ADC immobili non possono uscire dal dash + Q burst. Devono sopravvivere all'all-in (scambio totale fino alla kill, senza spazio per disimpegnarsi) senza alcun reposition tool.",
         "via": "pick_into"
       },
       {
@@ -3718,6 +4080,26 @@
       },
       {
         "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Slow melee bruisers in lane",
+        "reason": "Hwei outranges them at every level and keeps them slowed with QE pools. They cannot reach his cast position without burning Flash.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Slow melee bruisers in lane",
+        "reason": "Hwei li outranges a ogni livello e li tiene slowed con le pozze QE. Non arrivano alla sua posizione di cast senza bruciare Flash.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "illaoi",
           "role": "top",
           "lang": "en"
@@ -4180,6 +4562,26 @@
         },
         "archetype": "Marksman da pressione early",
         "reason": "Out-tradano Jinx ai livelli 1-6 perché il loro damage in auto-attack supera gli stack di minigun e Jinx non ha dash per disimpegnarsi; snowballano gold di lane prima del primo spike di item.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Lane bullies with stronger early auto-attack damage",
+        "reason": "Both out-trade Kai'Sa at levels 1-3 before her Q evolve threshold. Draven's empowered axes and Lucian's passive double-shot win every short trade window before Kai'Sa scales.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Bully da lane con auto-attack damage early più alto",
+        "reason": "Entrambi battono Kai'Sa nei trade ai livelli 1-3, prima della soglia di evolve della Q. Le axes potenziate di Draven e il double-shot passive di Lucian vincono ogni trade breve prima che Kai'Sa scali.",
         "via": "counterpick"
       },
       {
@@ -4650,6 +5052,26 @@
       },
       {
         "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile bot lanes that need peel",
+        "reason": "Cataclysm walls trap a positioning-dependent carry inside an arena their support cannot reach into; the enemy team usually cannot answer the lockdown in time.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Bot lane immobili che hanno bisogno di peel",
+        "reason": "I muri di Cataclysm chiudono un carry posizionale dentro un'arena dove il suo support non puo' arrivare a difenderlo; il team nemico di solito non riesce a rispondere in tempo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kha-zix",
           "role": "jungle",
           "lang": "en"
@@ -4809,6 +5231,26 @@
         "archetype": "Ganker basati su stealth",
         "reason": "Il damage reduction della W assorbe il loro burst di apertura (fear+drain di Fiddlesticks, backstab di Shaco) mentre Body Slam li stunna in pieno cast. Il loro engage richiede cast time non contestato — Gragas glielo toglie.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "AOE engage junglers with longer-range CC",
+        "reason": "They engage from outside Jarvan's E-Q range and chain-CC him before he can reach the back line; the wall does not save him from being stunned mid-leap.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler engage AOE con CC a piu' lungo raggio",
+        "reason": "Engagiano da fuori il range del tuo E-Q e ti incatenano in CC prima che tu raggiunga la backline; i muri non ti salvano se ti stunnano a meta' salto.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -5456,6 +5898,26 @@
       },
       {
         "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "Their dashes and blinks beat Hwei's cast times. By the time he opens E and picks the right subspell, the assassin is already inside his hitbox window with full burst ready.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "I loro dash/blink battono i cast time di Hwei. Mentre apre la E e sceglie la sub-spell giusta, l'assassino e' gia' dentro la sua hitbox col burst pronto.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "jayce",
           "role": "mid",
           "lang": "en"
@@ -6042,6 +6504,26 @@
       },
       {
         "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Slow melee bruisers in lane",
+        "reason": "Hwei outranges them at every level and keeps them slowed with QE pools. They cannot reach his cast position without burning Flash.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Slow melee bruisers in lane",
+        "reason": "Hwei li outranges a ogni livello e li tiene slowed con le pozze QE. Non arrivano alla sua posizione di cast senza bruciare Flash.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "illaoi",
           "role": "top",
           "lang": "en"
@@ -6588,6 +7070,46 @@
       },
       {
         "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early-game invaders",
+        "reason": "Ivern cannot 1v1 — W damage requires brush, Q has no escape utility. A pre-3 invade deletes his groves and forces a defensive clear that snowballs the enemy XP and gold lead permanently.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Invader early-game",
+        "reason": "Ivern non puo' fare 1v1: la W ha bisogno di brush, la Q non ha escape. Un'invasione pre-3 distrugge i suoi grove e lo costringe a un clear difensivo che fa snowballare il vantaggio XP avversario per tutta la partita.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early-game jungle skirmishers",
+        "reason": "Jarvan trades evenly at level 3 with Q armor shred plus E attack speed and out-scales most early-game junglers once Sundered Sky comes online around minute 12-14.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler skirmisher early-game",
+        "reason": "Jarvan trade alla pari al livello 3 con Q armor shred + E attack speed e supera in scaling la maggior parte dei jungler early una volta online Sundered Sky verso il minuto 12-14.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kayn",
           "role": "jungle",
           "lang": "en"
@@ -7097,6 +7619,26 @@
         "archetype": "Enchanter da disengage",
         "reason": "I loro AOE knock-aside o le spell shield-and-cleanse negano la finestra di landing della R e il taunt W — quando Galio atterra, il carry è gia disengaged fuori range.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Enchanter supports without hard lockdown",
+        "reason": "They cannot punish your long EW vision-and-root setup. You out-range their poke and the QW delayed bolt finds them when they step up to shield their ADC.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter supports senza hard CC",
+        "reason": "Non hanno strumenti per punire il tuo setup EW (vision + root delayed). Tu out-rangi il loro poke e la QW delayed bolt li trova quando si fanno avanti per shieldare l'ADC.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -7684,6 +8226,26 @@
         },
         "archetype": "ADC immobili o con dash corto",
         "reason": "Phase Rush più la carica di E chiudono il gap prima che possano kitare via; la loro unica fuga (Flash) ha cooldown molto più alto del tuo engage.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile ADCs with no dash",
+        "reason": "Your EW root and EE drag connect cleanly because they have no gap-closer to interrupt your channel. Once primed, the passive signature plus R secures the kill.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "ADC immobili senza dash",
+        "reason": "EW root e EE drag connettono puliti perché non hanno gap-closer per interrompere il channel. Una volta primati, la firma della passive più la R chiudono la kill.",
         "via": "pick_into"
       },
       {
@@ -8940,6 +9502,46 @@
       },
       {
         "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "Hwei's EW eye locks on and fires a homing root against targets with no movement ability, then chains into a guaranteed QW for huge damage. Without a dash they cannot leave the cast window.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "L'occhio EW si lock-on e spara una root homing su bersagli senza mobilita', poi concatena un QW garantito. Senza dash non escono dalla finestra di cast.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile carries without dash",
+        "reason": "A Q root from fog locks them in place; the Attack-to-dash chain by your ADC closes the gap before they can flash, especially after Daisy joins for the knockup follow-up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Carry immobili senza dash",
+        "reason": "Una Q dalla fog li radica; il dash automatico dell'ADC sul bersaglio attaccato chiude il gap prima che possano flashare, soprattutto dopo che Daisy entra per il knockup di follow-up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kha-zix",
           "role": "jungle",
           "lang": "en"
@@ -9118,6 +9720,26 @@
         },
         "archetype": "Untargetable / blink-based",
         "reason": "Fizz E e Kassadin R schivano la combo committata e poi re-engagano su Corki quando la sua W è giù. Lui non ha follow-up burst una volta che diventano untargetable.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "Their dashes and blinks beat Hwei's cast times. By the time he opens E and picks the right subspell, the assassin is already inside his hitbox window with full burst ready.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "I loro dash/blink battono i cast time di Hwei. Mentre apre la E e sceglie la sub-spell giusta, l'assassino e' gia' dentro la sua hitbox col burst pronto.",
         "via": "counterpick"
       },
       {
@@ -10032,6 +10654,46 @@
       },
       {
         "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassin divers",
+        "reason": "They jump past Ivern's positioning onto the carry; the E shield burns through fast against burst, and his only hard CC is a slow-windup Q that dashes outrun before it lands.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili che dive il carry",
+        "reason": "Saltano oltre il peel di Ivern e arrivano sul carry; lo scudo E si consuma in fretta sotto il burst, e l'unica hard CC e' una Q a windup lento che i dash schivano prima che parta.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early-game jungle skirmishers",
+        "reason": "Jarvan trades evenly at level 3 with Q armor shred plus E attack speed and out-scales most early-game junglers once Sundered Sky comes online around minute 12-14.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler skirmisher early-game",
+        "reason": "Jarvan trade alla pari al livello 3 con Q armor shred + E attack speed e supera in scaling la maggior parte dei jungler early una volta online Sundered Sky verso il minuto 12-14.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lulu",
           "role": "support",
           "lang": "en"
@@ -10438,6 +11100,26 @@
       },
       {
         "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Late-game scaling carries with no escape",
+        "reason": "W has 3000 units of range and reveals them for 4s — Kai'Sa pokes them off the wave from outside their threat range, then R's the moment Plasma fully ruptures.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Carry da late-game senza escape",
+        "reason": "La W ha 3000 unità di range e li rivela per 4s: Kai'Sa li poka fuori dalla wave da fuori threat range, poi R appena Plasma è pieno.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kha-zix",
           "role": "jungle",
           "lang": "en"
@@ -10782,6 +11464,46 @@
       },
       {
         "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early-game invaders",
+        "reason": "Ivern cannot 1v1 — W damage requires brush, Q has no escape utility. A pre-3 invade deletes his groves and forces a defensive clear that snowballs the enemy XP and gold lead permanently.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Invader early-game",
+        "reason": "Ivern non puo' fare 1v1: la W ha bisogno di brush, la Q non ha escape. Un'invasione pre-3 distrugge i suoi grove e lo costringe a un clear difensivo che fa snowballare il vantaggio XP avversario per tutta la partita.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early-game jungle skirmishers",
+        "reason": "Jarvan trades evenly at level 3 with Q armor shred plus E attack speed and out-scales most early-game junglers once Sundered Sky comes online around minute 12-14.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler skirmisher early-game",
+        "reason": "Jarvan trade alla pari al livello 3 con Q armor shred + E attack speed e supera in scaling la maggior parte dei jungler early una volta online Sundered Sky verso il minuto 12-14.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kayn",
           "role": "jungle",
           "lang": "en"
@@ -11044,6 +11766,46 @@
       },
       {
         "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hook and lockdown engage supports",
+        "reason": "Their point-and-click or hook engage hits before you can finish the channel on EW. Once Hwei is locked down he has no dash to escape, and a missed E leaves him with no answer.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support engage con hook e lockdown",
+        "reason": "Il loro engage point-and-click o hook arriva prima che tu chiuda il channel su EW. Una volta lockato Hwei non ha dash per scappare, e una E sbagliata lo lascia senza risposta.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "All-in tank engagers",
+        "reason": "They flash forward and chain CC the ADC before Ivern can land Q. He has no peel against multi-CC engage; one E shield breaks instantly under a 2-target stun chain.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Tank engager all-in",
+        "reason": "Flashano avanti e incatenano CC sull'ADC prima che Ivern possa atterrare la Q. Non ha peel contro engage multi-CC; un singolo E shield rompe in un istante sotto una stun chain a 2 bersagli.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "janna",
           "role": "support",
           "lang": "en"
@@ -11101,6 +11863,26 @@
         "archetype": "Support engage da lockdown",
         "reason": "Quando il support cattura un target, Jinx ha una finestra di auto-attack abbastanza lunga per piazzare 3-4 razzi nella catena di CC e finire con la R, dato che il target non può schivare l'AOE.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Hard engage supports with point-and-click CC",
+        "reason": "Kai'Sa has no dash before R, and R requires a target with Plasma. A Leona E or Nautilus Q mid-lane lock-her-down before she can stack any Plasma at all — the chain CC kills her before evolved E invisibility comes online.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Support engage con CC point-and-click",
+        "reason": "Kai'Sa non ha dash prima della R, e la R richiede un bersaglio con Plasma. Una E di Leona o Q di Nautilus la blocca a metà lane prima che possa stackare un solo Plasma; la chain CC la uccide prima che parta l'invisibilità della E evolved.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -11650,6 +12432,26 @@
       },
       {
         "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Lane bullies with stronger early auto-attack damage",
+        "reason": "Both out-trade Kai'Sa at levels 1-3 before her Q evolve threshold. Draven's empowered axes and Lucian's passive double-shot win every short trade window before Kai'Sa scales.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Bully da lane con auto-attack damage early più alto",
+        "reason": "Entrambi battono Kai'Sa nei trade ai livelli 1-3, prima della soglia di evolve della Q. Le axes potenziate di Draven e il double-shot passive di Lucian vincono ogni trade breve prima che Kai'Sa scali.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "miss-fortune",
           "role": "bot",
           "lang": "en"
@@ -11869,6 +12671,46 @@
         "archetype": "Enchanter da disengage",
         "reason": "I loro AOE knock-aside o le spell shield-and-cleanse negano la finestra di landing della R e il taunt W — quando Galio atterra, il carry è gia disengaged fuori range.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Enchanter supports without hard lockdown",
+        "reason": "They cannot punish your long EW vision-and-root setup. You out-range their poke and the QW delayed bolt finds them when they step up to shield their ADC.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter supports senza hard CC",
+        "reason": "Non hanno strumenti per punire il tuo setup EW (vision + root delayed). Tu out-rangi il loro poke e la QW delayed bolt li trova quando si fanno avanti per shieldare l'ADC.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile bot lanes that need peel",
+        "reason": "Cataclysm walls trap a positioning-dependent carry inside an arena their support cannot reach into; the enemy team usually cannot answer the lockdown in time.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Bot lane immobili che hanno bisogno di peel",
+        "reason": "I muri di Cataclysm chiudono un carry posizionale dentro un'arena dove il suo support non puo' arrivare a difenderlo; il team nemico di solito non riesce a rispondere in tempo.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -12231,6 +13073,26 @@
         "archetype": "Mage di artiglieria immobili",
         "reason": "Il knockup E di Galio chiude la distanza su cui si reggono, e la W assorbe il burst delle loro spell a lungo cooldown tipo Lux R o Veigar R.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Zone-control / long-range mage supports",
+        "reason": "Lux's E zone shuts down Ivern's brush angles and out-pokes Q range; Zyra's seed-and-plant zoning out-controls Ivern's W brush passive without ever stepping forward.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Mage support da zone control / lungo raggio",
+        "reason": "La E di Lux taglia gli angoli di brush di Ivern e poke fuori dal range della Q; il seed-and-plant di Zyra controlla la zona meglio del W passive di Ivern senza mai farsi avanti.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -13299,6 +14161,26 @@
         "archetype": "Assassini squishy senza disengage",
         "reason": "La W mist nega il loro target lock durante un all-in. Si committano, mangiano il cono di Q true damage in mist, e non hanno un secondo escape perché hanno già speso il dash.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Auto-attack scaling junglers",
+        "reason": "Ivern's grove mechanic skips camp fights entirely; while opponents grind autos against monsters, Ivern is already shielding lanes and setting up roots with his ADC by level 5.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler scaling auto-attack-based",
+        "reason": "Il sistema di grove di Ivern salta del tutto il fight con i camp; mentre questi macinano auto sui mostri, Ivern e' gia' a scudare le lane e a settare root con l'ADC al livello 5.",
+        "via": "pick_into"
       }
     ],
     "milio": [
@@ -13361,6 +14243,26 @@
         "archetype": "Enchanter da disengage",
         "reason": "I loro AOE knock-aside o le spell shield-and-cleanse negano la finestra di landing della R e il taunt W — quando Galio atterra, il carry è gia disengaged fuori range.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Pure enchanter supports without lockdown",
+        "reason": "These chase the ADC with heals and shields but bring no peel against a setup root; Q catches the carry, Daisy slam follows, and the enchanter has no answer to undo a 1.75s root.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter puri senza lockdown",
+        "reason": "Inseguono l'ADC con heal e shield ma non portano peel contro un setup root; la Q prende il carry, lo slam di Daisy segue, e l'enchanter non ha risposta a un root da 1.75s.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -13688,6 +14590,26 @@
       },
       {
         "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Late-game scalers with built-in sustain",
+        "reason": "Jarvan's power spike is items 1-3 (around minute 20-25). After that he falls off, while these targets only get stronger and survive his single rotation.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Late-game scaler con sustain integrato",
+        "reason": "Il power spike di Jarvan e' agli item 1-3 (intorno al minuto 20-25). Dopo cala, mentre questi target diventano piu' forti e sopravvivono al tuo singolo rotation.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "k-sante",
           "role": "top",
           "lang": "en"
@@ -13886,6 +14808,26 @@
         },
         "archetype": "Champion con root, slow o ground che bloccano il movimento",
         "reason": "Tutto il kit di Hecarim scala con la Move Speed (Warpath converte la velocità bonus in Attack Damage). Una volta rootato o groundato, perde sia danno sia la possibilità di disengage.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Anti-CC peel supports with cleanse or eat",
+        "reason": "Morgana's E spell-shield blocks the Q root completely, undoing the entire setup; Tahm Kench W eats the ADC out of Daisy's slam radius before the third auto lands.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support da peel anti-CC con cleanse o eat",
+        "reason": "La E di Morgana spell-shielda il root della Q completamente, annullando tutto il setup; la W di Tahm Kench ingoia l'ADC fuori dal raggio dello slam di Daisy prima del terzo auto.",
         "via": "counterpick"
       },
       {
@@ -14234,6 +15176,26 @@
       },
       {
         "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Late-game scalers with built-in sustain",
+        "reason": "Jarvan's power spike is items 1-3 (around minute 20-25). After that he falls off, while these targets only get stronger and survive his single rotation.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Late-game scaler con sustain integrato",
+        "reason": "Il power spike di Jarvan e' agli item 1-3 (intorno al minuto 20-25). Dopo cala, mentre questi target diventano piu' forti e sopravvivono al tuo singolo rotation.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "jax",
           "role": "top",
           "lang": "en"
@@ -14536,6 +15498,26 @@
       },
       {
         "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hook and lockdown engage supports",
+        "reason": "Their point-and-click or hook engage hits before you can finish the channel on EW. Once Hwei is locked down he has no dash to escape, and a missed E leaves him with no answer.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support engage con hook e lockdown",
+        "reason": "Il loro engage point-and-click o hook arriva prima che tu chiuda il channel su EW. Una volta lockato Hwei non ha dash per scappare, e una E sbagliata lo lascia senza risposta.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "janna",
           "role": "support",
           "lang": "en"
@@ -14593,6 +15575,26 @@
         "archetype": "Support engage da lockdown",
         "reason": "Quando il support cattura un target, Jinx ha una finestra di auto-attack abbastanza lunga per piazzare 3-4 razzi nella catena di CC e finire con la R, dato che il target non può schivare l'AOE.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Hard engage supports with point-and-click CC",
+        "reason": "Kai'Sa has no dash before R, and R requires a target with Plasma. A Leona E or Nautilus Q mid-lane lock-her-down before she can stack any Plasma at all — the chain CC kills her before evolved E invisibility comes online.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Support engage con CC point-and-click",
+        "reason": "Kai'Sa non ha dash prima della R, e la R richiede un bersaglio con Plasma. Una E di Leona o Q di Nautilus la blocca a metà lane prima che possa stackare un solo Plasma; la chain CC la uccide prima che parta l'invisibilità della E evolved.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -14938,6 +15940,26 @@
       },
       {
         "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early-game invaders",
+        "reason": "Ivern cannot 1v1 — W damage requires brush, Q has no escape utility. A pre-3 invade deletes his groves and forces a defensive clear that snowballs the enemy XP and gold lead permanently.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Invader early-game",
+        "reason": "Ivern non puo' fare 1v1: la W ha bisogno di brush, la Q non ha escape. Un'invasione pre-3 distrugge i suoi grove e lo costringe a un clear difensivo che fa snowballare il vantaggio XP avversario per tutta la partita.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "viego",
           "role": "jungle",
           "lang": "en"
@@ -15158,6 +16180,26 @@
         },
         "archetype": "Bully early-window da all-in",
         "reason": "Stun di Renekton al livello 2 + ult al livello 6 cancellano il piano di scaling di Gangplank prima di Trinity Force. La R di Olaf gli concede CC immunity, quindi il W cleanse non lo ferma mentre lo investe con asce in true damage.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "CC-immune duelists",
+        "reason": "Olaf R and Tryndamere R ignore the lockdown of Cataclysm: they walk out of the arena hitting you for full damage while your only initiation is on cooldown.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Duellanti CC-immune",
+        "reason": "Olaf R e Tryndamere R ignorano la lockdown del Cataclysm: escono dall'arena colpendoti a danno pieno mentre il tuo unico engage e' in cooldown.",
         "via": "counterpick"
       },
       {
@@ -15812,6 +16854,46 @@
       },
       {
         "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Roaming and gap-close engage",
+        "reason": "They close the distance Hwei needs to land skillshots from. Pyke's stealth makes EW useless because you cannot see him to place the eye on his path; Rell's W jump bypasses the slow zone of QE.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Engage con roam e gap-close",
+        "reason": "Chiudono la distanza che a Hwei serve per piazzare gli skillshot. La stealth di Pyke rende EW inutile (non vedi dove piazzare l'occhio), il W jump di Rell salta la zona slow di QE.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hook supports that step up to throw skillshots",
+        "reason": "They have to walk forward into Q range to land their hook — Ivern's Q + ADC dash punishes the windup with a guaranteed root before the hook even leaves the cast animation.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Hook support che si spingono avanti per gli skillshot",
+        "reason": "Devono camminare in avanti dentro il range della Q per atterrare il loro hook — la Q + dash dell'ADC punisce il windup con un root garantito prima che l'hook esca dall'animazione di cast.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "janna",
           "role": "support",
           "lang": "en"
@@ -15828,6 +16910,26 @@
         },
         "archetype": "Hook support a lungo range",
         "reason": "Janna non ha gap-closer e nessun hard CC al level 1: un hook landato prima del 6 cancella l'AD carry prima che la R sia pronta per disengage.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Hard engage supports with point-and-click CC",
+        "reason": "Kai'Sa has no dash before R, and R requires a target with Plasma. A Leona E or Nautilus Q mid-lane lock-her-down before she can stack any Plasma at all — the chain CC kills her before evolved E invisibility comes online.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Support engage con CC point-and-click",
+        "reason": "Kai'Sa non ha dash prima della R, e la R richiede un bersaglio con Plasma. Una E di Leona o Q di Nautilus la blocca a metà lane prima che possa stackare un solo Plasma; la chain CC la uccide prima che parta l'invisibilità della E evolved.",
         "via": "counterpick"
       },
       {
@@ -16458,6 +17560,26 @@
       },
       {
         "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Dash-and-knockup tanks",
+        "reason": "Their dash plus AOE knockup interrupts your spell sequence mid-cast. Hwei needs three button presses to lock a target — a single Alistar W-Q deletes that window.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Tank con dash e knockup",
+        "reason": "Il loro dash più il knockup AOE interrompe la sequenza di Hwei a metà cast. Hwei ha bisogno di tre tasti per bloccare un bersaglio: un singolo W-Q di Alistar cancella quella finestra.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "janna",
           "role": "support",
           "lang": "en"
@@ -16758,6 +17880,46 @@
         },
         "archetype": "Support engage tanky con CC point-and-click",
         "reason": "Il loro engage e a bersaglio (niente skillshot da schivare). Restano attaccati al tuo ADC piu a lungo di quanto tu li possa tenere, e il tuo magic damage non li uccide attraverso l'armor.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Roaming and gap-close engage",
+        "reason": "They close the distance Hwei needs to land skillshots from. Pyke's stealth makes EW useless because you cannot see him to place the eye on his path; Rell's W jump bypasses the slow zone of QE.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Engage con roam e gap-close",
+        "reason": "Chiudono la distanza che a Hwei serve per piazzare gli skillshot. La stealth di Pyke rende EW inutile (non vedi dove piazzare l'occhio), il W jump di Rell salta la zona slow di QE.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "All-in tank engagers",
+        "reason": "They flash forward and chain CC the ADC before Ivern can land Q. He has no peel against multi-CC engage; one E shield breaks instantly under a 2-target stun chain.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Tank engager all-in",
+        "reason": "Flashano avanti e incatenano CC sull'ADC prima che Ivern possa atterrare la Q. Non ha peel contro engage multi-CC; un singolo E shield rompe in un istante sotto una stun chain a 2 bersagli.",
         "via": "counterpick"
       },
       {
@@ -17306,6 +18468,46 @@
         },
         "archetype": "Assassini con burst window",
         "reason": "Il loro burst arriva in 1.5 secondi, ma la W mist li fa uscire dal target range a metà salto. Una volta whiffato il burst window, Gwen vince facilmente il trade prolungato.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassin divers",
+        "reason": "They jump past Ivern's positioning onto the carry; the E shield burns through fast against burst, and his only hard CC is a slow-windup Q that dashes outrun before it lands.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Assassini mobili che dive il carry",
+        "reason": "Saltano oltre il peel di Ivern e arrivano sul carry; lo scudo E si consuma in fretta sotto il burst, e l'unica hard CC e' una Q a windup lento che i dash schivano prima che parta.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early-game jungle skirmishers",
+        "reason": "Jarvan trades evenly at level 3 with Q armor shred plus E attack speed and out-scales most early-game junglers once Sundered Sky comes online around minute 12-14.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler skirmisher early-game",
+        "reason": "Jarvan trade alla pari al livello 3 con Q armor shred + E attack speed e supera in scaling la maggior parte dei jungler early una volta online Sundered Sky verso il minuto 12-14.",
         "via": "pick_into"
       },
       {
@@ -18322,6 +19524,26 @@
       },
       {
         "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Late-game scaling carries with no escape",
+        "reason": "W has 3000 units of range and reveals them for 4s — Kai'Sa pokes them off the wave from outside their threat range, then R's the moment Plasma fully ruptures.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Carry da late-game senza escape",
+        "reason": "La W ha 3000 unità di range e li rivela per 4s: Kai'Sa li poka fuori dalla wave da fuori threat range, poi R appena Plasma è pieno.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "leona",
           "role": "support",
           "lang": "en"
@@ -18806,6 +20028,26 @@
       },
       {
         "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Slow melee bruisers in lane",
+        "reason": "Hwei outranges them at every level and keeps them slowed with QE pools. They cannot reach his cast position without burning Flash.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Slow melee bruisers in lane",
+        "reason": "Hwei li outranges a ogni livello e li tiene slowed con le pozze QE. Non arrivano alla sua posizione di cast senza bruciare Flash.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "illaoi",
           "role": "top",
           "lang": "en"
@@ -19192,6 +20434,26 @@
       },
       {
         "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Auto-attack scaling junglers",
+        "reason": "Ivern's grove mechanic skips camp fights entirely; while opponents grind autos against monsters, Ivern is already shielding lanes and setting up roots with his ADC by level 5.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler scaling auto-attack-based",
+        "reason": "Il sistema di grove di Ivern salta del tutto il fight con i camp; mentre questi macinano auto sui mostri, Ivern e' gia' a scudare le lane e a settare root con l'ADC al livello 5.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kha-zix",
           "role": "jungle",
           "lang": "en"
@@ -19538,6 +20800,26 @@
       },
       {
         "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Immobile marksmen with no dash",
+        "reason": "Once Kai'Sa hits R range with 5 Plasma stacks, immobile ADCs cannot escape the dash + Q burst. They have to survive the first all-in (full commitment trade aiming at a kill) without any reposition tool.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "ADC immobili senza dash",
+        "reason": "Una volta che Kai'Sa ha 5 stack di Plasma in range R, gli ADC immobili non possono uscire dal dash + Q burst. Devono sopravvivere all'all-in (scambio totale fino alla kill, senza spazio per disimpegnarsi) senza alcun reposition tool.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "tristana",
           "role": "bot",
           "lang": "en"
@@ -19758,6 +21040,26 @@
         },
         "archetype": "Support mage da retroguardia senza escape",
         "reason": "Stanno indietro per buffare gli alleati — ma le tue effigie danno vision profonda che trova la loro posizione, e il channel di R da dentro il loro hex le one-shotta prima che possano muoversi.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Squishy enchanter supports without hard CC",
+        "reason": "These supports have no stun or knock-up to peel a back-line dive. Kai'Sa lands R on the ADC and the support has nothing to interrupt the all-in once invisibility from evolved E kicks in.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Enchanter squishy senza hard CC",
+        "reason": "Questi support non hanno stun o knock-up per peelare (proteggere il carry da chi lo attacca) un dive in back line. Kai'Sa pesca l'ADC con R e il support non ha modo di interrompere l'all-in una volta che parte l'invisibilità della E evolved.",
         "via": "pick_into"
       },
       {
@@ -20064,6 +21366,46 @@
       },
       {
         "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Enchanter supports without hard lockdown",
+        "reason": "They cannot punish your long EW vision-and-root setup. You out-range their poke and the QW delayed bolt finds them when they step up to shield their ADC.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter supports senza hard CC",
+        "reason": "Non hanno strumenti per punire il tuo setup EW (vision + root delayed). Tu out-rangi il loro poke e la QW delayed bolt li trova quando si fanno avanti per shieldare l'ADC.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Pure enchanter supports without lockdown",
+        "reason": "These chase the ADC with heals and shields but bring no peel against a setup root; Q catches the carry, Daisy slam follows, and the enchanter has no answer to undo a 1.75s root.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter puri senza lockdown",
+        "reason": "Inseguono l'ADC con heal e shield ma non portano peel contro un setup root; la Q prende il carry, lo slam di Daisy segue, e l'enchanter non ha risposta a un root da 1.75s.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "janna",
           "role": "support",
           "lang": "en"
@@ -20084,6 +21426,26 @@
       },
       {
         "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile bot lanes that need peel",
+        "reason": "Cataclysm walls trap a positioning-dependent carry inside an arena their support cannot reach into; the enemy team usually cannot answer the lockdown in time.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Bot lane immobili che hanno bisogno di peel",
+        "reason": "I muri di Cataclysm chiudono un carry posizionale dentro un'arena dove il suo support non puo' arrivare a difenderlo; il team nemico di solito non riesce a rispondere in tempo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "jhin",
           "role": "bot",
           "lang": "en"
@@ -20100,6 +21462,26 @@
         },
         "archetype": "Enchanter pure-heal in bot lane",
         "reason": "W-root + R execute di Jhin punisce in fretta gli heal-bot a basso HP. Con Mortal Reminder online (Grievous Wounds dimezza le cure) il loro game plan crolla.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Squishy enchanter supports without hard CC",
+        "reason": "These supports have no stun or knock-up to peel a back-line dive. Kai'Sa lands R on the ADC and the support has nothing to interrupt the all-in once invisibility from evolved E kicks in.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Enchanter squishy senza hard CC",
+        "reason": "Questi support non hanno stun o knock-up per peelare (proteggere il carry da chi lo attacca) un dive in back line. Kai'Sa pesca l'ADC con R e il support non ha modo di interrompere l'all-in una volta che parte l'invisibilità della E evolved.",
         "via": "pick_into"
       },
       {
@@ -20388,6 +21770,26 @@
       },
       {
         "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Telegraphed all-in mages",
+        "reason": "Their engage requires close range and a slow tell. Hwei can pre-cast EW from fog, root them on the engage, and walk away to reset the trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Telegraphed all-in mages",
+        "reason": "Il loro engage richiede corto raggio e ha un tell lento. Hwei pre-casta EW dalla fog, root sull'engage, e si stacca per resettare il trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -20628,6 +22030,26 @@
         },
         "archetype": "Tank con hard CC point-and-click",
         "reason": "Il loro CC è affidabile e non parabile quando è già su di te. Una R di Malphite o uno stop-charge di Poppy cancella la finestra della R di Fiora e il team gioca 4v5.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Anti-CC peel supports with cleanse or eat",
+        "reason": "Morgana's E spell-shield blocks the Q root completely, undoing the entire setup; Tahm Kench W eats the ADC out of Daisy's slam radius before the third auto lands.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support da peel anti-CC con cleanse o eat",
+        "reason": "La E di Morgana spell-shielda il root della Q completamente, annullando tutto il setup; la W di Tahm Kench ingoia l'ADC fuori dal raggio dello slam di Daisy prima del terzo auto.",
         "via": "counterpick"
       },
       {
@@ -21378,6 +22800,46 @@
       },
       {
         "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hook and lockdown engage supports",
+        "reason": "Their point-and-click or hook engage hits before you can finish the channel on EW. Once Hwei is locked down he has no dash to escape, and a missed E leaves him with no answer.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Support engage con hook e lockdown",
+        "reason": "Il loro engage point-and-click o hook arriva prima che tu chiuda il channel su EW. Una volta lockato Hwei non ha dash per scappare, e una E sbagliata lo lascia senza risposta.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Hook supports that step up to throw skillshots",
+        "reason": "They have to walk forward into Q range to land their hook — Ivern's Q + ADC dash punishes the windup with a guaranteed root before the hook even leaves the cast animation.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Hook support che si spingono avanti per gli skillshot",
+        "reason": "Devono camminare in avanti dentro il range della Q per atterrare il loro hook — la Q + dash dell'ADC punisce il windup con un root garantito prima che l'hook esca dall'animazione di cast.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "janna",
           "role": "support",
           "lang": "en"
@@ -21904,6 +23366,26 @@
       },
       {
         "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "CC-immune duelists",
+        "reason": "Olaf R and Tryndamere R ignore the lockdown of Cataclysm: they walk out of the arena hitting you for full damage while your only initiation is on cooldown.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Duellanti CC-immune",
+        "reason": "Olaf R e Tryndamere R ignorano la lockdown del Cataclysm: escono dall'arena colpendoti a danno pieno mentre il tuo unico engage e' in cooldown.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "jax",
           "role": "top",
           "lang": "en"
@@ -22345,6 +23827,26 @@
         "archetype": "Hyper-carry immobili",
         "reason": "Carry senza dash o blink: una W charm + R li uccide istantaneamente in teamfight, e non hanno strumenti per uscire dal cono della tua R untargetable prima che esploda.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Late-game hyper-scalers that out-DPS Kai'Sa post-3-items",
+        "reason": "Vayne's true damage on her W and Twitch's Expunge ramp harder than Kai'Sa's hybrid scaling once both teams are at 3 items. Kai'Sa needs to close the game before minute 30 or her relative damage drops.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Hyper-scaler late-game che superano Kai'Sa post-3-item",
+        "reason": "Il true damage sulla W di Vayne e l'Expunge di Twitch crescono più dello scaling hybrid di Kai'Sa una volta che entrambe le squadre sono a 3 item. Kai'Sa deve chiudere prima del minuto 30 o il danno relativo cala.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -23096,6 +24598,26 @@
       },
       {
         "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Late-game hyper-scalers that out-DPS Kai'Sa post-3-items",
+        "reason": "Vayne's true damage on her W and Twitch's Expunge ramp harder than Kai'Sa's hybrid scaling once both teams are at 3 items. Kai'Sa needs to close the game before minute 30 or her relative damage drops.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Hyper-scaler late-game che superano Kai'Sa post-3-item",
+        "reason": "Il true damage sulla W di Vayne e l'Expunge di Twitch crescono più dello scaling hybrid di Kai'Sa una volta che entrambe le squadre sono a 3 item. Kai'Sa deve chiudere prima del minuto 30 o il danno relativo cala.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "kayn",
           "role": "jungle",
           "lang": "en"
@@ -23598,6 +25120,46 @@
       },
       {
         "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "Hwei's EW eye locks on and fires a homing root against targets with no movement ability, then chains into a guaranteed QW for huge damage. Without a dash they cannot leave the cast window.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "L'occhio EW si lock-on e spara una root homing su bersagli senza mobilita', poi concatena un QW garantito. Senza dash non escono dalla finestra di cast.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile carries without dash",
+        "reason": "A Q root from fog locks them in place; the Attack-to-dash chain by your ADC closes the gap before they can flash, especially after Daisy joins for the knockup follow-up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Carry immobili senza dash",
+        "reason": "Una Q dalla fog li radica; il dash automatico dell'ADC sul bersaglio attaccato chiude il gap prima che possano flashare, soprattutto dopo che Daisy entra per il knockup di follow-up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "jayce",
           "role": "mid",
           "lang": "en"
@@ -24000,6 +25562,86 @@
       },
       {
         "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Longer-range artillery mages",
+        "reason": "They out-poke Hwei beyond his Q range and force him to cast under pressure. Hwei has no escape and no way to close the gap, so every wave bleeds his HP.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Longer-range artillery mages",
+        "reason": "Lo poke-ano oltre il range della Q e lo costringono a castare sotto pressione. Hwei non ha escape ne' modo di chiudere la distanza.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Skillshot mage supports without escape",
+        "reason": "You match their poke range with QQ and QW, but you also have hard CC they lack. In a long lane trade you win because you can convert a single landed E into a kill, while they can only chip.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Mage support skillshot-based senza escape",
+        "reason": "Matchi il loro poke range con QQ e QW, ma tu hai hard CC che a loro mancano. In una lane lunga vinci perché converti una E landata in kill, mentre loro possono solo erodere HP.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Immobile carries without dash",
+        "reason": "A Q root from fog locks them in place; the Attack-to-dash chain by your ADC closes the gap before they can flash, especially after Daisy joins for the knockup follow-up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Carry immobili senza dash",
+        "reason": "Una Q dalla fog li radica; il dash automatico dell'ADC sul bersaglio attaccato chiude il gap prima che possano flashare, soprattutto dopo che Daisy entra per il knockup di follow-up.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile mage poke supports",
+        "reason": "They have no dash. Q from brush + ADC follow-up wipes them; W active brush gives Ivern a free vision-and-damage zone they cannot match without burning summoner spells.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Mage support immobili da poke",
+        "reason": "Non hanno dash. Q dal brush + follow-up dell'ADC li cancella; la W attiva crea una zona vision-piu'-danno gratis che non riescono a contestare senza bruciare summoner spell.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "janna",
           "role": "support",
           "lang": "en"
@@ -24301,6 +25943,26 @@
         "archetype": "Outscaler con tanta mobilità",
         "reason": "Entrambi hanno tool di mobilità (Kayn cammina nei muri, Viego ha il dash on-hit) che ignorano il range della W mist; outscalano il tempo di Gwen negli skirmish late.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early-game jungle skirmishers",
+        "reason": "Jarvan trades evenly at level 3 with Q armor shred plus E attack speed and out-scales most early-game junglers once Sundered Sky comes online around minute 12-14.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler skirmisher early-game",
+        "reason": "Jarvan trade alla pari al livello 3 con Q armor shred + E attack speed e supera in scaling la maggior parte dei jungler early una volta online Sundered Sky verso il minuto 12-14.",
+        "via": "pick_into"
       }
     ],
     "viktor": [
@@ -24382,6 +26044,26 @@
         },
         "archetype": "Control mage senza dash",
         "reason": "La R blinka oltre il loro zone control prima che possano piazzare il setup CC. Se appari dalla fog, non hanno tool per uscire.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "Hwei's EW eye locks on and fires a homing root against targets with no movement ability, then chains into a guaranteed QW for huge damage. Without a dash they cannot leave the cast window.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "L'occhio EW si lock-on e spara una root homing su bersagli senza mobilita', poi concatena un QW garantito. Senza dash non escono dalla finestra di cast.",
         "via": "pick_into"
       },
       {
@@ -24525,6 +26207,26 @@
         "archetype": "Top laner AP squishy",
         "reason": "Il damage reduction flat di Drunken Rage assorbe il combo stun-burst di Kennen e il poke Q di Vladimir. Gragas può rispondere con E-AA-Q mentre le loro risorse sono spese nello scambio.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Late-game scalers with built-in sustain",
+        "reason": "Jarvan's power spike is items 1-3 (around minute 20-25). After that he falls off, while these targets only get stronger and survive his single rotation.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Late-game scaler con sustain integrato",
+        "reason": "Il power spike di Jarvan e' agli item 1-3 (intorno al minuto 20-25). Dopo cala, mentre questi target diventano piu' forti e sopravvivono al tuo singolo rotation.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -24768,6 +26470,26 @@
         },
         "archetype": "Jungler con ult a channel lungo",
         "reason": "Explosive Cask interrompe la R di Karthus, di Amumu e di Warwick. Una knockback in mid-fight cancella interamente il loro payload da teamfight e a Gragas basta piazzare il centro del barile vicino al target che sta channellando.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Auto-attack scaling junglers",
+        "reason": "Ivern's grove mechanic skips camp fights entirely; while opponents grind autos against monsters, Ivern is already shielding lanes and setting up roots with his ADC by level 5.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler scaling auto-attack-based",
+        "reason": "Il sistema di grove di Ivern salta del tutto il fight con i camp; mentre questi macinano auto sui mostri, Ivern e' gia' a scudare le lane e a settare root con l'ADC al livello 5.",
         "via": "pick_into"
       },
       {
@@ -25273,6 +26995,66 @@
         "archetype": "Mage artillery a lungo raggio che fanno poke fuori dal raggio delle torrette",
         "reason": "Le torrette coprono solo un raggio attorno a Heimerdinger. I mage artillery restano a 1000+ range, fuori dal nest, e lo consumano a zero senza mai entrare nella sua zona di controllo.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Longer-range artillery mages",
+        "reason": "They out-poke Hwei beyond his Q range and force him to cast under pressure. Hwei has no escape and no way to close the gap, so every wave bleeds his HP.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Longer-range artillery mages",
+        "reason": "Lo poke-ano oltre il range della Q e lo costringono a castare sotto pressione. Hwei non ha escape ne' modo di chiudere la distanza.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Skillshot mage supports without escape",
+        "reason": "You match their poke range with QQ and QW, but you also have hard CC they lack. In a long lane trade you win because you can convert a single landed E into a kill, while they can only chip.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Mage support skillshot-based senza escape",
+        "reason": "Matchi il loro poke range con QQ e QW, ma tu hai hard CC che a loro mancano. In una lane lunga vinci perché converti una E landata in kill, mentre loro possono solo erodere HP.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Immobile mage poke supports",
+        "reason": "They have no dash. Q from brush + ADC follow-up wipes them; W active brush gives Ivern a free vision-and-damage zone they cannot match without burning summoner spells.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Mage support immobili da poke",
+        "reason": "Non hanno dash. Q dal brush + follow-up dell'ADC li cancella; la W attiva crea una zona vision-piu'-danno gratis che non riescono a contestare senza bruciare summoner spell.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -26060,6 +27842,26 @@
       },
       {
         "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Wind Wall and dash-heavy duelists",
+        "reason": "Wind Wall blocks every Hwei subspell projectile (Q, EW, R). They dash past his slows and end the trade before he can complete a passive signature.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Wind Wall and dash-heavy duelists",
+        "reason": "Wind Wall blocca ogni proiettile delle sub-spell di Hwei (Q, EW, R). Dashano oltre i suoi slow e chiudono lo scambio prima che lui completi la firma passiva.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "jax",
           "role": "top",
           "lang": "en"
@@ -26562,6 +28364,26 @@
       },
       {
         "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Wind Wall and dash-heavy duelists",
+        "reason": "Wind Wall blocks every Hwei subspell projectile (Q, EW, R). They dash past his slows and end the trade before he can complete a passive signature.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Wind Wall and dash-heavy duelists",
+        "reason": "Wind Wall blocca ogni proiettile delle sub-spell di Hwei (Q, EW, R). Dashano oltre i suoi slow e chiudono lo scambio prima che lui completi la firma passiva.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "jayce",
           "role": "mid",
           "lang": "en"
@@ -27046,6 +28868,46 @@
       },
       {
         "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Enchanter supports without hard lockdown",
+        "reason": "They cannot punish your long EW vision-and-root setup. You out-range their poke and the QW delayed bolt finds them when they step up to shield their ADC.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter supports senza hard CC",
+        "reason": "Non hanno strumenti per punire il tuo setup EW (vision + root delayed). Tu out-rangi il loro poke e la QW delayed bolt li trova quando si fanno avanti per shieldare l'ADC.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Pure enchanter supports without lockdown",
+        "reason": "These chase the ADC with heals and shields but bring no peel against a setup root; Q catches the carry, Daisy slam follows, and the enchanter has no answer to undo a 1.75s root.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Enchanter puri senza lockdown",
+        "reason": "Inseguono l'ADC con heal e shield ma non portano peel contro un setup root; la Q prende il carry, lo slam di Daisy segue, e l'enchanter non ha risposta a un root da 1.75s.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "janna",
           "role": "support",
           "lang": "en"
@@ -27082,6 +28944,26 @@
         },
         "archetype": "Enchanter pure-heal in bot lane",
         "reason": "W-root + R execute di Jhin punisce in fretta gli heal-bot a basso HP. Con Mortal Reminder online (Grievous Wounds dimezza le cure) il loro game plan crolla.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Squishy enchanter supports without hard CC",
+        "reason": "These supports have no stun or knock-up to peel a back-line dive. Kai'Sa lands R on the ADC and the support has nothing to interrupt the all-in once invisibility from evolved E kicks in.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kaisa",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Enchanter squishy senza hard CC",
+        "reason": "Questi support non hanno stun o knock-up per peelare (proteggere il carry da chi lo attacca) un dive in back line. Kai'Sa pesca l'ADC con R e il support non ha modo di interrompere l'all-in una volta che parte l'invisibilità della E evolved.",
         "via": "pick_into"
       },
       {
@@ -27368,6 +29250,26 @@
       },
       {
         "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "AOE hard-engage tanks",
+        "reason": "Their R-Flash chains catch a tightly-positioned team in one cone; one E shield cannot cover multiple targets at once, and Daisy's third-auto knockup arrives too late to save the back line.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Tank con AOE hard-engage",
+        "reason": "I loro R-Flash prendono in un cono solo tutta la squadra accampata; un singolo E shield non puo' coprire piu' bersagli, e il knockup del terzo auto di Daisy arriva troppo tardi per salvare la backline.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "janna",
           "role": "support",
           "lang": "en"
@@ -27385,6 +29287,26 @@
         "archetype": "Diver junglers vistosi",
         "reason": "La loro gank è un solo salto telegrafato — la Q li knock-uppa a mezz'aria e la R li rispedisce indietro da dove sono partiti, sprecando il cooldown.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "AOE engage junglers with longer-range CC",
+        "reason": "They engage from outside Jarvan's E-Q range and chain-CC him before he can reach the back line; the wall does not save him from being stunned mid-leap.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "jarvan-iv",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler engage AOE con CC a piu' lungo raggio",
+        "reason": "Engagiano da fuori il range del tuo E-Q e ti incatenano in CC prima che tu raggiunga la backline; i muri non ti salvano se ti stunnano a meta' salto.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -27626,6 +29548,26 @@
         },
         "archetype": "Assassini mobili che gap-close prima che le torrette rispondano",
         "reason": "Le torrette hanno un ciclo di attacco lento. Un assassino con triplo dash entra nel nest e uccide Heimerdinger prima che parta il primo beam; il cooldown è troppo corto per salvarlo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "Their dashes and blinks beat Hwei's cast times. By the time he opens E and picks the right subspell, the assassin is already inside his hitbox window with full burst ready.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "hwei",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mobile assassins with multiple gap-closers",
+        "reason": "I loro dash/blink battono i cast time di Hwei. Mentre apre la E e sceglie la sub-spell giusta, l'assassino e' gia' dentro la sua hitbox col burst pronto.",
         "via": "counterpick"
       },
       {
@@ -28253,6 +30195,26 @@
         "archetype": "Mage support squishy senza escape",
         "reason": "I mage support stanno fermi per piazzare gli skillshot; la E di Galio li raggiunge attraverso i minion e la W tanka il burst che normalmente scaccerebbe un melee engager.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "en"
+        },
+        "archetype": "Zone-control / long-range mage supports",
+        "reason": "Lux's E zone shuts down Ivern's brush angles and out-pokes Q range; Zyra's seed-and-plant zoning out-controls Ivern's W brush passive without ever stepping forward.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "ivern",
+          "role": "support",
+          "lang": "it"
+        },
+        "archetype": "Mage support da zone control / lungo raggio",
+        "reason": "La E di Lux taglia gli angoli di brush di Ivern e poke fuori dal range della Q; il seed-and-plant di Zyra controlla la zona meglio del W passive di Ivern senza mai farsi avanti.",
+        "via": "counterpick"
       },
       {
         "publisher": {

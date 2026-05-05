@@ -17098,6 +17098,646 @@ export const enChampions: ChampionGuide[] = [
     "champion_key": "74"
   },
   {
+    "slug": "hwei-mid",
+    "title": "Hwei Mid Build & Guide — Patch 16.9",
+    "language": "en",
+    "patch": "16.9",
+    "champion": "hwei",
+    "role": "mid",
+    "last_updated": "2026-05-05",
+    "description": "Hwei mid lane guide for League of Legends Patch 16.9: starter kit, core mage build path, key matchups, power spikes, common mistakes, and a closing tip.",
+    "quick_learn": {
+      "champion_dd_id": "Hwei",
+      "difficulty": 5,
+      "damage_type": "magic",
+      "champion_class": "Mage / Artillery",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Signature of the Visionary",
+          "description": "Damaging an enemy champion primes them. A second damaging spell completes the signature, which detonates after a short delay for AOE magic damage.",
+          "dd_spell_id": "Hwei_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Subject: Disaster",
+          "description": "Opens 3 damaging subspells. QQ fireball (% max HP), QW delayed bolt (bonus damage vs isolated/immobilized), QE path of slowing lava pools.",
+          "dd_spell_id": "HweiQ"
+        },
+        {
+          "key": "W",
+          "name": "Subject: Serenity",
+          "description": "Opens 3 utility subspells. WQ ally speed line, WW shield-over-time pool, WE three empowered casts that add damage and refund mana per use.",
+          "dd_spell_id": "HweiW"
+        },
+        {
+          "key": "E",
+          "name": "Subject: Torment",
+          "description": "Opens 3 crowd-control subspells. EQ flee fear cone, EW lingering eye that fires a homing root, EE delayed jaws that pull and slow.",
+          "dd_spell_id": "HweiE"
+        },
+        {
+          "key": "R",
+          "name": "Spiraling Despair",
+          "description": "Long-range projectile that sticks to the first champion hit, expanding into a slow zone, then explodes for heavy magic damage.",
+          "dd_spell_id": "HweiR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6655",
+          "name": "Luden's Companion"
+        },
+        {
+          "dd_id": "3020",
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "dd_id": "3135",
+          "name": "Void Staff"
+        },
+        {
+          "dd_id": "3089",
+          "name": "Rabadon's Deathcap"
+        },
+        {
+          "dd_id": "4645",
+          "name": "Shadowflame"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass",
+          "against": "vs assassins with multiple gap-closers (Zed, Akali, Talon) — stasis buys time for cooldowns and team peel"
+        },
+        {
+          "dd_id": "3102",
+          "name": "Banshee's Veil",
+          "against": "vs single-target magic CC (Ahri charm, Lissandra R, Twisted Fate stun) that locks you before you can cast"
+        },
+        {
+          "dd_id": "3165",
+          "name": "Morellonomicon",
+          "against": "vs healing-stacking comps (Soraka, Vladimir, Dr. Mundo) where the Grievous Wounds passive blocks regen"
+        },
+        {
+          "dd_id": "3158",
+          "name": "Ionian Boots of Lucidity",
+          "against": "alternative boots when the team needs faster R uptime and your matchup does not require flat magic penetration"
+        }
+      ],
+      "base_combo": [
+        "E",
+        "EW",
+        "Q",
+        "QW",
+        "AA"
+      ],
+      "win_condition": "Combo a passive proc with QW Severing Bolt on a rooted or slowed target during objective fights, then layer R from max range to lock the enemy into your team's follow-up.",
+      "weakness": "No dash and no escape. Every subspell has a cast time, so any all-in that closes the gap (assassin, diver) before you can finish a CC sequence usually kills you.",
+      "runes": {
+        "primary_tree": "Sorcery",
+        "primary_tree_dd_id": 8200,
+        "keystone": {
+          "dd_id": 8229,
+          "name": "Arcane Comet",
+          "icon_path": "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 8226,
+            "name": "Manaflow Band",
+            "icon_path": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "dd_id": 8210,
+            "name": "Transcendence",
+            "icon_path": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png"
+          },
+          {
+            "dd_id": 8237,
+            "name": "Scorch",
+            "icon_path": "perk-images/Styles/Sorcery/Scorch/Scorch.png"
+          }
+        ],
+        "secondary_tree": "Inspiration",
+        "secondary_tree_dd_id": 8300,
+        "secondary_slots": [
+          {
+            "dd_id": 8345,
+            "name": "Biscuit Delivery",
+            "icon_path": "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png"
+          },
+          {
+            "dd_id": 8347,
+            "name": "Cosmic Insight",
+            "icon_path": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png"
+          }
+        ],
+        "stat_shards": [
+          "Adaptive Force",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Sorcery primary: any EW root or QE slow guarantees an Arcane Comet proc on the follow-up Q, adding free poke. Manaflow Band sustains Hwei's heavy mana cost, Transcendence shaves cooldowns off his nine subspells, Scorch closes kills.",
+        "secondary_rationale": "Inspiration secondary: Biscuit Delivery offsets Hwei's awful early mana, Cosmic Insight reduces summoner cooldowns so you have Flash up more often during teamfights.",
+        "secondary_alternative": "Into heavy-poke artillery (Xerath, Vel'Koz), swap Inspiration to Resolve with Second Wind (regen vs poke) and Overgrowth (extra HP late) to survive long-range trades you cannot answer."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "karthus",
+            "veigar",
+            "viktor",
+            "anivia"
+          ],
+          "archetype": "Immobile mages without dash",
+          "reason": "Hwei's EW eye locks on and fires a homing root against targets with no movement ability, then chains into a guaranteed QW for huge damage. Without a dash they cannot leave the cast window."
+        },
+        {
+          "examples": [
+            "sett",
+            "darius",
+            "garen"
+          ],
+          "archetype": "Slow melee bruisers in lane",
+          "reason": "Hwei outranges them at every level and keeps them slowed with QE pools. They cannot reach his cast position without burning Flash."
+        },
+        {
+          "examples": [
+            "annie",
+            "sylas"
+          ],
+          "archetype": "Telegraphed all-in mages",
+          "reason": "Their engage requires close range and a slow tell. Hwei can pre-cast EW from fog, root them on the engage, and walk away to reset the trade."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "zed",
+            "akali",
+            "fizz",
+            "kassadin"
+          ],
+          "archetype": "Mobile assassins with multiple gap-closers",
+          "reason": "Their dashes and blinks beat Hwei's cast times. By the time he opens E and picks the right subspell, the assassin is already inside his hitbox window with full burst ready."
+        },
+        {
+          "examples": [
+            "xerath",
+            "vel-koz"
+          ],
+          "archetype": "Longer-range artillery mages",
+          "reason": "They out-poke Hwei beyond his Q range and force him to cast under pressure. Hwei has no escape and no way to close the gap, so every wave bleeds his HP."
+        },
+        {
+          "examples": [
+            "yasuo",
+            "yone"
+          ],
+          "archetype": "Wind Wall and dash-heavy duelists",
+          "reason": "Wind Wall blocks every Hwei subspell projectile (Q, EW, R). They dash past his slows and end the trade before he can complete a passive signature."
+        }
+      ]
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Hwei is a long-range artillery mage with the deepest spell kit in the game: each of his Q, W, and E opens a small menu of three subspells, giving him nine ability presses plus the R. He plays the same role as a control mage in mid lane (zone enemies out of farm, poke their HP from range, lock them down with crowd control, snipe stragglers) but trades raw simplicity for adaptability — every wave you choose between damage, utility, and crowd control depending on the situation. Hwei is fragile and immobile: positioning behind the front line (your team's tank or bruiser that absorbs hits) is mandatory.</p>\n<p>His game plan is layered: prime a target with one damaging subspell to start the passive <strong>Signature of the Visionary</strong>, then complete the signature with a second damaging cast for AOE bonus magic damage. The cleanest opener in lane is EW (the homing eye that roots) followed by QW (Severing Bolt, which gains huge bonus damage against rooted or immobilized targets). Outside lane the kit shifts toward control: WQ for ally movement speed, WW for a shield pool, EE jaws to pull a clumped enemy team into your AOE.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1056.png\" alt=\"Doran&#x27;s Ring\"> <strong>Doran's Ring</strong> + 2 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potions</strong>. Mana sustain is critical: Hwei's subspells burn mana fast, and Doran's Ring's regen is the cheapest way to stay in lane until you finish your first <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3802.png\" alt=\"Lost Chapter\"> <strong>Lost Chapter</strong> component on the way to Luden's Companion.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png\" alt=\"Luden&#x27;s Companion\"> <strong>Luden's Companion</strong> — burst spike, mana sustain for the constant subspell rotation, and ability haste that brings every subspell off cooldown faster.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — flat magic penetration. Every passive signature explosion benefits from the pen, and you typically aim at squishy targets.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — percentage magic penetration. Buy as the third item the moment any priority enemy buys a Magic Resist piece — Hwei scales heavily with multiplied AP, so unblocked damage is mandatory.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — your highest-AP slot. The 35% AP multiplier amplifies every subspell and the passive explosion equally.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — extra burst with the HP-threshold passive (passive of an item that activates when the enemy is below a health threshold, here 35% HP) lining up with R explosion damage.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — into assassins with multiple gap-closers (Zed, Akali, Talon). Stasis buys the time you do not have because Hwei has no dash.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — into single-target magic CC (Ahri charm, Lissandra R, Twisted Fate stun). The shield blocks the lock that would otherwise interrupt your subspell cast.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — into healing-stacking comps (Soraka mid, Vladimir, Dr. Mundo top). The Grievous Wounds passive cuts the regen they rely on.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> — alternative to <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> when the team needs faster R uptime more than penetration.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> is default. Switch to <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> if your team needs more R uptime as a finisher tool.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (your damage subspells, where most kills come from), <strong>E</strong> second (CC subspells), <strong>W</strong> last. Take a point in <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Sorcery</strong> with <strong>Arcane Comet</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Scorch</strong>. Secondary <strong>Inspiration</strong> with <strong>Biscuit Delivery</strong> and <strong>Cosmic Insight</strong>. Swap secondary to <strong>Resolve</strong> (Second Wind + Overgrowth) into heavy-poke matchups.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Yasuo / Yone:</strong> Wind Wall blocks every Hwei subspell projectile (Q, EW, R). Hold E and W until they push abilities; never face-cast a QQ fireball into a Wind Wall up.</li>\n<li><strong>Zed / Akali:</strong> Diving threats (champions who jump on you under tower to kill you despite tower shots). They beat Hwei's cast times. Buy <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> as your second item after <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png\" alt=\"Luden&#x27;s Companion\"> <strong>Luden's Companion</strong>. Pre-cast EW from fog before you walk to last-hit a minion, never face-up.</li>\n<li><strong>Orianna:</strong> Even matchup that scales toward her in teamfights. You out-poke her in lane with QQ-passive procs but she wins clumped fights with R Shockwave; in late-game positioning, stagger from your team so her R cannot catch you and the carry together.</li>\n<li><strong>Twisted Fate:</strong> Roam priority race. He has gold-card stun and global R; track his ulti with vision wards on river and tri-bush. If he picks gold card on you, EW root him before he closes the gap.</li>\n<li><strong>Veigar:</strong> Even-to-favorable in lane. His E cage is your only real threat (steps inside = stunned). Stand outside the cage radius when poking; QW Severing Bolt punishes him hard if he eats his own root by mistake.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2:</strong> With one point in Q (Disaster) plus your starting E, you have a damaging subspell plus a CC subspell. EW root into QW Severing Bolt is a real all-in window (a full commit fight, not just a quick trade) if their jungler is not nearby.</li>\n<li><strong>Level 6:</strong> First <strong>Spiraling Despair</strong> unlocks objective control. The R sticks to the first champion hit and expands a slow zone, perfect for setting up your own jungler on Scuttle Crab fights.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png\" alt=\"Luden&#x27;s Companion\"> Luden's Companion completion (~ minute 13-15):</strong> Wave control flips. With Luden's mana sustain you can shove any wave with QQ + QE in one rotation, freeing roams and bot dives.</li>\n<li><strong>3-item spike (<img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> Void Staff online, ~ minute 27-30):</strong> Hwei's combo damage with passive proc bypasses the first MR item enemies bought. Force objective fights when your front line is alive.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Spamming Q on cooldown without setup.</strong> Always open with E (CC subspell) or hit a target already slowed/rooted by an ally. Naked QQ fireballs from neutral position are dodged on reaction by anyone with a dash and waste mana.</li>\n<li><strong>Picking the wrong subspell under pressure.</strong> Subspells are committed once you press the menu key — there is no cancel. Practice picking the right finisher in custom games or normal queue before relying on Hwei in ranked: QW for isolated targets, QE for waveclear, QQ for chip damage on low-HP targets.</li>\n<li><strong>Forgetting the passive signature requires two different abilities.</strong> Two QQ casts in a row do not detonate the passive. The signature triggers only when a second damaging spell from a different subspell hits — typically QQ then QW, or EW root then QW Severing Bolt.</li>\n<li><strong>Using R as a damage finisher instead of a setup tool.</strong> Spiraling Despair's main value is the slow zone for follow-up, not the explosion damage. Cast it first to lock the enemy into your team's combo, then layer your subspells on top.</li>\n<li><strong>Standing at max range in teamfights with no peel.</strong> Hwei has no dash. Maximum projectile range puts you outside your team's protection, and a single flank assassin deletes you. Stand at the second-furthest position so a peeler (your support's ability that protects you from divers) can intervene.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Use WE Stirring Lights to convert dead time into burst (high damage concentrated in 1-2 seconds). Pre-cast it before you walk into a teamfight: it places three empowered charges on your next three abilities or auto-attacks, each adding bonus magic damage and refunding mana. The optimal usage is WE → EW eye → QW Severing Bolt → auto-attack on the rooted target: every cast in the chain consumes one charge, and the mana refunds let you immediately follow up with R on a second target without going OOM (running out of mana mid-fight).</p>",
+    "content_html_pre": "<h2>Overview</h2>\n<p>Hwei is a long-range artillery mage with the deepest spell kit in the game: each of his Q, W, and E opens a small menu of three subspells, giving him nine ability presses plus the R. He plays the same role as a control mage in mid lane (zone enemies out of farm, poke their HP from range, lock them down with crowd control, snipe stragglers) but trades raw simplicity for adaptability — every wave you choose between damage, utility, and crowd control depending on the situation. Hwei is fragile and immobile: positioning behind the front line (your team's tank or bruiser that absorbs hits) is mandatory.</p>\n<p>His game plan is layered: prime a target with one damaging subspell to start the passive <strong>Signature of the Visionary</strong>, then complete the signature with a second damaging cast for AOE bonus magic damage. The cleanest opener in lane is EW (the homing eye that roots) followed by QW (Severing Bolt, which gains huge bonus damage against rooted or immobilized targets). Outside lane the kit shifts toward control: WQ for ally movement speed, WW for a shield pool, EE jaws to pull a clumped enemy team into your AOE.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1056.png\" alt=\"Doran&#x27;s Ring\"> <strong>Doran's Ring</strong> + 2 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potions</strong>. Mana sustain is critical: Hwei's subspells burn mana fast, and Doran's Ring's regen is the cheapest way to stay in lane until you finish your first <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3802.png\" alt=\"Lost Chapter\"> <strong>Lost Chapter</strong> component on the way to Luden's Companion.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png\" alt=\"Luden&#x27;s Companion\"> <strong>Luden's Companion</strong> — burst spike, mana sustain for the constant subspell rotation, and ability haste that brings every subspell off cooldown faster.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — flat magic penetration. Every passive signature explosion benefits from the pen, and you typically aim at squishy targets.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — percentage magic penetration. Buy as the third item the moment any priority enemy buys a Magic Resist piece — Hwei scales heavily with multiplied AP, so unblocked damage is mandatory.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — your highest-AP slot. The 35% AP multiplier amplifies every subspell and the passive explosion equally.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — extra burst with the HP-threshold passive (passive of an item that activates when the enemy is below a health threshold, here 35% HP) lining up with R explosion damage.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — into assassins with multiple gap-closers (Zed, Akali, Talon). Stasis buys the time you do not have because Hwei has no dash.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — into single-target magic CC (Ahri charm, Lissandra R, Twisted Fate stun). The shield blocks the lock that would otherwise interrupt your subspell cast.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — into healing-stacking comps (Soraka mid, Vladimir, Dr. Mundo top). The Grievous Wounds passive cuts the regen they rely on.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> — alternative to <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> when the team needs faster R uptime more than penetration.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> is default. Switch to <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> if your team needs more R uptime as a finisher tool.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (your damage subspells, where most kills come from), <strong>E</strong> second (CC subspells), <strong>W</strong> last. Take a point in <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Sorcery</strong> with <strong>Arcane Comet</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Scorch</strong>. Secondary <strong>Inspiration</strong> with <strong>Biscuit Delivery</strong> and <strong>Cosmic Insight</strong>. Swap secondary to <strong>Resolve</strong> (Second Wind + Overgrowth) into heavy-poke matchups.</p>",
+    "content_html_post": "<h2>Key matchups</h2>\n<ul>\n<li><strong>Yasuo / Yone:</strong> Wind Wall blocks every Hwei subspell projectile (Q, EW, R). Hold E and W until they push abilities; never face-cast a QQ fireball into a Wind Wall up.</li>\n<li><strong>Zed / Akali:</strong> Diving threats (champions who jump on you under tower to kill you despite tower shots). They beat Hwei's cast times. Buy <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> as your second item after <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png\" alt=\"Luden&#x27;s Companion\"> <strong>Luden's Companion</strong>. Pre-cast EW from fog before you walk to last-hit a minion, never face-up.</li>\n<li><strong>Orianna:</strong> Even matchup that scales toward her in teamfights. You out-poke her in lane with QQ-passive procs but she wins clumped fights with R Shockwave; in late-game positioning, stagger from your team so her R cannot catch you and the carry together.</li>\n<li><strong>Twisted Fate:</strong> Roam priority race. He has gold-card stun and global R; track his ulti with vision wards on river and tri-bush. If he picks gold card on you, EW root him before he closes the gap.</li>\n<li><strong>Veigar:</strong> Even-to-favorable in lane. His E cage is your only real threat (steps inside = stunned). Stand outside the cage radius when poking; QW Severing Bolt punishes him hard if he eats his own root by mistake.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2:</strong> With one point in Q (Disaster) plus your starting E, you have a damaging subspell plus a CC subspell. EW root into QW Severing Bolt is a real all-in window (a full commit fight, not just a quick trade) if their jungler is not nearby.</li>\n<li><strong>Level 6:</strong> First <strong>Spiraling Despair</strong> unlocks objective control. The R sticks to the first champion hit and expands a slow zone, perfect for setting up your own jungler on Scuttle Crab fights.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png\" alt=\"Luden&#x27;s Companion\"> Luden's Companion completion (~ minute 13-15):</strong> Wave control flips. With Luden's mana sustain you can shove any wave with QQ + QE in one rotation, freeing roams and bot dives.</li>\n<li><strong>3-item spike (<img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> Void Staff online, ~ minute 27-30):</strong> Hwei's combo damage with passive proc bypasses the first MR item enemies bought. Force objective fights when your front line is alive.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Spamming Q on cooldown without setup.</strong> Always open with E (CC subspell) or hit a target already slowed/rooted by an ally. Naked QQ fireballs from neutral position are dodged on reaction by anyone with a dash and waste mana.</li>\n<li><strong>Picking the wrong subspell under pressure.</strong> Subspells are committed once you press the menu key — there is no cancel. Practice picking the right finisher in custom games or normal queue before relying on Hwei in ranked: QW for isolated targets, QE for waveclear, QQ for chip damage on low-HP targets.</li>\n<li><strong>Forgetting the passive signature requires two different abilities.</strong> Two QQ casts in a row do not detonate the passive. The signature triggers only when a second damaging spell from a different subspell hits — typically QQ then QW, or EW root then QW Severing Bolt.</li>\n<li><strong>Using R as a damage finisher instead of a setup tool.</strong> Spiraling Despair's main value is the slow zone for follow-up, not the explosion damage. Cast it first to lock the enemy into your team's combo, then layer your subspells on top.</li>\n<li><strong>Standing at max range in teamfights with no peel.</strong> Hwei has no dash. Maximum projectile range puts you outside your team's protection, and a single flank assassin deletes you. Stand at the second-furthest position so a peeler (your support's ability that protects you from divers) can intervene.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Use WE Stirring Lights to convert dead time into burst (high damage concentrated in 1-2 seconds). Pre-cast it before you walk into a teamfight: it places three empowered charges on your next three abilities or auto-attacks, each adding bonus magic damage and refunding mana. The optimal usage is WE → EW eye → QW Severing Bolt → auto-attack on the rooted target: every cast in the chain consumes one charge, and the mana refunds let you immediately follow up with R on a second target without going OOM (running out of mana mid-fight).</p>",
+    "word_count": 1212,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "ahri-mid",
+        "champion": "ahri",
+        "role": "mid"
+      },
+      {
+        "slug": "akali-mid",
+        "champion": "akali",
+        "role": "mid"
+      },
+      {
+        "slug": "akshan-mid",
+        "champion": "akshan",
+        "role": "mid"
+      },
+      {
+        "slug": "annie-mid",
+        "champion": "annie",
+        "role": "mid"
+      },
+      {
+        "slug": "lux-mid",
+        "champion": "lux",
+        "role": "mid"
+      }
+    ],
+    "champion_key": "910"
+  },
+  {
+    "slug": "hwei-support",
+    "title": "Hwei Support Build & Guide — Patch 16.9",
+    "language": "en",
+    "patch": "16.9",
+    "champion": "hwei",
+    "role": "support",
+    "last_updated": "2026-05-05",
+    "description": "Hwei support guide for League of Legends Patch 16.9: pick-mage starter kit, core build path, key matchups in bot lane, power spikes, common mistakes, and a closing tip.",
+    "quick_learn": {
+      "champion_dd_id": "Hwei",
+      "difficulty": 5,
+      "damage_type": "magic",
+      "champion_class": "Mage / Catcher",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Signature of the Visionary",
+          "description": "Damaging spells prime enemy champions. A second damaging spell completes the signature, leaving a mark that detonates after a short delay for AOE magic damage.",
+          "dd_spell_id": "Hwei_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Subject: Disaster (QQ/QW/QE)",
+          "description": "Three damage subspells. QQ fast fireball, QW long-range delayed bolt (extra damage on isolated/CC'd targets), QE lava path with slow zone.",
+          "dd_spell_id": "HweiQ"
+        },
+        {
+          "key": "W",
+          "name": "Subject: Serenity (WQ/WW/WE)",
+          "description": "Three utility subspells. WQ ally Move Speed line, WW shield pool over time, WE three orbs that empower next 3 spells/attacks with bonus damage and mana.",
+          "dd_spell_id": "HweiW"
+        },
+        {
+          "key": "E",
+          "name": "Subject: Torment (EQ/EW/EE)",
+          "description": "Three CC subspells. EQ flee skillshot, EW eye placed on the ground that fires a homing root when an enemy enters, EE jaw zone that drags enemies to the center.",
+          "dd_spell_id": "HweiE"
+        },
+        {
+          "key": "R",
+          "name": "Spiraling Despair",
+          "description": "Long-range skillshot. Sticks to the first enemy champion hit and expands, slowing nearby enemies in stacks; explodes after a few seconds for AOE magic damage.",
+          "dd_spell_id": "HweiR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "E"
+        },
+        {
+          "level": 2,
+          "key": "W"
+        },
+        {
+          "level": 3,
+          "key": "Q"
+        },
+        {
+          "level": 4,
+          "key": "E"
+        },
+        {
+          "level": 5,
+          "key": "E"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "E"
+        },
+        {
+          "level": 8,
+          "key": "W"
+        },
+        {
+          "level": 9,
+          "key": "E"
+        },
+        {
+          "level": 10,
+          "key": "W"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "W"
+        },
+        {
+          "level": 13,
+          "key": "W"
+        },
+        {
+          "level": 14,
+          "key": "Q"
+        },
+        {
+          "level": 15,
+          "key": "Q"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "Q"
+        },
+        {
+          "level": 18,
+          "key": "Q"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "3865",
+          "name": "World Atlas"
+        },
+        {
+          "dd_id": "4005",
+          "name": "Imperial Mandate"
+        },
+        {
+          "dd_id": "3020",
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "dd_id": "6620",
+          "name": "Echoes of Helia"
+        },
+        {
+          "dd_id": "4645",
+          "name": "Shadowflame"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3222",
+          "name": "Mikael's Blessing",
+          "against": "vs hard CC on your ADC (Leona stun, Morgana root, Nautilus hook): cleanses the lockdown that follows up your own setup"
+        },
+        {
+          "dd_id": "3190",
+          "name": "Locket of the Iron Solari",
+          "against": "vs heavy AOE engage (Kennen, Wukong, Malphite, Yasuo): the team-wide shield covers a forced teamfight your range cannot avoid"
+        },
+        {
+          "dd_id": "6617",
+          "name": "Moonstone Renewer",
+          "against": "vs poke-and-disengage comps where you spend less time landing E and more time keeping your team topped up across long fights"
+        },
+        {
+          "dd_id": "3107",
+          "name": "Redemption",
+          "against": "vs siege and 5v5 setpiece comps where you can pre-cast healing during a long objective fight (drake pit, Baron pit)"
+        },
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass",
+          "against": "vs assassins that dive your back line (Zed, Akali, Talon): stasis buys time so your ADC can reposition while you survive the engage"
+        }
+      ],
+      "base_combo": [
+        "EW",
+        "QW",
+        "P",
+        "R"
+      ],
+      "win_condition": "Land EW root or EE drag, follow up with QW or QQ to detonate the passive signature, then ult Spiraling Despair on the locked target. Snowball the bot lane through repeated picks before laning phase ends.",
+      "weakness": "Every spell is a skillshot, so a missed E leaves you with no follow-up and no escape. Hwei has zero dash and very low mobility: a single engage from the enemy support catches him out of position.",
+      "runes": {
+        "primary_tree": "Sorcery",
+        "primary_tree_dd_id": 8200,
+        "keystone": {
+          "dd_id": 8214,
+          "name": "Summon Aery",
+          "icon_path": "perk-images/Styles/Sorcery/SummonAery/SummonAery.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 8226,
+            "name": "Manaflow Band",
+            "icon_path": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "dd_id": 8210,
+            "name": "Transcendence",
+            "icon_path": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png"
+          },
+          {
+            "dd_id": 8237,
+            "name": "Scorch",
+            "icon_path": "perk-images/Styles/Sorcery/Scorch/Scorch.png"
+          }
+        ],
+        "secondary_tree": "Inspiration",
+        "secondary_tree_dd_id": 8300,
+        "secondary_slots": [
+          {
+            "dd_id": 8345,
+            "name": "Biscuit Delivery",
+            "icon_path": "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png"
+          },
+          {
+            "dd_id": 8347,
+            "name": "Cosmic Insight",
+            "icon_path": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png"
+          }
+        ],
+        "stat_shards": [
+          "Adaptive Force",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Sorcery primary: Aery doubles as poke on Q and bonus shield on WW (mage/enchanter profile). Manaflow Band sustains the mana cost of triple-spell combos, Transcendence stacks ability haste so EW is up every wave, Scorch closes the kill on low-HP enemies.",
+        "secondary_rationale": "Inspiration secondary: Biscuit Delivery covers your weak base sustain in lane, Cosmic Insight reduces Flash and active item cooldowns (Mikael's, Locket) for more frequent peel windows in teamfights.",
+        "secondary_alternative": "Against full-engage comps that dive your back line (Leona, Rakan, Nautilus), swap Inspiration to Resolve with Bone Plating (-30 to -60 damage on incoming spike) and Revitalize (+10% to your shields and heals), trading peel cooldown reduction for raw survivability."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "lulu",
+            "soraka",
+            "yuumi",
+            "janna"
+          ],
+          "archetype": "Enchanter supports without hard lockdown",
+          "reason": "They cannot punish your long EW vision-and-root setup. You out-range their poke and the QW delayed bolt finds them when they step up to shield their ADC."
+        },
+        {
+          "examples": [
+            "jhin",
+            "caitlyn",
+            "ashe"
+          ],
+          "archetype": "Immobile ADCs with no dash",
+          "reason": "Your EW root and EE drag connect cleanly because they have no gap-closer to interrupt your channel. Once primed, the passive signature plus R secures the kill."
+        },
+        {
+          "examples": [
+            "xerath",
+            "vel-koz",
+            "brand"
+          ],
+          "archetype": "Skillshot mage supports without escape",
+          "reason": "You match their poke range with QQ and QW, but you also have hard CC they lack. In a long lane trade you win because you can convert a single landed E into a kill, while they can only chip."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "leona",
+            "nautilus",
+            "thresh"
+          ],
+          "archetype": "Hook and lockdown engage supports",
+          "reason": "Their point-and-click or hook engage hits before you can finish the channel on EW. Once Hwei is locked down he has no dash to escape, and a missed E leaves him with no answer."
+        },
+        {
+          "examples": [
+            "pyke",
+            "rell"
+          ],
+          "archetype": "Roaming and gap-close engage",
+          "reason": "They close the distance Hwei needs to land skillshots from. Pyke's stealth makes EW useless because you cannot see him to place the eye on his path; Rell's W jump bypasses the slow zone of QE."
+        },
+        {
+          "examples": [
+            "alistar",
+            "rakan"
+          ],
+          "archetype": "Dash-and-knockup tanks",
+          "reason": "Their dash plus AOE knockup interrupts your spell sequence mid-cast. Hwei needs three button presses to lock a target — a single Alistar W-Q deletes that window."
+        }
+      ]
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Hwei support is a long-range pick mage who turns immobile bot lanes into easy kills. The kit is built around three subspell trees: damage on <strong>Q (Subject: Disaster)</strong>, utility on <strong>W (Subject: Serenity)</strong>, and crowd control on <strong>E (Subject: Torment)</strong>. The standout tools for support are <strong>EW (Gaze of the Abyss)</strong> — a delayed homing root that locks the first enemy that steps into a vision eye — and <strong>EE (Crushing Maw)</strong> — a jaw zone that drags enemies inward and slows them on exit. Either one sets up the <strong>passive (Signature of the Visionary)</strong>, which detonates for area magic damage on the second spell hit. Hwei's range is mage-tier (around 900-1100 units on most casts), so the bot lane plays out at poke distance, not melee distance.</p>\n<p>The game plan is \"land one E, win the trade.\" Place <strong>EW</strong> in front of the enemy ADC's intended path before a wave fight, prime the passive with <strong>QQ</strong> or <strong>QW</strong>, then chain the <strong>R (Spiraling Despair)</strong> onto the locked target so the slow ramps up while your own ADC walks in for the kill. The hard requirement is positioning: every spell is a skillshot for distance with no dash, so a single enemy engage that catches you out of range is a death sentence. Stand behind your ADC, not next to them.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> (the new support quest item that grows into Bloodsong / Solstice Sleigh / Dream-Maker mid-game) plus 2 Health Potions. Take a Stealth Ward on the trinket slot.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> — quest support item, gold income while you stay near the ADC. Auto-upgrades to a finished support item around minute 12-14.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4005.png\" alt=\"Imperial Mandate\"> <strong>Imperial Mandate</strong> — the engine of pick play: every slow or root from your kit primes a Mandate mark that your ADC detonates for bonus magic damage. Hwei has slow on QE, EE, and R, so the proc is essentially guaranteed in every fight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — flat magic penetration so QQ and the passive signature cut through the squishy enemy back line.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6620.png\" alt=\"Echoes of Helia\"> <strong>Echoes of Helia</strong> — every primed-and-detonated passive triggers a Helia stack: heals your ADC and burns the target. Pair with Mandate for double-dipping on every locked enemy.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — extra burst plus a magic-penetration spike below 35% HP (the moment a spell finishes off a low-HP enemy). Lines up with R explosions on chunked targets.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3222.png\" alt=\"Mikael&#x27;s Blessing\"> <strong>Mikael's Blessing</strong> — versus hard CC on your ADC (Leona stun, Morgana root, Nautilus hook). Cleanses the lockdown that the enemy uses to one-shot your carry.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> <strong>Locket of the Iron Solari</strong> — versus heavy AOE engage (Kennen, Wukong, Malphite, Yasuo). The team-wide shield covers the forced fight your back-line range cannot avoid.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6617.png\" alt=\"Moonstone Renewer\"> <strong>Moonstone Renewer</strong> — replace Imperial Mandate as your finished support item if the enemy team is poke-and-disengage and you are spending less time landing E and more time topping up your team across drawn-out fights.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — versus assassins that dive your back line (Zed, Akali, Talon). Stasis buys time so your ADC can reposition while you survive the engage.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> is default. Take <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> instead if your team relies on you to chain CC across long fights — the ability haste keeps EW up every fight rotation.</p>\n<p><strong>Skill order:</strong> Max <strong>E</strong> first (the primary lockdown source: EW root, EE drag, EQ flee), <strong>W</strong> second (shield, MS, and three-orb empower), <strong>Q</strong> last (it scales with AP but the cooldown reduction matters less when the build slot belongs to support items, not raw AP). Take a point in <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Sorcery</strong> with <strong>Summon Aery</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Scorch</strong>. Secondary <strong>Inspiration</strong> with <strong>Biscuit Delivery</strong> and <strong>Cosmic Insight</strong>. Swap Inspiration to <strong>Resolve</strong> with <strong>Bone Plating</strong> and <strong>Revitalize</strong> when the enemy bot has hard engage (Leona, Rakan, Nautilus) — survivability matters more than active item cooldowns when their first ability decides the trade.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Leona / Nautilus:</strong> Engage threats. Stand outside their hook/Q range; never use <strong>Flash</strong> offensively in lane. Save <strong>EW</strong> as a peel root if they walk onto your ADC, not as a poke setup. If they Flash forward, your <strong>EE</strong> drag can pull them away from your carry.</li>\n<li><strong>Lulu:</strong> Even matchup. She shields and disengages your <strong>EW</strong>, but you out-range her poke. Wait for her to <strong>W</strong> her ADC into range, then root her instead — Lulu shielded onto a root is a kill-confirm setup for your ADC.</li>\n<li><strong>Soraka:</strong> Favorable for Hwei. Her low base movement speed and lack of mobility means <strong>EW</strong> lands almost every cast. Push the wave first, then play around the <strong>EW + R</strong> combo onto her every cooldown — she has no answer.</li>\n<li><strong>Pyke:</strong> Hard matchup. His stealth removes the vision your <strong>EW</strong> eye needs to lock him in place; if you cannot see him on the screen, the eye does nothing. Buy a Pink Ward (Stealth Ward + Oracle Lens later) and keep brushes lit. Hold <strong>EE</strong> as a peel pull when his hook lands, not as a poke tool.</li>\n<li><strong>Xerath / Vel'Koz:</strong> Long-range mage support mirror. Their poke matches your range, but you have hard CC they lack: a single landed <strong>EW</strong> wins the lane because they cannot dodge <strong>QW</strong> delayed bolt while rooted. Trade aggressively pre-6 before their <strong>R</strong> scales.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2:</strong> With one point in <strong>E</strong> and one in <strong>W</strong>, you have the lockdown plus a shield pool. A successful <strong>EW</strong> plus your ADC's spike is enough to kill the enemy support if they overextend.</li>\n<li><strong>Level 6:</strong> First <strong>Spiraling Despair</strong> unlocks every kill setup. The R sticks to the first champion hit and slows the area around them — combine with <strong>EE</strong> drag and you create a \"no-walking\" zone for 3-4 seconds.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4005.png\" alt=\"Imperial Mandate\"> Imperial Mandate completion (~ minute 12-14):</strong> Bot-lane snowball point. Every primed passive plus a Mandate detonation deletes the enemy ADC's HP bar in one rotation. Group with mid for a <strong>drake fight</strong> here.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6620.png\" alt=\"Echoes of Helia\"> Echoes of Helia online (~ minute 18-22):</strong> You start trading 2-for-0s in skirmishes because the Helia heal on your ADC outpaces enemy damage and the burn extends your range. This is the window to force <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4005.png\" alt=\"Imperial Mandate\"> <strong>Imperial Mandate</strong> picks around the river before the enemy team groups for Baron.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Throwing Q without setup.</strong> Naked <strong>QW</strong> poke at long range looks tempting, but the bolt only deals reduced damage when the target is mobile. Land <strong>EW</strong> root first, then chain <strong>QW</strong> for the bonus damage on an isolated/rooted target — the numbers triple.</li>\n<li><strong>Using EW as a poke spell.</strong> EW is your kill setup. Holding it for one defined moment per fight wins more games than spamming it for chip damage. The cooldown is long enough that you cannot afford to miss it.</li>\n<li><strong>Standing next to your ADC.</strong> Hwei has no dash. If the enemy support engages onto your ADC and you are at melee range too, you both die. Position behind, by 200-300 units, so an engage that locks one of you still lets the other peel or escape.</li>\n<li><strong>Forgetting the W tree.</strong> Many Hwei players play him pure pick-mage and ignore <strong>WW</strong> shields and <strong>WE</strong> orbs. Mid-fight, an empower from <strong>WE</strong> on your ADC's autos is more useful than a third damage spell from your own kit. Use both halves of the kit.</li>\n<li><strong>Walking into vision-blind side lanes.</strong> Your kit needs vision to land EW and to ult cross-map. Place wards in tri-bush and river before every roam — without vision your range advantage disappears the moment you step out of lane.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>The <strong>EW + EE pseudo-combo</strong> is the highest-value setup in Hwei's kit and barely shows up in basic guides. Drop <strong>EW</strong> (the eye) on the path the enemy must walk to last-hit; it stays on the ground for several seconds before locking on. Then cast <strong>EE</strong> (the jaw drag) so it pulls them through the eye's lock-on radius — the eye fires a homing root automatically the moment they enter, even if they tried to dodge <strong>EE</strong> itself. The drag becomes unmissable, the root is guaranteed, and your <strong>R</strong> plus passive secure the kill from full HP on a squishy. The window is tight (about 1 second between casts), but landed twice in a fight it ends the game.</p>",
+    "content_html_pre": "<h2>Overview</h2>\n<p>Hwei support is a long-range pick mage who turns immobile bot lanes into easy kills. The kit is built around three subspell trees: damage on <strong>Q (Subject: Disaster)</strong>, utility on <strong>W (Subject: Serenity)</strong>, and crowd control on <strong>E (Subject: Torment)</strong>. The standout tools for support are <strong>EW (Gaze of the Abyss)</strong> — a delayed homing root that locks the first enemy that steps into a vision eye — and <strong>EE (Crushing Maw)</strong> — a jaw zone that drags enemies inward and slows them on exit. Either one sets up the <strong>passive (Signature of the Visionary)</strong>, which detonates for area magic damage on the second spell hit. Hwei's range is mage-tier (around 900-1100 units on most casts), so the bot lane plays out at poke distance, not melee distance.</p>\n<p>The game plan is \"land one E, win the trade.\" Place <strong>EW</strong> in front of the enemy ADC's intended path before a wave fight, prime the passive with <strong>QQ</strong> or <strong>QW</strong>, then chain the <strong>R (Spiraling Despair)</strong> onto the locked target so the slow ramps up while your own ADC walks in for the kill. The hard requirement is positioning: every spell is a skillshot for distance with no dash, so a single enemy engage that catches you out of range is a death sentence. Stand behind your ADC, not next to them.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> (the new support quest item that grows into Bloodsong / Solstice Sleigh / Dream-Maker mid-game) plus 2 Health Potions. Take a Stealth Ward on the trinket slot.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> — quest support item, gold income while you stay near the ADC. Auto-upgrades to a finished support item around minute 12-14.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4005.png\" alt=\"Imperial Mandate\"> <strong>Imperial Mandate</strong> — the engine of pick play: every slow or root from your kit primes a Mandate mark that your ADC detonates for bonus magic damage. Hwei has slow on QE, EE, and R, so the proc is essentially guaranteed in every fight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — flat magic penetration so QQ and the passive signature cut through the squishy enemy back line.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6620.png\" alt=\"Echoes of Helia\"> <strong>Echoes of Helia</strong> — every primed-and-detonated passive triggers a Helia stack: heals your ADC and burns the target. Pair with Mandate for double-dipping on every locked enemy.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — extra burst plus a magic-penetration spike below 35% HP (the moment a spell finishes off a low-HP enemy). Lines up with R explosions on chunked targets.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3222.png\" alt=\"Mikael&#x27;s Blessing\"> <strong>Mikael's Blessing</strong> — versus hard CC on your ADC (Leona stun, Morgana root, Nautilus hook). Cleanses the lockdown that the enemy uses to one-shot your carry.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> <strong>Locket of the Iron Solari</strong> — versus heavy AOE engage (Kennen, Wukong, Malphite, Yasuo). The team-wide shield covers the forced fight your back-line range cannot avoid.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6617.png\" alt=\"Moonstone Renewer\"> <strong>Moonstone Renewer</strong> — replace Imperial Mandate as your finished support item if the enemy team is poke-and-disengage and you are spending less time landing E and more time topping up your team across drawn-out fights.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — versus assassins that dive your back line (Zed, Akali, Talon). Stasis buys time so your ADC can reposition while you survive the engage.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> is default. Take <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> instead if your team relies on you to chain CC across long fights — the ability haste keeps EW up every fight rotation.</p>\n<p><strong>Skill order:</strong> Max <strong>E</strong> first (the primary lockdown source: EW root, EE drag, EQ flee), <strong>W</strong> second (shield, MS, and three-orb empower), <strong>Q</strong> last (it scales with AP but the cooldown reduction matters less when the build slot belongs to support items, not raw AP). Take a point in <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Sorcery</strong> with <strong>Summon Aery</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Scorch</strong>. Secondary <strong>Inspiration</strong> with <strong>Biscuit Delivery</strong> and <strong>Cosmic Insight</strong>. Swap Inspiration to <strong>Resolve</strong> with <strong>Bone Plating</strong> and <strong>Revitalize</strong> when the enemy bot has hard engage (Leona, Rakan, Nautilus) — survivability matters more than active item cooldowns when their first ability decides the trade.</p>",
+    "content_html_post": "<h2>Key matchups</h2>\n<ul>\n<li><strong>Leona / Nautilus:</strong> Engage threats. Stand outside their hook/Q range; never use <strong>Flash</strong> offensively in lane. Save <strong>EW</strong> as a peel root if they walk onto your ADC, not as a poke setup. If they Flash forward, your <strong>EE</strong> drag can pull them away from your carry.</li>\n<li><strong>Lulu:</strong> Even matchup. She shields and disengages your <strong>EW</strong>, but you out-range her poke. Wait for her to <strong>W</strong> her ADC into range, then root her instead — Lulu shielded onto a root is a kill-confirm setup for your ADC.</li>\n<li><strong>Soraka:</strong> Favorable for Hwei. Her low base movement speed and lack of mobility means <strong>EW</strong> lands almost every cast. Push the wave first, then play around the <strong>EW + R</strong> combo onto her every cooldown — she has no answer.</li>\n<li><strong>Pyke:</strong> Hard matchup. His stealth removes the vision your <strong>EW</strong> eye needs to lock him in place; if you cannot see him on the screen, the eye does nothing. Buy a Pink Ward (Stealth Ward + Oracle Lens later) and keep brushes lit. Hold <strong>EE</strong> as a peel pull when his hook lands, not as a poke tool.</li>\n<li><strong>Xerath / Vel'Koz:</strong> Long-range mage support mirror. Their poke matches your range, but you have hard CC they lack: a single landed <strong>EW</strong> wins the lane because they cannot dodge <strong>QW</strong> delayed bolt while rooted. Trade aggressively pre-6 before their <strong>R</strong> scales.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2:</strong> With one point in <strong>E</strong> and one in <strong>W</strong>, you have the lockdown plus a shield pool. A successful <strong>EW</strong> plus your ADC's spike is enough to kill the enemy support if they overextend.</li>\n<li><strong>Level 6:</strong> First <strong>Spiraling Despair</strong> unlocks every kill setup. The R sticks to the first champion hit and slows the area around them — combine with <strong>EE</strong> drag and you create a \"no-walking\" zone for 3-4 seconds.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4005.png\" alt=\"Imperial Mandate\"> Imperial Mandate completion (~ minute 12-14):</strong> Bot-lane snowball point. Every primed passive plus a Mandate detonation deletes the enemy ADC's HP bar in one rotation. Group with mid for a <strong>drake fight</strong> here.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6620.png\" alt=\"Echoes of Helia\"> Echoes of Helia online (~ minute 18-22):</strong> You start trading 2-for-0s in skirmishes because the Helia heal on your ADC outpaces enemy damage and the burn extends your range. This is the window to force <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4005.png\" alt=\"Imperial Mandate\"> <strong>Imperial Mandate</strong> picks around the river before the enemy team groups for Baron.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Throwing Q without setup.</strong> Naked <strong>QW</strong> poke at long range looks tempting, but the bolt only deals reduced damage when the target is mobile. Land <strong>EW</strong> root first, then chain <strong>QW</strong> for the bonus damage on an isolated/rooted target — the numbers triple.</li>\n<li><strong>Using EW as a poke spell.</strong> EW is your kill setup. Holding it for one defined moment per fight wins more games than spamming it for chip damage. The cooldown is long enough that you cannot afford to miss it.</li>\n<li><strong>Standing next to your ADC.</strong> Hwei has no dash. If the enemy support engages onto your ADC and you are at melee range too, you both die. Position behind, by 200-300 units, so an engage that locks one of you still lets the other peel or escape.</li>\n<li><strong>Forgetting the W tree.</strong> Many Hwei players play him pure pick-mage and ignore <strong>WW</strong> shields and <strong>WE</strong> orbs. Mid-fight, an empower from <strong>WE</strong> on your ADC's autos is more useful than a third damage spell from your own kit. Use both halves of the kit.</li>\n<li><strong>Walking into vision-blind side lanes.</strong> Your kit needs vision to land EW and to ult cross-map. Place wards in tri-bush and river before every roam — without vision your range advantage disappears the moment you step out of lane.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>The <strong>EW + EE pseudo-combo</strong> is the highest-value setup in Hwei's kit and barely shows up in basic guides. Drop <strong>EW</strong> (the eye) on the path the enemy must walk to last-hit; it stays on the ground for several seconds before locking on. Then cast <strong>EE</strong> (the jaw drag) so it pulls them through the eye's lock-on radius — the eye fires a homing root automatically the moment they enter, even if they tried to dodge <strong>EE</strong> itself. The drag becomes unmissable, the root is guaranteed, and your <strong>R</strong> plus passive secure the kill from full HP on a squishy. The window is tight (about 1 second between casts), but landed twice in a fight it ends the game.</p>",
+    "word_count": 1392,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "blitzcrank-support",
+        "champion": "blitzcrank",
+        "role": "support"
+      },
+      {
+        "slug": "braum-support",
+        "champion": "braum",
+        "role": "support"
+      },
+      {
+        "slug": "janna-support",
+        "champion": "janna",
+        "role": "support"
+      },
+      {
+        "slug": "karma-support",
+        "champion": "karma",
+        "role": "support"
+      },
+      {
+        "slug": "leona-support",
+        "champion": "leona",
+        "role": "support"
+      }
+    ],
+    "champion_key": "910"
+  },
+  {
     "slug": "illaoi-top",
     "title": "Illaoi Top Build & Guide — Patch 16.9",
     "language": "en",
@@ -17735,6 +18375,642 @@ export const enChampions: ChampionGuide[] = [
     "champion_key": "39"
   },
   {
+    "slug": "ivern-jungle",
+    "title": "Ivern Jungle Build & Guide — Patch 16.9",
+    "language": "en",
+    "patch": "16.9",
+    "champion": "ivern",
+    "role": "jungle",
+    "last_updated": "2026-05-05",
+    "description": "Ivern jungle guide for League of Legends Patch 16.9: pacifist clear via groves, enchanter build, Q root setups, Daisy fight control, key matchups, common mistakes.",
+    "quick_learn": {
+      "champion_dd_id": "Ivern",
+      "difficulty": 4,
+      "damage_type": "magic",
+      "champion_class": "Enchanter / Utility Jungler",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Friend of the Forest",
+          "description": "Cannot attack or be attacked by jungle monsters (only epic ones like Drake/Baron). Plants groves on camps that auto-free the monsters when fully grown.",
+          "dd_spell_id": "Ivern_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Rootcaller",
+          "description": "Long linear skillshot that roots the first enemy hit. Allies who attack the rooted target dash to it. Recast to dash there yourself.",
+          "dd_spell_id": "IvernQ"
+        },
+        {
+          "key": "W",
+          "name": "Brushmaker",
+          "description": "Passive: in brush, autos deal bonus magic damage (you and nearby allies). Active: create a brush patch anywhere for vision and a damage zone.",
+          "dd_spell_id": "IvernW"
+        },
+        {
+          "key": "E",
+          "name": "Triggerseed",
+          "description": "Shield an ally (or Daisy). After 1.5s the shield bursts, dealing magic damage and slowing nearby enemies. If no enemies are hit, the shield refreshes.",
+          "dd_spell_id": "IvernE"
+        },
+        {
+          "key": "R",
+          "name": "Daisy!",
+          "description": "Summon Daisy, a tanky golem ally. Her third consecutive auto on the same target launches a knockup shockwave. Recast to command her position.",
+          "dd_spell_id": "IvernR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "E"
+        },
+        {
+          "level": 2,
+          "key": "Q"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "E"
+        },
+        {
+          "level": 5,
+          "key": "E"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "E"
+        },
+        {
+          "level": 8,
+          "key": "Q"
+        },
+        {
+          "level": 9,
+          "key": "E"
+        },
+        {
+          "level": 10,
+          "key": "Q"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "Q"
+        },
+        {
+          "level": 13,
+          "key": "Q"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "1101",
+          "name": "Scorchclaw Pup"
+        },
+        {
+          "dd_id": "6617",
+          "name": "Moonstone Renewer"
+        },
+        {
+          "dd_id": "3158",
+          "name": "Ionian Boots of Lucidity"
+        },
+        {
+          "dd_id": "3504",
+          "name": "Ardent Censer"
+        },
+        {
+          "dd_id": "6616",
+          "name": "Staff of Flowing Water"
+        },
+        {
+          "dd_id": "3107",
+          "name": "Redemption"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3222",
+          "name": "Mikael's Blessing",
+          "against": "vs heavy single-target CC chained on your ADC (Morgana Q, Ashe R, Lissandra R)"
+        },
+        {
+          "dd_id": "3190",
+          "name": "Locket of the Iron Solari",
+          "against": "vs AOE engage compositions (Amumu R, Yasuo + Malphite, Wukong R)"
+        },
+        {
+          "dd_id": "3102",
+          "name": "Banshee's Veil",
+          "against": "when the enemy's main pick threat is a long-range magic CC aimed at you"
+        },
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass",
+          "against": "vs mobile assassins that dive your back line (Kha'Zix, Zed, Akali, Talon)"
+        },
+        {
+          "dd_id": "3165",
+          "name": "Morellonomicon",
+          "against": "vs heal-stacking comps (Soraka, Yuumi, Aatrox, Vladimir)"
+        }
+      ],
+      "base_combo": [
+        "W",
+        "Q",
+        "E",
+        "R"
+      ],
+      "win_condition": "Set up picks with Q from fog, shield your strongest carry with E mid-fight, and drop Daisy onto the front line so her third-auto knockup cleans up rooted targets. Spike hard at level 6.",
+      "weakness": "Cannot 1v1 against champions — autos are weak, kit has no escape. Slow recovery if your jungle is invaded before two groves are placed; whiffed Q in a gank wastes the entire setup.",
+      "runes": {
+        "primary_tree": "Sorcery",
+        "primary_tree_dd_id": 8200,
+        "keystone": {
+          "dd_id": 8214,
+          "name": "Summon Aery",
+          "icon_path": "perk-images/Styles/Sorcery/SummonAery/SummonAery.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 8226,
+            "name": "Manaflow Band",
+            "icon_path": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "dd_id": 8210,
+            "name": "Transcendence",
+            "icon_path": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png"
+          },
+          {
+            "dd_id": 8237,
+            "name": "Scorch",
+            "icon_path": "perk-images/Styles/Sorcery/Scorch/Scorch.png"
+          }
+        ],
+        "secondary_tree": "Resolve",
+        "secondary_tree_dd_id": 8400,
+        "secondary_slots": [
+          {
+            "dd_id": 8463,
+            "name": "Font of Life",
+            "icon_path": "perk-images/Styles/Resolve/FontOfLife/FontOfLife.png"
+          },
+          {
+            "dd_id": 8453,
+            "name": "Revitalize",
+            "icon_path": "perk-images/Styles/Resolve/Revitalize/Revitalize.png"
+          }
+        ],
+        "stat_shards": [
+          "Adaptive Force",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Sorcery primary: Summon Aery rides every E shield (sticks to your ally) and procs on Q root for extra magic damage. Manaflow Band sustains mana for E-on-cooldown, Transcendence pushes ability haste past 40 for shorter Q cooldowns, Scorch closes the poke window in lane skirmishes.",
+        "secondary_rationale": "Resolve secondary: Font of Life triggers on every Q root — your ADC heals when they attack the rooted target, turning a single setup into burst plus sustain. Revitalize amplifies Aery shields and the burst-shield-refund on E when no enemies are hit.",
+        "secondary_alternative": "If you need more Flash uptime in protracted teamfights and your ADC already brings sustain, swap Resolve to Inspiration with Biscuit Delivery (early mana/HP) and Cosmic Insight (summoner spell haste, faster Flash and Smite)."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "karthus",
+            "veigar",
+            "vel-koz"
+          ],
+          "archetype": "Immobile carries without dash",
+          "reason": "A Q root from fog locks them in place; the Attack-to-dash chain by your ADC closes the gap before they can flash, especially after Daisy joins for the knockup follow-up."
+        },
+        {
+          "examples": [
+            "master-yi",
+            "warwick",
+            "shyvana"
+          ],
+          "archetype": "Auto-attack scaling junglers",
+          "reason": "Ivern's grove mechanic skips camp fights entirely; while opponents grind autos against monsters, Ivern is already shielding lanes and setting up roots with his ADC by level 5."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "lee-sin",
+            "graves",
+            "nidalee"
+          ],
+          "archetype": "Early-game invaders",
+          "reason": "Ivern cannot 1v1 — W damage requires brush, Q has no escape utility. A pre-3 invade deletes his groves and forces a defensive clear that snowballs the enemy XP and gold lead permanently."
+        },
+        {
+          "examples": [
+            "kha-zix",
+            "rengar"
+          ],
+          "archetype": "Mobile assassin divers",
+          "reason": "They jump past Ivern's positioning onto the carry; the E shield burns through fast against burst, and his only hard CC is a slow-windup Q that dashes outrun before it lands."
+        },
+        {
+          "examples": [
+            "amumu",
+            "zac"
+          ],
+          "archetype": "AOE hard-engage tanks",
+          "reason": "Their R-Flash chains catch a tightly-positioned team in one cone; one E shield cannot cover multiple targets at once, and Daisy's third-auto knockup arrives too late to save the back line."
+        }
+      ]
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Ivern is a pacifist jungler — and that one word changes everything about how he plays. His passive forbids him from attacking jungle monsters at all, so he never trades autos in a camp. Instead he plants a <strong>Brushmaker (W)</strong> seed on each camp, walks away, and returns later to find the monsters auto-freed for full gold and XP. The trade-off: while a normal jungler is full-clearing, Ivern is shielding allies, gating river vision with active brush, and running cross-map for level-3 ganks that arrive before any other jungler is on the map.</p>\n<p>His game plan is enchanter, not assassin. Land <strong>Rootcaller (Q)</strong> from fog of war, your ADC dashes to the rooted target through the auto-attack proc, you drop <strong>Triggerseed (E)</strong> on them as they engage, and at level 6 you slam <strong>Daisy! (R)</strong> behind the enemy line so her third consecutive auto launches a guaranteed knockup. The kit has no escape and weak autos — if you fight 1v1 against a champion, you lose. Stay in fog, stay near a teammate, and let your team carry the damage while you carry the setups.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1039.png\" alt=\"Hailblade\"> <strong>Hailblade</strong> + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2031.png\" alt=\"Refillable Potion\"> <strong>Refillable Potion</strong>. Ivern is ranged (475 attack range), so Hailblade is correct over Emberknife. Smite is still mandatory — you need it for Drake, Baron, and Voidgrubs even though you never smite a regular camp.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1101.png\" alt=\"Scorchclaw Pup\"> <strong>Scorchclaw Pup</strong> — quest upgrade from Hailblade (auto-evolves around minute 3-4 once you have enough XP). Companion for AP burst: adds a magic-damage proc on the auto after a cast, layering on top of W's brush bonus.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6617.png\" alt=\"Moonstone Renewer\"> <strong>Moonstone Renewer</strong> — mythic. Your shields and heals stack a chain-effect that ramps healing every consecutive proc — ideal for an enchanter who shields, slows, and re-shields every 7-11 seconds.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> — ability haste pushes Q and E onto a near-permanent cooldown.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3504.png\" alt=\"Ardent Censer\"> <strong>Ardent Censer</strong> — when E shields an ally, the Censer passive grants them attack speed and on-hit magic damage. Stacks with W brush bonus when your ADC is fighting in or near brush.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6616.png\" alt=\"Staff of Flowing Water\"> <strong>Staff of Flowing Water</strong> — a second shield-trigger item. Gives the shielded ally extra ability power and ability haste for a few seconds.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3107.png\" alt=\"Redemption\"> <strong>Redemption</strong> — global active heal/damage on a 5-second cast: drop it on a clumped fight to swing health bars.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3222.png\" alt=\"Mikael&#x27;s Blessing\"> <strong>Mikael's Blessing</strong> — when an opponent has long single-target CC chained onto your ADC (Morgana Q, Ashe R, Lissandra R). The active cleanse keeps the carry alive longer than any shield can.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> <strong>Locket of the Iron Solari</strong> — vs AOE hard-engage compositions (Amumu R + Yasuo R wombo, Wukong R). The active shields multiple allies at once, which one E cannot.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — when a mobile assassin (Kha'Zix, Zed, Akali, Talon) explicitly hunts you. Stasis lets you survive the dive long enough for Daisy to peel.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — vs heal-stacking compositions (Soraka, Yuumi, Aatrox, Vladimir). Your magic damage applies the heal-cut, and you cast often enough to keep it permanently up.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> is default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3009.png\" alt=\"Boots of Swiftness\"> <strong>Boots of Swiftness</strong> is acceptable when slows everywhere (Twitch, Ashe, Ahri W) keep stacking on you; ability haste loss is real, take only when mobility is the actual problem.</p>\n<p><strong>Skill order:</strong> Max <strong>E</strong> first (shield value scales hardest, slow shuts down dives), <strong>Q</strong> second (lower cooldown means more roots), <strong>W</strong> last (passive damage scales with rank but you take points only when no other ranks remain). Take <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Sorcery</strong> with <strong>Summon Aery</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Scorch</strong>. Secondary <strong>Resolve</strong> with <strong>Font of Life</strong> and <strong>Revitalize</strong>.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Lee Sin / Graves:</strong> Hard counter. Both invade your jungle pre-3 and you lose every 1v1. Start near your strongest lane (where the ally can rotate to fight 2v2) and place wards in your raptors and red side. If they invade, retreat and let your laner punish from fog — never duel.</li>\n<li><strong>Master Yi / Warwick:</strong> Easy. They commit autos to camps for early levels while you skip the camp fight via groves; you arrive at gank lanes one level higher than them. Once Daisy is online, her knockup interrupts Warwick R and stops Yi mid-Alpha-Strike chain.</li>\n<li><strong>Karthus:</strong> Race the level-6 spike. He globals from min 6, you root and Daisy from min 6. The first kill decides who scales; if you land an early Q on him at Scuttle, your team rolls the next 10 minutes.</li>\n<li><strong>Kha'Zix:</strong> Avoid him in fog. He isolates squishy targets for bonus damage — that target is you. Ward your back side of the jungle, group with your team for objectives, and never path solo near unwarded fog after minute 8.</li>\n<li><strong>Vi:</strong> Even matchup decided by mid lane priority. Her Q-Flash-R chain bypasses your Q, but if your mid laner has prio she can't dive freely. Ward her flank route and pre-shield your ADC the moment she activates Q charge animation in vision.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 3-4 (full grove cycle):</strong> Once two camps are grown and freed, you've matched a normal jungler's clear in roughly 60% of the time. Use the surplus to walk to a lane with your Q ready before the enemy jungler is at level 4.</li>\n<li><strong>Level 6 (Daisy! online):</strong> First <strong>R</strong> unlocks the kit. Daisy is a tanky body in fights and her third-auto knockup is a guaranteed engage tool. Look for a free pick on a side-laner immediately after hitting 6.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6617.png\" alt=\"Moonstone Renewer\"> Moonstone Renewer completion (~ minute 11-13):</strong> Shield/heal chains start ramping. In any fight that lasts more than 4 seconds, your healing output pulls ahead of any non-Soraka enchanter on the map.</li>\n<li><strong>3-item powerspike (Moonstone + Boots + Ardent or Staff, ~ minute 19-21):</strong> Force objective fights. Your shielded ADC hits harder and faster than the opposing team's, and Daisy R takes a full minute of cooldown — you want to fight every time it's up.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Smiting normal camps.</strong> You cannot — your passive disables it. Save Smite exclusively for Drake, Baron, Voidgrubs, and the rare cross-jungle steal on the enemy's red/blue when they are about to take it. Wasted Smite on a grove animation is throwing.</li>\n<li><strong>Attacking the rooted target yourself.</strong> When you Q someone, you don't dash — your ADC does, automatically, when they attack. Recast Q only if you genuinely want to dive (rare); otherwise step back and shield the ally as they jump in.</li>\n<li><strong>Casting W brush in fights and not in lanes.</strong> Brush is most valuable in lanes for permanent vision and a damage zone over the wave; in mid-fight it's barely a vision tool. Pre-place W in tri-bush before a gank, not after.</li>\n<li><strong>Dropping Daisy at max range.</strong> Daisy's value is in her three-auto knockup, which only happens if she actually reaches her target. R inside the fight, behind the enemy line — not 1500 units away \"for damage.\"</li>\n<li><strong>Trying to peel against AOE engage with one E shield.</strong> E shields one ally at a time. Against Amumu R + Yasuo R hitting four people, you need Locket of the Iron Solari. Plan that item the moment you see the draft.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Use <strong>W active brush placement</strong> to fake fog for your ADC's positioning. Drop a brush at the edge of an enemy ward's range — they see you place it but can't see who walks into it. Rotate your carry into the brush, then Q across the lane: enemies cannot dodge a skillshot fired from behind a brush wall they cannot see through. This is the same trick that makes early Ivern/Caitlyn duos one of the highest-snowball laning combinations in the game, and it scales with item completion as your shielded carry's autos become Ardent-empowered hammers from inside the brush.</p>",
+    "content_html_pre": "<h2>Overview</h2>\n<p>Ivern is a pacifist jungler — and that one word changes everything about how he plays. His passive forbids him from attacking jungle monsters at all, so he never trades autos in a camp. Instead he plants a <strong>Brushmaker (W)</strong> seed on each camp, walks away, and returns later to find the monsters auto-freed for full gold and XP. The trade-off: while a normal jungler is full-clearing, Ivern is shielding allies, gating river vision with active brush, and running cross-map for level-3 ganks that arrive before any other jungler is on the map.</p>\n<p>His game plan is enchanter, not assassin. Land <strong>Rootcaller (Q)</strong> from fog of war, your ADC dashes to the rooted target through the auto-attack proc, you drop <strong>Triggerseed (E)</strong> on them as they engage, and at level 6 you slam <strong>Daisy! (R)</strong> behind the enemy line so her third consecutive auto launches a guaranteed knockup. The kit has no escape and weak autos — if you fight 1v1 against a champion, you lose. Stay in fog, stay near a teammate, and let your team carry the damage while you carry the setups.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1039.png\" alt=\"Hailblade\"> <strong>Hailblade</strong> + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2031.png\" alt=\"Refillable Potion\"> <strong>Refillable Potion</strong>. Ivern is ranged (475 attack range), so Hailblade is correct over Emberknife. Smite is still mandatory — you need it for Drake, Baron, and Voidgrubs even though you never smite a regular camp.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1101.png\" alt=\"Scorchclaw Pup\"> <strong>Scorchclaw Pup</strong> — quest upgrade from Hailblade (auto-evolves around minute 3-4 once you have enough XP). Companion for AP burst: adds a magic-damage proc on the auto after a cast, layering on top of W's brush bonus.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6617.png\" alt=\"Moonstone Renewer\"> <strong>Moonstone Renewer</strong> — mythic. Your shields and heals stack a chain-effect that ramps healing every consecutive proc — ideal for an enchanter who shields, slows, and re-shields every 7-11 seconds.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> — ability haste pushes Q and E onto a near-permanent cooldown.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3504.png\" alt=\"Ardent Censer\"> <strong>Ardent Censer</strong> — when E shields an ally, the Censer passive grants them attack speed and on-hit magic damage. Stacks with W brush bonus when your ADC is fighting in or near brush.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6616.png\" alt=\"Staff of Flowing Water\"> <strong>Staff of Flowing Water</strong> — a second shield-trigger item. Gives the shielded ally extra ability power and ability haste for a few seconds.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3107.png\" alt=\"Redemption\"> <strong>Redemption</strong> — global active heal/damage on a 5-second cast: drop it on a clumped fight to swing health bars.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3222.png\" alt=\"Mikael&#x27;s Blessing\"> <strong>Mikael's Blessing</strong> — when an opponent has long single-target CC chained onto your ADC (Morgana Q, Ashe R, Lissandra R). The active cleanse keeps the carry alive longer than any shield can.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> <strong>Locket of the Iron Solari</strong> — vs AOE hard-engage compositions (Amumu R + Yasuo R wombo, Wukong R). The active shields multiple allies at once, which one E cannot.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — when a mobile assassin (Kha'Zix, Zed, Akali, Talon) explicitly hunts you. Stasis lets you survive the dive long enough for Daisy to peel.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — vs heal-stacking compositions (Soraka, Yuumi, Aatrox, Vladimir). Your magic damage applies the heal-cut, and you cast often enough to keep it permanently up.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> is default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3009.png\" alt=\"Boots of Swiftness\"> <strong>Boots of Swiftness</strong> is acceptable when slows everywhere (Twitch, Ashe, Ahri W) keep stacking on you; ability haste loss is real, take only when mobility is the actual problem.</p>\n<p><strong>Skill order:</strong> Max <strong>E</strong> first (shield value scales hardest, slow shuts down dives), <strong>Q</strong> second (lower cooldown means more roots), <strong>W</strong> last (passive damage scales with rank but you take points only when no other ranks remain). Take <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Sorcery</strong> with <strong>Summon Aery</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Scorch</strong>. Secondary <strong>Resolve</strong> with <strong>Font of Life</strong> and <strong>Revitalize</strong>.</p>",
+    "content_html_post": "<h2>Key matchups</h2>\n<ul>\n<li><strong>Lee Sin / Graves:</strong> Hard counter. Both invade your jungle pre-3 and you lose every 1v1. Start near your strongest lane (where the ally can rotate to fight 2v2) and place wards in your raptors and red side. If they invade, retreat and let your laner punish from fog — never duel.</li>\n<li><strong>Master Yi / Warwick:</strong> Easy. They commit autos to camps for early levels while you skip the camp fight via groves; you arrive at gank lanes one level higher than them. Once Daisy is online, her knockup interrupts Warwick R and stops Yi mid-Alpha-Strike chain.</li>\n<li><strong>Karthus:</strong> Race the level-6 spike. He globals from min 6, you root and Daisy from min 6. The first kill decides who scales; if you land an early Q on him at Scuttle, your team rolls the next 10 minutes.</li>\n<li><strong>Kha'Zix:</strong> Avoid him in fog. He isolates squishy targets for bonus damage — that target is you. Ward your back side of the jungle, group with your team for objectives, and never path solo near unwarded fog after minute 8.</li>\n<li><strong>Vi:</strong> Even matchup decided by mid lane priority. Her Q-Flash-R chain bypasses your Q, but if your mid laner has prio she can't dive freely. Ward her flank route and pre-shield your ADC the moment she activates Q charge animation in vision.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 3-4 (full grove cycle):</strong> Once two camps are grown and freed, you've matched a normal jungler's clear in roughly 60% of the time. Use the surplus to walk to a lane with your Q ready before the enemy jungler is at level 4.</li>\n<li><strong>Level 6 (Daisy! online):</strong> First <strong>R</strong> unlocks the kit. Daisy is a tanky body in fights and her third-auto knockup is a guaranteed engage tool. Look for a free pick on a side-laner immediately after hitting 6.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6617.png\" alt=\"Moonstone Renewer\"> Moonstone Renewer completion (~ minute 11-13):</strong> Shield/heal chains start ramping. In any fight that lasts more than 4 seconds, your healing output pulls ahead of any non-Soraka enchanter on the map.</li>\n<li><strong>3-item powerspike (Moonstone + Boots + Ardent or Staff, ~ minute 19-21):</strong> Force objective fights. Your shielded ADC hits harder and faster than the opposing team's, and Daisy R takes a full minute of cooldown — you want to fight every time it's up.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Smiting normal camps.</strong> You cannot — your passive disables it. Save Smite exclusively for Drake, Baron, Voidgrubs, and the rare cross-jungle steal on the enemy's red/blue when they are about to take it. Wasted Smite on a grove animation is throwing.</li>\n<li><strong>Attacking the rooted target yourself.</strong> When you Q someone, you don't dash — your ADC does, automatically, when they attack. Recast Q only if you genuinely want to dive (rare); otherwise step back and shield the ally as they jump in.</li>\n<li><strong>Casting W brush in fights and not in lanes.</strong> Brush is most valuable in lanes for permanent vision and a damage zone over the wave; in mid-fight it's barely a vision tool. Pre-place W in tri-bush before a gank, not after.</li>\n<li><strong>Dropping Daisy at max range.</strong> Daisy's value is in her three-auto knockup, which only happens if she actually reaches her target. R inside the fight, behind the enemy line — not 1500 units away \"for damage.\"</li>\n<li><strong>Trying to peel against AOE engage with one E shield.</strong> E shields one ally at a time. Against Amumu R + Yasuo R hitting four people, you need Locket of the Iron Solari. Plan that item the moment you see the draft.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Use <strong>W active brush placement</strong> to fake fog for your ADC's positioning. Drop a brush at the edge of an enemy ward's range — they see you place it but can't see who walks into it. Rotate your carry into the brush, then Q across the lane: enemies cannot dodge a skillshot fired from behind a brush wall they cannot see through. This is the same trick that makes early Ivern/Caitlyn duos one of the highest-snowball laning combinations in the game, and it scales with item completion as your shielded carry's autos become Ardent-empowered hammers from inside the brush.</p>",
+    "word_count": 1292,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "amumu-jungle",
+        "champion": "amumu",
+        "role": "jungle"
+      },
+      {
+        "slug": "diana-jungle",
+        "champion": "diana",
+        "role": "jungle"
+      },
+      {
+        "slug": "ekko-jungle",
+        "champion": "ekko",
+        "role": "jungle"
+      },
+      {
+        "slug": "graves-jungle",
+        "champion": "graves",
+        "role": "jungle"
+      },
+      {
+        "slug": "hecarim-jungle",
+        "champion": "hecarim",
+        "role": "jungle"
+      }
+    ],
+    "champion_key": "427"
+  },
+  {
+    "slug": "ivern-support",
+    "title": "Ivern Support Build & Guide — Patch 16.9",
+    "language": "en",
+    "patch": "16.9",
+    "champion": "ivern",
+    "role": "support",
+    "last_updated": "2026-05-05",
+    "description": "Ivern support guide for League of Legends Patch 16.9: enchanter build, brush vision tricks, Q root setups, Daisy peel, key bot matchups, common mistakes.",
+    "quick_learn": {
+      "champion_dd_id": "Ivern",
+      "difficulty": 4,
+      "damage_type": "magic",
+      "champion_class": "Enchanter / Setup Support",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Friend of the Forest",
+          "description": "Cannot attack jungle monsters, and they cannot attack him. Plants groves on jungle camps that auto-free monsters when grown — useful even from bot lane for free gold.",
+          "dd_spell_id": "Ivern_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Rootcaller",
+          "description": "Long linear skillshot that roots the first enemy hit. Allies who attack the rooted target dash to it. Recast to dash there yourself.",
+          "dd_spell_id": "IvernQ"
+        },
+        {
+          "key": "W",
+          "name": "Brushmaker",
+          "description": "Passive: in brush, autos deal bonus magic damage (you and nearby allies). Active: create a brush patch anywhere for vision and a damage zone.",
+          "dd_spell_id": "IvernW"
+        },
+        {
+          "key": "E",
+          "name": "Triggerseed",
+          "description": "Shield an ally. After 1.5s the shield bursts, dealing magic damage and slowing nearby enemies. If no enemies are hit, the shield refreshes for the same duration.",
+          "dd_spell_id": "IvernE"
+        },
+        {
+          "key": "R",
+          "name": "Daisy!",
+          "description": "Summon Daisy, a tanky golem ally. Her third consecutive auto on the same target launches a knockup shockwave. Recast to command her position.",
+          "dd_spell_id": "IvernR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "E"
+        },
+        {
+          "level": 5,
+          "key": "E"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "E"
+        },
+        {
+          "level": 8,
+          "key": "Q"
+        },
+        {
+          "level": 9,
+          "key": "E"
+        },
+        {
+          "level": 10,
+          "key": "Q"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "Q"
+        },
+        {
+          "level": 13,
+          "key": "Q"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "3865",
+          "name": "World Atlas"
+        },
+        {
+          "dd_id": "3158",
+          "name": "Ionian Boots of Lucidity"
+        },
+        {
+          "dd_id": "6617",
+          "name": "Moonstone Renewer"
+        },
+        {
+          "dd_id": "3504",
+          "name": "Ardent Censer"
+        },
+        {
+          "dd_id": "6616",
+          "name": "Staff of Flowing Water"
+        },
+        {
+          "dd_id": "3222",
+          "name": "Mikael's Blessing"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3107",
+          "name": "Redemption",
+          "against": "vs grouped late-game team fights where AOE swing on a clumped fight matters more than single-target peel"
+        },
+        {
+          "dd_id": "3190",
+          "name": "Locket of the Iron Solari",
+          "against": "vs AOE engage compositions (Amumu R, Wukong R, Yasuo + Malphite wombo)"
+        },
+        {
+          "dd_id": "3102",
+          "name": "Banshee's Veil",
+          "against": "vs heavy single-target magic CC on you (Lux Q, Morgana Q, Zoe E sleep, Brand Q stun)"
+        },
+        {
+          "dd_id": "3165",
+          "name": "Morellonomicon",
+          "against": "vs heal-stacking comps (Soraka, Yuumi, Aatrox, Vladimir bot lane)"
+        }
+      ],
+      "base_combo": [
+        "W",
+        "Q",
+        "E",
+        "R"
+      ],
+      "win_condition": "Use the side bushes for ambush — pre-place W brush for free vision, fire Q from fog, and your ADC dashes onto the rooted target. After 6, roam mid for repeat picks with Daisy and snowball the map.",
+      "weakness": "Squishy, no peel against multi-target hard engage. A whiffed Q in lane forces you to back off until cooldown — the 14s Q at rank 1 is the longest dead-time window of any roaming support.",
+      "runes": {
+        "primary_tree": "Sorcery",
+        "primary_tree_dd_id": 8200,
+        "keystone": {
+          "dd_id": 8214,
+          "name": "Summon Aery",
+          "icon_path": "perk-images/Styles/Sorcery/SummonAery/SummonAery.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 8226,
+            "name": "Manaflow Band",
+            "icon_path": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "dd_id": 8210,
+            "name": "Transcendence",
+            "icon_path": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png"
+          },
+          {
+            "dd_id": 8237,
+            "name": "Scorch",
+            "icon_path": "perk-images/Styles/Sorcery/Scorch/Scorch.png"
+          }
+        ],
+        "secondary_tree": "Resolve",
+        "secondary_tree_dd_id": 8400,
+        "secondary_slots": [
+          {
+            "dd_id": 8463,
+            "name": "Font of Life",
+            "icon_path": "perk-images/Styles/Resolve/FontOfLife/FontOfLife.png"
+          },
+          {
+            "dd_id": 8453,
+            "name": "Revitalize",
+            "icon_path": "perk-images/Styles/Resolve/Revitalize/Revitalize.png"
+          }
+        ],
+        "stat_shards": [
+          "Adaptive Force",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Sorcery primary: Summon Aery rides every E shield onto your ADC and procs on Q root for trade damage. Manaflow Band pays for E spam in lane, Transcendence pushes ability haste past 40 for shorter Q cooldowns, Scorch closes the poke window when the lane goes static.",
+        "secondary_rationale": "Resolve secondary: Font of Life triggers on every Q root — your ADC heals when they attack the rooted target, turning a single setup into damage plus sustain. Revitalize amplifies Aery and the no-enemy-hit refund on E.",
+        "secondary_alternative": "If your team needs more roams to mid and your Flash uptime matters, swap Resolve to Inspiration with Magical Footwear (free upgraded boots at minute 12) and Cosmic Insight (summoner spell haste — more Flash and Ignite per game)."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "thresh",
+            "blitzcrank",
+            "pyke"
+          ],
+          "archetype": "Hook supports that step up to throw skillshots",
+          "reason": "They have to walk forward into Q range to land their hook — Ivern's Q + ADC dash punishes the windup with a guaranteed root before the hook even leaves the cast animation."
+        },
+        {
+          "examples": [
+            "xerath",
+            "vel-koz",
+            "brand"
+          ],
+          "archetype": "Immobile mage poke supports",
+          "reason": "They have no dash. Q from brush + ADC follow-up wipes them; W active brush gives Ivern a free vision-and-damage zone they cannot match without burning summoner spells."
+        },
+        {
+          "examples": [
+            "yuumi",
+            "soraka",
+            "milio"
+          ],
+          "archetype": "Pure enchanter supports without lockdown",
+          "reason": "These chase the ADC with heals and shields but bring no peel against a setup root; Q catches the carry, Daisy slam follows, and the enchanter has no answer to undo a 1.75s root."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "leona",
+            "alistar",
+            "rell"
+          ],
+          "archetype": "All-in tank engagers",
+          "reason": "They flash forward and chain CC the ADC before Ivern can land Q. He has no peel against multi-CC engage; one E shield breaks instantly under a 2-target stun chain."
+        },
+        {
+          "examples": [
+            "lux",
+            "zyra"
+          ],
+          "archetype": "Zone-control / long-range mage supports",
+          "reason": "Lux's E zone shuts down Ivern's brush angles and out-pokes Q range; Zyra's seed-and-plant zoning out-controls Ivern's W brush passive without ever stepping forward."
+        },
+        {
+          "examples": [
+            "morgana",
+            "tahm-kench"
+          ],
+          "archetype": "Anti-CC peel supports with cleanse or eat",
+          "reason": "Morgana's E spell-shield blocks the Q root completely, undoing the entire setup; Tahm Kench W eats the ADC out of Daisy's slam radius before the third auto lands."
+        }
+      ]
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Ivern as a support is one of the most unusual picks in the bot lane: an enchanter who can spawn brush wherever he wants, root a champion across the map, and summon a tanky golem at level 6. His passive disables him from autoing jungle monsters at all, but it doesn't stop him from passing through the bot side jungle on resets to plant <strong>Brushmaker (W)</strong> seeds on Krugs or Wolves — that's free gold while your ADC pushes the wave. He is squishy, has no escape, and dies in 1v1 trades — but no other support can create a brush wall mid-fight, deny vision, and convert a single Q into a guaranteed kill the way Ivern does.</p>\n<p>His game plan: pre-place W brush in bot lane river or tri-brush before the wave reaches you, fire Q from inside that brush so the enemy never sees the cast, drop E on your ADC the moment they dash to the rooted target, and after level 6 rotate to mid lane with Daisy for cross-map picks. Fights are not won by Ivern's damage — they're won by Ivern's setups, with the carry doing the actual killing.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> + 2 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potions</strong>. World Atlas is the only viable support starter — auto-upgrades through quest stages into <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3866.png\" alt=\"Runic Compass\"> <strong>Runic Compass</strong> and finally <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3867.png\" alt=\"Bounty of Worlds\"> <strong>Bounty of Worlds</strong>.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> — support quest item, gold generation through assists and minion executes. Don't last-hit minions; let your ADC farm.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> — ability haste pushes Q and E onto a near-permanent cooldown.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6617.png\" alt=\"Moonstone Renewer\"> <strong>Moonstone Renewer</strong> — mythic. Your shields and heals stack a chain-effect that ramps healing every consecutive proc — ideal for an enchanter who shields, slows, and re-shields every 7-11 seconds.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3504.png\" alt=\"Ardent Censer\"> <strong>Ardent Censer</strong> — when E shields the ADC, the Censer passive grants them attack speed and on-hit magic damage. Stacks with W brush bonus when the ADC is fighting in or near brush.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6616.png\" alt=\"Staff of Flowing Water\"> <strong>Staff of Flowing Water</strong> — a second shield-trigger item. Gives the shielded ally extra ability power and ability haste for a few seconds.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3222.png\" alt=\"Mikael&#x27;s Blessing\"> <strong>Mikael's Blessing</strong> — active cleanse on the ADC. Solves heavy single-target CC chains that no shield can save through.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3107.png\" alt=\"Redemption\"> <strong>Redemption</strong> — vs late-game grouped fights where the team-wide AOE heal/damage swings the fight harder than a Mikael's cleanse.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> <strong>Locket of the Iron Solari</strong> — vs AOE engage compositions (Amumu R, Wukong R, Yasuo + Malphite wombo). One E cannot peel four people; Locket's active does.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — when they will hard-CC you specifically (Lux Q, Morgana Q, Zoe E sleep). The first projectile gets eaten and you live to cast Daisy.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — vs heal-stacking comps (Soraka mid, Yuumi support, Aatrox top). Your magic damage applies the heal-cut on every spell.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> is default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3117.png\" alt=\"Mobility Boots\"> <strong>Mobility Boots</strong> is acceptable in heavy roaming team comps where the rotation speed matters more than the in-fight cooldowns.</p>\n<p><strong>Skill order:</strong> Take <strong>Q</strong> at level 1 for cheese-invade roots in level-1 brush, then max <strong>E</strong> first (shield value scales, slow shuts down dives), <strong>Q</strong> second (lower cooldown means more roots), <strong>W</strong> last. Take <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Sorcery</strong> with <strong>Summon Aery</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Scorch</strong>. Secondary <strong>Resolve</strong> with <strong>Font of Life</strong> and <strong>Revitalize</strong>.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Leona / Alistar:</strong> Hard counter. Their flash-engage chains CC the ADC before your Q can fire. Stand at max W-brush range, never path between waves where their flash can reach you, and shield your ADC pre-emptively when their summoners are up.</li>\n<li><strong>Thresh:</strong> Skill matchup. Both supports want to setup a single hook/root for a kill, but Ivern wins the range war (Q is 1125 units, Thresh hook is 1100). Stand outside hook range, fire Q from brush; if he hooks first, drop E on the ADC and walk away.</li>\n<li><strong>Lux:</strong> Lane bully. She out-pokes you with E-Q while you have nothing to throw back — your Q is a kill setup, not a poke tool. Trade only when her Q is on cooldown; bring Banshee's Veil if she keeps landing the binding.</li>\n<li><strong>Yuumi:</strong> Free pick. She has to detach to throw skillshots, and the moment she does she's a 600-HP target with no escape. Q her on detach, ADC dashes through, free kill — repeat every 14s.</li>\n<li><strong>Pyke:</strong> Fight him in brush. Your W passive boosts both your and the ADC's autos in brush; Pyke loses every brush trade because his Q windup is visible while your Q from inside the W-placed brush is fully obscured.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2 (Q + E):</strong> First all-in window. With one point in Q for setup and E to shield the dash, you and the ADC trade a guaranteed Flash for the enemy ADC's HP bar. Push level 2 by hitting the second wave's casters together.</li>\n<li><strong>Level 6 (Daisy! online):</strong> Cross-map roam window. Daisy is tanky enough to tank a turret aggro for 4-5 seconds, and her third-auto knockup is engage when your ADC has Flash. Roam mid the moment you have Daisy and a wave shoved.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6617.png\" alt=\"Moonstone Renewer\"> Moonstone Renewer completion (~ minute 13-15):</strong> Shield/heal chains ramp. In any fight that lasts more than 4 seconds, your healing output pulls ahead of the enemy support's even if they're a Soraka or a Sona.</li>\n<li><strong>3-item powerspike (Moonstone + Boots + Ardent or Staff, ~ minute 22-24):</strong> Force objective fights. Your ADC hits harder and faster than theirs because of your shield triggers, and Daisy R cooldown drops with item completions.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Last-hitting minions.</strong> Your World Atlas execute proc gives you the gold even if the ADC takes the kill — don't steal CS. Stand a full minion-row behind the ADC unless setting up a freeze.</li>\n<li><strong>Whiffing Q at long range and then having no follow-up.</strong> Q is 14s on rank 1 — a missed cast means 14 seconds of having no kill button. If the enemy is dodging, walk forward into brush first, then fire from a closer angle they didn't expect.</li>\n<li><strong>Casting W brush in fights instead of pre-placing.</strong> Brush created in a fight is barely a vision tool — the value is in the pre-placement: drop one in tri-brush 5 seconds before a roam, or in mid-river before a Drake call. Brush during a fight is reactive when the kit wants you proactive.</li>\n<li><strong>Dropping Daisy at max range in a teamfight.</strong> Daisy needs to reach a target and land three consecutive autos for the knockup. R at 1500 units away means she walks for 4 seconds before the first auto — by then the fight is over. R behind the enemy line, not \"for damage.\"</li>\n<li><strong>Trying to peel one-vs-many with E shield only.</strong> E shields one target. Against AOE engage hitting the ADC + mid laner + you, one shield doesn't cut it. Plan Locket of the Iron Solari from the draft when you see the wombo comp.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Use <strong>W active brush</strong> to manufacture Q angles the enemy cannot dodge. Standard pattern: place W brush 600 units in front of you, walk inside the brush (you become invisible to the enemy if they don't have vision in the patch), fire Q from inside the brush — the projectile starts from a position the enemy could not predict because they don't see you cast. This is functionally a free 1125-range root with no fog requirement, and it's why Ivern excels in laning duos with Caitlyn, Senna, or Jhin: any ADC that wants to attack from far away gets a free dash forward to a guaranteed kill setup the enemy cannot prepare for.</p>",
+    "content_html_pre": "<h2>Overview</h2>\n<p>Ivern as a support is one of the most unusual picks in the bot lane: an enchanter who can spawn brush wherever he wants, root a champion across the map, and summon a tanky golem at level 6. His passive disables him from autoing jungle monsters at all, but it doesn't stop him from passing through the bot side jungle on resets to plant <strong>Brushmaker (W)</strong> seeds on Krugs or Wolves — that's free gold while your ADC pushes the wave. He is squishy, has no escape, and dies in 1v1 trades — but no other support can create a brush wall mid-fight, deny vision, and convert a single Q into a guaranteed kill the way Ivern does.</p>\n<p>His game plan: pre-place W brush in bot lane river or tri-brush before the wave reaches you, fire Q from inside that brush so the enemy never sees the cast, drop E on your ADC the moment they dash to the rooted target, and after level 6 rotate to mid lane with Daisy for cross-map picks. Fights are not won by Ivern's damage — they're won by Ivern's setups, with the carry doing the actual killing.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> + 2 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potions</strong>. World Atlas is the only viable support starter — auto-upgrades through quest stages into <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3866.png\" alt=\"Runic Compass\"> <strong>Runic Compass</strong> and finally <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3867.png\" alt=\"Bounty of Worlds\"> <strong>Bounty of Worlds</strong>.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3865.png\" alt=\"World Atlas\"> <strong>World Atlas</strong> — support quest item, gold generation through assists and minion executes. Don't last-hit minions; let your ADC farm.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> — ability haste pushes Q and E onto a near-permanent cooldown.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6617.png\" alt=\"Moonstone Renewer\"> <strong>Moonstone Renewer</strong> — mythic. Your shields and heals stack a chain-effect that ramps healing every consecutive proc — ideal for an enchanter who shields, slows, and re-shields every 7-11 seconds.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3504.png\" alt=\"Ardent Censer\"> <strong>Ardent Censer</strong> — when E shields the ADC, the Censer passive grants them attack speed and on-hit magic damage. Stacks with W brush bonus when the ADC is fighting in or near brush.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6616.png\" alt=\"Staff of Flowing Water\"> <strong>Staff of Flowing Water</strong> — a second shield-trigger item. Gives the shielded ally extra ability power and ability haste for a few seconds.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3222.png\" alt=\"Mikael&#x27;s Blessing\"> <strong>Mikael's Blessing</strong> — active cleanse on the ADC. Solves heavy single-target CC chains that no shield can save through.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3107.png\" alt=\"Redemption\"> <strong>Redemption</strong> — vs late-game grouped fights where the team-wide AOE heal/damage swings the fight harder than a Mikael's cleanse.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3190.png\" alt=\"Locket of the Iron Solari\"> <strong>Locket of the Iron Solari</strong> — vs AOE engage compositions (Amumu R, Wukong R, Yasuo + Malphite wombo). One E cannot peel four people; Locket's active does.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — when they will hard-CC you specifically (Lux Q, Morgana Q, Zoe E sleep). The first projectile gets eaten and you live to cast Daisy.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — vs heal-stacking comps (Soraka mid, Yuumi support, Aatrox top). Your magic damage applies the heal-cut on every spell.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3158.png\" alt=\"Ionian Boots of Lucidity\"> <strong>Ionian Boots of Lucidity</strong> is default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3117.png\" alt=\"Mobility Boots\"> <strong>Mobility Boots</strong> is acceptable in heavy roaming team comps where the rotation speed matters more than the in-fight cooldowns.</p>\n<p><strong>Skill order:</strong> Take <strong>Q</strong> at level 1 for cheese-invade roots in level-1 brush, then max <strong>E</strong> first (shield value scales, slow shuts down dives), <strong>Q</strong> second (lower cooldown means more roots), <strong>W</strong> last. Take <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Sorcery</strong> with <strong>Summon Aery</strong>, <strong>Manaflow Band</strong>, <strong>Transcendence</strong>, <strong>Scorch</strong>. Secondary <strong>Resolve</strong> with <strong>Font of Life</strong> and <strong>Revitalize</strong>.</p>",
+    "content_html_post": "<h2>Key matchups</h2>\n<ul>\n<li><strong>Leona / Alistar:</strong> Hard counter. Their flash-engage chains CC the ADC before your Q can fire. Stand at max W-brush range, never path between waves where their flash can reach you, and shield your ADC pre-emptively when their summoners are up.</li>\n<li><strong>Thresh:</strong> Skill matchup. Both supports want to setup a single hook/root for a kill, but Ivern wins the range war (Q is 1125 units, Thresh hook is 1100). Stand outside hook range, fire Q from brush; if he hooks first, drop E on the ADC and walk away.</li>\n<li><strong>Lux:</strong> Lane bully. She out-pokes you with E-Q while you have nothing to throw back — your Q is a kill setup, not a poke tool. Trade only when her Q is on cooldown; bring Banshee's Veil if she keeps landing the binding.</li>\n<li><strong>Yuumi:</strong> Free pick. She has to detach to throw skillshots, and the moment she does she's a 600-HP target with no escape. Q her on detach, ADC dashes through, free kill — repeat every 14s.</li>\n<li><strong>Pyke:</strong> Fight him in brush. Your W passive boosts both your and the ADC's autos in brush; Pyke loses every brush trade because his Q windup is visible while your Q from inside the W-placed brush is fully obscured.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2 (Q + E):</strong> First all-in window. With one point in Q for setup and E to shield the dash, you and the ADC trade a guaranteed Flash for the enemy ADC's HP bar. Push level 2 by hitting the second wave's casters together.</li>\n<li><strong>Level 6 (Daisy! online):</strong> Cross-map roam window. Daisy is tanky enough to tank a turret aggro for 4-5 seconds, and her third-auto knockup is engage when your ADC has Flash. Roam mid the moment you have Daisy and a wave shoved.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6617.png\" alt=\"Moonstone Renewer\"> Moonstone Renewer completion (~ minute 13-15):</strong> Shield/heal chains ramp. In any fight that lasts more than 4 seconds, your healing output pulls ahead of the enemy support's even if they're a Soraka or a Sona.</li>\n<li><strong>3-item powerspike (Moonstone + Boots + Ardent or Staff, ~ minute 22-24):</strong> Force objective fights. Your ADC hits harder and faster than theirs because of your shield triggers, and Daisy R cooldown drops with item completions.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Last-hitting minions.</strong> Your World Atlas execute proc gives you the gold even if the ADC takes the kill — don't steal CS. Stand a full minion-row behind the ADC unless setting up a freeze.</li>\n<li><strong>Whiffing Q at long range and then having no follow-up.</strong> Q is 14s on rank 1 — a missed cast means 14 seconds of having no kill button. If the enemy is dodging, walk forward into brush first, then fire from a closer angle they didn't expect.</li>\n<li><strong>Casting W brush in fights instead of pre-placing.</strong> Brush created in a fight is barely a vision tool — the value is in the pre-placement: drop one in tri-brush 5 seconds before a roam, or in mid-river before a Drake call. Brush during a fight is reactive when the kit wants you proactive.</li>\n<li><strong>Dropping Daisy at max range in a teamfight.</strong> Daisy needs to reach a target and land three consecutive autos for the knockup. R at 1500 units away means she walks for 4 seconds before the first auto — by then the fight is over. R behind the enemy line, not \"for damage.\"</li>\n<li><strong>Trying to peel one-vs-many with E shield only.</strong> E shields one target. Against AOE engage hitting the ADC + mid laner + you, one shield doesn't cut it. Plan Locket of the Iron Solari from the draft when you see the wombo comp.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Use <strong>W active brush</strong> to manufacture Q angles the enemy cannot dodge. Standard pattern: place W brush 600 units in front of you, walk inside the brush (you become invisible to the enemy if they don't have vision in the patch), fire Q from inside the brush — the projectile starts from a position the enemy could not predict because they don't see you cast. This is functionally a free 1125-range root with no fog requirement, and it's why Ivern excels in laning duos with Caitlyn, Senna, or Jhin: any ADC that wants to attack from far away gets a free dash forward to a guaranteed kill setup the enemy cannot prepare for.</p>",
+    "word_count": 1272,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "blitzcrank-support",
+        "champion": "blitzcrank",
+        "role": "support"
+      },
+      {
+        "slug": "braum-support",
+        "champion": "braum",
+        "role": "support"
+      },
+      {
+        "slug": "janna-support",
+        "champion": "janna",
+        "role": "support"
+      },
+      {
+        "slug": "karma-support",
+        "champion": "karma",
+        "role": "support"
+      },
+      {
+        "slug": "leona-support",
+        "champion": "leona",
+        "role": "support"
+      }
+    ],
+    "champion_key": "427"
+  },
+  {
     "slug": "janna-support",
     "title": "Janna Support Build & Guide — Patch 16.9",
     "language": "en",
@@ -18050,6 +19326,331 @@ export const enChampions: ChampionGuide[] = [
       }
     ],
     "champion_key": "40"
+  },
+  {
+    "slug": "jarvan-iv-jungle",
+    "title": "Jarvan IV Jungle Build & Guide — Patch 16.9",
+    "language": "en",
+    "patch": "16.9",
+    "champion": "jarvan-iv",
+    "role": "jungle",
+    "last_updated": "2026-05-05",
+    "description": "Jarvan IV jungle guide for League of Legends Patch 16.9: starter kit, core bruiser build, key matchups, power spikes, common mistakes, and a closing tip.",
+    "quick_learn": {
+      "champion_dd_id": "JarvanIV",
+      "difficulty": 2,
+      "damage_type": "physical",
+      "champion_class": "Fighter / Diver",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Martial Cadence",
+          "description": "First basic attack on a target deals bonus physical damage based on their current HP. Refreshes every few seconds per target — weave it into combos.",
+          "dd_spell_id": "JarvanIV_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Dragon Strike",
+          "description": "Lance line that damages and shreds armor. If it crosses an active E flag, Jarvan pulls to the flag and knocks up enemies in his path.",
+          "dd_spell_id": "JarvanIVDragonStrike"
+        },
+        {
+          "key": "W",
+          "name": "Golden Aegis",
+          "description": "Self shield (scales with enemy champions hit) and slow on nearby enemies. Press it BEFORE you E-Q in, not after.",
+          "dd_spell_id": "JarvanIVGoldenAegis"
+        },
+        {
+          "key": "E",
+          "name": "Demacian Standard",
+          "description": "Throw a flag that deals magic damage on impact and gives nearby allies attack speed. Setup tool for the E-Q knockup combo.",
+          "dd_spell_id": "JarvanIVDemacianStandard"
+        },
+        {
+          "key": "R",
+          "name": "Cataclysm",
+          "description": "Leap to a target enemy champion, damaging nearby enemies and creating an arena of impassable walls. Recast to drop the walls early.",
+          "dd_spell_id": "JarvanIVCataclysm"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "1102",
+          "name": "Gustwalker Hatchling"
+        },
+        {
+          "dd_id": "6610",
+          "name": "Sundered Sky"
+        },
+        {
+          "dd_id": "3047",
+          "name": "Plated Steelcaps"
+        },
+        {
+          "dd_id": "3071",
+          "name": "Black Cleaver"
+        },
+        {
+          "dd_id": "6665",
+          "name": "Jak'Sho, The Protean"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3111",
+          "name": "Mercury's Treads",
+          "against": "vs heavy CC or AP-heavy teams (3+ stuns/roots, or two AP threats): swap Steelcaps when CC is a bigger problem than physical damage"
+        },
+        {
+          "dd_id": "3742",
+          "name": "Dead Man's Plate",
+          "against": "vs kite-heavy compositions you struggle to reach (Caitlyn, Senna, Kog'Maw, Jinx) — the movement speed and slow on hit help you stick after R"
+        },
+        {
+          "dd_id": "6664",
+          "name": "Hollow Radiance",
+          "against": "vs healing-stacking comps (Aatrox top, Yone bot, Soraka support): the burn cuts heals and helps clear waves between objectives"
+        },
+        {
+          "dd_id": "3053",
+          "name": "Sterak's Gage",
+          "against": "vs teams that focus you (2+ enemies turn on you when you R in): HP shield procs under burst, tenacity passive shortens CC"
+        },
+        {
+          "dd_id": "6333",
+          "name": "Death's Dance",
+          "against": "vs comps with two strong physical damage dealers (e.g. Yasuo + Caitlyn): turns physical damage into a slow bleed, not a one-shot burst"
+        }
+      ],
+      "base_combo": [
+        "E",
+        "Q",
+        "AA",
+        "R"
+      ],
+      "win_condition": "Land the E-Q knockup on a priority target (enemy carry or jungler), then R to lock them in your arena while your team follows up. Repeat on every cooldown around objectives.",
+      "weakness": "If E or Q misses, you have spent your only hard CC and gap-close. You become a melee bruiser without burst, easy to kite by ranged carries with self-peel.",
+      "runes": {
+        "primary_tree": "Precision",
+        "primary_tree_dd_id": 8000,
+        "keystone": {
+          "dd_id": 8010,
+          "name": "Conqueror",
+          "icon_path": "perk-images/Styles/Precision/Conqueror/Conqueror.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 9111,
+            "name": "Triumph",
+            "icon_path": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "dd_id": 9104,
+            "name": "Legend: Alacrity",
+            "icon_path": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
+          },
+          {
+            "dd_id": 8014,
+            "name": "Coup de Grace",
+            "icon_path": "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png"
+          }
+        ],
+        "secondary_tree": "Resolve",
+        "secondary_tree_dd_id": 8400,
+        "secondary_slots": [
+          {
+            "dd_id": 8473,
+            "name": "Bone Plating",
+            "icon_path": "perk-images/Styles/Resolve/BonePlating/BonePlating.png"
+          },
+          {
+            "dd_id": 8453,
+            "name": "Revitalize",
+            "icon_path": "perk-images/Styles/Resolve/Revitalize/Revitalize.png"
+          }
+        ],
+        "stat_shards": [
+          "Attack Speed",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Conqueror stacks on every hit of your E-Q-AA-R combo: by the time you knock up, stacks are full for damage plus healing. Triumph rewards takedowns at objectives; Alacrity speeds autos for Martial Cadence procs; Coup de Grace finishes low-HP targets locked in Cataclysm.",
+        "secondary_rationale": "Resolve secondary: Bone Plating absorbs the first burst trade after you R in (when the enemy team turns on you), Revitalize boosts your Golden Aegis shield value — the shield is your only defensive tool mid-fight.",
+        "secondary_alternative": "Into a poke-heavy enemy team (Varus, Xerath, Karma poke comps) swap Resolve to Inspiration with Magical Footwear (free boots to save gold for your first big item) and Cosmic Insight (more frequent Flash for the E-Q-Flash trick)."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "lee-sin",
+            "graves",
+            "kha-zix",
+            "viego",
+            "rengar"
+          ],
+          "archetype": "Early-game jungle skirmishers",
+          "reason": "Jarvan trades evenly at level 3 with Q armor shred plus E attack speed and out-scales most early-game junglers once Sundered Sky comes online around minute 12-14."
+        },
+        {
+          "examples": [
+            "caitlyn",
+            "ezreal",
+            "lulu",
+            "soraka"
+          ],
+          "archetype": "Immobile bot lanes that need peel",
+          "reason": "Cataclysm walls trap a positioning-dependent carry inside an arena their support cannot reach into; the enemy team usually cannot answer the lockdown in time."
+        },
+        {
+          "examples": [
+            "azir",
+            "aurelion-sol",
+            "anivia"
+          ],
+          "archetype": "Stationary mid-lane scalers",
+          "reason": "E-Q gap-close from out of vision plus the R wall denies them the spacing their kit needs; they have no dash to leave the arena before your team converts."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "fiddlesticks",
+            "amumu",
+            "zac"
+          ],
+          "archetype": "AOE engage junglers with longer-range CC",
+          "reason": "They engage from outside Jarvan's E-Q range and chain-CC him before he can reach the back line; the wall does not save him from being stunned mid-leap."
+        },
+        {
+          "examples": [
+            "nasus",
+            "vladimir",
+            "mordekaiser"
+          ],
+          "archetype": "Late-game scalers with built-in sustain",
+          "reason": "Jarvan's power spike is items 1-3 (around minute 20-25). After that he falls off, while these targets only get stronger and survive his single rotation."
+        },
+        {
+          "examples": [
+            "olaf",
+            "tryndamere"
+          ],
+          "archetype": "CC-immune duelists",
+          "reason": "Olaf R and Tryndamere R ignore the lockdown of Cataclysm: they walk out of the arena hitting you for full damage while your only initiation is on cooldown."
+        }
+      ]
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Jarvan IV is a melee fighter / diver — meaning he closes the gap with a dash and commits to a teamfight to lock down a key target — built around one signature combo: throw an <strong>E</strong> flag, fire <strong>Q</strong> through it, get pulled to the flag and knock up everyone in the path. After level 6 he adds <strong>R</strong> Cataclysm, an arena of walls that traps a single enemy with him while his team converts the kill. He is one of the easiest junglers to learn (difficulty 2/5 in our scale) because the kit always wants the same thing: land E-Q on a priority target, R, win the fight.</p>\n<p>His game plan: clear jungle camps fast with <strong>E</strong> active and Q armor shred, then gank (pop into a lane to help kill the enemy) using lanes that have a usable engage angle — mid lane through tri-bush (the three-cornered brush between mid and side lane) or top lane through river bush. Around every objective spawn, look to dive a carry (jump on the high-damage / low-defense enemy in the back). Skill expression is in the <strong>E-Q-Flash</strong> trick — flag down, Flash forward, Q through for an unreactable knockup — and in deciding <strong>when</strong> to pop <strong>R</strong> (you only get one per fight, so do not waste it on the front line tank).</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> Hailblade + Refillable Potion. Standard junglecam pet quest path. Both Hailblade and Emberknife evolve into one of three companions; we want the AD skirmisher pet, see below.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1102.png\" alt=\"Gustwalker Hatchling\"> <strong>Gustwalker Hatchling</strong> — quest upgrade from Hailblade (auto-evolves around minute 3-4 once you have enough XP). The AD skirmisher companion: gives you a movement-speed sprint after every camp, which translates to faster ganks across the map.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6610.png\" alt=\"Sundered Sky\"> <strong>Sundered Sky</strong> — your first big item. The crit-on-first-hit and on-hit heal land perfectly on Martial Cadence, so the moment you knock up a target you crit them and heal back the damage you took to reach them.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> — default boots into most enemy teams (the bot lane is usually two physical damage dealers). Swap to Mercury's Treads if the enemy comp is mostly AP and CC.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3071.png\" alt=\"Black Cleaver\"> <strong>Black Cleaver</strong> — armor shred stacks with your Q passive, plus HP and ability haste so your E-Q comes back faster.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6665.png\" alt=\"Jak&#x27;Sho, The Protean\"> <strong>Jak'Sho, The Protean</strong> — late-game tank spike. The stacking armor and magic resist passive turns you from a diver into a frontline you can sit in for the full duration of a teamfight.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — into heavy CC or AP-heavy teams. Swap Steelcaps when crowd control is the bigger problem than physical damage.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3742.png\" alt=\"Dead Man&#x27;s Plate\"> <strong>Dead Man's Plate</strong> — into kite-heavy comps (Caitlyn, Senna, Kog'Maw — enemies that walk back while attacking you to stay out of melee range). The movement speed and slow on hit help you stick to the back line (the high-damage carries who stand behind their tanks) after <strong>R</strong>.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6664.png\" alt=\"Hollow Radiance\"> <strong>Hollow Radiance</strong> — into healing-stacking comps (Aatrox top, Yone bot, Soraka support). The burn passive cuts enemy heals.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3053.png\" alt=\"Sterak&#x27;s Gage\"> <strong>Sterak's Gage</strong> — when 2+ enemies focus you (turn their damage onto you) the moment you R in. The HP shield procs (auto-triggers) under burst (high damage in 1-2 seconds) and the tenacity passive shortens crowd control (stuns, roots, slows).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6333.png\" alt=\"Death&#x27;s Dance\"> <strong>Death's Dance</strong> — vs comps with two strong physical damage dealers (e.g. Yasuo + Caitlyn). Turns physical damage taken into a slow bleed (damage spread over the next few seconds, not instant) so you have time to react instead of getting deleted.</li>\n</ul>\n<p><strong>Boots:</strong> Plated Steelcaps default. Mercury's Treads if the enemy team has 3+ stuns/roots or two AP threats.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (main damage and armor shred), <strong>E</strong> second (lower cooldown means more gank attempts and more flag options), <strong>W</strong> last. Take <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Precision</strong> with <strong>Conqueror</strong>, <strong>Triumph</strong>, <strong>Legend: Alacrity</strong>, <strong>Coup de Grace</strong>. Secondary <strong>Resolve</strong> with <strong>Bone Plating</strong> and <strong>Revitalize</strong>. Stat shards: Attack Speed, Adaptive Force, Health Scaling.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Lee Sin / Graves:</strong> Even matchup in the early jungle. Track their first clear; if they start red-side, contest their second buff with E-Q. Both can fight you back at level 3, so do not invade unless you have a lane prio (a lane mate who has pushed enemies under tower and can rotate to help) backing you up.</li>\n<li><strong>Fiddlesticks / Amumu:</strong> Avoid grouping with allies in mid-game. Their AOE engage range exceeds your <strong>E-Q</strong> initiate distance — they ult you while you are still walking up to flag. Ward your jungle entrances and do not face-check brushes (walk into a brush blind without vision, where an enemy could be hiding).</li>\n<li><strong>Kha'Zix / Rengar:</strong> Assassin junglers who want to one-shot a carry. Counter-gank (show up at the same lane to flip the fight) instead of full-clearing: you trade evenly with them at level 3, and your <strong>R</strong> is a peel tool (an ability you use to save your carry from someone diving them) when they leap on your carry — wall them away from the kill.</li>\n<li><strong>Olaf:</strong> His R makes him CC-immune, which means <strong>Cataclysm walls do not stop him</strong>. If you R him, he walks out swinging. Save <strong>R</strong> for his teammates after he has burned ult, or pick him as your target only if your team can kite (back up while attacking, keeping distance) while he is locked in.</li>\n<li><strong>Sejuani / Maokai:</strong> Tankier engage junglers. You out-damage them in a 1v1 early but you both want the same role in a teamfight (lock a carry). The lane that snowballs first wins (gets an early kill that turns into a gold lead that turns into more kills); commit to ganks before they finish their first item.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 3:</strong> With one point in <strong>Q</strong>, <strong>E</strong>, and <strong>W</strong> you have the full E-Q-W combo for ganks. This is your first real gank window, especially mid lane through tri-bush.</li>\n<li><strong>Level 6:</strong> <strong>Cataclysm</strong> unlocks. Any unwarded carry near your river is a dive opportunity. The trick: flag (E) just past them, R them inwards, Q to knock them up — they cannot answer the lockdown without <strong>Flash</strong> and a cleanse.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6610.png\" alt=\"Sundered Sky\"> Sundered Sky completion (~ minute 12-14):</strong> Your first crit on Martial Cadence one-shots squishies (champions with high damage and low defenses, like the ADC) after E-Q. This is the window where you should be ganking on cooldown and forcing dragon trades.</li>\n<li><strong>3-item spike (Sundered Sky + Boots + Black Cleaver, ~ minute 22-25):</strong> Peak teamfight power. Your R + Q does enough damage to delete a back-line carry on its own, and you have enough HP to survive the focus afterward.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Throwing E on top of yourself for the standard \"knock up where I am\" combo.</strong> It works for ganks, but in a fight where the enemy is moving away, your Q pulls you backwards. Throw the flag <em>past</em> the enemy so the Q-pull moves you forward into them, not away.</li>\n<li><strong>Pressing W after engaging.</strong> Golden Aegis is a shield that scales with enemy champions hit at cast time — pop it <em>before</em> you E-Q so the shield value is maximum and the slow hits the people you are about to land on, not nobody.</li>\n<li><strong>Ulting the front line tank.</strong> Cataclysm locks in <em>one</em> enemy with you. Use it on the carry (Caitlyn, Aphelios, Azir), not on the Sion who is happy to fight you in a closed arena.</li>\n<li><strong>Cleaning the entire jungle before ganking.</strong> You out-tempo most junglers with E-Q ganks at level 3-4. If you full-clear before your first gank, you give up your biggest advantage. Tax 2-3 camps then look for an angle.</li>\n<li><strong>Recasting R to break the wall too early.</strong> The walls are also a peel tool: if your team is winning the fight outside the arena, leave the walls up to keep the trapped carry from joining. Only recast to chase a flee.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Practice the <strong>E-Q-Flash</strong> combo: throw the flag, fire Q through it, and Flash <em>during</em> the Q animation. The knockup applies at your destination, so you knock up enemies in a 600-unit area beyond what they expected — used to engage from outside their vision range, it is one of the most reliable initiations in the game. The trade-off is you spend Flash, so save the trick for ganks that secure a kill or a lost ward. Practice it in Practice Tool a dozen times before trying it in a ranked game; the timing window is short.</p>",
+    "content_html_pre": "<h2>Overview</h2>\n<p>Jarvan IV is a melee fighter / diver — meaning he closes the gap with a dash and commits to a teamfight to lock down a key target — built around one signature combo: throw an <strong>E</strong> flag, fire <strong>Q</strong> through it, get pulled to the flag and knock up everyone in the path. After level 6 he adds <strong>R</strong> Cataclysm, an arena of walls that traps a single enemy with him while his team converts the kill. He is one of the easiest junglers to learn (difficulty 2/5 in our scale) because the kit always wants the same thing: land E-Q on a priority target, R, win the fight.</p>\n<p>His game plan: clear jungle camps fast with <strong>E</strong> active and Q armor shred, then gank (pop into a lane to help kill the enemy) using lanes that have a usable engage angle — mid lane through tri-bush (the three-cornered brush between mid and side lane) or top lane through river bush. Around every objective spawn, look to dive a carry (jump on the high-damage / low-defense enemy in the back). Skill expression is in the <strong>E-Q-Flash</strong> trick — flag down, Flash forward, Q through for an unreactable knockup — and in deciding <strong>when</strong> to pop <strong>R</strong> (you only get one per fight, so do not waste it on the front line tank).</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> Hailblade + Refillable Potion. Standard junglecam pet quest path. Both Hailblade and Emberknife evolve into one of three companions; we want the AD skirmisher pet, see below.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1102.png\" alt=\"Gustwalker Hatchling\"> <strong>Gustwalker Hatchling</strong> — quest upgrade from Hailblade (auto-evolves around minute 3-4 once you have enough XP). The AD skirmisher companion: gives you a movement-speed sprint after every camp, which translates to faster ganks across the map.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6610.png\" alt=\"Sundered Sky\"> <strong>Sundered Sky</strong> — your first big item. The crit-on-first-hit and on-hit heal land perfectly on Martial Cadence, so the moment you knock up a target you crit them and heal back the damage you took to reach them.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> — default boots into most enemy teams (the bot lane is usually two physical damage dealers). Swap to Mercury's Treads if the enemy comp is mostly AP and CC.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3071.png\" alt=\"Black Cleaver\"> <strong>Black Cleaver</strong> — armor shred stacks with your Q passive, plus HP and ability haste so your E-Q comes back faster.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6665.png\" alt=\"Jak&#x27;Sho, The Protean\"> <strong>Jak'Sho, The Protean</strong> — late-game tank spike. The stacking armor and magic resist passive turns you from a diver into a frontline you can sit in for the full duration of a teamfight.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — into heavy CC or AP-heavy teams. Swap Steelcaps when crowd control is the bigger problem than physical damage.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3742.png\" alt=\"Dead Man&#x27;s Plate\"> <strong>Dead Man's Plate</strong> — into kite-heavy comps (Caitlyn, Senna, Kog'Maw — enemies that walk back while attacking you to stay out of melee range). The movement speed and slow on hit help you stick to the back line (the high-damage carries who stand behind their tanks) after <strong>R</strong>.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6664.png\" alt=\"Hollow Radiance\"> <strong>Hollow Radiance</strong> — into healing-stacking comps (Aatrox top, Yone bot, Soraka support). The burn passive cuts enemy heals.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3053.png\" alt=\"Sterak&#x27;s Gage\"> <strong>Sterak's Gage</strong> — when 2+ enemies focus you (turn their damage onto you) the moment you R in. The HP shield procs (auto-triggers) under burst (high damage in 1-2 seconds) and the tenacity passive shortens crowd control (stuns, roots, slows).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6333.png\" alt=\"Death&#x27;s Dance\"> <strong>Death's Dance</strong> — vs comps with two strong physical damage dealers (e.g. Yasuo + Caitlyn). Turns physical damage taken into a slow bleed (damage spread over the next few seconds, not instant) so you have time to react instead of getting deleted.</li>\n</ul>\n<p><strong>Boots:</strong> Plated Steelcaps default. Mercury's Treads if the enemy team has 3+ stuns/roots or two AP threats.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (main damage and armor shred), <strong>E</strong> second (lower cooldown means more gank attempts and more flag options), <strong>W</strong> last. Take <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Precision</strong> with <strong>Conqueror</strong>, <strong>Triumph</strong>, <strong>Legend: Alacrity</strong>, <strong>Coup de Grace</strong>. Secondary <strong>Resolve</strong> with <strong>Bone Plating</strong> and <strong>Revitalize</strong>. Stat shards: Attack Speed, Adaptive Force, Health Scaling.</p>",
+    "content_html_post": "<h2>Key matchups</h2>\n<ul>\n<li><strong>Lee Sin / Graves:</strong> Even matchup in the early jungle. Track their first clear; if they start red-side, contest their second buff with E-Q. Both can fight you back at level 3, so do not invade unless you have a lane prio (a lane mate who has pushed enemies under tower and can rotate to help) backing you up.</li>\n<li><strong>Fiddlesticks / Amumu:</strong> Avoid grouping with allies in mid-game. Their AOE engage range exceeds your <strong>E-Q</strong> initiate distance — they ult you while you are still walking up to flag. Ward your jungle entrances and do not face-check brushes (walk into a brush blind without vision, where an enemy could be hiding).</li>\n<li><strong>Kha'Zix / Rengar:</strong> Assassin junglers who want to one-shot a carry. Counter-gank (show up at the same lane to flip the fight) instead of full-clearing: you trade evenly with them at level 3, and your <strong>R</strong> is a peel tool (an ability you use to save your carry from someone diving them) when they leap on your carry — wall them away from the kill.</li>\n<li><strong>Olaf:</strong> His R makes him CC-immune, which means <strong>Cataclysm walls do not stop him</strong>. If you R him, he walks out swinging. Save <strong>R</strong> for his teammates after he has burned ult, or pick him as your target only if your team can kite (back up while attacking, keeping distance) while he is locked in.</li>\n<li><strong>Sejuani / Maokai:</strong> Tankier engage junglers. You out-damage them in a 1v1 early but you both want the same role in a teamfight (lock a carry). The lane that snowballs first wins (gets an early kill that turns into a gold lead that turns into more kills); commit to ganks before they finish their first item.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 3:</strong> With one point in <strong>Q</strong>, <strong>E</strong>, and <strong>W</strong> you have the full E-Q-W combo for ganks. This is your first real gank window, especially mid lane through tri-bush.</li>\n<li><strong>Level 6:</strong> <strong>Cataclysm</strong> unlocks. Any unwarded carry near your river is a dive opportunity. The trick: flag (E) just past them, R them inwards, Q to knock them up — they cannot answer the lockdown without <strong>Flash</strong> and a cleanse.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6610.png\" alt=\"Sundered Sky\"> Sundered Sky completion (~ minute 12-14):</strong> Your first crit on Martial Cadence one-shots squishies (champions with high damage and low defenses, like the ADC) after E-Q. This is the window where you should be ganking on cooldown and forcing dragon trades.</li>\n<li><strong>3-item spike (Sundered Sky + Boots + Black Cleaver, ~ minute 22-25):</strong> Peak teamfight power. Your R + Q does enough damage to delete a back-line carry on its own, and you have enough HP to survive the focus afterward.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Throwing E on top of yourself for the standard \"knock up where I am\" combo.</strong> It works for ganks, but in a fight where the enemy is moving away, your Q pulls you backwards. Throw the flag <em>past</em> the enemy so the Q-pull moves you forward into them, not away.</li>\n<li><strong>Pressing W after engaging.</strong> Golden Aegis is a shield that scales with enemy champions hit at cast time — pop it <em>before</em> you E-Q so the shield value is maximum and the slow hits the people you are about to land on, not nobody.</li>\n<li><strong>Ulting the front line tank.</strong> Cataclysm locks in <em>one</em> enemy with you. Use it on the carry (Caitlyn, Aphelios, Azir), not on the Sion who is happy to fight you in a closed arena.</li>\n<li><strong>Cleaning the entire jungle before ganking.</strong> You out-tempo most junglers with E-Q ganks at level 3-4. If you full-clear before your first gank, you give up your biggest advantage. Tax 2-3 camps then look for an angle.</li>\n<li><strong>Recasting R to break the wall too early.</strong> The walls are also a peel tool: if your team is winning the fight outside the arena, leave the walls up to keep the trapped carry from joining. Only recast to chase a flee.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Practice the <strong>E-Q-Flash</strong> combo: throw the flag, fire Q through it, and Flash <em>during</em> the Q animation. The knockup applies at your destination, so you knock up enemies in a 600-unit area beyond what they expected — used to engage from outside their vision range, it is one of the most reliable initiations in the game. The trade-off is you spend Flash, so save the trick for ganks that secure a kill or a lost ward. Practice it in Practice Tool a dozen times before trying it in a ranked game; the timing window is short.</p>",
+    "word_count": 1424,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "amumu-jungle",
+        "champion": "amumu",
+        "role": "jungle"
+      },
+      {
+        "slug": "diana-jungle",
+        "champion": "diana",
+        "role": "jungle"
+      },
+      {
+        "slug": "ekko-jungle",
+        "champion": "ekko",
+        "role": "jungle"
+      },
+      {
+        "slug": "graves-jungle",
+        "champion": "graves",
+        "role": "jungle"
+      },
+      {
+        "slug": "hecarim-jungle",
+        "champion": "hecarim",
+        "role": "jungle"
+      }
+    ],
+    "champion_key": "59"
   },
   {
     "slug": "jax-top",
@@ -19897,6 +21498,327 @@ export const enChampions: ChampionGuide[] = [
       }
     ],
     "champion_key": "897"
+  },
+  {
+    "slug": "kaisa-bot",
+    "title": "Kai'Sa ADC Build & Guide — Patch 16.9",
+    "language": "en",
+    "patch": "16.9",
+    "champion": "kaisa",
+    "role": "bot",
+    "last_updated": "2026-05-05",
+    "description": "Kai'Sa ADC bot lane guide for Patch 16.9: Plasma stacking flow, hybrid Kraken evolve build, key matchups, power spikes, common mistakes, and a closing tip.",
+    "quick_learn": {
+      "champion_dd_id": "Kaisa",
+      "difficulty": 3,
+      "damage_type": "mixed",
+      "champion_class": "Marksman / Hybrid",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Second Skin",
+          "description": "Basic attacks stack Plasma on the target; allies' immobilizing CC adds extra stacks. Item purchases also evolve Q/W/E once Kai'Sa hits hidden AD/AP/Attack Speed thresholds.",
+          "dd_spell_id": "Kaisa_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Icathian Rain",
+          "description": "Fires 6 missiles that split among nearby enemies (max 600 range). Repeat hits on the same target deal reduced damage. Evolves at ~100 bonus AD: 12 missiles instead of 6.",
+          "dd_spell_id": "KaisaQ"
+        },
+        {
+          "key": "W",
+          "name": "Void Seeker",
+          "description": "Long-range linear missile (3000 units). Marks first enemy hit with 2 Plasma stacks and reveals them for 4s. Evolves at ~100 AP: 4 stacks + 50% cooldown refund on champion hit.",
+          "dd_spell_id": "KaisaW"
+        },
+        {
+          "key": "E",
+          "name": "Supercharge",
+          "description": "Channels for ~1.5s gaining Move Speed and Ghosted (passes through units), then bursts Attack Speed for 4s. Auto-attacks reduce its cooldown. Evolves at 60% bonus Attack Speed: brief invisibility.",
+          "dd_spell_id": "KaisaE"
+        },
+        {
+          "key": "R",
+          "name": "Killer Instinct",
+          "description": "Dash next to any enemy champion that has 5+ Plasma stacks (or that is fully ruptured by Plasma). Grants a shield on arrival. Used to finish chip-killed targets, not to engage.",
+          "dd_spell_id": "KaisaR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6672",
+          "name": "Kraken Slayer"
+        },
+        {
+          "dd_id": "3006",
+          "name": "Berserker's Greaves"
+        },
+        {
+          "dd_id": "3085",
+          "name": "Runaan's Hurricane"
+        },
+        {
+          "dd_id": "3124",
+          "name": "Guinsoo's Rageblade"
+        },
+        {
+          "dd_id": "3031",
+          "name": "Infinity Edge"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3036",
+          "name": "Lord Dominik's Regards",
+          "against": "vs HP/armor stackers (Cho'Gath, Sion, Malphite, Ornn): percent armor pen ignores a fixed share of enemy armor"
+        },
+        {
+          "dd_id": "3033",
+          "name": "Mortal Reminder",
+          "against": "vs healing-stacking comps (Soraka, Vladimir, Aatrox): applies Grievous Wounds (cuts enemy healing in half)"
+        },
+        {
+          "dd_id": "3156",
+          "name": "Maw of Malmortius",
+          "against": "vs heavy AP burst (Syndra, Veigar, Brand support): magic resist + a damage shield when you dip below 30% HP"
+        },
+        {
+          "dd_id": "3072",
+          "name": "Bloodthirster",
+          "against": "vs heavy long-range chip damage (Ezreal, Caitlyn, Xerath): lifesteal heals mid-fight, overheal stores HP as shield"
+        },
+        {
+          "dd_id": "3046",
+          "name": "Phantom Dancer",
+          "against": "vs assassins or divers (Zed, Kha'Zix, Talon): Ghost passive lets you walk through units while kiting"
+        }
+      ],
+      "base_combo": [
+        "W",
+        "AA",
+        "Q",
+        "E",
+        "AA"
+      ],
+      "win_condition": "Stack Plasma on the back-line target with W and auto-attacks, R-dash on top once they hit 5 stacks, finish with Q + empowered AAs while E gives the attack speed window.",
+      "weakness": "R requires Plasma stacks on a target — without W landing or ally CC you have no engage. Squishy with no dash before R; if you mis-time E you eat full burst before invisibility.",
+      "runes": {
+        "primary_tree": "Domination",
+        "primary_tree_dd_id": 8100,
+        "keystone": {
+          "dd_id": 9923,
+          "name": "Hail of Blades",
+          "icon_path": "perk-images/Styles/Domination/HailOfBlades/HailOfBlades.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 8139,
+            "name": "Taste of Blood",
+            "icon_path": "perk-images/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.png"
+          },
+          {
+            "dd_id": 8137,
+            "name": "Sixth Sense",
+            "icon_path": "perk-images/Styles/Domination/SixthSense/SixthSense.png"
+          },
+          {
+            "dd_id": 8106,
+            "name": "Ultimate Hunter",
+            "icon_path": "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png"
+          }
+        ],
+        "secondary_tree": "Precision",
+        "secondary_tree_dd_id": 8000,
+        "secondary_slots": [
+          {
+            "dd_id": 9111,
+            "name": "Triumph",
+            "icon_path": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "dd_id": 8014,
+            "name": "Coup de Grace",
+            "icon_path": "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png"
+          }
+        ],
+        "stat_shards": [
+          "Adaptive Force",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Domination + Hail of Blades: 3 super-fast auto-attacks right after the R dash front-load Plasma stacks and Kraken Slayer's true damage proc. Taste of Blood adds lane sustain, Sixth Sense flags wards, Ultimate Hunter cuts R cooldown.",
+        "secondary_rationale": "Precision secondary: Triumph heals 12% missing HP on takedown (kill or assist), turning your R-into-fight executes into safe escapes. Coup de Grace adds 8% damage on enemies under 40% HP.",
+        "secondary_alternative": "Into a heavy poke lane (Caitlyn + Lux, Ezreal + Karma) swap Precision to Resolve with Second Wind (regen on damage from champions) and Overgrowth (bonus HP per minion absorbed) for sustain."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "caitlyn",
+            "ashe",
+            "sivir"
+          ],
+          "archetype": "Immobile marksmen with no dash",
+          "reason": "Once Kai'Sa hits R range with 5 Plasma stacks, immobile ADCs cannot escape the dash + Q burst. They have to survive the first all-in (full commitment trade aiming at a kill) without any reposition tool."
+        },
+        {
+          "examples": [
+            "senna",
+            "kog-maw"
+          ],
+          "archetype": "Late-game scaling carries with no escape",
+          "reason": "W has 3000 units of range and reveals them for 4s — Kai'Sa pokes them off the wave from outside their threat range, then R's the moment Plasma fully ruptures."
+        },
+        {
+          "examples": [
+            "sona",
+            "soraka",
+            "yuumi"
+          ],
+          "archetype": "Squishy enchanter supports without hard CC",
+          "reason": "These supports have no stun or knock-up to peel a back-line dive. Kai'Sa lands R on the ADC and the support has nothing to interrupt the all-in once invisibility from evolved E kicks in."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "draven",
+            "lucian"
+          ],
+          "archetype": "Lane bullies with stronger early auto-attack damage",
+          "reason": "Both out-trade Kai'Sa at levels 1-3 before her Q evolve threshold. Draven's empowered axes and Lucian's passive double-shot win every short trade window before Kai'Sa scales."
+        },
+        {
+          "examples": [
+            "leona",
+            "nautilus",
+            "pyke"
+          ],
+          "archetype": "Hard engage supports with point-and-click CC",
+          "reason": "Kai'Sa has no dash before R, and R requires a target with Plasma. A Leona E or Nautilus Q mid-lane lock-her-down before she can stack any Plasma at all — the chain CC kills her before evolved E invisibility comes online."
+        },
+        {
+          "examples": [
+            "vayne",
+            "twitch"
+          ],
+          "archetype": "Late-game hyper-scalers that out-DPS Kai'Sa post-3-items",
+          "reason": "Vayne's true damage on her W and Twitch's Expunge ramp harder than Kai'Sa's hybrid scaling once both teams are at 3 items. Kai'Sa needs to close the game before minute 30 or her relative damage drops."
+        }
+      ]
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Kai'Sa is a hybrid marksman — a champion who scales with both AD (auto-attack damage) and AP (ability damage) at once, instead of stacking only one. She is the only ADC (attack damage carry: a ranged auto-attacker that becomes the team's main damage source late) whose abilities literally upgrade themselves when you cross hidden item thresholds: 100 bonus AD evolves Q, 100 AP evolves W, 60% bonus Attack Speed evolves E. Her build path matters more than for any other marksman — wrong order means an evolve never triggers, and a Kai'Sa without evolved E (no invisibility on the dash) is half a champion.</p>\n<p>Her game plan is a stacking puzzle: every basic attack puts Plasma stacks on the target, and the moment a target hits 5 stacks (or fully ruptures from Plasma) her <strong>R</strong> unlocks as a long-range dash on top of them. Support CC (Crowd Control: stuns, slows, roots that lock the enemy in place) accelerates the count for free. In lane she pokes (deals long-range chip damage to drain HP without committing to a fight) with <strong>W</strong> at 3000 units; in teamfights (5v5 fights that decide objectives like Drake or Baron — neutral monsters that grant team buffs when killed) she sits at maximum AA range until a back-line target is chip-killed, then dashes in with <strong>R</strong> + evolved <strong>E</strong> invisibility to clean up. The skill ceiling sits in <strong>R</strong> target selection.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1055.png\" alt=\"Doran&#x27;s Blade\"> <strong>Doran's Blade</strong> (small AD + lifesteal — heal a portion of damage dealt) + 1 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potion</strong>.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6672.png\" alt=\"Kraken Slayer\"> <strong>Kraken Slayer</strong> — first-item power spike (the moment a champion gets noticeably stronger after completing an item). Gives AD + Attack Speed; the Bring It Down passive deals bonus true damage on every third hit, which front-loads damage during the short R-into-fight burst window.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> — attack speed boots. They push you toward the 60% bonus Attack Speed threshold needed to evolve E.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3085.png\" alt=\"Runaan&#x27;s Hurricane\"> <strong>Runaan's Hurricane</strong> — adds two side-arrows to every basic attack and stacks more Attack Speed. The side arrows apply Plasma to nearby enemies, so in a teamfight Kai'Sa stacks Plasma on the entire enemy team while AA-ing only one target. This item completes the E evolve.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3124.png\" alt=\"Guinsoo&#x27;s Rageblade\"> <strong>Guinsoo's Rageblade</strong> — gives AD, AP, and Attack Speed in a single slot. The cheapest way to push past the 100 AP threshold needed to evolve W (cooldown refund + 4 Plasma stacks per cast). Phantom Hit on every third AA proc-slams more on-hit damage.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3031.png\" alt=\"Infinity Edge\"> <strong>Infinity Edge</strong> — late-game crit (critical strike: a chance for an auto-attack to deal ~175% damage) multiplier. Combined with Runaan's two extra projectiles, every basic attack rolls 3 crit chances at once.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3036.png\" alt=\"Lord Dominik&#x27;s Regards\"> <strong>Lord Dominik's Regards</strong> — vs HP/armor stackers (Cho'Gath, Sion, Malphite, Ornn). Replace <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3031.png\" alt=\"Infinity Edge\"> <strong>Infinity Edge</strong> as 5th item if the enemy team has 2+ tanks.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3033.png\" alt=\"Mortal Reminder\"> <strong>Mortal Reminder</strong> — vs healing-stacking comps (Soraka, Vladimir, Aatrox). Applies Grievous Wounds (a status effect that cuts enemy healing in half).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — vs heavy AP burst (Syndra, Veigar, Brand support — burst mage = a champion that deletes you in 1-2 seconds with one combo). Magic resist + a damage shield below 30% HP buys the second R needed to escape.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3072.png\" alt=\"Bloodthirster\"> <strong>Bloodthirster</strong> — vs heavy poke. Lifesteal heals you mid-fight; when overhealed it stores HP as a temporary shield.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3046.png\" alt=\"Phantom Dancer\"> <strong>Phantom Dancer</strong> — vs assassins or divers (Zed, Kha'Zix, Talon — champions designed to dive onto the back line). Its Ghost passive lets you walk through enemy minions and champions while kiting (moving back while attacking).</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> is the only correct choice. Attack speed feeds the E evolve and the Q multi-missile DPS during R combos.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (main DPS, biggest evolve payoff). Max <strong>E</strong> second (more cooldown reduction and longer Attack Speed window). Max <strong>W</strong> last (utility only — long range + Plasma stacking, but worst base damage per skill point). Take <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary tree <strong>Domination</strong> (the burst-AA tree) with <strong>Hail of Blades</strong> (3 super-fast attacks the moment you start AA-ing a champion), <strong>Taste of Blood</strong> (heal 18-30 HP on damaging an enemy champion every ~20s), <strong>Sixth Sense</strong> (a wallhack ping that reveals one enemy ward every ~75s), <strong>Ultimate Hunter</strong> (cuts R's cooldown by up to 25% as you take down enemies). Secondary tree <strong>Precision</strong> with <strong>Triumph</strong> (heals on takedown — kill or assist) and <strong>Coup de Grace</strong> (extra damage on enemies below 40% HP).</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Caitlyn:</strong> Out-ranges Kai'Sa hard at level 1 (650 AA vs 525). Stay behind your minion line and only step up when she places a trap (she is animation-locked while placing). Power-farm safely (focus only on collecting minion gold without risks) until <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6672.png\" alt=\"Kraken Slayer\"> <strong>Kraken Slayer</strong> completes; then look for cross-map W picks once you can dash in with R.</li>\n<li><strong>Draven:</strong> Loses an AA war straight up — his Q axes deal way more per AA than your basic. Avoid 1-for-1 trades; only commit when his axes hit the ground (he loses them on a 2.5s timer). Save <strong>W</strong> as a poke-only tool until <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6672.png\" alt=\"Kraken Slayer\"> <strong>Kraken Slayer</strong> is online.</li>\n<li><strong>Lucian:</strong> Loses to Kai'Sa post-6 but bullies her at levels 2-5 with passive double-shot. Dodge his <strong>Q</strong> through minions, save <strong>E</strong> as a panic disengage (an ability that breaks an enemy's full-commit trade). Hold lane priority by farming under tower until you are level 6, then look to all-in on his next mistake.</li>\n<li><strong>Vayne:</strong> Kai'Sa wins the early lane (Vayne is melee until she hits 3 items). Push the wave (send your minions forward into her tower) every chance you get, harass (deal small chip damage to drain her HP) with <strong>W</strong> every cooldown. After minute 25 she scales harder, so close the game in mid-game or it tilts toward her.</li>\n<li><strong>Jhin:</strong> Long-range poke matchup. His <strong>W</strong> is a 3550-unit slow root that ignores your dodge if a minion is hit first. Stay behind your front minion line and never trade during his reload window — he is at his strongest with a fresh mag, weakest during the 2.5s after his 4th shot.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 6:</strong> First <strong>R</strong> unlocks pick attempts (eliminating a lone enemy outside a teamfight) on chip-killed lane targets. Land <strong>W</strong> + 2 AAs on the enemy ADC, then dash in with <strong>R</strong> the moment they walk up to last-hit (auto-attack the killing blow on a minion).</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6672.png\" alt=\"Kraken Slayer\"> Kraken Slayer completion (~ minute 12-14):</strong> Lane priority flips. You can shove (push the wave fast) with Q, then roam (leave lane to help allies) for cross-map plays on Drake or mid skirmishes (small fights between 2-3 players in the river or jungle).</li>\n<li><strong>Q evolve (~ minute 22-24, after <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6672.png\" alt=\"Kraken Slayer\"> Kraken Slayer + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3124.png\" alt=\"Guinsoo&#x27;s Rageblade\"> Guinsoo's Rageblade):</strong> Q now fires 12 missiles instead of 6 — single-target burst on champions roughly doubles. Force teamfights at every objective.</li>\n<li><strong>E evolve (Berserker's + Runaan's + Guinsoo's complete):</strong> E now grants brief invisibility during the channel. Difference between dashing in with R and dying instantly, and dashing in and getting the kill — invisibility makes you untargetable for ~0.5s after the dash, long enough to dodge follow-up CC.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Throwing R without Plasma stacks ready.</strong> R requires a target with 5 Plasma stacks. If you press R on a target with 0-2 stacks, the spell does nothing and goes on full cooldown. Always W-then-AAs first, watch the Plasma indicator above the target's HP bar, then commit R.</li>\n<li><strong>R-ing at 100% HP into the enemy team.</strong> R is a finisher, not an engage. The shield from R is small (~110 + 25% bonus HP) and lasts 2s — you will die instantly if the enemy front line is still up. Wait until at least one of: target below 40% HP, enemy CC on cooldown, or your team already on top of them.</li>\n<li><strong>Over-pushing the wave without vision.</strong> Kai'Sa has no built-in escape until E evolves at minute 22+. If you push past mid-river without your support warding tribush (small terrain spots that block vision) and river, the enemy jungler kills you for free.</li>\n<li><strong>Skipping <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> Berserker's Greaves for tankier boots.</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> look tempting against an AD-heavy enemy team, but they delay the 60% Attack Speed threshold that evolves E. No evolve = no invisibility = your R is a death sentence.</li>\n<li><strong>Saving E for offensive engage.</strong> E's main value is the brief Ghost (passes through units) + Attack Speed window during a fight. Press E <strong>after</strong> you R, not before — invisibility from evolved E kicks in at the start of the channel, so casting it from a safe spot wastes the immune frames.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>The <strong>flash R</strong> finisher works the opposite way Kai'Sa is normally played. When an enemy ADC is escaping at low HP into fog of war (the parts of the map you cannot currently see) and your <strong>R</strong> would dash you out of position, <strong>Flash</strong> (summoner spell that teleports 400 units in a chosen direction) toward them first to get into R range, then immediately R. Burns Flash but turns a near-escape into a guaranteed kill at high ranks. The trick: queue the R cast 0.1s after Flash by holding the R button — League's input buffer fires R the instant Flash lands, so the enemy never sees the dash coming.</p>",
+    "content_html_pre": "<h2>Overview</h2>\n<p>Kai'Sa is a hybrid marksman — a champion who scales with both AD (auto-attack damage) and AP (ability damage) at once, instead of stacking only one. She is the only ADC (attack damage carry: a ranged auto-attacker that becomes the team's main damage source late) whose abilities literally upgrade themselves when you cross hidden item thresholds: 100 bonus AD evolves Q, 100 AP evolves W, 60% bonus Attack Speed evolves E. Her build path matters more than for any other marksman — wrong order means an evolve never triggers, and a Kai'Sa without evolved E (no invisibility on the dash) is half a champion.</p>\n<p>Her game plan is a stacking puzzle: every basic attack puts Plasma stacks on the target, and the moment a target hits 5 stacks (or fully ruptures from Plasma) her <strong>R</strong> unlocks as a long-range dash on top of them. Support CC (Crowd Control: stuns, slows, roots that lock the enemy in place) accelerates the count for free. In lane she pokes (deals long-range chip damage to drain HP without committing to a fight) with <strong>W</strong> at 3000 units; in teamfights (5v5 fights that decide objectives like Drake or Baron — neutral monsters that grant team buffs when killed) she sits at maximum AA range until a back-line target is chip-killed, then dashes in with <strong>R</strong> + evolved <strong>E</strong> invisibility to clean up. The skill ceiling sits in <strong>R</strong> target selection.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1055.png\" alt=\"Doran&#x27;s Blade\"> <strong>Doran's Blade</strong> (small AD + lifesteal — heal a portion of damage dealt) + 1 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potion</strong>.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6672.png\" alt=\"Kraken Slayer\"> <strong>Kraken Slayer</strong> — first-item power spike (the moment a champion gets noticeably stronger after completing an item). Gives AD + Attack Speed; the Bring It Down passive deals bonus true damage on every third hit, which front-loads damage during the short R-into-fight burst window.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> — attack speed boots. They push you toward the 60% bonus Attack Speed threshold needed to evolve E.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3085.png\" alt=\"Runaan&#x27;s Hurricane\"> <strong>Runaan's Hurricane</strong> — adds two side-arrows to every basic attack and stacks more Attack Speed. The side arrows apply Plasma to nearby enemies, so in a teamfight Kai'Sa stacks Plasma on the entire enemy team while AA-ing only one target. This item completes the E evolve.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3124.png\" alt=\"Guinsoo&#x27;s Rageblade\"> <strong>Guinsoo's Rageblade</strong> — gives AD, AP, and Attack Speed in a single slot. The cheapest way to push past the 100 AP threshold needed to evolve W (cooldown refund + 4 Plasma stacks per cast). Phantom Hit on every third AA proc-slams more on-hit damage.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3031.png\" alt=\"Infinity Edge\"> <strong>Infinity Edge</strong> — late-game crit (critical strike: a chance for an auto-attack to deal ~175% damage) multiplier. Combined with Runaan's two extra projectiles, every basic attack rolls 3 crit chances at once.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3036.png\" alt=\"Lord Dominik&#x27;s Regards\"> <strong>Lord Dominik's Regards</strong> — vs HP/armor stackers (Cho'Gath, Sion, Malphite, Ornn). Replace <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3031.png\" alt=\"Infinity Edge\"> <strong>Infinity Edge</strong> as 5th item if the enemy team has 2+ tanks.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3033.png\" alt=\"Mortal Reminder\"> <strong>Mortal Reminder</strong> — vs healing-stacking comps (Soraka, Vladimir, Aatrox). Applies Grievous Wounds (a status effect that cuts enemy healing in half).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3156.png\" alt=\"Maw of Malmortius\"> <strong>Maw of Malmortius</strong> — vs heavy AP burst (Syndra, Veigar, Brand support — burst mage = a champion that deletes you in 1-2 seconds with one combo). Magic resist + a damage shield below 30% HP buys the second R needed to escape.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3072.png\" alt=\"Bloodthirster\"> <strong>Bloodthirster</strong> — vs heavy poke. Lifesteal heals you mid-fight; when overhealed it stores HP as a temporary shield.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3046.png\" alt=\"Phantom Dancer\"> <strong>Phantom Dancer</strong> — vs assassins or divers (Zed, Kha'Zix, Talon — champions designed to dive onto the back line). Its Ghost passive lets you walk through enemy minions and champions while kiting (moving back while attacking).</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> is the only correct choice. Attack speed feeds the E evolve and the Q multi-missile DPS during R combos.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (main DPS, biggest evolve payoff). Max <strong>E</strong> second (more cooldown reduction and longer Attack Speed window). Max <strong>W</strong> last (utility only — long range + Plasma stacking, but worst base damage per skill point). Take <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary tree <strong>Domination</strong> (the burst-AA tree) with <strong>Hail of Blades</strong> (3 super-fast attacks the moment you start AA-ing a champion), <strong>Taste of Blood</strong> (heal 18-30 HP on damaging an enemy champion every ~20s), <strong>Sixth Sense</strong> (a wallhack ping that reveals one enemy ward every ~75s), <strong>Ultimate Hunter</strong> (cuts R's cooldown by up to 25% as you take down enemies). Secondary tree <strong>Precision</strong> with <strong>Triumph</strong> (heals on takedown — kill or assist) and <strong>Coup de Grace</strong> (extra damage on enemies below 40% HP).</p>",
+    "content_html_post": "<h2>Key matchups</h2>\n<ul>\n<li><strong>Caitlyn:</strong> Out-ranges Kai'Sa hard at level 1 (650 AA vs 525). Stay behind your minion line and only step up when she places a trap (she is animation-locked while placing). Power-farm safely (focus only on collecting minion gold without risks) until <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6672.png\" alt=\"Kraken Slayer\"> <strong>Kraken Slayer</strong> completes; then look for cross-map W picks once you can dash in with R.</li>\n<li><strong>Draven:</strong> Loses an AA war straight up — his Q axes deal way more per AA than your basic. Avoid 1-for-1 trades; only commit when his axes hit the ground (he loses them on a 2.5s timer). Save <strong>W</strong> as a poke-only tool until <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6672.png\" alt=\"Kraken Slayer\"> <strong>Kraken Slayer</strong> is online.</li>\n<li><strong>Lucian:</strong> Loses to Kai'Sa post-6 but bullies her at levels 2-5 with passive double-shot. Dodge his <strong>Q</strong> through minions, save <strong>E</strong> as a panic disengage (an ability that breaks an enemy's full-commit trade). Hold lane priority by farming under tower until you are level 6, then look to all-in on his next mistake.</li>\n<li><strong>Vayne:</strong> Kai'Sa wins the early lane (Vayne is melee until she hits 3 items). Push the wave (send your minions forward into her tower) every chance you get, harass (deal small chip damage to drain her HP) with <strong>W</strong> every cooldown. After minute 25 she scales harder, so close the game in mid-game or it tilts toward her.</li>\n<li><strong>Jhin:</strong> Long-range poke matchup. His <strong>W</strong> is a 3550-unit slow root that ignores your dodge if a minion is hit first. Stay behind your front minion line and never trade during his reload window — he is at his strongest with a fresh mag, weakest during the 2.5s after his 4th shot.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 6:</strong> First <strong>R</strong> unlocks pick attempts (eliminating a lone enemy outside a teamfight) on chip-killed lane targets. Land <strong>W</strong> + 2 AAs on the enemy ADC, then dash in with <strong>R</strong> the moment they walk up to last-hit (auto-attack the killing blow on a minion).</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6672.png\" alt=\"Kraken Slayer\"> Kraken Slayer completion (~ minute 12-14):</strong> Lane priority flips. You can shove (push the wave fast) with Q, then roam (leave lane to help allies) for cross-map plays on Drake or mid skirmishes (small fights between 2-3 players in the river or jungle).</li>\n<li><strong>Q evolve (~ minute 22-24, after <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6672.png\" alt=\"Kraken Slayer\"> Kraken Slayer + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3124.png\" alt=\"Guinsoo&#x27;s Rageblade\"> Guinsoo's Rageblade):</strong> Q now fires 12 missiles instead of 6 — single-target burst on champions roughly doubles. Force teamfights at every objective.</li>\n<li><strong>E evolve (Berserker's + Runaan's + Guinsoo's complete):</strong> E now grants brief invisibility during the channel. Difference between dashing in with R and dying instantly, and dashing in and getting the kill — invisibility makes you untargetable for ~0.5s after the dash, long enough to dodge follow-up CC.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Throwing R without Plasma stacks ready.</strong> R requires a target with 5 Plasma stacks. If you press R on a target with 0-2 stacks, the spell does nothing and goes on full cooldown. Always W-then-AAs first, watch the Plasma indicator above the target's HP bar, then commit R.</li>\n<li><strong>R-ing at 100% HP into the enemy team.</strong> R is a finisher, not an engage. The shield from R is small (~110 + 25% bonus HP) and lasts 2s — you will die instantly if the enemy front line is still up. Wait until at least one of: target below 40% HP, enemy CC on cooldown, or your team already on top of them.</li>\n<li><strong>Over-pushing the wave without vision.</strong> Kai'Sa has no built-in escape until E evolves at minute 22+. If you push past mid-river without your support warding tribush (small terrain spots that block vision) and river, the enemy jungler kills you for free.</li>\n<li><strong>Skipping <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> Berserker's Greaves for tankier boots.</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> look tempting against an AD-heavy enemy team, but they delay the 60% Attack Speed threshold that evolves E. No evolve = no invisibility = your R is a death sentence.</li>\n<li><strong>Saving E for offensive engage.</strong> E's main value is the brief Ghost (passes through units) + Attack Speed window during a fight. Press E <strong>after</strong> you R, not before — invisibility from evolved E kicks in at the start of the channel, so casting it from a safe spot wastes the immune frames.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>The <strong>flash R</strong> finisher works the opposite way Kai'Sa is normally played. When an enemy ADC is escaping at low HP into fog of war (the parts of the map you cannot currently see) and your <strong>R</strong> would dash you out of position, <strong>Flash</strong> (summoner spell that teleports 400 units in a chosen direction) toward them first to get into R range, then immediately R. Burns Flash but turns a near-escape into a guaranteed kill at high ranks. The trick: queue the R cast 0.1s after Flash by holding the R button — League's input buffer fires R the instant Flash lands, so the enemy never sees the dash coming.</p>",
+    "word_count": 1545,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "ashe-bot",
+        "champion": "ashe",
+        "role": "bot"
+      },
+      {
+        "slug": "caitlyn-bot",
+        "champion": "caitlyn",
+        "role": "bot"
+      },
+      {
+        "slug": "draven-bot",
+        "champion": "draven",
+        "role": "bot"
+      },
+      {
+        "slug": "ezreal-bot",
+        "champion": "ezreal",
+        "role": "bot"
+      },
+      {
+        "slug": "jhin-bot",
+        "champion": "jhin",
+        "role": "bot"
+      }
+    ],
+    "champion_key": "145"
   },
   {
     "slug": "karma-support",

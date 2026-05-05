@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04",
+  "generated_at": "2026-05-05",
   "guides": [
     {
       "slug": "aatrox-top",
@@ -1597,6 +1597,64 @@
       }
     },
     {
+      "slug": "hwei-mid",
+      "champion": "hwei",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Hwei Mid Build & Guide — Patch 16.9",
+          "description": "Hwei mid lane guide for League of Legends Patch 16.9: starter kit, core mage build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Mage / Artillery",
+          "difficulty": 5,
+          "damage_type": "magic",
+          "champion_dd_id": "Hwei",
+          "champion_key": "910"
+        },
+        "it": {
+          "title": "Hwei Mid Build & Guida — Patch 16.9",
+          "description": "Guida Hwei mid lane per League of Legends Patch 16.9: starter kit, build mage da burst, matchup chiave in lane, power spike, errori comuni e tecnica avanzata.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Mage / Artillery",
+          "difficulty": 5,
+          "damage_type": "magic",
+          "champion_dd_id": "Hwei",
+          "champion_key": "910"
+        }
+      }
+    },
+    {
+      "slug": "hwei-support",
+      "champion": "hwei",
+      "role": "support",
+      "locales": {
+        "en": {
+          "title": "Hwei Support Build & Guide — Patch 16.9",
+          "description": "Hwei support guide for League of Legends Patch 16.9: pick-mage starter kit, core build path, key matchups in bot lane, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Mage / Catcher",
+          "difficulty": 5,
+          "damage_type": "magic",
+          "champion_dd_id": "Hwei",
+          "champion_key": "910"
+        },
+        "it": {
+          "title": "Hwei Support Build & Guida — Patch 16.9",
+          "description": "Guida Hwei support per League of Legends Patch 16.9: starter kit da pick-mage, build path principale, matchup chiave in bot lane, power spike ed errori comuni.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Mage / Catcher",
+          "difficulty": 5,
+          "damage_type": "magic",
+          "champion_dd_id": "Hwei",
+          "champion_key": "910"
+        }
+      }
+    },
+    {
       "slug": "illaoi-top",
       "champion": "illaoi",
       "role": "top",
@@ -1655,6 +1713,64 @@
       }
     },
     {
+      "slug": "ivern-jungle",
+      "champion": "ivern",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Ivern Jungle Build & Guide — Patch 16.9",
+          "description": "Ivern jungle guide for League of Legends Patch 16.9: pacifist clear via groves, enchanter build, Q root setups, Daisy fight control, key matchups, common mistakes.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Enchanter / Utility Jungler",
+          "difficulty": 4,
+          "damage_type": "magic",
+          "champion_dd_id": "Ivern",
+          "champion_key": "427"
+        },
+        "it": {
+          "title": "Ivern Jungle Build & Guida — Patch 16.9",
+          "description": "Guida completa a Ivern jungle in patch 16.9: clear pacifico via grove, build enchanter, setup di root con Q, controllo fight con Daisy, matchup chiave.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Enchanter / Jungler di setup",
+          "difficulty": 4,
+          "damage_type": "magic",
+          "champion_dd_id": "Ivern",
+          "champion_key": "427"
+        }
+      }
+    },
+    {
+      "slug": "ivern-support",
+      "champion": "ivern",
+      "role": "support",
+      "locales": {
+        "en": {
+          "title": "Ivern Support Build & Guide — Patch 16.9",
+          "description": "Ivern support guide for League of Legends Patch 16.9: enchanter build, brush vision tricks, Q root setups, Daisy peel, key bot matchups, common mistakes.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Enchanter / Setup Support",
+          "difficulty": 4,
+          "damage_type": "magic",
+          "champion_dd_id": "Ivern",
+          "champion_key": "427"
+        },
+        "it": {
+          "title": "Ivern Support Build & Guida — Patch 16.9",
+          "description": "Guida completa a Ivern support in patch 16.9: build enchanter, trucchi di vision con il brush, setup di root con Q, peel di Daisy, matchup chiave bot.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Enchanter / Support di setup",
+          "difficulty": 4,
+          "damage_type": "magic",
+          "champion_dd_id": "Ivern",
+          "champion_key": "427"
+        }
+      }
+    },
+    {
       "slug": "janna-support",
       "champion": "janna",
       "role": "support",
@@ -1680,6 +1796,35 @@
           "damage_type": "magic",
           "champion_dd_id": "Janna",
           "champion_key": "40"
+        }
+      }
+    },
+    {
+      "slug": "jarvan-iv-jungle",
+      "champion": "jarvan-iv",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Jarvan IV Jungle Build & Guide — Patch 16.9",
+          "description": "Jarvan IV jungle guide for League of Legends Patch 16.9: starter kit, core bruiser build, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Fighter / Diver",
+          "difficulty": 2,
+          "damage_type": "physical",
+          "champion_dd_id": "JarvanIV",
+          "champion_key": "59"
+        },
+        "it": {
+          "title": "Jarvan IV Jungle Build & Guida — Patch 16.9",
+          "description": "Guida Jarvan IV jungle League of Legends Patch 16.9: starting items, build core, matchup chiave, power spike, errori comuni e una tecnica avanzata da provare.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Fighter / Diver",
+          "difficulty": 2,
+          "damage_type": "physical",
+          "champion_dd_id": "JarvanIV",
+          "champion_key": "59"
         }
       }
     },
@@ -1854,6 +1999,35 @@
           "damage_type": "physical",
           "champion_dd_id": "KSante",
           "champion_key": "897"
+        }
+      }
+    },
+    {
+      "slug": "kaisa-bot",
+      "champion": "kaisa",
+      "role": "bot",
+      "locales": {
+        "en": {
+          "title": "Kai'Sa ADC Build & Guide — Patch 16.9",
+          "description": "Kai'Sa ADC bot lane guide for Patch 16.9: Plasma stacking flow, hybrid Kraken evolve build, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Marksman / Hybrid",
+          "difficulty": 3,
+          "damage_type": "mixed",
+          "champion_dd_id": "Kaisa",
+          "champion_key": "145"
+        },
+        "it": {
+          "title": "Kai'Sa ADC Build & Guida — Patch 16.9",
+          "description": "Guida Kai'Sa ADC bot lane patch 16.9: gestione degli stack di Plasma, build hybrid Kraken con evolve, matchup chiave, power spike, errori comuni e una tecnica avanzata.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Marksman / Hybrid",
+          "difficulty": 3,
+          "damage_type": "mixed",
+          "champion_dd_id": "Kaisa",
+          "champion_key": "145"
         }
       }
     },
