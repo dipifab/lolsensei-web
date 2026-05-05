@@ -2032,6 +2032,35 @@
       }
     },
     {
+      "slug": "kalista-bot",
+      "champion": "kalista",
+      "role": "bot",
+      "locales": {
+        "en": {
+          "title": "Kalista Bot Build & Guide — Patch 16.9",
+          "description": "Kalista bot lane guide for League of Legends Patch 16.9: on-hit core build, Soulbound mechanics, key matchups, power spikes, common mistakes, and one closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Marksman / On-hit Skirmisher",
+          "difficulty": 4,
+          "damage_type": "physical",
+          "champion_dd_id": "Kalista",
+          "champion_key": "429"
+        },
+        "it": {
+          "title": "Kalista Bot Build & Guida — Patch 16.9",
+          "description": "Guida Kalista bot lane per League of Legends Patch 16.9: build on-hit, meccanica Soulbound col support, matchup chiave, power spike, errori comuni e tip finale.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Marksman / On-hit Skirmisher",
+          "difficulty": 4,
+          "damage_type": "physical",
+          "champion_dd_id": "Kalista",
+          "champion_key": "429"
+        }
+      }
+    },
+    {
       "slug": "karma-support",
       "champion": "karma",
       "role": "support",
@@ -2061,6 +2090,122 @@
       }
     },
     {
+      "slug": "karthus-jungle",
+      "champion": "karthus",
+      "role": "jungle",
+      "locales": {
+        "en": {
+          "title": "Karthus Jungle Build & Guide — Patch 16.9",
+          "description": "Karthus jungle guide for League of Legends Patch 16.9: smite path, Defile clear, global R pickoffs, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Mage / Apex Jungler",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Karthus",
+          "champion_key": "30"
+        },
+        "it": {
+          "title": "Karthus Jungle Build & Guida — Patch 16.9",
+          "description": "Guida Karthus jungle League of Legends Patch 16.9: smite path, clear con Defile, R globale, matchup chiave, power spike, errori comuni e tip avanzato.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Mage / Apex Jungler",
+          "difficulty": 3,
+          "damage_type": "magic",
+          "champion_dd_id": "Karthus",
+          "champion_key": "30"
+        }
+      }
+    },
+    {
+      "slug": "kassadin-mid",
+      "champion": "kassadin",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Kassadin Mid Build & Guide — Patch 16.9",
+          "description": "Kassadin mid lane guide for League of Legends Patch 16.9: late-game scaler build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Assassin / Late-game Scaler",
+          "difficulty": 4,
+          "damage_type": "magic",
+          "champion_dd_id": "Kassadin",
+          "champion_key": "38"
+        },
+        "it": {
+          "title": "Kassadin Mid Build & Guida — Patch 16.9",
+          "description": "Guida a Kassadin mid lane per League of Legends Patch 16.9: build da late-game scaler, matchup chiave, power spike, errori comuni e una tip avanzata in chiusura.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Assassin / Late-game Scaler",
+          "difficulty": 4,
+          "damage_type": "magic",
+          "champion_dd_id": "Kassadin",
+          "champion_key": "38"
+        }
+      }
+    },
+    {
+      "slug": "katarina-mid",
+      "champion": "katarina",
+      "role": "mid",
+      "locales": {
+        "en": {
+          "title": "Katarina Mid Build & Guide — Patch 16.9",
+          "description": "Katarina mid lane guide for League of Legends Patch 16.9: starter kit, core AP assassin build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "AP Assassin / Snowball Resetter",
+          "difficulty": 4,
+          "damage_type": "magic",
+          "champion_dd_id": "Katarina",
+          "champion_key": "55"
+        },
+        "it": {
+          "title": "Katarina Mid Build & Guida — Patch 16.9",
+          "description": "Guida a Katarina mid lane per League of Legends Patch 16.9: starter kit, build core AP assassin, matchup chiave, power spike, errori comuni e un consiglio finale.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "AP Assassin / Snowball Resetter",
+          "difficulty": 4,
+          "damage_type": "magic",
+          "champion_dd_id": "Katarina",
+          "champion_key": "55"
+        }
+      }
+    },
+    {
+      "slug": "kayle-top",
+      "champion": "kayle",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Kayle Top Build & Guide — Patch 16.9",
+          "description": "Kayle top lane guide for League of Legends Patch 16.9: survival lane plan, hyper-scaling AS+AP build, key matchups, level 11/16 power spikes, and common mistakes.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Fighter / Hyper-scaling Carry",
+          "difficulty": 3,
+          "damage_type": "mixed",
+          "champion_dd_id": "Kayle",
+          "champion_key": "10"
+        },
+        "it": {
+          "title": "Kayle Top Build & Guida — Patch 16.9",
+          "description": "Guida Kayle top per League of Legends Patch 16.9: piano di sopravvivenza in lane, build hyper-scaling AS+AP, key matchup, power spike di livello 11 e 16, errori comuni.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Fighter / Hyper-scaling Carry",
+          "difficulty": 3,
+          "damage_type": "mixed",
+          "champion_dd_id": "Kayle",
+          "champion_key": "10"
+        }
+      }
+    },
+    {
       "slug": "kayn-jungle",
       "champion": "kayn",
       "role": "jungle",
@@ -2086,6 +2231,35 @@
           "damage_type": "physical",
           "champion_dd_id": "Kayn",
           "champion_key": "141"
+        }
+      }
+    },
+    {
+      "slug": "kennen-top",
+      "champion": "kennen",
+      "role": "top",
+      "locales": {
+        "en": {
+          "title": "Kennen Top Build & Guide — Patch 16.9",
+          "description": "Kennen top lane guide for League of Legends Patch 16.9: starter kit, AP bruiser build path, key matchups, power spikes, common mistakes, and a closing tip.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Mage / Teamfight Engager",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Kennen",
+          "champion_key": "85"
+        },
+        "it": {
+          "title": "Kennen Top Build & Guida — Patch 16.9",
+          "description": "Guida a Kennen top lane per League of Legends Patch 16.9: starter, build AP da bruiser, matchup chiave, power spike, errori comuni e una tecnica avanzata.",
+          "patch": "16.9",
+          "last_updated": "2026-05-05",
+          "champion_class": "Mage / Teamfight Engager",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Kennen",
+          "champion_key": "85"
         }
       }
     },

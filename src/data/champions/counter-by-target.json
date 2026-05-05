@@ -912,6 +912,26 @@
       },
       {
         "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Slow farm-heavy junglers without level-3 invade",
+        "reason": "They full-clear on the same speed Karthus does, but Karthus has the global R that turns their gank into a 2-for-1 trade — even if they kill your laner, R cleans up theirs cross-map before they recall.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler farm-heavy lenti senza invade level 3",
+        "reason": "Full-clearano alla stessa velocita di Karthus, ma Karthus ha la R globale che trasforma il loro gank in uno scambio 2-for-1: anche se uccidono il tuo laner, R fa cleanup del loro cross-map prima che riescano a recall.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "orianna",
           "role": "mid",
           "lang": "en"
@@ -1214,6 +1234,26 @@
       },
       {
         "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "They cannot exit Katarina's W-E-Q burst window. Once their setup ability (Veigar cage, TF gold card, Anivia E) is on cooldown they have no answer to a Shunpo all-in.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "Non possono uscire dalla burst window W-E-Q di Katarina. Una volta speso il setup (gabbia di Veigar, gold card di TF, E di Anivia) non hanno risposta a uno Shunpo all-in.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -1456,6 +1496,46 @@
       },
       {
         "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "After level 11 Riftwalk has a 2s cooldown: you blink onto them, Q the cast, E to slow, and AA-execute before they can land their full burst combo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "Dopo il livello 11 il CD di Riftwalk e' 2s: blinki sopra di loro, Q sul cast, E per slow, AA-execute prima che riescano a piazzare il loro burst combo completo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Point-and-click hard-CC mages",
+        "reason": "Their stun is instant and uncounterable: it cancels Death Lotus mid-channel and turns Katarina into a stationary punching bag while their team collapses on her.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage con hard CC point-and-click",
+        "reason": "Lo stun è istantaneo e non si schiva: cancella Death Lotus a metà channel e trasforma Katarina in un sacco fermo mentre il team nemico le si butta addosso.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -1574,6 +1654,26 @@
         },
         "archetype": "Marksman da scaling con laning debole",
         "reason": "Lo spike di Ezreal fra livello 2 e 6 è più forte del loro. Il poke con Q li spinge fuori dalla wave, così arrivano agli item core indietro e perdono il loro vantaggio scaling.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Immobile late-game ADCs without a dash",
+        "reason": "Their only safety is positioning. Kalista hops with every auto-attack, so she trades in melee range without ever standing still — they have no answer except Flash, and you stack Rend faster than they can reset the trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "ADC late-game immobili senza dash",
+        "reason": "La loro unica safety e' il posizionamento. Kalista hopa ad ogni auto-attack, quindi tradea in melee senza mai stare ferma: non hanno risposta tranne Flash, e tu stacki Rend piu' veloce di quanto loro resettino il trade.",
         "via": "pick_into"
       }
     ],
@@ -1836,6 +1936,26 @@
         },
         "archetype": "ADC immobili senza dash",
         "reason": "Una volta che Kai'Sa ha 5 stack di Plasma in range R, gli ADC immobili non possono uscire dal dash + Q burst. Devono sopravvivere all'all-in (scambio totale fino alla kill, senza spazio per disimpegnarsi) senza alcun reposition tool.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Static-positioning marksmen reliant on their support's lockdown",
+        "reason": "If their support engages first, your R reposition and Wit's End magic on-hit beat their AS curve. They cannot kite a champion who closes 350 units per auto.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Marksman a posizionamento statico dipendenti dal support per il lockdown",
+        "reason": "Se il loro support engagga per primo, la tua R per riposizionarti e Wit's End on-hit battono la loro curva di AS. Non possono kitare un campione che chiude 350 unita' per ogni auto.",
         "via": "pick_into"
       },
       {
@@ -2124,6 +2244,26 @@
       },
       {
         "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range area-denial mages",
+        "reason": "Pre-6 they bully Kassadin, but post-11 his magic shield from Q + R mobility cancel their kiting tools. Once the game goes long, their AOE is wasted on a target they cannot pin down.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage di area-denial a lungo raggio",
+        "reason": "Pre-6 ti bullizzano, ma post-11 il magic shield della Q + la mobilita' della R neutralizzano i loro tool di kiting. Quando la partita va lunga, la loro AOE e' sprecata su un target che non riescono a fissare.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "vi",
           "role": "jungle",
           "lang": "en"
@@ -2322,6 +2462,26 @@
         },
         "archetype": "Hook support a lungo range",
         "reason": "Janna non ha gap-closer e nessun hard CC al level 1: un hook landato prima del 6 cancella l'AD carry prima che la R sia pronta per disengage.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Hook supports the enemy team picks against your Soulbound partner",
+        "reason": "If they hook your support, the Soulbound link is irrelevant: you cannot R him out of the grab line, and the engage happens 800+ units away from your hop window.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Hook support pickati contro il tuo Soulbound partner",
+        "reason": "Se hookano il tuo support, il link Soulbound diventa irrilevante: non puoi R-arlo fuori dalla linea del grab, e l'engage avviene 800+ unita' fuori dalla tua hop window.",
         "via": "counterpick"
       },
       {
@@ -3090,6 +3250,26 @@
       },
       {
         "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery ADCs in lane phase",
+        "reason": "Caitlyn out-pokes you levels 1-3, but her trap-and-net combo is a single dash on a long cooldown — once you have boots and Wit's End online, you walk her down at level 6.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "ADC artiglieria long-range in lane phase",
+        "reason": "Caitlyn ti pokea livelli 1-3, ma la sua trap-and-net e' un dash unico su CD lungo: una volta online boots e Wit's End, la cammini al livello 6.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kayn",
           "role": "jungle",
           "lang": "en"
@@ -3569,6 +3749,46 @@
         "archetype": "Diver dipendenti da combo con un solo commit window",
         "reason": "Lo stun di Q e il 40%+ di damage reduction di W mangiano il loro all-in: una volta spesi dash e burst, K'Sante ribalta lo scambio con R e li chiude in forma All Out.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Mobile lane bullies with multiple gap-closers",
+        "reason": "Camille's E hookshot and Yone's Q3 dash both ignore the position you tried to hold; they close the gap before your Q + auto trade resolves.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Mobile lane bullies with multiple gap-closers",
+        "reason": "L'E hookshot di Camille e la Q3 dash di Yone ignorano la posizione che provi a tenere; chiudono la distanza prima che il tuo trade Q + auto si concluda.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Point-and-click hard CC bruisers",
+        "reason": "Their stun (Pantheon W) or root (Camille E second cast) cancels your R channel mid-cast — you lose the AOE stun setup before any stack lands, turning your engage into a wasted ult.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser con CC point-and-click",
+        "reason": "Lo stun di Pantheon W (bersaglio singolo, instant) o il root di Camille E2 ti cancellano la R a metà channel — perdi lo stun AOE prima che landi un singolo stack, trasformando l'engage in una ulti sprecata.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -4180,6 +4400,26 @@
       },
       {
         "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Early-pressure bruisers with all-in level 1-3",
+        "reason": "They kill you before level 6 power spike. Their CC chain plus sustained damage chunks 70%+ HP off Kayle in a 4-second all-in, and you have no dash to disengage.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Early-pressure bruisers with all-in level 1-3",
+        "reason": "Ti killano prima del power spike di livello 6. La loro CC chain piu il sustained damage tagliano il 70%+ HP a Kayle in un all-in da 4 secondi, e tu non hai un dash per disengage.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "kayn",
           "role": "jungle",
           "lang": "en"
@@ -4196,6 +4436,26 @@
         },
         "archetype": "Bruiser melee tanky e juggernaut frontline",
         "reason": "Il danno % HP della Q di Rhaast e il knock-up della W stracciano i target con HP alti che altri assassini fanno fatica a uccidere, e riempi gli orb rossi naturalmente fightando contro di loro.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Melee bruisers without a gap-closer",
+        "reason": "Kennen's auto-attack range (~550) outranges their walking speed; Q poke and E reposition farm safely from outside their threat range until level 6 power spike.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee senza gap-closer",
+        "reason": "L'auto-attack range di Kennen (~550) supera la velocità di camminata di questi champion. Q poke e E reposition farmano da fuori threat range fino al power spike di livello 6.",
         "via": "pick_into"
       },
       {
@@ -4319,6 +4579,26 @@
         "archetype": "Burst melee con tell visivo",
         "reason": "Annie precarica Pyromania durante il waveclear: nel momento in cui fanno il commit alla gap-close, lo stun di Flash + R interrompe il loro combo prima che il danno parta.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Burst all-in midlaners with point-and-click engage",
+        "reason": "Diana's Q-R combo and Pantheon's W stun both connect before Katarina can drop her own W Dagger. She loses the trade race and falls behind on item spikes.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Burst all-in midlaner con engage point-and-click",
+        "reason": "Il combo Q-R di Diana e lo stun W di Pantheon arrivano prima ancora che Katarina riesca a droppare il Dagger di W. Perde la trade race e i power spike di item.",
+        "via": "counterpick"
       }
     ],
     "dr-mundo": [
@@ -4586,6 +4866,26 @@
       },
       {
         "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Lane-bully marksmen with strong level 1-3 all-in",
+        "reason": "Their early damage outpaces your hop spacing (the safe distance you keep using auto-attack jumps) before you have the AS to stack Press the Attack. One bad Q at level 2 and they collect a kill before your support can answer.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Lane-bully marksman con forte all-in livelli 1-3",
+        "reason": "Il loro early damage supera il tuo hop spacing (la distanza di sicurezza che tieni saltando con ogni auto) prima che tu abbia AS per stackare Press the Attack. Una Q sbagliata al lvl 2 e prendono una kill prima che il support risponda.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "karma",
           "role": "support",
           "lang": "en"
@@ -4844,6 +5144,26 @@
         },
         "archetype": "Jungler aggressivi nell'early-game e sull'invade",
         "reason": "Hecarim è debole prima del livello 3. Questi jungler possono invadergli il secondo buff, ucciderlo o bruciargli il Flash, e snowballare prima che lui si accenda.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early-game invade junglers with hard CC",
+        "reason": "They walk into Karthus's jungle at level 2-3 before Defile mana scales. Karthus has no escape, no dash, and his Q is too slow to save him from a Lee Sin Q + W chain or an Elise rappel. One bad invade ends his game permanently.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler early-game da invade con CC duro",
+        "reason": "Entrano nella jungla di Karthus a livello 2-3 prima che Defile scali in mana. Karthus non ha escape, niente dash, e la Q e troppo lenta per salvarlo da una catena Lee Sin Q + W o da un rappel Elise. Un invade andato male gli rovina la partita.",
         "via": "counterpick"
       },
       {
@@ -5254,6 +5574,26 @@
       },
       {
         "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Slow farm-heavy junglers without level-3 invade",
+        "reason": "They full-clear on the same speed Karthus does, but Karthus has the global R that turns their gank into a 2-for-1 trade — even if they kill your laner, R cleans up theirs cross-map before they recall.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler farm-heavy lenti senza invade level 3",
+        "reason": "Full-clearano alla stessa velocita di Karthus, ma Karthus ha la R globale che trasforma il loro gank in uno scambio 2-for-1: anche se uccidono il tuo laner, R fa cleanup del loro cross-map prima che riescano a recall.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kha-zix",
           "role": "jungle",
           "lang": "en"
@@ -5572,6 +5912,26 @@
         },
         "archetype": "Specialisti anti-tank",
         "reason": "I Vital Strike di Fiora infliggono true damage che ignora scudi e resistenze; la R di Olaf cleansa lo stun di W e lo rende unstoppable nei trade; la R di Trundle ruba le bonus resistenze a K'Sante esattamente quando è più vulnerabile in forma All Out.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Early-pressure bruisers with all-in level 1-3",
+        "reason": "They kill you before level 6 power spike. Their CC chain plus sustained damage chunks 70%+ HP off Kayle in a 4-second all-in, and you have no dash to disengage.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Early-pressure bruisers with all-in level 1-3",
+        "reason": "Ti killano prima del power spike di livello 6. La loro CC chain piu il sustained damage tagliano il 70%+ HP a Kayle in un all-in da 4 secondi, e tu non hai un dash per disengage.",
         "via": "counterpick"
       },
       {
@@ -6180,6 +6540,26 @@
       },
       {
         "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Magic Resist tanks with cleanse passives",
+        "reason": "Sion's passive death + Galio's W magic damage shield neutralize your burst windows. Three Mark stacks still stun, but the W detonate hits for half value once they stack MR.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Tank con Magic Resist e passive di cleanse",
+        "reason": "La passive death di Sion e lo shield magic damage della W di Galio neutralizzano le tue burst window. I 3 stack di Mark stunnano comunque, ma la W detonate fa metà danno appena stackano MR.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -6624,6 +7004,46 @@
       },
       {
         "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Champions that bypass invulnerability",
+        "reason": "Olaf's R gives him CC immunity and true damage on R+axe, Garen's R deals true damage scaling on missing HP — both can finish you through Zhonya's Hourglass and even through the front-end of your R.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Stat-check tops with no early kill threat",
+        "reason": "Without burst or hard-CC chains they cannot punish your weak pre-6 phase, and once you hit level 11 ranged auto-attacks you out-DPS them from a safe distance.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Champions that bypass invulnerability",
+        "reason": "La R di Olaf gli da CC immunity e true damage su R + axe, la R di Garen infligge true damage scalando sugli HP mancanti — entrambi ti chiudono attraverso Zhonya's Hourglass e perfino attraverso il front-end della tua R.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Stat-check tops without early kill threat",
+        "reason": "Senza burst e senza catene di hard-CC non punisco il tuo pre-6 debole, e dal livello 11 con auto ranged li out-DPS da distanza sicura.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kayn",
           "role": "jungle",
           "lang": "en"
@@ -6640,6 +7060,26 @@
         },
         "archetype": "Bruiser melee tanky e juggernaut frontline",
         "reason": "Il danno % HP della Q di Rhaast e il knock-up della W stracciano i target con HP alti che altri assassini fanno fatica a uccidere, e riempi gli orb rossi naturalmente fightando contro di loro.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Melee bruisers without a gap-closer",
+        "reason": "Kennen's auto-attack range (~550) outranges their walking speed; Q poke and E reposition farm safely from outside their threat range until level 6 power spike.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee senza gap-closer",
+        "reason": "L'auto-attack range di Kennen (~550) supera la velocità di camminata di questi champion. Q poke e E reposition farmano da fuori threat range fino al power spike di livello 6.",
         "via": "pick_into"
       },
       {
@@ -8612,6 +9052,26 @@
       },
       {
         "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Static-positioning marksmen reliant on their support's lockdown",
+        "reason": "If their support engages first, your R reposition and Wit's End magic on-hit beat their AS curve. They cannot kite a champion who closes 350 units per auto.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Marksman a posizionamento statico dipendenti dal support per il lockdown",
+        "reason": "Se il loro support engagga per primo, la tua R per riposizionarti e Wit's End on-hit battono la loro curva di AS. Non possono kitare un campione che chiude 350 unita' per ogni auto.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kayn",
           "role": "jungle",
           "lang": "en"
@@ -9542,6 +10002,26 @@
       },
       {
         "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Farm-heavy scalers without sustain or hard CC",
+        "reason": "Karthus needs uninterrupted farm windows. Katarina's reset pressure forces him to burn Flash and trade away the late-game scaling that is his only win condition.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Scaler farm-heavy senza sustain o hard CC",
+        "reason": "Karthus ha bisogno di farm tranquillo. La pressione di reset di Katarina lo costringe a bruciare Flash e a saltare lo scaling che è la sua unica win condition.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kha-zix",
           "role": "jungle",
           "lang": "en"
@@ -9741,6 +10221,26 @@
         "archetype": "Mobile assassins with multiple gap-closers",
         "reason": "I loro dash/blink battono i cast time di Hwei. Mentre apre la E e sceglie la sub-spell giusta, l'assassino e' gia' dentro la sua hitbox col burst pronto.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Late-game scaling champions with weak early presence",
+        "reason": "They need 25+ minutes to come online; Karthus already wins skirmishes at level 6 and uses R to deny their Baron solo plays. Out-tempo them by forcing drakes and ending before they hit their power spike.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Late-game scaler con presenza early debole",
+        "reason": "Hanno bisogno di 25+ minuti per arrivare online; Karthus vince gia gli skirmish a livello 6 e usa R per negare le loro Baron solo. Out-tempo: forza drake e chiudi prima che hittino il loro power spike.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -10008,6 +10508,26 @@
       },
       {
         "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Late-game scaling champions with weak early presence",
+        "reason": "They need 25+ minutes to come online; Karthus already wins skirmishes at level 6 and uses R to deny their Baron solo plays. Out-tempo them by forcing drakes and ending before they hit their power spike.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Late-game scaler con presenza early debole",
+        "reason": "Hanno bisogno di 25+ minuti per arrivare online; Karthus vince gia gli skirmish a livello 6 e usa R per negare le loro Baron solo. Out-tempo: forza drake e chiudi prima che hittino il loro power spike.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kled",
           "role": "top",
           "lang": "en"
@@ -10127,6 +10647,26 @@
         "archetype": "Outscaler con tanta mobilità",
         "reason": "Entrambi hanno tool di mobilità (Kayn cammina nei muri, Viego ha il dash on-hit) che ignorano il range della W mist; outscalano il tempo di Gwen negli skirmish late.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Late-game scalers without strong 1-9 windows",
+        "reason": "You match their scaling: any team that lets you reach 16 surrenders the game, because Kayle's AOE on-hit waves outpace their wombo windup.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Late-game scalers without strong 1-9 windows",
+        "reason": "Scalate con tempi simili: ogni squadra che ti lascia arrivare al 16 perde, perche le AOE on-hit di Kayle anticipano il loro wombo.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -10694,6 +11234,26 @@
       },
       {
         "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Stealth or burst assassin junglers",
+        "reason": "They open with isolation damage on a target with zero defenses; even Zhonya's Hourglass only delays the inevitable in a 1v1. Karthus dies before he can stack Conqueror or trade meaningfully.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Assassini stealth o burst dalla jungle",
+        "reason": "Aprono con isolation damage su un bersaglio a difese zero; anche Zhonya's Hourglass ritarda solo l'inevitabile in 1v1. Karthus muore prima di stackare Conqueror o di poter contrattare in modo significativo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lulu",
           "role": "support",
           "lang": "en"
@@ -11120,6 +11680,26 @@
       },
       {
         "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Immobile late-game ADCs without a dash",
+        "reason": "Their only safety is positioning. Kalista hops with every auto-attack, so she trades in melee range without ever standing still — they have no answer except Flash, and you stack Rend faster than they can reset the trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "ADC late-game immobili senza dash",
+        "reason": "La loro unica safety e' il posizionamento. Kalista hopa ad ogni auto-attack, quindi tradea in melee senza mai stare ferma: non hanno risposta tranne Flash, e tu stacki Rend piu' veloce di quanto loro resettino il trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kha-zix",
           "role": "jungle",
           "lang": "en"
@@ -11501,6 +12081,26 @@
         "archetype": "Jungler skirmisher early-game",
         "reason": "Jarvan trade alla pari al livello 3 con Q armor shred + E attack speed e supera in scaling la maggior parte dei jungler early una volta online Sundered Sky verso il minuto 12-14.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early-game invade junglers with hard CC",
+        "reason": "They walk into Karthus's jungle at level 2-3 before Defile mana scales. Karthus has no escape, no dash, and his Q is too slow to save him from a Lee Sin Q + W chain or an Elise rappel. One bad invade ends his game permanently.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler early-game da invade con CC duro",
+        "reason": "Entrano nella jungla di Karthus a livello 2-3 prima che Defile scali in mana. Karthus non ha escape, niente dash, e la Q e troppo lenta per salvarlo da una catena Lee Sin Q + W o da un rappel Elise. Un invade andato male gli rovina la partita.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -12108,6 +12708,26 @@
       },
       {
         "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged sustain top laners",
+        "reason": "They out-range your Q for the first 6 levels and heal off poke trades. Without gap-closer, Kennen takes the worse end of every short trade and falls behind on CS by minute 8.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top a sustain ranged",
+        "reason": "Hanno range superiore al tuo Q nei primi 6 livelli e si curano dei tuoi poke. Senza gap-closer, Kennen prende la peggio in ogni trade breve e resta indietro di CS al minuto 8.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "vi",
           "role": "jungle",
           "lang": "en"
@@ -12266,6 +12886,26 @@
         },
         "archetype": "Mage con CC point-and-click",
         "reason": "La R di Lissandra è stasi point-and-click (niente skillshot da schivare con E), la R di Malzahar suppressa attraverso il recast di E. Entrambe puliscono la wave, quindi Fizz non può zonarle in lane.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Point-and-click hard-CC mages",
+        "reason": "Their stun is instant and uncounterable: it cancels Death Lotus mid-channel and turns Katarina into a stationary punching bag while their team collapses on her.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage con hard CC point-and-click",
+        "reason": "Lo stun è istantaneo e non si schiva: cancella Death Lotus a metà channel e trasforma Katarina in un sacco fermo mentre il team nemico le si butta addosso.",
         "via": "counterpick"
       },
       {
@@ -12448,6 +13088,26 @@
         },
         "archetype": "Bully da lane con auto-attack damage early più alto",
         "reason": "Entrambi battono Kai'Sa nei trade ai livelli 1-3, prima della soglia di evolve della Q. Le axes potenziate di Draven e il double-shot passive di Lucian vincono ogni trade breve prima che Kai'Sa scali.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Lane-bully marksmen with strong level 1-3 all-in",
+        "reason": "Their early damage outpaces your hop spacing (the safe distance you keep using auto-attack jumps) before you have the AS to stack Press the Attack. One bad Q at level 2 and they collect a kill before your support can answer.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Lane-bully marksman con forte all-in livelli 1-3",
+        "reason": "Il loro early damage supera il tuo hop spacing (la distanza di sicurezza che tieni saltando con ogni auto) prima che tu abbia AS per stackare Press the Attack. Una Q sbagliata al lvl 2 e prendono una kill prima che il support risponda.",
         "via": "counterpick"
       },
       {
@@ -13093,6 +13753,46 @@
         "archetype": "Mage support da zone control / lungo raggio",
         "reason": "La E di Lux taglia gli angoli di brush di Ivern e poke fuori dal range della Q; il seed-and-plant di Zyra controlla la zona meglio del W passive di Ivern senza mai farsi avanti.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Skillshot setup mages with no escape",
+        "reason": "Their damage comes from landing a long-range setup (Q root, stun stack); Kassadin's late R lets him sidestep the skillshot mid-combo and close the gap with a blink they cannot answer.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Skillshot mage di setup senza escape",
+        "reason": "Il loro danno richiede una setup a lungo raggio (Q root, stack di stun); la R late di Kassadin permette di sidestepparla mid-combo e chiudere il gap con un blink che non possono punire.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mid-range mages with no escape",
+        "reason": "Both rely on positioning behind minions. Katarina blinks to a Dagger past the wave, deletes them with W-E-Q-AA, and resets on the kill into the next target.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage a medio raggio senza escape",
+        "reason": "Entrambe vivono di posizionamento dietro ai minion. Katarina blinka su un Dagger oltre l'onda, le elimina con W-E-Q-AA, poi resetta sulla kill verso il target successivo.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -14630,6 +15330,26 @@
       },
       {
         "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Stat-check tops with no early kill threat",
+        "reason": "Without burst or hard-CC chains they cannot punish your weak pre-6 phase, and once you hit level 11 ranged auto-attacks you out-DPS them from a safe distance.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Stat-check tops without early kill threat",
+        "reason": "Senza burst e senza catene di hard-CC non punisco il tuo pre-6 debole, e dal livello 11 con auto ranged li out-DPS da distanza sicura.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "nasus",
           "role": "top",
           "lang": "en"
@@ -15236,6 +15956,46 @@
       },
       {
         "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Late-game scaling champions with weak early presence",
+        "reason": "They need 25+ minutes to come online; Karthus already wins skirmishes at level 6 and uses R to deny their Baron solo plays. Out-tempo them by forcing drakes and ending before they hit their power spike.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Late-game scaler con presenza early debole",
+        "reason": "Hanno bisogno di 25+ minuti per arrivare online; Karthus vince gia gli skirmish a livello 6 e usa R per negare le loro Baron solo. Out-tempo: forza drake e chiudi prima che hittino il loro power spike.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Stat-check tops with no early kill threat",
+        "reason": "Without burst or hard-CC chains they cannot punish your weak pre-6 phase, and once you hit level 11 ranged auto-attacks you out-DPS them from a safe distance.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Stat-check tops without early kill threat",
+        "reason": "Senza burst e senza catene di hard-CC non punisco il tuo pre-6 debole, e dal livello 11 con auto ranged li out-DPS da distanza sicura.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kled",
           "role": "top",
           "lang": "en"
@@ -15594,6 +16354,26 @@
         },
         "archetype": "Support engage con CC point-and-click",
         "reason": "Kai'Sa non ha dash prima della R, e la R richiede un bersaglio con Plasma. Una E di Leona o Q di Nautilus la blocca a metà lane prima che possa stackare un solo Plasma; la chain CC la uccide prima che parta l'invisibilità della E evolved.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Hook supports the enemy team picks against your Soulbound partner",
+        "reason": "If they hook your support, the Soulbound link is irrelevant: you cannot R him out of the grab line, and the engage happens 800+ units away from your hop window.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Hook support pickati contro il tuo Soulbound partner",
+        "reason": "Se hookano il tuo support, il link Soulbound diventa irrilevante: non puoi R-arlo fuori dalla linea del grab, e l'engage avviene 800+ unita' fuori dalla tua hop window.",
         "via": "counterpick"
       },
       {
@@ -16022,6 +16802,26 @@
       },
       {
         "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Vision-deny gankers and tracker junglers",
+        "reason": "Nocturne R cuts the team's vision so Karthus cannot see the engage onto his back line; Warwick's blood-tracking turns a cross-map R cast into a free dive on a ulti-channelling target. Karthus needs vision to channel R safely — these two strip it.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Vision-deny ganker e tracker jungler",
+        "reason": "Nocturne R taglia la vision del team, Karthus non vede l'engage sulla sua back line; il blood tracking di Warwick trasforma una R cross-map in un dive su un bersaglio in channel. Karthus ha bisogno di vision per channellare R in sicurezza, e questi due la tolgono.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "miss-fortune",
           "role": "bot",
           "lang": "en"
@@ -16224,6 +17024,46 @@
       },
       {
         "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Champions that bypass invulnerability",
+        "reason": "Olaf's R gives him CC immunity and true damage on R+axe, Garen's R deals true damage scaling on missing HP — both can finish you through Zhonya's Hourglass and even through the front-end of your R.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Champions that bypass invulnerability",
+        "reason": "La R di Olaf gli da CC immunity e true damage su R + axe, la R di Garen infligge true damage scalando sugli HP mancanti — entrambi ti chiudono attraverso Zhonya's Hourglass e perfino attraverso il front-end della tua R.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Short-range juggernauts",
+        "reason": "Kite them with E dash and the on-hit W passive; their stickiness depends on landing every step on you, and your range plus dash refresh keeps them outside auto-attack range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Juggernaut a corto raggio",
+        "reason": "Li kiti col dash di E e con la passive on-hit di W. La loro stickiness dipende dal restarti incollato, e il tuo range più il refresh del dash li tengono fuori dal range delle loro auto.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "mordekaiser",
           "role": "top",
           "lang": "en"
@@ -16282,6 +17122,26 @@
         },
         "archetype": "Control mage senza dash",
         "reason": "La R blinka oltre il loro zone control prima che possano piazzare il setup CC. Se appari dalla fog, non hanno tool per uscire.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Mid-range mages with no escape",
+        "reason": "Both rely on positioning behind minions. Katarina blinks to a Dagger past the wave, deletes them with W-E-Q-AA, and resets on the kill into the next target.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage a medio raggio senza escape",
+        "reason": "Entrambe vivono di posizionamento dietro ai minion. Katarina blinka su un Dagger oltre l'onda, le elimina con W-E-Q-AA, poi resetta sulla kill verso il target successivo.",
         "via": "pick_into"
       },
       {
@@ -16626,6 +17486,66 @@
         },
         "archetype": "Engage point-and-click con stun",
         "reason": "Le loro catene di CC bloccano Gwen prima che possa attivare W. Stunnata a metà dash, mangia tutta la combo nemica prima che la mist scenda.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Snowball lane bullies with all-in pressure",
+        "reason": "Their level 2-3 all-in (Pantheon Q+W stun, Yasuo Q-windwall-knockup) shreds Kassadin's HP before he has Q max ranks. Q magic shield is useless against physical damage.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Lane bully con pressione all-in",
+        "reason": "Il loro all-in al livello 2-3 (Pantheon Q+W stun, Yasuo Q-windwall-knockup) ti polverizza l'HP prima che la tua Q sia max rank. Il magic shield della Q e' inutile contro danno fisico.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Burst all-in midlaners with point-and-click engage",
+        "reason": "Diana's Q-R combo and Pantheon's W stun both connect before Katarina can drop her own W Dagger. She loses the trade race and falls behind on item spikes.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Burst all-in midlaner con engage point-and-click",
+        "reason": "Il combo Q-R di Diana e lo stun W di Pantheon arrivano prima ancora che Katarina riesca a droppare il Dagger di W. Perde la trade race e i power spike di item.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Point-and-click hard CC bruisers",
+        "reason": "Their stun (Pantheon W) or root (Camille E second cast) cancels your R channel mid-cast — you lose the AOE stun setup before any stack lands, turning your engage into a wasted ult.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser con CC point-and-click",
+        "reason": "Lo stun di Pantheon W (bersaglio singolo, instant) o il root di Camille E2 ti cancellano la R a metà channel — perdi lo stun AOE prima che landi un singolo stack, trasformando l'engage in una ulti sprecata.",
         "via": "counterpick"
       },
       {
@@ -18350,6 +19270,26 @@
       },
       {
         "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Early-pressure bruisers with all-in level 1-3",
+        "reason": "They kill you before level 6 power spike. Their CC chain plus sustained damage chunks 70%+ HP off Kayle in a 4-second all-in, and you have no dash to disengage.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Early-pressure bruisers with all-in level 1-3",
+        "reason": "Ti killano prima del power spike di livello 6. La loro CC chain piu il sustained damage tagliano il 70%+ HP a Kayle in un all-in da 4 secondi, e tu non hai un dash per disengage.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "mordekaiser",
           "role": "top",
           "lang": "en"
@@ -18512,6 +19452,26 @@
       },
       {
         "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Stealth or burst assassin junglers",
+        "reason": "They open with isolation damage on a target with zero defenses; even Zhonya's Hourglass only delays the inevitable in a 1v1. Karthus dies before he can stack Conqueror or trade meaningfully.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Assassini stealth o burst dalla jungle",
+        "reason": "Aprono con isolation damage su un bersaglio a difese zero; anche Zhonya's Hourglass ritarda solo l'inevitabile in 1v1. Karthus muore prima di stackare Conqueror o di poter contrattare in modo significativo.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lulu",
           "role": "support",
           "lang": "en"
@@ -18631,6 +19591,26 @@
         "archetype": "Diver dipendenti da combo con un solo commit window",
         "reason": "Lo stun di Q e il 40%+ di damage reduction di W mangiano il loro all-in: una volta spesi dash e burst, K'Sante ribalta lo scambio con R e li chiude in forma All Out.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Early-pressure bruisers with all-in level 1-3",
+        "reason": "They kill you before level 6 power spike. Their CC chain plus sustained damage chunks 70%+ HP off Kayle in a 4-second all-in, and you have no dash to disengage.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Early-pressure bruisers with all-in level 1-3",
+        "reason": "Ti killano prima del power spike di livello 6. La loro CC chain piu il sustained damage tagliano il 70%+ HP a Kayle in un all-in da 4 secondi, e tu non hai un dash per disengage.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -19060,6 +20040,26 @@
       },
       {
         "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Lane-bully marksmen with strong level 1-3 all-in",
+        "reason": "Their early damage outpaces your hop spacing (the safe distance you keep using auto-attack jumps) before you have the AS to stack Press the Attack. One bad Q at level 2 and they collect a kill before your support can answer.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Lane-bully marksman con forte all-in livelli 1-3",
+        "reason": "Il loro early damage supera il tuo hop spacing (la distanza di sicurezza che tieni saltando con ogni auto) prima che tu abbia AS per stackare Press the Attack. Una Q sbagliata al lvl 2 e prendono una kill prima che il support risponda.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "miss-fortune",
           "role": "bot",
           "lang": "en"
@@ -19319,6 +20319,26 @@
         "archetype": "Tank jungler lenti senza gank early forte",
         "reason": "Hecarim li out-clearra e arriva al level 3 prima di loro; può invadergli il secondo buff o counter-gankare una lane prima che si presentino. La sua scalatura sulla speed batte la loro sulle stat pure.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Slow farm-heavy junglers without level-3 invade",
+        "reason": "They full-clear on the same speed Karthus does, but Karthus has the global R that turns their gank into a 2-for-1 trade — even if they kill your laner, R cleans up theirs cross-map before they recall.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler farm-heavy lenti senza invade level 3",
+        "reason": "Full-clearano alla stessa velocita di Karthus, ma Karthus ha la R globale che trasforma il loro gank in uno scambio 2-for-1: anche se uccidono il tuo laner, R fa cleanup del loro cross-map prima che riescano a recall.",
+        "via": "pick_into"
       }
     ],
     "senna": [
@@ -19540,6 +20560,46 @@
         },
         "archetype": "Carry da late-game senza escape",
         "reason": "La W ha 3000 unità di range e li rivela per 4s: Kai'Sa li poka fuori dalla wave da fuori threat range, poi R appena Plasma è pieno.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Backline scalers with no mobility",
+        "reason": "Cross-map R turns their positioning mistakes into kills on objective spawns. They contribute from far away but cannot dodge a global snipe locked onto a missing flash or ult.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Backline scaler senza mobilita",
+        "reason": "La R cross-map trasforma i loro errori di posizione in kill sugli objective spawn. Contribuiscono da lontano ma non possono schivare uno snipe globale lockato su una flash o ulti mancante.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Carries you can babysit with R",
+        "reason": "Global ulti makes you the best peeler in the game — drop R the second they get dived and your carry survives a full burst chain unharmed.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Carries you can babysit with R",
+        "reason": "Ulti globale: sei il miglior peeler della partita. R sull'ADC nel momento del dive e il carry sopravvive al burst chain integro.",
         "via": "pick_into"
       },
       {
@@ -20128,6 +21188,26 @@
       },
       {
         "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Melee bruisers without a gap-closer",
+        "reason": "Kennen's auto-attack range (~550) outranges their walking speed; Q poke and E reposition farm safely from outside their threat range until level 6 power spike.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Bruiser melee senza gap-closer",
+        "reason": "L'auto-attack range di Kennen (~550) supera la velocità di camminata di questi champion. Q poke e E reposition farmano da fuori threat range fino al power spike di livello 6.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kha-zix",
           "role": "jungle",
           "lang": "en"
@@ -20287,6 +21367,26 @@
         "archetype": "Assassini squishy senza disengage",
         "reason": "La W mist nega il loro target lock durante un all-in. Si committano, mangiano il cono di Q true damage in mist, e non hanno un secondo escape perché hanno già speso il dash.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Stealth or burst assassin junglers",
+        "reason": "They open with isolation damage on a target with zero defenses; even Zhonya's Hourglass only delays the inevitable in a 1v1. Karthus dies before he can stack Conqueror or trade meaningfully.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Assassini stealth o burst dalla jungle",
+        "reason": "Aprono con isolation damage su un bersaglio a difese zero; anche Zhonya's Hourglass ritarda solo l'inevitabile in 1v1. Karthus muore prima di stackare Conqueror o di poter contrattare in modo significativo.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -20658,6 +21758,26 @@
       },
       {
         "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Magic Resist tanks with cleanse passives",
+        "reason": "Sion's passive death + Galio's W magic damage shield neutralize your burst windows. Three Mark stacks still stun, but the W detonate hits for half value once they stack MR.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Tank con Magic Resist e passive di cleanse",
+        "reason": "La passive death di Sion e lo shield magic damage della W di Galio neutralizzano le tue burst window. I 3 stack di Mark stunnano comunque, ma la W detonate fa metà danno appena stackano MR.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "orianna",
           "role": "mid",
           "lang": "en"
@@ -20816,6 +21936,26 @@
         },
         "archetype": "ADC immobili senza dash",
         "reason": "Una volta che Kai'Sa ha 5 stack di Plasma in range R, gli ADC immobili non possono uscire dal dash + Q burst. Devono sopravvivere all'all-in (scambio totale fino alla kill, senza spazio per disimpegnarsi) senza alcun reposition tool.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Immobile late-game ADCs without a dash",
+        "reason": "Their only safety is positioning. Kalista hops with every auto-attack, so she trades in melee range without ever standing still — they have no answer except Flash, and you stack Rend faster than they can reset the trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "ADC late-game immobili senza dash",
+        "reason": "La loro unica safety e' il posizionamento. Kalista hopa ad ogni auto-attack, quindi tradea in melee senza mai stare ferma: non hanno risposta tranne Flash, e tu stacki Rend piu' veloce di quanto loro resettino il trade.",
         "via": "pick_into"
       },
       {
@@ -21506,6 +22646,26 @@
       },
       {
         "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Backline scalers with no mobility",
+        "reason": "Cross-map R turns their positioning mistakes into kills on objective spawns. They contribute from far away but cannot dodge a global snipe locked onto a missing flash or ult.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Backline scaler senza mobilita",
+        "reason": "La R cross-map trasforma i loro errori di posizione in kill sugli objective spawn. Contribuiscono da lontano ma non possono schivare uno snipe globale lockato su una flash o ulti mancante.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kayn",
           "role": "jungle",
           "lang": "en"
@@ -21952,6 +23112,26 @@
       },
       {
         "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Skillshot setup mages with no escape",
+        "reason": "Their damage comes from landing a long-range setup (Q root, stun stack); Kassadin's late R lets him sidestep the skillshot mid-combo and close the gap with a blink they cannot answer.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Skillshot mage di setup senza escape",
+        "reason": "Il loro danno richiede una setup a lungo raggio (Q root, stack di stun); la R late di Kassadin permette di sidestepparla mid-combo e chiudere il gap con un blink che non possono punire.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "zed",
           "role": "mid",
           "lang": "en"
@@ -22073,6 +23253,28 @@
         "via": "counterpick"
       }
     ],
+    "taliyah": [
+      {
+        "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range area-denial mages",
+        "reason": "Pre-6 they bully Kassadin, but post-11 his magic shield from Q + R mobility cancel their kiting tools. Once the game goes long, their AOE is wasted on a target they cannot pin down.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage di area-denial a lungo raggio",
+        "reason": "Pre-6 ti bullizzano, ma post-11 il magic shield della Q + la mobilita' della R neutralizzano i loro tool di kiting. Quando la partita va lunga, la loro AOE e' sprecata su un target che non riescono a fissare.",
+        "via": "pick_into"
+      }
+    ],
     "talon": [
       {
         "publisher": {
@@ -22192,6 +23394,26 @@
         },
         "archetype": "Bullies di lane early-game",
         "reason": "Out-tradano Fizz ai livelli 1-3 prima che arrivi al power spike di livello 6. Lo stun di Pantheon W e la Q scudata pokano ogni passo avanti; la Q di Talon ha la stessa range con costo mana inferiore.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Early-game AD assassins",
+        "reason": "They hit two-item powerspike around minute 14 while Kassadin is still on his first item. Roams to side lanes punish Kassadin's slow scaling — the game ends before his late game arrives.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassin AD early-game",
+        "reason": "Hanno il powerspike a 2 item intorno al minuto 14 mentre Kassadin e' ancora al primo item. I roam in side lane puniscono lo scaling lento di Kassadin: la partita finisce prima che arrivi il tuo late game.",
         "via": "counterpick"
       },
       {
@@ -22860,6 +24082,26 @@
       },
       {
         "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Hook supports the enemy team picks against your Soulbound partner",
+        "reason": "If they hook your support, the Soulbound link is irrelevant: you cannot R him out of the grab line, and the engage happens 800+ units away from your hop window.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Hook support pickati contro il tuo Soulbound partner",
+        "reason": "Se hookano il tuo support, il link Soulbound diventa irrilevante: non puoi R-arlo fuori dalla linea del grab, e l'engage avviene 800+ unita' fuori dalla tua hop window.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "karma",
           "role": "support",
           "lang": "en"
@@ -23118,6 +24360,26 @@
         },
         "archetype": "Hypercarry mobili con escape integrate",
         "reason": "Dash integrate (Kai'Sa E reposition, Tristana W jump) schivano la W e interrompono il cast della R. Scalano in un 1v1 da cui Jhin non riesce a kitare via.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Mobile self-peel hypercarries",
+        "reason": "Tristana W out of your dive, Vayne tumble-cancels your Press the Attack stack timer. Both scale into items that beat your on-hit core in a 1v1 past minute 25.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Hypercarry mobili con self-peel",
+        "reason": "Tristana W esce dal tuo dive, Vayne tumble cancella il timer dello stack di Press the Attack. Entrambe scalano in item che battono il tuo core on-hit in 1v1 dopo il minuto 25.",
         "via": "counterpick"
       },
       {
@@ -23426,6 +24688,26 @@
       },
       {
         "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Splitpushers without reliable hard CC",
+        "reason": "They cannot lock you down to prevent your R channel. Once Kennen reaches an item or two, every teamfight he flanks is a 3-stack stun on multiple enemies — they cannot match that map impact alone in a side lane.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Splitpusher senza CC affidabile",
+        "reason": "Non hanno modo di lockarti per impedire il channel della R. Una volta che Kennen ha 1-2 item, ogni teamfight in cui flanka è uno stun a 3 stack su più nemici: nessun split può eguagliare quell'impatto da solo in side lane.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kled",
           "role": "top",
           "lang": "en"
@@ -23708,6 +24990,26 @@
       },
       {
         "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "They cannot exit Katarina's W-E-Q burst window. Once their setup ability (Veigar cage, TF gold card, Anivia E) is on cooldown they have no answer to a Shunpo all-in.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "Non possono uscire dalla burst window W-E-Q di Katarina. Una volta speso il setup (gabbia di Veigar, gold card di TF, E di Anivia) non hanno risposta a uno Shunpo all-in.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "lux",
           "role": "mid",
           "lang": "en"
@@ -23928,6 +25230,26 @@
         },
         "archetype": "Jungler farmer senza tool di flank",
         "reason": "Scalano linearmente con il farm ma non possono punire la tua invade tra livello 1 e 3. A livello 6, il tuo Crowstorm dalla fog batte i loro engage face-tank perché non hanno escape pre-cast.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Short-range juggernauts",
+        "reason": "Kite them with E dash and the on-hit W passive; their stickiness depends on landing every step on you, and your range plus dash refresh keeps them outside auto-attack range.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Juggernaut a corto raggio",
+        "reason": "Li kiti col dash di E e con la passive on-hit di W. La loro stickiness dipende dal restarti incollato, e il tuo range più il refresh del dash li tengono fuori dal range delle loro auto.",
         "via": "pick_into"
       },
       {
@@ -24172,6 +25494,26 @@
         },
         "archetype": "Marksman immobili da late-scaling",
         "reason": "Jinx scala e teamfight meglio dei marksman statici: la Q razzo più Runaan's Hurricane sbriciola una back line ammucchiata che non ha dash per riposizionarsi una volta partito il fight.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Static-positioning marksmen reliant on their support's lockdown",
+        "reason": "If their support engages first, your R reposition and Wit's End magic on-hit beat their AS curve. They cannot kite a champion who closes 350 units per auto.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Marksman a posizionamento statico dipendenti dal support per il lockdown",
+        "reason": "Se il loro support engagga per primo, la tua R per riposizionarti e Wit's End on-hit battono la loro curva di AS. Non possono kitare un campione che chiude 350 unita' per ogni auto.",
         "via": "pick_into"
       },
       {
@@ -24615,6 +25957,46 @@
         "archetype": "Hyper-scaler late-game che superano Kai'Sa post-3-item",
         "reason": "Il true damage sulla W di Vayne e l'Expunge di Twitch crescono più dello scaling hybrid di Kai'Sa una volta che entrambe le squadre sono a 3 item. Kai'Sa deve chiudere prima del minuto 30 o il danno relativo cala.",
         "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "en"
+        },
+        "archetype": "Mobile self-peel hypercarries",
+        "reason": "Tristana W out of your dive, Vayne tumble-cancels your Press the Attack stack timer. Both scale into items that beat your on-hit core in a 1v1 past minute 25.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kalista",
+          "role": "bot",
+          "lang": "it"
+        },
+        "archetype": "Hypercarry mobili con self-peel",
+        "reason": "Tristana W esce dal tuo dive, Vayne tumble cancella il timer dello stack di Press the Attack. Entrambe scalano in item che battono il tuo core on-hit in 1v1 dopo il minuto 25.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Carries you can babysit with R",
+        "reason": "Global ulti makes you the best peeler in the game — drop R the second they get dived and your carry survives a full burst chain unharmed.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Carries you can babysit with R",
+        "reason": "Ulti globale: sei il miglior peeler della partita. R sull'ADC nel momento del dive e il carry sopravvive al burst chain integro.",
+        "via": "pick_into"
       },
       {
         "publisher": {
@@ -25180,6 +26562,86 @@
       },
       {
         "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Late-game scaling champions with weak early presence",
+        "reason": "They need 25+ minutes to come online; Karthus already wins skirmishes at level 6 and uses R to deny their Baron solo plays. Out-tempo them by forcing drakes and ending before they hit their power spike.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Late-game scaler con presenza early debole",
+        "reason": "Hanno bisogno di 25+ minuti per arrivare online; Karthus vince gia gli skirmish a livello 6 e usa R per negare le loro Baron solo. Out-tempo: forza drake e chiudi prima che hittino il loro power spike.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "After level 11 Riftwalk has a 2s cooldown: you blink onto them, Q the cast, E to slow, and AA-execute before they can land their full burst combo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "Dopo il livello 11 il CD di Riftwalk e' 2s: blinki sopra di loro, Q sul cast, E per slow, AA-execute prima che riescano a piazzare il loro burst combo completo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "They cannot exit Katarina's W-E-Q burst window. Once their setup ability (Veigar cage, TF gold card, Anivia E) is on cooldown they have no answer to a Shunpo all-in.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "Non possono uscire dalla burst window W-E-Q di Katarina. Una volta speso il setup (gabbia di Veigar, gold card di TF, E di Anivia) non hanno risposta a uno Shunpo all-in.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Late-game scalers without strong 1-9 windows",
+        "reason": "You match their scaling: any team that lets you reach 16 surrenders the game, because Kayle's AOE on-hit waves outpace their wombo windup.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Late-game scalers without strong 1-9 windows",
+        "reason": "Scalate con tempi simili: ogni squadra che ti lascia arrivare al 16 perde, perche le AOE on-hit di Kayle anticipano il loro wombo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
           "champion": "kled",
           "role": "top",
           "lang": "en"
@@ -25678,6 +27140,46 @@
         },
         "archetype": "Mage artiglieria a lungo raggio",
         "reason": "Hanno range superiore a Cannon Q. La Q di Xerath (Arcanopulse) e la Q di Vel'Koz (Plasma Fission) colpiscono a distanze che Jayce non può eguagliare senza camminare nella loro full combo. Ogni wave fight ti drena HP senza darti la finestra per fare all-in di rimando.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range poke mages",
+        "reason": "They poke from outside Kassadin's Q range (650) for the entire pre-6 window. Q magic shield helps but does not refill HP — by level 6 Kassadin is already at half bar and cannot all-in.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Poke mage a lungo raggio",
+        "reason": "Pokano fuori dal range della tua Q (650) per tutta la fase pre-6. Il magic shield della Q aiuta ma non ricarica HP — al livello 6 sei gia' a meta' barra e non puoi all-in.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "They poke Katarina down from outside her Q range (625) for the first 5 levels. She reaches level 6 already at 40% HP, with no Voracity reset available, and dies to a single skillshot rotation.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage da artiglieria a lungo raggio",
+        "reason": "Pokano Katarina fuori dalla sua range di Q (625) per i primi 5 livelli. Arriva al level 6 già al 40% HP, senza reset disponibili, e muore a una sola rotazione di skillshot.",
         "via": "counterpick"
       },
       {
@@ -26250,6 +27752,46 @@
       },
       {
         "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Immobile mages without dash",
+        "reason": "After level 11 Riftwalk has a 2s cooldown: you blink onto them, Q the cast, E to slow, and AA-execute before they can land their full burst combo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage immobili senza dash",
+        "reason": "Dopo il livello 11 il CD di Riftwalk e' 2s: blinki sopra di loro, Q sul cast, E per slow, AA-execute prima che riescano a piazzare il loro burst combo completo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Ranged sustain top laners",
+        "reason": "They out-range your Q for the first 6 levels and heal off poke trades. Without gap-closer, Kennen takes the worse end of every short trade and falls behind on CS by minute 8.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Top a sustain ranged",
+        "reason": "Hanno range superiore al tuo Q nei primi 6 livelli e si curano dei tuoi poke. Senza gap-closer, Kennen prende la peggio in ogni trade breve e resta indietro di CS al minuto 8.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "mordekaiser",
           "role": "top",
           "lang": "en"
@@ -26511,6 +28053,26 @@
         "archetype": "Diver junglers vistosi",
         "reason": "La loro gank è un solo salto telegrafato — la Q li knock-uppa a mezz'aria e la R li rispedisce indietro da dove sono partiti, sprecando il cooldown.",
         "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Vision-deny gankers and tracker junglers",
+        "reason": "Nocturne R cuts the team's vision so Karthus cannot see the engage onto his back line; Warwick's blood-tracking turns a cross-map R cast into a free dive on a ulti-channelling target. Karthus needs vision to channel R safely — these two strip it.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Vision-deny ganker e tracker jungler",
+        "reason": "Nocturne R taglia la vision del team, Karthus non vede l'engage sulla sua back line; il blood tracking di Warwick trasforma una R cross-map in un dive su un bersaglio in channel. Karthus ha bisogno di vision per channellare R in sicurezza, e questi due la tolgono.",
+        "via": "counterpick"
       },
       {
         "publisher": {
@@ -27138,6 +28700,46 @@
       },
       {
         "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range poke mages",
+        "reason": "They poke from outside Kassadin's Q range (650) for the entire pre-6 window. Q magic shield helps but does not refill HP — by level 6 Kassadin is already at half bar and cannot all-in.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Poke mage a lungo raggio",
+        "reason": "Pokano fuori dal range della tua Q (650) per tutta la fase pre-6. Il magic shield della Q aiuta ma non ricarica HP — al livello 6 sei gia' a meta' barra e non puoi all-in.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range artillery mages",
+        "reason": "They poke Katarina down from outside her Q range (625) for the first 5 levels. She reaches level 6 already at 40% HP, with no Voracity reset available, and dies to a single skillshot rotation.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "katarina",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Mage da artiglieria a lungo raggio",
+        "reason": "Pokano Katarina fuori dalla sua range di Q (625) per i primi 5 livelli. Arriva al level 6 già al 40% HP, senza reset disponibili, e muore a una sola rotazione di skillshot.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "leona",
           "role": "support",
           "lang": "en"
@@ -27416,6 +29018,26 @@
         },
         "archetype": "Duellanti early-game forti con gap-closer",
         "reason": "Battono Elise nell'1v1 al livello 3 se finisce il mana di cocoon o sbaglia il timing di Rappel. Evita di invadere il loro river: i loro dash mangiano la tua unica escape.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Early-game invade junglers with hard CC",
+        "reason": "They walk into Karthus's jungle at level 2-3 before Defile mana scales. Karthus has no escape, no dash, and his Q is too slow to save him from a Lee Sin Q + W chain or an Elise rappel. One bad invade ends his game permanently.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Jungler early-game da invade con CC duro",
+        "reason": "Entrano nella jungla di Karthus a livello 2-3 prima che Defile scali in mana. Karthus non ha escape, niente dash, e la Q e troppo lenta per salvarlo da una catena Lee Sin Q + W o da un rappel Elise. Un invade andato male gli rovina la partita.",
         "via": "counterpick"
       },
       {
@@ -27898,6 +29520,26 @@
         },
         "archetype": "Assassini mobili e diver",
         "reason": "Jinx non ha dash, blink o CC istantaneo: un singolo gap-close oltre Flame Chompers! di solito la cancella prima che la E parta o prima che il root scada.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Snowball lane bullies with all-in pressure",
+        "reason": "Their level 2-3 all-in (Pantheon Q+W stun, Yasuo Q-windwall-knockup) shreds Kassadin's HP before he has Q max ranks. Q magic shield is useless against physical damage.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Lane bully con pressione all-in",
+        "reason": "Il loro all-in al livello 2-3 (Pantheon Q+W stun, Yasuo Q-windwall-knockup) ti polverizza l'HP prima che la tua Q sia max rank. Il magic shield della Q e' inutile contro danno fisico.",
         "via": "counterpick"
       },
       {
@@ -28404,6 +30046,26 @@
       },
       {
         "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Mobile lane bullies with multiple gap-closers",
+        "reason": "Camille's E hookshot and Yone's Q3 dash both ignore the position you tried to hold; they close the gap before your Q + auto trade resolves.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kayle",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Mobile lane bullies with multiple gap-closers",
+        "reason": "L'E hookshot di Camille e la Q3 dash di Yone ignorano la posizione che provi a tenere; chiudono la distanza prima che il tuo trade Q + auto si concluda.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "malphite",
           "role": "top",
           "lang": "en"
@@ -28662,6 +30324,26 @@
         },
         "archetype": "Scaler lenti senza tool di harass in lane",
         "reason": "Il loro kill threat richiede item. La Cannon Q rimuove minuti di farm prima del power spike, e la Hammer E knockback nega la finestra di all-in quando finalmente provano a committare.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "en"
+        },
+        "archetype": "Splitpushers without reliable hard CC",
+        "reason": "They cannot lock you down to prevent your R channel. Once Kennen reaches an item or two, every teamfight he flanks is a 3-stack stun on multiple enemies — they cannot match that map impact alone in a side lane.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "kennen",
+          "role": "top",
+          "lang": "it"
+        },
+        "archetype": "Splitpusher senza CC affidabile",
+        "reason": "Non hanno modo di lockarti per impedire il channel della R. Una volta che Kennen ha 1-2 item, ogni teamfight in cui flanka è uno stun a 3 stack su più nemici: nessun split può eguagliare quell'impatto da solo in side lane.",
         "via": "pick_into"
       }
     ],
@@ -28984,6 +30666,26 @@
         },
         "archetype": "Enchanter passivi senza CC duro",
         "reason": "Non possono punire una Q sbagliata, quindi Karma poka l'ADC senza rischio e snowballa la lane prima che loro raggiungano lo spike di item.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "en"
+        },
+        "archetype": "Backline scalers with no mobility",
+        "reason": "Cross-map R turns their positioning mistakes into kills on objective spawns. They contribute from far away but cannot dodge a global snipe locked onto a missing flash or ult.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "karthus",
+          "role": "jungle",
+          "lang": "it"
+        },
+        "archetype": "Backline scaler senza mobilita",
+        "reason": "La R cross-map trasforma i loro errori di posizione in kill sugli objective spawn. Contribuiscono da lontano ma non possono schivare uno snipe globale lockato su una flash o ulti mancante.",
         "via": "pick_into"
       },
       {
@@ -29612,6 +31314,26 @@
       },
       {
         "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Early-game AD assassins",
+        "reason": "They hit two-item powerspike around minute 14 while Kassadin is still on his first item. Roams to side lanes punish Kassadin's slow scaling — the game ends before his late game arrives.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Assassin AD early-game",
+        "reason": "Hanno il powerspike a 2 item intorno al minuto 14 mentre Kassadin e' ancora al primo item. I roam in side lane puniscono lo scaling lento di Kassadin: la partita finisce prima che arrivi il tuo late game.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
           "champion": "lulu",
           "role": "support",
           "lang": "en"
@@ -30133,6 +31855,28 @@
         "archetype": "Mage stazionari con cast telegrafati",
         "reason": "Il loro waveclear e danno dipendono da proiettili lenti o zone evitabili con la E. A 6, basta un gank con knock-up del jungler per cancellarli.",
         "via": "pick_into"
+      }
+    ],
+    "zoe": [
+      {
+        "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "en"
+        },
+        "archetype": "Long-range poke mages",
+        "reason": "They poke from outside Kassadin's Q range (650) for the entire pre-6 window. Q magic shield helps but does not refill HP — by level 6 Kassadin is already at half bar and cannot all-in.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "kassadin",
+          "role": "mid",
+          "lang": "it"
+        },
+        "archetype": "Poke mage a lungo raggio",
+        "reason": "Pokano fuori dal range della tua Q (650) per tutta la fase pre-6. Il magic shield della Q aiuta ma non ricarica HP — al livello 6 sei gia' a meta' barra e non puoi all-in.",
+        "via": "counterpick"
       }
     ],
     "zyra": [

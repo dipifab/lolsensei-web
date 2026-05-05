@@ -2465,6 +2465,22 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kaisa/bot/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kaisa/bot/guide" />
   </url>
+  <!-- champion-guide/kalista/bot: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/kalista/bot/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/kalista/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kalista/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kalista/bot/guide" />
+  </url>
+  <!-- champion-guide/kalista/bot: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/kalista/bot/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/kalista/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kalista/bot/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kalista/bot/guide" />
+  </url>
   <!-- champion-guide/karma/support: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/karma/support/guide</loc>
@@ -2481,6 +2497,70 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/karma/support/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/karma/support/guide" />
   </url>
+  <!-- champion-guide/karthus/jungle: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/karthus/jungle/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/karthus/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/karthus/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/karthus/jungle/guide" />
+  </url>
+  <!-- champion-guide/karthus/jungle: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/karthus/jungle/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/karthus/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/karthus/jungle/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/karthus/jungle/guide" />
+  </url>
+  <!-- champion-guide/kassadin/mid: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/kassadin/mid/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/kassadin/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kassadin/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kassadin/mid/guide" />
+  </url>
+  <!-- champion-guide/kassadin/mid: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/kassadin/mid/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/kassadin/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kassadin/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kassadin/mid/guide" />
+  </url>
+  <!-- champion-guide/katarina/mid: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/katarina/mid/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/katarina/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/katarina/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/katarina/mid/guide" />
+  </url>
+  <!-- champion-guide/katarina/mid: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/katarina/mid/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/katarina/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/katarina/mid/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/katarina/mid/guide" />
+  </url>
+  <!-- champion-guide/kayle/top: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/kayle/top/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/kayle/top/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kayle/top/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kayle/top/guide" />
+  </url>
+  <!-- champion-guide/kayle/top: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/kayle/top/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/kayle/top/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kayle/top/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kayle/top/guide" />
+  </url>
   <!-- champion-guide/kayn/jungle: en -->
   <url>
     <loc>https://www.lolsensei.com/en/champion/kayn/jungle/guide</loc>
@@ -2496,6 +2576,22 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/kayn/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kayn/jungle/guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kayn/jungle/guide" />
+  </url>
+  <!-- champion-guide/kennen/top: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/champion/kennen/top/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/kennen/top/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kennen/top/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kennen/top/guide" />
+  </url>
+  <!-- champion-guide/kennen/top: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/champion/kennen/top/guide</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/champion/kennen/top/guide" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/champion/kennen/top/guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/champion/kennen/top/guide" />
   </url>
   <!-- champion-guide/kha-zix/jungle: en -->
   <url>
@@ -3425,6 +3521,14 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kai-sa" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kai-sa" />
   </url>
+  <!-- counter-detail/kalista: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/kalista</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/kalista" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kalista" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kalista" />
+  </url>
   <!-- counter-detail/karma: en -->
   <url>
     <loc>https://www.lolsensei.com/en/counter/karma</loc>
@@ -3433,6 +3537,38 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/karma" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/karma" />
   </url>
+  <!-- counter-detail/karthus: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/karthus</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/karthus" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/karthus" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/karthus" />
+  </url>
+  <!-- counter-detail/kassadin: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/kassadin</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/kassadin" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kassadin" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kassadin" />
+  </url>
+  <!-- counter-detail/katarina: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/katarina</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/katarina" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/katarina" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/katarina" />
+  </url>
+  <!-- counter-detail/kayle: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/kayle</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/kayle" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kayle" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kayle" />
+  </url>
   <!-- counter-detail/kayn: en -->
   <url>
     <loc>https://www.lolsensei.com/en/counter/kayn</loc>
@@ -3440,6 +3576,14 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/kayn" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kayn" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kayn" />
+  </url>
+  <!-- counter-detail/kennen: en -->
+  <url>
+    <loc>https://www.lolsensei.com/en/counter/kennen</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/kennen" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kennen" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kennen" />
   </url>
   <!-- counter-detail/kha-zix: en -->
   <url>
@@ -4073,6 +4217,14 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kai-sa" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kai-sa" />
   </url>
+  <!-- counter-detail/kalista: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/kalista</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/kalista" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kalista" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kalista" />
+  </url>
   <!-- counter-detail/karma: it -->
   <url>
     <loc>https://www.lolsensei.com/it/counter/karma</loc>
@@ -4081,6 +4233,38 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/karma" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/karma" />
   </url>
+  <!-- counter-detail/karthus: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/karthus</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/karthus" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/karthus" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/karthus" />
+  </url>
+  <!-- counter-detail/kassadin: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/kassadin</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/kassadin" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kassadin" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kassadin" />
+  </url>
+  <!-- counter-detail/katarina: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/katarina</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/katarina" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/katarina" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/katarina" />
+  </url>
+  <!-- counter-detail/kayle: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/kayle</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/kayle" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kayle" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kayle" />
+  </url>
   <!-- counter-detail/kayn: it -->
   <url>
     <loc>https://www.lolsensei.com/it/counter/kayn</loc>
@@ -4088,6 +4272,14 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/kayn" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kayn" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kayn" />
+  </url>
+  <!-- counter-detail/kennen: it -->
+  <url>
+    <loc>https://www.lolsensei.com/it/counter/kennen</loc>
+    <lastmod>2026-05-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lolsensei.com/en/counter/kennen" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.lolsensei.com/it/counter/kennen" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lolsensei.com/en/counter/kennen" />
   </url>
   <!-- counter-detail/kha-zix: it -->
   <url>

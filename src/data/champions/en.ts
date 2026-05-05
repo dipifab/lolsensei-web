@@ -21821,6 +21821,322 @@ export const enChampions: ChampionGuide[] = [
     "champion_key": "145"
   },
   {
+    "slug": "kalista-bot",
+    "title": "Kalista Bot Build & Guide — Patch 16.9",
+    "language": "en",
+    "patch": "16.9",
+    "champion": "kalista",
+    "role": "bot",
+    "last_updated": "2026-05-05",
+    "description": "Kalista bot lane guide for League of Legends Patch 16.9: on-hit core build, Soulbound mechanics, key matchups, power spikes, common mistakes, and one closing tip.",
+    "quick_learn": {
+      "champion_dd_id": "Kalista",
+      "difficulty": 4,
+      "damage_type": "physical",
+      "champion_class": "Marksman / On-hit Skirmisher",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Martial Poise",
+          "description": "Every basic attack and Pierce lets Kalista hop a short distance during the wind-up. Movement command before the attack lands sets the hop direction.",
+          "dd_spell_id": "Kalista_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Pierce",
+          "description": "Linear skillshot spear. Carries Rend stacks: if Pierce kills the first target, the spear continues to the next, transferring all spears.",
+          "dd_spell_id": "KalistaMysticShot"
+        },
+        {
+          "key": "W",
+          "name": "Sentinel",
+          "description": "Soulbound passive with one allied champion: when both attack the same target, bonus magic damage on max HP. Active sends a soul to scout ahead.",
+          "dd_spell_id": "KalistaW"
+        },
+        {
+          "key": "E",
+          "name": "Rend",
+          "description": "Each auto-attack and Pierce sticks a spear in the target. Active rips them out: damage scales with stack count, slows nearby enemies hit.",
+          "dd_spell_id": "KalistaExpungeWrapper"
+        },
+        {
+          "key": "R",
+          "name": "Fate's Call",
+          "description": "Stasis on the Soulbound ally and pulls them to Kalista. They can recast to launch as a knockback dash that stops on first champion hit.",
+          "dd_spell_id": "KalistaRx"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "3091",
+          "name": "Wit's End"
+        },
+        {
+          "dd_id": "3006",
+          "name": "Berserker's Greaves"
+        },
+        {
+          "dd_id": "3153",
+          "name": "Blade of The Ruined King"
+        },
+        {
+          "dd_id": "3085",
+          "name": "Runaan's Hurricane"
+        },
+        {
+          "dd_id": "3072",
+          "name": "Bloodthirster"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3036",
+          "name": "Lord Dominik's Regards",
+          "against": "vs tanks and bruisers stacking 2500+ HP (Sion, Ornn, Cho'Gath) — armor pen scales with their HP advantage over you"
+        },
+        {
+          "dd_id": "3033",
+          "name": "Mortal Reminder",
+          "against": "vs healing-stacking comps (Soraka support, Aatrox, Dr. Mundo) — Grievous Wounds cuts their healing in half"
+        },
+        {
+          "dd_id": "3026",
+          "name": "Guardian Angel",
+          "against": "vs heavy assassin or burst comps (Zed, Talon, Kha'Zix) — second life lets your Soulbound R follow up"
+        },
+        {
+          "dd_id": "3814",
+          "name": "Edge of Night",
+          "against": "vs single-target hard CC (Ashe arrow, Morgana Q, Blitzcrank hook) — spell shield blocks one ability, your hop reset survives"
+        }
+      ],
+      "base_combo": [
+        "Q",
+        "AA",
+        "E",
+        "AA",
+        "R"
+      ],
+      "win_condition": "Stack Rend to 6+ on the priority target during a teamfight, then Q reset onto a second target. With on-hit Wit's End plus Blade of the Ruined King online, you out-DPS most marksmen in extended fights.",
+      "weakness": "You scale with your support: a Soulbound partner who cannot lock targets down leaves you with no engage. Hook supports (Blitzcrank, Thresh) can grab your partner out of attack-jump range and end the fight before R is up.",
+      "runes": {
+        "primary_tree": "Precision",
+        "primary_tree_dd_id": 8000,
+        "keystone": {
+          "dd_id": 8005,
+          "name": "Press the Attack",
+          "icon_path": "perk-images/Styles/Precision/PressTheAttack/PressTheAttack.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 9111,
+            "name": "Triumph",
+            "icon_path": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "dd_id": 9104,
+            "name": "Legend: Alacrity",
+            "icon_path": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
+          },
+          {
+            "dd_id": 8014,
+            "name": "Coup de Grace",
+            "icon_path": "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png"
+          }
+        ],
+        "secondary_tree": "Domination",
+        "secondary_tree_dd_id": 8100,
+        "secondary_slots": [
+          {
+            "dd_id": 8139,
+            "name": "Taste of Blood",
+            "icon_path": "perk-images/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.png"
+          },
+          {
+            "dd_id": 8105,
+            "name": "Relentless Hunter",
+            "icon_path": "perk-images/Styles/Domination/RelentlessHunter/RelentlessHunter.png"
+          }
+        ],
+        "stat_shards": [
+          "Attack Speed",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Precision with Press the Attack: three hops on the same target proc PtA for +12% bonus damage and stack Rend up fast. Triumph rewards the constant skirmishing, Legend: Alacrity feeds the on-hit AS curve, Coup de Grace finishes targets your E rips below 40% HP.",
+        "secondary_rationale": "Domination secondary: Taste of Blood gives early-lane sustain after every short trade (your hop windows let you walk away clean), Relentless Hunter stacks on takedowns and adds the out-of-combat movement speed you need to roam mid with the Soulbound support.",
+        "secondary_alternative": "Into a heavy poke lane (Caitlyn + Lux, Varus + Brand), swap Domination to Resolve with Bone Plating (-30 to -60 damage on the first 3 hits) and Second Wind (HP regen rises while below 50% HP) so you survive the first 6 levels."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "aphelios",
+            "kog-maw",
+            "sivir"
+          ],
+          "archetype": "Immobile late-game ADCs without a dash",
+          "reason": "Their only safety is positioning. Kalista hops with every auto-attack, so she trades in melee range without ever standing still — they have no answer except Flash, and you stack Rend faster than they can reset the trade."
+        },
+        {
+          "examples": [
+            "jinx",
+            "varus",
+            "ashe"
+          ],
+          "archetype": "Static-positioning marksmen reliant on their support's lockdown",
+          "reason": "If their support engages first, your R reposition and Wit's End magic on-hit beat their AS curve. They cannot kite a champion who closes 350 units per auto."
+        },
+        {
+          "examples": [
+            "caitlyn"
+          ],
+          "archetype": "Long-range artillery ADCs in lane phase",
+          "reason": "Caitlyn out-pokes you levels 1-3, but her trap-and-net combo is a single dash on a long cooldown — once you have boots and Wit's End online, you walk her down at level 6."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "draven",
+            "samira",
+            "lucian"
+          ],
+          "archetype": "Lane-bully marksmen with strong level 1-3 all-in",
+          "reason": "Their early damage outpaces your hop spacing (the safe distance you keep using auto-attack jumps) before you have the AS to stack Press the Attack. One bad Q at level 2 and they collect a kill before your support can answer."
+        },
+        {
+          "examples": [
+            "blitzcrank",
+            "thresh",
+            "nautilus"
+          ],
+          "archetype": "Hook supports the enemy team picks against your Soulbound partner",
+          "reason": "If they hook your support, the Soulbound link is irrelevant: you cannot R him out of the grab line, and the engage happens 800+ units away from your hop window."
+        },
+        {
+          "examples": [
+            "tristana",
+            "vayne"
+          ],
+          "archetype": "Mobile self-peel hypercarries",
+          "reason": "Tristana W out of your dive, Vayne tumble-cancels your Press the Attack stack timer. Both scale into items that beat your on-hit core in a 1v1 past minute 25."
+        }
+      ]
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Kalista is an on-hit skirmisher marksman (\"on-hit\" = items whose effects trigger on every basic attack rather than from spells; \"skirmisher\" = champion who fights in repeated short trades, not in one big all-in) defined by <strong>Martial Poise (P)</strong> — every basic attack and <strong>Pierce (Q)</strong> lets her hop a short distance during the wind-up. That hop turns auto-attacks into mobility: she walks down enemies who stand still and disengages from melee threats without ever stopping to attack. The trade-off is a fragile early game (low base AD, no shields) and one of the highest skill floors among marksmen: the hop must be commanded with movement clicks frame-by-frame.</p>\n<p>Her game plan revolves around <strong>Rend (E)</strong> stacks. Every auto-attack sticks a spear in the target; the active rips them all out for escalating damage. Stack 6-8 spears on a tank, then E to delete a squishy beside it, and you have ended a teamfight. The Soulbound mechanic on <strong>Sentinel (W)</strong> locks her to one allied champion for the game — usually the support — and <strong>Fate's Call (R)</strong> lets her catapult that ally as a knockback dash. With an engage support like Thresh or Leona, Kalista's R turns one Soulbound flank into a guaranteed pick. With a poke support, she scales worse and her R becomes a panic disengage instead of an engage tool.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> Doran's Blade plus 1 Health Potion. Skip Doran's Shield even into ranged matchups — Kalista needs the extra AD to convert her hop spacing into kill threats.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3091.png\" alt=\"Wit&#x27;s End\"> <strong>Wit's End</strong> — first item: your attack speed (AS) spike, meaning the first big jump in how fast you swing. Adds magic damage on every auto-attack, which scales perfectly with your hop frequency, and the magic resist matters into AP support + AP mid combos.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> — extra attack speed for Press the Attack stacks and Rend application speed.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3153.png\" alt=\"Blade of The Ruined King\"> <strong>Blade of The Ruined King</strong> — deals damage equal to a percentage of the target's current max HP on every auto, plus an active slow. Seals the deal in melee range and is the best second item against any frontline (the tanks/bruisers who open team fights).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3085.png\" alt=\"Runaan&#x27;s Hurricane\"> <strong>Runaan's Hurricane</strong> — bolts apply Rend to two extra targets. This is what turns Kalista's E into a teamfight-deleting AOE spike (area of effect: damage that hits more than one target at a time).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3072.png\" alt=\"Bloodthirster\"> <strong>Bloodthirster</strong> — fifth-item AD plus the lifesteal shield for late-game extended fights.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3036.png\" alt=\"Lord Dominik&#x27;s Regards\"> <strong>Lord Dominik's Regards</strong> — into tanks stacking 2500+ HP (Sion, Ornn, Cho'Gath); the armor pen scales with their HP advantage over you.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3033.png\" alt=\"Mortal Reminder\"> <strong>Mortal Reminder</strong> — into healing-heavy compositions (Soraka support, Aatrox, Dr. Mundo). Grievous Wounds cuts the heal in half.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3026.png\" alt=\"Guardian Angel\"> <strong>Guardian Angel</strong> — into burst assassin comps (Zed, Talon, Kha'Zix); the second life lets your Soulbound R follow up after the dive.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> — into single-target hard CC (crowd control: stuns, roots, knock-ups that lock you in place). Blocks one Ashe arrow or Blitzcrank hook so your hop reset survives.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> is default. Swap to <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3009.png\" alt=\"Boots of Swiftness\"> <strong>Boots of Swiftness</strong> if the enemy has 4+ slows you cannot dodge with the hop.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (your main damage + the Rend transfer mechanic), <strong>E</strong> second, <strong>W</strong> last. Take a point in <strong>R</strong> at levels 6, 11, 16. Start <strong>Q</strong> at level 1 for a reliable poke at level 1 invade fights.</p>\n<p><strong>Runes:</strong> Primary <strong>Precision</strong> with <strong>Press the Attack</strong>, <strong>Triumph</strong>, <strong>Legend: Alacrity</strong>, <strong>Coup de Grace</strong>. Secondary <strong>Domination</strong> with <strong>Taste of Blood</strong> and <strong>Relentless Hunter</strong>. Into heavy poke lanes (Caitlyn + Lux, Varus + Brand) swap Domination to Resolve with <strong>Bone Plating</strong> and <strong>Second Wind</strong> to survive levels 1-6.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Aphelios:</strong> Kalista wins post-6 if she hits her hop spacing. Aphelios damage spikes vary by weapon, so step up only when his off-hand is Severum (lifesteal) or Crescendum (turret) — both are short-range and you walk him down.</li>\n<li><strong>Caitlyn:</strong> Hard losing lane levels 1-5: her traps and 650 auto-range punish your need to walk forward for Rend stacks. Take <strong>Bone Plating</strong> secondary, ask the support to tank one trap, then look for level 6 with <strong>R</strong> + jungle gank.</li>\n<li><strong>Draven:</strong> Lane bully. Avoid trades while his <strong>Spinning Axe</strong> is up; his auto-reset chains your hop into a guaranteed kill if you stand still. Stack one Rend per minion auto, save E for when he lands a Q on you, then re-engage when his axe is down.</li>\n<li><strong>Jinx:</strong> Even pre-6, you scale better post-6. Kalista's hop counters Jinx <strong>W</strong> slow because the dash starts before the projectile lands. After level 9 you all-in any wave Jinx is forced to clear.</li>\n<li><strong>Vayne:</strong> Losing scaling matchup post-25 minutes. Kill her in the first two items — Wit's End online before she finishes Kraken Slayer is the only window where Kalista wins straight up.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2:</strong> With <strong>Q</strong> plus one point in <strong>E</strong>, you have a reliable trade pattern: AA, AA, E for stacked damage. Most lanes lose this exchange.</li>\n<li><strong>Level 6:</strong> First <strong>Fate's Call</strong> unlocks the Soulbound R flank (entering the fight from a side the enemies are not watching): position your support in a side-bush, R them onto the enemy support, and chain with your stacked Rend.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3091.png\" alt=\"Wit&#x27;s End\"> Wit's End completion (~ minute 11-13):</strong> Your AS curve takes off. You walk down most marksmen levels 6-9 and you become the auto-attack DPS leader bot side.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3153.png\" alt=\"Blade of The Ruined King\"> Blade of The Ruined King online (~ minute 18-21):</strong> % max HP on-hit shreds frontlines. Force a drake or Rift Herald fight here — your stacked E on the tank deletes the enemy ADC standing next to him.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Casting Rend at 1-2 stacks for chip damage.</strong> Rend scales hard with stack count: spamming E early empties the spear stack before the kill threshold. Hold E until you have 5+ stacks on the priority target, or until the kill secures (E refunds cooldown on a kill, so a kill cast resets the cycle).</li>\n<li><strong>Forgetting the hop is a movement command.</strong> New Kalista players auto-attack and stand still. The hop only triggers if you click a movement direction during the wind-up frame. Practice clicking-and-attacking in alternation in custom games before laning.</li>\n<li><strong>Using R as offensive engage with a poke support (Karma, Lulu).</strong> Their kits have no follow-up CC after the knockback. Save R as a panic save: stasis your support to dodge an Ashe arrow or Blitzcrank hook, then disengage.</li>\n<li><strong>Skipping Wit's End into AD-heavy enemy comps.</strong> Even then, Wit's End is your fastest AS spike and the magic damage applies independently of armor. Build it first; AD pen items belong in slot 4 or 5.</li>\n<li><strong>Overstaying past 0 hop options.</strong> Your hop is on every auto-attack, but if no enemy is in attack range, you are stuck walking. Track when you are out of attack targets and back off — Kalista with no hop is a 580-MS marksman without dash, lower mobility than Caitlyn.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Practice the <strong>Q reset on minions for jungle escapes</strong>. When you take a wall jump near the river or the tri-bush, queue a <strong>Q (Pierce)</strong> at the minion wave behind the wall: if the spear kills the minion, the spear carries forward and lets you hop over the wall in the same frame. The trick lets you escape a gank that has cut off your river path, because the hop frame counts as movement and bypasses the wall hitbox. Bind a quick-cast <strong>Q</strong> key to shave the reaction time.</p>",
+    "content_html_pre": "<h2>Overview</h2>\n<p>Kalista is an on-hit skirmisher marksman (\"on-hit\" = items whose effects trigger on every basic attack rather than from spells; \"skirmisher\" = champion who fights in repeated short trades, not in one big all-in) defined by <strong>Martial Poise (P)</strong> — every basic attack and <strong>Pierce (Q)</strong> lets her hop a short distance during the wind-up. That hop turns auto-attacks into mobility: she walks down enemies who stand still and disengages from melee threats without ever stopping to attack. The trade-off is a fragile early game (low base AD, no shields) and one of the highest skill floors among marksmen: the hop must be commanded with movement clicks frame-by-frame.</p>\n<p>Her game plan revolves around <strong>Rend (E)</strong> stacks. Every auto-attack sticks a spear in the target; the active rips them all out for escalating damage. Stack 6-8 spears on a tank, then E to delete a squishy beside it, and you have ended a teamfight. The Soulbound mechanic on <strong>Sentinel (W)</strong> locks her to one allied champion for the game — usually the support — and <strong>Fate's Call (R)</strong> lets her catapult that ally as a knockback dash. With an engage support like Thresh or Leona, Kalista's R turns one Soulbound flank into a guaranteed pick. With a poke support, she scales worse and her R becomes a panic disengage instead of an engage tool.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> Doran's Blade plus 1 Health Potion. Skip Doran's Shield even into ranged matchups — Kalista needs the extra AD to convert her hop spacing into kill threats.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3091.png\" alt=\"Wit&#x27;s End\"> <strong>Wit's End</strong> — first item: your attack speed (AS) spike, meaning the first big jump in how fast you swing. Adds magic damage on every auto-attack, which scales perfectly with your hop frequency, and the magic resist matters into AP support + AP mid combos.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> — extra attack speed for Press the Attack stacks and Rend application speed.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3153.png\" alt=\"Blade of The Ruined King\"> <strong>Blade of The Ruined King</strong> — deals damage equal to a percentage of the target's current max HP on every auto, plus an active slow. Seals the deal in melee range and is the best second item against any frontline (the tanks/bruisers who open team fights).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3085.png\" alt=\"Runaan&#x27;s Hurricane\"> <strong>Runaan's Hurricane</strong> — bolts apply Rend to two extra targets. This is what turns Kalista's E into a teamfight-deleting AOE spike (area of effect: damage that hits more than one target at a time).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3072.png\" alt=\"Bloodthirster\"> <strong>Bloodthirster</strong> — fifth-item AD plus the lifesteal shield for late-game extended fights.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3036.png\" alt=\"Lord Dominik&#x27;s Regards\"> <strong>Lord Dominik's Regards</strong> — into tanks stacking 2500+ HP (Sion, Ornn, Cho'Gath); the armor pen scales with their HP advantage over you.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3033.png\" alt=\"Mortal Reminder\"> <strong>Mortal Reminder</strong> — into healing-heavy compositions (Soraka support, Aatrox, Dr. Mundo). Grievous Wounds cuts the heal in half.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3026.png\" alt=\"Guardian Angel\"> <strong>Guardian Angel</strong> — into burst assassin comps (Zed, Talon, Kha'Zix); the second life lets your Soulbound R follow up after the dive.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3814.png\" alt=\"Edge of Night\"> <strong>Edge of Night</strong> — into single-target hard CC (crowd control: stuns, roots, knock-ups that lock you in place). Blocks one Ashe arrow or Blitzcrank hook so your hop reset survives.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> is default. Swap to <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3009.png\" alt=\"Boots of Swiftness\"> <strong>Boots of Swiftness</strong> if the enemy has 4+ slows you cannot dodge with the hop.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (your main damage + the Rend transfer mechanic), <strong>E</strong> second, <strong>W</strong> last. Take a point in <strong>R</strong> at levels 6, 11, 16. Start <strong>Q</strong> at level 1 for a reliable poke at level 1 invade fights.</p>\n<p><strong>Runes:</strong> Primary <strong>Precision</strong> with <strong>Press the Attack</strong>, <strong>Triumph</strong>, <strong>Legend: Alacrity</strong>, <strong>Coup de Grace</strong>. Secondary <strong>Domination</strong> with <strong>Taste of Blood</strong> and <strong>Relentless Hunter</strong>. Into heavy poke lanes (Caitlyn + Lux, Varus + Brand) swap Domination to Resolve with <strong>Bone Plating</strong> and <strong>Second Wind</strong> to survive levels 1-6.</p>",
+    "content_html_post": "<h2>Key matchups</h2>\n<ul>\n<li><strong>Aphelios:</strong> Kalista wins post-6 if she hits her hop spacing. Aphelios damage spikes vary by weapon, so step up only when his off-hand is Severum (lifesteal) or Crescendum (turret) — both are short-range and you walk him down.</li>\n<li><strong>Caitlyn:</strong> Hard losing lane levels 1-5: her traps and 650 auto-range punish your need to walk forward for Rend stacks. Take <strong>Bone Plating</strong> secondary, ask the support to tank one trap, then look for level 6 with <strong>R</strong> + jungle gank.</li>\n<li><strong>Draven:</strong> Lane bully. Avoid trades while his <strong>Spinning Axe</strong> is up; his auto-reset chains your hop into a guaranteed kill if you stand still. Stack one Rend per minion auto, save E for when he lands a Q on you, then re-engage when his axe is down.</li>\n<li><strong>Jinx:</strong> Even pre-6, you scale better post-6. Kalista's hop counters Jinx <strong>W</strong> slow because the dash starts before the projectile lands. After level 9 you all-in any wave Jinx is forced to clear.</li>\n<li><strong>Vayne:</strong> Losing scaling matchup post-25 minutes. Kill her in the first two items — Wit's End online before she finishes Kraken Slayer is the only window where Kalista wins straight up.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2:</strong> With <strong>Q</strong> plus one point in <strong>E</strong>, you have a reliable trade pattern: AA, AA, E for stacked damage. Most lanes lose this exchange.</li>\n<li><strong>Level 6:</strong> First <strong>Fate's Call</strong> unlocks the Soulbound R flank (entering the fight from a side the enemies are not watching): position your support in a side-bush, R them onto the enemy support, and chain with your stacked Rend.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3091.png\" alt=\"Wit&#x27;s End\"> Wit's End completion (~ minute 11-13):</strong> Your AS curve takes off. You walk down most marksmen levels 6-9 and you become the auto-attack DPS leader bot side.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3153.png\" alt=\"Blade of The Ruined King\"> Blade of The Ruined King online (~ minute 18-21):</strong> % max HP on-hit shreds frontlines. Force a drake or Rift Herald fight here — your stacked E on the tank deletes the enemy ADC standing next to him.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Casting Rend at 1-2 stacks for chip damage.</strong> Rend scales hard with stack count: spamming E early empties the spear stack before the kill threshold. Hold E until you have 5+ stacks on the priority target, or until the kill secures (E refunds cooldown on a kill, so a kill cast resets the cycle).</li>\n<li><strong>Forgetting the hop is a movement command.</strong> New Kalista players auto-attack and stand still. The hop only triggers if you click a movement direction during the wind-up frame. Practice clicking-and-attacking in alternation in custom games before laning.</li>\n<li><strong>Using R as offensive engage with a poke support (Karma, Lulu).</strong> Their kits have no follow-up CC after the knockback. Save R as a panic save: stasis your support to dodge an Ashe arrow or Blitzcrank hook, then disengage.</li>\n<li><strong>Skipping Wit's End into AD-heavy enemy comps.</strong> Even then, Wit's End is your fastest AS spike and the magic damage applies independently of armor. Build it first; AD pen items belong in slot 4 or 5.</li>\n<li><strong>Overstaying past 0 hop options.</strong> Your hop is on every auto-attack, but if no enemy is in attack range, you are stuck walking. Track when you are out of attack targets and back off — Kalista with no hop is a 580-MS marksman without dash, lower mobility than Caitlyn.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Practice the <strong>Q reset on minions for jungle escapes</strong>. When you take a wall jump near the river or the tri-bush, queue a <strong>Q (Pierce)</strong> at the minion wave behind the wall: if the spear kills the minion, the spear carries forward and lets you hop over the wall in the same frame. The trick lets you escape a gank that has cut off your river path, because the hop frame counts as movement and bypasses the wall hitbox. Bind a quick-cast <strong>Q</strong> key to shave the reaction time.</p>",
+    "word_count": 1256,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "ashe-bot",
+        "champion": "ashe",
+        "role": "bot"
+      },
+      {
+        "slug": "caitlyn-bot",
+        "champion": "caitlyn",
+        "role": "bot"
+      },
+      {
+        "slug": "draven-bot",
+        "champion": "draven",
+        "role": "bot"
+      },
+      {
+        "slug": "ezreal-bot",
+        "champion": "ezreal",
+        "role": "bot"
+      },
+      {
+        "slug": "jhin-bot",
+        "champion": "jhin",
+        "role": "bot"
+      }
+    ],
+    "champion_key": "429"
+  },
+  {
     "slug": "karma-support",
     "title": "Karma Support Build & Guide — Patch 16.9",
     "language": "en",
@@ -22141,6 +22457,1275 @@ export const enChampions: ChampionGuide[] = [
       }
     ],
     "champion_key": "43"
+  },
+  {
+    "slug": "karthus-jungle",
+    "title": "Karthus Jungle Build & Guide — Patch 16.9",
+    "language": "en",
+    "patch": "16.9",
+    "champion": "karthus",
+    "role": "jungle",
+    "last_updated": "2026-05-05",
+    "description": "Karthus jungle guide for League of Legends Patch 16.9: smite path, Defile clear, global R pickoffs, key matchups, power spikes, common mistakes, and a closing tip.",
+    "quick_learn": {
+      "champion_dd_id": "Karthus",
+      "difficulty": 3,
+      "damage_type": "magic",
+      "champion_class": "Mage / Apex Jungler",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Death Defied",
+          "description": "When killed, Karthus enters a 7-second spirit form that keeps casting Q/W/E with no mana cost. Lets him finish a fight from beyond the grave.",
+          "dd_spell_id": "Karthus_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Lay Waste",
+          "description": "Targeted area-of-effect blast with a short delay. Deals double damage if it hits exactly one enemy. Skill expression: predict movement and isolate single targets.",
+          "dd_spell_id": "KarthusLayWasteA1"
+        },
+        {
+          "key": "W",
+          "name": "Wall of Pain",
+          "description": "Wide wall that shreds magic resist and slows any enemy who walks through it. Use as a chase tool, a gank lock, or to peel divers off your back line.",
+          "dd_spell_id": "KarthusWallOfPain"
+        },
+        {
+          "key": "E",
+          "name": "Defile",
+          "description": "Toggle aura that deals magic damage per second around Karthus while draining his mana. The real motor of his jungle clear and team-fight DPS — keep it on through every camp.",
+          "dd_spell_id": "KarthusDefile"
+        },
+        {
+          "key": "R",
+          "name": "Requiem",
+          "description": "Global ultimate that channels for 3 seconds, then deals heavy magic damage to every enemy champion on the map. The cross-map snipe and the post-mortem cleanup tool.",
+          "dd_spell_id": "KarthusFallenOne"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "E"
+        },
+        {
+          "level": 2,
+          "key": "Q"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "1101",
+          "name": "Scorchclaw Pup"
+        },
+        {
+          "dd_id": "6653",
+          "name": "Liandry's Torment"
+        },
+        {
+          "dd_id": "3020",
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "dd_id": "3116",
+          "name": "Rylai's Crystal Scepter"
+        },
+        {
+          "dd_id": "4628",
+          "name": "Horizon Focus"
+        },
+        {
+          "dd_id": "3089",
+          "name": "Rabadon's Deathcap"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass",
+          "against": "vs early invade junglers (Lee Sin, Xin Zhao, Elise) — stasis covers your zero-mobility weakness while your team rotates to help"
+        },
+        {
+          "dd_id": "3135",
+          "name": "Void Staff",
+          "against": "swap when any priority target buys their first Magic Resist item (Mercury's Treads counts)"
+        },
+        {
+          "dd_id": "3102",
+          "name": "Banshee's Veil",
+          "against": "vs single-target magic CC engages (Ahri R, Lissandra R, Nautilus hook)"
+        },
+        {
+          "dd_id": "3165",
+          "name": "Morellonomicon",
+          "against": "vs healing-stacking comps (Soraka, Vladimir, Yuumi, Dr. Mundo)"
+        }
+      ],
+      "base_combo": [
+        "W",
+        "E",
+        "Q",
+        "R"
+      ],
+      "win_condition": "Hit level 6, full-clear faster than the enemy jungler, and use R to finish low-HP targets cross-map. After two items, Defile alone melts the enemy back line in any grouped 5v5.",
+      "weakness": "No dash, no escape, no early dueling. Counter-jungled or invaded before level 6 you fall behind permanently. Mobile assassins and CC-heavy junglers shut down the clear before Liandry's comes online.",
+      "runes": {
+        "primary_tree": "Precision",
+        "primary_tree_dd_id": 8000,
+        "keystone": {
+          "dd_id": 8010,
+          "name": "Conqueror",
+          "icon_path": "perk-images/Styles/Precision/Conqueror/Conqueror.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 9111,
+            "name": "Triumph",
+            "icon_path": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "dd_id": 9105,
+            "name": "Legend: Haste",
+            "icon_path": "perk-images/Styles/Precision/LegendHaste/LegendHaste.png"
+          },
+          {
+            "dd_id": 8299,
+            "name": "Last Stand",
+            "icon_path": "perk-images/Styles/Sorcery/LastStand/LastStand.png"
+          }
+        ],
+        "secondary_tree": "Sorcery",
+        "secondary_tree_dd_id": 8200,
+        "secondary_slots": [
+          {
+            "dd_id": 8226,
+            "name": "Manaflow Band",
+            "icon_path": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "dd_id": 8210,
+            "name": "Transcendence",
+            "icon_path": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png"
+          }
+        ],
+        "stat_shards": [
+          "Adaptive Force",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Precision primary: Conqueror stacks fast on Defile (the toggle aura that ticks damage per second), turning long skirmishes into bonus AP and healing. Triumph refunds HP on takedowns. Legend: Haste shortens R cooldown. Last Stand rewards the low-HP spirit-form windows.",
+        "secondary_rationale": "Sorcery secondary: Manaflow Band fixes the early mana starvation that comes with Defile draining mana every second. Transcendence pushes ability haste past the 40% cap zone so Q comes back faster between waves and R rotates more often.",
+        "secondary_alternative": "Vs invade-heavy enemy junglers (Lee Sin + Pyke roam pressure, Elise + early CC supports), swap Sorcery to Resolve with Second Wind (HP regen after taking damage, helps survive the level-3 invade) and Overgrowth (bonus health that scales with monsters killed)."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "nasus",
+            "veigar",
+            "kassadin",
+            "kayle"
+          ],
+          "archetype": "Late-game scaling champions with weak early presence",
+          "reason": "They need 25+ minutes to come online; Karthus already wins skirmishes at level 6 and uses R to deny their Baron solo plays. Out-tempo them by forcing drakes and ending before they hit their power spike."
+        },
+        {
+          "examples": [
+            "fiddlesticks",
+            "amumu",
+            "sejuani"
+          ],
+          "archetype": "Slow farm-heavy junglers without level-3 invade",
+          "reason": "They full-clear on the same speed Karthus does, but Karthus has the global R that turns their gank into a 2-for-1 trade — even if they kill your laner, R cleans up theirs cross-map before they recall."
+        },
+        {
+          "examples": [
+            "yuumi",
+            "soraka",
+            "senna"
+          ],
+          "archetype": "Backline scalers with no mobility",
+          "reason": "Cross-map R turns their positioning mistakes into kills on objective spawns. They contribute from far away but cannot dodge a global snipe locked onto a missing flash or ult."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "lee-sin",
+            "xin-zhao",
+            "elise"
+          ],
+          "archetype": "Early-game invade junglers with hard CC",
+          "reason": "They walk into Karthus's jungle at level 2-3 before Defile mana scales. Karthus has no escape, no dash, and his Q is too slow to save him from a Lee Sin Q + W chain or an Elise rappel. One bad invade ends his game permanently."
+        },
+        {
+          "examples": [
+            "kha-zix",
+            "rengar",
+            "shaco"
+          ],
+          "archetype": "Stealth or burst assassin junglers",
+          "reason": "They open with isolation damage on a target with zero defenses; even Zhonya's Hourglass only delays the inevitable in a 1v1. Karthus dies before he can stack Conqueror or trade meaningfully."
+        },
+        {
+          "examples": [
+            "nocturne",
+            "warwick"
+          ],
+          "archetype": "Vision-deny gankers and tracker junglers",
+          "reason": "Nocturne R cuts the team's vision so Karthus cannot see the engage onto his back line; Warwick's blood-tracking turns a cross-map R cast into a free dive on a ulti-channelling target. Karthus needs vision to channel R safely — these two strip it."
+        }
+      ]
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Karthus jungle is the textbook <strong>apex jungler</strong>: a champion whose individual ceiling is one of the highest in the game, but whose floor is one of the lowest. The kit is built around two ideas — <strong>Defile (E)</strong> is a toggle aura that ticks magic damage every second around Karthus, and <strong>Requiem (R)</strong> is a global ultimate that hits every enemy champion on the map regardless of distance. The first lets him clear the jungle faster than almost any other champion in the game once mana is solved; the second turns positioning mistakes anywhere on the map into kills, which is the single most valuable thing a jungler can do at the right moment.</p>\n<p>His game plan is rigid by jungle standards. Full-clear the first three camps (red → krugs or blue → gromp depending on side) with <strong>E</strong> toggled on through every camp, recall for <strong>Liandry's Torment</strong> components, and from level 6 onward look for cross-map R targets while skirmishing (a \"skirmish\" is a short fight between 1-3 players on each side, usually around a jungle camp or river objective) around drake and grubs (the small neutral monsters in the void pit that give gold and a team-wide bonus). Karthus has no escape and no dash, so warding his own jungle entrances on minute 1:30 is not optional — an enemy invade you do not see coming is a free kill handed to a mobile jungler. The payoff is the post-6 spike: Karthus is one of the few champions in the game who is genuinely scarier dead than alive, because his passive <strong>Death Defied</strong> keeps him casting for 7 seconds after his HP hits zero.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1039.png\" alt=\"Hailblade\"> <strong>Hailblade</strong> (default for ranged junglers — gives the smite-pet that buffs camp clear and grants gold) + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2031.png\" alt=\"Refillable Potion\"> <strong>Refillable Potion</strong>.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1101.png\" alt=\"Scorchclaw Pup\"> <strong>Scorchclaw Pup</strong> — quest upgrade from Hailblade (auto-evolves around minute 3-4 once you complete enough jungle XP). Default companion for AP burst junglers: an extra magic-damage proc on the next basic attack after a spell cast (a \"proc\" is a passive effect that triggers from a condition — here, casting any ability arms your next auto). Lines up with Karthus's Q damage on isolated targets.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> <strong>Liandry's Torment</strong> — first complete item. The percent-HP burn punishes objective HP pools (drake, baron, herald) and stacks on top of every Defile tick. This is the item that flips your clear speed and lets you contest drakes from minute 8 onward.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — flat magic penetration, the cheapest power spike between core items.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3116.png\" alt=\"Rylai&#x27;s Crystal Scepter\"> <strong>Rylai's Crystal Scepter</strong> — the slow on every spell hit closes Karthus's biggest weakness (no chase, no escape). Lets you stick on kited targets so Defile stacks Conqueror, and turns your post-mortem passive into a guaranteed cleanup tool.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4628.png\" alt=\"Horizon Focus\"> <strong>Horizon Focus</strong> — reveals enemies hit by long-range abilities and adds a damage amplifier. Synergises perfectly with Q and Wall of Pain at long range, and the reveal helps lock global R targets through fog of war (the unrevealed area outside your team's vision).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — late-game scaling slot. Buy this last unless you are 4+ kills ahead, in which case rush it earlier for snowball (\"snowball\" = early lead that grows: kill → gold → item → more kills).</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — into early-game divers (Lee Sin, Xin Zhao, Hecarim, Diana). Stasis is the only answer Karthus has when a dash chain crosses his front line (the tanks and bruisers up front who normally absorb hits for you). Also lets you R safely while in stasis.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — the moment any priority target buys their first magic resist item. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> (the magic-resist boots) count as that first MR item.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — into telegraphed magic CC engages (Ahri R, Lissandra R, Nautilus hook). The shield blocks the first ability so you do not get one-shot before R lands.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — into healing-stacking compositions (Soraka, Vladimir, Yuumi, Dr. Mundo). Grievous Wounds cuts enemy healing in half so Defile damage actually sticks.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> is default. Swap to <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> if the enemy team has 3+ hard CC threats with magic damage.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (your single-target burst and waveclear, and the only ability that scales hard with rank), <strong>E</strong> second (raises Defile's per-second damage and pushes the mana drain you can sustain), <strong>W</strong> last. Take a point in <strong>R</strong> at levels 6, 11, and 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Precision</strong> with <strong>Conqueror</strong>, <strong>Triumph</strong>, <strong>Legend: Haste</strong>, <strong>Last Stand</strong>. Secondary <strong>Sorcery</strong> with <strong>Manaflow Band</strong> and <strong>Transcendence</strong>.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Lee Sin:</strong> Loses every 1v1 before level 6. His Q + W chain skips past your Q delay. Avoid solo skirmishes pre-6, full-clear instead, and ward both of your own jungle entrances at minute 1:30.</li>\n<li><strong>Master Yi:</strong> Flat counter as a 1v1 once he hits Wit's End. Force the fight 5v5 in narrow rivers (drake pit, baron pit) where his W-cleanse cannot save him from a sustained Defile + R combo. Buy Zhonya's Hourglass second item if he ramps up.</li>\n<li><strong>Karthus mirror:</strong> Decided by farm tempo and R discipline. Whoever full-clears one camp ahead at level 6 wins the first R race. Do not waste R unless you secure either a kill or a smite — a wasted R puts the mirror Karthus a full minute ahead on objective control.</li>\n<li><strong>Hecarim:</strong> Even matchup. He out-runs your kite but groups for Defile in teamfights. Wall of Pain on his charge path slows him out of his own engage, and your post-mortem passive cleans up if he kills you anyway.</li>\n<li><strong>Sejuani / Amumu:</strong> Favourable. They engage by grouping the enemy team into a stack — exactly the shape Defile wants. Engage on their engage; if they ult into your team, walk in with E toggled and watch every ablaze enemy melt.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 6 (R unlocked):</strong> First global power spike. <strong>Requiem</strong> turns any low-HP enemy across the map into a kill. From this point onward, ping the enemy mid laner before recalling and ult them on the recall channel — a free kill at zero risk.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> Liandry's Torment online (~ minute 9-11):</strong> Clear speed flips and objective DPS (DPS = damage per second, here against drake/baron/grub HP pools) doubles. From this point you should be the one initiating drake fights, not the one reacting.</li>\n<li><strong>Two items + boots (~ minute 18-22):</strong> Defile alone ticks for serious damage; in any grouped fight Conqueror stacks fast and your R locks the cleanup. This is your peak skirmish window.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> Rabadon's Deathcap online (~ minute 26-30):</strong> R one-shots squishies that have not built a single Magic Resist item. Force grouped objective fights — Baron, Soul Drake, Atakhan (\"Atakhan\" = a late-game neutral pit boss spawning around 14 minutes; treat the spawn as a forced 5v5).</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Panicking with Death Defied.</strong> Most novices burn the post-mortem 7 seconds running from their corpse. The correct play is to engage into a low-HP fight knowing you will die: your death starts your damage rotation, not ends it. Q-Q-Q-E in spirit form often does more damage than your living self would have.</li>\n<li><strong>Throwing Q randomly.</strong> Lay Waste deals double damage to a single isolated enemy. If you fire Q into a wave with three minions plus the laner, the damage caps at the lower number. Pull the laner out with W or wait until a single target is exposed, then Q the predicted spot.</li>\n<li><strong>Casting R for the kill steal.</strong> Ulting mid-teamfight is wasted: every enemy is already inside Defile range. Save R for a cross-map snipe (using R as a long-range, low-risk finisher on a missing enemy at low HP after a fight) or a post-mortem cleanup after you die. R is \"after-the-fight\", not \"during-the-fight\".</li>\n<li><strong>Skipping vision in your own jungle.</strong> Place Stealth Wards on tri-bush and pixel brush at minute 1:30. Karthus has no escape; an enemy invade that you do not see coming is a free kill given to a mobile jungler.</li>\n<li><strong>Smite-greeding objectives without R.</strong> Drake and grub HP scale; your smite damage does not. If you contest a drake without R off cooldown and the enemy jungler does, you lose the smite war and the drake.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Practice the <strong>suicide engage</strong>. When your team commits to a 5v5 you cannot win straight up, walk Karthus into the enemy back line with Defile toggled, expecting to die. The instant your HP hits zero, Death Defied gives you 7 seconds of free casting with no mana cost — and the enemy front line stops attacking your corpse because there is nothing to hit. That spirit-form window is where you Q-spam the lowest-HP enemy you can reach and finish with R if anyone runs. Done right, a Karthus who dies first turns an unwinnable fight into an ace.</p>",
+    "content_html_pre": "<h2>Overview</h2>\n<p>Karthus jungle is the textbook <strong>apex jungler</strong>: a champion whose individual ceiling is one of the highest in the game, but whose floor is one of the lowest. The kit is built around two ideas — <strong>Defile (E)</strong> is a toggle aura that ticks magic damage every second around Karthus, and <strong>Requiem (R)</strong> is a global ultimate that hits every enemy champion on the map regardless of distance. The first lets him clear the jungle faster than almost any other champion in the game once mana is solved; the second turns positioning mistakes anywhere on the map into kills, which is the single most valuable thing a jungler can do at the right moment.</p>\n<p>His game plan is rigid by jungle standards. Full-clear the first three camps (red → krugs or blue → gromp depending on side) with <strong>E</strong> toggled on through every camp, recall for <strong>Liandry's Torment</strong> components, and from level 6 onward look for cross-map R targets while skirmishing (a \"skirmish\" is a short fight between 1-3 players on each side, usually around a jungle camp or river objective) around drake and grubs (the small neutral monsters in the void pit that give gold and a team-wide bonus). Karthus has no escape and no dash, so warding his own jungle entrances on minute 1:30 is not optional — an enemy invade you do not see coming is a free kill handed to a mobile jungler. The payoff is the post-6 spike: Karthus is one of the few champions in the game who is genuinely scarier dead than alive, because his passive <strong>Death Defied</strong> keeps him casting for 7 seconds after his HP hits zero.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1039.png\" alt=\"Hailblade\"> <strong>Hailblade</strong> (default for ranged junglers — gives the smite-pet that buffs camp clear and grants gold) + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2031.png\" alt=\"Refillable Potion\"> <strong>Refillable Potion</strong>.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1101.png\" alt=\"Scorchclaw Pup\"> <strong>Scorchclaw Pup</strong> — quest upgrade from Hailblade (auto-evolves around minute 3-4 once you complete enough jungle XP). Default companion for AP burst junglers: an extra magic-damage proc on the next basic attack after a spell cast (a \"proc\" is a passive effect that triggers from a condition — here, casting any ability arms your next auto). Lines up with Karthus's Q damage on isolated targets.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> <strong>Liandry's Torment</strong> — first complete item. The percent-HP burn punishes objective HP pools (drake, baron, herald) and stacks on top of every Defile tick. This is the item that flips your clear speed and lets you contest drakes from minute 8 onward.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — flat magic penetration, the cheapest power spike between core items.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3116.png\" alt=\"Rylai&#x27;s Crystal Scepter\"> <strong>Rylai's Crystal Scepter</strong> — the slow on every spell hit closes Karthus's biggest weakness (no chase, no escape). Lets you stick on kited targets so Defile stacks Conqueror, and turns your post-mortem passive into a guaranteed cleanup tool.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4628.png\" alt=\"Horizon Focus\"> <strong>Horizon Focus</strong> — reveals enemies hit by long-range abilities and adds a damage amplifier. Synergises perfectly with Q and Wall of Pain at long range, and the reveal helps lock global R targets through fog of war (the unrevealed area outside your team's vision).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — late-game scaling slot. Buy this last unless you are 4+ kills ahead, in which case rush it earlier for snowball (\"snowball\" = early lead that grows: kill → gold → item → more kills).</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — into early-game divers (Lee Sin, Xin Zhao, Hecarim, Diana). Stasis is the only answer Karthus has when a dash chain crosses his front line (the tanks and bruisers up front who normally absorb hits for you). Also lets you R safely while in stasis.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — the moment any priority target buys their first magic resist item. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> (the magic-resist boots) count as that first MR item.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — into telegraphed magic CC engages (Ahri R, Lissandra R, Nautilus hook). The shield blocks the first ability so you do not get one-shot before R lands.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — into healing-stacking compositions (Soraka, Vladimir, Yuumi, Dr. Mundo). Grievous Wounds cuts enemy healing in half so Defile damage actually sticks.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> is default. Swap to <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> if the enemy team has 3+ hard CC threats with magic damage.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (your single-target burst and waveclear, and the only ability that scales hard with rank), <strong>E</strong> second (raises Defile's per-second damage and pushes the mana drain you can sustain), <strong>W</strong> last. Take a point in <strong>R</strong> at levels 6, 11, and 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Precision</strong> with <strong>Conqueror</strong>, <strong>Triumph</strong>, <strong>Legend: Haste</strong>, <strong>Last Stand</strong>. Secondary <strong>Sorcery</strong> with <strong>Manaflow Band</strong> and <strong>Transcendence</strong>.</p>",
+    "content_html_post": "<h2>Key matchups</h2>\n<ul>\n<li><strong>Lee Sin:</strong> Loses every 1v1 before level 6. His Q + W chain skips past your Q delay. Avoid solo skirmishes pre-6, full-clear instead, and ward both of your own jungle entrances at minute 1:30.</li>\n<li><strong>Master Yi:</strong> Flat counter as a 1v1 once he hits Wit's End. Force the fight 5v5 in narrow rivers (drake pit, baron pit) where his W-cleanse cannot save him from a sustained Defile + R combo. Buy Zhonya's Hourglass second item if he ramps up.</li>\n<li><strong>Karthus mirror:</strong> Decided by farm tempo and R discipline. Whoever full-clears one camp ahead at level 6 wins the first R race. Do not waste R unless you secure either a kill or a smite — a wasted R puts the mirror Karthus a full minute ahead on objective control.</li>\n<li><strong>Hecarim:</strong> Even matchup. He out-runs your kite but groups for Defile in teamfights. Wall of Pain on his charge path slows him out of his own engage, and your post-mortem passive cleans up if he kills you anyway.</li>\n<li><strong>Sejuani / Amumu:</strong> Favourable. They engage by grouping the enemy team into a stack — exactly the shape Defile wants. Engage on their engage; if they ult into your team, walk in with E toggled and watch every ablaze enemy melt.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 6 (R unlocked):</strong> First global power spike. <strong>Requiem</strong> turns any low-HP enemy across the map into a kill. From this point onward, ping the enemy mid laner before recalling and ult them on the recall channel — a free kill at zero risk.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> Liandry's Torment online (~ minute 9-11):</strong> Clear speed flips and objective DPS (DPS = damage per second, here against drake/baron/grub HP pools) doubles. From this point you should be the one initiating drake fights, not the one reacting.</li>\n<li><strong>Two items + boots (~ minute 18-22):</strong> Defile alone ticks for serious damage; in any grouped fight Conqueror stacks fast and your R locks the cleanup. This is your peak skirmish window.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> Rabadon's Deathcap online (~ minute 26-30):</strong> R one-shots squishies that have not built a single Magic Resist item. Force grouped objective fights — Baron, Soul Drake, Atakhan (\"Atakhan\" = a late-game neutral pit boss spawning around 14 minutes; treat the spawn as a forced 5v5).</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Panicking with Death Defied.</strong> Most novices burn the post-mortem 7 seconds running from their corpse. The correct play is to engage into a low-HP fight knowing you will die: your death starts your damage rotation, not ends it. Q-Q-Q-E in spirit form often does more damage than your living self would have.</li>\n<li><strong>Throwing Q randomly.</strong> Lay Waste deals double damage to a single isolated enemy. If you fire Q into a wave with three minions plus the laner, the damage caps at the lower number. Pull the laner out with W or wait until a single target is exposed, then Q the predicted spot.</li>\n<li><strong>Casting R for the kill steal.</strong> Ulting mid-teamfight is wasted: every enemy is already inside Defile range. Save R for a cross-map snipe (using R as a long-range, low-risk finisher on a missing enemy at low HP after a fight) or a post-mortem cleanup after you die. R is \"after-the-fight\", not \"during-the-fight\".</li>\n<li><strong>Skipping vision in your own jungle.</strong> Place Stealth Wards on tri-bush and pixel brush at minute 1:30. Karthus has no escape; an enemy invade that you do not see coming is a free kill given to a mobile jungler.</li>\n<li><strong>Smite-greeding objectives without R.</strong> Drake and grub HP scale; your smite damage does not. If you contest a drake without R off cooldown and the enemy jungler does, you lose the smite war and the drake.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Practice the <strong>suicide engage</strong>. When your team commits to a 5v5 you cannot win straight up, walk Karthus into the enemy back line with Defile toggled, expecting to die. The instant your HP hits zero, Death Defied gives you 7 seconds of free casting with no mana cost — and the enemy front line stops attacking your corpse because there is nothing to hit. That spirit-form window is where you Q-spam the lowest-HP enemy you can reach and finish with R if anyone runs. Done right, a Karthus who dies first turns an unwinnable fight into an ace.</p>",
+    "word_count": 1468,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "amumu-jungle",
+        "champion": "amumu",
+        "role": "jungle"
+      },
+      {
+        "slug": "diana-jungle",
+        "champion": "diana",
+        "role": "jungle"
+      },
+      {
+        "slug": "ekko-jungle",
+        "champion": "ekko",
+        "role": "jungle"
+      },
+      {
+        "slug": "graves-jungle",
+        "champion": "graves",
+        "role": "jungle"
+      },
+      {
+        "slug": "hecarim-jungle",
+        "champion": "hecarim",
+        "role": "jungle"
+      }
+    ],
+    "champion_key": "30"
+  },
+  {
+    "slug": "kassadin-mid",
+    "title": "Kassadin Mid Build & Guide — Patch 16.9",
+    "language": "en",
+    "patch": "16.9",
+    "champion": "kassadin",
+    "role": "mid",
+    "last_updated": "2026-05-05",
+    "description": "Kassadin mid lane guide for League of Legends Patch 16.9: late-game scaler build path, key matchups, power spikes, common mistakes, and a closing tip.",
+    "quick_learn": {
+      "champion_dd_id": "Kassadin",
+      "difficulty": 4,
+      "damage_type": "magic",
+      "champion_class": "Assassin / Late-game Scaler",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Void Stone",
+          "description": "Passive: Kassadin takes reduced magic damage and ignores unit collision (he walks through minions and champions).",
+          "dd_spell_id": "Kassadin_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Null Sphere",
+          "description": "Single-target skillshot dealing magic damage and interrupting channels. Grants Kassadin a magic shield for 1.5s — anti-poke vs AP mages.",
+          "dd_spell_id": "NullLance"
+        },
+        {
+          "key": "W",
+          "name": "Nether Blade",
+          "description": "Passive: bonus magic damage on basic attacks. Active: empowered auto-attack restoring missing mana (more vs champions). Mana sustain in lane.",
+          "dd_spell_id": "NetherBlade"
+        },
+        {
+          "key": "E",
+          "name": "Force Pulse",
+          "description": "AOE cone slow + magic damage. Charges from any spell cast nearby (yours or enemies'). Needs charges to activate — use as finisher, not spam.",
+          "dd_spell_id": "ForcePulse"
+        },
+        {
+          "key": "R",
+          "name": "Riftwalk",
+          "description": "Short blink with low cooldown. Each consecutive cast within a few seconds doubles the mana cost and adds bonus damage, stacking up to 4 times.",
+          "dd_spell_id": "RiftWalk"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "E"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "E"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "E"
+        },
+        {
+          "level": 13,
+          "key": "E"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6657",
+          "name": "Rod of Ages"
+        },
+        {
+          "dd_id": "3020",
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "dd_id": "3089",
+          "name": "Rabadon's Deathcap"
+        },
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass"
+        },
+        {
+          "dd_id": "3135",
+          "name": "Void Staff"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "4629",
+          "name": "Cosmic Drive",
+          "against": "vs comps you out-scale post-11 — AP + ability haste + movement speed for chaining Riftwalks and sticking on the squishy backline"
+        },
+        {
+          "dd_id": "3102",
+          "name": "Banshee's Veil",
+          "against": "vs single-target magic CC (Ahri charm, Lissandra R, Twisted Fate stun) that locks you out of your Riftwalk window"
+        },
+        {
+          "dd_id": "3165",
+          "name": "Morellonomicon",
+          "against": "vs healing-stacking comps (Soraka mid, Vladimir, Dr. Mundo top) — applies Grievous Wounds, halving healing"
+        },
+        {
+          "dd_id": "4645",
+          "name": "Shadowflame",
+          "against": "vs squishy carries with shields (Riven, Yasuo passive) — extra burst on R+Q+E execute"
+        }
+      ],
+      "base_combo": [
+        "R",
+        "Q",
+        "AA",
+        "E"
+      ],
+      "win_condition": "Survive lane to level 11 with one full item, then snowball (turn small leads into bigger ones): R onto squishy carries, Q+AA+E to delete, R out before allies can peel.",
+      "weakness": "Lane phase is brutal: weak base damage, short range, no waveclear before level 9. Burst mages and ranged poke can shove you under tower and chip you down before you scale.",
+      "runes": {
+        "primary_tree": "Inspiration",
+        "primary_tree_dd_id": 8300,
+        "keystone": {
+          "dd_id": 8369,
+          "name": "First Strike",
+          "icon_path": "perk-images/Styles/Inspiration/FirstStrike/FirstStrike.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 8304,
+            "name": "Magical Footwear",
+            "icon_path": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png"
+          },
+          {
+            "dd_id": 8345,
+            "name": "Biscuit Delivery",
+            "icon_path": "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png"
+          },
+          {
+            "dd_id": 8347,
+            "name": "Cosmic Insight",
+            "icon_path": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png"
+          }
+        ],
+        "secondary_tree": "Sorcery",
+        "secondary_tree_dd_id": 8200,
+        "secondary_slots": [
+          {
+            "dd_id": 8226,
+            "name": "Manaflow Band",
+            "icon_path": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+          },
+          {
+            "dd_id": 8210,
+            "name": "Transcendence",
+            "icon_path": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png"
+          }
+        ],
+        "stat_shards": [
+          "Adaptive Force",
+          "Adaptive Force",
+          "Health Scaling"
+        ]
+      },
+      "primary_rationale": "Inspiration primary: First Strike rewards Kassadin's late-game burst windows with bonus gold and damage on R-engage. Magical Footwear saves 350 gold for the early item rush, Biscuit Delivery fixes the weak mana pool in lane, Cosmic Insight reduces summoner spell cooldowns for more Flash plays in skirmishes.",
+      "secondary_rationale": "Sorcery secondary: Manaflow Band is mandatory mana scaling — without it, Q spam in lane runs you dry before level 9. Transcendence pushes ability haste past 40%, lowering Riftwalk cooldown so you can chain 3-4 R in a teamfight instead of 2.",
+      "secondary_alternative": "If you face heavy poke mages who deny you any farm pre-6 (Xerath, Vel'Koz), swap Sorcery to Resolve with Second Wind (passive HP regen vs poke) and Overgrowth (HP scaling) to survive long enough to scale."
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "veigar",
+            "annie",
+            "vladimir"
+          ],
+          "archetype": "Immobile mages without dash",
+          "reason": "After level 11 Riftwalk has a 2s cooldown: you blink onto them, Q the cast, E to slow, and AA-execute before they can land their full burst combo."
+        },
+        {
+          "examples": [
+            "lux",
+            "syndra"
+          ],
+          "archetype": "Skillshot setup mages with no escape",
+          "reason": "Their damage comes from landing a long-range setup (Q root, stun stack); Kassadin's late R lets him sidestep the skillshot mid-combo and close the gap with a blink they cannot answer."
+        },
+        {
+          "examples": [
+            "taliyah",
+            "azir"
+          ],
+          "archetype": "Long-range area-denial mages",
+          "reason": "Pre-6 they bully Kassadin, but post-11 his magic shield from Q + R mobility cancel their kiting tools. Once the game goes long, their AOE is wasted on a target they cannot pin down."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "xerath",
+            "vel-koz",
+            "zoe"
+          ],
+          "archetype": "Long-range poke mages",
+          "reason": "They poke from outside Kassadin's Q range (650) for the entire pre-6 window. Q magic shield helps but does not refill HP — by level 6 Kassadin is already at half bar and cannot all-in."
+        },
+        {
+          "examples": [
+            "talon",
+            "zed"
+          ],
+          "archetype": "Early-game AD assassins",
+          "reason": "They hit two-item powerspike around minute 14 while Kassadin is still on his first item. Roams to side lanes punish Kassadin's slow scaling — the game ends before his late game arrives."
+        },
+        {
+          "examples": [
+            "pantheon",
+            "yasuo"
+          ],
+          "archetype": "Snowball lane bullies with all-in pressure",
+          "reason": "Their level 2-3 all-in (Pantheon Q+W stun, Yasuo Q-windwall-knockup) shreds Kassadin's HP before he has Q max ranks. Q magic shield is useless against physical damage."
+        }
+      ]
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Kassadin is an AP assassin (a mage that closes the gap and deletes a single target instead of poking from far away) built for the late game. His kit revolves around <strong>Riftwalk (R)</strong>: a short blink with a very low cooldown that becomes the strongest repositioning tool in the game once it reaches rank 3 at level 16. The trade-off is a punishing lane phase: short range (650 on <strong>Q</strong>), no waveclear before level 9, and base damage that loses every all-in (full commitment trade until someone dies) pre-6 against most mid laners. The mid lane suits him because the river is the shortest path to scuttle and side lanes once <strong>R</strong> is online — but you have to survive 11-13 minutes first.</p>\n<p>His game plan is simple: do not feed pre-6, hit level 11 with one full item completed, then start hunting squishy carries. Skill expression sits in <strong>Riftwalk</strong> mana management (every cast within 7 seconds doubles the cost, so 4 R in a fight without a Tear-based item is impossible) and in stacking <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/spell/ForcePulse.png\" alt=\"Force Pulse\"> <strong>Force Pulse (E)</strong> from your own spells before the fight starts.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> Doran's Ring + 2 Health Potions. The mana from Doran's matters more than the early HP from Doran's Shield: you spam <strong>Q</strong> in lane to last-hit at range when you can.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6657.png\" alt=\"Rod of Ages\"> <strong>Rod of Ages</strong> — best mana + HP + AP scaler in the game for Kassadin. The 10-minute Eternity passive heals you for a chunk every level-up, surviving lane phase. First completed item.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — flat magic penetration, the boots you almost always want against squishy mid/ADC targets.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — 35% AP multiplier. Your Q+E+AA combo doubles in damage with this on.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — armor + AP + active stasis. Lets you R into the backline and stasis if peel arrives, then R out when stasis ends.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — magic penetration vs MR stacking. Mandatory once any priority target buys <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> or <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> + an MR item.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4629.png\" alt=\"Cosmic Drive\"> <strong>Cosmic Drive</strong> — vs comps you out-scale post-11. AP + ability haste + movement speed; you chain Riftwalks faster and stick on the squishy backline once you've blinked in.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — vs single-target magic CC that locks you out of your <strong>R</strong> window (Ahri charm, Lissandra R, Twisted Fate stun).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — vs healing-stacking compositions. Applies Grievous Wounds (a debuff that halves healing) on damage.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — vs squishy carries who buy shields. The HP-threshold passive (a passive that activates when the target is below ~35% HP) lines up with your <strong>R+Q+E</strong> execute.</li>\n</ul>\n<p><strong>Boots:</strong> Sorcerer's Shoes is default. Swap to <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> vs heavy AP + CC compositions (2+ stuns / roots in the enemy team).</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (best damage and the mana-cheap shield), <strong>E</strong> second (waveclear unlocks at level 9 with E maxed), <strong>W</strong> last. Take a point in <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Inspiration</strong> with <strong>First Strike</strong>, <strong>Magical Footwear</strong>, <strong>Biscuit Delivery</strong>, <strong>Cosmic Insight</strong>. Secondary <strong>Sorcery</strong> with <strong>Manaflow Band</strong> and <strong>Transcendence</strong>. Swap Sorcery to <strong>Resolve</strong> (Second Wind + Overgrowth) into long-range poke matchups.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Xerath / Vel'Koz:</strong> Their Q range exceeds yours by 200+ units. Last-hit only with <strong>Q</strong> at max range, eat the poke, never push past river. Use <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/spell/NullLance.png\" alt=\"Q (Null Sphere)\"> <strong>Null Sphere</strong> shield right before their abilities land — the magic shield blocks most of the damage.</li>\n<li><strong>Zed:</strong> Avoid all-ins pre-6. After <strong>R</strong> unlocks, bait his <strong>R</strong> mark, then Riftwalk to dodge the snap-back damage. Buy <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> as item 2 instead of Deathcap if he is fed (has 4+ kills already).</li>\n<li><strong>Veigar:</strong> Even pre-6, brutal post-11. Stay outside his <strong>E</strong> cage range until level 11; once you hit 2-second R cooldown, dive him through the cage with a sideways Riftwalk (the cage has open corners, not full walls).</li>\n<li><strong>Ahri:</strong> Roam priority race. Push the wave when she is low on mana, follow her roams. Her Charm cancels your <strong>R</strong> mid-blink — buy <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> as your 4th item if she is the carry threat.</li>\n<li><strong>Yasuo:</strong> Hard early bully. Do not auto-attack into wave (his <strong>E</strong> dashes off your minions for free poke). Stay back, let him push, freeze the wave near your tower with auto-attack pulls. Survive to level 6 then start trading R+Q.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 6:</strong> First <strong>Riftwalk</strong> unlocks. You can now blink over walls — escape ganks through Krug pit, Raptor wall, dragon pit lip. Damage on R is low at rank 1, do not all-in yet.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6657.png\" alt=\"Rod of Ages\"> Rod of Ages completion (~ minute 12-14):</strong> First major HP/mana cushion. Lane phase becomes survivable; start looking for short trades when the enemy mid is on cooldown.</li>\n<li><strong>Level 11:</strong> Second <strong>R</strong> rank cuts the cooldown to 3.5 seconds. This is the real Kassadin online — you can chain 2 R and live, or R-Q-E-AA-R out a squishy. Force teamfights here.</li>\n<li><strong>Level 16 + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> Rabadon's Deathcap (~ minute 24-28):</strong> R cooldown at 2 seconds, AP scaling on top. You one-shot any squishy without MR and can chain 3-4 R in a single fight. Force baron and elder dragon fights here — late-game Kassadin wins them.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Trying to win lane.</strong> Kassadin is the worst-scaling early laner in mid by design. If you go for level-3 all-ins you will die, fall behind, and never reach your spike. Last-hit, eat poke, hit level 11 alive — that is the win.</li>\n<li><strong>Spamming Riftwalk in skirmishes.</strong> Each cast within 7 seconds doubles the mana cost. 4 R back-to-back will burn 600+ mana — you will run dry mid-fight with no Q and no E. Track your mana bar before the third R.</li>\n<li><strong>Holding E for the perfect cone.</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/spell/ForcePulse.png\" alt=\"Force Pulse\"> <strong>Force Pulse</strong> needs charges from spells cast nearby (yours and enemies' count). Cast Q on a wave once before the fight to stack E to ready, then engage. Walking into a fight without E charged is throwing the slow finisher.</li>\n<li><strong>R-engaging without an exit plan.</strong> Riftwalk is short range (500). If you blink onto a backline ADC and your team is not following up, peel will eat you before R is back up. Always look for the second R direction (where will you R back out?) before the first R.</li>\n<li><strong>Buying Deathcap before Rod of Ages.</strong> Deathcap costs 3600 gold with no HP/mana — buying it first means you die in any teamfight before the AP matters. Rod of Ages (3700g, +400 HP, +400 mana) is the survivability item that makes the Deathcap usable.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Use <strong>Q</strong> as a magic shield buffer before enemy spell windups, not just as poke. The 1.5-second magic shield from Null Sphere absorbs a fixed chunk of magic damage — cast it in the half-second before a Veigar <strong>W</strong>, a Lissandra <strong>R</strong>, or an Annie <strong>R+Tibbers</strong> lands, and you negate most of their burst. Practice the timing in Practice Tool against bot Veigar: the shield must be active <strong>as the spell hits</strong>, not before the cast starts. This single trick is what separates Kassadin players who lose lane 0/3 from ones who lose lane 0/0 and scale.</p>",
+    "content_html_pre": "<h2>Overview</h2>\n<p>Kassadin is an AP assassin (a mage that closes the gap and deletes a single target instead of poking from far away) built for the late game. His kit revolves around <strong>Riftwalk (R)</strong>: a short blink with a very low cooldown that becomes the strongest repositioning tool in the game once it reaches rank 3 at level 16. The trade-off is a punishing lane phase: short range (650 on <strong>Q</strong>), no waveclear before level 9, and base damage that loses every all-in (full commitment trade until someone dies) pre-6 against most mid laners. The mid lane suits him because the river is the shortest path to scuttle and side lanes once <strong>R</strong> is online — but you have to survive 11-13 minutes first.</p>\n<p>His game plan is simple: do not feed pre-6, hit level 11 with one full item completed, then start hunting squishy carries. Skill expression sits in <strong>Riftwalk</strong> mana management (every cast within 7 seconds doubles the cost, so 4 R in a fight without a Tear-based item is impossible) and in stacking <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/spell/ForcePulse.png\" alt=\"Force Pulse\"> <strong>Force Pulse (E)</strong> from your own spells before the fight starts.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> Doran's Ring + 2 Health Potions. The mana from Doran's matters more than the early HP from Doran's Shield: you spam <strong>Q</strong> in lane to last-hit at range when you can.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6657.png\" alt=\"Rod of Ages\"> <strong>Rod of Ages</strong> — best mana + HP + AP scaler in the game for Kassadin. The 10-minute Eternity passive heals you for a chunk every level-up, surviving lane phase. First completed item.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — flat magic penetration, the boots you almost always want against squishy mid/ADC targets.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — 35% AP multiplier. Your Q+E+AA combo doubles in damage with this on.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — armor + AP + active stasis. Lets you R into the backline and stasis if peel arrives, then R out when stasis ends.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — magic penetration vs MR stacking. Mandatory once any priority target buys <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> or <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> + an MR item.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4629.png\" alt=\"Cosmic Drive\"> <strong>Cosmic Drive</strong> — vs comps you out-scale post-11. AP + ability haste + movement speed; you chain Riftwalks faster and stick on the squishy backline once you've blinked in.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — vs single-target magic CC that locks you out of your <strong>R</strong> window (Ahri charm, Lissandra R, Twisted Fate stun).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — vs healing-stacking compositions. Applies Grievous Wounds (a debuff that halves healing) on damage.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — vs squishy carries who buy shields. The HP-threshold passive (a passive that activates when the target is below ~35% HP) lines up with your <strong>R+Q+E</strong> execute.</li>\n</ul>\n<p><strong>Boots:</strong> Sorcerer's Shoes is default. Swap to <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> vs heavy AP + CC compositions (2+ stuns / roots in the enemy team).</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (best damage and the mana-cheap shield), <strong>E</strong> second (waveclear unlocks at level 9 with E maxed), <strong>W</strong> last. Take a point in <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Inspiration</strong> with <strong>First Strike</strong>, <strong>Magical Footwear</strong>, <strong>Biscuit Delivery</strong>, <strong>Cosmic Insight</strong>. Secondary <strong>Sorcery</strong> with <strong>Manaflow Band</strong> and <strong>Transcendence</strong>. Swap Sorcery to <strong>Resolve</strong> (Second Wind + Overgrowth) into long-range poke matchups.</p>",
+    "content_html_post": "<h2>Key matchups</h2>\n<ul>\n<li><strong>Xerath / Vel'Koz:</strong> Their Q range exceeds yours by 200+ units. Last-hit only with <strong>Q</strong> at max range, eat the poke, never push past river. Use <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/spell/NullLance.png\" alt=\"Q (Null Sphere)\"> <strong>Null Sphere</strong> shield right before their abilities land — the magic shield blocks most of the damage.</li>\n<li><strong>Zed:</strong> Avoid all-ins pre-6. After <strong>R</strong> unlocks, bait his <strong>R</strong> mark, then Riftwalk to dodge the snap-back damage. Buy <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> as item 2 instead of Deathcap if he is fed (has 4+ kills already).</li>\n<li><strong>Veigar:</strong> Even pre-6, brutal post-11. Stay outside his <strong>E</strong> cage range until level 11; once you hit 2-second R cooldown, dive him through the cage with a sideways Riftwalk (the cage has open corners, not full walls).</li>\n<li><strong>Ahri:</strong> Roam priority race. Push the wave when she is low on mana, follow her roams. Her Charm cancels your <strong>R</strong> mid-blink — buy <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> as your 4th item if she is the carry threat.</li>\n<li><strong>Yasuo:</strong> Hard early bully. Do not auto-attack into wave (his <strong>E</strong> dashes off your minions for free poke). Stay back, let him push, freeze the wave near your tower with auto-attack pulls. Survive to level 6 then start trading R+Q.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 6:</strong> First <strong>Riftwalk</strong> unlocks. You can now blink over walls — escape ganks through Krug pit, Raptor wall, dragon pit lip. Damage on R is low at rank 1, do not all-in yet.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6657.png\" alt=\"Rod of Ages\"> Rod of Ages completion (~ minute 12-14):</strong> First major HP/mana cushion. Lane phase becomes survivable; start looking for short trades when the enemy mid is on cooldown.</li>\n<li><strong>Level 11:</strong> Second <strong>R</strong> rank cuts the cooldown to 3.5 seconds. This is the real Kassadin online — you can chain 2 R and live, or R-Q-E-AA-R out a squishy. Force teamfights here.</li>\n<li><strong>Level 16 + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> Rabadon's Deathcap (~ minute 24-28):</strong> R cooldown at 2 seconds, AP scaling on top. You one-shot any squishy without MR and can chain 3-4 R in a single fight. Force baron and elder dragon fights here — late-game Kassadin wins them.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Trying to win lane.</strong> Kassadin is the worst-scaling early laner in mid by design. If you go for level-3 all-ins you will die, fall behind, and never reach your spike. Last-hit, eat poke, hit level 11 alive — that is the win.</li>\n<li><strong>Spamming Riftwalk in skirmishes.</strong> Each cast within 7 seconds doubles the mana cost. 4 R back-to-back will burn 600+ mana — you will run dry mid-fight with no Q and no E. Track your mana bar before the third R.</li>\n<li><strong>Holding E for the perfect cone.</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/spell/ForcePulse.png\" alt=\"Force Pulse\"> <strong>Force Pulse</strong> needs charges from spells cast nearby (yours and enemies' count). Cast Q on a wave once before the fight to stack E to ready, then engage. Walking into a fight without E charged is throwing the slow finisher.</li>\n<li><strong>R-engaging without an exit plan.</strong> Riftwalk is short range (500). If you blink onto a backline ADC and your team is not following up, peel will eat you before R is back up. Always look for the second R direction (where will you R back out?) before the first R.</li>\n<li><strong>Buying Deathcap before Rod of Ages.</strong> Deathcap costs 3600 gold with no HP/mana — buying it first means you die in any teamfight before the AP matters. Rod of Ages (3700g, +400 HP, +400 mana) is the survivability item that makes the Deathcap usable.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Use <strong>Q</strong> as a magic shield buffer before enemy spell windups, not just as poke. The 1.5-second magic shield from Null Sphere absorbs a fixed chunk of magic damage — cast it in the half-second before a Veigar <strong>W</strong>, a Lissandra <strong>R</strong>, or an Annie <strong>R+Tibbers</strong> lands, and you negate most of their burst. Practice the timing in Practice Tool against bot Veigar: the shield must be active <strong>as the spell hits</strong>, not before the cast starts. This single trick is what separates Kassadin players who lose lane 0/3 from ones who lose lane 0/0 and scale.</p>",
+    "word_count": 1191,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "ahri-mid",
+        "champion": "ahri",
+        "role": "mid"
+      },
+      {
+        "slug": "akali-mid",
+        "champion": "akali",
+        "role": "mid"
+      },
+      {
+        "slug": "akshan-mid",
+        "champion": "akshan",
+        "role": "mid"
+      },
+      {
+        "slug": "annie-mid",
+        "champion": "annie",
+        "role": "mid"
+      },
+      {
+        "slug": "lux-mid",
+        "champion": "lux",
+        "role": "mid"
+      }
+    ],
+    "champion_key": "38"
+  },
+  {
+    "slug": "katarina-mid",
+    "title": "Katarina Mid Build & Guide — Patch 16.9",
+    "language": "en",
+    "patch": "16.9",
+    "champion": "katarina",
+    "role": "mid",
+    "last_updated": "2026-05-05",
+    "description": "Katarina mid lane guide for League of Legends Patch 16.9: starter kit, core AP assassin build path, key matchups, power spikes, common mistakes, and a closing tip.",
+    "quick_learn": {
+      "champion_dd_id": "Katarina",
+      "difficulty": 4,
+      "damage_type": "magic",
+      "champion_class": "AP Assassin / Snowball Resetter",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Voracity",
+          "description": "When an enemy champion Katarina damaged dies, her remaining cooldowns drop dramatically (kill or assist). Picking up a Dagger triggers an AOE slash.",
+          "dd_spell_id": "Katarina_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Bouncing Blade",
+          "description": "Targeted Dagger that bounces to nearby enemies, then drops behind the primary target. The grounded Dagger is the pivot of the combo.",
+          "dd_spell_id": "KatarinaQ"
+        },
+        {
+          "key": "W",
+          "name": "Preparation",
+          "description": "Tosses a Dagger above Katarina that lands a moment later, plus a brief burst of Move Speed. Drops the Dagger you blink onto.",
+          "dd_spell_id": "KatarinaW"
+        },
+        {
+          "key": "E",
+          "name": "Shunpo",
+          "description": "Blink to a champion, minion, ward, or Dagger. Picking up a Dagger reduces this cooldown. Main mobility tool — also works on enemy wards.",
+          "dd_spell_id": "KatarinaEWrapper"
+        },
+        {
+          "key": "R",
+          "name": "Death Lotus",
+          "description": "Channel that throws knives at the 3 nearest enemy champions, applying Grievous Wounds. Cleansed by any hard CC. Use post-engage, not pre-engage.",
+          "dd_spell_id": "KatarinaR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "Q"
+        },
+        {
+          "level": 9,
+          "key": "W"
+        },
+        {
+          "level": 10,
+          "key": "W"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "W"
+        },
+        {
+          "level": 13,
+          "key": "W"
+        },
+        {
+          "level": 14,
+          "key": "E"
+        },
+        {
+          "level": 15,
+          "key": "E"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "E"
+        },
+        {
+          "level": 18,
+          "key": "E"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "3152",
+          "name": "Hextech Rocketbelt"
+        },
+        {
+          "dd_id": "3020",
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "dd_id": "4646",
+          "name": "Stormsurge"
+        },
+        {
+          "dd_id": "3089",
+          "name": "Rabadon's Deathcap"
+        },
+        {
+          "dd_id": "4645",
+          "name": "Shadowflame"
+        },
+        {
+          "dd_id": "3135",
+          "name": "Void Staff"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass",
+          "against": "vs hard-engage targets (Malphite R, Zac, Amumu) — stasis cancels the engage that interrupts your R channel"
+        },
+        {
+          "dd_id": "3102",
+          "name": "Banshee's Veil",
+          "against": "vs single-target magic CC that cancels R (Annie stun, Lissandra R, Twisted Fate gold card)"
+        },
+        {
+          "dd_id": "3111",
+          "name": "Mercury's Treads",
+          "against": "vs heavy CC compositions (2+ stuns/roots) — replaces Sorcerer's Shoes when you eat too much CC to channel R"
+        },
+        {
+          "dd_id": "3165",
+          "name": "Morellonomicon",
+          "against": "vs healing-stacking comps (Soraka, Vladimir, Dr. Mundo) — Grievous Wounds caps their healing"
+        }
+      ],
+      "base_combo": [
+        "W",
+        "E",
+        "Q",
+        "AA",
+        "R"
+      ],
+      "win_condition": "Get a kill or assist in the early laning phase, then snowball: every takedown resets your full kit via Voracity, so a single kill in lane often becomes a double kill on the next wave.",
+      "weakness": "Hard CC interrupts R and turns the channel into wasted time. Without a takedown to reset cooldowns she becomes a low-range melee with one blink — long-range mages punish her for free.",
+      "runes": {
+        "primary_tree": "Domination",
+        "primary_tree_dd_id": 8100,
+        "keystone": {
+          "dd_id": 8112,
+          "name": "Electrocute",
+          "icon_path": "perk-images/Styles/Domination/Electrocute/Electrocute.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 8143,
+            "name": "Sudden Impact",
+            "icon_path": "perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png"
+          },
+          {
+            "dd_id": 8140,
+            "name": "Grisly Mementos",
+            "icon_path": "perk-images/Styles/Domination/GrislyMementos/GrislyMementos.png"
+          },
+          {
+            "dd_id": 8106,
+            "name": "Ultimate Hunter",
+            "icon_path": "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png"
+          }
+        ],
+        "secondary_tree": "Precision",
+        "secondary_tree_dd_id": 8000,
+        "secondary_slots": [
+          {
+            "dd_id": 9111,
+            "name": "Triumph",
+            "icon_path": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "dd_id": 8014,
+            "name": "Coup de Grace",
+            "icon_path": "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png"
+          }
+        ],
+        "stat_shards": [
+          "Adaptive Force",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Domination primary: Electrocute procs every W-E-Q chain (3 distinct hits in 3 seconds) for free burst. Sudden Impact triggers right after every Shunpo (the blink). Ultimate Hunter shaves seconds off Death Lotus on every takedown — and Voracity already does the rest.",
+        "secondary_rationale": "Precision secondary: Triumph heals 12% missing HP on takedown so you can chain a second kill on the resetting kit. Coup de Grace adds +8% damage to enemies under 40% HP — exactly the window where R finishes a fight.",
+        "secondary_alternative": "If the enemy team has heavy magic poke (Xerath, Vel'Koz, Ziggs), swap Precision to Resolve with Second Wind (regen vs poke) and Overgrowth (extra HP scaling) so you survive the laning phase to a takedown."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "veigar",
+            "twisted-fate",
+            "anivia"
+          ],
+          "archetype": "Immobile mages without dash",
+          "reason": "They cannot exit Katarina's W-E-Q burst window. Once their setup ability (Veigar cage, TF gold card, Anivia E) is on cooldown they have no answer to a Shunpo all-in."
+        },
+        {
+          "examples": [
+            "lux",
+            "orianna"
+          ],
+          "archetype": "Mid-range mages with no escape",
+          "reason": "Both rely on positioning behind minions. Katarina blinks to a Dagger past the wave, deletes them with W-E-Q-AA, and resets on the kill into the next target."
+        },
+        {
+          "examples": [
+            "karthus"
+          ],
+          "archetype": "Farm-heavy scalers without sustain or hard CC",
+          "reason": "Karthus needs uninterrupted farm windows. Katarina's reset pressure forces him to burn Flash and trade away the late-game scaling that is his only win condition."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "annie",
+            "lissandra"
+          ],
+          "archetype": "Point-and-click hard-CC mages",
+          "reason": "Their stun is instant and uncounterable: it cancels Death Lotus mid-channel and turns Katarina into a stationary punching bag while their team collapses on her."
+        },
+        {
+          "examples": [
+            "xerath",
+            "vel-koz"
+          ],
+          "archetype": "Long-range artillery mages",
+          "reason": "They poke Katarina down from outside her Q range (625) for the first 5 levels. She reaches level 6 already at 40% HP, with no Voracity reset available, and dies to a single skillshot rotation."
+        },
+        {
+          "examples": [
+            "diana",
+            "pantheon"
+          ],
+          "archetype": "Burst all-in midlaners with point-and-click engage",
+          "reason": "Diana's Q-R combo and Pantheon's W stun both connect before Katarina can drop her own W Dagger. She loses the trade race and falls behind on item spikes."
+        }
+      ]
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Katarina is a melee AP assassin built around her <strong>Voracity</strong> passive: every takedown (kill or assist) dramatically reduces all of her remaining ability cooldowns. That single mechanic is the entire identity of the champion — one kill in lane refreshes her full kit, so a single takedown often becomes a double on the next wave. The mid lane suits her because she needs short rotation distances to chain resets across the map.</p>\n<p>Her game plan reads simple, executes hard. Drop a Dagger with <strong>W</strong> or use the trailing Dagger from <strong>Q</strong>, blink onto it with <strong>E</strong> for AOE damage, then start auto-attacking and casting <strong>R</strong> when the opponent hits low HP. The skill expression sits in two places: the <strong>W-E-Q</strong> cast order (you must drop the Dagger before the blink, not after) and choosing <strong>when</strong> to channel <strong>R</strong> — pre-engage you get cancelled by any stun, post-engage you mop up a fight with reset chains.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> Doran's Ring + 2 Health Potions. Skip Doran's Shield even into ranged matchups — the AP and mana regen win you more trades than the HP saves you.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3152.png\" alt=\"Hextech Rocketbelt\"> <strong>Hextech Rocketbelt</strong> — first item spike. Gives a second short dash (active) on top of Shunpo, so you can engage on a target who already burned their escape. Adds AP and HP for surviving counter-engage.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — flat magic penetration. Default boots; swap to Mercury's Treads against heavy CC.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4646.png\" alt=\"Stormsurge\"> <strong>Stormsurge</strong> — burst spike that lines up perfectly with the W-E-Q chain. The HP-threshold passive (it triggers when you bring an enemy under a low-HP threshold) gives you the extra burst to finish targets without needing to channel R.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — late-game scaling multiplier. Your highest-AP slot; the 30% AP amp turns Katarina from \"snowball assassin\" into \"one-shot any squishy\".</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — bonus magic penetration that scales with the target's missing HP. Stacks beautifully with Stormsurge and R for finishing low-HP targets across a fight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — buy this the moment any priority enemy completes a Magic Resist item.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — vs hard-engage targets (Malphite R, Zac, Amumu). The stasis cancels the engage that would otherwise interrupt your R channel.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — vs single-target magic CC that cancels R (Annie stun, Lissandra R, Twisted Fate gold card). The shield eats one ability so your channel survives.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — replace Sorcerer's Shoes when the enemy team has 2+ stuns or roots that cancel Death Lotus.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — into healing-stacking compositions (Soraka mid, Vladimir, Dr. Mundo top). Caps enemy healing so a kill stays a kill.</li>\n</ul>\n<p><strong>Boots:</strong> Sorcerer's Shoes is default. Mercury's Treads is the swap when the enemy team has hard CC; Ionian Boots of Lucidity is rarely correct because Voracity already gives you cooldowns for free.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (waveclear and main damage), <strong>W</strong> second (the dagger that anchors every combo), <strong>E</strong> last. Take a point in <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Domination</strong> with <strong>Electrocute</strong>, <strong>Sudden Impact</strong>, <strong>Grisly Mementos</strong>, <strong>Ultimate Hunter</strong>. Secondary <strong>Precision</strong> with <strong>Triumph</strong> and <strong>Coup de Grace</strong>. The keystone (the headline rune at the top of the page) procs naturally on the W-E-Q chain because you hit 3 separate damage instances.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Annie:</strong> Hardest matchup. Her stun is point-and-click and cancels Death Lotus instantly. Buy <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> as your second item if the lane is going badly. Pre-6, sit at the back of the wave and farm with <strong>Q</strong>; never blink in until her stun is on cooldown.</li>\n<li><strong>Lux:</strong> Favourable matchup once you reach level 6. Pre-6 her <strong>Q</strong> outranges your kit, so play behind minions and dodge. After 6, blink onto a sidewave dagger and burst her — she has no dash to escape.</li>\n<li><strong>Zed:</strong> Skill matchup. He has the same all-in pattern with more disengage (his <strong>R</strong> untargets him for 0.5s, breaking your channel). Hold <strong>R</strong> until he uses <strong>R</strong> first; if you can survive his combo, you reset on the kill.</li>\n<li><strong>Twisted Fate:</strong> Counter-pick this one. Pre-6 you outpush him; after 6, when he tries to roam, you blink onto a wave dagger and delete him because he has no defensive item. Track his <strong>R</strong> with mid wards.</li>\n<li><strong>Diana:</strong> Hard counter into you. Her <strong>Q-R</strong> combo procs before your <strong>W</strong> even drops the dagger. Buy <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> as a third item; never blink on her under tower without it.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2:</strong> With <strong>Q</strong> and <strong>E</strong> you can already trade. Drop <strong>Q</strong>, walk forward to its bounce range, blink <strong>E</strong> onto the trailing dagger for AOE damage, then walk out. Free poke if you do it on cooldown.</li>\n<li><strong>Level 6:</strong> First <strong>Death Lotus</strong>. With Voracity, one kill or assist refreshes the channel and doubles your damage in skirmishes — pre-6 fights lasted 4 seconds; post-6, a takedown can extend a fight to 10s of cycling resets.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3152.png\" alt=\"Hextech Rocketbelt\"> Hextech Rocketbelt completion (~ minute 11-13):</strong> First major item spike. The active dash gives you a second mobility tool, so you engage on a target who already burned their escape (Flash, Lux <strong>E</strong>, Yasuo <strong>E</strong>). Roam pressure flips here.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4646.png\" alt=\"Stormsurge\"> Stormsurge online (~ minute 18-22):</strong> Your W-E-Q-AA combo now one-shots any squishy under 70% HP without R. This is the timing where you force objective fights and look for picks on the side lanes.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Channeling R pre-engage.</strong> Hard CC interrupts Death Lotus and wastes the cooldown. Use <strong>R</strong> post-engage: after your team's tank engages, after the enemy frontline blew their CC, then channel from a safe spot to mop up. Pre-engaging with <strong>R</strong> is reserved for finishing a low-HP target who has no way to interrupt you.</li>\n<li><strong>Blinking E first, then dropping W.</strong> The cast order is <strong>W → E → Q</strong>. The dagger must be on the ground (or about to land) when you blink, otherwise you don't pick it up and you lose the AOE damage of the passive proc plus the cooldown reduction on Shunpo.</li>\n<li><strong>Greeding for the reset on a target you cannot finish.</strong> If the enemy is at 35% HP but their teammate is right next to them, the kill won't trigger Voracity in time and you die to the follow-up. Disengage with <strong>W</strong> Move Speed, wait for the cooldowns the slow way.</li>\n<li><strong>Wasting Shunpo on minions for waveclear.</strong> You need <strong>E</strong> as a defensive escape tool. Push waves with <strong>Q</strong> plus auto-attacks; only blink to a minion if you are committing to a fight or escaping.</li>\n<li><strong>Picking Katarina into double point-and-click CC.</strong> If the enemy team has Annie + Leona, your <strong>R</strong> never resolves. Either dodge in champ-select or accept that you have to play around their cooldowns: blink in only after they burn the stuns on someone else.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Use <strong>E</strong> on enemy wards to escape ganks. The blink works on any visible ward — including enemy trinkets and pinks placed on your side of the river. Spot a Stealth Ward at the tri-bush before a gank arrives, and you have a free escape tool that does not show up on the enemy's map: most opponents place wards forward without realising they are giving you an exit. The mirror-image play is also true: if you spot an enemy ward placed near your tower as you back, you can reposition the start of your next gank around it.</p>",
+    "content_html_pre": "<h2>Overview</h2>\n<p>Katarina is a melee AP assassin built around her <strong>Voracity</strong> passive: every takedown (kill or assist) dramatically reduces all of her remaining ability cooldowns. That single mechanic is the entire identity of the champion — one kill in lane refreshes her full kit, so a single takedown often becomes a double on the next wave. The mid lane suits her because she needs short rotation distances to chain resets across the map.</p>\n<p>Her game plan reads simple, executes hard. Drop a Dagger with <strong>W</strong> or use the trailing Dagger from <strong>Q</strong>, blink onto it with <strong>E</strong> for AOE damage, then start auto-attacking and casting <strong>R</strong> when the opponent hits low HP. The skill expression sits in two places: the <strong>W-E-Q</strong> cast order (you must drop the Dagger before the blink, not after) and choosing <strong>when</strong> to channel <strong>R</strong> — pre-engage you get cancelled by any stun, post-engage you mop up a fight with reset chains.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> Doran's Ring + 2 Health Potions. Skip Doran's Shield even into ranged matchups — the AP and mana regen win you more trades than the HP saves you.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3152.png\" alt=\"Hextech Rocketbelt\"> <strong>Hextech Rocketbelt</strong> — first item spike. Gives a second short dash (active) on top of Shunpo, so you can engage on a target who already burned their escape. Adds AP and HP for surviving counter-engage.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — flat magic penetration. Default boots; swap to Mercury's Treads against heavy CC.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4646.png\" alt=\"Stormsurge\"> <strong>Stormsurge</strong> — burst spike that lines up perfectly with the W-E-Q chain. The HP-threshold passive (it triggers when you bring an enemy under a low-HP threshold) gives you the extra burst to finish targets without needing to channel R.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — late-game scaling multiplier. Your highest-AP slot; the 30% AP amp turns Katarina from \"snowball assassin\" into \"one-shot any squishy\".</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — bonus magic penetration that scales with the target's missing HP. Stacks beautifully with Stormsurge and R for finishing low-HP targets across a fight.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — buy this the moment any priority enemy completes a Magic Resist item.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — vs hard-engage targets (Malphite R, Zac, Amumu). The stasis cancels the engage that would otherwise interrupt your R channel.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> — vs single-target magic CC that cancels R (Annie stun, Lissandra R, Twisted Fate gold card). The shield eats one ability so your channel survives.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> — replace Sorcerer's Shoes when the enemy team has 2+ stuns or roots that cancel Death Lotus.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — into healing-stacking compositions (Soraka mid, Vladimir, Dr. Mundo top). Caps enemy healing so a kill stays a kill.</li>\n</ul>\n<p><strong>Boots:</strong> Sorcerer's Shoes is default. Mercury's Treads is the swap when the enemy team has hard CC; Ionian Boots of Lucidity is rarely correct because Voracity already gives you cooldowns for free.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (waveclear and main damage), <strong>W</strong> second (the dagger that anchors every combo), <strong>E</strong> last. Take a point in <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Domination</strong> with <strong>Electrocute</strong>, <strong>Sudden Impact</strong>, <strong>Grisly Mementos</strong>, <strong>Ultimate Hunter</strong>. Secondary <strong>Precision</strong> with <strong>Triumph</strong> and <strong>Coup de Grace</strong>. The keystone (the headline rune at the top of the page) procs naturally on the W-E-Q chain because you hit 3 separate damage instances.</p>",
+    "content_html_post": "<h2>Key matchups</h2>\n<ul>\n<li><strong>Annie:</strong> Hardest matchup. Her stun is point-and-click and cancels Death Lotus instantly. Buy <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3102.png\" alt=\"Banshee&#x27;s Veil\"> <strong>Banshee's Veil</strong> as your second item if the lane is going badly. Pre-6, sit at the back of the wave and farm with <strong>Q</strong>; never blink in until her stun is on cooldown.</li>\n<li><strong>Lux:</strong> Favourable matchup once you reach level 6. Pre-6 her <strong>Q</strong> outranges your kit, so play behind minions and dodge. After 6, blink onto a sidewave dagger and burst her — she has no dash to escape.</li>\n<li><strong>Zed:</strong> Skill matchup. He has the same all-in pattern with more disengage (his <strong>R</strong> untargets him for 0.5s, breaking your channel). Hold <strong>R</strong> until he uses <strong>R</strong> first; if you can survive his combo, you reset on the kill.</li>\n<li><strong>Twisted Fate:</strong> Counter-pick this one. Pre-6 you outpush him; after 6, when he tries to roam, you blink onto a wave dagger and delete him because he has no defensive item. Track his <strong>R</strong> with mid wards.</li>\n<li><strong>Diana:</strong> Hard counter into you. Her <strong>Q-R</strong> combo procs before your <strong>W</strong> even drops the dagger. Buy <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> as a third item; never blink on her under tower without it.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 2:</strong> With <strong>Q</strong> and <strong>E</strong> you can already trade. Drop <strong>Q</strong>, walk forward to its bounce range, blink <strong>E</strong> onto the trailing dagger for AOE damage, then walk out. Free poke if you do it on cooldown.</li>\n<li><strong>Level 6:</strong> First <strong>Death Lotus</strong>. With Voracity, one kill or assist refreshes the channel and doubles your damage in skirmishes — pre-6 fights lasted 4 seconds; post-6, a takedown can extend a fight to 10s of cycling resets.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3152.png\" alt=\"Hextech Rocketbelt\"> Hextech Rocketbelt completion (~ minute 11-13):</strong> First major item spike. The active dash gives you a second mobility tool, so you engage on a target who already burned their escape (Flash, Lux <strong>E</strong>, Yasuo <strong>E</strong>). Roam pressure flips here.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4646.png\" alt=\"Stormsurge\"> Stormsurge online (~ minute 18-22):</strong> Your W-E-Q-AA combo now one-shots any squishy under 70% HP without R. This is the timing where you force objective fights and look for picks on the side lanes.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Channeling R pre-engage.</strong> Hard CC interrupts Death Lotus and wastes the cooldown. Use <strong>R</strong> post-engage: after your team's tank engages, after the enemy frontline blew their CC, then channel from a safe spot to mop up. Pre-engaging with <strong>R</strong> is reserved for finishing a low-HP target who has no way to interrupt you.</li>\n<li><strong>Blinking E first, then dropping W.</strong> The cast order is <strong>W → E → Q</strong>. The dagger must be on the ground (or about to land) when you blink, otherwise you don't pick it up and you lose the AOE damage of the passive proc plus the cooldown reduction on Shunpo.</li>\n<li><strong>Greeding for the reset on a target you cannot finish.</strong> If the enemy is at 35% HP but their teammate is right next to them, the kill won't trigger Voracity in time and you die to the follow-up. Disengage with <strong>W</strong> Move Speed, wait for the cooldowns the slow way.</li>\n<li><strong>Wasting Shunpo on minions for waveclear.</strong> You need <strong>E</strong> as a defensive escape tool. Push waves with <strong>Q</strong> plus auto-attacks; only blink to a minion if you are committing to a fight or escaping.</li>\n<li><strong>Picking Katarina into double point-and-click CC.</strong> If the enemy team has Annie + Leona, your <strong>R</strong> never resolves. Either dodge in champ-select or accept that you have to play around their cooldowns: blink in only after they burn the stuns on someone else.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Use <strong>E</strong> on enemy wards to escape ganks. The blink works on any visible ward — including enemy trinkets and pinks placed on your side of the river. Spot a Stealth Ward at the tri-bush before a gank arrives, and you have a free escape tool that does not show up on the enemy's map: most opponents place wards forward without realising they are giving you an exit. The mirror-image play is also true: if you spot an enemy ward placed near your tower as you back, you can reposition the start of your next gank around it.</p>",
+    "word_count": 1228,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "ahri-mid",
+        "champion": "ahri",
+        "role": "mid"
+      },
+      {
+        "slug": "akali-mid",
+        "champion": "akali",
+        "role": "mid"
+      },
+      {
+        "slug": "akshan-mid",
+        "champion": "akshan",
+        "role": "mid"
+      },
+      {
+        "slug": "annie-mid",
+        "champion": "annie",
+        "role": "mid"
+      },
+      {
+        "slug": "lux-mid",
+        "champion": "lux",
+        "role": "mid"
+      }
+    ],
+    "champion_key": "55"
+  },
+  {
+    "slug": "kayle-top",
+    "title": "Kayle Top Build & Guide — Patch 16.9",
+    "language": "en",
+    "patch": "16.9",
+    "champion": "kayle",
+    "role": "top",
+    "last_updated": "2026-05-05",
+    "description": "Kayle top lane guide for League of Legends Patch 16.9: survival lane plan, hyper-scaling AS+AP build, key matchups, level 11/16 power spikes, and common mistakes.",
+    "quick_learn": {
+      "champion_dd_id": "Kayle",
+      "difficulty": 3,
+      "damage_type": "mixed",
+      "champion_class": "Fighter / Hyper-scaling Carry",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Divine Ascent",
+          "description": "Kayle transforms 4 times as she levels (1, 6, 11, 16). At 6 she gains ranged auto-attacks; at 16 her attacks fire AOE waves of fire on-hit.",
+          "dd_spell_id": "Kayle_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Radiant Blast",
+          "description": "Linear skillshot that damages, slows, and shreds armor + magic resist on the first enemy hit and enemies behind. Your only ranged tool pre-6.",
+          "dd_spell_id": "KayleQ"
+        },
+        {
+          "key": "W",
+          "name": "Celestial Blessing",
+          "description": "Heal and movement speed on Kayle and the nearest ally. In-lane sustain pre-6, peel and chase tool later.",
+          "dd_spell_id": "KayleW"
+        },
+        {
+          "key": "E",
+          "name": "Starfire Spellblade",
+          "description": "Passive: bonus magic damage on auto-attacks. Active: next auto-attack becomes ranged and deals bonus missing-HP magic damage. Post-6 the passive fires AOE waves on-hit.",
+          "dd_spell_id": "KayleE"
+        },
+        {
+          "key": "R",
+          "name": "Divine Judgment",
+          "description": "Targets an ally (or self) with a few seconds of invulnerability, then explodes for AOE magic damage. Save tool, engage cover, and finisher.",
+          "dd_spell_id": "KayleR"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "E"
+        },
+        {
+          "level": 2,
+          "key": "W"
+        },
+        {
+          "level": 3,
+          "key": "Q"
+        },
+        {
+          "level": 4,
+          "key": "E"
+        },
+        {
+          "level": 5,
+          "key": "E"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "E"
+        },
+        {
+          "level": 8,
+          "key": "Q"
+        },
+        {
+          "level": 9,
+          "key": "E"
+        },
+        {
+          "level": 10,
+          "key": "Q"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "Q"
+        },
+        {
+          "level": 13,
+          "key": "Q"
+        },
+        {
+          "level": 14,
+          "key": "W"
+        },
+        {
+          "level": 15,
+          "key": "W"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "W"
+        },
+        {
+          "level": 18,
+          "key": "W"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "3006",
+          "name": "Berserker's Greaves"
+        },
+        {
+          "dd_id": "3115",
+          "name": "Nashor's Tooth"
+        },
+        {
+          "dd_id": "3089",
+          "name": "Rabadon's Deathcap"
+        },
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "6655",
+          "name": "Luden's Echo",
+          "against": "swap as a 2nd item when the lane lets you skip survival picks and you want a mid-game burst spike on top of Nashor's"
+        },
+        {
+          "dd_id": "3091",
+          "name": "Wit's End",
+          "against": "vs heavy AP top laners (Rumble, Vladimir, Sylas) when their poke shuts you down before level 11"
+        },
+        {
+          "dd_id": "3033",
+          "name": "Mortal Reminder",
+          "against": "vs healing-stacking compositions (Aatrox top, Soraka, Dr. Mundo) — applies Grievous Wounds on attack"
+        },
+        {
+          "dd_id": "3135",
+          "name": "Void Staff",
+          "against": "the moment two enemies finish a Magic Resist item (Mercury's Treads do not count, finished items do)"
+        },
+        {
+          "dd_id": "3047",
+          "name": "Plated Steelcaps",
+          "against": "vs lanes that win with auto-attacks (Fiora, Camille, Tryndamere) — swap from Berserker's if you cannot survive lane otherwise"
+        }
+      ],
+      "base_combo": [
+        "Q",
+        "AA",
+        "E",
+        "AA"
+      ],
+      "win_condition": "Survive lane until level 11, then ramp damage with Nashor's Tooth + Rabadon's Deathcap. At level 16 your on-hit AOE waves clear team fights from the back line under R cover.",
+      "weakness": "Pre-level 6 you are a melee, slow, squishy auto-attacker with one short-range skillshot. Top laners with strong early all-in (Darius, Renekton, Riven) can kill you before any of your power spikes are online.",
+      "runes": {
+        "primary_tree": "Precision",
+        "primary_tree_dd_id": 8000,
+        "keystone": {
+          "dd_id": 8008,
+          "name": "Lethal Tempo",
+          "icon_path": "perk-images/Styles/Precision/LethalTempo/LethalTempoTemp.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 9111,
+            "name": "Triumph",
+            "icon_path": "perk-images/Styles/Precision/Triumph.png"
+          },
+          {
+            "dd_id": 9104,
+            "name": "Legend: Alacrity",
+            "icon_path": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
+          },
+          {
+            "dd_id": 8299,
+            "name": "Last Stand",
+            "icon_path": "perk-images/Styles/Sorcery/LastStand/LastStand.png"
+          }
+        ],
+        "secondary_tree": "Inspiration",
+        "secondary_tree_dd_id": 8300,
+        "secondary_slots": [
+          {
+            "dd_id": 8345,
+            "name": "Biscuit Delivery",
+            "icon_path": "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png"
+          },
+          {
+            "dd_id": 8347,
+            "name": "Cosmic Insight",
+            "icon_path": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png"
+          }
+        ],
+        "stat_shards": [
+          "Attack Speed",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Precision primary: Lethal Tempo stacks attack speed in a fight, which scales the AOE waves Kayle's passive fires post-6 and post-16. Triumph heals on takedowns, Legend: Alacrity adds permanent AS, Last Stand boosts damage at low HP — Kayle late game lives there.",
+        "secondary_rationale": "Inspiration secondary: Biscuit Delivery gives you mana and HP refunds during the survival phase pre-6, Cosmic Insight cuts your Flash and item active cooldowns so Zhonya's Hourglass comes back faster in team fights.",
+        "secondary_alternative": "Vs strong-poke lanes (Vladimir, Rumble, Quinn) swap Inspiration for Resolve with Second Wind (passive HP regen after taking damage) and Overgrowth (permanent HP scaling) so you can stay in lane until your level 11 power spike."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "garen",
+            "nasus",
+            "mordekaiser"
+          ],
+          "archetype": "Stat-check tops with no early kill threat",
+          "reason": "Without burst or hard-CC chains they cannot punish your weak pre-6 phase, and once you hit level 11 ranged auto-attacks you out-DPS them from a safe distance."
+        },
+        {
+          "examples": [
+            "veigar",
+            "kayn"
+          ],
+          "archetype": "Late-game scalers without strong 1-9 windows",
+          "reason": "You match their scaling: any team that lets you reach 16 surrenders the game, because Kayle's AOE on-hit waves outpace their wombo windup."
+        },
+        {
+          "examples": [
+            "senna",
+            "vayne"
+          ],
+          "archetype": "Carries you can babysit with R",
+          "reason": "Global ulti makes you the best peeler in the game — drop R the second they get dived and your carry survives a full burst chain unharmed."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "darius",
+            "renekton",
+            "riven",
+            "fiora"
+          ],
+          "archetype": "Early-pressure bruisers with all-in level 1-3",
+          "reason": "They kill you before level 6 power spike. Their CC chain plus sustained damage chunks 70%+ HP off Kayle in a 4-second all-in, and you have no dash to disengage."
+        },
+        {
+          "examples": [
+            "camille",
+            "yone"
+          ],
+          "archetype": "Mobile lane bullies with multiple gap-closers",
+          "reason": "Camille's E hookshot and Yone's Q3 dash both ignore the position you tried to hold; they close the gap before your Q + auto trade resolves."
+        },
+        {
+          "examples": [
+            "olaf",
+            "garen"
+          ],
+          "archetype": "Champions that bypass invulnerability",
+          "reason": "Olaf's R gives him CC immunity and true damage on R+axe, Garen's R deals true damage scaling on missing HP — both can finish you through Zhonya's Hourglass and even through the front-end of your R."
+        }
+      ]
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Kayle is a hyper-scaling carry who transforms across the game: a melee, slow, squishy auto-attacker at level 1, a ranged poker at level 6, a true late-game monster at level 11, and a team-wide AOE wrecking ball at level 16. Her <strong>Divine Ascent (P)</strong> is the kit — every milestone unlocks a new stat block (attack speed, range, fire waves on hit). The top lane is her natural home because the long lane gives her room to play passive without bleeding tempo.</p>\n<p>Her game plan is survival, not aggression. Lose CS if you must, never die, and trust the build: <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3115.png\" alt=\"Nashor&#x27;s Tooth\"> <strong>Nashor's Tooth</strong> at level 11 turns the ranged passive into real damage, and <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> at level 16 makes the AOE on-hit waves delete entire team fights from the back line under <strong>R</strong> cover.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1054.png\" alt=\"Doran&#x27;s Shield\"> <strong>Doran's Shield</strong> + 1 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potion</strong>. The shield turns the lane from \"I die to two trades\" into \"I lose CS but I live\". Skip Doran's Ring even though Kayle scales with AP — pre-6 you do not have the kit to use it.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> — attack speed boots feed your on-hit waves. Rush boots first, build piece by piece into Nashor's.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3115.png\" alt=\"Nashor&#x27;s Tooth\"> <strong>Nashor's Tooth</strong> — your single most important item. Combines the two stats Kayle wants in the same slot (50% attack speed + 90 AP) and adds magic damage on every hit. This is the spike that pushes you from \"weak top laner\" to \"real carry\".</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — multiplies all your AP scaling by 30%, and you have a lot to multiply (E passive, R, the post-16 AOE waves).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — the stasis is your lifeline against divers and against your own R cooldown timing. Build it third or fourth depending on the enemy comp.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3091.png\" alt=\"Wit&#x27;s End\"> <strong>Wit's End</strong> — vs heavy AP top laners (Rumble, Vladimir, Sylas). Adds attack speed plus magic resist plus on-hit magic damage, so it doubles as defensive and offensive at once.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3033.png\" alt=\"Mortal Reminder\"> <strong>Mortal Reminder</strong> — into healing-stacking compositions (Aatrox top, Soraka mid, Dr. Mundo). Applies Grievous Wounds on every auto, which cuts heal effectiveness by 40%.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — the moment two enemies finish a Magic Resist item (not Mercury's Treads — those are too cheap; finished items only).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png\" alt=\"Luden&#x27;s Echo\"> <strong>Luden's Echo</strong> — alternative second item when the lane is calm and you want a burst spike on top of Nashor's.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> — vs lanes that win with auto-attacks (Fiora, Camille, Tryndamere). Swap from Berserker's if surviving lane is the only goal.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> is default for the attack speed scaling. Plated Steelcaps when an AD bully is making lane impossible.</p>\n<p><strong>Skill order:</strong> Max <strong>E</strong> first (your damage tool both pre and post 6), <strong>Q</strong> second (longer slow + better shred per rank), <strong>W</strong> last. Take a point in <strong>R</strong> at levels 6, 11, 16. Open <strong>E-W-Q</strong> for early sustain in lane.</p>\n<p><strong>Runes:</strong> Primary <strong>Precision</strong> with <strong>Lethal Tempo</strong>, <strong>Triumph</strong>, <strong>Legend: Alacrity</strong>, <strong>Last Stand</strong>. Secondary <strong>Inspiration</strong> with <strong>Biscuit Delivery</strong> and <strong>Cosmic Insight</strong>. Stat shards: Attack Speed, Adaptive Force, Health Scaling.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Darius:</strong> Hard counter. Stay max distance, only step in for last-hits, never for trades pre-6. Buy <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1054.png\" alt=\"Doran&#x27;s Shield\"> <strong>Doran's Shield</strong> start, accept losing 30+ CS, ping for jungle help.</li>\n<li><strong>Garen:</strong> Easy lane post-6. He cannot interrupt your ranged auto with anything, so kite him (move backward while shooting to keep distance) using <strong>Q</strong> slow + ranged auto. Beware his <strong>R</strong> at low HP — it deals true damage scaling on missing HP and ignores Zhonya's Hourglass.</li>\n<li><strong>Mordekaiser:</strong> Survival pre-6, snowball (a growing lead: kill → gold → item → more kills) post-11. His <strong>R</strong> isolates you from your team for 7 seconds; if he picks you with it before level 11, you die. Use <strong>Flash</strong> to dodge his <strong>E</strong> pull, and pre-build <strong>Mercury's Treads</strong> if he repeatedly catches you.</li>\n<li><strong>Camille:</strong> Counterpick. Her <strong>E</strong> hookshot ignores the spacing you tried to hold. Buy <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> instead of Berserker's, ward the lane brush, and ping the jungler if she is two levels ahead.</li>\n<li><strong>Nasus:</strong> Even pre-6, you win post-11. His <strong>W</strong> wither (a heavy slow on you) wins him the duel before you have ranged auto-attacks. Once Nashor's is online and you out-DPS his stack ramp, push waves and force him to react.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 6 (R unlocked):</strong> Your first ranged auto-attack form goes live, and <strong>Divine Judgment</strong> gives you a save tool. Stop hugging tower — you can poke from 525 range now and turn dives into kills with a well-timed <strong>R</strong> on yourself.</li>\n<li><strong>Level 11 + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3115.png\" alt=\"Nashor&#x27;s Tooth\"> Nashor's Tooth completion (~ minute 18-22):</strong> The biggest spike of the game. Auto-attack range increases again, the passive scales with attack speed and AP, and the wave control flips. Start group play: rotate with the team, look for objectives.</li>\n<li><strong>Level 16 (full ascension) + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> Rabadon's Deathcap (~ minute 28-32):</strong> Your auto-attacks fire AOE waves of fire on-hit. One auto on the front-line damages everyone behind. From this point you should be the highest damage source in your team, no matter the role.</li>\n<li><strong>Anywhere with <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> Zhonya's Hourglass + R combo:</strong> Press <strong>R</strong> on yourself to gain invulnerability, then chain Zhonya's Hourglass once R ends. That is roughly 5 seconds of immunity in a team fight while your team peels — enough to flip most engages.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Trying to trade auto-for-auto pre-6.</strong> Kayle is melee with low base damage early. Even one bad trade against Darius or Renekton starts the snowball you cannot undo. Hold <strong>W</strong> for sustain, last-hit only.</li>\n<li><strong>Wasting R on yourself for poke survival.</strong> <strong>Divine Judgment</strong> has a 160-second cooldown at rank 1 — that is the entire mid-game team fight gone. Save <strong>R</strong> for incoming all-ins or for protecting your ADC during dragon fights.</li>\n<li><strong>Standing in the front line at level 16.</strong> Your AOE on-hit waves are best from the back line, behind your tank. Position like an ADC — let the team frontline take the hits while you fire waves through them.</li>\n<li><strong>Taking jungle camps before level 11.</strong> Kayle clears slowly and weakens her HP before her power spike. Stay in lane, push waves, recall on full mana — do not chase invades or scuttle fights pre-Nashor's.</li>\n<li><strong>Selling boots for a 6th item too early.</strong> Late game you can swap boots for a damage item (Mejai's Soulstealer, Cryptbloom), but only when you are 5/0 ahead and team fights are guaranteed group fights. If you are even, keep boots.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Master the <strong>R-on-self peel pattern</strong> in mid-game team fights. When the enemy diver (Camille, Hecarim, Sett) jumps onto your back line, do not press <strong>R</strong> on your ADC — press it on yourself, walk into the dive line, then drop the AOE explosion under the diver's feet. The 2.5 seconds of invulnerability force the diver to either commit and eat the explosion (free kill) or back off (your team resets the fight even). The trick is range: <strong>R</strong> has 900 cast range, so you can target yourself even when standing 8 units behind your ADC.</p>",
+    "content_html_pre": "<h2>Overview</h2>\n<p>Kayle is a hyper-scaling carry who transforms across the game: a melee, slow, squishy auto-attacker at level 1, a ranged poker at level 6, a true late-game monster at level 11, and a team-wide AOE wrecking ball at level 16. Her <strong>Divine Ascent (P)</strong> is the kit — every milestone unlocks a new stat block (attack speed, range, fire waves on hit). The top lane is her natural home because the long lane gives her room to play passive without bleeding tempo.</p>\n<p>Her game plan is survival, not aggression. Lose CS if you must, never die, and trust the build: <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3115.png\" alt=\"Nashor&#x27;s Tooth\"> <strong>Nashor's Tooth</strong> at level 11 turns the ranged passive into real damage, and <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> at level 16 makes the AOE on-hit waves delete entire team fights from the back line under <strong>R</strong> cover.</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1054.png\" alt=\"Doran&#x27;s Shield\"> <strong>Doran's Shield</strong> + 1 <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/2003.png\" alt=\"Health Potion\"> <strong>Health Potion</strong>. The shield turns the lane from \"I die to two trades\" into \"I lose CS but I live\". Skip Doran's Ring even though Kayle scales with AP — pre-6 you do not have the kit to use it.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> — attack speed boots feed your on-hit waves. Rush boots first, build piece by piece into Nashor's.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3115.png\" alt=\"Nashor&#x27;s Tooth\"> <strong>Nashor's Tooth</strong> — your single most important item. Combines the two stats Kayle wants in the same slot (50% attack speed + 90 AP) and adds magic damage on every hit. This is the spike that pushes you from \"weak top laner\" to \"real carry\".</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — multiplies all your AP scaling by 30%, and you have a lot to multiply (E passive, R, the post-16 AOE waves).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — the stasis is your lifeline against divers and against your own R cooldown timing. Build it third or fourth depending on the enemy comp.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3091.png\" alt=\"Wit&#x27;s End\"> <strong>Wit's End</strong> — vs heavy AP top laners (Rumble, Vladimir, Sylas). Adds attack speed plus magic resist plus on-hit magic damage, so it doubles as defensive and offensive at once.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3033.png\" alt=\"Mortal Reminder\"> <strong>Mortal Reminder</strong> — into healing-stacking compositions (Aatrox top, Soraka mid, Dr. Mundo). Applies Grievous Wounds on every auto, which cuts heal effectiveness by 40%.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — the moment two enemies finish a Magic Resist item (not Mercury's Treads — those are too cheap; finished items only).</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6655.png\" alt=\"Luden&#x27;s Echo\"> <strong>Luden's Echo</strong> — alternative second item when the lane is calm and you want a burst spike on top of Nashor's.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> — vs lanes that win with auto-attacks (Fiora, Camille, Tryndamere). Swap from Berserker's if surviving lane is the only goal.</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3006.png\" alt=\"Berserker&#x27;s Greaves\"> <strong>Berserker's Greaves</strong> is default for the attack speed scaling. Plated Steelcaps when an AD bully is making lane impossible.</p>\n<p><strong>Skill order:</strong> Max <strong>E</strong> first (your damage tool both pre and post 6), <strong>Q</strong> second (longer slow + better shred per rank), <strong>W</strong> last. Take a point in <strong>R</strong> at levels 6, 11, 16. Open <strong>E-W-Q</strong> for early sustain in lane.</p>\n<p><strong>Runes:</strong> Primary <strong>Precision</strong> with <strong>Lethal Tempo</strong>, <strong>Triumph</strong>, <strong>Legend: Alacrity</strong>, <strong>Last Stand</strong>. Secondary <strong>Inspiration</strong> with <strong>Biscuit Delivery</strong> and <strong>Cosmic Insight</strong>. Stat shards: Attack Speed, Adaptive Force, Health Scaling.</p>",
+    "content_html_post": "<h2>Key matchups</h2>\n<ul>\n<li><strong>Darius:</strong> Hard counter. Stay max distance, only step in for last-hits, never for trades pre-6. Buy <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/1054.png\" alt=\"Doran&#x27;s Shield\"> <strong>Doran's Shield</strong> start, accept losing 30+ CS, ping for jungle help.</li>\n<li><strong>Garen:</strong> Easy lane post-6. He cannot interrupt your ranged auto with anything, so kite him (move backward while shooting to keep distance) using <strong>Q</strong> slow + ranged auto. Beware his <strong>R</strong> at low HP — it deals true damage scaling on missing HP and ignores Zhonya's Hourglass.</li>\n<li><strong>Mordekaiser:</strong> Survival pre-6, snowball (a growing lead: kill → gold → item → more kills) post-11. His <strong>R</strong> isolates you from your team for 7 seconds; if he picks you with it before level 11, you die. Use <strong>Flash</strong> to dodge his <strong>E</strong> pull, and pre-build <strong>Mercury's Treads</strong> if he repeatedly catches you.</li>\n<li><strong>Camille:</strong> Counterpick. Her <strong>E</strong> hookshot ignores the spacing you tried to hold. Buy <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3047.png\" alt=\"Plated Steelcaps\"> <strong>Plated Steelcaps</strong> instead of Berserker's, ward the lane brush, and ping the jungler if she is two levels ahead.</li>\n<li><strong>Nasus:</strong> Even pre-6, you win post-11. His <strong>W</strong> wither (a heavy slow on you) wins him the duel before you have ranged auto-attacks. Once Nashor's is online and you out-DPS his stack ramp, push waves and force him to react.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 6 (R unlocked):</strong> Your first ranged auto-attack form goes live, and <strong>Divine Judgment</strong> gives you a save tool. Stop hugging tower — you can poke from 525 range now and turn dives into kills with a well-timed <strong>R</strong> on yourself.</li>\n<li><strong>Level 11 + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3115.png\" alt=\"Nashor&#x27;s Tooth\"> Nashor's Tooth completion (~ minute 18-22):</strong> The biggest spike of the game. Auto-attack range increases again, the passive scales with attack speed and AP, and the wave control flips. Start group play: rotate with the team, look for objectives.</li>\n<li><strong>Level 16 (full ascension) + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> Rabadon's Deathcap (~ minute 28-32):</strong> Your auto-attacks fire AOE waves of fire on-hit. One auto on the front-line damages everyone behind. From this point you should be the highest damage source in your team, no matter the role.</li>\n<li><strong>Anywhere with <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> Zhonya's Hourglass + R combo:</strong> Press <strong>R</strong> on yourself to gain invulnerability, then chain Zhonya's Hourglass once R ends. That is roughly 5 seconds of immunity in a team fight while your team peels — enough to flip most engages.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Trying to trade auto-for-auto pre-6.</strong> Kayle is melee with low base damage early. Even one bad trade against Darius or Renekton starts the snowball you cannot undo. Hold <strong>W</strong> for sustain, last-hit only.</li>\n<li><strong>Wasting R on yourself for poke survival.</strong> <strong>Divine Judgment</strong> has a 160-second cooldown at rank 1 — that is the entire mid-game team fight gone. Save <strong>R</strong> for incoming all-ins or for protecting your ADC during dragon fights.</li>\n<li><strong>Standing in the front line at level 16.</strong> Your AOE on-hit waves are best from the back line, behind your tank. Position like an ADC — let the team frontline take the hits while you fire waves through them.</li>\n<li><strong>Taking jungle camps before level 11.</strong> Kayle clears slowly and weakens her HP before her power spike. Stay in lane, push waves, recall on full mana — do not chase invades or scuttle fights pre-Nashor's.</li>\n<li><strong>Selling boots for a 6th item too early.</strong> Late game you can swap boots for a damage item (Mejai's Soulstealer, Cryptbloom), but only when you are 5/0 ahead and team fights are guaranteed group fights. If you are even, keep boots.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>Master the <strong>R-on-self peel pattern</strong> in mid-game team fights. When the enemy diver (Camille, Hecarim, Sett) jumps onto your back line, do not press <strong>R</strong> on your ADC — press it on yourself, walk into the dive line, then drop the AOE explosion under the diver's feet. The 2.5 seconds of invulnerability force the diver to either commit and eat the explosion (free kill) or back off (your team resets the fight even). The trick is range: <strong>R</strong> has 900 cast range, so you can target yourself even when standing 8 units behind your ADC.</p>",
+    "word_count": 1177,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "aatrox-top",
+        "champion": "aatrox",
+        "role": "top"
+      },
+      {
+        "slug": "darius-top",
+        "champion": "darius",
+        "role": "top"
+      },
+      {
+        "slug": "fiora-top",
+        "champion": "fiora",
+        "role": "top"
+      },
+      {
+        "slug": "garen-top",
+        "champion": "garen",
+        "role": "top"
+      },
+      {
+        "slug": "irelia-top",
+        "champion": "irelia",
+        "role": "top"
+      }
+    ],
+    "champion_key": "10"
   },
   {
     "slug": "kayn-jungle",
@@ -22468,6 +24053,316 @@ export const enChampions: ChampionGuide[] = [
       }
     ],
     "champion_key": "141"
+  },
+  {
+    "slug": "kennen-top",
+    "title": "Kennen Top Build & Guide — Patch 16.9",
+    "language": "en",
+    "patch": "16.9",
+    "champion": "kennen",
+    "role": "top",
+    "last_updated": "2026-05-05",
+    "description": "Kennen top lane guide for League of Legends Patch 16.9: starter kit, AP bruiser build path, key matchups, power spikes, common mistakes, and a closing tip.",
+    "quick_learn": {
+      "champion_dd_id": "Kennen",
+      "difficulty": 2,
+      "damage_type": "magic",
+      "champion_class": "Mage / Teamfight Engager",
+      "abilities": [
+        {
+          "key": "P",
+          "name": "Mark of the Storm",
+          "description": "Every Kennen ability stacks a Mark on the target. Three stacks stun them. This is the engine of the kit — every combo aims to triple-stack.",
+          "dd_spell_id": "Kennen_Passive"
+        },
+        {
+          "key": "Q",
+          "name": "Thundering Shuriken",
+          "description": "Linear skillshot that deals magic damage and applies one Mark stack. Long-range poke and the easy first stack on a target.",
+          "dd_spell_id": "KennenShurikenHurlMissile1"
+        },
+        {
+          "key": "W",
+          "name": "Electrical Surge",
+          "description": "Passive on-hit: every 5th basic attack deals bonus magic damage and applies a Mark. Active: detonate a magic damage burst on every nearby enemy that already has a Mark.",
+          "dd_spell_id": "KennenBringTheLight"
+        },
+        {
+          "key": "E",
+          "name": "Lightning Rush",
+          "description": "Short dash through units that applies one Mark stack and refunds energy on hit. After ending it, Kennen gains attack speed for a few seconds. Movement and re-positioning tool.",
+          "dd_spell_id": "KennenLightningRush"
+        },
+        {
+          "key": "R",
+          "name": "Slicing Maelstrom",
+          "description": "Channeled AOE storm around Kennen. Every tick deals magic damage and applies one Mark stack to enemies hit. Triggers AOE stuns on the whole enemy team if they sit in it.",
+          "dd_spell_id": "KennenShurikenStorm"
+        }
+      ],
+      "skill_order": [
+        {
+          "level": 1,
+          "key": "Q"
+        },
+        {
+          "level": 2,
+          "key": "E"
+        },
+        {
+          "level": 3,
+          "key": "W"
+        },
+        {
+          "level": 4,
+          "key": "Q"
+        },
+        {
+          "level": 5,
+          "key": "Q"
+        },
+        {
+          "level": 6,
+          "key": "R"
+        },
+        {
+          "level": 7,
+          "key": "Q"
+        },
+        {
+          "level": 8,
+          "key": "W"
+        },
+        {
+          "level": 9,
+          "key": "Q"
+        },
+        {
+          "level": 10,
+          "key": "W"
+        },
+        {
+          "level": 11,
+          "key": "R"
+        },
+        {
+          "level": 12,
+          "key": "W"
+        },
+        {
+          "level": 13,
+          "key": "W"
+        },
+        {
+          "level": 14,
+          "key": "E"
+        },
+        {
+          "level": 15,
+          "key": "E"
+        },
+        {
+          "level": 16,
+          "key": "R"
+        },
+        {
+          "level": 17,
+          "key": "E"
+        },
+        {
+          "level": 18,
+          "key": "E"
+        }
+      ],
+      "core_items": [
+        {
+          "dd_id": "6653",
+          "name": "Liandry's Torment"
+        },
+        {
+          "dd_id": "3020",
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "dd_id": "3157",
+          "name": "Zhonya's Hourglass"
+        },
+        {
+          "dd_id": "3089",
+          "name": "Rabadon's Deathcap"
+        }
+      ],
+      "situational_items": [
+        {
+          "dd_id": "4633",
+          "name": "Riftmaker",
+          "against": "vs extended fights and bruiser top lanes (Sett, Darius, Mordekaiser) — sustain in fight plus true damage conversion"
+        },
+        {
+          "dd_id": "4645",
+          "name": "Shadowflame",
+          "against": "vs squishy enemy backline with no Magic Resist — HP-threshold passive lines up with R finishers under 35% HP"
+        },
+        {
+          "dd_id": "3135",
+          "name": "Void Staff",
+          "against": "swap when any priority target buys a Magic Resist item"
+        },
+        {
+          "dd_id": "3165",
+          "name": "Morellonomicon",
+          "against": "vs healing-stacking enemies (Vladimir top, Dr. Mundo, Yorick with sustain runes)"
+        }
+      ],
+      "base_combo": [
+        "Q",
+        "E",
+        "R",
+        "W",
+        "AA"
+      ],
+      "win_condition": "Land Flash + R into the enemy back line during teamfights to triple-stack the passive on multiple targets at once. AOE stun + W detonate wins the fight.",
+      "weakness": "No reliable hard CC outside R, and the R is a channeled ability you have to commit to — point-and-click stuns or knock-ups (Pantheon, Camille) cancel your fight before stacks land.",
+      "runes": {
+        "primary_tree": "Domination",
+        "primary_tree_dd_id": 8100,
+        "keystone": {
+          "dd_id": 8112,
+          "name": "Electrocute",
+          "icon_path": "perk-images/Styles/Domination/Electrocute/Electrocute.png"
+        },
+        "primary_slots": [
+          {
+            "dd_id": 8139,
+            "name": "Taste of Blood",
+            "icon_path": "perk-images/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.png"
+          },
+          {
+            "dd_id": 8137,
+            "name": "Sixth Sense",
+            "icon_path": "perk-images/Styles/Domination/SixthSense/SixthSense.png"
+          },
+          {
+            "dd_id": 8106,
+            "name": "Ultimate Hunter",
+            "icon_path": "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png"
+          }
+        ],
+        "secondary_tree": "Resolve",
+        "secondary_tree_dd_id": 8400,
+        "secondary_slots": [
+          {
+            "dd_id": 8444,
+            "name": "Second Wind",
+            "icon_path": "perk-images/Styles/Resolve/SecondWind/SecondWind.png"
+          },
+          {
+            "dd_id": 8473,
+            "name": "Bone Plating",
+            "icon_path": "perk-images/Styles/Resolve/BonePlating/BonePlating.png"
+          }
+        ],
+        "stat_shards": [
+          "Adaptive Force",
+          "Adaptive Force",
+          "Health Scaling"
+        ],
+        "primary_rationale": "Domination primary: Electrocute procs on Q + W detonate + auto, adding burst on every triple-stack. Taste of Blood adds lane sustain, Sixth Sense pings hidden enemy wards in side lanes (vital for flank engages), Ultimate Hunter shortens R cooldown — Kennen's fight engine.",
+        "secondary_rationale": "Resolve secondary: Kennen wants to dive in melee with R, so Second Wind heals you back as you take poke in lane and Bone Plating absorbs the first three hits when you commit to an all-in (full trade until kill).",
+        "secondary_alternative": "Into hard ranged poke (Vladimir, Lillia top), swap Resolve to Sorcery with Manaflow Band (extra energy / spell uptime is replaced by Nimbus Cloak — extra movement speed after summoner spells — to land R faster) and Transcendence for ability haste."
+      }
+    },
+    "matchup_draft": {
+      "pick_into": [
+        {
+          "examples": [
+            "garen",
+            "sett",
+            "darius"
+          ],
+          "archetype": "Melee bruisers without a gap-closer",
+          "reason": "Kennen's auto-attack range (~550) outranges their walking speed; Q poke and E reposition farm safely from outside their threat range until level 6 power spike."
+        },
+        {
+          "examples": [
+            "tryndamere",
+            "yorick"
+          ],
+          "archetype": "Splitpushers without reliable hard CC",
+          "reason": "They cannot lock you down to prevent your R channel. Once Kennen reaches an item or two, every teamfight he flanks is a 3-stack stun on multiple enemies — they cannot match that map impact alone in a side lane."
+        },
+        {
+          "examples": [
+            "udyr",
+            "olaf"
+          ],
+          "archetype": "Short-range juggernauts",
+          "reason": "Kite them with E dash and the on-hit W passive; their stickiness depends on landing every step on you, and your range plus dash refresh keeps them outside auto-attack range."
+        }
+      ],
+      "counterpicks": [
+        {
+          "examples": [
+            "pantheon",
+            "camille"
+          ],
+          "archetype": "Point-and-click hard CC bruisers",
+          "reason": "Their stun (Pantheon W) or root (Camille E second cast) cancels your R channel mid-cast — you lose the AOE stun setup before any stack lands, turning your engage into a wasted ult."
+        },
+        {
+          "examples": [
+            "vladimir",
+            "lillia"
+          ],
+          "archetype": "Ranged sustain top laners",
+          "reason": "They out-range your Q for the first 6 levels and heal off poke trades. Without gap-closer, Kennen takes the worse end of every short trade and falls behind on CS by minute 8."
+        },
+        {
+          "examples": [
+            "sion",
+            "galio"
+          ],
+          "archetype": "Magic Resist tanks with cleanse passives",
+          "reason": "Sion's passive death + Galio's W magic damage shield neutralize your burst windows. Three Mark stacks still stun, but the W detonate hits for half value once they stack MR."
+        }
+      ]
+    },
+    "content_html": "<h2>Overview</h2>\n<p>Kennen is a ranged AP yordle who plays the top lane as a flank engager (the player who walks around the fight to enter from a side the enemy is not watching). The whole kit is built around one mechanic: <strong>Mark of the Storm (P)</strong> stacks three times and stuns. Every ability — <strong>Q</strong>, <strong>W</strong> active, <strong>E</strong> dash, every tick of <strong>R</strong> — drops one stack, so a clean teamfight engage stuns the entire enemy team in two seconds. He has good lane phase thanks to a ~550 auto-attack range that outranges most bruisers, but his identity unlocks at level 6: he is the top-lane flank engager that turns mid-late teamfights on their head.</p>\n<p>His game plan is simple to describe and demanding to execute: farm safely with <strong>Q</strong> poke (long-range harass to lower the enemy's HP without committing to a fight) and the on-hit <strong>W</strong> passive (an extra effect that fires every few basic attacks), hold pressure for objectives, then <strong>Flash + R</strong> into the enemy back line (the row of squishy carries — high-damage low-HP champions like ADC and mages — standing behind their tanks). The skill expression sits in two places: energy management (Kennen burns energy fast and cannot cast without it) and choosing the right teamfight angle so your <strong>R</strong> channel is not interrupted by a point-and-click stun (a stun the enemy can apply by clicking you, no aim needed).</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> Doran's Shield + 2 Health Potions. Doran's Ring is acceptable if the lane has zero auto-attack harass and you want the early energy regen.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> <strong>Liandry's Torment</strong> — burn damage scales with the multi-target nature of <strong>R</strong>. Every tick on every enemy procs the burn, melting tank HP pools.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — flat magic penetration for the squishy back line you most want to stun and delete.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — buys you a stasis after <strong>Flash + R</strong>, so the enemy team blows their cooldowns on a frozen target while your stun stacks finish landing.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — late-game AP multiplier. The <strong>R</strong> burst it produces one-shots squishies that have not bought Magic Resist.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4633.png\" alt=\"Riftmaker\"> <strong>Riftmaker</strong> — replace Liandry's into bruiser top lanes (Sett, Darius, Mordekaiser). Sustain in fight (capacity to heal/regen during the fight) plus true damage conversion lets you survive the inevitable second wave of melee enemies on you.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — vs squishy enemy back line with no Magic Resist item. Extra magic penetration on enemies under 35% HP lines up with <strong>R</strong> finishers.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — the moment any priority target buys a Magic Resist item.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — vs healing-stacking enemies (Vladimir top, Dr. Mundo, Yorick).</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> is default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> is acceptable into 2+ magic damage threats with hard CC.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (highest base damage, lowest cooldown — your main poke and stack tool), <strong>W</strong> second (better in-fight burst), <strong>E</strong> last. Take a point in <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Domination</strong> with <strong>Electrocute</strong>, <strong>Taste of Blood</strong>, <strong>Sixth Sense</strong>, <strong>Ultimate Hunter</strong>. Secondary <strong>Resolve</strong> with <strong>Second Wind</strong> and <strong>Bone Plating</strong> for laning durability.</p>\n<h2>Key matchups</h2>\n<ul>\n<li><strong>Garen:</strong> You outrange his auto-attacks. Poke with <strong>Q</strong>, never let his <strong>E</strong> spin on you, and use <strong>E</strong> dash through him when he commits <strong>Q</strong> silence. Lane is winnable from level 3 onwards.</li>\n<li><strong>Sett:</strong> Stay outside his <strong>W</strong> charge bar — every auto-attack you eat fills it. Trade only when his <strong>W</strong> is empty; <strong>E</strong> through him to break facing if he lands <strong>E</strong> stun.</li>\n<li><strong>Pantheon:</strong> Hardest matchup. His <strong>W</strong> is point-and-click and will cancel your <strong>R</strong> channel every fight. Build <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> before second item, and never engage with <strong>R</strong> until his <strong>W</strong> is on cooldown.</li>\n<li><strong>Vladimir:</strong> Long lane, you fall behind on CS. Take Doran's Shield + Second Wind, hold <strong>Q</strong> as a punish for his pool, and call jungle pressure pre-6 because you cannot win an extended trade.</li>\n<li><strong>Mordekaiser:</strong> Even matchup that flips on <strong>R</strong>: his death realm cancels your team's peel, but you bring AOE stun. If his <strong>R</strong> is up, do not engage; if it is down, you can pop yours into his back line.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 6:</strong> First <strong>Slicing Maelstrom</strong>. Combined with <strong>Flash</strong>, this is the moment Kennen becomes a champion that decides games — Flash + R into a grouped enemy team stuns everyone within range.</li>\n<li><strong>Level 9 (Q maxed):</strong> <strong>Thundering Shuriken</strong> cooldown is 4 seconds at rank 5. Lane phase and side-lane farm become trivial; you can poke towers down with safe <strong>Q</strong> harass.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> Liandry's Torment + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> Sorcerer's Shoes (~ minute 14-16):</strong> First teamfight item spike. Group with your team for any drake fight; your <strong>R</strong> at 2 items deletes squishy supports and ADCs.</li>\n<li><strong>Three items + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> Rabadon's Deathcap (~ minute 24-28):</strong> Burst threshold flips. Your <strong>R</strong> + <strong>W</strong> detonate combo will one-shot any back line that has not built Magic Resist. Force Baron and late-game objective fights.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Engaging R without Flash up.</strong> Kennen has no gap-closer to a back line. Without <strong>Flash + R</strong>, you can only catch the front line (the tanks and bruisers who open the fight) — and stunning their tank wins you nothing while their carries kite you to death (move backward while attacking, keeping you outside their auto range).</li>\n<li><strong>Spending all your energy in lane.</strong> Kennen has no mana, but he has energy that regenerates slowly. Spam <strong>Q</strong> in the wave and you will be empty when the enemy jungler arrives. Always keep ~50 energy for <strong>E</strong> dash to escape.</li>\n<li><strong>Maxing W first.</strong> <strong>W</strong>'s active damage is bigger than <strong>Q</strong>'s, but <strong>Q</strong> has 4-second cooldown at rank 5 versus 6-second on <strong>W</strong>. <strong>Q</strong> maxed first means more stacks per minute and more sustained poke; <strong>W</strong> stays at rank 1 until level 8.</li>\n<li><strong>R-cancelling yourself by leaving the ring.</strong> <strong>R</strong> is a channel anchored to your champion. If you walk out of teamfight range, the ticks stop hitting enemies. Stand in the middle of the fight, not on the edge — Zhonya's exists exactly for this.</li>\n<li><strong>Forgetting the on-hit W passive.</strong> Every 5th auto-attack triggers magic damage plus a free Mark stack. In a 1v1 trade, weave 2 autos between <strong>Q</strong> and <strong>E</strong> to bait the opponent into eating an unexpected stun.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>The strongest Kennen flank is what high-level players call the \"blind ult\": from fog of war, Flash directly into the largest enemy cluster and <strong>R</strong> before they see your model. Their reaction window is the audio cue of <strong>R</strong> plus your character render — about 0.4 seconds — which is shorter than the time to step out of the channel range. To set this up, your team needs to be in a fight already (or pretend to be), so the enemies are facing forward and you walk around them through unwarded jungle. Practice this on Drake fights at minute 14-16: cross river, hide in the enemy raptor camp, wait for the front line to engage on your team, then Flash + R into the back line. One clean execution wins a 4v5 outnumbered objective.</p>",
+    "content_html_pre": "<h2>Overview</h2>\n<p>Kennen is a ranged AP yordle who plays the top lane as a flank engager (the player who walks around the fight to enter from a side the enemy is not watching). The whole kit is built around one mechanic: <strong>Mark of the Storm (P)</strong> stacks three times and stuns. Every ability — <strong>Q</strong>, <strong>W</strong> active, <strong>E</strong> dash, every tick of <strong>R</strong> — drops one stack, so a clean teamfight engage stuns the entire enemy team in two seconds. He has good lane phase thanks to a ~550 auto-attack range that outranges most bruisers, but his identity unlocks at level 6: he is the top-lane flank engager that turns mid-late teamfights on their head.</p>\n<p>His game plan is simple to describe and demanding to execute: farm safely with <strong>Q</strong> poke (long-range harass to lower the enemy's HP without committing to a fight) and the on-hit <strong>W</strong> passive (an extra effect that fires every few basic attacks), hold pressure for objectives, then <strong>Flash + R</strong> into the enemy back line (the row of squishy carries — high-damage low-HP champions like ADC and mages — standing behind their tanks). The skill expression sits in two places: energy management (Kennen burns energy fast and cannot cast without it) and choosing the right teamfight angle so your <strong>R</strong> channel is not interrupted by a point-and-click stun (a stun the enemy can apply by clicking you, no aim needed).</p>\n<h2>Recommended Build</h2>\n<p><strong>Starting items:</strong> Doran's Shield + 2 Health Potions. Doran's Ring is acceptable if the lane has zero auto-attack harass and you want the early energy regen.</p>\n<p><strong>Core items (in order):</strong></p>\n<ol>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> <strong>Liandry's Torment</strong> — burn damage scales with the multi-target nature of <strong>R</strong>. Every tick on every enemy procs the burn, melting tank HP pools.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> — flat magic penetration for the squishy back line you most want to stun and delete.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> — buys you a stasis after <strong>Flash + R</strong>, so the enemy team blows their cooldowns on a frozen target while your stun stacks finish landing.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> <strong>Rabadon's Deathcap</strong> — late-game AP multiplier. The <strong>R</strong> burst it produces one-shots squishies that have not bought Magic Resist.</li>\n</ol>\n<p><strong>Situational items:</strong></p>\n<ul>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4633.png\" alt=\"Riftmaker\"> <strong>Riftmaker</strong> — replace Liandry's into bruiser top lanes (Sett, Darius, Mordekaiser). Sustain in fight (capacity to heal/regen during the fight) plus true damage conversion lets you survive the inevitable second wave of melee enemies on you.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/4645.png\" alt=\"Shadowflame\"> <strong>Shadowflame</strong> — vs squishy enemy back line with no Magic Resist item. Extra magic penetration on enemies under 35% HP lines up with <strong>R</strong> finishers.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3135.png\" alt=\"Void Staff\"> <strong>Void Staff</strong> — the moment any priority target buys a Magic Resist item.</li>\n<li><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3165.png\" alt=\"Morellonomicon\"> <strong>Morellonomicon</strong> — vs healing-stacking enemies (Vladimir top, Dr. Mundo, Yorick).</li>\n</ul>\n<p><strong>Boots:</strong> <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> <strong>Sorcerer's Shoes</strong> is default. <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3111.png\" alt=\"Mercury&#x27;s Treads\"> <strong>Mercury's Treads</strong> is acceptable into 2+ magic damage threats with hard CC.</p>\n<p><strong>Skill order:</strong> Max <strong>Q</strong> first (highest base damage, lowest cooldown — your main poke and stack tool), <strong>W</strong> second (better in-fight burst), <strong>E</strong> last. Take a point in <strong>R</strong> at levels 6, 11, 16.</p>\n<p><strong>Runes:</strong> Primary <strong>Domination</strong> with <strong>Electrocute</strong>, <strong>Taste of Blood</strong>, <strong>Sixth Sense</strong>, <strong>Ultimate Hunter</strong>. Secondary <strong>Resolve</strong> with <strong>Second Wind</strong> and <strong>Bone Plating</strong> for laning durability.</p>",
+    "content_html_post": "<h2>Key matchups</h2>\n<ul>\n<li><strong>Garen:</strong> You outrange his auto-attacks. Poke with <strong>Q</strong>, never let his <strong>E</strong> spin on you, and use <strong>E</strong> dash through him when he commits <strong>Q</strong> silence. Lane is winnable from level 3 onwards.</li>\n<li><strong>Sett:</strong> Stay outside his <strong>W</strong> charge bar — every auto-attack you eat fills it. Trade only when his <strong>W</strong> is empty; <strong>E</strong> through him to break facing if he lands <strong>E</strong> stun.</li>\n<li><strong>Pantheon:</strong> Hardest matchup. His <strong>W</strong> is point-and-click and will cancel your <strong>R</strong> channel every fight. Build <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3157.png\" alt=\"Zhonya&#x27;s Hourglass\"> <strong>Zhonya's Hourglass</strong> before second item, and never engage with <strong>R</strong> until his <strong>W</strong> is on cooldown.</li>\n<li><strong>Vladimir:</strong> Long lane, you fall behind on CS. Take Doran's Shield + Second Wind, hold <strong>Q</strong> as a punish for his pool, and call jungle pressure pre-6 because you cannot win an extended trade.</li>\n<li><strong>Mordekaiser:</strong> Even matchup that flips on <strong>R</strong>: his death realm cancels your team's peel, but you bring AOE stun. If his <strong>R</strong> is up, do not engage; if it is down, you can pop yours into his back line.</li>\n</ul>\n<h2>Power spikes &#x26; win conditions</h2>\n<ul>\n<li><strong>Level 6:</strong> First <strong>Slicing Maelstrom</strong>. Combined with <strong>Flash</strong>, this is the moment Kennen becomes a champion that decides games — Flash + R into a grouped enemy team stuns everyone within range.</li>\n<li><strong>Level 9 (Q maxed):</strong> <strong>Thundering Shuriken</strong> cooldown is 4 seconds at rank 5. Lane phase and side-lane farm become trivial; you can poke towers down with safe <strong>Q</strong> harass.</li>\n<li><strong><img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/6653.png\" alt=\"Liandry&#x27;s Torment\"> Liandry's Torment + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3020.png\" alt=\"Sorcerer&#x27;s Shoes\"> Sorcerer's Shoes (~ minute 14-16):</strong> First teamfight item spike. Group with your team for any drake fight; your <strong>R</strong> at 2 items deletes squishy supports and ADCs.</li>\n<li><strong>Three items + <img src=\"https://ddragon.leagueoflegends.com/cdn/16.9.1/img/item/3089.png\" alt=\"Rabadon&#x27;s Deathcap\"> Rabadon's Deathcap (~ minute 24-28):</strong> Burst threshold flips. Your <strong>R</strong> + <strong>W</strong> detonate combo will one-shot any back line that has not built Magic Resist. Force Baron and late-game objective fights.</li>\n</ul>\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Engaging R without Flash up.</strong> Kennen has no gap-closer to a back line. Without <strong>Flash + R</strong>, you can only catch the front line (the tanks and bruisers who open the fight) — and stunning their tank wins you nothing while their carries kite you to death (move backward while attacking, keeping you outside their auto range).</li>\n<li><strong>Spending all your energy in lane.</strong> Kennen has no mana, but he has energy that regenerates slowly. Spam <strong>Q</strong> in the wave and you will be empty when the enemy jungler arrives. Always keep ~50 energy for <strong>E</strong> dash to escape.</li>\n<li><strong>Maxing W first.</strong> <strong>W</strong>'s active damage is bigger than <strong>Q</strong>'s, but <strong>Q</strong> has 4-second cooldown at rank 5 versus 6-second on <strong>W</strong>. <strong>Q</strong> maxed first means more stacks per minute and more sustained poke; <strong>W</strong> stays at rank 1 until level 8.</li>\n<li><strong>R-cancelling yourself by leaving the ring.</strong> <strong>R</strong> is a channel anchored to your champion. If you walk out of teamfight range, the ticks stop hitting enemies. Stand in the middle of the fight, not on the edge — Zhonya's exists exactly for this.</li>\n<li><strong>Forgetting the on-hit W passive.</strong> Every 5th auto-attack triggers magic damage plus a free Mark stack. In a 1v1 trade, weave 2 autos between <strong>Q</strong> and <strong>E</strong> to bait the opponent into eating an unexpected stun.</li>\n</ul>\n<h2>Advanced tip</h2>\n<p>The strongest Kennen flank is what high-level players call the \"blind ult\": from fog of war, Flash directly into the largest enemy cluster and <strong>R</strong> before they see your model. Their reaction window is the audio cue of <strong>R</strong> plus your character render — about 0.4 seconds — which is shorter than the time to step out of the channel range. To set this up, your team needs to be in a fight already (or pretend to be), so the enemies are facing forward and you walk around them through unwarded jungle. Practice this on Drake fights at minute 14-16: cross river, hide in the enemy raptor camp, wait for the front line to engage on your team, then Flash + R into the back line. One clean execution wins a 4v5 outnumbered objective.</p>",
+    "word_count": 1190,
+    "available_patches": [
+      "16.9"
+    ],
+    "is_latest": true,
+    "related_champions": [
+      {
+        "slug": "aatrox-top",
+        "champion": "aatrox",
+        "role": "top"
+      },
+      {
+        "slug": "darius-top",
+        "champion": "darius",
+        "role": "top"
+      },
+      {
+        "slug": "fiora-top",
+        "champion": "fiora",
+        "role": "top"
+      },
+      {
+        "slug": "garen-top",
+        "champion": "garen",
+        "role": "top"
+      },
+      {
+        "slug": "irelia-top",
+        "champion": "irelia",
+        "role": "top"
+      }
+    ],
+    "champion_key": "85"
   },
   {
     "slug": "kha-zix-jungle",
