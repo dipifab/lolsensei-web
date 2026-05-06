@@ -26,8 +26,8 @@ import { useSearchParams } from '@solidjs/router';
 import { useI18n } from '../../i18n';
 import {
   getHubIndex,
-  pickLocale,
   type HubIndexEntry,
+  type HubIndexLocaleData,
 } from '../../lib/champion/discovery';
 import GuideCard from './GuideCard';
 import ChampionSearch, {
@@ -43,8 +43,11 @@ import GuideFilters, {
 } from './GuideFilters';
 import { HubCounterCTA } from '../counter/HubCounterCTA';
 
+import type { Locale } from '../../lib/i18n/locales';
+
 interface ChampionGuidesHubProps {
-  lang: 'en' | 'it';
+  // WP35.1 — esteso da `'en' | 'it'` a tutte le 8 lingue del sito.
+  lang: Locale;
   /** Total top-50 target so the counter reads "Showing N of M guides". */
   topTargetCount?: number;
 }
@@ -109,7 +112,7 @@ function classifyForFilter(value: string | null): string {
 
 function entryMatchesFilters(
   entry: HubIndexEntry,
-  data: ReturnType<typeof pickLocale>,
+  data: HubIndexLocaleData | undefined,
   state: FilterState,
   query: string,
 ): boolean {
@@ -212,7 +215,9 @@ export function ChampionGuidesHub(
 
   const filtered = createMemo(() =>
     allEntries.filter((e) => {
-      const data = pickLocale(e, props.lang);
+      // WP35.1 — accesso diretto (no fallback EN): l'hub mostra solo le
+      // guide tradotte nella lingua corrente, per coerenza UX.
+      const data = e.locales[props.lang];
       if (!data) return false;
       return entryMatchesFilters(e, data, filterState(), query());
     }),
@@ -220,7 +225,9 @@ export function ChampionGuidesHub(
 
   const searchSource = createMemo<SearchSuggestion[]>(() =>
     allEntries.flatMap((e) => {
-      const data = pickLocale(e, props.lang);
+      // WP35.1 — accesso diretto (no fallback EN): l'hub mostra solo le
+      // guide tradotte nella lingua corrente, per coerenza UX.
+      const data = e.locales[props.lang];
       if (!data) return [];
       const ddId = data.champion_dd_id ?? fallbackDdIdFromSlug(e.champion);
       return [
@@ -237,7 +244,7 @@ export function ChampionGuidesHub(
 
   const totalShown = () => filtered().length;
   const totalAvailable = () =>
-    allEntries.filter((e) => pickLocale(e, props.lang) !== null).length;
+    allEntries.filter((e) => e.locales[props.lang] !== undefined).length;
 
   return (
     <div class="max-w-7xl mx-auto px-6 md:px-8 pb-24 pt-8" data-testid="hub-root">
@@ -320,7 +327,7 @@ export function ChampionGuidesHub(
         >
           <For each={filtered()}>
             {(entry) => {
-              const data = pickLocale(entry, props.lang)!;
+              const data = entry.locales[props.lang]!;
               return (
                 <GuideCard
                   champion={entry.champion}

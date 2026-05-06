@@ -17,7 +17,21 @@ export const ChampionRoleSchema = z.enum([
   'support',
 ]);
 
-export const ChampionLanguageSchema = z.enum(['en', 'it']);
+// Lingue supportate per le champion guide. Allineato a SUPPORTED_LOCALES in
+// `src/lib/i18n/locales.ts`. WP35.1 ha esteso il pilot Lux a tutte le lingue
+// del sito (revisione DEC-7); le altre guide restano EN+IT finche non vengono
+// tradotte. Le 6 lingue aggiuntive (es/fr/de/pt-br/ko/zh-hans) sono ammesse
+// dal sistema ma il rollout content e' incrementale per champion.
+export const ChampionLanguageSchema = z.enum([
+  'en',
+  'it',
+  'es',
+  'fr',
+  'de',
+  'pt-br',
+  'ko',
+  'zh-hans',
+]);
 
 // Patch slug "major.minor" — coerente con normalizzazione Riot (es. 14.10).
 export const PatchSlugSchema = z.string().regex(/^\d{1,2}\.\d{1,2}$/, {

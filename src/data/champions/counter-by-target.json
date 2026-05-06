@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05",
+  "generated_at": "2026-05-06",
   "targets": {
     "aatrox": [
       {
@@ -370,6 +370,16 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "de"
+        },
+        "archetype": "Mobile Assassinen mit mehreren Gap-Closern",
+        "reason": "Sie kommen ins Cast-Window von Lux' R, bevor sie den Channel beendet; Zhonya's Hourglass hilft, rettet aber nicht, wenn die Dash-Kette vor der Stasis trifft.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "en"
         },
         "archetype": "Mobile assassins with multiple gap-closers",
@@ -380,10 +390,60 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "es"
+        },
+        "archetype": "Assassins móviles con varios gap-closers",
+        "reason": "Entran dentro de la ventana de cast de la R de Lux antes de que termine el channel; Zhonya's ayuda pero no salva si la cadena de dashes impacta antes de activar la stasis.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "fr"
+        },
+        "archetype": "Assassins mobiles avec plusieurs gap-closers",
+        "reason": "Ils entrent dans la cast window de la R de Lux avant qu'elle finisse le channel ; Zhonya's aide mais ne sauve rien si la chaîne de dash touche avant l'activation de la stasis.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "it"
         },
         "archetype": "Assassini mobili con multi gap-close",
         "reason": "Entrano dentro il cast window della R di Lux prima che lei finisca il channel; Zhonya's Hourglass aiuta ma non basta se la catena di dash colpisce prima che la stasi parta.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "ko"
+        },
+        "archetype": "다중 진입기를 가진 기동성 assassin",
+        "reason": "Lux가 R 캐스팅을 끝내기 전에 사거리 안으로 파고든다. Zhonya's Hourglass가 도움은 되지만 stasis가 켜지기 전에 dash 콤보가 박히면 못 살아난다.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "pt-br"
+        },
+        "archetype": "Assassins móveis com vários gap-closers",
+        "reason": "Eles entram dentro da janela de cast do R da Lux antes dela terminar o channel; Zhonya's Hourglass ajuda mas não salva se a sequência de dashes acerta antes da stasis subir.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "zh-hans"
+        },
+        "archetype": "多段位移的高机动刺客",
+        "reason": "他们能在 Lux R 完成吟唱前就进入她身边的施法距离;Zhonya's Hourglass 能救命,但如果位移连招在金身生效前就命中,依旧救不回来。",
         "via": "counterpick"
       },
       {
@@ -1416,6 +1476,16 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "de"
+        },
+        "archetype": "Immobile Mages ohne Dash",
+        "reason": "Lux' Q ist ein Root mit langer Reichweite: Ziele ohne Dash oder Stealth werden auf einer sauberen Linie gebunden und fressen das volle E + R Combo, bevor sie reagieren können.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "en"
         },
         "archetype": "Immobile mages without dash",
@@ -1426,10 +1496,60 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "es"
+        },
+        "archetype": "Magos inmóviles sin dash",
+        "reason": "La Q de Lux es un root a larga distancia: los targets sin dash ni stealth se quedan clavados en una línea limpia y comen el combo E + R completo antes de poder responder.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "fr"
+        },
+        "archetype": "Mages immobiles sans dash",
+        "reason": "La Q de Lux est un root longue portée : ceux qui n'ont ni dash ni stealth se font binder sur une ligne propre et mangent tout le combo E + R avant de pouvoir répondre.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "it"
         },
         "archetype": "Mage immobili senza dash",
         "reason": "La Q di Lux è un root a lunga gittata: chi non ha dash né stealth viene bindato su una linea pulita e mangia tutto il combo E + R prima di poter rispondere.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "ko"
+        },
+        "archetype": "dash 없는 immobile mage",
+        "reason": "Lux의 Q는 장거리 root다. dash나 은신이 없는 챔피언은 깨끗한 직선 위에 묶여서, 반응하기 전에 E + R 풀콤보를 그대로 받는다.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "pt-br"
+        },
+        "archetype": "Mages imóveis sem dash",
+        "reason": "O Q da Lux é um root de longo alcance: alvos sem dash ou stealth ficam presos numa linha limpa e levam o combo E + R inteiro antes de conseguir reagir.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "zh-hans"
+        },
+        "archetype": "无位移的脆皮法师",
+        "reason": "Lux 的 Q 是远程束缚:没有位移、没有隐身的目标会被一条干净的弹道钉住,完整吃下 E + R 连招而无法反应。",
         "via": "pick_into"
       },
       {
@@ -1798,6 +1918,16 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "de"
+        },
+        "archetype": "Mages mit telegrafiertem All-in",
+        "reason": "Ihr Engage braucht kurze Distanz und ein langsames Tell — Lux schildet den Burst mit W, trifft Q im Recovery-Frame und läuft weg, um den Trade zu resetten.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "en"
         },
         "archetype": "Telegraphed all-in mages",
@@ -1808,10 +1938,60 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "es"
+        },
+        "archetype": "Magos de all-in telegrafiado",
+        "reason": "Su engage exige distancia corta y un tell lento — Lux escuda el burst con W, mete Q en el frame de recovery y se aleja para resetear el trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "fr"
+        },
+        "archetype": "Mages all-in télégraphiés",
+        "reason": "Leur engage demande de la portée courte et un tell lent — Lux W-shield le burst, Q sur la frame de recovery, et walk back pour reset le trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "it"
         },
         "archetype": "Mage da all-in telegrafato",
         "reason": "Il loro engage richiede corto raggio e un tell lento: Lux scuda il burst con W, Q nel frame di recovery, e passeggia via per resettare il trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "ko"
+        },
+        "archetype": "예고 동작이 큰 all-in mage",
+        "reason": "이쪽 engage는 가까이 붙어야 하고 선딜이 길다. Lux는 W로 burst를 막고, 상대가 후딜에 묶인 프레임에 Q를 박은 뒤 빠져나와 trade를 리셋할 수 있다.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "pt-br"
+        },
+        "archetype": "Mages de all-in telegrafado",
+        "reason": "O engage deles exige curta distância e tem um tell lento — Lux escuda o burst com W, joga Q no frame de recovery e sai andando para resetar o trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "zh-hans"
+        },
+        "archetype": "起手明显的爆发法师",
+        "reason": "他们的 all-in (强开全压) 必须近身且有明显前摇 — Lux 用 W 挡掉爆发,在恢复帧补 Q,然后走开重置 trade。",
         "via": "pick_into"
       },
       {
@@ -7222,6 +7402,16 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "de"
+        },
+        "archetype": "Mobile Assassinen mit mehreren Gap-Closern",
+        "reason": "Sie kommen ins Cast-Window von Lux' R, bevor sie den Channel beendet; Zhonya's Hourglass hilft, rettet aber nicht, wenn die Dash-Kette vor der Stasis trifft.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "en"
         },
         "archetype": "Mobile assassins with multiple gap-closers",
@@ -7232,10 +7422,60 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "es"
+        },
+        "archetype": "Assassins móviles con varios gap-closers",
+        "reason": "Entran dentro de la ventana de cast de la R de Lux antes de que termine el channel; Zhonya's ayuda pero no salva si la cadena de dashes impacta antes de activar la stasis.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "fr"
+        },
+        "archetype": "Assassins mobiles avec plusieurs gap-closers",
+        "reason": "Ils entrent dans la cast window de la R de Lux avant qu'elle finisse le channel ; Zhonya's aide mais ne sauve rien si la chaîne de dash touche avant l'activation de la stasis.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "it"
         },
         "archetype": "Assassini mobili con multi gap-close",
         "reason": "Entrano dentro il cast window della R di Lux prima che lei finisca il channel; Zhonya's Hourglass aiuta ma non basta se la catena di dash colpisce prima che la stasi parta.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "ko"
+        },
+        "archetype": "다중 진입기를 가진 기동성 assassin",
+        "reason": "Lux가 R 캐스팅을 끝내기 전에 사거리 안으로 파고든다. Zhonya's Hourglass가 도움은 되지만 stasis가 켜지기 전에 dash 콤보가 박히면 못 살아난다.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "pt-br"
+        },
+        "archetype": "Assassins móveis com vários gap-closers",
+        "reason": "Eles entram dentro da janela de cast do R da Lux antes dela terminar o channel; Zhonya's Hourglass ajuda mas não salva se a sequência de dashes acerta antes da stasis subir.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "zh-hans"
+        },
+        "archetype": "多段位移的高机动刺客",
+        "reason": "他们能在 Lux R 完成吟唱前就进入她身边的施法距离;Zhonya's Hourglass 能救命,但如果位移连招在金身生效前就命中,依旧救不回来。",
         "via": "counterpick"
       },
       {
@@ -7564,6 +7804,16 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "de"
+        },
+        "archetype": "Globale / Cross-Map-Roamer",
+        "reason": "Lux clearet Waves und bleibt in Lane; der Gegner flippt mit Ult Side-Lanes und Drakes. Lux verliert das Macro-Game, selbst wenn sie das 1v1-Matchup gewinnt.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "en"
         },
         "archetype": "Global / cross-map roamers",
@@ -7574,10 +7824,60 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "es"
+        },
+        "archetype": "Roamers globales / cross-map",
+        "reason": "Lux limpia waves y se queda en lane; el rival usa la ulti para voltear side lanes y dragones. Lux pierde el macro game incluso ganando el matchup 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "fr"
+        },
+        "archetype": "Roamers globaux / cross-map",
+        "reason": "Lux clear ses waves et reste en lane ; l'adversaire utilise son ult pour basculer les sidelanes et les drakes. Lux perd la macro même quand elle gagne son matchup en 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "it"
         },
         "archetype": "Roamer globali / cross-map",
         "reason": "Lux pusha la wave e resta in lane; l'avversario usa l'ult per ribaltare le sidelane e i dragoni. Lux perde il macro game anche quando vince il matchup 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "ko"
+        },
+        "archetype": "글로벌·맵 전체 roamer",
+        "reason": "Lux는 웨이브를 정리하느라 라인에 남는다. 상대는 궁으로 사이드와 드래곤 쪽 교전을 뒤집는다. 1대1 매치업은 이겨도 macro에서 진다.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "pt-br"
+        },
+        "archetype": "Roamers globais / cross-map",
+        "reason": "Lux limpa wave e fica na lane; o adversário usa o ult para virar side lanes e dragões. Lux perde o macro mesmo ganhando o matchup 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "zh-hans"
+        },
+        "archetype": "全图 / 跨线支援型",
+        "reason": "Lux 清完线就只能留在中路;对手用大招翻转边路与小龙资源。即使 1v1 对线赢了,Lux 仍会输掉宏观节奏。",
         "via": "counterpick"
       },
       {
@@ -11326,6 +11626,16 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "de"
+        },
+        "archetype": "Immobile Mages ohne Dash",
+        "reason": "Lux' Q ist ein Root mit langer Reichweite: Ziele ohne Dash oder Stealth werden auf einer sauberen Linie gebunden und fressen das volle E + R Combo, bevor sie reagieren können.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "en"
         },
         "archetype": "Immobile mages without dash",
@@ -11336,10 +11646,60 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "es"
+        },
+        "archetype": "Magos inmóviles sin dash",
+        "reason": "La Q de Lux es un root a larga distancia: los targets sin dash ni stealth se quedan clavados en una línea limpia y comen el combo E + R completo antes de poder responder.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "fr"
+        },
+        "archetype": "Mages immobiles sans dash",
+        "reason": "La Q de Lux est un root longue portée : ceux qui n'ont ni dash ni stealth se font binder sur une ligne propre et mangent tout le combo E + R avant de pouvoir répondre.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "it"
         },
         "archetype": "Mage immobili senza dash",
         "reason": "La Q di Lux è un root a lunga gittata: chi non ha dash né stealth viene bindato su una linea pulita e mangia tutto il combo E + R prima di poter rispondere.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "ko"
+        },
+        "archetype": "dash 없는 immobile mage",
+        "reason": "Lux의 Q는 장거리 root다. dash나 은신이 없는 챔피언은 깨끗한 직선 위에 묶여서, 반응하기 전에 E + R 풀콤보를 그대로 받는다.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "pt-br"
+        },
+        "archetype": "Mages imóveis sem dash",
+        "reason": "O Q da Lux é um root de longo alcance: alvos sem dash ou stealth ficam presos numa linha limpa e levam o combo E + R inteiro antes de conseguir reagir.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "zh-hans"
+        },
+        "archetype": "无位移的脆皮法师",
+        "reason": "Lux 的 Q 是远程束缚:没有位移、没有隐身的目标会被一条干净的弹道钉住,完整吃下 E + R 连招而无法反应。",
         "via": "pick_into"
       },
       {
@@ -22242,6 +22602,16 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "de"
+        },
+        "archetype": "Globale / Cross-Map-Roamer",
+        "reason": "Lux clearet Waves und bleibt in Lane; der Gegner flippt mit Ult Side-Lanes und Drakes. Lux verliert das Macro-Game, selbst wenn sie das 1v1-Matchup gewinnt.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "en"
         },
         "archetype": "Global / cross-map roamers",
@@ -22252,10 +22622,60 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "es"
+        },
+        "archetype": "Roamers globales / cross-map",
+        "reason": "Lux limpia waves y se queda en lane; el rival usa la ulti para voltear side lanes y dragones. Lux pierde el macro game incluso ganando el matchup 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "fr"
+        },
+        "archetype": "Roamers globaux / cross-map",
+        "reason": "Lux clear ses waves et reste en lane ; l'adversaire utilise son ult pour basculer les sidelanes et les drakes. Lux perd la macro même quand elle gagne son matchup en 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "it"
         },
         "archetype": "Roamer globali / cross-map",
         "reason": "Lux pusha la wave e resta in lane; l'avversario usa l'ult per ribaltare le sidelane e i dragoni. Lux perde il macro game anche quando vince il matchup 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "ko"
+        },
+        "archetype": "글로벌·맵 전체 roamer",
+        "reason": "Lux는 웨이브를 정리하느라 라인에 남는다. 상대는 궁으로 사이드와 드래곤 쪽 교전을 뒤집는다. 1대1 매치업은 이겨도 macro에서 진다.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "pt-br"
+        },
+        "archetype": "Roamers globais / cross-map",
+        "reason": "Lux limpa wave e fica na lane; o adversário usa o ult para virar side lanes e dragões. Lux perde o macro mesmo ganhando o matchup 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "zh-hans"
+        },
+        "archetype": "全图 / 跨线支援型",
+        "reason": "Lux 清完线就只能留在中路;对手用大招翻转边路与小龙资源。即使 1v1 对线赢了,Lux 仍会输掉宏观节奏。",
         "via": "counterpick"
       }
     ],
@@ -23108,6 +23528,16 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "de"
+        },
+        "archetype": "Backline-Scaler mit schwachem Escape",
+        "reason": "Cross-Map R verwandelt Positioning-Fehler in Kills. Sie tragen aus der Distanz bei, können einem Max-Range-Snipe auf Objective-Spawns aber nicht ausweichen.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "en"
         },
         "archetype": "Backline scalers with weak escape",
@@ -23118,10 +23548,60 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "es"
+        },
+        "archetype": "Carries de backline con escape débil",
+        "reason": "La R cross-map convierte errores de posicionamiento en kills. Aportan desde lejos pero no pueden esquivar un snipe a máxima distancia cuando aparecen los objetivos.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "fr"
+        },
+        "archetype": "Carrys backline avec escape faible",
+        "reason": "La R cross-map transforme une erreur de positionnement en kill. Ils contribuent de loin mais ne peuvent pas dodge un snipe à portée maximale sur les spawns d'objectif.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "it"
         },
         "archetype": "Carry da retroguardia con escape debole",
         "reason": "La R cross-map trasforma errori di posizionamento in kill. Contribuiscono da lontano ma non possono schivare uno snipe a max range sugli obiettivi.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "ko"
+        },
+        "archetype": "탈출기가 약한 후방 backline 스케일러",
+        "reason": "맵을 가로지르는 R이 작은 포지션 실수를 킬로 바꾼다. 멀리서 딜만 넣는 이런 챔피언들은 오브젝트 리젠 타이밍의 max-range 저격을 피할 수단이 없다.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "pt-br"
+        },
+        "archetype": "Carries de backline com escape fraco",
+        "reason": "O R cross-map vira erros de posicionamento em kill. Eles contribuem de longe, mas não conseguem desviar de um snipe no alcance máximo nos spawns de objetivo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "zh-hans"
+        },
+        "archetype": "逃生薄弱的后排发育型",
+        "reason": "跨地图的 R 把站位失误直接变成人头。他们靠远距离输出,但躲不掉资源点刷新时的极限距离狙杀。",
         "via": "pick_into"
       },
       {
@@ -25714,6 +26194,16 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "de"
+        },
+        "archetype": "Mages mit telegrafiertem All-in",
+        "reason": "Ihr Engage braucht kurze Distanz und ein langsames Tell — Lux schildet den Burst mit W, trifft Q im Recovery-Frame und läuft weg, um den Trade zu resetten.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "en"
         },
         "archetype": "Telegraphed all-in mages",
@@ -25724,10 +26214,60 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "es"
+        },
+        "archetype": "Magos de all-in telegrafiado",
+        "reason": "Su engage exige distancia corta y un tell lento — Lux escuda el burst con W, mete Q en el frame de recovery y se aleja para resetear el trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "fr"
+        },
+        "archetype": "Mages all-in télégraphiés",
+        "reason": "Leur engage demande de la portée courte et un tell lent — Lux W-shield le burst, Q sur la frame de recovery, et walk back pour reset le trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "it"
         },
         "archetype": "Mage da all-in telegrafato",
         "reason": "Il loro engage richiede corto raggio e un tell lento: Lux scuda il burst con W, Q nel frame di recovery, e passeggia via per resettare il trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "ko"
+        },
+        "archetype": "예고 동작이 큰 all-in mage",
+        "reason": "이쪽 engage는 가까이 붙어야 하고 선딜이 길다. Lux는 W로 burst를 막고, 상대가 후딜에 묶인 프레임에 Q를 박은 뒤 빠져나와 trade를 리셋할 수 있다.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "pt-br"
+        },
+        "archetype": "Mages de all-in telegrafado",
+        "reason": "O engage deles exige curta distância e tem um tell lento — Lux escuda o burst com W, joga Q no frame de recovery e sai andando para resetar o trade.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "zh-hans"
+        },
+        "archetype": "起手明显的爆发法师",
+        "reason": "他们的 all-in (强开全压) 必须近身且有明显前摇 — Lux 用 W 挡掉爆发,在恢复帧补 Q,然后走开重置 trade。",
         "via": "pick_into"
       }
     ],
@@ -27974,6 +28514,16 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "de"
+        },
+        "archetype": "Globale / Cross-Map-Roamer",
+        "reason": "Lux clearet Waves und bleibt in Lane; der Gegner flippt mit Ult Side-Lanes und Drakes. Lux verliert das Macro-Game, selbst wenn sie das 1v1-Matchup gewinnt.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "en"
         },
         "archetype": "Global / cross-map roamers",
@@ -27984,10 +28534,60 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "es"
+        },
+        "archetype": "Roamers globales / cross-map",
+        "reason": "Lux limpia waves y se queda en lane; el rival usa la ulti para voltear side lanes y dragones. Lux pierde el macro game incluso ganando el matchup 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "fr"
+        },
+        "archetype": "Roamers globaux / cross-map",
+        "reason": "Lux clear ses waves et reste en lane ; l'adversaire utilise son ult pour basculer les sidelanes et les drakes. Lux perd la macro même quand elle gagne son matchup en 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "it"
         },
         "archetype": "Roamer globali / cross-map",
         "reason": "Lux pusha la wave e resta in lane; l'avversario usa l'ult per ribaltare le sidelane e i dragoni. Lux perde il macro game anche quando vince il matchup 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "ko"
+        },
+        "archetype": "글로벌·맵 전체 roamer",
+        "reason": "Lux는 웨이브를 정리하느라 라인에 남는다. 상대는 궁으로 사이드와 드래곤 쪽 교전을 뒤집는다. 1대1 매치업은 이겨도 macro에서 진다.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "pt-br"
+        },
+        "archetype": "Roamers globais / cross-map",
+        "reason": "Lux limpa wave e fica na lane; o adversário usa o ult para virar side lanes e dragões. Lux perde o macro mesmo ganhando o matchup 1v1.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "zh-hans"
+        },
+        "archetype": "全图 / 跨线支援型",
+        "reason": "Lux 清完线就只能留在中路;对手用大招翻转边路与小龙资源。即使 1v1 对线赢了,Lux 仍会输掉宏观节奏。",
         "via": "counterpick"
       },
       {
@@ -29806,6 +30406,16 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "de"
+        },
+        "archetype": "Immobile Mages ohne Dash",
+        "reason": "Lux' Q ist ein Root mit langer Reichweite: Ziele ohne Dash oder Stealth werden auf einer sauberen Linie gebunden und fressen das volle E + R Combo, bevor sie reagieren können.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "en"
         },
         "archetype": "Immobile mages without dash",
@@ -29816,10 +30426,60 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "es"
+        },
+        "archetype": "Magos inmóviles sin dash",
+        "reason": "La Q de Lux es un root a larga distancia: los targets sin dash ni stealth se quedan clavados en una línea limpia y comen el combo E + R completo antes de poder responder.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "fr"
+        },
+        "archetype": "Mages immobiles sans dash",
+        "reason": "La Q de Lux est un root longue portée : ceux qui n'ont ni dash ni stealth se font binder sur une ligne propre et mangent tout le combo E + R avant de pouvoir répondre.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "it"
         },
         "archetype": "Mage immobili senza dash",
         "reason": "La Q di Lux è un root a lunga gittata: chi non ha dash né stealth viene bindato su una linea pulita e mangia tutto il combo E + R prima di poter rispondere.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "ko"
+        },
+        "archetype": "dash 없는 immobile mage",
+        "reason": "Lux의 Q는 장거리 root다. dash나 은신이 없는 챔피언은 깨끗한 직선 위에 묶여서, 반응하기 전에 E + R 풀콤보를 그대로 받는다.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "pt-br"
+        },
+        "archetype": "Mages imóveis sem dash",
+        "reason": "O Q da Lux é um root de longo alcance: alvos sem dash ou stealth ficam presos numa linha limpa e levam o combo E + R inteiro antes de conseguir reagir.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "zh-hans"
+        },
+        "archetype": "无位移的脆皮法师",
+        "reason": "Lux 的 Q 是远程束缚:没有位移、没有隐身的目标会被一条干净的弹道钉住,完整吃下 E + R 连招而无法反应。",
         "via": "pick_into"
       },
       {
@@ -30488,6 +31148,16 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "de"
+        },
+        "archetype": "Artillery Mages mit größerer Reichweite",
+        "reason": "Pokken Lux jenseits ihrer Q-Reichweite. Sie hat keine Möglichkeit, die Distanz zu schließen, also blutet jede Wave HP, ohne Option auf All-in-Konter.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "en"
         },
         "archetype": "Longer-range artillery mages",
@@ -30498,10 +31168,60 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "es"
+        },
+        "archetype": "Magos de artillería con más rango",
+        "reason": "Pokean a Lux más allá del rango de su Q. Ella no tiene cómo cerrar la distancia, así que cada pelea de wave le sangra HP sin opción de all-in de vuelta.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "fr"
+        },
+        "archetype": "Mages d'artillerie à plus longue portée",
+        "reason": "Ils outpoke Lux au-delà de sa portée de Q. Elle n'a aucun moyen de réduire la distance, donc chaque échange de wave lui coûte des HP sans option d'all-in en retour.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "it"
         },
         "archetype": "Artillery mage a gittata superiore",
         "reason": "Pokano Lux oltre il range della Q. Lei non ha modo di chiudere la distanza, quindi ogni scambio in lane le costa HP senza opzione di all-in di ritorno.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "ko"
+        },
+        "archetype": "더 긴 사거리의 artillery mage",
+        "reason": "Lux의 Q 사거리 밖에서 일방적으로 poke한다. 거리를 좁힐 수단이 없어 매 웨이브마다 체력만 깎이고, all-in으로 받아칠 옵션도 없다.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "pt-br"
+        },
+        "archetype": "Mages de artillery com alcance maior",
+        "reason": "Pokeam a Lux além do alcance do Q. Ela não tem como fechar a distância, então cada troca de wave drena HP sem opção de all-in de volta.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "zh-hans"
+        },
+        "archetype": "射程更远的炮台型法师",
+        "reason": "在 Q 距离之外就能 poke (远程消耗) 到 Lux。她没有手段拉近距离,每一次兵线对换都在掉血,却不能反打 all-in。",
         "via": "counterpick"
       },
       {
@@ -30894,6 +31614,16 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "de"
+        },
+        "archetype": "Immobile Mages ohne Dash",
+        "reason": "Lux' Q ist ein Root mit langer Reichweite: Ziele ohne Dash oder Stealth werden auf einer sauberen Linie gebunden und fressen das volle E + R Combo, bevor sie reagieren können.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "en"
         },
         "archetype": "Immobile mages without dash",
@@ -30904,10 +31634,60 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "es"
+        },
+        "archetype": "Magos inmóviles sin dash",
+        "reason": "La Q de Lux es un root a larga distancia: los targets sin dash ni stealth se quedan clavados en una línea limpia y comen el combo E + R completo antes de poder responder.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "fr"
+        },
+        "archetype": "Mages immobiles sans dash",
+        "reason": "La Q de Lux est un root longue portée : ceux qui n'ont ni dash ni stealth se font binder sur une ligne propre et mangent tout le combo E + R avant de pouvoir répondre.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "it"
         },
         "archetype": "Mage immobili senza dash",
         "reason": "La Q di Lux è un root a lunga gittata: chi non ha dash né stealth viene bindato su una linea pulita e mangia tutto il combo E + R prima di poter rispondere.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "ko"
+        },
+        "archetype": "dash 없는 immobile mage",
+        "reason": "Lux의 Q는 장거리 root다. dash나 은신이 없는 챔피언은 깨끗한 직선 위에 묶여서, 반응하기 전에 E + R 풀콤보를 그대로 받는다.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "pt-br"
+        },
+        "archetype": "Mages imóveis sem dash",
+        "reason": "O Q da Lux é um root de longo alcance: alvos sem dash ou stealth ficam presos numa linha limpa e levam o combo E + R inteiro antes de conseguir reagir.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "zh-hans"
+        },
+        "archetype": "无位移的脆皮法师",
+        "reason": "Lux 的 Q 是远程束缚:没有位移、没有隐身的目标会被一条干净的弹道钉住,完整吃下 E + R 连招而无法反应。",
         "via": "pick_into"
       },
       {
@@ -32184,6 +32964,16 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "de"
+        },
+        "archetype": "Artillery Mages mit größerer Reichweite",
+        "reason": "Pokken Lux jenseits ihrer Q-Reichweite. Sie hat keine Möglichkeit, die Distanz zu schließen, also blutet jede Wave HP, ohne Option auf All-in-Konter.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "en"
         },
         "archetype": "Longer-range artillery mages",
@@ -32194,10 +32984,60 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "es"
+        },
+        "archetype": "Magos de artillería con más rango",
+        "reason": "Pokean a Lux más allá del rango de su Q. Ella no tiene cómo cerrar la distancia, así que cada pelea de wave le sangra HP sin opción de all-in de vuelta.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "fr"
+        },
+        "archetype": "Mages d'artillerie à plus longue portée",
+        "reason": "Ils outpoke Lux au-delà de sa portée de Q. Elle n'a aucun moyen de réduire la distance, donc chaque échange de wave lui coûte des HP sans option d'all-in en retour.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "it"
         },
         "archetype": "Artillery mage a gittata superiore",
         "reason": "Pokano Lux oltre il range della Q. Lei non ha modo di chiudere la distanza, quindi ogni scambio in lane le costa HP senza opzione di all-in di ritorno.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "ko"
+        },
+        "archetype": "더 긴 사거리의 artillery mage",
+        "reason": "Lux의 Q 사거리 밖에서 일방적으로 poke한다. 거리를 좁힐 수단이 없어 매 웨이브마다 체력만 깎이고, all-in으로 받아칠 옵션도 없다.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "pt-br"
+        },
+        "archetype": "Mages de artillery com alcance maior",
+        "reason": "Pokeam a Lux além do alcance do Q. Ela não tem como fechar a distância, então cada troca de wave drena HP sem opção de all-in de volta.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "zh-hans"
+        },
+        "archetype": "射程更远的炮台型法师",
+        "reason": "在 Q 距离之外就能 poke (远程消耗) 到 Lux。她没有手段拉近距离,每一次兵线对换都在掉血,却不能反打 all-in。",
         "via": "counterpick"
       },
       {
@@ -35198,6 +36038,16 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "de"
+        },
+        "archetype": "Mobile Assassinen mit mehreren Gap-Closern",
+        "reason": "Sie kommen ins Cast-Window von Lux' R, bevor sie den Channel beendet; Zhonya's Hourglass hilft, rettet aber nicht, wenn die Dash-Kette vor der Stasis trifft.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "en"
         },
         "archetype": "Mobile assassins with multiple gap-closers",
@@ -35208,10 +36058,60 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "es"
+        },
+        "archetype": "Assassins móviles con varios gap-closers",
+        "reason": "Entran dentro de la ventana de cast de la R de Lux antes de que termine el channel; Zhonya's ayuda pero no salva si la cadena de dashes impacta antes de activar la stasis.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "fr"
+        },
+        "archetype": "Assassins mobiles avec plusieurs gap-closers",
+        "reason": "Ils entrent dans la cast window de la R de Lux avant qu'elle finisse le channel ; Zhonya's aide mais ne sauve rien si la chaîne de dash touche avant l'activation de la stasis.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "it"
         },
         "archetype": "Assassini mobili con multi gap-close",
         "reason": "Entrano dentro il cast window della R di Lux prima che lei finisca il channel; Zhonya's Hourglass aiuta ma non basta se la catena di dash colpisce prima che la stasi parta.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "ko"
+        },
+        "archetype": "다중 진입기를 가진 기동성 assassin",
+        "reason": "Lux가 R 캐스팅을 끝내기 전에 사거리 안으로 파고든다. Zhonya's Hourglass가 도움은 되지만 stasis가 켜지기 전에 dash 콤보가 박히면 못 살아난다.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "pt-br"
+        },
+        "archetype": "Assassins móveis com vários gap-closers",
+        "reason": "Eles entram dentro da janela de cast do R da Lux antes dela terminar o channel; Zhonya's Hourglass ajuda mas não salva se a sequência de dashes acerta antes da stasis subir.",
+        "via": "counterpick"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "zh-hans"
+        },
+        "archetype": "多段位移的高机动刺客",
+        "reason": "他们能在 Lux R 完成吟唱前就进入她身边的施法距离;Zhonya's Hourglass 能救命,但如果位移连招在金身生效前就命中,依旧救不回来。",
         "via": "counterpick"
       },
       {
@@ -35620,6 +36520,16 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "de"
+        },
+        "archetype": "Backline-Scaler mit schwachem Escape",
+        "reason": "Cross-Map R verwandelt Positioning-Fehler in Kills. Sie tragen aus der Distanz bei, können einem Max-Range-Snipe auf Objective-Spawns aber nicht ausweichen.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "en"
         },
         "archetype": "Backline scalers with weak escape",
@@ -35630,10 +36540,60 @@
         "publisher": {
           "champion": "lux",
           "role": "mid",
+          "lang": "es"
+        },
+        "archetype": "Carries de backline con escape débil",
+        "reason": "La R cross-map convierte errores de posicionamiento en kills. Aportan desde lejos pero no pueden esquivar un snipe a máxima distancia cuando aparecen los objetivos.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "fr"
+        },
+        "archetype": "Carrys backline avec escape faible",
+        "reason": "La R cross-map transforme une erreur de positionnement en kill. Ils contribuent de loin mais ne peuvent pas dodge un snipe à portée maximale sur les spawns d'objectif.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
           "lang": "it"
         },
         "archetype": "Carry da retroguardia con escape debole",
         "reason": "La R cross-map trasforma errori di posizionamento in kill. Contribuiscono da lontano ma non possono schivare uno snipe a max range sugli obiettivi.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "ko"
+        },
+        "archetype": "탈출기가 약한 후방 backline 스케일러",
+        "reason": "맵을 가로지르는 R이 작은 포지션 실수를 킬로 바꾼다. 멀리서 딜만 넣는 이런 챔피언들은 오브젝트 리젠 타이밍의 max-range 저격을 피할 수단이 없다.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "pt-br"
+        },
+        "archetype": "Carries de backline com escape fraco",
+        "reason": "O R cross-map vira erros de posicionamento em kill. Eles contribuem de longe, mas não conseguem desviar de um snipe no alcance máximo nos spawns de objetivo.",
+        "via": "pick_into"
+      },
+      {
+        "publisher": {
+          "champion": "lux",
+          "role": "mid",
+          "lang": "zh-hans"
+        },
+        "archetype": "逃生薄弱的后排发育型",
+        "reason": "跨地图的 R 把站位失误直接变成人头。他们靠远距离输出,但躲不掉资源点刷新时的极限距离狙杀。",
         "via": "pick_into"
       },
       {

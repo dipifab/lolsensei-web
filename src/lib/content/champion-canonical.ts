@@ -12,9 +12,16 @@
 //   - Altrimenti il canonical della pagina patch e' la pagina stessa
 //     (self-canonical), e il banner outdated puntera' a `/[role]/guide`.
 
+import type { Locale } from '../i18n/locales';
+
 const PRODUCTION_BASE = 'https://www.lolsensei.com';
 
-export type ContentLang = 'en' | 'it';
+// WP35.1 — esteso da `'en' | 'it'` a tutte le lingue del sito (rev. DEC-7).
+// Il rollout content per le 6 lingue aggiuntive e' incrementale: una guida
+// puo' esistere in qualunque sottoinsieme di Locale, e l'`availableLangs`
+// passato a `getChampionHreflang` riflette la disponibilita' reale della
+// guida specifica (lookup filesystem-aware lato build).
+export type ContentLang = Locale;
 
 export interface ChampionCanonicalArgs {
   lang: ContentLang;
@@ -55,9 +62,19 @@ export function getChampionCanonical(args: ChampionCanonicalArgs): string {
 }
 
 /**
- * Helper per la coppia hreflang reciproco EN/IT.
+ * Helper hreflang per le champion guide.
+ *
  * Ritorna solo i locale per cui la guida esiste effettivamente
- * (DEC-OP-013 hard 404 vs hreflang sbagliato).
+ * (DEC-OP-013: hard 404 vs hreflang sbagliato). Il caller deve passare la
+ * lista di lingue disponibili per quella specifica (champion, role, patch).
+ *
+ * Ordine di emissione (deterministico per crawler-stability):
+ *   1. EN (se disponibile) — sempre primo per compat storica.
+ *   2. x-default (alias di EN se EN disponibile, alias della prima lingua
+ *      di `availableLangs` se EN assente — fallback raro, ma robusto).
+ *   3. Le altre lingue nello stesso ordine di `availableLangs`.
+ *
+ * WP35.1 — supporta tutte le 8 lingue del sito (era hardcoded EN+IT).
  */
 export function getChampionHreflang(args: {
   champion: string;
@@ -69,44 +86,28 @@ export function getChampionHreflang(args: {
 }): { lang: ContentLang | 'x-default'; href: string }[] {
   const base = args.baseUrl ?? PRODUCTION_BASE;
   const out: { lang: ContentLang | 'x-default'; href: string }[] = [];
+  const buildHref = (lang: ContentLang) =>
+    getChampionCanonical({
+      lang,
+      champion: args.champion,
+      role: args.role,
+      patch: args.patch,
+      isLatestPatch: args.isLatestPatch,
+      baseUrl: base,
+    });
+
   const includeEn = args.availableLangs.includes('en');
   if (includeEn) {
-    out.push({
-      lang: 'en',
-      href: getChampionCanonical({
-        lang: 'en',
-        champion: args.champion,
-        role: args.role,
-        patch: args.patch,
-        isLatestPatch: args.isLatestPatch,
-        baseUrl: base,
-      }),
-    });
-    // x-default punta sempre alla versione EN se disponibile.
-    out.push({
-      lang: 'x-default',
-      href: getChampionCanonical({
-        lang: 'en',
-        champion: args.champion,
-        role: args.role,
-        patch: args.patch,
-        isLatestPatch: args.isLatestPatch,
-        baseUrl: base,
-      }),
-    });
+    const enHref = buildHref('en');
+    out.push({ lang: 'en', href: enHref });
+    // x-default punta sempre alla versione EN se disponibile (DEC-OP-013).
+    out.push({ lang: 'x-default', href: enHref });
   }
-  if (args.availableLangs.includes('it')) {
-    out.push({
-      lang: 'it',
-      href: getChampionCanonical({
-        lang: 'it',
-        champion: args.champion,
-        role: args.role,
-        patch: args.patch,
-        isLatestPatch: args.isLatestPatch,
-        baseUrl: base,
-      }),
-    });
+
+  for (const lang of args.availableLangs) {
+    if (lang === 'en') continue; // gia' emesso sopra.
+    out.push({ lang, href: buildHref(lang) });
   }
+
   return out;
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05",
+  "generated_at": "2026-05-06",
   "guides": [
     {
       "slug": "aatrox-top",
@@ -2604,6 +2604,72 @@
           "patch": "16.9",
           "last_updated": "2026-04-29",
           "champion_class": "Mago / Burst",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Lux",
+          "champion_key": "99"
+        },
+        "es": {
+          "title": "Lux Mid Build & Guía — Patch 16.9",
+          "description": "Guía de Lux mid para League of Legends Patch 16.9: build de mago, matchups clave, power spikes, errores comunes y un consejo avanzado para sacarle todo el partido.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mago / Burst",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Lux",
+          "champion_key": "99"
+        },
+        "fr": {
+          "title": "Lux Mid Build & Guide — Patch 16.9",
+          "description": "Guide complet Lux mid lane pour League of Legends Patch 16.9 : build mage optimal, matchups clés, power spikes, erreurs courantes et astuce technique finale.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mage / Burst",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Lux",
+          "champion_key": "99"
+        },
+        "de": {
+          "title": "Lux Mid Build & Guide — Patch 16.9",
+          "description": "Lux Mid Guide für League of Legends Patch 16.9: Starter-Items, Mage-Build, wichtige Matchups, Power Spikes, häufige Fehler und ein abschließender Tipp.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mage / Burst",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Lux",
+          "champion_key": "99"
+        },
+        "pt-br": {
+          "title": "Lux Mid Build & Guia — Patch 16.9",
+          "description": "Guia completo da Lux mid no Patch 16.9: build de mago atualizada, matchups da rota, power spikes do nível 6, erros comuns e dicas para snipar com Final Spark.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mage / Burst",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Lux",
+          "champion_key": "99"
+        },
+        "ko": {
+          "title": "Lux Mid Build & Guide — Patch 16.9",
+          "description": "League of Legends 패치 16.9 Lux 미드 완벽 공략. 시작 아이템부터 코어 빌드, Sorcery 룬 선택, 주요 매치업 대처법, 파워 스파이크 타이밍 활용, 라인전에서 자주 하는 실수와 해결책, 그리고 W 캔슬 같은 고급 콤보 팁까지 한 페이지에 깔끔하게 정리한 실전 가이드입니다.",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mage / Burst",
+          "difficulty": 2,
+          "damage_type": "magic",
+          "champion_dd_id": "Lux",
+          "champion_key": "99"
+        },
+        "zh-hans": {
+          "title": "Lux Mid Build & Guide — Patch 16.9",
+          "description": "League of Legends 英雄联盟 16.9 版本 Lux 光辉女郎中单完整攻略:法师核心出装顺序、Sorcery 符文与天赋加点细节、Q-E-R 标准起手连招、对线期消耗与压制思路、强势期节奏把握、团战站位与切入时机选择、新手常见错误规避,以及进阶 W 双护盾、Q 拐弯命中等高阶操作技巧。",
+          "patch": "16.9",
+          "last_updated": "2026-04-29",
+          "champion_class": "Mage / Burst",
           "difficulty": 2,
           "damage_type": "magic",
           "champion_dd_id": "Lux",

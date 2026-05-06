@@ -41,7 +41,10 @@ const DEFAULT_CONTENT_ROOT = resolve(REPO_ROOT, 'content');
 const DEFAULT_REGISTRY_PATH = resolve(REPO_ROOT, 'content/_meta/champion-keys.json');
 const DEFAULT_OUTPUT_DIR = resolve(REPO_ROOT, 'public/counter-index');
 
-const LANGS = /** @type {const} */ (['en', 'it']);
+// WP35.1 — esteso da EN+IT a tutte le 8 lingue del sito. Per le lingue senza
+// guide il builder produce indice vuoto valido (vedi `emptyIndex` sotto).
+import { SUPPORTED_LOCALES } from './locales.mjs';
+const LANGS = /** @type {const} */ (SUPPORTED_LOCALES);
 const ROLES = /** @type {const} */ (['top', 'jungle', 'mid', 'bot', 'support']);
 const SCHEMA_VERSION = 2;
 const EXCERPT_MAX = 120;

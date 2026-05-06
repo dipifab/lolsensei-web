@@ -18,8 +18,12 @@
 //
 // Riferimento: dev-repository/wp-counter-picker/design/data-model.md §3.
 
-/** Lingua dell'indice. ADR-034 i18n EN/IT parity. */
-export type Lang = 'en' | 'it';
+import type { Locale } from '../i18n/locales';
+
+/** Lingua dell'indice. WP35.1 ha esteso da `'en' | 'it'` a tutte le 8 lingue
+ *  del sito; il counter-index e' costruito per ogni lingua con guide presenti
+ *  (le lingue senza guide producono indice vuoto, vedi `emptyIndex` nel builder). */
+export type Lang = Locale;
 
 /** Ruoli supportati (allineato a ChampionRoleSchema di champion-schema.ts). */
 export type Role = 'top' | 'jungle' | 'mid' | 'bot' | 'support';

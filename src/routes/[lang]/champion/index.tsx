@@ -2,12 +2,15 @@
 // CR-054 (WP35.2) — Route /[lang]/champion (Champion Guides Hub).
 //
 // SSR landing page that lists every guide present in the build datasets,
-// with client-side search + filters. Indexable in EN+IT only (DEC-7);
-// other locales fall back to the home redirect.
+// with client-side search + filters.
 //
-// SEO: Title + Meta + canonical + hreflang triplet + JSON-LD CollectionPage
-// with mainEntity Article array. Sitemap entry is emitted by
-// `scripts/generate-sitemap.mjs` (separate task).
+// WP35.1 (rev. DEC-7) — esteso da EN+IT a tutte le 8 lingue del sito. Le
+// 6 lingue aggiuntive vedono solo le guide effettivamente tradotte (oggi:
+// solo Lux mid). Mano mano che il rollout content procede, l'hub si popola.
+//
+// SEO: Title + Meta + canonical + hreflang dinamici + JSON-LD CollectionPage
+// con mainEntity Article array (solo guide nella lingua corrente, no fallback).
+// Sitemap entry emessa da `scripts/generate-sitemap.mjs`.
 
 import { Show, createMemo } from 'solid-js';
 import { Navigate, useParams } from '@solidjs/router';
@@ -18,13 +21,18 @@ import Breadcrumbs from '../../../components/Breadcrumbs';
 import ChampionGuidesHub from '../../../components/champion/ChampionGuidesHub';
 import { BASE_URL } from '../../../lib/seo/routes';
 import { useI18n } from '../../../i18n';
-import { getHubIndex, pickLocale } from '../../../lib/champion/discovery';
+import { getHubIndex } from '../../../lib/champion/discovery';
+import {
+  isSupportedLocale,
+  SUPPORTED_LOCALES,
+  HREFLANG_MAP,
+  type Locale,
+} from '../../../lib/i18n/locales';
 
-const HUB_LANGS = ['en', 'it'] as const;
-type HubLang = (typeof HUB_LANGS)[number];
+type HubLang = Locale;
 
 function isHubLang(v: string): v is HubLang {
-  return (HUB_LANGS as readonly string[]).includes(v);
+  return isSupportedLocale(v);
 }
 
 export default function ChampionHubRoute() {
@@ -52,17 +60,19 @@ function HubPage(props: { lang: HubLang }) {
   const description = t('wp35.hub.meta.description');
 
   // CollectionPage JSON-LD with mainEntity = list of Article entries
-  // pointing at each guide currently published in the user's locale.
+  // pointing at each guide ACTUALLY published in the user's locale (no
+  // fallback to EN: l'hub deve riflettere solo le guide tradotte nella
+  // lingua corrente per coerenza UX e SEO).
   const jsonLd = createMemo(() => {
     const entries = getHubIndex();
     const items = entries
       .map((e, idx) => {
-        const data = pickLocale(e, props.lang);
+        const data = e.locales[props.lang];
         if (!data) return null;
         return {
           '@type': 'ListItem',
           position: idx + 1,
-          url: `${BASE_URL}/${props.lang}/champion/${e.champion}/guide`,
+          url: `${BASE_URL}/${props.lang}/champion/${e.champion}/${e.role}/guide`,
           name: data.title,
         };
       })
@@ -92,16 +102,13 @@ function HubPage(props: { lang: HubLang }) {
       <Meta property="og:type" content="website" />
       <Meta property="og:url" content={canonical} />
       <Link rel="canonical" href={canonical} />
-      <Link
-        rel="alternate"
-        hreflang="en"
-        href={`${BASE_URL}/en/champion`}
-      />
-      <Link
-        rel="alternate"
-        hreflang="it"
-        href={`${BASE_URL}/it/champion`}
-      />
+      {SUPPORTED_LOCALES.map((l) => (
+        <Link
+          rel="alternate"
+          hreflang={HREFLANG_MAP[l] ?? l}
+          href={`${BASE_URL}/${l}/champion`}
+        />
+      ))}
       <Link
         rel="alternate"
         hreflang="x-default"

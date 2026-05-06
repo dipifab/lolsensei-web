@@ -172,7 +172,10 @@ if (PUBLIC_PAGES_ENABLED) {
 // since the underlying dataset grows as new guides are produced.
 // ---------------------------------------------------------------------------
 
-const WP35_HUB_LOCALES = ['en', 'it'];
+// WP35.1 (rev. DEC-7) — esteso da EN+IT a tutte le 8 lingue del sito.
+// L'hub e' indicizzabile in tutte le lingue: per le 6 nuove ne mostra solo
+// le guide effettivamente tradotte (oggi: solo Lux mid).
+const WP35_HUB_LOCALES = SUPPORTED_LOCALES;
 
 function championHubUrl(locale) {
   return `${BASE}/${locale}/champion`;
@@ -208,7 +211,11 @@ if (PUBLIC_PAGES_ENABLED) {
 // URL × 2 locales = 160-240 entry.
 // ---------------------------------------------------------------------------
 
-const CHAMPION_GUIDE_LOCALES = ['en', 'it'];
+// WP35.1 — esteso da EN+IT a tutte le 8 lingue del sito. Il discover sotto
+// e' auto-discovery filesystem-based: scansiona la cartella di ogni locale e
+// se non esiste o e' vuota, non emette URL per quella lingua. Le guide
+// presenti in piu' lingue producono hreflang completi tra di loro.
+const CHAMPION_GUIDE_LOCALES = SUPPORTED_LOCALES;
 const CHAMPION_GUIDE_ROLES = ['top', 'jungle', 'mid', 'bot', 'support'];
 const CONTENT_CHAMPIONS_ROOT = resolve(__dirname, '..', 'content', 'champions');
 const CHAMPION_FILENAME_RE = /^([a-z0-9-]+)-(top|jungle|mid|bot|support)\.md$/;

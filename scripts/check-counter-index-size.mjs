@@ -22,9 +22,12 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, '..');
 const ASSET_DIR = resolve(REPO_ROOT, 'public/counter-index');
 
+import { SUPPORTED_LOCALES } from './locales.mjs';
+
 const LIMIT_GZ = 25 * 1024; // 25KB
 const WARN_GZ = 20 * 1024; // 20KB
-const LANGS = ['en', 'it'];
+// WP35.1 — esteso da EN+IT a tutte le 8 lingue del sito.
+const LANGS = SUPPORTED_LOCALES;
 
 let failed = false;
 

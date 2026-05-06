@@ -76,31 +76,89 @@ function walkHtml(dir) {
 }
 
 /**
- * True for routes translated only to EN+IT. These advertise the 3-entry
- * hreflang triplet (en, it, x-default). Other locales fall back to EN
- * content, so emitting 9 hreflangs there would create duplicate-content
- * signals across crawlers.
+ * Resolve l'expected hreflang set per un path.
  *
- * Members:
- *   - blog index (`/{lang}/blog`) and blog posts (`/{lang}/blog/...`).
- *   - WP30 tier list (`/{lang}/tier-list[?...]`).
- *   - WP30 summoner pages (`/{lang}/summoner/{region}/...`).
+ * Tre famiglie:
+ *   1. Two-locale (EN+IT+x-default = 3 entries):
+ *      - blog index/posts (/{lang}/blog/...)
+ *      - tier-list (/{lang}/tier-list[?...])
+ *      - summoner (/{lang}/summoner/...)
+ *      - champion hub (/{lang}/champion senza segmenti aggiuntivi)
+ *   2. Champion guide (WP35.1): expected = filesystem-aware. Per ogni guida
+ *      `/{lang}/champion/<slug>/<role>/guide` calcoliamo la lista delle lingue
+ *      in cui esiste `content/champions/<L>/<slug>-<role>.md`. Una guida che
+ *      esiste solo in EN+IT advertises 3 hreflang; Lux multilingua advertises 9.
+ *   3. Public (8 locales + x-default = 9 entries): tutto il resto.
+ *
+ * @returns lista di hreflang attesi (es. ['en', 'it', 'x-default']) o null
+ *          se il path non e' classificabile come champion-guide e va passato
+ *          al classifier two-locale standard.
  */
-function isTwoLocaleRoute(pathLike) {
+function getExpectedHreflangsForPath(pathLike) {
   const p = pathLike.split(sep).join('/');
-  // Match `/blog`, `/blog/`, `/blog?...`, `/blog.html` and any nested `/blog/...`
-  if (/\/blog(\/|\.html|\?|$)/.test(p)) return true;
-  // Match `/tier-list`, `/tier-list/`, `/tier-list?...`, `/tier-list.html`
-  if (/\/tier-list(\/|\.html|\?|$)/.test(p)) return true;
-  // Match `/summoner/...` (always nested, region segment follows)
-  if (p.includes('/summoner/')) return true;
-  // WP35 (CR-053): champion guides EN+IT only per DEC-7 (other locales fall
-  // back to default landing). Match `/champion/<slug>/<page>` nested routes.
-  if (p.includes('/champion/')) return true;
-  // CR-054 (WP35.2): hub root `/<lang>/champion` (no trailing slash) is also
-  // EN+IT only. Match `/champion`, `/champion/`, `/champion?...`, `/champion.html`.
-  if (/\/champion(\/|\.html|\?|$)/.test(p)) return true;
-  return false;
+  if (/\/blog(\/|\.html|\?|$)/.test(p)) return EXPECTED_HREFLANGS_TWO_LOCALE;
+  if (/\/tier-list(\/|\.html|\?|$)/.test(p)) return EXPECTED_HREFLANGS_TWO_LOCALE;
+  if (p.includes('/summoner/')) return EXPECTED_HREFLANGS_TWO_LOCALE;
+  // WP-COUNTER-PICKER (CR-063): le pagine counter sono pubblicate solo in
+  // EN+IT (COUNTER_LOCALES nel sitemap generator) finche' la UI non viene
+  // estesa alle altre lingue. Allineamento con il sitemap (DEC-OP-013).
+  if (/\/counter(\/|\.html|\?|$)/.test(p)) return EXPECTED_HREFLANGS_TWO_LOCALE;
+  // WP35.1 — champion guide: filesystem-aware lookup.
+  // Match `/<lang>/champion/<slug>/<role>/guide(.html|/|?|$)`.
+  const guideMatch = p.match(
+    /\/champion\/([a-z0-9-]+)\/(top|jungle|mid|bot|support)\/guide(?:\/|\.html|\?|$)/,
+  );
+  if (guideMatch) {
+    const [, slug, role] = guideMatch;
+    return getChampionGuideExpectedHreflangs(slug, role);
+  }
+  // /champion (hub) e altre rotte /champion/... non-guida: TWO_LOCALE.
+  if (/\/champion(\/|\.html|\?|$)/.test(p)) return EXPECTED_HREFLANGS_TWO_LOCALE;
+  return EXPECTED_HREFLANGS_PUBLIC;
+}
+
+/**
+ * Calcola l'expected hreflang set per una guida `(slug, role)` sulla base
+ * dei file presenti in `content/champions/<L>/<slug>-<role>.md`. Memoizzato
+ * per evitare 100+ stat() durante uno scan completo del build.
+ *
+ * x-default punta a EN se la guida esiste in EN, altrimenti alla prima
+ * lingua presente nell'ordine `SUPPORTED_LOCALES` (fallback raro).
+ */
+const CONTENT_CHAMPIONS_ROOT = resolve(ROOT, 'content', 'champions');
+const championGuideHreflangCache = new Map();
+
+function getChampionGuideExpectedHreflangs(slug, role) {
+  const cacheKey = `${slug}-${role}`;
+  if (championGuideHreflangCache.has(cacheKey)) {
+    return championGuideHreflangCache.get(cacheKey);
+  }
+  const langs = [];
+  for (const lang of SUPPORTED_LOCALES) {
+    const file = join(CONTENT_CHAMPIONS_ROOT, lang, `${slug}-${role}.md`);
+    if (existsSync(file)) langs.push(lang);
+  }
+  // Se la guida non esiste in nessuna lingua, fallback al set TWO_LOCALE
+  // (non dovrebbe mai capitare in pratica: il sitemap emette URL solo per
+  // guide reali, ma e' difensivo).
+  if (langs.length === 0) {
+    const result = EXPECTED_HREFLANGS_TWO_LOCALE;
+    championGuideHreflangCache.set(cacheKey, result);
+    return result;
+  }
+  const result = [
+    ...langs.map((l) => HREFLANG_MAP[l] ?? l),
+    'x-default',
+  ];
+  championGuideHreflangCache.set(cacheKey, result);
+  return result;
+}
+
+/** @deprecated Use getExpectedHreflangsForPath. Kept for runSitemapChecker
+ *  bidirectional logic which still needs a binary classifier for legacy mode. */
+function isTwoLocaleRoute(pathLike) {
+  const expected = getExpectedHreflangsForPath(pathLike);
+  return expected === EXPECTED_HREFLANGS_TWO_LOCALE;
 }
 
 function extractHreflangs(html) {
@@ -140,8 +198,8 @@ function runHtmlChecker(targetDir) {
     const html = readFileSync(file, 'utf8');
     const alternates = extractHreflangs(html);
     const present = new Set(alternates.map((a) => a.lang));
-    const twoLocale = isTwoLocaleRoute(rel);
-    const expected = twoLocale ? EXPECTED_HREFLANGS_TWO_LOCALE : EXPECTED_HREFLANGS_PUBLIC;
+    const expected = getExpectedHreflangsForPath(rel);
+    const twoLocale = expected === EXPECTED_HREFLANGS_TWO_LOCALE;
     if (twoLocale) twoLocaleCount += 1;
     else publicCount += 1;
 
@@ -185,8 +243,7 @@ function runSitemapChecker(sitemapPath) {
     }));
     urlMap.set(loc, alternates);
 
-    const twoLocale = isTwoLocaleRoute(loc);
-    const expected = twoLocale ? EXPECTED_HREFLANGS_TWO_LOCALE : EXPECTED_HREFLANGS_PUBLIC;
+    const expected = getExpectedHreflangsForPath(loc);
     const present = new Set(alternates.map((a) => a.lang));
     for (const lang of expected) {
       if (!present.has(lang)) {

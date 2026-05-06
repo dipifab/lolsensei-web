@@ -16,7 +16,18 @@ import type {
 } from './types';
 
 const RoleSchema = z.enum(['top', 'jungle', 'mid', 'bot', 'support']);
-const LangSchema = z.enum(['en', 'it']);
+// WP35.1 — esteso da EN+IT a tutte le 8 lingue del sito. Allineato a
+// SUPPORTED_LOCALES (`src/lib/i18n/locales.ts`).
+const LangSchema = z.enum([
+  'en',
+  'it',
+  'es',
+  'fr',
+  'de',
+  'pt-br',
+  'ko',
+  'zh-hans',
+]);
 
 // ISO date YYYY-MM-DD (no timezone). Allineato a IsoDateSchema di
 // champion-schema.ts (no import diretto per non legare counter a wp35).

@@ -54,10 +54,13 @@ describe('ChampionGuideFrontmatterSchema', () => {
     expect(bad.success).toBe(false);
   });
 
-  it('rejects language outside en/it', () => {
+  it('rejects language outside the supported set', () => {
+    // WP35.1 — il set supportato e' stato esteso da EN+IT a tutte le 8 lingue
+    // del sito (en, it, es, fr, de, pt-br, ko, zh-hans). Qui usiamo `ja` che
+    // non e' nel set per verificare che l'enum mantenga il fallback rejection.
     const bad = ChampionGuideFrontmatterSchema.safeParse({
       ...BASE_VALID,
-      language: 'fr',
+      language: 'ja',
     });
     expect(bad.success).toBe(false);
   });

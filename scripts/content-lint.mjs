@@ -42,6 +42,8 @@ import { fileURLToPath } from 'node:url';
 
 import yaml from 'js-yaml';
 
+import { SUPPORTED_LOCALES } from './locales.mjs';
+
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, '..');
 const CONTENT_ROOT = resolve(REPO_ROOT, 'content/champions');
@@ -52,7 +54,8 @@ const CONTENT_ROOT_COUNTERS = resolve(REPO_ROOT, 'content/counters');
 const CONTENT_ROOT_PRO_BUILDS = resolve(REPO_ROOT, 'content/pro-builds');
 const BLOCKLIST_FILE = resolve(__dirname, 'competitor-blocklist.txt');
 
-const LANGS = ['en', 'it'];
+// WP35.1 — esteso da EN+IT a tutte le 8 lingue del sito.
+const LANGS = SUPPORTED_LOCALES;
 const ROLES = ['top', 'jungle', 'mid', 'bot', 'support'];
 const PATCH_RE = /^\d{1,2}\.\d{1,2}$/;
 const SLUG_FRONTMATTER_RE = /^[a-z0-9-]+-(top|jungle|mid|bot|support)$/;
@@ -439,7 +442,20 @@ function lintBlocklist(file, fm, body, blockRe) {
 // Canonical H2 section headers per locale. Body must contain exactly these
 // 6 H2s (set equality). Order is not enforced — too brittle for early
 // editorial iteration, and the rendering looks fine in any reasonable order.
+//
+// WP35.1 — aggiunti H2 set per le 6 lingue di rollout. I termini tecnici
+// del kit (Power spike, matchup) restano in EN per CONTENT-RULES §2 (gergo
+// gaming non si traduce); le label di sezione invece sono native nella lingua
+// per UX/SEO. Ordine: locale code alfabetico.
 const CANONICAL_H2 = {
+  de: [
+    'Überblick',
+    'Empfohlener Build',
+    'Wichtige Matchups',
+    'Power Spikes & Siegbedingungen',
+    'Häufige Fehler',
+    'Fortgeschrittener Tipp',
+  ],
   en: [
     'Overview',
     'Recommended Build',
@@ -448,6 +464,22 @@ const CANONICAL_H2 = {
     'Common mistakes',
     'Advanced tip',
   ],
+  es: [
+    'Resumen',
+    'Build Recomendada',
+    'Matchups clave',
+    'Power spikes y condiciones de victoria',
+    'Errores comunes',
+    'Consejo avanzado',
+  ],
+  fr: [
+    'Aperçu',
+    'Build Recommandé',
+    'Matchups clés',
+    'Power spikes & conditions de victoire',
+    'Erreurs courantes',
+    'Conseil avancé',
+  ],
   it: [
     'Panoramica',
     'Build Consigliata',
@@ -455,6 +487,30 @@ const CANONICAL_H2 = {
     'Power spike & condizioni di vittoria',
     'Errori comuni',
     'Suggerimento avanzato',
+  ],
+  ko: [
+    '개요',
+    '추천 빌드',
+    '주요 매치업',
+    '파워 스파이크 및 승리 조건',
+    '흔한 실수',
+    '고급 팁',
+  ],
+  'pt-br': [
+    'Visão geral',
+    'Build recomendada',
+    'Matchups principais',
+    'Power spikes e condições de vitória',
+    'Erros comuns',
+    'Dica avançada',
+  ],
+  'zh-hans': [
+    '概述',
+    '推荐出装',
+    '关键对线',
+    '强势期与胜利条件',
+    '常见错误',
+    '进阶技巧',
   ],
 };
 
