@@ -1284,7 +1284,7 @@ const ptBr = {
   'wp35.champion_guide.quick_learn.runes.rationale.why_secondary': 'Por que a secundária',
   'wp35.champion_guide.quick_learn.runes.rationale.when_to_switch': 'Quando trocar a secundária',
   'wp35.matchup_draft.heading': 'Pick into / Counterpicks',
-  'wp35.matchup_draft.subtitle':
+  'wp35.matchup_draft.subtitle': 'Matchups no nível do draft: quando este pick brilha e quais champions são pickados contra ele. Raciocínio mecânico, sem winrate.',
   'wp35.matchup_draft.pick_into_title': 'Pick into',
   'wp35.matchup_draft.counterpicks_title': 'Counterpicks',
   'wp35.champion_guide.patch_badge.label': 'Patch {patch}',
@@ -1302,13 +1302,13 @@ const ptBr = {
   'wp35.champion_guide.not_found.suggest_latest': 'Ver o guia mais recente de {champion}',
   'wp35.champion_guide.not_found.suggest_back': 'Voltar para a home',
   'wp35.hub.meta.title': 'Guias de Campeões — Playbooks Táticos | LoL Sensei',
-  'wp35.hub.meta.description':
+  'wp35.hub.meta.description': 'Explore guias de champions de League of Legends escritos por humanos e verificados contra o Riot Data Dragon. Busque por nome, filtre por rota, classe, dificuldade e tipo de dano.',
   'wp35.hub.heading': 'Guias de Campeões',
-  'wp35.hub.subtitle':
+  'wp35.hub.subtitle': 'Playbooks táticos para os principais champions, escritos por humanos e verificados contra os dados do patch.',
   'wp35.hub.counter': 'Mostrando {shown} de {total} guias',
   'wp35.hub.breadcrumb_label': 'Guias de campeões',
   'wp35.hub.empty.title': 'Nenhum guia corresponde a estes filtros',
-  'wp35.hub.empty.body':
+  'wp35.hub.empty.body': 'Tente remover um filtro ou limpar a busca para ver mais guias.',
   'wp35.hub.empty.cta_clear': 'Limpar filtros e busca',
   'wp35.hub.card.cta_read': 'Ler guia',
   'wp35.hub.card.coming_soon': 'Guia em breve',

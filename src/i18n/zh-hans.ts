@@ -1281,7 +1281,7 @@ const zh = {
   'wp35.champion_guide.quick_learn.runes.rationale.why_secondary': '为什么选这个副系',
   'wp35.champion_guide.quick_learn.runes.rationale.when_to_switch': '何时更换副系',
   'wp35.matchup_draft.heading': '优势对位 / 克制英雄',
-  'wp35.matchup_draft.subtitle':
+  'wp35.matchup_draft.subtitle': 'Draft 阶段的对线分析: 这个 pick 在什么场景下出色,以及哪些 champion 会被针对它来 pick。基于机制推理,不依赖胜率。',
   'wp35.matchup_draft.pick_into_title': '优势对位',
   'wp35.matchup_draft.counterpicks_title': '克制英雄',
   'wp35.champion_guide.patch_badge.label': '版本 {patch}',
@@ -1299,13 +1299,13 @@ const zh = {
   'wp35.champion_guide.not_found.suggest_latest': '查看 {champion} 的最新攻略',
   'wp35.champion_guide.not_found.suggest_back': '返回首页',
   'wp35.hub.meta.title': '英雄攻略 — 战术手册 | LoL Sensei',
-  'wp35.hub.meta.description':
+  'wp35.hub.meta.description': '浏览由真人撰写、依据 Riot Data Dragon 数据校验的英雄联盟英雄攻略。按名称搜索,按位置、职业、难度、伤害类型筛选。',
   'wp35.hub.heading': '英雄攻略',
-  'wp35.hub.subtitle':
+  'wp35.hub.subtitle': '为主流英雄编写的战术 playbook,由真人撰写并依据补丁数据校验。',
   'wp35.hub.counter': '已显示 {shown} / {total} 篇攻略',
   'wp35.hub.breadcrumb_label': '英雄攻略',
   'wp35.hub.empty.title': '没有攻略符合当前筛选',
-  'wp35.hub.empty.body':
+  'wp35.hub.empty.body': '试试移除一个筛选条件或清除搜索关键词,以查看更多攻略。',
   'wp35.hub.empty.cta_clear': '清除筛选与搜索',
   'wp35.hub.card.cta_read': '查看攻略',
   'wp35.hub.card.coming_soon': '攻略即将上线',

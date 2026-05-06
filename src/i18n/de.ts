@@ -1281,7 +1281,7 @@ const de = {
   'wp35.champion_guide.quick_learn.runes.rationale.why_secondary': 'Warum der Sekundärbaum',
   'wp35.champion_guide.quick_learn.runes.rationale.when_to_switch': 'Wann den Sekundärbaum wechseln',
   'wp35.matchup_draft.heading': 'Pick into / Counterpicks',
-  'wp35.matchup_draft.subtitle':
+  'wp35.matchup_draft.subtitle': 'Matchups auf Draft-Ebene: wann dieser Pick glänzt und welche Champions dagegen gepickt werden. Mechanische Argumentation, kein Winrate.',
   'wp35.matchup_draft.pick_into_title': 'Pick into',
   'wp35.matchup_draft.counterpicks_title': 'Counterpicks',
   'wp35.champion_guide.patch_badge.label': 'Patch {patch}',
@@ -1299,13 +1299,13 @@ const de = {
   'wp35.champion_guide.not_found.suggest_latest': 'Zum aktuellen Guide für {champion}',
   'wp35.champion_guide.not_found.suggest_back': 'Zurück zur Startseite',
   'wp35.hub.meta.title': 'Champion Guides — Taktische Playbooks | LoL Sensei',
-  'wp35.hub.meta.description':
+  'wp35.hub.meta.description': 'Durchsuche League-of-Legends-Champion-Guides von Menschen geschrieben und gegen Riot Data Dragon verifiziert. Suche nach Name, filtere nach Rolle, Klasse, Schwierigkeit und Schadensart.',
   'wp35.hub.heading': 'Champion Guides',
-  'wp35.hub.subtitle':
+  'wp35.hub.subtitle': 'Taktische Playbooks für die Top-Champions, von Menschen geschrieben und gegen Patch-Daten verifiziert.',
   'wp35.hub.counter': '{shown} von {total} Guides',
   'wp35.hub.breadcrumb_label': 'Champion Guides',
   'wp35.hub.empty.title': 'Keine Guides passen zu diesen Filtern',
-  'wp35.hub.empty.body':
+  'wp35.hub.empty.body': 'Versuche, einen Filter zu entfernen oder die Suche zu löschen, um mehr Guides zu sehen.',
   'wp35.hub.empty.cta_clear': 'Filter und Suche zurücksetzen',
   'wp35.hub.card.cta_read': 'Guide lesen',
   'wp35.hub.card.coming_soon': 'Guide folgt in Kürze',

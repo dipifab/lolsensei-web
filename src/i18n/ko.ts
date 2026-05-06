@@ -1281,7 +1281,7 @@ const ko = {
   'wp35.champion_guide.quick_learn.runes.rationale.why_secondary': '보조룬을 쓰는 이유',
   'wp35.champion_guide.quick_learn.runes.rationale.when_to_switch': '보조룬을 바꿔야 할 때',
   'wp35.matchup_draft.heading': '유리한 픽 / 카운터픽',
-  'wp35.matchup_draft.subtitle':
+  'wp35.matchup_draft.subtitle': '드래프트 레벨 매치업: 이 픽이 빛나는 순간과 이 픽을 상대로 픽되는 챔피언. 승률이 아닌 메커니즘 기반 분석.',
   'wp35.matchup_draft.pick_into_title': '유리한 픽',
   'wp35.matchup_draft.counterpicks_title': '카운터픽',
   'wp35.champion_guide.patch_badge.label': '패치 {patch}',
@@ -1299,13 +1299,13 @@ const ko = {
   'wp35.champion_guide.not_found.suggest_latest': '{champion} 최신 가이드 보기',
   'wp35.champion_guide.not_found.suggest_back': '홈으로 돌아가기',
   'wp35.hub.meta.title': '챔피언 가이드 — 전술 플레이북 | LoL Sensei',
-  'wp35.hub.meta.description':
+  'wp35.hub.meta.description': '사람이 작성하고 Riot Data Dragon으로 검증된 League of Legends 챔피언 가이드를 탐색하자. 이름으로 검색하고 라인, 클래스, 난이도, 데미지 타입으로 필터링.',
   'wp35.hub.heading': '챔피언 가이드',
-  'wp35.hub.subtitle':
+  'wp35.hub.subtitle': '주요 챔피언을 위한 전술 플레이북. 사람이 작성하고 패치 데이터로 검증.',
   'wp35.hub.counter': '전체 {total}개 중 {shown}개 표시',
   'wp35.hub.breadcrumb_label': '챔피언 가이드',
   'wp35.hub.empty.title': '필터 조건에 맞는 가이드가 없다',
-  'wp35.hub.empty.body':
+  'wp35.hub.empty.body': '필터를 제거하거나 검색어를 지워서 더 많은 가이드를 확인하자.',
   'wp35.hub.empty.cta_clear': '필터와 검색 초기화',
   'wp35.hub.card.cta_read': '가이드 보기',
   'wp35.hub.card.coming_soon': '가이드 준비 중',
