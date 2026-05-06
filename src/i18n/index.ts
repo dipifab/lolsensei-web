@@ -8,6 +8,13 @@ import {
 } from 'solid-js';
 import { useParams, useNavigate, useLocation } from '@solidjs/router';
 import en from './en';
+import it from './it';
+import es from './es';
+import fr from './fr';
+import de from './de';
+import ptBr from './pt-br';
+import ko from './ko';
+import zhHans from './zh-hans';
 import {
   SUPPORTED_LOCALES,
   DEFAULT_LOCALE,
@@ -25,18 +32,30 @@ type BaseTranslations = Record<BaseTranslationKey, string>;
 // non le inlinea (condizione del bundle-guard WP24).
 type LegalTranslations = Record<string, string>;
 
-// WP24 TASK-4-024 — Split locale bundles: base (eager per-locale) + legal (lazy,
-// consent/privacy/cookies/age-gate). Il legal chunk viene caricato on-demand
-// solo quando un consumer lo richiede (banner, preference center, pagine legal).
-const baseLoaders: Record<Locale, () => Promise<BaseTranslations>> = {
-  en: () => Promise.resolve(en),
-  it: () => import('./it').then((m) => m.default as unknown as BaseTranslations),
-  ko: () => import('./ko').then((m) => m.default as unknown as BaseTranslations),
-  'zh-hans': () => import('./zh-hans').then((m) => m.default as unknown as BaseTranslations),
-  'pt-br': () => import('./pt-br').then((m) => m.default as unknown as BaseTranslations),
-  es: () => import('./es').then((m) => m.default as unknown as BaseTranslations),
-  fr: () => import('./fr').then((m) => m.default as unknown as BaseTranslations),
-  de: () => import('./de').then((m) => m.default as unknown as BaseTranslations),
+// CR-067 fix (2026-05-06) — base bundle ora STATICO per tutti i locali.
+// Era dynamic import async, che durante SSR (sync) non si risolveva in tempo
+// e il signal restava su `en`, producendo HTML SSR sempre in inglese anche
+// per /it/, /de/, /ko/, ecc. Il fallback EN persiste fino al next render
+// post-hydrate, ma alcuni testi in posizioni "statiche" del DOM SSR non
+// venivano mai aggiornati. Ora `baseTranslations[locale]` e' sync, sia in
+// SSR che in client, e il `t()` ritorna immediatamente la stringa giusta.
+//
+// Cost: i 6 dataset extra (~99 KB raw cad. = ~600 KB raw, ~150 KB gz) entrano
+// nel bundle Worker entry. Bundle pre-fix ~1.2 MiB gz, post-fix stimato
+// ~1.4 MiB gz. Margine ampio rispetto al cap Cloudflare Workers Free 3 MiB.
+//
+// Cast `unknown` necessario perche' i 7 file non-EN dichiarano la propria
+// shape che e' un superset/sottoinsieme di `BaseTranslations` (tipo derivato
+// da `keyof typeof en`); l'enforcement reale e' nello script `check-i18n-keys.mjs`.
+const baseTranslations: Record<Locale, BaseTranslations> = {
+  en,
+  it: it as unknown as BaseTranslations,
+  es: es as unknown as BaseTranslations,
+  fr: fr as unknown as BaseTranslations,
+  de: de as unknown as BaseTranslations,
+  'pt-br': ptBr as unknown as BaseTranslations,
+  ko: ko as unknown as BaseTranslations,
+  'zh-hans': zhHans as unknown as BaseTranslations,
 };
 
 const legalLoaders: Record<Locale, () => Promise<LegalTranslations>> = {
@@ -72,16 +91,8 @@ const I18nContext = createContext<I18nContextValue>();
 // Cache module-level: sopravvive al remount del provider e condivide
 // promise/valori tra istanze (in pratica c'e' un solo provider, ma il pattern
 // e' safe anche se Solid rimonta il tree).
-const baseCache = new Map<Locale, Promise<BaseTranslations>>();
 const legalCache = new Map<Locale, Promise<LegalTranslations>>();
 
-function getBase(lang: Locale): Promise<BaseTranslations> {
-  const cached = baseCache.get(lang);
-  if (cached) return cached;
-  const p = baseLoaders[lang]();
-  baseCache.set(lang, p);
-  return p;
-}
 function getLegal(lang: Locale): Promise<LegalTranslations> {
   const cached = legalCache.get(lang);
   if (cached) return cached;
@@ -101,7 +112,12 @@ export function I18nProvider(props: { children: JSX.Element }) {
     return DEFAULT_LOCALE;
   });
 
-  const [loadedTranslations, setLoadedTranslations] = createSignal<BaseTranslations>(en);
+  // CR-067 fix — sync lookup nel record statico. Reattivo perche' `locale()`
+  // e' un createMemo che dipende da `params.lang`. Quando l'utente naviga
+  // /en/... -> /de/..., il memo aggiorna e i consumer di `t()` re-renderano.
+  const loadedTranslations = createMemo<BaseTranslations>(
+    () => baseTranslations[locale()] ?? en,
+  );
   // Legal per la lingua corrente + fallback EN: due mappe indipendenti.
   const [legalCurrent, setLegalCurrent] = createSignal<LegalTranslations>({});
   const [legalEn, setLegalEn] = createSignal<LegalTranslations>({});
@@ -109,17 +125,6 @@ export function I18nProvider(props: { children: JSX.Element }) {
 
   createEffect(() => {
     const currentLocale = locale();
-
-    if (currentLocale === 'en') {
-      setLoadedTranslations(en);
-    } else {
-      getBase(currentLocale).then((translations) => {
-        if (locale() === currentLocale) {
-          setLoadedTranslations(translations);
-        }
-      });
-    }
-
     // Se il legal era gia' stato richiesto (es. banner mount precedente al
     // cambio lingua), ricarichiamo il legal nella nuova lingua per mantenere
     // la UI coerente.
