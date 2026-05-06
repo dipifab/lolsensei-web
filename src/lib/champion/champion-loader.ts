@@ -43,11 +43,18 @@ function key(lang: Locale, slug: string): string {
 /**
  * Carica tutte le guide per `(lang, slug)` (di solito 1 elemento, raramente
  * piu' patch storiche). Ritorna `[]` se la chiave non esiste.
+ *
+ * Marcata `"use server"`: il KV namespace `CHAMPION_GUIDES` e' raggiungibile
+ * solo dal Worker, quindi qualunque chiamata client-side (es. SPA navigation
+ * sul Champion Hub) deve passare per RPC server-side. Senza la direttiva,
+ * `getRequestEvent()` ritorna undefined nel browser → la guida non viene
+ * trovata e l'utente vede "Guida non trovata" cliccando dall'hub.
  */
 export async function loadGuidesForSlug(
   lang: Locale,
   slug: string,
 ): Promise<ChampionGuide[]> {
+  'use server';
   const kv = resolveKv();
   if (kv) {
     const value = await kv.get<ChampionGuide[]>(key(lang, slug), 'json');
